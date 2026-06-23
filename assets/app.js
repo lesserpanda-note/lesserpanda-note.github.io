@@ -75,8 +75,39 @@ function renderNews(data) {
   draw();
 }
 
+function renderDigest(data) {
+  const section = document.getElementById("digest");
+  const body = document.getElementById("digest-body");
+  const highlights = (data && data.highlights) || [];
+  if (!data || (!data.summary && !highlights.length)) {
+    section.hidden = true; // hide until the routine produces a digest
+    return;
+  }
+  if (data.summary) body.appendChild(el("p", "digest-summary", escapeHTML(data.summary)));
+  if (highlights.length) {
+    const ul = el("ul", "digest-list");
+    for (const h of highlights) {
+      const li = el("li");
+      li.innerHTML =
+        `<span class="badge cat-${escapeHTML(h.category)}">${escapeHTML(h.category)}</span> ` +
+        `<a href="${escapeHTML(h.link)}" target="_blank" rel="noopener">${escapeHTML(h.title)}</a>` +
+        (h.note ? ` <span class="digest-note">— ${escapeHTML(h.note)}</span>` : "");
+      ul.appendChild(li);
+    }
+    body.appendChild(ul);
+  }
+  if (data.updated) {
+    document.getElementById("digest-updated").textContent =
+      "갱신: " + fmtDate(data.updated, KST_FULL) + " KST";
+  }
+}
+
 (async function init() {
-  const news = await loadJSON("data/news.json");
+  const [news, digest] = await Promise.all([
+    loadJSON("data/news.json"),
+    loadJSON("data/digest.json"),
+  ]);
+  renderDigest(digest);
   renderNews(news);
   if (news && news.updated) {
     document.getElementById("updated").textContent =

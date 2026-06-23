@@ -109,5 +109,14 @@ main {
 .cat-LLM { background: var(--llm); }
 .src { font-weight: 600; }
 
+/* digest */
+.digest-updated { color: var(--muted); font-size: 0.78rem; margin: -0.4rem 0 0.8rem; }
+.digest-summary { margin: 0 0 0.9rem; }
+.digest-list { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 0.5rem; }
+.digest-list li { font-size: 0.95rem; line-height: 1.5; }
+.digest-list a { text-decoration: none; }
+.digest-list a:hover { text-decoration: underline; }
+.digest-note { color: var(--muted); }
+
 .empty { color: var(--muted); }
 .site-footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 1.5rem; }

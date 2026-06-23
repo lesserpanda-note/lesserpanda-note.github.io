@@ -1,0 +1,42 @@
+{
+  "updated": "2026-06-24T00:00:00+00:00",
+  "summary": "Spring 진영은 Spring AI 2.0의 구조화 출력 자가교정과 Spring Boot 4.1(MongoDB 기반 Batch)로 LLM 연동 실무를 다듬는 중입니다. AI/에이전트 쪽은 동작하는 에이전트 앱 예제(CUGA)와 '프롬프트 인젝션 = 역할 혼동' 같은 보안 관점, 그리고 Import AI의 초설득·자기지속 AI 트렌드 정리가 눈에 띕니다.",
+  "highlights": [
+    {
+      "category": "Spring",
+      "title": "Self-Correcting Structured Output in Spring AI 2.0",
+      "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
+      "note": "LLM 구조화 출력 오류를 자동 교정 — 실무 신뢰성 향상"
+    },
+    {
+      "category": "Spring",
+      "title": "MongoDB-backed Spring Batch jobs in Spring Boot 4.1",
+      "link": "https://spring.io/blog/2026/06/21/spring-boot-41-and-spring-batch",
+      "note": "Spring Boot 4.1의 배치·MongoDB 연동 업데이트"
+    },
+    {
+      "category": "Java",
+      "title": "Better Tools for Immutable Data",
+      "link": "https://inside.java/2026/06/21/better-tools-immutable-data/",
+      "note": "불변 데이터 다루기 개선 — record 생태계 흐름"
+    },
+    {
+      "category": "Agents",
+      "title": "Prompt Injection as Role Confusion",
+      "link": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
+      "note": "프롬프트 인젝션을 '역할 혼동'으로 재해석 — 에이전트 보안 관점"
+    },
+    {
+      "category": "AI",
+      "title": "Build real agentic apps using CUGA",
+      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "note": "동작하는 에이전트 앱 예제 모음"
+    },
+    {
+      "category": "LLM",
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI",
+      "link": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+      "note": "주간 LLM 트렌드 다이제스트 — 초설득·자기지속 AI"
+    }
+  ]
+}
