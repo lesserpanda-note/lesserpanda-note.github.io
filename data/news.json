@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-23T15:39:31.542910+00:00",
-  "count": 49,
+  "updated": "2026-06-23T15:48:23.493761+00:00",
+  "count": 64,
   "items": [
     {
       "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
@@ -136,6 +136,15 @@
       "summary": "This week's Java roundup for June 15th, 2026, features news highlighting: point releases of Spring Tools, Helidon, JobRunr and Gradle; the June 2026 edition of Open Liberty; the first milestone release of Apache TomEE 1…",
       "ts": 1782134100,
       "published": "2026-06-22T13:15:00+00:00"
+    },
+    {
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+      "link": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+      "source": "Import AI",
+      "category": "LLM",
+      "summary": "How religious are beliefs in the singularity?",
+      "ts": 1782131505,
+      "published": "2026-06-22T12:31:45+00:00"
     },
     {
       "title": "Daybreak: Tools for securing every organization in the world",
@@ -336,6 +345,15 @@
       "published": "2026-06-18T00:00:00+00:00"
     },
     {
+      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+      "link": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+      "source": "Hacker News",
+      "category": "LLM",
+      "summary": "Article URL: https://openrouter.ai/blog/insights/royale-last-agent-standing/ Comments URL: https://news.ycombinator.com/item?id=48576824 Points: 272 # Comments: 210",
+      "ts": 1781730007,
+      "published": "2026-06-17T21:00:07+00:00"
+    },
+    {
       "title": "Java News Roundup: A2A Java SDK 1.0, Jakarta EE 12, JNoSQL, GraalVM, Micrometer, OpenXava, Gradle",
       "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun08-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
@@ -361,6 +379,15 @@
       "summary": "AWS Hero Vadym Kazulkin explains how to overcome Java’s enterprise hurdle on AWS Lambda: cold starts and memory footprints. He shares a technical deep dive into performance tuning, comparing fully managed AWS SnapStart…",
       "ts": 1781529120,
       "published": "2026-06-15T13:12:00+00:00"
+    },
+    {
+      "title": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
+      "link": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
+      "source": "Import AI",
+      "category": "LLM",
+      "summary": "Where are your agents right now?",
+      "ts": 1781523053,
+      "published": "2026-06-15T11:30:53+00:00"
     },
     {
       "title": "Spring Boot 4.1 Adds gRPC Auto-Configuration, SSRF Mitigation, and Kotlin 2.3 Support",
@@ -408,6 +435,15 @@
       "published": "2026-06-11T00:00:00+00:00"
     },
     {
+      "title": "Ollama's highest performance on Apple Silicon yet with MLX",
+      "link": "https://ollama.com/blog/mlx-performance",
+      "source": "Ollama",
+      "category": "LLM",
+      "summary": "Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.",
+      "ts": 1781136000,
+      "published": "2026-06-11T00:00:00+00:00"
+    },
+    {
       "title": "Exploiting GPU Tensor Cores from Java using Babylon",
       "link": "https://inside.java/2026/06/10/hat-tensors-computation/",
       "source": "Inside Java",
@@ -426,6 +462,15 @@
       "published": "2026-06-09T00:00:00+00:00"
     },
     {
+      "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
+      "link": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
+      "source": "Import AI",
+      "category": "LLM",
+      "summary": "When will markets price the singularity?",
+      "ts": 1780921892,
+      "published": "2026-06-08T12:31:32+00:00"
+    },
+    {
       "title": "Oracle Java Extension for Visual Studio Code Version 26.0.0 Is Now Available",
       "link": "https://inside.java/2026/06/08/java-vscode-extension-update/",
       "source": "Inside Java",
@@ -442,6 +487,96 @@
       "summary": "The Java programming language is evolving fast. In this talk, we’ll summarize many of the recent changes that have appeared as well as look ahead to directions and features that are in development and will appear in fut…",
       "ts": 1780790400,
       "published": "2026-06-07T00:00:00+00:00"
+    },
+    {
+      "title": "LLM Research Papers: The 2026 List (January to May)",
+      "link": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+      "source": "Ahead of AI",
+      "category": "LLM",
+      "summary": "A curated roundup of notable LLM research papers that came out this year",
+      "ts": 1780744582,
+      "published": "2026-06-06T11:16:22+00:00"
+    },
+    {
+      "title": "Improved performance and model support with GGUF",
+      "link": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
+      "source": "Ollama",
+      "category": "LLM",
+      "summary": "Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider range of hardware.",
+      "ts": 1780617600,
+      "published": "2026-06-05T00:00:00+00:00"
+    },
+    {
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "link": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
+      "category": "LLM",
+      "summary": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
+      "ts": 1780531200,
+      "published": "2026-06-04T00:00:00+00:00"
+    },
+    {
+      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
+      "link": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult",
+      "source": "Import AI",
+      "category": "LLM",
+      "summary": "Do you feel as though you are living in a revolution?",
+      "ts": 1780320716,
+      "published": "2026-06-01T13:31:56+00:00"
+    },
+    {
+      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
+      "link": "https://ollama.com/blog/openjarvis",
+      "source": "Ollama",
+      "category": "LLM",
+      "summary": "OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in.",
+      "ts": 1779926400,
+      "published": "2026-05-28T00:00:00+00:00"
+    },
+    {
+      "title": "Import AI 458: Reckoning with the future; and a singularity story",
+      "link": "https://importai.substack.com/p/import-ai-458-reckoning-with-the",
+      "source": "Import AI",
+      "category": "LLM",
+      "summary": "What AI-driven miracles will happen this year?",
+      "ts": 1779798723,
+      "published": "2026-05-26T12:32:03+00:00"
+    },
+    {
+      "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
+      "link": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
+      "source": "Import AI",
+      "category": "LLM",
+      "summary": "Welcome to Import AI, a newsletter about AI research.",
+      "ts": 1779111077,
+      "published": "2026-05-18T13:31:17+00:00"
+    },
+    {
+      "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
+      "link": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
+      "source": "Ahead of AI",
+      "category": "LLM",
+      "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
+      "ts": 1778931231,
+      "published": "2026-05-16T11:33:51+00:00"
+    },
+    {
+      "title": "Early Access Grok Build CLI",
+      "link": "https://x.ai/cli",
+      "source": "Hacker News",
+      "category": "LLM",
+      "summary": "Article URL: https://x.ai/cli Comments URL: https://news.ycombinator.com/item?id=48139299 Points: 33 # Comments: 1",
+      "ts": 1778783544,
+      "published": "2026-05-14T18:32:24+00:00"
+    },
+    {
+      "title": "Grok Build",
+      "link": "https://x.ai/news/grok-build-cli",
+      "source": "Hacker News",
+      "category": "LLM",
+      "summary": "Article URL: https://x.ai/news/grok-build-cli Comments URL: https://news.ycombinator.com/item?id=48139115 Points: 100 # Comments: 36",
+      "ts": 1778782675,
+      "published": "2026-05-14T18:17:55+00:00"
     }
   ]
 }

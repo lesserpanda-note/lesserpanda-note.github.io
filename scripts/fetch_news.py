@@ -33,6 +33,12 @@ FEEDS = [
     ("https://hnrss.org/newest?q=Claude+Code&points=20", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=AI+agents&points=50", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=context+engineering&points=10", "Hacker News", "Agents"),
+    # LLM / models — latest model & local-LLM trends (Grok, Llama, Ollama)
+    ("https://ollama.com/blog/rss.xml", "Ollama", "LLM"),
+    ("https://magazine.sebastianraschka.com/feed", "Ahead of AI", "LLM"),
+    ("https://importai.substack.com/feed", "Import AI", "LLM"),
+    ("https://hnrss.org/newest?q=Grok&points=30", "Hacker News", "LLM"),
+    ("https://hnrss.org/newest?q=Llama&points=30", "Hacker News", "LLM"),
 ]
 
 USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"

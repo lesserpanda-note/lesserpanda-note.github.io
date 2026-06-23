@@ -9,6 +9,7 @@
   --spring: #6db33f;
   --ai: #7c3aed;
   --agents: #0d9488;
+  --llm: #db2777;
   --radius: 12px;
   --max: 880px;
 }
@@ -105,6 +106,7 @@ main {
 .cat-Spring { background: var(--spring); }
 .cat-AI { background: var(--ai); }
 .cat-Agents { background: var(--agents); }
+.cat-LLM { background: var(--llm); }
 .src { font-weight: 600; }
 
 .empty { color: var(--muted); }
