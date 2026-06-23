@@ -105,37 +105,5 @@ main {
 .cat-AI { background: var(--ai); }
 .src { font-weight: 600; }
 
-/* notes */
-.notes { display: grid; gap: 0.6rem; }
-.note {
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  padding: 0.2rem 0.9rem;
-}
-.note > summary {
-  cursor: pointer;
-  padding: 0.6rem 0;
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: baseline;
-  flex-wrap: wrap;
-  list-style: none;
-}
-.note > summary::-webkit-details-marker { display: none; }
-.note-title { font-weight: 600; }
-.note-meta { color: var(--muted); font-size: 0.8rem; }
-.tag { color: var(--accent); }
-.note-body { padding: 0.2rem 0 1rem; border-top: 1px solid var(--border); margin-top: 0.2rem; }
-.note-body :first-child { margin-top: 0.6rem; }
-.note-body pre {
-  background: rgba(127, 127, 127, 0.12);
-  padding: 0.8rem;
-  border-radius: 8px;
-  overflow: auto;
-}
-.note-body code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.88em; }
-.note-body pre code { background: none; }
-
 .empty { color: var(--muted); }
 .site-footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 1.5rem; }

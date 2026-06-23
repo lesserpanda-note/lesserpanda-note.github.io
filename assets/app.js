@@ -33,26 +33,6 @@ function el(tag, cls, html) {
   return node;
 }
 
-function renderNotes(data) {
-  const wrap = document.getElementById("notes");
-  const items = (data && data.items) || [];
-  if (!items.length) {
-    wrap.appendChild(el("p", "empty", "아직 작성한 인사이트가 없습니다. <code>notes/</code>에 마크다운을 추가하세요."));
-    return;
-  }
-  for (const n of items) {
-    const det = el("details", "note");
-    const tags = (n.tags || []).map((t) => `<span class="tag">#${escapeHTML(t)}</span>`).join(" ");
-    const summary = el("summary");
-    summary.innerHTML =
-      `<span class="note-title">${escapeHTML(n.title)}</span>` +
-      `<span class="note-meta">${escapeHTML(n.date)} ${tags}</span>`;
-    det.appendChild(summary);
-    det.appendChild(el("div", "note-body", n.html || ""));
-    wrap.appendChild(det);
-  }
-}
-
 function renderNews(data) {
   const list = document.getElementById("news-list");
   const filterBar = document.getElementById("filters");
@@ -96,11 +76,7 @@ function renderNews(data) {
 }
 
 (async function init() {
-  const [news, notes] = await Promise.all([
-    loadJSON("data/news.json"),
-    loadJSON("data/notes.json"),
-  ]);
-  renderNotes(notes);
+  const news = await loadJSON("data/news.json");
   renderNews(news);
   if (news && news.updated) {
     document.getElementById("updated").textContent =
