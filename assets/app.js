@@ -33,6 +33,60 @@ function el(tag, cls, html) {
   return node;
 }
 
+// One digest highlight: category badge + title (links to the article) + summary.
+function digestItem(h) {
+  const text = h.summary || h.note || "";
+  const li = el("li", "digest-item");
+  li.innerHTML =
+    `<div class="digest-head">` +
+    `<span class="badge cat-${escapeHTML(h.category)}">${escapeHTML(h.category)}</span> ` +
+    `<a href="${escapeHTML(h.link)}" target="_blank" rel="noopener">${escapeHTML(h.title)}</a>` +
+    `</div>` +
+    (text ? `<p class="digest-item-summary">${escapeHTML(text)}</p>` : "");
+  return li;
+}
+
+function digestList(highlights) {
+  const ul = el("ul", "digest-list");
+  for (const h of highlights || []) ul.appendChild(digestItem(h));
+  return ul;
+}
+
+function renderDigest(data) {
+  const section = document.getElementById("digest");
+  const body = document.getElementById("digest-body");
+  const highlights = (data && data.highlights) || [];
+  if (!data || (!data.summary && !highlights.length)) {
+    section.hidden = true; // hide until a digest exists
+    return;
+  }
+  if (data.summary) body.appendChild(el("p", "digest-summary", escapeHTML(data.summary)));
+  if (highlights.length) body.appendChild(digestList(highlights));
+  if (data.updated) {
+    document.getElementById("digest-updated").textContent =
+      "갱신: " + fmtDate(data.updated, KST_FULL) + " KST";
+  }
+}
+
+function renderArchive(data) {
+  const wrap = document.getElementById("archive-list");
+  const digests = (data && data.digests) || [];
+  if (!digests.length) {
+    wrap.appendChild(el("p", "empty", "아직 보관된 다이제스트가 없습니다. 매일 갱신되면 이전 다이제스트가 여기 쌓입니다."));
+    return;
+  }
+  for (const d of digests) {
+    const det = el("details", "archive-item");
+    const summary = el("summary");
+    summary.innerHTML =
+      `<span class="archive-date">${escapeHTML(d.date || "")}</span>` +
+      (d.summary ? ` <span class="archive-summary">${escapeHTML(d.summary)}</span>` : "");
+    det.appendChild(summary);
+    det.appendChild(digestList(d.highlights));
+    wrap.appendChild(det);
+  }
+}
+
 function renderNews(data) {
   const list = document.getElementById("news-list");
   const filterBar = document.getElementById("filters");
@@ -75,40 +129,15 @@ function renderNews(data) {
   draw();
 }
 
-function renderDigest(data) {
-  const section = document.getElementById("digest");
-  const body = document.getElementById("digest-body");
-  const highlights = (data && data.highlights) || [];
-  if (!data || (!data.summary && !highlights.length)) {
-    section.hidden = true; // hide until the routine produces a digest
-    return;
-  }
-  if (data.summary) body.appendChild(el("p", "digest-summary", escapeHTML(data.summary)));
-  if (highlights.length) {
-    const ul = el("ul", "digest-list");
-    for (const h of highlights) {
-      const li = el("li");
-      li.innerHTML =
-        `<span class="badge cat-${escapeHTML(h.category)}">${escapeHTML(h.category)}</span> ` +
-        `<a href="${escapeHTML(h.link)}" target="_blank" rel="noopener">${escapeHTML(h.title)}</a>` +
-        (h.note ? ` <span class="digest-note">— ${escapeHTML(h.note)}</span>` : "");
-      ul.appendChild(li);
-    }
-    body.appendChild(ul);
-  }
-  if (data.updated) {
-    document.getElementById("digest-updated").textContent =
-      "갱신: " + fmtDate(data.updated, KST_FULL) + " KST";
-  }
-}
-
 (async function init() {
-  const [news, digest] = await Promise.all([
+  const [news, digest, archive] = await Promise.all([
     loadJSON("data/news.json"),
     loadJSON("data/digest.json"),
+    loadJSON("data/archive.json"),
   ]);
   renderDigest(digest);
   renderNews(news);
+  renderArchive(archive);
   if (news && news.updated) {
     document.getElementById("updated").textContent =
       "뉴스 갱신: " + fmtDate(news.updated, KST_FULL) + " KST";

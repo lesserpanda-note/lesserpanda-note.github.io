@@ -1,42 +1,66 @@
 {
   "updated": "2026-06-24T00:00:00+00:00",
-  "summary": "Spring 진영은 Spring AI 2.0의 구조화 출력 자가교정과 Spring Boot 4.1(MongoDB 기반 Batch)로 LLM 연동 실무를 다듬는 중입니다. AI/에이전트 쪽은 동작하는 에이전트 앱 예제(CUGA)와 '프롬프트 인젝션 = 역할 혼동' 같은 보안 관점, 그리고 Import AI의 초설득·자기지속 AI 트렌드 정리가 눈에 띕니다.",
+  "summary": "Spring 진영은 Spring AI 2.0의 구조화 출력 자가교정과 Spring Boot 4.1로 LLM 연동 실무를 다듬고 있습니다. AI·에이전트 쪽은 경량 하네스 기반 에이전트 앱과 Claude Code·Grok 등 모델별 에이전트 비교가 화제이며, Java는 불변 데이터 도구 개선이 눈에 띕니다.",
   "highlights": [
     {
-      "category": "Spring",
-      "title": "Self-Correcting Structured Output in Spring AI 2.0",
-      "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
-      "note": "LLM 구조화 출력 오류를 자동 교정 — 실무 신뢰성 향상"
-    },
-    {
-      "category": "Spring",
-      "title": "MongoDB-backed Spring Batch jobs in Spring Boot 4.1",
-      "link": "https://spring.io/blog/2026/06/21/spring-boot-41-and-spring-batch",
-      "note": "Spring Boot 4.1의 배치·MongoDB 연동 업데이트"
+      "category": "Java",
+      "title": "Java News Roundup: Spring Tools, Helidon, Open Liberty, TomEE, JobRunr, Hibernate, Commonhaus",
+      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun15-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "InfoQ의 6월 15일 주간 Java 소식 모음입니다. Spring Tools·Helidon·JobRunr·Gradle의 포인트 릴리스와 Open Liberty 6월판 등 생태계 전반의 업데이트를 정리했습니다."
     },
     {
       "category": "Java",
       "title": "Better Tools for Immutable Data",
       "link": "https://inside.java/2026/06/21/better-tools-immutable-data/",
-      "note": "불변 데이터 다루기 개선 — record 생태계 흐름"
+      "summary": "불변 데이터를 다루기 위한 Java의 신규·예정 기능을 소개하는 세션입니다. 신뢰성과 성능을 높이면서 JVM 최적화를 가능하게 하는 방향을 설명합니다."
+    },
+    {
+      "category": "Spring",
+      "title": "Self-Correcting Structured Output in Spring AI 2.0",
+      "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
+      "summary": "Spring AI 2.0이 LLM의 구조화 출력 오류를 자동으로 교정하는 기능을 다룹니다. 자연어 기반 LLM 출력을 소프트웨어가 다루기 좋은 구조로 안정적으로 변환하는 접근입니다."
+    },
+    {
+      "category": "Spring",
+      "title": "This Week in Spring - June 23rd, 2026",
+      "link": "https://spring.io/blog/2026/06/23/this-week-in-spring-june-23-2026",
+      "summary": "주간 Spring 소식 모음입니다. 최근 Spring Boot 4.1 출시 직후의 업데이트와 다양한 읽을거리를 정리했습니다."
+    },
+    {
+      "category": "AI",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "summary": "IBM Research가 경량 하네스 위에서 동작하는 에이전트 앱 예제 24종(CUGA)을 공개했습니다. 실제로 작동하는 에이전트 구현 사례 모음입니다."
+    },
+    {
+      "category": "AI",
+      "title": "The $400 million machine powering the future of chipmaking",
+      "link": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+      "summary": "차세대 반도체 제조의 핵심인 ASML의 4억 달러짜리 노광 장비를 다룬 MIT Tech Review 기사입니다. AI 칩 공급망의 근간이 되는 하드웨어를 조명합니다."
+    },
+    {
+      "category": "Agents",
+      "title": "Ask HN: Anthropic banned me from using Claude Code and I don't know what to do",
+      "link": "https://news.ycombinator.com/item?id=48641160",
+      "summary": "한 사용자가 VPN 사용 중 Claude Code를 쓰다 약 1시간 만에 계정이 차단된 사례를 Hacker News에 올렸습니다. 환불은 받았지만 원인과 대응을 두고 토론이 이어집니다."
     },
     {
       "category": "Agents",
       "title": "Prompt Injection as Role Confusion",
       "link": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
-      "note": "프롬프트 인젝션을 '역할 혼동'으로 재해석 — 에이전트 보안 관점"
-    },
-    {
-      "category": "AI",
-      "title": "Build real agentic apps using CUGA",
-      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "note": "동작하는 에이전트 앱 예제 모음"
+      "summary": "Simon Willison이 프롬프트 인젝션을 '역할 혼동(role confusion)' 관점으로 재해석한 글입니다. 에이전트가 신뢰 경계를 어떻게 잃는지를 짚는 보안 논의입니다."
     },
     {
       "category": "LLM",
-      "title": "Import AI 462: Superpersuasion; self-sustaining AI",
+      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
       "link": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
-      "note": "주간 LLM 트렌드 다이제스트 — 초설득·자기지속 AI"
+      "summary": "Jack Clark의 Import AI 462호입니다. 초설득(superpersuasion), 자기지속 AI, ASI로 가는 경로 등 최신 LLM 트렌드를 정리합니다."
+    },
+    {
+      "category": "LLM",
+      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+      "link": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+      "summary": "OpenRouter가 여러 에이전트를 겨루게 한 'last agent standing' 실험을 소개합니다. Claude·Grok 등 모델별 에이전트 성능을 흥미롭게 비교하며 HN에서 272포인트를 받았습니다."
     }
   ]
 }

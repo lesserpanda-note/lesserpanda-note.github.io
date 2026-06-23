@@ -43,12 +43,37 @@ a { color: var(--accent); }
 .tagline { color: var(--muted); margin: 0.3rem 0 0; }
 .updated { color: var(--muted); font-size: 0.8rem; margin: 0.4rem 0 0; }
 
-main {
-  max-width: var(--max);
+.layout {
+  max-width: 1040px;
   margin: 0 auto;
   padding: 0 1rem 3rem;
+  display: flex;
+  gap: 1.4rem;
+  align-items: flex-start;
+}
+.sidebar { position: sticky; top: 1rem; flex: 0 0 160px; }
+.sidebar nav { display: flex; flex-direction: column; gap: 0.3rem; }
+.sidebar a {
+  display: block;
+  padding: 0.5rem 0.7rem;
+  border-radius: 8px;
+  color: var(--fg);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+.sidebar a:hover { background: var(--panel); }
+
+main {
+  flex: 1 1 auto;
+  min-width: 0;
   display: grid;
   gap: 1.6rem;
+}
+
+@media (max-width: 720px) {
+  .layout { flex-direction: column; }
+  .sidebar { position: static; flex: none; width: 100%; }
+  .sidebar nav { flex-direction: row; flex-wrap: wrap; }
 }
 
 .panel {
@@ -111,12 +136,22 @@ main {
 
 /* digest */
 .digest-updated { color: var(--muted); font-size: 0.78rem; margin: -0.4rem 0 0.8rem; }
-.digest-summary { margin: 0 0 0.9rem; }
-.digest-list { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 0.5rem; }
-.digest-list li { font-size: 0.95rem; line-height: 1.5; }
-.digest-list a { text-decoration: none; }
-.digest-list a:hover { text-decoration: underline; }
-.digest-note { color: var(--muted); }
+.digest-summary { margin: 0 0 1rem; font-weight: 500; }
+.digest-list { margin: 0; padding-left: 0; list-style: none; display: grid; gap: 0.9rem; }
+.digest-item { border-left: 3px solid var(--border); padding-left: 0.8rem; }
+.digest-head { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+.digest-head a { text-decoration: none; font-weight: 600; font-size: 0.98rem; }
+.digest-head a:hover { text-decoration: underline; }
+.digest-item-summary { margin: 0.3rem 0 0; color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
+
+/* archive */
+.archive { display: grid; gap: 0.5rem; }
+.archive-item { border: 1px solid var(--border); border-radius: 10px; padding: 0.2rem 0.9rem; }
+.archive-item > summary { cursor: pointer; padding: 0.6rem 0; list-style: none; }
+.archive-item > summary::-webkit-details-marker { display: none; }
+.archive-date { font-weight: 600; }
+.archive-summary { color: var(--muted); font-size: 0.85rem; }
+.archive-item .digest-list { margin-top: 0.4rem; padding-top: 0.6rem; border-top: 1px solid var(--border); }
 
 .empty { color: var(--muted); }
 .site-footer { text-align: center; color: var(--muted); font-size: 0.8rem; padding: 1.5rem; }

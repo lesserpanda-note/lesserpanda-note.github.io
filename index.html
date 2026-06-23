@@ -4,35 +4,50 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>lesserpanda-note · Java · Spring · AI</title>
-  <meta name="description" content="Java, Spring Boot, AI 최신 뉴스" />
+  <meta name="description" content="Java, Spring Boot, AI 최신 뉴스와 매일 다이제스트" />
   <link rel="stylesheet" href="assets/style.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐼</text></svg>" />
 </head>
 <body>
   <header class="site-header">
     <h1>🐼 lesserpanda-note</h1>
-    <p class="tagline">Java · Spring Boot · AI — 최신 뉴스</p>
+    <p class="tagline">Java · Spring Boot · AI — 최신 뉴스 &amp; 데일리 다이제스트</p>
     <p class="updated" id="updated"></p>
   </header>
 
-  <main>
-    <section id="digest" class="panel">
-      <h2>🧭 오늘의 다이제스트</h2>
-      <p class="digest-updated" id="digest-updated"></p>
-      <div id="digest-body"></div>
-    </section>
+  <div class="layout">
+    <aside class="sidebar">
+      <nav>
+        <a href="#digest">🧭 오늘 다이제스트</a>
+        <a href="#news">📰 뉴스</a>
+        <a href="#archive">🗂️ 아카이브</a>
+      </nav>
+    </aside>
 
-    <section id="news" class="panel">
-      <div class="panel-head">
-        <h2>📰 최신 뉴스</h2>
-        <div class="filters" id="filters"></div>
-      </div>
-      <div id="news-list" class="news-grid"></div>
-    </section>
-  </main>
+    <main>
+      <section id="digest" class="panel">
+        <h2>🧭 오늘 다이제스트</h2>
+        <p class="digest-updated" id="digest-updated"></p>
+        <div id="digest-body"></div>
+      </section>
+
+      <section id="news" class="panel">
+        <div class="panel-head">
+          <h2>📰 최신 뉴스</h2>
+          <div class="filters" id="filters"></div>
+        </div>
+        <div id="news-list" class="news-grid"></div>
+      </section>
+
+      <section id="archive" class="panel">
+        <h2>🗂️ 아카이브</h2>
+        <div id="archive-list" class="archive"></div>
+      </section>
+    </main>
+  </div>
 
   <footer class="site-footer">
-    <p>RSS 자동 수집 · 6시간마다 갱신 ·
+    <p>RSS 자동 수집 · 6시간마다 갱신 · 다이제스트 매일 09:00 KST ·
       <a href="https://github.com/lesserpanda-note/lesserpanda-note.github.io">GitHub</a>
     </p>
   </footer>
