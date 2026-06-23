@@ -35,14 +35,22 @@ function el(tag, cls, html) {
 
 // One digest highlight: category badge + title (links to the article) + summary.
 function digestItem(h) {
-  const text = h.summary || h.note || "";
+  const short = h.summary || h.note || "";
   const li = el("li", "digest-item");
-  li.innerHTML =
+  let html =
     `<div class="digest-head">` +
     `<span class="badge cat-${escapeHTML(h.category)}">${escapeHTML(h.category)}</span> ` +
     `<a href="${escapeHTML(h.link)}" target="_blank" rel="noopener">${escapeHTML(h.title)}</a>` +
-    `</div>` +
-    (text ? `<p class="digest-item-summary">${escapeHTML(text)}</p>` : "");
+    `</div>`;
+  if (short) html += `<p class="digest-item-summary">${escapeHTML(short)}</p>`;
+  if (h.detail) {
+    html +=
+      `<details class="digest-detail">` +
+      `<summary>자세히</summary>` +
+      `<div class="digest-detail-body">${escapeHTML(h.detail)}</div>` +
+      `</details>`;
+  }
+  li.innerHTML = html;
   return li;
 }
 
