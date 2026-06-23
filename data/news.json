@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-23T14:40:48.450143+00:00",
-  "count": 34,
+  "updated": "2026-06-23T15:39:31.542910+00:00",
+  "count": 49,
   "items": [
     {
       "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
@@ -19,6 +19,24 @@
       "summary": "Jos Benschop is climbing a ladder to get to the top of his newest machine. It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in t…",
       "ts": 1782205200,
       "published": "2026-06-23T09:00:00+00:00"
+    },
+    {
+      "title": "Ask HN: Anthropic banned me from using Claude Code and I don't know what to do",
+      "link": "https://news.ycombinator.com/item?id=48641160",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "After using Claude Code at work for months I wanted to use it on my own projects too. Most probably because my vpn was on I got banned after 1 hour of usage. I got my 120$ back. 1 month later I signed up with vpn off. B…",
+      "ts": 1782196432,
+      "published": "2026-06-23T06:33:52+00:00"
+    },
+    {
+      "title": "[AINews] SpaceX is already a $28B/yr Neocloud",
+      "link": "https://www.latent.space/p/ainews-spacex-is-already-a-28byr",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day lets us reflect on some numbers from Jamin Ball.",
+      "ts": 1782195589,
+      "published": "2026-06-23T06:19:49+00:00"
     },
     {
       "title": "Self-Correcting Structured Output in Spring AI 2.0",
@@ -57,6 +75,33 @@
       "published": "2026-06-23T00:00:00+00:00"
     },
     {
+      "title": "Prompt Injection as Role Confusion",
+      "link": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Prompt Injection as Role Confusion First, I absolutely love this: This is a blog-style writeup of the paper. I wish every paper would come with one of these. Academic writing is pretty dry - the impact of a paper can be…",
+      "ts": 1782172793,
+      "published": "2026-06-22T23:59:53+00:00"
+    },
+    {
+      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+      "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model - a model where you can mark regions of an image to r…",
+      "ts": 1782171831,
+      "published": "2026-06-22T23:43:51+00:00"
+    },
+    {
+      "title": "Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan",
+      "link": "https://www.latent.space/p/gray-swan",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "OpenAI boardmember Zico Kolter and Gray Swan CEO Matt Fredrikson join swyx to explain why AI security is not just “cybersecurity with AI”",
+      "ts": 1782162415,
+      "published": "2026-06-22T21:06:55+00:00"
+    },
+    {
       "title": "Three things to watch amid Anthropic’s latest feud with the government",
       "link": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
       "source": "MIT Tech Review",
@@ -64,6 +109,15 @@
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the…",
       "ts": 1782151200,
       "published": "2026-06-22T18:00:00+00:00"
+    },
+    {
+      "title": "The text in Claude Code’s “Extended Thinking” output",
+      "link": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/ Comments URL: https://news.ycombinator.com/item?id=48630535 Points: 316 # Comments: 215",
+      "ts": 1782138166,
+      "published": "2026-06-22T14:22:46+00:00"
     },
     {
       "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
@@ -120,6 +174,24 @@
       "published": "2026-06-22T00:00:00+00:00"
     },
     {
+      "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+      "link": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package , including support for compl…",
+      "ts": 1782084947,
+      "published": "2026-06-21T23:35:47+00:00"
+    },
+    {
+      "title": "sqlite-utils 4.0rc1",
+      "link": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: sqlite-utils 4.0rc1 See sqlite-utils 4.0rc1 adds migrations and nested transactions . Tags: sqlite-utils",
+      "ts": 1782084604,
+      "published": "2026-06-21T23:30:04+00:00"
+    },
+    {
       "title": "Samsung Electronics brings ChatGPT and Codex to employees",
       "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
       "source": "OpenAI",
@@ -127,6 +199,33 @@
       "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
       "ts": 1782082800,
       "published": "2026-06-21T23:00:00+00:00"
+    },
+    {
+      "title": "Temporary Cloudflare Accounts for AI agents",
+      "link": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Temporary Cloudflare Accounts for AI agents The announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well…",
+      "ts": 1782079264,
+      "published": "2026-06-21T22:01:04+00:00"
+    },
+    {
+      "title": "Show HN: Recall – Local project memory for Claude Code",
+      "link": "https://github.com/raiyanyahya/recall",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/raiyanyahya/recall Comments URL: https://news.ycombinator.com/item?id=48622590 Points: 134 # Comments: 83",
+      "ts": 1782075937,
+      "published": "2026-06-21T21:05:37+00:00"
+    },
+    {
+      "title": "[Exclusive] $250 off AI Engineer tix til Monday",
+      "link": "https://www.latent.space/p/exclusive-250-off-ai-engineer-tix",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "special offer for subscribers - $250 off AI Engineer tix til Monday",
+      "ts": 1782054083,
+      "published": "2026-06-21T15:01:23+00:00"
     },
     {
       "title": "Better Tools for Immutable Data",
@@ -145,6 +244,42 @@
       "summary": "Spring Batch was introduced many years before MongoDB existed, and its design assumed the presence of a SQL database in which to store the state of Spring Batch jobs. But that was decades ago, and a common question for…",
       "ts": 1782000000,
       "published": "2026-06-21T00:00:00+00:00"
+    },
+    {
+      "title": "Show HN: Pulse – Dashboard for Claude Code, approve tool calls from your phone",
+      "link": "https://github.com/nikitadoudikov/claude-pulse",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Hi everyone, I'm a student from Flanders and I like to use Claude Code for my purposes, ideas and also just for fun and also make solutions for problems in our world!) So that's why I built \"Pulse\", it's an local applic…",
+      "ts": 1781988410,
+      "published": "2026-06-20T20:46:50+00:00"
+    },
+    {
+      "title": "Temporary Cloudflare accounts for AI agents",
+      "link": "https://blog.cloudflare.com/temporary-accounts/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://blog.cloudflare.com/temporary-accounts/ Comments URL: https://news.ycombinator.com/item?id=48608394 Points: 245 # Comments: 148",
+      "ts": 1781954345,
+      "published": "2026-06-20T11:19:05+00:00"
+    },
+    {
+      "title": "[AINews] not much happened today",
+      "link": "https://www.latent.space/p/ainews-not-much-happened-today-e7b",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day lets us promo AIE one last time",
+      "ts": 1781942765,
+      "published": "2026-06-20T08:06:05+00:00"
+    },
+    {
+      "title": "Quoting Sean Lynch",
+      "link": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...] Maybe the idealized form of MCP is just an a…",
+      "ts": 1781909149,
+      "published": "2026-06-19T22:45:49+00:00"
     },
     {
       "title": "Behind the Scenes: Block 450 JVM Repositories into Monorepo to Reduce Dependency Drift",

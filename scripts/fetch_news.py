@@ -27,6 +27,12 @@ FEEDS = [
     ("https://huggingface.co/blog/feed.xml", "Hugging Face", "AI"),
     ("https://www.technologyreview.com/topic/artificial-intelligence/feed", "MIT Tech Review", "AI"),
     ("https://openai.com/blog/rss.xml", "OpenAI", "AI"),
+    # Agents — Claude Code, agent / harness / context engineering
+    ("https://simonwillison.net/atom/everything/", "Simon Willison", "Agents"),
+    ("https://www.latent.space/feed", "Latent Space", "Agents"),
+    ("https://hnrss.org/newest?q=Claude+Code&points=20", "Hacker News", "Agents"),
+    ("https://hnrss.org/newest?q=AI+agents&points=50", "Hacker News", "Agents"),
+    ("https://hnrss.org/newest?q=context+engineering&points=10", "Hacker News", "Agents"),
 ]
 
 USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"

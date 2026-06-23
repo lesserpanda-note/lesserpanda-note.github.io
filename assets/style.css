@@ -8,6 +8,7 @@
   --java: #e76f00;
   --spring: #6db33f;
   --ai: #7c3aed;
+  --agents: #0d9488;
   --radius: 12px;
   --max: 880px;
 }
@@ -103,6 +104,7 @@ main {
 .cat-Java { background: var(--java); }
 .cat-Spring { background: var(--spring); }
 .cat-AI { background: var(--ai); }
+.cat-Agents { background: var(--agents); }
 .src { font-weight: 600; }
 
 .empty { color: var(--muted); }

@@ -22,6 +22,7 @@ scripts/fetch_news.py   RSS → data/news.json
 - **Java**: Inside Java, InfoQ Java
 - **Spring**: Spring Blog (Spring Boot 릴리스 포함)
 - **AI**: Google AI, Hugging Face, MIT Tech Review, OpenAI
+- **Agents**: Simon Willison, Latent Space, Hacker News (Claude Code / 에이전트·컨텍스트 엔지니어링)
 
 피드를 추가/제거하려면 `FEEDS` 리스트에 `(url, 출처명, 카테고리)` 항목을 넣으면 된다.
 
