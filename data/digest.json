@@ -1,76 +1,76 @@
 {
-  "updated": "2026-06-24T00:00:00+00:00",
-  "summary": "Spring AI 2.0의 구조화 출력 자동 교정과 Java 불변 데이터 도구가 백엔드의 LLM 연동 실무를 다듬고 있습니다. AI·에이전트 쪽은 IBM의 경량 하네스 CUGA, 프롬프트 인젝션을 '역할 혼동'으로 본 보안 논의, 그리고 Grok이 비용 대비 압도한 LLM 배틀로얄 실험이 화제입니다.",
+  "updated": "2026-06-23T16:56:28+00:00",
+  "summary": "오늘 다이제스트에는 AI가 기업·정책 영역으로 빠르게 침투하는 소식이 두드러집니다. OpenAI는 Daybreak 보안 도구를 발표하고 삼성전자와의 초대형 기업 도입을 알렸으며, Anthropic은 미국 정부와의 갈등으로 정책 이슈가 불거졌습니다. 개발 생태계에서는 Spring Boot 4.1의 MongoDB Spring Batch 지원, Claude Code 확장 사고 출력의 진위 논쟁, Cloudflare의 AI 에이전트용 임시 계정 기능, 그리고 Claude Code 로컬 메모리 도구 Recall이 큰 주목을 받고 있습니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "Java News Roundup: Spring Tools, Helidon, Open Liberty, TomEE, JobRunr, Hibernate, Commonhaus",
-      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun15-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "6월 15일 주간 Java 생태계 소식 모음으로, 여러 프로젝트의 포인트 릴리스가 중심입니다.",
-      "detail": "InfoQ가 6월 15일 한 주간의 Java 생태계 소식을 정리한 라운드업입니다.\n- Spring Tools, Helidon, JobRunr, Gradle의 포인트 릴리스가 발표되었습니다.\n- Open Liberty의 2026년 6월 에디션이 공개되었습니다.\n- TomEE, Hibernate, Commonhaus 등 주요 프로젝트의 업데이트도 함께 다룹니다.\n대형 신규 기능보다는 안정화·유지보수 성격의 릴리스가 모인 한 주입니다."
-    },
-    {
-      "category": "Java",
-      "title": "Better Tools for Immutable Data",
-      "link": "https://inside.java/2026/06/21/better-tools-immutable-data/",
-      "summary": "불변 데이터를 다루는 Java의 신규·예정 기능을 폭넓게 소개하는 세션입니다.",
-      "detail": "Java가 불변 데이터를 더 잘 다루기 위해 도입했거나 준비 중인 기능들을 폭넓게 소개합니다.\n- records와 record pattern, 파생 record 생성으로 간결한 데이터 클래스를 작성합니다.\n- value class/object로 메모리 효율을 높입니다.\n- 유연한 생성자 본문으로 필드를 이른 시점에 초기화합니다.\n- Lazy Constants API로 지연 상수 초기화를 지원합니다.\n- static final 필드 초기화 진단과 marshalling API로 안전성을 강화하며, 향후 불변 배열 지원도 검토 중입니다.\n이 기능들은 JVM 최적화를 가능하게 하면서 신뢰성과 편의성을 함께 끌어올립니다."
-    },
-    {
-      "category": "Spring",
-      "title": "Self-Correcting Structured Output in Spring AI 2.0",
-      "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
-      "summary": "Spring AI 2.0이 LLM의 구조화 출력 오류를 검증 후 프롬프트에 덧붙여 최대 3회까지 자동 교정합니다.",
-      "detail": "Spring AI 2.0이 LLM 응답을 타입화된 Java 객체로 안정적으로 변환하는 방법을 다룹니다.\n- ChatClient의 entity() 호출로 JSON 스키마를 자동 생성·파싱해 타입화된 결과를 받습니다.\n- validateSchema()는 검증 오류를 사용자 프롬프트에 덧붙여 최대 3회까지 자동 재요청합니다.\n- useProviderStructuredOutput()은 OpenAI·Anthropic·Google·Mistral의 API 레벨 스키마 강제를 사용하고, 시스템 프롬프트의 JSON 지시를 제거해 토큰을 아낍니다.\n- 두 기능을 조합해 요청 제약과 응답 재검증의 다층 안전장치를 만듭니다.\n- List·Map 같은 제네릭은 ParameterizedTypeReference로, 비JSON 형식은 커스텀 컨버터로 대응합니다."
-    },
-    {
-      "category": "Spring",
-      "title": "This Week in Spring - June 23rd, 2026",
-      "link": "https://spring.io/blog/2026/06/23/this-week-in-spring-june-23-2026",
-      "summary": "Spring Boot 4.1 출시 직후의 업데이트와 읽을거리를 모은 주간 Spring 소식입니다.",
-      "detail": "Spring 팀이 매주 연재하는 'This Week in Spring'의 6월 23일자입니다.\n- 최근 출시된 Spring Boot 4.1 관련 후속 소식과 업데이트를 다룹니다.\n- Spring 생태계 전반의 블로그 글·릴리스·발표를 큐레이션해 소개합니다.\n단일 대형 발표라기보다 한 주간의 Spring 소식을 폭넓게 모은 글입니다."
-    },
-    {
-      "category": "AI",
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "summary": "IBM이 에이전트 구축의 반복 작업을 줄여주는 오픈소스 하네스 CUGA와 단일 파일 예제 앱 24종을 공개했습니다.",
-      "detail": "IBM Research가 에이전트 구축의 반복 작업을 줄여주는 오픈소스 하네스 CUGA와 예제 모음을 공개했습니다.\n- 모델 클라이언트·도구 어댑터·상태 관리를 미리 구성해, 개발자는 도구 목록과 프롬프트만 작성하면 됩니다.\n- 장기 작업에서 중간 결과를 추적하고 반영 단계로 잘못된 계획을 수정하며, '빠름/균형/정확함' 추론 모드를 고를 수 있습니다.\n- MCP 서버의 범용 도구와 앱별 인라인 함수를 조합하고, 모든 도구는 표준 응답 형식을 따릅니다.\n- cuga-apps는 영화 추천·클라우드 자문·리드 생성 등 24개 단일 파일 앱을 학습·복제용 템플릿으로 제공합니다.\n- Intent Guard·Tool Approval·Playbook 등 6가지 정책의 거버넌스와 다중 에이전트 확장, IBM Sovereign Core 배포까지 지원합니다."
-    },
-    {
-      "category": "AI",
-      "title": "The $400 million machine powering the future of chipmaking",
-      "link": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
-      "summary": "차세대 반도체 제조의 핵심인 ASML의 4억 달러짜리 노광 장비를 다룬 MIT Tech Review 기사입니다.",
-      "detail": "MIT Technology Review가 ASML의 최신 노광 장비를 취재한 기사입니다.\n- 이 장비는 4억 달러에 달하며, 무게가 150톤이 넘고 2층 버스 크기에 비유되는 거대 설비로 소개됩니다.\n- 차세대 칩 제조의 핵심 장비로, AI 반도체 공급망의 근간이 되는 하드웨어를 조명합니다.\n원문은 일부 유료 구간이 있어 공개된 도입부를 기준으로 요약했습니다."
+      "category": "Agents",
+      "title": "The text in Claude Code's “Extended Thinking” output",
+      "link": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "summary": "Claude Code의 '확장 사고(Extended Thinking)' 출력이 실제 모델 추론 과정을 반영하지 않는다는 주장으로 HN에서 316점을 기록했습니다.",
+      "detail": "Patrick McCanna의 블로그 글이 Hacker News에서 316점(댓글 215개)을 얻으며 큰 화제가 되었습니다.\n- 제목 그대로 Claude Code가 사용자에게 보여주는 '확장 사고' 텍스트가 모델의 실제 내부 추론 과정이 아닐 수 있다는 점을 주장합니다.\n- AI의 사고 투명성과 신뢰 문제에 관한 커뮤니티 토론에 불을 붙였으며, 개발자들 사이에서 에이전트 추론 결과를 어디까지 신뢰할 수 있는지 논의가 활발히 이어졌습니다.\n- 이 주장은 LLM의 '체인 오브 소트(chain-of-thought)' 출력이 사후에 생성되는 정당화일 수 있다는 기존 연구와 맥락을 같이합니다.\n원문 페이지에 현재 직접 접근이 제한되어 제목과 HN 메타데이터를 기반으로 요약했습니다."
     },
     {
       "category": "Agents",
-      "title": "Ask HN: Anthropic banned me from using Claude Code and I don't know what to do",
-      "link": "https://news.ycombinator.com/item?id=48641160",
-      "summary": "VPN 사용 중 Claude Code를 쓰다 약 1시간 만에 계정이 차단된 사례를 두고 벌어진 Hacker News 토론입니다.",
-      "detail": "한 사용자가 직장에서 몇 달간 Claude Code를 쓰다 개인 프로젝트에도 쓰려 했는데, 아마도 VPN이 켜져 있던 탓에 약 1시간 사용 후 계정이 차단되었다는 사연을 올렸습니다.\n- 환불(약 120달러)은 받았지만 차단 사유와 대응 방법을 몰라 막막하다는 내용입니다.\n- 댓글에서는 VPN·공유 IP로 인한 오탐 차단 가능성, 이의 제기 경로, 계정 정책 등을 두고 토론이 이어집니다.\n토론 페이지 기준 요약입니다."
+      "title": "Temporary Cloudflare accounts for AI agents",
+      "link": "https://blog.cloudflare.com/temporary-accounts/",
+      "summary": "Cloudflare가 AI 에이전트에게 일시적·격리된 Cloudflare 계정을 발급하는 기능을 공개해 HN에서 245점을 받았습니다.",
+      "detail": "Cloudflare가 AI 에이전트 전용 임시 계정 기능을 발표했습니다.\n- 에이전트는 범위가 제한된 임시 Cloudflare 계정을 발급받아 Workers, R2 버킷 등 리소스를 독립적으로 사용할 수 있습니다.\n- 인증 정보가 메인 계정과 완전히 분리되어 에이전트 탈취 시 피해 범위를 최소화할 수 있습니다.\n- 작업 완료 후 계정과 관련 리소스가 자동으로 정리되어 보안 및 비용 관리가 용이합니다.\n- Simon Willison은 '에이전트뿐 아니라 일반 개발자에게도 유용한 격리 기능'이라고 평했습니다.\n- HN에서 245점을 기록하며 AI 에이전트 인프라 보안 관심이 높아졌음을 확인했습니다."
     },
     {
       "category": "Agents",
-      "title": "Prompt Injection as Role Confusion",
-      "link": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
-      "summary": "Simon Willison이 프롬프트 인젝션을 '역할 혼동'으로 재해석하며, 모델이 의미보다 텍스트 형식에 반응한다고 짚습니다.",
-      "detail": "Simon Willison이 프롬프트 인젝션의 본질을 '역할 혼동(role confusion)'으로 설명합니다.\n- LLM이 시스템 텍스트와 사용자 입력을 제대로 구별하지 못하고, 내용보다 텍스트의 스타일에 더 반응한다는 점이 핵심입니다.\n- 악성 프롬프트를 모델 내부 사고 형식으로 위장하면 안전장치를 우회할 수 있습니다.\n- 문체만 바꾸는 '디스타일링'으로 공격 성공률이 61%에서 10%로 떨어진 사례를 들어, 모델이 의미가 아닌 형식에 반응함을 보여줍니다.\n- 진정한 역할 인식 없이는 공격과 방어의 반복 게임에 머문다는 한계를 지적합니다."
+      "title": "Show HN: Recall – Local project memory for Claude Code",
+      "link": "https://github.com/raiyanyahya/recall",
+      "summary": "Claude Code의 콜드 스타트 문제를 해결하는 로컬 프로젝트 기억 플러그인으로, 외부 API 없이 TF-IDF로 완전 로컬 동작합니다.",
+      "detail": "Recall은 Claude Code의 매 세션마다 프로젝트를 재설명해야 하는 '콜드 스타트' 문제를 해결하는 플러그인입니다.\n- `.recall/` 디렉터리에 `history.md`(대화 전문)와 `context.md`(요약)를 저장합니다.\n- TF-IDF + TextRank 알고리즘으로 로컬에서 요약을 생성해, 요약에 추가 토큰이나 외부 API 호출이 전혀 필요 없습니다.\n- 세션 시작 시 저장된 컨텍스트를 불러와 이어서 작업할지 묻고, `/recall:save`로 수동 저장도 가능합니다.\n- 재개 시 1~2K 토큰 수준의 요약만 소비해 토큰 효율이 높고, 모든 기록이 로컬에 보관되어 프라이버시가 보장됩니다.\n- HN에서 134점을 기록하며 AI 코딩 도구 메모리 관리에 대한 개발자 관심을 확인했습니다."
+    },
+    {
+      "category": "AI",
+      "title": "Three things to watch amid Anthropic's latest feud with the government",
+      "link": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "summary": "MIT Tech Review가 Anthropic과 미국 정부 간 최신 갈등의 배경과 세 가지 주목 포인트를 정리했습니다.",
+      "detail": "MIT Technology Review의 AI 뉴스레터 'The Algorithm'이 Anthropic과 미국 정부의 갈등을 분석했습니다.\n- Anthropic의 안전·투명성 정책 입장과 정부의 규제·감독 요구 사이의 긴장이 다시 불거진 상황입니다.\n- 기사는 이 갈등에서 주목해야 할 세 가지 포인트를 제시하며 업계 전반에 미치는 함의를 짚습니다.\n- AI 기업의 정책적 자율성과 정부 감독 사이의 긴장은 선도적 AI 기업 전반에 걸친 지속적 논의입니다.\n- 이 갈등의 결과는 향후 AI 규제 방향 설정에 중요한 선례가 될 수 있습니다.\n원문에 현재 접근이 제한되어 도입부 요약과 제목을 기반으로 요약했습니다."
+    },
+    {
+      "category": "AI",
+      "title": "Daybreak: Tools for securing every organization in the world",
+      "link": "https://openai.com/index/daybreak-securing-the-world",
+      "summary": "OpenAI가 Codex Security와 GPT-5.5-Cyber를 포함한 보안 도구 플랫폼 'Daybreak'를 발표했습니다.",
+      "detail": "OpenAI가 조직의 취약점을 탐지·검증·패치하는 AI 기반 보안 도구 플랫폼 Daybreak를 공개했습니다.\n- Codex Security는 코드베이스의 취약점을 자동으로 탐지하고 수정 패치를 생성합니다.\n- GPT-5.5-Cyber는 사이버 보안 분야에 특화된 모델로, 취약점 분석과 대응에 활용됩니다.\n- '세계 모든 조직의 보안 강화'를 목표로 대규모 취약점 처리 자동화를 지원합니다.\n- 같은 날 함께 발표된 'Patch the Planet' 이니셔티브는 오픈소스 유지관리자에게 AI 기반 취약점 수정 지원을 제공합니다.\n원문에 현재 접근이 제한되어 OpenAI 공식 요약을 기반으로 요약했습니다."
+    },
+    {
+      "category": "AI",
+      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
+      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
+      "summary": "삼성전자가 전 세계 임직원에게 ChatGPT Enterprise와 Codex를 배포했으며, OpenAI 역대 최대 규모의 기업 AI 도입 사례 중 하나입니다.",
+      "detail": "삼성전자가 ChatGPT Enterprise와 Codex를 전 세계 임직원에게 배포했다고 OpenAI가 발표했습니다.\n- OpenAI의 역대 최대 규모 기업 AI 도입 사례 중 하나로 평가됩니다.\n- 임직원들은 ChatGPT Enterprise로 업무 생산성을 높이고, Codex로 개발 작업을 자동화할 수 있습니다.\n- 삼성의 글로벌 인력 전체에 AI 도구를 일괄 배포하는 대형 엔터프라이즈 AI 전환 사례입니다.\n- 삼성이 AI 네이티브 회사로 전환하는 전략적 이정표로 소개됩니다.\n원문에 현재 접근이 제한되어 OpenAI 공식 요약을 기반으로 요약했습니다."
+    },
+    {
+      "category": "Spring",
+      "title": "MongoDB-backed Spring Batch jobs and more in Spring Boot 4.1",
+      "link": "https://spring.io/blog/2026/06/21/spring-boot-41-and-spring-batch",
+      "summary": "Spring Boot 4.1이 MongoDB를 JobRepository로 사용하는 Spring Batch를 지원해, SQL DB 없이도 배치 메타데이터를 저장할 수 있게 됐습니다.",
+      "detail": "Spring Boot 4.1에 `spring-boot-starter-batch-data-mongodb` 스타터가 추가되어 Spring Batch의 JobRepository를 MongoDB로 사용할 수 있게 됐습니다.\n- 과거에는 Spring Batch가 SQL DB를 필수로 요구해, MongoDB 스택에서도 JDBC DB를 별도로 유지해야 했습니다.\n- JobRepository 추상화가 JDBC에서 분리되며, `spring.batch.data.mongodb.schema.initialize=true` 옵션으로 컬렉션 자동 초기화가 가능합니다.\n- 예제는 MongoDB에 배치 메타데이터를 저장하고, CSV에서 읽은 고객 데이터를 PostgreSQL에 쓰는 ETL 파이프라인을 보여줍니다.\n- 트랜잭션 지원을 위해 MongoDB는 레플리카 셋으로 구성해야 합니다.\n- MongoDB 스택 팀은 이제 데이터에 맞는 DB만 선택하면 되며, 배치 처리를 위한 불필요한 JDBC DB를 제거할 수 있습니다."
+    },
+    {
+      "category": "Spring",
+      "title": "Spring Boot 4.1 Adds gRPC Auto-Configuration, SSRF Mitigation, and Kotlin 2.3 Support",
+      "link": "https://www.infoq.com/news/2026/06/spring-boot-4-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "InfoQ가 2026년 6월 10일 출시된 Spring Boot 4.1의 주요 신기능인 gRPC 자동 설정, SSRF 완화, Kotlin 2.3 지원을 상세히 소개했습니다.",
+      "detail": "Broadcom이 2026년 6월 10일 Spring Boot 4.1을 출시했으며, InfoQ가 주요 신기능을 정리했습니다.\n- gRPC 서비스의 자동 설정(auto-configuration)이 내장되어 별도 설정 없이 gRPC를 바로 사용할 수 있습니다.\n- HTTP 클라이언트 수준에서 SSRF(서버 측 요청 위조) 공격을 완화하는 기능이 추가되어 보안이 강화됐습니다.\n- Kotlin 2.3이 공식 지원되며, 지연 데이터소스 연결(lazy datasource connections)과 비동기 컨텍스트 전파도 개선됐습니다.\n원문에 현재 접근이 제한되어 InfoQ 공식 요약을 기반으로 요약했습니다."
+    },
+    {
+      "category": "Java",
+      "title": "Oracle's OpenJDK Bans Generative AI Contributions While Oracle's GraalVM Allows Them",
+      "link": "https://www.infoq.com/news/2026/06/oracle-genai-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "Oracle이 관여하는 두 프로젝트가 생성형 AI 코드 기여에 상반된 정책을 채택해 Java 커뮤니티에서 논란이 됐습니다.",
+      "detail": "Oracle이 지원하는 두 오픈소스 프로젝트가 생성형 AI 기여에 대해 정반대 정책을 내놓았습니다.\n- OpenJDK 거버닝 보드는 생성형 AI가 작성한 코드의 기여를 금지하는 임시 정책을 승인했습니다.\n- 반면, Oracle GraalVM 프로젝트는 AI 생성 기여를 허용하는 정책을 채택해 대조적입니다.\n- 같은 Oracle 우산 아래 두 프로젝트가 AI 코드 기여에 상반된 입장을 취하면서 커뮤니티 내 논의가 활발해졌습니다.\n- 오픈소스 프로젝트의 AI 생성 코드 검증·저작권·품질 보증 문제가 핵심 쟁점으로 부각됩니다.\n원문에 현재 접근이 제한되어 InfoQ 공식 요약을 기반으로 요약했습니다."
     },
     {
       "category": "LLM",
-      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
-      "link": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
-      "summary": "AI의 초설득 능력, 자기지속 AI의 시점 논쟁, AGI→ASI 경로를 다룬 Import AI 462호입니다.",
-      "detail": "Jack Clark의 Import AI 462호는 최신 AI 연구·정책 트렌드를 정리합니다.\n- AI가 텍스트 설득에서 전문가 인간보다 일관되게 더 효과적이며, 자선 모금에서 전문가의 3배 성과를 냈다는 연구를 소개합니다.\n- 다만 인간 수준의 속도·길이로 제약하면 그 격차가 사라져, 정보량의 대량 배포가 핵심 요인임을 짚습니다.\n- '자기지속(self-sustaining) AI'의 도래 시점은 전문가마다 10년에서 50년, 혹은 불가능까지 전망이 갈립니다.\n- DeepMind가 제시한 AGI→ASI 경로 네 가지(컴퓨팅 확대, 알고리즘 혁신, 재귀적 자기개선, 다중 에이전트 협력)와 ASI 정의를 다룹니다."
-    },
-    {
-      "category": "LLM",
-      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
-      "link": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
-      "summary": "OpenRouter가 11개 LLM을 배틀로얄 게임으로 겨룬 실험으로, Grok 4.1 Fast가 비용 대비 압도적으로 우승했습니다.",
-      "detail": "OpenRouter가 11개 LLM을 2D 배틀로얄 게임에 투입해 30게임을 진행한 실험입니다.\n- xAI의 Grok 4.1 Fast가 13승으로 우승했고 승당 비용은 약 0.97달러인 반면, Claude Sonnet 4.6은 5승에 승당 약 26.78달러로 약 27배 비쌌습니다.\n- Claude는 협력을 시도하고 위치를 알려주는 등 안전 지향적 행동을 보여 '정렬 세금(alignment tax)'이 드러났고, Grok은 더 공격적이라 게임에서 유리했습니다.\n- GPT 5.4는 38킬로 최다였지만 2승에 그쳐, 킬 수보다 생존과 위치 선정이 중요함을 보여줍니다.\n- 각 모델이 soul.md로 개성을 드러냈고, 경쟁이 중요하면 Grok·신뢰성이 중요하면 Claude라는 함의를 남깁니다."
+      "title": "A startup claims it broke through a bottleneck that's holding back LLMs",
+      "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+      "summary": "마이애미 스타트업 Subquadratic이 LLM Transformer의 이차 복잡도 병목을 해결했다고 주장하며 등장했습니다.",
+      "detail": "마이애미 스타트업 Subquadratic이 스텔스 모드를 벗어나, LLM의 Transformer 아키텍처에서 약 10년간 해결되지 않은 수학적 병목을 돌파했다는 주장과 함께 등장했습니다.\n- 이 병목은 주의 메커니즘(Attention)의 이차 계산 복잡도(O(n²))로, 긴 컨텍스트 처리 시 속도와 메모리 비용이 폭발적으로 증가하는 문제입니다.\n- Subquadratic은 새로운 수학적 접근으로 이 한계를 극복했다고 주장합니다.\n- MIT Tech Review는 독립적 검증이 아직 이루어지지 않았음을 언급하며 주장의 검증이 필요함을 시사합니다.\n- 만약 사실이라면 긴 컨텍스트 LLM의 처리 비용과 성능에 큰 변화를 가져올 수 있습니다.\n원문에 현재 접근이 제한되어 공개된 도입부와 제목을 기반으로 요약했습니다."
     }
   ]
 }

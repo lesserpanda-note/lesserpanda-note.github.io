@@ -1,3 +1,80 @@
 {
-  "digests": []
+  "digests": [
+    {
+      "date": "2026-06-24",
+      "summary": "Spring AI 2.0의 구조화 출력 자동 교정과 Java 불변 데이터 도구가 백엔드의 LLM 연동 실무를 다듬고 있습니다. AI·에이전트 쪽은 IBM의 경량 하네스 CUGA, 프롬프트 인젝션을 '역할 혼동'으로 본 보안 논의, 그리고 Grok이 비용 대비 압도한 LLM 배틀로얄 실험이 화제입니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java News Roundup: Spring Tools, Helidon, Open Liberty, TomEE, JobRunr, Hibernate, Commonhaus",
+          "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun15-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "6월 15일 주간 Java 생태계 소식 모음으로, 여러 프로젝트의 포인트 릴리스가 중심입니다.",
+          "detail": "InfoQ가 6월 15일 한 주간의 Java 생태계 소식을 정리한 라운드업입니다.\n- Spring Tools, Helidon, JobRunr, Gradle의 포인트 릴리스가 발표되었습니다.\n- Open Liberty의 2026년 6월 에디션이 공개되었습니다.\n- TomEE, Hibernate, Commonhaus 등 주요 프로젝트의 업데이트도 함께 다룹니다.\n대형 신규 기능보다는 안정화·유지보수 성격의 릴리스가 모인 한 주입니다."
+        },
+        {
+          "category": "Java",
+          "title": "Better Tools for Immutable Data",
+          "link": "https://inside.java/2026/06/21/better-tools-immutable-data/",
+          "summary": "불변 데이터를 다루는 Java의 신규·예정 기능을 폭넓게 소개하는 세션입니다.",
+          "detail": "Java가 불변 데이터를 더 잘 다루기 위해 도입했거나 준비 중인 기능들을 폭넓게 소개합니다.\n- records와 record pattern, 파생 record 생성으로 간결한 데이터 클래스를 작성합니다.\n- value class/object로 메모리 효율을 높입니다.\n- 유연한 생성자 본문으로 필드를 이른 시점에 초기화합니다.\n- Lazy Constants API로 지연 상수 초기화를 지원합니다.\n- static final 필드 초기화 진단과 marshalling API로 안전성을 강화하며, 향후 불변 배열 지원도 검토 중입니다.\n이 기능들은 JVM 최적화를 가능하게 하면서 신뢰성과 편의성을 함께 끌어올립니다."
+        },
+        {
+          "category": "Spring",
+          "title": "Self-Correcting Structured Output in Spring AI 2.0",
+          "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
+          "summary": "Spring AI 2.0이 LLM의 구조화 출력 오류를 검증 후 프롬프트에 덧붙여 최대 3회까지 자동 교정합니다.",
+          "detail": "Spring AI 2.0이 LLM 응답을 타입화된 Java 객체로 안정적으로 변환하는 방법을 다룹니다.\n- ChatClient의 entity() 호출로 JSON 스키마를 자동 생성·파싱해 타입화된 결과를 받습니다.\n- validateSchema()는 검증 오류를 사용자 프롬프트에 덧붙여 최대 3회까지 자동 재요청합니다.\n- useProviderStructuredOutput()은 OpenAI·Anthropic·Google·Mistral의 API 레벨 스키마 강제를 사용하고, 시스템 프롬프트의 JSON 지시를 제거해 토큰을 아낍니다.\n- 두 기능을 조합해 요청 제약과 응답 재검증의 다층 안전장치를 만듭니다.\n- List·Map 같은 제네릭은 ParameterizedTypeReference로, 비JSON 형식은 커스텀 컨버터로 대응합니다."
+        },
+        {
+          "category": "Spring",
+          "title": "This Week in Spring - June 23rd, 2026",
+          "link": "https://spring.io/blog/2026/06/23/this-week-in-spring-june-23-2026",
+          "summary": "Spring Boot 4.1 출시 직후의 업데이트와 읽을거리를 모은 주간 Spring 소식입니다.",
+          "detail": "Spring 팀이 매주 연재하는 'This Week in Spring'의 6월 23일자입니다.\n- 최근 출시된 Spring Boot 4.1 관련 후속 소식과 업데이트를 다룹니다.\n- Spring 생태계 전반의 블로그 글·릴리스·발표를 큐레이션해 소개합니다.\n단일 대형 발표라기보다 한 주간의 Spring 소식을 폭넓게 모은 글입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+          "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+          "summary": "IBM이 에이전트 구축의 반복 작업을 줄여주는 오픈소스 하네스 CUGA와 단일 파일 예제 앱 24종을 공개했습니다.",
+          "detail": "IBM Research가 에이전트 구축의 반복 작업을 줄여주는 오픈소스 하네스 CUGA와 예제 모음을 공개했습니다.\n- 모델 클라이언트·도구 어댑터·상태 관리를 미리 구성해, 개발자는 도구 목록과 프롬프트만 작성하면 됩니다.\n- 장기 작업에서 중간 결과를 추적하고 반영 단계로 잘못된 계획을 수정하며, '빠름/균형/정확함' 추론 모드를 고를 수 있습니다.\n- MCP 서버의 범용 도구와 앱별 인라인 함수를 조합하고, 모든 도구는 표준 응답 형식을 따릅니다.\n- cuga-apps는 영화 추천·클라우드 자문·리드 생성 등 24개 단일 파일 앱을 학습·복제용 템플릿으로 제공합니다.\n- Intent Guard·Tool Approval·Playbook 등 6가지 정책의 거버넌스와 다중 에이전트 확장, IBM Sovereign Core 배포까지 지원합니다."
+        },
+        {
+          "category": "AI",
+          "title": "The $400 million machine powering the future of chipmaking",
+          "link": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+          "summary": "차세대 반도체 제조의 핵심인 ASML의 4억 달러짜리 노광 장비를 다룬 MIT Tech Review 기사입니다.",
+          "detail": "MIT Technology Review가 ASML의 최신 노광 장비를 취재한 기사입니다.\n- 이 장비는 4억 달러에 달하며, 무게가 150톤이 넘고 2층 버스 크기에 비유되는 거대 설비로 소개됩니다.\n- 차세대 칩 제조의 핵심 장비로, AI 반도체 공급망의 근간이 되는 하드웨어를 조명합니다.\n원문은 일부 유료 구간이 있어 공개된 도입부를 기준으로 요약했습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Ask HN: Anthropic banned me from using Claude Code and I don't know what to do",
+          "link": "https://news.ycombinator.com/item?id=48641160",
+          "summary": "VPN 사용 중 Claude Code를 쓰다 약 1시간 만에 계정이 차단된 사례를 두고 벌어진 Hacker News 토론입니다.",
+          "detail": "한 사용자가 직장에서 몇 달간 Claude Code를 쓰다 개인 프로젝트에도 쓰려 했는데, 아마도 VPN이 켜져 있던 탓에 약 1시간 사용 후 계정이 차단되었다는 사연을 올렸습니다.\n- 환불(약 120달러)은 받았지만 차단 사유와 대응 방법을 몰라 막막하다는 내용입니다.\n- 댓글에서는 VPN·공유 IP로 인한 오탐 차단 가능성, 이의 제기 경로, 계정 정책 등을 두고 토론이 이어집니다.\n토론 페이지 기준 요약입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Prompt Injection as Role Confusion",
+          "link": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
+          "summary": "Simon Willison이 프롬프트 인젝션을 '역할 혼동'으로 재해석하며, 모델이 의미보다 텍스트 형식에 반응한다고 짚습니다.",
+          "detail": "Simon Willison이 프롬프트 인젝션의 본질을 '역할 혼동(role confusion)'으로 설명합니다.\n- LLM이 시스템 텍스트와 사용자 입력을 제대로 구별하지 못하고, 내용보다 텍스트의 스타일에 더 반응한다는 점이 핵심입니다.\n- 악성 프롬프트를 모델 내부 사고 형식으로 위장하면 안전장치를 우회할 수 있습니다.\n- 문체만 바꾸는 '디스타일링'으로 공격 성공률이 61%에서 10%로 떨어진 사례를 들어, 모델이 의미가 아닌 형식에 반응함을 보여줍니다.\n- 진정한 역할 인식 없이는 공격과 방어의 반복 게임에 머문다는 한계를 지적합니다."
+        },
+        {
+          "category": "LLM",
+          "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+          "link": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+          "summary": "AI의 초설득 능력, 자기지속 AI의 시점 논쟁, AGI→ASI 경로를 다룬 Import AI 462호입니다.",
+          "detail": "Jack Clark의 Import AI 462호는 최신 AI 연구·정책 트렌드를 정리합니다.\n- AI가 텍스트 설득에서 전문가 인간보다 일관되게 더 효과적이며, 자선 모금에서 전문가의 3배 성과를 냈다는 연구를 소개합니다.\n- 다만 인간 수준의 속도·길이로 제약하면 그 격차가 사라져, 정보량의 대량 배포가 핵심 요인임을 짚습니다.\n- '자기지속(self-sustaining) AI'의 도래 시점은 전문가마다 10년에서 50년, 혹은 불가능까지 전망이 갈립니다.\n- DeepMind가 제시한 AGI→ASI 경로 네 가지(컴퓨팅 확대, 알고리즘 혁신, 재귀적 자기개선, 다중 에이전트 협력)와 ASI 정의를 다룹니다."
+        },
+        {
+          "category": "LLM",
+          "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+          "link": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+          "summary": "OpenRouter가 11개 LLM을 배틀로얄 게임으로 겨룬 실험으로, Grok 4.1 Fast가 비용 대비 압도적으로 우승했습니다.",
+          "detail": "OpenRouter가 11개 LLM을 2D 배틀로얄 게임에 투입해 30게임을 진행한 실험입니다.\n- xAI의 Grok 4.1 Fast가 13승으로 우승했고 승당 비용은 약 0.97달러인 반면, Claude Sonnet 4.6은 5승에 승당 약 26.78달러로 약 27배 비쌌습니다.\n- Claude는 협력을 시도하고 위치를 알려주는 등 안전 지향적 행동을 보여 '정렬 세금(alignment tax)'이 드러났고, Grok은 더 공격적이라 게임에서 유리했습니다.\n- GPT 5.4는 38킬로 최다였지만 2승에 그쳐, 킬 수보다 생존과 위치 선정이 중요함을 보여줍니다.\n- 각 모델이 soul.md로 개성을 드러냈고, 경쟁이 중요하면 Grok·신뢰성이 중요하면 Claude라는 함의를 남깁니다."
+        }
+      ]
+    }
+  ]
 }
