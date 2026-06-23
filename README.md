@@ -15,7 +15,7 @@ data/notes.json         인사이트 렌더 결과 (배치가 생성)
 notes/*.md              ← 인사이트를 여기에 작성
 scripts/fetch_news.py   RSS → data/news.json
 scripts/build_notes.py  notes/*.md → data/notes.json
-.github/workflows/update.yml   6시간마다 도는 배치
+.github/workflows/deploy.yml   6시간마다 데이터 재생성 + 배포
 ```
 
 ## 인사이트 쓰는 법
@@ -37,15 +37,16 @@ front matter(title·date·tags)는 생략 가능 — 파일명과 첫 `# 제목`
 ## 갱신은 어디서 도나 (배치)
 
 정적 호스팅(GitHub Pages)이라 페이지가 스스로 갱신하지 못한다. 그래서 **GitHub
-Actions**가 배치 역할을 한다:
+Actions**가 배치 역할을 한다. Pages Source는 "GitHub Actions"이고,
+`deploy.yml` 한 워크플로가 생성과 배포를 같이 한다:
 
-1. cron(6시간) 또는 `notes/` push 시 워크플로 실행
+1. cron(6시간) · main push · 수동 실행 시 워크플로 실행
 2. `fetch_news.py` + `build_notes.py` 로 `data/*.json` 재생성
-3. 변경이 있으면 main에 자동 커밋·push → GitHub Pages 재배포
+3. 사이트 전체를 아티팩트로 묶어 `deploy-pages` 로 그대로 배포
 
-GitHub Actions를 고른 이유: 레포와 같은 곳에 있어 추가 인프라·결제가 없고,
-public 레포라 Actions 사용 시간이 무료다. 봇 커밋(`GITHUB_TOKEN`)은 워크플로를
-재트리거하지 않아 무한 루프도 없다.
+매 실행이 곧 배포라 데이터를 main에 커밋백할 필요가 없다 — 봇 커밋도, 무한
+루프도, 레거시 Jekyll 빌드 실패도 없다. 레포에 커밋된 `data/*.json`은 시드일
+뿐이고, 실제 배포본은 매번 새로 생성된다. public 레포라 Actions는 무료다.
 
 ## 로컬에서 미리보기
 

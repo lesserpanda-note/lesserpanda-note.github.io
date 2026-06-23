@@ -1,0 +1,55 @@
+name: build-and-deploy
+
+# Pages "Source: GitHub Actions". One workflow regenerates the data and deploys
+# the whole site, so every run is also a deploy — no commit-back, no loop, and
+# no legacy Jekyll build failures.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 */6 * * *"        # refresh news every 6 hours (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch news (RSS)
+        run: python scripts/fetch_news.py
+
+      - name: Build notes (Markdown)
+        run: python scripts/build_notes.py
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
