@@ -1,76 +1,69 @@
 {
-  "updated": "2026-06-23T17:20:19+00:00",
-  "summary": "이번 다이제스트에서는 Spring AI 2.0의 자가 수정 구조화 출력 기능과 'This Week in Spring' 주간 뉴스를 통해 Spring 생태계의 AI 통합 흐름을 정리합니다. AI 분야에서는 반도체 공급망의 핵심인 ASML 하이NA EUV 장비 심층 취재와 ChatGPT GPT-5.5 Instant 기반 헬스케어 기능 강화가 주목되며, Java에서는 JDK 26 성능 개선 및 A2A Java SDK 1.0 GA 릴리스가 에이전트 생태계 확장을 이끌고 있습니다. 에이전트·LLM 분야에서는 프롬프트 인젝션의 역할 혼동 개념화, AI 레드팀 전문성, 그리고 LLM 에이전트 실전 비교 논의가 핵심 이슈로 부상합니다.",
+  "updated": "2026-06-24T00:07:06+00:00",
+  "summary": "이번 다이제스트에서는 Java-Go 마이크로서비스 성능 비교의 2026년 업데이트와 IBM Research의 CUGA 경량 에이전트 하네스 공개가 개발 생태계의 핵심 이슈로 부각됩니다. LLM 분야에서는 AI 정렬 연구가 역량 발전 속도를 따라가지 못한다는 Import AI의 경고와 Sebastian Raschka의 2026년 상반기 LLM 연구 논문 큐레이션이 주목되며, 에이전트 영역에서는 SpaceX의 예상을 뛰어넘는 연 280억 달러 네오클라우드 규모와 Claude Code를 활용한 ML 모델 브라우저 포팅 실험이 화제입니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "Performance Improvements in JDK 26",
-      "link": "https://inside.java/2026/06/09/jdk-26-performance-improvements/",
-      "summary": "JDK 26의 주목할 성능 개선 사항을 JDK 라이브러리, JVM 런타임, JIT 컴파일러, GC의 네 가지 영역으로 분류해 Inside Java가 정리했습니다.",
-      "detail": "JDK 26의 성능 개선 사항을 네 가지 주요 영역으로 정리한 Inside Java 공식 기사입니다.\n- JDK 라이브러리: 표준 라이브러리 API의 실행 효율이 개선되어 컬렉션·스트림 연산 등 일상적인 연산 성능이 향상되었습니다.\n- JVM 런타임: 객체 할당, 메모리 관리, 스레드 처리 등 JVM 핵심 런타임 레이어가 최적화되었습니다.\n- JIT 컴파일러: 핫스팟 JIT 컴파일러의 코드 생성 품질이 개선되어 반복 실행되는 핫 코드의 처리 속도가 향상됩니다.\n- GC(가비지 컬렉터): 주요 GC의 지연 시간 감소 및 처리량 개선이 포함되었습니다.\n- JDK 26 업그레이드를 검토 중인 팀이나 JVM 성능 튜닝에 관심 있는 개발자에게 유용한 기준 자료입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+      "title": "Java News Roundup: Spring Tools, Helidon, Open Liberty, TomEE, JobRunr, Hibernate, Commonhaus",
+      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun15-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "2026년 6월 15일 주간 Java 뉴스 라운드업으로, Spring Tools·Helidon·JobRunr·Gradle 포인트 릴리스, Open Liberty June 2026 에디션, Apache TomEE 첫 마일스톤 릴리스, Hibernate·Commonhaus 업데이트가 포함됩니다.",
+      "detail": "InfoQ의 2026년 6월 15일 주간 Java 뉴스 라운드업 주요 내용입니다.\n- Spring Tools: Eclipse 기반 Spring IDE의 최신 포인트 릴리스가 배포됐습니다.\n- Helidon: Oracle의 마이크로서비스 프레임워크 Helidon 포인트 릴리스가 공개됐습니다.\n- Open Liberty June 2026 에디션: IBM의 Open Liberty 서버 June 2026 에디션이 출시됐습니다.\n- Apache TomEE: Jakarta EE 기반 TomEE의 첫 마일스톤 릴리스가 공개됐습니다.\n- JobRunr·Gradle: 각각 포인트 릴리스가 배포됐습니다.\n- Hibernate·Commonhaus: 유지보수 업데이트가 포함됐습니다.\n- Java 생태계 전반에서 Spring Boot 4.1 GA 이후 연쇄적인 업데이트가 이뤄지고 있음을 확인할 수 있습니다.\n원문에 현재 접근이 제한되어 InfoQ 공식 요약과 제목을 기반으로 작성했습니다."
     },
     {
       "category": "Java",
-      "title": "Java News Roundup: A2A Java SDK 1.0, Jakarta EE 12, JNoSQL, GraalVM, Micrometer, OpenXava, Gradle",
-      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun08-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "2026년 6월 8일 주간 Java 뉴스 라운드업으로, A2A Java SDK 1.0 GA 릴리스와 Jakarta EE 12 업데이트를 비롯한 에이전트 생태계 확장 소식을 담고 있습니다.",
-      "detail": "InfoQ의 2026년 6월 8일 주간 Java 뉴스 라운드업 주요 내용입니다.\n- A2A Java SDK 1.0 GA: 구글이 주도하는 에이전트 간 통신(Agent-to-Agent) 프로토콜의 Java SDK 1.0 정식 버전이 출시됐습니다. Java 에이전트 생태계의 상호운용성 기반이 한 걸음 강화됩니다.\n- Jakarta EE 12: Jakarta EE 12의 진행 현황이 업데이트됐습니다.\n- Micrometer Metrics·Tracing: 각각 포인트 릴리스가 배포되었습니다.\n- GraalVM: 최신 유지보수 릴리스가 포함됐습니다.\n- JNoSQL, OpenXava, Gradle: 유지보수 및 포인트 릴리스가 공개됐습니다.\nA2A Java SDK 1.0 GA는 다중 에이전트 시스템을 Java로 구현할 때 표준 상호운용 레이어를 제공한다는 점에서 이번 라운드업의 가장 중요한 소식으로 평가됩니다."
+      "title": "Can Java Microservices Be As Fast As Go? A 2026 Benchmark Update",
+      "link": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+      "summary": "6년 전 첫 Java-Go 마이크로서비스 성능 비교를 2026년 최신 런타임·하드웨어로 재측정한 결과, 신중하게 구현된 Java 서비스는 여전히 Go와 비슷한 성능을 낼 수 있음을 재확인했습니다.",
+      "detail": "Inside Java가 6년 만에 Java와 Go HTTP 마이크로서비스 성능 비교를 업데이트한 기사입니다.\n- 2020년 첫 비교 이후 JVM 런타임(Virtual Thread, GraalVM Native Image 등), 모던 하드웨어, 컨테이너화 환경이 크게 발전했습니다.\n- 핵심 결론: 주의 깊게 구현된 Java와 Go HTTP 서비스는 최신 런타임·하드웨어에서도 유사한 성능을 달성한다는 결론이 유지됩니다.\n- Project Loom의 Virtual Thread는 Go 고루틴(goroutine)과 유사한 경량 동시성을 제공하며, Java의 처리량 격차를 크게 줄였습니다.\n- GraalVM Native Image 활용 시 Go가 장점을 보이던 시작 시간과 메모리 사용에서도 Java가 경쟁력을 높였습니다.\n- 순수 성능보다 생태계, 도구, 팀 숙련도를 기준으로 언어를 선택하는 것이 여전히 유효한 전략임을 시사합니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
     },
     {
       "category": "Spring",
-      "title": "Self-Correcting Structured Output in Spring AI 2.0",
-      "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
-      "summary": "Spring AI 2.0이 LLM의 비정형 출력을 신뢰할 수 있는 구조화 데이터로 변환하는 두 가지 메커니즘(스키마 검증 자동 재시도, 프로바이더 네이티브 출력 강제)을 도입했습니다.",
-      "detail": "Spring AI 2.0은 LLM 텍스트 출력을 소프트웨어가 직접 사용할 수 있는 구조화 데이터로 안정적으로 변환하는 두 가지 핵심 옵션을 제공합니다.\n- validateSchema(자동 재시도): 모델 응답이 JSON 스키마 검증에 실패하면 오류 내용을 프롬프트에 추가해 최대 3회까지 자동 재시도합니다. 모델이 무엇이 잘못됐는지 스스로 파악해 수정합니다.\n- useProviderStructuredOutput(프로바이더 강제): 스키마를 API 파라미터로 전달해 OpenAI, Anthropic, Google, Mistral, Ollama 등 프로바이더 레벨에서 형식을 강제합니다. 처음부터 잘못된 응답이 생성되지 않습니다.\n- 두 옵션은 독립 또는 동시에 사용 가능하며, .entity(ActorsFilms.class, spec -> spec.useProviderStructuredOutput().validateSchema()) 형태로 체이닝합니다.\n- 기존 코드는 변경 없이 유지되고, 새 코드에서 선택적으로 적용할 수 있습니다."
-    },
-    {
-      "category": "Spring",
-      "title": "This Week in Spring - June 23rd, 2026",
-      "link": "https://spring.io/blog/2026/06/23/this-week-in-spring-june-23-2026",
-      "summary": "Spring Boot 4.1 출시 직후의 Spring 생태계 주간 뉴스로, Spring AI 2.0 tool calling API, ElevenLabs 음성 통합, Spring Modulith·Cloud Stream 연동 등이 소개됐습니다.",
-      "detail": "Spring Boot 4.1 출시 직후를 반영한 이번 주간 뉴스레터는 Spring 생태계의 다양한 발전을 담습니다.\n- Spring AI 2.0 Tool Calling API: Christian Tsolov(Spring AI 리드)가 새로운 tool calling API를 상세히 설명한 글이 공유됐습니다.\n- Spring Batch + MongoDB + Boot 4.1: Josh Long이 MongoDB 기반 Spring Batch 배치 처리를 다룬 글을 게시했습니다.\n- ElevenLabs 음성 통합: Craig Walls가 ElevenLabs를 활용한 음성 제어 Spring AI 레시피를 기여했습니다.\n- Binance AI 트레이딩 어시스턴트: Spring AI로 구축하는 AI 기반 거래 도우미 사례가 주목받았습니다.\n- Spring Modulith + Cloud Stream: 이벤트 외부화 통합이 화제가 됐습니다.\n- Bootiful Podcast에서 DaShaun Carter와 Spring Boot 4.1 및 AI 보안을 논의했습니다."
+      "title": "A Bootiful Podcast: DaShaun Carter on patching, Spring Boot 4.1, and security in the world of AI",
+      "link": "https://spring.io/blog/2026/06/18/a-bootiful-podcast-dashaun-carter",
+      "summary": "Spring Developer Advocate DaShaun Carter가 'A Bootiful Podcast'에 출연해 소프트웨어 패칭 전략, Spring Boot 4.1의 주요 변경 사항, AI 시대의 보안 과제를 다뤘습니다.",
+      "detail": "Josh Long의 'A Bootiful Podcast'에 Spring Developer Advocate DaShaun Carter가 게스트로 출연한 에피소드입니다.\n- 패칭(Patching): 현대 소프트웨어 개발 환경에서 의존성과 보안 패치를 적시에 적용하는 전략에 대해 논의합니다. 빠르게 변하는 Spring 생태계에서 최신 버전 추적의 중요성을 강조합니다.\n- Spring Boot 4.1: 최근 출시된 Spring Boot 4.1의 주요 신기능(gRPC 자동 설정, SSRF 완화, Kotlin 2.3 지원 등)을 현장 실무 관점에서 소개합니다.\n- AI 세계의 보안: LLM·AI 에이전트 시스템이 확산되면서 새롭게 등장하는 보안 위협과 Spring 애플리케이션에서 이를 방어하는 접근법에 대해 이야기합니다.\n- DaShaun Carter는 Spring 생태계를 적극적으로 알리는 Developer Advocate로, 실무자 관점의 인사이트를 제공합니다.\n원문 팟캐스트에 현재 접근이 제한되어 제목과 공식 소개를 기반으로 작성했습니다."
     },
     {
       "category": "AI",
-      "title": "The $400 million machine powering the future of chipmaking",
-      "link": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
-      "summary": "ASML의 하이NA EUV 장비는 대당 약 4억 달러에 달하는 초정밀 반도체 노광 기계로, AI 칩 생산을 가능하게 하는 반도체 공급망의 핵심입니다.",
-      "detail": "MIT Technology Review가 ASML의 최신 하이NA(High-NA) EUV(극자외선) 노광 장비를 심층 취재한 기사입니다.\n- 이 장비는 이층 버스 크기(150톤 이상)의 정밀 가공 알루미늄으로 제작된 초대형 반도체 제조 장비이며, 대당 가격이 약 4억 달러(약 5,600억 원)에 달합니다.\n- 기존 EUV보다 더 미세한 회로 패턴을 구현하는 차세대 하이NA EUV는 최첨단 반도체 제조의 핵심 기술입니다.\n- AI 가속기(GPU 등)를 포함한 첨단 반도체 칩 생산에 직결되는 장비로, AI 인프라 공급망의 최전선에 위치합니다.\n- 전 세계에서 ASML만이 이 장비를 제조할 수 있어 AI 반도체 공급의 병목 지점이자 지정학적 전략 자산으로 주목받고 있습니다.\n- ASML의 Jos Benschop이 직접 장비를 소개하며 초정밀 제조 과정을 설명합니다.\n원문에 현재 접근이 제한되어 제목과 도입부 요약을 기반으로 작성했습니다."
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "summary": "IBM Research가 경량 에이전트 하네스 CUGA를 기반으로 실제 동작하는 에이전트 앱 24종을 Hugging Face를 통해 오픈소스로 공개했습니다.",
+      "detail": "IBM Research가 CUGA(Composable Universal Graph Agent) 하네스를 기반으로 24가지 실동작 에이전트 앱 예제를 오픈소스로 공개했습니다.\n- CUGA는 코드·툴·에이전트를 그래프 형태로 조합해 복잡한 에이전트 워크플로를 구성할 수 있는 경량 프레임워크입니다.\n- 24가지 예제는 웹 검색, 데이터 분석, 코드 생성, 문서 처리 등 다양한 실전 에이전트 유스케이스를 포함합니다.\n- 무거운 오케스트레이션 프레임워크 없이도 Hugging Face 모델 생태계와 연동해 에이전트 앱을 빠르게 구축할 수 있음을 목표로 합니다.\n- 예제 기반 학습이 가능해 에이전트 앱 개발 진입 장벽을 낮추는 실용적인 참고 자료로 활용할 수 있습니다.\n- IBM Research가 엔터프라이즈 에이전트 구축 경험을 실용 예제 형태로 공개했다는 점에서 주목할 만합니다.\n원문에 현재 접근이 제한되어 제목과 블로그 메타데이터를 기반으로 작성했습니다."
     },
     {
       "category": "AI",
-      "title": "Improving health intelligence in ChatGPT",
-      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "summary": "OpenAI가 GPT-5.5 Instant 기반의 강화된 헬스케어 기능을 ChatGPT에 도입하여 더 정확하고 맥락적인 건강·웰니스 응답을 제공합니다.",
-      "detail": "OpenAI가 GPT-5.5 Instant를 기반으로 ChatGPT의 건강·웰니스 응답 품질을 전반적으로 개선했습니다.\n- 강화된 추론 능력: 복잡한 건강·의료 관련 질문에 더 정확한 답변을 제공합니다.\n- 더 나은 맥락 이해: 사용자의 건강 상태와 상황을 더 잘 파악해 개인화된 응답을 생성합니다.\n- 명확한 커뮤니케이션: 의학 정보를 일반인이 이해하기 쉬운 언어로 전달하는 능력이 향상됐습니다.\n- 의사 참여 평가: 의사들이 참여한 평가 체계로 응답의 의학적 정확도를 검증했습니다.\n- 건강 정보 접근성이 낮은 사용자에게도 신뢰할 수 있는 첫 번째 건강 상담 창구가 되는 방향을 목표로 합니다.\n원문에 현재 접근이 제한되어 OpenAI 공식 요약을 기반으로 작성했습니다."
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "summary": "PaddlePaddle의 PP-OCRv6가 50개 언어를 지원하며, 1.5M~34.5M 파라미터의 유연한 모델 크기로 Hugging Face에 공개됐습니다.",
+      "detail": "PaddlePaddle 팀이 PP-OCRv6를 Hugging Face에 공개했습니다.\n- 50개 언어 지원: 영어, 중국어, 한국어, 일본어 등 50개 언어의 텍스트 인식을 지원합니다.\n- 모델 크기 스펙트럼: 최소 1.5M 파라미터의 초경량 모델부터 34.5M 파라미터의 고성능 모델까지 사용 목적에 따라 선택 가능합니다.\n- 경량 고성능: 수십억 파라미터 모델과 경쟁하는 인식 정확도를 훨씬 적은 파라미터로 달성한다고 주장합니다.\n- 엣지 디바이스부터 서버까지 다양한 환경에 배포할 수 있는 유연한 모델 라인업을 제공합니다.\n- Hugging Face를 통해 모델 가중치, 데모, 추론 파이프라인을 직접 사용할 수 있습니다.\n- 오픈소스 다국어 OCR이 필요한 개발자에게 실용적인 선택지가 늘어났습니다.\n원문에 현재 접근이 제한되어 제목과 공식 메타데이터를 기반으로 작성했습니다."
     },
     {
       "category": "Agents",
-      "title": "Prompt Injection as Role Confusion",
-      "link": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
-      "summary": "프롬프트 인젝션을 '역할 혼동'으로 재정의한 학술 논문 해설로, Simon Willison이 에이전트 시스템 보안의 근본적 취약점을 설명합니다.",
-      "detail": "Simon Willison이 '프롬프트 인젝션을 역할 혼동(Role Confusion)으로서'라는 학술 논문의 블로그 스타일 해설을 소개하는 글입니다.\n- 논문은 프롬프트 인젝션 공격을 단순한 기술적 버그가 아닌 '신뢰할 수 있는 지시(시스템 프롬프트)'와 '신뢰할 수 없는 콘텐츠(외부 입력·사용자 데이터)'의 역할 경계가 무너지는 문제로 개념화합니다.\n- Willison은 논문에 이런 블로그 해설이 함께 제공되는 방식을 높이 평가하며, 학술 논문의 영향력이 더 넓게 전달된다고 언급했습니다.\n- 에이전트가 외부 문서, 웹 콘텐츠, 이메일 등을 처리할 때 역할 경계를 명확히 유지하는 설계가 보안의 핵심임을 시사합니다.\n- 다중 에이전트 시스템과 RAG 파이프라인 구현 시 직접 적용 가능한 보안 프레임워크를 제공합니다.\n원문에 현재 접근이 제한되어 공개된 요약과 제목을 기반으로 작성했습니다."
+      "title": "[AINews] SpaceX is already a $28B/yr Neocloud",
+      "link": "https://www.latent.space/p/ainews-spacex-is-already-a-28byr",
+      "summary": "Latent Space AINews가 Jamin Ball의 분석을 인용해 SpaceX가 연매출 약 280억 달러 규모의 네오클라우드로 이미 성장했다는 수치를 조명했습니다.",
+      "detail": "Latent Space의 일일 AINews에서 Jamin Ball의 클라우드 인프라 분석 데이터를 중심으로 SpaceX의 AI 클라우드 사업 규모를 정리했습니다.\n- '네오클라우드(Neocloud)'는 AWS·Azure·GCP가 아닌 새로운 AI 전용 클라우드 인프라 사업자를 가리키는 신조어입니다.\n- SpaceX는 Starlink 위성 인터넷 인프라와 xAI 연관 GPU 클러스터 등을 통해 연 280억 달러(약 39조 원) 수준의 인프라 매출을 이미 올리고 있다는 분석입니다.\n- 이는 기존 빅3 하이퍼스케일러 외에 AI 인프라 경쟁의 새로운 축이 형성되고 있음을 시사합니다.\n- CoreWeave, Lambda Labs 등 AI 전용 클라우드 사업자들이 급성장하는 가운데, SpaceX/xAI의 인프라 규모가 예상을 크게 상회함을 보여줍니다.\n- AI 인프라 투자·수익화 경쟁에서 SpaceX가 독보적 위치를 선점하고 있음을 보여주는 사례입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
     },
     {
       "category": "Agents",
-      "title": "Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan",
-      "link": "https://www.latent.space/p/gray-swan",
-      "summary": "OpenAI 이사회 멤버 Zico Kolter와 Gray Swan CEO Matt Fredrikson이 AI 보안이 단순한 '사이버보안+AI'가 아닌 독립된 새 분야임을 Latent Space 팟캐스트에서 논합니다.",
-      "detail": "Latent Space의 swyx가 OpenAI 이사회 멤버 Zico Kolter와 AI 레드팀 전문 스타트업 Gray Swan의 CEO Matt Fredrikson과 나눈 팟캐스트 에피소드입니다.\n- 핵심 주장: AI 보안은 기존 사이버보안에 AI를 얹은 것이 아니라, 적대적 공격 표면·모델 취약점·에이전트 행동 예측 불가능성 등 전혀 새로운 문제를 다루는 독립된 영역입니다.\n- Gray Swan은 Mythos 이후의 AI 레드팀 접근법을 연구하며 실제 모델 공격 시나리오를 개발하는 전문 스타트업입니다.\n- Kolter는 AI 안전(Safety)과 보안(Security)의 교차점에서 학계·산업계 양측의 시각을 제공합니다.\n- 에이전트 시스템 확산과 함께 공격 표면이 넓어지면서 AI 보안 전문성의 중요도가 점점 높아진다고 강조합니다.\n원문에 현재 접근이 제한되어 공식 설명과 제목을 기반으로 작성했습니다."
+      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+      "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
+      "summary": "Simon Willison이 Moebius 0.2B 이미지 인페인팅 모델을 Claude Code를 활용해 브라우저에서 직접 실행할 수 있도록 포팅하는 과정을 공유했습니다.",
+      "detail": "Simon Willison이 Hacker News에서 발견한 Moebius(0.2B 파라미터, 경량 이미지 인페인팅 모델)를 브라우저에서 실행할 수 있도록 변환한 경험을 공유했습니다.\n- Moebius는 이미지의 지정 영역을 자연스럽게 채우는 인페인팅 모델로, 10B 수준 모델과 견줄 성능을 0.2B 파라미터로 달성한다고 주장합니다.\n- Willison은 Claude Code를 AI 코딩 파트너로 활용해 모델을 WebAssembly 또는 ONNX.js 기반 브라우저 실행 환경으로 변환하는 작업을 진행했습니다.\n- 로컬 서버나 GPU 인프라 없이 브라우저만으로 ML 모델을 실행하는 가능성을 입증하는 실험적 프로젝트입니다.\n- Claude Code가 ML 모델 포팅·변환 같은 복잡한 엔지니어링 작업에서도 효과적인 코딩 파트너임을 보여줍니다.\n- 에지 AI와 브라우저 기반 ML 트렌드가 만나는 교차점에서의 실용적 사례입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
     },
     {
       "category": "LLM",
-      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
-      "link": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
-      "summary": "Import AI 462호에서 Jack Clark이 AI의 초설득(superpersuasion) 능력, 자립형 AI 시스템, AGI·ASI로의 경로를 분석합니다.",
-      "detail": "Jack Clark의 Import AI 462호 주요 내용입니다.\n- 초설득(Superpersuasion): AI의 설득 능력이 인간의 판단력을 압도할 수준에 도달했을 때 어떤 사회적·윤리적 위험이 생기는지를 다룹니다.\n- 자립형 AI(Self-sustaining AI): 인간의 지속적 개입 없이 스스로 유지·개선되는 AI 시스템의 가능성과 그에 따른 통제 문제를 논의합니다.\n- ASI로의 경로(Paths to ASI): 인공 초지능(ASI)에 이르는 다양한 기술적·조직적 경로와 타임라인을 검토합니다.\n- Clark는 싱귤래리티에 대한 믿음이 종교적 신념과 얼마나 유사한 구조를 갖는지를 묻는 질문도 제기합니다.\n- AI 거버넌스와 안전성 연구에 시사점이 큰 주제들을 집중적으로 다루는 호입니다.\n원문에 현재 접근이 제한되어 공식 요약과 제목을 기반으로 작성했습니다."
+      "title": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
+      "link": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
+      "summary": "Import AI 461호에서 Jack Clark가 AI 정렬 연구가 모델 역량 발전 속도를 따라가지 못하고 있다는 경고, FrontierCode 벤치마크, 합성 연구 인턴 활용을 다뤘습니다.",
+      "detail": "Jack Clark의 Import AI 461호 주요 내용입니다.\n- '정렬은 궤도를 벗어났다(Alignment is not on track)': AI 안전성 연구가 모델 역량 발전 속도를 따라가지 못하고 있다는 경고가 핵심입니다. 정렬 연구의 진전이 기대에 미치지 못하며, 이는 장기적 AI 안전성에 심각한 위협이 될 수 있습니다.\n- FrontierCode: 최전선 AI 모델의 코딩 능력을 측정하는 새로운 벤치마크 또는 도전과제가 소개됩니다. 코딩 역량이 AI 능력의 핵심 지표로 부각되는 트렌드를 반영합니다.\n- 합성 연구 인턴(Synthetic research interns): AI 시스템이 연구 보조 역할을 자동화하는 가능성과 실제 사례를 탐색합니다. 학술 연구 가속화에 AI를 활용하는 방향성을 논의합니다.\n- AI 거버넌스와 안전성 연구에 시사점이 큰 주제들을 집중적으로 다루는 호입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
     },
     {
       "category": "LLM",
-      "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
-      "link": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
-      "summary": "OpenRouter의 'Last Agent Standing Royale' 실험에서 Claude, Grok 등 주요 LLM을 에이전트로 삼아 로봇 제어 시나리오에서 비교한 결과를 공유합니다.",
-      "detail": "OpenRouter의 인사이트 블로그에서 공개한 'Last Agent Standing Royale' 실험 결과입니다.\n- 다양한 LLM(Claude, Grok 등)을 에이전트로 삼아 가상 로봇 제어 시나리오에서 경쟁시키며 어떤 모델이 가장 오래 생존하는지를 측정했습니다.\n- 자율 에이전트 동작, 전략 수립, 도구 사용 등 실제 에이전트 역량을 직관적으로 비교합니다.\n- HN에서 272점(댓글 210개)을 기록하며 모델 간 에이전트 성능 비교에 대한 커뮤니티의 높은 관심을 반영했습니다.\n- 단순 수치 벤치마크를 넘어 실전 시나리오에서 LLM 에이전트가 어떻게 행동하는지를 평가하는 새로운 방식을 제시합니다.\n원문에 현재 접근이 제한되어 제목과 HN 메타데이터를 기반으로 작성했습니다."
+      "title": "LLM Research Papers: The 2026 List (January to May)",
+      "link": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+      "summary": "Sebastian Raschka가 2026년 1~5월에 발표된 주목할 LLM 연구 논문들을 큐레이션해 정리한 목록으로, 아키텍처·학습 방법론·정렬·추론 효율화 등 상반기 연구 트렌드를 한눈에 파악할 수 있습니다.",
+      "detail": "Sebastian Raschka의 'Ahead of AI' 뉴스레터에서 2026년 1~5월 주목할 LLM 연구 논문들을 큐레이션해 정리한 목록입니다.\n- 아키텍처 혁신: KV 공유(KV Sharing), 멀티헤드 압축(mHC), 압축 어텐션(Compressed Attention) 등 컨텍스트 처리 비용을 줄이는 구조적 개선이 주요 흐름입니다.\n- 학습 방법론: 합성 데이터, 강화학습 기반 정렬(RLHF, RLAIF), 효율적 파인튜닝 기법이 다수 포함됩니다.\n- 정렬(Alignment): 모델 행동을 인간 의도에 맞추는 연구와 안전성 관련 논문들이 포함됩니다.\n- 추론 효율화: 추론 속도·메모리를 개선하는 기법과 엣지 배포를 위한 경량화 연구가 다루어집니다.\n- Raschka의 간결한 해설이 붙어 있어 바쁜 개발자·연구자가 2026년 상반기 연구 트렌드를 빠르게 파악할 수 있습니다.\n- 이전 큐레이션 시리즈도 높은 호응을 얻었으며, LLM 연구 트래킹의 신뢰할 수 있는 참고 자료입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
     }
   ]
 }

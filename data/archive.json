@@ -73,6 +73,76 @@
           "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
           "summary": "마이애미 스타트업 Subquadratic이 LLM Transformer의 이차 복잡도 병목을 해결했다고 주장하며 등장했습니다.",
           "detail": "마이애미 스타트업 Subquadratic이 스텔스 모드를 벗어나, LLM의 Transformer 아키텍처에서 약 10년간 해결되지 않은 수학적 병목을 돌파했다는 주장과 함께 등장했습니다.\n- 이 병목은 주의 메커니즘(Attention)의 이차 계산 복잡도(O(n²))로, 긴 컨텍스트 처리 시 속도와 메모리 비용이 폭발적으로 증가하는 문제입니다.\n- Subquadratic은 새로운 수학적 접근으로 이 한계를 극복했다고 주장합니다.\n- MIT Tech Review는 독립적 검증이 아직 이루어지지 않았음을 언급하며 주장의 검증이 필요함을 시사합니다.\n- 만약 사실이라면 긴 컨텍스트 LLM의 처리 비용과 성능에 큰 변화를 가져올 수 있습니다.\n원문에 현재 접근이 제한되어 공개된 도입부와 제목을 기반으로 요약했습니다."
+        },
+        {
+          "category": "Java",
+          "title": "Performance Improvements in JDK 26",
+          "link": "https://inside.java/2026/06/09/jdk-26-performance-improvements/",
+          "summary": "JDK 26의 주목할 성능 개선 사항을 JDK 라이브러리, JVM 런타임, JIT 컴파일러, GC의 네 가지 영역으로 분류해 Inside Java가 정리했습니다.",
+          "detail": "JDK 26의 성능 개선 사항을 네 가지 주요 영역으로 정리한 Inside Java 공식 기사입니다.\n- JDK 라이브러리: 표준 라이브러리 API의 실행 효율이 개선되어 컬렉션·스트림 연산 등 일상적인 연산 성능이 향상되었습니다.\n- JVM 런타임: 객체 할당, 메모리 관리, 스레드 처리 등 JVM 핵심 런타임 레이어가 최적화되었습니다.\n- JIT 컴파일러: 핫스팟 JIT 컴파일러의 코드 생성 품질이 개선되어 반복 실행되는 핫 코드의 처리 속도가 향상됩니다.\n- GC(가비지 컬렉터): 주요 GC의 지연 시간 감소 및 처리량 개선이 포함되었습니다.\n- JDK 26 업그레이드를 검토 중인 팀이나 JVM 성능 튜닝에 관심 있는 개발자에게 유용한 기준 자료입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+        },
+        {
+          "category": "Java",
+          "title": "Java News Roundup: A2A Java SDK 1.0, Jakarta EE 12, JNoSQL, GraalVM, Micrometer, OpenXava, Gradle",
+          "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun08-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "2026년 6월 8일 주간 Java 뉴스 라운드업으로, A2A Java SDK 1.0 GA 릴리스와 Jakarta EE 12 업데이트를 비롯한 에이전트 생태계 확장 소식을 담고 있습니다.",
+          "detail": "InfoQ의 2026년 6월 8일 주간 Java 뉴스 라운드업 주요 내용입니다.\n- A2A Java SDK 1.0 GA: 구글이 주도하는 에이전트 간 통신(Agent-to-Agent) 프로토콜의 Java SDK 1.0 정식 버전이 출시됐습니다. Java 에이전트 생태계의 상호운용성 기반이 한 걸음 강화됩니다.\n- Jakarta EE 12: Jakarta EE 12의 진행 현황이 업데이트됐습니다.\n- Micrometer Metrics·Tracing: 각각 포인트 릴리스가 배포되었습니다.\n- GraalVM: 최신 유지보수 릴리스가 포함됐습니다.\n- JNoSQL, OpenXava, Gradle: 유지보수 및 포인트 릴리스가 공개됐습니다.\nA2A Java SDK 1.0 GA는 다중 에이전트 시스템을 Java로 구현할 때 표준 상호운용 레이어를 제공한다는 점에서 이번 라운드업의 가장 중요한 소식으로 평가됩니다."
+        },
+        {
+          "category": "Spring",
+          "title": "Self-Correcting Structured Output in Spring AI 2.0",
+          "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
+          "summary": "Spring AI 2.0이 LLM의 비정형 출력을 신뢰할 수 있는 구조화 데이터로 변환하는 두 가지 메커니즘(스키마 검증 자동 재시도, 프로바이더 네이티브 출력 강제)을 도입했습니다.",
+          "detail": "Spring AI 2.0은 LLM 텍스트 출력을 소프트웨어가 직접 사용할 수 있는 구조화 데이터로 안정적으로 변환하는 두 가지 핵심 옵션을 제공합니다.\n- validateSchema(자동 재시도): 모델 응답이 JSON 스키마 검증에 실패하면 오류 내용을 프롬프트에 추가해 최대 3회까지 자동 재시도합니다. 모델이 무엇이 잘못됐는지 스스로 파악해 수정합니다.\n- useProviderStructuredOutput(프로바이더 강제): 스키마를 API 파라미터로 전달해 OpenAI, Anthropic, Google, Mistral, Ollama 등 프로바이더 레벨에서 형식을 강제합니다. 처음부터 잘못된 응답이 생성되지 않습니다.\n- 두 옵션은 독립 또는 동시에 사용 가능하며, .entity(ActorsFilms.class, spec -> spec.useProviderStructuredOutput().validateSchema()) 형태로 체이닝합니다.\n- 기존 코드는 변경 없이 유지되고, 새 코드에서 선택적으로 적용할 수 있습니다."
+        },
+        {
+          "category": "Spring",
+          "title": "This Week in Spring - June 23rd, 2026",
+          "link": "https://spring.io/blog/2026/06/23/this-week-in-spring-june-23-2026",
+          "summary": "Spring Boot 4.1 출시 직후의 Spring 생태계 주간 뉴스로, Spring AI 2.0 tool calling API, ElevenLabs 음성 통합, Spring Modulith·Cloud Stream 연동 등이 소개됐습니다.",
+          "detail": "Spring Boot 4.1 출시 직후를 반영한 이번 주간 뉴스레터는 Spring 생태계의 다양한 발전을 담습니다.\n- Spring AI 2.0 Tool Calling API: Christian Tsolov(Spring AI 리드)가 새로운 tool calling API를 상세히 설명한 글이 공유됐습니다.\n- Spring Batch + MongoDB + Boot 4.1: Josh Long이 MongoDB 기반 Spring Batch 배치 처리를 다룬 글을 게시했습니다.\n- ElevenLabs 음성 통합: Craig Walls가 ElevenLabs를 활용한 음성 제어 Spring AI 레시피를 기여했습니다.\n- Binance AI 트레이딩 어시스턴트: Spring AI로 구축하는 AI 기반 거래 도우미 사례가 주목받았습니다.\n- Spring Modulith + Cloud Stream: 이벤트 외부화 통합이 화제가 됐습니다.\n- Bootiful Podcast에서 DaShaun Carter와 Spring Boot 4.1 및 AI 보안을 논의했습니다."
+        },
+        {
+          "category": "AI",
+          "title": "The $400 million machine powering the future of chipmaking",
+          "link": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+          "summary": "ASML의 하이NA EUV 장비는 대당 약 4억 달러에 달하는 초정밀 반도체 노광 기계로, AI 칩 생산을 가능하게 하는 반도체 공급망의 핵심입니다.",
+          "detail": "MIT Technology Review가 ASML의 최신 하이NA(High-NA) EUV(극자외선) 노광 장비를 심층 취재한 기사입니다.\n- 이 장비는 이층 버스 크기(150톤 이상)의 정밀 가공 알루미늄으로 제작된 초대형 반도체 제조 장비이며, 대당 가격이 약 4억 달러(약 5,600억 원)에 달합니다.\n- 기존 EUV보다 더 미세한 회로 패턴을 구현하는 차세대 하이NA EUV는 최첨단 반도체 제조의 핵심 기술입니다.\n- AI 가속기(GPU 등)를 포함한 첨단 반도체 칩 생산에 직결되는 장비로, AI 인프라 공급망의 최전선에 위치합니다.\n- 전 세계에서 ASML만이 이 장비를 제조할 수 있어 AI 반도체 공급의 병목 지점이자 지정학적 전략 자산으로 주목받고 있습니다.\n원문에 현재 접근이 제한되어 제목과 도입부 요약을 기반으로 작성했습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Improving health intelligence in ChatGPT",
+          "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+          "summary": "OpenAI가 GPT-5.5 Instant 기반의 강화된 헬스케어 기능을 ChatGPT에 도입하여 더 정확하고 맥락적인 건강·웰니스 응답을 제공합니다.",
+          "detail": "OpenAI가 GPT-5.5 Instant를 기반으로 ChatGPT의 건강·웰니스 응답 품질을 전반적으로 개선했습니다.\n- 강화된 추론 능력: 복잡한 건강·의료 관련 질문에 더 정확한 답변을 제공합니다.\n- 더 나은 맥락 이해: 사용자의 건강 상태와 상황을 더 잘 파악해 개인화된 응답을 생성합니다.\n- 명확한 커뮤니케이션: 의학 정보를 일반인이 이해하기 쉬운 언어로 전달하는 능력이 향상됐습니다.\n- 의사 참여 평가: 의사들이 참여한 평가 체계로 응답의 의학적 정확도를 검증했습니다.\n원문에 현재 접근이 제한되어 OpenAI 공식 요약을 기반으로 작성했습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Prompt Injection as Role Confusion",
+          "link": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
+          "summary": "프롬프트 인젝션을 '역할 혼동'으로 재정의한 학술 논문 해설로, Simon Willison이 에이전트 시스템 보안의 근본적 취약점을 설명합니다.",
+          "detail": "Simon Willison이 '프롬프트 인젝션을 역할 혼동(Role Confusion)으로서'라는 학술 논문의 블로그 스타일 해설을 소개하는 글입니다.\n- 논문은 프롬프트 인젝션 공격을 단순한 기술적 버그가 아닌 '신뢰할 수 있는 지시(시스템 프롬프트)'와 '신뢰할 수 없는 콘텐츠(외부 입력·사용자 데이터)'의 역할 경계가 무너지는 문제로 개념화합니다.\n- 에이전트가 외부 문서, 웹 콘텐츠, 이메일 등을 처리할 때 역할 경계를 명확히 유지하는 설계가 보안의 핵심임을 시사합니다.\n- 다중 에이전트 시스템과 RAG 파이프라인 구현 시 직접 적용 가능한 보안 프레임워크를 제공합니다.\n원문에 현재 접근이 제한되어 공개된 요약과 제목을 기반으로 작성했습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan",
+          "link": "https://www.latent.space/p/gray-swan",
+          "summary": "OpenAI 이사회 멤버 Zico Kolter와 Gray Swan CEO Matt Fredrikson이 AI 보안이 단순한 '사이버보안+AI'가 아닌 독립된 새 분야임을 Latent Space 팟캐스트에서 논합니다.",
+          "detail": "Latent Space의 swyx가 OpenAI 이사회 멤버 Zico Kolter와 AI 레드팀 전문 스타트업 Gray Swan의 CEO Matt Fredrikson과 나눈 팟캐스트 에피소드입니다.\n- 핵심 주장: AI 보안은 기존 사이버보안에 AI를 얹은 것이 아니라, 적대적 공격 표면·모델 취약점·에이전트 행동 예측 불가능성 등 전혀 새로운 문제를 다루는 독립된 영역입니다.\n- Gray Swan은 AI 레드팀 접근법을 연구하며 실제 모델 공격 시나리오를 개발하는 전문 스타트업입니다.\n- 에이전트 시스템 확산과 함께 공격 표면이 넓어지면서 AI 보안 전문성의 중요도가 점점 높아진다고 강조합니다.\n원문에 현재 접근이 제한되어 공식 설명과 제목을 기반으로 작성했습니다."
+        },
+        {
+          "category": "LLM",
+          "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
+          "link": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
+          "summary": "Import AI 462호에서 Jack Clark이 AI의 초설득(superpersuasion) 능력, 자립형 AI 시스템, AGI·ASI로의 경로를 분석합니다.",
+          "detail": "Jack Clark의 Import AI 462호 주요 내용입니다.\n- 초설득(Superpersuasion): AI의 설득 능력이 인간의 판단력을 압도할 수준에 도달했을 때 어떤 사회적·윤리적 위험이 생기는지를 다룹니다.\n- 자립형 AI(Self-sustaining AI): 인간의 지속적 개입 없이 스스로 유지·개선되는 AI 시스템의 가능성과 그에 따른 통제 문제를 논의합니다.\n- ASI로의 경로(Paths to ASI): 인공 초지능(ASI)에 이르는 다양한 기술적·조직적 경로와 타임라인을 검토합니다.\n원문에 현재 접근이 제한되어 공식 요약과 제목을 기반으로 작성했습니다."
+        },
+        {
+          "category": "LLM",
+          "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
+          "link": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+          "summary": "OpenRouter의 'Last Agent Standing Royale' 실험에서 Claude, Grok 등 주요 LLM을 에이전트로 삼아 로봇 제어 시나리오에서 비교한 결과를 공유합니다.",
+          "detail": "OpenRouter의 인사이트 블로그에서 공개한 'Last Agent Standing Royale' 실험 결과입니다.\n- 다양한 LLM(Claude, Grok 등)을 에이전트로 삼아 가상 로봇 제어 시나리오에서 경쟁시키며 어떤 모델이 가장 오래 생존하는지를 측정했습니다.\n- 자율 에이전트 동작, 전략 수립, 도구 사용 등 실제 에이전트 역량을 직관적으로 비교합니다.\n- HN에서 272점(댓글 210개)을 기록하며 모델 간 에이전트 성능 비교에 대한 커뮤니티의 높은 관심을 반영했습니다.\n원문에 현재 접근이 제한되어 제목과 HN 메타데이터를 기반으로 작성했습니다."
         }
       ]
     }
