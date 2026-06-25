@@ -1,6 +1,75 @@
 {
   "digests": [
     {
+      "date": "2026-06-24",
+      "summary": "이번 다이제스트에서는 Java-Go 마이크로서비스 성능 비교의 2026년 업데이트와 IBM Research의 CUGA 경량 에이전트 하네스 공개가 개발 생태계의 핵심 이슈로 부각됩니다. LLM 분야에서는 AI 정렬 연구가 역량 발전 속도를 따라가지 못한다는 Import AI의 경고와 Sebastian Raschka의 2026년 상반기 LLM 연구 논문 큐레이션이 주목되며, 에이전트 영역에서는 SpaceX의 예상을 뛰어넘는 연 280억 달러 네오클라우드 규모와 Claude Code를 활용한 ML 모델 브라우저 포팅 실험이 화제입니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java News Roundup: Spring Tools, Helidon, Open Liberty, TomEE, JobRunr, Hibernate, Commonhaus",
+          "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun15-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "2026년 6월 15일 주간 Java 뉴스 라운드업으로, Spring Tools·Helidon·JobRunr·Gradle 포인트 릴리스, Open Liberty June 2026 에디션, Apache TomEE 첫 마일스톤 릴리스, Hibernate·Commonhaus 업데이트가 포함됩니다.",
+          "detail": "InfoQ의 2026년 6월 15일 주간 Java 뉴스 라운드업 주요 내용입니다.\n- Spring Tools: Eclipse 기반 Spring IDE의 최신 포인트 릴리스가 배포됐습니다.\n- Helidon: Oracle의 마이크로서비스 프레임워크 Helidon 포인트 릴리스가 공개됐습니다.\n- Open Liberty June 2026 에디션: IBM의 Open Liberty 서버 June 2026 에디션이 출시됐습니다.\n- Apache TomEE: Jakarta EE 기반 TomEE의 첫 마일스톤 릴리스가 공개됐습니다.\n- JobRunr·Gradle: 각각 포인트 릴리스가 배포됐습니다.\n- Hibernate·Commonhaus: 유지보수 업데이트가 포함됐습니다.\n- Java 생태계 전반에서 Spring Boot 4.1 GA 이후 연쇄적인 업데이트가 이뤄지고 있음을 확인할 수 있습니다.\n원문에 현재 접근이 제한되어 InfoQ 공식 요약과 제목을 기반으로 작성했습니다."
+        },
+        {
+          "category": "Java",
+          "title": "Can Java Microservices Be As Fast As Go? A 2026 Benchmark Update",
+          "link": "https://inside.java/2026/06/15/java-microservices-fast-go-2026-benchmark/",
+          "summary": "6년 전 첫 Java-Go 마이크로서비스 성능 비교를 2026년 최신 런타임·하드웨어로 재측정한 결과, 신중하게 구현된 Java 서비스는 여전히 Go와 비슷한 성능을 낼 수 있음을 재확인했습니다.",
+          "detail": "Inside Java가 6년 만에 Java와 Go HTTP 마이크로서비스 성능 비교를 업데이트한 기사입니다.\n- 2020년 첫 비교 이후 JVM 런타임(Virtual Thread, GraalVM Native Image 등), 모던 하드웨어, 컨테이너화 환경이 크게 발전했습니다.\n- 핵심 결론: 주의 깊게 구현된 Java와 Go HTTP 서비스는 최신 런타임·하드웨어에서도 유사한 성능을 달성한다는 결론이 유지됩니다.\n- Project Loom의 Virtual Thread는 Go 고루틴(goroutine)과 유사한 경량 동시성을 제공하며, Java의 처리량 격차를 크게 줄였습니다.\n- GraalVM Native Image 활용 시 Go가 장점을 보이던 시작 시간과 메모리 사용에서도 Java가 경쟁력을 높였습니다.\n- 순수 성능보다 생태계, 도구, 팀 숙련도를 기준으로 언어를 선택하는 것이 여전히 유효한 전략임을 시사합니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+        },
+        {
+          "category": "Spring",
+          "title": "A Bootiful Podcast: DaShaun Carter on patching, Spring Boot 4.1, and security in the world of AI",
+          "link": "https://spring.io/blog/2026/06/18/a-bootiful-podcast-dashaun-carter",
+          "summary": "Spring Developer Advocate DaShaun Carter가 'A Bootiful Podcast'에 출연해 소프트웨어 패칭 전략, Spring Boot 4.1의 주요 변경 사항, AI 시대의 보안 과제를 다뤘습니다.",
+          "detail": "Josh Long의 'A Bootiful Podcast'에 Spring Developer Advocate DaShaun Carter가 게스트로 출연한 에피소드입니다.\n- 패칭(Patching): 현대 소프트웨어 개발 환경에서 의존성과 보안 패치를 적시에 적용하는 전략에 대해 논의합니다. 빠르게 변하는 Spring 생태계에서 최신 버전 추적의 중요성을 강조합니다.\n- Spring Boot 4.1: 최근 출시된 Spring Boot 4.1의 주요 신기능(gRPC 자동 설정, SSRF 완화, Kotlin 2.3 지원 등)을 현장 실무 관점에서 소개합니다.\n- AI 세계의 보안: LLM·AI 에이전트 시스템이 확산되면서 새롭게 등장하는 보안 위협과 Spring 애플리케이션에서 이를 방어하는 접근법에 대해 이야기합니다.\n- DaShaun Carter는 Spring 생태계를 적극적으로 알리는 Developer Advocate로, 실무자 관점의 인사이트를 제공합니다.\n원문 팟캐스트에 현재 접근이 제한되어 제목과 공식 소개를 기반으로 작성했습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+          "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+          "summary": "IBM Research가 경량 에이전트 하네스 CUGA를 기반으로 실제 동작하는 에이전트 앱 24종을 Hugging Face를 통해 오픈소스로 공개했습니다.",
+          "detail": "IBM Research가 CUGA(Composable Universal Graph Agent) 하네스를 기반으로 24가지 실동작 에이전트 앱 예제를 오픈소스로 공개했습니다.\n- CUGA는 코드·툴·에이전트를 그래프 형태로 조합해 복잡한 에이전트 워크플로를 구성할 수 있는 경량 프레임워크입니다.\n- 24가지 예제는 웹 검색, 데이터 분석, 코드 생성, 문서 처리 등 다양한 실전 에이전트 유스케이스를 포함합니다.\n- 무거운 오케스트레이션 프레임워크 없이도 Hugging Face 모델 생태계와 연동해 에이전트 앱을 빠르게 구축할 수 있음을 목표로 합니다.\n- 예제 기반 학습이 가능해 에이전트 앱 개발 진입 장벽을 낮추는 실용적인 참고 자료로 활용할 수 있습니다.\n- IBM Research가 엔터프라이즈 에이전트 구축 경험을 실용 예제 형태로 공개했다는 점에서 주목할 만합니다.\n원문에 현재 접근이 제한되어 제목과 블로그 메타데이터를 기반으로 작성했습니다."
+        },
+        {
+          "category": "AI",
+          "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+          "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+          "summary": "PaddlePaddle의 PP-OCRv6가 50개 언어를 지원하며, 1.5M~34.5M 파라미터의 유연한 모델 크기로 Hugging Face에 공개됐습니다.",
+          "detail": "PaddlePaddle 팀이 PP-OCRv6를 Hugging Face에 공개했습니다.\n- 50개 언어 지원: 영어, 중국어, 한국어, 일본어 등 50개 언어의 텍스트 인식을 지원합니다.\n- 모델 크기 스펙트럼: 최소 1.5M 파라미터의 초경량 모델부터 34.5M 파라미터의 고성능 모델까지 사용 목적에 따라 선택 가능합니다.\n- 경량 고성능: 수십억 파라미터 모델과 경쟁하는 인식 정확도를 훨씬 적은 파라미터로 달성한다고 주장합니다.\n- 엣지 디바이스부터 서버까지 다양한 환경에 배포할 수 있는 유연한 모델 라인업을 제공합니다.\n- Hugging Face를 통해 모델 가중치, 데모, 추론 파이프라인을 직접 사용할 수 있습니다.\n- 오픈소스 다국어 OCR이 필요한 개발자에게 실용적인 선택지가 늘어났습니다.\n원문에 현재 접근이 제한되어 제목과 공식 메타데이터를 기반으로 작성했습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] SpaceX is already a $28B/yr Neocloud",
+          "link": "https://www.latent.space/p/ainews-spacex-is-already-a-28byr",
+          "summary": "Latent Space AINews가 Jamin Ball의 분석을 인용해 SpaceX가 연매출 약 280억 달러 규모의 네오클라우드로 이미 성장했다는 수치를 조명했습니다.",
+          "detail": "Latent Space의 일일 AINews에서 Jamin Ball의 클라우드 인프라 분석 데이터를 중심으로 SpaceX의 AI 클라우드 사업 규모를 정리했습니다.\n- '네오클라우드(Neocloud)'는 AWS·Azure·GCP가 아닌 새로운 AI 전용 클라우드 인프라 사업자를 가리키는 신조어입니다.\n- SpaceX는 Starlink 위성 인터넷 인프라와 xAI 연관 GPU 클러스터 등을 통해 연 280억 달러(약 39조 원) 수준의 인프라 매출을 이미 올리고 있다는 분석입니다.\n- 이는 기존 빅3 하이퍼스케일러 외에 AI 인프라 경쟁의 새로운 축이 형성되고 있음을 시사합니다.\n- CoreWeave, Lambda Labs 등 AI 전용 클라우드 사업자들이 급성장하는 가운데, SpaceX/xAI의 인프라 규모가 예상을 크게 상회함을 보여줍니다.\n- AI 인프라 투자·수익화 경쟁에서 SpaceX가 독보적 위치를 선점하고 있음을 보여주는 사례입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
+          "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
+          "summary": "Simon Willison이 Moebius 0.2B 이미지 인페인팅 모델을 Claude Code를 활용해 브라우저에서 직접 실행할 수 있도록 포팅하는 과정을 공유했습니다.",
+          "detail": "Simon Willison이 Hacker News에서 발견한 Moebius(0.2B 파라미터, 경량 이미지 인페인팅 모델)를 브라우저에서 실행할 수 있도록 변환한 경험을 공유했습니다.\n- Moebius는 이미지의 지정 영역을 자연스럽게 채우는 인페인팅 모델로, 10B 수준 모델과 견줄 성능을 0.2B 파라미터로 달성한다고 주장합니다.\n- Willison은 Claude Code를 AI 코딩 파트너로 활용해 모델을 WebAssembly 또는 ONNX.js 기반 브라우저 실행 환경으로 변환하는 작업을 진행했습니다.\n- 로컬 서버나 GPU 인프라 없이 브라우저만으로 ML 모델을 실행하는 가능성을 입증하는 실험적 프로젝트입니다.\n- Claude Code가 ML 모델 포팅·변환 같은 복잡한 엔지니어링 작업에서도 효과적인 코딩 파트너임을 보여줍니다.\n- 에지 AI와 브라우저 기반 ML 트렌드가 만나는 교차점에서의 실용적 사례입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+        },
+        {
+          "category": "LLM",
+          "title": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
+          "link": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
+          "summary": "Import AI 461호에서 Jack Clark가 AI 정렬 연구가 모델 역량 발전 속도를 따라가지 못하고 있다는 경고, FrontierCode 벤치마크, 합성 연구 인턴 활용을 다뤘습니다.",
+          "detail": "Jack Clark의 Import AI 461호 주요 내용입니다.\n- '정렬은 궤도를 벗어났다(Alignment is not on track)': AI 안전성 연구가 모델 역량 발전 속도를 따라가지 못하고 있다는 경고가 핵심입니다. 정렬 연구의 진전이 기대에 미치지 못하며, 이는 장기적 AI 안전성에 심각한 위협이 될 수 있습니다.\n- FrontierCode: 최전선 AI 모델의 코딩 능력을 측정하는 새로운 벤치마크 또는 도전과제가 소개됩니다. 코딩 역량이 AI 능력의 핵심 지표로 부각되는 트렌드를 반영합니다.\n- 합성 연구 인턴(Synthetic research interns): AI 시스템이 연구 보조 역할을 자동화하는 가능성과 실제 사례를 탐색합니다. 학술 연구 가속화에 AI를 활용하는 방향성을 논의합니다.\n- AI 거버넌스와 안전성 연구에 시사점이 큰 주제들을 집중적으로 다루는 호입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+        },
+        {
+          "category": "LLM",
+          "title": "LLM Research Papers: The 2026 List (January to May)",
+          "link": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
+          "summary": "Sebastian Raschka가 2026년 1~5월에 발표된 주목할 LLM 연구 논문들을 큐레이션해 정리한 목록으로, 아키텍처·학습 방법론·정렬·추론 효율화 등 상반기 연구 트렌드를 한눈에 파악할 수 있습니다.",
+          "detail": "Sebastian Raschka의 'Ahead of AI' 뉴스레터에서 2026년 1~5월 주목할 LLM 연구 논문들을 큐레이션해 정리한 목록입니다.\n- 아키텍처 혁신: KV 공유(KV Sharing), 멀티헤드 압축(mHC), 압축 어텐션(Compressed Attention) 등 컨텍스트 처리 비용을 줄이는 구조적 개선이 주요 흐름입니다.\n- 학습 방법론: 합성 데이터, 강화학습 기반 정렬(RLHF, RLAIF), 효율적 파인튜닝 기법이 다수 포함됩니다.\n- 정렬(Alignment): 모델 행동을 인간 의도에 맞추는 연구와 안전성 관련 논문들이 포함됩니다.\n- 추론 효율화: 추론 속도·메모리를 개선하는 기법과 엣지 배포를 위한 경량화 연구가 다루어집니다.\n- Raschka의 간결한 해설이 붙어 있어 바쁜 개발자·연구자가 2026년 상반기 연구 트렌드를 빠르게 파악할 수 있습니다.\n- 이전 큐레이션 시리즈도 높은 호응을 얻었으며, LLM 연구 트래킹의 신뢰할 수 있는 참고 자료입니다.\n원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-06-23",
       "summary": "오늘 다이제스트에는 AI가 기업·정책 영역으로 빠르게 침투하는 소식이 두드러집니다. OpenAI는 Daybreak 보안 도구를 발표하고 삼성전자와의 초대형 기업 도입을 알렸으며, Anthropic은 미국 정부와의 갈등으로 정책 이슈가 불거졌습니다. 개발 생태계에서는 Spring Boot 4.1의 MongoDB Spring Batch 지원, Claude Code 확장 사고 출력의 진위 논쟁, Cloudflare의 AI 에이전트용 임시 계정 기능, 그리고 Claude Code 로컬 메모리 도구 Recall이 큰 주목을 받고 있습니다.",
       "highlights": [
