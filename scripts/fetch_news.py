@@ -23,7 +23,6 @@ FEEDS = [
     ("https://inside.java/feed.xml", "Inside Java", "Java"),
     ("https://feed.infoq.com/java/", "InfoQ Java", "Java"),
     ("https://foojay.io/feed/", "Foojay", "Java"),
-    ("https://vladmihalcea.com/feed/", "Vlad Mihalcea", "Java"),
     ("https://spring.io/blog.atom", "Spring Blog", "Spring"),
     ("https://feed.infoq.com/spring/", "InfoQ Spring", "Spring"),
     ("https://blog.google/technology/ai/rss/", "Google AI", "AI"),
