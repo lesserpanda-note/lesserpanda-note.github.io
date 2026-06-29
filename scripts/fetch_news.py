@@ -23,10 +23,13 @@ FEEDS = [
     ("https://inside.java/feed.xml", "Inside Java", "Java"),
     ("https://feed.infoq.com/java/", "InfoQ Java", "Java"),
     ("https://spring.io/blog.atom", "Spring Blog", "Spring"),
+    ("https://feed.infoq.com/spring/", "InfoQ Spring", "Spring"),
     ("https://blog.google/technology/ai/rss/", "Google AI", "AI"),
     ("https://huggingface.co/blog/feed.xml", "Hugging Face", "AI"),
     ("https://www.technologyreview.com/topic/artificial-intelligence/feed", "MIT Tech Review", "AI"),
     ("https://openai.com/blog/rss.xml", "OpenAI", "AI"),
+    # Anthropic publishes no official RSS; this is a community mirror of anthropic.com/news.
+    ("https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml", "Anthropic", "AI"),
     # Agents — Claude Code, agent / harness / context engineering
     ("https://simonwillison.net/atom/everything/", "Simon Willison", "Agents"),
     ("https://www.latent.space/feed", "Latent Space", "Agents"),
