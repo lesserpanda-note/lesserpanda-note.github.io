@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-29T15:44:50.731576+00:00",
-  "count": 410,
+  "updated": "2026-06-29T15:49:09.262307+00:00",
+  "count": 420,
   "items": [
     {
       "title": "Eliya 25 Brings a JVM-Level Diagnostic Profile to OpenJDK 25 LTS",
@@ -21,6 +21,24 @@
       "published": "2026-06-29T14:44:01+00:00"
     },
     {
+      "title": "7 New Vulnerabilities in Jackson in One Day: This Is What AI-Assisted Security Research Looks Like",
+      "link": "https://foojay.io/today/7-new-vulnerabilities-in-jackson-in-one-day-this-is-what-ai-assisted-security-research-looks-like/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Quick version check: the affected range for all seven is broadly >=2.10.0 =2.19.0 =3.0.0 <3.1.4 — with some CVEs affecting narrower ranges. If you're on a supported release, upgrade to 2.18.8, 2.21.4, or 3.1.4. If you'r…",
+      "ts": 1782733661,
+      "published": "2026-06-29T11:47:41+00:00"
+    },
+    {
+      "title": "Building an AI-Powered Operations Assistant with Spring AI and MongoDB Atlas — Part 3: Stateful Workflows and Human-in-the-Loop",
+      "link": "https://foojay.io/today/building-an-ai-powered-operations-assistant-with-spring-ai-and-mongodb-atlas-part-3-stateful-workflows-and-human-in-the-loop/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "This is the third and final article in the series. Part 1 covered the RAG foundation — loading runbooks into a vector store and grounding model answers in real documentation. Part 2 added short-term and long-term conver…",
+      "ts": 1782726040,
+      "published": "2026-06-29T09:40:40+00:00"
+    },
+    {
       "title": "Mapping Europe’s AI Workforce Opportunity",
       "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
       "source": "OpenAI",
@@ -28,6 +46,15 @@
       "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
       "ts": 1782716400,
       "published": "2026-06-29T07:00:00+00:00"
+    },
+    {
+      "title": "Endive 1.0 Is Here: Wasm on the JVM Ships Under the Bytecode Alliance",
+      "link": "https://foojay.io/today/endive-1-0-wasm/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A few weeks ago, we wrote about a new generation of Java libraries powered by WebAssembly. SQLite, QuickJS, Protocol Buffers, the Ruby Prism parser, all compiled to Wasm and shipped as regular JARs. No JNI, no platform-…",
+      "ts": 1782691860,
+      "published": "2026-06-29T00:11:00+00:00"
     },
     {
       "title": "Quoting Jon Udell",
@@ -66,6 +93,15 @@
       "published": "2026-06-28T16:35:19+00:00"
     },
     {
+      "title": "AI-Assisted Unused & Dead Code Removal",
+      "link": "https://foojay.io/today/ai-assisted-unused-dead-code-removal/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Why Your Codebase Is Forcing AI to Underperform, and What to Do About It Your AI coding assistant is only as good as the codebase it works on. If your Java application carries years of dead & unused code, and most do, .…",
+      "ts": 1782631182,
+      "published": "2026-06-28T07:19:42+00:00"
+    },
+    {
       "title": "Using Local Coding Agents",
       "link": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
       "source": "Ahead of AI",
@@ -102,6 +138,15 @@
       "published": "2026-06-26T21:15:09+00:00"
     },
     {
+      "title": "Native Linux, Apple Watch, A Game Builder And Crash Protection",
+      "link": "https://foojay.io/today/native-linux-apple-watch-a-game-builder-and-crash-protection/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "This week adds a native Linux desktop port, an Apple Watch and Wear OS port, a visual Game Builder with a high-level gaming API, and seamless crash protection that symbolicates native crashes and files them as GitHub is…",
+      "ts": 1782499402,
+      "published": "2026-06-26T18:43:22+00:00"
+    },
+    {
       "title": "What happened after 2,000 people tried to hack my AI assistant",
       "link": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
       "source": "Simon Willison",
@@ -136,6 +181,15 @@
       "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
       "ts": 1782468000,
       "published": "2026-06-26T10:00:00+00:00"
+    },
+    {
+      "title": "Jurassic JDK: Migrate or Extinct",
+      "link": "https://foojay.io/today/jurassic-jdk-migrate-or-extinct/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "65 million years ago, dinosaurs didn't adapt. They're gone. Your JDK 7 app is giving the same energy. 🫠 I spent a year and a half migrating more than 15 projects in production. Full time. Real teams, real deadlines, rea…",
+      "ts": 1782458880,
+      "published": "2026-06-26T07:28:00+00:00"
     },
     {
       "title": "[AINews] OpenAI reports median internal Codex output tokens grew 56x in Research, 32x in Customer Support, 27x in Engineering, and 13x in Legal since November 2025.",
@@ -199,6 +253,24 @@
       "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisi…",
       "ts": 1782397379,
       "published": "2026-06-25T14:22:59+00:00"
+    },
+    {
+      "title": "Aggregation Optimization in MongoDB: Unnecessary Unwinds (Part 2)",
+      "link": "https://foojay.io/today/aggregation-optimization-in-mongodb-unnecessary-unwinds-part-2/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "And why MongoDB might be a better relational database than you ever realized. Design reviews are one-on-one meetings where MongoDB experts deliver advice on data modeling best practices and application design challenges…",
+      "ts": 1782381660,
+      "published": "2026-06-25T10:01:00+00:00"
+    },
+    {
+      "title": "Pi4J Drivers: Simplifying Sensor and Hardware Integration in Java",
+      "link": "https://foojay.io/today/pi4j-drivers-simplifying-sensor-and-hardware-integration-in-java/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "When developing Java applications for Raspberry Pi, Pi4J is one of the most popular libraries for accessing GPIO, I2C, SPI, PWM, and other hardware interfaces. However, interacting directly with these protocols often re…",
+      "ts": 1782371228,
+      "published": "2026-06-25T07:07:08+00:00"
     },
     {
       "title": "[AINews] It's Meta-Harness Summer",
@@ -289,6 +361,24 @@
       "summary": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limit…",
       "ts": 1782302394,
       "published": "2026-06-24T11:59:54+00:00"
+    },
+    {
+      "title": "What’s New In The June 2026 Azul Payara Release?",
+      "link": "https://foojay.io/today/whats-new-in-the-june-2026-azul-payara-release/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "The June 2026 cycle ships the first regular monthly release of the Payara 7 line, plus a critical security fix that lands across every supported branch. Azul Payara 7.1.0 continues the Jakarta EE 11 line that went gener…",
+      "ts": 1782300532,
+      "published": "2026-06-24T11:28:52+00:00"
+    },
+    {
+      "title": "BoxLang 1.14.0 : Query Transformers – Take Full Control of Your Query Results",
+      "link": "https://foojay.io/today/boxlang-1-14-0-query-transformers-take-full-control-of-your-query-results/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "BoxLang 1.14.0 ships a lot of exciting features -- Dynamic Sets, Ranges, Inner Classes, JSONPath navigation -- but one quietly powerful addition will change the way you think about every database call in your applicatio…",
+      "ts": 1782297973,
+      "published": "2026-06-24T10:46:13+00:00"
     },
     {
       "title": "[AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack",
