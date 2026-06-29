@@ -1,17 +1,20 @@
 name: build-and-deploy
 
 # Pages "Source: GitHub Actions". One workflow regenerates the data and deploys
-# the whole site, so every run is also a deploy — no commit-back, no loop, and
-# no legacy Jekyll build failures.
+# the whole site. The accumulated news feed is committed back so it survives
+# across runs; that commit is path-ignored and marked [skip ci] so it never
+# re-triggers a deploy (no loop).
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - "data/news.json"        # our own news commits must not re-trigger a deploy
   schedule:
     - cron: "0 */6 * * *"        # refresh news every 6 hours (UTC)
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write               # commit the accumulated news.json back to the repo
   pages: write
   id-token: write
 
@@ -34,6 +37,18 @@ jobs:
 
       - name: Fetch news (RSS)
         run: python scripts/fetch_news.py
+
+      - name: Persist accumulated news
+        run: |
+          if [ -n "$(git status --porcelain data/news.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/news.json
+            git commit -m "chore: accumulate news feed [skip ci]"
+            git push origin HEAD:main
+          else
+            echo "news.json unchanged; nothing to commit"
+          fi
 
       - uses: actions/configure-pages@v5
 

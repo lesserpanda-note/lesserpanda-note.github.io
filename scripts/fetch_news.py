@@ -42,7 +42,7 @@ FEEDS = [
 ]
 
 USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"
-PER_CATEGORY_LIMIT = 15  # keep newest N per category
+RETENTION_DAYS = 90  # accumulate items, dropping anything older than this
 SUMMARY_CHARS = 220
 REQUEST_TIMEOUT = 20  # seconds per feed
 
@@ -104,25 +104,37 @@ def fetch_feed(url: str, source: str, category: str) -> list[dict]:
     return items
 
 
+def load_existing() -> list[dict]:
+    """Items already on disk, so each run grows the feed instead of resetting it."""
+    try:
+        prev = json.loads(OUT.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return []
+    return prev.get("items", []) if isinstance(prev, dict) else []
+
+
 def main() -> int:
     socket.setdefaulttimeout(REQUEST_TIMEOUT)
-    by_cat: dict[str, list[dict]] = {}
-    seen: set[str] = set()
+
+    existing = load_existing()
+    # Accumulate: start from what we already have, fold in fresh entries by link.
+    merged: dict[str, dict] = {it["link"]: it for it in existing if it.get("link")}
     for url, source, category in FEEDS:
         for item in fetch_feed(url, source, category):
-            if item["link"] in seen:
-                continue
-            seen.add(item["link"])
-            by_cat.setdefault(category, []).append(item)
+            merged.setdefault(item["link"], item)  # keep the first-seen copy
 
-    result: list[dict] = []
-    for items in by_cat.values():
-        items.sort(key=lambda x: x["ts"] or 0, reverse=True)
-        result.extend(items[:PER_CATEGORY_LIMIT])
+    now_ts = int(datetime.now(timezone.utc).timestamp())
+    cutoff = now_ts - RETENTION_DAYS * 86_400
+    result = [it for it in merged.values() if (it.get("ts") or now_ts) >= cutoff]
     result.sort(key=lambda x: x["ts"] or 0, reverse=True)
 
     if not result:
-        print("WARNING: no items fetched; keeping existing news.json", file=sys.stderr)
+        print("WARNING: no items; keeping existing news.json", file=sys.stderr)
+        return 0
+
+    # Nothing added or aged out -> leave the file (and its commit) untouched.
+    if [it.get("link") for it in result] == [it.get("link") for it in existing]:
+        print(f"no change ({len(result)} items)")
         return 0
 
     payload = {
