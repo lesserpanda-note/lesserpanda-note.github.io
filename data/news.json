@@ -1,13 +1,67 @@
 {
-  "updated": "2026-06-30T11:29:54.061529+00:00",
-  "count": 430,
+  "updated": "2026-06-30T18:24:04.744231+00:00",
+  "count": 440,
   "items": [
+    {
+      "title": "The AI Compass",
+      "link": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The AI Compass This political compass style quiz by bambamramfan is pretty neat - answer 29 questions about AI and AI ethics to see which of the 30 archetypes you best fit. I'm impressed that my answers on my first time…",
+      "ts": 1782841163,
+      "published": "2026-06-30T17:39:23+00:00"
+    },
+    {
+      "title": "Have your agent record video demos of its work with shot-scraper video",
+      "link": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that r…",
+      "ts": 1782838466,
+      "published": "2026-06-30T16:54:26+00:00"
+    },
+    {
+      "title": "shot-scraper 1.10",
+      "link": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: shot-scraper 1.10 The big new feature is shot-scraper video storyboard.yml , described in detail in Have your agent record video demos of its work with shot-scraper video . Tags: shot-scraper",
+      "ts": 1782832214,
+      "published": "2026-06-30T15:10:14+00:00"
+    },
+    {
+      "title": "Why Specialization Is Inevitable",
+      "link": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1782830351,
+      "published": "2026-06-30T14:39:11+00:00"
+    },
+    {
+      "title": "Agriculture is ready for AI, but its data isn’t",
+      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industr…",
+      "ts": 1782820800,
+      "published": "2026-06-30T12:00:00+00:00"
+    },
     {
       "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design",
       "link": "https://www.infoq.com/articles/tradeoffs-event-driven-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
       "category": "Java",
       "summary": "Event-driven architecture promises scalability, but in Java-based real-time systems the tradeoffs only surface in production. Drawing on a Java/Kafka contact center platform handling 80k BHCC across 10k agents, this art…",
+      "ts": 1782810000,
+      "published": "2026-06-30T09:00:00+00:00"
+    },
+    {
+      "title": "How ChatGPT adoption has expanded",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
       "ts": 1782810000,
       "published": "2026-06-30T09:00:00+00:00"
     },
@@ -44,6 +98,42 @@
       "source": "Spring Blog",
       "category": "Spring",
       "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring , a weekly recap in which we review the latest and greatest in the wide and wonderful world of Spring. You probably already knew this. I don't know…",
+      "ts": 1782777600,
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    {
+      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
+      "link": "https://huggingface.co/blog/eee-community-evals",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1782777600,
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    {
+      "title": "Introducing GeneBench-Pro",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "ts": 1782777600,
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    {
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "ts": 1782777600,
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    {
+      "title": "Inside Genebench-Pro",
+      "link": "https://openai.com/index/genebench-pro/case-studies",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "",
       "ts": 1782777600,
       "published": "2026-06-30T00:00:00+00:00"
     },
@@ -1346,6 +1436,15 @@
     {
       "title": "[AINews] Loopcraft: The Art of Stacking Loops",
       "link": "https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day lets us highlight a great concept from Peter Steinberger, Boris Cherny, and Andrej Karpathy",
+      "ts": 1781242449,
+      "published": "2026-06-12T05:34:09+00:00"
+    },
+    {
+      "title": "[AINews] Loopcraft: The Art of Stacking Loops",
+      "link": "https://www.latent.space/p/loopcraft",
       "source": "Latent Space",
       "category": "Agents",
       "summary": "a quiet day lets us highlight a great concept from Peter Steinberger, Boris Cherny, and Andrej Karpathy",
@@ -3862,15 +3961,6 @@
       "summary": "",
       "ts": 1775088000,
       "published": "2026-04-02T00:00:00+00:00"
-    },
-    {
-      "title": "Show HN: Baton – A desktop app for developing with AI agents",
-      "link": "https://getbaton.dev/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Hi, I built this because running multiple Claude Code agents across multiple IDE and terminal windows was getting messy. Like many, I went from working at one thing at the time, to multiple, and it was all changing quit…",
-      "ts": 1775045490,
-      "published": "2026-04-01T12:11:30+00:00"
     }
   ]
 }
