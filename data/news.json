@@ -1,7 +1,70 @@
 {
-  "updated": "2026-06-29T22:19:06.482285+00:00",
-  "count": 426,
+  "updated": "2026-06-30T11:29:54.061529+00:00",
+  "count": 430,
   "items": [
+    {
+      "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design",
+      "link": "https://www.infoq.com/articles/tradeoffs-event-driven-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Event-driven architecture promises scalability, but in Java-based real-time systems the tradeoffs only surface in production. Drawing on a Java/Kafka contact center platform handling 80k BHCC across 10k agents, this art…",
+      "ts": 1782810000,
+      "published": "2026-06-30T09:00:00+00:00"
+    },
+    {
+      "title": "JavaFX Links of June 2026",
+      "link": "https://foojay.io/today/javafx-links-of-june-2026/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Here are the JavaFX LinksOfTheMonth of June 2026. You can find the weekly lists on jfx-central.com. Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@j…",
+      "ts": 1782804211,
+      "published": "2026-06-30T07:23:31+00:00"
+    },
+    {
+      "title": "[AINews] not much happened today",
+      "link": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day before the storm.",
+      "ts": 1782802047,
+      "published": "2026-06-30T06:47:27+00:00"
+    },
+    {
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer.",
+      "ts": 1782799200,
+      "published": "2026-06-30T06:00:00+00:00"
+    },
+    {
+      "title": "This Week in Spring - June 30th, 2026",
+      "link": "https://spring.io/blog/2026/06/30/this-week-in-spring-june-30-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring , a weekly recap in which we review the latest and greatest in the wide and wonderful world of Spring. You probably already knew this. I don't know…",
+      "ts": 1782777600,
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    {
+      "title": "HTML table extractor",
+      "link": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: HTML table extractor Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdow…",
+      "ts": 1782776301,
+      "published": "2026-06-29T23:38:21+00:00"
+    },
+    {
+      "title": "Java News Roundup: Hardwood 1.0, Endive 1.0, Azul Payara, Quarkus, WildFly, LangChain4j, OSSI",
+      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun22-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for June 22nd, 2026, features news highlighting: the GA releases of Hardwood 1.0 and Endive 1.0; the June 2026 edition of Azul Payara; point releases of Quarkus, LangChain4j; the first beta rele…",
+      "ts": 1782775800,
+      "published": "2026-06-29T23:30:00+00:00"
+    },
     {
       "title": "Count the number of Safari tabs",
       "link": "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything",
@@ -3808,33 +3871,6 @@
       "summary": "Hi, I built this because running multiple Claude Code agents across multiple IDE and terminal windows was getting messy. Like many, I went from working at one thing at the time, to multiple, and it was all changing quit…",
       "ts": 1775045490,
       "published": "2026-04-01T12:11:30+00:00"
-    },
-    {
-      "title": "Falcon Perception",
-      "link": "https://huggingface.co/blog/tiiuae/falcon-perception",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1775027600,
-      "published": "2026-04-01T07:13:20+00:00"
-    },
-    {
-      "title": "Gradient Labs gives every bank customer an AI account manager",
-      "link": "https://openai.com/index/gradient-labs",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Gradient Labs uses GPT-4.1 and GPT-5.4 mini and nano to power AI agents that automate banking support workflows with low latency and high reliability.",
-      "ts": 1775008800,
-      "published": "2026-04-01T02:00:00+00:00"
-    },
-    {
-      "title": "Any Custom Frontend with Gradio's Backend",
-      "link": "https://huggingface.co/blog/introducing-gradio-server",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1775001600,
-      "published": "2026-04-01T00:00:00+00:00"
     }
   ]
 }
