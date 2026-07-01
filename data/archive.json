@@ -1,6 +1,40 @@
 {
   "digests": [
     {
+      "date": "2026-06-29",
+      "summary": "오늘 다이제스트는 Java·Agents·LLM 세 카테고리에서 새로운 소식을 전합니다. Java 영역에서는 Oracle이 JDK 26에 대응하는 VS Code용 Java 확장 버전 26.0.0을 출시했으며, AI Engineer World's Fair 컨퍼런스 할인 안내가 에이전트 개발자 커뮤니티에 전달됩니다. LLM 분야에서는 Jack Clark의 Import AI 뉴스레터가 AI의 미래·특이점 논의와 AI 사이버무기·Muon 옵티마이저·긍정적 정렬 등 AI 안전성과 기술 혁신의 핵심 이슈를 연속으로 짚습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Oracle Java Extension for Visual Studio Code Version 26.0.0 Is Now Available",
+          "link": "https://inside.java/2026/06/08/java-vscode-extension-update/",
+          "summary": "Oracle이 VS Code용 Java Platform 확장 버전 26.0.0을 출시했습니다. JDK 26에 발맞춘 이번 업데이트는 Java 개발자의 VS Code 환경을 최신 플랫폼 지원으로 개선합니다.",
+          "detail": "Oracle이 Visual Studio Code용 Java 확장 도구의 버전 26.0.0 출시를 Inside Java를 통해 공식 발표했습니다.\n- 버전 번호 26.0.0은 JDK 26과의 정렬을 반영하며, Java 개발 환경 지원의 최신화가 이루어졌습니다.\n- Oracle의 VS Code Java 확장은 코드 완성, 디버깅, 리팩토링, 테스트 실행 등 Java 개발을 위한 핵심 기능을 제공합니다.\n- 원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다. 구체적인 신기능과 변경 사항은 Inside Java 원문에서 확인하시기 바랍니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[Exclusive] $250 off AI Engineer tix til Monday",
+          "link": "https://www.latent.space/p/exclusive-250-off-ai-engineer-tix",
+          "summary": "Latent Space 구독자를 대상으로 AI Engineer World's Fair 컨퍼런스 티켓을 월요일까지 250달러 할인하는 한정 혜택이 제공됩니다.",
+          "detail": "Latent Space 뉴스레터의 구독자를 대상으로 한 AI Engineer World's Fair 컨퍼런스 한정 할인 안내입니다.\n- 월요일까지 티켓 가격에서 250달러 할인이 적용되는 구독자 전용 혜택입니다.\n- AI Engineer World's Fair는 AI 엔지니어링과 에이전트 개발 분야의 주요 컨퍼런스로, Latent Space가 주요 파트너로 참여하고 있습니다.\n- 원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+        },
+        {
+          "category": "LLM",
+          "title": "Import AI 458: Reckoning with the future; and a singularity story",
+          "link": "https://importai.substack.com/p/import-ai-458-reckoning-with-the",
+          "summary": "Import AI 458호에서 Jack Clark가 AI의 미래를 냉철하게 되짚고, AI 주도 특이점의 가능성과 올해 기대되는 AI 기적에 대한 서사를 탐구합니다.",
+          "detail": "Jack Clark의 Import AI 458호 주요 내용입니다.\n- AI의 미래 전망(Reckoning with the future): 빠르게 발전하는 AI 역량이 가져올 변화와 그에 대한 냉철한 평가를 다룹니다.\n- 특이점 이야기(Singularity story): AI가 주도하는 기술적 특이점의 가능성과 그 함의에 관한 서사를 탐구합니다.\n- '올해 AI가 이루어낼 기적은 무엇인가?'라는 핵심 질문이 이 호의 주제를 관통합니다.\n- 원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+        },
+        {
+          "category": "LLM",
+          "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
+          "link": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
+          "summary": "Import AI 457호에서 Jack Clark가 AI 기반 사이버 공격(AI 스턱스넷), Muon 옵티마이저의 특이한 거동, 긍정적 정렬 연구를 다룹니다.",
+          "detail": "Jack Clark의 Import AI 457호 주요 내용입니다.\n- AI 스턱스넷(AI stuxnet): Stuxnet처럼 정교한 AI 활용 사이버 공격 또는 AI 시스템을 표적으로 삼는 위협에 관한 연구를 다룹니다.\n- Muon 옵티마이저(Cursed Muon optimizer): 딥러닝 모델 훈련에 사용되는 Muon 최적화 알고리즘의 특이한 거동이나 한계를 분석하는 내용입니다.\n- 긍정적 정렬(Positive alignment): AI 시스템이 인간 의도에 부합하도록 정렬하는 연구 중 긍정적·구성적 접근법을 소개합니다.\n- 원문에 현재 접근이 제한되어 제목과 공식 요약을 기반으로 작성했습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-06-28",
       "summary": "이번 다이제스트에서는 Java 서버리스 성능 튜닝과 ZGC 약한 참조 처리 단순화로 JVM 플랫폼의 심층적인 최적화 방향을 살펴봅니다. AI 분야에서는 여행 플랫폼 Omio의 OpenAI 기반 대화형 검색 전환 사례가 AI 네이티브 기업 전환의 실용적 모델을 제시하며, LLM 영역에서는 Import AI 459호의 AI 감독 어려움·단백질 접힘 스케일링 법칙·멸종 위험 가격화 논의와 Ollama 기반 로컬 퍼스트 에이전트 프레임워크 OpenJarvis v1.0 출시가 AI 안전성 담론과 프라이버시 중심 AI 개발 트렌드를 보여줍니다.",
       "highlights": [
