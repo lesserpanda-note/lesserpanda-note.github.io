@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-02T10:19:56.633405+00:00",
-  "count": 461,
+  "updated": "2026-07-02T18:18:11.219650+00:00",
+  "count": 473,
   "items": [
+    {
+      "title": "Understand to participate",
+      "link": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I saw Geoffrey Litt speak at AIE yesterday, and one framing he used particularly resonated with me: Understand to participate Geoffrey was talking about the challenge of collaborating with coding agents as they construc…",
+      "ts": 1783012034,
+      "published": "2026-07-02T17:07:14+00:00"
+    },
+    {
+      "title": "Achieving operational excellence with AI",
+      "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphas…",
+      "ts": 1783006628,
+      "published": "2026-07-02T15:37:08+00:00"
+    },
+    {
+      "title": "Skill engineering and the case against one-shot AI design",
+      "link": "https://www.latent.space/p/skill-engineering-design",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Paul Bakaus talks to us about Impeccable, human judgment in a 'loopmaxxing' era, and why agents still need people to steer them.",
+      "ts": 1783002965,
+      "published": "2026-07-02T14:36:05+00:00"
+    },
+    {
+      "title": "Teaching AI to run with the turbines",
+      "link": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where phys…",
+      "ts": 1782996704,
+      "published": "2026-07-02T12:51:44+00:00"
+    },
     {
       "title": "Building AI Systems with MongoDB: Implementing the Planning Pattern",
       "link": "https://foojay.io/today/building-ai-systems-with-mongodb-implementing-the-planning-pattern/",
@@ -39,6 +75,15 @@
       "published": "2026-07-02T00:00:00+00:00"
     },
     {
+      "title": "SIMD Vectors in the HotSpot JVM - Auto Vectorization and the Vector API",
+      "link": "https://inside.java/2026/07/02/simd-vectors-hotspot-jvm/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Explore the latest work on the HotSpot JVM, with a focus on auto-vectorization and the Vector API.",
+      "ts": 1782950400,
+      "published": "2026-07-02T00:00:00+00:00"
+    },
+    {
       "title": "Autoresearch: The feedback loop behind self-improving agents",
       "link": "https://www.latent.space/p/autoresearch-introspection",
       "source": "Latent Space",
@@ -46,6 +91,15 @@
       "summary": "Introspection co-founder Roland Gavrilescu explains autoresearch, agent “recipes,” self-improving loops, and why humans remain central to the software factory.",
       "ts": 1782949950,
       "published": "2026-07-01T23:52:30+00:00"
+    },
+    {
+      "title": "ZCode: Claude Code from the Makers of GLM",
+      "link": "https://zcode.z.ai/cn",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://zcode.z.ai/cn Comments URL: https://news.ycombinator.com/item?id=48751752 Points: 275 # Comments: 14",
+      "ts": 1782933098,
+      "published": "2026-07-01T19:11:38+00:00"
     },
     {
       "title": "How Cursor deploys AI inside the enterprise",
@@ -100,6 +154,15 @@
       "summary": "Warp's founder thinks every major software project will soon run on an automated factory. He discusses why and how engineers should prepare for this shift.",
       "ts": 1782916103,
       "published": "2026-07-01T14:28:23+00:00"
+    },
+    {
+      "title": "Show HN: Claudoro, Pomodoro timer embedded in the Claude Code statusline",
+      "link": "https://github.com/emson/claudoro",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "3 weeks ago I had a nasty accident and fractured my vertebrae. As I lay in bed I needed something to take my mind off it all so built \"Claudoro\". Claudoro is a pomodoro timer built right into the Claude Code status line…",
+      "ts": 1782908729,
+      "published": "2026-07-01T12:25:29+00:00"
     },
     {
       "title": "Using the Raspberry Pi Sense HAT with Pi4J Drivers",
@@ -192,6 +255,15 @@
       "published": "2026-06-30T21:23:02+00:00"
     },
     {
+      "title": "Claude Code Just Got 5x More Expensive",
+      "link": "https://www.vincentschmalbach.com/claude-code-quietly-looks-5x-more-expensive/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.vincentschmalbach.com/claude-code-quietly-looks-5x-more-expensive/ Comments URL: https://news.ycombinator.com/item?id=48739168 Points: 56 # Comments: 8",
+      "ts": 1782853436,
+      "published": "2026-06-30T21:03:56+00:00"
+    },
+    {
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
       "link": "https://huggingface.co/blog/ibm-research/scarfbench",
       "source": "Hugging Face",
@@ -219,6 +291,24 @@
       "published": "2026-06-30T16:54:26+00:00"
     },
     {
+      "title": "Anthropic has embedded hidden spyware-like code in Claude Code",
+      "link": "https://twitter.com/IntCyberDigest/status/2071971609183678544",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://twitter.com/IntCyberDigest/status/2071971609183678544 Comments URL: https://news.ycombinator.com/item?id=48735113 Points: 56 # Comments: 14",
+      "ts": 1782836976,
+      "published": "2026-06-30T16:29:36+00:00"
+    },
+    {
+      "title": "Claude Code is steganographically marking requests",
+      "link": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://thereallo.dev/blog/claude-code-prompt-steganography Comments URL: https://news.ycombinator.com/item?id=48734373 Points: 2407 # Comments: 732",
+      "ts": 1782834264,
+      "published": "2026-06-30T15:44:24+00:00"
+    },
+    {
       "title": "shot-scraper 1.10",
       "link": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
       "source": "Simon Willison",
@@ -235,6 +325,15 @@
       "summary": "",
       "ts": 1782830351,
       "published": "2026-06-30T14:39:11+00:00"
+    },
+    {
+      "title": "Beware, Claude Code deletes >30 day old transcripts. Anthropic won't fix it",
+      "link": "https://github.com/anthropics/claude-code/issues/62476",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/62476 Comments URL: https://news.ycombinator.com/item?id=48732846 Points: 29 # Comments: 38",
+      "ts": 1782827901,
+      "published": "2026-06-30T13:58:21+00:00"
     },
     {
       "title": "Agriculture is ready for AI, but its data isn’t",
@@ -361,6 +460,15 @@
       "summary": "This week's Java roundup for June 22nd, 2026, features news highlighting: the GA releases of Hardwood 1.0 and Endive 1.0; the June 2026 edition of Azul Payara; point releases of Quarkus, LangChain4j; the first beta rele…",
       "ts": 1782775800,
       "published": "2026-06-29T23:30:00+00:00"
+    },
+    {
+      "title": "You shouldn't copy-paste errors into Claude Code",
+      "link": "https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code Comments URL: https://news.ycombinator.com/item?id=48725359 Points: 35 # Comments: 68",
+      "ts": 1782767818,
+      "published": "2026-06-29T21:16:58+00:00"
     },
     {
       "title": "Count the number of Safari tabs",
