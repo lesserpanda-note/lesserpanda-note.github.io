@@ -1,7 +1,16 @@
 {
-  "updated": "2026-07-03T21:45:26.274689+00:00",
-  "count": 484,
+  "updated": "2026-07-03T23:01:36.180525+00:00",
+  "count": 439,
   "items": [
+    {
+      "title": "Open Source AI Gap Map",
+      "link": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Open Source AI Gap Map Current AI is \"a global partnership building a public option for AI\", founded as a non-profit at the AI Action Summit in Paris in February 2025 and backed by serious capital ($400m already committ…",
+      "ts": 1783116271,
+      "published": "2026-07-03T22:04:31+00:00"
+    },
     {
       "title": "Quoting Josh W. Comeau",
       "link": "https://simonwillison.net/2026/Jul/3/josh-w-comeau/#atom-everything",
@@ -30,6 +39,24 @@
       "published": "2026-07-03T14:50:50+00:00"
     },
     {
+      "title": "Cloudflare Details Unified Data Platform Where Billing Workloads Account for 53% of Queries",
+      "link": "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare details Town Lake, an internal unified data platform, and Skipper, an AI analytics agent unifying access to operational, billing, security, and business data. The platform processed ~91K billing queries, with…",
+      "ts": 1783088940,
+      "published": "2026-07-03T14:29:00+00:00"
+    },
+    {
+      "title": "Cloudflare Details Unified Data Platform Where Billing Workloads Account for 53% of Queries",
+      "link": "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare details Town Lake, an internal unified data platform, and Skipper, an AI analytics agent unifying access to operational, billing, security, and business data. The platform processed ~91K billing queries, with…",
+      "ts": 1783088940,
+      "published": "2026-07-03T14:29:00+00:00"
+    },
+    {
       "title": "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies",
       "link": "https://www.infoq.com/news/2026/07/hardwood-java-parquet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
@@ -37,6 +64,69 @@
       "summary": "Hardwood, the project Gunnar Morling kick-started handling of Parquet files in Java, reached version 1. Its multi-threaded approach and zero mandatory external dependencies promise a simpler, more efficient alternative…",
       "ts": 1783080720,
       "published": "2026-07-03T12:12:00+00:00"
+    },
+    {
+      "title": "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies",
+      "link": "https://www.infoq.com/news/2026/07/hardwood-java-parquet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Hardwood, the project Gunnar Morling kick-started handling of Parquet files in Java, reached version 1. Its multi-threaded approach and zero mandatory external dependencies promise a simpler, more efficient alternative…",
+      "ts": 1783080720,
+      "published": "2026-07-03T12:12:00+00:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #301: Running Python Locally in a Sandbox",
+      "link": "https://realpython.com/podcasts/rpp/301/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How do you avoid the risk of running a Python application locally that could be malicious, break your code, or leak private data? How can you create a sandboxed local environment using WASM and MicroPython? Christopher…",
+      "ts": 1783080000,
+      "published": "2026-07-03T12:00:00+00:00"
+    },
+    {
+      "title": "Quiz: Python Interfaces: Object-Oriented Design Principles",
+      "link": "https://realpython.com/quizzes/interfaces-object-oriented-design-principles/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of Python interfaces, from informal interfaces and duck typing to formal interfaces built with the abc module.",
+      "ts": 1783080000,
+      "published": "2026-07-03T12:00:00+00:00"
+    },
+    {
+      "title": "Mini book: Agentic AI Architecture",
+      "link": "https://www.infoq.com/minibooks/agentic-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In this eMag, we try to establish agentic AI architecture as a new type of software architecture that will likely dominate the industry for years to come. The articles, written by industry experts, cover various element…",
+      "ts": 1783076400,
+      "published": "2026-07-03T11:00:00+00:00"
+    },
+    {
+      "title": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announcement",
+      "link": "https://www.infoq.com/news/2026/07/oracle-cloud-free-tier-limits/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Oracle halved the Always Free Ampere A1 compute allowance from 4 OCPUs and 24 GB RAM to 2 OCPUs and 12 GB RAM with no public announcement. Support agents gave conflicting answers on whether PAYG accounts are affected. D…",
+      "ts": 1783073580,
+      "published": "2026-07-03T10:13:00+00:00"
+    },
+    {
+      "title": "In Conversation With the Golden Kodee Winners",
+      "link": "https://blog.jetbrains.com/kotlin/2026/07/in-conversation-with-the-golden-kodee-winners/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "KotlinConf 2026 marked a milestone for the Kotlin community: the very first Golden Kodee Community Awards. The awards recognize the individuals and communities whose passion and dedication help the Kotlin ecosystem thri…",
+      "ts": 1783072633,
+      "published": "2026-07-03T09:57:13+00:00"
+    },
+    {
+      "title": "Presentation: Fine Tuning the Enterprise: Reinforcement Learning in Practice",
+      "link": "https://www.infoq.com/presentations/rft-openai-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "The speakers discuss Agent RFT, OpenAI’s platform for fine-tuning reasoning models via real-time tool interactions and custom reward signals. They explain how reinforcement learning solves complex credit assignment chal…",
+      "ts": 1783070520,
+      "published": "2026-07-03T09:22:00+00:00"
     },
     {
       "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
@@ -147,6 +237,33 @@
       "published": "2026-07-02T12:51:44+00:00"
     },
     {
+      "title": "Quiz: Natural Language Processing With Python's NLTK Package",
+      "link": "https://realpython.com/quizzes/nltk-nlp-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of natural language processing with Python's NLTK, from tokenizing and stemming to tagging, chunking, and analyzing text.",
+      "ts": 1782993600,
+      "published": "2026-07-02T12:00:00+00:00"
+    },
+    {
+      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
+      "link": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Apple chose Google Cloud to run Private Cloud Compute outside its own data centers for the first time, using NVIDIA Blackwell GPUs, Intel TDX, and Google's Titan chip. Apple maintains an independent append-only hardware…",
+      "ts": 1782986640,
+      "published": "2026-07-02T10:04:00+00:00"
+    },
+    {
+      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
+      "link": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Apple chose Google Cloud to run Private Cloud Compute outside its own data centers for the first time, using NVIDIA Blackwell GPUs, Intel TDX, and Google's Titan chip. Apple maintains an independent append-only hardware…",
+      "ts": 1782986640,
+      "published": "2026-07-02T10:04:00+00:00"
+    },
+    {
       "title": "Building AI Systems with MongoDB: Implementing the Planning Pattern",
       "link": "https://foojay.io/today/building-ai-systems-with-mongodb-implementing-the-planning-pattern/",
       "source": "Foojay",
@@ -154,6 +271,15 @@
       "summary": "Artificial Intelligence has swiftly evolved from a niche research topic to a technology that impacts nearly every aspect of the software industry. Developers now use AI to generate code, review pull requests, create doc…",
       "ts": 1782986400,
       "published": "2026-07-02T10:00:00+00:00"
+    },
+    {
+      "title": "Presentation: Enhancing Reliability Using Service-Level Prioritized Load Shedding at Netflix",
+      "link": "https://www.infoq.com/presentations/service-level-prioritized-load-shedding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The speakers discuss Netflix’s architecture for surviving extreme traffic spikes. They explain the mechanics of prioritized load shedding embedded in their Envoy sidecar proxy, allowing user-initiated requests to steal…",
+      "ts": 1782984000,
+      "published": "2026-07-02T09:20:00+00:00"
     },
     {
       "title": "[AINews] not much happened today",
@@ -264,6 +390,33 @@
       "published": "2026-07-01T14:28:23+00:00"
     },
     {
+      "title": "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform",
+      "link": "https://www.infoq.com/news/2026/07/instacart-multi-tenant-marketing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Instacart redesigned its personalized marketing system using a configuration-driven multi-tenant architecture on Storefront Pro. The system replaces retailer-specific implementations with a shared execution engine, enab…",
+      "ts": 1782914700,
+      "published": "2026-07-01T14:05:00+00:00"
+    },
+    {
+      "title": "Presentation: Graph RAG: Building Smarter Retrieval Workflows with Knowledge Graphs",
+      "link": "https://www.infoq.com/presentations/graph-rag-llm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cassie Shum discusses the architectural evolution of GraphRAG and why data foundations are critical for advanced AI workflows. She explains how traditional vector RAG falls short when addressing global context, multi-ho…",
+      "ts": 1782914460,
+      "published": "2026-07-01T14:01:00+00:00"
+    },
+    {
+      "title": "Python 3.15 Preview: Upgraded JIT Compiler",
+      "link": "https://realpython.com/python315-jit-compiler/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how the upgraded Python 3.15 JIT compiler speeds up your code with a new tracing frontend, register allocation, and in-place numeric operations.",
+      "ts": 1782914400,
+      "published": "2026-07-01T14:00:00+00:00"
+    },
+    {
       "title": "Show HN: Claudoro, Pomodoro timer embedded in the Claude Code statusline",
       "link": "https://github.com/emson/claudoro",
       "source": "Hacker News",
@@ -271,6 +424,42 @@
       "summary": "3 weeks ago I had a nasty accident and fractured my vertebrae. As I lay in bed I needed something to take my mind off it all so built \"Claudoro\". Claudoro is a pomodoro timer built right into the Claude Code status line…",
       "ts": 1782908729,
       "published": "2026-07-01T12:25:29+00:00"
+    },
+    {
+      "title": "Quiz: Python 3.15 Preview: Upgraded JIT Compiler",
+      "link": "https://realpython.com/quizzes/python315-jit-compiler/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of the Python 3.15 JIT compiler, from enabling and benchmarking it to the optimizer upgrades that make your code faster.",
+      "ts": 1782907200,
+      "published": "2026-07-01T12:00:00+00:00"
+    },
+    {
+      "title": "Presentation: The Infrastructure Challenge Behind Production AI",
+      "link": "https://www.infoq.com/presentations/ai-infrastructure-scaling-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "The panelists explain the realities of running AI systems reliably at scale. While building models is solved, maintaining production databases under constant pressure is not. They discuss the emerging architectural deci…",
+      "ts": 1782903600,
+      "published": "2026-07-01T11:00:00+00:00"
+    },
+    {
+      "title": "Presentation: The Infrastructure Challenge Behind Production AI",
+      "link": "https://www.infoq.com/presentations/ai-infrastructure-scaling-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The panelists explain the realities of running AI systems reliably at scale. While building models is solved, maintaining production databases under constant pressure is not. They discuss the emerging architectural deci…",
+      "ts": 1782903600,
+      "published": "2026-07-01T11:00:00+00:00"
+    },
+    {
+      "title": "Kotlin Comes to BlueJ",
+      "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-comes-to-bluej/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Kotlin support is now available in BlueJ, one of the most established environments for teaching introductory object-oriented programming (OOP). This work is the result of a collaboration between JetBrains and the BlueJ…",
+      "ts": 1782899423,
+      "published": "2026-07-01T09:50:23+00:00"
     },
     {
       "title": "Using the Raspberry Pi Sense HAT with Pi4J Drivers",
@@ -372,6 +561,15 @@
       "published": "2026-06-30T21:03:56+00:00"
     },
     {
+      "title": "Grok's Traffic Is Mostly Driven by Adult Content",
+      "link": "https://www.forbes.com/sites/maryroeloffs/2026/06/24/groks-traffic-is-mostly-driven-by-adult-content-report-says/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.forbes.com/sites/maryroeloffs/2026/06/24/groks-traffic-is-mostly-driven-by-adult-content-report-says/ Comments URL: https://news.ycombinator.com/item?id=48738652 Points: 25 # Comments: 8",
+      "ts": 1782850888,
+      "published": "2026-06-30T20:21:28+00:00"
+    },
+    {
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
       "link": "https://huggingface.co/blog/ibm-research/scarfbench",
       "source": "Hugging Face",
@@ -435,6 +633,33 @@
       "published": "2026-06-30T14:39:11+00:00"
     },
     {
+      "title": "Presentation: Trustworthy Productivity: Securing AI-Accelerated Development",
+      "link": "https://www.infoq.com/presentations/ai-development/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Sriram Madapusi Vasudevan discusses industry-converging patterns for securing autonomous AI agents in production. He explains the critical vulnerabilities hidden inside the ReAct loop across context, reasoning, and tool…",
+      "ts": 1782830100,
+      "published": "2026-06-30T14:35:00+00:00"
+    },
+    {
+      "title": "Kodee’s Kotlin Roundup: Kotlin Turns 15, Kotlin 2.4.0, and the Kotlin Toolchain",
+      "link": "https://blog.jetbrains.com/kotlin/2026/06/kodees-kotlin-roundup-kotlin-turns-15-kotlin-2-4-0-and-the-kotlin-toolchain/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Hi everyone! May and June brought so much Kotlin news that I needed a little extra space for this roundup. Kotlin turned 15, Kotlin 2.4.0 arrived with new capabilities for developers on every platform, and I found plent…",
+      "ts": 1782828182,
+      "published": "2026-06-30T14:03:02+00:00"
+    },
+    {
+      "title": "Managing and Measuring Python Code Quality",
+      "link": "https://realpython.com/courses/managing-and-measuring-python-code-quality/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Master Python code quality tools like linters, formatters, type checkers, and profilers to measure, manage, and improve the code you write.",
+      "ts": 1782828000,
+      "published": "2026-06-30T14:00:00+00:00"
+    },
+    {
       "title": "Beware, Claude Code deletes >30 day old transcripts. Anthropic won't fix it",
       "link": "https://github.com/anthropics/claude-code/issues/62476",
       "source": "Hacker News",
@@ -442,6 +667,15 @@
       "summary": "Article URL: https://github.com/anthropics/claude-code/issues/62476 Comments URL: https://news.ycombinator.com/item?id=48732846 Points: 29 # Comments: 38",
       "ts": 1782827901,
       "published": "2026-06-30T13:58:21+00:00"
+    },
+    {
+      "title": "Elastic Open-Sources Atlas Agent Memory Based on Cognitive Science",
+      "link": "https://www.infoq.com/news/2026/06/elastic-atlas-agent-memory/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Elastic open-sourced Atlas, a system built on Elasticsearch that maintains three categories of memory for agents. Atlas integrates with agents via MCP and maintains per-user isolation of memories. When evaluated on ques…",
+      "ts": 1782824400,
+      "published": "2026-06-30T13:00:00+00:00"
     },
     {
       "title": "Agriculture is ready for AI, but its data isn’t",
@@ -453,6 +687,33 @@
       "published": "2026-06-30T12:00:00+00:00"
     },
     {
+      "title": "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix",
+      "link": "https://www.infoq.com/news/2026/06/azuredevops-copilot-autofix/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Microsoft has announced the limited public preview of Copilot Autofix for GitHub Advanced Security for Azure DevOps, extending AI-powered vulnerability remediation to teams using Azure Repos. By Craig Risi",
+      "ts": 1782820800,
+      "published": "2026-06-30T12:00:00+00:00"
+    },
+    {
+      "title": "Quiz: Managing and Measuring Python Code Quality",
+      "link": "https://realpython.com/quizzes/managing-and-measuring-python-code-quality/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of what makes Python code functional, readable, efficient, and reusable, plus the tools that measure code quality.",
+      "ts": 1782820800,
+      "published": "2026-06-30T12:00:00+00:00"
+    },
+    {
+      "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution",
+      "link": "https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS launched Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine with hardware-level isolation, snapshot-based rapid launch, and state prese…",
+      "ts": 1782810540,
+      "published": "2026-06-30T09:09:00+00:00"
+    },
+    {
       "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design",
       "link": "https://www.infoq.com/articles/tradeoffs-event-driven-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
@@ -462,11 +723,11 @@
       "published": "2026-06-30T09:00:00+00:00"
     },
     {
-      "title": "How ChatGPT adoption has expanded",
-      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design",
+      "link": "https://www.infoq.com/articles/tradeoffs-event-driven-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Event-driven architecture promises scalability, but in Java-based real-time systems the tradeoffs only surface in production. Drawing on a Java/Kafka contact center platform handling 80k BHCC across 10k agents, this art…",
       "ts": 1782810000,
       "published": "2026-06-30T09:00:00+00:00"
     },
@@ -516,33 +777,6 @@
       "published": "2026-06-30T00:00:00+00:00"
     },
     {
-      "title": "Introducing GeneBench-Pro",
-      "link": "https://openai.com/index/introducing-genebench-pro",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00"
-    },
-    {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00"
-    },
-    {
-      "title": "Inside Genebench-Pro",
-      "link": "https://openai.com/index/genebench-pro/case-studies",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00"
-    },
-    {
       "title": "ZGC: A Decade of Redefining Java Performance",
       "link": "https://inside.java/2026/06/30/zgc-performance-decade/",
       "source": "Inside Java",
@@ -565,6 +799,15 @@
       "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun22-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
       "category": "Java",
+      "summary": "This week's Java roundup for June 22nd, 2026, features news highlighting: the GA releases of Hardwood 1.0 and Endive 1.0; the June 2026 edition of Azul Payara; point releases of Quarkus, LangChain4j; the first beta rele…",
+      "ts": 1782775800,
+      "published": "2026-06-29T23:30:00+00:00"
+    },
+    {
+      "title": "Java News Roundup: Hardwood 1.0, Endive 1.0, Azul Payara, Quarkus, WildFly, LangChain4j, OSSI",
+      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun22-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
       "summary": "This week's Java roundup for June 22nd, 2026, features news highlighting: the GA releases of Hardwood 1.0 and Endive 1.0; the June 2026 edition of Azul Payara; point releases of Quarkus, LangChain4j; the first beta rele…",
       "ts": 1782775800,
       "published": "2026-06-29T23:30:00+00:00"
@@ -642,6 +885,15 @@
       "published": "2026-06-29T14:50:00+00:00"
     },
     {
+      "title": "Eliya 25 Brings a JVM-Level Diagnostic Profile to OpenJDK 25 LTS",
+      "link": "https://www.infoq.com/news/2026/06/eliya-jvm-diagnostic-profile/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Asymm Systems has released Eliya 25.0.3, an OpenJDK 25 LTS distribution aimed at improving production diagnostics in Java environments. It consolidates several HotSpot features into an opt-in Production profile. Eliya i…",
+      "ts": 1782744600,
+      "published": "2026-06-29T14:50:00+00:00"
+    },
+    {
       "title": "Agent confidence on the technical frontier",
       "link": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
       "source": "MIT Tech Review",
@@ -649,6 +901,51 @@
       "summary": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and t…",
       "ts": 1782744241,
       "published": "2026-06-29T14:44:01+00:00"
+    },
+    {
+      "title": "Inside Target’s LLM-Based System for Semantic Matching in Marketing Forecast Pipelines",
+      "link": "https://www.infoq.com/news/2026/06/target-ai-campaign-forecasting/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Target built a generative AI system to improve marketing campaign forecasting by retrieving and ranking similar historical campaigns. Using embeddings, vector search, and LLM ranking, it replaces rule-based workflows. E…",
+      "ts": 1782743160,
+      "published": "2026-06-29T14:26:00+00:00"
+    },
+    {
+      "title": "Inside Target’s LLM-Based System for Semantic Matching in Marketing Forecast Pipelines",
+      "link": "https://www.infoq.com/news/2026/06/target-ai-campaign-forecasting/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Target built a generative AI system to improve marketing campaign forecasting by retrieving and ranking similar historical campaigns. Using embeddings, vector search, and LLM ranking, it replaces rule-based workflows. E…",
+      "ts": 1782743160,
+      "published": "2026-06-29T14:26:00+00:00"
+    },
+    {
+      "title": "How to Get Started With the GitHub Copilot CLI",
+      "link": "https://realpython.com/github-copilot-cli/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to install, authenticate, and use the GitHub Copilot CLI to plan, write, and review Python code from your terminal with AI agents.",
+      "ts": 1782741600,
+      "published": "2026-06-29T14:00:00+00:00"
+    },
+    {
+      "title": "Kotlin Notebook Sunset",
+      "link": "https://blog.jetbrains.com/idea/2026/06/kotlin-notebook-sunset/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Starting from IntelliJ IDEA 2026.2, JetBrains will sunset Kotlin Notebook as a product and will no longer maintain it. The plugin will remain available on an open-source model so the community can continue its developme…",
+      "ts": 1782734536,
+      "published": "2026-06-29T12:02:16+00:00"
+    },
+    {
+      "title": "Quiz: How to Get Started With the GitHub Copilot CLI",
+      "link": "https://realpython.com/quizzes/github-copilot-cli/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of the GitHub Copilot CLI, from installing it to running prompts, switching agent modes, and reviewing code in your terminal.",
+      "ts": 1782734400,
+      "published": "2026-06-29T12:00:00+00:00"
     },
     {
       "title": "7 New Vulnerabilities in Jackson in One Day: This Is What AI-Assisted Security Research Looks Like",
@@ -660,6 +957,33 @@
       "published": "2026-06-29T11:47:41+00:00"
     },
     {
+      "title": "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution",
+      "link": "https://www.infoq.com/articles/security-ai-threat-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "This virtual panel brings together AI security experts to examine the evolution of AI-driven threats, from prompt injection and data poisoning to agent abuse and AI-powered social engineering. The discussion explores em…",
+      "ts": 1782730800,
+      "published": "2026-06-29T11:00:00+00:00"
+    },
+    {
+      "title": "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution",
+      "link": "https://www.infoq.com/articles/security-ai-threat-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This virtual panel brings together AI security experts to examine the evolution of AI-driven threats, from prompt injection and data poisoning to agent abuse and AI-powered social engineering. The discussion explores em…",
+      "ts": 1782730800,
+      "published": "2026-06-29T11:00:00+00:00"
+    },
+    {
+      "title": "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins",
+      "link": "https://www.infoq.com/podcasts/natural-evolution-cloud-native/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In this episode, Heroku co-founder and Ink & Switch founder Adam Wiggins argues for a 'local-first' architecture that reconciles cloud-based collaboration with the performance and data ownership of local software. He ex…",
+      "ts": 1782730800,
+      "published": "2026-06-29T11:00:00+00:00"
+    },
+    {
       "title": "Building an AI-Powered Operations Assistant with Spring AI and MongoDB Atlas — Part 3: Stateful Workflows and Human-in-the-Loop",
       "link": "https://foojay.io/today/building-an-ai-powered-operations-assistant-with-spring-ai-and-mongodb-atlas-part-3-stateful-workflows-and-human-in-the-loop/",
       "source": "Foojay",
@@ -669,13 +993,13 @@
       "published": "2026-06-29T09:40:40+00:00"
     },
     {
-      "title": "Mapping Europe’s AI Workforce Opportunity",
-      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "source": "OpenAI",
+      "title": "AI Tools Accelerates Coding, But Not Overall Software Delivery, GitLab Research Finds",
+      "link": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
       "category": "AI",
-      "summary": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
-      "ts": 1782716400,
-      "published": "2026-06-29T07:00:00+00:00"
+      "summary": "GitLab's 2026 AI Accountability Report highlights an AI Paradox: although 78% of developers say they code faster, overall software delivery has not accelerated due to downstream testing and review bottlenecks and new ch…",
+      "ts": 1782720000,
+      "published": "2026-06-29T08:00:00+00:00"
     },
     {
       "title": "Endive 1.0 Is Here: Wasm on the JVM Ships Under the Bytecode Alliance",
@@ -690,7 +1014,7 @@
       "title": "Faster Gemma 4 on MLX with multi-token prediction",
       "link": "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
       "source": "Ollama",
-      "category": "LLM",
+      "category": "AI",
       "summary": "Gemma 4 is now significantly faster in Ollama 0.31 on Apple Silicon via multi-token prediction (MTP), powered by MLX. Performance is now up to 90% faster when used with coding agents, as measured using the Aider polyglo…",
       "ts": 1782691200,
       "published": "2026-06-29T00:00:00+00:00"
@@ -714,15 +1038,6 @@
       "published": "2026-06-28T19:26:11+00:00"
     },
     {
-      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
-      "link": "https://openai.com/index/hp-frontier-partnership",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
-      "ts": 1782666000,
-      "published": "2026-06-28T17:00:00+00:00"
-    },
-    {
       "title": "I used Claude Code to get a second opinion on my MRI",
       "link": "https://antoine.fi/mri-analysis-using-claude-code-opus",
       "source": "Hacker News",
@@ -730,6 +1045,24 @@
       "summary": "Article URL: https://antoine.fi/mri-analysis-using-claude-code-opus Comments URL: https://news.ycombinator.com/item?id=48708941 Points: 515 # Comments: 644",
       "ts": 1782664519,
       "published": "2026-06-28T16:35:19+00:00"
+    },
+    {
+      "title": "Grok 4.5, based on our 1.5T V9 foundation model, with Cursor data added in su",
+      "link": "https://twitter.com/elonmusk/status/2071184354756477041",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/elonmusk/status/2071184354756477041 Comments URL: https://news.ycombinator.com/item?id=48707997 Points: 11 # Comments: 6",
+      "ts": 1782659283,
+      "published": "2026-06-28T15:08:03+00:00"
+    },
+    {
+      "title": "Grok Is More Important Than Clean Air, DOJ Says",
+      "link": "https://www.motherjones.com/environment/2026/06/grok-doj-justice-naacp-clean-air-act-gas-turbine-pollution-national-security-ai/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.motherjones.com/environment/2026/06/grok-doj-justice-naacp-clean-air-act-gas-turbine-pollution-national-security-ai/ Comments URL: https://news.ycombinator.com/item?id=48705717 Points: 12 # Comm…",
+      "ts": 1782638347,
+      "published": "2026-06-28T09:19:07+00:00"
     },
     {
       "title": "AI-Assisted Unused & Dead Code Removal",
@@ -741,10 +1074,28 @@
       "published": "2026-06-28T07:19:42+00:00"
     },
     {
+      "title": "AWS Previews FinOps Agent for Cost Analysis and Optimization",
+      "link": "https://www.infoq.com/news/2026/06/aws-finops-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Amazon has released AWS FinOps Agent in public preview, a managed service that automates several common FinOps workflows. The agent can investigate cost anomalies, correlate spend changes with AWS activity data, and int…",
+      "ts": 1782626100,
+      "published": "2026-06-28T05:55:00+00:00"
+    },
+    {
+      "title": "Packaging Council Inaugural Election Dates",
+      "link": "https://blog.python.org/2026/06/2026-packaging-council-election-dates/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "A new Python Packaging Council (PPC) is being established, with their election of the inaugural PPC will be held in parallel to the 2026 PSF Board election.",
+      "ts": 1782604800,
+      "published": "2026-06-28T00:00:00+00:00"
+    },
+    {
       "title": "Using Local Coding Agents",
       "link": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
       "source": "Ahead of AI",
-      "category": "LLM",
+      "category": "AI",
       "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
       "ts": 1782559318,
       "published": "2026-06-27T11:21:58+00:00"
@@ -813,13 +1164,31 @@
       "published": "2026-06-26T17:10:43+00:00"
     },
     {
-      "title": "Previewing GPT-5.6 Sol: a next-generation model",
-      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
-      "source": "OpenAI",
+      "title": "Vercel Introduces Eve, an Open-Source Framework for Building AI Agents",
+      "link": "https://www.infoq.com/news/2026/06/vercel-eve-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
       "category": "AI",
-      "summary": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
-      "ts": 1782468000,
-      "published": "2026-06-26T10:00:00+00:00"
+      "summary": "Vercel has released Eve, an open-source framework for building, deploying, and operating AI agents in production. The framework uses a filesystem-based project structure to organize agent instructions, tools, skills, su…",
+      "ts": 1782491940,
+      "published": "2026-06-26T16:39:00+00:00"
+    },
+    {
+      "title": "Presentation: AI Works, Pull Requests Don’t: How AI is Breaking the SDLC and What to Do about it",
+      "link": "https://www.infoq.com/presentations/ai-sdlc-pull-request/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Michael Webster discusses the rise of headless AI agents and their impact on software delivery pipelines. He shares how massive, AI-generated pull requests create a severe bottleneck for human reviewers and introduce pe…",
+      "ts": 1782483420,
+      "published": "2026-06-26T14:17:00+00:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #300: Maintaining Your Python Developer Instincts While Using LLM Tools",
+      "link": "https://realpython.com/podcasts/rpp/300/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Do you feel like your Python skills are atrophying after using LLM coding tools? How do you add the right kind of friction into your coding routine to keep your developer instincts sharp? Christopher Trudeau is back on…",
+      "ts": 1782475200,
+      "published": "2026-06-26T12:00:00+00:00"
     },
     {
       "title": "Jurassic JDK: Migrate or Extinct",
@@ -903,6 +1272,15 @@
       "published": "2026-06-25T10:01:00+00:00"
     },
     {
+      "title": "Cloudflare Ships Agent Skills for Zero Trust Deployment and Migration",
+      "link": "https://www.infoq.com/news/2026/06/cloudflare-one-stack-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare released the Cloudflare One stack, an open-source library of agent skills for planning, deploying, and managing Zero Trust environments. The skills include automated migration logic for Zscaler and Palo Alto…",
+      "ts": 1782379620,
+      "published": "2026-06-25T09:27:00+00:00"
+    },
+    {
       "title": "Pi4J Drivers: Simplifying Sensor and Hardware Integration in Java",
       "link": "https://foojay.io/today/pi4j-drivers-simplifying-sensor-and-hardware-integration-in-java/",
       "source": "Foojay",
@@ -919,15 +1297,6 @@
       "summary": "Move over, Harness Engineering, it is time for the harness of harnesses!",
       "ts": 1782353648,
       "published": "2026-06-25T02:14:08+00:00"
-    },
-    {
-      "title": "How agents are transforming work",
-      "link": "https://openai.com/index/how-agents-are-transforming-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "ts": 1782352800,
-      "published": "2026-06-25T02:00:00+00:00"
     },
     {
       "title": "Episode 60 “How JEPs Drive Java's Evolution” [AtA]",
@@ -993,6 +1362,33 @@
       "published": "2026-06-24T16:00:13+00:00"
     },
     {
+      "title": "Django Tasks: Exploring the Built-in Tasks Framework",
+      "link": "https://realpython.com/django-tasks/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore Django Tasks, the new built-in framework in Django 6.0, and run background jobs with @task, named queues, and a lightweight alternative to Celery.",
+      "ts": 1782309600,
+      "published": "2026-06-24T14:00:00+00:00"
+    },
+    {
+      "title": "Kotlin Toolchain 0.11: The Next Step for Amper",
+      "link": "https://blog.jetbrains.com/amper/2026/06/kotlin-toolchain-0-11/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Amper 0.11.0 is out, and you will notice a shift in the product branding immediately. If you missed the KotlinConf keynote (watch the recording), here’s the headline: Amper has evolved into the Kotlin Toolchain and is n…",
+      "ts": 1782306272,
+      "published": "2026-06-24T13:04:32+00:00"
+    },
+    {
+      "title": "Quiz: Django Tasks: Exploring the Built-in Tasks Framework",
+      "link": "https://realpython.com/quizzes/django-tasks/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice using Django Tasks in Django 6.0 to run background jobs with the @task decorator, enqueue work, check task results, and use named queues.",
+      "ts": 1782302400,
+      "published": "2026-06-24T12:00:00+00:00"
+    },
+    {
       "title": "The emergence of the web data infrastructure layer for AI",
       "link": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
       "source": "MIT Tech Review",
@@ -1020,6 +1416,15 @@
       "published": "2026-06-24T10:46:13+00:00"
     },
     {
+      "title": "Grok Build 0.1: Intelligence, Performance and Price Analysis",
+      "link": "https://artificialanalysis.ai/models/grok-build-0-1-06-16",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://artificialanalysis.ai/models/grok-build-0-1-06-16 Comments URL: https://news.ycombinator.com/item?id=48656943 Points: 16 # Comments: 18",
+      "ts": 1782290467,
+      "published": "2026-06-24T08:41:07+00:00"
+    },
+    {
       "title": "[AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack",
       "link": "https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive",
       "source": "Latent Space",
@@ -1027,15 +1432,6 @@
       "summary": "Claude finally gets a Slackbot upgrade",
       "ts": 1782285266,
       "published": "2026-06-24T07:14:26+00:00"
-    },
-    {
-      "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-      "link": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems.",
-      "ts": 1782280800,
-      "published": "2026-06-24T06:00:00+00:00"
     },
     {
       "title": "Spring Data 2025.0.13 released",
@@ -1074,22 +1470,13 @@
       "published": "2026-06-23T18:58:54+00:00"
     },
     {
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "link": "https://openai.com/index/gpt-5-immunology-mystery",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "ts": 1782234000,
-      "published": "2026-06-23T17:00:00+00:00"
-    },
-    {
-      "title": "Helping build shared standards for advanced AI",
-      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "ts": 1782219600,
-      "published": "2026-06-23T13:00:00+00:00"
+      "title": "Using LlamaIndex for RAG in Python",
+      "link": "https://realpython.com/courses/using-llamaindex-for-rag-in-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to set up LlamaIndex, load your data, build and persist an index, and run queries to get grounded answers with RAG in Python.",
+      "ts": 1782223200,
+      "published": "2026-06-23T14:00:00+00:00"
     },
     {
       "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
@@ -1099,6 +1486,15 @@
       "summary": "",
       "ts": 1782219115,
       "published": "2026-06-23T12:51:55+00:00"
+    },
+    {
+      "title": "Quiz: Using LlamaIndex for RAG in Python",
+      "link": "https://realpython.com/quizzes/using-llamaindex-for-rag-in-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of RAG in Python with LlamaIndex by loading data, building and persisting an index, and querying an LLM for grounded answers.",
+      "ts": 1782216000,
+      "published": "2026-06-23T12:00:00+00:00"
     },
     {
       "title": "The $400 million machine powering the future of chipmaking",
@@ -1155,15 +1551,6 @@
       "published": "2026-06-23T00:00:00+00:00"
     },
     {
-      "title": "How Omio is building the future of conversational travel",
-      "link": "https://openai.com/index/omio",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-      "ts": 1782172800,
-      "published": "2026-06-23T00:00:00+00:00"
-    },
-    {
       "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
       "link": "https://huggingface.co/blog/cross-origin-storage",
       "source": "Hugging Face",
@@ -1178,6 +1565,24 @@
       "source": "Anthropic",
       "category": "AI",
       "summary": "Introducing Claude Tag",
+      "ts": 1782172800,
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "title": "Mitigated API authentication bypass for python.org download metadata",
+      "link": "https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Vulnerability mitigated in python.org with follow-up third-party audit from Trail of Bits",
+      "ts": 1782172800,
+      "published": "2026-06-23T00:00:00+00:00"
+    },
+    {
+      "title": "Python 3.15.0 beta 3 is here!",
+      "link": "https://blog.python.org/2026/06/python-3150-beta-3/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "The penultimate 3.15 beta is out!",
       "ts": 1782172800,
       "published": "2026-06-23T00:00:00+00:00"
     },
@@ -1227,6 +1632,15 @@
       "published": "2026-06-22T14:22:46+00:00"
     },
     {
+      "title": "Python for Data Analysis: A Practical Guide",
+      "link": "https://realpython.com/python-for-data-analysis/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this tutorial, you'll learn data analysis with Python by following a structured workflow with pandas, Matplotlib, and scikit-learn.",
+      "ts": 1782136800,
+      "published": "2026-06-22T14:00:00+00:00"
+    },
+    {
       "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
       "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
       "source": "Hugging Face",
@@ -1245,31 +1659,13 @@
       "published": "2026-06-22T13:15:00+00:00"
     },
     {
-      "title": "Import AI 462: Superpersuasion; self-sustaining AI; paths to ASI",
-      "link": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
-      "source": "Import AI",
-      "category": "LLM",
-      "summary": "How religious are beliefs in the singularity?",
-      "ts": 1782131505,
-      "published": "2026-06-22T12:31:45+00:00"
-    },
-    {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "ts": 1782122400,
-      "published": "2026-06-22T10:00:00+00:00"
-    },
-    {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "link": "https://openai.com/index/patch-the-planet",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "ts": 1782122400,
-      "published": "2026-06-22T10:00:00+00:00"
+      "title": "Quiz: Using Python for Data Analysis",
+      "link": "https://realpython.com/quizzes/python-for-data-analysis/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of a data analysis workflow in Python, from cleansing raw data with pandas to spotting insights with regression.",
+      "ts": 1782129600,
+      "published": "2026-06-22T12:00:00+00:00"
     },
     {
       "title": "We got local models to triage the OpenClaw repo for FREE!*",
@@ -1277,15 +1673,6 @@
       "source": "Hugging Face",
       "category": "AI",
       "summary": "",
-      "ts": 1782086400,
-      "published": "2026-06-22T00:00:00+00:00"
-    },
-    {
-      "title": "Codex-maxxing for long-running work",
-      "link": "https://openai.com/index/codex-maxxing-long-running-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how Jason Liu uses Codex to preserve context, manage complex projects, and help work continue beyond a single prompt.",
       "ts": 1782086400,
       "published": "2026-06-22T00:00:00+00:00"
     },
@@ -1306,15 +1693,6 @@
       "summary": "Release: sqlite-utils 4.0rc1 See sqlite-utils 4.0rc1 adds migrations and nested transactions . Tags: sqlite-utils",
       "ts": 1782084604,
       "published": "2026-06-21T23:30:04+00:00"
-    },
-    {
-      "title": "Samsung Electronics brings ChatGPT and Codex to employees",
-      "link": "https://openai.com/index/samsung-electronics-chatgpt-codex-deployment",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Samsung Electronics deploys ChatGPT Enterprise and Codex to employees worldwide, marking one of OpenAI’s largest enterprise AI rollouts.",
-      "ts": 1782082800,
-      "published": "2026-06-21T23:00:00+00:00"
     },
     {
       "title": "Temporary Cloudflare Accounts for AI agents",
@@ -1358,6 +1736,15 @@
       "source": "Spring Blog",
       "category": "Spring",
       "summary": "Spring Batch was introduced many years before MongoDB existed, and its design assumed the presence of a SQL database in which to store the state of Spring Batch jobs. But that was decades ago, and a common question for…",
+      "ts": 1782000000,
+      "published": "2026-06-21T00:00:00+00:00"
+    },
+    {
+      "title": "Patterns for Building Cybersecurity Evals",
+      "link": "https://eugeneyan.com//writing/cybersecurity-evals/",
+      "source": "Eugene Yan",
+      "category": "Agents",
+      "summary": "A sandboxed target, inputs that influence task difficulty, tools, and a grader.",
       "ts": 1782000000,
       "published": "2026-06-21T00:00:00+00:00"
     },
@@ -1407,6 +1794,15 @@
       "published": "2026-06-19T14:47:00+00:00"
     },
     {
+      "title": "Quiz: Using the Python zip() Function for Parallel Iteration",
+      "link": "https://realpython.com/quizzes/python-zip-function/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of Python's zip() function for parallel iteration, unzipping sequences, and building dictionaries from two lists.",
+      "ts": 1781870400,
+      "published": "2026-06-19T12:00:00+00:00"
+    },
+    {
       "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
       "link": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
       "source": "MIT Tech Review",
@@ -1414,6 +1810,15 @@
       "summary": "The Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a deca…",
       "ts": 1781865624,
       "published": "2026-06-19T10:40:24+00:00"
+    },
+    {
+      "title": "Pentagon used Elon Musk's Grok AI to fire 2k missiles at Iran, official says",
+      "link": "https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-grok-ai-iran-missiles-pentagon-b2997321.html",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.independent.co.uk/news/world/americas/us-politics/elon-musk-grok-ai-iran-missiles-pentagon-b2997321.html Comments URL: https://news.ycombinator.com/item?id=48597030 Points: 23 # Comments: 5",
+      "ts": 1781865516,
+      "published": "2026-06-19T10:38:36+00:00"
     },
     {
       "title": "[AINews] GLM > GPT? GLM-5.2 passes vibe check; Z.ai forecasts Open Fable by December",
@@ -1461,31 +1866,13 @@
       "published": "2026-06-18T17:30:00+00:00"
     },
     {
-      "title": "New usage analytics and updated spend controls for enterprises",
-      "link": "https://openai.com/index/chatgpt-enterprise-spend-controls",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces new spend controls and usage analytics for ChatGPT Enterprise, helping organizations manage costs and scale AI with confidence.",
-      "ts": 1781802000,
-      "published": "2026-06-18T17:00:00+00:00"
-    },
-    {
-      "title": "Improving health intelligence in ChatGPT",
-      "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and physician-informed evaluations.",
-      "ts": 1781780400,
-      "published": "2026-06-18T11:00:00+00:00"
-    },
-    {
-      "title": "Using AI to help physicians diagnose rare genetic diseases affecting children",
-      "link": "https://openai.com/index/diagnose-rare-childhood-diseases",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Researchers used an OpenAI reasoning model to help diagnose rare diseases, identifying 18 new diagnoses in previously unsolved cases.",
-      "ts": 1781769600,
-      "published": "2026-06-18T08:00:00+00:00"
+      "title": "Quiz: Sorting a Python Dictionary: Values, Keys, and More",
+      "link": "https://realpython.com/quizzes/sort-python-dictionary/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Sort Python dictionaries by keys or values using sorted(), lambdas, and itemgetter. Take this quiz to check your understanding.",
+      "ts": 1781784000,
+      "published": "2026-06-18T12:00:00+00:00"
     },
     {
       "title": "[AINews] Midjourney Medical: scan your organs like you step on a scale",
@@ -1536,7 +1923,7 @@
       "title": "A robot is sprinting towards you. Do you want it running on Claude or Grok?",
       "link": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
       "source": "Hacker News",
-      "category": "LLM",
+      "category": "AI",
       "summary": "Article URL: https://openrouter.ai/blog/insights/royale-last-agent-standing/ Comments URL: https://news.ycombinator.com/item?id=48576824 Points: 272 # Comments: 210",
       "ts": 1781730007,
       "published": "2026-06-17T21:00:07+00:00"
@@ -1560,6 +1947,15 @@
       "published": "2026-06-17T17:12:41+00:00"
     },
     {
+      "title": "Pentagon says Grok has been used to launch missiles at Iran",
+      "link": "https://thehill.com/policy/technology/5928204-pentagon-musk-grok-chatbot-iran-strikes/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://thehill.com/policy/technology/5928204-pentagon-musk-grok-chatbot-iran-strikes/ Comments URL: https://news.ycombinator.com/item?id=48573298 Points: 23 # Comments: 8",
+      "ts": 1781715943,
+      "published": "2026-06-17T17:05:43+00:00"
+    },
+    {
       "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
       "source": "Google AI",
@@ -1569,6 +1965,15 @@
       "published": "2026-06-17T15:00:00+00:00"
     },
     {
+      "title": "Context Engineering for Python Codebases",
+      "link": "https://realpython.com/python-context-engineering-ai/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how context engineering shapes what your AI coding agent sees on every turn, and use four practical strategies to keep your Python projects on track.",
+      "ts": 1781704800,
+      "published": "2026-06-17T14:00:00+00:00"
+    },
+    {
       "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
       "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
       "source": "Hugging Face",
@@ -1576,15 +1981,6 @@
       "summary": "",
       "ts": 1781691485,
       "published": "2026-06-17T10:18:05+00:00"
-    },
-    {
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "ts": 1781690400,
-      "published": "2026-06-17T10:00:00+00:00"
     },
     {
       "title": "GLM-5.2: Built for Long-Horizon Tasks",
@@ -1632,15 +2028,6 @@
       "published": "2026-06-17T00:00:00+00:00"
     },
     {
-      "title": "Introducing LifeSciBench",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "ts": 1781654400,
-      "published": "2026-06-17T00:00:00+00:00"
-    },
-    {
       "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
       "link": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
       "source": "Anthropic",
@@ -1675,6 +2062,33 @@
       "summary": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for sm…",
       "ts": 1781625899,
       "published": "2026-06-16T16:04:59+00:00"
+    },
+    {
+      "title": "Building Python Skills for the Job Market",
+      "link": "https://realpython.com/courses/building-python-skills-for-the-job-market/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn which Python skills employers value most and how to build them, using a skill roadmap worksheet, weekly practice plan, and interview prep tips.",
+      "ts": 1781618400,
+      "published": "2026-06-16T14:00:00+00:00"
+    },
+    {
+      "title": "Fragments: June 16",
+      "link": "https://martinfowler.com/fragments/2026-06-16.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "“Prag Dave” Thomas (co-author of the outstanding “Pragmatic Programmer”) has loved programming since he was young. Programming was how I could express myself. I wasn’t an artist. When I sing, dogs howl. When I draw, fri…",
+      "ts": 1781613840,
+      "published": "2026-06-16T12:44:00+00:00"
+    },
+    {
+      "title": "Building Reliable Agentic AI Systems",
+      "link": "https://martinfowler.com/articles/reliable-llm-bayer.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "One of the most interesting projects my colleagues have done with LLMs has been building a system with Bayer to allow pharmaceutical researchers to query decades of information about studies buried in PDF reports. Saran…",
+      "ts": 1781611860,
+      "published": "2026-06-16T12:11:00+00:00"
     },
     {
       "title": "Want to get a data center online quickly? Give it some flex.",
@@ -1722,15 +2136,6 @@
       "published": "2026-06-16T02:29:29+00:00"
     },
     {
-      "title": "Predicting model behavior before release by simulating deployment",
-      "link": "https://openai.com/index/deployment-simulation",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "ts": 1781568000,
-      "published": "2026-06-16T00:00:00+00:00"
-    },
-    {
       "title": "Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
       "link": "https://github.com/firish/claude_code_vs",
       "source": "Hacker News",
@@ -1776,6 +2181,15 @@
       "published": "2026-06-15T14:15:00+00:00"
     },
     {
+      "title": "Implementing Interfaces in Python: ABCs and Protocols",
+      "link": "https://realpython.com/python-interface/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to implement interfaces in Python using abstract base classes, Protocols, and duck typing, and enforce method contracts cleanly.",
+      "ts": 1781532000,
+      "published": "2026-06-15T14:00:00+00:00"
+    },
+    {
       "title": "Presentation: Practical Performance Tuning for Serverless Java on AWS",
       "link": "https://www.infoq.com/presentations/java-aws-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
@@ -1785,28 +2199,10 @@
       "published": "2026-06-15T13:12:00+00:00"
     },
     {
-      "title": "Import AI 461: \"Alignment is not on track\"; FrontierCode; and synthetic research interns",
-      "link": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
-      "source": "Import AI",
-      "category": "LLM",
-      "summary": "Where are your agents right now?",
-      "ts": 1781523053,
-      "published": "2026-06-15T11:30:53+00:00"
-    },
-    {
       "title": "Spring Boot 4.1 Adds gRPC Auto-Configuration, SSRF Mitigation, and Kotlin 2.3 Support",
       "link": "https://www.infoq.com/news/2026/06/spring-boot-4-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
       "category": "Java",
-      "summary": "Broadcom released Spring Boot 4.1 on June 10, 2026, to deliver gRPC auto-configuration, HTTP-client SSRF mitigation, and upgrades to Kotlin 2.3. It also brings lazy datasource connections, async context propagation for…",
-      "ts": 1781499600,
-      "published": "2026-06-15T05:00:00+00:00"
-    },
-    {
-      "title": "Spring Boot 4.1 Adds gRPC Auto-Configuration, SSRF Mitigation, and Kotlin 2.3 Support",
-      "link": "https://www.infoq.com/news/2026/06/spring-boot-4-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Spring",
-      "source": "InfoQ Spring",
-      "category": "Spring",
       "summary": "Broadcom released Spring Boot 4.1 on June 10, 2026, to deliver gRPC auto-configuration, HTTP-client SSRF mitigation, and upgrades to Kotlin 2.3. It also brings lazy datasource connections, async context propagation for…",
       "ts": 1781499600,
       "published": "2026-06-15T05:00:00+00:00"
@@ -1819,15 +2215,6 @@
       "summary": "Six years after first comparing Java and Go microservices, the authors revisit the performance question: whether carefully implemented Java and Go HTTP services still deliver similar results on modern runtimes and hardw…",
       "ts": 1781481600,
       "published": "2026-06-15T00:00:00+00:00"
-    },
-    {
-      "title": "Introducing the OpenAI Partner Network",
-      "link": "https://openai.com/index/introducing-openai-partner-network",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.",
-      "ts": 1781456400,
-      "published": "2026-06-14T17:00:00+00:00"
     },
     {
       "title": "How Agentic Coding Can Help You Migrate Java Applications Faster",
@@ -1848,13 +2235,13 @@
       "published": "2026-06-13T04:30:52+00:00"
     },
     {
-      "title": "New OpenAI Academy courses for the next era of work",
-      "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.",
-      "ts": 1781258400,
-      "published": "2026-06-12T10:00:00+00:00"
+      "title": "The Real Python Podcast – Episode #299: EuroPython 2026: Celebrating 25 Years",
+      "link": "https://realpython.com/podcasts/rpp/299/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What's happening at EuroPython 2026? The conference celebrates its 25th anniversary this year in Kraków, Poland. This week on the show, organizers Mia Bajić and Daria Linhart Grudzien join me to discuss this year's conf…",
+      "ts": 1781265600,
+      "published": "2026-06-12T12:00:00+00:00"
     },
     {
       "title": "Oracle's OpenJDK Bans Generative AI Contributions While Oracle's GraalVM Allows Them",
@@ -1882,15 +2269,6 @@
       "summary": "a quiet day lets us highlight a great concept from Peter Steinberger, Boris Cherny, and Andrej Karpathy",
       "ts": 1781242449,
       "published": "2026-06-12T05:34:09+00:00"
-    },
-    {
-      "title": "How Preply combines AI and human tutors to personalize learning",
-      "link": "https://openai.com/index/preply",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.",
-      "ts": 1781222400,
-      "published": "2026-06-12T00:00:00+00:00"
     },
     {
       "title": "TCS and Anthropic partner to bring Claude to regulated industries",
@@ -1956,56 +2334,11 @@
       "published": "2026-06-11T00:00:00+00:00"
     },
     {
-      "title": "Ollama's highest performance on Apple Silicon yet with MLX",
-      "link": "https://ollama.com/blog/mlx-performance",
-      "source": "Ollama",
-      "category": "LLM",
-      "summary": "Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00"
-    },
-    {
       "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
       "link": "https://huggingface.co/blog/torch-mlp-fusion",
       "source": "Hugging Face",
       "category": "AI",
       "summary": "",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00"
-    },
-    {
-      "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-      "link": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00"
-    },
-    {
-      "title": "BBVA puts AI at the core of banking with OpenAI",
-      "link": "https://openai.com/index/bbva",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00"
-    },
-    {
-      "title": "OpenAI to acquire Ona",
-      "link": "https://openai.com/index/openai-to-acquire-ona",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00"
-    },
-    {
-      "title": "How an astrophysicist uses Codex to help simulate black holes",
-      "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
       "ts": 1781136000,
       "published": "2026-06-11T00:00:00+00:00"
     },
@@ -2028,13 +2361,13 @@
       "published": "2026-06-11T00:00:00+00:00"
     },
     {
-      "title": "Access OpenAI models and Codex through your Oracle cloud commitment",
-      "link": "https://openai.com/index/openai-on-oracle-cloud",
-      "source": "OpenAI",
+      "title": "Ollama's highest performance on Apple Silicon yet with MLX",
+      "link": "https://ollama.com/blog/mlx-performance",
+      "source": "Ollama",
       "category": "AI",
-      "summary": "Access OpenAI models and Codex through Oracle Cloud, using existing commitments to build and deploy AI with enterprise security and governance.",
-      "ts": 1781121600,
-      "published": "2026-06-10T20:00:00+00:00"
+      "summary": "Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.",
+      "ts": 1781136000,
+      "published": "2026-06-11T00:00:00+00:00"
     },
     {
       "title": "Apache Burr: Build reliable AI agents and applications",
@@ -2046,6 +2379,15 @@
       "published": "2026-06-10T15:01:06+00:00"
     },
     {
+      "title": "Cursor vs Windsurf: Which AI Code Editor Is Best for Python?",
+      "link": "https://realpython.com/cursor-vs-windsurf-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Compare Cursor vs Windsurf for Python across code completion, multi-file editing, and debugging to choose the right editor for your workflow.",
+      "ts": 1781100000,
+      "published": "2026-06-10T14:00:00+00:00"
+    },
+    {
       "title": "Lua.ex: Sandboxed Lua 5.3 on the Beam, Built for AI Agents · Lua.ex",
       "link": "https://deflua.com/",
       "source": "Hacker News",
@@ -2053,15 +2395,6 @@
       "summary": "Article URL: https://deflua.com/ Comments URL: https://news.ycombinator.com/item?id=48476189 Points: 61 # Comments: 0",
       "ts": 1781099094,
       "published": "2026-06-10T13:44:54+00:00"
-    },
-    {
-      "title": "PRC-linked influence operations are targeting AI debates in the US",
-      "link": "https://openai.com/index/prc-linked-influence-operations-ai-debates",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A new report from OpenAI details PRC-linked influence operations using AI to target U.S. tech debates, data center narratives, tariffs, and false claims about ChatGPT.",
-      "ts": 1781092800,
-      "published": "2026-06-10T12:00:00+00:00"
     },
     {
       "title": "Show HN: macOS menu bar gauges for your Claude Code quota",
@@ -2091,15 +2424,6 @@
       "published": "2026-06-10T00:00:00+00:00"
     },
     {
-      "title": "From data to decisions: how LSEG is scaling trusted AI",
-      "link": "https://openai.com/index/lseg",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how LSEG uses OpenAI to scale trusted AI across its global business, accelerating insights, shrinking release cycles, and empowering 4,000 employees.",
-      "ts": 1781049600,
-      "published": "2026-06-10T00:00:00+00:00"
-    },
-    {
       "title": "Policy on the AI Exponential",
       "link": "https://www.anthropic.com/policy-on-the-ai-exponential",
       "source": "Anthropic",
@@ -2109,13 +2433,22 @@
       "published": "2026-06-10T00:00:00+00:00"
     },
     {
-      "title": "How engineers at Nextdoor use Codex to build without limits",
-      "link": "https://openai.com/index/nextdoor",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How engineers at Nextdoor use Codex with GPT-5.5 to investigate hard-to-reproduce issues, build across platforms, and focus on product outcomes.",
-      "ts": 1781006400,
-      "published": "2026-06-09T12:00:00+00:00"
+      "title": "Python 3.14.6 and 3.13.14 are now available!",
+      "link": "https://blog.python.org/2026/06/python-3146-31314/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "A pair of bug fix releases await your upgrade.",
+      "ts": 1781049600,
+      "published": "2026-06-10T00:00:00+00:00"
+    },
+    {
+      "title": "Accessing Multiple AI Models With the OpenRouter API",
+      "link": "https://realpython.com/courses/multiple-ai-models-openrouter-api/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Access models from popular AI providers in Python through OpenRouter's unified API with smart routing, fallbacks, and cost controls.",
+      "ts": 1781013600,
+      "published": "2026-06-09T14:00:00+00:00"
     },
     {
       "title": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
@@ -2134,15 +2467,6 @@
       "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce. Unlike existing enterprise-level automati…",
       "ts": 1781000406,
       "published": "2026-06-09T10:20:06+00:00"
-    },
-    {
-      "title": "What Codex unlocks for Notion",
-      "link": "https://openai.com/index/notion",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How Notion uses Codex to one-shot specs, build AI Voice Input for the web, and multiply engineering power across small teams.",
-      "ts": 1780999200,
-      "published": "2026-06-09T10:00:00+00:00"
     },
     {
       "title": "[AINews] FrontierCode: Benchmarking for Code Quality over Slop",
@@ -2172,15 +2496,6 @@
       "published": "2026-06-09T00:00:00+00:00"
     },
     {
-      "title": "Industrial policy for the Intelligence Age",
-      "link": "https://openai.com/index/industrial-policy-for-the-intelligence-age",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore our ambitious, people-first industrial policy ideas for the AI era—focused on expanding opportunity, sharing prosperity, and building resilient institutions as advanced intelligence evolves.",
-      "ts": 1780963200,
-      "published": "2026-06-09T00:00:00+00:00"
-    },
-    {
       "title": "Claude Fable 5 and Claude Mythos 5",
       "link": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
       "source": "Anthropic",
@@ -2190,31 +2505,13 @@
       "published": "2026-06-09T00:00:00+00:00"
     },
     {
-      "title": "Confidential submission of draft S-1 to the SEC",
-      "link": "https://openai.com/index/openai-submits-confidential-s-1",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI confirms a confidential S-1 submission to the SEC and has not yet determined timing for further action.",
+      "title": "Python 3.15 Hits Feature Freeze and Other News for June 2026",
+      "link": "https://realpython.com/python-news-june-2026/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Python 3.15 hits feature freeze with a built-in sentinel, PEP 829 lands, Pydantic forks httpx, and AI goes bug-hunting in C code.",
       "ts": 1780927200,
       "published": "2026-06-08T14:00:00+00:00"
-    },
-    {
-      "title": "Import AI 460: Reward hacking society, RSI data from Anthropic; and RL-based quadcopter racing",
-      "link": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
-      "source": "Import AI",
-      "category": "LLM",
-      "summary": "When will markets price the singularity?",
-      "ts": 1780921892,
-      "published": "2026-06-08T12:31:32+00:00"
-    },
-    {
-      "title": "Built to benefit everyone: our plan",
-      "link": "https://openai.com/index/built-to-benefit-everyone-our-plan",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A vision for the future of AI, focusing on access, safety, and shared prosperity as OpenAI works to ensure AGI benefits everyone.",
-      "ts": 1780882200,
-      "published": "2026-06-08T01:30:00+00:00"
     },
     {
       "title": "Oracle Java Extension for Visual Studio Code Version 26.0.0 Is Now Available",
@@ -2235,15 +2532,6 @@
       "published": "2026-06-08T00:00:00+00:00"
     },
     {
-      "title": "Introducing the OpenAI Economic Research Exchange",
-      "link": "https://openai.com/index/economic-research-exchange",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI launches the Economic Research Exchange to study AI’s impact on jobs, productivity, and the economy. Applications are now open for selected research projects.",
-      "ts": 1780876800,
-      "published": "2026-06-08T00:00:00+00:00"
-    },
-    {
       "title": "JavaNext Language Features",
       "link": "https://inside.java/2026/06/07/java-next-language-features/",
       "source": "Inside Java",
@@ -2256,7 +2544,7 @@
       "title": "LLM Research Papers: The 2026 List (January to May)",
       "link": "https://magazine.sebastianraschka.com/p/llm-research-papers-2026-part1",
       "source": "Ahead of AI",
-      "category": "LLM",
+      "category": "AI",
       "summary": "A curated roundup of notable LLM research papers that came out this year",
       "ts": 1780744582,
       "published": "2026-06-06T11:16:22+00:00"
@@ -2271,13 +2559,13 @@
       "published": "2026-06-05T14:45:00+00:00"
     },
     {
-      "title": "Improved performance and model support with GGUF",
-      "link": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
-      "source": "Ollama",
-      "category": "LLM",
-      "summary": "Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider range of hardware.",
-      "ts": 1780617600,
-      "published": "2026-06-05T00:00:00+00:00"
+      "title": "The Real Python Podcast – Episode #298: Reducing the Size of Python Docker Containers",
+      "link": "https://realpython.com/podcasts/rpp/298/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How can you easily reduce the size of a Python Docker container? What are the exceptions you should catch in your code? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles a…",
+      "ts": 1780660800,
+      "published": "2026-06-05T12:00:00+00:00"
     },
     {
       "title": "JEP targeted to JDK 27: 538: PEM Encodings of Cryptographic Objects (3rd Preview)",
@@ -2285,6 +2573,15 @@
       "source": "Inside Java",
       "category": "Java",
       "summary": "The following JEP is targeted to JDK 27: 538: PEM Encodings of Cryptographic Objects (Third Preview)",
+      "ts": 1780617600,
+      "published": "2026-06-05T00:00:00+00:00"
+    },
+    {
+      "title": "Improved performance and model support with GGUF",
+      "link": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider range of hardware.",
       "ts": 1780617600,
       "published": "2026-06-05T00:00:00+00:00"
     },
@@ -2307,33 +2604,6 @@
       "published": "2026-06-04T14:38:35+00:00"
     },
     {
-      "title": "How Endava is redesigning software delivery around AI agents",
-      "link": "https://openai.com/index/endava-frontiers",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how Endava is using AI agents, ChatGPT Enterprise, and Codex to accelerate software delivery, automate workflows, and build an AI-native culture across the enterprise.",
-      "ts": 1780574400,
-      "published": "2026-06-04T12:00:00+00:00"
-    },
-    {
-      "title": "Dreaming: Better memory for a more helpful ChatGPT",
-      "link": "https://openai.com/index/chatgpt-memory-dreaming",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "ChatGPT introduces a new memory system to better remember preferences, keeping context fresh and relevant across conversations.",
-      "ts": 1780563600,
-      "published": "2026-06-04T09:00:00+00:00"
-    },
-    {
-      "title": "NVIDIA Nemotron 3 Ultra",
-      "link": "https://ollama.com/blog/nemotron-3-ultra",
-      "source": "Ollama",
-      "category": "LLM",
-      "summary": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
-      "ts": 1780531200,
-      "published": "2026-06-04T00:00:00+00:00"
-    },
-    {
       "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
       "link": "https://huggingface.co/blog/hf-cli-for-agents",
       "source": "Hugging Face",
@@ -2343,22 +2613,22 @@
       "published": "2026-06-04T00:00:00+00:00"
     },
     {
-      "title": "Biodefense in the Intelligence Age",
-      "link": "https://openai.com/index/biodefense-in-the-intelligence-age",
-      "source": "OpenAI",
+      "title": "NVIDIA Nemotron 3 Ultra",
+      "link": "https://ollama.com/blog/nemotron-3-ultra",
+      "source": "Ollama",
       "category": "AI",
-      "summary": "An action plan for AI-powered biological resilience",
+      "summary": "NVIDIA Nemotron 3 Ultra is built for high-throughput reasoning and long-running agent workflows.",
       "ts": 1780531200,
       "published": "2026-06-04T00:00:00+00:00"
     },
     {
-      "title": "Introducing new capabilities to GPT-Rosalind",
-      "link": "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-Rosalind advances life sciences research with enhanced biological reasoning, medicinal chemistry expertise, genomics analysis, and experimental workflow capabilities.",
-      "ts": 1780492500,
-      "published": "2026-06-03T13:15:00+00:00"
+      "title": "How to Use GitHub Copilot Code Review in Pull Requests",
+      "link": "https://realpython.com/github-copilot-code-review/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use GitHub Copilot code review on pull requests for AI-assisted feedback, one-click fixes, and project-specific custom instructions.",
+      "ts": 1780495200,
+      "published": "2026-06-03T14:00:00+00:00"
     },
     {
       "title": "5 ways Google Search can level up your thrift and vintage shopping",
@@ -2379,31 +2649,13 @@
       "published": "2026-06-03T12:55:11+00:00"
     },
     {
-      "title": "How Wasmer used Codex to build a Node.js runtime for the edge",
-      "link": "https://openai.com/index/wasmer",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how Wasmer used Codex with GPT-5.5 to build a Node.js runtime for the edge, accelerating development 10x to 20x and shipping in weeks instead of months.",
-      "ts": 1780488000,
-      "published": "2026-06-03T12:00:00+00:00"
-    },
-    {
-      "title": "A blueprint for democratic governance of frontier AI",
-      "link": "https://openai.com/index/frontier-safety-blueprint",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI outlines a blueprint for U.S. governance of frontier AI, proposing a federal framework for safety, resilience, and national security.",
-      "ts": 1780480800,
-      "published": "2026-06-03T10:00:00+00:00"
-    },
-    {
-      "title": "OpenAI public policy agenda",
-      "link": "https://openai.com/index/public-policy-agenda",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-      "ts": 1780480800,
-      "published": "2026-06-03T10:00:00+00:00"
+      "title": "Kotlin 2.4.0 Released",
+      "link": "https://blog.jetbrains.com/kotlin/2026/06/kotlin-2-4-0-released/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "The Kotlin 2.4.0 release is out! Here are the main highlights: For the complete list of changes, refer to What’s new in Kotlin 2.4.0 or the release notes on GitHub. How to install Kotlin 2.4.0 The latest version of Kotl…",
+      "ts": 1780481695,
+      "published": "2026-06-03T10:14:55+00:00"
     },
     {
       "title": "Adding MCP Tools to Reachy Mini",
@@ -2442,6 +2694,15 @@
       "published": "2026-06-02T20:19:11+00:00"
     },
     {
+      "title": "Fragments: June 2",
+      "link": "https://martinfowler.com/fragments/2026-06-02.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Greg Wilson has noticed that lots of folks are using dodgy metrics to figure out if AI tools are worth their costs. Would you measure lines of code generated, or tickets closed? Or would you send out a survey asking whe…",
+      "ts": 1780413660,
+      "published": "2026-06-02T15:21:00+00:00"
+    },
+    {
       "title": "Holo3.1: Fast & Local Computer Use Agents",
       "link": "https://huggingface.co/blog/Hcompany/holo31",
       "source": "Hugging Face",
@@ -2451,40 +2712,13 @@
       "published": "2026-06-02T14:13:23+00:00"
     },
     {
-      "title": "Travelers deploys AI-powered claims countrywide with OpenAI",
-      "link": "https://openai.com/index/travelers",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Travelers built an AI-powered Claim Assistant with OpenAI to guide customers through filing claims, provide 24/7 support, and scale operations during peak demand.",
-      "ts": 1780401600,
-      "published": "2026-06-02T12:00:00+00:00"
-    },
-    {
-      "title": "Codex for every role, tool, and workflow",
-      "link": "https://openai.com/index/codex-for-every-role-tool-workflow",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Discover new Codex plugins, sites, and annotations that help analysts, marketers, designers, investors, and other teams get more done with AI.",
-      "ts": 1780390800,
-      "published": "2026-06-02T09:00:00+00:00"
-    },
-    {
-      "title": "Advancing youth safety and opportunity through global leadership",
-      "link": "https://openai.com/index/advancing-youth-safety-and-opportunity-through-global-leadership",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI calls for global action on youth AI safety, proposing an international institute to strengthen safeguards, standards, and opportunities for young people.",
-      "ts": 1780383600,
-      "published": "2026-06-02T07:00:00+00:00"
-    },
-    {
-      "title": "Codex is becoming a productivity tool for everyone",
-      "link": "https://openai.com/index/codex-for-knowledge-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "The Next Era of Knowledge Work report explores how Codex is transforming productivity through AI-powered research, data analysis, workflow automation, and content creation.",
-      "ts": 1780365600,
-      "published": "2026-06-02T02:00:00+00:00"
+      "title": "Structuring Your Python Script",
+      "link": "https://realpython.com/courses/structuring-your-python-script/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Master Python script structure with best practices for shebangs, ordered imports, formatting with Ruff, constants, and a clean entry point.",
+      "ts": 1780408800,
+      "published": "2026-06-02T14:00:00+00:00"
     },
     {
       "title": "Expanding Project Glasswing",
@@ -2496,13 +2730,13 @@
       "published": "2026-06-02T00:00:00+00:00"
     },
     {
-      "title": "Our views on AI policy and political advocacy",
-      "link": "https://openai.com/index/our-views-on-ai-policy-and-political-advocacy",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Our approach to AI policy and political advocacy, transparency, support for thoughtful regulation and AI safety, and that no outside political group speaks on the company’s behalf.",
-      "ts": 1780333200,
-      "published": "2026-06-01T17:00:00+00:00"
+      "title": "Python 3.15.0 beta 2 is here!",
+      "link": "https://blog.python.org/2026/06/python-3150-beta-2/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "The antepenultimate 3.15 beta is out!",
+      "ts": 1780358400,
+      "published": "2026-06-02T00:00:00+00:00"
     },
     {
       "title": "How we used Gemini to build Google I/O 2026",
@@ -2523,6 +2757,15 @@
       "published": "2026-06-01T15:45:17+00:00"
     },
     {
+      "title": "Python sleep(): How to Add Time Delays to Your Code",
+      "link": "https://realpython.com/python-sleep/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Python's sleep() function to add time delays and pause your code with time.sleep(), decorators, threads, and asyncio.",
+      "ts": 1780322400,
+      "published": "2026-06-01T14:00:00+00:00"
+    },
+    {
       "title": "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
       "link": "https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption",
       "source": "Hugging Face",
@@ -2532,33 +2775,6 @@
       "published": "2026-06-01T13:51:18+00:00"
     },
     {
-      "title": "Import AI 459: AI oversight is difficult; scaling laws for protein folding models; and pricing the extinction risk of AI systems",
-      "link": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult",
-      "source": "Import AI",
-      "category": "LLM",
-      "summary": "Do you feel as though you are living in a revolution?",
-      "ts": 1780320716,
-      "published": "2026-06-01T13:31:56+00:00"
-    },
-    {
-      "title": "Building the infrastructure for the Intelligence Age in Michigan",
-      "link": "https://openai.com/index/stargate-michigan-data-center",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI breaks ground on a 1GW data center project in Michigan as part of Stargate, building AI infrastructure to expand access, create jobs, and support communities.",
-      "ts": 1780315200,
-      "published": "2026-06-01T12:00:00+00:00"
-    },
-    {
-      "title": "OpenAI frontier models and Codex are now available on AWS",
-      "link": "https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a new path to build with OpenAI through the AWS environments, controls, and procurement workflows they already use. Customers can g…",
-      "ts": 1780308000,
-      "published": "2026-06-01T10:00:00+00:00"
-    },
-    {
       "title": "Claude Code and Codex can have real-time conversation via Git",
       "link": "https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05",
       "source": "Hacker News",
@@ -2566,6 +2782,24 @@
       "summary": "Article URL: https://medium.com/@Koukyosyumei/claude-code-and-codex-can-have-real-time-conversation-via-git-f95b696c1c05 Comments URL: https://news.ycombinator.com/item?id=48345837 Points: 116 # Comments: 79",
       "ts": 1780236768,
       "published": "2026-05-31T14:12:48+00:00"
+    },
+    {
+      "title": "AWS reportedly to tuck Grok into Bedrock, despite zero enterprise demand",
+      "link": "https://www.theregister.com/ai-ml/2026/05/29/aws-reportedly-to-tuck-elon-musks-grok-into-bedrock-despite-zero-enterprise-demand/5248832",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.theregister.com/ai-ml/2026/05/29/aws-reportedly-to-tuck-elon-musks-grok-into-bedrock-despite-zero-enterprise-demand/5248832 Comments URL: https://news.ycombinator.com/item?id=48330539 Points: 17…",
+      "ts": 1780096109,
+      "published": "2026-05-29T23:08:29+00:00"
+    },
+    {
+      "title": "Llama.cpp now has an official website: llama.app",
+      "link": "https://twitter.com/ggerganov/status/2060394400237109567",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/ggerganov/status/2060394400237109567 Comments URL: https://news.ycombinator.com/item?id=48329957 Points: 17 # Comments: 4",
+      "ts": 1780092527,
+      "published": "2026-05-29T22:08:47+00:00"
     },
     {
       "title": "Take our I/O 2026 quiz, vibe coded in Google AI Studio.",
@@ -2613,31 +2847,13 @@
       "published": "2026-05-29T12:00:00+00:00"
     },
     {
-      "title": "Boston Children’s uses AI to unlock new diagnoses",
-      "link": "https://openai.com/index/boston-childrens-hospital",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Boston Children’s Hospital uses OpenAI technology to improve patient care, reduce operational burden, and help diagnose more than 40 rare disease cases.",
+      "title": "The Real Python Podcast – Episode #297: Improving Python Through PEPs and Protocols",
+      "link": "https://realpython.com/podcasts/rpp/297/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Have you ever been confused by the naming of modules you're importing from a package? Is there a standard way to organize and name your Python virtual environments? This week on the show, Brett Cannon returns to discuss…",
       "ts": 1780056000,
       "published": "2026-05-29T12:00:00+00:00"
-    },
-    {
-      "title": "How Braintrust turns customer requests into code with Codex",
-      "link": "https://openai.com/index/braintrust",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How Braintrust engineers use Codex with GPT-5.5 to run experiments and code faster.",
-      "ts": 1780056000,
-      "published": "2026-05-29T12:00:00+00:00"
-    },
-    {
-      "title": "Strengthening societal resilience with Rosalind Biodefense",
-      "link": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI launches Rosalind Biodefense, expanding trusted access to GPT-Rosalind for vetted developers and U.S. government partners advancing biodefense, public health, and pandemic preparedness through frontier AI.",
-      "ts": 1780023600,
-      "published": "2026-05-29T03:00:00+00:00"
     },
     {
       "title": "Claude Code – Everything you can configure that the docs don't tell you",
@@ -2654,15 +2870,6 @@
       "source": "Hugging Face",
       "category": "AI",
       "summary": "",
-      "ts": 1780012800,
-      "published": "2026-05-29T00:00:00+00:00"
-    },
-    {
-      "title": "A shared playbook for trustworthy third party evaluations",
-      "link": "https://openai.com/index/trustworthy-third-party-evaluations-foundations",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI shares guidance on third-party AI evaluations, covering how to assess model capabilities, safeguards, and validity for frontier systems.",
       "ts": 1780012800,
       "published": "2026-05-29T00:00:00+00:00"
     },
@@ -2685,42 +2892,6 @@
       "published": "2026-05-28T15:00:00+00:00"
     },
     {
-      "title": "How Endava builds an agentic organization with Codex",
-      "link": "https://openai.com/index/endava",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how Endava uses Codex to build an agentic organization, accelerating software delivery and reducing requirements analysis from weeks to hours.",
-      "ts": 1779969600,
-      "published": "2026-05-28T12:00:00+00:00"
-    },
-    {
-      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
-      "link": "https://ollama.com/blog/openjarvis",
-      "source": "Ollama",
-      "category": "LLM",
-      "summary": "OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in.",
-      "ts": 1779926400,
-      "published": "2026-05-28T00:00:00+00:00"
-    },
-    {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "link": "https://openai.com/index/mufg",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "ts": 1779926400,
-      "published": "2026-05-28T00:00:00+00:00"
-    },
-    {
-      "title": "OpenAI’s Frontier Governance Framework",
-      "link": "https://openai.com/index/openai-frontier-governance-framework",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore OpenAI’s Frontier Governance Framework and how our AI safety, security, and risk practices align with emerging EU and California regulations.",
-      "ts": 1779926400,
-      "published": "2026-05-28T00:00:00+00:00"
-    },
-    {
       "title": "Introducing Claude Opus 4.8",
       "link": "https://www.anthropic.com/news/claude-opus-4-8",
       "source": "Anthropic",
@@ -2730,22 +2901,49 @@
       "published": "2026-05-28T00:00:00+00:00"
     },
     {
-      "title": "Cisco and OpenAI redefine enterprise engineering with Codex",
-      "link": "https://openai.com/index/cisco",
-      "source": "OpenAI",
+      "title": "OpenJarvis: a local-first personal AI is now available to run with Ollama",
+      "link": "https://ollama.com/blog/openjarvis",
+      "source": "Ollama",
       "category": "AI",
-      "summary": "Cisco and OpenAI are redefining enterprise engineering with Codex, helping Cisco scale AI-native development, accelerate AI Defense work, and automate defect remediation.",
-      "ts": 1779879600,
-      "published": "2026-05-27T11:00:00+00:00"
+      "summary": "OpenJarvis v1.0 is now available: an open-source framework for building personal AI agents that run on your own hardware, with Ollama support built-in.",
+      "ts": 1779926400,
+      "published": "2026-05-28T00:00:00+00:00"
     },
     {
-      "title": "Building self-improving tax agents with Codex",
-      "link": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how OpenAI, Thrive, and Crete built a self-improving tax agent with Codex, automating filings, improving accuracy, and accelerating workflows.",
-      "ts": 1779865200,
-      "published": "2026-05-27T07:00:00+00:00"
+      "title": "Fragments: May 27",
+      "link": "https://martinfowler.com/fragments/2026-05-27.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "At the GOTO Conference in Copenhagen in 2025, Kent Beck and I spent some time on stage talking and answering questions from the audience - a format I refer to as “two old geezers on a park bench”. We talk about our expe…",
+      "ts": 1779910800,
+      "published": "2026-05-27T19:40:00+00:00"
+    },
+    {
+      "title": "The test suite as a regression sensor",
+      "link": "https://martinfowler.com/articles/sensors-for-coding-agents.html#TheTestSuiteAsARegressionSensor",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Birgitta Böckeler finishes her post on sensors for coding agents by examining the role of a test suite as a regression sensor, focusing on the role mutation testing can play. more…",
+      "ts": 1779894060,
+      "published": "2026-05-27T15:01:00+00:00"
+    },
+    {
+      "title": "The VibeSec Reckoning",
+      "link": "https://martinfowler.com/articles/vibesec-reckoning.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Vibe coding has significantly accelerated software prototyping but AI agents frequently recommend insecure configurations, creating security problems. Gautam Koul, Lucian Moss, Neil Drew-Lopez, and Daberechi Ruth Edeoko…",
+      "ts": 1779890580,
+      "published": "2026-05-27T14:03:00+00:00"
+    },
+    {
+      "title": "Koog 1.0 Is Out: Stable Core, Better Interop, and Multiplatform Observability",
+      "link": "https://blog.jetbrains.com/ai/2026/05/koog-1-0-is-out-stable-core-better-interop-and-multiplatform-observability/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Last week at the KotlinConf 2026 keynote (watch the recording here), we announced Koog 1.0. Koog is JetBrains’ open-source framework for building AI agents in Kotlin and Java. It provides the core building blocks for ag…",
+      "ts": 1779871990,
+      "published": "2026-05-27T08:53:10+00:00"
     },
     {
       "title": "Claude Code as a Daily Driver: Claude.md, Skills, Subagents, Plugins, and MCPs",
@@ -2775,31 +2973,31 @@
       "published": "2026-05-27T00:00:00+00:00"
     },
     {
-      "title": "Election information and safeguards in 2026",
-      "link": "https://openai.com/index/election-safeguards-2026",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Ahead of global elections, we’re helping people access information, supporting cyber defenders, and increasing AI transparency",
+      "title": "Using LLMs to Secure Source Code",
+      "link": "https://eugeneyan.com//writing/secure-source-code/",
+      "source": "Eugene Yan",
+      "category": "Agents",
+      "summary": "Build a threat model, discover vulnerabilities, verify, triage, and patch.",
       "ts": 1779840000,
       "published": "2026-05-27T00:00:00+00:00"
     },
     {
-      "title": "Warp’s big bet on building open source with GPT-5.5",
-      "link": "https://openai.com/index/warp",
-      "source": "OpenAI",
+      "title": "Grok Build",
+      "link": "https://grok.com/build",
+      "source": "Hacker News",
       "category": "AI",
-      "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
-      "ts": 1779840000,
-      "published": "2026-05-27T00:00:00+00:00"
+      "summary": "Article URL: https://grok.com/build Comments URL: https://news.ycombinator.com/item?id=48287379 Points: 24 # Comments: 5",
+      "ts": 1779837694,
+      "published": "2026-05-26T23:21:34+00:00"
     },
     {
-      "title": "Import AI 458: Reckoning with the future; and a singularity story",
-      "link": "https://importai.substack.com/p/import-ai-458-reckoning-with-the",
-      "source": "Import AI",
-      "category": "LLM",
-      "summary": "What AI-driven miracles will happen this year?",
-      "ts": 1779798723,
-      "published": "2026-05-26T12:32:03+00:00"
+      "title": "Connecting LLMs to Your Data With Python MCP Servers",
+      "link": "https://realpython.com/courses/connecting-llms-data-python-mcp-servers/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build an MCP server in Python that exposes tools, resources, and prompts so AI agents like Cursor can interact with your data.",
+      "ts": 1779804000,
+      "published": "2026-05-26T14:00:00+00:00"
     },
     {
       "title": "Show HN: skills-for-humanity – 171 structured reasoning skills for Claude Code",
@@ -2829,15 +3027,6 @@
       "published": "2026-05-25T00:00:00+00:00"
     },
     {
-      "title": "OpenAI, Grupo Folha and Grupo UOL announce strategic content partnership",
-      "link": "https://openai.com/index/grupo-folha-grupo-uol-partnership",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI partners with Grupo Folha and Grupo UOL to bring trusted Brazilian journalism to ChatGPT, expanding access to news with attribution and transparency.",
-      "ts": 1779667200,
-      "published": "2026-05-25T00:00:00+00:00"
-    },
-    {
       "title": "Catch up on the Dialogues stage at Google I/O 2026.",
       "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
       "source": "Google AI",
@@ -2856,6 +3045,15 @@
       "published": "2026-05-22T17:32:04+00:00"
     },
     {
+      "title": "The Real Python Podcast – Episode #296: Managing Polars Schema Issues & Profiling GitHub Users",
+      "link": "https://realpython.com/podcasts/rpp/296/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How can you avoid schema problems in your Polars data pipeline when adding new columns? How can you quickly examine a GitHub user's profile to decide how much to invest in their contributions? Christopher Trudeau is bac…",
+      "ts": 1779451200,
+      "published": "2026-05-22T12:00:00+00:00"
+    },
+    {
       "title": "Show HN: Spec-Driven Development Workflow for Claude Code",
       "link": "https://news.ycombinator.com/item?id=48231575",
       "source": "Hacker News",
@@ -2865,31 +3063,58 @@
       "published": "2026-05-22T03:17:38+00:00"
     },
     {
-      "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-      "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-      "source": "OpenAI",
+      "title": "Grok falls flat in Washington, undercutting SpaceX's AI growth story",
+      "link": "https://www.reuters.com/world/grok-falls-flat-washington-undercutting-spacexs-ai-growth-story-2026-05-21/",
+      "source": "Hacker News",
       "category": "AI",
-      "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-      "ts": 1779408000,
-      "published": "2026-05-22T00:00:00+00:00"
+      "summary": "Article URL: https://www.reuters.com/world/grok-falls-flat-washington-undercutting-spacexs-ai-growth-story-2026-05-21/ Comments URL: https://news.ycombinator.com/item?id=48225769 Points: 13 # Comments: 0",
+      "ts": 1779382446,
+      "published": "2026-05-21T16:54:06+00:00"
     },
     {
-      "title": "How Virgin Atlantic ships faster with Codex",
-      "link": "https://openai.com/index/virgin-atlantic",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How Virgin Atlantic used Codex to ship its revamped mobile app on a fixed holiday travel deadline, reaching near-total unit test coverage and zero P1 defects.",
-      "ts": 1779408000,
-      "published": "2026-05-22T00:00:00+00:00"
+      "title": "Bliki: Vibe Coding",
+      "link": "https://martinfowler.com/bliki/VibeCoding.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Vibe coding is building a software application by prompting an LLM, telling it what to build, trying it out, prompting for changes - but without looking at any of the code that the LLM generates. This technique can be u…",
+      "ts": 1779364140,
+      "published": "2026-05-21T11:49:00+00:00"
     },
     {
-      "title": "AdventHealth advances whole-person care with OpenAI",
-      "link": "https://openai.com/index/adventhealth",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "AdventHealth is using ChatGPT for Healthcare to streamline workflows, reduce administrative burden, and return more time to patient care.",
-      "ts": 1779364800,
-      "published": "2026-05-21T12:00:00+00:00"
+      "title": "KotlinConf’26 Keynote Highlights: Advances in Language Design, Tooling, AI-Driven Workflows, and Multiplatform Development",
+      "link": "https://blog.jetbrains.com/kotlin/2026/05/kotlinconf26-keynote-highlights/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Kotlin turns 15 this year, and it really is everywhere. It powers systems behind everyday moments, such as tapping to pay, buying commuter rail tickets, using in-flight entertainment, and even filing tax returns online.…",
+      "ts": 1779358781,
+      "published": "2026-05-21T10:19:41+00:00"
+    },
+    {
+      "title": "Introducing a Security Support Policy for the Kotlin Standard Library",
+      "link": "https://blog.jetbrains.com/kotlin/2026/05/security-support-policy-for-the-kotlin-standard-library/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Upgrade rhythms vary significantly among Kotlin’s user base. Some teams update whenever a new release lands without a second thought. On the other hand, a team inside a regulated organization moves on a multi-quarter cy…",
+      "ts": 1779358759,
+      "published": "2026-05-21T10:19:19+00:00"
+    },
+    {
+      "title": "Official Kotlin Support for Visual Studio Code Is Now Available in Alpha",
+      "link": "https://blog.jetbrains.com/kotlin/2026/05/official-kotlin-support-for-visual-studio-code-is-now-available-in-alpha/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Today at KotlinConf 2026, we announced the Alpha release of the official Kotlin extension for Visual Studio Code. IntelliJ IDEA and Android Studio remain the most complete environments for Kotlin development. But not ev…",
+      "ts": 1779358756,
+      "published": "2026-05-21T10:19:16+00:00"
+    },
+    {
+      "title": "Built for Productivity: What the Data Finally Shows About Kotlin",
+      "link": "https://blog.jetbrains.com/kotlin/2026/05/built-for-productivity-what-the-data-shows-about-kotlin/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Years of productivity-focused design are now visible in the data. Pragmatism has been central to Kotlin’s design from day one. The language prioritizes the developer’s convenience and productivity over academic purity o…",
+      "ts": 1779309865,
+      "published": "2026-05-20T20:44:25+00:00"
     },
     {
       "title": "We’re announcing new community investments in Missouri.",
@@ -2928,40 +3153,13 @@
       "published": "2026-05-20T14:40:42+00:00"
     },
     {
-      "title": "An OpenAI model has disproved a central conjecture in discrete geometry",
-      "link": "https://openai.com/index/model-disproves-discrete-geometry-conjecture",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "An OpenAI model solved the 80-year-old unit distance problem, disproving a major conjecture in discrete geometry and marking a milestone in AI-driven mathematics.",
-      "ts": 1779235200,
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "title": "How Ramp engineers accelerate code review with Codex",
-      "link": "https://openai.com/index/ramp",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-      "ts": 1779235200,
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "title": "The next phase of OpenAI’s Education for Countries",
-      "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI advances Education for Countries, expanding AI adoption in schools with new partnerships, teacher training, and tools to improve global learning outcomes.",
-      "ts": 1779235200,
-      "published": "2026-05-20T00:00:00+00:00"
-    },
-    {
-      "title": "Introducing OpenAI for Singapore",
-      "link": "https://openai.com/index/introducing-openai-for-singapore",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI for Singapore launches a multi-year AI partnership to expand deployment, build local talent, and support businesses and public services with AI.",
-      "ts": 1779222600,
-      "published": "2026-05-19T20:30:00+00:00"
+      "title": "Three more static code analysis sensors",
+      "link": "https://martinfowler.com/articles/sensors-for-coding-agents.html#StaticCodeAnalysisDependencyRules",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Birgitta Böckeler adds discussion of three more sensors for static code analysis, focusing on checking and enforcing better modularity. Computational sensors for dependency checks were good at enforcing rules, but the r…",
+      "ts": 1779287220,
+      "published": "2026-05-20T14:27:00+00:00"
     },
     {
       "title": "OlmoEarth v1.1: A more efficient family of Earth observation models",
@@ -3018,13 +3216,22 @@
       "published": "2026-05-19T17:45:00+00:00"
     },
     {
-      "title": "Advancing content provenance for a safer, more transparent AI ecosystem",
-      "link": "https://openai.com/index/advancing-content-provenance",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI advances AI content provenance with Content Credentials, SynthID, and a verification tool to help people identify and trust AI-generated media.",
-      "ts": 1779187500,
-      "published": "2026-05-19T10:45:00+00:00"
+      "title": "Maintainability sensors for coding agents",
+      "link": "https://martinfowler.com/articles/sensors-for-coding-agents.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "In her recent article about harness engineering for coding agent users, Birgitta Böckeler laid out a mental model for expanding a coding agent harness: a system of guides and sensors that increase the probability of goo…",
+      "ts": 1779208680,
+      "published": "2026-05-19T16:38:00+00:00"
+    },
+    {
+      "title": "Tapping Into the Zen of Python",
+      "link": "https://realpython.com/courses/tapping-into-the-zen-of-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore the Zen of Python and its 19 guiding principles for writing readable, practical code. Learn its history, jokes, and meaning.",
+      "ts": 1779199200,
+      "published": "2026-05-19T14:00:00+00:00"
     },
     {
       "title": "Introducing the Ettin Reranker Family",
@@ -3036,6 +3243,15 @@
       "published": "2026-05-19T00:00:00+00:00"
     },
     {
+      "title": "Musk's xAI Fails to Pay Staff $420 for Giving Their Tax Returns to Grok",
+      "link": "https://www.bloomberg.com/news/articles/2026-05-18/musk-s-xai-promised-staff-420-for-their-tax-returns-hasn-t-paid",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-05-18/musk-s-xai-promised-staff-420-for-their-tax-returns-hasn-t-paid Comments URL: https://news.ycombinator.com/item?id=48185247 Points: 15 # Comments: 1",
+      "ts": 1779136580,
+      "published": "2026-05-18T20:36:20+00:00"
+    },
+    {
       "title": "PaddleOCR 3.5: Running OCR and Document Parsing Tasks with a Transformers Backend",
       "link": "https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers",
       "source": "Hugging Face",
@@ -3045,40 +3261,31 @@
       "published": "2026-05-18T15:12:46+00:00"
     },
     {
-      "title": "Import AI 457: AI stuxnet; cursed Muon optimizer; and positive alignment",
-      "link": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
-      "source": "Import AI",
-      "category": "LLM",
-      "summary": "Welcome to Import AI, a newsletter about AI research.",
-      "ts": 1779111077,
-      "published": "2026-05-18T13:31:17+00:00"
-    },
-    {
-      "title": "OpenAI and Dell partner to bring Codex to hybrid and on-premise enterprise environments",
-      "link": "https://openai.com/index/dell-codex-enterprise-partnership",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and Dell partner to bring Codex to hybrid and on-premise environments, helping enterprises deploy AI coding agents securely across data and workflows.",
-      "ts": 1779098400,
-      "published": "2026-05-18T10:00:00+00:00"
-    },
-    {
       "title": "Recent Developments in LLM Architectures: KV Sharing, mHC, and Compressed Attention",
       "link": "https://magazine.sebastianraschka.com/p/recent-developments-in-llm-architectures",
       "source": "Ahead of AI",
-      "category": "LLM",
+      "category": "AI",
       "summary": "From Gemma 4 to DeepSeek V4, How New Open-Weight LLMs Are Reducing Long-Context Costs",
       "ts": 1778931231,
       "published": "2026-05-16T11:33:51+00:00"
     },
     {
-      "title": "OpenAI and Malta partner to bring ChatGPT Plus to all citizens",
-      "link": "https://openai.com/index/malta-chatgpt-plus-partnership",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and Malta partner to expand AI access, offering ChatGPT Plus and training to help citizens build practical AI skills and use AI responsibly.",
-      "ts": 1778889600,
-      "published": "2026-05-16T00:00:00+00:00"
+      "title": "A New Default Project Structure for Kotlin Multiplatform",
+      "link": "https://blog.jetbrains.com/kotlin/2026/05/new-kmp-default-structure/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "We are updating the default project structure for Kotlin Multiplatform projects to give modules clearer responsibilities, better align with conventions used by other build systems and frameworks, and reflect the changes…",
+      "ts": 1778854857,
+      "published": "2026-05-15T14:20:57+00:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #295: Agentic Architecture: Why Files Aren't Always Enough",
+      "link": "https://realpython.com/podcasts/rpp/295/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What are the limitations of using a file-based agent workflow? Why do massive context windows tend to collapse? This week on the show, Mikiko Bazeley from MongoDB joins us to discuss agentic architecture and context eng…",
+      "ts": 1778846400,
+      "published": "2026-05-15T12:00:00+00:00"
     },
     {
       "title": "How Claude Code works in large codebases",
@@ -3090,58 +3297,13 @@
       "published": "2026-05-15T04:15:31+00:00"
     },
     {
-      "title": "How data science teams use Codex",
-      "link": "https://openai.com/academy/codex-for-work/how-data-science-teams-use-codex",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how data science teams can use Codex to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
-      "ts": 1778803200,
-      "published": "2026-05-15T00:00:00+00:00"
-    },
-    {
-      "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-      "link": "https://openai.com/index/databricks",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-      "ts": 1778803200,
-      "published": "2026-05-15T00:00:00+00:00"
-    },
-    {
-      "title": "How business operations teams use Codex",
-      "link": "https://openai.com/academy/codex-for-work/how-business-operations-teams-use-codex",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how business operations teams can use Codex to create initiative briefs, strategy updates, leadership decision packets, progress updates, and more from real work inputs.",
-      "ts": 1778803200,
-      "published": "2026-05-15T00:00:00+00:00"
-    },
-    {
-      "title": "A new personal finance experience in ChatGPT",
-      "link": "https://openai.com/index/personal-finance-chatgpt",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Preview a new personal finance experience in ChatGPT for Pro users in the U.S. Securely connect your financial accounts and get AI-powered insights and guidance grounded in your financial context, goals, and priorities.",
-      "ts": 1778803200,
-      "published": "2026-05-15T00:00:00+00:00"
-    },
-    {
-      "title": "How sales teams use Codex",
-      "link": "https://openai.com/academy/codex-for-work/how-sales-teams-use-codex",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how sales teams can use ChatGPT Codex to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
-      "ts": 1778803200,
-      "published": "2026-05-15T00:00:00+00:00"
-    },
-    {
-      "title": "Sea's View on the Future of Agentic Software Development with Codex",
-      "link": "https://openai.com/index/sea-david-chen",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Sea Limited's CPO explains why the company is deploying Codex across engineering teams to accelerate AI-native software development in Asia.",
-      "ts": 1778790600,
-      "published": "2026-05-14T20:30:00+00:00"
+      "title": "Fragments: May 14",
+      "link": "https://martinfowler.com/fragments/2026-05-14.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Last week I spent a day at The Orchard Retreat, hosted by Mechanical Orchard . that brought together several people working in software development to talk about the profession’s future with the rise of agentic programm…",
+      "ts": 1778795520,
+      "published": "2026-05-14T21:52:00+00:00"
     },
     {
       "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
@@ -3156,7 +3318,7 @@
       "title": "Early Access Grok Build CLI",
       "link": "https://x.ai/cli",
       "source": "Hacker News",
-      "category": "LLM",
+      "category": "AI",
       "summary": "Article URL: https://x.ai/cli Comments URL: https://news.ycombinator.com/item?id=48139299 Points: 33 # Comments: 1",
       "ts": 1778783544,
       "published": "2026-05-14T18:32:24+00:00"
@@ -3165,19 +3327,19 @@
       "title": "Grok Build",
       "link": "https://x.ai/news/grok-build-cli",
       "source": "Hacker News",
-      "category": "LLM",
+      "category": "AI",
       "summary": "Article URL: https://x.ai/news/grok-build-cli Comments URL: https://news.ycombinator.com/item?id=48139115 Points: 100 # Comments: 36",
       "ts": 1778782675,
       "published": "2026-05-14T18:17:55+00:00"
     },
     {
-      "title": "Work with Codex from anywhere",
-      "link": "https://openai.com/index/work-with-codex-from-anywhere",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Use Codex anywhere with the ChatGPT mobile app. Monitor, steer, and approve coding tasks in real time across devices and remote environments.",
-      "ts": 1778763600,
-      "published": "2026-05-14T13:00:00+00:00"
+      "title": "Bliki: Interrogatory LLM",
+      "link": "https://martinfowler.com/bliki/InterrogatoryLLM.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "When we need an LLM to perform a complex task, we often need to feed it a lot of context. Coming up with a design for a new feature requires descriptions of how we want the feature to appear to the user, guidelines on h…",
+      "ts": 1778771040,
+      "published": "2026-05-14T15:04:00+00:00"
     },
     {
       "title": "A Claude Code and Codex Skill for Deliberate Skill Development",
@@ -3198,33 +3360,6 @@
       "published": "2026-05-14T00:00:00+00:00"
     },
     {
-      "title": "Helping ChatGPT better recognize context in sensitive conversations",
-      "link": "https://openai.com/index/chatgpt-recognize-context-in-sensitive-conversations",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how new ChatGPT safety updates improve context awareness in sensitive conversations, helping detect risk over time and respond more safely.",
-      "ts": 1778716800,
-      "published": "2026-05-14T00:00:00+00:00"
-    },
-    {
-      "title": "Building a safe, effective sandbox to enable Codex on Windows",
-      "link": "https://openai.com/index/building-codex-windows-sandbox",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how OpenAI built a safe, effective sandbox to enable Codex on Windows with controlled file access and network limits.",
-      "ts": 1778670000,
-      "published": "2026-05-13T11:00:00+00:00"
-    },
-    {
-      "title": "Our response to the TanStack npm supply chain attack",
-      "link": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI details its response to the TanStack “Mini Shai-Hulud” supply chain attack, outlines protections taken to secure systems and signing certificates, and explains why macOS users must update OpenAI apps by June 12,…",
-      "ts": 1778630400,
-      "published": "2026-05-13T00:00:00+00:00"
-    },
-    {
       "title": "Launch HN: Voker (YC S24) – Analytics for AI Agents",
       "link": "https://voker.ai",
       "source": "Hacker News",
@@ -3232,15 +3367,6 @@
       "summary": "Hey HN, we're Alex and Tyler, co-founders of Voker.ai ( https://voker.ai/ ), an agent analytics platform for AI product teams. Voker gives full visibility into what users are asking of your agents, and whether your agen…",
       "ts": 1778600720,
       "published": "2026-05-12T15:45:20+00:00"
-    },
-    {
-      "title": "How finance teams use Codex",
-      "link": "https://openai.com/academy/how-finance-teams-use-codex",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how finance teams can use Codex to build MBRs, reporting packs, variance bridges, model checks, and planning scenarios from real work inputs.",
-      "ts": 1778598000,
-      "published": "2026-05-12T15:00:00+00:00"
     },
     {
       "title": "Show HN: Statewright – Visual state machines that make AI agents reliable",
@@ -3252,31 +3378,31 @@
       "published": "2026-05-12T14:24:55+00:00"
     },
     {
-      "title": "What Parameter Golf taught us about AI-assisted research",
-      "link": "https://openai.com/index/what-parameter-golf-taught-us",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Parameter Golf brought together 1,000+ participants and 2,000+ submissions to explore AI-assisted machine learning research, coding agents, quantization, and novel model design under strict constraints.",
-      "ts": 1778544000,
-      "published": "2026-05-12T00:00:00+00:00"
+      "title": "Building Type-Safe LLM Agents With Pydantic AI",
+      "link": "https://realpython.com/courses/building-type-safe-llm-agents-with-pydantic-ai/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build type-safe LLM agents in Python with Pydantic AI using structured outputs, function calling, and dependency injection.",
+      "ts": 1778594400,
+      "published": "2026-05-12T14:00:00+00:00"
     },
     {
-      "title": "How NVIDIA engineers and researchers build with Codex",
-      "link": "https://openai.com/index/nvidia",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments.",
-      "ts": 1778544000,
-      "published": "2026-05-12T00:00:00+00:00"
+      "title": "What is Code",
+      "link": "https://martinfowler.com/articles/what-is-code.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Increasingly humans delegate writing code to agents. Will there even be source code in the future? To wrestle with this question, we have to understand what code is. Unmesh Joshi sees code as having two distinct but int…",
+      "ts": 1778592600,
+      "published": "2026-05-12T13:30:00+00:00"
     },
     {
-      "title": "AutoScout24 scales engineering with AI-powered workflows",
-      "link": "https://openai.com/index/autoscout24",
-      "source": "OpenAI",
+      "title": "Elon Musk's Grok Is Losing Ground in AI Race",
+      "link": "https://www.wsj.com/tech/ai/anthropic-spacex-ai-deal-elon-musk-f86ea369",
+      "source": "Hacker News",
       "category": "AI",
-      "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-      "ts": 1778544000,
-      "published": "2026-05-12T00:00:00+00:00"
+      "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-spacex-ai-deal-elon-musk-f86ea369 Comments URL: https://news.ycombinator.com/item?id=48103860 Points: 10 # Comments: 8",
+      "ts": 1778556401,
+      "published": "2026-05-12T03:26:41+00:00"
     },
     {
       "title": "Building Blocks for Foundation Model Training and Inference on AWS",
@@ -3288,40 +3414,31 @@
       "published": "2026-05-11T23:18:26+00:00"
     },
     {
-      "title": "How ChatGPT adoption broadened in early 2026",
-      "link": "https://openai.com/signals/research/2026q1-update",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "ChatGPT adoption surged in Q1 2026, with fastest growth among users over 35 and more balanced gender usage, signaling broader mainstream AI adoption.",
-      "ts": 1778511600,
-      "published": "2026-05-11T15:00:00+00:00"
+      "title": "Python 3.14.5 is out!",
+      "link": "https://blog.python.org/2026/05/python-3145-is-out/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "A special release with a new (old) garbage collector.",
+      "ts": 1778371200,
+      "published": "2026-05-10T00:00:00+00:00"
     },
     {
-      "title": "How enterprises are scaling AI",
-      "link": "https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai",
-      "source": "OpenAI",
+      "title": "User just tricked Grok and Bankrbot to send tokens with Morse code",
+      "link": "https://www.cryptopolitan.com/user-tricked-grok-bankrbot-to-send-tokens/",
+      "source": "Hacker News",
       "category": "AI",
-      "summary": "How enterprises scale AI: from early experiments to compounding impact through trust, governance, workflow design, and quality at scale.",
-      "ts": 1778493600,
-      "published": "2026-05-11T10:00:00+00:00"
+      "summary": "Article URL: https://www.cryptopolitan.com/user-tricked-grok-bankrbot-to-send-tokens/ Comments URL: https://news.ycombinator.com/item?id=48079114 Points: 17 # Comments: 2",
+      "ts": 1778367656,
+      "published": "2026-05-09T23:00:56+00:00"
     },
     {
-      "title": "OpenAI Campus Network: Student club interest form",
-      "link": "https://openai.com/index/openai-campus-network-student-club-interest-form",
-      "source": "OpenAI",
+      "title": "Bleeding Llama: Critical Unauthenticated Memory Leak in Ollama",
+      "link": "https://www.cyera.com/research/bleeding-llama-critical-unauthenticated-memory-leak-in-ollama",
+      "source": "Hacker News",
       "category": "AI",
-      "summary": "Join the OpenAI Campus Network—connect student clubs worldwide, access AI tools, host events, and build an AI-powered campus community.",
-      "ts": 1778493600,
-      "published": "2026-05-11T10:00:00+00:00"
-    },
-    {
-      "title": "OpenAI launches DeployCo to help businesses build around intelligence",
-      "link": "https://openai.com/index/openai-launches-the-deployment-company",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
-      "ts": 1778479200,
-      "published": "2026-05-11T06:00:00+00:00"
+      "summary": "Article URL: https://www.cyera.com/research/bleeding-llama-critical-unauthenticated-memory-leak-in-ollama Comments URL: https://news.ycombinator.com/item?id=48066322 Points: 10 # Comments: 1",
+      "ts": 1778261891,
+      "published": "2026-05-08T17:38:11+00:00"
     },
     {
       "title": "Show HN: Git for AI Agents",
@@ -3333,67 +3450,31 @@
       "published": "2026-05-08T14:15:36+00:00"
     },
     {
-      "title": "Running Codex safely at OpenAI",
-      "link": "https://openai.com/index/running-codex-safely",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
-      "ts": 1778243400,
-      "published": "2026-05-08T12:30:00+00:00"
+      "title": "The Real Python Podcast – Episode #294: Declarative Charts in Python & Discerning Iterators vs Iterables",
+      "link": "https://realpython.com/podcasts/rpp/294/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What if you could build charts in Python by describing what your data means, instead of scripting every visual detail? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles an…",
+      "ts": 1778241600,
+      "published": "2026-05-08T12:00:00+00:00"
     },
     {
-      "title": "Scaling Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber",
-      "link": "https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI expands Trusted Access for Cyber with GPT-5.5 and GPT-5.5-Cyber, helping verified defenders accelerate vulnerability research and protect critical infrastructure.",
-      "ts": 1778158800,
-      "published": "2026-05-07T13:00:00+00:00"
-    },
-    {
-      "title": "Parloa builds service agents customers want to talk to",
-      "link": "https://openai.com/index/parloa",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
-      "ts": 1778151600,
-      "published": "2026-05-07T11:00:00+00:00"
-    },
-    {
-      "title": "Advancing voice intelligence with new models in the API",
-      "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
-      "ts": 1778148000,
-      "published": "2026-05-07T10:00:00+00:00"
-    },
-    {
-      "title": "Introducing Trusted Contact in ChatGPT",
-      "link": "https://openai.com/index/introducing-trusted-contact-in-chatgpt",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Introducing Trusted Contact in ChatGPT, an optional safety feature that notifies someone you trust if serious self-harm concerns are detected.",
+      "title": "Python 3.15.0 beta 1 is here!",
+      "link": "https://blog.python.org/2026/05/python-3150-beta-1/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "The propreantepenultimate 3.15 beta is out!",
       "ts": 1778112000,
       "published": "2026-05-07T00:00:00+00:00"
     },
     {
-      "title": "Testing ads in ChatGPT",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
-      "source": "OpenAI",
+      "title": "Grok Imagine Quality Mode API",
+      "link": "https://x.ai/news/grok-imagine-quality-mode",
+      "source": "Hacker News",
       "category": "AI",
-      "summary": "OpenAI begins testing ads in ChatGPT to support free access, with clear labeling, answer independence, strong privacy protections, and user control.",
-      "ts": 1778112000,
-      "published": "2026-05-07T00:00:00+00:00"
-    },
-    {
-      "title": "Simplex rethinks software development with Codex",
-      "link": "https://openai.com/index/simplex",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Simplex boosts software development with ChatGPT Enterprise and Codex, reducing design, build, and testing time while scaling AI-driven workflows.",
-      "ts": 1778112000,
-      "published": "2026-05-07T00:00:00+00:00"
+      "summary": "Article URL: https://x.ai/news/grok-imagine-quality-mode Comments URL: https://news.ycombinator.com/item?id=48042891 Points: 12 # Comments: 1",
+      "ts": 1778107510,
+      "published": "2026-05-06T22:45:10+00:00"
     },
     {
       "title": "vLLM V0 to V1: Correctness Before Corrections in RL",
@@ -3405,15 +3486,6 @@
       "published": "2026-05-06T19:06:55+00:00"
     },
     {
-      "title": "How ChatGPT learns about the world while protecting privacy",
-      "link": "https://openai.com/index/how-chatgpt-protects-privacy",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how ChatGPT safeguards your privacy, reduces personal data in training, and gives you control over whether your conversations improve AI models.",
-      "ts": 1778054400,
-      "published": "2026-05-06T08:00:00+00:00"
-    },
-    {
       "title": "Adding Benchmaxxer Repellant to the Open ASR Leaderboard",
       "link": "https://huggingface.co/blog/open-asr-leaderboard-private-data",
       "source": "Hugging Face",
@@ -3423,103 +3495,58 @@
       "published": "2026-05-06T00:00:00+00:00"
     },
     {
-      "title": "Uber uses OpenAI to help people earn smarter and book faster",
-      "link": "https://openai.com/index/uber",
-      "source": "OpenAI",
+      "title": "X user tricks Grok into sending them $200k",
+      "link": "https://www.dexerto.com/entertainment/x-user-tricks-grok-into-sending-them-200000-in-crypto-using-morse-code-3361036/",
+      "source": "Hacker News",
       "category": "AI",
-      "summary": "Uber uses OpenAI to power AI assistants and voice features that help drivers earn smarter and riders book faster across a global real-time marketplace.",
-      "ts": 1778025600,
-      "published": "2026-05-06T00:00:00+00:00"
+      "summary": "Article URL: https://www.dexerto.com/entertainment/x-user-tricks-grok-into-sending-them-200000-in-crypto-using-morse-code-3361036/ Comments URL: https://news.ycombinator.com/item?id=48028185 Points: 19 # Comments: 1",
+      "ts": 1778013545,
+      "published": "2026-05-05T20:39:05+00:00"
     },
     {
-      "title": "How frontier firms are pulling ahead",
-      "link": "https://openai.com/index/introducing-b2b-signals",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
-      "ts": 1778025600,
-      "published": "2026-05-06T00:00:00+00:00"
+      "title": "Fragments: May 5",
+      "link": "https://martinfowler.com/fragments/2026-05-05.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Over the last couple of months Rahul Garg published a series of posts here on how to reduce the friction in AI-assisted programming . To make it easier to put these ideas into practice he’s now built an open-source fram…",
+      "ts": 1777998180,
+      "published": "2026-05-05T16:23:00+00:00"
     },
     {
-      "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-      "link": "https://openai.com/index/singular-bank",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
-      "ts": 1778025600,
-      "published": "2026-05-06T00:00:00+00:00"
+      "title": "Bliki: Mythical Man Month",
+      "link": "https://martinfowler.com/bliki/MythicalManMonth.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "In the early 1960s, Fred Brooks managed the development of IBM's System/360 computer systems. After it was done he penned his thoughts in the book The Mythical Man-Month which became one of the most influential books on…",
+      "ts": 1777997880,
+      "published": "2026-05-05T16:18:00+00:00"
     },
     {
-      "title": "Introducing ChatGPT Futures: Class of 2026",
-      "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Meet the ChatGPT Futures Class of 2026—26 student innovators using AI to build, research, and drive real-world impact. Discover how this generation is redefining learning, creativity, and opportunity with ChatGPT.",
-      "ts": 1778025600,
-      "published": "2026-05-06T00:00:00+00:00"
+      "title": "Use Codex CLI to Enhance Your Python Projects",
+      "link": "https://realpython.com/courses/use-codex-cli-enhance-your-python-projects/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Codex CLI to add features to Python projects directly from your terminal, without needing a browser or IDE plugins.",
+      "ts": 1777989600,
+      "published": "2026-05-05T14:00:00+00:00"
     },
     {
-      "title": "GPT-5.5 Instant System Card",
-      "link": "https://openai.com/index/gpt-5-5-instant-system-card",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "",
-      "ts": 1777975200,
-      "published": "2026-05-05T10:00:00+00:00"
-    },
-    {
-      "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
-      "link": "https://openai.com/index/mrc-supercomputer-networking",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
-      "ts": 1777975200,
-      "published": "2026-05-05T10:00:00+00:00"
-    },
-    {
-      "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-      "link": "https://openai.com/index/gpt-5-5-instant",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-      "ts": 1777975200,
-      "published": "2026-05-05T10:00:00+00:00"
-    },
-    {
-      "title": "New ways to buy ChatGPT ads",
-      "link": "https://openai.com/index/new-ways-to-buy-chatgpt-ads",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI expands ChatGPT ads with a beta self-serve Ads Manager, CPC bidding, and enhanced measurement tools—built to protect privacy and keep conversations separate from ads.",
-      "ts": 1777939200,
-      "published": "2026-05-05T00:00:00+00:00"
-    },
-    {
-      "title": "Advancing youth safety and wellbeing in EMEA",
-      "link": "https://openai.com/index/advancing-youth-safety-in-emea",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore OpenAI’s European Youth Safety Blueprint and EMEA Youth & Wellbeing Grants, advancing safe, responsible AI for teens, families, and educators.",
-      "ts": 1777939200,
-      "published": "2026-05-05T00:00:00+00:00"
-    },
-    {
-      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
-      "link": "https://openai.com/index/openai-pwc-finance-collaboration",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and PwC are partnering to help enterprises use AI agents to automate finance workflows, improve forecasting, strengthen controls, and modernize the CFO function.",
-      "ts": 1777928400,
-      "published": "2026-05-04T21:00:00+00:00"
-    },
-    {
-      "title": "How OpenAI delivers low-latency voice AI at scale",
-      "link": "https://openai.com/index/delivering-low-latency-voice-ai-at-scale",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How OpenAI rebuilt its WebRTC stack to power real-time Voice AI with low latency, global scale, and seamless conversational turn-taking.",
+      "title": "Python 3.14.5 release candidate",
+      "link": "https://blog.python.org/2026/05/python-3145rc1/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "A special release candidate with a new (old) garbage collector.",
       "ts": 1777852800,
       "published": "2026-05-04T00:00:00+00:00"
+    },
+    {
+      "title": "How to Work and Compound with AI",
+      "link": "https://eugeneyan.com//writing/working-with-ai/",
+      "source": "Eugene Yan",
+      "category": "Agents",
+      "summary": "Context as infra, taste as config, verification for autonomy, scale via delegation, closing the loop.",
+      "ts": 1777766400,
+      "published": "2026-05-03T00:00:00+00:00"
     },
     {
       "title": "Show HN: Agent-desktop – Native desktop automation CLI for AI agents",
@@ -3529,6 +3556,15 @@
       "summary": "I've been building computer-use tools for a while, and I quietly launched this about a month ago (122 Stars on GH). I figured it was worth sharing here. Over the last few months, a lot of computer-use agents have come o…",
       "ts": 1777688304,
       "published": "2026-05-02T02:18:24+00:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #293: Agentic Data Science Pair Programming With marimo pair",
+      "link": "https://realpython.com/podcasts/rpp/293/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How do you add agent skills to your data science workflow? How can a coding agent assist with data wrangling and research? This week on the show, Trevor Manz from marimo joins us to discuss marimo pair.",
+      "ts": 1777636800,
+      "published": "2026-05-01T12:00:00+00:00"
     },
     {
       "title": "Show HN: Loopsy, a way for terminals and AI agents on different machines to talk",
@@ -3543,28 +3579,28 @@
       "title": "Grok 4.3",
       "link": "https://docs.x.ai/developers/models/grok-4.3",
       "source": "Hacker News",
-      "category": "LLM",
+      "category": "AI",
       "summary": "Article URL: https://docs.x.ai/developers/models/grok-4.3 Comments URL: https://news.ycombinator.com/item?id=47972447 Points: 405 # Comments: 529",
       "ts": 1777624171,
       "published": "2026-05-01T08:29:31+00:00"
     },
     {
-      "title": "Introducing Advanced Account Security",
-      "link": "https://openai.com/index/advanced-account-security",
-      "source": "OpenAI",
+      "title": "Elon Musk confirms xAI used OpenAI's models to train Grok",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation",
+      "source": "Hacker News",
       "category": "AI",
-      "summary": "Introducing Advanced Account Security: phishing-resistant login, stronger recovery, and enhanced protections to safeguard sensitive data and prevent account takeover.",
-      "ts": 1777507200,
-      "published": "2026-04-30T00:00:00+00:00"
+      "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/921546/elon-musk-xai-openai-trial-model-distillation Comments URL: https://news.ycombinator.com/item?id=47967847 Points: 13 # Comments: 4",
+      "ts": 1777581124,
+      "published": "2026-04-30T20:32:04+00:00"
     },
     {
-      "title": "Where the goblins came from",
-      "link": "https://openai.com/index/where-the-goblins-came-from",
-      "source": "OpenAI",
+      "title": "Meta abandons open-source Llama for proprietary Muse Spark",
+      "link": "https://thenewstack.io/meta-abandons-llama-spark/",
+      "source": "Hacker News",
       "category": "AI",
-      "summary": "How goblin outputs spread in AI models: timeline, root cause, and fixes behind personality-driven quirks in GPT-5 behavior.",
-      "ts": 1777492800,
-      "published": "2026-04-29T20:00:00+00:00"
+      "summary": "Article URL: https://thenewstack.io/meta-abandons-llama-spark/ Comments URL: https://news.ycombinator.com/item?id=47965709 Points: 15 # Comments: 1",
+      "ts": 1777570322,
+      "published": "2026-04-30T17:32:02+00:00"
     },
     {
       "title": "Granite 4.1 LLMs: How They’re Built",
@@ -3576,22 +3612,13 @@
       "published": "2026-04-29T15:01:48+00:00"
     },
     {
-      "title": "Building the compute infrastructure for the Intelligence Age",
-      "link": "https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI scales Stargate to build the compute infrastructure powering AGI, adding new data center capacity to meet growing AI demand.",
-      "ts": 1777474800,
-      "published": "2026-04-29T15:00:00+00:00"
-    },
-    {
-      "title": "Cybersecurity in the Intelligence Age",
-      "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI outlines a five-part action plan for strengthening cybersecurity in the Intelligence Age, focused on democratizing AI-powered cyber defense and protecting critical systems.",
-      "ts": 1777435200,
-      "published": "2026-04-29T04:00:00+00:00"
+      "title": "Fragments: April 29",
+      "link": "https://martinfowler.com/fragments/2026-04-29.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Chris Parsons has updated his guide on using AI to code . This is his third update, what I like about it is that he gives a lot of concrete information about how he uses AI, with sufficient detail that we can learn from…",
+      "ts": 1777468980,
+      "published": "2026-04-29T13:23:00+00:00"
     },
     {
       "title": "DeepInfra on Hugging Face Inference Providers 🔥",
@@ -3612,40 +3639,22 @@
       "published": "2026-04-28T15:58:57+00:00"
     },
     {
-      "title": "Our commitment to community safety",
-      "link": "https://openai.com/index/our-commitment-to-community-safety",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how OpenAI protects community safety in ChatGPT through model safeguards, misuse detection, policy enforcement, and collaboration with safety experts.",
-      "ts": 1777334400,
-      "published": "2026-04-28T00:00:00+00:00"
+      "title": "Testing Your Code With Python's unittest",
+      "link": "https://realpython.com/courses/testing-your-code-with-pythons-unittest/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Python's unittest framework to write unit tests for your code, including test cases, fixtures, and test suites.",
+      "ts": 1777384800,
+      "published": "2026-04-28T14:00:00+00:00"
     },
     {
-      "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-      "link": "https://openai.com/index/openai-on-aws",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-      "ts": 1777334400,
-      "published": "2026-04-28T00:00:00+00:00"
-    },
-    {
-      "title": "OpenAI available at FedRAMP Moderate",
-      "link": "https://openai.com/index/openai-available-at-fedramp-moderate",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is available at FedRAMP Moderate authorization for ChatGPT Enterprise and the OpenAI API, enabling secure AI adoption for U.S. federal agencies.",
-      "ts": 1777298400,
-      "published": "2026-04-27T14:00:00+00:00"
-    },
-    {
-      "title": "The next phase of the Microsoft OpenAI partnership",
-      "link": "https://openai.com/index/next-phase-of-microsoft-partnership",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and Microsoft announce an amended agreement that simplifies the partnership, adds long-term clarity, and supports continued AI innovation at scale.",
-      "ts": 1777269600,
-      "published": "2026-04-27T06:00:00+00:00"
+      "title": "Structured-Prompt-Driven Development (SPDD)",
+      "link": "https://martinfowler.com/articles/structured-prompt-driven/",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "LLM programming assistants have demonstrated considerable value, but mostly with individual developers. The internal IT organization in Thoughtworks has been using them for their teams and have developed a method and wo…",
+      "ts": 1777381320,
+      "published": "2026-04-28T13:02:00+00:00"
     },
     {
       "title": "How to build scalable web apps with OpenAI's Privacy Filter",
@@ -3657,31 +3666,13 @@
       "published": "2026-04-27T00:00:00+00:00"
     },
     {
-      "title": "An open-source spec for orchestration: Symphony",
-      "link": "https://openai.com/index/open-source-codex-orchestration-symphony",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how Symphony, an open-source spec for Codex orchestration, turns issue trackers into always-on agent systems—boosting engineering output and reducing context switching.",
-      "ts": 1777248000,
-      "published": "2026-04-27T00:00:00+00:00"
-    },
-    {
-      "title": "Choco automates food distribution with AI agents",
-      "link": "https://openai.com/index/choco",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How Choco used OpenAI APIs to streamline food distribution, boost productivity, and unlock growth—an in-depth customer story on real-world AI impact.",
-      "ts": 1777248000,
-      "published": "2026-04-27T00:00:00+00:00"
-    },
-    {
-      "title": "Our principles",
-      "link": "https://openai.com/index/our-principles",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Our mission is to ensure that AGI benefits all of humanity. Sam Altman shares five principles that guide our work.",
-      "ts": 1777219200,
-      "published": "2026-04-26T16:00:00+00:00"
+      "title": "The Real Python Podcast – Episode #292: Becoming a Better Python Developer Through Learning Rust",
+      "link": "https://realpython.com/podcasts/rpp/292/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How can learning Rust help make you a better Python Developer? How do techniques required by a compiled language translate to improving your Python code? Christopher Trudeau is back on the show this week with another ba…",
+      "ts": 1777032000,
+      "published": "2026-04-24T12:00:00+00:00"
     },
     {
       "title": "DeepSeek-V4: a million-token context that agents can actually use",
@@ -3693,87 +3684,6 @@
       "published": "2026-04-24T00:00:00+00:00"
     },
     {
-      "title": "GPT-5.5 System Card",
-      "link": "https://openai.com/index/gpt-5-5-system-card",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "",
-      "ts": 1776942000,
-      "published": "2026-04-23T11:00:00+00:00"
-    },
-    {
-      "title": "Introducing GPT-5.5",
-      "link": "https://openai.com/index/introducing-gpt-5-5",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Introducing GPT-5.5, our smartest model yet—faster, more capable, and built for complex tasks like coding, research, and data analysis across tools.",
-      "ts": 1776942000,
-      "published": "2026-04-23T11:00:00+00:00"
-    },
-    {
-      "title": "How to use Codex for everyday work",
-      "link": "https://openai.com/academy/how-to-use-codex-for-everyday-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore 10 practical Codex use cases to automate tasks, create deliverables, and turn real inputs into outputs across tools, files, and workflows.",
-      "ts": 1776938400,
-      "published": "2026-04-23T10:00:00+00:00"
-    },
-    {
-      "title": "How to get started with Codex",
-      "link": "https://openai.com/academy/codex-how-to-start",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to get started with Codex by setting up projects, creating threads, and completing your first tasks with step-by-step guidance.",
-      "ts": 1776938400,
-      "published": "2026-04-23T10:00:00+00:00"
-    },
-    {
-      "title": "Plugins and skills",
-      "link": "https://openai.com/academy/codex-plugins-and-skills",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to use Codex plugins and skills to connect tools, access data, and follow repeatable workflows to automate tasks and improve results.",
-      "ts": 1776938400,
-      "published": "2026-04-23T10:00:00+00:00"
-    },
-    {
-      "title": "Working with Codex",
-      "link": "https://openai.com/academy/working-with-codex",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to set up your Codex workspace, create threads and projects, manage files, and start completing tasks with step-by-step guidance.",
-      "ts": 1776938400,
-      "published": "2026-04-23T10:00:00+00:00"
-    },
-    {
-      "title": "Automations",
-      "link": "https://openai.com/academy/codex-automations",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to automate tasks in Codex using schedules and triggers to create reports, summaries, and recurring workflows without manual effort.",
-      "ts": 1776938400,
-      "published": "2026-04-23T10:00:00+00:00"
-    },
-    {
-      "title": "What is Codex?",
-      "link": "https://openai.com/academy/what-is-codex",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how Codex helps you go beyond chat by automating tasks, connecting tools, and producing real outputs like docs and dashboards.",
-      "ts": 1776938400,
-      "published": "2026-04-23T10:00:00+00:00"
-    },
-    {
-      "title": "Codex settings",
-      "link": "https://openai.com/academy/codex-settings",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to configure Codex settings, including personalization, detail level, and permissions, to run tasks smoothly and customize your workflow.",
-      "ts": 1776938400,
-      "published": "2026-04-23T10:00:00+00:00"
-    },
-    {
       "title": "How to Use Transformers.js in a Chrome Extension",
       "link": "https://huggingface.co/blog/transformersjs-chrome-extension",
       "source": "Hugging Face",
@@ -3783,67 +3693,13 @@
       "published": "2026-04-23T00:00:00+00:00"
     },
     {
-      "title": "GPT-5.5 Bio Bug Bounty",
-      "link": "https://openai.com/index/gpt-5-5-bio-bug-bounty",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore the GPT-5.5 Bio Bug Bounty: a red-teaming challenge to find universal jailbreaks for bio safety risks, with rewards up to $25,000.",
-      "ts": 1776902400,
-      "published": "2026-04-23T00:00:00+00:00"
-    },
-    {
-      "title": "Making ChatGPT better for clinicians",
-      "link": "https://openai.com/index/making-chatgpt-better-for-clinicians",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI makes ChatGPT for Clinicians free for verified U.S. physicians, nurse practitioners, and pharmacists, supporting clinical care, documentation, and research.",
-      "ts": 1776870000,
-      "published": "2026-04-22T15:00:00+00:00"
-    },
-    {
-      "title": "Speeding up agentic workflows with WebSockets in the Responses API",
-      "link": "https://openai.com/index/speeding-up-agentic-workflows-with-websockets",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A deep dive into the Codex agent loop, showing how WebSockets and connection-scoped caching reduced API overhead and improved model latency.",
-      "ts": 1776852000,
-      "published": "2026-04-22T10:00:00+00:00"
-    },
-    {
-      "title": "Workspace agents",
-      "link": "https://openai.com/academy/workspace-agents",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to build, use, and scale workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
-      "ts": 1776852000,
-      "published": "2026-04-22T10:00:00+00:00"
-    },
-    {
-      "title": "Introducing workspace agents in ChatGPT",
-      "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
-      "ts": 1776852000,
-      "published": "2026-04-22T10:00:00+00:00"
-    },
-    {
-      "title": "Introducing OpenAI Privacy Filter",
-      "link": "https://openai.com/index/introducing-openai-privacy-filter",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI Privacy Filter is an open-weight model for detecting and redacting personally identifiable information (PII) in text with state-of-the-art accuracy",
-      "ts": 1776816000,
-      "published": "2026-04-22T00:00:00+00:00"
-    },
-    {
-      "title": "Introducing ChatGPT Images 2.0",
-      "link": "https://openai.com/index/introducing-chatgpt-images-2-0",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "ChatGPT Images 2.0 introduces a state-of-the-art image generation model with improved text rendering, multilingual support, and advanced visual reasoning.",
-      "ts": 1776772800,
-      "published": "2026-04-21T12:00:00+00:00"
+      "title": "Fragments: April 21",
+      "link": "https://martinfowler.com/fragments/2026-04-21.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Last week Thoughtworks released the 34th volume of our Technology Radar . This radar is our biannual survey of our experience of the technology scene, highlighting tools, techniques, platforms, and languages that we’ve…",
+      "ts": 1776803640,
+      "published": "2026-04-21T20:34:00+00:00"
     },
     {
       "title": "QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard",
@@ -3873,31 +3729,22 @@
       "published": "2026-04-21T00:00:00+00:00"
     },
     {
-      "title": "Scaling Codex to enterprises worldwide",
-      "link": "https://openai.com/index/scaling-codex-to-enterprises-worldwide",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI launches Codex Labs, partners with with Accenture, PwC, Infosys, and others to help enterprises deploy and scale Codex across the software development lifecycle, and hits 4M Codex WAU.",
-      "ts": 1776729600,
-      "published": "2026-04-21T00:00:00+00:00"
-    },
-    {
-      "title": "OpenAI helps Hyatt advance AI among colleagues",
-      "link": "https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Hyatt deploys ChatGPT Enterprise across its global workforce, using GPT-5.4 and Codex to improve productivity, operations, and guest experiences.",
-      "ts": 1776643200,
-      "published": "2026-04-20T00:00:00+00:00"
-    },
-    {
       "title": "My Workflow for Understanding LLM Architectures",
       "link": "https://magazine.sebastianraschka.com/p/workflow-for-understanding-llms",
       "source": "Ahead of AI",
-      "category": "LLM",
+      "category": "AI",
       "summary": "A learning-oriented workflow for understanding new open-weight model releases",
       "ts": 1776511476,
       "published": "2026-04-18T11:24:36+00:00"
+    },
+    {
+      "title": "Show HN: Llama.cpp Tutorial 2026: Run GGUF Models Locally on CPU and GPU",
+      "link": "https://news.ycombinator.com/item?id=47812127",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Complete llama.cpp tutorial for 2026. Install, compile with CUDA/Metal, run GGUF models, tune all inference flags, use the API server, speculative decoding, and benchmark your hardware. https://vucense.com/dev-corner/ll…",
+      "ts": 1776472673,
+      "published": "2026-04-18T00:37:53+00:00"
     },
     {
       "title": "Show HN: A working reference implementation of context engineering",
@@ -3918,22 +3765,13 @@
       "published": "2026-04-17T13:55:25+00:00"
     },
     {
-      "title": "Codex for (almost) everything",
-      "link": "https://openai.com/index/codex-for-almost-everything",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "The updated Codex app for macOS and Windows adds computer use, in-app browsing, image generation, memory, and plugins to accelerate developer workflows.",
-      "ts": 1776333600,
-      "published": "2026-04-16T10:00:00+00:00"
-    },
-    {
-      "title": "Introducing GPT-Rosalind for life sciences research",
-      "link": "https://openai.com/index/introducing-gpt-rosalind",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces GPT-Rosalind, a frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.",
-      "ts": 1776301200,
-      "published": "2026-04-16T01:00:00+00:00"
+      "title": "Learning Path: Python Game Development",
+      "link": "https://realpython.com/learning-paths/python-game-development/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build Python games from command-line projects to 2D graphical games with turtle, Tkinter, Pygame, and Arcade.",
+      "ts": 1776340800,
+      "published": "2026-04-16T12:00:00+00:00"
     },
     {
       "title": "Ecom-RLVE: Adaptive Verifiable Environments for E-Commerce Conversational Agents",
@@ -3963,15 +3801,6 @@
       "published": "2026-04-16T00:00:00+00:00"
     },
     {
-      "title": "Accelerating the cyber defense ecosystem that protects us all",
-      "link": "https://openai.com/index/accelerating-cyber-defense-ecosystem",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Leading security firms and enterprises join OpenAI’s Trusted Access for Cyber, using GPT-5.4-Cyber and $10M in API grants to strengthen global cyber defense.",
-      "ts": 1776297600,
-      "published": "2026-04-16T00:00:00+00:00"
-    },
-    {
       "title": "Are the costs of AI agents also rising exponentially? (2025)",
       "link": "https://www.tobyord.com/writing/hourly-costs-for-ai-agents",
       "source": "Hacker News",
@@ -3990,15 +3819,6 @@
       "published": "2026-04-15T12:07:25+00:00"
     },
     {
-      "title": "The next evolution of the Agents SDK",
-      "link": "https://openai.com/index/the-next-evolution-of-the-agents-sdk",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI updates the Agents SDK with native sandbox execution and a model-native harness, helping developers build secure, long-running agents across files and tools.",
-      "ts": 1776247200,
-      "published": "2026-04-15T10:00:00+00:00"
-    },
-    {
       "title": "Meet HoloTab by HCompany. Your AI browser companion.",
       "link": "https://huggingface.co/blog/Hcompany/holotab",
       "source": "Hugging Face",
@@ -4008,22 +3828,13 @@
       "published": "2026-04-15T09:25:20+00:00"
     },
     {
-      "title": "Apple App Store threatened to remove Grok over deepfakes: Letter",
-      "link": "https://www.nbcnews.com/tech/tech-news/apple-threat-remove-grok-app-store-deepfake-letter-musk-x-ai-rcna331677",
-      "source": "Hacker News",
-      "category": "LLM",
-      "summary": "Article URL: https://www.nbcnews.com/tech/tech-news/apple-threat-remove-grok-app-store-deepfake-letter-musk-x-ai-rcna331677 Comments URL: https://news.ycombinator.com/item?id=47772906 Points: 99 # Comments: 85",
-      "ts": 1776210103,
-      "published": "2026-04-14T23:41:43+00:00"
-    },
-    {
-      "title": "Trusted access for the next era of cyber defense",
-      "link": "https://openai.com/index/scaling-trusted-access-for-cyber-defense",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI expands its Trusted Access for Cyber program, introducing GPT-5.4-Cyber to vetted defenders and strengthening safeguards as AI cybersecurity capabilities advance.",
-      "ts": 1776124800,
-      "published": "2026-04-14T00:00:00+00:00"
+      "title": "Fragments: April 14",
+      "link": "https://martinfowler.com/fragments/2026-04-14.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "I attended the first Pragmatic Summit early this year, and while there host Gergely Orosz interviewed Kent Beck and myself on stage . The video runs for about half-an-hour. I always enjoy nattering with Kent like this,…",
+      "ts": 1776172560,
+      "published": "2026-04-14T13:16:00+00:00"
     },
     {
       "title": "GAIA – Open-source framework for building AI agents that run on local hardware",
@@ -4035,238 +3846,22 @@
       "published": "2026-04-13T19:28:41+00:00"
     },
     {
-      "title": "Enterprises power agentic workflows in Cloudflare Agent Cloud with OpenAI",
-      "link": "https://openai.com/index/cloudflare-openai-agent-cloud",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Cloudflare brings OpenAI’s GPT-5.4 and Codex to Agent Cloud, enabling enterprises to build, deploy, and scale AI agents for real-world tasks with speed and security.",
-      "ts": 1776060000,
-      "published": "2026-04-13T06:00:00+00:00"
+      "title": "Alan Turing play in Cambridge MA",
+      "link": "https://martinfowler.com/articles/202604-turing.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Last night I saw Central Square Theater’s excellent production of Breaking the Code . It’s about Alan Turing, who made a monumental contribution to both my profession and the fate of free democracies. Well worth seeing…",
+      "ts": 1775912460,
+      "published": "2026-04-11T13:01:00+00:00"
     },
     {
-      "title": "Personalizing ChatGPT",
-      "link": "https://openai.com/academy/personalization",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Healthcare",
-      "link": "https://openai.com/academy/healthcare",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "ChatGPT for sales teams",
-      "link": "https://openai.com/academy/sales",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how sales teams use ChatGPT to research accounts, personalize outreach, manage deals, and improve pipeline and conversion.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "ChatGPT for customer success teams",
-      "link": "https://openai.com/academy/customer-success",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how customer success teams use ChatGPT to manage accounts, improve communication, reduce churn, and drive adoption and renewals.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Our response to the Axios developer tool compromise",
-      "link": "https://openai.com/index/axios-developer-tool-compromise",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI responds to the Axios supply chain attack by rotating macOS code signing certificates, updating apps, and confirming no user data was compromised.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "ChatGPT for research",
-      "link": "https://openai.com/academy/research",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Getting started with ChatGPT",
-      "link": "https://openai.com/academy/getting-started",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to use ChatGPT, start your first conversation, and discover simple ways to write, brainstorm, and solve problems with AI.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Analyzing data with ChatGPT",
-      "link": "https://openai.com/academy/data-analysis",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to analyze data with ChatGPT by exploring datasets, generating insights, creating visualizations, and turning findings into actionable decisions.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "ChatGPT for operations teams",
-      "link": "https://openai.com/academy/operations",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Writing with ChatGPT",
-      "link": "https://openai.com/academy/writing",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to use ChatGPT for writing to draft, revise, and refine content with clear structure, tone, and intent.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "AI fundamentals",
-      "link": "https://openai.com/academy/what-is-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "ChatGPT for marketing teams",
-      "link": "https://openai.com/academy/marketing",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how marketing teams use ChatGPT to plan campaigns, generate content, analyze performance, and move from ideas to execution faster.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Using custom GPTs",
-      "link": "https://openai.com/academy/custom-gpts",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to build and use custom GPTs to automate workflows, maintain consistent outputs, and create purpose-built AI assistants.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "ChatGPT for finance teams",
-      "link": "https://openai.com/academy/finance",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how finance teams use ChatGPT to streamline reporting, analyze data, improve forecasts, and communicate insights more clearly.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Financial services",
-      "link": "https://openai.com/academy/financial-services",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Working with files in ChatGPT",
-      "link": "https://openai.com/academy/working-with-files",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to upload and work with files in ChatGPT to analyze data, summarize documents, and generate content from PDFs, spreadsheets, and more.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Responsible and safe use of AI",
-      "link": "https://openai.com/academy/responsible-and-safe-use",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to use AI responsibly with best practices for safety, accuracy, and transparency when using tools like ChatGPT.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Brainstorming with ChatGPT",
-      "link": "https://openai.com/academy/brainstorming",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to use ChatGPT to brainstorm ideas, organize thinking, and turn rough concepts into structured, actionable plans.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Using skills",
-      "link": "https://openai.com/academy/skills",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Using projects in ChatGPT",
-      "link": "https://openai.com/academy/projects",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to use projects in ChatGPT to organize chats, files, and instructions, manage ongoing work, and collaborate more effectively.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Prompting fundamentals",
-      "link": "https://openai.com/academy/prompting",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn prompting fundamentals and how to write clear, effective prompts to get better, more useful responses from ChatGPT.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Creating images with ChatGPT",
-      "link": "https://openai.com/academy/image-generation",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "ChatGPT for managers",
-      "link": "https://openai.com/academy/managers",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Research with ChatGPT",
-      "link": "https://openai.com/academy/search-and-deep-research",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
-    },
-    {
-      "title": "Applications of AI at OpenAI",
-      "link": "https://openai.com/academy/applications-of-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
-      "ts": 1775779200,
-      "published": "2026-04-10T00:00:00+00:00"
+      "title": "Fragments: April 9",
+      "link": "https://martinfowler.com/fragments/2026-04-09.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "I mostly link to written material here, but I’ve recently listened to two excellent podcasts that I can recommend. Anyone who regularly reads these fragments knows that I’m a big fan of Simon Willison, his (also very fr…",
+      "ts": 1775740980,
+      "published": "2026-04-09T13:23:00+00:00"
     },
     {
       "title": "Process Manager for Autonomous AI Agents",
@@ -4296,15 +3891,6 @@
       "published": "2026-04-09T00:00:00+00:00"
     },
     {
-      "title": "CyberAgent moves faster with ChatGPT Enterprise and Codex",
-      "link": "https://openai.com/index/cyberagent",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "CyberAgent uses ChatGPT Enterprise and Codex to securely scale AI adoption, improve quality, and accelerate decisions across advertising, media, and gaming.",
-      "ts": 1775692800,
-      "published": "2026-04-09T00:00:00+00:00"
-    },
-    {
       "title": "Show HN: TUI-use: Let AI agents control interactive terminal programs",
       "link": "https://github.com/onesuper/tui-use",
       "source": "Hacker News",
@@ -4314,22 +3900,13 @@
       "published": "2026-04-08T16:41:16+00:00"
     },
     {
-      "title": "The next phase of enterprise AI",
-      "link": "https://openai.com/index/next-phase-of-enterprise-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI outlines the next phase of enterprise AI, as adoption accelerates across industries with Frontier, ChatGPT Enterprise, Codex, and company-wide AI agents.",
-      "ts": 1775656800,
-      "published": "2026-04-08T14:00:00+00:00"
-    },
-    {
-      "title": "Introducing the Child Safety Blueprint",
-      "link": "https://openai.com/index/introducing-child-safety-blueprint",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Discover OpenAI’s Child Safety Blueprint—a roadmap for building AI responsibly with safeguards, age-appropriate design, and collaboration to protect and empower young people online.",
-      "ts": 1775624400,
-      "published": "2026-04-08T05:00:00+00:00"
+      "title": "Feedback Flywheel",
+      "link": "https://martinfowler.com/articles/reduce-friction-ai/feedback-flywheel.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Rahul Garg finishes his series on reducing the friction in AI-Assisted Development. He proposes a structured feedback practice that harvests learnings from AI sessions and feeds them back into the team's shared artifact…",
+      "ts": 1775654880,
+      "published": "2026-04-08T13:28:00+00:00"
     },
     {
       "title": "Safetensors is Joining the PyTorch Foundation",
@@ -4341,6 +3918,33 @@
       "published": "2026-04-08T00:00:00+00:00"
     },
     {
+      "title": "Rust for CPython Progress Update April 2026",
+      "link": "https://blog.python.org/2026/04/rust-for-cpython-2026-04/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Rust for CPython project status update April 2026",
+      "ts": 1775606400,
+      "published": "2026-04-08T00:00:00+00:00"
+    },
+    {
+      "title": "Principles of Mechanical Sympathy",
+      "link": "https://martinfowler.com/articles/mechanical-sympathy-principles.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Modern hardware is remarkably fast, but software often fails to leverage it. Caer Sanders has found it valuable to guide their work with mechanical sympathy - the practice of creating software that is sympathetic to its…",
+      "ts": 1775569140,
+      "published": "2026-04-07T13:39:00+00:00"
+    },
+    {
+      "title": "Python 3.15.0a8, 3.14.4 and 3.13.13 are out!",
+      "link": "https://blog.python.org/2026/04/python-3150a8-3144-31313/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "A final alpha and two bug fixes are awaiting your upgrade.",
+      "ts": 1775520000,
+      "published": "2026-04-07T00:00:00+00:00"
+    },
+    {
       "title": "Show HN: Hippo, biologically inspired memory for AI agents",
       "link": "https://github.com/kitfunso/hippo-memory",
       "source": "Hacker News",
@@ -4348,15 +3952,6 @@
       "summary": "Article URL: https://github.com/kitfunso/hippo-memory Comments URL: https://news.ycombinator.com/item?id=47667672 Points: 128 # Comments: 29",
       "ts": 1775512174,
       "published": "2026-04-06T21:49:34+00:00"
-    },
-    {
-      "title": "Announcing the OpenAI Safety Fellowship",
-      "link": "https://openai.com/index/introducing-openai-safety-fellowship",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A pilot program to support independent safety and alignment research and develop the next generation of talent",
-      "ts": 1775469600,
-      "published": "2026-04-06T10:00:00+00:00"
     }
   ]
 }
