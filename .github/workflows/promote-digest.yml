@@ -1,0 +1,78 @@
+name: promote-digest
+
+# The daily-digest cloud routine builds the digest correctly every morning, but its
+# scheduled runs cannot push to main (they have no push credential), so the work lands
+# on a fresh claude/vigilant-keller-* branch each run. GitHub Pages only deploys main,
+# so those digests never went live. This workflow promotes ONLY the digest files from
+# such a branch onto main and kicks off a deploy, independent of the routine's token.
+#
+# NOTE: the branch pattern must match the routine's working-branch base. If the routine
+# is recreated under a different name, update the pattern below (see its git_info.branches).
+on:
+  push:
+    branches:
+      - "claude/vigilant-keller-*"
+
+permissions:
+  contents: write   # commit digest.json/archive.json onto main
+  actions: write    # dispatch the deploy workflow
+
+concurrency:
+  group: promote-digest
+  cancel-in-progress: false
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      # Bring the triggering commit's objects in so we can read its files.
+      - name: Fetch the routine branch tip
+        run: git fetch --depth=1 origin "$GITHUB_SHA"
+
+      # Promote only when the routine branch carries a STRICTLY NEWER digest than main,
+      # so re-runs, older branches, or no-op runs don't churn main. ISO-8601 UTC 'Z'
+      # timestamps compare correctly as strings.
+      - name: Decide whether to promote
+        id: gate
+        run: |
+          promote=$(python3 - "$GITHUB_SHA" <<'PY'
+          import json, subprocess, sys
+          def read_updated(ref):
+              try:
+                  return json.loads(subprocess.check_output(["git", "show", f"{ref}:data/digest.json"]))["updated"]
+              except Exception:
+                  return ""
+          new = read_updated(sys.argv[1])
+          old = read_updated("HEAD")
+          print("true" if new and new > old else "false")
+          PY
+          )
+          echo "promote=$promote" >> "$GITHUB_OUTPUT"
+          echo "branch digest strictly newer than main: $promote"
+
+      # Take ONLY the two digest files; never data/news.json (the routine branch rewinds
+      # it, which would drop accumulated feed items — the deploy workflow owns that file).
+      - name: Promote digest + archive onto main
+        if: steps.gate.outputs.promote == 'true'
+        run: |
+          set -euo pipefail
+          git checkout "$GITHUB_SHA" -- data/digest.json data/archive.json
+          python3 -c "import json; json.load(open('data/digest.json')); json.load(open('data/archive.json'))"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/digest.json data/archive.json
+          git commit -m "chore: update daily digest"
+          git push origin HEAD:main
+
+      # A push made with GITHUB_TOKEN does not trigger the deploy workflow's on:push,
+      # so kick it off explicitly to publish the promoted digest right away.
+      - name: Trigger deploy
+        if: steps.gate.outputs.promote == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main
