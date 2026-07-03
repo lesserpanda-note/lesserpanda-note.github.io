@@ -19,30 +19,31 @@ from pathlib import Path
 import feedparser
 
 # (feed url, source label, category) — category drives grouping/filtering on the page.
+# Categories: Java (incl. Kotlin/JVM), Spring, AI (incl. models/LLM), Agents.
 FEEDS = [
     ("https://inside.java/feed.xml", "Inside Java", "Java"),
     ("https://feed.infoq.com/java/", "InfoQ Java", "Java"),
     ("https://foojay.io/feed/", "Foojay", "Java"),
+    ("https://blog.jetbrains.com/kotlin/feed/", "Kotlin", "Java"),
     ("https://spring.io/blog.atom", "Spring Blog", "Spring"),
-    ("https://feed.infoq.com/spring/", "InfoQ Spring", "Spring"),
     ("https://blog.google/technology/ai/rss/", "Google AI", "AI"),
     ("https://huggingface.co/blog/feed.xml", "Hugging Face", "AI"),
     ("https://www.technologyreview.com/topic/artificial-intelligence/feed", "MIT Tech Review", "AI"),
-    ("https://openai.com/blog/rss.xml", "OpenAI", "AI"),
+    ("https://feed.infoq.com/ai-ml-data-eng/", "InfoQ AI/ML", "AI"),
     # Anthropic publishes no official RSS; this is a community mirror of anthropic.com/news.
     ("https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml", "Anthropic", "AI"),
+    # Models / LLM trends folded into AI (weekly newsletters + local-LLM releases).
+    ("https://ollama.com/blog/rss.xml", "Ollama", "AI"),
+    ("https://magazine.sebastianraschka.com/feed", "Ahead of AI", "AI"),
+    ("https://importai.substack.com/feed", "Import AI", "AI"),
+    ("https://hnrss.org/newest?q=Grok&points=10", "Hacker News", "AI"),
+    ("https://hnrss.org/newest?q=Llama&points=10", "Hacker News", "AI"),
     # Agents — Claude Code, agent / harness / context engineering
     ("https://simonwillison.net/atom/everything/", "Simon Willison", "Agents"),
     ("https://www.latent.space/feed", "Latent Space", "Agents"),
     ("https://hnrss.org/newest?q=Claude+Code&points=20", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=AI+agents&points=50", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=context+engineering&points=10", "Hacker News", "Agents"),
-    # LLM / models — latest model & local-LLM trends (Grok, Llama, Ollama)
-    ("https://ollama.com/blog/rss.xml", "Ollama", "LLM"),
-    ("https://magazine.sebastianraschka.com/feed", "Ahead of AI", "LLM"),
-    ("https://importai.substack.com/feed", "Import AI", "LLM"),
-    ("https://hnrss.org/newest?q=Grok&points=30", "Hacker News", "LLM"),
-    ("https://hnrss.org/newest?q=Llama&points=30", "Hacker News", "LLM"),
 ]
 
 USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"
@@ -120,7 +121,16 @@ def load_existing() -> list[dict]:
 def main() -> int:
     socket.setdefaulttimeout(REQUEST_TIMEOUT)
 
-    existing = load_existing()
+    # Drop accumulated items whose feed was removed or recategorized, so retiring a
+    # source (or merging a category) actually purges its old items instead of letting
+    # them linger for the full retention window.
+    active_sources = {source for _, source, _ in FEEDS}
+    active_categories = {category for _, _, category in FEEDS}
+    existing = [
+        it
+        for it in load_existing()
+        if it.get("source") in active_sources and it.get("category") in active_categories
+    ]
     # Accumulate: start from what we already have, fold in fresh entries by link.
     merged: dict[str, dict] = {it["link"]: it for it in existing if it.get("link")}
     for url, source, category in FEEDS:
