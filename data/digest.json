@@ -1,62 +1,55 @@
 {
-  "updated": "2026-07-01T12:53:59Z",
-  "summary": "오늘(2026년 7월 1일) 다이제스트는 Anthropic의 과학 연구 특화 신제품 Claude Science 발표, Claude Sonnet 5 출시 및 Fable 5·Mythos 5 수출 규제 해제라는 역사적 소식을 중심으로 전합니다. Java 분야에서는 ZGC 10년의 역사와 이벤트 드리븐 실시간 시스템의 숨겨진 트레이드오프를, Spring 생태계에서는 Spring AI 2.0 최신 동향과 AI 보조 보안 취약점 급증을 짚습니다. LLM 영역에서는 Gemma 4가 MLX 멀티 토큰 예측으로 코딩 에이전트 속도를 최대 90% 향상시킨 소식도 주목됩니다.",
+  "updated": "2026-07-03T00:15:07Z",
+  "summary": "2026년 7월 3일 다이제스트는 HotSpot JVM의 SIMD 벡터 최적화와 MongoDB 기반 AI 시스템 구축 등 Java 분야 실전 기술을 소개하고, Spring AI·Spring Framework의 최신 방향성을 전합니다. AI 분야에서는 LLM이 집단사고 현상에 갇혀 있다는 흥미로운 연구와 기업 운영 혁신에서의 AI 통합 전략이 주목받습니다. 에이전트 분야에서는 Claude Code의 스테가노그래픽 마커 삽입 논란이 AI 투명성 담론을 촉발했으며, '스킬 엔지니어링'이라는 새로운 에이전트 설계 철학도 부각됩니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "ZGC: A Decade of Redefining Java Performance",
-      "link": "https://inside.java/2026/06/30/zgc-performance-decade/",
-      "summary": "ZGC(Z Garbage Collector) 10년의 역사와 진화를 Inside Java가 집중 조명합니다. 모든 GC 작업을 애플리케이션 스레드와 동시에 수행해 서브 밀리초 정지 시간을 달성한 ZGC의 내부 메커니즘과 성과를 살펴봅니다.",
-      "detail": "ZGC는 JDK 11(2018)에 실험적 기능으로 처음 도입되어 JDK 15(2020)에서 프로덕션 준비 완료 상태로 전환된 Java의 대표적인 현대 GC입니다.\n- 핵심 특징: 마킹·압축·참조 처리 등 모든 주요 GC 작업을 애플리케이션 스레드와 동시에 수행하여 GC로 인한 Stop-The-World(STW) 정지 시간을 서브 밀리초 수준으로 유지합니다.\n- 확장성: 수백 MB부터 수 테라바이트 규모의 힙 메모리를 효율적으로 처리할 수 있어 대규모 엔터프라이즈 시스템에 적합합니다.\n- 10년의 진화: 컬러드 포인터(Colored Pointers), 로드 배리어(Load Barrier) 등 독자적인 기법으로 실험적 기능에서 낮은 지연 시간·높은 처리량·테라바이트 힙 지원을 모두 달성한 성숙한 GC로 자리잡았습니다.\n- 이 Inside Java 강연은 ZGC의 역사, 내부 설계 원칙, 최신 성능 개선 사항을 포괄적으로 탐구합니다.\n원문에 현재 접근이 제한되어 공식 요약을 기반으로 작성했습니다."
+      "title": "SIMD Vectors in the HotSpot JVM - Auto Vectorization and the Vector API",
+      "link": "https://inside.java/2026/07/02/simd-vectors-hotspot-jvm/",
+      "summary": "HotSpot JVM의 자동 벡터화(Auto Vectorization)와 Vector API에 관한 최신 작업을 소개합니다. SIMD 명령어를 활용해 Java 애플리케이션의 병렬 처리 성능을 높이는 두 가지 접근 방식을 탐구합니다.",
+      "detail": "Inside Java가 HotSpot JVM에서 SIMD(Single Instruction Multiple Data) 벡터 연산을 활용하는 두 가지 주요 접근 방식을 소개합니다.\n- 자동 벡터화(Auto Vectorization): JVM이 일반 스칼라 루프 코드를 자동으로 분석하여 SIMD 명령어(AVX-512, Neon 등)로 변환함으로써 개발자 개입 없이 성능을 향상시킵니다.\n- Vector API: 개발자가 명시적으로 벡터 연산을 지정할 수 있도록 설계된 인큐베이터 API로, 하드웨어 SIMD 레지스터를 직접 활용해 고성능 병렬 처리를 가능하게 합니다.\n- HotSpot JVM 팀의 최신 작업 결과를 중심으로 현재 최적화 수준, 향후 개선 방향, 두 접근 방식의 비교 등을 다룹니다.\n- SIMD 벡터 연산은 수치 계산, 데이터 처리, 암호화 등 다양한 고성능 Java 애플리케이션에서 성능 향상의 핵심 기반이 됩니다."
     },
     {
       "category": "Java",
-      "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design",
-      "link": "https://www.infoq.com/articles/tradeoffs-event-driven-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "이벤트 드리븐 아키텍처의 실제 트레이드오프는 프로덕션에서야 드러납니다. Java/Kafka 기반 80k BHCC, 1만 에이전트 규모 콘택트 센터 플랫폼의 실무 경험으로 숨겨진 설계 함정을 분석합니다.",
-      "detail": "InfoQ에 게재된 이 심층 아티클은 Java와 Kafka를 기반으로 구축한 실시간 콘택트 센터 플랫폼의 운영 경험에서 도출한 이벤트 드리븐 설계의 실제 트레이드오프를 다룹니다.\n- 실전 규모: 시간당 8만 건 통화 처리(80k BHCC: Busy Hour Call Completions)와 1만 명의 에이전트를 지원하는 대규모 실시간 시스템 사례를 기반으로 합니다.\n- 숨겨진 트레이드오프: 이벤트 드리븐 아키텍처는 설계 단계에서 매력적이지만, 프로덕션에서만 드러나는 이벤트 순서 보장, 멱등성 확보, 디버깅 복잡성 등의 함정이 존재합니다.\n- Java/Kafka 실전: 고처리량 실시간 Java 시스템에서 Kafka를 활용할 때 직면하는 구체적인 도전(지연 스파이크, 백프레셔 처리, 파티션 설계 등)과 해결책을 제시합니다.\n- 교훈: 확장성 약속과 운영 복잡성 사이의 현실적인 균형을 잡는 방법에 대한 실용적 인사이트를 제공합니다.\n원문에 현재 접근이 제한되어 공식 요약을 기반으로 작성했습니다."
+      "title": "Building AI Systems with MongoDB: Implementing the Planning Pattern",
+      "link": "https://foojay.io/today/building-ai-systems-with-mongodb-implementing-the-planning-pattern/",
+      "summary": "Java 개발자를 위해 MongoDB를 활용한 AI 시스템 구축 방법을 다루며, AI 에이전트가 복잡한 목표를 단계별 계획으로 분해하는 '계획 패턴(Planning Pattern)' 구현을 설명합니다.",
+      "detail": "AI가 소프트웨어 개발 전반에 급속히 확산되는 가운데, Foojay가 MongoDB를 데이터 저장소로 활용한 Java 기반 AI 시스템 구축 실전 가이드를 공개했습니다.\n- 계획 패턴(Planning Pattern): AI 에이전트가 복잡한 작업이나 목표를 수행 가능한 여러 하위 단계로 분해하고 실행 순서를 결정하는 설계 패턴입니다.\n- MongoDB 활용: 유연한 문서 모델이 AI 에이전트의 계획 상태, 중간 결과, 도구 호출 이력 등 반정형 데이터를 저장·조회하는 데 적합합니다.\n- Java 생태계 통합: Spring AI 또는 LangChain4j 같은 Java 기반 AI 프레임워크와 MongoDB를 결합하여 신뢰성 있는 에이전트 워크플로를 구현하는 접근법을 제시합니다.\n- AI가 도구를 호출하고 결과를 저장하며 다음 단계를 계획하는 에이전트 루프 설계에 MongoDB의 유연성이 어떻게 기여하는지를 중점적으로 다룹니다."
     },
     {
       "category": "Spring",
-      "title": "This Week in Spring - June 30th, 2026",
-      "link": "https://spring.io/blog/2026/06/30/this-week-in-spring-june-30-2026",
-      "summary": "Josh Long의 2026년 6월 30일자 'This Week in Spring'에서는 Spring AI 2.0의 Azure CosmosDB 벡터 검색 통합, Spring Boot 4.1 신기능, AI 보조 취약점 분석으로 급증한 CVE 보안 경보가 주요 소식으로 다뤄집니다.",
-      "detail": "Josh Long이 정리한 2026년 6월 30일자 'This Week in Spring'의 주요 내용입니다.\n- Spring AI 2.0 신기능: Microsoft 기여로 Azure CosmosDB 벡터 검색 통합이 추가됐으며, 자기 수정 구조화 출력(self-correcting structured output) 기능으로 LLM 응답의 신뢰성이 높아졌습니다. ElevenLabs 음성과 Spring AI를 연결하는 음성 인터페이스 레시피도 공개됐습니다.\n- Spring Boot 4.1: MongoDB 기반 Spring Batch 리포지토리 자동 설정 지원이 추가됐습니다.\n- Spring Boot 3.5.16: 최신 유지보수 릴리스가 배포됐습니다.\n- 보안 경보: AI 도구가 CVE 식별 속도를 대폭 높이면서 공개 취약점 수가 급증하고 있으며, 공개 전 신속한 패치 적용의 중요성이 강조됩니다.\n- 에이전트 기술: Baeldung에서 Spring AI로 에이전트 스킬을 구축하는 실용 가이드가 공개됐습니다.\n공식 spring.io 블로그 내용을 기반으로 작성했습니다."
+      "title": "A Bootiful Podcast: Sébastien Deleuze on the latest-and-greatest in Spring AI and Spring Framework",
+      "link": "https://spring.io/blog/2026/07/02/a-bootiful-podcast-sebastien-deleuze",
+      "summary": "Josh Long의 'A Bootiful Podcast'에서 Spring AI·Spring Framework의 핵심 기여자 Sébastien Deleuze를 초대해 AI 통합, Kotlin, 프레임워크 최신 동향을 깊이 있게 논의합니다.",
+      "detail": "Spring 공식 팟캐스트 'A Bootiful Podcast'의 최신 에피소드로, Spring 생태계의 핵심 기여자 Sébastien Deleuze와 Josh Long의 대담입니다.\n- Sébastien Deleuze는 Spring Framework의 AOT(Ahead-Of-Time) 처리·GraalVM 네이티브 이미지 지원을 이끈 핵심 개발자이자 Spring AI의 주요 기여자입니다.\n- Spring AI 최신 동향: Spring 생태계에서 AI 기능을 통합하는 방식의 최신 발전 사항과 방향성을 논의합니다.\n- Kotlin과 Spring: JVM 생태계에서 Kotlin의 역할 확대와 Spring Framework와의 심화된 통합 현황을 다룹니다.\n- Spring Framework 전반: 프레임워크의 최신 개선 사항과 장기적 발전 방향에 대한 인사이트를 제공합니다.\n- Spring 개발자와 AI 기술 통합에 관심 있는 분들에게 최신 트렌드를 파악하는 데 유용한 에피소드입니다."
     },
     {
       "category": "AI",
-      "title": "Claude Science is Anthropic's newest flagship product",
-      "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
-      "summary": "Anthropic이 제약사·바이오테크 연구자 행사에서 Claude Science를 발표했습니다. Claude Code가 소프트웨어 개발을 지원하듯, Claude Science는 과학 연구를 전문으로 지원하는 Anthropic의 새로운 주력 제품입니다.",
-      "detail": "MIT Technology Review가 Anthropic의 Claude Science 발표를 보도했습니다.\n- Claude Science: Claude Code가 소프트웨어 개발자의 코딩을 지원하는 전문 도구이듯, Claude Science는 과학 연구자들을 위해 특화된 Anthropic의 신규 플래그십 제품입니다.\n- 발표 맥락: 제약사 임원, 바이오테크 창업자, 연구자를 대상으로 한 전문 행사에서 공개됐으며, 생명과학·제약 분야 연구 지원에 특히 집중합니다.\n- 예상 기능: 과학 문헌 검색·분석, 실험 설계 지원, 데이터 해석, 연구 가설 생성 등 과학 연구 워크플로 전반을 지원할 것으로 예상됩니다.\n- 전략적 의미: Anthropic이 개발자 도구(Claude Code)에 이어 과학·의료·바이오 분야로 전문 AI 제품 라인업을 확장하는 전략적 행보입니다.\n- 시장 영향: 과학 AI 도구 시장에서 새로운 경쟁자로 등장하며, 특히 신약 개발·생명과학 연구 분야의 AI 지원 강화가 기대됩니다.\n원문에 현재 접근이 제한되어 MIT Technology Review 공식 요약을 기반으로 작성했습니다."
+      "title": "Achieving operational excellence with AI",
+      "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
+      "summary": "린 식스 시그마, 비즈니스 프로세스 관리(BPM) 등 기존 운영 혁신 프레임워크에 AI를 접목하여 기업 운영 우수성을 달성하는 전략을 탐구합니다.",
+      "detail": "MIT Technology Review가 기업 운영 혁신 분야에서 AI 도입이 가져오는 변화를 심층 분석합니다.\n- 배경: 린 식스 시그마(Lean Six Sigma)와 BPM은 오랫동안 기업 운영의 복잡성을 구조화하는 핵심 프레임워크였으며, AI는 이 프레임워크들의 효율성을 한 단계 높이는 역할을 합니다.\n- AI의 역할: 프로세스 병목 자동 탐지, 데이터 기반 의사결정 지원, 반복 업무 자동화를 통해 기존 운영 방법론을 강화합니다.\n- 운영 우수성(Operational Excellence): AI를 단순 도구가 아닌 지속적 개선 문화의 일부로 통합할 때 더 큰 성과를 달성할 수 있음을 강조합니다.\n- 도전 과제: AI 도입이 기존 프레임워크와 충돌하거나 조직 문화를 흔들 수 있는 위험 요소와 이를 극복하기 위한 전략도 함께 다룹니다."
     },
     {
       "category": "AI",
-      "title": "How ChatGPT adoption has expanded",
-      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "summary": "OpenAI Signals 최신 데이터가 ChatGPT의 글로벌 채택 확대를 보여줍니다. 사용자들이 더 자주, 더 다양한 기능과 언어로 ChatGPT를 활용하며 전 세계적 성장을 이끌고 있습니다.",
-      "detail": "OpenAI가 자체 데이터 분석 플랫폼 OpenAI Signals의 데이터를 바탕으로 ChatGPT의 글로벌 채택 현황을 공개했습니다.\n- 사용량 심화: 기존 사용자들이 ChatGPT를 더 자주, 더 오래 사용하며 단순 호기심을 넘어 실질적인 업무 도구로 정착시키고 있습니다.\n- 기능 탐색 확대: 단순 질의응답을 넘어 코딩 지원, 이미지 생성, 심층 리서치, 음성 인터페이스 등 더 복잡한 기능으로 사용 범위가 확장되고 있습니다.\n- 지역·언어 다양화: 영어권뿐 아니라 다양한 언어권과 지역에서 고르게 성장하며 ChatGPT의 국제화가 심화되고 있습니다.\n- 전략적 시사점: 사용자들이 AI를 단순 도구가 아닌 일상적인 워크플로에 통합하는 방향으로 이동하고 있으며, OpenAI의 제품 다각화 전략이 실제 사용 패턴에서 확인됩니다.\n원문에 현재 접근이 제한되어 OpenAI 공식 요약을 기반으로 작성했습니다."
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "link": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "summary": "주요 LLM들이 유사한 학습 과정으로 인해 비슷한 답변을 내놓는 '집단사고(Groupthink)' 현상이 두드러지며, 한 스타트업이 이를 해결하기 위한 새로운 접근법을 개발하고 있습니다.",
+      "detail": "MIT Technology Review가 LLM의 집단사고 경향과 이를 극복하려는 스타트업의 노력을 조명합니다.\n- 집단사고 현상: Claude, ChatGPT, Gemini에게 '1~10 사이의 랜덤 숫자를 고르라'고 요청하면 거의 항상 7을 선택합니다. 이는 LLM들이 유사한 대규모 데이터셋으로 학습되고 RLHF(인간 피드백 강화학습) 과정을 거치면서 비슷한 편향과 답변 패턴을 공유하게 된 결과입니다.\n- 심각성: 이 수렴 현상은 단순한 숫자 선택을 넘어 의견, 분석, 창의적 출력 전반에 걸쳐 나타나며, AI 다양성과 생태계 건강성을 위협합니다.\n- 스타트업의 해법: 기사에서 소개된 스타트업은 LLM이 더 다양하고 독창적인 응답을 생성하도록 유도하는 새로운 기법을 개발 중입니다.\n- 시사점: AI 모델 간 다양성 확보가 단순한 성능 지표를 넘어 AI 생태계의 건강한 발전을 위해 중요한 과제임을 강조합니다."
     },
     {
       "category": "Agents",
-      "title": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
-      "link": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
-      "summary": "Latent Space의 AINews가 Claude Sonnet 5의 오늘 출시와 Fable 5의 내일 공개를 전합니다. 수출 규제 해제와 맞물려 AI 생태계 전반이 다시 활짝 열리는 날입니다.",
-      "detail": "Latent Space의 2026년 7월 1일자 AINews가 Anthropic의 주요 모델 출시 소식을 집중 보도했습니다.\n- Claude Sonnet 5 출시: 2026년 7월 1일 Claude Sonnet 5가 정식 출시됐습니다. 코딩 및 추론 능력이 대폭 향상된 새로운 주력 모델로, Simon Willison의 분석에 따르면 개발자 문서에서 주목할 만한 변화가 확인됩니다.\n- Claude Fable 5 예고: 내일(7월 2일) Claude Fable 5가 공개될 예정입니다. 미국 상무부의 수출 규제 해제와 함께 글로벌 사용자에 대한 접근이 복원됩니다.\n- \"Everything is open again!\": 수출 통제로 제한됐던 Claude Fable 5·Mythos 5에 대한 접근이 전 세계적으로 다시 열리는 전환점을 상징하는 헤드라인입니다.\n- AI Engineer World's Fair: 컨퍼런스 현장의 에이전트 루프·소프트웨어 팩토리·Forward Deployed Engineers 논의와 맞물려 에이전트 생태계 전반의 활발한 움직임이 돋보이는 날입니다.\n원문에 현재 접근이 제한되어 공식 요약과 관련 소식을 기반으로 작성했습니다."
+      "title": "Claude Code is steganographically marking requests",
+      "link": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "summary": "Claude Code가 사용자 모르게 프롬프트에 눈에 보이지 않는 스테가노그래픽 마커를 삽입하고 있다는 사실이 발견되어 AI 투명성에 대한 큰 논란이 일었습니다.",
+      "detail": "thereallo.dev 연구자가 Claude Code가 생성하는 프롬프트에 눈에 보이지 않는 숨겨진 마커(스테가노그래피)를 삽입한다는 사실을 발견했습니다.\n- 발견 내용: Claude Code가 사용자에게 보이지 않는 방식으로 AI가 작성한 코드나 프롬프트에 식별 마커를 삽입하고 있습니다.\n- 커뮤니티 반응: 이 발견은 Hacker News에서 2,407포인트와 732개의 댓글을 기록하며 큰 반향을 일으켰습니다.\n- 논란 포인트: 숨겨진 마커가 Anthropic의 요청 추적, 저작권 보호, 품질 모니터링, 또는 다른 목적으로 사용되는지에 대한 활발한 토론이 이루어졌습니다.\n- AI 투명성 이슈: 이 사건은 AI 코딩 도구가 사용자 동의 없이 출력물에 숨겨진 정보를 삽입하는 것이 윤리적으로 적절한지에 대한 근본적인 질문을 제기합니다."
     },
     {
       "category": "Agents",
-      "title": "Quoting Anthropic",
-      "link": "https://simonwillison.net/2026/Jun/30/anthropic/#atom-everything",
-      "summary": "Simon Willison이 인용한 Anthropic의 공지: 미국 상무부가 Claude Fable 5와 Mythos 5에 대한 수출 규제를 해제했으며, 이튿날부터 글로벌 접근이 복원될 예정입니다.",
-      "detail": "Simon Willison이 Anthropic이 트위터(X)에 공개한 공지를 인용했습니다.\n- 공지 원문 (Anthropic): \"미국 상무부로부터 Claude Fable 5와 Mythos 5에 대한 수출 규제가 해제됐다는 통보를 받았습니다. 내일부터 접근을 복원하기 시작하며, 곧 업데이트를 공유하겠습니다.\"\n- 수출 규제 맥락: Claude Fable 5와 Mythos 5는 미국 상무부의 AI 모델 수출 통제 정책에 의해 일부 국가·지역 사용자에 대한 접근이 제한되어 있었습니다.\n- 글로벌 영향: 이번 규제 해제로 수출 통제 대상이었던 지역의 사용자들이 Anthropic의 최상위 모델에 다시 접근할 수 있게 됩니다.\n- Mythos 5: Fable 5와 함께 수출 규제가 해제된 Mythos 5는 Anthropic 포트폴리오의 또 다른 고급 모델입니다.\n- AI 거버넌스 시사점: 미국 정부가 첨단 AI 모델을 수출 통제 대상으로 관리하는 새로운 거버넌스 흐름과 기업 대응 방식을 보여주는 실제 사례입니다."
-    },
-    {
-      "category": "LLM",
-      "title": "Faster Gemma 4 on MLX with multi-token prediction",
-      "link": "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
-      "summary": "Ollama 0.31에서 Apple Silicon의 MLX 엔진을 통해 멀티 토큰 예측(MTP)을 적용한 Gemma 4의 속도가 코딩 에이전트 기준 최대 90% 향상됐습니다.",
-      "detail": "Ollama 0.31 업데이트로 Apple Silicon에서 Gemma 4의 추론 속도가 대폭 향상됐습니다.\n- 멀티 토큰 예측(MTP: Multi-Token Prediction): 한 번의 순전파(forward pass)에서 여러 토큰을 동시에 예측하는 기법으로, 추론 속도를 크게 높이면서도 출력 품질을 유지합니다.\n- 90% 속도 향상: Aider polyglot 코딩 벤치마크 기준으로 코딩 에이전트 사용 시 기존 대비 최대 90%까지 빠른 토큰 생성 속도를 달성했습니다.\n- MLX 엔진: Apple의 머신러닝 프레임워크 MLX가 M1~M4 계열 칩의 통합 메모리 아키텍처를 최적으로 활용하여 성능 향상을 이끌었습니다.\n- Ollama 0.31: 이번 버전부터 Gemma 4에 MTP가 적용되어 로컬 코딩 에이전트 실행 경험이 크게 개선됩니다.\n- 실용적 의미: 로컬 Gemma 4 기반 코딩 에이전트가 상용 API 없이도 빠른 응답 속도로 실용적인 개발 지원을 제공할 수 있게 됩니다.\n공식 Ollama 요약을 기반으로 작성했습니다."
+      "title": "Skill engineering and the case against one-shot AI design",
+      "link": "https://www.latent.space/p/skill-engineering-design",
+      "summary": "Paul Bakaus가 Latent Space에서 단발성 프롬프트 AI 설계의 한계를 비판하고, 에이전트가 반복적으로 개선되는 '스킬 엔지니어링' 접근법을 제안합니다.",
+      "detail": "Latent Space 팟캐스트에서 Impeccable의 Paul Bakaus가 현재 AI 에이전트 설계의 주류인 '원샷(One-shot) 디자인'의 근본적 한계를 설명합니다.\n- 원샷 AI 설계의 문제: 단일 프롬프트로 AI 에이전트가 복잡한 작업을 처리하게 하는 방식은 불확실한 환경에서 신뢰성이 낮고 실패 시 수정이 어렵습니다.\n- 스킬 엔지니어링(Skill Engineering): 에이전트가 특정 도메인 스킬을 구조화된 방식으로 습득하고 반복적으로 개선할 수 있는 설계 철학입니다.\n- 루프마xing 시대의 인간 역할: 자동화 루프가 확장될수록 오히려 인간의 판단력이 에이전트를 올바른 방향으로 이끄는 데 더욱 중요해집니다.\n- Impeccable: Paul Bakaus가 개발 중인 제품으로, 이 스킬 엔지니어링 원칙을 실제로 구현하고 있습니다."
     }
   ]
 }
