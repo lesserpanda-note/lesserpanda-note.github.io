@@ -19,7 +19,8 @@ from pathlib import Path
 import feedparser
 
 # (feed url, source label, category) — category drives grouping/filtering on the page.
-# Categories: Java (incl. Kotlin/JVM), Spring, AI (incl. models/LLM), Agents.
+# Categories: Java (incl. Kotlin/JVM), Spring, AI (incl. models/LLM), Agents,
+# Architecture, Python.
 FEEDS = [
     ("https://inside.java/feed.xml", "Inside Java", "Java"),
     ("https://feed.infoq.com/java/", "InfoQ Java", "Java"),
@@ -38,12 +39,21 @@ FEEDS = [
     ("https://importai.substack.com/feed", "Import AI", "AI"),
     ("https://hnrss.org/newest?q=Grok&points=10", "Hacker News", "AI"),
     ("https://hnrss.org/newest?q=Llama&points=10", "Hacker News", "AI"),
-    # Agents — Claude Code, agent / harness / context engineering
+    # Agents — Claude Code, agent frameworks, MCP, context engineering, LLM-app eng
     ("https://simonwillison.net/atom/everything/", "Simon Willison", "Agents"),
     ("https://www.latent.space/feed", "Latent Space", "Agents"),
+    ("https://eugeneyan.com/rss/", "Eugene Yan", "Agents"),
     ("https://hnrss.org/newest?q=Claude+Code&points=20", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=AI+agents&points=50", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=context+engineering&points=10", "Hacker News", "Agents"),
+    ("https://hnrss.org/newest?q=Model+Context+Protocol&points=5", "Hacker News", "Agents"),
+    # Architecture — system design & engineering practice (fits Java/Spring backend)
+    ("https://feed.infoq.com/architecture-design/", "InfoQ Architecture", "Architecture"),
+    ("https://martinfowler.com/feed.atom", "Martin Fowler", "Architecture"),
+    # Python — the AI-agent-development stack (language, packaging, performance)
+    ("https://realpython.com/atom.xml", "Real Python", "Python"),
+    ("https://blog.python.org/feeds/posts/default", "Python Insider", "Python"),
+    ("https://pythonspeed.com/atom.xml", "Python Speed", "Python"),
 ]
 
 USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"
