@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-03T23:01:36.180525+00:00",
-  "count": 439,
+  "updated": "2026-07-04T00:17:14.123669+00:00",
+  "count": 484,
   "items": [
     {
       "title": "Open Source AI Gap Map",
@@ -156,6 +156,15 @@
       "published": "2026-07-03T05:11:43+00:00"
     },
     {
+      "title": "v2.4.0 (2026-07-02)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.4.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Split preserve_file_data into allow_uploaded_files (inbound security) and an AG-UI representation opt-in by @DouweM in #6232 Add GEval evaluator and standard quality metric rubrics for LLMJudge…",
+      "ts": 1783041897,
+      "published": "2026-07-03T01:24:57+00:00"
+    },
+    {
       "title": "Vercel's Andrew Qu on why agents are a new kind of software",
       "link": "https://www.latent.space/p/vercel-agents-new-software",
       "source": "Latent Space",
@@ -300,6 +309,15 @@
       "published": "2026-07-02T06:13:49+00:00"
     },
     {
+      "title": "v2.3.0 (2026-07-01)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.3.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add native Z.AI (Zhipu AI) provider with thinking support by @eliasaronson in #4273 🐛 Bug Fixes fix(test): set provider_name on TestModel non-streaming responses by @syf2211 in #6066 Keep Bedro…",
+      "ts": 1782958156,
+      "published": "2026-07-02T02:09:16+00:00"
+    },
+    {
       "title": "A Bootiful Podcast: Sébastien Deleuze on the latest-and-greatest in Spring AI and Spring Framework",
       "link": "https://spring.io/blog/2026/07/02/a-bootiful-podcast-sebastien-deleuze",
       "source": "Spring Blog",
@@ -325,6 +343,15 @@
       "summary": "Introspection co-founder Roland Gavrilescu explains autoresearch, agent “recipes,” self-improving loops, and why humans remain central to the software factory.",
       "ts": 1782949950,
       "published": "2026-07-01T23:52:30+00:00"
+    },
+    {
+      "title": "1.15.2a2",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.2a2",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add aiobotocore to the bedrock extra Document flow agent options Add text helper to flow skill example Add text helper for flow CEL prompts Add streaming docs to the navigation Bug Fixes Reject s…",
+      "ts": 1782944105,
+      "published": "2026-07-01T22:15:05+00:00"
     },
     {
       "title": "ZCode: Claude Code from the Makers of GLM",
@@ -498,6 +525,15 @@
       "published": "2026-07-01T00:20:18+00:00"
     },
     {
+      "title": "v2.2.0 (2026-06-30)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.2.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features feat: add TwelveLabs Pegasus video-understanding example by @mohit-twelvelabs in #6061 Add Claude Sonnet 5 ( claude-sonnet-5 ) support by @dsfaccini in #6161 Allow factory functions as lifecycl…",
+      "ts": 1782864061,
+      "published": "2026-07-01T00:01:01+00:00"
+    },
+    {
       "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
       "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
       "source": "Hugging Face",
@@ -568,6 +604,15 @@
       "summary": "Article URL: https://www.forbes.com/sites/maryroeloffs/2026/06/24/groks-traffic-is-mostly-driven-by-adult-content-report-says/ Comments URL: https://news.ycombinator.com/item?id=48738652 Points: 25 # Comments: 8",
       "ts": 1782850888,
       "published": "2026-06-30T20:21:28+00:00"
+    },
+    {
+      "title": "1.15.2a1",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.2a1",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Repoint template commands to crewAIInc-fde org Support inline skill definitions Define stream frame protocol for flows Add type tool and app in CrewDefinition Add generated Flow Definition author…",
+      "ts": 1782850683,
+      "published": "2026-06-30T20:18:03+00:00"
     },
     {
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
@@ -757,6 +802,15 @@
       "summary": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer.",
       "ts": 1782799200,
       "published": "2026-06-30T06:00:00+00:00"
+    },
+    {
+      "title": "langgraph==1.2.7",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.7",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.6 release(langgraph): 1.2.7 ( #8223 ) fix(langgraph): snapshot DeltaChannel overwrite supersteps ( #8125 ) fix(langgraph): Make Overwrite survive JSON roundtrips ( #8127 ) chore(deps): bump redis in /l…",
+      "ts": 1782782666,
+      "published": "2026-06-30T01:24:26+00:00"
     },
     {
       "title": "This Week in Spring - June 30th, 2026",
@@ -993,6 +1047,15 @@
       "published": "2026-06-29T09:40:40+00:00"
     },
     {
+      "title": "v2.1.0 (2026-06-29)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.1.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features feat: Add Anthropic _20260209 web tools with server-tool replay by @adtyavrdhn in #4844 Serialize instrumentation message attributes with to_json instead of json.dumps by @Kludex in #6045 Add T…",
+      "ts": 1782725973,
+      "published": "2026-06-29T09:39:33+00:00"
+    },
+    {
       "title": "AI Tools Accelerates Coding, But Not Overall Software Delivery, GitLab Research Finds",
       "link": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -1101,6 +1164,15 @@
       "published": "2026-06-27T11:21:58+00:00"
     },
     {
+      "title": "1.15.1",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.1",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Initialize Git repositories for generated projects ( #6364 ) Require explicit CrewAI project definitions ( #6358 ) Open deployment page after CLI deploy ( #6343 ) Bug Fixes Fix deployment page li…",
+      "ts": 1782543046,
+      "published": "2026-06-27T06:50:46+00:00"
+    },
+    {
       "title": "[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners",
       "link": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna",
       "source": "Latent Space",
@@ -1117,6 +1189,15 @@
       "summary": "This is a bad state of affairs. Consider, in particular, some industry dynamics: Frontier models are trained at an enormous cost, and a significant fraction of that cost is recouped in the few post-release months that t…",
       "ts": 1782512746,
       "published": "2026-06-26T22:25:46+00:00"
+    },
+    {
+      "title": "1.15.1a1",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.1a1",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Track TUI button telemetry Require explicit CrewAI project definitions Open deployment page after CLI deploy Bug Fixes Fix JSON crew template rendering Fix JSON crew version pin Fix SSRF redirect…",
+      "ts": 1782512221,
+      "published": "2026-06-26T22:17:01+00:00"
     },
     {
       "title": "Quoting Timothy B. Lee",
@@ -1218,6 +1299,15 @@
       "published": "2026-06-26T00:00:00+00:00"
     },
     {
+      "title": "1.15.0",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.0",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Track conversational flow turn usage in telemetry Support conversational flows in the CLI TUI Add unified declarative flow loading Add declarative Flow CLI support Add optional if expression to e…",
+      "ts": 1782429472,
+      "published": "2026-06-25T23:17:52+00:00"
+    },
+    {
       "title": "AI and Liability",
       "link": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
       "source": "Simon Willison",
@@ -1299,6 +1389,15 @@
       "published": "2026-06-25T02:14:08+00:00"
     },
     {
+      "title": "1.14.8a5",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.8a5",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Make declarative refs work across flows and crews ( #6326 ) Bug Fixes Fix JSON schema flow state kickoff inputs ( #6325 ) Documentation Nest One Card per Step under Crew Studio and drop rollout b…",
+      "ts": 1782347505,
+      "published": "2026-06-25T00:31:45+00:00"
+    },
+    {
       "title": "Episode 60 “How JEPs Drive Java's Evolution” [AtA]",
       "link": "https://inside.java/2026/06/25/podcast-060/",
       "source": "Inside Java",
@@ -1335,6 +1434,15 @@
       "published": "2026-06-24T23:59:03+00:00"
     },
     {
+      "title": "v0.14.23",
+      "link": "https://github.com/run-llama/llama_index/releases/tag/v0.14.23",
+      "source": "LlamaIndex",
+      "category": "Agents",
+      "summary": "Release Notes [2026-06-24] llama-index-callbacks-argilla [0.5.0] chore(deps): bump the uv group across 32 directories with 3 updates ( #21664 ) chore(deps): bump the uv group across 29 directories with 3 updates ( #2166…",
+      "ts": 1782329803,
+      "published": "2026-06-24T19:36:43+00:00"
+    },
+    {
       "title": "Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks",
       "link": "https://www.latent.space/p/databricks",
       "source": "Latent Space",
@@ -1351,6 +1459,15 @@
       "summary": "In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated…",
       "ts": 1782324831,
       "published": "2026-06-24T18:13:51+00:00"
+    },
+    {
+      "title": "1.14.8a4",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.8a4",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Support conversational flows in the CLI TUI. Bug Fixes Fix symlink path traversal in skill archive extraction. Validate declarative flow definition paths. Documentation Update snapshot and change…",
+      "ts": 1782318002,
+      "published": "2026-06-24T16:20:02+00:00"
     },
     {
       "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
@@ -1434,6 +1551,15 @@
       "published": "2026-06-24T07:14:26+00:00"
     },
     {
+      "title": "v0.17.7",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.7",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed feat: expose configurable websocket max_size limit by @anneheartrecord in #3645 feat: add buffered Chat Completions tool-call streaming by @incoffeemonster in #3506 fix: reduce sandbox sink buffering and…",
+      "ts": 1782278103,
+      "published": "2026-06-24T05:15:03+00:00"
+    },
+    {
       "title": "Spring Data 2025.0.13 released",
       "link": "https://spring.io/blog/2026/06/24/spring-data-2025-0-13-released",
       "source": "Spring Blog",
@@ -1461,6 +1587,15 @@
       "published": "2026-06-23T21:34:37+00:00"
     },
     {
+      "title": "1.14.8a3",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.8a3",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add unified declarative flow loading Improve crewai run startup UX Consolidate crewai run and crewai flow kickoff Keep flow method progress visible for nested crews Add declarative Flow CLI suppo…",
+      "ts": 1782249106,
+      "published": "2026-06-23T21:11:46+00:00"
+    },
+    {
       "title": "OPFS + Pyodide test harness",
       "link": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
       "source": "Simon Willison",
@@ -1468,6 +1603,15 @@
       "summary": "Tool: OPFS + Pyodide test harness I've been pondering if Datasette Lite - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored…",
       "ts": 1782241134,
       "published": "2026-06-23T18:58:54+00:00"
+    },
+    {
+      "title": "v2.0.0 (2026-06-23)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.0.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🎉 Pydantic AI V2.0 is here! After seven betas, Pydantic AI V2 is now stable. V2 leans into a harness-first design with capabilities as a core primitive — a single composable unit that bundles an agent's tools, hooks, in…",
+      "ts": 1782229097,
+      "published": "2026-06-23T15:38:17+00:00"
     },
     {
       "title": "Using LlamaIndex for RAG in Python",
@@ -1821,6 +1965,15 @@
       "published": "2026-06-19T10:38:36+00:00"
     },
     {
+      "title": "v0.17.6",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.6",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed feat: add pre-approval tool input guardrails by @seratch in #3487 feat: add SDK-only custom data for tool outputs by @seratch in #3486 fix: enforce the documented strict JSON-compatible contract for #3486…",
+      "ts": 1781849011,
+      "published": "2026-06-19T06:03:31+00:00"
+    },
+    {
       "title": "[AINews] GLM > GPT? GLM-5.2 passes vibe check; Z.ai forecasts Open Fable by December",
       "link": "https://www.latent.space/p/ainews-glm-gpt-glm-52-passes-vibe",
       "source": "Latent Space",
@@ -1839,6 +1992,24 @@
       "published": "2026-06-18T23:58:38+00:00"
     },
     {
+      "title": "1.14.8a2",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.8a2",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add single agent action to Flow definitions Validate flow CEL expressions at definition load time Documentation Add Datadog integration guide with importable operations dashboard Update snapshot…",
+      "ts": 1781826146,
+      "published": "2026-06-18T23:42:26+00:00"
+    },
+    {
+      "title": "langgraph==1.2.6",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.6",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.5 release(langgraph): 1.2.6 ( #8139 ) fix: nested subgraph inherits parent checkpoint_ns (regression in 1.2.3) ( #8053 ) fix: cancel running subgraphs on v3 stream abort [closes #8029 ] ( #8057 ) relea…",
+      "ts": 1781816312,
+      "published": "2026-06-18T20:58:32+00:00"
+    },
+    {
       "title": "datasette-acl 0.6a0",
       "link": "https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything",
       "source": "Simon Willison",
@@ -1855,6 +2026,15 @@
       "summary": "",
       "ts": 1781806393,
       "published": "2026-06-18T18:13:13+00:00"
+    },
+    {
+      "title": "1.14.8a1",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.8a1",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add optional if expression to each.do steps Bug Fixes Fix JSON crew issues Documentation Update snapshot and changelog for v1.14.8a Contributors @joaomdmoura , @vinibrsl",
+      "ts": 1781804807,
+      "published": "2026-06-18T17:46:47+00:00"
     },
     {
       "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
@@ -2046,6 +2226,15 @@
       "published": "2026-06-16T21:31:24+00:00"
     },
     {
+      "title": "langgraph-cli==0.4.30",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.30",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.29 release(cli): 0.4.30 ( #8101 ) feat(cli): support compatible api version ranges ( #8023 ) docs: standardize package README.md structure ( #8064 )",
+      "ts": 1781639205,
+      "published": "2026-06-16T19:46:45+00:00"
+    },
+    {
       "title": "datasette-tailscale 0.1a0",
       "link": "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything",
       "source": "Simon Willison",
@@ -2062,6 +2251,15 @@
       "summary": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for sm…",
       "ts": 1781625899,
       "published": "2026-06-16T16:04:59+00:00"
+    },
+    {
+      "title": "2026.6.16",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Release 2026.6.16",
+      "ts": 1781621591,
+      "published": "2026-06-16T14:53:11+00:00"
     },
     {
       "title": "Building Python Skills for the Job Market",
@@ -2235,6 +2433,15 @@
       "published": "2026-06-13T04:30:52+00:00"
     },
     {
+      "title": "langgraph==1.2.5",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.5",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.4 release(langgraph): 1.2.5 ( #8062 ) fix(langgraph): merge lc_versions config metadata ( #8052 ) release(cli): 0.4.28 ( #8041 ) fix: updateState bug for deltaChannel on empty thread ( #8011 ) chore: m…",
+      "ts": 1781296274,
+      "published": "2026-06-12T20:31:14+00:00"
+    },
+    {
       "title": "The Real Python Podcast – Episode #299: EuroPython 2026: Celebrating 25 Years",
       "link": "https://realpython.com/podcasts/rpp/299/",
       "source": "Real Python",
@@ -2307,6 +2514,15 @@
       "published": "2026-06-11T20:00:00+00:00"
     },
     {
+      "title": "langgraph-cli==0.4.29",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.29",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.28 release(cli): 0.4.29 ( #8046 ) feat(cli): add support for passing certfile and cert key to run dev server under HTTPS ( #8031 )",
+      "ts": 1781207584,
+      "published": "2026-06-11T19:53:04+00:00"
+    },
+    {
       "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
       "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
       "source": "MIT Tech Review",
@@ -2314,6 +2530,15 @@
       "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and align…",
       "ts": 1781175645,
       "published": "2026-06-11T11:00:45+00:00"
+    },
+    {
+      "title": "v0.17.5",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.5",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed fix: expose sandbox error retryability by @qiyaoq-oai in #3581 fix: #3512 type tool-end hook results as object by @seratch in #3518 fix: use tuple form for SpeechGroupSpanData __slots__ by @jluocsa in #35…",
+      "ts": 1781151111,
+      "published": "2026-06-11T04:11:51+00:00"
     },
     {
       "title": "[AINews] Open Models, Model Labs vs Agent Labs, and What's Untrainable — Sarah Guo",
@@ -2370,6 +2595,15 @@
       "published": "2026-06-11T00:00:00+00:00"
     },
     {
+      "title": "langgraph-cli==0.4.28",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.28",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.27 release(cli): 0.4.28 ( #8041 ) chore(deps): bump starlette from 1.0.0 to 1.0.1 in /libs/cli ( #8005 ) chore: migrate Python type checking to ty ( #8002 ) chore(deps): bump the minor-and-patch g…",
+      "ts": 1781115632,
+      "published": "2026-06-10T18:20:32+00:00"
+    },
+    {
       "title": "Apache Burr: Build reliable AI agents and applications",
       "link": "https://burr.apache.org/",
       "source": "Hacker News",
@@ -2377,6 +2611,42 @@
       "summary": "Article URL: https://burr.apache.org/ Comments URL: https://news.ycombinator.com/item?id=48477400 Points: 251 # Comments: 115",
       "ts": 1781103666,
       "published": "2026-06-10T15:01:06+00:00"
+    },
+    {
+      "title": "v2.0.0b7 (2026-06-10)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.0.0b7",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🚀 Pydantic AI V2 Beta 7 is here! For more information on Pydantic AI V2, see the release notes for v2.0.0b1 and the Upgrade Guide . Beta 7 adds no new breaking or v2-specific changes, but pulls in these changes from v1.…",
+      "ts": 1781103252,
+      "published": "2026-06-10T14:54:12+00:00"
+    },
+    {
+      "title": "v1.107.0 (2026-06-10)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security Handle UploadedFile consistently with FileUrl in UI adapters by @dsfaccini in #5772 Security advisory: VercelAIAdapter trusts client-controlled provider metadata to construct UploadedFile refe…",
+      "ts": 1781102424,
+      "published": "2026-06-10T14:40:24+00:00"
+    },
+    {
+      "title": "v2.0.0b6 (2026-06-04)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.0.0b6",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🚀 Pydantic AI V2 Beta 6 is here! For more information on Pydantic AI V2, see the release notes for v2.0.0b1 and the Upgrade Guide . Beta 6 adds no new breaking or v2-specific changes, but pulls in these changes from v1.…",
+      "ts": 1781102266,
+      "published": "2026-06-10T14:37:46+00:00"
+    },
+    {
+      "title": "v1.106.0 (2026-06-04)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.106.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security Handle UploadedFile consistently with FileUrl in UI adapters by @dsfaccini in #5772 Security advisory: VercelAIAdapter trusts client-controlled provider metadata to construct UploadedFile refe…",
+      "ts": 1781102265,
+      "published": "2026-06-10T14:37:45+00:00"
     },
     {
       "title": "Cursor vs Windsurf: Which AI Code Editor Is Best for Python?",
@@ -2604,6 +2874,15 @@
       "published": "2026-06-04T14:38:35+00:00"
     },
     {
+      "title": "2026.6.3",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.3",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Release 2026.6.3",
+      "ts": 1780535981,
+      "published": "2026-06-04T01:19:41+00:00"
+    },
+    {
       "title": "Designing the hf CLI as an agent-optimized way to work with the Hub",
       "link": "https://huggingface.co/blog/hf-cli-for-agents",
       "source": "Hugging Face",
@@ -2694,6 +2973,15 @@
       "published": "2026-06-02T20:19:11+00:00"
     },
     {
+      "title": "langgraph==1.2.4",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.4",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.3 release(langgraph): 1.2.4 ( #7991 ) test(sdk-py): add factory-graph integration test exercising the server factory path ( #7978 ) fix(langgraph): keep _on_started backward-compatible with overrides p…",
+      "ts": 1780420069,
+      "published": "2026-06-02T17:07:49+00:00"
+    },
+    {
       "title": "Fragments: June 2",
       "link": "https://martinfowler.com/fragments/2026-06-02.html",
       "source": "Martin Fowler",
@@ -2721,6 +3009,15 @@
       "published": "2026-06-02T14:00:00+00:00"
     },
     {
+      "title": "v2.0.0b5 (2026-06-02)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.0.0b5",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🚀 Pydantic AI V2 Beta 5 is here! For more information on Pydantic AI V2, see the release notes for v2.0.0b1 and the Upgrade Guide . Beta 5 adds no new breaking or v2-specific changes, but pulls in these changes from v1.…",
+      "ts": 1780381418,
+      "published": "2026-06-02T06:23:38+00:00"
+    },
+    {
       "title": "Expanding Project Glasswing",
       "link": "https://www.anthropic.com/news/expanding-project-glasswing",
       "source": "Anthropic",
@@ -2739,6 +3036,24 @@
       "published": "2026-06-02T00:00:00+00:00"
     },
     {
+      "title": "langgraph==1.2.3",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.3",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.2 release(langgraph): 1.2.3 ( #7945 ) feat(langgraph): wire RemoteGraph.interleave to sdk-py interleave_projections ( #7938 ) feat(langgraph): add v3 streaming support to RemoteGraph ( #7927 ) feat(lan…",
+      "ts": 1780340169,
+      "published": "2026-06-01T18:56:09+00:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.2",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.2",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.1 release(sdk-py): 0.4.2 ( #7955 ) fix(sdk-py): percent-encode thread_id in v3 stream transport default paths ( #7954 )",
+      "ts": 1780336291,
+      "published": "2026-06-01T17:51:31+00:00"
+    },
+    {
       "title": "How we used Gemini to build Google I/O 2026",
       "link": "https://blog.google/innovation-and-ai/technology/ai/io-2026-google-ai/",
       "source": "Google AI",
@@ -2755,6 +3070,15 @@
       "summary": "",
       "ts": 1780328717,
       "published": "2026-06-01T15:45:17+00:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.1",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.1",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.0 release(sdk-py): 0.4.1 ( #7944 ) feat(sdk-py): extract stream decoders and add interleave_projections ( #7935 ) feat(langgraph): add v3 streaming support to RemoteGraph ( #7927 ) fix(sdk-py): ma…",
+      "ts": 1780327418,
+      "published": "2026-06-01T15:23:38+00:00"
     },
     {
       "title": "Python sleep(): How to Add Time Delays to Your Code",
@@ -3000,6 +3324,15 @@
       "published": "2026-05-26T14:00:00+00:00"
     },
     {
+      "title": "v0.17.4",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.4",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed feat: support Realtime custom voice objects by @lionel-oai in #3473 fix: #3459 add opt-in recovery for missing function tools by @seratch in #3461 fix: apply hardened http client default to MCP SSE transp…",
+      "ts": 1779785664,
+      "published": "2026-05-26T08:54:24+00:00"
+    },
+    {
       "title": "Show HN: skills-for-humanity – 171 structured reasoning skills for Claude Code",
       "link": "https://github.com/human-avatar/skills-for-humanity",
       "source": "Hacker News",
@@ -3061,6 +3394,15 @@
       "summary": "Spec Driven Development approach allows to squeeze more from coding agents thanks to few strong concepts: - decomposition across two dimensions. first you generate specs in multiple steps (requirements, code analysis, d…",
       "ts": 1779419858,
       "published": "2026-05-22T03:17:38+00:00"
+    },
+    {
+      "title": "v0.17.3",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.3",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed fix: keep mountpoint credentials out of sandbox commands by @seratch in #3429 fix: unify memory optional dependency import errors by @seratch in #3389 fix: guard None text in text_message_output and add o…",
+      "ts": 1779407842,
+      "published": "2026-05-21T23:57:22+00:00"
     },
     {
       "title": "Grok falls flat in Washington, undercutting SpaceX's AI growth story",
@@ -3306,6 +3648,15 @@
       "published": "2026-05-14T21:52:00+00:00"
     },
     {
+      "title": "v0.14.22",
+      "link": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22",
+      "source": "LlamaIndex",
+      "category": "Agents",
+      "summary": "Release Notes [2026-05-14] llama-index-agent-agentmesh [0.2.0] mass uv lock --upgrade ( #21638 ) llama-index-callbacks-agentops [0.5.0] chore(deps): bump the pip group across 55 directories with 3 updates ( #21435 ) mas…",
+      "ts": 1778790144,
+      "published": "2026-05-14T20:22:24+00:00"
+    },
+    {
       "title": "Granite Embedding Multilingual R2: Open Apache 2.0 Multilingual Embeddings with 32K Context — Best Sub-100M Retrieval Quality",
       "link": "https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2",
       "source": "Hugging Face",
@@ -3405,6 +3756,15 @@
       "published": "2026-05-12T03:26:41+00:00"
     },
     {
+      "title": "v0.17.2",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.2",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed fix: #3268 fix OpenAI Conversations reasoning persistence by @seratch in #3352 fix: avoid auto response for unknown realtime tools (ref: #3287 ) by @seratch in #3366 fix: #3354 interrupt tracing retry bac…",
+      "ts": 1778555657,
+      "published": "2026-05-12T03:14:17+00:00"
+    },
+    {
       "title": "Building Blocks for Foundation Model Training and Inference on AWS",
       "link": "https://huggingface.co/blog/amazon/foundation-model-building-blocks",
       "source": "Hugging Face",
@@ -3412,6 +3772,15 @@
       "summary": "",
       "ts": 1778541506,
       "published": "2026-05-11T23:18:26+00:00"
+    },
+    {
+      "title": "v0.17.1",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.1",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed Sandboxes fix: include sandbox provider error details by @seratch in #3326 fix: #3274 limit sandbox archive extraction by @Aphroq in #3278 fix: #3273 validate git repo subpaths by @Aphroq in #3276 fix: al…",
+      "ts": 1778482561,
+      "published": "2026-05-11T06:56:01+00:00"
     },
     {
       "title": "Python 3.14.5 is out!",
@@ -3457,6 +3826,33 @@
       "summary": "What if you could build charts in Python by describing what your data means, instead of scripting every visual detail? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles an…",
       "ts": 1778241600,
       "published": "2026-05-08T12:00:00+00:00"
+    },
+    {
+      "title": "v0.17.0",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.0",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "Key Changes RealtimeAgent's default is now gpt-realtime-2 Since this version, the default model for RealtimeAgents is gpt-realtime-2: https://developers.openai.com/api/docs/models/gpt-realtime-2 Sandbox local source mat…",
+      "ts": 1778227788,
+      "published": "2026-05-08T08:09:48+00:00"
+    },
+    {
+      "title": "v0.16.1",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.16.1",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed fix: #3109 stabilize chat completions stream output indexes by @seratch in #3176 fix: #3168 validate MCP require_approval policies by @seratch in #3179 fix: #3116 restore session history after compaction…",
+      "ts": 1778151716,
+      "published": "2026-05-07T11:01:56+00:00"
+    },
+    {
+      "title": "v0.16.0",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.16.0",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "Key Changes Default model change In this version, the SDK default model is now gpt-5.4-mini instead of gpt-4.1 . This could affect agents and runs that do not explicitly set a model. Because the new default is a GPT-5 m…",
+      "ts": 1778113674,
+      "published": "2026-05-07T00:27:54+00:00"
     },
     {
       "title": "Python 3.15.0 beta 1 is here!",
@@ -3718,6 +4114,15 @@
       "summary": "Article URL: https://nial.se/blog/less-human-ai-agents-please/ Comments URL: https://news.ycombinator.com/item?id=47845429 Points: 161 # Comments: 170",
       "ts": 1776754688,
       "published": "2026-04-21T06:58:08+00:00"
+    },
+    {
+      "title": "v0.14.21",
+      "link": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21",
+      "source": "LlamaIndex",
+      "category": "Agents",
+      "summary": "Release Notes [2026-04-21] llama-index-callbacks-honeyhive [0.5.0] chore(deps): bump the pip group across 87 directories with 2 updates ( #21382 ) chore(deps): bump the pip group across 68 directories with 2 updates ( #…",
+      "ts": 1776730731,
+      "published": "2026-04-21T00:18:51+00:00"
     },
     {
       "title": "AI and the Future of Cybersecurity: Why Openness Matters",
