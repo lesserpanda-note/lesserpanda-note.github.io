@@ -1,6 +1,82 @@
 {
   "digests": [
     {
+      "date": "2026-07-04",
+      "summary": "오늘은 Kotlin의 BlueJ 교육용 IDE 지원 추가, 기업 환경에서의 강화학습 미세조정(RFT) 실전 사례, 오픈소스 AI 생태계의 공백을 분석한 Gap Map, 에이전틱 AI 아키텍처의 체계화를 시도하는 InfoQ 미니북, 그리고 Instacart의 멀티테넌트 마케팅 플랫폼 설계 사례 등 다양한 분야의 핵심 소식을 다룹니다. AI 에이전트의 자기 개선 루프(오토리서치)와 Python의 인터페이스·NLP 기초 학습 자료도 함께 소개됩니다. 총 5개 카테고리에서 10건의 중요 콘텐츠를 선별했습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Kotlin Comes to BlueJ",
+          "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-comes-to-bluej/",
+          "summary": "JetBrains와 BlueJ 팀의 협력으로 초보자용 OOP 교육 환경인 BlueJ에 Kotlin 지원이 추가되었습니다.",
+          "detail": "JetBrains와 BlueJ 팀의 공동 작업으로 BlueJ에 Kotlin 지원이 공식 추가되었습니다. BlueJ는 객체 지향 프로그래밍 입문 교육에 가장 널리 사용되는 개발 환경 중 하나로, 이번 통합으로 교육자들은 기존 Java 대신 Kotlin으로 OOP 개념을 가르칠 수 있게 되었습니다.\n이번 협업은 Kotlin을 교육 생태계로 확장하려는 JetBrains의 전략적 행보이며, 미래 개발자들이 Kotlin을 첫 번째 언어로 접하는 기회가 늘어날 것으로 기대됩니다. BlueJ의 간결한 UI와 시각적 객체 검사 기능은 Kotlin 입문자에게도 동일하게 제공됩니다."
+        },
+        {
+          "category": "Java",
+          "title": "BoxLang 1.14.0 : Navigate Anything: JSONPath Comes to BoxLang's DataNavigator",
+          "link": "https://foojay.io/today/boxlang-1-14-0-navigate-anything-jsonpath-comes-to-boxlangs-datanavigator/",
+          "summary": "BoxLang 1.14.0에서 JSONPath 지원이 DataNavigator에 추가되어 깊이 중첩된 JSON 데이터를 간결한 경로 표현식으로 탐색할 수 있게 되었습니다.",
+          "detail": "BoxLang 1.14.0 릴리스에서 DataNavigator에 JSONPath 지원이 추가되었습니다. JSONPath는 XML의 XPath와 유사하게 JSON 구조 내부를 경로 표현식으로 탐색하는 쿼리 언어로, 깊이 중첩된 API 응답이나 복잡한 설정 파일을 다룰 때 특히 유용합니다.\n기존에는 여러 단계로 중첩된 JSON 키에 접근하려면 반복적인 중첩 접근 코드가 필요했지만, DataNavigator와 JSONPath 조합으로 간결한 경로 표현식 하나로 처리할 수 있습니다. null 값이 포함된 배열 내부의 특정 키 접근 등 까다로운 시나리오도 안전하게 처리 가능합니다."
+        },
+        {
+          "category": "AI",
+          "title": "The latest AI news we announced in June 2026",
+          "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+          "summary": "Google이 2026년 6월 한 달간 발표한 AI 관련 주요 소식과 제품 업데이트를 정리한 공식 월간 뉴스레터입니다.",
+          "detail": "Google의 공식 AI 블로그에서 2026년 6월에 발표한 모든 AI 관련 업데이트를 한 곳에 정리했습니다. Pixel Drop 업데이트를 포함해 Google DeepMind, Gemini 모델, Google AI Studio, Google 검색, 교육 분야 AI 적용 등 다양한 제품군의 소식이 포함되어 있습니다.\n뉴욕시 교육자·산업 리더들을 대상으로 한 Google AI 서밋도 6월의 주요 이벤트 중 하나였습니다. Google은 매월 이 형식으로 AI 발표 사항을 종합해 제공하며, AI 동향을 한 번에 파악하고 싶은 개발자와 실무자에게 유용한 참고 자료입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Presentation: Fine Tuning the Enterprise: Reinforcement Learning in Practice",
+          "link": "https://www.infoq.com/presentations/rft-openai-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "OpenAI의 Agent RFT 플랫폼을 활용한 기업용 강화학습 미세조정(RFT) 기법의 실전 적용 사례를 다루는 InfoQ 발표입니다.",
+          "detail": "이 InfoQ 발표에서는 OpenAI의 Agent RFT(강화 미세조정, Reinforcement Fine-Tuning) 플랫폼을 기업 환경에 적용한 실제 사례를 다룹니다. Agent RFT는 실시간 도구 상호작용과 커스텀 보상 신호를 통해 추론 모델을 미세조정하는 플랫폼입니다.\n발표자들은 복잡한 신용 할당(credit assignment) 문제를 강화학습으로 해결하는 방법과 기업 환경에서의 실제 적용 시 마주치는 도전 과제를 설명합니다. 특히 도구 호출이 포함된 멀티스텝 추론 태스크에서 강화학습이 어떻게 모델 성능을 향상시키는지, 그리고 어떤 유형의 기업 워크플로우에 RFT가 적합한지를 구체적으로 논의합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Open Source AI Gap Map",
+          "link": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+          "summary": "오픈소스 AI 생태계의 공백 영역을 시각화한 'Open Source AI Gap Map'이 공개되었습니다. AI의 공공 옵션 구축을 목표로 하는 비영리단체 Current AI가 주도합니다.",
+          "detail": "Simon Willison이 소개한 'Open Source AI Gap Map'은 오픈소스 AI 생태계에서 아직 채워지지 않은 영역을 시각적으로 정리한 지도입니다. 이 프로젝트는 2025년 2월 파리 AI 행동 정상회담(AI Action Summit)에서 설립된 비영리단체 'Current AI'가 주도하며, 이미 4억 달러(00m)의 자본을 확보한 상태입니다.\nCurrent AI는 AI의 공공 옵션(public option)을 구축하는 것을 목표로 하는 글로벌 파트너십으로, 이 갭 맵은 개인·연구자·기업이 오픈소스 AI 분야에서 기여할 수 있는 기회 영역을 식별하는 데 도움을 주기 위해 만들어졌습니다. 어떤 레이어와 컴포넌트가 아직 독점 솔루션에만 의존하는지를 파악하는 데 유용합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Autoresearch: The feedback loop behind self-improving agents",
+          "link": "https://www.latent.space/p/autoresearch-introspection",
+          "summary": "AI 에이전트의 자기 개선 루프인 '오토리서치(Autoresearch)' 개념과 소프트웨어 팩토리에서의 인간-AI 협업을 다루는 Latent Space 인터뷰입니다.",
+          "detail": "Latent Space의 이 글에서는 Introspection의 공동창업자 Roland Gavrilescu가 오토리서치(Autoresearch) 개념을 소개합니다. 오토리서치는 AI 에이전트가 자체적인 피드백 루프를 통해 지속적으로 성능을 개선하는 메커니즘입니다.\n핵심 개념인 에이전트 '레시피(recipe)'는 복잡한 작업을 수행하기 위한 구조화된 워크플로우를 의미하며, 에이전트가 이 레시피를 실행·평가·개선하는 사이클을 반복합니다. 자동화가 심화되더라도 인간이 소프트웨어 팩토리의 중심에 남아야 하는 이유와, 자기 개선 루프가 실제 프로덕션 환경에서 어떻게 작동하는지를 구체적으로 설명합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Mini book: Agentic AI Architecture",
+          "link": "https://www.infoq.com/minibooks/agentic-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "InfoQ가 에이전틱 AI 아키텍처를 새로운 소프트웨어 아키텍처 유형으로 정립하려는 업계 전문가들의 글을 모은 무료 전자책(eMag)을 공개했습니다.",
+          "detail": "InfoQ에서 발간한 이 무료 미니북(eMag)은 에이전틱 AI 아키텍처를 독립적인 소프트웨어 아키텍처 유형으로 정립하고자 하는 시도입니다. 업계 전문가들이 집필한 여러 편의 글을 통해 에이전틱 시스템 설계의 핵심 원칙, 패턴, 구성 요소를 체계적으로 다룹니다.\n에이전틱 AI 아키텍처는 향후 수년간 소프트웨어 산업을 지배할 새로운 패러다임으로 주목받고 있습니다. 이 미니북은 에이전트 루프 설계, 도구 통합, 오케스트레이션 패턴, 신뢰성 및 관찰 가능성 등 실무자가 에이전틱 시스템을 설계하고 구현하는 데 필요한 실질적인 가이드를 제공합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform",
+          "link": "https://www.infoq.com/news/2026/07/instacart-multi-tenant-marketing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Instacart가 리테일러별 개별 구현을 공유 실행 엔진으로 대체하는 설정 기반 멀티테넌트 아키텍처(Storefront Pro)로 개인화 마케팅 시스템을 재설계했습니다.",
+          "detail": "Instacart는 개인화 마케팅 시스템을 설정 기반 멀티테넌트 아키텍처인 Storefront Pro로 전면 재설계했습니다. 기존 시스템은 각 리테일러마다 별도의 코드 구현이 필요했지만, 새 아키텍처에서는 공유 실행 엔진 위에서 설정(configuration)만으로 리테일러별 동작을 정의합니다.\n이를 통해 신규 리테일러 온보딩 시간이 단축되고, 공통 인프라 개선 사항이 모든 리테일러에게 즉시 적용됩니다. 멀티테넌트 구조를 통해 운영 비용을 절감하면서도 리테일러별 마케팅 개인화 수준을 유지하는 것이 핵심 아키텍처 목표이며, 이 사례는 SaaS 플랫폼의 설정 주도 아키텍처 패턴을 실제 대규모 환경에 적용한 좋은 예입니다."
+        },
+        {
+          "category": "Python",
+          "title": "Quiz: Python Interfaces: Object-Oriented Design Principles",
+          "link": "https://realpython.com/quizzes/interfaces-object-oriented-design-principles/",
+          "summary": "Python에서 인터페이스를 구현하는 방법—비공식 인터페이스·덕 타이핑부터 abc 모듈을 활용한 공식 인터페이스까지—를 점검하는 Real Python 퀴즈입니다.",
+          "detail": "Real Python의 이 퀴즈는 Python의 객체 지향 설계 원칙 중 인터페이스 구현 방식을 체계적으로 다룹니다. 비공식 인터페이스(informal interface)와 덕 타이핑(duck typing)의 개념부터 시작해, Python의 추상 기반 클래스(abc) 모듈을 사용한 공식 인터페이스 구현까지 포괄합니다.\nJava 등 정적 타입 언어와 달리 Python은 명시적 interface 키워드가 없어 덕 타이핑과 ABC를 통해 유사한 패턴을 구현합니다. 퀴즈를 통해 Protocol과 ABC의 차이, 추상 메서드 선언, 다형성 구현 방법 등 Python 인터페이스 설계의 핵심을 점검할 수 있습니다."
+        },
+        {
+          "category": "Python",
+          "title": "Quiz: Natural Language Processing With Python's NLTK Package",
+          "link": "https://realpython.com/quizzes/nltk-nlp-python/",
+          "summary": "Python의 NLTK 패키지를 활용한 자연어 처리(NLP) 기초 개념과 실습 내용을 확인하는 Real Python 퀴즈입니다.",
+          "detail": "Real Python의 이 퀴즈는 Python의 대표적인 NLP 라이브러리인 NLTK(Natural Language Toolkit)를 활용한 자연어 처리 기초를 다룹니다. 토큰화(tokenization), 어간 추출(stemming), 품사 태깅(POS tagging), 청킹(chunking) 등 NLP의 기본 파이프라인 구성 요소를 포함합니다.\nNLTK는 Python NLP 생태계에서 오랫동안 표준적인 교육 도구로 사용되어 왔으며, 이 퀴즈는 NLTK의 주요 기능과 API 사용법을 실습 기반으로 점검하는 데 유용합니다. 최근 LLM 기반 NLP가 주목받는 시대에도 전통적인 NLP 기초를 이해하는 것은 여전히 중요합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-03",
       "summary": "2026년 7월 3일 다이제스트는 HotSpot JVM의 SIMD 벡터 최적화와 MongoDB 기반 AI 시스템 구축 등 Java 분야 실전 기술을 소개하고, Spring AI·Spring Framework의 최신 방향성을 전합니다. AI 분야에서는 LLM이 집단사고 현상에 갇혀 있다는 흥미로운 연구와 기업 운영 혁신에서의 AI 통합 전략이 주목받습니다. 에이전트 분야에서는 Claude Code의 스테가노그래픽 마커 삽입 논란이 AI 투명성 담론을 촉발했으며, '스킬 엔지니어링'이라는 새로운 에이전트 설계 철학도 부각됩니다.",
       "highlights": [
