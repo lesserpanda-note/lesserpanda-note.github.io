@@ -13,6 +13,7 @@ import json
 import re
 import socket
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -68,6 +69,7 @@ USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"
 RETENTION_DAYS = 90  # accumulate items, dropping anything older than this
 SUMMARY_CHARS = 220
 REQUEST_TIMEOUT = 20  # seconds per feed
+MAX_WORKERS = 8  # feeds are network-bound; fetch them concurrently, not one by one
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "news.json"
@@ -151,8 +153,13 @@ def main() -> int:
     ]
     # Accumulate: start from what we already have, fold in fresh entries by link.
     merged: dict[str, dict] = {it["link"]: it for it in existing if it.get("link")}
-    for url, source, category in FEEDS:
-        for item in fetch_feed(url, source, category):
+    # Feeds are independent and network-bound, so fetch them concurrently — one slow
+    # feed no longer serializes the whole run. map() yields results in FEEDS order,
+    # so the first-seen dedup below still keeps the earliest-listed source for a link.
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        batches = list(pool.map(lambda feed: fetch_feed(*feed), FEEDS))
+    for items in batches:
+        for item in items:
             merged.setdefault(item["link"], item)  # keep the first-seen copy
 
     now_ts = int(datetime.now(timezone.utc).timestamp())
