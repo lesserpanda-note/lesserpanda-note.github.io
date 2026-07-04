@@ -5,10 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>lesserpanda-note · Java · Spring · AI</title>
   <meta name="description" content="Java, Spring Boot, AI 최신 뉴스와 매일 다이제스트" />
+  <link rel="canonical" href="https://lesserpanda-note.github.io/" />
+  <meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+
+  <!-- Open Graph / Twitter — link previews on Slack, KakaoTalk, X, etc. -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="lesserpanda-note" />
+  <meta property="og:locale" content="ko_KR" />
+  <meta property="og:url" content="https://lesserpanda-note.github.io/" />
+  <meta property="og:title" content="lesserpanda-note · Java · Spring · AI" />
+  <meta property="og:description" content="Java, Spring Boot, AI 최신 뉴스와 매일 다이제스트" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="lesserpanda-note · Java · Spring · AI" />
+  <meta name="twitter:description" content="Java, Spring Boot, AI 최신 뉴스와 매일 다이제스트" />
+
   <link rel="stylesheet" href="assets/style.css" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐼</text></svg>" />
 </head>
 <body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
   <header class="site-header">
     <h1>🐼 lesserpanda-note</h1>
     <p class="tagline">Java · Spring Boot · AI — 최신 뉴스 &amp; 데일리 다이제스트</p>
@@ -17,14 +33,14 @@
 
   <div class="layout">
     <aside class="sidebar">
-      <nav>
+      <nav aria-label="섹션 이동">
         <a href="#digest">🧭 오늘 다이제스트</a>
         <a href="#news">📰 뉴스</a>
         <a href="#archive">🗂️ 아카이브</a>
       </nav>
     </aside>
 
-    <main>
+    <main id="main">
       <section id="digest" class="panel">
         <h2>🧭 오늘 다이제스트</h2>
         <p class="digest-updated" id="last-run"></p>
