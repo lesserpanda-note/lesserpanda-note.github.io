@@ -1,76 +1,76 @@
 {
-  "updated": "2026-07-03T23:25:45Z",
-  "summary": "오늘의 다이제스트는 JVM 생태계의 고성능 Parquet 처리 라이브러리 Hardwood 1.0 출시와 Maven 공급망 보안 위협 사례를 조명합니다. AI 분야에서는 Apple의 Private Cloud Compute가 Google Cloud로 처음 확장되고 Cerebras·Hugging Face의 Gemma 4 기반 실시간 음성 AI 파이프라인이 공개되었습니다. 에이전트·아키텍처 분야에서는 알리바바의 Claude Code 사내 금지 결정, Vercel의 에이전트 인프라 전략, Cloudflare 통합 데이터 플랫폼과 Oracle 무료 티어 축소, 그리고 Python 3.15 JIT 컴파일러 업그레이드가 주목받고 있습니다.",
+  "updated": "2026-07-04T00:15:26Z",
+  "summary": "오늘은 Kotlin의 BlueJ 교육용 IDE 지원 추가, 기업 환경에서의 강화학습 미세조정(RFT) 실전 사례, 오픈소스 AI 생태계의 공백을 분석한 Gap Map, 에이전틱 AI 아키텍처의 체계화를 시도하는 InfoQ 미니북, 그리고 Instacart의 멀티테넌트 마케팅 플랫폼 설계 사례 등 다양한 분야의 핵심 소식을 다룹니다. AI 에이전트의 자기 개선 루프(오토리서치)와 Python의 인터페이스·NLP 기초 학습 자료도 함께 소개됩니다. 총 5개 카테고리에서 10건의 중요 콘텐츠를 선별했습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies",
-      "link": "https://www.infoq.com/news/2026/07/hardwood-java-parquet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "Java 21+ 환경에서 의존성 없이 Apache Parquet 파일을 초고속으로 읽을 수 있는 라이브러리 Hardwood 1.0이 출시되었습니다. Apple M3 Max에서 초당 580M 레코드 처리를 달성했습니다.",
-      "detail": "Hardwood 1.0.0.Final이 2026년 6월 25일 출시되었습니다. Java 21+을 지원하며 Apache 2.0 라이선스로 Maven Central에서 제공됩니다.\n필수 서드파티 라이브러리가 없으며 Snappy/Zstd/LZ4/Brotli 압축 코덱은 선택적 단일 JAR 의존성으로 추가됩니다.\n멀티스레드 페이지 디코딩을 기본 지원하며, Apple M3 Max(16코어)에서 칼럼 리더가 초당 580M 레코드·8,243 MB/sec를 달성했습니다.\nVARIANT, 지리공간(GEOMETRY/GEOGRAPHY), Float16, DECIMAL, UUID, INT96 타임스탬프 등 최신 Parquet 타입을 완전 지원합니다.\nCLI 도구(인터랙티브 탐색용 dive TUI), S3 백엔드, Avro 바인딩, 로컬·원격 파일에 대한 프레디케이트 푸시다운 기능을 제공합니다."
+      "title": "Kotlin Comes to BlueJ",
+      "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-comes-to-bluej/",
+      "summary": "JetBrains와 BlueJ 팀의 협력으로 초보자용 OOP 교육 환경인 BlueJ에 Kotlin 지원이 추가되었습니다.",
+      "detail": "JetBrains와 BlueJ 팀의 공동 작업으로 BlueJ에 Kotlin 지원이 공식 추가되었습니다. BlueJ는 객체 지향 프로그래밍 입문 교육에 가장 널리 사용되는 개발 환경 중 하나로, 이번 통합으로 교육자들은 기존 Java 대신 Kotlin으로 OOP 개념을 가르칠 수 있게 되었습니다.\n이번 협업은 Kotlin을 교육 생태계로 확장하려는 JetBrains의 전략적 행보이며, 미래 개발자들이 Kotlin을 첫 번째 언어로 접하는 기회가 늘어날 것으로 기대됩니다. BlueJ의 간결한 UI와 시각적 객체 검사 기능은 Kotlin 입문자에게도 동일하게 제공됩니다."
     },
     {
       "category": "Java",
-      "title": "This Dependency Update Looked Exactly Like an Account Takeover",
-      "link": "https://foojay.io/today/this-dependency-update-looked-exactly-like-an-account-takeover/",
-      "summary": "Maven 의존성 스캐너가 javax.activation 버전 업데이트에서 GPG 서명 누락을 발견한 실제 사례를 분석합니다. 공급망 공격과 유사한 패턴이었습니다.",
-      "detail": "개발자가 자체 의존성 스캐너로 오래된 Spring 프로젝트를 분석하던 중 javax.activation의 버전 업데이트(1.1-rev-1 → 1.1.1)가 의심스럽게 감지되었습니다.\n이전 릴리스에는 GPG 서명이 있었지만 해당 업데이트에는 서명이 없었습니다. 이는 공급망 공격(supply chain attack)의 전형적인 경고 신호입니다.\nMaven 생태계에서 GPG 서명 검증은 의존성 무결성을 확인하는 핵심 보안 지표입니다.\n계정 탈취로 오인될 수 있는 이 사례는 의존성 관리 시 서명 검증의 중요성을 다시 한번 상기시켜 줍니다."
+      "title": "BoxLang 1.14.0 : Navigate Anything: JSONPath Comes to BoxLang's DataNavigator",
+      "link": "https://foojay.io/today/boxlang-1-14-0-navigate-anything-jsonpath-comes-to-boxlangs-datanavigator/",
+      "summary": "BoxLang 1.14.0에서 JSONPath 지원이 DataNavigator에 추가되어 깊이 중첩된 JSON 데이터를 간결한 경로 표현식으로 탐색할 수 있게 되었습니다.",
+      "detail": "BoxLang 1.14.0 릴리스에서 DataNavigator에 JSONPath 지원이 추가되었습니다. JSONPath는 XML의 XPath와 유사하게 JSON 구조 내부를 경로 표현식으로 탐색하는 쿼리 언어로, 깊이 중첩된 API 응답이나 복잡한 설정 파일을 다룰 때 특히 유용합니다.\n기존에는 여러 단계로 중첩된 JSON 키에 접근하려면 반복적인 중첩 접근 코드가 필요했지만, DataNavigator와 JSONPath 조합으로 간결한 경로 표현식 하나로 처리할 수 있습니다. null 값이 포함된 배열 내부의 특정 키 접근 등 까다로운 시나리오도 안전하게 처리 가능합니다."
     },
     {
       "category": "AI",
-      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
-      "link": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Apple이 WWDC 2026에서 Private Cloud Compute(PCC)를 최초로 제3자 클라우드인 Google Cloud로 확장한다고 발표했습니다. AWS·Azure는 포함되지 않은 첫 파트너십입니다.",
-      "detail": "Apple은 WWDC 2026에서 PCC를 Google Cloud로 확장한다고 발표했습니다. AWS·Azure는 포함되지 않았으며, 2026년 1월에 체결된 다년 계약의 일환입니다.\n하드웨어 신뢰 스택은 NVIDIA 블랙웰 GPU의 컨피덴셜 컴퓨팅, CPU의 Intel TDX, Google의 Titan 칩(신뢰 루트)을 3겹으로 결합합니다.\nApple은 Google Cloud PCC 하드웨어의 암호학적으로 검증 가능한 추가 전용 원장을 유지하며, 물리적 구성요소를 Google과 독립적으로 추적합니다.\n사용자 데이터를 유출할 수 있는 모든 구성요소의 소프트웨어 증명은 서로 다른 벤더의 최소 두 독립 신뢰 루트에 기반합니다.\n2026년 여름 프리뷰로 단계적 배포가 진행됩니다."
+      "title": "The latest AI news we announced in June 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "summary": "Google이 2026년 6월 한 달간 발표한 AI 관련 주요 소식과 제품 업데이트를 정리한 공식 월간 뉴스레터입니다.",
+      "detail": "Google의 공식 AI 블로그에서 2026년 6월에 발표한 모든 AI 관련 업데이트를 한 곳에 정리했습니다. Pixel Drop 업데이트를 포함해 Google DeepMind, Gemini 모델, Google AI Studio, Google 검색, 교육 분야 AI 적용 등 다양한 제품군의 소식이 포함되어 있습니다.\n뉴욕시 교육자·산업 리더들을 대상으로 한 Google AI 서밋도 6월의 주요 이벤트 중 하나였습니다. Google은 매월 이 형식으로 AI 발표 사항을 종합해 제공하며, AI 동향을 한 번에 파악하고 싶은 개발자와 실무자에게 유용한 참고 자료입니다."
     },
     {
       "category": "AI",
-      "title": "Hugging Face and Cerebras bring Gemma 4 to real-time voice AI",
-      "link": "https://huggingface.co/blog/cerebras-gemma4-voice-ai",
-      "summary": "Hugging Face와 Cerebras가 Gemma 4 27B 기반 실시간 음성-음성 파이프라인을 오픈소스로 공개했습니다. GPU 대비 약 35배 빠른 추론 속도를 제공합니다.",
-      "detail": "개방형 cascaded speech-to-speech 파이프라인은 세 모델을 연결합니다: NVIDIA Parakeet(STT) → Cerebras 기반 Gemma 4 27B(추론) → Alibaba Qwen3-TTS(음성 출력).\nGemma 4 27B는 Cerebras 하드웨어에서 초당 약 1,851 토큰을 처리하며, 이는 일반 GPU 대비 약 35배 빠릅니다.\n파이프라인은 완전 모듈식·오픈소스로 각 단계를 독립적으로 교체 가능하며, 어시스턴트·로봇공학·연구 등 다양한 용도에 적용됩니다.\n이미 9,000개 이상의 Reachy Mini 로봇 프로덕션 환경에 적용 중입니다.\nCerebras 컴퓨팅은 미국 동·서부 데이터센터에서 제공(EU는 2026년 3분기 예정)되며, HF 토큰 기반 가격은 오디오 분당 $0.0002입니다."
+      "title": "Presentation: Fine Tuning the Enterprise: Reinforcement Learning in Practice",
+      "link": "https://www.infoq.com/presentations/rft-openai-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "OpenAI의 Agent RFT 플랫폼을 활용한 기업용 강화학습 미세조정(RFT) 기법의 실전 적용 사례를 다루는 InfoQ 발표입니다.",
+      "detail": "이 InfoQ 발표에서는 OpenAI의 Agent RFT(강화 미세조정, Reinforcement Fine-Tuning) 플랫폼을 기업 환경에 적용한 실제 사례를 다룹니다. Agent RFT는 실시간 도구 상호작용과 커스텀 보상 신호를 통해 추론 모델을 미세조정하는 플랫폼입니다.\n발표자들은 복잡한 신용 할당(credit assignment) 문제를 강화학습으로 해결하는 방법과 기업 환경에서의 실제 적용 시 마주치는 도전 과제를 설명합니다. 특히 도구 호출이 포함된 멀티스텝 추론 태스크에서 강화학습이 어떻게 모델 성능을 향상시키는지, 그리고 어떤 유형의 기업 워크플로우에 RFT가 적합한지를 구체적으로 논의합니다."
     },
     {
       "category": "Agents",
-      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
-      "link": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
-      "summary": "알리바바가 보안 위험을 이유로 7월 10일부터 직원들의 Claude Code 사용을 금지하고 자체 개발 Qoder로 전환을 지시합니다.",
-      "detail": "알리바바는 2026년 7월 10일부터 직원의 Claude Code 사용을 금지하고 자체 AI 코딩 어시스턴트 Qoder 전환을 지시했습니다.\n의혹은 6월 30일 Reddit 게시물에서 시작되었습니다. 사용자 'LegitMichel777'이 Claude Code를 역공학 분석해 숨겨진 네트워크 감지 메커니즘을 발견했다고 주장했습니다.\nClaude Code 버전 2.1.91부터 사용자의 프록시 설정과 시스템 시간대를 조용히 확인해 특정 네트워크 환경을 감지한다는 주장입니다.\nAnthropic 직원은 이 기능이 3월에 무단 계정 재판매 및 모델 증류 방지 실험으로 추가되었으며 향후 업데이트에서 제거될 것이라고 인정했습니다.\n독립 사이버보안 기관의 검증은 아직 없으며, Anthropic이 알리바바 Qwen 연구소가 25,000개 허위 계정으로 Claude를 증류했다고 고발한 것과 맞물려 주목됩니다."
+      "title": "Open Source AI Gap Map",
+      "link": "https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/#atom-everything",
+      "summary": "오픈소스 AI 생태계의 공백 영역을 시각화한 'Open Source AI Gap Map'이 공개되었습니다. AI의 공공 옵션 구축을 목표로 하는 비영리단체 Current AI가 주도합니다.",
+      "detail": "Simon Willison이 소개한 'Open Source AI Gap Map'은 오픈소스 AI 생태계에서 아직 채워지지 않은 영역을 시각적으로 정리한 지도입니다. 이 프로젝트는 2025년 2월 파리 AI 행동 정상회담(AI Action Summit)에서 설립된 비영리단체 'Current AI'가 주도하며, 이미 4억 달러(00m)의 자본을 확보한 상태입니다.\nCurrent AI는 AI의 공공 옵션(public option)을 구축하는 것을 목표로 하는 글로벌 파트너십으로, 이 갭 맵은 개인·연구자·기업이 오픈소스 AI 분야에서 기여할 수 있는 기회 영역을 식별하는 데 도움을 주기 위해 만들어졌습니다. 어떤 레이어와 컴포넌트가 아직 독점 솔루션에만 의존하는지를 파악하는 데 유용합니다."
     },
     {
       "category": "Agents",
-      "title": "Vercel’s Andrew Qu on why agents are a new kind of software",
-      "link": "https://www.latent.space/p/vercel-agents-new-software",
-      "summary": "Vercel이 AI 에이전트 배포 급증을 통해 ARR을 1억 달러에서 3억 4천만 달러 런레이트로 성장시킨 전략과 새로운 에이전트 인프라를 소개합니다.",
-      "detail": "Vercel의 ARR은 2024년 초 1억 달러에서 2026년 2월 3억 4천만 달러 런레이트로 성장했으며, AI 에이전트 배포가 크게 기여했습니다.\nAI 에이전트 배포 비율은 2025년 6월 전체 배포의 5%에서 2026년 2월 21% 이상으로 증가했으며, 이 중 약 70%가 Claude Code에서 발생했습니다.\nShip 2026 컨퍼런스에서 Vercel은 AI SDK·AI Gateway·Sandbox·Workflow SDK·Chat SDK를 통합한 'Agent Stack'을 발표했습니다.\nVercel Connect는 장기 자격증명을 특정 인간 또는 에이전트에 범위를 지정한 단기 토큰으로 대체하며 완전한 감사 추적을 제공합니다.\nVercel Labs는 AI 에이전트를 위해 JSON을 출력하도록 설계된 저수준 언어 'Zero'와 에이전트 구축 오픈소스 프레임워크 'eve'를 공개했습니다."
+      "title": "Autoresearch: The feedback loop behind self-improving agents",
+      "link": "https://www.latent.space/p/autoresearch-introspection",
+      "summary": "AI 에이전트의 자기 개선 루프인 '오토리서치(Autoresearch)' 개념과 소프트웨어 팩토리에서의 인간-AI 협업을 다루는 Latent Space 인터뷰입니다.",
+      "detail": "Latent Space의 이 글에서는 Introspection의 공동창업자 Roland Gavrilescu가 오토리서치(Autoresearch) 개념을 소개합니다. 오토리서치는 AI 에이전트가 자체적인 피드백 루프를 통해 지속적으로 성능을 개선하는 메커니즘입니다.\n핵심 개념인 에이전트 '레시피(recipe)'는 복잡한 작업을 수행하기 위한 구조화된 워크플로우를 의미하며, 에이전트가 이 레시피를 실행·평가·개선하는 사이클을 반복합니다. 자동화가 심화되더라도 인간이 소프트웨어 팩토리의 중심에 남아야 하는 이유와, 자기 개선 루프가 실제 프로덕션 환경에서 어떻게 작동하는지를 구체적으로 설명합니다."
     },
     {
       "category": "Architecture",
-      "title": "Cloudflare Details Unified Data Platform Where Billing Workloads Account for 53% of Queries",
-      "link": "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Cloudflare가 내부 통합 데이터 플랫폼 'Town Lake'와 AI 분석 에이전트 'Skipper'를 공개했습니다. 청구 워크로드가 전체 쿼리의 53%를 차지합니다.",
-      "detail": "Cloudflare는 운영·청구·보안·비즈니스 데이터에 대한 통합 접근을 제공하는 내부 데이터 플랫폼 Town Lake와 자연어 쿼리를 지원하는 AI 분석 에이전트 Skipper를 공개했습니다.\nTown Lake는 Apache Trino를 쿼리 엔진으로 사용하는 데이터 레이크하우스 아키텍처로, 단일 SQL 쿼리로 Postgres·ClickHouse·R2 Iceberg 테이블을 조인할 수 있습니다.\n플랫폼은 Cloudflare Pipelines(SQL 변환 내장), R2 Data Catalog(Iceberg 메타데이터·컴팩션), R2 SQL(분산 서버리스 페타바이트급 쿼리 엔진)을 결합합니다.\n2026년 초 인수한 스트림 처리 엔진 Arroyo가 Pipelines를 지원하며, 향후 증분식 구체화 뷰와 스테이트풀 집계를 지원할 계획입니다.\n약 9만 1천건의 청구 쿼리를 처리했으며, 청구 워크로드가 전체 쿼리의 53%를 차지합니다."
+      "title": "Mini book: Agentic AI Architecture",
+      "link": "https://www.infoq.com/minibooks/agentic-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "InfoQ가 에이전틱 AI 아키텍처를 새로운 소프트웨어 아키텍처 유형으로 정립하려는 업계 전문가들의 글을 모은 무료 전자책(eMag)을 공개했습니다.",
+      "detail": "InfoQ에서 발간한 이 무료 미니북(eMag)은 에이전틱 AI 아키텍처를 독립적인 소프트웨어 아키텍처 유형으로 정립하고자 하는 시도입니다. 업계 전문가들이 집필한 여러 편의 글을 통해 에이전틱 시스템 설계의 핵심 원칙, 패턴, 구성 요소를 체계적으로 다룹니다.\n에이전틱 AI 아키텍처는 향후 수년간 소프트웨어 산업을 지배할 새로운 패러다임으로 주목받고 있습니다. 이 미니북은 에이전트 루프 설계, 도구 통합, 오케스트레이션 패턴, 신뢰성 및 관찰 가능성 등 실무자가 에이전틱 시스템을 설계하고 구현하는 데 필요한 실질적인 가이드를 제공합니다."
     },
     {
       "category": "Architecture",
-      "title": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announcement",
-      "link": "https://www.infoq.com/news/2026/07/oracle-cloud-free-tier-limits/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Oracle이 공지 없이 Always Free Ampere A1 컴퓨팅 할당량을 절반으로 줄였습니다. 4 OCPU/24GB RAM에서 2 OCPU/12GB RAM으로 감소했습니다.",
-      "detail": "Oracle은 2026년 6월 15일부터 Always Free Ampere A1 컴퓨팅 할당량을 기존 4 OCPU·24GB RAM에서 2 OCPU·12GB RAM으로 절반 삭감했습니다.\n공개 블로그, 영향 계정 이메일, 명확한 문서 업데이트 등 어떠한 공지도 없이 변경이 적용되었습니다.\n문서에는 '모든 테넌시'에 적용된다고 명시되어 있으나, Oracle 지원 에이전트는 6월 22일 이메일에서 종량제(PAYG) 계정은 영향을 받지 않는다고 답변하는 등 상충된 정보를 제공했습니다.\nARM 기반 무료 인프라에 의존하던 개발자·소규모 프로젝트는 대안 플랫폼 전환이나 유료 플랜 업그레이드를 고려해야 할 상황입니다.\n커뮤니티에서는 변경 자체보다 투명성 없는 불투명한 방식이 가장 큰 문제라는 반응이 주를 이루고 있습니다."
+      "title": "Instacart Scales Personalized Marketing via Configuration-Driven Multi-Tenant Platform",
+      "link": "https://www.infoq.com/news/2026/07/instacart-multi-tenant-marketing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Instacart가 리테일러별 개별 구현을 공유 실행 엔진으로 대체하는 설정 기반 멀티테넌트 아키텍처(Storefront Pro)로 개인화 마케팅 시스템을 재설계했습니다.",
+      "detail": "Instacart는 개인화 마케팅 시스템을 설정 기반 멀티테넌트 아키텍처인 Storefront Pro로 전면 재설계했습니다. 기존 시스템은 각 리테일러마다 별도의 코드 구현이 필요했지만, 새 아키텍처에서는 공유 실행 엔진 위에서 설정(configuration)만으로 리테일러별 동작을 정의합니다.\n이를 통해 신규 리테일러 온보딩 시간이 단축되고, 공통 인프라 개선 사항이 모든 리테일러에게 즉시 적용됩니다. 멀티테넌트 구조를 통해 운영 비용을 절감하면서도 리테일러별 마케팅 개인화 수준을 유지하는 것이 핵심 아키텍처 목표이며, 이 사례는 SaaS 플랫폼의 설정 주도 아키텍처 패턴을 실제 대규모 환경에 적용한 좋은 예입니다."
     },
     {
       "category": "Python",
-      "title": "Python 3.15 Preview: Upgraded JIT Compiler",
-      "link": "https://realpython.com/python315-jit-compiler/",
-      "summary": "Python 3.15의 업그레이드된 JIT 컴파일러를 미리 살펴봅니다. 새로운 트레이싱 프론트엔드, 레지스터 할당, 인플레이스 수치 연산으로 x86-64에서 8~9% 성능 향상을 달성했습니다.",
-      "detail": "Python 3.15는 3.13부터 실험적으로 도입된 copy-and-patch JIT를 대폭 업그레이드했습니다. 빌드 시 LLVM 21을 사용하며, PEP 774로 런타임 LLVM 의존성이 제거됩니다.\n새로운 트레이싱 프론트엔드가 실제 바이트코드 실행 경로를 기록해 옵티마이저가 더 넓은 범위의 연산을 최적화할 수 있게 합니다.\n기본 레지스터 할당(register allocation) 최적화로 스택 푸시/팝 연산을 줄이고 CPU 레지스터 활용도를 높였습니다.\n참조 카운트 제거(reference-count elimination)와 인플레이스 정수·실수 연산 최적화로 수치 계산 집약적 코드 성능이 향상됩니다.\npyperformance 벤치마크 기준 x86-64 Linux에서 8~9%, AArch64 macOS에서 12~13% 성능 향상이 측정됩니다."
+      "title": "Quiz: Python Interfaces: Object-Oriented Design Principles",
+      "link": "https://realpython.com/quizzes/interfaces-object-oriented-design-principles/",
+      "summary": "Python에서 인터페이스를 구현하는 방법—비공식 인터페이스·덕 타이핑부터 abc 모듈을 활용한 공식 인터페이스까지—를 점검하는 Real Python 퀴즈입니다.",
+      "detail": "Real Python의 이 퀴즈는 Python의 객체 지향 설계 원칙 중 인터페이스 구현 방식을 체계적으로 다룹니다. 비공식 인터페이스(informal interface)와 덕 타이핑(duck typing)의 개념부터 시작해, Python의 추상 기반 클래스(abc) 모듈을 사용한 공식 인터페이스 구현까지 포괄합니다.\nJava 등 정적 타입 언어와 달리 Python은 명시적 interface 키워드가 없어 덕 타이핑과 ABC를 통해 유사한 패턴을 구현합니다. 퀴즈를 통해 Protocol과 ABC의 차이, 추상 메서드 선언, 다형성 구현 방법 등 Python 인터페이스 설계의 핵심을 점검할 수 있습니다."
     },
     {
       "category": "Python",
-      "title": "The Real Python Podcast – Episode #301: Running Python Locally in a Sandbox",
-      "link": "https://realpython.com/podcasts/rpp/301/",
-      "summary": "Python 애플리케이션을 로컬에서 안전하게 실행하기 위한 WASM 및 MicroPython 기반 샌드박스 환경 구축 방법을 다룹니다.",
-      "detail": "악성 코드 실행, 코드 손상, 개인 데이터 유출 위험 없이 Python 애플리케이션을 로컬에서 안전하게 실행하는 방법을 탐구합니다.\nWebAssembly(WASM)와 MicroPython을 결합한 샌드박스 환경 구축이 주요 해결책으로 소개됩니다.\nMicroPython의 경량성과 WASM의 격리 모델을 결합해 실용적인 로컬 샌드박스를 구현하는 방법이 핵심 주제입니다.\n서드파티 Python 코드를 신뢰하지 않고 실행해야 하는 기업 환경이나 개발 도구 제작자에게 유용한 접근법입니다.\n에피소드는 샌드박스 설계 시 보안·성능·호환성 간의 트레이드오프도 함께 다룹니다."
+      "title": "Quiz: Natural Language Processing With Python's NLTK Package",
+      "link": "https://realpython.com/quizzes/nltk-nlp-python/",
+      "summary": "Python의 NLTK 패키지를 활용한 자연어 처리(NLP) 기초 개념과 실습 내용을 확인하는 Real Python 퀴즈입니다.",
+      "detail": "Real Python의 이 퀴즈는 Python의 대표적인 NLP 라이브러리인 NLTK(Natural Language Toolkit)를 활용한 자연어 처리 기초를 다룹니다. 토큰화(tokenization), 어간 추출(stemming), 품사 태깅(POS tagging), 청킹(chunking) 등 NLP의 기본 파이프라인 구성 요소를 포함합니다.\nNLTK는 Python NLP 생태계에서 오랫동안 표준적인 교육 도구로 사용되어 왔으며, 이 퀴즈는 NLTK의 주요 기능과 API 사용법을 실습 기반으로 점검하는 데 유용합니다. 최근 LLM 기반 NLP가 주목받는 시대에도 전통적인 NLP 기초를 이해하는 것은 여전히 중요합니다."
     }
   ]
 }
