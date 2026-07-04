@@ -66,7 +66,7 @@ FEEDS = [
 ]
 
 USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"
-RETENTION_DAYS = 90  # accumulate items, dropping anything older than this
+RETENTION_DAYS = 30  # keep ~1 month; items older than this are dropped on each run
 SUMMARY_CHARS = 220
 REQUEST_TIMEOUT = 20  # seconds per feed
 MAX_WORKERS = 8  # feeds are network-bound; fetch them concurrently, not one by one
