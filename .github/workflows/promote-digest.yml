@@ -28,6 +28,9 @@ concurrency:
 
 jobs:
   promote:
+    # Skip the branch-deletion push this workflow makes at the end (see last step),
+    # so cleanup never re-triggers the workflow into a loop.
+    if: ${{ !github.event.deleted }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -92,3 +95,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run deploy.yml --ref main
+
+      # The routine makes a fresh branch per run; once we've taken what we need it
+      # is obsolete. Delete it so these branches don't pile up. Runs only on success,
+      # so a failed promote keeps the branch around for debugging.
+      - name: Delete the processed routine branch
+        run: git push origin --delete "$GITHUB_REF_NAME"
