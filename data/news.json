@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-04T03:07:50.879531+00:00",
-  "count": 320,
+  "updated": "2026-07-04T04:34:27.618781+00:00",
+  "count": 333,
   "items": [
     {
       "title": "v2.5.0 (2026-07-03)",
@@ -37,6 +37,24 @@
       "summary": "One of the most interesting tips I got from the Fireside Chat I hosted with Cat Wu and Thariq Shihipar from the Claude Code team at AIE on Wednesday was to let Fable (and to a certain extent Opus) use their own judgemen…",
       "ts": 1783104666,
       "published": "2026-07-03T18:51:06+00:00"
+    },
+    {
+      "title": "dotnet-1.13.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.13.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "What's Changed .NET: Harden dotnet-format workflow shell handling by @SergeyMenshykh in #6796 .NET: Add AgentSkillsSourceContext to AgentSkillsSource.GetSkillsAsync by @SergeyMenshykh in #6797 .NET: Foundry Hosting per-…",
+      "ts": 1783100552,
+      "published": "2026-07-03T17:42:32+00:00"
+    },
+    {
+      "title": "Show HN: Mcpsnoop – Wireshark for MCP (transparent proxy and live TUI)",
+      "link": "https://github.com/kerlenton/mcpsnoop",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/kerlenton/mcpsnoop Comments URL: https://news.ycombinator.com/item?id=48777144 Points: 52 # Comments: 14",
+      "ts": 1783097630,
+      "published": "2026-07-03T16:53:50+00:00"
     },
     {
       "title": "June 2026 newsletter",
@@ -165,6 +183,15 @@
       "published": "2026-07-03T05:11:43+00:00"
     },
     {
+      "title": "The Safari MCP server for web developers",
+      "link": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/ Comments URL: https://news.ycombinator.com/item?id=48769639 Points: 260 # Comments: 72",
+      "ts": 1783042631,
+      "published": "2026-07-03T01:37:11+00:00"
+    },
+    {
       "title": "v2.4.0 (2026-07-02)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.4.0",
       "source": "Pydantic AI",
@@ -219,6 +246,15 @@
       "published": "2026-07-02T18:17:16+00:00"
     },
     {
+      "title": "dotnet-1.12.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.12.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "What's Changed .NET: Fix typo in XML doc comment for workflow outputs param by @marcominerva in #6326 .NET: Add BackgroundTaskCompletionLoopEvaluator for harness background agents by @westey-m in #6736 .NET: Foundry hos…",
+      "ts": 1783012705,
+      "published": "2026-07-02T17:18:25+00:00"
+    },
+    {
       "title": "Understand to participate",
       "link": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
       "source": "Simon Willison",
@@ -235,6 +271,15 @@
       "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphas…",
       "ts": 1783006628,
       "published": "2026-07-02T15:37:08+00:00"
+    },
+    {
+      "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
+      "link": "https://manufact.com",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Hi HN, we are Pietro and Luigi, cofounders of Manufact ( https://manufact.com ), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: https://github.c…",
+      "ts": 1783005080,
+      "published": "2026-07-02T15:11:20+00:00"
     },
     {
       "title": "Skill engineering and the case against one-shot AI design",
@@ -604,6 +649,15 @@
       "summary": "Article URL: https://www.vincentschmalbach.com/claude-code-quietly-looks-5x-more-expensive/ Comments URL: https://news.ycombinator.com/item?id=48739168 Points: 56 # Comments: 8",
       "ts": 1782853436,
       "published": "2026-06-30T21:03:56+00:00"
+    },
+    {
+      "title": "python-1.10.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.10.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.10.0] - 2026-06-30 Added agent-framework-core : Explicitly emit available_resources and available_scripts in skill content ( #6694 ) agent-framework-core : Autolabelling MCP servers based on hints and GitHub MCP serv…",
+      "ts": 1782852726,
+      "published": "2026-06-30T20:52:06+00:00"
     },
     {
       "title": "Grok's Traffic Is Mostly Driven by Adult Content",
@@ -1317,6 +1371,15 @@
       "published": "2026-06-25T23:17:52+00:00"
     },
     {
+      "title": "dotnet-1.11.1",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.11.1",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "Changes: d9ec5ea update package version ( #6752 ) e3b64fd .NET: [BREAKING] Make all AgentSkillsProvider tools require approval by default ( #6729 ) [ #6727 ] 3a5bbb5 .NET: Add DeclarativeWorkflowJsonOptions for AOT-safe…",
+      "ts": 1782428949,
+      "published": "2026-06-25T23:09:09+00:00"
+    },
+    {
       "title": "AI and Liability",
       "link": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
       "source": "Simon Willison",
@@ -1594,6 +1657,15 @@
       "summary": "Release: datasette 1.0a35 I'll write more about this one soon, but it's a big release. Three highlights from the release notes: New \"Create table\" interface in the database actions menu, backed by the /<database>/-/crea…",
       "ts": 1782250477,
       "published": "2026-06-23T21:34:37+00:00"
+    },
+    {
+      "title": "dotnet-1.11.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.11.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "Changes: 1109d0b Get date suffix up to date with release date ( #6690 ) e030fb5 .NET: Replace the symlink index entries with regular file entries ( #6687 ) e6ebba1 Add ADR 0029: Skills over MCP implementation design opt…",
+      "ts": 1782249506,
+      "published": "2026-06-23T21:18:26+00:00"
     },
     {
       "title": "1.14.8a3",
@@ -2010,6 +2082,15 @@
       "published": "2026-06-18T23:42:26+00:00"
     },
     {
+      "title": "Zero-Touch OAuth for MCP",
+      "link": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/ Comments URL: https://news.ycombinator.com/item?id=48592163 Points: 278 # Comments: 103",
+      "ts": 1781819650,
+      "published": "2026-06-18T21:54:10+00:00"
+    },
+    {
       "title": "langgraph==1.2.6",
       "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.6",
       "source": "LangGraph",
@@ -2062,6 +2143,15 @@
       "summary": "Sort Python dictionaries by keys or values using sorted(), lambdas, and itemgetter. Take this quiz to check your understanding.",
       "ts": 1781784000,
       "published": "2026-06-18T12:00:00+00:00"
+    },
+    {
+      "title": "python-1.9.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.9.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.9.0] - 2026-06-18 Added agent-framework-core : Add AgentLoopMiddleware for re-running agents in a loop ( #6174 ) agent-framework-core : Integrate tool approval into the harness agent ( #6522 ) agent-framework-core :…",
+      "ts": 1781773413,
+      "published": "2026-06-18T09:03:33+00:00"
     },
     {
       "title": "[AINews] Midjourney Medical: scan your organs like you step on a scale",
@@ -2613,6 +2703,15 @@
       "published": "2026-06-10T18:20:32+00:00"
     },
     {
+      "title": "dotnet-1.10.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.10.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "Changes: dd29f9a .NET: Hosted Agent Sample - Toolbox with various Auth ( #5777 ) ( #6018 ) a5f4e00 .NET: Fix .NET Copilot integration tests for SDK v1.0.0 ( #6424 ) 3c0c12c .NET: Update release version for 2026-06-10 re…",
+      "ts": 1781114525,
+      "published": "2026-06-10T18:02:05+00:00"
+    },
+    {
       "title": "Apache Burr: Build reliable AI agents and applications",
       "link": "https://burr.apache.org/",
       "source": "Hacker News",
@@ -2719,6 +2818,15 @@
       "summary": "A pair of bug fix releases await your upgrade.",
       "ts": 1781049600,
       "published": "2026-06-10T00:00:00+00:00"
+    },
+    {
+      "title": "python-1.8.1",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.8.1",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.8.1] - 2026-06-09 Added agent-framework-core : Add MCP client OTel spans per GenAI semantic conventions ( #6349 ) agent-framework-core : Add MCP long-running task support ( #6319 ) Changed agent-framework-claude : Bu…",
+      "ts": 1781041145,
+      "published": "2026-06-09T21:39:05+00:00"
     },
     {
       "title": "Accessing Multiple AI Models With the OpenRouter API",
@@ -2863,6 +2971,15 @@
       "summary": "Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider range of hardware.",
       "ts": 1780617600,
       "published": "2026-06-05T00:00:00+00:00"
+    },
+    {
+      "title": "python-1.8.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.8.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.8.0] - 2026-06-04 Added agent-framework-core : Add MCP-based skills discovery ( McpSkillsSource ) ( #6169 ) agent-framework-core : Progressive tool exposure via FunctionInvocationContext ( #6233 ) agent-framework-cor…",
+      "ts": 1780616433,
+      "published": "2026-06-04T23:40:33+00:00"
     },
     {
       "title": "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
