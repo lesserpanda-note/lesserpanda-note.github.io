@@ -60,7 +60,7 @@ function digestList(highlights) {
   return ul;
 }
 
-function renderDigest(data) {
+function renderDigest(data, status) {
   const section = document.getElementById("digest");
   const body = document.getElementById("digest-body");
   const highlights = (data && data.highlights) || [];
@@ -70,10 +70,17 @@ function renderDigest(data) {
   }
   if (data.summary) body.appendChild(el("p", "digest-summary", escapeHTML(data.summary)));
   if (highlights.length) body.appendChild(digestList(highlights));
-  if (data.updated) {
-    document.getElementById("digest-updated").textContent =
-      "갱신: " + fmtDate(data.updated, KST_FULL) + " KST";
+  // "갱신" = when the digest last changed; "확인" = when the routine last ran
+  // (from data/digest-status.json). On days with nothing new the digest stays
+  // put but 확인 still advances, so a stale 확인 means the routine stopped.
+  const parts = [];
+  if (data.updated) parts.push("갱신: " + fmtDate(data.updated, KST_FULL) + " KST");
+  if (status && status.checked_at) {
+    let chk = "확인: " + fmtDate(status.checked_at, KST_FULL) + " KST";
+    if (status.result === "no-new-items") chk += " (새 항목 없음)";
+    parts.push(chk);
   }
+  if (parts.length) document.getElementById("digest-updated").textContent = parts.join(" · ");
 }
 
 function renderArchive(data) {
@@ -138,12 +145,13 @@ function renderNews(data) {
 }
 
 (async function init() {
-  const [news, digest, archive] = await Promise.all([
+  const [news, digest, archive, status] = await Promise.all([
     loadJSON("data/news.json"),
     loadJSON("data/digest.json"),
     loadJSON("data/archive.json"),
+    loadJSON("data/digest-status.json"),
   ]);
-  renderDigest(digest);
+  renderDigest(digest, status);
   renderNews(news);
   renderArchive(archive);
   if (news && news.updated) {
