@@ -106,6 +106,21 @@ function renderArchive(data) {
   }
 }
 
+const NEWS_PAGE = 24; // cards per "더 보기" step — rendering all 480+ at once is wasteful
+
+function newsCard(it) {
+  const card = el("article", "card");
+  card.innerHTML =
+    `<div class="card-top">` +
+    `<span class="badge cat-${escapeHTML(it.category)}">${escapeHTML(it.category)}</span>` +
+    `<span class="src">${escapeHTML(it.source)}</span>` +
+    `<time>${fmtDate(it.published)}</time>` +
+    `</div>` +
+    `<h3><a href="${escapeHTML(it.link)}" target="_blank" rel="noopener">${escapeHTML(it.title)}</a></h3>` +
+    (it.summary ? `<p>${escapeHTML(it.summary)}</p>` : "");
+  return card;
+}
+
 function renderNews(data) {
   const list = document.getElementById("news-list");
   const filterBar = document.getElementById("filters");
@@ -115,36 +130,41 @@ function renderNews(data) {
     return;
   }
 
+  const counts = { "전체": items.length };
+  for (const i of items) counts[i.category] = (counts[i.category] || 0) + 1;
   const categories = ["전체", ...new Set(items.map((i) => i.category))];
   let active = "전체";
+  let limit = NEWS_PAGE;
 
   function draw() {
-    list.innerHTML = "";
     const shown = items.filter((i) => active === "전체" || i.category === active);
-    for (const it of shown) {
-      const card = el("article", "card");
-      card.innerHTML =
-        `<div class="card-top">` +
-        `<span class="badge cat-${escapeHTML(it.category)}">${escapeHTML(it.category)}</span>` +
-        `<span class="src">${escapeHTML(it.source)}</span>` +
-        `<time>${fmtDate(it.published)}</time>` +
-        `</div>` +
-        `<h3><a href="${escapeHTML(it.link)}" target="_blank" rel="noopener">${escapeHTML(it.title)}</a></h3>` +
-        (it.summary ? `<p>${escapeHTML(it.summary)}</p>` : "");
-      list.appendChild(card);
+    list.innerHTML = "";
+    for (const it of shown.slice(0, limit)) list.appendChild(newsCard(it));
+    if (shown.length > limit) {
+      const more = el("button", "more", `더 보기 <span class="more-n">+${shown.length - limit}</span>`);
+      more.addEventListener("click", () => { limit += NEWS_PAGE; draw(); });
+      list.appendChild(more);
     }
   }
 
   filterBar.innerHTML = "";
-  for (const c of categories) {
-    const btn = el("button", "filter" + (c === active ? " on" : ""), escapeHTML(c));
+  const buttons = categories.map((c) => {
+    const btn = el("button", "filter" + (c === active ? " on" : ""));
+    btn.setAttribute("aria-pressed", String(c === active));
+    btn.innerHTML = `${escapeHTML(c)} <span class="filter-n">${counts[c]}</span>`;
     btn.addEventListener("click", () => {
       active = c;
-      [...filterBar.children].forEach((x) => x.classList.toggle("on", x.textContent === c));
+      limit = NEWS_PAGE;
+      buttons.forEach((b, i) => {
+        const on = categories[i] === c;
+        b.classList.toggle("on", on);
+        b.setAttribute("aria-pressed", String(on));
+      });
       draw();
     });
     filterBar.appendChild(btn);
-  }
+    return btn;
+  });
   draw();
 }
 
