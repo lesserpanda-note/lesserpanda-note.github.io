@@ -26,7 +26,7 @@ scripts/fetch_news.py                 RSS → data/news.json (피드 병렬 수�
 - **Java** (Kotlin·JVM 포함): Inside Java, InfoQ Java, Foojay, Kotlin
 - **Spring**: Spring Blog (Spring Boot 릴리스 포함)
 - **AI** (모델·LLM 트렌드 포함): Google AI, Hugging Face, MIT Tech Review, InfoQ AI/ML, Anthropic, Ollama, Ahead of AI, Import AI, Hacker News (Grok / Llama)
-- **Agents**: Simon Willison, Latent Space, Eugene Yan, Hacker News (Claude Code / 에이전트 / 컨텍스트 엔지니어링 / MCP), 프레임워크 릴리스 (MCP servers · LangGraph · Pydantic AI · OpenAI Agents SDK · LlamaIndex · CrewAI · AutoGen)
+- **Agents**: Simon Willison, Latent Space, Eugene Yan, Hacker News (Claude Code / 에이전트 / 컨텍스트 엔지니어링 / MCP), 프레임워크 릴리스 (MCP servers · LangGraph · Pydantic AI · OpenAI Agents SDK · LlamaIndex · CrewAI · Agent Framework)
 - **Architecture**: InfoQ Architecture, Martin Fowler
 - **Python**: Real Python, Python Insider, Python Speed
 

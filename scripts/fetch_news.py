@@ -47,7 +47,7 @@ FEEDS = [
     ("https://hnrss.org/newest?q=Claude+Code&points=20", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=AI+agents&points=50", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=context+engineering&points=10", "Hacker News", "Agents"),
-    ("https://hnrss.org/newest?q=Model+Context+Protocol&points=5", "Hacker News", "Agents"),
+    ("https://hnrss.org/newest?q=MCP&points=20", "Hacker News", "Agents"),
     # Agent frameworks — GitHub release feeds (version tracking; big releases surface).
     ("https://github.com/modelcontextprotocol/servers/releases.atom", "MCP servers", "Agents"),
     ("https://github.com/langchain-ai/langgraph/releases.atom", "LangGraph", "Agents"),
@@ -55,7 +55,7 @@ FEEDS = [
     ("https://github.com/openai/openai-agents-python/releases.atom", "OpenAI Agents SDK", "Agents"),
     ("https://github.com/run-llama/llama_index/releases.atom", "LlamaIndex", "Agents"),
     ("https://github.com/crewAIInc/crewAI/releases.atom", "CrewAI", "Agents"),
-    ("https://github.com/microsoft/autogen/releases.atom", "AutoGen", "Agents"),
+    ("https://github.com/microsoft/agent-framework/releases.atom", "Agent Framework", "Agents"),
     # Architecture — system design & engineering practice (fits Java/Spring backend)
     ("https://feed.infoq.com/architecture-design/", "InfoQ Architecture", "Architecture"),
     ("https://martinfowler.com/feed.atom", "Martin Fowler", "Architecture"),
