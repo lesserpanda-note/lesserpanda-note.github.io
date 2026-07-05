@@ -1,7 +1,61 @@
 {
-  "updated": "2026-07-05T00:13:50.510679+00:00",
-  "count": 332,
+  "updated": "2026-07-05T09:47:40.712172+00:00",
+  "count": 342,
   "items": [
+    {
+      "title": "AWS Introduces Amazon S3 Annotations",
+      "link": "https://www.infoq.com/news/2026/07/aws-s3-annotations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AWS recently announced Amazon S3 Annotations, a feature that lets teams attach rich, searchable context such as summaries, classifications, compliance data, or AI-generated insights directly to S3 objects. Annotations c…",
+      "ts": 1783241700,
+      "published": "2026-07-05T08:55:00+00:00"
+    },
+    {
+      "title": "AWS Introduces Amazon S3 Annotations",
+      "link": "https://www.infoq.com/news/2026/07/aws-s3-annotations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS recently announced Amazon S3 Annotations, a feature that lets teams attach rich, searchable context such as summaries, classifications, compliance data, or AI-generated insights directly to S3 objects. Annotations c…",
+      "ts": 1783241700,
+      "published": "2026-07-05T08:55:00+00:00"
+    },
+    {
+      "title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It",
+      "link": "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Claude models reached GA on Microsoft Foundry with Azure-native billing and governance, but no European data zone exists. Anthropic's own documentation confirms data residency guarantees apply to Bedrock and Vertex AI b…",
+      "ts": 1783239180,
+      "published": "2026-07-05T08:13:00+00:00"
+    },
+    {
+      "title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It",
+      "link": "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Claude models reached GA on Microsoft Foundry with Azure-native billing and governance, but no European data zone exists. Anthropic's own documentation confirms data residency guarantees apply to Bedrock and Vertex AI b…",
+      "ts": 1783239180,
+      "published": "2026-07-05T08:13:00+00:00"
+    },
+    {
+      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
+      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I…",
+      "ts": 1783213248,
+      "published": "2026-07-05T01:00:48+00:00"
+    },
+    {
+      "title": "sqlite-utils 4.0rc2",
+      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: sqlite-utils 4.0rc2 See sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25) .",
+      "ts": 1783212458,
+      "published": "2026-07-05T00:47:38+00:00"
+    },
     {
       "title": "Building a World Map with only 500 bytes",
       "link": "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything",
@@ -422,6 +476,15 @@
       "source": "Inside Java",
       "category": "Java",
       "summary": "Explore the latest work on the HotSpot JVM, with a focus on auto-vectorization and the Vector API.",
+      "ts": 1782950400,
+      "published": "2026-07-02T00:00:00+00:00"
+    },
+    {
+      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
+      "link": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
       "ts": 1782950400,
       "published": "2026-07-02T00:00:00+00:00"
     },
@@ -935,6 +998,33 @@
       "source": "Inside Java",
       "category": "Java",
       "summary": "ZGC is a concurrent garbage collector, meaning all heavy GC tasks are performed alongside application threads, resulting in sub-millisecond pause times. This talk will explore a brief history of ZGC, its internal mechan…",
+      "ts": 1782777600,
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    {
+      "title": "Claude Science, an AI workbench for scientists, is now available",
+      "link": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Claude Science, an AI workbench for scientists, is now available",
+      "ts": 1782777600,
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    {
+      "title": "Introducing Claude Sonnet 5",
+      "link": "https://www.anthropic.com/news/claude-sonnet-5",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Introducing Claude Sonnet 5",
+      "ts": 1782777600,
+      "published": "2026-06-30T00:00:00+00:00"
+    },
+    {
+      "title": "Redeploying Fable 5",
+      "link": "https://www.anthropic.com/news/redeploying-fable-5",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Redeploying Fable 5",
       "ts": 1782777600,
       "published": "2026-06-30T00:00:00+00:00"
     },
