@@ -1,76 +1,13 @@
 {
-  "updated": "2026-07-04T00:38:26Z",
-  "summary": "오늘의 다이제스트는 JVM 고성능 Parquet 리더 Hardwood 1.0 출시, Apple Private Cloud Compute의 Google Cloud 첫 확장, Alibaba의 Claude Code 금지 사태 등 다양한 분야의 주요 소식을 담고 있습니다. 에이전트 영역에서는 Vercel의 오픈소스 에이전트 프레임워크 eve가 6개월 만에 배포 트리거의 50%를 차지하며 새로운 소프트웨어 패러다임을 열었고, Cloudflare의 통합 데이터 플랫폼 Town Lake와 Oracle의 무공지 무료 티어 삭감이 아키텍처 측면에서 주목받았습니다. Python 3.15는 JIT 컴파일러 대폭 업그레이드로 최대 11~12% 성능 향상을 달성하며 Python 생태계에 새로운 전환점을 제시하고 있습니다.",
+  "updated": "2026-07-05T00:10:36Z",
+  "summary": "오늘은 유럽 데이터 주권 논의를 반영한 아키텍처 분야의 소식이 주목받습니다. Cycle이 EU 고객을 위한 별도 컨트롤 플레인을 출시해 GDPR 등 규제 준수와 운영 격리를 강화했습니다. 클라우드 인프라 업계에서 지역별 데이터 경계 지원이 점차 필수 요건으로 자리잡고 있는 흐름을 보여줍니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies",
-      "link": "https://www.infoq.com/news/2026/07/hardwood-java-parquet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "Gunnar Morling이 개발한 JVM용 Apache Parquet 고속 리더 Hardwood가 1.0 정식 버전을 출시했습니다. 제로 의존성 설계로 parquet-java와 완전 호환되며 멀티스레드 기반으로 높은 성능을 제공합니다.",
-      "detail": "Hardwood는 JVM에서 Apache Parquet 파일을 고속으로 읽기 위한 경량 라이브러리로, 버전 1.0.0.Final이 2026년 6월 25일 Maven Central에 정식 출시되었습니다. Confluent의 Java Champion Gunnar Morling이 제작했으며 핵심 특징은 세 가지입니다. (1) 제로 의존성: 압축 알고리즘 외 서드파티 라이브러리 불필요. (2) parquet-java와 완전 호환. (3) 멀티스레드 기반 고성능. 두 가지 API를 제공합니다: RowReader API(행 단위 접근)와 ColumnReader API(분석 워크로드 최적 컬럼 배치 접근). 성능 벤치마크에서 NYC 택시 데이터(약 9.2GB, 6.5억 행) 기준 ColumnReader API로 평균 1.12초, 초당 5.8억 레코드, 8,243MB/sec를 달성했습니다. 런타임 요구사항은 Java 21+이고 빌드는 Java 25+이며 라이선스는 Apache 2.0입니다. 쓰기 지원은 1.0 이후 버전에서 계획되어 있으며 GitHub에서 319 스타를 획득했습니다."
-    },
-    {
-      "category": "Java",
-      "title": "This Dependency Update Looked Exactly Like an Account Takeover",
-      "link": "https://foojay.io/today/this-dependency-update-looked-exactly-like-an-account-takeover/",
-      "summary": "오래된 Spring 프로젝트의 의존성 업데이트 PR이 보안 스캐너에 의해 계정 탈취 시도처럼 감지된 사례를 분석합니다. 공급망 보안에서 의존성 변경이 얼마나 위험하게 보일 수 있는지를 다룹니다.",
-      "detail": "개발자가 오래된 Spring 프로젝트에 보안 스캐너를 실행했을 때 javax.activation 의존성이 의심스럽게 플래그됐습니다. 버전 1.1-rev-1에서 1.1.1로의 업그레이드인데, 이전 릴리스들이 의존성 분석 관점에서 계정 탈취 시도와 유사한 패턴을 보였습니다. 이 글은 자동화된 의존성 업데이트 PR이 악성 패키지 삽입과 동일한 시그니처를 가질 수 있다는 점에서, 공급망 보안 검토 시 단순 버전 번호 변경이라도 상세 검토가 필요함을 강조합니다. 실제 계정 탈취가 아니었지만 스캐너가 이를 구분하지 못했다는 점에서, 의존성 검증 프로세스와 자동화 도구의 한계 및 개선 방향에 대한 실용적인 인사이트를 제공합니다."
-    },
-    {
-      "category": "AI",
-      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
-      "link": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Apple이 Private Cloud Compute(PCC)를 처음으로 자체 데이터센터 밖인 Google Cloud에서 운영하기 시작했습니다. Intel TDX, NVIDIA Blackwell GPU, Google Titan 칩을 활용한 다중 하드웨어 신뢰 기반으로 Zero Operator Access를 보장합니다.",
-      "detail": "WWDC 2026에서 Apple은 Private Cloud Compute 인프라를 Google Cloud로 확장한다고 발표했습니다. PCC는 온디바이스 모델로 처리하기 어려운 복잡한 AI 추론, 에이전트 도구 사용, 차세대 Apple Foundation Model 워크로드를 담당합니다. 보안 아키텍처는 세 겹의 하드웨어 신뢰로 구성됩니다: (1) Google Titan 칩 기반 하드웨어 루트 오브 트러스트, (2) Intel TDX CPU 격리, (3) NVIDIA Blackwell GPU 기밀 컴퓨팅. Zero Operator Access(ZOA) 보장으로 Google을 포함한 어떤 운영자도 추론 데이터에 접근할 수 없으며, 이를 암호화로 검증 가능합니다. Apple은 Google Cloud 하드웨어 모든 물리 구성 요소를 추적하는 암호학적으로 검증 가능한 추가 전용 원장을 유지해 공급망 공격을 방지합니다. 투명성을 위한 오픈소스 호스트 스택도 공개되었으며 2026년 여름 프리뷰 기간 동안 단계적으로 확대 적용됩니다."
-    },
-    {
-      "category": "AI",
-      "title": "Presentation: Graph RAG: Building Smarter Retrieval Workflows with Knowledge Graphs",
-      "link": "https://www.infoq.com/presentations/graph-rag-llm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "InfoQ 발표에서 Cassie Shum이 GraphRAG의 아키텍처 진화와 지식 그래프를 활용한 스마트한 검색 워크플로우 구축 방법을 설명합니다. 전통적 벡터 RAG의 한계를 지식 그래프로 극복하는 방법을 다룹니다.",
-      "detail": "Cassie Shum의 발표는 GraphRAG가 전통적인 벡터 기반 RAG의 한계를 어떻게 극복하는지를 설명합니다. 전통적 RAG는 시맨틱 유사성 기반 검색만 수행하지만, GraphRAG는 지식 그래프를 통해 엔티티 간의 관계와 맥락을 보존합니다. 그래프 구조는 다중 홉 추론(multi-hop reasoning), 관계 추출, 복잡한 질의에 대한 정확한 응답을 가능하게 합니다. 핵심 인사이트는 데이터 기반의 중요성으로, 고품질 AI 워크플로우를 위해서는 단순 문서 임베딩 이상의 구조화된 지식 표현이 필요하다는 점입니다. 발표는 엔터프라이즈 AI 시스템에서 지식 그래프와 LLM을 결합하는 실용적인 아키텍처 패턴을 다루며, 검색 정확도와 응답 품질 향상을 위한 구체적인 구현 전략을 제시합니다."
-    },
-    {
-      "category": "Agents",
-      "title": "Alibaba to ban Claude Code in workplace over alleged backdoor risks, source says",
-      "link": "https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/",
-      "summary": "알리바바가 2026년 7월 10일부터 직원들의 Anthropic Claude Code 사용을 금지하고 자체 AI 코딩 플랫폼 Qoder로 전환하도록 지시했습니다. 숨겨진 중국 사용자 추적 메커니즘 의혹과 모델 증류 공격 논란이 배경입니다.",
-      "detail": "로이터 보도에 따르면 알리바바는 Claude Code 내 백도어 의혹을 이유로 7월 10일부터 사내 사용을 금지했습니다. 2026년 6월 30일 레딧 사용자가 Claude Code v2.1.91(4월 2일 출시)부터 Asia/Shanghai·Urumqi 타임존 감지, 알리바바·바이두·바이트댄스 등 147개 중국 기술 사이트 URL 매칭 기능이 추가됐다고 주장했습니다. 스테가노그래피 방식으로 날짜 형식 변경과 유니코드 문자 치환을 통해 서버로 신호를 전송했다는 것입니다. Anthropic 직원은 무단 계정 재판매 및 모델 증류 방지 실험이었다며 향후 제거 예정이라고 해명했습니다. 한편 Anthropic은 6월 10일 미국 상원의원 서한에서 Qwen AI 랩 연관 운영자들이 2만 5천 개 사기 계정으로 2,880만 건 이상의 상호작용을 통해 Claude 모델 지식을 체계적으로 추출했다는 '적대적 증류' 공격을 주장했습니다."
-    },
-    {
-      "category": "Agents",
-      "title": "Vercel's Andrew Qu on why agents are a new kind of software",
-      "link": "https://www.latent.space/p/vercel-agents-new-software",
-      "summary": "Vercel의 Chief of Software Andrew Qu가 오픈소스 에이전트 프레임워크 eve를 소개하고, 에이전트가 단순 도구가 아닌 새로운 종류의 소프트웨어임을 역설합니다. 6개월 만에 Vercel 배포의 50%가 AI 에이전트에 의해 트리거됩니다.",
-      "detail": "Vercel은 2026년 6월 17일 Ship London 컨퍼런스에서 오픈소스 에이전트 프레임워크 eve를 출시했습니다(Apache-2.0). 'Next.js for agents'로 불리는 eve는 파일시스템 우선 설계를 채택합니다. 각 에이전트는 instructions.md, tools/, skills/, channels/, schedules/ 디렉토리로 구성되며 Vercel Functions의 영구 서비스로 컴파일됩니다. Skills는 관련 시점에만 로드되는 마크다운 플레이북이고, Sandboxes는 에이전트 생성 코드를 애플리케이션 런타임과 격리합니다. 핵심 지표: Vercel 인프라에서 코딩 에이전트가 트리거한 배포 비율이 6개월 전 3% 미만에서 현재 50% 이상으로 급증했고, AI Gateway 토큰 처리량은 월 2조에서 20조 토큰으로 10배 증가했습니다. Slack, GitHub, Snowflake, Salesforce, Notion, Linear 통합을 지원하며 GitHub에서 3,200+ 스타를 받았습니다."
-    },
-    {
       "category": "Architecture",
-      "title": "Cloudflare Details Unified Data Platform Where Billing Workloads Account for 53% of Queries",
-      "link": "https://www.infoq.com/news/2026/07/cloudflare-unified-data-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Cloudflare가 초당 10억 이상 이벤트를 처리하는 통합 데이터 플랫폼 Town Lake와 자연어 AI 분석 에이전트 Skipper의 아키텍처를 공개했습니다. 청구 관련 워크로드가 전체 쿼리의 53%를 차지합니다.",
-      "detail": "Cloudflare는 수십 개의 분산 데이터베이스와 스트림을 단일 SQL 인터페이스로 통합하기 위해 Town Lake를 구축했습니다. 아키텍처는 데이터 레이크하우스 패턴을 따르며, 쿼리 엔진으로 Apache Trino를 사용해 Postgres·ClickHouse·Iceberg 테이블을 단일 쿼리로 조인합니다. 스토리지는 R2 Data Catalog(관리형 Apache Iceberg), 메타데이터 카탈로그는 DataHub를 활용합니다. 보안 측면에서 기본 접근 불가 정책(restrict by default)을 채택하고, PII 탐지 스캐너 Skimmer가 Workers AI로 모든 컬럼의 민감 정보를 자동 분류합니다. AI 에이전트 Skipper는 Trino 위에서 동작하며 자연어 질문 → DataHub 테이블 검색 → SQL 생성 → 결과 반환의 닫힌 루프 추론을 수행합니다. 최근 측정 기간 동안 324명이 91,760건의 쿼리를 실행했으며 청구 관련 쿼리가 53%를 차지했습니다. Cloudflare 자체 제품(R2, Workers, D1 등)이 이 플랫폼의 구성 요소로 사용됩니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announcement",
-      "link": "https://www.infoq.com/news/2026/07/oracle-cloud-free-tier-limits/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Oracle이 공개 발표 없이 무료 Ampere A1 Compute 할당량을 4 OCPU/24GB RAM에서 2 OCPU/12GB RAM으로 절반 삭감했습니다. 2026년 6월 15일 적용되었으며 종량제 계정도 영향을 받을 수 있습니다.",
-      "detail": "Oracle은 Always Free Ampere A1 Compute 사용량을 2026년 6월 15일 블로그 게시물, 이메일, 공개 공지 없이 조용히 절반으로 축소했습니다. 변경 내역: OCPU 4→2개, RAM 24→12GB, 월 OCPU 시간 3,000→1,500, 월 GByte 시간 18,000→9,000. 무료 전용 계정은 한도 초과 인스턴스가 수동 리사이즈 전까지 종료됩니다. 종량제(PAYG) 계정은 기존 4 OCPU 구성이 예고 없이 과금될 위험이 있습니다. 문서에는 '모든 테넌시 적용'이라 명시되었지만 일부 사용자에게는 무료 계정에만 적용된다는 모순된 이메일이 발송되었습니다. 커뮤니티는 문서 변경 비교와 인스턴스 종료 사태를 통해 이 변경을 발견했습니다. Oracle은 공식 해명을 내놓지 않고 있어 사용자 혼란이 지속되고 있습니다."
-    },
-    {
-      "category": "Python",
-      "title": "Python 3.15 Preview: Upgraded JIT Compiler",
-      "link": "https://realpython.com/python315-jit-compiler/",
-      "summary": "Python 3.15는 새로운 트레이싱 프론트엔드, 레지스터 할당, 참조 카운트 제거를 통해 JIT 컴파일러를 대폭 업그레이드했습니다. x86-64 Linux에서 8~9%, macOS AArch64에서 11~12% 성능 향상을 달성했습니다.",
-      "detail": "Python 3.15의 JIT 컴파일러는 세 가지 주요 개선으로 성능이 크게 향상됩니다. (1) 새로운 트레이싱 프론트엔드: Ken Jin이 재작성한 듀얼 디스패치 메커니즘으로 실제 실행 경로를 기록합니다. JIT 코드 커버리지 50% 향상, Python 객체 생성·오버로드 연산·제너레이터에 대한 새로운 지원이 추가되었습니다. (2) 레지스터 할당: CPU 레지스터에서 값을 연속 연산 간 유지해 메모리 접근을 최소화합니다. 타이트한 수치 연산 루프에서 가장 큰 이점을 제공합니다. (3) 참조 카운트 제거: 안전한 경우 레퍼런스 카운트 업데이트를 건너뛰어 nbody 마이크로벤치마크에서 약 6% 향상을 달성했습니다. 성능 결과: pyperformance 기준 x86-64 Linux 8~9%, macOS AArch64 11~12% 향상. 최상의 경우 50% 향상(리처즈 벤치마크). JIT는 여전히 실험적(기본 비활성)이며 PYTHON_JIT=1 환경 변수로 활성화합니다. Python 3.15 안정 버전은 2026년 10월 출시 예정입니다."
-    },
-    {
-      "category": "Python",
-      "title": "The Real Python Podcast – Episode #301: Running Python Locally in a Sandbox",
-      "link": "https://realpython.com/podcasts/rpp/301/",
-      "summary": "Real Python 팟캐스트 301화에서 로컬에서 파이썬 애플리케이션을 안전하게 격리·실행하는 샌드박스 기법을 다룹니다. AI 에이전트 코드 실행 시대에 더욱 중요해진 파이썬 보안 실행 환경을 소개합니다.",
-      "detail": "이 에피소드는 신뢰할 수 없는 파이썬 코드를 로컬에서 실행할 때 발생할 수 있는 세 가지 위험을 다룹니다: 악성 코드 실행, 기존 코드 파손, 프라이빗 데이터 유출. AI 에이전트가 코드를 생성하고 실행하는 현대적 사용 사례에서 샌드박스의 중요성이 더욱 부각되고 있습니다. Docker 기반 격리, 가상 환경 활용, 전용 샌드박스 도구를 사용해 잠재적으로 위험한 파이썬 코드를 안전하게 테스트하고 실행하는 실용적인 방법론을 소개합니다. 에이전트 프레임워크들이 코드 실행 샌드박스(예: Vercel Sandbox, E2B, Modal)를 기본 지원하는 흐름과 맞물려, 파이썬 개발자라면 알아두어야 할 격리 전략을 체계적으로 정리합니다."
+      "title": "Cycle Introduces EU Control Plane as Sovereignty Debate Continues",
+      "link": "https://www.infoq.com/news/2026/07/cycle-eu-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Cycle이 유럽 고객을 위한 별도의 EU 기반 컨트롤 플레인을 도입했습니다. 플랫폼 관리 데이터와 원격 측정 데이터를 유럽 내에 유지할 수 있어 규정 준수성과 운영 격리가 향상됩니다.",
+      "detail": "Cycle은 유럽 고객이 플랫폼 관리 데이터와 원격 측정(telemetry) 데이터를 유럽 지역 내에 유지할 수 있도록 별도의 EU 기반 컨트롤 플레인을 도입했습니다. 이번 신규 오퍼링은 GDPR 등 유럽 데이터 보호 규제에 대한 준수성을 높이고, 운영 격리(operational isolation)를 개선하기 위해 설계되었습니다.\n해당 발표는 클라우드 및 플랫폼 인프라 업계 전반에서 EU 데이터 주권(Data Sovereignty)을 둘러싼 논의가 점점 더 중요해지는 흐름 속에서 이루어졌습니다. 유럽 규제 당국과 기업들이 데이터의 국경 밖 이전을 더욱 엄격하게 제한하면서, 공급자들이 지역 전용 컨트롤 플레인을 별도 운영하는 방식이 새로운 업계 표준으로 자리잡고 있습니다.\nCycle의 EU 컨트롤 플레인은 기존 글로벌 인프라와 논리적으로 분리되어, 유럽 내 규제 환경에서 운영되는 고객들이 데이터 거버넌스 요건을 충족하면서도 플랫폼의 모든 기능을 그대로 활용할 수 있도록 합니다."
     }
   ]
 }
