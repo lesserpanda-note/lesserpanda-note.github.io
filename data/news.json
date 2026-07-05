@@ -1,7 +1,34 @@
 {
-  "updated": "2026-07-04T21:16:20.290036+00:00",
+  "updated": "2026-07-05T00:13:50.510679+00:00",
   "count": 332,
   "items": [
+    {
+      "title": "Building a World Map with only 500 bytes",
+      "link": "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Building a World Map with only 500 bytes Iwo Kadziela (assisted by Codex) figured out a way to generate a credible ASCII world map using 445 bytes of data: The key trick is to use deflate compression, which is then wire…",
+      "ts": 1783206542,
+      "published": "2026-07-04T23:09:02+00:00"
+    },
+    {
+      "title": "Release 2026.7.4",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4 @modelcontextprotocol/server-sequential-thinking@2026.7.4 @modelcontextprotocol/serv…",
+      "ts": 1783206356,
+      "published": "2026-07-04T23:05:56+00:00"
+    },
+    {
+      "title": "Better Models: Worse Tools",
+      "link": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[]…",
+      "ts": 1783205632,
+      "published": "2026-07-04T22:53:52+00:00"
+    },
     {
       "title": "Cycle Introduces EU Control Plane as Sovereignty Debate Continues",
       "link": "https://www.infoq.com/news/2026/07/cycle-eu-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -2962,33 +2989,6 @@
       "summary": "How can you easily reduce the size of a Python Docker container? What are the exceptions you should catch in your code? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles a…",
       "ts": 1780660800,
       "published": "2026-06-05T12:00:00+00:00"
-    },
-    {
-      "title": "JEP targeted to JDK 27: 538: PEM Encodings of Cryptographic Objects (3rd Preview)",
-      "link": "https://inside.java/2026/06/05/jep538-target-jdk27/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The following JEP is targeted to JDK 27: 538: PEM Encodings of Cryptographic Objects (Third Preview)",
-      "ts": 1780617600,
-      "published": "2026-06-05T00:00:00+00:00"
-    },
-    {
-      "title": "Improved performance and model support with GGUF",
-      "link": "https://ollama.com/blog/improved-performance-and-model-support-with-gguf",
-      "source": "Ollama",
-      "category": "AI",
-      "summary": "Ollama 0.30 is now available with improved performance and GGUF model compatibility through llama.cpp. This augments Ollama's MLX engine on Apple silicon, bringing support to more models on a wider range of hardware.",
-      "ts": 1780617600,
-      "published": "2026-06-05T00:00:00+00:00"
-    },
-    {
-      "title": "python-1.8.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.8.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.8.0] - 2026-06-04 Added agent-framework-core : Add MCP-based skills discovery ( McpSkillsSource ) ( #6169 ) agent-framework-core : Progressive tool exposure via FunctionInvocationContext ( #6233 ) agent-framework-cor…",
-      "ts": 1780616433,
-      "published": "2026-06-04T23:40:33+00:00"
     }
   ]
 }
