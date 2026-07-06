@@ -17,6 +17,7 @@ permissions:
   contents: write               # commit the accumulated news.json back to the repo
   pages: write
   id-token: write
+  issues: write                 # file an issue when the deploy ultimately fails
 
 concurrency:
   group: pages
@@ -77,3 +78,30 @@ jobs:
       - name: Retry deployment
         if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v5
+
+      # Deploys dispatched by promote-digest run as the github-actions bot, so
+      # their failures notify nobody. File an issue instead — that reaches the
+      # owner via GitHub app/email. Comments on the existing open issue if one
+      # is already tracking this, so repeated failures don't pile up issues.
+      - name: File an issue so the failure is noticed
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          run_url="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          existing=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --search 'in:title "Pages deploy failed"' --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --repo "$GITHUB_REPOSITORY" \
+              --body "재시도 포함 또 실패했습니다: $run_url"
+          else
+            body=$(printf '%s\n' \
+              "build-and-deploy가 재시도까지 실패해 사이트에 최신 데이터가 반영되지 않았습니다." \
+              "" \
+              "- 실패 런: $run_url" \
+              "- 조치: Actions 탭 → build-and-deploy → 'Run workflow'로 재실행하거나, 실패 런에서 'Re-run failed jobs'를 누르세요.")
+            gh issue create --repo "$GITHUB_REPOSITORY" \
+              --title "Pages deploy failed — 수동 조치 필요" \
+              --body "$body"
+          fi
