@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T15:55:53.037723+00:00",
-  "count": 354,
+  "updated": "2026-07-06T22:42:46.658151+00:00",
+  "count": 358,
   "items": [
     {
       "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
@@ -10,6 +10,33 @@
       "summary": "",
       "ts": 1783382400,
       "published": "2026-07-07T00:00:00+00:00"
+    },
+    {
+      "title": "langgraph==1.2.8",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.8",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.7 release(langgraph): 1.2.8 ( #8292 ) fix: delta channel bug with updateState on fresh thread will force snapshot instead of stub checkpoint ( #8290 ) chore(deps): bump the minor-and-patch group in /li…",
+      "ts": 1783370430,
+      "published": "2026-07-06T20:40:30+00:00"
+    },
+    {
+      "title": "Your family’s $300 stake in OpenAI",
+      "link": "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. OpenAI CEO Sam Altman’s oft-discussed promise that Americans will share in the we…",
+      "ts": 1783360800,
+      "published": "2026-07-06T18:00:00+00:00"
+    },
+    {
+      "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+      "link": "https://github.com/iOfficeAI/OfficeCLI",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/iOfficeAI/OfficeCLI Comments URL: https://news.ycombinator.com/item?id=48807225 Points: 97 # Comments: 28",
+      "ts": 1783356464,
+      "published": "2026-07-06T16:47:44+00:00"
     },
     {
       "title": "PRX Part 4: Our Data Strategy",
@@ -116,6 +143,15 @@
       "source": "Hugging Face",
       "category": "AI",
       "summary": "",
+      "ts": 1783296000,
+      "published": "2026-07-06T00:00:00+00:00"
+    },
+    {
+      "title": "A New Home for Spring Cloud Contract: Transitioning to Stubborn.sh",
+      "link": "https://spring.io/blog/2026/07/06/spring-cloud-contract-transition-to-stubbornsh",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "For years, Spring Cloud Contract has been an important tool for developers building consumer-driven contracts and ensuring reliable microservices communication. Today, we are announcing an exciting transition for the pr…",
       "ts": 1783296000,
       "published": "2026-07-06T00:00:00+00:00"
     },
