@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T14:07:28.821121+00:00",
-  "count": 351,
+  "updated": "2026-07-06T15:55:53.037723+00:00",
+  "count": 354,
   "items": [
     {
       "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
@@ -10,6 +10,33 @@
       "summary": "",
       "ts": 1783382400,
       "published": "2026-07-07T00:00:00+00:00"
+    },
+    {
+      "title": "PRX Part 4: Our Data Strategy",
+      "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1783351855,
+      "published": "2026-07-06T15:30:55+00:00"
+    },
+    {
+      "title": "Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting",
+      "link": "https://www.infoq.com/news/2026/07/netflix-cassandra-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Netflix engineers introduced dynamic partition splitting for Cassandra to address wide partitions in time series workloads. The metadata-driven approach detects oversized partitions, splits them smaller units, and route…",
+      "ts": 1783347840,
+      "published": "2026-07-06T14:24:00+00:00"
+    },
+    {
+      "title": "Python's JIT Faces Some Challenges and Other News for July 2026",
+      "link": "https://realpython.com/python-news-july-2026/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Python 3.15 picks up two more betas, the Steering Council puts CPython's JIT on a six-month clock, and the PSF confronts its finances.",
+      "ts": 1783346400,
+      "published": "2026-07-06T14:00:00+00:00"
     },
     {
       "title": "Fragments: July 6",
