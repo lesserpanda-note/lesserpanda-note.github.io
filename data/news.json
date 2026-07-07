@@ -1,13 +1,76 @@
 {
-  "updated": "2026-07-07T00:18:08.572440+00:00",
-  "count": 361,
+  "updated": "2026-07-07T11:22:50.719413+00:00",
+  "count": 368,
   "items": [
+    {
+      "title": "The foundational elements of AI architecture that IT leaders need to scale",
+      "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leade…",
+      "ts": 1783422652,
+      "published": "2026-07-07T11:10:52+00:00"
+    },
+    {
+      "title": "Closing the Visual Gap Between the Official Lottie Webplayer and Lottie4J",
+      "link": "https://foojay.io/today/closing-the-visual-gap-between-the-official-lottie-webplayer-and-lottie4j/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A Lottie library is only as good as its output looks. If an animation renders differently in Lottie4J than it does in the official web player, that's a bug, even when no exception is thrown and the code looks correct. .…",
+      "ts": 1783412755,
+      "published": "2026-07-07T08:25:55+00:00"
+    },
+    {
+      "title": "Presentation: Designing AI Platforms for Reliability: Tools for Certainty, Agents for Discovery",
+      "link": "https://www.infoq.com/presentations/reliable-ai-platforms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Aaron Erickson explains how NVIDIA designs and tests purpose-built AI agent hierarchies. For senior developers and architects, he outlines why balancing deterministic tools with agentic discovery is crucial. Discover ho…",
+      "ts": 1783411380,
+      "published": "2026-07-07T08:03:00+00:00"
+    },
+    {
+      "title": "v0.18.0",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.18.0",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "Key Changes RealtimeAgent's default is now gpt-realtime-2.1 Since this version, the default model for RealtimeAgents is gpt-realtime-2.1: https://developers.openai.com/api/docs/models/gpt-realtime-2.1 What's Changed fea…",
+      "ts": 1783404115,
+      "published": "2026-07-07T06:01:55+00:00"
+    },
+    {
+      "title": "[AINews] The Field Guide to Fable",
+      "link": "https://www.latent.space/p/ainews-the-field-guide-to-fable",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day lets us digest the world's most significant model launch... to date.",
+      "ts": 1783399493,
+      "published": "2026-07-07T04:44:53+00:00"
+    },
+    {
+      "title": "v2.5.1 (2026-07-06)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.5.1",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes fix(bedrock): handle toolResult attachment co-location per-model via bedrock_tool_result_colocatable_content by @Hasnaathussain in #6098 fix(groq): map unified thinking setting to Groq reasoni…",
+      "ts": 1783389350,
+      "published": "2026-07-07T01:55:50+00:00"
+    },
     {
       "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
       "link": "https://huggingface.co/blog/lerobot-release-v060",
       "source": "Hugging Face",
       "category": "AI",
       "summary": "",
+      "ts": 1783382400,
+      "published": "2026-07-07T00:00:00+00:00"
+    },
+    {
+      "title": "This Week in Spring - July 7th, 2026",
+      "link": "https://spring.io/blog/2026/07/07/this-week-in-spring-july-07-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "This Week in Spring - July 7th, 2026 Hi, Spring fans! Welcome to another installment of This Week in Spring ! We've got a lot to cover and I've got a plane to catch so let's go! What's that over on Spring Initializr? It…",
       "ts": 1783382400,
       "published": "2026-07-07T00:00:00+00:00"
     },
