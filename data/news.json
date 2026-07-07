@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-06T22:42:46.658151+00:00",
-  "count": 358,
+  "updated": "2026-07-07T00:18:08.572440+00:00",
+  "count": 361,
   "items": [
     {
       "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
@@ -10,6 +10,42 @@
       "summary": "",
       "ts": 1783382400,
       "published": "2026-07-07T00:00:00+00:00"
+    },
+    {
+      "title": "tencent/Hy3",
+      "link": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Followi…",
+      "ts": 1783382255,
+      "published": "2026-07-06T23:57:35+00:00"
+    },
+    {
+      "title": "v0.17.8",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.8",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed feat: add invalid final output recovery handler by @seratch in #3736 fix: propagate realtime session iterator cancellation by @fallintoplace in #3686 fix: redact realtime validation failure logs by @falli…",
+      "ts": 1783380998,
+      "published": "2026-07-06T23:36:38+00:00"
+    },
+    {
+      "title": "Java News Roundup: Strict Field Initialization, GlassFish, GraalVM, JReleaser, RefactorFirst",
+      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jun29-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for June 29th, 2026, features news highlighting: a new JEP candidate, Strict Field Initialization; point releases of GraalVM, JReleaser, RefactorFirst and Java Operator SDK; maintenance releases…",
+      "ts": 1783380600,
+      "published": "2026-07-06T23:30:00+00:00"
+    },
+    {
+      "title": "Java News Roundup: Strict Field Initialization, GlassFish, GraalVM, JReleaser, RefactorFirst",
+      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jun29-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for June 29th, 2026, features news highlighting: a new JEP candidate, Strict Field Initialization; point releases of GraalVM, JReleaser, RefactorFirst and Java Operator SDK; maintenance releases…",
+      "ts": 1783380600,
+      "published": "2026-07-06T23:30:00+00:00"
     },
     {
       "title": "langgraph==1.2.8",
@@ -3214,15 +3250,6 @@
       "summary": "",
       "ts": 1780876800,
       "published": "2026-06-08T00:00:00+00:00"
-    },
-    {
-      "title": "JavaNext Language Features",
-      "link": "https://inside.java/2026/06/07/java-next-language-features/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The Java programming language is evolving fast. In this talk, we’ll summarize many of the recent changes that have appeared as well as look ahead to directions and features that are in development and will appear in fut…",
-      "ts": 1780790400,
-      "published": "2026-06-07T00:00:00+00:00"
     }
   ]
 }
