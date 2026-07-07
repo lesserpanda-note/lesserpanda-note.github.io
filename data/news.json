@@ -1,7 +1,61 @@
 {
-  "updated": "2026-07-07T11:22:50.719413+00:00",
-  "count": 368,
+  "updated": "2026-07-07T19:17:22.609509+00:00",
+  "count": 379,
   "items": [
+    {
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1783437606,
+      "published": "2026-07-07T15:20:06+00:00"
+    },
+    {
+      "title": "Show HN: Shellular – run Claude Code, Codex, Pi from your phone",
+      "link": "https://shellular.dev/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://shellular.dev/ Comments URL: https://news.ycombinator.com/item?id=48818124 Points: 27 # Comments: 26",
+      "ts": 1783433338,
+      "published": "2026-07-07T14:08:58+00:00"
+    },
+    {
+      "title": "Testing MCP Servers With a Python MCP Client",
+      "link": "https://realpython.com/courses/testing-mcp-servers-with-a-python-mcp-client/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to build a Python MCP client that tests MCP servers from your terminal. List their tools, prompts, and resources, then call each one.",
+      "ts": 1783432800,
+      "published": "2026-07-07T14:00:00+00:00"
+    },
+    {
+      "title": "Viability of local models for coding",
+      "link": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Birgitta Böckeler recently spent some time trying out running local LLMs for some programming tasks. In this memo she outlines the factors that influence how viable they are for the job. more…",
+      "ts": 1783427640,
+      "published": "2026-07-07T12:34:00+00:00"
+    },
+    {
+      "title": "AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code Before Production",
+      "link": "https://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Amazon Web Services (AWS) has announced a major expansion of its AWS DevOps Agent, introducing new release management capabilities designed to assess code changes and autonomously test software before it reaches product…",
+      "ts": 1783425600,
+      "published": "2026-07-07T12:00:00+00:00"
+    },
+    {
+      "title": "Quiz: Testing MCP Servers With a Python MCP Client",
+      "link": "https://realpython.com/quizzes/testing-mcp-servers-with-a-python-mcp-client/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build a command-line MCP client in Python, connect it to servers over stdio, and test their tools, prompts, and resources.",
+      "ts": 1783425600,
+      "published": "2026-07-07T12:00:00+00:00"
+    },
     {
       "title": "The foundational elements of AI architecture that IT leaders need to scale",
       "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
@@ -10,6 +64,15 @@
       "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leade…",
       "ts": 1783422652,
       "published": "2026-07-07T11:10:52+00:00"
+    },
+    {
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Managed agents feature bundle launch",
+      "ts": 1783414440,
+      "published": "2026-07-07T08:54:00+00:00"
     },
     {
       "title": "Closing the Visual Gap Between the Official Lottie Webplayer and Lottie4J",
@@ -28,6 +91,15 @@
       "summary": "Aaron Erickson explains how NVIDIA designs and tests purpose-built AI agent hierarchies. For senior developers and architects, he outlines why balancing deterministic tools with agentic discovery is crucial. Discover ho…",
       "ts": 1783411380,
       "published": "2026-07-07T08:03:00+00:00"
+    },
+    {
+      "title": "The Making of Claude Code",
+      "link": "https://www.anthropic.com/features/making-of-claude-code",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.anthropic.com/features/making-of-claude-code Comments URL: https://news.ycombinator.com/item?id=48814264 Points: 43 # Comments: 26",
+      "ts": 1783405160,
+      "published": "2026-07-07T06:19:20+00:00"
     },
     {
       "title": "v0.18.0",
@@ -71,6 +143,15 @@
       "source": "Spring Blog",
       "category": "Spring",
       "summary": "This Week in Spring - July 7th, 2026 Hi, Spring fans! Welcome to another installment of This Week in Spring ! We've got a lot to cover and I've got a plane to catch so let's go! What's that over on Spring Initializr? It…",
+      "ts": 1783382400,
+      "published": "2026-07-07T00:00:00+00:00"
+    },
+    {
+      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+      "link": "https://huggingface.co/blog/skypilot-hf-storage",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
       "ts": 1783382400,
       "published": "2026-07-07T00:00:00+00:00"
     },
@@ -251,6 +332,15 @@
       "source": "Spring Blog",
       "category": "Spring",
       "summary": "For years, Spring Cloud Contract has been an important tool for developers building consumer-driven contracts and ensuring reliable microservices communication. Today, we are announcing an exciting transition for the pr…",
+      "ts": 1783296000,
+      "published": "2026-07-06T00:00:00+00:00"
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E17 - Spring Boot 4.1 with Phil Webb",
+      "link": "https://spring.io/blog/2026/07/06/spring-office-hours-podcast-S5E17",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun are joined by Spring Boot co-creator and project lead Phil Webb to dig into what's new in Spring Boot 4…",
       "ts": 1783296000,
       "published": "2026-07-06T00:00:00+00:00"
     },
@@ -653,6 +743,15 @@
     {
       "title": "Teaching AI to run with the turbines",
       "link": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where phys…",
+      "ts": 1782996704,
+      "published": "2026-07-02T12:51:44+00:00"
+    },
+    {
+      "title": "Building the foundation for an autonomous enterprise",
+      "link": "https://www.technologyreview.com/2026/07/02/1138433/building-the-foundation-for-an-autonomous-enterprise/",
       "source": "MIT Tech Review",
       "category": "AI",
       "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where phys…",
