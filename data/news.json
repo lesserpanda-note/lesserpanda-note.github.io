@@ -1,7 +1,43 @@
 {
-  "updated": "2026-07-08T00:17:35.011713+00:00",
-  "count": 385,
+  "updated": "2026-07-08T09:16:26.319315+00:00",
+  "count": 389,
   "items": [
+    {
+      "title": "Introducing the Kotlin Benchmark for AI Coding Agents",
+      "link": "https://blog.jetbrains.com/kotlin/2026/07/introducing-the-kotlin-benchmark-evaluate-ai-coding-agents-on-real-world-kotlin-tasks/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Agentic coding benchmarks are getting closer to real-world software development. For Kotlin teams, the most important question is how reliably AI agents can complete end-to-end Kotlin tasks, from reading an issue to pro…",
+      "ts": 1783495605,
+      "published": "2026-07-08T07:26:45+00:00"
+    },
+    {
+      "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
+      "link": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day lets us read some condensed insight",
+      "ts": 1783477225,
+      "published": "2026-07-08T02:20:25+00:00"
+    },
+    {
+      "title": "1.15.2",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.2",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Pull latest LLM models dynamically in the crew wizard. Support inline skill definitions. Add generated Flow Definition authoring skill. Support templated Flow action inputs. Add text helper for f…",
+      "ts": 1783476322,
+      "published": "2026-07-08T02:05:22+00:00"
+    },
+    {
+      "title": "v2.6.0 (2026-07-07)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.6.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Record time-to-first-token for streaming model requests by @dmontagu in #5967 feat: Add files support to CodeExecutionTool for Anthropic and OpenAI by @HenryYYang in #4338 Add Bedrock model pro…",
+      "ts": 1783473755,
+      "published": "2026-07-08T01:22:35+00:00"
+    },
     {
       "title": "From Hugging Face to Amazon SageMaker Studio in one click",
       "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
