@@ -1,7 +1,70 @@
 {
-  "updated": "2026-07-08T09:16:26.319315+00:00",
-  "count": 389,
+  "updated": "2026-07-08T17:12:43.005686+00:00",
+  "count": 396,
   "items": [
+    {
+      "title": "Why We Moved Our Timefold Java Worker Pods from AMD to ARM64",
+      "link": "https://foojay.io/today/why-we-moved-our-timefold-java-worker-pods-from-amd-to-arm64/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "When we investigated unexpected performance variance in our Timefold Solver worker pods on our platform, we traced it to hyperthreading on AMD (x86-64) cloud instances. Switching to ARM (ARM64), where each vCPU maps to…",
+      "ts": 1783524358,
+      "published": "2026-07-08T15:25:58+00:00"
+    },
+    {
+      "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services",
+      "link": "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Airbnb engineers detailed Sitar-agent, a Kubernetes sidecar for dynamic configuration delivery across tens of thousands of pods, processing updates several times per minute. The system was redesigned with Java, Amazon S…",
+      "ts": 1783520700,
+      "published": "2026-07-08T14:25:00+00:00"
+    },
+    {
+      "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services",
+      "link": "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Airbnb engineers detailed Sitar-agent, a Kubernetes sidecar for dynamic configuration delivery across tens of thousands of pods, processing updates several times per minute. The system was redesigned with Java, Amazon S…",
+      "ts": 1783520700,
+      "published": "2026-07-08T14:25:00+00:00"
+    },
+    {
+      "title": "Presentation: The Multi-Agent Approach: Building Reliable and Controllable Software Development Automation",
+      "link": "https://www.infoq.com/presentations/multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Itamar Friedman discusses how architects and engineering leaders can break through the AI productivity ceiling using adaptive multi-agent systems. He shares insights on moving past simple autocomplete to resilient workf…",
+      "ts": 1783519560,
+      "published": "2026-07-08T14:06:00+00:00"
+    },
+    {
+      "title": "How to Use GitHub",
+      "link": "https://realpython.com/how-to-use-github/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use GitHub step by step to create a remote repository, push your local Python project, and collaborate with others using GitHub Issues.",
+      "ts": 1783519200,
+      "published": "2026-07-08T14:00:00+00:00"
+    },
+    {
+      "title": "Quiz: How to Use GitHub",
+      "link": "https://realpython.com/quizzes/how-to-use-github/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice putting a Python project on GitHub by creating a remote repository, pushing your local code, and collaborating with others.",
+      "ts": 1783512000,
+      "published": "2026-07-08T12:00:00+00:00"
+    },
+    {
+      "title": "Experiences with local models for coding",
+      "link": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Birgitta Böckeler now reports on her recent experiences trying local LLMs for coding. She compares them using two standard tasks, and tries out the most promising model for day-to-day use. more…",
+      "ts": 1783511820,
+      "published": "2026-07-08T11:57:00+00:00"
+    },
     {
       "title": "Introducing the Kotlin Benchmark for AI Coding Agents",
       "link": "https://blog.jetbrains.com/kotlin/2026/07/introducing-the-kotlin-benchmark-evaluate-ai-coding-agents-on-real-world-kotlin-tasks/",
@@ -37,6 +100,15 @@
       "summary": "What's Changed 🚀 Features Record time-to-first-token for streaming model requests by @dmontagu in #5967 feat: Add files support to CodeExecutionTool for Anthropic and OpenAI by @HenryYYang in #4338 Add Bedrock model pro…",
       "ts": 1783473755,
       "published": "2026-07-08T01:22:35+00:00"
+    },
+    {
+      "title": "Native-speed vLLM transformers modeling backend",
+      "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1783468800,
+      "published": "2026-07-08T00:00:00+00:00"
     },
     {
       "title": "From Hugging Face to Amazon SageMaker Studio in one click",
@@ -3493,15 +3565,6 @@
       "summary": "Claude Fable 5 and Claude Mythos 5",
       "ts": 1780963200,
       "published": "2026-06-09T00:00:00+00:00"
-    },
-    {
-      "title": "Python 3.15 Hits Feature Freeze and Other News for June 2026",
-      "link": "https://realpython.com/python-news-june-2026/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Python 3.15 hits feature freeze with a built-in sentinel, PEP 829 lands, Pydantic forks httpx, and AI goes bug-hunting in C code.",
-      "ts": 1780927200,
-      "published": "2026-06-08T14:00:00+00:00"
     }
   ]
 }
