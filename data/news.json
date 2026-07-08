@@ -1,7 +1,34 @@
 {
-  "updated": "2026-07-08T17:12:43.005686+00:00",
-  "count": 396,
+  "updated": "2026-07-08T21:49:48.097222+00:00",
+  "count": 399,
   "items": [
+    {
+      "title": "Quoting Kenton Varda",
+      "link": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team. AI was writing change descriptions that were worse than useless to me as I tried to re…",
+      "ts": 1783541014,
+      "published": "2026-07-08T20:03:34+00:00"
+    },
+    {
+      "title": "What’s New in actions/setup-java 5.4 and 5.5: Signature Verification, Kona JDK, and a Better Maven Experience",
+      "link": "https://foojay.io/today/whats-new-in-actions-setup-java-5-4-and-5-5-signature-verification-kona-jdk-and-a-better-maven-experience/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "If you build Java on GitHub Actions, actions/setup-java is almost certainly the first step in your workflow. It installs a JDK, wires up JAVA_HOME and the PATH, configures Maven settings.xml, sets up dependency caching,…",
+      "ts": 1783536991,
+      "published": "2026-07-08T18:56:31+00:00"
+    },
+    {
+      "title": "Data for Agents",
+      "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1783530965,
+      "published": "2026-07-08T17:16:05+00:00"
+    },
     {
       "title": "Why We Moved Our Timefold Java Worker Pods from AMD to ARM64",
       "link": "https://foojay.io/today/why-we-moved-our-timefold-java-worker-pods-from-amd-to-arm64/",
