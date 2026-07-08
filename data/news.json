@@ -1,7 +1,70 @@
 {
-  "updated": "2026-07-07T19:17:22.609509+00:00",
-  "count": 379,
+  "updated": "2026-07-08T00:17:35.011713+00:00",
+  "count": 385,
   "items": [
+    {
+      "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+      "link": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1783458933,
+      "published": "2026-07-07T21:15:33+00:00"
+    },
+    {
+      "title": "Switching from PostgreSQL to ClickHouse for Improved Performance and Scalability",
+      "link": "https://www.infoq.com/news/2026/07/momentic-postgres-clickhouse/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Momentic, the company behind an AI-driven software testing platform, recently rearchitected its caching system to handle over 2 million queries per day across 20 billion total entries, while maintaining an average respo…",
+      "ts": 1783454400,
+      "published": "2026-07-07T20:00:00+00:00"
+    },
+    {
+      "title": "Switching from PostgreSQL to ClickHouse for Improved Performance and Scalability",
+      "link": "https://www.infoq.com/news/2026/07/momentic-postgres-clickhouse/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Momentic, the company behind an AI-driven software testing platform, recently rearchitected its caching system to handle over 2 million queries per day across 20 billion total entries, while maintaining an average respo…",
+      "ts": 1783454400,
+      "published": "2026-07-07T20:00:00+00:00"
+    },
+    {
+      "title": "sqlite-utils 4.0, now with database schema migrations",
+      "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-4/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "This morning I released sqlite-utils 4.0 , the 124th release of that project and the first major version bump since 3.0 in November 2020. In addition to some small but significant breaking changes (described in this upg…",
+      "ts": 1783452777,
+      "published": "2026-07-07T19:32:57+00:00"
+    },
+    {
+      "title": "sqlite-migrate 0.2",
+      "link": "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: sqlite-migrate 0.2 The version that retires the library, instead implementing a compatibility shim against the new sqlite-utils 4.0 dependency. Tags: sqlite-utils",
+      "ts": 1783442035,
+      "published": "2026-07-07T16:33:55+00:00"
+    },
+    {
+      "title": "github-code Web Component",
+      "link": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: github-code Web Component An experimental Web Component built using GPT-5.5 and the following prompt : let's build a Web Component for embedding code from GitHub <github-code href=\"https://github.com/simonw/sqlite…",
+      "ts": 1783441096,
+      "published": "2026-07-07T16:18:16+00:00"
+    },
+    {
+      "title": "sqlite-utils 4.0",
+      "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: sqlite-utils 4.0 See sqlite-utils 4.0, now with database schema migrations for details. Tags: sqlite-utils",
+      "ts": 1783438963,
+      "published": "2026-07-07T15:42:43+00:00"
+    },
     {
       "title": "Hugging Face Models on Foundry Managed Compute",
       "link": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
@@ -109,6 +172,15 @@
       "summary": "Key Changes RealtimeAgent's default is now gpt-realtime-2.1 Since this version, the default model for RealtimeAgents is gpt-realtime-2.1: https://developers.openai.com/api/docs/models/gpt-realtime-2.1 What's Changed fea…",
       "ts": 1783404115,
       "published": "2026-07-07T06:01:55+00:00"
+    },
+    {
+      "title": "sqlite-utils 4.0rc4",
+      "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: sqlite-utils 4.0rc4 The last RC before the 4.0 stable release. Mainly implements feedback from a detailed review by Claude Fable 5. Tags: sqlite-utils , claude-mythos-fable",
+      "ts": 1783402575,
+      "published": "2026-07-07T05:36:15+00:00"
     },
     {
       "title": "[AINews] The Field Guide to Fable",
@@ -3394,24 +3466,6 @@
       "summary": "Python 3.15 hits feature freeze with a built-in sentinel, PEP 829 lands, Pydantic forks httpx, and AI goes bug-hunting in C code.",
       "ts": 1780927200,
       "published": "2026-06-08T14:00:00+00:00"
-    },
-    {
-      "title": "Oracle Java Extension for Visual Studio Code Version 26.0.0 Is Now Available",
-      "link": "https://inside.java/2026/06/08/java-vscode-extension-update/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "New release of Java Platform Extension for VS Code",
-      "ts": 1780876800,
-      "published": "2026-06-08T00:00:00+00:00"
-    },
-    {
-      "title": "The Open Source Community is backing OpenEnv for Agentic RL",
-      "link": "https://huggingface.co/blog/openenv-agentic-rl",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1780876800,
-      "published": "2026-06-08T00:00:00+00:00"
     }
   ]
 }
