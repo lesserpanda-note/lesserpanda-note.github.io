@@ -1,7 +1,25 @@
 {
-  "updated": "2026-07-09T00:18:42.385581+00:00",
-  "count": 399,
+  "updated": "2026-07-09T06:57:23.686154+00:00",
+  "count": 430,
   "items": [
+    {
+      "title": "[AINews] SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition",
+      "link": "https://www.latent.space/p/ainews-spacexai-launches-grok-45",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "SpaceXAI continues to move faster than any other frontier lab on earth.",
+      "ts": 1783577141,
+      "published": "2026-07-09T06:05:41+00:00"
+    },
+    {
+      "title": "v2.7.0 (2026-07-08)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.7.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Support azure-responses:[model-id] shorthand by @hramezani in #6355 Add xAI grok-4.5 model by @dsfaccini in #6362 🐛 Bug Fixes fix: handle boolean JSON Schema nodes in function signature walker…",
+      "ts": 1783562201,
+      "published": "2026-07-09T01:56:41+00:00"
+    },
     {
       "title": "Rewriting Bun in Rust",
       "link": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
@@ -48,6 +66,15 @@
       "published": "2026-07-08T18:56:31+00:00"
     },
     {
+      "title": "PyTorch 2.13 Release Blog",
+      "link": "https://pytorch.org/blog/pytorch-2-13-release-blog/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "We are excited to announce the release of PyTorch® 2.13 (release notes)! The PyTorch 2.13 release features the following changes: FlexAttention lands on Apple Silicon (MPS), with up to...",
+      "ts": 1783532543,
+      "published": "2026-07-08T17:42:23+00:00"
+    },
+    {
       "title": "Data for Agents",
       "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
       "source": "Hugging Face",
@@ -64,6 +91,15 @@
       "summary": "When we investigated unexpected performance variance in our Timefold Solver worker pods on our platform, we traced it to hyperthreading on AMD (x86-64) cloud instances. Switching to ARM (ARM64), where each vCPU maps to…",
       "ts": 1783524358,
       "published": "2026-07-08T15:25:58+00:00"
+    },
+    {
+      "title": "How to Clean Messy CSV Files with Python: A Beginner’s Guide",
+      "link": "https://www.kdnuggets.com/how-to-clean-messy-csv-files-with-python-a-beginners-guide",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn how to clean CSV files with pandas by handling missing values, duplicate rows, messy text, wrong data types, mixed date formats, invalid emails, and currency values.",
+      "ts": 1783523439,
+      "published": "2026-07-08T15:10:39+00:00"
     },
     {
       "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services",
@@ -201,6 +237,15 @@
       "published": "2026-07-07T19:32:57+00:00"
     },
     {
+      "title": "Tools vs. Subagents: Building Effective AI Agents Without Over-Engineering",
+      "link": "https://machinelearningmastery.com/tools-vs-subagents-building-effective-ai-agents-without-over-engineering/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Tools execute code.",
+      "ts": 1783443895,
+      "published": "2026-07-07T17:04:55+00:00"
+    },
+    {
       "title": "sqlite-migrate 0.2",
       "link": "https://simonwillison.net/2026/Jul/7/sqlite-migrate/#atom-everything",
       "source": "Simon Willison",
@@ -217,6 +262,15 @@
       "summary": "Tool: github-code Web Component An experimental Web Component built using GPT-5.5 and the following prompt : let's build a Web Component for embedding code from GitHub <github-code href=\"https://github.com/simonw/sqlite…",
       "ts": 1783441096,
       "published": "2026-07-07T16:18:16+00:00"
+    },
+    {
+      "title": "SQL vs Pandas vs AI Agents: Which Solves Analytics Problems Best?",
+      "link": "https://www.kdnuggets.com/sql-vs-pandas-vs-ai-agents-which-solves-analytics-problems-best",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Same three analytics problems, three tools, eight dimensions, measured with real execution times and real agent prompts.",
+      "ts": 1783440029,
+      "published": "2026-07-07T16:00:29+00:00"
     },
     {
       "title": "sqlite-utils 4.0",
@@ -246,6 +300,15 @@
       "published": "2026-07-07T14:08:58+00:00"
     },
     {
+      "title": "Zero-Shot Local Document Parsing with Gemma 4: Treating PDFs as Images",
+      "link": "https://www.kdnuggets.com/zero-shot-local-document-parsing-with-gemma-4-treating-pdfs-as-images",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Treating PDFs as images and feeding those images to Gemma 4 dissolves the scanned-versus-digital distinction that makes every text-extraction pipeline fragile. Fix that.",
+      "ts": 1783432804,
+      "published": "2026-07-07T14:00:04+00:00"
+    },
+    {
       "title": "Testing MCP Servers With a Python MCP Client",
       "link": "https://realpython.com/courses/testing-mcp-servers-with-a-python-mcp-client/",
       "source": "Real Python",
@@ -262,6 +325,15 @@
       "summary": "Birgitta Böckeler recently spent some time trying out running local LLMs for some programming tasks. In this memo she outlines the factors that influence how viable they are for the job. more…",
       "ts": 1783427640,
       "published": "2026-07-07T12:34:00+00:00"
+    },
+    {
+      "title": "10 Probability Concepts for Machine Learning Explained Simply",
+      "link": "https://www.kdnuggets.com/10-probability-concepts-for-machine-learning-explained-simply",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "A model is almost never 100% sure of anything. These 10 probability concepts explain how it makes decisions anyway.",
+      "ts": 1783425636,
+      "published": "2026-07-07T12:00:36+00:00"
     },
     {
       "title": "AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code Before Production",
@@ -408,6 +480,15 @@
       "published": "2026-07-06T23:36:38+00:00"
     },
     {
+      "title": "Bringing PyTorch Monarch to AMD GPUs: Single-Controller Distributed Training on ROCm",
+      "link": "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "Training state-of-the-art large language models (LLMs) with billions of parameters requires distributed training across hundreds or thousands of GPUs. At this scale, hardware failures are not exceptional events—they are…",
+      "ts": 1783380707,
+      "published": "2026-07-06T23:31:47+00:00"
+    },
+    {
       "title": "Java News Roundup: Strict Field Initialization, GlassFish, GraalVM, JReleaser, RefactorFirst",
       "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jun29-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
@@ -453,6 +534,15 @@
       "published": "2026-07-06T16:47:44+00:00"
     },
     {
+      "title": "Data Scientists Are Becoming AI Managers, Not Model Builders",
+      "link": "https://www.kdnuggets.com/data-scientists-are-becoming-ai-managers-not-model-builders",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "The role is shifting from building models to managing them.",
+      "ts": 1783353609,
+      "published": "2026-07-06T16:00:09+00:00"
+    },
+    {
       "title": "PRX Part 4: Our Data Strategy",
       "link": "https://huggingface.co/blog/Photoroom/prx-part4-data",
       "source": "Hugging Face",
@@ -469,6 +559,15 @@
       "summary": "Netflix engineers introduced dynamic partition splitting for Cassandra to address wide partitions in time series workloads. The metadata-driven approach detects oversized partitions, splits them smaller units, and route…",
       "ts": 1783347840,
       "published": "2026-07-06T14:24:00+00:00"
+    },
+    {
+      "title": "Getting Started with Hugging Face ML Intern: Your First ML Agent",
+      "link": "https://www.kdnuggets.com/getting-started-with-hugging-face-ml-intern-your-first-ml-agent",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "You describe the model. It writes the code, runs the training, and ships the checkpoint. Welcome to ML Intern.",
+      "ts": 1783346431,
+      "published": "2026-07-06T14:00:31+00:00"
     },
     {
       "title": "Python's JIT Faces Some Challenges and Other News for July 2026",
@@ -489,6 +588,15 @@
       "published": "2026-07-06T12:53:00+00:00"
     },
     {
+      "title": "5 Ways Small Language Models Are Powering Next-Gen Agents",
+      "link": "https://www.kdnuggets.com/5-ways-small-language-models-are-powering-next-gen-agents",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "This article looks at five concrete ways SLMs are showing up inside next-generation agents right now, from the research backing them to the tools and numbers worth knowing if you're deciding whether your next agent need…",
+      "ts": 1783339253,
+      "published": "2026-07-06T12:00:53+00:00"
+    },
+    {
       "title": "InfoQ Opens AI Security & Privacy Engineering Cohort for Regulated Industries",
       "link": "https://www.infoq.com/news/2026/07/online-cohort-ai-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -496,6 +604,15 @@
       "summary": "InfoQ has opened enrollment for a five-week AI Security & Privacy Engineering cohort for senior engineers and architects in regulated industries, focused on applying security, privacy, threat modeling, observability, an…",
       "ts": 1783339200,
       "published": "2026-07-06T12:00:00+00:00"
+    },
+    {
+      "title": "The Complete Guide to Tool Selection in AI Agents",
+      "link": "https://machinelearningmastery.com/the-complete-guide-to-tool-selection-in-ai-agents/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "You build an agent with five tools.",
+      "ts": 1783337635,
+      "published": "2026-07-06T11:33:55+00:00"
     },
     {
       "title": "A Week of Housekeeping: What Changed on Foojay.io",
@@ -741,6 +858,15 @@
       "published": "2026-07-03T16:53:50+00:00"
     },
     {
+      "title": "Understanding PyTorch’s Test Infrastructure",
+      "link": "https://pytorch.org/blog/understanding-pytorchs-test-infrastructure/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "TL;DR PyTorch tests are often generated at import time, so CI failures may show device/dtype-specific names that differ from the source template. For local debugging, pytest -k and test/run_test.py are...",
+      "ts": 1783090807,
+      "published": "2026-07-03T15:00:07+00:00"
+    },
+    {
       "title": "June 2026 newsletter",
       "link": "https://simonwillison.net/2026/Jul/3/june-newsletter/#atom-everything",
       "source": "Simon Willison",
@@ -784,6 +910,15 @@
       "summary": "Hardwood, the project Gunnar Morling kick-started handling of Parquet files in Java, reached version 1. Its multi-threaded approach and zero mandatory external dependencies promise a simpler, more efficient alternative…",
       "ts": 1783080720,
       "published": "2026-07-03T12:12:00+00:00"
+    },
+    {
+      "title": "Getting Started with the Claude API in Python",
+      "link": "https://www.kdnuggets.com/getting-started-with-the-claude-api-in-python",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "In this article, you'll learn how to use the Claude API in Python, make your first request, and handle responses with the official SDK.",
+      "ts": 1783080025,
+      "published": "2026-07-03T12:00:25+00:00"
     },
     {
       "title": "The Real Python Podcast – Episode #301: Running Python Locally in a Sandbox",
@@ -903,6 +1038,15 @@
       "published": "2026-07-02T21:25:14+00:00"
     },
     {
+      "title": "Building the Future of On-Device AI at the ExecuTorch Hackathon",
+      "link": "https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "This past weekend in San Francisco, builders, researchers, mobile developers, and AI practitioners came together for the ExecuTorch Hackathon, a two-day, on-site event focused on a practical and increasingly important...",
+      "ts": 1783025236,
+      "published": "2026-07-02T20:47:16+00:00"
+    },
+    {
       "title": "llm-coding-agent 0.1a0",
       "link": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
       "source": "Simon Willison",
@@ -975,6 +1119,24 @@
       "published": "2026-07-02T14:36:05+00:00"
     },
     {
+      "title": "Context vs. Memory Engineering in Agentic AI Systems",
+      "link": "https://machinelearningmastery.com/context-vs-memory-engineering-in-agentic-ai-systems/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Compression on Arrival Tool outputs should be compressed after a call returns, not after the window fills.",
+      "ts": 1783000943,
+      "published": "2026-07-02T14:02:23+00:00"
+    },
+    {
+      "title": "10 Agentic AI Frameworks You Should Know in 2026",
+      "link": "https://www.kdnuggets.com/10-agentic-ai-frameworks-you-should-know-in-2026",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "LangGraph, CrewAI, OpenAI Agents SDK, Google ADK, Mastra, and more. If you're building AI agents in 2026, these are the frameworks worth paying attention to before starting your next project.",
+      "ts": 1783000842,
+      "published": "2026-07-02T14:00:42+00:00"
+    },
+    {
       "title": "Teaching AI to run with the turbines",
       "link": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
       "source": "MIT Tech Review",
@@ -991,6 +1153,15 @@
       "summary": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where phys…",
       "ts": 1782996704,
       "published": "2026-07-02T12:51:44+00:00"
+    },
+    {
+      "title": "Humanity’s Last Exam is a Distraction",
+      "link": "https://www.kdnuggets.com/humanitys-last-exam-is-a-distraction",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "This article takes a gentle dive into the ultimate AI systems evaluation benchmark, outlining why it was created, curating diverse opinions from groups of experts in the field about it, and wrapping up with a summary of…",
+      "ts": 1782993659,
+      "published": "2026-07-02T12:00:59+00:00"
     },
     {
       "title": "Quiz: Natural Language Processing With Python's NLTK Package",
@@ -1144,6 +1315,15 @@
       "summary": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
       "ts": 1782921600,
       "published": "2026-07-01T16:00:00+00:00"
+    },
+    {
+      "title": "Shopify Joins the PyTorch Foundation as a Platinum Member",
+      "link": "https://pytorch.org/blog/shopify-joins-the-pytorch-foundation-as-a-platinum-member/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "The PyTorch Foundation, a community-driven hub for open source AI under the Linux Foundation, is announcing today that Shopify has joined as a Platinum member. Shopify provides essential internet infrastructure...",
+      "ts": 1782921359,
+      "published": "2026-07-01T15:55:59+00:00"
     },
     {
       "title": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
@@ -1389,6 +1569,15 @@
       "published": "2026-06-30T18:32:50+00:00"
     },
     {
+      "title": "Miles: A PyTorch-Native Stack for Large-Scale LLM RL Post-Training",
+      "link": "https://pytorch.org/blog/miles-a-pytorch-native-stack-for-large-scale-llm-rl-post-training/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "TL;DR Miles is RadixArk’s open source framework for large-scale LLM RL post-training. It composes SGLang for rollout, NVIDIA Megatron-LM for training, Ray orchestration, and PyTorch-native extensibility behind a small,…",
+      "ts": 1782841707,
+      "published": "2026-06-30T17:48:27+00:00"
+    },
+    {
       "title": "The AI Compass",
       "link": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
       "source": "Simon Willison",
@@ -1486,6 +1675,15 @@
       "summary": "Elastic open-sourced Atlas, a system built on Elasticsearch that maintains three categories of memory for agents. Atlas integrates with agents via MCP and maintains per-user isolation of memories. When evaluated on ques…",
       "ts": 1782824400,
       "published": "2026-06-30T13:00:00+00:00"
+    },
+    {
+      "title": "Context Window Management for Long-Running Agents: Strategies and Tradeoffs",
+      "link": "https://machinelearningmastery.com/context-window-management-for-long-running-agents-strategies-and-tradeoffs/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn five practical strategies for managing context windows in long-running AI agent applications, along with the key tradeoffs each approach...",
+      "ts": 1782820817,
+      "published": "2026-06-30T12:00:17+00:00"
     },
     {
       "title": "Agriculture is ready for AI, but its data isn’t",
@@ -1767,6 +1965,15 @@
       "published": "2026-06-29T14:26:00+00:00"
     },
     {
+      "title": "Introducing Cross-Repository CI Relay: Scalable CI for PyTorch’s Out-of-Tree Backends",
+      "link": "https://pytorch.org/blog/introducing-cross-repository-ci-relay-scalable-ci-for-pytorchs-out-of-tree-backends/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "TL;DR PyTorch now has a Cross-Repository CI Relay (CRCR) that automatically triggers and tracks CI in downstream repositories whenever a PR is opened or a commit is pushed against pytorch/pytorch....",
+      "ts": 1782742722,
+      "published": "2026-06-29T14:18:42+00:00"
+    },
+    {
       "title": "How to Get Started With the GitHub Copilot CLI",
       "link": "https://realpython.com/github-copilot-cli/",
       "source": "Real Python",
@@ -1783,6 +1990,15 @@
       "summary": "Starting from IntelliJ IDEA 2026.2, JetBrains will sunset Kotlin Notebook as a product and will no longer maintain it. The plugin will remain available on an open-source model so the community can continue its developme…",
       "ts": 1782734536,
       "published": "2026-06-29T12:02:16+00:00"
+    },
+    {
+      "title": "Model Context Protocol Explained in 3 Levels of Difficulty",
+      "link": "https://machinelearningmastery.com/model-context-protocol-explained-in-3-levels-of-difficulty/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "MCP provides a standard way for AI applications and external systems to communicate.",
+      "ts": 1782734430,
+      "published": "2026-06-29T12:00:30+00:00"
     },
     {
       "title": "Quiz: How to Get Started With the GitHub Copilot CLI",
@@ -2055,6 +2271,15 @@
       "published": "2026-06-26T14:17:00+00:00"
     },
     {
+      "title": "The AI Agent Tech Stack Explained",
+      "link": "https://machinelearningmastery.com/the-ai-agent-tech-stack-explained/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "• <a href=\"https://www.",
+      "ts": 1782482463,
+      "published": "2026-06-26T14:01:03+00:00"
+    },
+    {
       "title": "The Real Python Podcast – Episode #300: Maintaining Your Python Developer Instincts While Using LLM Tools",
       "link": "https://realpython.com/podcasts/rpp/300/",
       "source": "Real Python",
@@ -2145,6 +2370,15 @@
       "published": "2026-06-25T16:00:00+00:00"
     },
     {
+      "title": "TokenSpeed-Kernel: Portable APIs and High-Performance Kernels for Multi-Silicon LLM Inference",
+      "link": "https://pytorch.org/blog/lightseek-tokenspeed-kernel/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "TL;DR The TokenSpeed-kernel is a standalone, open-source subsystem designed to solve backend complexity in LLM inference. It introduces a clean, layered API and registry system that decouples the high-level runtime...",
+      "ts": 1782398886,
+      "published": "2026-06-25T14:48:06+00:00"
+    },
+    {
       "title": "Repositioning retail for the AI era",
       "link": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
       "source": "MIT Tech Review",
@@ -2152,6 +2386,15 @@
       "summary": "Artificial intelligence is rapidly reshaping retail, but not in the ways consumers might immediately notice. The biggest transformation may not be flashy virtual try-ons or chatbot shopping assistants, but in how decisi…",
       "ts": 1782397379,
       "published": "2026-06-25T14:22:59+00:00"
+    },
+    {
+      "title": "Agentic Workflow vs. Autonomous Agent: What’s the Difference?",
+      "link": "https://machinelearningmastery.com/agentic-workflow-vs-autonomous-agent-whats-the-difference/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn how to distinguish agentic workflows from autonomous agents by focusing on who owns control flow — a human writing...",
+      "ts": 1782388829,
+      "published": "2026-06-25T12:00:29+00:00"
     },
     {
       "title": "Aggregation Optimization in MongoDB: Unnecessary Unwinds (Part 2)",
@@ -2298,6 +2541,15 @@
       "published": "2026-06-24T13:04:32+00:00"
     },
     {
+      "title": "Context Windows Are Not Memory: What AI Agent Developers Need to Understand",
+      "link": "https://machinelearningmastery.com/context-windows-are-not-memory-what-ai-agent-developers-need-to-understand/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn why a large context window is not the same thing as agent memory, and how techniques like retrieval, compression,...",
+      "ts": 1782302418,
+      "published": "2026-06-24T12:00:18+00:00"
+    },
+    {
       "title": "Quiz: Django Tasks: Exploring the Built-in Tasks Framework",
       "link": "https://realpython.com/quizzes/django-tasks/",
       "source": "Real Python",
@@ -2415,6 +2667,15 @@
       "published": "2026-06-23T18:58:54+00:00"
     },
     {
+      "title": "Serving DeepSeek-V4 on GB300 with SGLang: 5x Higher Throughput at the Same Interactivity Since Day-0",
+      "link": "https://pytorch.org/blog/serving-deepseek-v4-on-gb300-with-sglang-5x-higher-throughput-at-the-same-interactivity-since-day-0/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "TL;DR: DeepSeek-V4 support was live in SGLang on Day-0, but the Day-0 stack was only the starting point. Since launch, we have coordinated a set of kernel, runtime, and hardening...",
+      "ts": 1782229918,
+      "published": "2026-06-23T15:51:58+00:00"
+    },
+    {
       "title": "v2.0.0 (2026-06-23)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.0.0",
       "source": "Pydantic AI",
@@ -2440,6 +2701,15 @@
       "summary": "",
       "ts": 1782219115,
       "published": "2026-06-23T12:51:55+00:00"
+    },
+    {
+      "title": "Clustering Unstructured Text with LLM Embeddings and HDBSCAN",
+      "link": "https://machinelearningmastery.com/clustering-unstructured-text-with-llm-embeddings-and-hdbscan/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "The current era of Generative AI seems to primarily focus on chat interfaces and prompts, but the range of applications of large language models , or LLMs for short, is not limited to just that.",
+      "ts": 1782216057,
+      "published": "2026-06-23T12:00:57+00:00"
     },
     {
       "title": "Quiz: Using LlamaIndex for RAG in Python",
@@ -2611,6 +2881,15 @@
       "summary": "This week's Java roundup for June 15th, 2026, features news highlighting: point releases of Spring Tools, Helidon, JobRunr and Gradle; the June 2026 edition of Open Liberty; the first milestone release of Apache TomEE 1…",
       "ts": 1782134100,
       "published": "2026-06-22T13:15:00+00:00"
+    },
+    {
+      "title": "Building Browser-Using AI Agents in Python",
+      "link": "https://machinelearningmastery.com/building-browser-using-ai-agents-in-python/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Most AI agent tutorials start with an API.",
+      "ts": 1782129628,
+      "published": "2026-06-22T12:00:28+00:00"
     },
     {
       "title": "Quiz: Using Python for Data Analysis",
@@ -2863,6 +3142,15 @@
       "summary": "We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!",
       "ts": 1781803800,
       "published": "2026-06-18T17:30:00+00:00"
+    },
+    {
+      "title": "From Minutes to Seconds: LLM-Guided Autotuning for Helion Kernels",
+      "link": "https://pytorch.org/blog/from-minutes-to-seconds-llm-guided-autotuning-for-helion-kernels/",
+      "source": "PyTorch",
+      "category": "DataScience",
+      "summary": "TL;DR Helion, PyTorch’s domain-specific language (DSL) for performance portable machine learning kernels, heavily relies on autotuning for performance. Currently Helion searches utilize the Likelihood-Free Bayesian Opti…",
+      "ts": 1781798933,
+      "published": "2026-06-18T16:08:53+00:00"
     },
     {
       "title": "Quiz: Sorting a Python Dictionary: Values, Keys, and More",
@@ -3583,15 +3871,6 @@
       "summary": "As adoption of AI agents looks set to surge by as much as 300% in the next two years, leadership teams are carefully considering the implications of a hybrid human-AI workforce. Unlike existing enterprise-level automati…",
       "ts": 1781000406,
       "published": "2026-06-09T10:20:06+00:00"
-    },
-    {
-      "title": "[AINews] FrontierCode: Benchmarking for Code Quality over Slop",
-      "link": "https://www.latent.space/p/ainews-frontiercode-benchmarking",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "We made a thing!",
-      "ts": 1780985553,
-      "published": "2026-06-09T06:12:33+00:00"
     }
   ]
 }
