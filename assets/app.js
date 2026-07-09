@@ -94,29 +94,54 @@ function searchMatch(query, text) {
 // --- true semantic search (opt-in) ------------------------------------------
 // Real embeddings via transformers.js, loaded from a CDN ONLY when the user turns
 // it on — casual visitors never pay the download. A multilingual model so Korean
-// queries match English articles by meaning, not just shared words. Everything
-// runs in the browser (no backend/keys); the model is cached after the first load.
-const SEMANTIC_MODEL = "Xenova/multilingual-e5-small";
-const SEMANTIC_CDN = "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
+// queries match English articles by meaning, not just shared words. All model
+// work runs in a Web Worker (assets/semantic-worker.js) so heavy init/inference
+// never freezes the page; the main thread only does light cosine math.
 const SEMANTIC_THRESHOLD = 0.8; // cosine cutoff for "related enough" (e5, normalized)
-const semantic = { status: "idle", extractor: null, embeddedCount: -1 };
+const semantic = { status: "idle", embeddedCount: -1, worker: null, seq: 0, pending: new Map(), onProgress: null };
+
+function semanticWorker() {
+  if (semantic.worker) return semantic.worker;
+  const w = new Worker("assets/semantic-worker.js", { type: "module" });
+  w.onmessage = (e) => {
+    const d = e.data || {};
+    if (d.type === "progress") { if (semantic.onProgress) semantic.onProgress(d.payload); return; }
+    const p = semantic.pending.get(d.id);
+    if (!p) return;
+    semantic.pending.delete(d.id);
+    if (d.type === "error") p.reject(new Error(d.message || "worker error"));
+    else p.resolve(d);
+  };
+  w.onerror = () => {
+    for (const [, p] of semantic.pending) p.reject(new Error("semantic worker failed to load"));
+    semantic.pending.clear();
+    semantic.worker = null; // recreate on the next attempt
+  };
+  semantic.worker = w;
+  return w;
+}
+
+function semanticAsk(type, payload) {
+  const w = semanticWorker();
+  const id = ++semantic.seq;
+  return new Promise((resolve, reject) => {
+    semantic.pending.set(id, { resolve, reject });
+    w.postMessage({ type, id, payload });
+  });
+}
 
 async function loadSemanticModel(onProgress) {
   if (semantic.status === "ready") return;
-  const mod = await import(SEMANTIC_CDN);
-  mod.env.allowLocalModels = false; // fetch from the Hub, not same-origin
-  semantic.extractor = await mod.pipeline("feature-extraction", SEMANTIC_MODEL, {
-    quantized: true,
-    progress_callback: onProgress,
-  });
+  semantic.onProgress = onProgress;
+  await semanticAsk("load");
   semantic.status = "ready";
 }
 
-// e5 expects "query: " / "passage: " prefixes; output is mean-pooled + normalized,
-// so cosine similarity is just a dot product.
+// e5 expects "query: " / "passage: " prefixes; the worker returns a normalized
+// vector (plain array), so cosine similarity is just a dot product.
 async function embedText(text) {
-  const out = await semantic.extractor(text, { pooling: "mean", normalize: true });
-  return out.data;
+  const res = await semanticAsk("embed", text);
+  return res.vec;
 }
 
 function dot(a, b) {

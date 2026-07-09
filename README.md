@@ -28,7 +28,8 @@ scripts/fetch_news.py                 RSS → data/news.json + data/sources.json
     매칭. 사전 기반이라 즉시 동작하고 다운로드가 없다.
   - `🧠 의미검색` 토글(옵트인): 켜면 브라우저 안에서 임베딩 모델(`Xenova/multilingual-e5-small`,
     transformers.js)을 **최초 1회만** 내려받아 진짜 의미 기반으로 검색한다. 서버·API 키 없이 브라우저에서
-    돌고 모델은 캐시된다. 로드 실패(오프라인·CDN 차단) 시 키워드 검색으로 자동 폴백한다.
+    돌고 모델은 캐시된다. 모델 로딩·추론은 **웹 워커**(`assets/semantic-worker.js`)에서 돌아 페이지가 멈추지
+    않는다. 로드 실패(오프라인·CDN 차단) 시 키워드 검색으로 자동 폴백한다.
 - **카테고리별 소스**: `#sources` 섹션이 `data/sources.json`(FEEDS 에서 생성)을 읽어 각 카테고리가
   어떤 매체(RSS)를 참조하는지 보여준다. FEEDS 를 고치면 소스 목록도 자동으로 따라간다.
 
