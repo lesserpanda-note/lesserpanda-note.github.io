@@ -92,13 +92,15 @@ function searchMatch(query, text) {
 }
 
 // One digest highlight: category badge + title (links to the article) + summary.
-function digestItem(h) {
+// dateLabel (optional) tags the item with the day it appeared — used by archive search.
+function digestItem(h, dateLabel) {
   const short = h.summary || h.note || "";
   const li = el("li", "digest-item");
   let html =
     `<div class="digest-head">` +
     `<span class="badge cat-${escapeHTML(h.category)}">${escapeHTML(h.category)}</span> ` +
     `<a href="${escapeHTML(h.link)}" target="_blank" rel="noopener">${escapeHTML(h.title)}</a>` +
+    (dateLabel ? ` <span class="digest-date">${escapeHTML(dateLabel)}</span>` : "") +
     `</div>`;
   if (short) html += `<p class="digest-item-summary">${escapeHTML(short)}</p>`;
   if (h.detail) {
@@ -145,17 +147,9 @@ function renderLastRun(status) {
     "last run time: " + fmtDate(status.checked_at, KST_FULL) + " KST" + note;
 }
 
-// Flatten a whole day's digest into one searchable string (date + summary + every
-// highlight's category/title/summary/detail), so a query hits any part of it.
-function digestSearchText(d) {
-  const parts = [d.date, d.summary];
-  for (const h of d.highlights || []) parts.push(h.category, h.title, h.summary, h.detail);
-  return parts.filter(Boolean).join(" ");
-}
-
-function archiveItem(d, open) {
+// One archived day, as a collapsible accordion (browse mode, no query).
+function archiveItem(d) {
   const det = el("details", "archive-item");
-  if (open) det.open = true;
   const summary = el("summary");
   summary.innerHTML =
     `<span class="archive-date">${escapeHTML(d.date || "")}</span>` +
@@ -174,28 +168,45 @@ function renderArchive(data) {
     wrap.appendChild(el("p", "empty", "아직 보관된 다이제스트가 없습니다. 매일 갱신되면 이전 다이제스트가 여기 쌓입니다."));
     return;
   }
-  const indexed = digests.map((d) => ({ d, text: digestSearchText(d) }));
+  // Flat index of every archived article, so a search returns matching ARTICLES
+  // (not whole days). Each entry carries its own searchable text and the day it ran.
+  const articles = [];
+  for (const d of digests) {
+    for (const h of d.highlights || []) {
+      articles.push({ h, date: d.date, text: [d.date, h.category, h.title, h.summary, h.detail].filter(Boolean).join(" ") });
+    }
+  }
 
   function draw(query) {
     const q = (query || "").trim();
     wrap.innerHTML = "";
-    let rows;
     if (!q) {
-      rows = indexed;
+      // Browse mode: one accordion per archived day.
       if (note) note.hidden = true;
-    } else {
-      rows = indexed
-        .map((x) => ({ x, r: searchMatch(q, x.text) }))
-        .filter((o) => o.r.match)
-        .sort((a, b) => b.r.score - a.r.score)
-        .map((o) => o.x);
-      if (note) { note.hidden = false; note.textContent = `"${q}" 검색 결과 ${rows.length}건`; }
+      for (const d of digests) wrap.appendChild(archiveItem(d));
+      return;
     }
-    if (!rows.length) {
+    // Search mode: flat, ranked list of matching articles only, deduped by link.
+    const ranked = articles
+      .map((a) => ({ a, r: searchMatch(q, a.text) }))
+      .filter((o) => o.r.match)
+      .sort((x, y) => y.r.score - x.r.score);
+    const seen = new Set();
+    const hits = [];
+    for (const { a } of ranked) {
+      const key = a.h.link || a.h.title;
+      if (seen.has(key)) continue;
+      seen.add(key);
+      hits.push(a);
+    }
+    if (note) { note.hidden = false; note.textContent = `"${q}" 검색 결과 ${hits.length}건`; }
+    if (!hits.length) {
       wrap.appendChild(el("p", "empty", "검색 결과가 없습니다. 다른 키워드로 시도해 보세요."));
       return;
     }
-    for (const { d } of rows) wrap.appendChild(archiveItem(d, Boolean(q)));
+    const ul = el("ul", "digest-list");
+    for (const a of hits) ul.appendChild(digestItem(a.h, a.date));
+    wrap.appendChild(ul);
   }
 
   if (input) input.addEventListener("input", () => draw(input.value));

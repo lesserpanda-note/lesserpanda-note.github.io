@@ -194,6 +194,7 @@ main {
 .digest-head { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
 .digest-head a { text-decoration: none; font-weight: 600; font-size: 0.98rem; }
 .digest-head a:hover { text-decoration: underline; }
+.digest-date { color: var(--muted); font-size: 0.76rem; white-space: nowrap; }
 .digest-item-summary { margin: 0.3rem 0 0; color: var(--muted); font-size: 0.9rem; line-height: 1.55; }
 .digest-detail { margin-top: 0.35rem; }
 .digest-detail > summary {
