@@ -91,6 +91,40 @@ function searchMatch(query, text) {
   return { match: true, score };
 }
 
+// --- true semantic search (opt-in) ------------------------------------------
+// Real embeddings via transformers.js, loaded from a CDN ONLY when the user turns
+// it on — casual visitors never pay the download. A multilingual model so Korean
+// queries match English articles by meaning, not just shared words. Everything
+// runs in the browser (no backend/keys); the model is cached after the first load.
+const SEMANTIC_MODEL = "Xenova/multilingual-e5-small";
+const SEMANTIC_CDN = "https://cdn.jsdelivr.net/npm/@xenova/transformers@2.17.2";
+const SEMANTIC_THRESHOLD = 0.8; // cosine cutoff for "related enough" (e5, normalized)
+const semantic = { status: "idle", extractor: null, embeddedCount: -1 };
+
+async function loadSemanticModel(onProgress) {
+  if (semantic.status === "ready") return;
+  const mod = await import(SEMANTIC_CDN);
+  mod.env.allowLocalModels = false; // fetch from the Hub, not same-origin
+  semantic.extractor = await mod.pipeline("feature-extraction", SEMANTIC_MODEL, {
+    quantized: true,
+    progress_callback: onProgress,
+  });
+  semantic.status = "ready";
+}
+
+// e5 expects "query: " / "passage: " prefixes; output is mean-pooled + normalized,
+// so cosine similarity is just a dot product.
+async function embedText(text) {
+  const out = await semantic.extractor(text, { pooling: "mean", normalize: true });
+  return out.data;
+}
+
+function dot(a, b) {
+  let s = 0;
+  for (let i = 0; i < a.length; i++) s += a[i] * b[i];
+  return s;
+}
+
 // One digest highlight: category badge + title (links to the article) + summary.
 // dateLabel (optional) tags the item with the day it appeared — used by archive search.
 function digestItem(h, dateLabel) {
@@ -163,6 +197,7 @@ function renderArchive(data) {
   const wrap = document.getElementById("archive-list");
   const note = document.getElementById("archive-search-note");
   const input = document.getElementById("archive-search");
+  const toggle = document.getElementById("archive-semantic-toggle");
   const digests = (data && data.digests) || [];
   if (!digests.length) {
     wrap.appendChild(el("p", "empty", "아직 보관된 다이제스트가 없습니다. 매일 갱신되면 이전 다이제스트가 여기 쌓입니다."));
@@ -177,29 +212,34 @@ function renderArchive(data) {
     }
   }
 
-  function draw(query) {
-    const q = (query || "").trim();
-    wrap.innerHTML = "";
-    if (!q) {
-      // Browse mode: one accordion per archived day.
-      if (note) note.hidden = true;
-      for (const d of digests) wrap.appendChild(archiveItem(d));
-      return;
-    }
-    // Search mode: flat, ranked list of matching articles only, deduped by link.
-    const ranked = articles
-      .map((a) => ({ a, r: searchMatch(q, a.text) }))
-      .filter((o) => o.r.match)
-      .sort((x, y) => y.r.score - x.r.score);
+  let useSemantic = false;
+
+  const setNote = (txt) => {
+    if (!note) return;
+    if (txt) { note.hidden = false; note.textContent = txt; } else { note.hidden = true; }
+  };
+
+  const dedupe = (list) => {
     const seen = new Set();
-    const hits = [];
-    for (const { a } of ranked) {
+    const out = [];
+    for (const a of list) {
       const key = a.h.link || a.h.title;
       if (seen.has(key)) continue;
       seen.add(key);
-      hits.push(a);
+      out.push(a);
     }
-    if (note) { note.hidden = false; note.textContent = `"${q}" 검색 결과 ${hits.length}건`; }
+    return out;
+  };
+
+  function showBrowse() {
+    wrap.innerHTML = "";
+    setNote("");
+    for (const d of digests) wrap.appendChild(archiveItem(d));
+  }
+
+  function showHits(hits, label) {
+    wrap.innerHTML = "";
+    setNote(label);
     if (!hits.length) {
       wrap.appendChild(el("p", "empty", "검색 결과가 없습니다. 다른 키워드로 시도해 보세요."));
       return;
@@ -209,8 +249,70 @@ function renderArchive(data) {
     wrap.appendChild(ul);
   }
 
-  if (input) input.addEventListener("input", () => draw(input.value));
-  draw("");
+  function keywordSearch(q) {
+    const ranked = articles
+      .map((a) => ({ a, r: searchMatch(q, a.text) }))
+      .filter((o) => o.r.match)
+      .sort((x, y) => y.r.score - x.r.score)
+      .map((o) => o.a);
+    const hits = dedupe(ranked);
+    showHits(hits, `"${q}" 검색 결과 ${hits.length}건`);
+  }
+
+  async function ensureEmbeddings() {
+    if (semantic.embeddedCount === articles.length) return;
+    for (let i = 0; i < articles.length; i++) {
+      setNote(`문서 의미 분석 중… ${i + 1}/${articles.length}`);
+      articles[i].vec = await embedText("passage: " + articles[i].text);
+    }
+    semantic.embeddedCount = articles.length;
+  }
+
+  async function semanticSearch(q) {
+    try {
+      if (semantic.status !== "ready") {
+        setNote("의미검색 AI 모델 준비 중… (최초 1회 다운로드, 이후 캐시됨)");
+        await loadSemanticModel((p) => {
+          if (p && p.status === "progress" && p.total) {
+            setNote(`모델 다운로드 중… ${Math.round((p.loaded / p.total) * 100)}%`);
+          }
+        });
+      }
+      await ensureEmbeddings();
+      setNote("의미 분석 중…");
+      const qv = await embedText("query: " + q);
+      const scored = articles
+        .map((a) => ({ a, score: dot(qv, a.vec) }))
+        .sort((x, y) => y.score - x.score);
+      let picked = scored.filter((s) => s.score >= SEMANTIC_THRESHOLD);
+      if (picked.length < 3) picked = scored.slice(0, 8); // show nearest even if below cutoff
+      const hits = dedupe(picked.map((s) => s.a));
+      showHits(hits, `"${q}" 의미검색 결과 ${hits.length}건`);
+    } catch (err) {
+      console.warn("semantic search failed, falling back to keyword:", err);
+      useSemantic = false;
+      if (toggle) { toggle.classList.remove("on"); toggle.setAttribute("aria-pressed", "false"); }
+      keywordSearch(q);
+      setNote("의미검색 모델을 불러오지 못해 키워드 검색으로 대체했습니다.");
+    }
+  }
+
+  function run() {
+    const q = ((input && input.value) || "").trim();
+    if (!q) { showBrowse(); return; }
+    if (useSemantic) semanticSearch(q); else keywordSearch(q);
+  }
+
+  let debounce;
+  if (input) input.addEventListener("input", () => { clearTimeout(debounce); debounce = setTimeout(run, 180); });
+  if (toggle) toggle.addEventListener("click", () => {
+    useSemantic = !useSemantic;
+    toggle.classList.toggle("on", useSemantic);
+    toggle.setAttribute("aria-pressed", String(useSemantic));
+    input.placeholder = useSemantic ? "의미로 검색… (뜻이 비슷한 글까지)" : "검색… (예: 예측 모델, RAG)";
+    run();
+  });
+  showBrowse();
 }
 
 const NEWS_PAGE = 24; // cards per "더 보기" step — rendering all 480+ at once is wasteful
