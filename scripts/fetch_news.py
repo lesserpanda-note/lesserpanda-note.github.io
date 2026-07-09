@@ -69,6 +69,8 @@ FEEDS = [
     ("https://machinelearningmastery.com/feed/", "ML Mastery", "DataScience"),
     ("https://www.kdnuggets.com/feed", "KDnuggets", "DataScience"),
     ("https://www.analyticsvidhya.com/blog/feed/", "Analytics Vidhya", "DataScience"),
+    ("https://towardsdatascience.com/feed", "Towards Data Science", "DataScience"),
+    ("https://simplystatistics.org/index.xml", "Simply Statistics", "DataScience"),
 ]
 
 USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"
