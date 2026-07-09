@@ -1,6 +1,68 @@
 {
   "digests": [
     {
+      "date": "2026-07-08",
+      "summary": "오늘은 AI 코딩 도구와 에이전트 인프라가 성숙 단계로 진입하는 흐름이 두드러집니다. Anthropic이 Claude Code의 탄생 스토리와 6개월 만에 ARR 10억 달러 달성을 공식 공개했으며, Google과 AWS는 각각 Gemini Managed Agents와 DevOps Agent에 비동기 태스크·원격 MCP·자율 릴리즈 테스트 등 프로덕션 운영에 필요한 핵심 기능을 추가했습니다. 한편 Martin Fowler의 로컬 모델 실험 메모는 로컬 AI의 에이전틱 코딩 한계를 솔직하게 정리해, 클라우드 모델과의 실용성 격차를 판단하는 귀중한 기준점을 제공합니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Closing the Visual Gap Between the Official Lottie Webplayer and Lottie4J",
+          "link": "https://foojay.io/today/closing-the-visual-gap-between-the-official-lottie-webplayer-and-lottie4j/",
+          "summary": "Java용 Lottie 애니메이션 라이브러리 Lottie4J의 렌더링 결과가 공식 Lottie 웹플레이어와 달라지는 시각적 불일치 문제를 해결하는 과정을 다룹니다.",
+          "detail": "Lottie4J는 Java 플랫폼에서 Adobe After Effects 기반 Lottie 애니메이션을 재생하기 위한 라이브러리입니다. 이번 글은 공식 Lottie 웹플레이어와의 시각적 차이(Visual Gap)를 줄이는 기술적 개선 작업에 초점을 맞춥니다.\n핵심 전제: 예외가 발생하지 않고 코드가 올바르게 보이더라도, 공식 웹플레이어와 다르게 렌더링된다면 그것은 버그입니다. Lottie 라이브러리의 품질은 최종 출력 결과물의 외관으로 판단해야 합니다.\n이번 작업은 공식 웹플레이어를 참조 구현으로 삼아 렌더링 충실도를 높이는 구체적인 개선 사항과 테스트 방법론을 담고 있습니다. Java 생태계에서 Lottie 애니메이션의 품질을 향상시키고자 하는 개발자에게 유용한 실전 사례입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+          "summary": "Google이 Gemini API Managed Agents에 백그라운드 태스크, 원격 MCP 서버 연동, 커스텀 함수 호출, 자격증명 갱신 등 4가지 신기능을 추가해 프로덕션 에이전트 개발의 복잡성을 대폭 줄였습니다.",
+          "detail": "Google이 Gemini API Managed Agents를 확장해 프로덕션 에이전트 구축의 비용·복잡성·마찰을 줄이는 4가지 신기능을 발표했습니다.\n① 백그라운드 태스크(Background Tasks): background: true 플래그 하나로 장기 에이전트 작업을 비동기 서버 워커로 실행합니다. HTTP 연결을 유지하지 않아도 되어 타임아웃 문제를 해소하고, 클라이언트는 폴링으로 결과를 받습니다.\n② 원격 MCP 지원(Remote MCP): Managed Agent가 외부 MCP 서버에 직접 연결해 내부 DB나 API에 접근할 수 있습니다. 내장 도구(Google Search, 코드 실행)와 혼합 사용도 가능합니다. 요청 본문에 도구를 지정하면 그 턴의 사전 설정된 도구를 완전히 재정의합니다.\n③ 커스텀 함수 호출(Custom Function Calling): 서버 사이드 내장 도구와 클라이언트 사이드 커스텀 함수를 하나의 에이전트 턴에서 혼합 실행합니다. 커스텀 함수 호출 시 상태가 requires_action으로 전환되어 클라이언트가 로컬 비즈니스 로직을 실행합니다.\n④ 자격증명 갱신(Credential Refresh): 토큰 만료 시 샌드박스 파일 시스템·패키지 상태를 유지한 채 자격증명만 교체할 수 있습니다."
+        },
+        {
+          "category": "AI",
+          "title": "AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code Before Production",
+          "link": "https://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "AWS DevOps Agent가 릴리즈 관리 기능(프리뷰)을 출시했습니다. 코드 변경 사항을 프로덕션 배포 전에 AI가 자율적으로 검토·테스트하는 두 가지 기능을 제공합니다.",
+          "detail": "AWS DevOps Agent가 릴리즈 관리 기능을 프리뷰로 공개했습니다. 인시던트 조사에 이어 소프트웨어 릴리즈 파이프라인 전반을 담당하는 '프런티어 에이전트'로 진화하는 행보입니다.\n신규 릴리즈 관리 기능은 두 가지입니다.\n① Release Readiness Review: 코드 작성 중 변경 사항의 프로덕션 안정성을 평가합니다. 내부 기준 위반, 종속성 영향, 액세스 제어 문제를 탐지하고, AWS Well-Architected 모범 사례 준수를 결정론적으로 검증합니다. 결과는 GitHub·GitLab PR 댓글 및 콘솔에 표시되며, IDE(Kiro·Claude Code 플러그인)에서도 직접 호출 가능합니다.\n② Autonomous Release Testing: 정적 테스트 스위트 대신 코드 변경을 분석해 맞춤 테스트 계획을 생성·실행합니다. 기능 정확성, 회귀, 통합 시나리오를 프로덕션 유사 환경에서 검증합니다.\n기존 인시던트 조사 기능의 고객 지표: MTTR 75% 단축, 조사 속도 80% 향상, 루트 원인 정확도 94%. 릴리즈 관리 프리뷰는 현재 미국 동부(N. Virginia) 리전에서만 제공되며 프리뷰 기간 중 무료입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "The Making of Claude Code",
+          "link": "https://www.anthropic.com/features/making-of-claude-code",
+          "summary": "Anthropic이 Claude Code의 탄생과 성장 과정을 공식 기사로 공개했습니다. 2인팀이 만든 터미널 네이티브 AI 코딩 도구가 6개월 만에 ARR 10억 달러를 달성했습니다.",
+          "detail": "Anthropic이 Claude Code의 내부 개발 스토리를 공개했습니다.\n기원: 2024년 9월 합류한 보리스 체르니가 첫 주에 Claude에 bash 접근 권한을 부여한 프로토타입을 제작, 내부에 급속히 확산됐습니다. 2024년 11월 사내 배포 당일 Anthropic 엔지니어의 20%, 5일 내 50%가 사용했습니다.\n설계 철학: 에디터 통합 경쟁사와 달리 Unix 유틸리티로 설계. \"가장 단순한 방법부터\"를 원칙으로 최소 UI와 완전한 컴포저빌리티를 추구했습니다.\n성장: 2025년 2월 24일 연구 미리보기 출시, 2025년 5월 22일 GA. GA 시점 Anthropic 엔지니어 80% 이상이 매일 사용합니다.\n비즈니스 성과: GA 후 약 6개월 만에 ARR 10억 달러 달성(ChatGPT보다 빠른 속도), AI 코딩 시장 과반 점유.\n생산성: 2026년 5월 기준 Anthropic 프로덕션 코드의 80% 이상이 Claude 작성. 엔지니어 1인당 코드 병합량이 2024년 대비 8배 증가. 보리스 체르니는 8개월째 코드를 직접 작성하지 않고 하루 10~30개 PR을 출시합니다.\n모델 성능: 복잡한 엔지니어링 과제 성공률이 2026년 5월 76%로 6개월 만에 50%포인트 향상됐습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] The Field Guide to Fable",
+          "link": "https://www.latent.space/p/ainews-the-field-guide-to-fable",
+          "summary": "AI Engineer World's Fair 2026에서 Anthropic Claude Code팀의 타리크 시히파르가 발표한 'Fable 현장 가이드'가 3일 만에 200만 뷰를 기록했습니다. Fable 5를 활용한 실용 프롬프트 프레임워크와 에이전트 운영 인사이트를 제공합니다.",
+          "detail": "AI Engineer World's Fair 2026에서 타리크 시히파르(Anthropic Claude Code팀)가 발표한 'A Field Guide to Fable'가 3일 만에 200만 뷰를 기록했습니다.\n핵심 주제: 에이전틱 코딩의 병목은 모델 지능이 아닌 인간의 요구사항 파악 능력. \"Fable는 이미 충분히 뛰어나며, 모델은 설계되는 게 아니라 성장한다\"는 전제에서 출발합니다.\n정보 격차 4분류: ①알고 알려진 것, ②알고 모르는 것, ③모르고 알려진 것, ④모르고 모르는 것. 발표의 핵심은 ④(unknown-unknowns)를 사전에 파악하는 것입니다.\n6가지 실용 방법: ①맹점 패스(Claude에게 누락 사항 파악 요청), ②구조화 인터뷰(역할 전환 - Claude가 질문), ③구현 노트(결정 사항 마크다운 기록), ④브레이닝스토밍·프로토타입, ⑤사전 계획(데이터 모델·타입 인터페이스 중심), ⑥사후 리뷰(피치+퀴즈 형식)\n주목할 사실: Anthropic은 Fable 5용 Claude Code 시스템 프롬프트를 80% 단축했습니다. 상세한 예시가 오히려 모델을 제약한다는 이유입니다. AutomationBench에서 Fable 5는 48.6%로 1위입니다.\nLatent Space가 Anthropic의 J-space(전역 작업 기억 공간) 해석 가능성 연구도 함께 소개했습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Viability of local models for coding",
+          "link": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
+          "summary": "Martin Fowler의 'Exploring Generative AI' 시리즈에서 로컬 AI 모델의 코딩 지원 실용성을 평가합니다. 자동완성에는 충분하나 에이전틱 코딩 품질에서는 클라우드 모델과 여전히 격차가 있습니다.",
+          "detail": "Martin Fowler의 'Exploring Generative AI' 시리즈 최신 메모로, Thoughtworks 기술자들이 로컬 모델로 실제 코딩 작업을 시도한 결과를 정리합니다.\n핵심 발견:\n① RAM이 1차 제약: 48GB 머신 기준 15~25GB 범위 모델이 실용적인 균형점. 모델 가중치가 사용 가능 메모리에 들어와야 나머지가 의미 있습니다.\n② 컨텍스트 창: 에이전틱 사용에 최소 32K 토큰, 실용 기본값은 64K. 기본 설정이 낮아 수동 조정이 필요합니다.\n③ 환경: Apple Silicon(M3 Max / M5 Pro) + LM Studio + GGUF/MLX 포맷 + 4비트 양자화(Q4_K_M) 조합 사용.\n④ 속도: 1년 전보다 상당히 빨라졌으나 클라우드 모델과는 여전히 격차.\n⑤ 에이전틱 사용의 약점: 도구 호출 안정성이 낮음. 잘못된 파라미터·문법 오류가 자주 발생하나 자체 수정으로 복구. 에이전틱 코딩 품질은 대형 클라우드 모델에 미치지 못합니다.\n⑥ 추천 모델: Qwen3.6 35B MoE가 파라미터 수 대비 RAM 효율에서 최고 평가."
+        },
+        {
+          "category": "Python",
+          "title": "Testing MCP Servers With a Python MCP Client",
+          "link": "https://realpython.com/courses/testing-mcp-servers-with-a-python-mcp-client/",
+          "summary": "Python MCP SDK로 터미널에서 MCP 서버를 직접 테스트하는 최소 클라이언트를 구축하는 Real Python 강좌입니다. AI 호스트 없이 MCP 서버의 도구·프롬프트·리소스를 결정론적으로 검증할 수 있습니다.",
+          "detail": "MCP(Model Context Protocol) 서버를 AI 호스트 없이 직접 테스트하는 Python 클라이언트 구축을 다루는 Real Python 강좌(17강, 1시간 16분, 중급, 2026-07-07 업데이트)입니다.\n핵심 내용:\n① 전송 방식: stdio(표준 입출력)로 서버 프로세스와 직접 통신. 별도 인프라 없이 로컬 MCP 서버를 즉시 테스트합니다.\n② 핵심 API: mcp.ClientSession의 list_tools(), list_prompts(), list_resources()로 서버의 역량을 탐색하고, call_tool(), get_prompt(), read_resource()로 실제 호출합니다.\n③ 리소스 관리: AsyncExitStack으로 스트림·세션의 안전한 획득과 정리를 보장합니다.\n④ AI 채팅 통합: OpenAI Python SDK와 연결해 MCP 도구 응답이 AI 채팅 루프에 피드되는 구조도 다룹니다.\n⑤ 프로젝트 관리: uv 기반 설정, argparse CLI 패키징까지 포함합니다.\n핵심 메시지: 자체 제작 MCP 클라이언트가 AI 호스트에 의존하지 않고 서버를 격리 테스트하는 가장 신뢰성 높은 방법입니다."
+        },
+        {
+          "category": "Python",
+          "title": "Quiz: Testing MCP Servers With a Python MCP Client",
+          "link": "https://realpython.com/quizzes/testing-mcp-servers-with-a-python-mcp-client/",
+          "summary": "위 강좌에 대응하는 Real Python 퀴즈로, Python MCP 클라이언트 구축의 핵심 개념을 5문항으로 점검합니다.",
+          "detail": "'Testing MCP Servers With a Python MCP Client' 강좌에 대응하는 Real Python 퀴즈입니다. 5문항, 제한 시간 없음, 100점 만점입니다.\n다루는 핵심 개념:\n① MCP(Model Context Protocol)의 역할과 Python SDK 활용법\n② stdio 전송 방식과 로컬 서버 프로세스 간 통신 원리\n③ ClientSession의 주요 API(list_tools, call_tool, list_prompts, read_resource 등)와 사용 시점\n④ AsyncExitStack을 활용한 비동기 리소스 정리 패턴\n⑤ OpenAI SDK와 MCP를 결합한 AI 채팅 통합 구조\n퀴즈를 통해 MCP 서버 격리 테스트의 핵심 패턴과 Python MCP 클라이언트 설계 원리를 실용적으로 확인할 수 있습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-07",
       "summary": "오늘은 AI 에이전트 생태계의 기업화와 인프라 성숙을 보여주는 중요한 소식들이 이어집니다. MCP가 기업용 중앙화 인증(EMA)을 안정 버전으로 승격해 AI 에이전트의 기업 도입 기반을 강화했고, Cloudflare와 AWS가 x402 에이전트 결제 프로토콜을 동시에 에지 네트워크에 구현하며 에이전트 경제 인프라가 본격화되고 있습니다. Netflix의 Cassandra 동적 파티션 분할 사례는 대규모 시계열 워크로드에서 읽기 지연을 초 단위에서 밀리초 단위로 극적으로 줄인 실전 아키텍처 성과를 보여줍니다.",
       "highlights": [
