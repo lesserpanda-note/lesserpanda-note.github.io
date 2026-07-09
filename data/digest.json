@@ -74,24 +74,24 @@
     },
     {
       "category": "DataScience",
-      "title": "Introducing Nested Learning: A new ML paradigm for continual learning",
-      "link": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
-      "summary": "Google Research가 모델이 기존 지식을 잊지 않고 지속적으로 학습하도록 하는 새로운 ML 패러다임 'Nested Learning'을 공개했습니다(NeurIPS 2025).",
-      "detail": "Google Research가 2025년 11월 공개한 'Nested Learning'은 지속 학습(continual learning)을 위한 새로운 머신러닝 패러다임입니다. 논문 'Nested Learning: The Illusion of Deep Learning Architectures'로 NeurIPS 2025에서 발표됐습니다.\n- 핵심 아이디어: 하나의 ML 모델을 단일한 연속 과정이 아니라, 서로 다른 갱신 주기를 갖고 동시에 최적화되는 다층·중첩된 학습 문제들의 시스템으로 바라봅니다.\n- 목표: 신경망이 새 데이터를 학습할 때 이전에 배운 내용을 잊어버리는 '치명적 망각(catastrophic forgetting)' 문제를 구조적으로 완화합니다.\n- Hope 모델: 이 패러다임을 구현한 자기수정(self-modifying) 아키텍처 개념검증 모델로, 언어 모델링·지속 학습·롱컨텍스트 추론에서 기존 최신 모델보다 우수한 성능과 더 나은 장기 메모리 관리를 보였습니다.\n- 연구진: 학생 연구원 Ali Behrouz와 VP·Google Fellow Vahab Mirrokni가 주도했습니다.\n- 데이터 사이언스·모델 학습 관점에서 파인튜닝·온라인 학습 시 성능 저하 없이 모델을 계속 업데이트하는 방향에 시사점이 큽니다."
+      "title": "7 XGBoost Tricks for More Accurate Predictive Models",
+      "link": "https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models",
+      "summary": "KDnuggets가 표(tabular) 데이터 예측모델의 정확도를 끌어올리는 XGBoost 실전 팁 7가지를 정리했습니다. 수요·판매·이탈 예측 등 실무 모델링에 바로 쓰는 기법입니다.",
+      "detail": "KDnuggets가 실무에서 XGBoost 예측모델의 정확도를 높이는 7가지 실전 테크닉을 정리한 글입니다(2026-02).\n- XGBoost는 정형(표) 데이터의 분류·회귀 예측에서 사실상 표준으로, 여러 약한 결정 트리를 앙상블해 강한 예측모델을 만드는 그래디언트 부스팅 기법입니다.\n- 다루는 팁: 조기 종료(early stopping), 학습률·트리 수 균형, 정규화(L1/L2)로 과적합 억제, 하이퍼파라미터 튜닝, 교차검증 기반 평가, 특성 중요도 활용, 범주형/결측치 처리 등 실무에서 즉시 적용 가능한 방법들입니다.\n- 티켓 판매·수요 예측, 고객 이탈, 신용 스코어링처럼 표 데이터로 예측모델을 만드는 데이터 사이언티스트가 바로 참고할 수 있는 실용 가이드입니다.\n- scikit-learn 호환 API로 쓰이므로 기존 파이프라인에 그대로 통합할 수 있습니다."
     },
     {
       "category": "DataScience",
-      "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
-      "link": "https://deepmind.google/blog/decoupled-diloco/",
-      "summary": "Google DeepMind이 대규모 학습을 분리된 컴퓨트 '섬'으로 나눠 비동기로 진행하는 내결함성 분산 학습 기법 Decoupled DiLoCo를 공개했습니다.",
-      "detail": "Google DeepMind의 Decoupled DiLoCo(Distributed Low-Communication)는 대규모 모델 학습을 여러 데이터센터·클러스터에 안정적으로 분산하기 위한 기법입니다.\n- 구조: 대규모 학습 작업을 서로 느슨하게 결합된 컴퓨트 '섬(islands)'으로 나누고, 섬 사이에는 비동기(asynchronous)로 데이터를 주고받아 통신 병목을 줄입니다.\n- 내결함성: 일부 하드웨어가 고장 나도 전통적 동기식 분산 학습보다 학습 클러스터의 가용성을 더 높게 유지합니다.\n- 성능: Gemma 4 모델 학습 실험에서 동일한 벤치마크 성능을 유지하면서도 장애 상황에서 더 강건한 학습이 가능함을 입증했습니다.\n- 데이터 사이언스·MLOps 관점에서 지리적으로 분산된 GPU 자원을 활용한 초대규모 모델 학습의 안정성과 확장성을 높이는 최신 접근으로 참고할 만합니다."
+      "title": "Top 10 Machine Learning Algorithms in 2026",
+      "link": "https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/",
+      "summary": "Analytics Vidhya가 2026년 기준 예측에 가장 많이 쓰는 머신러닝 알고리즘 10가지를 정리했습니다. 선형·로지스틱 회귀부터 그래디언트 부스팅·랜덤 포레스트까지 어떤 예측 문제에 무엇을 쓸지 짚어줍니다.",
+      "detail": "Analytics Vidhya가 2026년 기준으로 갱신한 '핵심 머신러닝 알고리즘 10선'입니다. 예측모델을 만들 때 문제 유형별로 어떤 알고리즘을 고를지 판단하는 지도 역할을 합니다.\n- 선형 회귀(Linear Regression): Y = a*X + b 형태로 연속값을 예측하며, 판매 예측·마케팅 예산·초기 추세 분석의 해석 쉬운 출발점입니다.\n- 로지스틱 회귀(Logistic Regression): 분류 문제에서 소속 확률을 출력해 고객 이탈·신용 승인 같은 의사결정에 유용합니다.\n- 그래디언트 부스팅(GBM/XGBoost 등): 정형 데이터의 비선형 패턴을 정밀하게 잡아 금융 모델링·사기 탐지·신용 스코어링에서 성능 벤치마크를 주도합니다.\n- 의사결정나무·랜덤 포레스트: 분류·회귀 모두에 쓰이는 견고한 앙상블 기법입니다.\n- 신경망(Neural Networks): 대규모·복잡 패턴 데이터에서 최고 정확도를 내지만 연산 비용이 큽니다.\n- '무슨 방정식/모델을 언제 쓰나'를 한눈에 정리해, 예측모델을 설계하는 데이터 사이언티스트가 알고리즘 선택 기준으로 삼기 좋습니다."
     },
     {
       "category": "DataScience",
-      "title": "7 Machine Learning Trends to Watch in 2026",
-      "link": "https://machinelearningmastery.com/7-machine-learning-trends-to-watch-in-2026/",
-      "summary": "Machine Learning Mastery가 2026년 주목할 머신러닝 트렌드 7가지를 정리했습니다. 특화된 소형 모델, 행동 지향 ML 시스템, 도메인 특화 모델 등이 핵심입니다.",
-      "detail": "Machine Learning Mastery가 2026년 실무 관점에서 주목해야 할 머신러닝 트렌드를 정리한 글입니다.\n- 특화·소형 모델의 부상: 벤치마크 성능보다 특정 과제에 최적화된 소형 모델이 실용성 면에서 앞서며, 실행 비용이 낮고 응답이 빠르며 로컬 서버나 애플리케이션 내부에 직접 배포하기 쉽습니다.\n- 행동 지향(action-oriented) ML: 예측만 하던 시스템에서 실제 워크플로를 구동하고 스스로 행동하는 시스템으로 진화하는 흐름을 다룹니다.\n- 소형 언어 모델(SLM) 파인튜닝: 소형 모델을 특정 과제에 파인튜닝해 단일 소비자용 GPU에서도 대형 모델급 성능을 내는 사례가 늘고 있습니다.\n- 도메인 특화 모델: 산업별 전문 용어와 맥락을 이해하는 도메인 특화 모델이 환각(hallucination)을 줄이고 정확도·신뢰성을 높입니다.\n- 데이터 사이언스·모델 학습 실무자가 2026년 프로젝트 방향을 잡는 데 도움이 되는 실용 가이드입니다."
+      "title": "10 Lesser-Known Python Libraries Every Data Scientist Should Be Using in 2026",
+      "link": "https://www.kdnuggets.com/10-lesser-known-python-libraries-every-data-scientist-should-be-using-in-2026",
+      "summary": "KDnuggets가 pandas·scikit-learn 같은 표준 도구 외에, 2026년 예측모델링 생산성을 높여줄 덜 알려진 Python 라이브러리 10종을 소개합니다. 새로 챙길 프레임워크·도구가 궁금할 때 참고하기 좋습니다.",
+      "detail": "KDnuggets가 2026년 데이터 사이언티스트가 챙기면 좋은, 상대적으로 덜 알려진 Python 라이브러리 10종을 정리한 글입니다.\n- 표준 스택(NumPy·pandas·scikit-learn) 너머에서 데이터 처리·모델링·평가 워크플로를 더 빠르고 편하게 만들어 주는 도구들을 다룹니다.\n- 최근 데이터 사이언스 생태계에서는 Rust 기반 고성능 데이터프레임 Polars 등 새로운 라이브러리가 빠르게 자리 잡고 있어, 표준 도구만으로는 놓치기 쉬운 성능·생산성 이점을 소개합니다.\n- 특성공학·모델 실험·시각화·성능 최적화 등 예측모델 파이프라인 각 단계에서 바로 적용할 수 있는 라이브러리들을 짚어 줍니다.\n- '새로 나온 프레임워크·라이브러리를 뭘 써봐야 하나'가 궁금한 실무자에게, 검증된 최신 도구를 빠르게 훑는 큐레이션 역할을 합니다."
     }
   ]
 }
