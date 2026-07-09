@@ -1,7 +1,25 @@
 {
-  "updated": "2026-07-09T08:08:02.288384+00:00",
-  "count": 443,
+  "updated": "2026-07-09T09:41:17.136867+00:00",
+  "count": 446,
   "items": [
+    {
+      "title": "Article: Beat-Aligned Mobile Audio Streaming with Virtual Chunks and Native Playback",
+      "link": "https://www.infoq.com/articles/android-beat-aligned-mobile-audio-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In this article, I describe the challenges and the design of a React Native real-time mobile beat-aligned playback system for iOS and Android. The system combines personalization with low-latency, and seamless navigatio…",
+      "ts": 1783587600,
+      "published": "2026-07-09T09:00:00+00:00"
+    },
+    {
+      "title": "The Java Story: A Film About All of Us",
+      "link": "https://foojay.io/today/the-java-story-a-film-about-all-of-us/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Every so often a story comes along that belongs to an entire community rather than any one company or person. The Java Story documentary by CultRepo is one of those. On July 17th at 7pm UTC, the official Java documentar…",
+      "ts": 1783586639,
+      "published": "2026-07-09T08:43:59+00:00"
+    },
     {
       "title": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database",
       "link": "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -46,6 +64,15 @@
       "summary": "What's Changed 🚀 Features Support azure-responses:[model-id] shorthand by @hramezani in #6355 Add xAI grok-4.5 model by @dsfaccini in #6362 🐛 Bug Fixes fix: handle boolean JSON Schema nodes in function signature walker…",
       "ts": 1783562201,
       "published": "2026-07-09T01:56:41+00:00"
+    },
+    {
+      "title": "Episode 61 “Scripting JS and Python with Project Detroit” [AtA]",
+      "link": "https://inside.java/2026/07/09/podcast-061/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "OpenJDK recently resurrected Project Detroit, an effort to ease Java's interoperability with Python and JavaScript.",
+      "ts": 1783555200,
+      "published": "2026-07-09T00:00:00+00:00"
     },
     {
       "title": "Rewriting Bun in Rust",
