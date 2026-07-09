@@ -243,6 +243,15 @@ function renderArchive(data) {
     if (!note) return;
     if (txt) { note.hidden = false; note.textContent = txt; } else { note.hidden = true; }
   };
+  // Progress fires very often (per download chunk / per article); repainting the
+  // note that fast can jank the main thread. Coalesce to ~5 updates/sec.
+  let lastNoteAt = 0;
+  const setNoteSoon = (txt) => {
+    const now = Date.now();
+    if (now - lastNoteAt < 200) return;
+    lastNoteAt = now;
+    setNote(txt);
+  };
 
   const dedupe = (list) => {
     const seen = new Set();
@@ -287,7 +296,7 @@ function renderArchive(data) {
   async function ensureEmbeddings() {
     if (semantic.embeddedCount === articles.length) return;
     for (let i = 0; i < articles.length; i++) {
-      setNote(`문서 의미 분석 중… ${i + 1}/${articles.length}`);
+      setNoteSoon(`문서 의미 분석 중… ${i + 1}/${articles.length}`);
       articles[i].vec = await embedText("passage: " + articles[i].text);
     }
     semantic.embeddedCount = articles.length;
@@ -311,7 +320,7 @@ function renderArchive(data) {
           for (const k in files) { loaded += files[k].loaded; total += files[k].total; }
           const pct = Math.max(shownPct, Math.min(99, Math.round((loaded / total) * 100)));
           shownPct = pct;
-          setNote(`의미검색 모델 다운로드 중… ${pct}% (${(loaded / 1e6).toFixed(0)}MB)`);
+          setNoteSoon(`의미검색 모델 다운로드 중… ${pct}% (${(loaded / 1e6).toFixed(0)}MB)`);
         });
       }
       await ensureEmbeddings();
