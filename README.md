@@ -9,15 +9,25 @@ Java · Spring Boot · AI 최신 뉴스를 모아 보여주는 정적 사이트.
 ```
 index.html                            화면 (바닐라 HTML/CSS/JS)
 assets/style.css                      스타일 (라이트/다크 자동)
-assets/app.js                         data/*.json 을 읽어 렌더 (뉴스·다이제스트·아카이브)
+assets/app.js                         data/*.json 을 읽어 렌더 (뉴스·다이제스트·아카이브·소스) + 검색
 data/news.json                        RSS 수집 결과 (배치가 생성)
 data/digest.json                      오늘의 데일리 다이제스트
 data/archive.json                     지난 다이제스트 보관
 data/digest-status.json               다이제스트 루틴 실행 heartbeat (마지막 실행 시각)
-scripts/fetch_news.py                 RSS → data/news.json (피드 병렬 수집)
+data/sources.json                     카테고리별 참조 소스 (FEEDS 에서 fetch_news.py 가 생성)
+scripts/fetch_news.py                 RSS → data/news.json + data/sources.json (피드 병렬 수집)
 .github/workflows/deploy.yml          6시간마다 뉴스 재생성 + 배포
 .github/workflows/promote-digest.yml  다이제스트 루틴 산출물을 main 으로 승격
 ```
+
+## 검색 · 소스 페이지
+
+- **뉴스 검색**: 카테고리 필터와 함께 제목·요약·출처를 즉시 필터링.
+- **아카이브 검색(의미 검색)**: 백엔드가 없는 정적 사이트라, 다국어 동의어 확장 + 관련도 랭킹으로
+  구현한다(예: 한글 `예측` 질의가 영어 `prediction`·`forecast` 기사까지 매칭). 진짜 임베딩은 아니고
+  키워드 기반이지만, 한↔영 혼재 콘텐츠에서 의미 기반에 가까운 결과를 준다. 매칭된 날짜는 자동으로 펼쳐진다.
+- **카테고리별 소스**: `#sources` 섹션이 `data/sources.json`(FEEDS 에서 생성)을 읽어 각 카테고리가
+  어떤 매체(RSS)를 참조하는지 보여준다. FEEDS 를 고치면 소스 목록도 자동으로 따라간다.
 
 ## 뉴스 출처
 

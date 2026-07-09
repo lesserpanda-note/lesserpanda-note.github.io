@@ -16,6 +16,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 import feedparser
 
@@ -81,6 +82,7 @@ MAX_WORKERS = 8  # feeds are network-bound; fetch them concurrently, not one by 
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "news.json"
+SOURCES_OUT = ROOT / "data" / "sources.json"
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
@@ -146,8 +148,47 @@ def load_existing() -> list[dict]:
     return prev.get("items", []) if isinstance(prev, dict) else []
 
 
+def source_home(feed_url: str) -> str:
+    """Human-facing homepage for a feed URL (the page shows sources, not raw feeds)."""
+    p = urlparse(feed_url)
+    host = p.netloc
+    if "hnrss.org" in host:
+        return "https://news.ycombinator.com/"
+    if "anthropic" in feed_url.lower():  # community RSS mirror -> the real news page
+        return "https://www.anthropic.com/news"
+    if host.startswith("feed.infoq.com") or host.startswith("feed.") and "infoq" in host:
+        return "https://www.infoq.com/"
+    # GitHub release feeds: .../owner/repo/releases.atom -> the repo page.
+    if host == "github.com" and p.path.endswith("/releases.atom"):
+        return f"https://github.com{p.path[: -len('/releases.atom')]}"
+    return f"{p.scheme}://{host}/"
+
+
+def write_sources() -> None:
+    """Emit data/sources.json (category -> sources) from FEEDS, the single source of
+    truth, so the site's 'sources per category' page never drifts from what we fetch."""
+    by_category: dict[str, list[dict]] = {}
+    seen: set[tuple[str, str]] = set()  # (category, source) — dedupe HN's many queries
+    for url, source, category in FEEDS:
+        key = (category, source)
+        if key in seen:
+            continue
+        seen.add(key)
+        by_category.setdefault(category, []).append({"name": source, "url": source_home(url)})
+    payload = {
+        "updated": datetime.now(timezone.utc).isoformat(),
+        "categories": [{"category": c, "sources": s} for c, s in by_category.items()],
+    }
+    SOURCES_OUT.parent.mkdir(parents=True, exist_ok=True)
+    SOURCES_OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"wrote {SOURCES_OUT} ({len(by_category)} categories)")
+
+
 def main() -> int:
     socket.setdefaulttimeout(REQUEST_TIMEOUT)
+
+    # Always regenerate the sources page data from FEEDS, even when news is unchanged.
+    write_sources()
 
     # Drop accumulated items whose feed was removed or recategorized, so retiring a
     # source (or merging a category) actually purges its old items instead of letting

@@ -37,6 +37,7 @@
         <a href="#digest">🧭 오늘 다이제스트</a>
         <a href="#news">📰 뉴스</a>
         <a href="#archive">🗂️ 아카이브</a>
+        <a href="#sources">🔎 소스</a>
       </nav>
     </aside>
 
@@ -51,14 +52,27 @@
       <section id="news" class="panel">
         <div class="panel-head">
           <h2>📰 최신 뉴스</h2>
-          <div class="filters" id="filters"></div>
+          <input type="search" id="news-search" class="search" placeholder="뉴스 검색…"
+                 aria-label="뉴스 검색" autocomplete="off" />
         </div>
+        <div class="filters" id="filters"></div>
         <div id="news-list" class="news-grid"></div>
       </section>
 
       <section id="archive" class="panel">
-        <h2>🗂️ 아카이브</h2>
+        <div class="panel-head">
+          <h2>🗂️ 아카이브</h2>
+          <input type="search" id="archive-search" class="search" placeholder="의미 검색… (예: 예측 모델, RAG)"
+                 aria-label="아카이브 의미 검색" autocomplete="off" />
+        </div>
+        <p class="search-note" id="archive-search-note" hidden></p>
         <div id="archive-list" class="archive"></div>
+      </section>
+
+      <section id="sources" class="panel">
+        <h2>🔎 카테고리별 소스</h2>
+        <p class="sources-intro">각 카테고리 뉴스가 어떤 매체(RSS)에서 자동 수집되는지 정리했습니다.</p>
+        <div id="sources-list"></div>
       </section>
     </main>
   </div>
