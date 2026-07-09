@@ -15,7 +15,7 @@ import socket
 import sys
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -75,6 +75,12 @@ FEEDS = [
     ("https://simplystatistics.org/index.xml", "Simply Statistics", "DataScience"),
 ]
 
+# GitHub Actions runners are UTC, so we can't trust the environment's local time —
+# pin KST as a fixed +09:00 offset and convert explicitly. Every timestamp we mint
+# here (feed-agnostic "when we collected it") is KST so the digest can group by day
+# without re-converting.
+KST = timezone(timedelta(hours=9))
+
 USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"
 RETENTION_DAYS = 30  # keep ~1 month; items older than this are dropped on each run
 SUMMARY_CHARS = 220
@@ -109,7 +115,7 @@ def entry_epoch(entry) -> int | None:
     return None
 
 
-def fetch_feed(url: str, source: str, category: str) -> list[dict]:
+def fetch_feed(url: str, source: str, category: str, collected_at: str) -> list[dict]:
     items: list[dict] = []
     try:
         # Fetch the bytes ourselves with a hard timeout, THEN parse in-memory.
@@ -141,6 +147,10 @@ def fetch_feed(url: str, source: str, category: str) -> list[dict]:
                 "summary": clean_text(e.get("summary") or e.get("description") or ""),
                 "ts": ts,
                 "published": datetime.fromtimestamp(ts, tz=timezone.utc).isoformat() if ts else None,
+                # When this item first entered our feed (KST). Preserved across runs by
+                # the first-seen merge below, so the digest can tell "collected today"
+                # apart from an item's original publish date.
+                "collected_at": collected_at,
             }
         )
     print(f"  ✓ {source}: {len(items)} items")
@@ -213,11 +223,13 @@ def main() -> int:
     # Feeds are independent and network-bound, so fetch them concurrently — one slow
     # feed no longer serializes the whole run. map() yields results in FEEDS order,
     # so the first-seen dedup below still keeps the earliest-listed source for a link.
+    # One collection timestamp (KST) shared by every item fetched this run.
+    collected_at = datetime.now(KST).isoformat(timespec="seconds")
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        batches = list(pool.map(lambda feed: fetch_feed(*feed), FEEDS))
+        batches = list(pool.map(lambda feed: fetch_feed(*feed, collected_at), FEEDS))
     for items in batches:
         for item in items:
-            merged.setdefault(item["link"], item)  # keep the first-seen copy
+            merged.setdefault(item["link"], item)  # keep the first-seen copy (and its collected_at)
 
     now_ts = int(datetime.now(timezone.utc).timestamp())
     cutoff = now_ts - RETENTION_DAYS * 86_400
@@ -228,13 +240,19 @@ def main() -> int:
         print("WARNING: no items; keeping existing news.json", file=sys.stderr)
         return 0
 
+    # Items carried over from before this field existed have no collected_at; normalize
+    # the key in so every item in the file has it (older ones stay null — we can't know
+    # in hindsight when they were first collected).
+    for it in result:
+        it.setdefault("collected_at", None)
+
     # Nothing added or aged out -> leave the file (and its commit) untouched.
     if [it.get("link") for it in result] == [it.get("link") for it in existing]:
         print(f"no change ({len(result)} items)")
         return 0
 
     payload = {
-        "updated": datetime.now(timezone.utc).isoformat(),
+        "updated": datetime.now(KST).isoformat(timespec="seconds"),
         "count": len(result),
         "items": result,
     }
