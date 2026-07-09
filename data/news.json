@@ -1,7 +1,16 @@
 {
-  "updated": "2026-07-09T10:23:44.285362+00:00",
-  "count": 445,
+  "updated": "2026-07-09T10:32:04.121288+00:00",
+  "count": 446,
   "items": [
+    {
+      "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology",
+      "link": "https://www.infoq.com/news/2026/07/openai-libunwind-core-dumps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "OpenAI found two unrelated bugs masquerading as one in ChatGPT's data infrastructure. Silent hardware corruption on one Azure host and an 18-year-old race condition in GNU libunwind's setcontext function with a one-inst…",
+      "ts": 1783592100,
+      "published": "2026-07-09T10:15:00+00:00"
+    },
     {
       "title": "Article: Beat-Aligned Mobile Audio Streaming with Virtual Chunks and Native Playback",
       "link": "https://www.infoq.com/articles/android-beat-aligned-mobile-audio-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
