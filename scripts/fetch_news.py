@@ -21,7 +21,7 @@ import feedparser
 
 # (feed url, source label, category) — category drives grouping/filtering on the page.
 # Categories: Java (incl. Kotlin/JVM), Spring, AI (incl. models/LLM), Agents,
-# Architecture, Python.
+# Architecture, Python, DataScience (model training / ML engineering).
 FEEDS = [
     ("https://inside.java/feed.xml", "Inside Java", "Java"),
     ("https://feed.infoq.com/java/", "InfoQ Java", "Java"),
@@ -63,6 +63,11 @@ FEEDS = [
     ("https://realpython.com/atom.xml", "Real Python", "Python"),
     ("https://blog.python.org/feeds/posts/default", "Python Insider", "Python"),
     ("https://pythonspeed.com/atom.xml", "Python Speed", "Python"),
+    # Data Science — model training / ML engineering, authoritative practitioner sources
+    ("https://machinelearningmastery.com/feed/", "ML Mastery", "DataScience"),
+    ("https://www.kdnuggets.com/feed", "KDnuggets", "DataScience"),
+    ("https://pytorch.org/blog/feed.xml", "PyTorch", "DataScience"),
+    ("https://hnrss.org/newest?q=model+training&points=30", "Hacker News", "DataScience"),
 ]
 
 USER_AGENT = "lesserpanda-note/1.0 (+https://lesserpanda-note.github.io)"

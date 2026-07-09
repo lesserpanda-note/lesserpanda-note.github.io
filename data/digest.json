@@ -71,6 +71,27 @@
       "link": "https://realpython.com/quizzes/how-to-use-github/",
       "summary": "Real Python의 'How to Use GitHub' 튜토리얼에 대응하는 퀴즈로, GitHub 기본 개념과 Python 프로젝트 협업 워크플로를 점검합니다.",
       "detail": "'How to Use GitHub' 튜토리얼에 대응하는 Real Python 퀴즈입니다.\n다루는 핵심 개념:\n① GitHub 저장소 생성과 로컬 Git 저장소와의 연결 방법\n② git push, git pull 등 원격 저장소 기본 워크플로\n③ GitHub Issues를 활용한 협업 및 작업 추적\n④ Pull Request 기반 코드 리뷰 프로세스\nPython 프로젝트를 GitHub에서 관리하고 팀과 협업하기 위한 핵심 개념을 퀴즈 형식으로 확인할 수 있습니다. 튜토리얼을 읽은 후 지식 점검용으로 활용하기에 적합합니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "Introducing Nested Learning: A new ML paradigm for continual learning",
+      "link": "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/",
+      "summary": "Google Research가 모델이 기존 지식을 잊지 않고 지속적으로 학습하도록 하는 새로운 ML 패러다임 'Nested Learning'을 공개했습니다(NeurIPS 2025).",
+      "detail": "Google Research가 2025년 11월 공개한 'Nested Learning'은 지속 학습(continual learning)을 위한 새로운 머신러닝 패러다임입니다. 논문 'Nested Learning: The Illusion of Deep Learning Architectures'로 NeurIPS 2025에서 발표됐습니다.\n- 핵심 아이디어: 하나의 ML 모델을 단일한 연속 과정이 아니라, 서로 다른 갱신 주기를 갖고 동시에 최적화되는 다층·중첩된 학습 문제들의 시스템으로 바라봅니다.\n- 목표: 신경망이 새 데이터를 학습할 때 이전에 배운 내용을 잊어버리는 '치명적 망각(catastrophic forgetting)' 문제를 구조적으로 완화합니다.\n- Hope 모델: 이 패러다임을 구현한 자기수정(self-modifying) 아키텍처 개념검증 모델로, 언어 모델링·지속 학습·롱컨텍스트 추론에서 기존 최신 모델보다 우수한 성능과 더 나은 장기 메모리 관리를 보였습니다.\n- 연구진: 학생 연구원 Ali Behrouz와 VP·Google Fellow Vahab Mirrokni가 주도했습니다.\n- 데이터 사이언스·모델 학습 관점에서 파인튜닝·온라인 학습 시 성능 저하 없이 모델을 계속 업데이트하는 방향에 시사점이 큽니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "Decoupled DiLoCo: Resilient, Distributed AI Training at Scale",
+      "link": "https://deepmind.google/blog/decoupled-diloco/",
+      "summary": "Google DeepMind이 대규모 학습을 분리된 컴퓨트 '섬'으로 나눠 비동기로 진행하는 내결함성 분산 학습 기법 Decoupled DiLoCo를 공개했습니다.",
+      "detail": "Google DeepMind의 Decoupled DiLoCo(Distributed Low-Communication)는 대규모 모델 학습을 여러 데이터센터·클러스터에 안정적으로 분산하기 위한 기법입니다.\n- 구조: 대규모 학습 작업을 서로 느슨하게 결합된 컴퓨트 '섬(islands)'으로 나누고, 섬 사이에는 비동기(asynchronous)로 데이터를 주고받아 통신 병목을 줄입니다.\n- 내결함성: 일부 하드웨어가 고장 나도 전통적 동기식 분산 학습보다 학습 클러스터의 가용성을 더 높게 유지합니다.\n- 성능: Gemma 4 모델 학습 실험에서 동일한 벤치마크 성능을 유지하면서도 장애 상황에서 더 강건한 학습이 가능함을 입증했습니다.\n- 데이터 사이언스·MLOps 관점에서 지리적으로 분산된 GPU 자원을 활용한 초대규모 모델 학습의 안정성과 확장성을 높이는 최신 접근으로 참고할 만합니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "7 Machine Learning Trends to Watch in 2026",
+      "link": "https://machinelearningmastery.com/7-machine-learning-trends-to-watch-in-2026/",
+      "summary": "Machine Learning Mastery가 2026년 주목할 머신러닝 트렌드 7가지를 정리했습니다. 특화된 소형 모델, 행동 지향 ML 시스템, 도메인 특화 모델 등이 핵심입니다.",
+      "detail": "Machine Learning Mastery가 2026년 실무 관점에서 주목해야 할 머신러닝 트렌드를 정리한 글입니다.\n- 특화·소형 모델의 부상: 벤치마크 성능보다 특정 과제에 최적화된 소형 모델이 실용성 면에서 앞서며, 실행 비용이 낮고 응답이 빠르며 로컬 서버나 애플리케이션 내부에 직접 배포하기 쉽습니다.\n- 행동 지향(action-oriented) ML: 예측만 하던 시스템에서 실제 워크플로를 구동하고 스스로 행동하는 시스템으로 진화하는 흐름을 다룹니다.\n- 소형 언어 모델(SLM) 파인튜닝: 소형 모델을 특정 과제에 파인튜닝해 단일 소비자용 GPU에서도 대형 모델급 성능을 내는 사례가 늘고 있습니다.\n- 도메인 특화 모델: 산업별 전문 용어와 맥락을 이해하는 도메인 특화 모델이 환각(hallucination)을 줄이고 정확도·신뢰성을 높입니다.\n- 데이터 사이언스·모델 학습 실무자가 2026년 프로젝트 방향을 잡는 데 도움이 되는 실용 가이드입니다."
     }
   ]
 }

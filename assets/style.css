@@ -12,6 +12,7 @@
   --llm: #db2777;
   --architecture: #475569;
   --python: #3776ab;
+  --ds: #06b6d4;
   --radius: 12px;
   --max: 880px;
 }
@@ -165,6 +166,7 @@ main {
 .cat-LLM { background: var(--llm); }
 .cat-Architecture { background: var(--architecture); }
 .cat-Python { background: var(--python); }
+.cat-DataScience { background: var(--ds); }
 .src { font-weight: 600; }
 
 /* digest */
