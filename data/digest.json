@@ -74,13 +74,6 @@
     },
     {
       "category": "DataScience",
-      "title": "How to Clean Messy CSV Files with Python: A Beginner's Guide",
-      "link": "https://www.kdnuggets.com/how-to-clean-messy-csv-files-with-python-a-beginners-guide",
-      "summary": "KDnuggets가 pandas로 지저분한 CSV를 정리하는 실무 가이드를 공개했습니다. 결측치·중복행·자료형 오류·뒤섞인 날짜 형식 처리 등 예측모델에 넣기 전 데이터 전처리 필수 단계입니다.",
-      "detail": "KDnuggets가 2026-07-08에 올린 데이터 전처리 실무 가이드입니다. 예측모델링의 8할을 차지하는 '데이터 클리닝' 단계를 pandas로 처리하는 방법을 다룹니다.\n- 결측치(missing values) 처리: 비어 있는 값을 채우거나 제거하는 전략을 설명합니다.\n- 중복 행(duplicate rows) 제거와 지저분한 텍스트 정리.\n- 잘못된 자료형(wrong data types) 교정과 뒤섞인 날짜 형식(mixed date formats) 통일.\n- 유효하지 않은 이메일, 통화(currency) 값 등 실제 데이터에서 흔히 만나는 오류를 정리합니다.\n- 모델 성능은 결국 입력 데이터 품질에서 갈리므로, 티켓 판매·수요·이탈 예측 등 어떤 예측모델을 만들든 가장 먼저 밟아야 하는 실전 단계입니다."
-    },
-    {
-      "category": "DataScience",
       "title": "Information Theory and Ensemble Models",
       "link": "https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/",
       "summary": "Towards Data Science가 정보이론 관점에서 시계열 예측(forecast)을 더 잘 앙상블하는 방법을 다룹니다. 여러 예측을 어떻게 결합해야 정확도가 오르는지 실무 관점으로 짚습니다.",
@@ -88,24 +81,10 @@
     },
     {
       "category": "DataScience",
-      "title": "Inside the Subspace Where Spurious Correlations Are Born",
-      "link": "https://towardsdatascience.com/inside-the-subspace-where-spurious-correlations-are-born/",
-      "summary": "Towards Data Science가 작은 표본이 우연히 큰 상관을 만들어내는 이유를 설명합니다. 예측모델이 빠지기 쉬운 '허위 상관(spurious correlation)' 함정을 통계적으로 짚는 글입니다.",
-      "detail": "Towards Data Science가 2026-07-08에 올린 통계 개념 글로, 예측모델의 신뢰도를 좌우하는 '허위 상관' 문제를 다룹니다.\n- 핵심 메시지: 표본이 작으면 아무 관계가 없는 변수들 사이에서도 우연히 큰 상관계수가 나올 수 있고, 반대로 상관이 크다고 항상 의미 있는 것도 아닙니다.\n- 왜 중요한가: 특성공학·변수 선택 단계에서 이런 허위 상관을 진짜 신호로 착각하면, 학습 데이터에서만 잘 맞고 실제 예측에서는 무너지는 모델이 됩니다(과적합·데이터 스누핑).\n- 실무 시사점: 상관·중요도 수치를 그대로 믿지 말고 표본 크기·교차검증·통계적 유의성으로 검증해야 한다는, 예측모델러가 늘 조심해야 할 통계 감각을 일깨웁니다."
-    },
-    {
-      "category": "DataScience",
       "title": "SQL vs Pandas vs AI Agents: Which Solves Analytics Problems Best?",
       "link": "https://www.kdnuggets.com/sql-vs-pandas-vs-ai-agents-which-solves-analytics-problems-best",
       "summary": "KDnuggets가 같은 분석 문제를 SQL·pandas·AI 에이전트로 각각 풀어, 실제 실행시간과 에이전트 프롬프트로 8개 기준을 비교했습니다. 언제 AI를 쓰는 게 실익인지 알려줍니다.",
       "detail": "KDnuggets가 2026-07-07에 게재한 실전 비교 글로, 데이터 사이언티스트의 대표 도구 세 가지를 같은 과제에 붙여 성능을 재봤습니다.\n- 실험 설계: 동일한 분석 문제 3개를 SQL, pandas, AI 에이전트로 각각 풀고, 8개 축(실행 시간, 정확성, 재현성, 유지보수성 등)으로 평가했습니다.\n- 실제 측정: 추상적 주장 대신 실제 실행 시간과 실제 에이전트 프롬프트를 기록해 객관적으로 비교합니다.\n- AI 활용 관점: LLM 기반 AI 에이전트가 어떤 분석 문제에서 SQL·pandas보다 이득이고, 어디서는 전통 도구가 여전히 빠르고 안전한지 감을 줍니다.\n- '내 분석 워크플로에 AI 에이전트를 언제·어떻게 넣을까'를 고민하는 실무자에게 근거 있는 판단 기준을 제공합니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "Zero-Shot Local Document Parsing with Gemma 4: Treating PDFs as Images",
-      "link": "https://www.kdnuggets.com/zero-shot-local-document-parsing-with-gemma-4-treating-pdfs-as-images",
-      "summary": "KDnuggets가 PDF를 이미지로 취급해 로컬 LLM(Gemma 4)에 넣어 문서를 파싱하는 방법을 소개합니다. 스캔/디지털 구분 없이 텍스트를 뽑는, AI를 데이터 수집·전처리에 쓰는 실전 활용법입니다.",
-      "detail": "KDnuggets가 2026-07-07에 올린 글로, 로컬에서 도는 오픈 LLM(Gemma 4)을 데이터 파이프라인에 활용하는 실전 사례입니다.\n- 문제: 기존 텍스트 추출 파이프라인은 '스캔 PDF vs 디지털 PDF'를 구분해야 해서 취약하고 깨지기 쉽습니다.\n- 접근: PDF 페이지를 이미지로 변환해 멀티모달 LLM(Gemma 4)에 그대로 입력하면, 스캔·디지털 구분 자체가 사라져 제로샷으로 문서를 파싱할 수 있습니다.\n- 로컬 실행: 외부 API 없이 로컬 모델로 처리해 비용·프라이버시 부담을 줄입니다.\n- AI 활용 관점: 비정형 문서(계약서·리포트·영수증)에서 표·항목을 뽑아 분석·예측용 데이터로 만드는 단계에 최신 AI를 붙이는 구체적 방법으로, 데이터 수집·전처리 자동화에 바로 응용할 수 있습니다."
     }
   ]
 }
