@@ -74,38 +74,38 @@
     },
     {
       "category": "DataScience",
-      "title": "7 XGBoost Tricks for More Accurate Predictive Models",
-      "link": "https://www.kdnuggets.com/7-xgboost-tricks-for-more-accurate-predictive-models",
-      "summary": "KDnuggets가 표(tabular) 데이터 예측모델의 정확도를 끌어올리는 XGBoost 실전 팁 7가지를 정리했습니다. 수요·판매·이탈 예측 등 실무 모델링에 바로 쓰는 기법입니다.",
-      "detail": "KDnuggets가 실무에서 XGBoost 예측모델의 정확도를 높이는 7가지 실전 테크닉을 정리한 글입니다(2026-02).\n- XGBoost는 정형(표) 데이터의 분류·회귀 예측에서 사실상 표준으로, 여러 약한 결정 트리를 앙상블해 강한 예측모델을 만드는 그래디언트 부스팅 기법입니다.\n- 다루는 팁: 조기 종료(early stopping), 학습률·트리 수 균형, 정규화(L1/L2)로 과적합 억제, 하이퍼파라미터 튜닝, 교차검증 기반 평가, 특성 중요도 활용, 범주형/결측치 처리 등 실무에서 즉시 적용 가능한 방법들입니다.\n- 티켓 판매·수요 예측, 고객 이탈, 신용 스코어링처럼 표 데이터로 예측모델을 만드는 데이터 사이언티스트가 바로 참고할 수 있는 실용 가이드입니다.\n- scikit-learn 호환 API로 쓰이므로 기존 파이프라인에 그대로 통합할 수 있습니다."
+      "title": "How to Clean Messy CSV Files with Python: A Beginner's Guide",
+      "link": "https://www.kdnuggets.com/how-to-clean-messy-csv-files-with-python-a-beginners-guide",
+      "summary": "KDnuggets가 pandas로 지저분한 CSV를 정리하는 실무 가이드를 공개했습니다. 결측치·중복행·자료형 오류·뒤섞인 날짜 형식 처리 등 예측모델에 넣기 전 데이터 전처리 필수 단계입니다.",
+      "detail": "KDnuggets가 2026-07-08에 올린 데이터 전처리 실무 가이드입니다. 예측모델링의 8할을 차지하는 '데이터 클리닝' 단계를 pandas로 처리하는 방법을 다룹니다.\n- 결측치(missing values) 처리: 비어 있는 값을 채우거나 제거하는 전략을 설명합니다.\n- 중복 행(duplicate rows) 제거와 지저분한 텍스트 정리.\n- 잘못된 자료형(wrong data types) 교정과 뒤섞인 날짜 형식(mixed date formats) 통일.\n- 유효하지 않은 이메일, 통화(currency) 값 등 실제 데이터에서 흔히 만나는 오류를 정리합니다.\n- 모델 성능은 결국 입력 데이터 품질에서 갈리므로, 티켓 판매·수요·이탈 예측 등 어떤 예측모델을 만들든 가장 먼저 밟아야 하는 실전 단계입니다."
     },
     {
       "category": "DataScience",
-      "title": "Top 10 Machine Learning Algorithms in 2026",
-      "link": "https://www.analyticsvidhya.com/blog/2017/09/common-machine-learning-algorithms/",
-      "summary": "Analytics Vidhya가 2026년 기준 예측에 가장 많이 쓰는 머신러닝 알고리즘 10가지를 정리했습니다. 선형·로지스틱 회귀부터 그래디언트 부스팅·랜덤 포레스트까지 어떤 예측 문제에 무엇을 쓸지 짚어줍니다.",
-      "detail": "Analytics Vidhya가 2026년 기준으로 갱신한 '핵심 머신러닝 알고리즘 10선'입니다. 예측모델을 만들 때 문제 유형별로 어떤 알고리즘을 고를지 판단하는 지도 역할을 합니다.\n- 선형 회귀(Linear Regression): Y = a*X + b 형태로 연속값을 예측하며, 판매 예측·마케팅 예산·초기 추세 분석의 해석 쉬운 출발점입니다.\n- 로지스틱 회귀(Logistic Regression): 분류 문제에서 소속 확률을 출력해 고객 이탈·신용 승인 같은 의사결정에 유용합니다.\n- 그래디언트 부스팅(GBM/XGBoost 등): 정형 데이터의 비선형 패턴을 정밀하게 잡아 금융 모델링·사기 탐지·신용 스코어링에서 성능 벤치마크를 주도합니다.\n- 의사결정나무·랜덤 포레스트: 분류·회귀 모두에 쓰이는 견고한 앙상블 기법입니다.\n- 신경망(Neural Networks): 대규모·복잡 패턴 데이터에서 최고 정확도를 내지만 연산 비용이 큽니다.\n- '무슨 방정식/모델을 언제 쓰나'를 한눈에 정리해, 예측모델을 설계하는 데이터 사이언티스트가 알고리즘 선택 기준으로 삼기 좋습니다."
+      "title": "Information Theory and Ensemble Models",
+      "link": "https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/",
+      "summary": "Towards Data Science가 정보이론 관점에서 시계열 예측(forecast)을 더 잘 앙상블하는 방법을 다룹니다. 여러 예측을 어떻게 결합해야 정확도가 오르는지 실무 관점으로 짚습니다.",
+      "detail": "Towards Data Science가 2026-07-08에 게재한 글로, '시계열 예측을 어떻게 더 잘 앙상블할까'를 정보이론 시각에서 접근합니다.\n- 앙상블(ensemble): 여러 모델·예측을 결합해 단일 모델보다 안정적이고 정확한 예측을 얻는 기법입니다.\n- 시계열 예측: 수요·판매·트래픽처럼 시간에 따라 변하는 값을 예측하는 문제에 초점을 둡니다.\n- 정보이론 관점: 각 예측이 담은 정보량과 중복을 따져, 단순 평균이 아니라 '정보 기여가 큰' 예측에 가중치를 두는 결합 방식을 논의합니다.\n- 티켓 판매·수요 예측처럼 여러 모델을 돌려 결과를 합치는 실무에서, 앙상블 가중치를 원리 있게 정하는 데 참고할 수 있는 콘텐츠입니다."
     },
     {
       "category": "DataScience",
-      "title": "10 Lesser-Known Python Libraries Every Data Scientist Should Be Using in 2026",
-      "link": "https://www.kdnuggets.com/10-lesser-known-python-libraries-every-data-scientist-should-be-using-in-2026",
-      "summary": "KDnuggets가 pandas·scikit-learn 같은 표준 도구 외에, 2026년 예측모델링 생산성을 높여줄 덜 알려진 Python 라이브러리 10종을 소개합니다. 새로 챙길 프레임워크·도구가 궁금할 때 참고하기 좋습니다.",
-      "detail": "KDnuggets가 2026년 데이터 사이언티스트가 챙기면 좋은, 상대적으로 덜 알려진 Python 라이브러리 10종을 정리한 글입니다.\n- 표준 스택(NumPy·pandas·scikit-learn) 너머에서 데이터 처리·모델링·평가 워크플로를 더 빠르고 편하게 만들어 주는 도구들을 다룹니다.\n- 최근 데이터 사이언스 생태계에서는 Rust 기반 고성능 데이터프레임 Polars 등 새로운 라이브러리가 빠르게 자리 잡고 있어, 표준 도구만으로는 놓치기 쉬운 성능·생산성 이점을 소개합니다.\n- 특성공학·모델 실험·시각화·성능 최적화 등 예측모델 파이프라인 각 단계에서 바로 적용할 수 있는 라이브러리들을 짚어 줍니다.\n- '새로 나온 프레임워크·라이브러리를 뭘 써봐야 하나'가 궁금한 실무자에게, 검증된 최신 도구를 빠르게 훑는 큐레이션 역할을 합니다."
+      "title": "Inside the Subspace Where Spurious Correlations Are Born",
+      "link": "https://towardsdatascience.com/inside-the-subspace-where-spurious-correlations-are-born/",
+      "summary": "Towards Data Science가 작은 표본이 우연히 큰 상관을 만들어내는 이유를 설명합니다. 예측모델이 빠지기 쉬운 '허위 상관(spurious correlation)' 함정을 통계적으로 짚는 글입니다.",
+      "detail": "Towards Data Science가 2026-07-08에 올린 통계 개념 글로, 예측모델의 신뢰도를 좌우하는 '허위 상관' 문제를 다룹니다.\n- 핵심 메시지: 표본이 작으면 아무 관계가 없는 변수들 사이에서도 우연히 큰 상관계수가 나올 수 있고, 반대로 상관이 크다고 항상 의미 있는 것도 아닙니다.\n- 왜 중요한가: 특성공학·변수 선택 단계에서 이런 허위 상관을 진짜 신호로 착각하면, 학습 데이터에서만 잘 맞고 실제 예측에서는 무너지는 모델이 됩니다(과적합·데이터 스누핑).\n- 실무 시사점: 상관·중요도 수치를 그대로 믿지 말고 표본 크기·교차검증·통계적 유의성으로 검증해야 한다는, 예측모델러가 늘 조심해야 할 통계 감각을 일깨웁니다."
     },
     {
       "category": "DataScience",
-      "title": "A Beginner's Guide to Integrating LLMs with Your Data Science Projects",
-      "link": "https://www.kdnuggets.com/a-beginners-guide-to-integrating-llms-with-your-data-science-projects",
-      "summary": "KDnuggets가 데이터 사이언스 프로젝트에 LLM을 붙여 쓰는 실전 방법을 정리했습니다. 데이터 탐색·피처 생성·임베딩·분류 등 기존 예측모델 워크플로에 AI를 결합하는 활용법입니다.",
-      "detail": "KDnuggets의 'LLM을 데이터 사이언스 프로젝트에 통합하는 입문 가이드'로, 실무 데이터 사이언티스트가 기존 워크플로에 AI(LLM)를 어떻게 붙여 쓰는지 다룹니다.\n- 데이터 탐색(EDA): 가장 반복적이고 지루한 탐색 단계를 LLM이 보조해 요약·이상치·패턴 파악을 돕습니다.\n- 피처 생성(Feature generation): 데이터셋을 놓고 LLM과 대화하며 새로운 파생 변수 아이디어를 만들고 예측모델 입력으로 활용합니다.\n- 벡터 임베딩: 특히 텍스트 데이터를 임베딩으로 변환해 검색·유사도·다운스트림 예측 과제에 씁니다.\n- 분류: Scikit-LLM 같은 패키지로 LLM을 scikit-learn 스타일 API에 얹어 텍스트 분류를 처리합니다.\n- 즉 '순수 통계·ML 모델'과 'LLM'을 조합하는 실전 진입점으로, AI를 예측·분석 파이프라인에 연동하려는 데이터 사이언티스트에게 딱 맞는 출발점입니다."
+      "title": "SQL vs Pandas vs AI Agents: Which Solves Analytics Problems Best?",
+      "link": "https://www.kdnuggets.com/sql-vs-pandas-vs-ai-agents-which-solves-analytics-problems-best",
+      "summary": "KDnuggets가 같은 분석 문제를 SQL·pandas·AI 에이전트로 각각 풀어, 실제 실행시간과 에이전트 프롬프트로 8개 기준을 비교했습니다. 언제 AI를 쓰는 게 실익인지 알려줍니다.",
+      "detail": "KDnuggets가 2026-07-07에 게재한 실전 비교 글로, 데이터 사이언티스트의 대표 도구 세 가지를 같은 과제에 붙여 성능을 재봤습니다.\n- 실험 설계: 동일한 분석 문제 3개를 SQL, pandas, AI 에이전트로 각각 풀고, 8개 축(실행 시간, 정확성, 재현성, 유지보수성 등)으로 평가했습니다.\n- 실제 측정: 추상적 주장 대신 실제 실행 시간과 실제 에이전트 프롬프트를 기록해 객관적으로 비교합니다.\n- AI 활용 관점: LLM 기반 AI 에이전트가 어떤 분석 문제에서 SQL·pandas보다 이득이고, 어디서는 전통 도구가 여전히 빠르고 안전한지 감을 줍니다.\n- '내 분석 워크플로에 AI 에이전트를 언제·어떻게 넣을까'를 고민하는 실무자에게 근거 있는 판단 기준을 제공합니다."
     },
     {
       "category": "DataScience",
-      "title": "From Text to Tables: Feature Engineering with LLMs for Tabular Data",
-      "link": "https://machinelearningmastery.com/from-text-to-tables-feature-engineering-with-llms-for-tabular-data/",
-      "summary": "Machine Learning Mastery가 LLM으로 표(tabular) 예측모델용 피처를 만드는 방법을 설명합니다. 텍스트·비정형 데이터를 LLM으로 정형 피처로 바꿔 예측 성능을 높이는 실전 기법입니다.",
-      "detail": "Machine Learning Mastery의 'From Text to Tables' 튜토리얼로, LLM을 표 데이터 예측모델의 특성공학(feature engineering) 단계에 활용하는 실무 방법을 다룹니다.\n- 배경: LLM은 보통 대화용으로 쓰이지만, 복잡한 데이터셋의 피처 엔지니어링 같은 작업에도 활용할 수 있습니다.\n- 텍스트→정형 변환: 상품 설명·리뷰·로그 같은 비정형 텍스트에서 LLM으로 카테고리·감성·키워드 등 정형 피처를 뽑아 표 데이터에 붙입니다.\n- 예측 결합: 이렇게 만든 피처를 XGBoost·scikit-learn 같은 기존 예측모델의 입력으로 넣어 정확도를 끌어올립니다.\n- 즉 최신 AI(LLM)를 전통적 표 데이터 예측 파이프라인에 '피처 생성기'로 연동하는 구체적 활용 사례로, 수요·판매·이탈 예측 등에 바로 응용할 수 있습니다.\n- LLM 자동 특성공학(LLM-FE)처럼 학계에서도 활발한 흐름과 맞닿아 있어, 실무와 최신 연구를 잇는 다리 역할을 합니다."
+      "title": "Zero-Shot Local Document Parsing with Gemma 4: Treating PDFs as Images",
+      "link": "https://www.kdnuggets.com/zero-shot-local-document-parsing-with-gemma-4-treating-pdfs-as-images",
+      "summary": "KDnuggets가 PDF를 이미지로 취급해 로컬 LLM(Gemma 4)에 넣어 문서를 파싱하는 방법을 소개합니다. 스캔/디지털 구분 없이 텍스트를 뽑는, AI를 데이터 수집·전처리에 쓰는 실전 활용법입니다.",
+      "detail": "KDnuggets가 2026-07-07에 올린 글로, 로컬에서 도는 오픈 LLM(Gemma 4)을 데이터 파이프라인에 활용하는 실전 사례입니다.\n- 문제: 기존 텍스트 추출 파이프라인은 '스캔 PDF vs 디지털 PDF'를 구분해야 해서 취약하고 깨지기 쉽습니다.\n- 접근: PDF 페이지를 이미지로 변환해 멀티모달 LLM(Gemma 4)에 그대로 입력하면, 스캔·디지털 구분 자체가 사라져 제로샷으로 문서를 파싱할 수 있습니다.\n- 로컬 실행: 외부 API 없이 로컬 모델로 처리해 비용·프라이버시 부담을 줄입니다.\n- AI 활용 관점: 비정형 문서(계약서·리포트·영수증)에서 표·항목을 뽑아 분석·예측용 데이터로 만드는 단계에 최신 AI를 붙이는 구체적 방법으로, 데이터 수집·전처리 자동화에 바로 응용할 수 있습니다."
     }
   ]
 }
