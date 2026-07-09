@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-09T06:57:23.686154+00:00",
-  "count": 430,
+  "updated": "2026-07-09T07:33:31.703961+00:00",
+  "count": 440,
   "items": [
     {
       "title": "[AINews] SpaceXAI launches Grok 4.5, first Opus-class model post Cursor acquisition",
@@ -66,15 +66,6 @@
       "published": "2026-07-08T18:56:31+00:00"
     },
     {
-      "title": "PyTorch 2.13 Release Blog",
-      "link": "https://pytorch.org/blog/pytorch-2-13-release-blog/",
-      "source": "PyTorch",
-      "category": "DataScience",
-      "summary": "We are excited to announce the release of PyTorch® 2.13 (release notes)! The PyTorch 2.13 release features the following changes: FlexAttention lands on Apple Silicon (MPS), with up to...",
-      "ts": 1783532543,
-      "published": "2026-07-08T17:42:23+00:00"
-    },
-    {
       "title": "Data for Agents",
       "link": "https://huggingface.co/blog/nvidia/open-data-for-agents",
       "source": "Hugging Face",
@@ -82,6 +73,15 @@
       "summary": "",
       "ts": 1783530965,
       "published": "2026-07-08T17:16:05+00:00"
+    },
+    {
+      "title": "The Real Challenge Limiting AI Models Today",
+      "link": "https://towardsdatascience.com/the-real-challenge-limiting-ai-models-today/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Hint: it is not GPU speed! The post The Real Challenge Limiting AI Models Today appeared first on Towards Data Science .",
+      "ts": 1783528200,
+      "published": "2026-07-08T16:30:00+00:00"
     },
     {
       "title": "Why We Moved Our Timefold Java Worker Pods from AMD to ARM64",
@@ -100,6 +100,15 @@
       "summary": "Learn how to clean CSV files with pandas by handling missing values, duplicate rows, messy text, wrong data types, mixed date formats, invalid emails, and currency values.",
       "ts": 1783523439,
       "published": "2026-07-08T15:10:39+00:00"
+    },
+    {
+      "title": "Redesign Work Before You Add More AI Agents",
+      "link": "https://towardsdatascience.com/redesign-work-before-you-add-more-ai-agents/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Map AI value, design workflows, redefine talent, upgrade the executive team, and measure the business impact. The post Redesign Work Before You Add More AI Agents appeared first on Towards Data Science .",
+      "ts": 1783522800,
+      "published": "2026-07-08T15:00:00+00:00"
     },
     {
       "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services",
@@ -138,11 +147,29 @@
       "published": "2026-07-08T14:00:00+00:00"
     },
     {
+      "title": "Inside the Subspace Where Spurious Correlations Are Born",
+      "link": "https://towardsdatascience.com/inside-the-subspace-where-spurious-correlations-are-born/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Why small samples can produce large correlations by chance, and why large does not always mean meaningful The post Inside the Subspace Where Spurious Correlations Are Born appeared first on Towards Data Science .",
+      "ts": 1783517400,
+      "published": "2026-07-08T13:30:00+00:00"
+    },
+    {
       "title": "Quiz: How to Use GitHub",
       "link": "https://realpython.com/quizzes/how-to-use-github/",
       "source": "Real Python",
       "category": "Python",
       "summary": "Practice putting a Python project on GitHub by creating a remote repository, pushing your local code, and collaborating with others.",
+      "ts": 1783512000,
+      "published": "2026-07-08T12:00:00+00:00"
+    },
+    {
+      "title": "The Threshold Is a Price, Not a Percentage",
+      "link": "https://towardsdatascience.com/the-threshold-is-a-price-not-a-percentage/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How to decide when an AI agent should act on its own by using cost asymmetry instead of a fixed confidence cutoff The post The Threshold Is a Price, Not a Percentage appeared first on Towards Data Science .",
       "ts": 1783512000,
       "published": "2026-07-08T12:00:00+00:00"
     },
@@ -181,6 +208,33 @@
       "summary": "What's Changed Features Pull latest LLM models dynamically in the crew wizard. Support inline skill definitions. Add generated Flow Definition authoring skill. Support templated Flow action inputs. Add text helper for f…",
       "ts": 1783476322,
       "published": "2026-07-08T02:05:22+00:00"
+    },
+    {
+      "title": "Information Theory and Ensemble Models",
+      "link": "https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How should we ensemble time-series forecasts better? The post Information Theory and Ensemble Models appeared first on Towards Data Science .",
+      "ts": 1783475859,
+      "published": "2026-07-08T01:57:39+00:00"
+    },
+    {
+      "title": "Granger Causal Networks and Indirect Feedback",
+      "link": "https://towardsdatascience.com/granger-causal-networks-and-indirect-feedback-676549ba99e/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A non-parametric variable selection for Structural VARs The post Granger Causal Networks and Indirect Feedback appeared first on Towards Data Science .",
+      "ts": 1783475771,
+      "published": "2026-07-08T01:56:11+00:00"
+    },
+    {
+      "title": "Measuring Structure Stability of Econometric Models",
+      "link": "https://towardsdatascience.com/measuring-structure-stability-of-econometric-models-d8eb3a56e1bd/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The simplest most important idea for time series forecasting The post Measuring Structure Stability of Econometric Models appeared first on Towards Data Science .",
+      "ts": 1783475616,
+      "published": "2026-07-08T01:53:36+00:00"
     },
     {
       "title": "v2.6.0 (2026-07-07)",
@@ -255,6 +309,15 @@
       "published": "2026-07-07T16:33:55+00:00"
     },
     {
+      "title": "A Production RAG Pipeline for PDFs: Relational Parsing, TOC Retrieval, Typed Answers",
+      "link": "https://towardsdatascience.com/a-production-rag-pipeline-for-pdfs-relational-parsing-toc-retrieval-typed-answers/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Enterprise Document Intelligence [Vol.1 #9A] - Same paper, same question as Article 1. One upgraded contract per brick: document parsing, question parsing, retrieval, generation The post A Production RAG Pipeline for PD…",
+      "ts": 1783441800,
+      "published": "2026-07-07T16:30:00+00:00"
+    },
+    {
       "title": "github-code Web Component",
       "link": "https://simonwillison.net/2026/Jul/7/github-code-component/#atom-everything",
       "source": "Simon Willison",
@@ -291,6 +354,15 @@
       "published": "2026-07-07T15:20:06+00:00"
     },
     {
+      "title": "Proxy-Pointer RAG: Temporal Reasoning Without Semantic Precompilation",
+      "link": "https://towardsdatascience.com/proxy-pointer-rag-temporal-reasoning-without-semantic-precompilation/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A technical comparison of Proxy-Pointer and LLM-Wiki The post Proxy-Pointer RAG: Temporal Reasoning Without Semantic Precompilation appeared first on Towards Data Science .",
+      "ts": 1783436400,
+      "published": "2026-07-07T15:00:00+00:00"
+    },
+    {
       "title": "Show HN: Shellular – run Claude Code, Codex, Pi from your phone",
       "link": "https://shellular.dev/",
       "source": "Hacker News",
@@ -316,6 +388,15 @@
       "summary": "Learn how to build a Python MCP client that tests MCP servers from your terminal. List their tools, prompts, and resources, then call each one.",
       "ts": 1783432800,
       "published": "2026-07-07T14:00:00+00:00"
+    },
+    {
+      "title": "Identifying Microbes in Space",
+      "link": "https://towardsdatascience.com/space-mould/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "What's living on the International Space Station? The post Identifying Microbes in Space appeared first on Towards Data Science .",
+      "ts": 1783431000,
+      "published": "2026-07-07T13:30:00+00:00"
     },
     {
       "title": "Viability of local models for coding",
@@ -350,6 +431,15 @@
       "source": "Real Python",
       "category": "Python",
       "summary": "Build a command-line MCP client in Python, connect it to servers over stdio, and test their tools, prompts, and resources.",
+      "ts": 1783425600,
+      "published": "2026-07-07T12:00:00+00:00"
+    },
+    {
+      "title": "Survival Analysis for Data Drift and ML Reliability",
+      "link": "https://towardsdatascience.com/survival-analysis-for-data-drift-and-ml-reliability/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Treating model degradation as a time-to-failure problem The post Survival Analysis for Data Drift and ML Reliability appeared first on Towards Data Science .",
       "ts": 1783425600,
       "published": "2026-07-07T12:00:00+00:00"
     },
@@ -480,15 +570,6 @@
       "published": "2026-07-06T23:36:38+00:00"
     },
     {
-      "title": "Bringing PyTorch Monarch to AMD GPUs: Single-Controller Distributed Training on ROCm",
-      "link": "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/",
-      "source": "PyTorch",
-      "category": "DataScience",
-      "summary": "Training state-of-the-art large language models (LLMs) with billions of parameters requires distributed training across hundreds or thousands of GPUs. At this scale, hardware failures are not exceptional events—they are…",
-      "ts": 1783380707,
-      "published": "2026-07-06T23:31:47+00:00"
-    },
-    {
       "title": "Java News Roundup: Strict Field Initialization, GlassFish, GraalVM, JReleaser, RefactorFirst",
       "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jun29-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
@@ -552,6 +633,15 @@
       "published": "2026-07-06T15:30:55+00:00"
     },
     {
+      "title": "How to Run End-to-End Tests with Claude Code",
+      "link": "https://towardsdatascience.com/how-to-run-end-to-end-tests-with-claude-code/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Increase the effectiveness of your coding agents through end-to-end testing. The post How to Run End-to-End Tests with Claude Code appeared first on Towards Data Science .",
+      "ts": 1783350000,
+      "published": "2026-07-06T15:00:00+00:00"
+    },
+    {
       "title": "Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting",
       "link": "https://www.infoq.com/news/2026/07/netflix-cassandra-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
       "source": "InfoQ Architecture",
@@ -579,6 +669,15 @@
       "published": "2026-07-06T14:00:00+00:00"
     },
     {
+      "title": "Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop",
+      "link": "https://towardsdatascience.com/validating-the-rag-answer-before-the-user-sees-it-spans-quotes-and-the-feedback-loop/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8C] - Structured output is the start of validation, not the end: check the evidence, accept not-found, loop the feedback The post Validating the RAG Answer Before the User Sees I…",
+      "ts": 1783344600,
+      "published": "2026-07-06T13:30:00+00:00"
+    },
+    {
       "title": "Fragments: July 6",
       "link": "https://martinfowler.com/fragments/2026-07-06.html",
       "source": "Martin Fowler",
@@ -602,6 +701,15 @@
       "source": "InfoQ AI/ML",
       "category": "AI",
       "summary": "InfoQ has opened enrollment for a five-week AI Security & Privacy Engineering cohort for senior engineers and architects in regulated industries, focused on applying security, privacy, threat modeling, observability, an…",
+      "ts": 1783339200,
+      "published": "2026-07-06T12:00:00+00:00"
+    },
+    {
+      "title": "Stop Ranking Agent Configs by Average Score",
+      "link": "https://towardsdatascience.com/stop-ranking-agent-configs-by-average-score/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Best-worst comparisons, MaxDiff-style judging, and Plackett-Luce utility scores give agent teams a cleaner way to decide which configs to ship, prune, and route toward next. The post Stop Ranking Agent Configs by Averag…",
       "ts": 1783339200,
       "published": "2026-07-06T12:00:00+00:00"
     },
@@ -705,6 +813,15 @@
       "published": "2026-07-05T17:05:35+00:00"
     },
     {
+      "title": "Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs",
+      "link": "https://towardsdatascience.com/assemble-each-rag-generation-prompt-from-a-base-prompt-plus-the-rules-each-question-needs/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8B] - A fixed BASE, the rules each question needs, one registry: the dispatcher that turns a parsed question into a typed LLM call The post Assemble Each RAG Generation Prompt fr…",
+      "ts": 1783263600,
+      "published": "2026-07-05T15:00:00+00:00"
+    },
+    {
       "title": "Funding Open Source Without The Bait And Switch: Analytics, Native Maps, TV And More",
       "link": "https://foojay.io/today/funding-open-source-without-the-bait-and-switch-analytics-native-maps-tv-and-more/",
       "source": "Foojay",
@@ -712,6 +829,15 @@
       "summary": "This week adds a privacy-first analytics API, a pure-vector map engine with pluggable native providers, Apple TV and Android TV support with CSS @media for form factors, rich text and code editors, and device integrity…",
       "ts": 1783258860,
       "published": "2026-07-05T13:41:00+00:00"
+    },
+    {
+      "title": "PANet Paper Walkthrough: When Feature Pyramids Go Bottom-Up",
+      "link": "https://towardsdatascience.com/panet-paper-walkthrough-when-feature-pyramids-go-bottom-up/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Understanding how PANet shortens the path between low-level and high-level features The post PANet Paper Walkthrough: When Feature Pyramids Go Bottom-Up appeared first on Towards Data Science .",
+      "ts": 1783256400,
+      "published": "2026-07-05T13:00:00+00:00"
     },
     {
       "title": "AWS Introduces Amazon S3 Annotations",
@@ -795,6 +921,24 @@
       "published": "2026-07-04T22:53:52+00:00"
     },
     {
+      "title": "Setting Up Your Own Large Language Model",
+      "link": "https://towardsdatascience.com/setting-up-your-own-large-language-model/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Still a long way to go, but the future is promising The post Setting Up Your Own Large Language Model appeared first on Towards Data Science .",
+      "ts": 1783177200,
+      "published": "2026-07-04T15:00:00+00:00"
+    },
+    {
+      "title": "Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination",
+      "link": "https://towardsdatascience.com/stop-returning-text-from-rag-the-typed-answer-contract-that-prevents-hallucination/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8A] - The schema is the contract: every field is a question the pipeline asks the model, and every answer is checkable The post Stop Returning Text from RAG: The Typed Answer Con…",
+      "ts": 1783170000,
+      "published": "2026-07-04T13:00:00+00:00"
+    },
+    {
       "title": "Cycle Introduces EU Control Plane as Sovereignty Debate Continues",
       "link": "https://www.infoq.com/news/2026/07/cycle-eu-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
       "source": "InfoQ Architecture",
@@ -858,13 +1002,22 @@
       "published": "2026-07-03T16:53:50+00:00"
     },
     {
-      "title": "Understanding PyTorch’s Test Infrastructure",
-      "link": "https://pytorch.org/blog/understanding-pytorchs-test-infrastructure/",
-      "source": "PyTorch",
+      "title": "AI Agents Explained: What Is a ReAct Loop and How Does It Work?",
+      "link": "https://towardsdatascience.com/ai-agents-explained-what-is-a-react-loop-and-how-does-it-work/",
+      "source": "Towards Data Science",
       "category": "DataScience",
-      "summary": "TL;DR PyTorch tests are often generated at import time, so CI failures may show device/dtype-specific names that differ from the source template. For local debugging, pytest -k and test/run_test.py are...",
-      "ts": 1783090807,
-      "published": "2026-07-03T15:00:07+00:00"
+      "summary": "How agents reason, act, and observe their way to a final answer, one step at a time The post AI Agents Explained: What Is a ReAct Loop and How Does It Work? appeared first on Towards Data Science .",
+      "ts": 1783096200,
+      "published": "2026-07-03T16:30:00+00:00"
+    },
+    {
+      "title": "Long Context vs. Short Context Model: When Does a Long Context Model Win?",
+      "link": "https://towardsdatascience.com/long-context-vs-short-context-model-when-does-a-long-context-model-win/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Balancing context capability against cost, speed, and data The post Long Context vs. Short Context Model: When Does a Long Context Model Win? appeared first on Towards Data Science .",
+      "ts": 1783090800,
+      "published": "2026-07-03T15:00:00+00:00"
     },
     {
       "title": "June 2026 newsletter",
@@ -1036,15 +1189,6 @@
       "summary": "Adobe is experimenting with “agentic sites” that generate pages around an individual user’s intent. At AIEWF, we talked to Carlos Sanchez about the Web's future.",
       "ts": 1783027514,
       "published": "2026-07-02T21:25:14+00:00"
-    },
-    {
-      "title": "Building the Future of On-Device AI at the ExecuTorch Hackathon",
-      "link": "https://pytorch.org/blog/building-the-future-of-on-device-ai-at-the-executorch-hackathon/",
-      "source": "PyTorch",
-      "category": "DataScience",
-      "summary": "This past weekend in San Francisco, builders, researchers, mobile developers, and AI practitioners came together for the ExecuTorch Hackathon, a two-day, on-site event focused on a practical and increasingly important...",
-      "ts": 1783025236,
-      "published": "2026-07-02T20:47:16+00:00"
     },
     {
       "title": "llm-coding-agent 0.1a0",
@@ -1317,15 +1461,6 @@
       "published": "2026-07-01T16:00:00+00:00"
     },
     {
-      "title": "Shopify Joins the PyTorch Foundation as a Platinum Member",
-      "link": "https://pytorch.org/blog/shopify-joins-the-pytorch-foundation-as-a-platinum-member/",
-      "source": "PyTorch",
-      "category": "DataScience",
-      "summary": "The PyTorch Foundation, a community-driven hub for open source AI under the Linux Foundation, is announcing today that Shopify has joined as a Platinum member. Shopify provides essential internet infrastructure...",
-      "ts": 1782921359,
-      "published": "2026-07-01T15:55:59+00:00"
-    },
-    {
       "title": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
       "link": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
       "source": "Latent Space",
@@ -1567,15 +1702,6 @@
       "summary": "",
       "ts": 1782844370,
       "published": "2026-06-30T18:32:50+00:00"
-    },
-    {
-      "title": "Miles: A PyTorch-Native Stack for Large-Scale LLM RL Post-Training",
-      "link": "https://pytorch.org/blog/miles-a-pytorch-native-stack-for-large-scale-llm-rl-post-training/",
-      "source": "PyTorch",
-      "category": "DataScience",
-      "summary": "TL;DR Miles is RadixArk’s open source framework for large-scale LLM RL post-training. It composes SGLang for rollout, NVIDIA Megatron-LM for training, Ray orchestration, and PyTorch-native extensibility behind a small,…",
-      "ts": 1782841707,
-      "published": "2026-06-30T17:48:27+00:00"
     },
     {
       "title": "The AI Compass",
@@ -1963,15 +2089,6 @@
       "summary": "Target built a generative AI system to improve marketing campaign forecasting by retrieving and ranking similar historical campaigns. Using embeddings, vector search, and LLM ranking, it replaces rule-based workflows. E…",
       "ts": 1782743160,
       "published": "2026-06-29T14:26:00+00:00"
-    },
-    {
-      "title": "Introducing Cross-Repository CI Relay: Scalable CI for PyTorch’s Out-of-Tree Backends",
-      "link": "https://pytorch.org/blog/introducing-cross-repository-ci-relay-scalable-ci-for-pytorchs-out-of-tree-backends/",
-      "source": "PyTorch",
-      "category": "DataScience",
-      "summary": "TL;DR PyTorch now has a Cross-Repository CI Relay (CRCR) that automatically triggers and tracks CI in downstream repositories whenever a PR is opened or a commit is pushed against pytorch/pytorch....",
-      "ts": 1782742722,
-      "published": "2026-06-29T14:18:42+00:00"
     },
     {
       "title": "How to Get Started With the GitHub Copilot CLI",
@@ -2370,15 +2487,6 @@
       "published": "2026-06-25T16:00:00+00:00"
     },
     {
-      "title": "TokenSpeed-Kernel: Portable APIs and High-Performance Kernels for Multi-Silicon LLM Inference",
-      "link": "https://pytorch.org/blog/lightseek-tokenspeed-kernel/",
-      "source": "PyTorch",
-      "category": "DataScience",
-      "summary": "TL;DR The TokenSpeed-kernel is a standalone, open-source subsystem designed to solve backend complexity in LLM inference. It introduces a clean, layered API and registry system that decouples the high-level runtime...",
-      "ts": 1782398886,
-      "published": "2026-06-25T14:48:06+00:00"
-    },
-    {
       "title": "Repositioning retail for the AI era",
       "link": "https://www.technologyreview.com/2026/06/25/1137848/repositioning-retail-for-the-ai-era/",
       "source": "MIT Tech Review",
@@ -2665,15 +2773,6 @@
       "summary": "Tool: OPFS + Pyodide test harness I've been pondering if Datasette Lite - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored…",
       "ts": 1782241134,
       "published": "2026-06-23T18:58:54+00:00"
-    },
-    {
-      "title": "Serving DeepSeek-V4 on GB300 with SGLang: 5x Higher Throughput at the Same Interactivity Since Day-0",
-      "link": "https://pytorch.org/blog/serving-deepseek-v4-on-gb300-with-sglang-5x-higher-throughput-at-the-same-interactivity-since-day-0/",
-      "source": "PyTorch",
-      "category": "DataScience",
-      "summary": "TL;DR: DeepSeek-V4 support was live in SGLang on Day-0, but the Day-0 stack was only the starting point. Since launch, we have coordinated a set of kernel, runtime, and hardening...",
-      "ts": 1782229918,
-      "published": "2026-06-23T15:51:58+00:00"
     },
     {
       "title": "v2.0.0 (2026-06-23)",
@@ -3142,15 +3241,6 @@
       "summary": "We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!",
       "ts": 1781803800,
       "published": "2026-06-18T17:30:00+00:00"
-    },
-    {
-      "title": "From Minutes to Seconds: LLM-Guided Autotuning for Helion Kernels",
-      "link": "https://pytorch.org/blog/from-minutes-to-seconds-llm-guided-autotuning-for-helion-kernels/",
-      "source": "PyTorch",
-      "category": "DataScience",
-      "summary": "TL;DR Helion, PyTorch’s domain-specific language (DSL) for performance portable machine learning kernels, heavily relies on autotuning for performance. Currently Helion searches utilize the Likelihood-Free Bayesian Opti…",
-      "ts": 1781798933,
-      "published": "2026-06-18T16:08:53+00:00"
     },
     {
       "title": "Quiz: Sorting a Python Dictionary: Values, Keys, and More",
