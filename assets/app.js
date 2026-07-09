@@ -272,10 +272,21 @@ function renderArchive(data) {
     try {
       if (semantic.status !== "ready") {
         setNote("의미검색 AI 모델 준비 중… (최초 1회 다운로드, 이후 캐시됨)");
+        // The model is several files; the callback fires per file. Small files
+        // (config/tokenizer, a few KB) would otherwise race to 100% and make the
+        // number jump — so track only the large file(s) (the ~100MB model weights),
+        // aggregate their bytes, and clamp non-decreasing for a smooth rise.
+        const BIG = 1e6; // ignore files under ~1MB for the percentage
+        const files = {};
+        let shownPct = 0;
         await loadSemanticModel((p) => {
-          if (p && p.status === "progress" && p.total) {
-            setNote(`모델 다운로드 중… ${Math.round((p.loaded / p.total) * 100)}%`);
-          }
+          if (!p || !p.file || typeof p.loaded !== "number" || typeof p.total !== "number" || p.total < BIG) return;
+          files[p.file] = { loaded: p.status === "done" ? p.total : p.loaded, total: p.total };
+          let loaded = 0, total = 0;
+          for (const k in files) { loaded += files[k].loaded; total += files[k].total; }
+          const pct = Math.max(shownPct, Math.min(99, Math.round((loaded / total) * 100)));
+          shownPct = pct;
+          setNote(`의미검색 모델 다운로드 중… ${pct}% (${(loaded / 1e6).toFixed(0)}MB)`);
         });
       }
       await ensureEmbeddings();
