@@ -74,17 +74,17 @@
     },
     {
       "category": "DataScience",
-      "title": "Information Theory and Ensemble Models",
-      "link": "https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/",
-      "summary": "Towards Data Science가 정보이론 관점에서 시계열 예측(forecast)을 더 잘 앙상블하는 방법을 다룹니다. 여러 예측을 어떻게 결합해야 정확도가 오르는지 실무 관점으로 짚습니다.",
-      "detail": "Towards Data Science가 2026-07-08에 게재한 글로, '시계열 예측을 어떻게 더 잘 앙상블할까'를 정보이론 시각에서 접근합니다.\n- 앙상블(ensemble): 여러 모델·예측을 결합해 단일 모델보다 안정적이고 정확한 예측을 얻는 기법입니다.\n- 시계열 예측: 수요·판매·트래픽처럼 시간에 따라 변하는 값을 예측하는 문제에 초점을 둡니다.\n- 정보이론 관점: 각 예측이 담은 정보량과 중복을 따져, 단순 평균이 아니라 '정보 기여가 큰' 예측에 가중치를 두는 결합 방식을 논의합니다.\n- 티켓 판매·수요 예측처럼 여러 모델을 돌려 결과를 합치는 실무에서, 앙상블 가중치를 원리 있게 정하는 데 참고할 수 있는 콘텐츠입니다."
-    },
-    {
-      "category": "DataScience",
       "title": "SQL vs Pandas vs AI Agents: Which Solves Analytics Problems Best?",
       "link": "https://www.kdnuggets.com/sql-vs-pandas-vs-ai-agents-which-solves-analytics-problems-best",
       "summary": "KDnuggets가 같은 분석 문제를 SQL·pandas·AI 에이전트로 각각 풀어, 실제 실행시간과 에이전트 프롬프트로 8개 기준을 비교했습니다. 언제 AI를 쓰는 게 실익인지 알려줍니다.",
       "detail": "KDnuggets가 2026-07-07에 게재한 실전 비교 글로, 데이터 사이언티스트의 대표 도구 세 가지를 같은 과제에 붙여 성능을 재봤습니다.\n- 실험 설계: 동일한 분석 문제 3개를 SQL, pandas, AI 에이전트로 각각 풀고, 8개 축(실행 시간, 정확성, 재현성, 유지보수성 등)으로 평가했습니다.\n- 실제 측정: 추상적 주장 대신 실제 실행 시간과 실제 에이전트 프롬프트를 기록해 객관적으로 비교합니다.\n- AI 활용 관점: LLM 기반 AI 에이전트가 어떤 분석 문제에서 SQL·pandas보다 이득이고, 어디서는 전통 도구가 여전히 빠르고 안전한지 감을 줍니다.\n- '내 분석 워크플로에 AI 에이전트를 언제·어떻게 넣을까'를 고민하는 실무자에게 근거 있는 판단 기준을 제공합니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "Information Theory and Ensemble Models",
+      "link": "https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/",
+      "summary": "Towards Data Science가 정보이론 관점에서 시계열 예측(forecast)을 더 잘 앙상블하는 방법을 다룹니다. 여러 예측을 어떻게 결합해야 정확도가 오르는지 실무 관점으로 짚습니다.",
+      "detail": "Towards Data Science가 2026-07-08에 게재한 글로, '시계열 예측을 어떻게 더 잘 앙상블할까'를 정보이론 시각에서 접근합니다.\n- 앙상블(ensemble): 여러 모델·예측을 결합해 단일 모델보다 안정적이고 정확한 예측을 얻는 기법입니다.\n- 시계열 예측: 수요·판매·트래픽처럼 시간에 따라 변하는 값을 예측하는 문제에 초점을 둡니다.\n- 정보이론 관점: 각 예측이 담은 정보량과 중복을 따져, 단순 평균이 아니라 '정보 기여가 큰' 예측에 가중치를 두는 결합 방식을 논의합니다.\n- 티켓 판매·수요 예측처럼 여러 모델을 돌려 결과를 합치는 실무에서, 앙상블 가중치를 원리 있게 정하는 데 참고할 수 있는 콘텐츠입니다."
     }
   ]
 }
