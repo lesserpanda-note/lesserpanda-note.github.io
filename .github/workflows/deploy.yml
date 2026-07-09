@@ -26,6 +26,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 8   # backstop: a hung feed fails fast instead of stalling ~30 min
     steps:
       - uses: actions/checkout@v5
 

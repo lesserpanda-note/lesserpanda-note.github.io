@@ -13,6 +13,7 @@ import json
 import re
 import socket
 import sys
+import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -111,7 +112,14 @@ def entry_epoch(entry) -> int | None:
 def fetch_feed(url: str, source: str, category: str) -> list[dict]:
     items: list[dict] = []
     try:
-        parsed = feedparser.parse(url, agent=USER_AGENT)
+        # Fetch the bytes ourselves with a hard timeout, THEN parse in-memory.
+        # feedparser.parse(url) does its own network I/O that can hang for many
+        # minutes past socket timeouts on a slow feed; urlopen(timeout=...) caps it
+        # so one bad feed can't stall the whole build.
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
+            raw = resp.read()
+        parsed = feedparser.parse(raw)
     except Exception as exc:  # network/parse blow-ups must not kill the run
         print(f"  ! {source}: {exc}", file=sys.stderr)
         return items
