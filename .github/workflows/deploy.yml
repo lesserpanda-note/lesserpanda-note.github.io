@@ -10,7 +10,7 @@ on:
     paths-ignore:
       - "data/news.json"        # our own news commits must not re-trigger a deploy
   schedule:
-    - cron: "0 */2 * * *"        # refresh news every 2 hours (UTC)
+    - cron: "0 * * * *"        # refresh news every hour (UTC)
   workflow_dispatch:
 
 permissions:
