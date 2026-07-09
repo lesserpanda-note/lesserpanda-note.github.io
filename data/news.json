@@ -1,7 +1,115 @@
 {
-  "updated": "2026-07-09T12:02:32.355689+00:00",
-  "count": 447,
+  "updated": "2026-07-09T18:28:08.697661+00:00",
+  "count": 461,
   "items": [
+    {
+      "title": "BoxLang 1.14.0 : Sets, Ranges, Inner Classes, and a Runtime That Talks Back",
+      "link": "https://foojay.io/today/boxlang-1-14-0-sets-ranges-inner-classes-and-a-runtime-that-talks-back/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "BoxLang has never stood still, but 1.14.0 is something different. This is the release where the language stops filling gaps and starts defining what a modern dynamic JVM language looks like on its own terms. Sixty-five…",
+      "ts": 1783620179,
+      "published": "2026-07-09T18:02:59+00:00"
+    },
+    {
+      "title": "Behind the Scenes of Distributed Training and Why Your GPU Wiring Matters as Much as Your Strategy",
+      "link": "https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A measured look at distributed training, from DDP and FSDP to the ZeRO stages in between, and why the wiring between your GPUs matters as much as the strategy you choose The post Behind the Scenes of Distributed Trainin…",
+      "ts": 1783614600,
+      "published": "2026-07-09T16:30:00+00:00"
+    },
+    {
+      "title": "Introducing Muse Spark 1.1",
+      "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Introducing Muse Spark 1.1 Following Muse Spark in April , here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot mor…",
+      "ts": 1783614249,
+      "published": "2026-07-09T16:24:09+00:00"
+    },
+    {
+      "title": "llm-meta-ai 0.1",
+      "link": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm , meta",
+      "ts": 1783613540,
+      "published": "2026-07-09T16:12:20+00:00"
+    },
+    {
+      "title": "llm 0.31.1",
+      "link": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Ta…",
+      "ts": 1783613175,
+      "published": "2026-07-09T16:06:15+00:00"
+    },
+    {
+      "title": "LLM Orchestration Frameworks Compared: LangChain vs. LlamaIndex vs. Raw API Calls",
+      "link": "https://machinelearningmastery.com/llm-orchestration-frameworks-compared-langchain-vs-llamaindex-vs-raw-api-calls/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "The default assumption in most LLM developer communities is that you start with raw API calls and graduate to a framework as your project grows.",
+      "ts": 1783611536,
+      "published": "2026-07-09T15:38:56+00:00"
+    },
+    {
+      "title": "Presentation: Accelerating Netflix Data: A Cross-Team Journey from Offline to Online",
+      "link": "https://www.infoq.com/presentations/netflix-data-offline-online/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Raj Ummadisetty and Ken Kurzweil share Netflix's architectural pivot to CloudStream, a repeatable capture, conversion, and deployment framework. They discuss shifting key-value abstractions from stateless to stateful to…",
+      "ts": 1783610400,
+      "published": "2026-07-09T15:20:00+00:00"
+    },
+    {
+      "title": "How to Find the Optimal Coding Agent Interface",
+      "link": "https://towardsdatascience.com/how-to-find-the-optimal-coding-agent-interface/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Find the optimal way to interact with your coding agents The post How to Find the Optimal Coding Agent Interface appeared first on Towards Data Science .",
+      "ts": 1783609200,
+      "published": "2026-07-09T15:00:00+00:00"
+    },
+    {
+      "title": "The History of Kodee, Kotlin’s Mascot",
+      "link": "https://blog.jetbrains.com/research/2026/07/the-history-of-kodee/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "A few years back, the Kotlin team figured it was time their programming language had a mascot – something fun and friendly to make developers feel more at home. After all, so many other programming languages have their…",
+      "ts": 1783608826,
+      "published": "2026-07-09T14:53:46+00:00"
+    },
+    {
+      "title": "Running OpenClaw with Ollama",
+      "link": "https://www.kdnuggets.com/running-openclaw-with-ollama",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "This article covers the full path from zero to a running private research assistant on Telegram, including configuring the context length correctly, connecting the channel, enabling web search, and deploying it headless…",
+      "ts": 1783605615,
+      "published": "2026-07-09T14:00:15+00:00"
+    },
+    {
+      "title": "Nulling Out References Won’t Help Your Garbage Collector",
+      "link": "https://foojay.io/today/nulling-out-references-wont-help-your-garbage-collector/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "One of the misconceptions that I continuously run into is that nulling out references in Java helps garbage collection. This attitude is particularly prevalent from those developers used to C/C++ where delete ptr become…",
+      "ts": 1783604979,
+      "published": "2026-07-09T13:49:39+00:00"
+    },
+    {
+      "title": "Loop Engineering for Hierarchical Retrieval: Reading a Long Document by Its Table of Contents",
+      "link": "https://towardsdatascience.com/loop-engineering-for-hierarchical-retrieval-reading-a-long-document-by-its-table-of-contents/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Enterprise Document Intelligence [Vol.1 #7quater] - A 492-page document has a 358-entry table of contents. You can’t read it all, and top-k over every page mixes the answer with its neighbours. Route through the TOC ins…",
+      "ts": 1783603800,
+      "published": "2026-07-09T13:30:00+00:00"
+    },
     {
       "title": "7 Steps to Automating Descriptive Statistics with Python",
       "link": "https://www.kdnuggets.com/7-steps-to-automating-descriptive-statistics-with-python",
@@ -17,6 +125,15 @@
       "source": "Towards Data Science",
       "category": "DataScience",
       "summary": "They aren’t designed, you can’t help perceiving one anyway, and that makes them an engineering problem almost no one is solving. The post Where Does an AI’s Personality Actually Come From? appeared first on Towards Data…",
+      "ts": 1783598400,
+      "published": "2026-07-09T12:00:00+00:00"
+    },
+    {
+      "title": "Quiz: Build Enumerations of Constants With Python's Enum",
+      "link": "https://realpython.com/quizzes/python-enum/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python's Enum class, from grouping related constants to using IntEnum and IntFlag for integer and bitwise behavior.",
       "ts": 1783598400,
       "published": "2026-07-09T12:00:00+00:00"
     },
@@ -98,6 +215,24 @@
       "source": "Inside Java",
       "category": "Java",
       "summary": "OpenJDK recently resurrected Project Detroit, an effort to ease Java's interoperability with Python and JavaScript.",
+      "ts": 1783555200,
+      "published": "2026-07-09T00:00:00+00:00"
+    },
+    {
+      "title": "A Bootiful Podcast: Spring Boot legend Moritz Halbritter on the latest and greatest in Spring Boot 4 and 4.1",
+      "link": "https://spring.io/blog/2026/07/09/a-bootiful-podcast-moritz-halbritter",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi Spring fans! Spring Boot 4.1 is here and with it a ton of amazing features. I'm delighted to have had the opportunity to sit down with Moritz Halbritter, of Spring Boot and Spring Initializr fame, to talk about some…",
+      "ts": 1783555200,
+      "published": "2026-07-09T00:00:00+00:00"
+    },
+    {
+      "title": "Ollama: all aboard open models",
+      "link": "https://ollama.com/blog/all-aboard-open-models",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors.",
       "ts": 1783555200,
       "published": "2026-07-09T00:00:00+00:00"
     },
@@ -4015,15 +4150,6 @@
       "summary": "[1.8.1] - 2026-06-09 Added agent-framework-core : Add MCP client OTel spans per GenAI semantic conventions ( #6349 ) agent-framework-core : Add MCP long-running task support ( #6319 ) Changed agent-framework-claude : Bu…",
       "ts": 1781041145,
       "published": "2026-06-09T21:39:05+00:00"
-    },
-    {
-      "title": "Accessing Multiple AI Models With the OpenRouter API",
-      "link": "https://realpython.com/courses/multiple-ai-models-openrouter-api/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Access models from popular AI providers in Python through OpenRouter's unified API with smart routing, fallbacks, and cost controls.",
-      "ts": 1781013600,
-      "published": "2026-06-09T14:00:00+00:00"
     }
   ]
 }
