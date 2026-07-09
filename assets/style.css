@@ -141,19 +141,6 @@ main {
 .search:focus { outline: none; border-color: var(--accent); }
 .search::placeholder { color: var(--muted); }
 .search-note { margin: 0 0 0.8rem; color: var(--muted); font-size: 0.82rem; }
-.search-row { display: flex; gap: 0.4rem; align-items: center; flex-wrap: wrap; }
-.sem-toggle {
-  border: 1px solid var(--border);
-  background: transparent;
-  color: var(--muted);
-  padding: 0.4rem 0.7rem;
-  border-radius: 999px;
-  font-size: 0.82rem;
-  cursor: pointer;
-  white-space: nowrap;
-}
-.sem-toggle:hover { border-color: var(--accent); color: var(--accent); }
-.sem-toggle.on { background: var(--accent); color: #fff; border-color: var(--accent); }
 
 /* news cards */
 .news-grid { display: grid; gap: 0.9rem; }

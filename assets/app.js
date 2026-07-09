@@ -91,65 +91,6 @@ function searchMatch(query, text) {
   return { match: true, score };
 }
 
-// --- true semantic search (opt-in) ------------------------------------------
-// Real embeddings via transformers.js, loaded from a CDN ONLY when the user turns
-// it on — casual visitors never pay the download. A multilingual model so Korean
-// queries match English articles by meaning, not just shared words. All model
-// work runs in a Web Worker (assets/semantic-worker.js) so heavy init/inference
-// never freezes the page; the main thread only does light cosine math.
-const SEMANTIC_THRESHOLD = 0.8; // cosine cutoff for "related enough" (e5, normalized)
-const semantic = { status: "idle", embeddedCount: -1, worker: null, seq: 0, pending: new Map(), onProgress: null };
-
-function semanticWorker() {
-  if (semantic.worker) return semantic.worker;
-  const w = new Worker("assets/semantic-worker.js", { type: "module" });
-  w.onmessage = (e) => {
-    const d = e.data || {};
-    if (d.type === "progress") { if (semantic.onProgress) semantic.onProgress(d.payload); return; }
-    const p = semantic.pending.get(d.id);
-    if (!p) return;
-    semantic.pending.delete(d.id);
-    if (d.type === "error") p.reject(new Error(d.message || "worker error"));
-    else p.resolve(d);
-  };
-  w.onerror = () => {
-    for (const [, p] of semantic.pending) p.reject(new Error("semantic worker failed to load"));
-    semantic.pending.clear();
-    semantic.worker = null; // recreate on the next attempt
-  };
-  semantic.worker = w;
-  return w;
-}
-
-function semanticAsk(type, payload) {
-  const w = semanticWorker();
-  const id = ++semantic.seq;
-  return new Promise((resolve, reject) => {
-    semantic.pending.set(id, { resolve, reject });
-    w.postMessage({ type, id, payload });
-  });
-}
-
-async function loadSemanticModel(onProgress) {
-  if (semantic.status === "ready") return;
-  semantic.onProgress = onProgress;
-  await semanticAsk("load");
-  semantic.status = "ready";
-}
-
-// e5 expects "query: " / "passage: " prefixes; the worker returns a normalized
-// vector (plain array), so cosine similarity is just a dot product.
-async function embedText(text) {
-  const res = await semanticAsk("embed", text);
-  return res.vec;
-}
-
-function dot(a, b) {
-  let s = 0;
-  for (let i = 0; i < a.length; i++) s += a[i] * b[i];
-  return s;
-}
-
 // One digest highlight: category badge + title (links to the article) + summary.
 // dateLabel (optional) tags the item with the day it appeared — used by archive search.
 function digestItem(h, dateLabel) {
@@ -222,7 +163,6 @@ function renderArchive(data) {
   const wrap = document.getElementById("archive-list");
   const note = document.getElementById("archive-search-note");
   const input = document.getElementById("archive-search");
-  const toggle = document.getElementById("archive-semantic-toggle");
   const digests = (data && data.digests) || [];
   if (!digests.length) {
     wrap.appendChild(el("p", "empty", "아직 보관된 다이제스트가 없습니다. 매일 갱신되면 이전 다이제스트가 여기 쌓입니다."));
@@ -237,20 +177,9 @@ function renderArchive(data) {
     }
   }
 
-  let useSemantic = false;
-
   const setNote = (txt) => {
     if (!note) return;
     if (txt) { note.hidden = false; note.textContent = txt; } else { note.hidden = true; }
-  };
-  // Progress fires very often (per download chunk / per article); repainting the
-  // note that fast can jank the main thread. Coalesce to ~5 updates/sec.
-  let lastNoteAt = 0;
-  const setNoteSoon = (txt) => {
-    const now = Date.now();
-    if (now - lastNoteAt < 200) return;
-    lastNoteAt = now;
-    setNote(txt);
   };
 
   const dedupe = (list) => {
@@ -271,9 +200,15 @@ function renderArchive(data) {
     for (const d of digests) wrap.appendChild(archiveItem(d));
   }
 
-  function showHits(hits, label) {
+  function search(q) {
+    const ranked = articles
+      .map((a) => ({ a, r: searchMatch(q, a.text) }))
+      .filter((o) => o.r.match)
+      .sort((x, y) => y.r.score - x.r.score)
+      .map((o) => o.a);
+    const hits = dedupe(ranked);
     wrap.innerHTML = "";
-    setNote(label);
+    setNote(`"${q}" 검색 결과 ${hits.length}건`);
     if (!hits.length) {
       wrap.appendChild(el("p", "empty", "검색 결과가 없습니다. 다른 키워드로 시도해 보세요."));
       return;
@@ -283,80 +218,12 @@ function renderArchive(data) {
     wrap.appendChild(ul);
   }
 
-  function keywordSearch(q) {
-    const ranked = articles
-      .map((a) => ({ a, r: searchMatch(q, a.text) }))
-      .filter((o) => o.r.match)
-      .sort((x, y) => y.r.score - x.r.score)
-      .map((o) => o.a);
-    const hits = dedupe(ranked);
-    showHits(hits, `"${q}" 검색 결과 ${hits.length}건`);
-  }
-
-  async function ensureEmbeddings() {
-    if (semantic.embeddedCount === articles.length) return;
-    for (let i = 0; i < articles.length; i++) {
-      setNoteSoon(`문서 의미 분석 중… ${i + 1}/${articles.length}`);
-      articles[i].vec = await embedText("passage: " + articles[i].text);
-    }
-    semantic.embeddedCount = articles.length;
-  }
-
-  async function semanticSearch(q) {
-    try {
-      if (semantic.status !== "ready") {
-        setNote("의미검색 AI 모델 준비 중… (최초 1회 다운로드, 이후 캐시됨)");
-        // The model is several files; the callback fires per file. Small files
-        // (config/tokenizer, a few KB) would otherwise race to 100% and make the
-        // number jump — so track only the large file(s) (the ~100MB model weights),
-        // aggregate their bytes, and clamp non-decreasing for a smooth rise.
-        const BIG = 1e6; // ignore files under ~1MB for the percentage
-        const files = {};
-        let shownPct = 0;
-        await loadSemanticModel((p) => {
-          if (!p || !p.file || typeof p.loaded !== "number" || typeof p.total !== "number" || p.total < BIG) return;
-          files[p.file] = { loaded: p.status === "done" ? p.total : p.loaded, total: p.total };
-          let loaded = 0, total = 0;
-          for (const k in files) { loaded += files[k].loaded; total += files[k].total; }
-          const pct = Math.max(shownPct, Math.min(99, Math.round((loaded / total) * 100)));
-          shownPct = pct;
-          setNoteSoon(`의미검색 모델 다운로드 중… ${pct}% (${(loaded / 1e6).toFixed(0)}MB)`);
-        });
-      }
-      await ensureEmbeddings();
-      setNote("의미 분석 중…");
-      const qv = await embedText("query: " + q);
-      const scored = articles
-        .map((a) => ({ a, score: dot(qv, a.vec) }))
-        .sort((x, y) => y.score - x.score);
-      let picked = scored.filter((s) => s.score >= SEMANTIC_THRESHOLD);
-      if (picked.length < 3) picked = scored.slice(0, 8); // show nearest even if below cutoff
-      const hits = dedupe(picked.map((s) => s.a));
-      showHits(hits, `"${q}" 의미검색 결과 ${hits.length}건`);
-    } catch (err) {
-      console.warn("semantic search failed, falling back to keyword:", err);
-      useSemantic = false;
-      if (toggle) { toggle.classList.remove("on"); toggle.setAttribute("aria-pressed", "false"); }
-      keywordSearch(q);
-      setNote("의미검색 모델을 불러오지 못해 키워드 검색으로 대체했습니다.");
-    }
-  }
-
   function run() {
     const q = ((input && input.value) || "").trim();
-    if (!q) { showBrowse(); return; }
-    if (useSemantic) semanticSearch(q); else keywordSearch(q);
+    if (!q) showBrowse(); else search(q);
   }
 
-  let debounce;
-  if (input) input.addEventListener("input", () => { clearTimeout(debounce); debounce = setTimeout(run, 180); });
-  if (toggle) toggle.addEventListener("click", () => {
-    useSemantic = !useSemantic;
-    toggle.classList.toggle("on", useSemantic);
-    toggle.setAttribute("aria-pressed", String(useSemantic));
-    input.placeholder = useSemantic ? "의미로 검색… (뜻이 비슷한 글까지)" : "검색… (예: 예측 모델, RAG)";
-    run();
-  });
+  if (input) input.addEventListener("input", run);
   showBrowse();
 }
 
