@@ -92,6 +92,20 @@
       "link": "https://www.kdnuggets.com/10-lesser-known-python-libraries-every-data-scientist-should-be-using-in-2026",
       "summary": "KDnuggets가 pandas·scikit-learn 같은 표준 도구 외에, 2026년 예측모델링 생산성을 높여줄 덜 알려진 Python 라이브러리 10종을 소개합니다. 새로 챙길 프레임워크·도구가 궁금할 때 참고하기 좋습니다.",
       "detail": "KDnuggets가 2026년 데이터 사이언티스트가 챙기면 좋은, 상대적으로 덜 알려진 Python 라이브러리 10종을 정리한 글입니다.\n- 표준 스택(NumPy·pandas·scikit-learn) 너머에서 데이터 처리·모델링·평가 워크플로를 더 빠르고 편하게 만들어 주는 도구들을 다룹니다.\n- 최근 데이터 사이언스 생태계에서는 Rust 기반 고성능 데이터프레임 Polars 등 새로운 라이브러리가 빠르게 자리 잡고 있어, 표준 도구만으로는 놓치기 쉬운 성능·생산성 이점을 소개합니다.\n- 특성공학·모델 실험·시각화·성능 최적화 등 예측모델 파이프라인 각 단계에서 바로 적용할 수 있는 라이브러리들을 짚어 줍니다.\n- '새로 나온 프레임워크·라이브러리를 뭘 써봐야 하나'가 궁금한 실무자에게, 검증된 최신 도구를 빠르게 훑는 큐레이션 역할을 합니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "A Beginner's Guide to Integrating LLMs with Your Data Science Projects",
+      "link": "https://www.kdnuggets.com/a-beginners-guide-to-integrating-llms-with-your-data-science-projects",
+      "summary": "KDnuggets가 데이터 사이언스 프로젝트에 LLM을 붙여 쓰는 실전 방법을 정리했습니다. 데이터 탐색·피처 생성·임베딩·분류 등 기존 예측모델 워크플로에 AI를 결합하는 활용법입니다.",
+      "detail": "KDnuggets의 'LLM을 데이터 사이언스 프로젝트에 통합하는 입문 가이드'로, 실무 데이터 사이언티스트가 기존 워크플로에 AI(LLM)를 어떻게 붙여 쓰는지 다룹니다.\n- 데이터 탐색(EDA): 가장 반복적이고 지루한 탐색 단계를 LLM이 보조해 요약·이상치·패턴 파악을 돕습니다.\n- 피처 생성(Feature generation): 데이터셋을 놓고 LLM과 대화하며 새로운 파생 변수 아이디어를 만들고 예측모델 입력으로 활용합니다.\n- 벡터 임베딩: 특히 텍스트 데이터를 임베딩으로 변환해 검색·유사도·다운스트림 예측 과제에 씁니다.\n- 분류: Scikit-LLM 같은 패키지로 LLM을 scikit-learn 스타일 API에 얹어 텍스트 분류를 처리합니다.\n- 즉 '순수 통계·ML 모델'과 'LLM'을 조합하는 실전 진입점으로, AI를 예측·분석 파이프라인에 연동하려는 데이터 사이언티스트에게 딱 맞는 출발점입니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "From Text to Tables: Feature Engineering with LLMs for Tabular Data",
+      "link": "https://machinelearningmastery.com/from-text-to-tables-feature-engineering-with-llms-for-tabular-data/",
+      "summary": "Machine Learning Mastery가 LLM으로 표(tabular) 예측모델용 피처를 만드는 방법을 설명합니다. 텍스트·비정형 데이터를 LLM으로 정형 피처로 바꿔 예측 성능을 높이는 실전 기법입니다.",
+      "detail": "Machine Learning Mastery의 'From Text to Tables' 튜토리얼로, LLM을 표 데이터 예측모델의 특성공학(feature engineering) 단계에 활용하는 실무 방법을 다룹니다.\n- 배경: LLM은 보통 대화용으로 쓰이지만, 복잡한 데이터셋의 피처 엔지니어링 같은 작업에도 활용할 수 있습니다.\n- 텍스트→정형 변환: 상품 설명·리뷰·로그 같은 비정형 텍스트에서 LLM으로 카테고리·감성·키워드 등 정형 피처를 뽑아 표 데이터에 붙입니다.\n- 예측 결합: 이렇게 만든 피처를 XGBoost·scikit-learn 같은 기존 예측모델의 입력으로 넣어 정확도를 끌어올립니다.\n- 즉 최신 AI(LLM)를 전통적 표 데이터 예측 파이프라인에 '피처 생성기'로 연동하는 구체적 활용 사례로, 수요·판매·이탈 예측 등에 바로 응용할 수 있습니다.\n- LLM 자동 특성공학(LLM-FE)처럼 학계에서도 활발한 흐름과 맞닿아 있어, 실무와 최신 연구를 잇는 다리 역할을 합니다."
     }
   ]
 }
