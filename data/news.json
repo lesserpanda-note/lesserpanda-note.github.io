@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-11T03:09:20+09:00",
-  "count": 480,
+  "updated": "2026-07-11T07:38:05+09:00",
+  "count": 483,
   "items": [
+    {
+      "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
+      "link": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.tryai.dev/blog/gpt-5.6-build-off-12-models Comments URL: https://news.ycombinator.com/item?id=48865093 Points: 113 # Comments: 68",
+      "ts": 1783716748,
+      "published": "2026-07-10T20:52:28+00:00",
+      "collected_at": "2026-07-11T07:37:48+09:00"
+    },
+    {
+      "title": "Choosing the Right AI Agent Memory Strategy: A Decision-Tree Approach",
+      "link": "https://machinelearningmastery.com/choosing-the-right-ai-agent-memory-strategy-a-decision-tree-approach/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn how to choose the right memory strategy for an AI agent by working through a simple decision tree, one...",
+      "ts": 1783715181,
+      "published": "2026-07-10T20:26:21+00:00",
+      "collected_at": "2026-07-11T07:37:48+09:00"
+    },
+    {
+      "title": "More Surfaces, Same Deal: Cars, Sensors, Commerce, Video And Builds",
+      "link": "https://foojay.io/today/more-surfaces-same-deal-cars-sensors-commerce-video-and-builds/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "This week's release adds car dashboards, motion sensors, desktop-class input, foldables, Commerce, Secrets, versioned builds, and real video generation while keeping last week's open-source deal intact. The post More Su…",
+      "ts": 1783707426,
+      "published": "2026-07-10T18:17:06+00:00",
+      "collected_at": "2026-07-11T07:37:48+09:00"
+    },
     {
       "title": "Quoting Nilay Patel",
       "link": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
@@ -431,6 +461,16 @@
       "ts": 1783598400,
       "published": "2026-07-09T12:00:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "LLama.cpp Got Screwd",
+      "link": "https://github.com/ggml-org/llama.cpp/discussions/25482",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/ggml-org/llama.cpp/discussions/25482 Comments URL: https://news.ycombinator.com/item?id=48844268 Points: 10 # Comments: 5",
+      "ts": 1783597216,
+      "published": "2026-07-09T11:40:16+00:00",
+      "collected_at": "2026-07-11T07:37:48+09:00"
     },
     {
       "title": "OpenAI Fixes 18-Year-Old GNU libunwind Bug by Treating Crash Debugging Like Epidemiology",
@@ -4790,16 +4830,6 @@
       "summary": "Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.",
       "ts": 1781136000,
       "published": "2026-06-11T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "langgraph-cli==0.4.28",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.28",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.27 release(cli): 0.4.28 ( #8041 ) chore(deps): bump starlette from 1.0.0 to 1.0.1 in /libs/cli ( #8005 ) chore: migrate Python type checking to ty ( #8002 ) chore(deps): bump the minor-and-patch g…",
-      "ts": 1781115632,
-      "published": "2026-06-10T18:20:32+00:00",
       "collected_at": null
     }
   ]
