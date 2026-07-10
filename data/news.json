@@ -1,7 +1,117 @@
 {
-  "updated": "2026-07-10T09:36:23+09:00",
-  "count": 466,
+  "updated": "2026-07-10T20:24:58+09:00",
+  "count": 475,
   "items": [
+    {
+      "title": "Article: Trade-Offs in Multi-Region Architectures: Latency vs. Cost",
+      "link": "https://www.infoq.com/articles/multi-region-latency-cost-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Adding cloud regions changes latency and cost in ways simple math can't capture. This article presents a framework from multiple launches: decompose your latency budget before committing to infrastructure, choose deploy…",
+      "ts": 1783674000,
+      "published": "2026-07-10T09:00:00+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "“This Can’t Possibly Work”: What I Learned at a Temporal.io Workshop",
+      "link": "https://foojay.io/today/this-cant-possibly-work-what-i-learned-at-a-temporal-io-workshop-on-durable-execution/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "When developers first hear about Temporal, they tend to move through a predictable sequence of emotions. First comes disbelief — the claim that your application can crash mid-execution and simply pick up where it left o…",
+      "ts": 1783672882,
+      "published": "2026-07-10T08:41:22+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "How Datadog Used Claude and Cursor for Test-Driven Production Migration",
+      "link": "https://www.infoq.com/news/2026/07/datadog-ai-production-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In a recent article, Datadog engineer Arnold Wakim shared what worked, what didn't, and the lessons they learned while evolving a critical production system using AI to overcome hard limits in its storage backend and si…",
+      "ts": 1783670400,
+      "published": "2026-07-10T08:00:00+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "How Datadog Used Claude and Cursor for Test-Driven Production Migration",
+      "link": "https://www.infoq.com/news/2026/07/datadog-ai-production-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In a recent article, Datadog engineer Arnold Wakim shared what worked, what didn't, and the lessons they learned while evolving a critical production system using AI to overcome hard limits in its storage backend and si…",
+      "ts": 1783670400,
+      "published": "2026-07-10T08:00:00+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
+      "link": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "A big day for OpenAI.",
+      "ts": 1783664380,
+      "published": "2026-07-10T06:19:40+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "Release 2026.7.10",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.10",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Release : v2026.7.10 Updated packages @modelcontextprotocol/server-filesystem@2026.7.10 mcp-server-time@2026.7.10 mcp-server-fetch@2026.7.10 mcp-server-git@2026.7.10",
+      "ts": 1783654747,
+      "published": "2026-07-10T03:39:07+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "python-1.11.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.11.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.11.0] - 2026-07-09 Added agent-framework-core : Add message injection middleware so tools or host code can enqueue messages into an active run and drain them into the next model call within the same AgentSession ( #6…",
+      "ts": 1783653556,
+      "published": "2026-07-10T03:19:16+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "v2.8.0 (2026-07-09)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.8.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Allow to_cli() to pass model for unset-model agents by @hramezani in #6384 Bump bundled chat UI to 2.0.0 and target sdk_version=7 in Agent.to_web() by @dsfaccini in #6296 🐛 Bug Fixes fix: valid…",
+      "ts": 1783648457,
+      "published": "2026-07-10T01:54:17+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "langgraph==1.2.9",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.9",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.8 release(langgraph): 1.2.9 ( #8316 ) fix: updateState metadata/counters for delta channel ( #8315 )",
+      "ts": 1783647024,
+      "published": "2026-07-10T01:30:24+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "Quoting OpenAI",
+      "link": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work thr…",
+      "ts": 1783645557,
+      "published": "2026-07-10T01:05:57+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "Profiling in PyTorch (Part 3): Attention is all you profile",
+      "link": "https://huggingface.co/blog/torch-attention-profile",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1783641600,
+      "published": "2026-07-10T00:00:00+00:00",
+      "collected_at": "2026-07-10T20:24:55+09:00"
+    },
     {
       "title": "v0.18.1",
       "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.18.1",
@@ -4640,26 +4750,6 @@
       "summary": "Article URL: https://deflua.com/ Comments URL: https://news.ycombinator.com/item?id=48476189 Points: 61 # Comments: 0",
       "ts": 1781099094,
       "published": "2026-06-10T13:44:54+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Show HN: macOS menu bar gauges for your Claude Code quota",
-      "link": "https://github.com/grzegorz-raczek-unit8/claude-quota",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/grzegorz-raczek-unit8/claude-quota Comments URL: https://news.ycombinator.com/item?id=48473845 Points: 69 # Comments: 40",
-      "ts": 1781084596,
-      "published": "2026-06-10T09:43:16+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "[AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms",
-      "link": "https://www.latent.space/p/ainews-anthropic-claude-fable-5-mythos",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "The much anticipated launch of the Mythos-class model was marred by some controversial usage policies",
-      "ts": 1781063421,
-      "published": "2026-06-10T03:50:21+00:00",
       "collected_at": null
     }
   ]
