@@ -1,7 +1,137 @@
 {
-  "updated": "2026-07-10T20:24:58+09:00",
-  "count": 475,
+  "updated": "2026-07-11T03:09:20+09:00",
+  "count": 480,
   "items": [
+    {
+      "title": "Quoting Nilay Patel",
+      "link": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it. There is not another way aro…",
+      "ts": 1783703126,
+      "published": "2026-07-10T17:05:26+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "I Built My Second ETL Pipeline. This Time, I Started Thinking Like a Data Engineer",
+      "link": "https://towardsdatascience.com/i-built-my-second-etl-pipeline-this-time-i-started-thinking-like-a-data-engineer/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Building a production-ready RSS pipeline with Python, Docker, PostgreSQL, and Kestra The post I Built My Second ETL Pipeline. This Time, I Started Thinking Like a Data Engineer appeared first on Towards Data Science .",
+      "ts": 1783702800,
+      "published": "2026-07-10T17:00:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "Cloudflare Introduces Temporary Accounts for Autonomous Worker Deployment",
+      "link": "https://www.infoq.com/news/2026/07/cloudflare-temp-accounts/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare has recently introduced temporary accounts that let AI agents deploy Cloudflare Workers immediately, without first creating or authenticating with a permanent account. If left unclaimed, the accounts and thei…",
+      "ts": 1783696560,
+      "published": "2026-07-10T15:16:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "PySpark for Beginners: Building Intermediate-Level Skills",
+      "link": "https://towardsdatascience.com/pyspark-for-beginners-building-intermediate-level-skills/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A practical next step into partitions, shuffles, joins, caching, and execution plans. The post PySpark for Beginners: Building Intermediate-Level Skills appeared first on Towards Data Science .",
+      "ts": 1783695600,
+      "published": "2026-07-10T15:00:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "Fine-Tuning Explained for Noobs (How Pretrained Models Learn New Skills)",
+      "link": "https://www.kdnuggets.com/fine-tuning-explained-for-noobs-how-pretrained-models-learn-new-skills",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "You don't need a PhD to understand fine-tuning. This article explains how pretrained models learn new skills through fine-tuning.",
+      "ts": 1783692032,
+      "published": "2026-07-10T14:00:32+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation",
+      "link": "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Agentic testing is an AI-driven approach to end-to-end test automation introduced by Slack engineering. It uses AI agents that execute workflows based on intent rather than fixed scripts, adapting to UI and system chang…",
+      "ts": 1783691280,
+      "published": "2026-07-10T13:48:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation",
+      "link": "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Agentic testing is an AI-driven approach to end-to-end test automation introduced by Slack engineering. It uses AI agents that execute workflows based on intent rather than fixed scripts, adapting to UI and system chang…",
+      "ts": 1783691280,
+      "published": "2026-07-10T13:48:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "Presentation: Chaos Engineering GPU Clusters",
+      "link": "https://www.infoq.com/presentations/chaos-engineering-gpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Bryan Oliver discusses the frontier of AI infrastructure: chaos engineering for large-scale GPU clusters. He shares how engineering leaders can handle complex topologies, network protocols like RDMA, and NUMA misalignme…",
+      "ts": 1783690920,
+      "published": "2026-07-10T13:42:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "RAG Was Always a Temporary Workaround. What is Next?",
+      "link": "https://towardsdatascience.com/rag-was-always-a-temporary-workaround-what-is-next/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Vector databases are a temporary bridge. Discover why the next AI infrastructure revolution relies on persistent neural state and strict latency budgets, not on vector databases. The post RAG Was Always a Temporary Work…",
+      "ts": 1783690200,
+      "published": "2026-07-10T13:30:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "Local Video Summarization Pipeline: Processing Frames with SmolVLM2-2.2B",
+      "link": "https://www.kdnuggets.com/local-video-summarization-pipeline-processing-frames-with-smolvlm2-2-2b",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "SmolVLM2-2.2B sits at a genuinely useful point on the capability-size trade-off curve; small enough to run on a single consumer GPU, capable enough to produce video summaries that are actually useful for real workflows.",
+      "ts": 1783684851,
+      "published": "2026-07-10T12:00:51+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "Linux Foundation Launches Akrites to Protect Critical Open Source Software from AI-Powered Threats",
+      "link": "https://www.infoq.com/news/2026/07/akrites-open-source-ai-threats/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "The Linux Foundation has launched Akrites, a new industry-wide initiative aimed at defending the world's most critical open source software against a rapidly evolving generation of AI-enabled cyber threats. By Craig Risi",
+      "ts": 1783684800,
+      "published": "2026-07-10T12:00:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #302: Constructing and Judging Modern Agentic Workflows",
+      "link": "https://realpython.com/podcasts/rpp/302/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How can you improve your LLM agent systems through specification enrichment? What are the advantages of having an LLM act as a judge within an agent system? This week on the show, Senior IEEE Member and Quality Engineer…",
+      "ts": 1783684800,
+      "published": "2026-07-10T12:00:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
+    {
+      "title": "The Big Con of Agentic AI",
+      "link": "https://towardsdatascience.com/the-big-con-of-agentic-ai/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "What our over-dependence on external consulting teaches us about delegating our minds to machines The post The Big Con of Agentic AI appeared first on Towards Data Science .",
+      "ts": 1783684800,
+      "published": "2026-07-10T12:00:00+00:00",
+      "collected_at": "2026-07-11T03:08:56+09:00"
+    },
     {
       "title": "Article: Trade-Offs in Multi-Region Architectures: Latency vs. Cost",
       "link": "https://www.infoq.com/articles/multi-region-latency-cost-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -4670,86 +4800,6 @@
       "summary": "Changes since cli==0.4.27 release(cli): 0.4.28 ( #8041 ) chore(deps): bump starlette from 1.0.0 to 1.0.1 in /libs/cli ( #8005 ) chore: migrate Python type checking to ty ( #8002 ) chore(deps): bump the minor-and-patch g…",
       "ts": 1781115632,
       "published": "2026-06-10T18:20:32+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "dotnet-1.10.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.10.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "Changes: dd29f9a .NET: Hosted Agent Sample - Toolbox with various Auth ( #5777 ) ( #6018 ) a5f4e00 .NET: Fix .NET Copilot integration tests for SDK v1.0.0 ( #6424 ) 3c0c12c .NET: Update release version for 2026-06-10 re…",
-      "ts": 1781114525,
-      "published": "2026-06-10T18:02:05+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Apache Burr: Build reliable AI agents and applications",
-      "link": "https://burr.apache.org/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://burr.apache.org/ Comments URL: https://news.ycombinator.com/item?id=48477400 Points: 251 # Comments: 115",
-      "ts": 1781103666,
-      "published": "2026-06-10T15:01:06+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v2.0.0b7 (2026-06-10)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.0.0b7",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "🚀 Pydantic AI V2 Beta 7 is here! For more information on Pydantic AI V2, see the release notes for v2.0.0b1 and the Upgrade Guide . Beta 7 adds no new breaking or v2-specific changes, but pulls in these changes from v1.…",
-      "ts": 1781103252,
-      "published": "2026-06-10T14:54:12+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v1.107.0 (2026-06-10)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🛡️ Security Handle UploadedFile consistently with FileUrl in UI adapters by @dsfaccini in #5772 Security advisory: VercelAIAdapter trusts client-controlled provider metadata to construct UploadedFile refe…",
-      "ts": 1781102424,
-      "published": "2026-06-10T14:40:24+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v2.0.0b6 (2026-06-04)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.0.0b6",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "🚀 Pydantic AI V2 Beta 6 is here! For more information on Pydantic AI V2, see the release notes for v2.0.0b1 and the Upgrade Guide . Beta 6 adds no new breaking or v2-specific changes, but pulls in these changes from v1.…",
-      "ts": 1781102266,
-      "published": "2026-06-10T14:37:46+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v1.106.0 (2026-06-04)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.106.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🛡️ Security Handle UploadedFile consistently with FileUrl in UI adapters by @dsfaccini in #5772 Security advisory: VercelAIAdapter trusts client-controlled provider metadata to construct UploadedFile refe…",
-      "ts": 1781102265,
-      "published": "2026-06-10T14:37:45+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Cursor vs Windsurf: Which AI Code Editor Is Best for Python?",
-      "link": "https://realpython.com/cursor-vs-windsurf-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Compare Cursor vs Windsurf for Python across code completion, multi-file editing, and debugging to choose the right editor for your workflow.",
-      "ts": 1781100000,
-      "published": "2026-06-10T14:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Lua.ex: Sandboxed Lua 5.3 on the Beam, Built for AI Agents · Lua.ex",
-      "link": "https://deflua.com/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://deflua.com/ Comments URL: https://news.ycombinator.com/item?id=48476189 Points: 61 # Comments: 0",
-      "ts": 1781099094,
-      "published": "2026-06-10T13:44:54+00:00",
       "collected_at": null
     }
   ]
