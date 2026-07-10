@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-10T00:23:12Z",
-  "summary": "오늘은 Anthropic의 Claude 내부 개념 처리 공간 발견이라는 해석 가능성 연구 성과와, OpenAI GPT-5.6 패밀리(Luna·Terra·Sol) GA 및 SpaceXAI의 Grok 4.5 출시로 프런티어 모델 경쟁이 한층 가열됐습니다. Java GC 오해 교정·BoxLang 1.14.0 출시 등 JVM 생태계도 꾸준히 진화하고 있으며, DataScience 영역에서는 분산 학습 인프라와 LLM 오케스트레이션 프레임워크 비교가 실무 개발자의 선택을 돕는 중요한 내용으로 올라왔습니다.",
+  "updated": "2026-07-10T00:43:05Z",
+  "summary": "오늘은 Anthropic의 Claude 내부 개념 처리 공간 발견이라는 해석 가능성 연구 성과와, OpenAI GPT-5.6 패밀리(Luna·Terra·Sol) GA 및 SpaceXAI의 Grok 4.5 출시로 프런티어 모델 경쟁이 한층 가열됐습니다. Java GC 오해 교정·BoxLang 1.14.0 출시 등 JVM 생태계도 꾸준히 진화하고 있으며, DataScience 영역에서는 계층적 검색(Loop Engineering)으로 긴 문서에 LLM을 적용하는 기법과 LLM 오케스트레이션 프레임워크 비교가 실무 데이터 사이언티스트에게 바로 도움이 되는 내용으로 올라왔습니다.",
   "highlights": [
     {
       "category": "Java",
@@ -67,10 +67,10 @@
     },
     {
       "category": "DataScience",
-      "title": "Behind the Scenes of Distributed Training and Why Your GPU Wiring Matters as Much as Your Strategy",
-      "link": "https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/",
-      "summary": "DDP·FSDP·ZeRO 등 분산 학습 전략을 실측 관점에서 정리하고, GPU 간 물리적 연결(NVLink, InfiniBand 등)이 학습 전략 선택만큼 중요하다는 것을 보여줍니다.",
-      "detail": "Towards Data Science 기사로, 대규모 딥러닝 모델 학습에서 '어떻게 GPU를 연결하느냐'가 '어떤 전략을 쓰느냐'만큼 중요하다는 주제를 다룹니다.\n① DDP(Distributed Data Parallel): 각 GPU가 전체 모델을 보유하고 배치를 나눠 처리. 모델이 단일 GPU 메모리에 맞을 때 효과적입니다.\n② FSDP(Fully Sharded Data Parallel): 모델 파라미터, 그레이디언트, 옵티마이저 상태를 모두 분산. 거대 모델 학습의 사실상 표준입니다.\n③ ZeRO 스테이지 1~3: 단계가 높을수록 더 많은 상태를 분산해 메모리를 절약하지만 통신 오버헤드가 늘어납니다.\n④ GPU 배선의 중요성: NVLink(고속 GPU간 직결), InfiniBand/RoCE(노드 간 연결) 같은 물리적 인터커넥트가 병목인 경우, 전략을 바꿔도 성능이 개선되지 않습니다. 최적 배선 설계 없이는 아무리 좋은 분산 전략도 소용없다는 것이 핵심 메시지입니다."
+      "title": "Loop Engineering for Hierarchical Retrieval: Reading a Long Document by Its Table of Contents",
+      "link": "https://towardsdatascience.com/loop-engineering-for-hierarchical-retrieval-reading-a-long-document-by-its-table-of-contents/",
+      "summary": "492페이지·358개 항목의 목차를 가진 방대한 문서를 단순 top-k 청크 검색 대신, LLM이 목차(TOC)를 먼저 훑고 관련 섹션으로 라우팅하는 계층적 검색 방식으로 읽게 하는 실전 기법입니다.",
+      "detail": "Towards Data Science의 'Enterprise Document Intelligence' 시리즈 최신 글로, 매우 긴 문서를 LLM에게 어떻게 읽힐지에 대한 실전 기법을 다룹니다.\n문제 상황: 492페이지, 358개 항목의 목차를 가진 기업 문서는 전체를 한 번에 읽을 수 없고, 단순 top-k 청크 임베딩 검색은 정답 청크가 주변 무관한 내용과 섞이는 문제가 있습니다.\n해법 — 루프 엔지니어링(Loop Engineering): LLM이 먼저 문서의 목차(TOC)를 훑어보고, 질의와 관련된 섹션으로 스스로 라우팅한 뒤 해당 부분만 정밀하게 읽어들이는 계층적 검색(hierarchical retrieval) 루프를 구성합니다. 사람이 목차를 보고 원하는 챕터로 바로 넘어가는 방식을 에이전틱 루프로 재현한 것입니다.\n의의: 단순 RAG(top-k 검색)의 한계를 넘어, 문서 구조 자체를 활용해 LLM을 실제 업무 데이터에 적용하는 방법을 제시합니다. 대용량 기업 문서·계약서·매뉴얼을 다루는 데이터 사이언스 실무자에게 바로 적용 가능한 검색 아키텍처 패턴입니다."
     },
     {
       "category": "DataScience",
