@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-11T16:19:01+09:00",
+  "updated": "2026-07-11T20:33:26+09:00",
   "count": 482,
   "items": [
+    {
+      "title": "Temporal Is to Your Code What a Database Is to Your Data",
+      "link": "https://foojay.io/today/temporal-is-to-your-code-what-a-database-is-to-your-data/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Once upon a time, applications managed their own data files. Every program hand-rolled its own locking, its own crash recovery, its own consistency guarantees. Every program did it badly, in its own unique way. Then the…",
+      "ts": 1783765914,
+      "published": "2026-07-11T10:31:54+00:00",
+      "collected_at": "2026-07-11T20:33:05+09:00"
+    },
     {
       "title": "v2.9.0 (2026-07-10)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.0",
@@ -4810,16 +4820,6 @@
       "summary": "Changes since cli==0.4.28 release(cli): 0.4.29 ( #8046 ) feat(cli): add support for passing certfile and cert key to run dev server under HTTPS ( #8031 )",
       "ts": 1781207584,
       "published": "2026-06-11T19:53:04+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Google DeepMind is worried about what happens when millions of agents start to interact",
-      "link": "https://www.technologyreview.com/2026/06/11/1138794/google-deepmind-is-worried-about-what-happens-when-millions-of-agents-start-to-interact/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and align…",
-      "ts": 1781175645,
-      "published": "2026-06-11T11:00:45+00:00",
       "collected_at": null
     }
   ]
