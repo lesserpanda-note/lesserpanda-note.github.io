@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T04:55:40+09:00",
+  "updated": "2026-07-12T07:33:28+09:00",
   "count": 483,
   "items": [
     {
@@ -81,6 +81,16 @@
       "ts": 1783730043,
       "published": "2026-07-11T00:34:03+00:00",
       "collected_at": "2026-07-11T10:19:01+09:00"
+    },
+    {
+      "title": "6× faster binary search: from compiled code to mechanical sympathy",
+      "link": "https://pythonspeed.com/articles/branchless-binary-search/",
+      "source": "Python Speed",
+      "category": "Python",
+      "summary": "How do you speed up computational Python code? A common, and useful, starting point is: Pick a good algorithm. Use a compiled language to write a Python extension. Maybe add parallelism so you can use multiple CPU cores…",
+      "ts": 1783728000,
+      "published": "2026-07-11T00:00:00+00:00",
+      "collected_at": "2026-07-12T07:33:21+09:00"
     },
     {
       "title": "langgraph-cli==0.4.31",
@@ -4820,16 +4830,6 @@
       "summary": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
       "ts": 1781222400,
       "published": "2026-06-12T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Our new community investments in Virginia support local jobs and expand energy affordability.",
-      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/virginia-community-investments/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "We’re helping build the state’s next-generation workforce and investing in energy programs.",
-      "ts": 1781208000,
-      "published": "2026-06-11T20:00:00+00:00",
       "collected_at": null
     }
   ]
