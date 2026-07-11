@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-11T10:19:22+09:00",
-  "count": 481,
+  "updated": "2026-07-11T16:19:01+09:00",
+  "count": 482,
   "items": [
+    {
+      "title": "v2.9.0 (2026-07-10)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security A moderate advisory, GHSA-jpr8-2v3g-wgf9 (CWE-863), affecting the AG-UI UIAdapter.sanitize_messages dangling-tool-call strip, was fixed in 2.5.0 and backported to 1.107.1 on the v1 line. If yo…",
+      "ts": 1783739230,
+      "published": "2026-07-11T03:07:10+00:00",
+      "collected_at": "2026-07-11T16:18:57+09:00"
+    },
+    {
+      "title": "v1.107.1 (2026-07-10)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.1",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security This release patches GHSA-jpr8-2v3g-wgf9 (moderate, CWE-863) on the v1 line. On the AG-UI serving path ( Agent.to_ag_ui() / AGUIAdapter ), UIAdapter.sanitize_messages anchored its dangling-too…",
+      "ts": 1783739229,
+      "published": "2026-07-11T03:07:09+00:00",
+      "collected_at": "2026-07-11T16:18:57+09:00"
+    },
+    {
+      "title": "[AINews] not much happened today",
+      "link": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day after a week of nonstop model releases",
+      "ts": 1783738388,
+      "published": "2026-07-11T02:53:08+00:00",
+      "collected_at": "2026-07-11T16:18:57+09:00"
+    },
     {
       "title": "v0.18.2",
       "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.18.2",
@@ -4790,26 +4820,6 @@
       "summary": "Google DeepMind is funding research into the potential dangers of situations where millions of different AI agents interact with each other online. According to Rohin Shah, who directs the company’s AGI safety and align…",
       "ts": 1781175645,
       "published": "2026-06-11T11:00:45+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v0.17.5",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.5",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "What's Changed fix: expose sandbox error retryability by @qiyaoq-oai in #3581 fix: #3512 type tool-end hook results as object by @seratch in #3518 fix: use tuple form for SpeechGroupSpanData __slots__ by @jluocsa in #35…",
-      "ts": 1781151111,
-      "published": "2026-06-11T04:11:51+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "[AINews] Open Models, Model Labs vs Agent Labs, and What's Untrainable — Sarah Guo",
-      "link": "https://www.latent.space/p/ainews-open-models-model-labs-vs",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us reflect on a great essay",
-      "ts": 1781147666,
-      "published": "2026-06-11T03:14:26+00:00",
       "collected_at": null
     }
   ]
