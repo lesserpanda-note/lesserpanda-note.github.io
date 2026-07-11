@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-11T20:33:26+09:00",
-  "count": 482,
+  "updated": "2026-07-12T00:33:28+09:00",
+  "count": 484,
   "items": [
+    {
+      "title": "Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
+      "link": "https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "LLMs don’t fail because they forget—they fail because they remember too much. As conversations grow, prompts accumulate redundant and low-value tokens, driving up cost and latency while silently degrading output quality…",
+      "ts": 1783782000,
+      "published": "2026-07-11T15:00:00+00:00",
+      "collected_at": "2026-07-12T00:33:24+09:00"
+    },
+    {
+      "title": "That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It",
+      "link": "https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The best AI models still hallucinate. These hallucinations are sometimes funny, and sometimes cause actual damage. In this post we will consider recent tales of AI hallucinations, and then look under the hood to underst…",
+      "ts": 1783774800,
+      "published": "2026-07-11T13:00:00+00:00",
+      "collected_at": "2026-07-12T00:33:24+09:00"
+    },
     {
       "title": "Temporal Is to Your Code What a Database Is to Your Data",
       "link": "https://foojay.io/today/temporal-is-to-your-code-what-a-database-is-to-your-data/",
