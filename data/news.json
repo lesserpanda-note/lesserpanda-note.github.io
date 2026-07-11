@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-11T07:38:05+09:00",
-  "count": 483,
+  "updated": "2026-07-11T10:19:22+09:00",
+  "count": 481,
   "items": [
+    {
+      "title": "v0.18.2",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.18.2",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed feat: support GPT-5.6 request controls by @seratch in #3794 feat: add hosted multi-agent beta support by @seratch in #3788 fix(sandbox): own Daytona PTY worker tasks by @seratch in #3778 fix(realtime): en…",
+      "ts": 1783732066,
+      "published": "2026-07-11T01:07:46+00:00",
+      "collected_at": "2026-07-11T10:19:01+09:00"
+    },
+    {
+      "title": "🛑⚡ When NOT TO USE Event-Driven Architecture (EDA)",
+      "link": "https://foojay.io/today/when-not-to-use-event-driven-architecture-eda/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Event-Driven Architecture can unlock scalability, loose coupling and powerful integrations; but it also introduces retries, eventual consistency, observability challenges and operational overhead. This article explores…",
+      "ts": 1783730043,
+      "published": "2026-07-11T00:34:03+00:00",
+      "collected_at": "2026-07-11T10:19:01+09:00"
+    },
+    {
+      "title": "langgraph-cli==0.4.31",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.31",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.30 chore(cli): allow langgraph-api versions up to 1.0.0 ( #8319 ) chore(deps): bump the minor-and-patch group in /libs/cli with 5 updates ( #8251 ) chore(deps): bump the minor-and-patch group in /…",
+      "ts": 1783724284,
+      "published": "2026-07-10T22:58:04+00:00",
+      "collected_at": "2026-07-11T10:19:01+09:00"
+    },
     {
       "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
       "link": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
@@ -4780,56 +4810,6 @@
       "summary": "a quiet day lets us reflect on a great essay",
       "ts": 1781147666,
       "published": "2026-06-11T03:14:26+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Simplifying Weak Reference Processing in ZGC",
-      "link": "https://inside.java/2026/06/11/thesis-simplify-weak-reference-processing-zgc/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "What are GC barriers and how do they relate to ahead-of-time compilation? This blog post explores the intersection of HotSpot's GCs and compilers through the lense of implementing GC-agnostic load barriers at the assemb…",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "link": "https://huggingface.co/blog/torch-mlp-fusion",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-      "link": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Introducing Claude Corps",
-      "link": "https://www.anthropic.com/news/claude-corps",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Introducing Claude Corps",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Ollama's highest performance on Apple Silicon yet with MLX",
-      "link": "https://ollama.com/blog/mlx-performance",
-      "source": "Ollama",
-      "category": "AI",
-      "summary": "Ollama's MLX engine has been updated to deliver its highest performance on Apple Silicon yet. Models output higher quality responses, respond faster, and use less memory.",
-      "ts": 1781136000,
-      "published": "2026-06-11T00:00:00+00:00",
       "collected_at": null
     }
   ]
