@@ -1,83 +1,41 @@
 {
-  "updated": "2026-07-11T01:14:58Z",
-  "summary": "오늘은 GPT-5.6 Sol/Terra/Luna 공식 출시와 Cloudflare의 AI 에이전트용 임시 계정 기능 도입 등 AI 인프라의 자율화 흐름이 두드러집니다. 아키텍처 분야에서는 멀티 리전 설계의 지연-비용 트레이드오프 프레임워크와 Slack의 에이전트 기반 E2E 테스팅이 주목받고, Java 진영에서는 Temporal.io의 Durable Execution 워크숍 경험과 다양한 플랫폼 확장 릴리스가 소개됩니다. RAG가 임시 방편이었다는 논의와 AI 에이전트 메모리 전략 결정 트리도 이번 주 주요 읽을거리입니다.",
+  "updated": "2026-07-12T00:13:11Z",
+  "summary": "오늘은 AI 에이전트 프레임워크와 LLM 실용 기술에 대한 깊이 있는 내용이 주를 이뤘습니다. pydantic-ai v2.9.0이 GPT-5.6 지원과 보안 패치를 포함하여 출시되었고, Temporal 워크플로우 엔진의 역할을 데이터베이스 역사와 비교한 통찰력 있는 Java 글이 눈에 띕니다. AI/ML 분야에서는 LLM 환각 문제와 긴 컨텍스트로 인한 비용·품질 저하를 해결하는 실용적 접근법이 소개되었습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "\"This Can't Possibly Work\": What I Learned at a Temporal.io Workshop",
-      "link": "https://foojay.io/today/this-cant-possibly-work-what-i-learned-at-a-temporal-io-workshop-on-durable-execution/",
-      "summary": "Temporal.io 워크숍에서 Durable Execution 개념을 직접 체험하며 얻은 인사이트를 공유합니다. 처음에는 불가능해 보였던 \"실행 중 크래시 후 재개\" 기능이 실제로 동작하는 방식을 설명합니다.",
-      "detail": "Temporal.io 워크숍 참가 후 느낀 경험과 배움을 공유하는 글입니다. 개발자들이 Temporal을 처음 접할 때 불신→호기심→수용으로 이어지는 감정의 흐름을 거친다고 설명합니다.\n\n핵심 가치는 Durable Execution: 애플리케이션이 실행 도중 크래시되더라도 마지막 상태부터 실행을 재개할 수 있는 기능입니다. 워크플로우는 코드로 표현되며, Temporal 서버가 실행 이력과 상태를 영속적으로 관리합니다. 네트워크 장애나 서버 재시작에도 워크플로우가 중단 없이 진행되며, 액티비티(Activity) 단위로 실행 단계가 나뉘어 각 단계를 재시도할 수 있습니다.\n\n실습을 통해 분산 시스템의 복잡성을 Temporal이 추상화해준다는 점을 체감했다고 저자는 말합니다."
-    },
-    {
-      "category": "Java",
-      "title": "More Surfaces, Same Deal: Cars, Sensors, Commerce, Video And Builds",
-      "link": "https://foojay.io/today/more-surfaces-same-deal-cars-sensors-commerce-video-and-builds/",
-      "summary": "이번 주 릴리스는 자동차 대시보드, 모션 센서, 폴더블, Commerce, Secrets, 버전 관리 빌드, 실제 영상 생성 기능을 추가하면서 지난주 오픈소스 정책을 유지합니다.",
-      "detail": "Foojay의 주간 Java/Android 생태계 업데이트 소식입니다. 이번 릴리스에서는 다양한 플랫폼 확장이 이루어졌습니다.\n\n주요 변경 사항: 자동차 대시보드(Cars) 지원으로 Android Automotive 환경 확대, 모션 센서(Sensors) API 추가, 데스크탑급 입력 방식 지원, 폴더블 디바이스 최적화, Commerce 기능 통합, Secrets 관리 기능 추가, 버전 관리 빌드 시스템 개선, 실제 동영상 생성 기능이 포함됩니다. 지난주에 발표된 오픈소스 관련 정책도 그대로 유지됩니다.\n\nJava/Android 개발자 생태계에서 다양한 디바이스 폼팩터와 기능 확장이 빠르게 진행되고 있음을 보여주는 주간 릴리스입니다."
-    },
-    {
-      "category": "AI",
-      "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
-      "link": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
-      "summary": "GPT-5.6, Grok 4.5, Claude, Muse Spark 등 12개 AI 모델이 동일한 4가지 앱을 빌드하며 직접 대결을 펼친 비교 실험입니다. 각 모델의 실전 코딩 능력을 비교했습니다.",
-      "detail": "TryAI의 AI 모델 빌드오프 실험으로, GPT-5.6, Grok 4.5, Claude, Muse Spark를 포함한 12개 AI 모델이 동일한 4개 앱을 빌드하며 성능을 비교했습니다.\n\n모든 모델에게 동일한 프롬프트를 제공하고, 코드 품질·완성도·속도를 평가했습니다. Hacker News에서 113포인트와 68개 댓글을 받을 만큼 개발자 커뮤니티에서 큰 주목을 받은 실험입니다.\n\n최신 세대 AI 코딩 모델들의 실질적인 차이를 직접 비교할 수 있는 귀중한 자료로, 개발자들이 실무에서 모델 선택 시 참고할 수 있는 실전 벤치마크입니다."
-    },
-    {
-      "category": "AI",
-      "title": "Cloudflare Introduces Temporary Accounts for Autonomous Worker Deployment",
-      "link": "https://www.infoq.com/news/2026/07/cloudflare-temp-accounts/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Cloudflare가 AI 에이전트가 영구 계정 없이 즉시 Workers를 배포할 수 있는 임시 계정 기능을 도입했습니다. 미클레임 시 계정과 리소스가 자동 삭제됩니다.",
-      "detail": "Cloudflare는 자율 AI 에이전트가 Cloudflare Workers를 즉시 배포할 수 있도록 임시 계정(Temporary Accounts) 기능을 출시했습니다.\n\n기존에는 Workers를 배포하려면 계정 생성과 인증이 필요했으나, 새로운 임시 계정을 통해 AI 에이전트가 인증 없이도 즉시 배포를 시작할 수 있습니다. 클레임되지 않은 임시 계정과 그 리소스는 일정 시간이 지나면 자동으로 삭제되어 보안과 자원 관리를 유지합니다.\n\n이 기능은 AI 에이전트가 워크플로우에서 동적으로 서버리스 함수를 배포해야 하는 자율 실행 시나리오를 위해 설계되었습니다. 개발자는 나중에 해당 임시 계정을 자신의 영구 계정에 클레임할 수 있습니다. AI 에이전트의 자율적 인프라 운영을 한층 쉽게 만드는 중요한 기능 추가입니다."
+      "title": "Temporal Is to Your Code What a Database Is to Your Data",
+      "link": "https://foojay.io/today/temporal-is-to-your-code-what-a-database-is-to-your-data/",
+      "summary": "Temporal은 데이터베이스가 데이터에 하는 역할을 코드 실행에 합니다. 워크플로우 상태의 지속성과 내구성을 표준화하여 분산 시스템 개발을 단순화하는 방법을 설명합니다.",
+      "detail": "과거 애플리케이션은 자체적으로 파일을 관리했지만, 데이터베이스가 등장하면서 잠금, 충돌 복구, 일관성 보장을 표준화했습니다. Temporal은 코드 실행에서 동일한 역할을 담당합니다.\n\n분산 시스템에서 장애가 발생해도 워크플로우 실행 상태를 지속적으로 유지하고, 중단된 지점에서 안전하게 재시작할 수 있게 합니다. 각 팀이 개별적으로 구현하던 재시도 로직, 상태 관리, 타임아웃 처리를 Temporal을 통해 표준화된 방식으로 처리할 수 있습니다.\n\nTemporal의 접근 방식은 비즈니스 로직과 인프라 신뢰성 관련 코드를 분리하여, 개발자가 핵심 비즈니스 문제에 집중할 수 있도록 합니다. 데이터베이스가 데이터 일관성을 보장하듯, Temporal은 코드 실행의 일관성을 보장합니다."
     },
     {
       "category": "Agents",
-      "title": "[AINews] OpenAI launches GPT 5.6 Sol/Terra/Luna, Codex becomes ChatGPT superapp",
-      "link": "https://www.latent.space/p/ainews-openai-launches-gpt-56-solterraluna",
-      "summary": "OpenAI가 GPT 5.6 패밀리(Sol, Terra, Luna)를 정식 출시했으며, Codex가 ChatGPT 슈퍼앱으로 통합되었습니다. Latent Space의 AI 뉴스 종합 요약입니다.",
-      "detail": "Latent Space의 AI 뉴스 요약에 따르면, OpenAI가 GPT 5.6 패밀리를 공식 출시했습니다. Sol, Terra, Luna 세 가지 변형 모델로 구성되어 용도·속도·성능에 따라 선택할 수 있습니다.\n\n또한 Codex가 ChatGPT 슈퍼앱으로 통합되는 중요한 변화도 발표되었습니다. 이전 다이제스트에서 GPT-5.6의 초기 소식을 다뤘으나, 이번 Latent Space 기사는 공식 GA와 세 모델 변형의 세부 사항 및 Codex의 역할 변화에 초점을 맞추고 있습니다.\n\nOpenAI의 모델 라인업 전략이 점차 명확해지는 가운데, 개발자들은 용도에 맞게 모델을 선택할 수 있게 되었습니다."
+      "title": "v2.9.0 (2026-07-10)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.0",
+      "summary": "pydantic-ai v2.9.0이 출시되었습니다. OpenAI GPT-5.6 모델 지원, CLI `/usage` 명령 추가, 보안 취약점 수정 등의 주요 업데이트가 포함됩니다.",
+      "detail": "pydantic-ai 버전 2.9.0이 2026년 7월 10일 출시되었습니다.\n\n주요 신기능:\n- OpenAI GPT-5.6 모델 통합 및 추론 모드(reasoning mode) 지원\n- CLI 도구에 `/usage` 슬래시 명령 추가로 누적 토큰 사용량 실시간 추적 가능\n- `RunContext`를 통한 `usage_limits` 접근 기능으로 도구 내 사용량 한도 확인 가능\n\n버그 수정:\n- 파일 업로드 시 Anthropic Files API 베타 자동 활성화\n- `repr()` 호출 시 충돌 현상 수정\n- FIPS 준수 해시 함수 적용\n- 중첩된 `capture_run_messages` 동작 수정\n- 취소(cancellation) 데드락 제거\n- `end_strategy='early'` 설정 시 올바른 처리 보장\n\n보안: AG-UI 도구 호출 처리의 중간 심각도 취약점(GHSA-jpr8-2v3g-wgf9, CWE-863)이 패치되었습니다. v2.0.0~2.4.x 또는 v1.88.0~1.107.0 사용자는 즉시 업그레이드가 권장됩니다."
     },
     {
       "category": "Agents",
-      "title": "v2.8.0 (2026-07-09)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.8.0",
-      "summary": "Pydantic AI v2.8.0이 릴리스되었습니다. CLI 모델 파라미터 지원, 번들 채팅 UI 2.0.0 업데이트, 다양한 검증 버그 수정이 포함됩니다.",
-      "detail": "Pydantic AI v2.8.0 (2026-07-09)이 출시되었습니다.\n\n주요 신기능 두 가지: 첫째, to_cli() 메서드에 model 파라미터를 전달할 수 있어, 모델이 미리 설정되지 않은 에이전트에서도 CLI 실행 시 모델을 지정할 수 있습니다. 둘째, 번들 채팅 UI가 2.0.0으로 업그레이드되고 Agent.to_web()의 SDK 버전 타겟이 7로 업데이트되었습니다.\n\n버그 수정: Tool 구성의 max_retries·timeout 파라미터 유효성 검사 개선, ToolOutput max_retries 검증 수정, Agent tool_timeout 파라미터 검증 수정, ConcurrencyLimit 최대 큐 설정 유효성 검사 개선, JsonSchemaTransformer의 allOf 조합 처리 수정, 빈 응답/thinking-only 응답 시 이전 텍스트가 재사용되던 문제 해결. 4명의 기여자가 참여했으며 1명은 첫 기여입니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "Article: Trade-Offs in Multi-Region Architectures: Latency vs. Cost",
-      "link": "https://www.infoq.com/articles/multi-region-latency-cost-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "멀티 리전 아키텍처에서 지연 시간과 비용 간의 트레이드오프를 체계적으로 분석하는 실전 프레임워크를 제시합니다. 인프라 확정 전 지연 예산 분해가 핵심입니다.",
-      "detail": "InfoQ의 아키텍처 심층 기사로, 클라우드 멀티 리전 구성 시 지연 시간(Latency)과 비용(Cost) 간의 복잡한 트레이드오프를 다룹니다.\n\n단순히 리전을 추가한다고 지연 시간이 줄어든다는 가정은 실제와 다를 수 있습니다. 이 기사는 여러 실제 서비스 출시 경험에서 도출한 프레임워크를 제시합니다: 인프라를 확정하기 전에 지연 시간 예산(Latency Budget)을 먼저 분해하고, 배포 토폴로지를 선택하고, 비용 구조를 이해하는 것이 핵심입니다.\n\n사용자 요청 경로, 데이터 복제 비용, 리전 간 트래픽 비용 등 실제 비용 구성 요소를 분석하며, 단일 리전 대비 멀티 리전 전환 결정 기준을 구체적으로 제시합니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "Slack Introduces Agent Driven End-to-End Testing to Improve Resilience in UI Test Automation",
-      "link": "https://www.infoq.com/news/2026/07/slack-agentic-e2e-testing-ui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Slack 엔지니어링팀이 고정 스크립트 대신 의도 기반으로 워크플로우를 실행하는 AI 에이전트 주도 E2E 테스트 방식을 도입했습니다. UI 변경에 자동 적응하는 에이전트 테스팅을 소개합니다.",
-      "detail": "Slack이 도입한 Agentic E2E 테스팅은 AI 에이전트가 고정 스크립트 대신 의도(intent)를 기반으로 워크플로우를 실행하는 새로운 테스트 자동화 방식입니다.\n\n기존 UI 테스트 자동화는 화면 요소의 정확한 위치나 셀렉터에 의존해 UI 변경 시 테스트가 쉽게 깨지는 문제가 있었습니다. Slack의 에이전트 기반 접근법에서는 AI 에이전트가 UI와 시스템 변화에 적응하며 테스트를 실행합니다.\n\n이 방식은 테스트 유지 보수 비용을 줄이고 UI 회귀 테스트의 탄력성을 높이는 것을 목표로 합니다. Slack 엔지니어링팀의 실제 도입 사례와 구현 세부 사항을 담고 있어 대규모 프론트엔드 테스트 자동화에 관심 있는 팀에게 유용합니다."
-    },
-    {
-      "category": "Python",
-      "title": "The Real Python Podcast – Episode #302: Constructing and Judging Modern Agentic Workflows",
-      "link": "https://realpython.com/podcasts/rpp/302/",
-      "summary": "LLM 에이전트 시스템에서 사양 강화(Specification Enrichment)와 LLM-as-a-Judge 기법을 통해 품질을 향상시키는 방법을 다루는 Real Python 팟캐스트 에피소드입니다.",
-      "detail": "Real Python 팟캐스트 302번 에피소드에서는 현대 에이전틱 워크플로우의 구성과 평가 방법을 심층적으로 다룹니다.\n\n주요 주제: 사양 강화(Specification Enrichment)를 통해 LLM 에이전트 시스템의 정확도를 높이는 방법, LLM이 판사(Judge) 역할을 하여 에이전트 시스템 내에서 출력 품질을 평가하는 LLM-as-a-Judge 기법이 포함됩니다.\n\n게스트는 IEEE 시니어 멤버이자 품질 엔지니어로, 에이전트 파이프라인의 실용적인 설계와 평가 방법론을 공유합니다. Python 개발자를 위한 에이전틱 AI 시스템 설계의 베스트 프랙티스를 탐구하는 유익한 에피소드입니다."
+      "title": "[AINews] not much happened today",
+      "link": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
+      "summary": "집중적인 AI 모델 릴리스 주간 이후 상대적으로 조용한 하루였습니다. 커뮤니티는 최근 출시된 모델들을 소화하고 평가하는 데 집중했습니다.",
+      "detail": "연속적인 AI 모델 릴리스(GPT-5.6, Grok 4.5 등)가 쏟아진 주간 이후, 이날은 업계 전반적으로 조용한 하루였습니다.\n\n새로운 주요 발표나 모델 릴리스 없이, AI 커뮤니티는 최근 출시된 모델들을 실제로 사용해보고 평가하는 시간을 가졌습니다. latent.space의 AINews 뉴스레터는 이를 '릴리스 폭풍 이후의 소화 기간'으로 표현했습니다.\n\n이와 같은 조용한 날은 빠르게 변화하는 AI 생태계에서 각 조직이 새로운 기능을 실제 업무에 통합하고 전략을 재정비하는 데 필요한 시간입니다."
     },
     {
       "category": "DataScience",
-      "title": "Choosing the Right AI Agent Memory Strategy: A Decision-Tree Approach",
-      "link": "https://machinelearningmastery.com/choosing-the-right-ai-agent-memory-strategy-a-decision-tree-approach/",
-      "summary": "AI 에이전트를 위한 메모리 전략을 의사결정 트리로 체계화한 가이드입니다. 에이전트의 요구사항에 따라 적합한 메모리 유형을 선택하는 실용적인 프레임워크를 제공합니다.",
-      "detail": "Machine Learning Mastery의 이 기사는 AI 에이전트 구현 시 메모리 전략을 올바르게 선택하는 방법을 결정 트리 방식으로 안내합니다.\n\nAI 에이전트의 메모리는 단기 기억(Short-term), 장기 기억(Long-term), 외부 저장소(External storage) 등 다양한 형태가 있으며, 에이전트의 사용 사례와 요구사항에 따라 최적의 선택이 달라집니다.\n\n이 기사의 결정 트리는 에이전트의 작업 범위, 지속성 요구 수준, 확장성 등을 기준으로 단계별로 적합한 메모리 전략을 도출하도록 안내합니다. 에이전트 기반 AI 시스템을 설계하는 개발자에게 실용적인 참고 자료가 됩니다."
+      "title": "Long Context Isn't Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
+      "link": "https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/",
+      "summary": "LLM은 컨텍스트가 길어질수록 비용이 증가하고 품질이 저하됩니다. 이 글은 대화에서 중복되고 가치 낮은 토큰을 안전하게 제거하는 프롬프트 가지치기(pruning) 레이어 구현 방법을 다룹니다.",
+      "detail": "대형 언어 모델(LLM)은 '너무 많이 기억하기 때문에' 실패합니다. 대화가 길어지면서 프롬프트에는 중복되고 가치가 낮은 토큰이 누적되어, 비용과 지연(latency)이 증가하고 출력 품질이 조용히 저하됩니다.\n\n저자는 이를 해결하기 위한 안전한 프롬프트 가지치기 레이어를 직접 구축했습니다. 핵심 원칙은 '안전성'으로, 중요한 정보를 잃지 않으면서도 불필요한 토큰을 제거하는 것입니다.\n\n이 접근 방식의 주요 이점:\n- 토큰 수 감소로 API 비용 절감\n- 프롬프트 길이 단축으로 응답 지연 개선\n- 핵심 정보 집중으로 출력 품질 유지 또는 향상\n\n긴 컨텍스트 창을 제공하는 최신 LLM이라도 무한정 컨텍스트를 효율적으로 처리하지는 못하므로, 프롬프트 관리 전략은 프로덕션 LLM 시스템 구축 시 필수적인 고려 사항입니다."
     },
     {
       "category": "DataScience",
-      "title": "RAG Was Always a Temporary Workaround. What is Next?",
-      "link": "https://towardsdatascience.com/rag-was-always-a-temporary-workaround-what-is-next/",
-      "summary": "RAG와 벡터 데이터베이스는 AI 인프라의 임시 해결책이며, 미래는 영속적 신경 상태(Persistent Neural State)와 엄격한 지연 예산으로 나아간다고 주장합니다.",
-      "detail": "Towards Data Science의 이 기사는 현재 AI 인프라에서 널리 사용되는 RAG(Retrieval-Augmented Generation)와 벡터 데이터베이스가 근본적인 한계를 가진 임시 방편임을 주장합니다.\n\n저자에 따르면, 벡터 데이터베이스는 대형 언어 모델의 컨텍스트 윈도우 한계를 우회하기 위한 임시 다리이며, 모델의 컨텍스트 윈도우가 급격히 커지고 있는 현재 그 필요성이 감소하고 있습니다.\n\n차세대 AI 인프라 혁신의 방향은 영속적 신경 상태(Persistent Neural State)와 엄격한 지연 예산(Strict Latency Budgets)에 있다고 주장합니다. 이 관점은 AI 인프라 설계의 패러다임 전환을 시사하며, 개발자와 아키텍트들이 장기 투자 방향을 재검토하게 만드는 논의입니다."
+      "title": "That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It",
+      "link": "https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/",
+      "summary": "최신 프론티어 AI 모델도 여전히 환각(hallucination)을 일으킵니다. 이 글은 환각의 구조적 원인을 내부 메커니즘 관점에서 분석하고, 이를 줄이기 위한 실용적 전략을 제시합니다.",
+      "detail": "최고 성능의 AI 모델들도 사실이 아닌 정보를 자신 있게 생성하는 환각 문제가 여전히 존재합니다. 환각은 때로는 우스꽝스럽지만, 때로는 실제 피해를 초래하기도 합니다.\n\n환각이 발생하는 구조적 이유:\n- LLM은 '기억'이 아닌 확률적 텍스트 생성 메커니즘을 사용합니다\n- 훈련 데이터에 없는 질문에도 그럴듯한 답변을 생성하려는 경향이 있습니다\n- 모델은 자신의 불확실성을 항상 정확하게 표현하지 못합니다\n\n환각을 줄이기 위한 실용적 전략:\n- 검색 증강 생성(RAG): 외부 지식베이스에서 실시간으로 사실 정보를 가져옵니다\n- 팩트 체킹 레이어: 출력을 생성 후 검증하는 단계를 추가합니다\n- 불확실성 표현 유도: 모델이 모르는 것을 인정하도록 프롬프트를 설계합니다\n- 그라운딩(grounding): 응답을 특정 문서나 컨텍스트에 고정시킵니다"
     }
   ]
 }
