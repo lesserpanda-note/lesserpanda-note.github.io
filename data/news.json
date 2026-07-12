@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-13T00:39:57+09:00",
-  "count": 480,
+  "updated": "2026-07-13T05:03:18+09:00",
+  "count": 483,
   "items": [
+    {
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "This started based off of a hunch. We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using…",
+      "ts": 1783880751,
+      "published": "2026-07-12T18:25:51+00:00",
+      "collected_at": "2026-07-13T05:02:52+09:00"
+    },
+    {
+      "title": "Claude Code May–July 2026 weekly limits promotion",
+      "link": "https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion Comments URL: https://news.ycombinator.com/item?id=48883064 Points: 40 # Comments: 58",
+      "ts": 1783879289,
+      "published": "2026-07-12T18:01:29+00:00",
+      "collected_at": "2026-07-13T05:02:52+09:00"
+    },
     {
       "title": "RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each",
       "link": "https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/",
@@ -11,6 +31,16 @@
       "ts": 1783868400,
       "published": "2026-07-12T15:00:00+00:00",
       "collected_at": "2026-07-13T00:39:55+09:00"
+    },
+    {
+      "title": "Show HN: Only 1 of 4,356 reachable MCP servers is ready for the 2026-07-28 spec",
+      "link": "https://github.com/Roee-Tsur/mcp-spec-check",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/Roee-Tsur/mcp-spec-check Comments URL: https://news.ycombinator.com/item?id=48881009 Points: 21 # Comments: 8",
+      "ts": 1783862461,
+      "published": "2026-07-12T13:21:01+00:00",
+      "collected_at": "2026-07-13T05:02:52+09:00"
     },
     {
       "title": "How to Orchestrate 100+ Agents With Claude Code",
