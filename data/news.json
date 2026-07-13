@@ -1,7 +1,97 @@
 {
-  "updated": "2026-07-13T22:56:29+09:00",
-  "count": 503,
+  "updated": "2026-07-13T23:25:00+09:00",
+  "count": 569,
   "items": [
+    {
+      "title": "The Path to Sovereign Data: Challenges and Priorities in Local-First Computing",
+      "link": "https://www.infoq.com/news/2026/07/data-ownership-localfirst/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "A panel on data ownership challenged the definition of \"ownership,\" arguing it must extend beyond simple account control to include structural independence, interoperability, and community governance. Speakers like Zenn…",
+      "ts": 1783952040,
+      "published": "2026-07-13T14:14:00+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
+      "title": "The Path to Sovereign Data: Challenges and Priorities in Local-First Computing",
+      "link": "https://www.infoq.com/news/2026/07/data-ownership-localfirst/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "A panel on data ownership challenged the definition of \"ownership,\" arguing it must extend beyond simple account control to include structural independence, interoperability, and community governance. Speakers like Zenn…",
+      "ts": 1783952040,
+      "published": "2026-07-13T14:14:00+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
+      "title": "How DoorDash Built an AI Shopping Assistant That Doesn’t Rely on the LLM Alone",
+      "link": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DoorDash details the architecture behind Ask DoorDash, its AI-powered conversational shopping assistant, combining LLMs, specialized AI agents, MCP-based tooling, and an intelligence layer with persistent consumer memor…",
+      "ts": 1783951680,
+      "published": "2026-07-13T14:08:00+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
+      "title": "How DoorDash Built an AI Shopping Assistant That Doesn’t Rely on the LLM Alone",
+      "link": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "DoorDash details the architecture behind Ask DoorDash, its AI-powered conversational shopping assistant, combining LLMs, specialized AI agents, MCP-based tooling, and an intelligence layer with persistent consumer memor…",
+      "ts": 1783951680,
+      "published": "2026-07-13T14:08:00+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
+      "title": "Structured Language Model Generation with Outlines",
+      "link": "https://www.kdnuggets.com/structured-language-model-generation-with-outlines",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Outlines is an open-source library that introduces deterministic certainty into LLMs' output generation process for better, more reliable generation of structured outputs.",
+      "ts": 1783951203,
+      "published": "2026-07-13T14:00:03+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
+      "title": "LangGraph Tutorial: Build Stateful AI Agents in Python",
+      "link": "https://realpython.com/langgraph-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn LangGraph in Python with hands-on examples and build stateful, multi-agent AI agents that manage memory, cycles, and complex LLM workflows.",
+      "ts": 1783951200,
+      "published": "2026-07-13T14:00:00+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
+      "title": "Grok uploaded my user directory to xAI's servers",
+      "link": "https://twitter.com/a_green_being/status/2076598897779020159",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/a_green_being/status/2076598897779020159 Comments URL: https://news.ycombinator.com/item?id=48892512 Points: 68 # Comments: 27",
+      "ts": 1783949999,
+      "published": "2026-07-13T13:39:59+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
+      "title": "Grok CLI uploaded the whole home directory to GCS",
+      "link": "https://twitter.com/i/status/2076598897779020159",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/i/status/2076598897779020159 Comments URL: https://news.ycombinator.com/item?id=48892468 Points: 46 # Comments: 16",
+      "ts": 1783949732,
+      "published": "2026-07-13T13:35:32+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
+      "title": "It’s all about the nonlinearity: An interesting statistical example of flaws in a voter impact index",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/13/interesting-statistical-example-of-flaws-in-a-voter-impact-index/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "The following came in the email the other day: I’m reaching out to introduce the Voter Impact Index, a new data tool from PowerMoves that assigns every U.S. zip code a voter impact score based on the recent competitiven…",
+      "ts": 1783949698,
+      "published": "2026-07-13T13:34:58+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
     {
       "title": "Building Models in Two Worlds: From Latent Constructs to Behavioral Signals",
       "link": "https://towardsdatascience.com/building-models-in-two-worlds-from-latent-constructs-to-behavioral-signals/",
@@ -11,6 +101,16 @@
       "ts": 1783949400,
       "published": "2026-07-13T13:30:00+00:00",
       "collected_at": "2026-07-13T22:56:22+09:00"
+    },
+    {
+      "title": "How to Measure Video Similarity: 6 Techniques I Tested (and the One I Shipped)",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/video-similarity-measurement/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Two short clips. One question: how alike do they look? Sounds trivial, it isn’t, and I learned that the slow way. My setup: one reference clip, eight others to rank against it, all waterfalls (more on why in a second).…",
+      "ts": 1783948800,
+      "published": "2026-07-13T13:20:00+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Java News Roundup: TornadoVM 5, JHipster, Google ADK, OmniFish Build of Payara, Introducing Vidocq",
@@ -31,6 +131,16 @@
       "ts": 1783946400,
       "published": "2026-07-13T12:40:00+00:00",
       "collected_at": "2026-07-13T22:56:22+09:00"
+    },
+    {
+      "title": "Building AI Agents? Here Are Some Anti-Patterns to Avoid.",
+      "link": "https://machinelearningmastery.com/building-ai-agents-here-are-some-anti-patterns-to-avoid/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "Agent systems change constantly in production.",
+      "ts": 1783944058,
+      "published": "2026-07-13T12:00:58+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "5 Real-World SQL Projects to Build Your Data Portfolio",
@@ -193,6 +303,16 @@
       "collected_at": "2026-07-13T05:02:52+09:00"
     },
     {
+      "title": "“Archaeology can’t give social scientists population or GDP, but here are some things we can measure that might be useful for social science.”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/12/archaeology-cant-give-social-scientists-population-or-gdp-but-here-are-some-things-we-can-measure-that-might-be-useful-for-social-science/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Apropos of our recent discussion on the estimation of historical population sizes, Sean Manning writes: Some archaeologists have measured house sizes for Gini-coefficient-style studies aside from studying human remains…",
+      "ts": 1783861252,
+      "published": "2026-07-12T13:00:52+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "How to Orchestrate 100+ Agents With Claude Code",
       "link": "https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/",
       "source": "Towards Data Science",
@@ -201,6 +321,16 @@
       "ts": 1783861200,
       "published": "2026-07-12T13:00:00+00:00",
       "collected_at": "2026-07-13T00:39:55+09:00"
+    },
+    {
+      "title": "Handling Imbalanced Classification: What Works Better Than SMOTE",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/class-imbalance-ml/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Most real-world classification problems are imbalanced. Fraud, disease, churn, and defects are rare by nature. Standard classifiers chase accuracy, so they quietly ignore the very class you care about. For years, SMOTE…",
+      "ts": 1783850239,
+      "published": "2026-07-12T09:57:19+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "What xAI's Grok Build CLI Actually Sends to xAI",
@@ -223,6 +353,16 @@
       "collected_at": "2026-07-12T09:17:03+09:00"
     },
     {
+      "title": "RAG Evaluation Frameworks Compared: RAGAS vs TruLens vs DeepEval",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/rag-evaluation-frameworks/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "LLMs are getting stronger every day, and building a RAG pipeline has never been easier. Knowing whether it actually works is not. Most teams ship a RAG system, see decent-looking answers, and call it done, until users h…",
+      "ts": 1783793760,
+      "published": "2026-07-11T18:16:00+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Long Context Isn’t Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
       "link": "https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/",
       "source": "Towards Data Science",
@@ -231,6 +371,16 @@
       "ts": 1783782000,
       "published": "2026-07-11T15:00:00+00:00",
       "collected_at": "2026-07-12T00:33:24+09:00"
+    },
+    {
+      "title": "“More bad science from JAMA”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/11/more-bad-science-from-jama/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In an abstract entitled, “Statistical dust and sweeping claims about maternal warmth,” John Richters and Everett Waters write: Alley and colleagues draw on mediation analyses of longitudinal data from Millennium Cohort…",
+      "ts": 1783775981,
+      "published": "2026-07-11T13:19:41+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It",
@@ -453,6 +603,16 @@
       "collected_at": "2026-07-11T03:08:56+09:00"
     },
     {
+      "title": "18 Associate Editors resign from Statistics and Computing editorial board: Problems with commercial scholarly publishing, and what does this all mean?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/10/18-associate-editors-resign-from-statistics-and-computing-editorial-board-problems-with-commercial-scholarly-publishing-and-what-does-this-all-mean/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I was cc-ed on a message sent by 18 members of the board of the journal Statistics and Computing, quitting their posts because the publisher (Springer) has announced a new policy whereby all authors will have to pay pub…",
+      "ts": 1783690065,
+      "published": "2026-07-10T13:27:45+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Local Video Summarization Pipeline: Processing Frames with SmolVLM2-2.2B",
       "link": "https://www.kdnuggets.com/local-video-summarization-pipeline-processing-frames-with-smolvlm2-2-2b",
       "source": "KDnuggets",
@@ -541,6 +701,16 @@
       "ts": 1783664380,
       "published": "2026-07-10T06:19:40+00:00",
       "collected_at": "2026-07-10T20:24:55+09:00"
+    },
+    {
+      "title": "GPT-5.6 Is Here: Sol, Terra, and Luna",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/gpt-5-6-sol-terra-luna/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "For twelve days, the best AI models on the planet existed and almost nobody could touch them. That ends now! GPT-5.6 Sol, Terra, and Luna go public today! The models are accessible by all users (no subscription required…",
+      "ts": 1783657190,
+      "published": "2026-07-10T04:19:50+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Release 2026.7.10",
@@ -643,6 +813,16 @@
       "collected_at": null
     },
     {
+      "title": "Loop Engineering for AI Agents: How /loop is Changing AI Workflows",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/loop-engineering-for-ai-agents/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "AI agents are moving from one-time assistants to persistent workers that can repeat tasks, monitor changes, run checks, update workflows, and return with results. Instead of prompting an LLM once and deciding every next…",
+      "ts": 1783617229,
+      "published": "2026-07-09T17:13:49+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Behind the Scenes of Distributed Training and Why Your GPU Wiring Matters as Much as Your Strategy",
       "link": "https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/",
       "source": "Towards Data Science",
@@ -741,6 +921,16 @@
       "ts": 1783604979,
       "published": "2026-07-09T13:49:39+00:00",
       "collected_at": null
+    },
+    {
+      "title": "“A medical journal says the case reports it has published for 25 years are, in fact, fiction”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/09/a-medical-journal-says-the-case-reports-it-has-published-for-25-years-are-in-fact-fiction/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Retraction Watch reports: A Canadian journal has issued corrections on 138 case reports it published over the last 25 years to add a disclaimer: The cases described are fictional. Paediatrics & Child Health, the journal…",
+      "ts": 1783604195,
+      "published": "2026-07-09T13:36:35+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Loop Engineering for Hierarchical Retrieval: Reading a Long Document by Its Table of Contents",
@@ -973,6 +1163,16 @@
       "collected_at": null
     },
     {
+      "title": "DeepSeek DSpark: The Speculative Decoding Trick Behind 400% Faster LLM",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/deepseek-dspark-speculative-decoding/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "DeepSeek’s new DSpark module brings speculative decoding to DeepSeek-V4. It might look like a niche inference tweak, but in production it boosted per-user generation speed by 60 to 85 percent with no drop in model quali…",
+      "ts": 1783535160,
+      "published": "2026-07-08T18:26:00+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Grok 4.5",
       "link": "https://x.ai/news/grok-4-5",
       "source": "Hacker News",
@@ -1113,6 +1313,16 @@
       "collected_at": null
     },
     {
+      "title": "Is fabricating data worse than fabricating results? Is failing to correct a known false report more or less serious than making the false report in the first place?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/08/is-fabricating-data-worse-than-fabricating-results-is-failing-to-correct-a-known-false-report-more-or-less-serious-than-making-the-false-report-in-the-first-place/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Andy King writes: I have a question for you–and, if you think it worthwhile, for your readers. A few weeks ago, I was deposed by Harvard’s lawyers in the lawsuit between Francesca Gino and Harvard. Much of the questioni…",
+      "ts": 1783516756,
+      "published": "2026-07-08T13:19:16+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Quiz: How to Use GitHub",
       "link": "https://realpython.com/quizzes/how-to-use-github/",
       "source": "Real Python",
@@ -1213,6 +1423,16 @@
       "collected_at": null
     },
     {
+      "title": "Survey Statistics: toy example for energy balancing weights",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/07/survey-statistics-toy-example-for-energy-balancing-weights/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Last week we talked about The Big Changes Coming to the Times/Siena Poll: New weighting variable: support score = E(2024 vote | other X variables). New weighting method: energy balancing (Huling & Mak, 2024) Ben Schneid…",
+      "ts": 1783469286,
+      "published": "2026-07-08T00:08:06+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Native-speed vLLM transformers modeling backend",
       "link": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
       "source": "Hugging Face",
@@ -1231,6 +1451,16 @@
       "ts": 1783458933,
       "published": "2026-07-07T21:15:33+00:00",
       "collected_at": null
+    },
+    {
+      "title": "Claude builds 3D Hamiltonian Monte Carlo animation in one shot with anaglyphs",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/07/claude-builds-3d-hamiltonian-monte-carlo-animation-in-one-shot-with-anaglyphs/",
+      "source": "Statistical Modeling",
+      "category": "AI",
+      "summary": "This post is from Bob The sausage So as not to bury the lead (or “lede” if you want a mid-20th-century newspaper vibe), check out the this 3D HMC animation generator. It can render regular animations or produce anaglyph…",
+      "ts": 1783457699,
+      "published": "2026-07-07T20:54:59+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Switching from PostgreSQL to ClickHouse for Improved Performance and Scalability",
@@ -1383,6 +1613,16 @@
       "collected_at": null
     },
     {
+      "title": "A message for Carol Tavris",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/07/can-someone-forward-this-to-carol-tavris-please/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Dear Dr. Tavris: I saw in a recent issue of the Times Literary Supplement that you have been critical of the “chambermaid” study which purported to show that people were losing weight without changing their diet or exer…",
+      "ts": 1783429856,
+      "published": "2026-07-07T13:10:56+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Viability of local models for coding",
       "link": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
       "source": "Martin Fowler",
@@ -1431,6 +1671,16 @@
       "ts": 1783425600,
       "published": "2026-07-07T12:00:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "OKF: Redefining Knowledge Bases for AI Agents",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/open-knowledge-format-okf/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "In June 2026, Google introduced the Open Knowledge Format (OKF), an open specification for how AI agents organise and exchange knowledge. An OKF bundle is just Markdown files, lightweight YAML metadata, and links betwee…",
+      "ts": 1783424743,
+      "published": "2026-07-07T11:45:43+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "The foundational elements of AI architecture that IT leaders need to scale",
@@ -1683,6 +1933,16 @@
       "collected_at": null
     },
     {
+      "title": "Turning chaotic sensitivity from a bug into a feature: Using physical modeling and deep learning to alter the paths of storms and mitigate extreme weather events",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/06/turning-chaotic-sensitivity-from-a-bug-into-a-feature-using-physical-modeling-and-deep-learning-to-alter-the-paths-of-storms-and-mitigate-extreme-weather-events/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Qin Huang, Moyan Liu, and Upmanu Lall write: Extreme weather events, e.g., droughts, floods, heatwaves, and freezes, are increasing in frequency and intensity, posing severe socio-economic impacts as growing populations…",
+      "ts": 1783344972,
+      "published": "2026-07-06T13:36:12+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop",
       "link": "https://towardsdatascience.com/validating-the-rag-answer-before-the-user-sees-it-spans-quotes-and-the-feedback-loop/",
       "source": "Towards Data Science",
@@ -1793,6 +2053,16 @@
       "collected_at": null
     },
     {
+      "title": "Modern VLMs Explained: How GPT-4o, Gemini, Claude Vision, and Qwen-VL Work",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/modern-vlms-explained/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Vision Language Models, or VLMs, are AI models that can understand both visual content and language. While earlier models like CLIP and BLIP connected images with text, modern VLMs can analyze images, read documents, in…",
+      "ts": 1783314851,
+      "published": "2026-07-06T05:14:11+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Demystifying Exposed: The Intelligent SQL Library for Kotlin",
       "link": "https://foojay.io/today/exposed-kotlin-orm-complete-guide/",
       "source": "Foojay",
@@ -1851,6 +2121,16 @@
       "ts": 1783263600,
       "published": "2026-07-05T15:00:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "The NIH wants to “Measure and Reward Scientific Impact and Replicable Research Practices.” Here’s my recommendation to the NIH director: you can start by no longer suppressing government reports whos…",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/05/n2/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This came in the email from the U.S. National Institutes of Health: How Would You Measure and Reward Scientific Impact and Replicable Research Practices? As NIH continues efforts to strengthen rigor, reproducibility, an…",
+      "ts": 1783259556,
+      "published": "2026-07-05T13:52:36+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Funding Open Source Without The Bait And Switch: Analytics, Native Maps, TV And More",
@@ -1963,6 +2243,16 @@
       "collected_at": null
     },
     {
+      "title": "YOLO26 Tutorial: Object Detection, Pose Estimation & More",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/yolo26-tutorial/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Looking to model to implement pose estimation? I know something that can perform detection, instance segmentation, pose estimation and classification, all of that in real-time. Yes, I’m talking about the YOLO26 from ult…",
+      "ts": 1783194913,
+      "published": "2026-07-04T19:55:13+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "v2.5.1 (July 4, 2026)",
       "link": "https://github.com/numpy/numpy/releases/tag/v2.5.1",
       "source": "NumPy",
@@ -1981,6 +2271,16 @@
       "ts": 1783177200,
       "published": "2026-07-04T15:00:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "2015-vintage replication-crisis-era junk science floats into the news",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/04/2015-vintage-replication-crisis-junk-science-floats-into-the-news/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "So, I came across this news article titled, “Riley Thinks Suits Make the Coach. Research Says He Might Be Right.”: The suit had a classic name: the Clark Gable. Navy blue and cut just right, it was the creation of … Con…",
+      "ts": 1783173264,
+      "published": "2026-07-04T13:54:24+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination",
@@ -2041,6 +2341,16 @@
       "ts": 1783104666,
       "published": "2026-07-03T18:51:06+00:00",
       "collected_at": null
+    },
+    {
+      "title": "Large Action Models (LAMs) vs Agentic LLMs: What’s the Real Difference?",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/large-action-models-vs-agentic-llms/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "You tell your AI “Polish my email and send it.” Same sentence, three outcomes. The gap between Large Action Models (LAMs) and agentic LLMs is one of the most practically important distinctions in AI today, and also one…",
+      "ts": 1783103280,
+      "published": "2026-07-03T18:28:00+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "dotnet-1.13.0",
@@ -2121,6 +2431,16 @@
       "ts": 1783088940,
       "published": "2026-07-03T14:29:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "A new episode in the Francesca Gino case",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/03/a-new-episode-in-the-francesca-gino-case/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Andy King writes: 𝗪𝗵𝘆 𝗛𝗮𝗿𝘃𝗮𝗿𝗱’𝘀 𝗹𝗮𝘄𝘆𝗲𝗿𝘀 𝘀𝘂𝗯𝗽𝗼𝗲𝗻𝗮𝗲𝗱 𝗺𝗲 𝗶𝗻 𝘁𝗵𝗲 𝗙𝗿𝗮𝗻𝗰𝗲𝘀𝗰𝗮 𝗚𝗶𝗻𝗼 𝗰𝗮𝘀𝗲 My wife called to me. A constable was at the door. He handed me a subpoena to appear for a deposition in the case of Francesca Gino … Cont…",
+      "ts": 1783084281,
+      "published": "2026-07-03T13:11:21+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies",
@@ -2293,6 +2613,16 @@
       "collected_at": null
     },
     {
+      "title": "The high cost of split R-hat",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/02/the-high-cost-of-split-r-hat/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This post is by Bob. I’ve been thinking a lot lately about R-hat given that I’m using it for online converging monitoring in our new Walnuts implementation. In that setting, where I use Welford accumulators to update R-…",
+      "ts": 1783018843,
+      "published": "2026-07-02T19:00:43+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
       "link": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
       "source": "Simon Willison",
@@ -2381,6 +2711,16 @@
       "ts": 1783000842,
       "published": "2026-07-02T14:00:42+00:00",
       "collected_at": null
+    },
+    {
+      "title": "Guess who’s getting the big-money donations in the Maine U.S. Senate race?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/02/whos-getting-the-big-money-donations-in-the-maine-u-s-senate-race/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Just in time for July 4th, Tom Ferguson, Paul Jorgensen, Matthias Lalisse, and Jie Chen share the above graph and write: What can one Senate race reveal about the hidden machinery of American politics? In Maine, donor p…",
+      "ts": 1782999121,
+      "published": "2026-07-02T13:32:01+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Teaching AI to run with the turbines",
@@ -2643,6 +2983,16 @@
       "collected_at": null
     },
     {
+      "title": "The optimizer’s curse",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/01/the-optimizers-curse/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "The above sketch shows a decision tree. The circles are uncertainty nodes and the squares are decision nodes. Read the tree from left to right: to start, there is uncertainty of which of the strata i=1,…,I you will be i…",
+      "ts": 1782911017,
+      "published": "2026-07-01T13:03:37+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Show HN: Claudoro, Pomodoro timer embedded in the Claude Code statusline",
       "link": "https://github.com/emson/claudoro",
       "source": "Hacker News",
@@ -2843,6 +3193,16 @@
       "collected_at": null
     },
     {
+      "title": "Survey Statistics: Big Changes in the Times/Siena Poll",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/30/survey-statistics-big-changes-in-the-times-siena-poll/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Yesterday Nate Cohn wrote about The Big Changes Coming to the Times/Siena Poll, with more details in their poll of Maine. Say we want to estimate average Platner support in Maine’s likely electorate, E(Y). But we only h…",
+      "ts": 1782849682,
+      "published": "2026-06-30T20:01:22+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
       "link": "https://huggingface.co/blog/ibm-research/scarfbench",
       "source": "Hugging Face",
@@ -2951,6 +3311,16 @@
       "ts": 1782827901,
       "published": "2026-06-30T13:58:21+00:00",
       "collected_at": null
+    },
+    {
+      "title": "OK, I guess Lawrence “Epstein” Krauss didn’t follow his brother’s advice.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/30/ok-i-guess-lawrence-krauss-didnt-follow-his-brothers-advice/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "The former Arizona State University physicist reported in 2018 this advice from his “religious right wing law professor brother” [that’s Krauss’s description, not mine]: Therefore i think you should pursue a mixed strat…",
+      "ts": 1782825778,
+      "published": "2026-06-30T13:22:58+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Elastic Open-Sources Atlas Agent Memory Based on Cognitive Science",
@@ -3293,6 +3663,16 @@
       "collected_at": null
     },
     {
+      "title": "Cheapskate evolutionary biologist underpays his statistical help",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/29/cheapskate-evolutionary-biologist-underpays-his-statistical-help/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "OK, this one was funny. I searched the Epstein files for “statistician” and found this receipt from biologist Robert Trivers: Only $1000 for the statistician??? What a cheapskate! Especially given that he said the stati…",
+      "ts": 1782740973,
+      "published": "2026-06-29T13:49:33+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Kotlin Notebook Sunset",
       "link": "https://blog.jetbrains.com/idea/2026/06/kotlin-notebook-sunset/",
       "source": "Kotlin",
@@ -3463,6 +3843,16 @@
       "collected_at": null
     },
     {
+      "title": "The Anthropic Principle in Statistics and Science (my talk this Mon 29 June, 4:20pm London time)",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/28/the-anthropic-principle-in-statistics-and-science-my-talk-this-mon-29-june-420pm-london-time/",
+      "source": "Statistical Modeling",
+      "category": "AI",
+      "summary": "The Anthropic Principle in Statistics and Science The anthropic principle in physics states that our existence implies certain constraints on the natural conditions under which we evolved. In statistics, a corresponding…",
+      "ts": 1782654968,
+      "published": "2026-06-28T13:56:08+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Grok Is More Important Than Clean Air, DOJ Says",
       "link": "https://www.motherjones.com/environment/2026/06/grok-doj-justice-naacp-clean-air-act-gas-turbine-pollution-national-security-ai/",
       "source": "Hacker News",
@@ -3503,6 +3893,26 @@
       "collected_at": null
     },
     {
+      "title": "Bayesian Workflow exists as a physical book!",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/27/bayesian-workflow-exists-as-a-physical-book/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "We’re very excited about this book. It’s the result of several years of effort. You can order from the publisher or from Amazon. Here’s the book’s webpage, which includes the data and code for the book’s examples and ca…",
+      "ts": 1782582694,
+      "published": "2026-06-27T17:51:34+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
+      "title": "Out of the frying pan and into the fire: Scientific American returned to form, and then this happened:",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/27/scientific-american-has-returned-to-form/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Last month I wrote the following post. I scheduled it for November, but then some Scientific American-related news arose, so I’m bumping it up in the schedule. First, here’s my post from May: I’m not saying this is the…",
+      "ts": 1782567411,
+      "published": "2026-06-27T13:36:51+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Using Local Coding Agents",
       "link": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
       "source": "Ahead of AI",
@@ -3531,6 +3941,16 @@
       "ts": 1782537802,
       "published": "2026-06-27T05:23:22+00:00",
       "collected_at": null
+    },
+    {
+      "title": "“Springer Nature has removed two studies by Max Planck.”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/26/springer-nature-has-removed-two-studies-by-max-planck/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Jim Moody points to this news article, “Why have papers by one of history’s most famous physicists been retracted? Springer Nature has removed two studies by Max Planck. A bot may be to blame.” If you’re gonna retract s…",
+      "ts": 1782513710,
+      "published": "2026-06-26T22:41:50+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Quoting Dean W. Ball",
@@ -3633,6 +4053,16 @@
       "collected_at": null
     },
     {
+      "title": "Supplement that alphabetized display with another graph showing the states in a more informative order.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/26/dont-alphabetize/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I just wrote a long post inspired by a recent post from economist Paul Krugman. Krugman’s post was good, but I’m annoyed that his graph (reproduced above) lists the states alphabetically. Don’t do that! It’s called the…",
+      "ts": 1782481462,
+      "published": "2026-06-26T13:44:22+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "The Real Python Podcast – Episode #300: Maintaining Your Python Developer Instincts While Using LLM Tools",
       "link": "https://realpython.com/podcasts/rpp/300/",
       "source": "Real Python",
@@ -3703,6 +4133,16 @@
       "collected_at": null
     },
     {
+      "title": "Structural equation modeling (SEM) and positive definiteness",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/25/structural-equation-modeling-sem-and-positive-definiteness/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This post is from Bob. Mitzi and I were swotting up on structural equation models (SEM) for our class this past Monday at the Modern Modeling and Methods (M3) conference at Fordham University. It was a lot of fun and ……",
+      "ts": 1782414001,
+      "published": "2026-06-25T19:00:01+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "datasette-export-database 0.3a2",
       "link": "https://simonwillison.net/2026/Jun/25/datasette-export-database/#atom-everything",
       "source": "Simon Willison",
@@ -3741,6 +4181,16 @@
       "ts": 1782397379,
       "published": "2026-06-25T14:22:59+00:00",
       "collected_at": null
+    },
+    {
+      "title": "Getting justice can require a lot of effort, and usually at some point we’ll just give up, which is what the cheaters rely on.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/25/getting-justice-can-require-a-lot-of-effort-and-usually-at-some-point-well-just-give-up-which-is-what-the-cheaters-rely-on/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I just read this compelling op-ed by Brendan Ballou, “One Man Stole $660 Million. He’ll Never Pay It Back,” which tells the story of several brazen white-collar criminals who avoided prosecution for federal crimes by th…",
+      "ts": 1782392755,
+      "published": "2026-06-25T13:05:55+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Agentic Workflow vs. Autonomous Agent: What’s the Difference?",
@@ -3883,6 +4333,16 @@
       "collected_at": null
     },
     {
+      "title": "Treating AI review like the contentious policy design problem it is",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/24/treating-ai-review-like-the-contentious-policy-design-problem-it-is/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This is Jessica. Many researchers are thinking about what we should do about scientific peer review now that AI makes producing papers so much easier. Submission numbers keep getting higher — in the past week, I saw rep…",
+      "ts": 1782317889,
+      "published": "2026-06-24T16:18:09+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
       "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
       "source": "Hugging Face",
@@ -3901,6 +4361,16 @@
       "ts": 1782309600,
       "published": "2026-06-24T14:00:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "“Howard Lutnick gives top Cantor Fitzgerald jobs to his sons Brandon and Kyle” is a very clean example of meritocracy.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/24/howard-lutnick-gives-top-cantor-fitzgerald-jobs-to-his-sons-brandon-and-kyle-is-a-very-clean-example-of-meritocracy/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In a post about possible corruption in the government and finance sector, Paul Campos points to a news article entitled, “Howard Lutnick gives top Cantor Fitzgerald jobs to his sons Brandon and Kyle,” that features an a…",
+      "ts": 1782307619,
+      "published": "2026-06-24T13:26:59+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Kotlin Toolchain 0.11: The Next Step for Amper",
@@ -3961,6 +4431,16 @@
       "ts": 1782297973,
       "published": "2026-06-24T10:46:13+00:00",
       "collected_at": null
+    },
+    {
+      "title": "To select or not to select?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/24/to-select-or-not-to-select/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This post is by Aki New preprint To select or not to select: predictively consistent priors instead of model selection with Anna Elisabeth Riha, Leevi Lindgren, David Kohns, Paul Bürkner and me. arXiv.2606.22850 tl;dr:…",
+      "ts": 1782293244,
+      "published": "2026-06-24T09:27:24+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Grok Build 0.1: Intelligence, Performance and Price Analysis",
@@ -4043,6 +4523,16 @@
       "collected_at": null
     },
     {
+      "title": "Survey Statistics: perfect collinearity in the sample but not in the population",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/23/survey-statistics-perfect-collinearity-in-the-sample-but-not-in-the-population/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In 2019, Andrew blogged about collinearity in Bayesian models. In the comments, he pointed to an example from Bayesian Data Analysis, 2nd edition (BDA2). I think it is a useful example to keep in mind when extrapolating…",
+      "ts": 1782244847,
+      "published": "2026-06-23T20:00:47+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "OPFS + Pyodide test harness",
       "link": "https://simonwillison.net/2026/Jun/23/opfs-pyodide/#atom-everything",
       "source": "Simon Willison",
@@ -4071,6 +4561,16 @@
       "ts": 1782223200,
       "published": "2026-06-23T14:00:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "Mind-body healing: An exchange.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/23/mind-body-healing-an-exchange/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This has come up a few times on the blog already: Carroll/Langer: Credulous, scientist-as-hero reporting from a podcaster who should know better 7 steps to junk science that can achieve worldly success A suggestion for…",
+      "ts": 1782222207,
+      "published": "2026-06-23T13:43:27+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
@@ -4131,6 +4631,16 @@
       "ts": 1782195589,
       "published": "2026-06-23T06:19:49+00:00",
       "collected_at": null
+    },
+    {
+      "title": "Golems, auditors, and AI",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/22/golems-auditors-and-ai/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This post is by Phil. Some time ago I wrote some thoughts about “Neuromancer” ( https://statmodeling.stat.columbia.edu/2025/06/12/what-does-neuromancer-have-to-teach-us-about-the-role-of-ai-is-society/ ), which features…",
+      "ts": 1782180277,
+      "published": "2026-06-23T02:04:37+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Self-Correcting Structured Output in Spring AI 2.0",
@@ -4233,6 +4743,16 @@
       "collected_at": null
     },
     {
+      "title": "Workshop on Rethinking the Role of Bayesianism in the Age of Modern AI",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/22/workshop-on-rethinking-the-role-of-bayesianism-in-the-age-of-modern-ai/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Esmeralda Whitammer, Sara Wade, Vincent Fortuin, Konstantina Palla, and Theodore Papamarkou write: We are organising a focused workshop on Rethinking the Role of Bayesianism in the Age of Modern AI from October 26 to 30…",
+      "ts": 1782159214,
+      "published": "2026-06-22T20:13:34+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Three things to watch amid Anthropic’s latest feud with the government",
       "link": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
       "source": "MIT Tech Review",
@@ -4281,6 +4801,16 @@
       "ts": 1782134100,
       "published": "2026-06-22T13:15:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "The new rule in economics: One star is p < 0.20, two stars is a set of steak knives, three stars is you're fired.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/22/one-star-is-p-0-20-two-stars-is-a-set-of-steak-knives-three-stars-is-youre-fired/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Someone pointed me to a series of applied economics papers: 1. George Borjas and Nate Breznau, Ideological bias in the production of research findings: Our study exploits an opportunity to observe 158 researchers workin…",
+      "ts": 1782133403,
+      "published": "2026-06-22T13:03:23+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Building Browser-Using AI Agents in Python",
@@ -4373,6 +4903,16 @@
       "collected_at": null
     },
     {
+      "title": "Online haters in the low-budget literary biz",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/21/online-haters-in-the-low-budget-literary-biz/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I’m a big fan of John Lennon (the American author, not the English musician, but, sure, I’m a fan of the musician too). I’ve read most of his books, and it saddens me that literature is such a niche interest … Continue…",
+      "ts": 1782048587,
+      "published": "2026-06-21T13:29:47+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Better Tools for Immutable Data",
       "link": "https://inside.java/2026/06/21/better-tools-immutable-data/",
       "source": "Inside Java",
@@ -4411,6 +4951,16 @@
       "ts": 1781988410,
       "published": "2026-06-20T20:46:50+00:00",
       "collected_at": null
+    },
+    {
+      "title": "A tool for learning about Fourier transforms",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/20/a-tool-for-learning-about-fourier-transforms/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Eric Novik came by my talk the other day and we were chatting about a number of things, including how much we forget as the years go by. I remarked that I used to be very comfortable with Fourier analysis … Continue rea…",
+      "ts": 1781961830,
+      "published": "2026-06-20T13:23:50+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Temporary Cloudflare accounts for AI agents",
@@ -4461,6 +5011,16 @@
       "ts": 1781875550,
       "published": "2026-06-19T13:25:50+00:00",
       "collected_at": "2026-07-13T22:56:22+09:00"
+    },
+    {
+      "title": "Gray Davis, Grover Norquist, and a rabbi walk into Peter Thiel’s Dialog conference . . . and get no press coverage!",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/19/gray-davis-grover-norquist-and-a-rabbi-walk-into-a-conference-and-get-no-press-coverage/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "You know that Oscar Wilde saying, “There is only one thing in the world worse than being talked about, and that is not being talked about”? This came to mind with respect to three once-famous people: Gray Davis, Grover…",
+      "ts": 1781874074,
+      "published": "2026-06-19T13:01:14+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Quiz: Using the Python zip() Function for Parallel Iteration",
@@ -4563,6 +5123,16 @@
       "collected_at": null
     },
     {
+      "title": "LLM-generated Stan case study on Galileo’s inclined plane experiment",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/18/llm-case-study-galilelo-inclined-plane/",
+      "source": "Statistical Modeling",
+      "category": "AI",
+      "summary": "This post is from Bob. I’ve been planning for at least a couple years to generate a case study around Galielo’s use of an inclined plane instrumented with water clocks to estimate the terrestrial gravitational constant.…",
+      "ts": 1781809233,
+      "published": "2026-06-18T19:00:33+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "MosaicLeaks: Can your research agent keep a secret?",
       "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
       "source": "Hugging Face",
@@ -4591,6 +5161,16 @@
       "ts": 1781803800,
       "published": "2026-06-18T17:30:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "Gambling provides a gentle rocking of the emotions to put you in a pleasant baby-like state",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/18/gambling-provides-a-gentle-rocking-of-the-emotions-to-put-you-in-a-pleasant-baby-like-state/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "A commenter recommended the book, Addiction by Design: Machine Gambling in Las Vegas, by the anthropologist Natasha Dow Schüll, and I checked it out of the library. It’s a study of people who play slot machines and vide…",
+      "ts": 1781789120,
+      "published": "2026-06-18T13:25:20+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Quiz: Sorting a Python Dictionary: Values, Keys, and More",
@@ -4723,6 +5303,16 @@
       "collected_at": null
     },
     {
+      "title": "Elmore Leonard.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/17/elmore-leonard/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "With Leonard’s reputation as a Western author growing, [Detroit-based advertising agency] Campbell-Ewald saw fit to match Leonard with their truck division, writing copy geared toward the same rough-and-tumble demograph…",
+      "ts": 1781704510,
+      "published": "2026-06-17T13:55:10+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
       "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
       "source": "Hugging Face",
@@ -4741,6 +5331,16 @@
       "ts": 1781686885,
       "published": "2026-06-17T09:01:25+00:00",
       "collected_at": null
+    },
+    {
+      "title": "R wins statistics award.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/17/53890/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Elena Belogolovsky writes: Congratulations to the R Core Team on receiving the 2026 Rousseeuw Prize for Statistics. R has made creative, open-ended statistical analysis and graphics accessible to generations of statisti…",
+      "ts": 1781676008,
+      "published": "2026-06-17T06:00:08+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "[AINews] GLM-5.2: the top Frontend Coding model in the world, IndexShare for Speculative Decoding",
@@ -4793,6 +5393,16 @@
       "collected_at": null
     },
     {
+      "title": "Call for invited session proposals for the upcoming BayesComp conference",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/16/call-for-invited-session-proposals-for-the-upcoming-bayescomp-conference/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Lu Zhang writes: As a member of the BayesComp 2027 conference committee, I would like to share the announcement of the call for invited session proposals for the upcoming BayesComp conference, which will be held in Coll…",
+      "ts": 1781646138,
+      "published": "2026-06-16T21:42:18+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "datasette 1.0a34",
       "link": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
       "source": "Simon Willison",
@@ -4801,6 +5411,16 @@
       "ts": 1781645484,
       "published": "2026-06-16T21:31:24+00:00",
       "collected_at": null
+    },
+    {
+      "title": "Survey Statistics: using MRP in later analyses (pride edition)",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/16/survey-statistics-using-mrp-in-later-analyses-pride-edition/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Happy pride ! One way I celebrated was by reading Lax & Phillips 2009, Gay Rights in the States: Public Opinion and Policy Responsiveness. It’s on-theme, an example in the MrPlew paper (which I also still need to digest…",
+      "ts": 1781640058,
+      "published": "2026-06-16T20:00:58+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "langgraph-cli==0.4.30",
@@ -4851,6 +5471,16 @@
       "ts": 1781618400,
       "published": "2026-06-16T14:00:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "The New York Knicks and the martingale property of calibrated probability forecasts (with some simulation and R code)",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/16/the-new-york-knicks-and-the-martingale-property-of-calibrated-probability-forecasts/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This long post covers four topics: 1. The Knicks’ stunning series of come-from-behind victories to win the NBA title in 5 games; 2. The martingale property of probability forecasts; 3. An example of learning from simula…",
+      "ts": 1781615324,
+      "published": "2026-06-16T13:08:44+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "Fragments: June 16",
@@ -4933,6 +5563,16 @@
       "collected_at": null
     },
     {
+      "title": "Ph.D. student opening in Sweden on Earth Observation, Data Science, and AI for poverty estimation",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/15/ph-d-student-opening-in-sweden-on-earth-observation-data-science-and-ai-for-poverty-estimation-the-data-science/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Adel Daoud writes: I’m writing to ask for your help circulating a PhD opening in my group at Chalmers, the AI and Global Development Lab (www.aidevlab.org). The position is in Earth Observation, Data Science, and AI for…",
+      "ts": 1781559442,
+      "published": "2026-06-15T21:37:22+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Anthropic pauses credit change for Claude Code",
       "link": "https://news.ycombinator.com/item?id=48546618",
       "source": "Hacker News",
@@ -4993,6 +5633,16 @@
       "collected_at": null
     },
     {
+      "title": "Capitalism: On its last legs or healthy enough to be milked?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/15/capitalism-on-its-last-legs-or-healthy-enough-to-be-milked/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In The Strange Death of Tory England, a book full of great lines, Geoffrey Wheatcroft writes, Just as the labour movement had never been quite sure whether the capitalist system was on its last legs and needed only a fi…",
+      "ts": 1781530216,
+      "published": "2026-06-15T13:30:16+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
+    },
+    {
       "title": "Presentation: Practical Performance Tuning for Serverless Java on AWS",
       "link": "https://www.infoq.com/presentations/java-aws-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
@@ -5021,6 +5671,16 @@
       "ts": 1781481600,
       "published": "2026-06-15T00:00:00+00:00",
       "collected_at": null
+    },
+    {
+      "title": "“Are prediction markets causing more harm than good?”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/06/14/are-prediction-markets-causing-more-harm-than-good/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "The other day I was invited to an “anti-debate” on the above topic, scheduled for this afternoon. I’d not heard about the concept of an anti-debate before; here’s the description: The Anti-Debate is a new format for deb…",
+      "ts": 1781440661,
+      "published": "2026-06-14T12:37:41+00:00",
+      "collected_at": "2026-07-13T23:24:55+09:00"
     },
     {
       "title": "How Agentic Coding Can Help You Migrate Java Applications Faster",
