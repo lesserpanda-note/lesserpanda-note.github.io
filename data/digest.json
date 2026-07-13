@@ -1,41 +1,27 @@
 {
-  "updated": "2026-07-12T00:13:11Z",
-  "summary": "오늘은 AI 에이전트 프레임워크와 LLM 실용 기술에 대한 깊이 있는 내용이 주를 이뤘습니다. pydantic-ai v2.9.0이 GPT-5.6 지원과 보안 패치를 포함하여 출시되었고, Temporal 워크플로우 엔진의 역할을 데이터베이스 역사와 비교한 통찰력 있는 Java 글이 눈에 띕니다. AI/ML 분야에서는 LLM 환각 문제와 긴 컨텍스트로 인한 비용·품질 저하를 해결하는 실용적 접근법이 소개되었습니다.",
+  "updated": "2026-07-13T00:14:29Z",
+  "summary": "오늘은 AI 도구의 보안·프라이버시 이슈와 MCP 생태계 준비 현황이 주요 화두였습니다. xAI의 Grok Build CLI가 사용자 저장소 전체—비밀 키 포함—를 xAI 서버에 무단 업로드한다는 분석이 252개 HN 추천을 받아 큰 관심을 끌었습니다. MCP 측면에서는 2026-07-28 새 사양 출시를 앞두고 4,356개 엔드포인트 중 단 1개만 호환 준비가 완료된 것으로 나타났으며, Claude Code가 프롬프트를 읽기 전 33,000토큰에 달하는 오버헤드를 전송한다는 비교 분석도 화제가 되었습니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "Temporal Is to Your Code What a Database Is to Your Data",
-      "link": "https://foojay.io/today/temporal-is-to-your-code-what-a-database-is-to-your-data/",
-      "summary": "Temporal은 데이터베이스가 데이터에 하는 역할을 코드 실행에 합니다. 워크플로우 상태의 지속성과 내구성을 표준화하여 분산 시스템 개발을 단순화하는 방법을 설명합니다.",
-      "detail": "과거 애플리케이션은 자체적으로 파일을 관리했지만, 데이터베이스가 등장하면서 잠금, 충돌 복구, 일관성 보장을 표준화했습니다. Temporal은 코드 실행에서 동일한 역할을 담당합니다.\n\n분산 시스템에서 장애가 발생해도 워크플로우 실행 상태를 지속적으로 유지하고, 중단된 지점에서 안전하게 재시작할 수 있게 합니다. 각 팀이 개별적으로 구현하던 재시도 로직, 상태 관리, 타임아웃 처리를 Temporal을 통해 표준화된 방식으로 처리할 수 있습니다.\n\nTemporal의 접근 방식은 비즈니스 로직과 인프라 신뢰성 관련 코드를 분리하여, 개발자가 핵심 비즈니스 문제에 집중할 수 있도록 합니다. 데이터베이스가 데이터 일관성을 보장하듯, Temporal은 코드 실행의 일관성을 보장합니다."
+      "category": "AI",
+      "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+      "link": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+      "summary": "xAI의 Grok Build CLI가 .env 파일 등 민감 정보를 포함해 전체 저장소를 xAI 서버에 업로드한다는 분석이 공개되어 보안·프라이버시 우려를 낳고 있습니다.",
+      "detail": "보안 연구자 cereblab이 xAI의 Grok Build CLI가 실제로 전송하는 데이터를 분석한 결과, 심각한 프라이버시 문제 세 가지가 확인되었습니다.\n\n첫째, .env 파일 내 API 키 등 비밀 정보가 난독화 없이 그대로 /v1/responses 엔드포인트로 전송되고, 스토리지 아카이브(/v1/storage)에도 그대로 저장됩니다.\n\n둘째, AI 에이전트가 실제로 읽은 파일만이 아니라 저장소 전체가 압축 스냅샷으로 업로드됩니다. 12GB 저장소 테스트에서 5.10GiB가 업로드되었으며, 이는 모델이 실제 처리한 데이터 대비 27,800배에 달합니다.\n\n셋째, 저장소 스냅샷은 'grok-code-session-traces'라는 Google Cloud Storage 버킷에 저장되지만, 이 사실은 CLI 설정 안내에 명시되어 있지 않습니다.\n\n특히 '모델 개선 참여' 설정을 해제해도 데이터 업로드는 계속 진행되며, 사용자 동의 없이 외부 인프라로 데이터가 전송됩니다. 이 분석은 Hacker News에서 252개 추천을 받아 큰 반향을 일으켰습니다."
     },
     {
       "category": "Agents",
-      "title": "v2.9.0 (2026-07-10)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.0",
-      "summary": "pydantic-ai v2.9.0이 출시되었습니다. OpenAI GPT-5.6 모델 지원, CLI `/usage` 명령 추가, 보안 취약점 수정 등의 주요 업데이트가 포함됩니다.",
-      "detail": "pydantic-ai 버전 2.9.0이 2026년 7월 10일 출시되었습니다.\n\n주요 신기능:\n- OpenAI GPT-5.6 모델 통합 및 추론 모드(reasoning mode) 지원\n- CLI 도구에 `/usage` 슬래시 명령 추가로 누적 토큰 사용량 실시간 추적 가능\n- `RunContext`를 통한 `usage_limits` 접근 기능으로 도구 내 사용량 한도 확인 가능\n\n버그 수정:\n- 파일 업로드 시 Anthropic Files API 베타 자동 활성화\n- `repr()` 호출 시 충돌 현상 수정\n- FIPS 준수 해시 함수 적용\n- 중첩된 `capture_run_messages` 동작 수정\n- 취소(cancellation) 데드락 제거\n- `end_strategy='early'` 설정 시 올바른 처리 보장\n\n보안: AG-UI 도구 호출 처리의 중간 심각도 취약점(GHSA-jpr8-2v3g-wgf9, CWE-863)이 패치되었습니다. v2.0.0~2.4.x 또는 v1.88.0~1.107.0 사용자는 즉시 업그레이드가 권장됩니다."
+      "title": "Show HN: Only 1 of 4,356 reachable MCP servers is ready for the 2026-07-28 spec",
+      "link": "https://github.com/Roee-Tsur/mcp-spec-check",
+      "summary": "2026-07-28 MCP 새 사양 출시를 앞두고 공식 레지스트리의 4,356개 엔드포인트를 점검한 결과, 단 1개만 완전 호환된 것으로 나타났습니다.",
+      "detail": "개발자 Roee-Tsur가 공개한 mcp-spec-check 도구는 MCP 공식 레지스트리의 7,850개 서버 중 실제 접근 가능한 4,356개 엔드포인트를 대상으로 2026-07-28 새 사양 준수 여부를 블랙박스 HTTP 프로브 방식으로 평가했습니다.\n\n결과는 충격적입니다. 완전 호환 판정을 받은 서버는 단 1개에 불과하며, 나머지 약 90.8%는 필수 요건을 충족하지 못했습니다.\n\n2026-07-28 사양의 주요 변경 사항:\n- 초기화: 기존 initialize 핸드셰이크 → server/discover 로 교체\n- 라우팅: Mcp-Method, Mcp-Name HTTP 헤더 필수화\n- 세션: 프로토콜 수준 세션 제거(스테이트리스 아키텍처로 전환)\n- 오류 코드: resource-not-found 코드 -32002 → -32602 변경\n\n저자는 '사양이 아직 GA(정식 릴리스) 이전이기 때문에 마이그레이션이 거의 시작되지 않은 것은 예상 범위 내'라고 설명했습니다. 이 발표는 MCP 생태계의 사양 전환 준비도를 가늠할 수 있는 중요한 지표입니다."
     },
     {
       "category": "Agents",
-      "title": "[AINews] not much happened today",
-      "link": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
-      "summary": "집중적인 AI 모델 릴리스 주간 이후 상대적으로 조용한 하루였습니다. 커뮤니티는 최근 출시된 모델들을 소화하고 평가하는 데 집중했습니다.",
-      "detail": "연속적인 AI 모델 릴리스(GPT-5.6, Grok 4.5 등)가 쏟아진 주간 이후, 이날은 업계 전반적으로 조용한 하루였습니다.\n\n새로운 주요 발표나 모델 릴리스 없이, AI 커뮤니티는 최근 출시된 모델들을 실제로 사용해보고 평가하는 시간을 가졌습니다. latent.space의 AINews 뉴스레터는 이를 '릴리스 폭풍 이후의 소화 기간'으로 표현했습니다.\n\n이와 같은 조용한 날은 빠르게 변화하는 AI 생태계에서 각 조직이 새로운 기능을 실제 업무에 통합하고 전략을 재정비하는 데 필요한 시간입니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "Long Context Isn't Free — I Built a Safe Prompt-Pruning Layer That Makes LLM Systems Work",
-      "link": "https://towardsdatascience.com/long-context-isnt-free-i-built-a-safe-prompt-pruning-layer-that-makes-llm-systems-work/",
-      "summary": "LLM은 컨텍스트가 길어질수록 비용이 증가하고 품질이 저하됩니다. 이 글은 대화에서 중복되고 가치 낮은 토큰을 안전하게 제거하는 프롬프트 가지치기(pruning) 레이어 구현 방법을 다룹니다.",
-      "detail": "대형 언어 모델(LLM)은 '너무 많이 기억하기 때문에' 실패합니다. 대화가 길어지면서 프롬프트에는 중복되고 가치가 낮은 토큰이 누적되어, 비용과 지연(latency)이 증가하고 출력 품질이 조용히 저하됩니다.\n\n저자는 이를 해결하기 위한 안전한 프롬프트 가지치기 레이어를 직접 구축했습니다. 핵심 원칙은 '안전성'으로, 중요한 정보를 잃지 않으면서도 불필요한 토큰을 제거하는 것입니다.\n\n이 접근 방식의 주요 이점:\n- 토큰 수 감소로 API 비용 절감\n- 프롬프트 길이 단축으로 응답 지연 개선\n- 핵심 정보 집중으로 출력 품질 유지 또는 향상\n\n긴 컨텍스트 창을 제공하는 최신 LLM이라도 무한정 컨텍스트를 효율적으로 처리하지는 못하므로, 프롬프트 관리 전략은 프로덕션 LLM 시스템 구축 시 필수적인 고려 사항입니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "That Is Embarrassing: Why Frontier AI Still Makes Things Up, and What to Do About It",
-      "link": "https://towardsdatascience.com/that-is-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/",
-      "summary": "최신 프론티어 AI 모델도 여전히 환각(hallucination)을 일으킵니다. 이 글은 환각의 구조적 원인을 내부 메커니즘 관점에서 분석하고, 이를 줄이기 위한 실용적 전략을 제시합니다.",
-      "detail": "최고 성능의 AI 모델들도 사실이 아닌 정보를 자신 있게 생성하는 환각 문제가 여전히 존재합니다. 환각은 때로는 우스꽝스럽지만, 때로는 실제 피해를 초래하기도 합니다.\n\n환각이 발생하는 구조적 이유:\n- LLM은 '기억'이 아닌 확률적 텍스트 생성 메커니즘을 사용합니다\n- 훈련 데이터에 없는 질문에도 그럴듯한 답변을 생성하려는 경향이 있습니다\n- 모델은 자신의 불확실성을 항상 정확하게 표현하지 못합니다\n\n환각을 줄이기 위한 실용적 전략:\n- 검색 증강 생성(RAG): 외부 지식베이스에서 실시간으로 사실 정보를 가져옵니다\n- 팩트 체킹 레이어: 출력을 생성 후 검증하는 단계를 추가합니다\n- 불확실성 표현 유도: 모델이 모르는 것을 인정하도록 프롬프트를 설계합니다\n- 그라운딩(grounding): 응답을 특정 문서나 컨텍스트에 고정시킵니다"
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+      "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "summary": "Claude Code는 사용자 프롬프트를 처리하기 전 약 33,000토큰의 오버헤드를 전송하는 반면, OpenCode는 약 7,000토큰에 불과하다는 비교 분석이 공개되었습니다.",
+      "detail": "Systima AI팀이 Claude Code와 OpenCode의 토큰 오버헤드를 비교 분석한 결과, Claude Code가 실질적인 프롬프트 처리 전 약 33,000토큰을 전송하는 반면 OpenCode는 약 7,000토큰에 그친다는 사실을 발견했습니다. 이는 약 4.7배의 차이입니다.\n\n이 발견은 OpenCode 이용 중 Meridian 이슈로 Claude Code를 일시 사용하면서 사용량 측정치가 훨씬 빠르게 소진되는 현상을 경험한 데서 시작되었습니다.\n\n이 오버헤드의 실질적 영향:\n- Claude Code 사용자는 실제 작업과 무관한 오버헤드 토큰에 더 많은 비용을 지출합니다\n- 주간·월간 사용 한도가 있는 Claude Max 플랜 사용자는 한도가 더 빨리 소진될 수 있습니다\n- 동일한 개발 작업을 수행할 때 Claude Code와 OpenCode 사이에 유의미한 비용 차이가 발생합니다\n\n이 분석은 AI 코딩 도구 선택 시 단순 기능 비교 외에 토큰 효율성도 중요한 평가 기준임을 시사합니다."
     }
   ]
 }
