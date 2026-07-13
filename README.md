@@ -36,13 +36,13 @@ scripts/fetch_news.py                 RSS → data/news.json + data/sources.json
 
 - **Java** (Kotlin·JVM 포함): Inside Java, InfoQ Java, Foojay, Kotlin
 - **Spring**: Spring Blog (Spring Boot 릴리스 포함)
-- **AI** (모델·LLM 트렌드 포함): Google AI, Hugging Face, MIT Tech Review, InfoQ AI/ML, Anthropic, Ollama, Ahead of AI, Import AI, Hacker News (Grok / Llama)
+- **AI** (모델·LLM 트렌드 포함): Google AI, Hugging Face, MIT Tech Review, InfoQ AI/ML, Anthropic, Ollama, Ahead of AI, Import AI, Hacker News (Grok / Llama), Transformers (라이브러리 릴리스)
 - **Agents**: Simon Willison, Latent Space, Eugene Yan, Hacker News (Claude Code / 에이전트 / 컨텍스트 엔지니어링 / MCP), 프레임워크 릴리스 (MCP servers · LangGraph · Pydantic AI · OpenAI Agents SDK · LlamaIndex · CrewAI · Agent Framework)
 - **Architecture**: InfoQ Architecture, Martin Fowler
-- **Python**: Real Python, Python Insider, Python Speed
-- **DataScience**: ML Mastery, KDnuggets, Analytics Vidhya, Towards Data Science, Simply Statistics (실무 예측모델 — scikit-learn·XGBoost·표 데이터·특성공학·통계기법, LLM/AI 연동·활용법 포함)
+- **Python**: Real Python, Python Insider, Python Speed, PyPI Blog (공급망·보안)
+- **DataScience**: ML Mastery, KDnuggets, Analytics Vidhya, Towards Data Science, Simply Statistics, NumPy·pandas (라이브러리 릴리스) — 실무 예측모델(scikit-learn·XGBoost·표 데이터·특성공학·통계기법). LLM·agent·RAG 글은 제목 기준으로 AI·Agents 에 자동 재분류(`reclassify`)한다.
 
-피드를 추가/제거하려면 `FEEDS` 리스트에 `(url, 출처명, 카테고리)` 항목을 넣으면 된다. 카테고리는 페이지 필터·그룹을 결정한다.
+피드를 추가/제거하려면 `FEEDS` 리스트에 `(url, 출처명, 카테고리)` 항목을 넣으면 된다. 카테고리는 페이지 필터·그룹을 결정한다. DataScience 로 들어온 항목 중 제목이 LLM/agent/RAG 류이면 `reclassify` 가 AI·Agents 로 옮긴다(피드 단위 분류의 한계를 글 단위로 보정; 키워드 휴리스틱).
 
 ## 갱신은 어디서 도나 (배치)
 

@@ -43,6 +43,8 @@ FEEDS = [
     ("https://importai.substack.com/feed", "Import AI", "AI"),
     ("https://hnrss.org/newest?q=Grok&points=10", "Hacker News", "AI"),
     ("https://hnrss.org/newest?q=Llama&points=10", "Hacker News", "AI"),
+    # The model library itself — releases carry new architectures + security fixes.
+    ("https://github.com/huggingface/transformers/releases.atom", "Transformers", "AI"),
     # Agents — Claude Code, agent frameworks, MCP, context engineering, LLM-app eng
     ("https://simonwillison.net/atom/everything/", "Simon Willison", "Agents"),
     ("https://www.latent.space/feed", "Latent Space", "Agents"),
@@ -62,10 +64,12 @@ FEEDS = [
     # Architecture — system design & engineering practice (fits Java/Spring backend)
     ("https://feed.infoq.com/architecture-design/", "InfoQ Architecture", "Architecture"),
     ("https://martinfowler.com/feed.atom", "Martin Fowler", "Architecture"),
-    # Python — the AI-agent-development stack (language, packaging, performance)
+    # Python — the AI-agent-development stack (language, packaging, performance, PyPI security)
     ("https://realpython.com/atom.xml", "Real Python", "Python"),
     ("https://blog.python.org/feeds/posts/default", "Python Insider", "Python"),
     ("https://pythonspeed.com/atom.xml", "Python Speed", "Python"),
+    # PyPI supply-chain / security incidents & advisories (official blog).
+    ("https://blog.pypi.org/feed_rss_created.xml", "PyPI Blog", "Python"),
     # Data Science — applied predictive modeling (scikit-learn / XGBoost / LightGBM /
     # tabular data / feature engineering), the working data-scientist's toolkit
     ("https://machinelearningmastery.com/feed/", "ML Mastery", "DataScience"),
@@ -73,6 +77,9 @@ FEEDS = [
     ("https://www.analyticsvidhya.com/blog/feed/", "Analytics Vidhya", "DataScience"),
     ("https://towardsdatascience.com/feed", "Towards Data Science", "DataScience"),
     ("https://simplystatistics.org/index.xml", "Simply Statistics", "DataScience"),
+    # Core numerical / tabular libraries — release feeds (versions + security fixes).
+    ("https://github.com/numpy/numpy/releases.atom", "NumPy", "DataScience"),
+    ("https://github.com/pandas-dev/pandas/releases.atom", "pandas", "DataScience"),
 ]
 
 # GitHub Actions runners are UTC, so we can't trust the environment's local time —
@@ -93,6 +100,46 @@ SOURCES_OUT = ROOT / "data" / "sources.json"
 
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
+
+# Some DataScience feeds (Towards Data Science, KDnuggets, ML Mastery) publish a lot of
+# LLM / agent / RAG content, which by this category's own definition belongs in AI/Agents
+# ("not frontier LLM research, that's AI"). Categorization is per-feed, so we reclassify
+# individual items by title: agent / LLM-app tooling -> Agents, frontier-model / LLM -> AI.
+# Scoped to DataScience on purpose — Python's theme *is* the AI stack, and Java/Spring AI
+# mentions are framework context, so those buckets keep their items. Keyword heuristic, so
+# it is deliberately conservative: it under-moves ambiguous items rather than mis-move real
+# stats/ML posts (regression, survival analysis, feature engineering all stay put).
+_AGENTS_RE = re.compile(
+    r"""(?ix) \b(
+        mcp | model\s+context\s+protocol | rag | agentic | agents? | subagents?
+        | claude\s+code | langchain | langgraph | llama[-_ ]?index | crew\s?ai
+        | context\s+engineering | context\s+windows?
+        | prompt(-|\s+)?(engineering|pruning|caching|injection)
+        | tool[-\s]?(calling|selection) | vector\s+(db|database|search|store)
+        | retrieval[-\s]?augmented | react\s+loop
+    )\b """
+)
+_AI_RE = re.compile(
+    r"""(?ix) \b(
+        llms? | (small|large)?\s*language\s+models? | gpt(-\w+)? | chatgpt
+        | gemini | gemma | grok | claude | llama | ollama | qwen | deepseek | phi-\d
+        | fine[-\s]?tun\w+ | pretrained\s+models? | generative\s+ai | gen\s?ai
+        | foundation\s+models? | diffusion\s+models? | multimodal
+        | transformers? | chatbots? | hugging\s?face | openai | anthropic | mistral
+        | frontier\s+(models?|ai) | text[-\s]?to[-\s]?(image|video|speech)
+    )\b """
+)
+
+
+def reclassify(category: str, title: str) -> str:
+    """Move LLM/agent items that arrived under DataScience to Agents/AI (see note above)."""
+    if category != "DataScience":
+        return category
+    if _AGENTS_RE.search(title):
+        return "Agents"
+    if _AI_RE.search(title):
+        return "AI"
+    return category
 
 
 def clean_text(raw: str, limit: int = SUMMARY_CHARS) -> str:
@@ -245,6 +292,9 @@ def main() -> int:
     # in hindsight when they were first collected).
     for it in result:
         it.setdefault("collected_at", None)
+        # Re-file LLM/agent items that came in under DataScience (both fresh and carried
+        # over), so the fix also reaches items collected before this rule existed.
+        it["category"] = reclassify(it.get("category", ""), it.get("title", ""))
 
     # Nothing added or aged out -> leave the file (and its commit) untouched.
     if [it.get("link") for it in result] == [it.get("link") for it in existing]:
