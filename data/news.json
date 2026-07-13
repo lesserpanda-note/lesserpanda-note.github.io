@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-13T07:33:47+09:00",
-  "count": 483,
+  "updated": "2026-07-13T09:16:41+09:00",
+  "count": 486,
   "items": [
+    {
+      "title": "Directly Responsible Individuals (DRI)",
+      "link": "https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Directly Responsible Individuals (DRI) I went looking for a definition of \"Directly Responsible Individuals\" and the best I found was in the GitLab handbook. Apparently the term originated at Apple, where it's used to d…",
+      "ts": 1783900634,
+      "published": "2026-07-12T23:57:14+00:00",
+      "collected_at": "2026-07-13T09:16:37+09:00"
+    },
+    {
+      "title": "shot-scraper 1.11",
+      "link": "https://simonwillison.net/2026/Jul/12/shot-scraper/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: shot-scraper 1.11 Some minor improvements, mainly around command option consistency and making the server: mechanism used by both shot-scraper video and shot-scraper multi work if the server takes longer than a…",
+      "ts": 1783900012,
+      "published": "2026-07-12T23:46:52+00:00",
+      "collected_at": "2026-07-13T09:16:37+09:00"
+    },
     {
       "title": "Fable gets another bump",
       "link": "https://simonwillison.net/2026/Jul/12/bump/#atom-everything",
@@ -11,6 +31,16 @@
       "ts": 1783891207,
       "published": "2026-07-12T21:20:07+00:00",
       "collected_at": "2026-07-13T07:33:44+09:00"
+    },
+    {
+      "title": "sqlite-utils 4.1.1",
+      "link": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: sqlite-utils 4.1.1 Mainly a fix for an edge case that regular Claude chat spotted while experimenting with the 4.1 release to answer a question about ON DELETE. table.transform() now raises a TransactionError i…",
+      "ts": 1783889730,
+      "published": "2026-07-12T20:55:30+00:00",
+      "collected_at": "2026-07-13T09:16:37+09:00"
     },
     {
       "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
