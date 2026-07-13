@@ -74,9 +74,9 @@ FEEDS = [
     # tabular data / feature engineering), the working data-scientist's toolkit
     ("https://machinelearningmastery.com/feed/", "ML Mastery", "DataScience"),
     ("https://www.kdnuggets.com/feed", "KDnuggets", "DataScience"),
-    ("https://www.analyticsvidhya.com/blog/feed/", "Analytics Vidhya", "DataScience"),
+    ("https://www.analyticsvidhya.com/feed/", "Analytics Vidhya", "DataScience"),
     ("https://towardsdatascience.com/feed", "Towards Data Science", "DataScience"),
-    ("https://simplystatistics.org/index.xml", "Simply Statistics", "DataScience"),
+    ("https://statmodeling.stat.columbia.edu/feed/", "Statistical Modeling", "DataScience"),
     # Core numerical / tabular libraries — release feeds (versions + security fixes).
     ("https://github.com/numpy/numpy/releases.atom", "NumPy", "DataScience"),
     ("https://github.com/pandas-dev/pandas/releases.atom", "pandas", "DataScience"),
