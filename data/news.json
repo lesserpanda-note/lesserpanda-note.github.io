@@ -1,7 +1,67 @@
 {
-  "updated": "2026-07-15T01:57:23+09:00",
-  "count": 605,
+  "updated": "2026-07-15T05:43:25+09:00",
+  "count": 611,
   "items": [
+    {
+      "title": "Survey Statistics: quantifying uncertainty in ranked choice voting polls",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/14/survey-statistics-quantifying-uncertainty-in-ranked-choice-voting-polls/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "We’ve talked about uncertainty in polls (see Margin of Error, Total Margin of Error, Total Margin of Error II) and we’ve talked about ranked data (see exploded logit !). A new paper, Rosenman & Liang 2026, looks at unce…",
+      "ts": 1784059217,
+      "published": "2026-07-14T20:00:17+00:00",
+      "collected_at": "2026-07-15T05:43:21+09:00"
+    },
+    {
+      "title": "lobste.rs is now running on SQLite",
+      "link": "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. T…",
+      "ts": 1784058251,
+      "published": "2026-07-14T19:44:11+00:00",
+      "collected_at": "2026-07-15T05:43:21+09:00"
+    },
+    {
+      "title": "Quoting Armin Ronacher",
+      "link": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has t…",
+      "ts": 1784052263,
+      "published": "2026-07-14T18:04:23+00:00",
+      "collected_at": "2026-07-15T05:43:21+09:00"
+    },
+    {
+      "title": "BoxLang 1.15.0 Released: Blazing Fast Strings, Runtime Portability, and much more",
+      "link": "https://foojay.io/today/boxlang-1-15-0-released-blazing-fast-strings-runtime-portability-and-much-more/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "BoxLang 1.15.0 is a high-impact release with two big headlines and a long tail of hardening. The first headline is a massive performance upgrade to string handling: a new first-class BoxStringBuilder type, compile-time…",
+      "ts": 1784051830,
+      "published": "2026-07-14T17:57:10+00:00",
+      "collected_at": "2026-07-15T05:43:21+09:00"
+    },
+    {
+      "title": "What is Meta Prompting and How does it work?",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/meta-prompting/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Prompts shape every interaction with a large language model. Clear instructions produce focused, useful responses, while vague ones often lead to inconsistent results. This becomes harder when teams need the same task c…",
+      "ts": 1784049706,
+      "published": "2026-07-14T17:21:46+00:00",
+      "collected_at": "2026-07-15T05:43:21+09:00"
+    },
+    {
+      "title": "datasette 1.0a37",
+      "link": "https://simonwillison.net/2026/Jul/14/datasette/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette 1.0a37 A minor release. Performance and documentation improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break. Tags:…",
+      "ts": 1784046701,
+      "published": "2026-07-14T16:31:41+00:00",
+      "collected_at": "2026-07-15T05:43:21+09:00"
+    },
     {
       "title": "How I’m Making Sure My Analytics Career Doesn’t Get Eaten by AI",
       "link": "https://towardsdatascience.com/how-im-making-sure-my-analytics-career-doesnt-get-eaten-by-ai/",
