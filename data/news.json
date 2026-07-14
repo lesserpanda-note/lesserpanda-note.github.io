@@ -1,7 +1,77 @@
 {
-  "updated": "2026-07-14T15:38:13+09:00",
-  "count": 583,
+  "updated": "2026-07-14T21:01:00+09:00",
+  "count": 590,
   "items": [
+    {
+      "title": "12 Ways to Reduce LLM Latency and Inference Costs in Production",
+      "link": "https://www.kdnuggets.com/12-ways-to-reduce-llm-latency-and-inference-costs-in-production",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Scaling LLMs isn’t about adding GPUs. It’s about removing wasted work from every request.",
+      "ts": 1784030433,
+      "published": "2026-07-14T12:00:33+00:00",
+      "collected_at": "2026-07-14T21:00:48+09:00"
+    },
+    {
+      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
+      "link": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Google released the Genkit Agents API in preview for TypeScript and Go. The open-source framework packages message history, tool loops, streaming, and state persistence behind a single chat() interface. Detached turns l…",
+      "ts": 1784024220,
+      "published": "2026-07-14T10:17:00+00:00",
+      "collected_at": "2026-07-14T21:00:48+09:00"
+    },
+    {
+      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
+      "link": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google released the Genkit Agents API in preview for TypeScript and Go. The open-source framework packages message history, tool loops, streaming, and state persistence behind a single chat() interface. Detached turns l…",
+      "ts": 1784024220,
+      "published": "2026-07-14T10:17:00+00:00",
+      "collected_at": "2026-07-14T21:00:48+09:00"
+    },
+    {
+      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
+      "link": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google released the Genkit Agents API in preview for TypeScript and Go. The open-source framework packages message history, tool loops, streaming, and state persistence behind a single chat() interface. Detached turns l…",
+      "ts": 1784024220,
+      "published": "2026-07-14T10:17:00+00:00",
+      "collected_at": "2026-07-14T21:00:48+09:00"
+    },
+    {
+      "title": "Article: Comprehension at AI Speed: Building a Context Store for Evolutionary Architecture",
+      "link": "https://www.infoq.com/articles/ai-speed-context-store-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AI makes the first 80% of development feel fast, but hides architectural complexity until it's too late. To prevent system instability, engineering leaders must shift from raw throughput to systemic comprehension. By un…",
+      "ts": 1784019600,
+      "published": "2026-07-14T09:00:00+00:00",
+      "collected_at": "2026-07-14T21:00:48+09:00"
+    },
+    {
+      "title": "Evolutionary Data Through Schemaboi: Achieving Forward, Backwards, and Sideways Compatibility",
+      "link": "https://www.infoq.com/news/2026/07/durable-document-schema/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Drawing from the enduring adaptability of HTML and HTTP, Seph Gentle proposes embedding self-contained schemas directly into file headers, ensuring data remains readable without external definitions. His experimental fo…",
+      "ts": 1784016480,
+      "published": "2026-07-14T08:08:00+00:00",
+      "collected_at": "2026-07-14T21:00:48+09:00"
+    },
+    {
+      "title": "Evolutionary Data Through Schemaboi: Achieving Forward, Backwards, and Sideways Compatibility",
+      "link": "https://www.infoq.com/news/2026/07/durable-document-schema/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Drawing from the enduring adaptability of HTML and HTTP, Seph Gentle proposes embedding self-contained schemas directly into file headers, ensuring data remains readable without external definitions. His experimental fo…",
+      "ts": 1784016480,
+      "published": "2026-07-14T08:08:00+00:00",
+      "collected_at": "2026-07-14T21:00:48+09:00"
+    },
     {
       "title": "v2.9.1 (2026-07-13)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.1",
