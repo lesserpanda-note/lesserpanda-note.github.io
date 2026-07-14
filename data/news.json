@@ -1,7 +1,137 @@
 {
-  "updated": "2026-07-14T21:01:00+09:00",
-  "count": 590,
+  "updated": "2026-07-15T01:57:23+09:00",
+  "count": 605,
   "items": [
+    {
+      "title": "How I’m Making Sure My Analytics Career Doesn’t Get Eaten by AI",
+      "link": "https://towardsdatascience.com/how-im-making-sure-my-analytics-career-doesnt-get-eaten-by-ai/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The analytics career I signed up for five years ago doesn't exist anymore, and honestly, I am fine with that. The post How I’m Making Sure My Analytics Career Doesn’t Get Eaten by AI appeared first on Towards Data Scien…",
+      "ts": 1784046600,
+      "published": "2026-07-14T16:30:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "Celebrating 25 years of visual search innovation",
+      "link": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Google Images logo surrounded by illustrations of people searching for different images",
+      "ts": 1784044800,
+      "published": "2026-07-14T16:00:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "A Gentle Introduction to Autoencoders & Latent Space",
+      "link": "https://towardsdatascience.com/gentle-introduction-to-autoencoders-latent-space/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Introduction Heavy computation is a well-known problem in various ML algorithms today, especially when generative AI is applied to text, images, and other unstructured data. One of the principal approaches to mitigate t…",
+      "ts": 1784041200,
+      "published": "2026-07-14T15:00:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "I Asked GitHub Copilot to Profile a Java App. It Found a Bug in My Heap Sizing, and Offered to Fix It",
+      "link": "https://foojay.io/today/i-asked-github-copilot-to-profile-a-java-app-it-found-a-bug-in-my-heap-sizing-and-offered-to-fix-it/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "I built an extension to collapse the entire loop of running and measuring the performance of Java workloads, so it can be used within a place some developers are starting to consider their new \"development environment\"…",
+      "ts": 1784040131,
+      "published": "2026-07-14T14:42:11+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "Getting Started with Conductor for Gemini CLI",
+      "link": "https://www.kdnuggets.com/getting-started-with-conductor-for-gemini-cli",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Conductor is a Gemini CLI extension built to fix your context problems. Learn all about it here.",
+      "ts": 1784037624,
+      "published": "2026-07-14T14:00:24+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "Understanding Mixin Classes in Python",
+      "link": "https://realpython.com/courses/understanding-mixin-classes-in-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to write reusable Python mixin classes, distinguish them from abstract base classes, and steer clear of common pitfalls.",
+      "ts": 1784037600,
+      "published": "2026-07-14T14:00:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "“Making Statistics Work: Information Theory and Bayesian Inference”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/14/making-statistics-work-information-theory-and-bayesian-inference/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I took a look at the above-titled book by economists Duncan Foley and Ellis Scharfenaker. It’s an interesting read, in many ways a throwback to the 1950s when a group of mathematicians brewed a heady mix of operations r…",
+      "ts": 1784036702,
+      "published": "2026-07-14T13:45:02+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents",
+      "link": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google and industry partners announced Agentic Resource Discovery (ARD) Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. ARD introduces a discovery layer built on ca…",
+      "ts": 1784036400,
+      "published": "2026-07-14T13:40:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents",
+      "link": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google and industry partners announced Agentic Resource Discovery (ARD) Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. ARD introduces a discovery layer built on ca…",
+      "ts": 1784036400,
+      "published": "2026-07-14T13:40:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "How Much Does It Actually Cost to Run a Local LLM? (Euros per Million Tokens, Measured)",
+      "link": "https://towardsdatascience.com/how-much-does-it-actually-cost-to-run-a-local-llm-e-per-million-tokens-measured/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "I measured the actual GPU electricity for eight local models on one RTX 3090 — and the cheapest wasn't the smallest, nor the priciest the biggest. The post How Much Does It Actually Cost to Run a Local LLM? (Euros per M…",
+      "ts": 1784035800,
+      "published": "2026-07-14T13:30:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "Meta's Noninvasive Brain–Computer Interface Brain2Qwerty Achieves 61% Accuracy",
+      "link": "https://www.infoq.com/news/2026/07/meta-brain-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Meta recently open-sourced Brain2Qwerty v2, a noninvasive Brain–Computer Interface (BCI) that can decode sentences from thoughts using electroencephalography (EEG) or magnetoencephalography (MEG) signals from the brain.…",
+      "ts": 1784034000,
+      "published": "2026-07-14T13:00:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "DSLs Enable Reliable Use of LLMs",
+      "link": "https://martinfowler.com/articles/llm-and-dsls.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "LLMs generate code incredibly fast, but to ensure they generate exactly what is intended, they need clear boundaries. Abstractions and Domain-Specific Languages (DSLs) provide a strong harness that guides LLMs right fro…",
+      "ts": 1784033460,
+      "published": "2026-07-14T12:51:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "Presentation: Lessons Learned in Migrating to Micro-Frontends",
+      "link": "https://www.infoq.com/presentations/migration-micro-frontend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Luca Mezzalira shares proven learnings from guiding hundreds of teams through the migration from monolithic web applications to distributed frontend architectures. He explains the core architectural difference between c…",
+      "ts": 1784032920,
+      "published": "2026-07-14T12:42:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
     {
       "title": "12 Ways to Reduce LLM Latency and Inference Costs in Production",
       "link": "https://www.kdnuggets.com/12-ways-to-reduce-llm-latency-and-inference-costs-in-production",
@@ -11,6 +141,36 @@
       "ts": 1784030433,
       "published": "2026-07-14T12:00:33+00:00",
       "collected_at": "2026-07-14T21:00:48+09:00"
+    },
+    {
+      "title": "LLM Evaluation Frameworks Compared: How to Actually Measure What Your Model Does",
+      "link": "https://machinelearningmastery.com/llm-evaluation-frameworks-compared-how-to-actually-measure-what-your-model-does/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how to evaluate LLM applications using the three dominant open-source frameworks — RAGAS, DeepEval, and Promptfoo — and why...",
+      "ts": 1784030429,
+      "published": "2026-07-14T12:00:29+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "Quiz: Understanding Mixin Classes in Python",
+      "link": "https://realpython.com/quizzes/understanding-mixin-classes/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python mixin classes, see how they differ from abstract base classes, and avoid common pitfalls.",
+      "ts": 1784030400,
+      "published": "2026-07-14T12:00:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
+    },
+    {
+      "title": "Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs",
+      "link": "https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "How to stop parsing JSON by hand and start trusting your model's output The post Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs appeared first on Towards Data Science .",
+      "ts": 1784030400,
+      "published": "2026-07-14T12:00:00+00:00",
+      "collected_at": "2026-07-15T01:57:09+09:00"
     },
     {
       "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
@@ -5891,16 +6051,6 @@
       "ts": 1781481600,
       "published": "2026-06-15T00:00:00+00:00",
       "collected_at": null
-    },
-    {
-      "title": "“Are prediction markets causing more harm than good?”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/14/are-prediction-markets-causing-more-harm-than-good/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "The other day I was invited to an “anti-debate” on the above topic, scheduled for this afternoon. I’d not heard about the concept of an anti-debate before; here’s the description: The Anti-Debate is a new format for deb…",
-      "ts": 1781440661,
-      "published": "2026-06-14T12:37:41+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
     }
   ]
 }
