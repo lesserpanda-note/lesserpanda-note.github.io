@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-14T09:14:23+09:00",
-  "count": 578,
+  "updated": "2026-07-14T15:38:13+09:00",
+  "count": 583,
   "items": [
+    {
+      "title": "v2.9.1 (2026-07-13)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.1",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Fix typed composition members recursion in JsonSchemaTransformer by @pydanty[bot] in #6440 fix: handle int timeout values in MistralModel._get_timeout_ms by @Ricardo-M-L in #5019 Remove retire…",
+      "ts": 1783997968,
+      "published": "2026-07-14T02:59:28+00:00",
+      "collected_at": "2026-07-14T15:37:56+09:00"
+    },
+    {
+      "title": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
+      "link": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
+      "ts": 1783992147,
+      "published": "2026-07-14T01:22:27+00:00",
+      "collected_at": "2026-07-14T15:37:56+09:00"
+    },
+    {
+      "title": "Using uvx in GitHub Actions in a cache-friendly way",
+      "link": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "TIL: Using uvx in GitHub Actions in a cache-friendly way I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like. The trick is setting a UV_EXCLUDE_NEWER: \"2026-07-12\" env…",
+      "ts": 1783990580,
+      "published": "2026-07-14T00:56:20+00:00",
+      "collected_at": "2026-07-14T15:37:56+09:00"
+    },
     {
       "title": "DOOMQL",
       "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
@@ -13,6 +43,16 @@
       "collected_at": "2026-07-14T09:14:13+09:00"
     },
     {
+      "title": "Claude Code plugin that plays a Mr. Meeseeks voice line whene Claude is waiting",
+      "link": "https://github.com/thephw/claude-meseeks",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/thephw/claude-meseeks Comments URL: https://news.ycombinator.com/item?id=48899529 Points: 129 # Comments: 54",
+      "ts": 1783980234,
+      "published": "2026-07-13T22:03:54+00:00",
+      "collected_at": "2026-07-14T15:37:56+09:00"
+    },
+    {
       "title": "datasette code-frequency chart on GitHub",
       "link": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
       "source": "Simon Willison",
@@ -21,6 +61,16 @@
       "ts": 1783979127,
       "published": "2026-07-13T21:45:27+00:00",
       "collected_at": "2026-07-14T07:14:35+09:00"
+    },
+    {
+      "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "link": "https://arxiv.org/abs/2607.01418",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://arxiv.org/abs/2607.01418 Comments URL: https://news.ycombinator.com/item?id=48899321 Points: 53 # Comments: 28",
+      "ts": 1783979031,
+      "published": "2026-07-13T21:43:51+00:00",
+      "collected_at": "2026-07-14T15:37:56+09:00"
     },
     {
       "title": "New Flagship Grok Voices",
