@@ -1,6 +1,33 @@
 {
   "digests": [
     {
+      "date": "2026-07-13",
+      "summary": "오늘은 AI 도구의 보안·프라이버시 이슈와 MCP 생태계 준비 현황이 주요 화두였습니다. xAI의 Grok Build CLI가 사용자 저장소 전체—비밀 키 포함—를 xAI 서버에 무단 업로드한다는 분석이 252개 HN 추천을 받아 큰 관심을 끌었습니다. MCP 측면에서는 2026-07-28 새 사양 출시를 앞두고 4,356개 엔드포인트 중 단 1개만 호환 준비가 완료된 것으로 나타났으며, Claude Code가 프롬프트를 읽기 전 33,000토큰에 달하는 오버헤드를 전송한다는 비교 분석도 화제가 되었습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "What xAI's Grok Build CLI Actually Sends to xAI",
+          "link": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+          "summary": "xAI의 Grok Build CLI가 .env 파일 등 민감 정보를 포함해 전체 저장소를 xAI 서버에 업로드한다는 분석이 공개되어 보안·프라이버시 우려를 낳고 있습니다.",
+          "detail": "보안 연구자 cereblab이 xAI의 Grok Build CLI가 실제로 전송하는 데이터를 분석한 결과, 심각한 프라이버시 문제 세 가지가 확인되었습니다.\n\n첫째, .env 파일 내 API 키 등 비밀 정보가 난독화 없이 그대로 /v1/responses 엔드포인트로 전송되고, 스토리지 아카이브(/v1/storage)에도 그대로 저장됩니다.\n\n둘째, AI 에이전트가 실제로 읽은 파일만이 아니라 저장소 전체가 압축 스냅샷으로 업로드됩니다. 12GB 저장소 테스트에서 5.10GiB가 업로드되었으며, 이는 모델이 실제 처리한 데이터 대비 27,800배에 달합니다.\n\n셋째, 저장소 스냅샷은 'grok-code-session-traces'라는 Google Cloud Storage 버킷에 저장되지만, 이 사실은 CLI 설정 안내에 명시되어 있지 않습니다.\n\n특히 '모델 개선 참여' 설정을 해제해도 데이터 업로드는 계속 진행되며, 사용자 동의 없이 외부 인프라로 데이터가 전송됩니다. 이 분석은 Hacker News에서 252개 추천을 받아 큰 반향을 일으켰습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Show HN: Only 1 of 4,356 reachable MCP servers is ready for the 2026-07-28 spec",
+          "link": "https://github.com/Roee-Tsur/mcp-spec-check",
+          "summary": "2026-07-28 MCP 새 사양 출시를 앞두고 공식 레지스트리의 4,356개 엔드포인트를 점검한 결과, 단 1개만 완전 호환된 것으로 나타났습니다.",
+          "detail": "개발자 Roee-Tsur가 공개한 mcp-spec-check 도구는 MCP 공식 레지스트리의 7,850개 서버 중 실제 접근 가능한 4,356개 엔드포인트를 대상으로 2026-07-28 새 사양 준수 여부를 블랙박스 HTTP 프로브 방식으로 평가했습니다.\n\n결과는 충격적입니다. 완전 호환 판정을 받은 서버는 단 1개에 불과하며, 나머지 약 90.8%는 필수 요건을 충족하지 못했습니다.\n\n2026-07-28 사양의 주요 변경 사항:\n- 초기화: 기존 initialize 핸드셰이크 → server/discover 로 교체\n- 라우팅: Mcp-Method, Mcp-Name HTTP 헤더 필수화\n- 세션: 프로토콜 수준 세션 제거(스테이트리스 아키텍처로 전환)\n- 오류 코드: resource-not-found 코드 -32002 → -32602 변경\n\n저자는 '사양이 아직 GA(정식 릴리스) 이전이기 때문에 마이그레이션이 거의 시작되지 않은 것은 예상 범위 내'라고 설명했습니다. 이 발표는 MCP 생태계의 사양 전환 준비도를 가늠할 수 있는 중요한 지표입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
+          "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+          "summary": "Claude Code는 사용자 프롬프트를 처리하기 전 약 33,000토큰의 오버헤드를 전송하는 반면, OpenCode는 약 7,000토큰에 불과하다는 비교 분석이 공개되었습니다.",
+          "detail": "Systima AI팀이 Claude Code와 OpenCode의 토큰 오버헤드를 비교 분석한 결과, Claude Code가 실질적인 프롬프트 처리 전 약 33,000토큰을 전송하는 반면 OpenCode는 약 7,000토큰에 그친다는 사실을 발견했습니다. 이는 약 4.7배의 차이입니다.\n\n이 발견은 OpenCode 이용 중 Meridian 이슈로 Claude Code를 일시 사용하면서 사용량 측정치가 훨씬 빠르게 소진되는 현상을 경험한 데서 시작되었습니다.\n\n이 오버헤드의 실질적 영향:\n- Claude Code 사용자는 실제 작업과 무관한 오버헤드 토큰에 더 많은 비용을 지출합니다\n- 주간·월간 사용 한도가 있는 Claude Max 플랜 사용자는 한도가 더 빨리 소진될 수 있습니다\n- 동일한 개발 작업을 수행할 때 Claude Code와 OpenCode 사이에 유의미한 비용 차이가 발생합니다\n\n이 분석은 AI 코딩 도구 선택 시 단순 기능 비교 외에 토큰 효율성도 중요한 평가 기준임을 시사합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-12",
       "summary": "오늘은 AI 에이전트 프레임워크와 LLM 실용 기술에 대한 깊이 있는 내용이 주를 이뤘습니다. pydantic-ai v2.9.0이 GPT-5.6 지원과 보안 패치를 포함하여 출시되었고, Temporal 워크플로우 엔진의 역할을 데이터베이스 역사와 비교한 통찰력 있는 Java 글이 눈에 띕니다. AI/ML 분야에서는 LLM 환각 문제와 긴 컨텍스트로 인한 비용·품질 저하를 해결하는 실용적 접근법이 소개되었습니다.",
       "highlights": [
