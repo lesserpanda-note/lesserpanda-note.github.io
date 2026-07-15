@@ -1,6 +1,82 @@
 {
   "digests": [
     {
+      "date": "2026-07-14",
+      "summary": "오늘은 xAI Grok CLI의 대규모 개인정보 유출 사건과 Anthropic의 최신 AI 연구 발견, Java 생태계의 TornadoVM 5.0 GA 출시 등이 주목받았습니다. AI 에이전트 분야에서는 Agentic RAG와 Claude Code 컨텍스트 관리 전략이 실용적 인사이트를 제공했으며, AT Protocol 기반 분산 아키텍처와 AWS 다중 리전 설계 사례도 눈에 띄었습니다. Python 진영에서는 LangGraph를 활용한 상태 유지형 AI 에이전트 구축 튜토리얼이 공개되었습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java News Roundup: TornadoVM 5, JHipster, Google ADK, OmniFish Build of Payara, Introducing Vidocq",
+          "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul06-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "2026년 7월 6일 주의 Java 뉴스 요약으로, TornadoVM 5.0 GA 출시, JHipster·Keycloak·Google ADK 포인트 릴리스, OmniFish의 Payara 빌드, 새 프로젝트 Vidocq 소개 등 다양한 소식이 담겨 있습니다.",
+          "detail": "이번 주 주요 Java 소식: TornadoVM 5.0이 GA(정식) 버전으로 출시되어 JVM 기반 GPU 가속 연산의 새 이정표를 세웠습니다. JHipster, Keycloak, Google ADK의 포인트 릴리스와 GraalVM Native Build Tools 및 Micronaut의 유지보수 업데이트도 포함되었습니다. OmniFish 재단은 Payara의 자체 빌드를 공개했으며, 새로운 Java 도구 프로젝트 Vidocq가 소개되었습니다. Java 생태계 전반에서 활발한 릴리스와 커뮤니티 활동이 이어지고 있습니다."
+        },
+        {
+          "category": "Java",
+          "title": "Foojay Podcast #100: When a Podcaster Interviews Podcasters, and What They All Have in Common",
+          "link": "https://foojay.io/today/foojay-podcast-100/",
+          "summary": "Foojay 팟캐스트가 100회를 맞이해 진행자 Frank Delporte가 Adam Bien, Jennifer Reif 등 Java 커뮤니티의 다른 팟캐스터들을 초대해 대담을 나눴습니다.",
+          "detail": "Foojay 팟캐스트 100회 특별 에피소드로, 진행자 Frank Delporte가 마이크를 돌려 다른 Java 팟캐스터들을 인터뷰했습니다. airhacks.fm의 Adam Bien, Breaktime Tech Talks의 Jennifer Reif 등이 참여해 팟캐스팅의 공통점과 Java 커뮤니티 활동에 대한 이야기를 나눴습니다. 100회는 특별히 계획한 것이 아니라 자연스럽게 달성되었다고 하며, Java 생태계 내 커뮤니티 기여자들이 공유하는 가치와 열정을 조명했습니다."
+        },
+        {
+          "category": "AI",
+          "title": "xAI's Grok Build CLI Uploads Git Repositories to a Google Cloud Bucket",
+          "link": "https://www.internationalcyberdigest.com/xais-grok-build-cli-uploads-entire-git-repositories-to-a-google-cloud-bucket/",
+          "summary": "xAI의 Grok Build CLI가 사용자 동의 없이 Git 저장소 전체(심지어 홈 디렉토리까지)를 Google Cloud Storage에 업로드하는 심각한 보안·프라이버시 문제가 공개되어 개발자 커뮤니티에 큰 파장을 일으켰습니다.",
+          "detail": "xAI의 Grok Build CLI 도구가 사용자의 Git 저장소 전체를 사용자 동의 없이 Google Cloud Storage 버킷에 업로드하는 것으로 발견되었습니다. 일부 사용자는 홈 디렉토리 전체가 전송되었다고 보고했으며, 개인 코드, API 키, 설정 파일, 민감한 데이터가 포함될 수 있어 심각한 보안·프라이버시 우려가 제기되었습니다.\n이 사건은 Hacker News에서 96포인트를 받으며 개발자 커뮤니티의 큰 주목을 받았고, AI 코딩 도구의 데이터 수집 관행에 대한 투명성 요구와 함께 사용자 동의 없는 데이터 전송의 위험성을 다시 한번 상기시켰습니다."
+        },
+        {
+          "category": "AI",
+          "title": "What Anthropic's latest AI discovery does—and doesn't—show",
+          "link": "https://www.technologyreview.com/2026/07/13/1140343/what-anthropics-latest-ai-discovery-does-and-doesnt-show/",
+          "summary": "MIT Technology Review가 Anthropic의 최신 AI 연구 발견을 분석하며 그 의미와 한계를 균형 있게 조명했습니다.",
+          "detail": "현재 기업 가치 약 1조 달러로 평가받는 세계 최고 가치 AI 기업 Anthropic이 새로운 연구 발견을 공개했습니다. MIT Technology Review는 이 발견이 AI 분야에서 실제로 무엇을 보여주는지, 그리고 과장 해석을 경계해야 할 한계는 무엇인지를 심층 분석했습니다. 기사는 Anthropic의 The Algorithm 뉴스레터에도 소개되었으며, AI 해석 가능성(interpretability) 또는 안전성 연구와 관련된 중요 발견으로 추정됩니다. AI 연구 결과를 맥락 없이 과장하지 않도록 균형 잡힌 시각을 제공하는 분석 기사입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Agentic RAG: Let the Agent Search",
+          "link": "https://towardsdatascience.com/agentic-rag-let-the-agent-search/",
+          "summary": "OpenAI Agents SDK를 활용한 최소 구현 예제로, 에이전트가 검색-읽기-결정 루프를 통해 스스로 검색 시점과 방법을 결정하는 Agentic RAG 패턴을 소개합니다.",
+          "detail": "기존 RAG(Retrieval-Augmented Generation)에서 진화한 Agentic RAG는 에이전트가 언제, 어떻게 검색할지를 스스로 결정한다는 점이 핵심입니다. OpenAI Agents SDK를 사용한 미니멀한 구현을 통해 검색(Search) → 읽기(Read) → 결정(Decide)의 루프를 실현합니다.\n기존 고정 파이프라인 방식과 달리, 에이전트는 질문에 답하기 위해 필요할 때만 검색을 수행하고 결과를 판단해 추가 검색 여부를 결정합니다. 이 접근법은 복잡한 다단계 질의응답에 특히 효과적이며, 단순 벡터 검색 파이프라인보다 훨씬 유연한 정보 검색을 가능하게 합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Context Rot: Why Claude Code Sessions Decay, and How to Govern Them",
+          "link": "https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/",
+          "summary": "Claude Code의 긴 세션에서 토큰 한계 전에 발생하는 '컨텍스트 부패' 현상과 이를 효과적으로 관리하는 거버넌스 전략을 다룹니다.",
+          "detail": "Claude Code의 에이전트 세션이 길어지면 토큰 한계에 도달하기 훨씬 전부터 컨텍스트 품질이 조용히 저하되는 '컨텍스트 부패(Context Rot)' 현상이 발생합니다. 이는 최근 컨텍스트에 과도하게 의존하게 되고, 초기 지시사항의 영향력이 줄어들며, 세션 전반에 걸쳐 누적된 노이즈로 인해 AI의 집중력이 분산되기 때문입니다.\n이를 관리하기 위한 거버넌스 전략으로는 정기적인 컨텍스트 재설정, 명시적인 세션 분할, 핵심 지시사항 반복 주입 등이 제안됩니다. AI 코딩 도구를 실무에서 활용하는 개발자들에게 실용적인 인사이트를 제공합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "How to Build More Resilient Local-First Applications With AT Protocol Infrastructure",
+          "link": "https://www.infoq.com/news/2026/07/atproto-webapp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "AT Protocol을 소셜 네트워킹을 넘어 탄력적인 분산 애플리케이션의 인프라로 활용하는 방법을 소개하며, 사용자 데이터 주권을 보장하는 로컬 우선 아키텍처를 제안합니다.",
+          "detail": "Jake Lazaroff가 Bluesky의 기반 프로토콜인 AT Protocol을 소셜 미디어를 넘어 다양한 분산 애플리케이션에 적용하는 아키텍처를 발표했습니다. 핵심은 사용자가 자신의 데이터를 PDS(Personal Data Server)에서 직접 관리하는 로컬 우선(local-first) 아키텍처입니다.\nAT Protocol의 공유 인프라를 활용하면 서버 장애 시에도 데이터 가용성과 이식성을 보장할 수 있습니다. 이 접근법은 중앙화된 서버에 의존하지 않아 서비스 종료나 플랫폼 변경에도 사용자 데이터를 안전하게 보호하며, 분산형 웹 아키텍처의 새로운 모델을 제시합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Article: Removing a Hidden Round Trip from a Multi-Region AWS API",
+          "link": "https://www.infoq.com/articles/aws-multi-region-signing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "복수의 지역 장애를 겪은 팀이 다중 리전 AWS API에서 글로벌 페일오버를 방해하던 숨겨진 사전 요청(pre-flight call)을 발견하고 제거해 아키텍처 복원력을 개선한 사례를 다룹니다.",
+          "detail": "복수의 AWS 리전 장애를 경험한 팀이 다중 리전 API를 재검토하는 과정에서 글로벌 페일오버를 방해하는 숨겨진 병목을 발견했습니다. 모든 클라이언트 세션마다 실행되는 사전 디스커버리 호출(pre-flight discovery call)이 원인이었으며, 이 불필요한 왕복 호출이 장애 조치 속도를 크게 저하시키고 있었습니다.\n해당 사전 요청을 식별하고 제거함으로써 팀은 다중 리전 아키텍처의 복원력과 페일오버 속도를 눈에 띄게 개선했습니다. 이 사례는 분산 시스템 설계 시 숨겨진 의존성과 레이턴시 요인을 면밀히 검토하는 것의 중요성을 잘 보여줍니다."
+        },
+        {
+          "category": "Python",
+          "title": "LangGraph Tutorial: Build Stateful AI Agents in Python",
+          "link": "https://realpython.com/langgraph-python/",
+          "summary": "Real Python이 LangGraph를 활용해 메모리 관리, 사이클, 복잡한 LLM 워크플로우를 다루는 상태 유지형 다중 에이전트를 Python으로 구축하는 포괄적인 실습 튜토리얼을 공개했습니다.",
+          "detail": "LangGraph는 LangChain 위에서 에이전트들이 사이클 형태로 반복 실행될 수 있는 상태 유지형 그래프 워크플로우를 구성하는 Python 라이브러리입니다. Real Python의 이 튜토리얼은 그래프 구성, 상태(state) 관리, 노드 간 조건부 엣지(conditional edge) 설정, 멀티-에이전트 구조 등을 단계별 실습 예제로 상세히 다룹니다.\n단순 선형 체인과 달리 LangGraph는 에이전트가 필요에 따라 이전 단계로 돌아가는 사이클 실행을 지원해 복잡한 추론 및 자동화 워크플로우 구현에 적합합니다. LangChain 기반 AI 에이전트 개발자에게 실용적인 학습 자료입니다."
+        },
+        {
+          "category": "Python",
+          "title": "Quiz: LangGraph: Build Stateful AI Agents in Python",
+          "link": "https://realpython.com/quizzes/langgraph-python/",
+          "summary": "Real Python LangGraph 튜토리얼의 이해도를 점검하는 퀴즈로, 상태 유지형 그래프, 사이클, 다중 액터 LLM 워크플로우 개념을 다룹니다.",
+          "detail": "Real Python의 LangGraph 튜토리얼 학습 후 이해도를 테스트하는 퀴즈입니다. LangGraph에서 다루는 상태 유지형 그래프(stateful graph), 사이클(cycle) 실행 흐름, 다중 액터(multi-actor) 워크플로우, 그리고 LangChain과의 통합 개념을 점검합니다. 튜토리얼과 함께 활용하면 LangGraph의 핵심 개념을 더 효과적으로 익힐 수 있습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-13",
       "summary": "오늘은 AI 도구의 보안·프라이버시 이슈와 MCP 생태계 준비 현황이 주요 화두였습니다. xAI의 Grok Build CLI가 사용자 저장소 전체—비밀 키 포함—를 xAI 서버에 무단 업로드한다는 분석이 252개 HN 추천을 받아 큰 관심을 끌었습니다. MCP 측면에서는 2026-07-28 새 사양 출시를 앞두고 4,356개 엔드포인트 중 단 1개만 호환 준비가 완료된 것으로 나타났으며, Claude Code가 프롬프트를 읽기 전 33,000토큰에 달하는 오버헤드를 전송한다는 비교 분석도 화제가 되었습니다.",
       "highlights": [
