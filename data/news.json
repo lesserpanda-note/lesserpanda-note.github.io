@@ -1,7 +1,87 @@
 {
-  "updated": "2026-07-15T21:56:05+09:00",
-  "count": 622,
+  "updated": "2026-07-15T23:40:25+09:00",
+  "count": 628,
   "items": [
+    {
+      "title": "Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation",
+      "link": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Stripe introduces a benchmark suite to evaluate whether AI agents can build real-world Stripe integrations across backend, frontend, and browser-based checkout workflows. The study examines end-to-end software engineeri…",
+      "ts": 1784125500,
+      "published": "2026-07-15T14:25:00+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
+    },
+    {
+      "title": "Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation",
+      "link": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Stripe introduces a benchmark suite to evaluate whether AI agents can build real-world Stripe integrations across backend, frontend, and browser-based checkout workflows. The study examines end-to-end software engineeri…",
+      "ts": 1784125500,
+      "published": "2026-07-15T14:25:00+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
+    },
+    {
+      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+      "link": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "How I tricked Claude into leaking your deepest, darkest secrets I've been impressed by the way the Claude web_fetch tool is designed to avoid data exfiltration attacks. Ayush Paul found a hole in that design. To recap:…",
+      "ts": 1784125314,
+      "published": "2026-07-15T14:21:54+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
+    },
+    {
+      "title": "Stop Using If-Else Chains: Use the Registry Pattern in Python Instead",
+      "link": "https://www.kdnuggets.com/stop-using-if-else-chains-use-the-registry-pattern-in-python-instead",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn a cleaner, more extensible way to dispatch logic in Python.",
+      "ts": 1784124006,
+      "published": "2026-07-15T14:00:06+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
+    },
+    {
+      "title": "How to Write a CLAUDE.md File for Claude Code",
+      "link": "https://realpython.com/python-claude-md/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to write a CLAUDE.md file for Claude Code, with global, project, and local examples that capture your Python commands and conventions.",
+      "ts": 1784124000,
+      "published": "2026-07-15T14:00:00+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
+    },
+    {
+      "title": "How I Mastered Data Structures and Algorithms for ML (In 6 Weeks)",
+      "link": "https://towardsdatascience.com/how-i-mastered-data-structures-algorithms-for-ml-in-6-weeks/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The strategies, questions, and process I used to ace coding interviews. The post How I Mastered Data Structures and Algorithms for ML (In 6 Weeks) appeared first on Towards Data Science .",
+      "ts": 1784122200,
+      "published": "2026-07-15T13:30:00+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
+    },
+    {
+      "title": "A ranked-choice election in Maine: Using voting data to understand preferences",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/15/a-ranked-choice-election-in-maine-using-voting-data-to-understand-preferences/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Evan Rosenman writes: The implosion of Graham Platner’s Senate campaign in Maine has upended a marquee Senate race, leaving the state Democratic party just a few weeks to choose a substitute nominee. A planned nominatin…",
+      "ts": 1784121334,
+      "published": "2026-07-15T13:15:34+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
+    },
+    {
+      "title": "Presentation: Postgres for Production Agents: Your Relational Foundation for Enterprise AI",
+      "link": "https://www.infoq.com/presentations/postgres-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Gwen Shapira shares how teams are scaling AI features using PostgreSQL for mission-critical apps. She explains how to leverage Postgres's multi-modal capabilities - including JSONB parsing and high-recall HNSW vector in…",
+      "ts": 1784120220,
+      "published": "2026-07-15T12:57:00+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
+    },
     {
       "title": "7 Python Frameworks for Orchestrating Local AI Agents",
       "link": "https://www.kdnuggets.com/7-python-frameworks-for-orchestrating-local-ai-agents",
@@ -11,6 +91,16 @@
       "ts": 1784116856,
       "published": "2026-07-15T12:00:56+00:00",
       "collected_at": "2026-07-15T21:55:43+09:00"
+    },
+    {
+      "title": "Scikit-Ollama for Scikit-LLM/Ollama Integration",
+      "link": "https://machinelearningmastery.com/scikit-ollama-for-scikit-llm-ollama-integration/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how scikit-ollama bridges the scikit-learn interface with locally running Ollama models to perform zero-shot text classification; no cloud API...",
+      "ts": 1784116834,
+      "published": "2026-07-15T12:00:34+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
     },
     {
       "title": "Quiz: How to Write a CLAUDE.md File for Claude Code",
@@ -71,6 +161,16 @@
       "ts": 1784080632,
       "published": "2026-07-15T01:57:12+00:00",
       "collected_at": "2026-07-15T16:30:48+09:00"
+    },
+    {
+      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
+      "link": "https://huggingface.co/blog/real-world-voiceeq",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1784073600,
+      "published": "2026-07-15T00:00:00+00:00",
+      "collected_at": "2026-07-15T23:40:04+09:00"
     },
     {
       "title": "[AINews] not much happened today",
@@ -6180,46 +6280,6 @@
       "summary": "Google has announced a $1.5 billion investment for 2026 and 2027 to expand its data center campus in Jackson County, Alabama. Operating since 2019 on a repurposed former…",
       "ts": 1781535600,
       "published": "2026-06-15T15:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Spring News Roundup: Point Releases of Boot, Security, Integration, Modulith and Spring AI 2.0",
-      "link": "https://www.infoq.com/news/2026/06/spring-news-roundup-jun08-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "There was a flurry of activity in the Spring ecosystem during the week of June 8th, 2026, highlighting point releases of: Spring Boot, Spring Security, Spring Session, Spring Integration, Spring Modulith, Spring AMQP an…",
-      "ts": 1781532900,
-      "published": "2026-06-15T14:15:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Implementing Interfaces in Python: ABCs and Protocols",
-      "link": "https://realpython.com/python-interface/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to implement interfaces in Python using abstract base classes, Protocols, and duck typing, and enforce method contracts cleanly.",
-      "ts": 1781532000,
-      "published": "2026-06-15T14:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Capitalism: On its last legs or healthy enough to be milked?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/15/capitalism-on-its-last-legs-or-healthy-enough-to-be-milked/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "In The Strange Death of Tory England, a book full of great lines, Geoffrey Wheatcroft writes, Just as the labour movement had never been quite sure whether the capitalist system was on its last legs and needed only a fi…",
-      "ts": 1781530216,
-      "published": "2026-06-15T13:30:16+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Presentation: Practical Performance Tuning for Serverless Java on AWS",
-      "link": "https://www.infoq.com/presentations/java-aws-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "AWS Hero Vadym Kazulkin explains how to overcome Java’s enterprise hurdle on AWS Lambda: cold starts and memory footprints. He shares a technical deep dive into performance tuning, comparing fully managed AWS SnapStart…",
-      "ts": 1781529120,
-      "published": "2026-06-15T13:12:00+00:00",
       "collected_at": null
     }
   ]
