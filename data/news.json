@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-16T02:50:12+09:00",
-  "count": 692,
+  "updated": "2026-07-16T06:32:44+09:00",
+  "count": 696,
   "items": [
+    {
+      "title": "Grok Build is open source",
+      "link": "https://x.ai/open-source",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://x.ai/open-source Comments URL: https://news.ycombinator.com/item?id=48926841 Points: 10 # Comments: 2",
+      "ts": 1784148449,
+      "published": "2026-07-15T20:47:29+00:00",
+      "collected_at": "2026-07-16T06:32:23+09:00"
+    },
+    {
+      "title": "Grok Build",
+      "link": "https://github.com/xai-org/grok-build",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/xai-org/grok-build Comments URL: https://news.ycombinator.com/item?id=48926590 Points: 61 # Comments: 53",
+      "ts": 1784147098,
+      "published": "2026-07-15T20:24:58+00:00",
+      "collected_at": "2026-07-16T06:32:23+09:00"
+    },
+    {
+      "title": "Brainless: Shadcn components that look like Claude Code, Codex and Grok",
+      "link": "https://brainless.swerdlow.dev",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://brainless.swerdlow.dev Comments URL: https://news.ycombinator.com/item?id=48926085 Points: 30 # Comments: 5",
+      "ts": 1784144573,
+      "published": "2026-07-15T19:42:53+00:00",
+      "collected_at": "2026-07-16T06:32:23+09:00"
+    },
+    {
+      "title": "Release v5.14.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.14.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.14.0 New Model additions Inkling (fresh from Thinking Machines): 975B total, 41B active Add Inkling model #47347 by @molbap @Cyrilvallez @eustlb and @zucchini-nlp Inkling is a general-purpose multimodal model…",
+      "ts": 1784142139,
+      "published": "2026-07-15T19:02:19+00:00",
+      "collected_at": "2026-07-16T06:32:23+09:00"
+    },
     {
       "title": "What building Shippy taught us about building agents",
       "link": "https://huggingface.co/blog/allenai/shippy-tech-blog",
@@ -101,6 +141,16 @@
       "ts": 1784124000,
       "published": "2026-07-15T14:00:00+00:00",
       "collected_at": "2026-07-15T23:40:04+09:00"
+    },
+    {
+      "title": "Elon Musk quietly buys a $1 billion gas turbine company to power Grok",
+      "link": "https://electrek.co/2026/07/14/musk-buys-gas-turbine-company-apr-energy-grok/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://electrek.co/2026/07/14/musk-buys-gas-turbine-company-apr-energy-grok/ Comments URL: https://news.ycombinator.com/item?id=48920862 Points: 10 # Comments: 1",
+      "ts": 1784123613,
+      "published": "2026-07-15T13:53:33+00:00",
+      "collected_at": "2026-07-16T06:32:23+09:00"
     },
     {
       "title": "How I Mastered Data Structures and Algorithms for ML (In 6 Weeks)",
@@ -241,6 +291,16 @@
       "ts": 1784073600,
       "published": "2026-07-15T00:00:00+00:00",
       "collected_at": "2026-07-15T23:40:04+09:00"
+    },
+    {
+      "title": "Welcome Inkling by Thinking Machines",
+      "link": "https://huggingface.co/blog/thinkingmachines-inkling",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1784073600,
+      "published": "2026-07-15T00:00:00+00:00",
+      "collected_at": "2026-07-16T06:32:23+09:00"
     },
     {
       "title": "[AINews] not much happened today",
@@ -6901,26 +6961,6 @@
       "ts": 1781559442,
       "published": "2026-06-15T21:37:22+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Anthropic pauses credit change for Claude Code",
-      "link": "https://news.ycombinator.com/item?id=48546618",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Quoting from an email they sent: Hi Fabian, In May, we sent you an email announcing that starting today, the Claude Agent SDK, claude -p, and third-party apps built on the Agent SDK would stop drawing from subscription…",
-      "ts": 1781555319,
-      "published": "2026-06-15T20:28:39+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Why do South Koreans love AI so much?",
-      "link": "https://www.technologyreview.com/2026/06/15/1138983/why-do-south-koreans-love-ai-so-much/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. When I landed in Seoul after a grueling 12-hour flight from San Francisco, I walk…",
-      "ts": 1781549168,
-      "published": "2026-06-15T18:46:08+00:00",
-      "collected_at": null
     }
   ]
 }
