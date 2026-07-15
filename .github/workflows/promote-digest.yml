@@ -99,5 +99,18 @@ jobs:
       # The routine makes a fresh branch per run; once we've taken what we need it
       # is obsolete. Delete it so these branches don't pile up. Runs only on success,
       # so a failed promote keeps the branch around for debugging.
+      #
+      # The routine often pushes twice to the same branch (digest, then a sources.json
+      # timestamp), which queues two runs of this workflow. The first deletes the branch,
+      # so the second must treat an already-gone ref as done instead of failing the run.
+      # A delete that fails while the branch is still there is still a real error.
       - name: Delete the processed routine branch
-        run: git push origin --delete "$GITHUB_REF_NAME"
+        run: |
+          if git push origin --delete "$GITHUB_REF_NAME"; then
+            echo "deleted $GITHUB_REF_NAME"
+          elif git ls-remote --exit-code --heads origin "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            echo "::error::$GITHUB_REF_NAME still exists but could not be deleted"
+            exit 1
+          else
+            echo "$GITHUB_REF_NAME already deleted by an earlier run — nothing to do"
+          fi
