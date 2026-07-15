@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T09:35:00.448191+00:00",
+  "updated": "2026-07-15T00:10:18.041016+00:00",
   "categories": [
     {
       "category": "Java",
@@ -69,6 +69,10 @@
         {
           "name": "Hacker News",
           "url": "https://news.ycombinator.com/"
+        },
+        {
+          "name": "Transformers",
+          "url": "https://github.com/huggingface/transformers"
         }
       ]
     },
@@ -148,6 +152,10 @@
         {
           "name": "Python Speed",
           "url": "https://pythonspeed.com/"
+        },
+        {
+          "name": "PyPI Blog",
+          "url": "https://blog.pypi.org/"
         }
       ]
     },
@@ -171,8 +179,16 @@
           "url": "https://towardsdatascience.com/"
         },
         {
-          "name": "Simply Statistics",
-          "url": "https://simplystatistics.org/"
+          "name": "Statistical Modeling",
+          "url": "https://statmodeling.stat.columbia.edu/"
+        },
+        {
+          "name": "NumPy",
+          "url": "https://github.com/numpy/numpy"
+        },
+        {
+          "name": "pandas",
+          "url": "https://github.com/pandas-dev/pandas"
         }
       ]
     }
