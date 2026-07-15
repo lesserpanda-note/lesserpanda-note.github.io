@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-15T09:17:12+09:00",
-  "count": 615,
+  "updated": "2026-07-15T16:31:10+09:00",
+  "count": 617,
   "items": [
+    {
+      "title": "Inside the Claude Fable 5 System Prompt: A Full Breakdown",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/claude-fable-5-system-prompt/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "THE GIST ▸ What it is: A 3,826-line system prompt steering Claude Fable 5 inside the Claude app, pulled from a public GitHub archive. ▸ What’s in it: Rules about safety, tone and restraint. ▸ Why it matters: it shows a…",
+      "ts": 1784090668,
+      "published": "2026-07-15T04:44:28+00:00",
+      "collected_at": "2026-07-15T16:30:48+09:00"
+    },
+    {
+      "title": "v2.10.0 (2026-07-14)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.10.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Make message_history provider-valid out of the box (repair tool-call/result pairing) by @DouweM in #6319 Add support for OpenAI background mode and handle Anthropic stop_reason=pause_turn by @D…",
+      "ts": 1784080632,
+      "published": "2026-07-15T01:57:12+00:00",
+      "collected_at": "2026-07-15T16:30:48+09:00"
+    },
     {
       "title": "[AINews] not much happened today",
       "link": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
@@ -371,6 +391,16 @@
       "ts": 1783990580,
       "published": "2026-07-14T00:56:20+00:00",
       "collected_at": "2026-07-14T15:37:56+09:00"
+    },
+    {
+      "title": "This Week in Spring - July 14th, 2026",
+      "link": "https://spring.io/blog/2026/07/14/this-week-in-spring-july-14-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "This Week in Spring - July 14th, 2026 In two short months, on this date in September, Java 27 will be here! Who's excited? I'm excited! I'm in delightful Denver, CO, for the amazing UberConf. I just delivered a workshop…",
+      "ts": 1783987200,
+      "published": "2026-07-14T00:00:00+00:00",
+      "collected_at": "2026-07-15T16:30:48+09:00"
     },
     {
       "title": "DOOMQL",
@@ -6140,16 +6170,6 @@
       "summary": "AWS Hero Vadym Kazulkin explains how to overcome Java’s enterprise hurdle on AWS Lambda: cold starts and memory footprints. He shares a technical deep dive into performance tuning, comparing fully managed AWS SnapStart…",
       "ts": 1781529120,
       "published": "2026-06-15T13:12:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Spring Boot 4.1 Adds gRPC Auto-Configuration, SSRF Mitigation, and Kotlin 2.3 Support",
-      "link": "https://www.infoq.com/news/2026/06/spring-boot-4-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Broadcom released Spring Boot 4.1 on June 10, 2026, to deliver gRPC auto-configuration, HTTP-client SSRF mitigation, and upgrades to Kotlin 2.3. It also brings lazy datasource connections, async context propagation for…",
-      "ts": 1781499600,
-      "published": "2026-06-15T05:00:00+00:00",
       "collected_at": null
     }
   ]
