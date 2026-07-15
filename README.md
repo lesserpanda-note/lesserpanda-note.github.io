@@ -35,8 +35,8 @@ scripts/fetch_news.py                 RSS → data/news.json + data/sources.json
 `scripts/fetch_news.py` 의 `FEEDS` 에서 관리한다.
 
 - **Java** (Kotlin·JVM 포함): Inside Java, InfoQ Java, Foojay, Kotlin
-- **Spring**: Spring Blog (Spring Boot 릴리스 포함)
-- **AI** (모델·LLM 트렌드 포함): Google AI, Hugging Face, MIT Tech Review, InfoQ AI/ML, Anthropic, Ollama, Ahead of AI, Import AI, Hacker News (Grok / Llama), Transformers (라이브러리 릴리스)
+- **Spring**: Spring Blog (Spring Boot 릴리스 포함), Spring Security (CVE 권고)
+- **AI** (모델·LLM 트렌드 포함): Google AI, OpenAI, DeepMind, Hugging Face, MIT Tech Review, InfoQ AI/ML, Anthropic, Ollama, Ahead of AI, Import AI, Hacker News (Grok / Llama / Anthropic), Transformers (라이브러리 릴리스)
 - **Agents**: Simon Willison, Latent Space, Eugene Yan, Hacker News (Claude Code / 에이전트 / 컨텍스트 엔지니어링 / MCP), 프레임워크 릴리스 (MCP servers · LangGraph · Pydantic AI · OpenAI Agents SDK · LlamaIndex · CrewAI · Agent Framework)
 - **Architecture**: InfoQ Architecture, Martin Fowler
 - **Python**: Real Python, Python Insider, Python Speed, PyPI Blog (공급망·보안)

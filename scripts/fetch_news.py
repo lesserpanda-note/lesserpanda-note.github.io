@@ -31,12 +31,22 @@ FEEDS = [
     ("https://foojay.io/feed/", "Foojay", "Java"),
     ("https://blog.jetbrains.com/kotlin/feed/", "Kotlin", "Java"),
     ("https://spring.io/blog.atom", "Spring Blog", "Spring"),
+    # Spring portfolio CVE advisories — sporadic, so it contributes nothing most days and
+    # everything on the day one lands. That is the point: it is the security tripwire.
+    ("https://spring.io/security.atom", "Spring Security", "Spring"),
     ("https://blog.google/technology/ai/rss/", "Google AI", "AI"),
+    ("https://openai.com/news/rss.xml", "OpenAI", "AI"),
+    ("https://deepmind.google/blog/rss.xml", "DeepMind", "AI"),
     ("https://huggingface.co/blog/feed.xml", "Hugging Face", "AI"),
     ("https://www.technologyreview.com/topic/artificial-intelligence/feed", "MIT Tech Review", "AI"),
     ("https://feed.infoq.com/ai-ml-data-eng/", "InfoQ AI/ML", "AI"),
-    # Anthropic publishes no official RSS; this is a community mirror of anthropic.com/news.
+    # Anthropic still publishes no official RSS (re-checked 2026-07-15: /rss.xml, /feed.xml,
+    # /news/rss.xml, /engineering/rss.xml all 404, and anthropic.com/news carries no feed
+    # link). This community mirror is the only direct path, which makes it a single point of
+    # failure for a source we care about — so the HN query below is an independent second
+    # path: if the mirror stops updating, Anthropic news still surfaces instead of going dark.
     ("https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml", "Anthropic", "AI"),
+    ("https://hnrss.org/newest?q=Anthropic&points=50", "Hacker News", "AI"),
     # Models / LLM trends folded into AI (weekly newsletters + local-LLM releases).
     ("https://ollama.com/blog/rss.xml", "Ollama", "AI"),
     ("https://magazine.sebastianraschka.com/feed", "Ahead of AI", "AI"),
