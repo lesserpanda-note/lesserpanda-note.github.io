@@ -52,25 +52,11 @@
       "detail": "Real Python에서 Claude Code 사용자를 위한 CLAUDE.md 파일 작성 가이드를 발행했습니다. CLAUDE.md는 Claude Code에게 프로젝트의 컨벤션, 명령어, 개발 환경 설정을 알려주는 마크다운 파일입니다. 글로벌 설정(~/.claude/CLAUDE.md), 프로젝트 수준 설정, 로컬 오버라이드의 세 가지 레이어를 활용하는 방법을 설명하며, Python 프로젝트에 적합한 린터 설정, 테스트 명령어, 코딩 스타일 컨벤션 등을 CLAUDE.md에 포함하는 실용적인 예시를 제공합니다. AI 코딩 어시스턴트를 팀 워크플로우에 효과적으로 통합하는 데 유용한 가이드입니다."
     },
     {
-      "category": "Python",
-      "title": "Quiz: How to Write a CLAUDE.md File for Claude Code",
-      "link": "https://realpython.com/quizzes/python-claude-md/",
-      "summary": "CLAUDE.md 파일 작성법을 학습한 내용을 점검할 수 있는 Real Python 인터랙티브 퀴즈입니다.",
-      "detail": "Real Python의 'CLAUDE.md 작성 방법' 튜토리얼과 연계된 인터랙티브 퀴즈입니다. 글로벌, 프로젝트, 로컬 레이어에서 Claude Code용 CLAUDE.md 파일을 올바르게 구성하는 방법에 대한 이해도를 점검할 수 있습니다. Python 명령어와 컨벤션을 캡처하는 모범 사례를 복습하는 데 활용할 수 있습니다."
-    },
-    {
       "category": "DataScience",
       "title": "A ranked-choice election in Maine: Using voting data to understand preferences",
       "link": "https://statmodeling.stat.columbia.edu/2026/07/15/a-ranked-choice-election-in-maine-using-voting-data-to-understand-preferences/",
       "summary": "메인 주 상원 선거의 순위 선택 투표 데이터를 분석해 유권자 선호도를 통계적으로 추론하는 방법론을 소개합니다.",
       "detail": "Andrew Gelman의 통계 모델링 블로그에 소개된 Evan Rosenman의 분석입니다. Graham Platner 후보의 캠페인이 돌연 중단되면서 메인 주 민주당이 상원 후보를 급히 교체해야 하는 상황에서, 순위 선택 투표(RCV) 데이터를 분석해 유권자들의 선호 구조를 파악하는 통계 방법론을 제시합니다. 투표 데이터에서 선호도 순서를 추출하고, 이를 통해 대체 후보가 기존 지지층을 어느 정도 흡수할 수 있는지를 통계적으로 추정합니다. 선거 데이터와 베이지안 추론을 결합한 실용적인 응용 통계 사례입니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "How I Mastered Data Structures and Algorithms for ML (In 6 Weeks)",
-      "link": "https://towardsdatascience.com/how-i-mastered-data-structures-algorithms-for-ml-in-6-weeks/",
-      "summary": "ML 분야 코딩 인터뷰를 위해 6주 만에 자료구조와 알고리즘을 집중 학습한 전략과 과정을 공유합니다.",
-      "detail": "Towards Data Science에 게재된 이 글은 ML 엔지니어가 코딩 인터뷰에 대비해 6주 만에 자료구조와 알고리즘을 집중 학습한 경험을 공유합니다. 단순 암기보다 패턴 인식과 반복 풀이를 강조하며, ML 맥락에서 특히 중요한 알고리즘 패턴(슬라이딩 윈도우, 이진 탐색, 그래프 순회 등)을 효율적으로 익히는 방법을 안내합니다. 실전 인터뷰에서 자주 등장하는 핵심 문제 유형 선별 방법과 6주 학습 로드맵을 구체적으로 제시합니다."
     }
   ]
 }
