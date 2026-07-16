@@ -1,7 +1,57 @@
 {
-  "updated": "2026-07-16T06:32:44+09:00",
-  "count": 696,
+  "updated": "2026-07-16T15:37:51+09:00",
+  "count": 694,
   "items": [
+    {
+      "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
+      "link": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Thinky's first full LLM release is a banger and bonus: it's open weights!",
+      "ts": 1784182685,
+      "published": "2026-07-16T06:18:05+00:00",
+      "collected_at": "2026-07-16T15:37:47+09:00"
+    },
+    {
+      "title": "v2.11.0 (2026-07-15)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.11.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features feat: export HistoryProcessor and add actionable hints to usage-limit and tool-retry errors by @DouweM in #6346 🐛 Bug Fixes Fix MistralStreamedResponse streamed number/integer validation to acc…",
+      "ts": 1784168409,
+      "published": "2026-07-16T02:20:09+00:00",
+      "collected_at": "2026-07-16T15:37:47+09:00"
+    },
+    {
+      "title": "Mermaid to Unicode box art (grok-mermaid)",
+      "link": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Merm…",
+      "ts": 1784161998,
+      "published": "2026-07-16T00:33:18+00:00",
+      "collected_at": "2026-07-16T15:37:47+09:00"
+    },
+    {
+      "title": "xai-org/grok-build, now open source",
+      "link": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "xai-org/grok-build, now open source xAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud…",
+      "ts": 1784159970,
+      "published": "2026-07-15T23:59:30+00:00",
+      "collected_at": "2026-07-16T15:37:47+09:00"
+    },
+    {
+      "title": "Agentty – A drop-in alternative to claude-code, written in C++26. 11.0 MB binary",
+      "link": "https://github.com/1ay1/agentty",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/1ay1/agentty Comments URL: https://news.ycombinator.com/item?id=48928002 Points: 30 # Comments: 2",
+      "ts": 1784154624,
+      "published": "2026-07-15T22:30:24+00:00",
+      "collected_at": "2026-07-16T15:37:47+09:00"
+    },
     {
       "title": "Grok Build is open source",
       "link": "https://x.ai/open-source",
@@ -6891,76 +6941,6 @@
       "ts": 1781600400,
       "published": "2026-06-16T09:00:00+00:00",
       "collected_at": null
-    },
-    {
-      "title": "The Fable 5 Export Controls Harm US Cyber Defense",
-      "link": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The Fable 5 Export Controls Harm US Cyber Defense I quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable…",
-      "ts": 1781587229,
-      "published": "2026-06-16T05:20:29+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quoting Matteo Wong, The Atlantic",
-      "link": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not bei…",
-      "ts": 1781579274,
-      "published": "2026-06-16T03:07:54+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Java News Roundup: A2A Java SDK 1.0, Jakarta EE 12, JNoSQL, GraalVM, Micrometer, OpenXava, Gradle",
-      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun08-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for June 8th, 2026, features news highlighting: the GA release of A2A Java SDK 1.0; an update on Jakarta EE 12; point releases of Micrometer Metrics and Micrometer Tracing; maintenance releases…",
-      "ts": 1781577000,
-      "published": "2026-06-16T02:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "[AINews] Satya on Loopcraft: Building Frontier Ecosystems",
-      "link": "https://www.latent.space/p/ainews-satya-on-loopcraft-building",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us report on Satya's hit essay",
-      "ts": 1781576969,
-      "published": "2026-06-16T02:29:29+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Predicting model behavior before release by simulating deployment",
-      "link": "https://openai.com/index/deployment-simulation",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces Deployment Simulation, a method to predict AI model behavior before deployment using real conversation data to improve safety and evaluation accuracy.",
-      "ts": 1781568000,
-      "published": "2026-06-16T00:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Show HN: Claude Code for Visual Studio (native diff with accept/reject)",
-      "link": "https://github.com/firish/claude_code_vs",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "VS Code and JetBrains have official Claude Code IDE integration, but Visual Studio doesn't. There's an open GitHub issue with a lot of +1s so I built it myself (check out the gif in the GitHub repo for a visual example)…",
-      "ts": 1781565356,
-      "published": "2026-06-15T23:15:56+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Ph.D. student opening in Sweden on Earth Observation, Data Science, and AI for poverty estimation",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/15/ph-d-student-opening-in-sweden-on-earth-observation-data-science-and-ai-for-poverty-estimation-the-data-science/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Adel Daoud writes: I’m writing to ask for your help circulating a PhD opening in my group at Chalmers, the AI and Global Development Lab (www.aidevlab.org). The position is in Earth Observation, Data Science, and AI for…",
-      "ts": 1781559442,
-      "published": "2026-06-15T21:37:22+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
     }
   ]
 }
