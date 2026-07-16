@@ -1,7 +1,87 @@
 {
-  "updated": "2026-07-16T22:36:37+09:00",
-  "count": 708,
+  "updated": "2026-07-17T01:57:51+09:00",
+  "count": 712,
   "items": [
+    {
+      "title": "Prepare These 5 Assets Before Your AI Agents Take On More Work",
+      "link": "https://towardsdatascience.com/prepare-these-5-assets-before-your-ai-agents-take-on-more-work/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "How to define recurring work, give AI the right context, explain what high-quality work looks like, and decide where human judgment is still needed. The post Prepare These 5 Assets Before Your AI Agents Take On More Wor…",
+      "ts": 1784219400,
+      "published": "2026-07-16T16:30:00+00:00",
+      "collected_at": "2026-07-17T01:57:46+09:00"
+    },
+    {
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1784217681,
+      "published": "2026-07-16T16:01:21+00:00",
+      "collected_at": "2026-07-17T01:57:46+09:00"
+    },
+    {
+      "title": "Connect more of your apps to Search",
+      "link": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Connected apps rendering",
+      "ts": 1784217600,
+      "published": "2026-07-16T16:00:00+00:00",
+      "collected_at": "2026-07-17T01:57:46+09:00"
+    },
+    {
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "link": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images",
+      "ts": 1784217600,
+      "published": "2026-07-16T16:00:00+00:00",
+      "collected_at": "2026-07-17T01:57:46+09:00"
+    },
+    {
+      "title": "Why teens deserve access to safe AI",
+      "link": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+      "ts": 1784217600,
+      "published": "2026-07-16T16:00:00+00:00",
+      "collected_at": "2026-07-17T01:57:46+09:00"
+    },
+    {
+      "title": "Inkling: Our open-weights model",
+      "link": "https://simonwillison.net/2026/Jul/16/inkling/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Inkling: Our open-weights model Mira Murati's Thinking Machines Lab just released their first open-weights model. Inkling is \"a Mixture-of-Experts transformer with 975B total parameters, 41B active\" - an Apache-2.0 lice…",
+      "ts": 1784216125,
+      "published": "2026-07-16T15:35:25+00:00",
+      "collected_at": "2026-07-17T01:57:46+09:00"
+    },
+    {
+      "title": "Context Engineering for RAG Question Parsing: From a Raw Question to Typed Fields That Steer Retrieval and Generation",
+      "link": "https://towardsdatascience.com/context-engineering-for-rag-question-parsing-from-a-raw-question-to-typed-fields-that-steer-retrieval-and-generation/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #6quater] - Question parsing takes one messy string and writes four typed pieces, each read by a different downstream call The post Context Engineering for RAG Question Parsing: F…",
+      "ts": 1784214000,
+      "published": "2026-07-16T15:00:00+00:00",
+      "collected_at": "2026-07-17T01:57:46+09:00"
+    },
+    {
+      "title": "Working with Pi Coding Agents",
+      "link": "https://www.kdnuggets.com/working-with-pi-coding-agents",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "The most interesting thing about Pi isn't any single feature; it's that the project treats \"what we didn't build\" as documentation worth writing, which is rare enough on its own to take seriously.",
+      "ts": 1784210416,
+      "published": "2026-07-16T14:00:16+00:00",
+      "collected_at": "2026-07-17T01:57:46+09:00"
+    },
     {
       "title": "🔬 The Lab of the Future Should Feel Like a Data Center — Andy Beam & Rafa Gómez-Bombarelli, Lila Sciences",
       "link": "https://www.latent.space/p/the-lab-of-the-future-should-feel",
@@ -211,6 +291,16 @@
       "ts": 1784160000,
       "published": "2026-07-16T00:00:00+00:00",
       "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "How Cars24 scales conversations and builds faster with OpenAI",
+      "link": "https://openai.com/index/cars24",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+      "ts": 1784160000,
+      "published": "2026-07-16T00:00:00+00:00",
+      "collected_at": "2026-07-17T01:57:46+09:00"
     },
     {
       "title": "xai-org/grok-build, now open source",
@@ -7030,56 +7120,6 @@
       "summary": "Changes since cli==0.4.29 release(cli): 0.4.30 ( #8101 ) feat(cli): support compatible api version ranges ( #8023 ) docs: standardize package README.md structure ( #8064 )",
       "ts": 1781639205,
       "published": "2026-06-16T19:46:45+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "datasette-tailscale 0.1a0",
-      "link": "https://simonwillison.net/2026/Jun/16/datasette-tailscale/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette-tailscale 0.1a0 A very experimental alpha plugin which lets you do this: datasette tailscale mydata.db \\ --ts-authkey tskey-auth-xxxx --ts-hostname datasette-preview This starts a localhost Datasette…",
-      "ts": 1781626700,
-      "published": "2026-06-16T16:18:20+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quoting Georgi Gerganov",
-      "link": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for sm…",
-      "ts": 1781625899,
-      "published": "2026-06-16T16:04:59+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Securing the future of AI agents",
-      "link": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "Securing internal systems with an AI Control Roadmap, combining traditional safeguards and real-time monitoring.",
-      "ts": 1781624791,
-      "published": "2026-06-16T15:46:31+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "2026.6.16",
-      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.6.16",
-      "source": "MCP servers",
-      "category": "Agents",
-      "summary": "Release 2026.6.16",
-      "ts": 1781621591,
-      "published": "2026-06-16T14:53:11+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Building Python Skills for the Job Market",
-      "link": "https://realpython.com/courses/building-python-skills-for-the-job-market/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn which Python skills employers value most and how to build them, using a skill roadmap worksheet, weekly practice plan, and interview prep tips.",
-      "ts": 1781618400,
-      "published": "2026-06-16T14:00:00+00:00",
       "collected_at": null
     }
   ]
