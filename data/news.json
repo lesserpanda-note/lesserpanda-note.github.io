@@ -1,7 +1,87 @@
 {
-  "updated": "2026-07-16T15:37:51+09:00",
-  "count": 694,
+  "updated": "2026-07-16T21:10:58+09:00",
+  "count": 703,
   "items": [
+    {
+      "title": "Why Your Betas Explode: The Hidden Geometry of Multicollinearity",
+      "link": "https://towardsdatascience.com/why-your-betas-explode-the-hidden-geometry-of-multicollinearity/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Why your regression coefficients keep changing, and what geometry has to do with it. The post Why Your Betas Explode: The Hidden Geometry of Multicollinearity appeared first on Towards Data Science .",
+      "ts": 1784203200,
+      "published": "2026-07-16T12:00:00+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "Newer Models, Same Advantage",
+      "link": "https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1784202588,
+      "published": "2026-07-16T11:49:48+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "Presentation: The Rust High Performance Talk You Did Not Expect",
+      "link": "https://www.infoq.com/presentations/rust-tps-service/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Ruth Linehan explains how migrating high-performance caching services from Kotlin to Rust shattered internal preconceptions around delivery velocity and engineering overhead. She discusses the ergonomics of the Rust bor…",
+      "ts": 1784197200,
+      "published": "2026-07-16T10:20:00+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "AI Agents with Cloud Credentials Are Outrunning Billing Guardrails Built for Human-Speed Mistakes",
+      "link": "https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "A three-person agency received a $14,000 AWS bill in one day after attackers extracted static access keys and burned Claude invocations on Bedrock. Combined with May's DN42 incident, where an autonomous agent provisione…",
+      "ts": 1784197020,
+      "published": "2026-07-16T10:17:00+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "AI Agents with Cloud Credentials Are Outrunning Billing Guardrails Built for Human-Speed Mistakes",
+      "link": "https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "A three-person agency received a $14,000 AWS bill in one day after attackers extracted static access keys and burned Claude invocations on Bedrock. Combined with May's DN42 incident, where an autonomous agent provisione…",
+      "ts": 1784197020,
+      "published": "2026-07-16T10:17:00+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "Patch release: v5.14.1",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.14.1",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Patch release v5.14.1 This patch solves a few issues which appeared when integrating Inkling model, most notably an issue affecting models using EncoderDecoderCache during assisted generation. It also fixes an issue tha…",
+      "ts": 1784194896,
+      "published": "2026-07-16T09:41:36+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "Our approach to bioresilience",
+      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+      "ts": 1784194242,
+      "published": "2026-07-16T09:30:42+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "Your Loom App Quietly Became a Thread Pool Again: A Field Guide to Virtual Thread Pinning",
+      "link": "https://foojay.io/today/virtual-thread-pinning-field-guide/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "The incident that taught me to respect pinning looked like nothing. A service freshly migrated to virtual threads, a load test that plateaued at about 420 requests per second no matter how much traffic we threw at it, C…",
+      "ts": 1784187796,
+      "published": "2026-07-16T07:43:16+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
+    },
     {
       "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
       "link": "https://www.latent.space/p/ainews-thinkys-inkling-975b-a41b",
@@ -31,6 +111,26 @@
       "ts": 1784161998,
       "published": "2026-07-16T00:33:18+00:00",
       "collected_at": "2026-07-16T15:37:47+09:00"
+    },
+    {
+      "title": "Identifying JDK Value Class Candidates",
+      "link": "https://inside.java/2026/07/16/identify-jdk-value-classes-candidates/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "As long as value classes are a preview feature, they can’t generally be adopted in the JDK libraries (which are not compiled with `--enable-preview`). However, we felt it was important for this JEP to provide users with…",
+      "ts": 1784160000,
+      "published": "2026-07-16T00:00:00+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "Security incident disclosure — July 2026",
+      "link": "https://huggingface.co/blog/security-incident-july-2026",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1784160000,
+      "published": "2026-07-16T00:00:00+00:00",
+      "collected_at": "2026-07-16T21:10:50+09:00"
     },
     {
       "title": "xai-org/grok-build, now open source",
@@ -6930,16 +7030,6 @@
       "summary": "One of the most interesting projects my colleagues have done with LLMs has been building a system with Bayer to allow pharmaceutical researchers to query decades of information about studies buried in PDF reports. Saran…",
       "ts": 1781611860,
       "published": "2026-06-16T12:11:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Want to get a data center online quickly? Give it some flex.",
-      "link": "https://www.technologyreview.com/2026/06/16/1138591/data-center-online-quickly-electric-grid-flex/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "At the end of a tense and scoreless first half of a soccer match between the English men’s team and rival Germany, millions of Brits let out a collective sigh and did what they so often do in moments of stress: They mad…",
-      "ts": 1781600400,
-      "published": "2026-06-16T09:00:00+00:00",
       "collected_at": null
     }
   ]
