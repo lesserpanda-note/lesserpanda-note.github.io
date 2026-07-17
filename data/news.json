@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-17T05:15:32+09:00",
-  "count": 717,
+  "updated": "2026-07-17T09:16:28+09:00",
+  "count": 715,
   "items": [
+    {
+      "title": "Firefox in WebAssembly",
+      "link": "https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Firefox in WebAssembly This is absurdly cool: Puter compiled Firefox to WebAssembly such that the whole browser runs in another browser. Here's my blog, running in Firefox, running in WebAssembly, running in Chrome: The…",
+      "ts": 1784244856,
+      "published": "2026-07-16T23:34:16+00:00",
+      "collected_at": "2026-07-17T09:16:23+09:00"
+    },
+    {
+      "title": "Kimi K3, and what we can still learn from the pelican benchmark",
+      "link": "https://simonwillison.net/2026/Jul/16/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Chinese AI lab Moonshot AI announced Kimi K3 this morning, describing it as their \"most capable model to date, with 2.8 trillion parameters\". It's currently available via their website and API, but an open weight releas…",
+      "ts": 1784233170,
+      "published": "2026-07-16T20:19:30+00:00",
+      "collected_at": "2026-07-17T09:16:23+09:00"
+    },
     {
       "title": "1.15.3",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.3",
@@ -31,6 +51,16 @@
       "ts": 1784228172,
       "published": "2026-07-16T18:56:12+00:00",
       "collected_at": "2026-07-17T05:15:11+09:00"
+    },
+    {
+      "title": "GPT-5.6 Sol vs Claude Fable 5: Benchmarks, Pricing & Hands-On",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/gpt-5-6-sol-vs-claude-fable-5/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "GPT-5.6 Sol and Claude Fable 5 are currently fighting for the frontier-model crown. Fable 5 holds a slight edge in general intelligence, while Sol hits back with stronger coding performance, faster execution and much lo…",
+      "ts": 1784226480,
+      "published": "2026-07-16T18:28:00+00:00",
+      "collected_at": "2026-07-17T09:16:23+09:00"
     },
     {
       "title": "Quoting Thibault Sottiaux",
@@ -121,6 +151,16 @@
       "ts": 1784214000,
       "published": "2026-07-16T15:00:00+00:00",
       "collected_at": "2026-07-17T01:57:46+09:00"
+    },
+    {
+      "title": "Mermaid to ASCII art (mermaid-ascii)",
+      "link": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii th…",
+      "ts": 1784213859,
+      "published": "2026-07-16T14:57:39+00:00",
+      "collected_at": "2026-07-17T09:16:23+09:00"
     },
     {
       "title": "Working with Pi Coding Agents",
@@ -7111,66 +7151,6 @@
       "ts": 1781667369,
       "published": "2026-06-17T03:36:09+00:00",
       "collected_at": null
-    },
-    {
-      "title": "Agentic Resource Discovery: Let agents search",
-      "link": "https://huggingface.co/blog/agentic-resource-discovery-launch",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1781654400,
-      "published": "2026-06-17T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-      "link": "https://www.anthropic.com/news/seoul-office-partnerships-korean-ai-ecosystem",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem",
-      "ts": 1781654400,
-      "published": "2026-06-17T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Introducing LifeSciBench",
-      "link": "https://openai.com/index/introducing-life-sci-bench",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Introducing LifeSciBench, an expert-authored, expert-reviewed benchmark for evaluating how AI systems handle real-world life science research tasks and decisions.",
-      "ts": 1781654400,
-      "published": "2026-06-17T00:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Call for invited session proposals for the upcoming BayesComp conference",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/16/call-for-invited-session-proposals-for-the-upcoming-bayescomp-conference/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Lu Zhang writes: As a member of the BayesComp 2027 conference committee, I would like to share the announcement of the call for invited session proposals for the upcoming BayesComp conference, which will be held in Coll…",
-      "ts": 1781646138,
-      "published": "2026-06-16T21:42:18+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "datasette 1.0a34",
-      "link": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette 1.0a34 Quoting the release notes: The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delet…",
-      "ts": 1781645484,
-      "published": "2026-06-16T21:31:24+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Unlocking UK house-building with AI-accelerated planning",
-      "link": "https://deepmind.google/blog/unlocking-uk-house-building-with-ai-accelerated-planning/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "UK government partners with Google DeepMind to build a new AI-powered prototype aimed at faster housing decisions.",
-      "ts": 1781645390,
-      "published": "2026-06-16T21:29:50+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
     }
   ]
 }
