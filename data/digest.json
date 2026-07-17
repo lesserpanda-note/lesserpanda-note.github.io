@@ -1,62 +1,69 @@
 {
-  "updated": "2026-07-16T01:26:47Z",
-  "summary": "오늘의 AI/기술 다이제스트는 OpenAI의 GPT-Red 자동화 레드팀 시스템 공개와 HuggingFace Transformers 5.14.0의 975B 파라미터 Inkling 모델 추가가 주목됩니다. Claude web_fetch 도구의 프롬프트 인젝션 취약점 발견, Stripe의 AI 에이전트 벤치마크, AWS의 Claude Apps Gateway 출시 등 실용적인 AI 인프라 소식도 풍성합니다.",
+  "updated": "2026-07-17T00:20:04Z",
+  "summary": "오늘은 JDK 24의 JEP 491로 가상 스레드 피닝 문제가 대부분 해소된 소식과 NVIDIA Nemotron 3 Embed가 RTEB 벤치마크 1위를 기록한 것이 주목됩니다. AI 에이전트 운용 리스크 측면에서는 CloudFormation 스택 중복 생성으로 발생한 수천 달러 청구, Uber의 연간 AI 코딩 예산 조기 소진 등 구체적 사례가 경종을 울리며, OpenAI Codex도 내부 함수 과다 호출로 사용자 한도를 빠르게 소진하는 버그가 발생했습니다. 통계 분야에서는 'Bayesian Workflow' 교재가 Efron·Spiegelhalter·Robert 등 거장들의 극찬을 받으며 새로운 표준으로 부상하고 있습니다.",
   "highlights": [
     {
-      "category": "AI",
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "summary": "OpenAI가 자기 대전(self-play) 방식으로 AI 안전성을 높이는 자동화 레드팀 시스템 GPT-Red를 공개했습니다. 프롬프트 인젝션 방어력 강화에 활용됩니다.",
-      "detail": "OpenAI가 자사 모델의 안전성을 강화하기 위한 자동화 레드팀 AI 시스템 'GPT-Red'를 공개했습니다. GPT-Red는 자기 대전(self-play) 방식을 활용해 프롬프트 인젝션, 정렬 실패 등 취약점을 스스로 탐색하고 방어력을 반복적으로 향상시킵니다. 이 시스템은 OpenAI의 최신 플래그십 모델에 적용되어 사이버 공격 및 악의적 프롬프트에 대한 강건성을 높이는 데 사용되었습니다. GPT-Red의 공개는 AI 안전성 연구에서 자동화된 자기 개선 방법론이 점차 중요해지고 있음을 보여줍니다."
+      "category": "Java",
+      "title": "Your Loom App Quietly Became a Thread Pool Again: A Field Guide to Virtual Thread Pinning",
+      "link": "https://foojay.io/today/virtual-thread-pinning-field-guide/",
+      "summary": "JDK 24의 JEP 491로 대부분의 가상 스레드 피닝 문제가 해결되었지만, JNI/FFM 등 남은 케이스를 진단하는 실전 가이드입니다.",
+      "detail": "Java 가상 스레드 피닝(pinning) 문제의 현황과 JDK 24 이후 달라진 점을 실전 관점에서 정리한 가이드입니다. JDK 24에 도입된 JEP 491('Synchronize Virtual Threads without Pinning')은 모니터 소유권을 캐리어 스레드가 아닌 가상 스레드 자체에 연결함으로써, synchronized 블록 내에서도 가상 스레드가 캐리어를 해제할 수 있게 합니다. 따라서 JDK 24 이후 남는 피닝 케이스는 JNI 호출, FFM 다운콜, 클래스 초기화 등 네이티브 프레임에 한정됩니다. 진단 방법도 변경되어 기존 tracePinnedThreads 플래그는 JDK 24에서 제거되었으며, 대신 jdk.VirtualThreadPinned JFR 이벤트(원인을 pinnedReason 필드로 구분)를 사용해야 합니다. JNI 헤비 라이브러리가 남아 있다면 JDK 24 마이그레이션 후에도 스레드 풀처럼 동작할 수 있으므로 반드시 확인이 필요합니다."
     },
     {
       "category": "AI",
-      "title": "Release v5.14.0",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.14.0",
-      "summary": "HuggingFace Transformers 5.14.0이 출시되어 Thinking Machines의 975B 파라미터 멀티모달 모델 Inkling이 추가되었습니다.",
-      "detail": "HuggingFace Transformers 라이브러리 버전 5.14.0이 릴리스되었습니다. 이번 업데이트의 핵심은 Thinking Machines가 개발한 Inkling 모델 지원 추가입니다. Inkling은 총 975B개의 파라미터를 보유하면서 실제 활성화 파라미터는 41B에 불과한 Mixture-of-Experts(MoE) 아키텍처 기반의 범용 멀티모달 모델입니다. 텍스트와 이미지를 함께 처리할 수 있으며, 희소 활성화(sparse activation) 방식 덕분에 거대한 규모에도 불구하고 효율적인 추론이 가능합니다."
+      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
+      "summary": "NVIDIA Nemotron-3-Embed-8B가 RTEB 다국어 리더보드 1위(78.5%)를 달성했으며, 오픈 웨이트로 공개되어 RAG 및 에이전트 검색에 바로 활용 가능합니다.",
+      "detail": "NVIDIA가 Hugging Face를 통해 Nemotron-3-Embed 모델 패밀리를 공개했습니다. 플래그십 모델 Nemotron-3-Embed-8B-BF16은 RTEB(Retrieval Text Embedding Benchmark) 다국어 리더보드에서 78.5%를 기록하며 2026년 7월 15일 기준 1위를 차지했으며, MMTEB Retrieval 점수는 75.5%입니다. 소형 모델인 1B 변종(Nemotron-3-Embed-1B-BF16)도 RTEB에서 72.4%로 준수한 성능을 보입니다. 두 모델 모두 32k 컨텍스트 윈도우를 지원해 긴 문서, 대규모 코드 컨텍스트, 멀티턴 에이전트 히스토리 처리에 적합합니다. NVIDIA는 오픈 웨이트와 함께 학습 데이터셋 및 학습 레시피도 공개하여 기업 RAG 구축과 에이전트 검색 파이프라인에 즉시 적용할 수 있도록 했습니다."
+    },
+    {
+      "category": "AI",
+      "title": "Our approach to bioresilience",
+      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
+      "summary": "Google DeepMind와 Isomorphic Labs가 생물학적 위협 대응을 위한 AI 바이오보안 프레임워크를 3대 축(예방·탐지·대응)으로 공개했습니다.",
+      "detail": "Google DeepMind와 Isomorphic Labs가 공동으로 'bioresilience' 접근 방식을 발표했습니다. 프레임워크는 세 축으로 구성됩니다. 예방(Prevent): DNA 합성 출력물에 SynthID 워터마킹 적용, Gemini 모델에 위험 바이오합성 요청 거부 안전 프로토콜 내장. 탐지(Detect): AlphaEvolve를 활용한 병원체 감시 및 유전체 분석. 대응(Respond): Isomorphic의 IsoDDE 엔진을 이용한 신속 백신·의약품 설계. 지난 12개월간 DeepMind는 정부 기관, 바이오보안 단체, 연구 그룹과 15개 이상의 파트너십을 체결해 이 역량을 실용화하고 있습니다. 생성 AI의 생물학적 위협 악용 가능성에 대한 투명한 대응 전략을 공개한 점에서 AI 안전성 논의에 중요한 기여입니다."
     },
     {
       "category": "Agents",
-      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
-      "link": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-      "summary": "보안 연구자가 Claude의 web_fetch 도구에서 프롬프트 인젝션을 통해 민감한 데이터를 유출할 수 있는 취약점을 발견했습니다.",
-      "detail": "보안 연구자 Simon Willison은 Claude의 web_fetch 도구 설계에서 데이터 유출 공격이 가능한 취약점을 발견했습니다. Ayush Paul이 찾아낸 이 취약점은 악의적인 웹페이지가 프롬프트 인젝션을 통해 Claude로 하여금 사용자의 민감한 정보나 대화 내용을 외부로 유출하도록 유도할 수 있음을 보여줍니다. Claude는 기본적으로 데이터 유출 방어 설계를 갖추고 있으나, 이번 연구는 그 방어 체계에 허점이 존재함을 시사합니다. AI 에이전트가 웹 탐색 기능을 갖출 때 프롬프트 인젝션 보안이 얼마나 중요한지를 다시 한번 상기시켜 주는 중요한 사례입니다."
+      "title": "Quoting Thibault Sottiaux",
+      "link": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+      "summary": "OpenAI Codex에서 내부 함수가 의도보다 높은 빈도로 실행되어 사용자 주간 한도가 빠르게 소진되는 버그가 발생했으며, OpenAI는 모든 사용자의 한도를 초기화하고 추가 보상을 제공했습니다.",
+      "detail": "Simon Willison이 OpenAI Codex에서 발생한 심각한 사용량 소진 버그를 보도했습니다. 자동 리뷰 기능과 서브 에이전트 등 내부 함수가 의도한 것보다 높은 빈도로 실행되어 사용자의 주간 사용 한도가 정상보다 훨씬 빠르게 소진되는 현상이 발생했습니다. 일부 사용자는 사용량 대시보드에서 부정확한 활동 수치를 확인했으나, 실제 추가 과금은 발생하지 않았습니다. OpenAI는 워 룸(war room)을 구성해 즉시 조사·수정에 착수했으며, 모든 Codex 사용자의 한도를 초기화하고 추가 보상 리셋을 제공했습니다. 7월 12일 GPT-5.6 Sol 출시 이후 두 차례 이미 한도 리셋이 있었음에도 버그가 재발한 점에서, AI 에이전트 내부 작업의 토큰 사용량 관리와 투명성이 더욱 중요해지고 있음을 보여줍니다."
     },
     {
       "category": "Agents",
-      "title": "Building Trustworthy Production RAG Systems Through Continuous Evaluation",
-      "link": "https://towardsdatascience.com/building-trustworthy-production-rag-systems-through-continuous-evaluation/",
-      "summary": "프로덕션 RAG 시스템의 신뢰성을 높이기 위한 지속적 평가 워크플로우 구축 방법을 실용적으로 안내합니다.",
-      "detail": "본 문서는 실제 서비스 환경에서 RAG(검색 증강 생성) 시스템을 신뢰할 수 있게 운영하기 위한 지속적 평가 체계 구축 방법을 다룹니다. 검색 실패, 환각(hallucination), 성능 드리프트가 사용자에게 도달하기 전에 탐지하는 평가 워크플로우 설계를 실용적으로 안내합니다. 리트리벌 품질 지표, 응답 정확성 평가, 성능 드리프트 모니터링 등 프로덕션 수준의 RAG 품질 보증에 필요한 핵심 요소들을 체계적으로 설명하며, 지속적 평가 문화가 RAG 시스템의 장기적 신뢰성 확보에 얼마나 중요한지를 강조합니다."
+      "title": "v2.11.0 (2026-07-15)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.11.0",
+      "summary": "Pydantic AI v2.11.0이 출시되어 HistoryProcessor 공개 내보내기, 사용량 한도 및 도구 재시도 오류에 대한 액션 가능한 힌트, Mistral·Anthropic·Bedrock 버그 수정이 포함되었습니다.",
+      "detail": "Pydantic AI 에이전트 프레임워크의 v2.11.0이 릴리스되었습니다. 주요 기능으로 HistoryProcessor 클래스가 공식 공개 API로 내보내져 외부에서 직접 임포트 가능해졌으며, 사용량 한도(usage-limit) 초과 및 도구 재시도(tool-retry) 실패 시 개발자가 즉시 조치할 수 있는 구체적인 힌트 메시지가 추가되었습니다. 버그 수정으로는 Mistral 스트리밍 응답에서 정수 검증 오류 수정(불리언은 거부, 정수는 허용), Anthropic의 native structured output 모드에서 출력 스키마 변환 오류, Bedrock의 네이티브 구조화 출력 모드에서 미변환 스키마가 API로 전송되는 버그가 수정되었습니다. 기여자는 DouweM, dsfaccini입니다."
     },
     {
       "category": "Architecture",
-      "title": "Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation",
-      "link": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Stripe가 AI 에이전트의 실제 결제 통합 구현 능력을 측정하는 벤치마크를 공개했습니다. 에이전트는 코딩은 잘하나 유효성 검증에서 어려움을 겪는 것으로 나타났습니다.",
-      "detail": "Stripe는 AI 에이전트가 실제 결제 통합을 구현할 수 있는지 평가하는 벤치마크 스위트를 발표했습니다. 이 연구는 백엔드, 프론트엔드, 브라우저 기반 체크아웃 워크플로우를 아우르는 엔드투엔드 소프트웨어 엔지니어링 능력을 측정합니다. 결과에 따르면 AI 에이전트는 통합 코드 작성에서는 상당한 능력을 보였으나, 유효성 검증(validation)과 엣지 케이스 처리 단계에서 현저한 어려움을 보였습니다. 이 벤치마크는 AI 에이전트의 실용적 능력과 한계를 현실적으로 측정하는 표준 척도가 될 것으로 기대됩니다."
+      "title": "The Archaeologist's Copilot",
+      "link": "https://martinfowler.com/articles/archaeologist-copilot.html",
+      "summary": "AI에 '고고학자' 페르소나를 부여해 레거시 코드베이스를 효과적으로 분석하는 기법을 소개하며, Thoughtworks 레이더에서 AI 보조 레거시 이해가 유일한 'Adopt' 등급을 받았습니다.",
+      "detail": "Martin Fowler 블로그에 발표된 2026년 7월 16일자 아티클로, AI를 레거시·브라운필드 코드베이스에 활용하는 새로운 관점을 제시합니다. 핵심 아이디어는 AI를 관광객이 아닌 고고학자로 활용하는 것으로, '이 코드가 왜 실패하는가?'를 탐구하는 접근법입니다. 구체적 기법은 컨텍스트 초기화 시 'Senior Legacy Systems Architect' 페르소나를 AI에 부여하고 README 요약 대신 'Forensic Code Audit'을 요청하는 것입니다(오래된 프로젝트의 README는 부정확한 경우가 많기 때문). 환경 설정 단계에서는 'Senior DevOps Engineer' 페르소나로 전환하고 현대화 크리프(modernization creep) 금지 제약을 명시합니다. Gradle 8과 최신 JDK에서 깨지는 2008년대 코드를 사례로 들며, Thoughtworks 레이더에서 AI 보조 레거시 코드 이해가 'Adopt' 등급을 받은 유일한 AI 실무임을 강조합니다."
     },
     {
       "category": "Architecture",
-      "title": "AWS Ships Claude Apps Gateway as Self-Hosted Control Plane for Claude Code and Claude Desktop",
-      "link": "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "AWS와 Anthropic이 Claude Code 및 Claude Desktop을 기업 환경에서 중앙집중식으로 관리하는 셀프 호스팅 컨트롤 플레인 'Claude Apps Gateway'를 출시했습니다.",
-      "detail": "AWS와 Anthropic이 공동으로 'Claude Apps Gateway for AWS'를 출시했습니다. 이는 기업이 Claude Code와 Claude Desktop을 조직 내에서 중앙집중식으로 관리할 수 있도록 설계된 셀프 호스팅 컨트롤 플레인입니다. 게이트웨이는 신원 관리(identity), 정책 적용(policy), 텔레메트리 수집, 요청 라우팅, 지출 한도 관리 등 엔터프라이즈 환경에서 필수적인 기능들을 통합 제공합니다. 온프레미스 또는 자체 AWS 환경에서 실행되어 데이터 주권과 보안 요구사항을 충족하면서도 Claude의 AI 코딩 기능을 조직 전체에 안전하게 배포할 수 있게 합니다."
-    },
-    {
-      "category": "Python",
-      "title": "How to Write a CLAUDE.md File for Claude Code",
-      "link": "https://realpython.com/python-claude-md/",
-      "summary": "Real Python이 Claude Code를 위한 CLAUDE.md 파일 작성 방법을 단계별로 안내하는 종합 튜토리얼을 게시했습니다.",
-      "detail": "Real Python에서 Claude Code 사용자를 위한 CLAUDE.md 파일 작성 가이드를 발행했습니다. CLAUDE.md는 Claude Code에게 프로젝트의 컨벤션, 명령어, 개발 환경 설정을 알려주는 마크다운 파일입니다. 글로벌 설정(~/.claude/CLAUDE.md), 프로젝트 수준 설정, 로컬 오버라이드의 세 가지 레이어를 활용하는 방법을 설명하며, Python 프로젝트에 적합한 린터 설정, 테스트 명령어, 코딩 스타일 컨벤션 등을 CLAUDE.md에 포함하는 실용적인 예시를 제공합니다. AI 코딩 어시스턴트를 팀 워크플로우에 효과적으로 통합하는 데 유용한 가이드입니다."
+      "title": "AI Agents with Cloud Credentials Are Outrunning Billing Guardrails Built for Human-Speed Mistakes",
+      "link": "https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "AI 에이전트가 사람보다 50배 이상 빠른 속도로 토큰을 소비하면서 기존 청구 가드레일을 무력화하는 실제 사고 사례와 대응 방안을 정리했습니다.",
+      "detail": "AI 에이전트가 클라우드 비용 폭주를 일으키는 실제 사례들이 속속 보고되고 있습니다. CloudFormation 스택을 오류마다 중복 생성한 에이전트로 인해 6,531달러가 청구되고, 사용 한도 설정 누락으로 5억 달러(Claude API)가 청구된 사례, Uber가 2026년 AI 코딩 예산을 4월에 모두 소진한 사례 등이 인용됩니다. 핵심 기술 원인: 에이전트는 각 추론 단계마다 이전 대화 전체를 다시 전송하므로 20단계 시점이면 호출당 8,000토큰 이상을 소비해 단순 챗봇 대비 약 50배의 토큰이 필요합니다. 모델 API 지출은 2024년 말~2025년 중반 사이 35억 달러에서 84억 달러로 2배 이상 증가했습니다. 대응책으로 하드 한도(한도 초과 시 에이전트 정지), 소프트 한도(경고·모델 다운그레이드·컨텍스트 축소)의 두 가지 가드레일 유형과 Coinbase Agentic Wallets 등 세션·트랜잭션 단위 지출 한도를 지원하는 결제 플랫폼이 소개됩니다."
     },
     {
       "category": "DataScience",
-      "title": "A ranked-choice election in Maine: Using voting data to understand preferences",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/15/a-ranked-choice-election-in-maine-using-voting-data-to-understand-preferences/",
-      "summary": "메인 주 상원 선거의 순위 선택 투표 데이터를 분석해 유권자 선호도를 통계적으로 추론하는 방법론을 소개합니다.",
-      "detail": "Andrew Gelman의 통계 모델링 블로그에 소개된 Evan Rosenman의 분석입니다. Graham Platner 후보의 캠페인이 돌연 중단되면서 메인 주 민주당이 상원 후보를 급히 교체해야 하는 상황에서, 순위 선택 투표(RCV) 데이터를 분석해 유권자들의 선호 구조를 파악하는 통계 방법론을 제시합니다. 투표 데이터에서 선호도 순서를 추출하고, 이를 통해 대체 후보가 기존 지지층을 어느 정도 흡수할 수 있는지를 통계적으로 추정합니다. 선거 데이터와 베이지안 추론을 결합한 실용적인 응용 통계 사례입니다."
+      "title": "Reviews of our Bayesian Workflow book from Bin Yu, David Spiegelhalter, Brad Efron, Christian Robert, and more",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/16/reviews-of-our-bayesian-workflow-book-from-bin-yu-david-spiegelhalter-brad-efron-christian-robert-and-more/",
+      "summary": "Andrew Gelman 등이 공저한 'Bayesian Workflow'(2026, CRC Press)가 Efron·Spiegelhalter·Robert 등 통계학계 거장들의 극찬을 받으며 새로운 표준 교재로 자리매김하고 있습니다.",
+      "detail": "Andrew Gelman, Aki Vehtari, Richard McElreath, Daniel Simpson 외 공저의 'Bayesian Workflow'(2026, CRC Press, ISBN 9780367490140)에 대한 저명 통계학자들의 서평이 공개되었습니다. David Spiegelhalter(케임브리지)는 '모델 적합·비판·수정의 전 과정을 안내하는, 전형적인 방법론 교재가 아닌 책'이라며 '데이터로부터 무엇을 배울 수 있는지 진정으로 이해하길 원하는 통계학자에게 강력 추천'했습니다. Brad Efron(스탠퍼드)은 '데이터 수집부터 최종 보고서까지 실용적인 베이지안 분석 워크플로우를 상세히 개발한 브라부라 성과'로 평가했습니다. Christian Robert(파리)는 '독창적이고 사고를 자극하는 변혁적인 책으로, BDA의 단순한 구현 매뉴얼을 훨씬 뛰어넘는다'고 했습니다. 2026 'Bayesian Workflow' 교재는 BDA가 1990년대 베이지안 통계에서 차지한 것과 유사한 위치를 2020년대에 자리매김할 것으로 전망됩니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "Why Your Betas Explode: The Hidden Geometry of Multicollinearity",
+      "link": "https://towardsdatascience.com/why-your-betas-explode-the-hidden-geometry-of-multicollinearity/",
+      "summary": "회귀 계수가 다중공선성 아래서 폭발적으로 커지는 기하학적 원인과 VIF 진단, 릿지 회귀 등 실용적 해결책을 시각적으로 설명합니다.",
+      "detail": "다중공선성(multicollinearity)이 왜 OLS 회귀 계수를 수치적으로 불안정하게 만드는지를 기하학적 관점에서 설명하는 아티클입니다. 예측 변수 벡터들이 거의 선형 종속(collinear)일 때 설계 행렬의 열 공간이 거의 퇴화(near-degenerate)되어, OLS 해법이 서로 반대 부호인 대규모 계수(예: +17과 -14)를 요구하게 됩니다. 이로 인해 훈련 데이터의 아주 작은 변화에도 계수 추정값이 극단적으로 달라져 일반화 성능이 크게 저하됩니다. VIF(Variance Inflation Factor)를 이용한 공선성 탐지와 함께, 릿지 회귀(Ridge Regression)를 통한 L2 정규화, PCA 기반 차원 축소, 중복 예측 변수 제거 등 실용적인 해결책을 다룹니다. 특성 엔지니어링 단계에서 다중공선성을 다루는 데이터 과학자에게 필수적인 이론적 기초 지식입니다."
     }
   ]
 }

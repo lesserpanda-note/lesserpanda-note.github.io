@@ -1,6 +1,68 @@
 {
   "digests": [
     {
+      "date": "2026-07-16",
+      "summary": "오늘의 AI/기술 다이제스트는 OpenAI의 GPT-Red 자동화 레드팀 시스템 공개와 HuggingFace Transformers 5.14.0의 975B 파라미터 Inkling 모델 추가가 주목됩니다. Claude web_fetch 도구의 프롬프트 인젝션 취약점 발견, Stripe의 AI 에이전트 벤치마크, AWS의 Claude Apps Gateway 출시 등 실용적인 AI 인프라 소식도 풍성합니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+          "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+          "summary": "OpenAI가 자기 대전(self-play) 방식으로 AI 안전성을 높이는 자동화 레드팀 시스템 GPT-Red를 공개했습니다. 프롬프트 인젝션 방어력 강화에 활용됩니다.",
+          "detail": "OpenAI가 자사 모델의 안전성을 강화하기 위한 자동화 레드팀 AI 시스템 'GPT-Red'를 공개했습니다. GPT-Red는 자기 대전(self-play) 방식을 활용해 프롬프트 인젝션, 정렬 실패 등 취약점을 스스로 탐색하고 방어력을 반복적으로 향상시킵니다. 이 시스템은 OpenAI의 최신 플래그십 모델에 적용되어 사이버 공격 및 악의적 프롬프트에 대한 강건성을 높이는 데 사용되었습니다. GPT-Red의 공개는 AI 안전성 연구에서 자동화된 자기 개선 방법론이 점차 중요해지고 있음을 보여줍니다."
+        },
+        {
+          "category": "AI",
+          "title": "Release v5.14.0",
+          "link": "https://github.com/huggingface/transformers/releases/tag/v5.14.0",
+          "summary": "HuggingFace Transformers 5.14.0이 출시되어 Thinking Machines의 975B 파라미터 멀티모달 모델 Inkling이 추가되었습니다.",
+          "detail": "HuggingFace Transformers 라이브러리 버전 5.14.0이 릴리스되었습니다. 이번 업데이트의 핵심은 Thinking Machines가 개발한 Inkling 모델 지원 추가입니다. Inkling은 총 975B개의 파라미터를 보유하면서 실제 활성화 파라미터는 41B에 불과한 Mixture-of-Experts(MoE) 아키텍처 기반의 범용 멀티모달 모델입니다. 텍스트와 이미지를 함께 처리할 수 있으며, 희소 활성화(sparse activation) 방식 덕분에 거대한 규모에도 불구하고 효율적인 추론이 가능합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+          "link": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+          "summary": "보안 연구자가 Claude의 web_fetch 도구에서 프롬프트 인젝션을 통해 민감한 데이터를 유출할 수 있는 취약점을 발견했습니다.",
+          "detail": "보안 연구자 Simon Willison은 Claude의 web_fetch 도구 설계에서 데이터 유출 공격이 가능한 취약점을 발견했습니다. Ayush Paul이 찾아낸 이 취약점은 악의적인 웹페이지가 프롬프트 인젝션을 통해 Claude로 하여금 사용자의 민감한 정보나 대화 내용을 외부로 유출하도록 유도할 수 있음을 보여줍니다. Claude는 기본적으로 데이터 유출 방어 설계를 갖추고 있으나, 이번 연구는 그 방어 체계에 허점이 존재함을 시사합니다. AI 에이전트가 웹 탐색 기능을 갖출 때 프롬프트 인젝션 보안이 얼마나 중요한지를 다시 한번 상기시켜 주는 중요한 사례입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Building Trustworthy Production RAG Systems Through Continuous Evaluation",
+          "link": "https://towardsdatascience.com/building-trustworthy-production-rag-systems-through-continuous-evaluation/",
+          "summary": "프로덕션 RAG 시스템의 신뢰성을 높이기 위한 지속적 평가 워크플로우 구축 방법을 실용적으로 안내합니다.",
+          "detail": "본 문서는 실제 서비스 환경에서 RAG(검색 증강 생성) 시스템을 신뢰할 수 있게 운영하기 위한 지속적 평가 체계 구축 방법을 다룹니다. 검색 실패, 환각(hallucination), 성능 드리프트가 사용자에게 도달하기 전에 탐지하는 평가 워크플로우 설계를 실용적으로 안내합니다. 리트리벌 품질 지표, 응답 정확성 평가, 성능 드리프트 모니터링 등 프로덕션 수준의 RAG 품질 보증에 필요한 핵심 요소들을 체계적으로 설명하며, 지속적 평가 문화가 RAG 시스템의 장기적 신뢰성 확보에 얼마나 중요한지를 강조합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation",
+          "link": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Stripe가 AI 에이전트의 실제 결제 통합 구현 능력을 측정하는 벤치마크를 공개했습니다. 에이전트는 코딩은 잘하나 유효성 검증에서 어려움을 겪는 것으로 나타났습니다.",
+          "detail": "Stripe는 AI 에이전트가 실제 결제 통합을 구현할 수 있는지 평가하는 벤치마크 스위트를 발표했습니다. 이 연구는 백엔드, 프론트엔드, 브라우저 기반 체크아웃 워크플로우를 아우르는 엔드투엔드 소프트웨어 엔지니어링 능력을 측정합니다. 결과에 따르면 AI 에이전트는 통합 코드 작성에서는 상당한 능력을 보였으나, 유효성 검증(validation)과 엣지 케이스 처리 단계에서 현저한 어려움을 보였습니다. 이 벤치마크는 AI 에이전트의 실용적 능력과 한계를 현실적으로 측정하는 표준 척도가 될 것으로 기대됩니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "AWS Ships Claude Apps Gateway as Self-Hosted Control Plane for Claude Code and Claude Desktop",
+          "link": "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "AWS와 Anthropic이 Claude Code 및 Claude Desktop을 기업 환경에서 중앙집중식으로 관리하는 셀프 호스팅 컨트롤 플레인 'Claude Apps Gateway'를 출시했습니다.",
+          "detail": "AWS와 Anthropic이 공동으로 'Claude Apps Gateway for AWS'를 출시했습니다. 이는 기업이 Claude Code와 Claude Desktop을 조직 내에서 중앙집중식으로 관리할 수 있도록 설계된 셀프 호스팅 컨트롤 플레인입니다. 게이트웨이는 신원 관리(identity), 정책 적용(policy), 텔레메트리 수집, 요청 라우팅, 지출 한도 관리 등 엔터프라이즈 환경에서 필수적인 기능들을 통합 제공합니다. 온프레미스 또는 자체 AWS 환경에서 실행되어 데이터 주권과 보안 요구사항을 충족하면서도 Claude의 AI 코딩 기능을 조직 전체에 안전하게 배포할 수 있게 합니다."
+        },
+        {
+          "category": "Python",
+          "title": "How to Write a CLAUDE.md File for Claude Code",
+          "link": "https://realpython.com/python-claude-md/",
+          "summary": "Real Python이 Claude Code를 위한 CLAUDE.md 파일 작성 방법을 단계별로 안내하는 종합 튜토리얼을 게시했습니다.",
+          "detail": "Real Python에서 Claude Code 사용자를 위한 CLAUDE.md 파일 작성 가이드를 발행했습니다. CLAUDE.md는 Claude Code에게 프로젝트의 컨벤션, 명령어, 개발 환경 설정을 알려주는 마크다운 파일입니다. 글로벌 설정(~/.claude/CLAUDE.md), 프로젝트 수준 설정, 로컬 오버라이드의 세 가지 레이어를 활용하는 방법을 설명하며, Python 프로젝트에 적합한 린터 설정, 테스트 명령어, 코딩 스타일 컨벤션 등을 CLAUDE.md에 포함하는 실용적인 예시를 제공합니다. AI 코딩 어시스턴트를 팀 워크플로우에 효과적으로 통합하는 데 유용한 가이드입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "A ranked-choice election in Maine: Using voting data to understand preferences",
+          "link": "https://statmodeling.stat.columbia.edu/2026/07/15/a-ranked-choice-election-in-maine-using-voting-data-to-understand-preferences/",
+          "summary": "메인 주 상원 선거의 순위 선택 투표 데이터를 분석해 유권자 선호도를 통계적으로 추론하는 방법론을 소개합니다.",
+          "detail": "Andrew Gelman의 통계 모델링 블로그에 소개된 Evan Rosenman의 분석입니다. Graham Platner 후보의 캠페인이 돌연 중단되면서 메인 주 민주당이 상원 후보를 급히 교체해야 하는 상황에서, 순위 선택 투표(RCV) 데이터를 분석해 유권자들의 선호 구조를 파악하는 통계 방법론을 제시합니다. 투표 데이터에서 선호도 순서를 추출하고, 이를 통해 대체 후보가 기존 지지층을 어느 정도 흡수할 수 있는지를 통계적으로 추정합니다. 선거 데이터와 베이지안 추론을 결합한 실용적인 응용 통계 사례입니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-15",
       "summary": "오늘은 AI 에이전트 표준화(ARD 스펙), 로컬 LLM 실측 비용, Martin Fowler의 LLM+DSL 아키텍처 분석 등 실무 지향적 콘텐츠가 두드러집니다. Java 생태계에서는 BoxLang 1.15.0의 대규모 문자열 성능 개선이 눈에 띄며, AI 코딩 도구 경쟁에서는 OpenAI Codex의 폭발적 성장이 화두입니다.",
       "highlights": [
