@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-18T00:01:36+09:00",
-  "count": 728,
+  "updated": "2026-07-18T04:51:53+09:00",
+  "count": 727,
   "items": [
+    {
+      "title": "How We Beat HotSpot Performance (By Cheating, But Not Like That)",
+      "link": "https://foojay.io/today/how-we-beat-hotspot-performance-by-cheating-but-not-like-that/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "ParparVM went from 4.21x slower than warmed Java 25 to geomean parity, with six of ten benchmarks at or below HotSpot and peak memory below the JVM's. The architecture behind it: frameless C codegen, a BiBOP page heap,…",
+      "ts": 1784309057,
+      "published": "2026-07-17T17:24:17+00:00",
+      "collected_at": "2026-07-18T04:51:50+09:00"
+    },
+    {
+      "title": "How to Work Effectively with GPT-5.6",
+      "link": "https://towardsdatascience.com/how-to-work-effectively-with-gpt-5-6/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Maximize the latest OpenAI model The post How to Work Effectively with GPT-5.6 appeared first on Towards Data Science .",
+      "ts": 1784305800,
+      "published": "2026-07-17T16:30:00+00:00",
+      "collected_at": "2026-07-18T04:51:50+09:00"
+    },
+    {
+      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+      "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1784303874,
+      "published": "2026-07-17T15:57:54+00:00",
+      "collected_at": "2026-07-18T04:51:50+09:00"
+    },
     {
       "title": "Using Classical ML to Empower AI Agents",
       "link": "https://towardsdatascience.com/using-classical-ml-to-empower-ai-agents/",
@@ -81,6 +111,16 @@
       "ts": 1784294220,
       "published": "2026-07-17T13:17:00+00:00",
       "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "LLM cliché highlighter",
+      "link": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: LLM cliché highlighter I got frustrated reading yet another article that was crammed with the clichés of LLM-generated writing - \"no fluff, no filler, no jargon\" type stuff - so I had Fable 5 vibe code up this app…",
+      "ts": 1784290271,
+      "published": "2026-07-17T12:11:11+00:00",
+      "collected_at": "2026-07-18T04:51:50+09:00"
     },
     {
       "title": "Agentic AI Security: Defending Against Prompt Injection and Tool Misuse",
@@ -7231,56 +7271,6 @@
       "ts": 1781730007,
       "published": "2026-06-17T21:00:07+00:00",
       "collected_at": null
-    },
-    {
-      "title": "The hacker sent by Anthropic to calm the government's nerves about AI safety",
-      "link": "https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas-carlini-20bceaa3",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Readable: https://www.wsj.com/tech/ai/anthropic-mythos-safety-nicholas... Comments URL: https://news.ycombinator.com/item?id=48575451 Points: 95 # Comments: 117",
-      "ts": 1781724122,
-      "published": "2026-06-17T19:22:02+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "🔬 The Self-Driving Lab — Joseph Krause, Radical AI",
-      "link": "https://www.latent.space/p/radical-ai",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Radical AI's Joseph Krause on why the moat in materials is the lab, not the model",
-      "ts": 1781719086,
-      "published": "2026-06-17T17:58:06+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quoting Charity Majors",
-      "link": "https://simonwillison.net/2026/Jun/17/charity-majors/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "What happened in 2025 was this: the economics of code production were turned upside down . Instead of being very hard, time-consuming, and expensive to generate code, it became effectively free and instant. Lines of cod…",
-      "ts": 1781716361,
-      "published": "2026-06-17T17:12:41+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Pentagon says Grok has been used to launch missiles at Iran",
-      "link": "https://thehill.com/policy/technology/5928204-pentagon-musk-grok-chatbot-iran-strikes/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://thehill.com/policy/technology/5928204-pentagon-musk-grok-chatbot-iran-strikes/ Comments URL: https://news.ycombinator.com/item?id=48573298 Points: 23 # Comments: 8",
-      "ts": 1781715943,
-      "published": "2026-06-17T17:05:43+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Anthropic employees accuse Trump administration of targeting them",
-      "link": "https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html Comments URL: https://news.ycombinator.com/item?id=48571660 Points: 188 # Comments: 205",
-      "ts": 1781709334,
-      "published": "2026-06-17T15:15:34+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
     }
   ]
 }
