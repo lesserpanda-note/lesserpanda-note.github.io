@@ -1,7 +1,157 @@
 {
-  "updated": "2026-07-17T18:19:34+09:00",
-  "count": 718,
+  "updated": "2026-07-18T00:01:36+09:00",
+  "count": 728,
   "items": [
+    {
+      "title": "Using Classical ML to Empower AI Agents",
+      "link": "https://towardsdatascience.com/using-classical-ml-to-empower-ai-agents/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "On the value of building on existing foundations The post Using Classical ML to Empower AI Agents appeared first on Towards Data Science .",
+      "ts": 1784300400,
+      "published": "2026-07-17T15:00:00+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "1.15.4",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.4",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Promote Skills Repository out of experimental status Documentation Add Flows in Studio documentation Contributors @jessemiller , @joaomdmoura , @vinibrsl",
+      "ts": 1784298810,
+      "published": "2026-07-17T14:33:30+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Git Worktrees for AI Development",
+      "link": "https://www.kdnuggets.com/git-worktrees-for-ai-development",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "A Git worktree is a separate directory checked out from the same repository. You can have as many as you need, each on its own branch, all coexisting simultaneously on your filesystem.",
+      "ts": 1784296833,
+      "published": "2026-07-17T14:00:33+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Quoting Kimi K3",
+      "link": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Is there something I can actually help you with today? — Kimi K3 , after refusing to leak its system prompt Tags: kimi , ai-personality , generative-ai , ai , llms",
+      "ts": 1784295833,
+      "published": "2026-07-17T13:43:53+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Context Engineering Isn’t Enough — A Loop Engineering Experiment With No LLM Inside the Loop",
+      "link": "https://towardsdatascience.com/context-engineering-isnt-enough-a-loop-engineering-experiment-with-no-llm-inside-the-loop/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Everyone is talking about loop engineering, but most discussions assume an LLM sits at the center of the loop. I wanted to isolate the architecture itself. So I built a deterministic, zero-dependency Python benchmark th…",
+      "ts": 1784295000,
+      "published": "2026-07-17T13:30:00+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Kotlin Turns 15: Celebrate the Kotlin Effect",
+      "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-turns-15-celebrate-the-kotlin-effect/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "🎉 Kotlin turns 15! 🎉 For 15 years, you’ve helped shape Kotlin into the language it is today. Whether you’ve built apps, contributed to the ecosystem, taught others, or simply chosen Kotlin for your next project – thank…",
+      "ts": 1784294980,
+      "published": "2026-07-17T13:29:40+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Herman Chernoff",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/17/herman-chernoff/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I recently learned from a blog comment that Herman Chernoff passed away last week at the age of 103. He was born the same year as my dad. I first met Chernoff–it’s not like he was a particularly formal guy, … Continue r…",
+      "ts": 1784294802,
+      "published": "2026-07-17T13:26:42+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Presentation: From OTEL to SLMs: Distilling Frontier Model Behaviour from Production Telemetry",
+      "link": "https://www.infoq.com/presentations/otel-slm-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Ben O'Mahony discusses building custom AI-powered Language Server Protocols (LSPs) that go beyond standard rule-based checkers. He explains how to instrument AI agents natively with OpenTelemetry to track concrete user…",
+      "ts": 1784294220,
+      "published": "2026-07-17T13:17:00+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Agentic AI Security: Defending Against Prompt Injection and Tool Misuse",
+      "link": "https://machinelearningmastery.com/agentic-ai-security-defending-against-prompt-injection-and-tool-misuse/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn what prompt injection and tool misuse are in the context of agentic AI systems, and which defense strategies experts...",
+      "ts": 1784289632,
+      "published": "2026-07-17T12:00:32+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "5 FREE Resources on Agentic AI",
+      "link": "https://www.kdnuggets.com/5-free-resources-on-agentic-ai",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Here are 5 curated resources to help you progress your agentic AI learning for FREE.",
+      "ts": 1784289622,
+      "published": "2026-07-17T12:00:22+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Cloud Native Infrastructure Emerges as the Foundation for Trustworthy Agentic AI",
+      "link": "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "A new technical analysis published by the Cloud Native Computing Foundation (CNCF) argues that the future of agentic AI will be built not on entirely new infrastructure, but on the mature cloud-native ecosystem that alr…",
+      "ts": 1784289600,
+      "published": "2026-07-17T12:00:00+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #303: Free-Threaded Python's History & uv in Production",
+      "link": "https://realpython.com/podcasts/rpp/303/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How many attempts have been made to remove Python's Global Interpreter Lock (GIL)? How do they compare to the current approach? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly ar…",
+      "ts": 1784289600,
+      "published": "2026-07-17T12:00:00+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Analog AI Is Back, But Can It Survive Its Own Noise?",
+      "link": "https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "AI's energy crisis is reviving an old idea: computing with physics instead of digital logic. Here's how analog chips actually work, why noise nearly killed the idea once already, and what happens when you simulate that…",
+      "ts": 1784289600,
+      "published": "2026-07-17T12:00:00+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "One RAG Pipeline, Four Very Different PDFs: Same Four Bricks, Every Answer Typed and Cited",
+      "link": "https://towardsdatascience.com/one-rag-pipeline-four-very-different-pdfs-same-four-bricks-every-answer-typed-and-cited/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #9B] - One call wires the four upgraded bricks together, run on a paper, a NIST standard, and a report with a broken TOC The post One RAG Pipeline, Four Very Different PDFs: Same…",
+      "ts": 1784284200,
+      "published": "2026-07-17T10:30:00+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "A scorecard for the AI age",
+      "link": "https://openai.com/index/a-scorecard-for-the-ai-age",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Sarah Friar, CFO of OpenaAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute.",
+      "ts": 1784282400,
+      "published": "2026-07-17T10:00:00+00:00",
+      "collected_at": "2026-07-18T00:01:24+09:00"
+    },
     {
       "title": "How to connect MCP servers with Claude (Claude desktop and Claude Code)",
       "link": "https://www.analyticsvidhya.com/blog/2026/07/connect-mcp-servers-claude-desktop-code/",
@@ -7130,56 +7280,6 @@
       "summary": "Article URL: https://www.nytimes.com/2026/06/17/technology/anthropic-trump-administration-fable.html Comments URL: https://news.ycombinator.com/item?id=48571660 Points: 188 # Comments: 205",
       "ts": 1781709334,
       "published": "2026-06-17T15:15:34+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "New research shows how AMIE, our medical AI, could help manage health conditions.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-for-disease-management-in-nature/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Research in “Nature” shows our conversational AI system matches primary care physicians in complex disease management.",
-      "ts": 1781708400,
-      "published": "2026-06-17T15:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Context Engineering for Python Codebases",
-      "link": "https://realpython.com/python-context-engineering-ai/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how context engineering shapes what your AI coding agent sees on every turn, and use four practical strategies to keep your Python projects on track.",
-      "ts": 1781704800,
-      "published": "2026-06-17T14:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Elmore Leonard.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/17/elmore-leonard/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "With Leonard’s reputation as a Western author growing, [Detroit-based advertising agency] Campbell-Ewald saw fit to match Leonard with their truck division, writing copy geared toward the same rough-and-tumble demograph…",
-      "ts": 1781704510,
-      "published": "2026-06-17T13:55:10+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1781691485,
-      "published": "2026-06-17T10:18:05+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "A near-autonomous AI chemist improves a challenging reaction in medicinal chemistry",
-      "link": "https://openai.com/index/ai-chemist-improves-reaction",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and Molecule.one show how a near-autonomous AI chemist using GPT-5.4 improved a key drug-making reaction, advancing medicinal chemistry research.",
-      "ts": 1781690400,
-      "published": "2026-06-17T10:00:00+00:00",
       "collected_at": "2026-07-15T23:48:23+09:00"
     }
   ]
