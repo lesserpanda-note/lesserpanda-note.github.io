@@ -1,69 +1,69 @@
 {
-  "updated": "2026-07-17T00:20:04Z",
-  "summary": "오늘은 JDK 24의 JEP 491로 가상 스레드 피닝 문제가 대부분 해소된 소식과 NVIDIA Nemotron 3 Embed가 RTEB 벤치마크 1위를 기록한 것이 주목됩니다. AI 에이전트 운용 리스크 측면에서는 CloudFormation 스택 중복 생성으로 발생한 수천 달러 청구, Uber의 연간 AI 코딩 예산 조기 소진 등 구체적 사례가 경종을 울리며, OpenAI Codex도 내부 함수 과다 호출로 사용자 한도를 빠르게 소진하는 버그가 발생했습니다. 통계 분야에서는 'Bayesian Workflow' 교재가 Efron·Spiegelhalter·Robert 등 거장들의 극찬을 받으며 새로운 표준으로 부상하고 있습니다.",
+  "updated": "2026-07-18T00:17:39Z",
+  "summary": "오늘은 ParparVM이 HotSpot과 대등한 성능을 달성하며 JVM 최적화의 새 지평을 연 소식과 Kotlin 15주년 기념 소식이 주목받았습니다. AI 분야에서는 CNCF의 클라우드 네이티브 기반 에이전틱 AI 신뢰성 분석, Kimi K3의 역대 최대 오픈 모델 출시가 이슈였으며, Python의 GIL 제거 역사와 uv 프로덕션 활용법도 화제였습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "Your Loom App Quietly Became a Thread Pool Again: A Field Guide to Virtual Thread Pinning",
-      "link": "https://foojay.io/today/virtual-thread-pinning-field-guide/",
-      "summary": "JDK 24의 JEP 491로 대부분의 가상 스레드 피닝 문제가 해결되었지만, JNI/FFM 등 남은 케이스를 진단하는 실전 가이드입니다.",
-      "detail": "Java 가상 스레드 피닝(pinning) 문제의 현황과 JDK 24 이후 달라진 점을 실전 관점에서 정리한 가이드입니다. JDK 24에 도입된 JEP 491('Synchronize Virtual Threads without Pinning')은 모니터 소유권을 캐리어 스레드가 아닌 가상 스레드 자체에 연결함으로써, synchronized 블록 내에서도 가상 스레드가 캐리어를 해제할 수 있게 합니다. 따라서 JDK 24 이후 남는 피닝 케이스는 JNI 호출, FFM 다운콜, 클래스 초기화 등 네이티브 프레임에 한정됩니다. 진단 방법도 변경되어 기존 tracePinnedThreads 플래그는 JDK 24에서 제거되었으며, 대신 jdk.VirtualThreadPinned JFR 이벤트(원인을 pinnedReason 필드로 구분)를 사용해야 합니다. JNI 헤비 라이브러리가 남아 있다면 JDK 24 마이그레이션 후에도 스레드 풀처럼 동작할 수 있으므로 반드시 확인이 필요합니다."
+      "title": "How We Beat HotSpot Performance (By Cheating, But Not Like That)",
+      "link": "https://foojay.io/today/how-we-beat-hotspot-performance-by-cheating-but-not-like-that/",
+      "summary": "ParparVM이 HotSpot과 동등한 성능에 도달했으며, 10개 벤치마크 중 6개에서 HotSpot 이하의 성능을 달성했습니다.",
+      "detail": "ParparVM은 과거 워밍업된 Java 25 대비 4.21배 느렸지만, 이번에 지오미안 기준으로 HotSpot과 동등한 성능을 달성했습니다. 10개 벤치마크 중 6개에서 HotSpot과 같거나 더 나은 결과를 보였으며, 최대 메모리 사용량도 JVM보다 낮았습니다. 이를 가능하게 한 아키텍처 요소는 프레임리스(frameless) C 코드 생성, BiBOP(Big Bag of Pages) 페이지 힙 등의 기법입니다. 이 성과는 AOT(Ahead-of-Time) 컴파일 방식의 VM이 JIT 기반 HotSpot과 경쟁할 수 있음을 실증한 것으로, JVM 생태계 외부에서 Java 호환 런타임을 개발하는 접근 방식의 가능성을 보여줍니다."
+    },
+    {
+      "category": "Java",
+      "title": "Kotlin Turns 15: Celebrate the Kotlin Effect",
+      "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-turns-15-celebrate-the-kotlin-effect/",
+      "summary": "Kotlin이 출시 15주년을 맞이했습니다. JetBrains는 커뮤니티와 함께 'Kotlin Effect'를 기념합니다.",
+      "detail": "Kotlin이 2011년 공개 발표 이후 15년을 맞이했습니다. JetBrains는 이 이정표를 'Kotlin Effect'라는 이름으로 기념하며, 15년간 앱 개발, 생태계 기여, 교육 등 다양한 방면에서 Kotlin을 선택하고 발전시켜온 커뮤니티에 감사를 표하고 있습니다. Kotlin은 Android 공식 언어 지위 획득, 서버사이드·멀티플랫폼 확장 등을 거치며 JVM 생태계의 핵심 언어로 자리잡았습니다. JetBrains는 커뮤니티 참여를 독려하는 기념 활동을 진행하고 있습니다."
     },
     {
       "category": "AI",
-      "title": "NVIDIA Nemotron 3 Embed Ranks #1 Overall on RTEB, Advancing Agentic Retrieval",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb",
-      "summary": "NVIDIA Nemotron-3-Embed-8B가 RTEB 다국어 리더보드 1위(78.5%)를 달성했으며, 오픈 웨이트로 공개되어 RAG 및 에이전트 검색에 바로 활용 가능합니다.",
-      "detail": "NVIDIA가 Hugging Face를 통해 Nemotron-3-Embed 모델 패밀리를 공개했습니다. 플래그십 모델 Nemotron-3-Embed-8B-BF16은 RTEB(Retrieval Text Embedding Benchmark) 다국어 리더보드에서 78.5%를 기록하며 2026년 7월 15일 기준 1위를 차지했으며, MMTEB Retrieval 점수는 75.5%입니다. 소형 모델인 1B 변종(Nemotron-3-Embed-1B-BF16)도 RTEB에서 72.4%로 준수한 성능을 보입니다. 두 모델 모두 32k 컨텍스트 윈도우를 지원해 긴 문서, 대규모 코드 컨텍스트, 멀티턴 에이전트 히스토리 처리에 적합합니다. NVIDIA는 오픈 웨이트와 함께 학습 데이터셋 및 학습 레시피도 공개하여 기업 RAG 구축과 에이전트 검색 파이프라인에 즉시 적용할 수 있도록 했습니다."
+      "title": "Cloud Native Infrastructure Emerges as the Foundation for Trustworthy Agentic AI",
+      "link": "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "CNCF의 새 기술 분석에 따르면 에이전틱 AI의 미래는 전혀 새로운 인프라가 아닌, 이미 성숙한 클라우드 네이티브 생태계 위에 구축될 것이라고 주장합니다.",
+      "detail": "클라우드 네이티브 컴퓨팅 재단(CNCF)이 발표한 기술 분석 보고서는 에이전틱 AI의 신뢰성 있는 배포가 Kubernetes를 중심으로 한 기존 클라우드 네이티브 인프라 위에서 이루어질 것이라고 주장합니다. 보고서는 에이전트 오케스트레이션, 관찰 가능성(observability), 보안, 확장성 측면에서 클라우드 네이티브 도구들이 이미 필요한 기반을 제공한다고 봅니다. 새로운 AI 전용 인프라를 처음부터 구축하기보다는, 검증된 클라우드 네이티브 패턴(서비스 메시, 정책 엔진, RBAC 등)을 활용하는 것이 에이전틱 AI의 신뢰성과 안정성을 보장하는 현실적인 경로라는 메시지입니다."
     },
     {
       "category": "AI",
-      "title": "Our approach to bioresilience",
-      "link": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-      "summary": "Google DeepMind와 Isomorphic Labs가 생물학적 위협 대응을 위한 AI 바이오보안 프레임워크를 3대 축(예방·탐지·대응)으로 공개했습니다.",
-      "detail": "Google DeepMind와 Isomorphic Labs가 공동으로 'bioresilience' 접근 방식을 발표했습니다. 프레임워크는 세 축으로 구성됩니다. 예방(Prevent): DNA 합성 출력물에 SynthID 워터마킹 적용, Gemini 모델에 위험 바이오합성 요청 거부 안전 프로토콜 내장. 탐지(Detect): AlphaEvolve를 활용한 병원체 감시 및 유전체 분석. 대응(Respond): Isomorphic의 IsoDDE 엔진을 이용한 신속 백신·의약품 설계. 지난 12개월간 DeepMind는 정부 기관, 바이오보안 단체, 연구 그룹과 15개 이상의 파트너십을 체결해 이 역량을 실용화하고 있습니다. 생성 AI의 생물학적 위협 악용 가능성에 대한 투명한 대응 전략을 공개한 점에서 AI 안전성 논의에 중요한 기여입니다."
+      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
+      "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
+      "summary": "NVIDIA NeMo Automodel과 Hugging Face Diffusers를 결합해 비디오·이미지 생성 모델을 대규모로 파인튜닝하는 방법을 소개합니다.",
+      "detail": "이 포스트는 NVIDIA의 NeMo Automodel 프레임워크와 Hugging Face의 Diffusers 라이브러리를 통합하여 비디오·이미지 생성 모델을 대규모로 파인튜닝하는 방법을 설명합니다. NeMo Automodel은 분산 학습과 대규모 GPU 클러스터 활용을 단순화하며, Diffusers의 풍부한 모델 생태계와 결합됩니다. 이를 통해 연구자와 엔지니어는 대형 멀티미디어 생성 모델을 자신의 데이터셋에 맞게 효율적으로 파인튜닝할 수 있습니다. 두 프레임워크의 통합은 생성 AI 모델의 커스터마이징 장벽을 낮추는 실용적인 접근으로 평가됩니다."
     },
     {
       "category": "Agents",
-      "title": "Quoting Thibault Sottiaux",
-      "link": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
-      "summary": "OpenAI Codex에서 내부 함수가 의도보다 높은 빈도로 실행되어 사용자 주간 한도가 빠르게 소진되는 버그가 발생했으며, OpenAI는 모든 사용자의 한도를 초기화하고 추가 보상을 제공했습니다.",
-      "detail": "Simon Willison이 OpenAI Codex에서 발생한 심각한 사용량 소진 버그를 보도했습니다. 자동 리뷰 기능과 서브 에이전트 등 내부 함수가 의도한 것보다 높은 빈도로 실행되어 사용자의 주간 사용 한도가 정상보다 훨씬 빠르게 소진되는 현상이 발생했습니다. 일부 사용자는 사용량 대시보드에서 부정확한 활동 수치를 확인했으나, 실제 추가 과금은 발생하지 않았습니다. OpenAI는 워 룸(war room)을 구성해 즉시 조사·수정에 착수했으며, 모든 Codex 사용자의 한도를 초기화하고 추가 보상 리셋을 제공했습니다. 7월 12일 GPT-5.6 Sol 출시 이후 두 차례 이미 한도 리셋이 있었음에도 버그가 재발한 점에서, AI 에이전트 내부 작업의 토큰 사용량 관리와 투명성이 더욱 중요해지고 있음을 보여줍니다."
+      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+      "link": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+      "summary": "Moonshot AI가 역대 최대 규모의 오픈 모델 Kimi K3(2.8조 파라미터, 50B 활성)를 공개했습니다. Opus 4.8급 성능을 Sonnet 5 수준의 가격에 제공합니다.",
+      "detail": "Moonshot AI가 공개한 Kimi K3는 전체 파라미터 2.8조(2.8T), 활성 파라미터 50B의 MoE(Mixture of Experts) 아키텍처를 채택한 역대 최대 규모의 오픈소스 모델입니다. 성능 면에서 Anthropic의 Opus 4.8에 필적하면서, 비용은 Sonnet 5 수준으로 대폭 낮았다는 점이 주목받고 있습니다. Latent Space의 AINews는 이를 '오픈 모델의 훌륭한 한 주'로 평가하며, Kimi K3의 등장이 오픈소스 LLM 경쟁 구도를 크게 변화시킬 것으로 전망합니다. Pydantic AI v2.12.0도 이 모델 지원을 추가했습니다."
     },
     {
       "category": "Agents",
-      "title": "v2.11.0 (2026-07-15)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.11.0",
-      "summary": "Pydantic AI v2.11.0이 출시되어 HistoryProcessor 공개 내보내기, 사용량 한도 및 도구 재시도 오류에 대한 액션 가능한 힌트, Mistral·Anthropic·Bedrock 버그 수정이 포함되었습니다.",
-      "detail": "Pydantic AI 에이전트 프레임워크의 v2.11.0이 릴리스되었습니다. 주요 기능으로 HistoryProcessor 클래스가 공식 공개 API로 내보내져 외부에서 직접 임포트 가능해졌으며, 사용량 한도(usage-limit) 초과 및 도구 재시도(tool-retry) 실패 시 개발자가 즉시 조치할 수 있는 구체적인 힌트 메시지가 추가되었습니다. 버그 수정으로는 Mistral 스트리밍 응답에서 정수 검증 오류 수정(불리언은 거부, 정수는 허용), Anthropic의 native structured output 모드에서 출력 스키마 변환 오류, Bedrock의 네이티브 구조화 출력 모드에서 미변환 스키마가 API로 전송되는 버그가 수정되었습니다. 기여자는 DouweM, dsfaccini입니다."
+      "title": "Claude Code: Anatomy of a Misfeature",
+      "link": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature/",
+      "summary": "Claude Code의 특정 기능을 'misfeature'로 진단하는 비판적 분석 글이 Hacker News에서 131포인트를 받으며 큰 호응을 얻었습니다.",
+      "detail": "이 글은 Claude Code의 설계상 문제가 있는 특정 기능(misfeature)을 해부하며 비판적으로 분석합니다. Hacker News에 게시된 이후 131포인트, 115개의 댓글을 기록하며 개발자 커뮤니티에서 큰 반향을 일으켰습니다. AI 코딩 도구의 UX와 설계 결정에 대한 심층적인 논의를 촉발했으며, Claude Code 사용자들 사이에서 특정 동작 방식에 대한 비판적 시각을 공유하는 계기가 되었습니다. 원본 페이지는 접근이 제한되어 있어 제목과 HN 메타데이터를 기반으로 요약했습니다."
     },
     {
-      "category": "Architecture",
-      "title": "The Archaeologist's Copilot",
-      "link": "https://martinfowler.com/articles/archaeologist-copilot.html",
-      "summary": "AI에 '고고학자' 페르소나를 부여해 레거시 코드베이스를 효과적으로 분석하는 기법을 소개하며, Thoughtworks 레이더에서 AI 보조 레거시 이해가 유일한 'Adopt' 등급을 받았습니다.",
-      "detail": "Martin Fowler 블로그에 발표된 2026년 7월 16일자 아티클로, AI를 레거시·브라운필드 코드베이스에 활용하는 새로운 관점을 제시합니다. 핵심 아이디어는 AI를 관광객이 아닌 고고학자로 활용하는 것으로, '이 코드가 왜 실패하는가?'를 탐구하는 접근법입니다. 구체적 기법은 컨텍스트 초기화 시 'Senior Legacy Systems Architect' 페르소나를 AI에 부여하고 README 요약 대신 'Forensic Code Audit'을 요청하는 것입니다(오래된 프로젝트의 README는 부정확한 경우가 많기 때문). 환경 설정 단계에서는 'Senior DevOps Engineer' 페르소나로 전환하고 현대화 크리프(modernization creep) 금지 제약을 명시합니다. Gradle 8과 최신 JDK에서 깨지는 2008년대 코드를 사례로 들며, Thoughtworks 레이더에서 AI 보조 레거시 코드 이해가 'Adopt' 등급을 받은 유일한 AI 실무임을 강조합니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "AI Agents with Cloud Credentials Are Outrunning Billing Guardrails Built for Human-Speed Mistakes",
-      "link": "https://www.infoq.com/news/2026/07/ai-agents-billing-guardrails/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "AI 에이전트가 사람보다 50배 이상 빠른 속도로 토큰을 소비하면서 기존 청구 가드레일을 무력화하는 실제 사고 사례와 대응 방안을 정리했습니다.",
-      "detail": "AI 에이전트가 클라우드 비용 폭주를 일으키는 실제 사례들이 속속 보고되고 있습니다. CloudFormation 스택을 오류마다 중복 생성한 에이전트로 인해 6,531달러가 청구되고, 사용 한도 설정 누락으로 5억 달러(Claude API)가 청구된 사례, Uber가 2026년 AI 코딩 예산을 4월에 모두 소진한 사례 등이 인용됩니다. 핵심 기술 원인: 에이전트는 각 추론 단계마다 이전 대화 전체를 다시 전송하므로 20단계 시점이면 호출당 8,000토큰 이상을 소비해 단순 챗봇 대비 약 50배의 토큰이 필요합니다. 모델 API 지출은 2024년 말~2025년 중반 사이 35억 달러에서 84억 달러로 2배 이상 증가했습니다. 대응책으로 하드 한도(한도 초과 시 에이전트 정지), 소프트 한도(경고·모델 다운그레이드·컨텍스트 축소)의 두 가지 가드레일 유형과 Coinbase Agentic Wallets 등 세션·트랜잭션 단위 지출 한도를 지원하는 결제 플랫폼이 소개됩니다."
+      "category": "Python",
+      "title": "The Real Python Podcast – Episode #303: Free-Threaded Python’s History & uv in Production",
+      "link": "https://realpython.com/podcasts/rpp/303/",
+      "summary": "Python GIL 제거의 역사와 현재 프리-스레드 Python 구현, 그리고 uv 패키지 매니저의 프로덕션 적용 사례를 다룹니다.",
+      "detail": "이 팟캐스트 에피소드는 두 가지 주요 주제를 다룹니다. 첫째, Python의 GIL(Global Interpreter Lock) 제거를 위한 수년간의 시도와 현재 Python 3.13+에서 실험적으로 도입된 free-threaded Python의 역사를 설명합니다. GIL 제거를 위해 그동안 얼마나 많은 시도가 있었는지, 현재 접근법이 어떻게 다른지 비교합니다. 둘째, Astral의 uv 패키지 매니저를 실제 프로덕션 환경에서 활용하는 사례와 방법을 다룹니다. uv는 pip보다 훨씬 빠른 Python 패키지 설치 도구로, 실무 도입 사례가 늘고 있습니다. Christopher Trudeau가 PyCoder's Weekly 기사들과 함께 소개합니다."
     },
     {
       "category": "DataScience",
-      "title": "Reviews of our Bayesian Workflow book from Bin Yu, David Spiegelhalter, Brad Efron, Christian Robert, and more",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/16/reviews-of-our-bayesian-workflow-book-from-bin-yu-david-spiegelhalter-brad-efron-christian-robert-and-more/",
-      "summary": "Andrew Gelman 등이 공저한 'Bayesian Workflow'(2026, CRC Press)가 Efron·Spiegelhalter·Robert 등 통계학계 거장들의 극찬을 받으며 새로운 표준 교재로 자리매김하고 있습니다.",
-      "detail": "Andrew Gelman, Aki Vehtari, Richard McElreath, Daniel Simpson 외 공저의 'Bayesian Workflow'(2026, CRC Press, ISBN 9780367490140)에 대한 저명 통계학자들의 서평이 공개되었습니다. David Spiegelhalter(케임브리지)는 '모델 적합·비판·수정의 전 과정을 안내하는, 전형적인 방법론 교재가 아닌 책'이라며 '데이터로부터 무엇을 배울 수 있는지 진정으로 이해하길 원하는 통계학자에게 강력 추천'했습니다. Brad Efron(스탠퍼드)은 '데이터 수집부터 최종 보고서까지 실용적인 베이지안 분석 워크플로우를 상세히 개발한 브라부라 성과'로 평가했습니다. Christian Robert(파리)는 '독창적이고 사고를 자극하는 변혁적인 책으로, BDA의 단순한 구현 매뉴얼을 훨씬 뛰어넘는다'고 했습니다. 2026 'Bayesian Workflow' 교재는 BDA가 1990년대 베이지안 통계에서 차지한 것과 유사한 위치를 2020년대에 자리매김할 것으로 전망됩니다."
+      "title": "Herman Chernoff",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/17/herman-chernoff/",
+      "summary": "통계학자 Herman Chernoff가 103세로 별세했습니다. Andrew Gelman이 그의 삶과 업적을 추모합니다.",
+      "detail": "저명한 통계학자 Herman Chernoff가 103세를 일기로 별세했습니다. Chernoff는 확률론과 통계학에 큰 족적을 남긴 인물로, 특히 '체르노프 한계(Chernoff bounds)'와 다변량 데이터 시각화 기법인 '체르노프 얼굴(Chernoff faces)'로 잘 알려져 있습니다. Columbia 대학교의 통계학자 Andrew Gelman은 자신의 Statistical Modeling 블로그에서 Chernoff를 회상하며, 그가 형식적이지 않고 소탈한 사람이었다고 전했습니다. Chernoff bounds는 오늘날 확률적 알고리즘 분석과 머신러닝 이론에서도 광범위하게 활용되는 핵심 개념입니다."
     },
     {
       "category": "DataScience",
-      "title": "Why Your Betas Explode: The Hidden Geometry of Multicollinearity",
-      "link": "https://towardsdatascience.com/why-your-betas-explode-the-hidden-geometry-of-multicollinearity/",
-      "summary": "회귀 계수가 다중공선성 아래서 폭발적으로 커지는 기하학적 원인과 VIF 진단, 릿지 회귀 등 실용적 해결책을 시각적으로 설명합니다.",
-      "detail": "다중공선성(multicollinearity)이 왜 OLS 회귀 계수를 수치적으로 불안정하게 만드는지를 기하학적 관점에서 설명하는 아티클입니다. 예측 변수 벡터들이 거의 선형 종속(collinear)일 때 설계 행렬의 열 공간이 거의 퇴화(near-degenerate)되어, OLS 해법이 서로 반대 부호인 대규모 계수(예: +17과 -14)를 요구하게 됩니다. 이로 인해 훈련 데이터의 아주 작은 변화에도 계수 추정값이 극단적으로 달라져 일반화 성능이 크게 저하됩니다. VIF(Variance Inflation Factor)를 이용한 공선성 탐지와 함께, 릿지 회귀(Ridge Regression)를 통한 L2 정규화, PCA 기반 차원 축소, 중복 예측 변수 제거 등 실용적인 해결책을 다룹니다. 특성 엔지니어링 단계에서 다중공선성을 다루는 데이터 과학자에게 필수적인 이론적 기초 지식입니다."
+      "title": "Analog AI Is Back, But Can It Survive Its Own Noise?",
+      "link": "https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/",
+      "summary": "AI의 에너지 위기가 아날로그 컴퓨팅을 부활시키고 있습니다. 물리 법칙으로 계산하는 아날로그 칩의 원리와 노이즈 문제를 분석합니다.",
+      "detail": "AI 연산의 폭발적 에너지 소비가 디지털 논리 대신 물리 법칙을 활용하는 아날로그 컴퓨팅에 대한 관심을 되살리고 있습니다. 아날로그 칩은 전압이나 전류의 연속적 변화를 통해 행렬 곱셈 등의 AI 연산을 수행하며, 디지털 방식보다 훨씬 적은 에너지로 동일한 계산을 처리할 수 있습니다. 그러나 아날로그 회로 특유의 노이즈(잡음)가 정확도를 저하시키는 근본적인 문제가 있으며, 이 때문에 과거에 아날로그 AI는 한계에 부딪힌 바 있습니다. 이 글은 현재 연구자들이 노이즈 문제를 어떻게 극복하려 하는지, 그리고 아날로그 AI가 실용화될 수 있을지를 분석합니다."
     }
   ]
 }
