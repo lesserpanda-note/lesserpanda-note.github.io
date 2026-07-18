@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-19T03:10:14+09:00",
-  "count": 730,
+  "updated": "2026-07-19T06:37:06+09:00",
+  "count": 727,
   "items": [
+    {
+      "title": "SQLite Query Explainer",
+      "link": "https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: SQLite Query Explainer Julia Evan's, in Learning a few things about running SQLite : Maybe one day I’ll learn to read a query plan. Big same.... which inspired me to have Fable build this interactive explain tool,…",
+      "ts": 1784395150,
+      "published": "2026-07-18T17:19:10+00:00",
+      "collected_at": "2026-07-19T06:36:49+09:00"
+    },
     {
       "title": "Many Companies Use AI. Few Know How to Build an AI-Native Enterprise Data Platform.",
       "link": "https://towardsdatascience.com/many-companies-use-ai-few-know-how-to-build-an-ai-native-enterprise-data-platform/",
@@ -7260,46 +7270,6 @@
       "summary": "Article URL: https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/ Comments URL: https://news.ycombinator.com/item?id=48592163 Points: 278 # Comments: 103",
       "ts": 1781819650,
       "published": "2026-06-18T21:54:10+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "langgraph==1.2.6",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.6",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.5 release(langgraph): 1.2.6 ( #8139 ) fix: nested subgraph inherits parent checkpoint_ns (regression in 1.2.3) ( #8053 ) fix: cancel running subgraphs on v3 stream abort [closes #8029 ] ( #8057 ) relea…",
-      "ts": 1781816312,
-      "published": "2026-06-18T20:58:32+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "datasette-acl 0.6a0",
-      "link": "https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette-acl 0.6a0 This release expands datasette-acl from table-only permissions toward a general resource-sharing system. Alex Garcia did most of the work for this release - we're fleshing out the plugin tha…",
-      "ts": 1781809393,
-      "published": "2026-06-18T19:03:13+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "LLM-generated Stan case study on Galileo’s inclined plane experiment",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/18/llm-case-study-galilelo-inclined-plane/",
-      "source": "Statistical Modeling",
-      "category": "AI",
-      "summary": "This post is from Bob. I’ve been planning for at least a couple years to generate a case study around Galielo’s use of an inclined plane instrumented with water clocks to estimate the terrestrial gravitational constant.…",
-      "ts": 1781809233,
-      "published": "2026-06-18T19:00:33+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "MosaicLeaks: Can your research agent keep a secret?",
-      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1781806393,
-      "published": "2026-06-18T18:13:13+00:00",
       "collected_at": null
     }
   ]
