@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-20T00:33:50+09:00",
-  "count": 726,
+  "updated": "2026-07-20T05:09:54+09:00",
+  "count": 730,
   "items": [
+    {
+      "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
+      "link": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "GenPage is a generative AI system developed by Netflix to replace its traditional multi-stage recommendation pipeline by directly generating personalized user homepages. GenPage leverages user history and request contex…",
+      "ts": 1784491200,
+      "published": "2026-07-19T20:00:00+00:00",
+      "collected_at": "2026-07-20T05:09:50+09:00"
+    },
+    {
+      "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
+      "link": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "GenPage is a generative AI system developed by Netflix to replace its traditional multi-stage recommendation pipeline by directly generating personalized user homepages. GenPage leverages user history and request contex…",
+      "ts": 1784491200,
+      "published": "2026-07-19T20:00:00+00:00",
+      "collected_at": "2026-07-20T05:09:50+09:00"
+    },
+    {
+      "title": "Toward a Durable Spring PetClinic",
+      "link": "https://foojay.io/today/toward-a-durable-spring-petclinic/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Overview Durable Execution is a way of running code so that its progress survives failure. A normal program keeps its state in memory: if the process crashes, the machine reboots, or a network call times out halfway thr…",
+      "ts": 1784484366,
+      "published": "2026-07-19T18:06:06+00:00",
+      "collected_at": "2026-07-20T05:09:50+09:00"
+    },
+    {
+      "title": "Backpropagation Explained for Beginners (Part 1): Building the Intuition",
+      "link": "https://towardsdatascience.com/backpropagation-explained-for-beginners-part-1-building-the-intuition/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Let's discover how neural networks learn, step by step The post Backpropagation Explained for Beginners (Part 1): Building the Intuition appeared first on Towards Data Science .",
+      "ts": 1784480400,
+      "published": "2026-07-19T17:00:00+00:00",
+      "collected_at": "2026-07-20T05:09:50+09:00"
+    },
     {
       "title": "Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval",
       "link": "https://towardsdatascience.com/loop-engineering-for-rag-question-parsing-the-small-loop-that-runs-before-retrieval/",
@@ -61,6 +101,16 @@
       "ts": 1784456160,
       "published": "2026-07-19T10:16:00+00:00",
       "collected_at": "2026-07-19T20:41:19+09:00"
+    },
+    {
+      "title": "Claude Code uses Bun written in Rust now",
+      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/ Comments URL: https://news.ycombinator.com/item?id=48966569 Points: 308 # Comments: 410",
+      "ts": 1784455403,
+      "published": "2026-07-19T10:03:23+00:00",
+      "collected_at": "2026-07-20T05:09:50+09:00"
     },
     {
       "title": "Could Your AI Systems Already Be High-Risk Under the EU AI Act?",
@@ -7251,16 +7301,6 @@
       "ts": 1781909149,
       "published": "2026-06-19T22:45:49+00:00",
       "collected_at": null
-    },
-    {
-      "title": "John Jumper to join Anthropic",
-      "link": "https://twitter.com/JohnJumperSci/status/2068001285173834106",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://twitter.com/JohnJumperSci/status/2068001285173834106 Comments URL: https://news.ycombinator.com/item?id=48601162 Points: 170 # Comments: 149",
-      "ts": 1781891580,
-      "published": "2026-06-19T17:53:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
     }
   ]
 }
