@@ -1,69 +1,48 @@
 {
-  "updated": "2026-07-18T00:17:39Z",
-  "summary": "오늘은 ParparVM이 HotSpot과 대등한 성능을 달성하며 JVM 최적화의 새 지평을 연 소식과 Kotlin 15주년 기념 소식이 주목받았습니다. AI 분야에서는 CNCF의 클라우드 네이티브 기반 에이전틱 AI 신뢰성 분석, Kimi K3의 역대 최대 오픈 모델 출시가 이슈였으며, Python의 GIL 제거 역사와 uv 프로덕션 활용법도 화제였습니다.",
+  "updated": "2026-07-19T00:13:35Z",
+  "summary": "오늘은 Anthropic이 Claude Fable 5 모델을 7월 20일부터 유료 플랜에 정식 포함한다고 발표하고, Pydantic AI 2.13.0이 릴리스되면서 에이전트 생태계의 중요한 업데이트가 이어졌습니다. AI 분야에서는 LLM 추론 노력 제어 기법과 Pinecone Nexus 지식 엔진 정식 출시가 주목받았습니다. 데이터 사이언스에서는 핀테크 고객 이탈 방지에 업리프트 모델링을 결합하는 실용적 방법론과 언론의 통계 데이터 오보 사례 분석이 인상적이었습니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "How We Beat HotSpot Performance (By Cheating, But Not Like That)",
-      "link": "https://foojay.io/today/how-we-beat-hotspot-performance-by-cheating-but-not-like-that/",
-      "summary": "ParparVM이 HotSpot과 동등한 성능에 도달했으며, 10개 벤치마크 중 6개에서 HotSpot 이하의 성능을 달성했습니다.",
-      "detail": "ParparVM은 과거 워밍업된 Java 25 대비 4.21배 느렸지만, 이번에 지오미안 기준으로 HotSpot과 동등한 성능을 달성했습니다. 10개 벤치마크 중 6개에서 HotSpot과 같거나 더 나은 결과를 보였으며, 최대 메모리 사용량도 JVM보다 낮았습니다. 이를 가능하게 한 아키텍처 요소는 프레임리스(frameless) C 코드 생성, BiBOP(Big Bag of Pages) 페이지 힙 등의 기법입니다. 이 성과는 AOT(Ahead-of-Time) 컴파일 방식의 VM이 JIT 기반 HotSpot과 경쟁할 수 있음을 실증한 것으로, JVM 생태계 외부에서 Java 호환 런타임을 개발하는 접근 방식의 가능성을 보여줍니다."
-    },
-    {
-      "category": "Java",
-      "title": "Kotlin Turns 15: Celebrate the Kotlin Effect",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-turns-15-celebrate-the-kotlin-effect/",
-      "summary": "Kotlin이 출시 15주년을 맞이했습니다. JetBrains는 커뮤니티와 함께 'Kotlin Effect'를 기념합니다.",
-      "detail": "Kotlin이 2011년 공개 발표 이후 15년을 맞이했습니다. JetBrains는 이 이정표를 'Kotlin Effect'라는 이름으로 기념하며, 15년간 앱 개발, 생태계 기여, 교육 등 다양한 방면에서 Kotlin을 선택하고 발전시켜온 커뮤니티에 감사를 표하고 있습니다. Kotlin은 Android 공식 언어 지위 획득, 서버사이드·멀티플랫폼 확장 등을 거치며 JVM 생태계의 핵심 언어로 자리잡았습니다. JetBrains는 커뮤니티 참여를 독려하는 기념 활동을 진행하고 있습니다."
+      "category": "AI",
+      "title": "Controlling Reasoning Effort in LLMs",
+      "link": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+      "summary": "Sebastian Raschka가 LLM의 추론 노력(Reasoning Effort) 제어 방법을 심층 분석했습니다. 모델이 저·중·고강도 추론 모드를 어떻게 학습하는지를 실용적 관점에서 설명합니다.",
+      "detail": "Sebastian Raschka의 'Ahead of AI' 뉴스레터에서 LLM의 추론 노력을 제어하는 기법을 상세히 다뤘습니다. 현대 LLM은 단순한 질문과 복잡한 수학 문제에 각각 다른 수준의 '사고 토큰'을 사용하도록 훈련되는데, 이 글은 모델이 저강도(빠른 응답), 중간강도, 고강도(장시간 추론) 모드를 학습하는 원리를 설명합니다. 추론 노력을 조절하면 응답 속도와 비용을 최적화하면서도 복잡한 문제에 높은 품질의 답변을 유지할 수 있습니다. 특히 API 비용 절감이 중요한 프로덕션 환경에서 추론 노력 제어는 핵심 최적화 전략으로 활용됩니다."
     },
     {
       "category": "AI",
-      "title": "Cloud Native Infrastructure Emerges as the Foundation for Trustworthy Agentic AI",
-      "link": "https://www.infoq.com/news/2026/07/cncf-trustworthy-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "CNCF의 새 기술 분석에 따르면 에이전틱 AI의 미래는 전혀 새로운 인프라가 아닌, 이미 성숙한 클라우드 네이티브 생태계 위에 구축될 것이라고 주장합니다.",
-      "detail": "클라우드 네이티브 컴퓨팅 재단(CNCF)이 발표한 기술 분석 보고서는 에이전틱 AI의 신뢰성 있는 배포가 Kubernetes를 중심으로 한 기존 클라우드 네이티브 인프라 위에서 이루어질 것이라고 주장합니다. 보고서는 에이전트 오케스트레이션, 관찰 가능성(observability), 보안, 확장성 측면에서 클라우드 네이티브 도구들이 이미 필요한 기반을 제공한다고 봅니다. 새로운 AI 전용 인프라를 처음부터 구축하기보다는, 검증된 클라우드 네이티브 패턴(서비스 메시, 정책 엔진, RBAC 등)을 활용하는 것이 에이전틱 AI의 신뢰성과 안정성을 보장하는 현실적인 경로라는 메시지입니다."
-    },
-    {
-      "category": "AI",
-      "title": "Fine-tune video and image models at scale with NVIDIA NeMo Automodel and 🤗 Diffusers",
-      "link": "https://huggingface.co/blog/nvidia/scale-diffusers-finetuning-nemo-automodel",
-      "summary": "NVIDIA NeMo Automodel과 Hugging Face Diffusers를 결합해 비디오·이미지 생성 모델을 대규모로 파인튜닝하는 방법을 소개합니다.",
-      "detail": "이 포스트는 NVIDIA의 NeMo Automodel 프레임워크와 Hugging Face의 Diffusers 라이브러리를 통합하여 비디오·이미지 생성 모델을 대규모로 파인튜닝하는 방법을 설명합니다. NeMo Automodel은 분산 학습과 대규모 GPU 클러스터 활용을 단순화하며, Diffusers의 풍부한 모델 생태계와 결합됩니다. 이를 통해 연구자와 엔지니어는 대형 멀티미디어 생성 모델을 자신의 데이터셋에 맞게 효율적으로 파인튜닝할 수 있습니다. 두 프레임워크의 통합은 생성 AI 모델의 커스터마이징 장벽을 낮추는 실용적인 접근으로 평가됩니다."
+      "title": "Pinecone Introduces Nexus Engine for Compiling Business Context into Structured Data for AI Agents",
+      "link": "https://www.infoq.com/news/2026/07/pinecon-nexus-knowledge-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Pinecone이 AI 에이전트를 위한 지식 엔진 'Nexus'를 정식 출시했습니다. 기업 데이터를 에이전트가 직접 조회할 수 있는 구조화된 레이어로 변환하는 솔루션입니다.",
+      "detail": "Pinecone Nexus는 엔터프라이즈 데이터를 AI 에이전트가 효율적으로 활용할 수 있도록 구조화된 지식 레이어로 변환하는 'knowledge engine'으로, 일반 공개(GA) 상태로 제공됩니다. 팀이 비즈니스 컨텍스트를 한 번 수집·큐레이션하면, 이후 모든 AI 에이전트가 동일한 데이터에 직접 접근할 수 있습니다. RAG(검색 증강 생성)를 넘어 에이전트가 구조화된 형태의 비즈니스 데이터를 직접 쿼리할 수 있게 함으로써, 여러 에이전트에 걸친 일관된 컨텍스트 관리 문제를 해결합니다. 기업 환경에서 AI 에이전트가 사내 지식을 정확하게 활용해야 하는 사용 사례에 특히 유용합니다."
     },
     {
       "category": "Agents",
-      "title": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-      "link": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-      "summary": "Moonshot AI가 역대 최대 규모의 오픈 모델 Kimi K3(2.8조 파라미터, 50B 활성)를 공개했습니다. Opus 4.8급 성능을 Sonnet 5 수준의 가격에 제공합니다.",
-      "detail": "Moonshot AI가 공개한 Kimi K3는 전체 파라미터 2.8조(2.8T), 활성 파라미터 50B의 MoE(Mixture of Experts) 아키텍처를 채택한 역대 최대 규모의 오픈소스 모델입니다. 성능 면에서 Anthropic의 Opus 4.8에 필적하면서, 비용은 Sonnet 5 수준으로 대폭 낮았다는 점이 주목받고 있습니다. Latent Space의 AINews는 이를 '오픈 모델의 훌륭한 한 주'로 평가하며, Kimi K3의 등장이 오픈소스 LLM 경쟁 구도를 크게 변화시킬 것으로 전망합니다. Pydantic AI v2.12.0도 이 모델 지원을 추가했습니다."
+      "title": "Claude make Fable 5 permanent",
+      "link": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+      "summary": "Anthropic이 Claude Fable 5 모델을 2026년 7월 20일부터 Max 및 Team Premium 플랜에 정식 포함시킨다고 발표했습니다. Pro 및 Team Standard 사용자도 계속 이용할 수 있습니다.",
+      "detail": "@claudeai 공식 트위터 계정을 통해 발표된 내용에 따르면, 2026년 7월 20일부터 Claude Fable 5가 Max 및 Team Premium 플랜에 50% 한도 내에서 포함됩니다. Pro 및 Team Standard 사용자에게도 Fable 5 접근이 유지됩니다. 이번 결정은 Fable 5가 시범 제공 단계를 벗어나 정식 플랜 혜택으로 자리잡는 것을 의미하며, Anthropic의 고급 추론 모델을 더 많은 유료 사용자가 안정적으로 이용할 수 있게 됩니다. Simon Willison이 이 소식을 공유하며 Fable 5의 고성능 추론 기능이 일상적인 플랜에 통합된 점을 주목했습니다."
     },
     {
       "category": "Agents",
-      "title": "Claude Code: Anatomy of a Misfeature",
-      "link": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature/",
-      "summary": "Claude Code의 특정 기능을 'misfeature'로 진단하는 비판적 분석 글이 Hacker News에서 131포인트를 받으며 큰 호응을 얻었습니다.",
-      "detail": "이 글은 Claude Code의 설계상 문제가 있는 특정 기능(misfeature)을 해부하며 비판적으로 분석합니다. Hacker News에 게시된 이후 131포인트, 115개의 댓글을 기록하며 개발자 커뮤니티에서 큰 반향을 일으켰습니다. AI 코딩 도구의 UX와 설계 결정에 대한 심층적인 논의를 촉발했으며, Claude Code 사용자들 사이에서 특정 동작 방식에 대한 비판적 시각을 공유하는 계기가 되었습니다. 원본 페이지는 접근이 제한되어 있어 제목과 HN 메타데이터를 기반으로 요약했습니다."
-    },
-    {
-      "category": "Python",
-      "title": "The Real Python Podcast – Episode #303: Free-Threaded Python’s History & uv in Production",
-      "link": "https://realpython.com/podcasts/rpp/303/",
-      "summary": "Python GIL 제거의 역사와 현재 프리-스레드 Python 구현, 그리고 uv 패키지 매니저의 프로덕션 적용 사례를 다룹니다.",
-      "detail": "이 팟캐스트 에피소드는 두 가지 주요 주제를 다룹니다. 첫째, Python의 GIL(Global Interpreter Lock) 제거를 위한 수년간의 시도와 현재 Python 3.13+에서 실험적으로 도입된 free-threaded Python의 역사를 설명합니다. GIL 제거를 위해 그동안 얼마나 많은 시도가 있었는지, 현재 접근법이 어떻게 다른지 비교합니다. 둘째, Astral의 uv 패키지 매니저를 실제 프로덕션 환경에서 활용하는 사례와 방법을 다룹니다. uv는 pip보다 훨씬 빠른 Python 패키지 설치 도구로, 실무 도입 사례가 늘고 있습니다. Christopher Trudeau가 PyCoder's Weekly 기사들과 함께 소개합니다."
+      "title": "v2.13.0 (2026-07-17)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.13.0",
+      "summary": "Pydantic AI v2.13.0이 출시되어 캐시 적중률 측정, 콘텐츠 필터 오류 처리, 계측 설정 개선 등 새로운 기능이 추가되었습니다.",
+      "detail": "Pydantic AI v2.13.0 주요 변경사항:\n• RequestUsage 및 RunUsage에 cache_hit_ratio 속성 추가 — LLM 캐싱 효율을 코드에서 직접 측정 가능\n• RaiseContentFilterError 기능 추가로 비어 있지 않은 콘텐츠 필터 응답을 명시적 예외로 처리 가능\n• include_model_request_parameters 계측 설정으로 OpenTelemetry 스팬에서 민감한 파라미터 제외 가능\n• get_model, resolve_model_id, for_agent 등 새로운 capability hook 추가로 확장성 개선\n• MCP 의존성 1.28.1로 업데이트(Dependabot 보안 알림 대응)\n• MistralModel 스트리밍 버그, UI 스트림 오류 시 메시지 파트 처리 문제, OpenTelemetry 컨텍스트 분리 오류 수정"
     },
     {
       "category": "DataScience",
-      "title": "Herman Chernoff",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/17/herman-chernoff/",
-      "summary": "통계학자 Herman Chernoff가 103세로 별세했습니다. Andrew Gelman이 그의 삶과 업적을 추모합니다.",
-      "detail": "저명한 통계학자 Herman Chernoff가 103세를 일기로 별세했습니다. Chernoff는 확률론과 통계학에 큰 족적을 남긴 인물로, 특히 '체르노프 한계(Chernoff bounds)'와 다변량 데이터 시각화 기법인 '체르노프 얼굴(Chernoff faces)'로 잘 알려져 있습니다. Columbia 대학교의 통계학자 Andrew Gelman은 자신의 Statistical Modeling 블로그에서 Chernoff를 회상하며, 그가 형식적이지 않고 소탈한 사람이었다고 전했습니다. Chernoff bounds는 오늘날 확률적 알고리즘 분석과 머신러닝 이론에서도 광범위하게 활용되는 핵심 개념입니다."
+      "title": "How to Improve Customer Retention in FinTech",
+      "link": "https://towardsdatascience.com/how-to-improve-customer-retention-in-digital-banking/",
+      "summary": "핀테크 고객 이탈 방지를 위해 이탈 예측 스코어링과 업리프트 모델링을 결합하는 실용적 방법론을 제시합니다.",
+      "detail": "이 글은 디지털 뱅킹·핀테크 환경에서 고객 이탈률을 줄이기 위해 두 가지 ML 기법을 결합하는 방법을 다룹니다. 이탈 전 스코어링(pre-churn scoring)으로 이탈 위험이 높은 고객을 사전에 식별하고, 업리프트 모델링(uplift modelling)을 통해 실제로 마케팅 개입에 반응할 가능성이 높은 고객을 추가로 선별합니다. 이 조합은 단순 이탈 예측 모델보다 효율적인 리텐션 캠페인을 가능하게 합니다: 이탈 위험이 있으면서도 개입에 반응하는 고객에게만 비용을 집중할 수 있기 때문입니다. 실제 사업 임팩트를 극대화하기 위한 실용적 관점의 데이터 사이언스 응용 사례입니다."
     },
     {
       "category": "DataScience",
-      "title": "Analog AI Is Back, But Can It Survive Its Own Noise?",
-      "link": "https://towardsdatascience.com/analog-ai-is-back-can-it-survive-its-own-noise/",
-      "summary": "AI의 에너지 위기가 아날로그 컴퓨팅을 부활시키고 있습니다. 물리 법칙으로 계산하는 아날로그 칩의 원리와 노이즈 문제를 분석합니다.",
-      "detail": "AI 연산의 폭발적 에너지 소비가 디지털 논리 대신 물리 법칙을 활용하는 아날로그 컴퓨팅에 대한 관심을 되살리고 있습니다. 아날로그 칩은 전압이나 전류의 연속적 변화를 통해 행렬 곱셈 등의 AI 연산을 수행하며, 디지털 방식보다 훨씬 적은 에너지로 동일한 계산을 처리할 수 있습니다. 그러나 아날로그 회로 특유의 노이즈(잡음)가 정확도를 저하시키는 근본적인 문제가 있으며, 이 때문에 과거에 아날로그 AI는 한계에 부딪힌 바 있습니다. 이 글은 현재 연구자들이 노이즈 문제를 어떻게 극복하려 하는지, 그리고 아날로그 AI가 실용화될 수 있을지를 분석합니다."
+      "title": "It's all about the Super Pacs: How the New York Times completely misreported campaign contributions in the Maine Senate race",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/18/its-all-about-the-super-pacs-how-the-new-york-times-completely-misreported-campaign-contributions-in-the-maine-senate-race/",
+      "summary": "컬럼비아대 Statistical Modeling 블로그에서 NYT가 메인주 상원 선거 자금 데이터를 완전히 잘못 보도한 사례를 분석했습니다.",
+      "detail": "Tom Ferguson이 발견한 뉴욕타임스의 '2026 중간선거 자금 우위' 기사 속 잘못된 그래프 문제를 Andrew Gelman의 Statistical Modeling 블로그에서 분석했습니다. 메인주 상원 선거 자금 기여에 관한 데이터를 단순한 오류가 아니라, 데이터를 완전히 오해하게 만드는 방식으로 보도했다는 비판입니다. 구체적으로 Super PAC 기부와 직접 후보 기부를 올바르게 구분하지 못해 선거 자금 구도를 왜곡했습니다. 이 사례는 통계 데이터 시각화와 언론 보도에서 정확한 데이터 분류와 맥락 파악의 중요성을 보여주는 전형적인 예시로 인용됩니다."
     }
   ]
 }
