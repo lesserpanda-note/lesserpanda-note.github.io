@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-19T20:41:45+09:00",
-  "count": 727,
+  "updated": "2026-07-20T00:33:50+09:00",
+  "count": 726,
   "items": [
+    {
+      "title": "Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval",
+      "link": "https://towardsdatascience.com/loop-engineering-for-rag-question-parsing-the-small-loop-that-runs-before-retrieval/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #6quinquies] - Prompt engineering, then context engineering, then loop engineering. On the question side, the loop is small by design: read the doc, ask what is missing, re-parse.…",
+      "ts": 1784473200,
+      "published": "2026-07-19T15:00:00+00:00",
+      "collected_at": "2026-07-20T00:33:45+09:00"
+    },
+    {
+      "title": "Ted-talking University of California professor asks sex trafficker for $3,000,000 because he thinks there’s a “50% chance” he’ll make “important discoveries” in telepathy",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/19/university-of-california-professor-and-ted-talk-performer-asks-sex-trafficker-for-3000000-because-he-thinks-theres-a-50-chance-hell-make-important-discoveries-in-telepathy/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This is quite possibly the stupidest thing in the Epstein files. Lord knows there’s lots of competition from the likes of Soon-Yi “Woody” Allen, Larry “Lawrence” Summers, Nathan “Clippy” Myhrvold, and Columbia’s own Ric…",
+      "ts": 1784467632,
+      "published": "2026-07-19T13:27:12+00:00",
+      "collected_at": "2026-07-20T00:33:45+09:00"
+    },
+    {
+      "title": "Your AI Agent Passed Every Eval. Finance Still Killed It.",
+      "link": "https://towardsdatascience.com/your-ai-agent-passed-every-eval-finance-still-killed-it/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "An AI agent passed every metric in the eval harness I published, then the CFO killed it — its successful resolutions cost more than the humans it replaced. The one metric that predicts whether an agent survives producti…",
+      "ts": 1784466000,
+      "published": "2026-07-19T13:00:00+00:00",
+      "collected_at": "2026-07-20T00:33:45+09:00"
+    },
     {
       "title": "Top 10 GitHub Repositories Trending in July 2026 (AI, ML & GenAI Edition)",
       "link": "https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/",
@@ -7231,46 +7261,6 @@
       "ts": 1781891580,
       "published": "2026-06-19T17:53:00+00:00",
       "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Behind the Scenes: Block 450 JVM Repositories into Monorepo to Reduce Dependency Drift",
-      "link": "https://www.infoq.com/news/2026/06/block-450-jvm-monorepo-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Block, Inc. describes migrating ~450 JVM repositories into a monorepo across Cash App and Square engineering to reduce dependency drift and coordination overhead. The system supports ~8,800 weekly builds with ~10 min p9…",
-      "ts": 1781880420,
-      "published": "2026-06-19T14:47:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Patch release v5.10.4",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.10.3",
-      "source": "Transformers",
-      "category": "AI",
-      "summary": "Patch release v5.10.4 Update: Note that on pypi 5.10.3 doesn't exist and this this saved under 5.10.4 (so essentially a minor version skipped). Sorry about that, that's on me. Just wanted to clarify to make this less co…",
-      "ts": 1781875550,
-      "published": "2026-06-19T13:25:50+00:00",
-      "collected_at": "2026-07-13T22:56:22+09:00"
-    },
-    {
-      "title": "Gray Davis, Grover Norquist, and a rabbi walk into Peter Thiel’s Dialog conference . . . and get no press coverage!",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/19/gray-davis-grover-norquist-and-a-rabbi-walk-into-a-conference-and-get-no-press-coverage/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "You know that Oscar Wilde saying, “There is only one thing in the world worse than being talked about, and that is not being talked about”? This came to mind with respect to three once-famous people: Gray Davis, Grover…",
-      "ts": 1781874074,
-      "published": "2026-06-19T13:01:14+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Quiz: Using the Python zip() Function for Parallel Iteration",
-      "link": "https://realpython.com/quizzes/python-zip-function/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of Python's zip() function for parallel iteration, unzipping sequences, and building dictionaries from two lists.",
-      "ts": 1781870400,
-      "published": "2026-06-19T12:00:00+00:00",
-      "collected_at": null
     }
   ]
 }
