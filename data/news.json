@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-20T05:09:54+09:00",
-  "count": 730,
+  "updated": "2026-07-20T09:25:20+09:00",
+  "count": 731,
   "items": [
+    {
+      "title": "Grok-iOS – remote Grok Build from your iPhone over ACP",
+      "link": "https://github.com/Pedroshakoor/grok-build-ios",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/Pedroshakoor/grok-build-ios Comments URL: https://news.ycombinator.com/item?id=48971999 Points: 10 # Comments: 0",
+      "ts": 1784497886,
+      "published": "2026-07-19T21:51:26+00:00",
+      "collected_at": "2026-07-20T09:25:16+09:00"
+    },
     {
       "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
       "link": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -121,6 +131,16 @@
       "ts": 1784454614,
       "published": "2026-07-19T09:50:14+00:00",
       "collected_at": "2026-07-19T20:41:19+09:00"
+    },
+    {
+      "title": "Anthropic runs large-scale code migrations with Claude Code",
+      "link": "https://claude.com/blog/ai-code-migration",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://claude.com/blog/ai-code-migration Comments URL: https://news.ycombinator.com/item?id=48966044 Points: 26 # Comments: 27",
+      "ts": 1784449875,
+      "published": "2026-07-19T08:31:15+00:00",
+      "collected_at": "2026-07-20T09:25:16+09:00"
     },
     {
       "title": "AI Mania Is Eviscerating Global Decision-Making",
@@ -7290,16 +7310,6 @@
       "summary": "a quiet day lets us promo AIE one last time",
       "ts": 1781942765,
       "published": "2026-06-20T08:06:05+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quoting Sean Lynch",
-      "link": "https://simonwillison.net/2026/Jun/19/sean-lynch/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The real valuable capability MCP offers over skills/CLI is isolating the auth flow outside of the agent’s context window, and potentially out of the harness completely. [...] Maybe the idealized form of MCP is just an a…",
-      "ts": 1781909149,
-      "published": "2026-06-19T22:45:49+00:00",
       "collected_at": null
     }
   ]
