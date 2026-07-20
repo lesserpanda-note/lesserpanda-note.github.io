@@ -1,7 +1,67 @@
 {
-  "updated": "2026-07-21T01:26:46+09:00",
-  "count": 748,
+  "updated": "2026-07-21T03:55:44+09:00",
+  "count": 756,
   "items": [
+    {
+      "title": "Java News Roundup: Value Objects, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio",
+      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for July 13th, 2026, features news highlighting: a reintroduction of Value Objects (Preview); the GA release of WildFly 41; the July 2026 edition of Open Liberty 26.0.0.7; point releases of Torn…",
+      "ts": 1784573100,
+      "published": "2026-07-20T18:45:00+00:00",
+      "collected_at": "2026-07-21T03:55:22+09:00"
+    },
+    {
+      "title": "Java News Roundup: Value Objects, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio",
+      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for July 13th, 2026, features news highlighting: a reintroduction of Value Objects (Preview); the GA release of WildFly 41; the July 2026 edition of Open Liberty 26.0.0.7; point releases of Torn…",
+      "ts": 1784573100,
+      "published": "2026-07-20T18:45:00+00:00",
+      "collected_at": "2026-07-21T03:55:22+09:00"
+    },
+    {
+      "title": "China’s AI models have Trump’s AI world at war with itself",
+      "link": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Over the weekend, several current and former advisors to President Donald Trump o…",
+      "ts": 1784570400,
+      "published": "2026-07-20T18:00:00+00:00",
+      "collected_at": "2026-07-21T03:55:22+09:00"
+    },
+    {
+      "title": "Who’s Afraid of Chinese Models?",
+      "link": "https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Who’s Afraid of Chinese Models? Interesting proposal from Ben Thompson that both addresses the hypocrisy of labs outlawing distillation against their models despite training on unlicensed data, and could help US open mo…",
+      "ts": 1784567359,
+      "published": "2026-07-20T17:09:19+00:00",
+      "collected_at": "2026-07-21T03:55:22+09:00"
+    },
+    {
+      "title": "1.15.5",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.5",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Authenticate skill registry downloads Documentation Update snapshot and changelog for v1.15.4 Contributors @vinibrsl",
+      "ts": 1784565205,
+      "published": "2026-07-20T16:33:25+00:00",
+      "collected_at": "2026-07-21T03:55:22+09:00"
+    },
+    {
+      "title": "How to Run Claude Code Agents for 24+ Hours",
+      "link": "https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Apply long-running coding agents to become a more productive engineer The post How to Run Claude Code Agents for 24+ Hours appeared first on Towards Data Science .",
+      "ts": 1784565000,
+      "published": "2026-07-20T16:30:00+00:00",
+      "collected_at": "2026-07-21T03:55:22+09:00"
+    },
     {
       "title": "Introducing Cosmos 3 Edge",
       "link": "https://huggingface.co/blog/nvidia/cosmos3edge",
@@ -161,6 +221,16 @@
       "ts": 1784541840,
       "published": "2026-07-20T10:04:00+00:00",
       "collected_at": "2026-07-20T20:48:57+09:00"
+    },
+    {
+      "title": "Safety and alignment in an era of long-horizon models",
+      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment.",
+      "ts": 1784541600,
+      "published": "2026-07-20T10:00:00+00:00",
+      "collected_at": "2026-07-21T03:55:22+09:00"
     },
     {
       "title": "AI is more likely than humans to form biases when hiring",
@@ -681,6 +751,16 @@
       "ts": 1784294220,
       "published": "2026-07-17T13:17:00+00:00",
       "collected_at": "2026-07-18T00:01:24+09:00"
+    },
+    {
+      "title": "Presentation: From OTEL to SLMs: Distilling Frontier Model Behaviour from Production Telemetry",
+      "link": "https://www.infoq.com/presentations/otel-slm-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Ben O'Mahony discusses building custom AI-powered Language Server Protocols (LSPs) that go beyond standard rule-based checkers. He explains how to instrument AI agents natively with OpenTelemetry to track concrete user…",
+      "ts": 1784294220,
+      "published": "2026-07-17T13:17:00+00:00",
+      "collected_at": "2026-07-21T03:55:22+09:00"
     },
     {
       "title": "LLM cliché highlighter",
