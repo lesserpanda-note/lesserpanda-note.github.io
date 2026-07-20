@@ -1,7 +1,107 @@
 {
-  "updated": "2026-07-20T20:49:01+09:00",
-  "count": 735,
+  "updated": "2026-07-20T23:14:21+09:00",
+  "count": 745,
   "items": [
+    {
+      "title": "A Beginner’s Guide to Setting Up Claude Code for High Performance Agentic Programming",
+      "link": "https://www.kdnuggets.com/a-beginners-guide-to-setting-up-claude-code-for-high-performance-agentic-programming",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "This article walks through the actual configuration, permissions, hooks, and command habits that separate a fresh install from a setup that holds up under real, sustained agentic work.",
+      "ts": 1784556023,
+      "published": "2026-07-20T14:00:23+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
+    {
+      "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability",
+      "link": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "DoorDash has developed Entity Cache, a transparent proxy caching platform built on Envoy and Valkey to reduce redundant service-to-service requests across its microservices architecture. Operating within DoorDash’s serv…",
+      "ts": 1784555580,
+      "published": "2026-07-20T13:53:00+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
+    {
+      "title": "Water Cooler Small Talk, Ep. 12: Byzantine Fault Tolerance",
+      "link": "https://towardsdatascience.com/water-cooler-small-talk-ep-12-byzantine-fault-tolerance/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How do you make decisions when you can't trust anyone in the room? The post Water Cooler Small Talk, Ep. 12: Byzantine Fault Tolerance appeared first on Towards Data Science .",
+      "ts": 1784554200,
+      "published": "2026-07-20T13:30:00+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
+    {
+      "title": "Rebecca Makkai points out: Fancy three-dimensional sets are easier to construct in books than in movies, but harder to explain",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/20/fancy-three-dimensional-sets-are-easier-to-construct-in-books-than-in-movies-but-harder-to-explain/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In a post entitled, “You’re Writing a Book. So Stop Writing a Movie,” Rebecca Makkai writes: You want to set your movie in a futuristic New York where every building has a flying car port on top and there are … Continue…",
+      "ts": 1784552643,
+      "published": "2026-07-20T13:04:03+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
+    {
+      "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators",
+      "link": "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "InfoQ has opened enrollment for three five-week online certification cohorts starting in August, each led by a senior practitioner applying QCon talk frameworks to participants' own work: architecture with Luca Mezzalir…",
+      "ts": 1784552400,
+      "published": "2026-07-20T13:00:00+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
+    {
+      "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators",
+      "link": "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "InfoQ has opened enrollment for three five-week online certification cohorts starting in August, each led by a senior practitioner applying QCon talk frameworks to participants' own work: architecture with Luca Mezzalir…",
+      "ts": 1784552400,
+      "published": "2026-07-20T13:00:00+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
+    {
+      "title": "Top 5 MCP Servers for High-Performance Agentic Development",
+      "link": "https://www.kdnuggets.com/top-5-mcp-servers-for-high-performance-agentic-development",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Here are five that are genuinely worth wiring into a high-performance agent development setup, chosen for what they do to an agent's actual capability rather than their star count.",
+      "ts": 1784548825,
+      "published": "2026-07-20T12:00:25+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
+    {
+      "title": "Quiz: Using NumPy reshape() to Change the Shape of an Array",
+      "link": "https://realpython.com/quizzes/numpy-reshape/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice NumPy reshape() by changing an array's shape, adding or removing dimensions, and controlling how the data gets rearranged.",
+      "ts": 1784548800,
+      "published": "2026-07-20T12:00:00+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
+    {
+      "title": "Automatically Assign a Category to Uncategorized Rows in Power Query and DAX",
+      "link": "https://towardsdatascience.com/automatically-assign-a-category-to-uncategorised-rows-in-power-query-and-dax/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Having categorized data is everything in reporting. Uncategorized data cannot be grouped and aggregated. But sometimes we must assign a category to uncategorized data according to certain rules. Let’s see how I solved t…",
+      "ts": 1784548800,
+      "published": "2026-07-20T12:00:00+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
+    {
+      "title": "Building Agentic Workflows in Python with LangGraph",
+      "link": "https://machinelearningmastery.com/building-agentic-workflows-in-python-with-langgraph/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how to build a complete agentic workflow in Python with LangGraph, from a single model call to a tool-using...",
+      "ts": 1784546838,
+      "published": "2026-07-20T11:27:18+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
+    },
     {
       "title": "Podcast: Strands Agents with Clare Liguori",
       "link": "https://www.infoq.com/podcasts/strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -61,6 +161,16 @@
       "ts": 1784519279,
       "published": "2026-07-20T03:47:59+00:00",
       "collected_at": "2026-07-20T17:21:12+09:00"
+    },
+    {
+      "title": "Quality Outreach Heads-up - JDK 27: Default G1 in All Environments",
+      "link": "https://inside.java/2026/07/20/quality-heads-up/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "This Heads-Up is part of the regular communication sent to the projects involved; it covers the removal of deprecated Java launcher options.",
+      "ts": 1784505600,
+      "published": "2026-07-20T00:00:00+00:00",
+      "collected_at": "2026-07-20T23:14:17+09:00"
     },
     {
       "title": "Grok-iOS – remote Grok Build from your iPhone over ACP",
@@ -7341,16 +7451,6 @@
       "ts": 1781965935,
       "published": "2026-06-20T14:32:15+00:00",
       "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "A tool for learning about Fourier transforms",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/20/a-tool-for-learning-about-fourier-transforms/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Eric Novik came by my talk the other day and we were chatting about a number of things, including how much we forget as the years go by. I remarked that I used to be very comfortable with Fourier analysis … Continue rea…",
-      "ts": 1781961830,
-      "published": "2026-06-20T13:23:50+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
     }
   ]
 }
