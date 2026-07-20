@@ -1,48 +1,41 @@
 {
-  "updated": "2026-07-19T00:13:35Z",
-  "summary": "오늘은 Anthropic이 Claude Fable 5 모델을 7월 20일부터 유료 플랜에 정식 포함한다고 발표하고, Pydantic AI 2.13.0이 릴리스되면서 에이전트 생태계의 중요한 업데이트가 이어졌습니다. AI 분야에서는 LLM 추론 노력 제어 기법과 Pinecone Nexus 지식 엔진 정식 출시가 주목받았습니다. 데이터 사이언스에서는 핀테크 고객 이탈 방지에 업리프트 모델링을 결합하는 실용적 방법론과 언론의 통계 데이터 오보 사례 분석이 인상적이었습니다.",
+  "updated": "2026-07-20T00:24:49Z",
+  "summary": "오늘은 Google의 AlphaEvolve가 정식 출시되어 진화적 코드 최적화를 클라우드 서비스로 제공하기 시작했으며, Netflix가 단일 Transformer 모델로 홈페이지 추천 파이프라인 전체를 대체한 GenPage를 공개했습니다. 에이전트 분야에서는 Claude Code의 기반 런타임인 Bun이 Zig에서 Rust로 전면 재작성된 사례가 주목받았으며, 11일간 64개 AI 에이전트를 동시 운용한 대규모 마이그레이션 사례로 화제가 됩니다.",
   "highlights": [
     {
-      "category": "AI",
-      "title": "Controlling Reasoning Effort in LLMs",
-      "link": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
-      "summary": "Sebastian Raschka가 LLM의 추론 노력(Reasoning Effort) 제어 방법을 심층 분석했습니다. 모델이 저·중·고강도 추론 모드를 어떻게 학습하는지를 실용적 관점에서 설명합니다.",
-      "detail": "Sebastian Raschka의 'Ahead of AI' 뉴스레터에서 LLM의 추론 노력을 제어하는 기법을 상세히 다뤘습니다. 현대 LLM은 단순한 질문과 복잡한 수학 문제에 각각 다른 수준의 '사고 토큰'을 사용하도록 훈련되는데, 이 글은 모델이 저강도(빠른 응답), 중간강도, 고강도(장시간 추론) 모드를 학습하는 원리를 설명합니다. 추론 노력을 조절하면 응답 속도와 비용을 최적화하면서도 복잡한 문제에 높은 품질의 답변을 유지할 수 있습니다. 특히 API 비용 절감이 중요한 프로덕션 환경에서 추론 노력 제어는 핵심 최적화 전략으로 활용됩니다."
+      "category": "Java",
+      "title": "Toward a Durable Spring PetClinic",
+      "link": "https://foojay.io/today/toward-a-durable-spring-petclinic/",
+      "summary": "Durable Execution 패턴을 Spring PetClinic 예제에 적용하여 장애 발생 시에도 코드 실행 상태를 보존하는 방법을 소개합니다.",
+      "detail": "Durable Execution은 장애 발생 시에도 코드 실행 진행 상태가 유실되지 않고 자동으로 복구되는 실행 방식입니다. 일반적인 프로세스는 서버 재시작 시 인메모리 상태가 모두 소멸되지만, Durable Execution을 활용하면 워크플로우 진행 상태를 영속적으로 저장하여 장애 후 중단 지점부터 재개할 수 있습니다. 이 글은 Spring의 대표 예제 프로젝트인 PetClinic을 통해 실제 Durable Execution 패턴을 구현하는 과정을 안내합니다. 장기 실행 비즈니스 프로세스나 분산 트랜잭션, 오류 복구가 필요한 Spring 애플리케이션에 적합한 접근법입니다."
     },
     {
       "category": "AI",
-      "title": "Pinecone Introduces Nexus Engine for Compiling Business Context into Structured Data for AI Agents",
-      "link": "https://www.infoq.com/news/2026/07/pinecon-nexus-knowledge-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Pinecone이 AI 에이전트를 위한 지식 엔진 'Nexus'를 정식 출시했습니다. 기업 데이터를 에이전트가 직접 조회할 수 있는 구조화된 레이어로 변환하는 솔루션입니다.",
-      "detail": "Pinecone Nexus는 엔터프라이즈 데이터를 AI 에이전트가 효율적으로 활용할 수 있도록 구조화된 지식 레이어로 변환하는 'knowledge engine'으로, 일반 공개(GA) 상태로 제공됩니다. 팀이 비즈니스 컨텍스트를 한 번 수집·큐레이션하면, 이후 모든 AI 에이전트가 동일한 데이터에 직접 접근할 수 있습니다. RAG(검색 증강 생성)를 넘어 에이전트가 구조화된 형태의 비즈니스 데이터를 직접 쿼리할 수 있게 함으로써, 여러 에이전트에 걸친 일관된 컨텍스트 관리 문제를 해결합니다. 기업 환경에서 AI 에이전트가 사내 지식을 정확하게 활용해야 하는 사용 사례에 특히 유용합니다."
+      "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization",
+      "link": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Google의 AlphaEvolve가 2026년 7월 Gemini Enterprise Agent Platform에서 GA를 달성했습니다. 진화적 코드 최적화 에이전트로, 사용자 정의 평가 함수를 기반으로 알고리즘을 자동 개선합니다.",
+      "detail": "AlphaEvolve는 DeepMind와 Google Cloud가 공동 개발한 코드 최적화 에이전트로, 2025년 12월 비공개 프리뷰 이후 2026년 7월 정식 출시되었습니다. 사용자는 기준 알고리즘(시드 프로그램)과 결과를 평가하는 함수를 제공하면, Gemini 모델이 변형된 후보 프로그램을 생성하고 평가 점수 기반으로 반복 최적화를 수행합니다. 평가 함수는 클라이언트 측에서 실행되어 코드가 외부 서버로 전송되지 않아 기업 보안 요건을 충족합니다.\n주요 고객 성과: JetBrains IDE 성능 15~20% 향상, FM Logistic 창고 라우팅 10.4% 개선, Kinaxis 예측 정확도 22% 향상 및 런타임 90% 단축, Klarna ML 학습 처리량 2배 증가, PacBio 변이 감지 오류 30% 감소. Google 내부에서도 Spanner 쓰기 증폭 20% 절감, 컴파일러 최적화로 소프트웨어 저장 공간 9% 절감 등의 성과를 거뒀습니다. Google Cloud 콘솔의 Gemini Enterprise Agent Platform에서 즉시 사용 가능합니다."
+    },
+    {
+      "category": "AI",
+      "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
+      "link": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Netflix가 기존 다단계 추천 파이프라인을 단일 디코더 전용 Transformer로 대체한 GenPage를 공개했습니다. A/B 테스트에서 핵심 사용자 참여 지표 +0.24% 향상, 서빙 지연 20% 단축을 달성했습니다.",
+      "detail": "Netflix 연구팀이 arXiv(2606.31031)에 발표한 GenPage는 기존에 검색, 필터링, 랭킹, 블렌딩 단계를 각각 담당하던 다단계 추천 파이프라인을 하나의 디코더 전용 Transformer로 통합한 시스템입니다. 사용자 컨텍스트와 요청을 프롬프트로 입력하면, 모델이 행 순서, 레이아웃, 콘텐츠 선택을 포함한 구조화된 다행 홈페이지 전체를 자기회귀적으로 생성합니다.\n주요 기술: ①도메인 특화 토크나이제이션으로 서빙 효율화, ②콜드 스타트 대응을 위한 시맨틱 임베딩 융합, ③다중 주기 증분 학습으로 모델 신선도 유지, ④비즈니스 규칙 적용을 위한 제약 디코딩, ⑤하이브리드 행 디코딩(앞부분 자기회귀+나머지 단일 포워드 패스). A/B 테스트 결과 WBC 파인튜닝 방식에서 핵심 참여 지표 +0.24%(p<0.001) 향상, 서빙 지연 20% 단축을 달성했습니다. 핵심 발견: 현재 운영 규모에서는 모델 크기보다 프롬프트 품질 향상이 더 큰 성능 향상으로 이어집니다."
     },
     {
       "category": "Agents",
-      "title": "Claude make Fable 5 permanent",
-      "link": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
-      "summary": "Anthropic이 Claude Fable 5 모델을 2026년 7월 20일부터 Max 및 Team Premium 플랜에 정식 포함시킨다고 발표했습니다. Pro 및 Team Standard 사용자도 계속 이용할 수 있습니다.",
-      "detail": "@claudeai 공식 트위터 계정을 통해 발표된 내용에 따르면, 2026년 7월 20일부터 Claude Fable 5가 Max 및 Team Premium 플랜에 50% 한도 내에서 포함됩니다. Pro 및 Team Standard 사용자에게도 Fable 5 접근이 유지됩니다. 이번 결정은 Fable 5가 시범 제공 단계를 벗어나 정식 플랜 혜택으로 자리잡는 것을 의미하며, Anthropic의 고급 추론 모델을 더 많은 유료 사용자가 안정적으로 이용할 수 있게 됩니다. Simon Willison이 이 소식을 공유하며 Fable 5의 고성능 추론 기능이 일상적인 플랜에 통합된 점을 주목했습니다."
+      "title": "Claude Code uses Bun written in Rust now",
+      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+      "summary": "Claude Code의 기반 런타임인 Bun이 Zig에서 Rust로 전면 재작성되었으며, 이 마이그레이션 자체가 64개 Claude 에이전트를 11일간 동시 운용한 대규모 AI 지원 사례로 주목받고 있습니다.",
+      "detail": "Bun 개발자 Jarred Sumner가 535,496줄의 Zig 코드를 Rust로 전환하는 작업을 단 11일 만에 완료했습니다. 핵심 도구는 Claude Code와 Claude Fable 5 프리릴리스 버전이었으며, 최대 64개의 Claude 에이전트를 동시에 실행하여 피크 시 분당 약 1,300줄의 속도로 코드를 생성했습니다.\n주요 수치: 총 6,502개 커밋, 입력 토큰 59억 개, 생성 코드 100만 줄 이상, 수정된 버그 128개, API 비용 약 $165,000(표준 가격 기준). 검증 전략으로는 TypeScript로 작성된 기존 테스트 스위트(60,624개 테스트, 138만 개 expect() 호출)를 그대로 활용하여 언어 중립적으로 정확성을 확인했습니다. Claude Code v2.1.181(2026년 6월 17일 출시) 이후 Linux에서 시작 시간이 약 10% 개선되었으며, Simon Willison은 자신의 설치 경로에서 563개의 Rust 컴파일 파일을 발견하며 이 사실을 확인했습니다."
     },
     {
       "category": "Agents",
-      "title": "v2.13.0 (2026-07-17)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.13.0",
-      "summary": "Pydantic AI v2.13.0이 출시되어 캐시 적중률 측정, 콘텐츠 필터 오류 처리, 계측 설정 개선 등 새로운 기능이 추가되었습니다.",
-      "detail": "Pydantic AI v2.13.0 주요 변경사항:\n• RequestUsage 및 RunUsage에 cache_hit_ratio 속성 추가 — LLM 캐싱 효율을 코드에서 직접 측정 가능\n• RaiseContentFilterError 기능 추가로 비어 있지 않은 콘텐츠 필터 응답을 명시적 예외로 처리 가능\n• include_model_request_parameters 계측 설정으로 OpenTelemetry 스팬에서 민감한 파라미터 제외 가능\n• get_model, resolve_model_id, for_agent 등 새로운 capability hook 추가로 확장성 개선\n• MCP 의존성 1.28.1로 업데이트(Dependabot 보안 알림 대응)\n• MistralModel 스트리밍 버그, UI 스트림 오류 시 메시지 파트 처리 문제, OpenTelemetry 컨텍스트 분리 오류 수정"
-    },
-    {
-      "category": "DataScience",
-      "title": "How to Improve Customer Retention in FinTech",
-      "link": "https://towardsdatascience.com/how-to-improve-customer-retention-in-digital-banking/",
-      "summary": "핀테크 고객 이탈 방지를 위해 이탈 예측 스코어링과 업리프트 모델링을 결합하는 실용적 방법론을 제시합니다.",
-      "detail": "이 글은 디지털 뱅킹·핀테크 환경에서 고객 이탈률을 줄이기 위해 두 가지 ML 기법을 결합하는 방법을 다룹니다. 이탈 전 스코어링(pre-churn scoring)으로 이탈 위험이 높은 고객을 사전에 식별하고, 업리프트 모델링(uplift modelling)을 통해 실제로 마케팅 개입에 반응할 가능성이 높은 고객을 추가로 선별합니다. 이 조합은 단순 이탈 예측 모델보다 효율적인 리텐션 캠페인을 가능하게 합니다: 이탈 위험이 있으면서도 개입에 반응하는 고객에게만 비용을 집중할 수 있기 때문입니다. 실제 사업 임팩트를 극대화하기 위한 실용적 관점의 데이터 사이언스 응용 사례입니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "It's all about the Super Pacs: How the New York Times completely misreported campaign contributions in the Maine Senate race",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/18/its-all-about-the-super-pacs-how-the-new-york-times-completely-misreported-campaign-contributions-in-the-maine-senate-race/",
-      "summary": "컬럼비아대 Statistical Modeling 블로그에서 NYT가 메인주 상원 선거 자금 데이터를 완전히 잘못 보도한 사례를 분석했습니다.",
-      "detail": "Tom Ferguson이 발견한 뉴욕타임스의 '2026 중간선거 자금 우위' 기사 속 잘못된 그래프 문제를 Andrew Gelman의 Statistical Modeling 블로그에서 분석했습니다. 메인주 상원 선거 자금 기여에 관한 데이터를 단순한 오류가 아니라, 데이터를 완전히 오해하게 만드는 방식으로 보도했다는 비판입니다. 구체적으로 Super PAC 기부와 직접 후보 기부를 올바르게 구분하지 못해 선거 자금 구도를 왜곡했습니다. 이 사례는 통계 데이터 시각화와 언론 보도에서 정확한 데이터 분류와 맥락 파악의 중요성을 보여주는 전형적인 예시로 인용됩니다."
+      "title": "Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval",
+      "link": "https://towardsdatascience.com/loop-engineering-for-rag-question-parsing-the-small-loop-that-runs-before-retrieval/",
+      "summary": "RAG 파이프라인에서 검색 실행 전 단계에 경량 '명확화 루프'를 추가하여 모호한 질문이 검색 품질을 저하시키는 문제를 체계적으로 예방하는 엔지니어링 접근법을 소개합니다.",
+      "detail": "프로덕션 RAG 파이프라인의 질문 파싱 단계를 다루며, 검색 전에 실행되는 명확화 루프(clarification loop)를 제안합니다. 파서는 키워드, 범위(scope), 형태(shape), 분해(decomposition), 명확화(clarification) 등 5개 컬럼을 가진 question_df 행을 생성하고, 이를 기반으로 검색용 RetrievalQuery와 생성용 GenerationBrief 두 가지 출력을 만듭니다.\n루프 동작: 파서가 사용자 의도나 범위를 충분한 신뢰도로 파악하지 못할 경우 ClarificationRequest를 발행하여 핵심 질문 하나를 요청하고 파이프라인을 일시 중단합니다. 동일한 유형의 모호성이 반복 발생하면 이전 답변을 캐싱하여 루프가 자동화됩니다. 핵심 원칙은 '검색 전 구조화(structure before search)'로, 원시 질문 문자열을 타입화된 필드로 변환한 후 인덱스에 전달함으로써 검색 및 생성 품질을 일관되게 향상시킵니다."
     }
   ]
 }

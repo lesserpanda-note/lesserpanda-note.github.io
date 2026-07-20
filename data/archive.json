@@ -1,6 +1,54 @@
 {
   "digests": [
     {
+      "date": "2026-07-19",
+      "summary": "오늘은 Anthropic이 Claude Fable 5 모델을 7월 20일부터 유료 플랜에 정식 포함한다고 발표하고, Pydantic AI 2.13.0이 릴리스되면서 에이전트 생태계의 중요한 업데이트가 이어졌습니다. AI 분야에서는 LLM 추론 노력 제어 기법과 Pinecone Nexus 지식 엔진 정식 출시가 주목받았습니다. 데이터 사이언스에서는 핀테크 고객 이탈 방지에 업리프트 모델링을 결합하는 실용적 방법론과 언론의 통계 데이터 오보 사례 분석이 인상적이었습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "Controlling Reasoning Effort in LLMs",
+          "link": "https://magazine.sebastianraschka.com/p/controlling-reasoning-effort-in-llms",
+          "summary": "Sebastian Raschka가 LLM의 추론 노력(Reasoning Effort) 제어 방법을 심층 분석했습니다. 모델이 저·중·고강도 추론 모드를 어떻게 학습하는지를 실용적 관점에서 설명합니다.",
+          "detail": "Sebastian Raschka의 'Ahead of AI' 뉴스레터에서 LLM의 추론 노력을 제어하는 기법을 상세히 다뤘습니다. 현대 LLM은 단순한 질문과 복잡한 수학 문제에 각각 다른 수준의 '사고 토큰'을 사용하도록 훈련되는데, 이 글은 모델이 저강도(빠른 응답), 중간강도, 고강도(장시간 추론) 모드를 학습하는 원리를 설명합니다. 추론 노력을 조절하면 응답 속도와 비용을 최적화하면서도 복잡한 문제에 높은 품질의 답변을 유지할 수 있습니다. 특히 API 비용 절감이 중요한 프로덕션 환경에서 추론 노력 제어는 핵심 최적화 전략으로 활용됩니다."
+        },
+        {
+          "category": "AI",
+          "title": "Pinecone Introduces Nexus Engine for Compiling Business Context into Structured Data for AI Agents",
+          "link": "https://www.infoq.com/news/2026/07/pinecon-nexus-knowledge-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Pinecone이 AI 에이전트를 위한 지식 엔진 'Nexus'를 정식 출시했습니다. 기업 데이터를 에이전트가 직접 조회할 수 있는 구조화된 레이어로 변환하는 솔루션입니다.",
+          "detail": "Pinecone Nexus는 엔터프라이즈 데이터를 AI 에이전트가 효율적으로 활용할 수 있도록 구조화된 지식 레이어로 변환하는 'knowledge engine'으로, 일반 공개(GA) 상태로 제공됩니다. 팀이 비즈니스 컨텍스트를 한 번 수집·큐레이션하면, 이후 모든 AI 에이전트가 동일한 데이터에 직접 접근할 수 있습니다. RAG(검색 증강 생성)를 넘어 에이전트가 구조화된 형태의 비즈니스 데이터를 직접 쿼리할 수 있게 함으로써, 여러 에이전트에 걸친 일관된 컨텍스트 관리 문제를 해결합니다. 기업 환경에서 AI 에이전트가 사내 지식을 정확하게 활용해야 하는 사용 사례에 특히 유용합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Claude make Fable 5 permanent",
+          "link": "https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/#atom-everything",
+          "summary": "Anthropic이 Claude Fable 5 모델을 2026년 7월 20일부터 Max 및 Team Premium 플랜에 정식 포함시킨다고 발표했습니다. Pro 및 Team Standard 사용자도 계속 이용할 수 있습니다.",
+          "detail": "@claudeai 공식 트위터 계정을 통해 발표된 내용에 따르면, 2026년 7월 20일부터 Claude Fable 5가 Max 및 Team Premium 플랜에 50% 한도 내에서 포함됩니다. Pro 및 Team Standard 사용자에게도 Fable 5 접근이 유지됩니다. 이번 결정은 Fable 5가 시범 제공 단계를 벗어나 정식 플랜 혜택으로 자리잡는 것을 의미하며, Anthropic의 고급 추론 모델을 더 많은 유료 사용자가 안정적으로 이용할 수 있게 됩니다. Simon Willison이 이 소식을 공유하며 Fable 5의 고성능 추론 기능이 일상적인 플랜에 통합된 점을 주목했습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "v2.13.0 (2026-07-17)",
+          "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.13.0",
+          "summary": "Pydantic AI v2.13.0이 출시되어 캐시 적중률 측정, 콘텐츠 필터 오류 처리, 계측 설정 개선 등 새로운 기능이 추가되었습니다.",
+          "detail": "Pydantic AI v2.13.0 주요 변경사항:\n• RequestUsage 및 RunUsage에 cache_hit_ratio 속성 추가 — LLM 캐싱 효율을 코드에서 직접 측정 가능\n• RaiseContentFilterError 기능 추가로 비어 있지 않은 콘텐츠 필터 응답을 명시적 예외로 처리 가능\n• include_model_request_parameters 계측 설정으로 OpenTelemetry 스팬에서 민감한 파라미터 제외 가능\n• get_model, resolve_model_id, for_agent 등 새로운 capability hook 추가로 확장성 개선\n• MCP 의존성 1.28.1로 업데이트(Dependabot 보안 알림 대응)\n• MistralModel 스트리밍 버그, UI 스트림 오류 시 메시지 파트 처리 문제, OpenTelemetry 컨텍스트 분리 오류 수정"
+        },
+        {
+          "category": "DataScience",
+          "title": "How to Improve Customer Retention in FinTech",
+          "link": "https://towardsdatascience.com/how-to-improve-customer-retention-in-digital-banking/",
+          "summary": "핀테크 고객 이탈 방지를 위해 이탈 예측 스코어링과 업리프트 모델링을 결합하는 실용적 방법론을 제시합니다.",
+          "detail": "이 글은 디지털 뱅킹·핀테크 환경에서 고객 이탈률을 줄이기 위해 두 가지 ML 기법을 결합하는 방법을 다룹니다. 이탈 전 스코어링(pre-churn scoring)으로 이탈 위험이 높은 고객을 사전에 식별하고, 업리프트 모델링(uplift modelling)을 통해 실제로 마케팅 개입에 반응할 가능성이 높은 고객을 추가로 선별합니다. 이 조합은 단순 이탈 예측 모델보다 효율적인 리텐션 캠페인을 가능하게 합니다: 이탈 위험이 있으면서도 개입에 반응하는 고객에게만 비용을 집중할 수 있기 때문입니다. 실제 사업 임팩트를 극대화하기 위한 실용적 관점의 데이터 사이언스 응용 사례입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "It's all about the Super Pacs: How the New York Times completely misreported campaign contributions in the Maine Senate race",
+          "link": "https://statmodeling.stat.columbia.edu/2026/07/18/its-all-about-the-super-pacs-how-the-new-york-times-completely-misreported-campaign-contributions-in-the-maine-senate-race/",
+          "summary": "컬럼비아대 Statistical Modeling 블로그에서 NYT가 메인주 상원 선거 자금 데이터를 완전히 잘못 보도한 사례를 분석했습니다.",
+          "detail": "Tom Ferguson이 발견한 뉴욕타임스의 '2026 중간선거 자금 우위' 기사 속 잘못된 그래프 문제를 Andrew Gelman의 Statistical Modeling 블로그에서 분석했습니다. 메인주 상원 선거 자금 기여에 관한 데이터를 단순한 오류가 아니라, 데이터를 완전히 오해하게 만드는 방식으로 보도했다는 비판입니다. 구체적으로 Super PAC 기부와 직접 후보 기부를 올바르게 구분하지 못해 선거 자금 구도를 왜곡했습니다. 이 사례는 통계 데이터 시각화와 언론 보도에서 정확한 데이터 분류와 맥락 파악의 중요성을 보여주는 전형적인 예시로 인용됩니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-18",
       "summary": "오늘은 ParparVM이 HotSpot과 대등한 성능을 달성하며 JVM 최적화의 새 지평을 연 소식과 Kotlin 15주년 기념 소식이 주목받았습니다. AI 분야에서는 CNCF의 클라우드 네이티브 기반 에이전틱 AI 신뢰성 분석, Kimi K3의 역대 최대 오픈 모델 출시가 이슈였으며, Python의 GIL 제거 역사와 uv 프로덕션 활용법도 화제였습니다.",
       "highlights": [
