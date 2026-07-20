@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-20T17:21:16+09:00",
-  "count": 733,
+  "updated": "2026-07-20T20:49:01+09:00",
+  "count": 735,
   "items": [
+    {
+      "title": "Podcast: Strands Agents with Clare Liguori",
+      "link": "https://www.infoq.com/podcasts/strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Thomas Betts talks with Clare Liguori, the technical lead on the open source Strands Agents SDK. The conversation covers how Strands Agents has grown from a Python SDK to a full agent harness running in production. Clar…",
+      "ts": 1784545200,
+      "published": "2026-07-20T11:00:00+00:00",
+      "collected_at": "2026-07-20T20:48:57+09:00"
+    },
+    {
+      "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale",
+      "link": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS released Loom, an open-source reference platform on AWS Labs for governing AI agents at scale. Built on Strands Agents and Bedrock AgentCore Runtime, it implements RFC 8693 token exchange for identity propagation th…",
+      "ts": 1784541840,
+      "published": "2026-07-20T10:04:00+00:00",
+      "collected_at": "2026-07-20T20:48:57+09:00"
+    },
+    {
+      "title": "AI is more likely than humans to form biases when hiring",
+      "link": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "The next time you apply for a job, AI may screen your résumé before any human sees it. But there’s good reason to question whether AI will judge you fairly. Researchers already know that LLMs pick up human biases from t…",
+      "ts": 1784536741,
+      "published": "2026-07-20T08:39:01+00:00",
+      "collected_at": "2026-07-20T20:48:57+09:00"
+    },
     {
       "title": "Complete Guide to Thinking Machines Inkling",
       "link": "https://www.analyticsvidhya.com/blog/2026/07/thinking-machines-inkling/",
@@ -7321,16 +7351,6 @@
       "ts": 1781961830,
       "published": "2026-06-20T13:23:50+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Temporary Cloudflare accounts for AI agents",
-      "link": "https://blog.cloudflare.com/temporary-accounts/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://blog.cloudflare.com/temporary-accounts/ Comments URL: https://news.ycombinator.com/item?id=48608394 Points: 245 # Comments: 148",
-      "ts": 1781954345,
-      "published": "2026-06-20T11:19:05+00:00",
-      "collected_at": null
     }
   ]
 }
