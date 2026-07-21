@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-21T18:30:35+09:00",
-  "count": 757,
+  "updated": "2026-07-21T20:49:53+09:00",
+  "count": 762,
   "items": [
+    {
+      "title": "BoxLang AWS, Azure, and Google Secrets Manager Module Released",
+      "link": "https://foojay.io/today/boxlang-aws-azure-and-google-secrets-manager-module-released/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Every production application carries secrets: database passwords, API tokens, encryption keys. The question is never whether to manage them -- it's how badly the current approach is going to hurt you. Hardcoded credenti…",
+      "ts": 1784633898,
+      "published": "2026-07-21T11:38:18+00:00",
+      "collected_at": "2026-07-21T20:49:36+09:00"
+    },
+    {
+      "title": "Advancing next-gen AI with materials science innovation",
+      "link": "https://www.technologyreview.com/2026/07/21/1140602/advancing-next-gen-ai-with-materials-science-innovation/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "The conversation about AI often centers on algorithms, computing power, or huge investments in new semiconductor fabrication plants and hyperscale data centers. But beneath each of these advances is another layer of inn…",
+      "ts": 1784630254,
+      "published": "2026-07-21T10:37:34+00:00",
+      "collected_at": "2026-07-21T20:49:36+09:00"
+    },
+    {
+      "title": "Presentation: Engineering AI for Creativity and Curiosity on Mobile",
+      "link": "https://www.infoq.com/presentations/ai-mobile/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Bhavuk Jain discusses translating foundational AI into scalable mobile products. He shares the engineering challenges behind AI Wallpapers and Circle to Search, detailing how to implement robust runtime guardrails, fine…",
+      "ts": 1784629200,
+      "published": "2026-07-21T10:20:00+00:00",
+      "collected_at": "2026-07-21T20:49:36+09:00"
+    },
+    {
+      "title": "Yelp Unifies ML Model Training with Training Orchestrator",
+      "link": "https://www.infoq.com/news/2026/07/yelp-ai-model-training/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Yelp has launched Training Orchestrator. This new internal framework replaces individual team Spark training scripts. Now, it uses a configuration-driven, DAG-based execution model. By Claudio Masolo",
+      "ts": 1784628000,
+      "published": "2026-07-21T10:00:00+00:00",
+      "collected_at": "2026-07-21T20:49:36+09:00"
+    },
     {
       "title": "v2.14.1 (2026-07-20)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.14.1",
@@ -31,6 +71,16 @@
       "ts": 1784596550,
       "published": "2026-07-21T01:15:50+00:00",
       "collected_at": "2026-07-21T12:35:25+09:00"
+    },
+    {
+      "title": "Grabette: an open system to record robot-manipulation data",
+      "link": "https://huggingface.co/blog/grabette",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1784592000,
+      "published": "2026-07-21T00:00:00+00:00",
+      "collected_at": "2026-07-21T20:49:36+09:00"
     },
     {
       "title": "Reverse-engineering is cheap now",
