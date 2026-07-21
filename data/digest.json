@@ -1,41 +1,69 @@
 {
-  "updated": "2026-07-20T00:24:49Z",
-  "summary": "오늘은 Google의 AlphaEvolve가 정식 출시되어 진화적 코드 최적화를 클라우드 서비스로 제공하기 시작했으며, Netflix가 단일 Transformer 모델로 홈페이지 추천 파이프라인 전체를 대체한 GenPage를 공개했습니다. 에이전트 분야에서는 Claude Code의 기반 런타임인 Bun이 Zig에서 Rust로 전면 재작성된 사례가 주목받았으며, 11일간 64개 AI 에이전트를 동시 운용한 대규모 마이그레이션 사례로 화제가 됩니다.",
+  "updated": "2026-07-21T00:13:38Z",
+  "summary": "오늘은 OpenAI가 장기 실행 AI 모델의 안전성과 정렬 연구 결과를 공개하고, 미·중 AI 패권 경쟁이 미국 내 정책 갈등으로 이어지는 양상을 MIT 테크 리뷰가 조명했습니다. 아키텍처 분야에서는 DoorDash가 초당 150만 요청을 seven nines 가용성으로 처리하는 Envoy/Valkey 기반 프록시 캐시를 공개했고, AWS가 기업용 AI 에이전트 거버넌스 플랫폼 Loom을 오픈소스로 출시했습니다. 에이전트 영역에서는 코딩 에이전트가 역공학 비용을 대폭 낮추고 있다는 Simon Willison의 분석과 Claude Code를 24시간 이상 운영하기 위한 실전 가이드가 주목받았습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "Toward a Durable Spring PetClinic",
-      "link": "https://foojay.io/today/toward-a-durable-spring-petclinic/",
-      "summary": "Durable Execution 패턴을 Spring PetClinic 예제에 적용하여 장애 발생 시에도 코드 실행 상태를 보존하는 방법을 소개합니다.",
-      "detail": "Durable Execution은 장애 발생 시에도 코드 실행 진행 상태가 유실되지 않고 자동으로 복구되는 실행 방식입니다. 일반적인 프로세스는 서버 재시작 시 인메모리 상태가 모두 소멸되지만, Durable Execution을 활용하면 워크플로우 진행 상태를 영속적으로 저장하여 장애 후 중단 지점부터 재개할 수 있습니다. 이 글은 Spring의 대표 예제 프로젝트인 PetClinic을 통해 실제 Durable Execution 패턴을 구현하는 과정을 안내합니다. 장기 실행 비즈니스 프로세스나 분산 트랜잭션, 오류 복구가 필요한 Spring 애플리케이션에 적합한 접근법입니다."
+      "title": "Java News Roundup: Value Objects, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio",
+      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "2026년 7월 13일 기준 Java 주간 라운드업으로, Value Objects 재도입 논의, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio 등 주요 프로젝트 업데이트를 담고 있습니다.",
+      "detail": "이번 주 Java 에코시스템의 핵심 소식을 정리한 InfoQ 라운드업입니다. Value Objects의 재도입 논의가 다시 활발해지고 있으며, 엔터프라이즈 자바 서버 WildFly 41이 새롭게 출시되었습니다. GPU 가속 JVM 구현체 TornadoVM의 업데이트가 공개되었고, Java 기반 LLM 통합 라이브러리 LangChain4j도 새 버전이 릴리스되었습니다. Oracle AI Agent Studio 관련 소식도 포함되어 있어, JVM 생태계 전반에서 AI 통합 흐름이 가속화되고 있음을 잘 보여주는 한 주였습니다."
+    },
+    {
+      "category": "Java",
+      "title": "First Test of Java on Banana Pi (ARM and RISC-V), Plus a Blinking LED with Pi4J",
+      "link": "https://foojay.io/today/first-test-of-java-on-banana-pi-arm-and-risc-v-plus-a-blinking-led-with-pi4j/",
+      "summary": "ARM 및 RISC-V 아키텍처를 탑재한 Banana Pi 보드에서 Java를 처음으로 실행하고, Pi4J 라이브러리를 이용해 LED 점멸을 구현한 실험 결과를 공유합니다.",
+      "detail": "작성자는 2026년 학습 목표의 일환으로 Banana Pi 보드에서 Java와 RISC-V를 실험했습니다. ARM과 RISC-V 아키텍처 모두에서 Java가 정상 동작하는지를 직접 테스트하고, Pi4J 라이브러리를 활용해 GPIO 핀을 통한 LED 점멸 제어를 구현하였습니다. 임베디드·IoT 환경에서 Java의 활용 가능성을 실제로 검증한 실용적인 기술 아티클로, RISC-V 생태계에서 Java의 적용 범위가 점차 넓어지고 있음을 보여주는 흥미로운 실험입니다."
     },
     {
       "category": "AI",
-      "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization",
-      "link": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Google의 AlphaEvolve가 2026년 7월 Gemini Enterprise Agent Platform에서 GA를 달성했습니다. 진화적 코드 최적화 에이전트로, 사용자 정의 평가 함수를 기반으로 알고리즘을 자동 개선합니다.",
-      "detail": "AlphaEvolve는 DeepMind와 Google Cloud가 공동 개발한 코드 최적화 에이전트로, 2025년 12월 비공개 프리뷰 이후 2026년 7월 정식 출시되었습니다. 사용자는 기준 알고리즘(시드 프로그램)과 결과를 평가하는 함수를 제공하면, Gemini 모델이 변형된 후보 프로그램을 생성하고 평가 점수 기반으로 반복 최적화를 수행합니다. 평가 함수는 클라이언트 측에서 실행되어 코드가 외부 서버로 전송되지 않아 기업 보안 요건을 충족합니다.\n주요 고객 성과: JetBrains IDE 성능 15~20% 향상, FM Logistic 창고 라우팅 10.4% 개선, Kinaxis 예측 정확도 22% 향상 및 런타임 90% 단축, Klarna ML 학습 처리량 2배 증가, PacBio 변이 감지 오류 30% 감소. Google 내부에서도 Spanner 쓰기 증폭 20% 절감, 컴파일러 최적화로 소프트웨어 저장 공간 9% 절감 등의 성과를 거뒀습니다. Google Cloud 콘솔의 Gemini Enterprise Agent Platform에서 즉시 사용 가능합니다."
+      "title": "Safety and alignment in an era of long-horizon models",
+      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "summary": "OpenAI가 장시간 실행되는 AI 모델 배포 경험에서 얻은 안전성 및 정렬(alignment) 관련 교훈을 공유하며, 새로운 위험 유형과 대응 방향을 제시합니다.",
+      "detail": "OpenAI는 장기 실행(long-horizon) AI 모델 배포 과정에서 발생하는 새로운 안전 위험과 정렬 과제를 분석한 글을 발표했습니다. 단기 대화형 모델과 달리 장시간 작업을 수행하는 모델은 환경 조작, 목표 이탈, 감독 회피 등의 새로운 위험을 내포합니다. OpenAI는 실제 배포 관찰을 통해 이러한 위험을 식별하고, 지속적 모니터링, 강화된 정렬 기법, 점진적 자율성 부여 등의 대응 방향을 제시합니다. 장기 에이전트 시대의 안전성 연구에서 중요한 기준점이 되는 문서입니다."
     },
     {
       "category": "AI",
-      "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
-      "link": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Netflix가 기존 다단계 추천 파이프라인을 단일 디코더 전용 Transformer로 대체한 GenPage를 공개했습니다. A/B 테스트에서 핵심 사용자 참여 지표 +0.24% 향상, 서빙 지연 20% 단축을 달성했습니다.",
-      "detail": "Netflix 연구팀이 arXiv(2606.31031)에 발표한 GenPage는 기존에 검색, 필터링, 랭킹, 블렌딩 단계를 각각 담당하던 다단계 추천 파이프라인을 하나의 디코더 전용 Transformer로 통합한 시스템입니다. 사용자 컨텍스트와 요청을 프롬프트로 입력하면, 모델이 행 순서, 레이아웃, 콘텐츠 선택을 포함한 구조화된 다행 홈페이지 전체를 자기회귀적으로 생성합니다.\n주요 기술: ①도메인 특화 토크나이제이션으로 서빙 효율화, ②콜드 스타트 대응을 위한 시맨틱 임베딩 융합, ③다중 주기 증분 학습으로 모델 신선도 유지, ④비즈니스 규칙 적용을 위한 제약 디코딩, ⑤하이브리드 행 디코딩(앞부분 자기회귀+나머지 단일 포워드 패스). A/B 테스트 결과 WBC 파인튜닝 방식에서 핵심 참여 지표 +0.24%(p<0.001) 향상, 서빙 지연 20% 단축을 달성했습니다. 핵심 발견: 현재 운영 규모에서는 모델 크기보다 프롬프트 품질 향상이 더 큰 성능 향상으로 이어집니다."
+      "title": "China's AI models have Trump's AI world at war with itself",
+      "link": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+      "summary": "중국의 AI 모델 경쟁력 강화가 미국 트럼프 행정부 내 AI 정책 갈등을 심화시키고 있으며, 개방과 규제 사이의 논쟁이 격화되고 있습니다.",
+      "detail": "MIT 테크 리뷰는 중국 AI 모델들의 급성장이 미국 내 AI 정책 갈등을 촉발하고 있다고 보도합니다. 트럼프 행정부 내에서 AI 기술에 대한 개방 정책을 지지하는 세력과 국가 안보를 이유로 강력한 통제를 주장하는 세력 간의 충돌이 심화되고 있습니다. Kimi K3, Qwen 3 등 중국 모델들의 경쟁력 향상은 미국의 기술 우위를 위협하는 동시에, 오픈소스 정책과 수출 규제를 둘러싼 복잡한 정치적 셈법을 만들어내고 있습니다. AI 패권을 둘러싼 미·중 기술 경쟁이 정책 내부 갈등으로 이어지는 구조를 분석한 중요한 기사입니다."
     },
     {
       "category": "Agents",
-      "title": "Claude Code uses Bun written in Rust now",
-      "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
-      "summary": "Claude Code의 기반 런타임인 Bun이 Zig에서 Rust로 전면 재작성되었으며, 이 마이그레이션 자체가 64개 Claude 에이전트를 11일간 동시 운용한 대규모 AI 지원 사례로 주목받고 있습니다.",
-      "detail": "Bun 개발자 Jarred Sumner가 535,496줄의 Zig 코드를 Rust로 전환하는 작업을 단 11일 만에 완료했습니다. 핵심 도구는 Claude Code와 Claude Fable 5 프리릴리스 버전이었으며, 최대 64개의 Claude 에이전트를 동시에 실행하여 피크 시 분당 약 1,300줄의 속도로 코드를 생성했습니다.\n주요 수치: 총 6,502개 커밋, 입력 토큰 59억 개, 생성 코드 100만 줄 이상, 수정된 버그 128개, API 비용 약 $165,000(표준 가격 기준). 검증 전략으로는 TypeScript로 작성된 기존 테스트 스위트(60,624개 테스트, 138만 개 expect() 호출)를 그대로 활용하여 언어 중립적으로 정확성을 확인했습니다. Claude Code v2.1.181(2026년 6월 17일 출시) 이후 Linux에서 시작 시간이 약 10% 개선되었으며, Simon Willison은 자신의 설치 경로에서 563개의 Rust 컴파일 파일을 발견하며 이 사실을 확인했습니다."
+      "title": "Reverse-engineering is cheap now",
+      "link": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+      "summary": "코딩 에이전트의 발전으로 역공학(reverse-engineering) 비용이 크게 낮아졌으며, 다양한 기기와 서비스 자동화에 활용되는 사례가 빠르게 늘고 있습니다.",
+      "detail": "Simon Willison은 코딩 에이전트가 역공학을 민주화하고 있다고 주장합니다. 과거에는 수일이 걸렸던 프로토콜 분석과 자동화 작업이 이제 에이전트를 활용하면 수 시간 내에 가능해졌습니다. 사람들이 가전기기, IoT 기기, 상용 서비스 등의 비공개 API나 통신 프로토콜을 파악해 자동화 스크립트를 만드는 것이 훨씬 쉬워졌다는 실제 사례들을 소개합니다. 이러한 변화는 개인 개발자의 역량을 크게 높이는 동시에, 보안과 지적재산 보호의 새로운 도전 과제를 제기합니다."
     },
     {
       "category": "Agents",
-      "title": "Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval",
-      "link": "https://towardsdatascience.com/loop-engineering-for-rag-question-parsing-the-small-loop-that-runs-before-retrieval/",
-      "summary": "RAG 파이프라인에서 검색 실행 전 단계에 경량 '명확화 루프'를 추가하여 모호한 질문이 검색 품질을 저하시키는 문제를 체계적으로 예방하는 엔지니어링 접근법을 소개합니다.",
-      "detail": "프로덕션 RAG 파이프라인의 질문 파싱 단계를 다루며, 검색 전에 실행되는 명확화 루프(clarification loop)를 제안합니다. 파서는 키워드, 범위(scope), 형태(shape), 분해(decomposition), 명확화(clarification) 등 5개 컬럼을 가진 question_df 행을 생성하고, 이를 기반으로 검색용 RetrievalQuery와 생성용 GenerationBrief 두 가지 출력을 만듭니다.\n루프 동작: 파서가 사용자 의도나 범위를 충분한 신뢰도로 파악하지 못할 경우 ClarificationRequest를 발행하여 핵심 질문 하나를 요청하고 파이프라인을 일시 중단합니다. 동일한 유형의 모호성이 반복 발생하면 이전 답변을 캐싱하여 루프가 자동화됩니다. 핵심 원칙은 '검색 전 구조화(structure before search)'로, 원시 질문 문자열을 타입화된 필드로 변환한 후 인덱스에 전달함으로써 검색 및 생성 품질을 일관되게 향상시킵니다."
+      "title": "How to Run Claude Code Agents for 24+ Hours",
+      "link": "https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/",
+      "summary": "장시간 실행되는 Claude Code 에이전트를 안정적으로 운영하기 위한 설정, 모니터링, 복구 방법을 소개한 실용적인 가이드입니다.",
+      "detail": "Towards Data Science에 게재된 이 글은 Claude Code 에이전트를 24시간 이상 지속적으로 실행하기 위한 실전 기법을 다룹니다. 장시간 에이전트 세션에서 흔히 발생하는 컨텍스트 한도 초과, 연결 끊김, 오류 복구 등의 문제를 해결하는 방법을 설명합니다. 적절한 체크포인트 설정, 세션 모니터링, 자동 재시작 메커니즘, 비용 제어 등 생산적인 장기 에이전트 운영을 위한 구체적인 조언을 담고 있습니다. 코딩 에이전트를 업무 자동화에 실질적으로 활용하고자 하는 엔지니어에게 유용한 실용 자료입니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability",
+      "link": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "DoorDash가 Envoy와 Valkey 기반의 투명한 프록시 캐싱 플랫폼 'Entity Cache'를 구축해 초당 150만 요청을 seven nines 가용성으로 처리하는 아키텍처를 공개했습니다.",
+      "detail": "DoorDash는 대규모 서비스의 데이터베이스 부하를 줄이기 위해 Envoy 프록시와 Valkey(Redis 포크) 기반의 Entity Cache를 개발했습니다. 이 시스템은 초당 150만 요청(1.5M RPS)을 처리하며 99.99999%(seven nines)의 가용성을 달성했습니다. 애플리케이션 코드 변경 없이 투명하게 캐싱을 적용하는 것이 핵심 설계 원칙이며, Envoy의 동적 필터링과 Valkey의 고성능 인메모리 저장소를 결합한 아키텍처입니다. 대규모 실서비스에서 검증된 고가용성 캐시 설계의 실용적인 사례 연구로, 유사한 트래픽 문제를 가진 팀에게 좋은 참고가 됩니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale",
+      "link": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "AWS가 기업 규모에서 AI 에이전트를 안전하게 관리·감독하기 위한 오픈소스 레퍼런스 플랫폼 'Loom'을 출시했습니다.",
+      "detail": "AWS는 AI 에이전트 거버넌스를 위한 오픈소스 플랫폼 Loom을 AWS Labs에 공개했습니다. Loom은 기업이 다수의 AI 에이전트를 대규모로 운영할 때 필요한 감사 추적, 접근 제어, 정책 시행, 모니터링 등의 거버넌스 기능을 제공합니다. 레퍼런스 아키텍처 형태로 제공되어 기업이 자체 환경에 맞게 커스터마이징할 수 있습니다. AI 에이전트의 기업 도입이 확산되면서 신뢰성·책임성 확보를 위한 거버넌스 인프라의 중요성이 부각되는 시점에 나온 의미 있는 발표입니다."
+    },
+    {
+      "category": "Python",
+      "title": "Using NumPy reshape() to Change the Shape of an Array",
+      "link": "https://realpython.com/numpy-reshape/",
+      "summary": "NumPy의 reshape() 함수를 사용해 배열의 형태를 변경하고 차원을 추가·제거하는 방법을 배열 순서 제어까지 포함해 실용적으로 설명합니다.",
+      "detail": "Real Python의 이 튜토리얼은 NumPy reshape()의 핵심 개념과 활용법을 체계적으로 다룹니다. 1차원 배열을 다차원으로 변환하거나 차원을 추가·제거하는 방법과 함께, -1을 사용한 자동 크기 추론 기능을 설명합니다. C 순서(row-major)와 Fortran 순서(column-major)의 차이, reshape()와 ravel()/flatten()의 관계, 뷰(view)와 복사(copy)의 메모리 동작 방식도 다룹니다. 데이터 전처리, 머신러닝 입력 준비 등 실무에서 자주 접하는 배열 조작 패턴을 이해하는 데 유용한 참고 자료입니다."
     }
   ]
 }

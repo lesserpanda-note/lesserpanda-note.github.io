@@ -1,6 +1,47 @@
 {
   "digests": [
     {
+      "date": "2026-07-20",
+      "summary": "오늘은 Google의 AlphaEvolve가 정식 출시되어 진화적 코드 최적화를 클라우드 서비스로 제공하기 시작했으며, Netflix가 단일 Transformer 모델로 홈페이지 추천 파이프라인 전체를 대체한 GenPage를 공개했습니다. 에이전트 분야에서는 Claude Code의 기반 런타임인 Bun이 Zig에서 Rust로 전면 재작성된 사례가 주목받았으며, 11일간 64개 AI 에이전트를 동시 운용한 대규모 마이그레이션 사례로 화제가 됩니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Toward a Durable Spring PetClinic",
+          "link": "https://foojay.io/today/toward-a-durable-spring-petclinic/",
+          "summary": "Durable Execution 패턴을 Spring PetClinic 예제에 적용하여 장애 발생 시에도 코드 실행 상태를 보존하는 방법을 소개합니다.",
+          "detail": "Durable Execution은 장애 발생 시에도 코드 실행 진행 상태가 유실되지 않고 자동으로 복구되는 실행 방식입니다. 일반적인 프로세스는 서버 재시작 시 인메모리 상태가 모두 소멸되지만, Durable Execution을 활용하면 워크플로우 진행 상태를 영속적으로 저장하여 장애 후 중단 지점부터 재개할 수 있습니다. 이 글은 Spring의 대표 예제 프로젝트인 PetClinic을 통해 실제 Durable Execution 패턴을 구현하는 과정을 안내합니다. 장기 실행 비즈니스 프로세스나 분산 트랜잭션, 오류 복구가 필요한 Spring 애플리케이션에 적합한 접근법입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Google's AlphaEvolve Reaches General Availability with Evolutionary Code Optimization",
+          "link": "https://www.infoq.com/news/2026/07/alphaevolve-generally-available/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Google의 AlphaEvolve가 2026년 7월 Gemini Enterprise Agent Platform에서 GA를 달성했습니다. 진화적 코드 최적화 에이전트로, 사용자 정의 평가 함수를 기반으로 알고리즘을 자동 개선합니다.",
+          "detail": "AlphaEvolve는 DeepMind와 Google Cloud가 공동 개발한 코드 최적화 에이전트로, 2025년 12월 비공개 프리뷰 이후 2026년 7월 정식 출시되었습니다. 사용자는 기준 알고리즘(시드 프로그램)과 결과를 평가하는 함수를 제공하면, Gemini 모델이 변형된 후보 프로그램을 생성하고 평가 점수 기반으로 반복 최적화를 수행합니다. 평가 함수는 클라이언트 측에서 실행되어 코드가 외부 서버로 전송되지 않아 기업 보안 요건을 충족합니다.\n주요 고객 성과: JetBrains IDE 성능 15~20% 향상, FM Logistic 창고 라우팅 10.4% 개선, Kinaxis 예측 정확도 22% 향상 및 런타임 90% 단축, Klarna ML 학습 처리량 2배 증가, PacBio 변이 감지 오류 30% 감소. Google 내부에서도 Spanner 쓰기 증폭 20% 절감, 컴파일러 최적화로 소프트웨어 저장 공간 9% 절감 등의 성과를 거뒀습니다. Google Cloud 콘솔의 Gemini Enterprise Agent Platform에서 즉시 사용 가능합니다."
+        },
+        {
+          "category": "AI",
+          "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
+          "link": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Netflix가 기존 다단계 추천 파이프라인을 단일 디코더 전용 Transformer로 대체한 GenPage를 공개했습니다. A/B 테스트에서 핵심 사용자 참여 지표 +0.24% 향상, 서빙 지연 20% 단축을 달성했습니다.",
+          "detail": "Netflix 연구팀이 arXiv(2606.31031)에 발표한 GenPage는 기존에 검색, 필터링, 랭킹, 블렌딩 단계를 각각 담당하던 다단계 추천 파이프라인을 하나의 디코더 전용 Transformer로 통합한 시스템입니다. 사용자 컨텍스트와 요청을 프롬프트로 입력하면, 모델이 행 순서, 레이아웃, 콘텐츠 선택을 포함한 구조화된 다행 홈페이지 전체를 자기회귀적으로 생성합니다.\n주요 기술: ①도메인 특화 토크나이제이션으로 서빙 효율화, ②콜드 스타트 대응을 위한 시맨틱 임베딩 융합, ③다중 주기 증분 학습으로 모델 신선도 유지, ④비즈니스 규칙 적용을 위한 제약 디코딩, ⑤하이브리드 행 디코딩(앞부분 자기회귀+나머지 단일 포워드 패스). A/B 테스트 결과 WBC 파인튜닝 방식에서 핵심 참여 지표 +0.24%(p<0.001) 향상, 서빙 지연 20% 단축을 달성했습니다. 핵심 발견: 현재 운영 규모에서는 모델 크기보다 프롬프트 품질 향상이 더 큰 성능 향상으로 이어집니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Claude Code uses Bun written in Rust now",
+          "link": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/#atom-everything",
+          "summary": "Claude Code의 기반 런타임인 Bun이 Zig에서 Rust로 전면 재작성되었으며, 이 마이그레이션 자체가 64개 Claude 에이전트를 11일간 동시 운용한 대규모 AI 지원 사례로 주목받고 있습니다.",
+          "detail": "Bun 개발자 Jarred Sumner가 535,496줄의 Zig 코드를 Rust로 전환하는 작업을 단 11일 만에 완료했습니다. 핵심 도구는 Claude Code와 Claude Fable 5 프리릴리스 버전이었으며, 최대 64개의 Claude 에이전트를 동시에 실행하여 피크 시 분당 약 1,300줄의 속도로 코드를 생성했습니다.\n주요 수치: 총 6,502개 커밋, 입력 토큰 59억 개, 생성 코드 100만 줄 이상, 수정된 버그 128개, API 비용 약 $165,000(표준 가격 기준). 검증 전략으로는 TypeScript로 작성된 기존 테스트 스위트(60,624개 테스트, 138만 개 expect() 호출)를 그대로 활용하여 언어 중립적으로 정확성을 확인했습니다. Claude Code v2.1.181(2026년 6월 17일 출시) 이후 Linux에서 시작 시간이 약 10% 개선되었으며, Simon Willison은 자신의 설치 경로에서 563개의 Rust 컴파일 파일을 발견하며 이 사실을 확인했습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Loop Engineering for RAG Question Parsing: The Small Loop That Runs Before Retrieval",
+          "link": "https://towardsdatascience.com/loop-engineering-for-rag-question-parsing-the-small-loop-that-runs-before-retrieval/",
+          "summary": "RAG 파이프라인에서 검색 실행 전 단계에 경량 명확화 루프를 추가하여 모호한 질문이 검색 품질을 저하시키는 문제를 체계적으로 예방하는 엔지니어링 접근법을 소개합니다.",
+          "detail": "프로덕션 RAG 파이프라인의 질문 파싱 단계를 다루며, 검색 전에 실행되는 명확화 루프(clarification loop)를 제안합니다. 파서는 키워드, 범위(scope), 형태(shape), 분해(decomposition), 명확화(clarification) 등 5개 컬럼을 가진 question_df 행을 생성하고, 이를 기반으로 검색용 RetrievalQuery와 생성용 GenerationBrief 두 가지 출력을 만듭니다.\n루프 동작: 파서가 사용자 의도나 범위를 충분한 신뢰도로 파악하지 못할 경우 ClarificationRequest를 발행하여 핵심 질문 하나를 요청하고 파이프라인을 일시 중단합니다. 동일한 유형의 모호성이 반복 발생하면 이전 답변을 캐싱하여 루프가 자동화됩니다. 핵심 원칙은 구조화 후 검색으로, 원시 질문 문자열을 타입화된 필드로 변환한 후 인덱스에 전달함으로써 검색 및 생성 품질을 일관되게 향상시킵니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-19",
       "summary": "오늘은 Anthropic이 Claude Fable 5 모델을 7월 20일부터 유료 플랜에 정식 포함한다고 발표하고, Pydantic AI 2.13.0이 릴리스되면서 에이전트 생태계의 중요한 업데이트가 이어졌습니다. AI 분야에서는 LLM 추론 노력 제어 기법과 Pinecone Nexus 지식 엔진 정식 출시가 주목받았습니다. 데이터 사이언스에서는 핀테크 고객 이탈 방지에 업리프트 모델링을 결합하는 실용적 방법론과 언론의 통계 데이터 오보 사례 분석이 인상적이었습니다.",
       "highlights": [
