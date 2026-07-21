@@ -1,7 +1,57 @@
 {
-  "updated": "2026-07-22T03:17:29+09:00",
-  "count": 779,
+  "updated": "2026-07-22T05:20:21+09:00",
+  "count": 786,
   "items": [
+    {
+      "title": "Survey Statistics: poststratification without population level information",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/21/survey-statistics-poststratification-without-population-level-information/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Poststratification uses population data on X to estimate E(Y) via E(E(Y | X, R = 1)), where R = 1 are survey respondents who provide Y and X. When the inner expectation “E” is estimated via Multilevel Regression, this i…",
+      "ts": 1784664934,
+      "published": "2026-07-21T20:15:34+00:00",
+      "collected_at": "2026-07-22T05:20:06+09:00"
+    },
+    {
+      "title": "The State of Simulation for Physical AI: An Overview",
+      "link": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1784664027,
+      "published": "2026-07-21T20:00:27+00:00",
+      "collected_at": "2026-07-22T05:20:06+09:00"
+    },
+    {
+      "title": "python-1.12.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.12.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.12.0] - 2026-07-21 Added agent-framework-azure-cosmos-memory : Add an alpha Azure Cosmos DB semantic-memory context provider with fact extraction, user profiles, samples, and integration coverage ( #6719 ) agent-fram…",
+      "ts": 1784662832,
+      "published": "2026-07-21T19:40:32+00:00",
+      "collected_at": "2026-07-22T05:20:06+09:00"
+    },
+    {
+      "title": "Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "link": "https://www.latent.space/p/xaira",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
+      "ts": 1784662446,
+      "published": "2026-07-21T19:34:06+00:00",
+      "collected_at": "2026-07-22T05:20:06+09:00"
+    },
+    {
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "link": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "https://x.com/jack/status/2079605800998146171 , https://xcancel.com/jack/status/2079605800998146171 https://buzz.xyz/ Comments URL: https://news.ycombinator.com/item?id=48995213 Points: 105 # Comments: 95",
+      "ts": 1784654046,
+      "published": "2026-07-21T17:14:06+00:00",
+      "collected_at": "2026-07-22T05:20:06+09:00"
+    },
     {
       "title": "Introducing the ChatGPT for small business program",
       "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
@@ -203,6 +253,16 @@
       "collected_at": "2026-07-21T20:49:36+09:00"
     },
     {
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "link": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders.",
+      "ts": 1784617200,
+      "published": "2026-07-21T07:00:00+00:00",
+      "collected_at": "2026-07-22T05:20:06+09:00"
+    },
+    {
       "title": "v2.14.1 (2026-07-20)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.14.1",
       "source": "Pydantic AI",
@@ -251,6 +311,16 @@
       "ts": 1784592000,
       "published": "2026-07-21T00:00:00+00:00",
       "collected_at": "2026-07-21T23:01:55+09:00"
+    },
+    {
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "link": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance.",
+      "ts": 1784592000,
+      "published": "2026-07-21T00:00:00+00:00",
+      "collected_at": "2026-07-22T05:20:06+09:00"
     },
     {
       "title": "Reverse-engineering is cheap now",
