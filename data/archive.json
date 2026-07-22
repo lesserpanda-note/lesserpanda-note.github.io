@@ -1,6 +1,75 @@
 {
   "digests": [
     {
+      "date": "2026-07-21",
+      "summary": "오늘은 OpenAI가 장기 실행 AI 모델의 안전성과 정렬 연구 결과를 공개하고, 미·중 AI 패권 경쟁이 미국 내 정책 갈등으로 이어지는 양상을 MIT 테크 리뷰가 조명했습니다. 아키텍처 분야에서는 DoorDash가 초당 150만 요청을 seven nines 가용성으로 처리하는 Envoy/Valkey 기반 프록시 캐시를 공개했고, AWS가 기업용 AI 에이전트 거버넌스 플랫폼 Loom을 오픈소스로 출시했습니다. 에이전트 영역에서는 코딩 에이전트가 역공학 비용을 대폭 낮추고 있다는 Simon Willison의 분석과 Claude Code를 24시간 이상 운영하기 위한 실전 가이드가 주목받았습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java News Roundup: Value Objects, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio",
+          "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "2026년 7월 13일 기준 Java 주간 라운드업으로, Value Objects 재도입 논의, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio 등 주요 프로젝트 업데이트를 담고 있습니다.",
+          "detail": "이번 주 Java 에코시스템의 핵심 소식을 정리한 InfoQ 라운드업입니다. Value Objects의 재도입 논의가 다시 활발해지고 있으며, 엔터프라이즈 자바 서버 WildFly 41이 새롭게 출시되었습니다. GPU 가속 JVM 구현체 TornadoVM의 업데이트가 공개되었고, Java 기반 LLM 통합 라이브러리 LangChain4j도 새 버전이 릴리스되었습니다. Oracle AI Agent Studio 관련 소식도 포함되어 있어, JVM 생태계 전반에서 AI 통합 흐름이 가속화되고 있음을 잘 보여주는 한 주였습니다."
+        },
+        {
+          "category": "Java",
+          "title": "First Test of Java on Banana Pi (ARM and RISC-V), Plus a Blinking LED with Pi4J",
+          "link": "https://foojay.io/today/first-test-of-java-on-banana-pi-arm-and-risc-v-plus-a-blinking-led-with-pi4j/",
+          "summary": "ARM 및 RISC-V 아키텍처를 탑재한 Banana Pi 보드에서 Java를 처음으로 실행하고, Pi4J 라이브러리를 이용해 LED 점멸을 구현한 실험 결과를 공유합니다.",
+          "detail": "작성자는 2026년 학습 목표의 일환으로 Banana Pi 보드에서 Java와 RISC-V를 실험했습니다. ARM과 RISC-V 아키텍처 모두에서 Java가 정상 동작하는지를 직접 테스트하고, Pi4J 라이브러리를 활용해 GPIO 핀을 통한 LED 점멸 제어를 구현하였습니다. 임베디드·IoT 환경에서 Java의 활용 가능성을 실제로 검증한 실용적인 기술 아티클로, RISC-V 생태계에서 Java의 적용 범위가 점차 넓어지고 있음을 보여주는 흥미로운 실험입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Safety and alignment in an era of long-horizon models",
+          "link": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "summary": "OpenAI가 장시간 실행되는 AI 모델 배포 경험에서 얻은 안전성 및 정렬(alignment) 관련 교훈을 공유하며, 새로운 위험 유형과 대응 방향을 제시합니다.",
+          "detail": "OpenAI는 장기 실행(long-horizon) AI 모델 배포 과정에서 발생하는 새로운 안전 위험과 정렬 과제를 분석한 글을 발표했습니다. 단기 대화형 모델과 달리 장시간 작업을 수행하는 모델은 환경 조작, 목표 이탈, 감독 회피 등의 새로운 위험을 내포합니다. OpenAI는 실제 배포 관찰을 통해 이러한 위험을 식별하고, 지속적 모니터링, 강화된 정렬 기법, 점진적 자율성 부여 등의 대응 방향을 제시합니다. 장기 에이전트 시대의 안전성 연구에서 중요한 기준점이 되는 문서입니다."
+        },
+        {
+          "category": "AI",
+          "title": "China's AI models have Trump's AI world at war with itself",
+          "link": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
+          "summary": "중국의 AI 모델 경쟁력 강화가 미국 트럼프 행정부 내 AI 정책 갈등을 심화시키고 있으며, 개방과 규제 사이의 논쟁이 격화되고 있습니다.",
+          "detail": "MIT 테크 리뷰는 중국 AI 모델들의 급성장이 미국 내 AI 정책 갈등을 촉발하고 있다고 보도합니다. 트럼프 행정부 내에서 AI 기술에 대한 개방 정책을 지지하는 세력과 국가 안보를 이유로 강력한 통제를 주장하는 세력 간의 충돌이 심화되고 있습니다. Kimi K3, Qwen 3 등 중국 모델들의 경쟁력 향상은 미국의 기술 우위를 위협하는 동시에, 오픈소스 정책과 수출 규제를 둘러싼 복잡한 정치적 셈법을 만들어내고 있습니다. AI 패권을 둘러싼 미·중 기술 경쟁이 정책 내부 갈등으로 이어지는 구조를 분석한 중요한 기사입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Reverse-engineering is cheap now",
+          "link": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
+          "summary": "코딩 에이전트의 발전으로 역공학(reverse-engineering) 비용이 크게 낮아졌으며, 다양한 기기와 서비스 자동화에 활용되는 사례가 빠르게 늘고 있습니다.",
+          "detail": "Simon Willison은 코딩 에이전트가 역공학을 민주화하고 있다고 주장합니다. 과거에는 수일이 걸렸던 프로토콜 분석과 자동화 작업이 이제 에이전트를 활용하면 수 시간 내에 가능해졌습니다. 사람들이 가전기기, IoT 기기, 상용 서비스 등의 비공개 API나 통신 프로토콜을 파악해 자동화 스크립트를 만드는 것이 훨씬 쉬워졌다는 실제 사례들을 소개합니다. 이러한 변화는 개인 개발자의 역량을 크게 높이는 동시에, 보안과 지적재산 보호의 새로운 도전 과제를 제기합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "How to Run Claude Code Agents for 24+ Hours",
+          "link": "https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/",
+          "summary": "장시간 실행되는 Claude Code 에이전트를 안정적으로 운영하기 위한 설정, 모니터링, 복구 방법을 소개한 실용적인 가이드입니다.",
+          "detail": "Towards Data Science에 게재된 이 글은 Claude Code 에이전트를 24시간 이상 지속적으로 실행하기 위한 실전 기법을 다룹니다. 장시간 에이전트 세션에서 흔히 발생하는 컨텍스트 한도 초과, 연결 끊김, 오류 복구 등의 문제를 해결하는 방법을 설명합니다. 적절한 체크포인트 설정, 세션 모니터링, 자동 재시작 메커니즘, 비용 제어 등 생산적인 장기 에이전트 운영을 위한 구체적인 조언을 담고 있습니다. 코딩 에이전트를 업무 자동화에 실질적으로 활용하고자 하는 엔지니어에게 유용한 실용 자료입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability",
+          "link": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "DoorDash가 Envoy와 Valkey 기반의 투명한 프록시 캐싱 플랫폼 'Entity Cache'를 구축해 초당 150만 요청을 seven nines 가용성으로 처리하는 아키텍처를 공개했습니다.",
+          "detail": "DoorDash는 대규모 서비스의 데이터베이스 부하를 줄이기 위해 Envoy 프록시와 Valkey(Redis 포크) 기반의 Entity Cache를 개발했습니다. 이 시스템은 초당 150만 요청(1.5M RPS)을 처리하며 99.99999%(seven nines)의 가용성을 달성했습니다. 애플리케이션 코드 변경 없이 투명하게 캐싱을 적용하는 것이 핵심 설계 원칙이며, Envoy의 동적 필터링과 Valkey의 고성능 인메모리 저장소를 결합한 아키텍처입니다. 대규모 실서비스에서 검증된 고가용성 캐시 설계의 실용적인 사례 연구로, 유사한 트래픽 문제를 가진 팀에게 좋은 참고가 됩니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale",
+          "link": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "AWS가 기업 규모에서 AI 에이전트를 안전하게 관리·감독하기 위한 오픈소스 레퍼런스 플랫폼 'Loom'을 출시했습니다.",
+          "detail": "AWS는 AI 에이전트 거버넌스를 위한 오픈소스 플랫폼 Loom을 AWS Labs에 공개했습니다. Loom은 기업이 다수의 AI 에이전트를 대규모로 운영할 때 필요한 감사 추적, 접근 제어, 정책 시행, 모니터링 등의 거버넌스 기능을 제공합니다. 레퍼런스 아키텍처 형태로 제공되어 기업이 자체 환경에 맞게 커스터마이징할 수 있습니다. AI 에이전트의 기업 도입이 확산되면서 신뢰성·책임성 확보를 위한 거버넌스 인프라의 중요성이 부각되는 시점에 나온 의미 있는 발표입니다."
+        },
+        {
+          "category": "Python",
+          "title": "Using NumPy reshape() to Change the Shape of an Array",
+          "link": "https://realpython.com/numpy-reshape/",
+          "summary": "NumPy의 reshape() 함수를 사용해 배열의 형태를 변경하고 차원을 추가·제거하는 방법을 배열 순서 제어까지 포함해 실용적으로 설명합니다.",
+          "detail": "Real Python의 이 튜토리얼은 NumPy reshape()의 핵심 개념과 활용법을 체계적으로 다룹니다. 1차원 배열을 다차원으로 변환하거나 차원을 추가·제거하는 방법과 함께, -1을 사용한 자동 크기 추론 기능을 설명합니다. C 순서(row-major)와 Fortran 순서(column-major)의 차이, reshape()와 ravel()/flatten()의 관계, 뷰(view)와 복사(copy)의 메모리 동작 방식도 다룹니다. 데이터 전처리, 머신러닝 입력 준비 등 실무에서 자주 접하는 배열 조작 패턴을 이해하는 데 유용한 참고 자료입니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-20",
       "summary": "오늘은 Google의 AlphaEvolve가 정식 출시되어 진화적 코드 최적화를 클라우드 서비스로 제공하기 시작했으며, Netflix가 단일 Transformer 모델로 홈페이지 추천 파이프라인 전체를 대체한 GenPage를 공개했습니다. 에이전트 분야에서는 Claude Code의 기반 런타임인 Bun이 Zig에서 Rust로 전면 재작성된 사례가 주목받았으며, 11일간 64개 AI 에이전트를 동시 운용한 대규모 마이그레이션 사례로 화제가 됩니다.",
       "highlights": [

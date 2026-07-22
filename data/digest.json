@@ -1,69 +1,69 @@
 {
-  "updated": "2026-07-21T00:13:38Z",
-  "summary": "오늘은 OpenAI가 장기 실행 AI 모델의 안전성과 정렬 연구 결과를 공개하고, 미·중 AI 패권 경쟁이 미국 내 정책 갈등으로 이어지는 양상을 MIT 테크 리뷰가 조명했습니다. 아키텍처 분야에서는 DoorDash가 초당 150만 요청을 seven nines 가용성으로 처리하는 Envoy/Valkey 기반 프록시 캐시를 공개했고, AWS가 기업용 AI 에이전트 거버넌스 플랫폼 Loom을 오픈소스로 출시했습니다. 에이전트 영역에서는 코딩 에이전트가 역공학 비용을 대폭 낮추고 있다는 Simon Willison의 분석과 Claude Code를 24시간 이상 운영하기 위한 실전 가이드가 주목받았습니다.",
+  "updated": "2026-07-22T00:13:20Z",
+  "summary": "오늘은 Anthropic의 저작권 합의 승인, Google의 새로운 Gemini 모델 출시, 잭 도시의 AI 에이전트 통합 협업 플랫폼 Buzz 공개 등 AI 업계의 굵직한 소식들이 이어졌습니다. 데이터 과학 분야에서는 GPU 기반 데이터 준비 워크플로 가속화와 설문 통계의 포스트층화 기법이 주목받았으며, Java 생태계에서는 BoxLang의 클라우드 시크릿 매니저 통합 모듈이 출시되었습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "Java News Roundup: Value Objects, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio",
-      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "2026년 7월 13일 기준 Java 주간 라운드업으로, Value Objects 재도입 논의, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio 등 주요 프로젝트 업데이트를 담고 있습니다.",
-      "detail": "이번 주 Java 에코시스템의 핵심 소식을 정리한 InfoQ 라운드업입니다. Value Objects의 재도입 논의가 다시 활발해지고 있으며, 엔터프라이즈 자바 서버 WildFly 41이 새롭게 출시되었습니다. GPU 가속 JVM 구현체 TornadoVM의 업데이트가 공개되었고, Java 기반 LLM 통합 라이브러리 LangChain4j도 새 버전이 릴리스되었습니다. Oracle AI Agent Studio 관련 소식도 포함되어 있어, JVM 생태계 전반에서 AI 통합 흐름이 가속화되고 있음을 잘 보여주는 한 주였습니다."
-    },
-    {
-      "category": "Java",
-      "title": "First Test of Java on Banana Pi (ARM and RISC-V), Plus a Blinking LED with Pi4J",
-      "link": "https://foojay.io/today/first-test-of-java-on-banana-pi-arm-and-risc-v-plus-a-blinking-led-with-pi4j/",
-      "summary": "ARM 및 RISC-V 아키텍처를 탑재한 Banana Pi 보드에서 Java를 처음으로 실행하고, Pi4J 라이브러리를 이용해 LED 점멸을 구현한 실험 결과를 공유합니다.",
-      "detail": "작성자는 2026년 학습 목표의 일환으로 Banana Pi 보드에서 Java와 RISC-V를 실험했습니다. ARM과 RISC-V 아키텍처 모두에서 Java가 정상 동작하는지를 직접 테스트하고, Pi4J 라이브러리를 활용해 GPIO 핀을 통한 LED 점멸 제어를 구현하였습니다. 임베디드·IoT 환경에서 Java의 활용 가능성을 실제로 검증한 실용적인 기술 아티클로, RISC-V 생태계에서 Java의 적용 범위가 점차 넓어지고 있음을 보여주는 흥미로운 실험입니다."
+      "title": "BoxLang AWS, Azure, and Google Secrets Manager Module Released",
+      "link": "https://foojay.io/today/boxlang-aws-azure-and-google-secrets-manager-module-released/",
+      "summary": "BoxLang이 AWS, Azure, Google Cloud의 시크릿 매니저 서비스와 통합되는 세 가지 모듈을 동시에 출시했습니다.",
+      "detail": "BoxLang이 AWS Secrets Manager, Azure Key Vault, Google Cloud Secret Manager와 연동하는 새 모듈 세 종류를 공개했습니다. 프로덕션 애플리케이션에서 데이터베이스 비밀번호, API 토큰, 암호화 키 등의 민감한 시크릿을 안전하게 관리하는 것이 핵심 목표입니다. 하드코딩된 자격 증명이나 환경 변수 방식의 취약한 시크릿 관리를 대체하며, BoxLang 애플리케이션이 주요 클라우드 공급업체의 시크릿 관리 서비스를 네이티브하게 활용할 수 있게 됩니다. 각 모듈은 해당 클라우드 플랫폼의 인증 체계와 통합되어 안전한 런타임 시크릿 주입을 지원합니다."
     },
     {
       "category": "AI",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "link": "https://openai.com/index/safety-alignment-long-horizon-models",
-      "summary": "OpenAI가 장시간 실행되는 AI 모델 배포 경험에서 얻은 안전성 및 정렬(alignment) 관련 교훈을 공유하며, 새로운 위험 유형과 대응 방향을 제시합니다.",
-      "detail": "OpenAI는 장기 실행(long-horizon) AI 모델 배포 과정에서 발생하는 새로운 안전 위험과 정렬 과제를 분석한 글을 발표했습니다. 단기 대화형 모델과 달리 장시간 작업을 수행하는 모델은 환경 조작, 목표 이탈, 감독 회피 등의 새로운 위험을 내포합니다. OpenAI는 실제 배포 관찰을 통해 이러한 위험을 식별하고, 지속적 모니터링, 강화된 정렬 기법, 점진적 자율성 부여 등의 대응 방향을 제시합니다. 장기 에이전트 시대의 안전성 연구에서 중요한 기준점이 되는 문서입니다."
+      "title": "Judge approves $1.5B Anthropic settlement for pirated books used to train Claude",
+      "link": "https://apnews.com/article/ai-anthropic-copyright-settlement-claude-books-bartz-74b140444023898aeba8579b6e9f0d63",
+      "summary": "미 연방 법원 판사가 Anthropic이 Claude 훈련에 저작권 보호 도서를 무단 사용한 것에 대한 15억 달러 합의를 승인했습니다.",
+      "detail": "미 연방 법원 판사가 Anthropic과 저작권자들 사이의 15억 달러(약 2조 원) 합의안을 공식 승인했습니다. 이 소송은 Anthropic이 Claude AI 모델 훈련에 저작권이 보호된 도서들을 무단으로 사용했다는 주장에서 비롯되었습니다. 이번 합의는 AI 기업들이 저작권 보호 콘텐츠를 훈련 데이터로 활용하는 것에 대한 법적 책임을 인정한 주요 선례로 평가됩니다. OpenAI, Meta 등 다른 AI 기업들도 유사한 소송에 직면해 있어, AI 훈련 데이터의 저작권 문제에 대한 업계 전반의 논의에 중요한 기준점이 될 것으로 보입니다."
     },
     {
       "category": "AI",
-      "title": "China's AI models have Trump's AI world at war with itself",
-      "link": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
-      "summary": "중국의 AI 모델 경쟁력 강화가 미국 트럼프 행정부 내 AI 정책 갈등을 심화시키고 있으며, 개방과 규제 사이의 논쟁이 격화되고 있습니다.",
-      "detail": "MIT 테크 리뷰는 중국 AI 모델들의 급성장이 미국 내 AI 정책 갈등을 촉발하고 있다고 보도합니다. 트럼프 행정부 내에서 AI 기술에 대한 개방 정책을 지지하는 세력과 국가 안보를 이유로 강력한 통제를 주장하는 세력 간의 충돌이 심화되고 있습니다. Kimi K3, Qwen 3 등 중국 모델들의 경쟁력 향상은 미국의 기술 우위를 위협하는 동시에, 오픈소스 정책과 수출 규제를 둘러싼 복잡한 정치적 셈법을 만들어내고 있습니다. AI 패권을 둘러싼 미·중 기술 경쟁이 정책 내부 갈등으로 이어지는 구조를 분석한 중요한 기사입니다."
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+      "summary": "Google DeepMind가 Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber 세 가지 새 모델을 공개했습니다.",
+      "detail": "Google DeepMind가 세 가지 새로운 Gemini 모델을 동시에 발표했습니다. Gemini 3.6 Flash는 이전 Flash 모델 대비 향상된 추론 능력과 빠른 응답 속도를 제공하는 최신 플래시 모델입니다. Gemini 3.5 Flash-Lite는 비용 효율성을 극대화한 경량 모델로, 대규모 배포 환경과 저지연 요구 사항에 최적화되어 있습니다. Gemini 3.5 Flash Cyber는 사이버 보안 분야에 특화된 모델로, 보안 위협 분석, 취약점 탐지, 보안 코드 검토에 특화된 기능을 제공합니다. 이번 출시로 Google은 속도, 비용, 특정 도메인 전문성에 따른 다양한 요구를 충족하는 모델 포트폴리오를 강화했습니다."
     },
     {
       "category": "Agents",
-      "title": "Reverse-engineering is cheap now",
-      "link": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
-      "summary": "코딩 에이전트의 발전으로 역공학(reverse-engineering) 비용이 크게 낮아졌으며, 다양한 기기와 서비스 자동화에 활용되는 사례가 빠르게 늘고 있습니다.",
-      "detail": "Simon Willison은 코딩 에이전트가 역공학을 민주화하고 있다고 주장합니다. 과거에는 수일이 걸렸던 프로토콜 분석과 자동화 작업이 이제 에이전트를 활용하면 수 시간 내에 가능해졌습니다. 사람들이 가전기기, IoT 기기, 상용 서비스 등의 비공개 API나 통신 프로토콜을 파악해 자동화 스크립트를 만드는 것이 훨씬 쉬워졌다는 실제 사례들을 소개합니다. 이러한 변화는 개인 개발자의 역량을 크게 높이는 동시에, 보안과 지적재산 보호의 새로운 도전 과제를 제기합니다."
+      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
+      "link": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
+      "summary": "Twitter 공동창업자 잭 도시가 팀 채팅, AI 에이전트, Git 호스팅을 통합한 협업 플랫폼 Buzz를 공개했습니다.",
+      "detail": "Twitter/X 공동창업자이자 Block(구 Square) CEO인 잭 도시가 buzz.xyz를 통해 Buzz를 공개했습니다. Buzz는 Slack 같은 팀 채팅, GitHub 같은 Git 저장소 호스팅, AI 에이전트 통합을 하나의 플랫폼에 결합한 개발팀 협업 도구입니다. 개발자들이 코드 작업, 팀 커뮤니케이션, AI 지원 업무를 단일 환경에서 처리할 수 있도록 설계됐습니다. 기존 개발 도구들의 분산 문제를 해결하고 AI 에이전트를 워크플로에 자연스럽게 통합하는 것을 목표로 하며, Hacker News에서 100포인트 이상을 기록하며 개발자 커뮤니티의 큰 관심을 받았습니다."
     },
     {
       "category": "Agents",
-      "title": "How to Run Claude Code Agents for 24+ Hours",
-      "link": "https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/",
-      "summary": "장시간 실행되는 Claude Code 에이전트를 안정적으로 운영하기 위한 설정, 모니터링, 복구 방법을 소개한 실용적인 가이드입니다.",
-      "detail": "Towards Data Science에 게재된 이 글은 Claude Code 에이전트를 24시간 이상 지속적으로 실행하기 위한 실전 기법을 다룹니다. 장시간 에이전트 세션에서 흔히 발생하는 컨텍스트 한도 초과, 연결 끊김, 오류 복구 등의 문제를 해결하는 방법을 설명합니다. 적절한 체크포인트 설정, 세션 모니터링, 자동 재시작 메커니즘, 비용 제어 등 생산적인 장기 에이전트 운영을 위한 구체적인 조언을 담고 있습니다. 코딩 에이전트를 업무 자동화에 실질적으로 활용하고자 하는 엔지니어에게 유용한 실용 자료입니다."
+      "title": "Prompt Engineering Isn't Enough: How Four Bricks of Context Engineering Stop RAG Hallucinations",
+      "link": "https://towardsdatascience.com/prompt-engineering-isnt-enough-how-four-bricks-of-context-engineering-stop-rag-hallucinations/",
+      "summary": "RAG 시스템의 환각 현상을 줄이기 위한 컨텍스트 엔지니어링의 네 가지 핵심 요소를 소개합니다.",
+      "detail": "프롬프트 엔지니어링만으로는 RAG(Retrieval-Augmented Generation) 시스템의 환각(hallucination) 문제를 해결할 수 없다는 전제 하에, 컨텍스트 엔지니어링의 네 가지 핵심 구성 요소(Four Bricks)를 제시합니다. RAG 시스템이 환각을 일으키는 근본 원인은 잘못된 질문이 아니라 모델에 제공되는 컨텍스트의 질과 구조에 있습니다. 네 가지 요소를 통해 검색된 문서의 관련성, 구조화, 우선순위 지정, 메타데이터 활용을 개선함으로써 엔터프라이즈 문서 인텔리전스 시스템에서 정확도를 높일 수 있다고 설명합니다. 프롬프트보다 더 근본적인 수준에서 RAG 파이프라인 품질을 향상시키는 실무 가이드입니다."
     },
     {
       "category": "Architecture",
-      "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability",
-      "link": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "DoorDash가 Envoy와 Valkey 기반의 투명한 프록시 캐싱 플랫폼 'Entity Cache'를 구축해 초당 150만 요청을 seven nines 가용성으로 처리하는 아키텍처를 공개했습니다.",
-      "detail": "DoorDash는 대규모 서비스의 데이터베이스 부하를 줄이기 위해 Envoy 프록시와 Valkey(Redis 포크) 기반의 Entity Cache를 개발했습니다. 이 시스템은 초당 150만 요청(1.5M RPS)을 처리하며 99.99999%(seven nines)의 가용성을 달성했습니다. 애플리케이션 코드 변경 없이 투명하게 캐싱을 적용하는 것이 핵심 설계 원칙이며, Envoy의 동적 필터링과 Valkey의 고성능 인메모리 저장소를 결합한 아키텍처입니다. 대규모 실서비스에서 검증된 고가용성 캐시 설계의 실용적인 사례 연구로, 유사한 트래픽 문제를 가진 팀에게 좋은 참고가 됩니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "AWS Releases Loom, an Open-Source Reference Platform for Governing AI Agents at Enterprise Scale",
-      "link": "https://www.infoq.com/news/2026/07/loom-aws-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "AWS가 기업 규모에서 AI 에이전트를 안전하게 관리·감독하기 위한 오픈소스 레퍼런스 플랫폼 'Loom'을 출시했습니다.",
-      "detail": "AWS는 AI 에이전트 거버넌스를 위한 오픈소스 플랫폼 Loom을 AWS Labs에 공개했습니다. Loom은 기업이 다수의 AI 에이전트를 대규모로 운영할 때 필요한 감사 추적, 접근 제어, 정책 시행, 모니터링 등의 거버넌스 기능을 제공합니다. 레퍼런스 아키텍처 형태로 제공되어 기업이 자체 환경에 맞게 커스터마이징할 수 있습니다. AI 에이전트의 기업 도입이 확산되면서 신뢰성·책임성 확보를 위한 거버넌스 인프라의 중요성이 부각되는 시점에 나온 의미 있는 발표입니다."
+      "title": "Fragments: July 21",
+      "link": "https://martinfowler.com/fragments/2026-07-21.html",
+      "summary": "마틴 파울러가 두 번째 Future of Software Development Retreat의 마지막 인사이트와 Thoughtworks 공식 보고서를 정리해 공유했습니다.",
+      "detail": "마틴 파울러가 두 번째 Future of Software Development Retreat(소프트웨어 개발의 미래 리트리트)에 대한 마지막 노트를 공유했습니다. Thoughtworks의 리트리트 전체 보고서가 공개되었으며, 다섯 가지 헤드라인 발견 사항이 담겨 있습니다. 소프트웨어 개발의 미래 방향성, AI와 개발 방법론의 교차점, 업계 전문가들의 집단적 통찰이 담긴 내용으로, 아키텍트와 개발 리더들에게 중요한 참고 자료입니다."
     },
     {
       "category": "Python",
-      "title": "Using NumPy reshape() to Change the Shape of an Array",
-      "link": "https://realpython.com/numpy-reshape/",
-      "summary": "NumPy의 reshape() 함수를 사용해 배열의 형태를 변경하고 차원을 추가·제거하는 방법을 배열 순서 제어까지 포함해 실용적으로 설명합니다.",
-      "detail": "Real Python의 이 튜토리얼은 NumPy reshape()의 핵심 개념과 활용법을 체계적으로 다룹니다. 1차원 배열을 다차원으로 변환하거나 차원을 추가·제거하는 방법과 함께, -1을 사용한 자동 크기 추론 기능을 설명합니다. C 순서(row-major)와 Fortran 순서(column-major)의 차이, reshape()와 ravel()/flatten()의 관계, 뷰(view)와 복사(copy)의 메모리 동작 방식도 다룹니다. 데이터 전처리, 머신러닝 입력 준비 등 실무에서 자주 접하는 배열 조작 패턴을 이해하는 데 유용한 참고 자료입니다."
+      "title": "Exploring Python's Built-in Functions",
+      "link": "https://realpython.com/courses/exploring-pythons-built-in-functions/",
+      "summary": "Real Python이 수학, 자료형, 반복 가능 객체, I/O 등 주제별로 Python 내장 함수를 체계적으로 학습하는 강좌를 출시했습니다.",
+      "detail": "Real Python의 새 강좌에서 Python의 내장 함수들을 체계적으로 다룹니다. 수학 연산(abs, round, pow, divmod), 자료형 관련(int, float, str, list, dict, set, tuple), 반복 가능 객체 처리(len, range, enumerate, zip, map, filter, sorted, reversed), 입출력(print, input, open) 등 핵심 내장 함수들을 언제 어떻게 사용할지 학습합니다. 각 함수의 동작 원리와 실용적인 활용 패턴을 배우며, 더 Pythonic한 코드 작성에 직접적으로 도움이 되는 실용 강좌입니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "Survey Statistics: poststratification without population level information",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/21/survey-statistics-poststratification-without-population-level-information/",
+      "summary": "모집단 수준 정보 없이 포스트층화를 수행하는 설문 통계 기법에 대한 Andrew Gelman의 기술적 논의입니다.",
+      "detail": "포스트층화(poststratification)는 설문 응답자의 특성 X에 대한 모집단 데이터를 활용해 E(Y)를 E(E(Y|X, R=1)) 형태로 추정하는 통계 기법입니다. 다층 회귀와 결합하면 MrP(Multilevel Regression and Poststratification)가 됩니다. 이 게시물은 모집단 수준 정보를 확보할 수 없는 현실적 상황에서의 대안적 접근법을 논의합니다. 포스트층화 변수 X에 대한 모집단 분포를 알 수 없을 때 어떻게 추정치를 보정할 수 있는지 방법론적 대안을 탐색합니다. 여론 조사 분석, 소규모 지역 추정(small area estimation), 비확률 표본 조정 등 응용 분야에서 유용한 내용입니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "How Much of a Data Science Workflow Can Run on a GPU Today? Part 1: Accelerating Data Preparation",
+      "link": "https://towardsdatascience.com/how-much-of-a-data-science-workflow-can-run-on-a-gpu-today-part-1-accelerating-data-preparation/",
+      "summary": "GPU를 활용해 데이터 준비 단계를 가속화하는 cuDF, cudf.pandas, Polars GPU Engine을 비교 분석한 시리즈 1편입니다.",
+      "detail": "데이터 과학 워크플로 중 얼마나 많은 부분을 GPU로 가속할 수 있는지 탐구하는 시리즈의 1편으로, 데이터 준비(data preparation) 단계에 초점을 맞춥니다. NVIDIA RAPIDS의 cuDF 라이브러리, pandas API와 완전 호환되는 드롭인 대체제 cudf.pandas, GPU 최적화 쿼리 엔진을 활용하는 Polars GPU Engine 세 가지를 비교합니다. cudf.pandas는 코드 수정 없이 기존 pandas 코드를 GPU로 전환할 수 있는 장점이 있으며, 대용량 데이터에서 CPU 대비 수십 배의 속도 향상이 가능함을 보여줍니다. 데이터 전처리 병목을 해소하려는 ML 엔지니어와 데이터 과학자에게 실용적인 가이드입니다."
     }
   ]
 }
