@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-22T18:29:06+09:00",
-  "count": 785,
+  "updated": "2026-07-22T20:50:19+09:00",
+  "count": 784,
   "items": [
+    {
+      "title": "AWS Billing Bug Shows Customers Trillion-Dollar Estimates While Its Own Cost Alarms Fail to Act",
+      "link": "https://www.infoq.com/news/2026/07/aws-billing-estimates-incident/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "A configuration change in AWS's bill computation system showed customers estimated bills in the billions and trillions of dollars for over 24 hours. AWS's own alarms detected the anomalies but failed to halt bill genera…",
+      "ts": 1784715540,
+      "published": "2026-07-22T10:19:00+00:00",
+      "collected_at": "2026-07-22T20:49:56+09:00"
+    },
     {
       "title": "Planned Updates to the PyPI User Interface",
       "link": "https://blog.pypi.org/posts/2026-07-22-ui-updates/",
@@ -7831,26 +7841,6 @@
       "ts": 1782129600,
       "published": "2026-06-22T12:00:00+00:00",
       "collected_at": null
-    },
-    {
-      "title": "Patch the Planet: a Daybreak initiative to support open source maintainers",
-      "link": "https://openai.com/index/patch-the-planet",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces Patch the Planet, a Daybreak initiative helping open-source maintainers find, validate, and fix vulnerabilities with AI and expert review.",
-      "ts": 1782122400,
-      "published": "2026-06-22T10:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Daybreak: Tools for securing every organization in the world",
-      "link": "https://openai.com/index/daybreak-securing-the-world",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities at scale.",
-      "ts": 1782122400,
-      "published": "2026-06-22T10:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
     }
   ]
 }
