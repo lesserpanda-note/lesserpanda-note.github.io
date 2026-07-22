@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-22T23:05:16+09:00",
-  "count": 794,
+  "updated": "2026-07-23T01:21:27+09:00",
+  "count": 799,
   "items": [
+    {
+      "title": "How To Build Your Own LLM Runtime From Scratch",
+      "link": "https://towardsdatascience.com/how-to-build-your-own-llm-runtime-from-scratch/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "If you have ever wanted to actually build an LLM inference runtime yourself — pack your own weights, own every barrier, capture your own CUDA graphs — this is what that journey looks like on an H100. A step-by-step tour…",
+      "ts": 1784732400,
+      "published": "2026-07-22T15:00:00+00:00",
+      "collected_at": "2026-07-23T01:21:23+09:00"
+    },
+    {
+      "title": "GitHub Increased Instant Navigation from 4% to 22% by Rethinking Client Side Architecture",
+      "link": "https://www.infoq.com/news/2026/07/github-issues-navigation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "GitHub redesigned GitHub Issues navigation using a client-side architecture that combines caching, predictive prefetching, and service workers to reduce perceived latency. The approach uses IndexedDB, in-memory caching,…",
+      "ts": 1784729340,
+      "published": "2026-07-22T14:09:00+00:00",
+      "collected_at": "2026-07-23T01:21:23+09:00"
+    },
+    {
+      "title": "Kaggle + Google’s Free 5-Day Agentic AI Course",
+      "link": "https://www.kdnuggets.com/kaggle-googles-free-5-day-agentic-ai-course",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Google and Kaggle's 5-Day AI agents course is now freely available to everyone.",
+      "ts": 1784728833,
+      "published": "2026-07-22T14:00:33+00:00",
+      "collected_at": "2026-07-23T01:21:23+09:00"
+    },
+    {
+      "title": "Tool-Agnostic Python Lock Files With PEP 751 and pylock.toml",
+      "link": "https://realpython.com/python-lock-file-pylock-toml/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how PEP 751 standardizes Python lock files with pylock.toml: generate one with pip or uv, install it with uv or pdm, and retire requirements.txt.",
+      "ts": 1784728800,
+      "published": "2026-07-22T14:00:00+00:00",
+      "collected_at": "2026-07-23T01:21:23+09:00"
+    },
     {
       "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
       "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
@@ -111,6 +151,26 @@
       "ts": 1784721600,
       "published": "2026-07-22T12:00:00+00:00",
       "collected_at": "2026-07-22T23:04:53+09:00"
+    },
+    {
+      "title": "Advancing the next era of national science",
+      "link": "https://openai.com/index/advancing-the-next-era-of-national-science",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery.",
+      "ts": 1784721600,
+      "published": "2026-07-22T12:00:00+00:00",
+      "collected_at": "2026-07-23T01:21:23+09:00"
+    },
+    {
+      "title": "Releases now reject new files after 14 days",
+      "link": "https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/",
+      "source": "PyPI Blog",
+      "category": "Python",
+      "summary": "The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was put in place to prevent old and long-stable releases from being poisoned in case publish…",
+      "ts": 1784721600,
+      "published": "2026-07-22T12:00:00+00:00",
+      "collected_at": "2026-07-23T01:21:23+09:00"
     },
     {
       "title": "Presentation: From Copy-Paste to Composition: Building Agents Like Real Software",
@@ -7930,16 +7990,6 @@
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the…",
       "ts": 1782151200,
       "published": "2026-06-22T18:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The text in Claude Code’s “Extended Thinking” output",
-      "link": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/ Comments URL: https://news.ycombinator.com/item?id=48630535 Points: 316 # Comments: 215",
-      "ts": 1782138166,
-      "published": "2026-06-22T14:22:46+00:00",
       "collected_at": null
     }
   ]
