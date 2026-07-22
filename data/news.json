@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-23T05:12:53+09:00",
-  "count": 800,
+  "updated": "2026-07-23T07:07:25+09:00",
+  "count": 799,
   "items": [
+    {
+      "title": "pandas 3.0.5",
+      "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.0.5",
+      "source": "pandas",
+      "category": "DataScience",
+      "summary": "We are pleased to announce the release of pandas 3.0.5. This is a patch release in the 3.0.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.0.x series upgrade to this versi…",
+      "ts": 1784756828,
+      "published": "2026-07-22T21:47:08+00:00",
+      "collected_at": "2026-07-23T07:07:02+09:00"
+    },
     {
       "title": "Loop Engineering for RAG Generation: iterate top-k one at a time",
       "link": "https://towardsdatascience.com/loop-engineering-for-rag-generation-when-top-1-is-enough-when-you-need-top-k/",
@@ -7981,26 +7991,6 @@
       "ts": 1782171831,
       "published": "2026-06-22T23:43:51+00:00",
       "collected_at": null
-    },
-    {
-      "title": "Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan",
-      "link": "https://www.latent.space/p/gray-swan",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "OpenAI boardmember Zico Kolter and Gray Swan CEO Matt Fredrikson join swyx to explain why AI security is not just “cybersecurity with AI”",
-      "ts": 1782162415,
-      "published": "2026-06-22T21:06:55+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Workshop on Rethinking the Role of Bayesianism in the Age of Modern AI",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/22/workshop-on-rethinking-the-role-of-bayesianism-in-the-age-of-modern-ai/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Esmeralda Whitammer, Sara Wade, Vincent Fortuin, Konstantina Palla, and Theodore Papamarkou write: We are organising a focused workshop on Rethinking the Role of Bayesianism in the Age of Modern AI from October 26 to 30…",
-      "ts": 1782159214,
-      "published": "2026-06-22T20:13:34+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
     }
   ]
 }
