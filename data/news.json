@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-24T06:08:28+09:00",
+  "updated": "2026-07-24T07:59:39+09:00",
   "count": 815,
   "items": [
+    {
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "link": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The first known runaway AI agent - or a very bad marketing stunt? Martin Alderson's commentary on the OpenAI accidental cyberattack against Hugging Face includes a couple of details I hadn't considered. First, Hugging F…",
+      "ts": 1784847188,
+      "published": "2026-07-23T22:53:08+00:00",
+      "collected_at": "2026-07-24T07:59:29+09:00"
+    },
+    {
+      "title": "python-github-copilot-1.0.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-github-copilot-1.0.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[github-copilot-1.0.0] - 2026-07-23 Added agent-framework-github-copilot : Forward input attachments (images, documents, and other inline binary content) to GitHub Copilot as inline blobs ( #7300 ) Changed agent-framewo…",
+      "ts": 1784842343,
+      "published": "2026-07-23T21:32:23+00:00",
+      "collected_at": "2026-07-24T07:59:29+09:00"
+    },
     {
       "title": "When Data Science Makes Us Sad: The Story of an Overbooked Flight",
       "link": "https://towardsdatascience.com/when-data-science-makes-us-sad-the-story-of-an-overbooked-flight/",
@@ -2351,6 +2371,16 @@
       "ts": 1784187796,
       "published": "2026-07-16T07:43:16+00:00",
       "collected_at": "2026-07-16T21:10:50+09:00"
+    },
+    {
+      "title": "How Codex became a collaborator for OpenAI’s creative team",
+      "link": "https://openai.com/index/codex-collaborator-creative-team",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "How OpenAI’s creative team uses Codex to build custom creative tools, accelerate ideation, and prototype faster with context-aware AI.",
+      "ts": 1784185200,
+      "published": "2026-07-16T07:00:00+00:00",
+      "collected_at": "2026-07-24T07:59:29+09:00"
     },
     {
       "title": "[AINews] Thinky's Inkling: 975B-A41B multimodal, new best American Apache 2.0 open model (with Inkling-Small, 276B-A12B)",
@@ -8120,36 +8150,6 @@
       "summary": "",
       "ts": 1782259200,
       "published": "2026-06-24T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "datasette 1.0a35",
-      "link": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette 1.0a35 I'll write more about this one soon, but it's a big release. Three highlights from the release notes: New \"Create table\" interface in the database actions menu, backed by the /<database>/-/crea…",
-      "ts": 1782250477,
-      "published": "2026-06-23T21:34:37+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "dotnet-1.11.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.11.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "Changes: 1109d0b Get date suffix up to date with release date ( #6690 ) e030fb5 .NET: Replace the symlink index entries with regular file entries ( #6687 ) e6ebba1 Add ADR 0029: Skills over MCP implementation design opt…",
-      "ts": 1782249506,
-      "published": "2026-06-23T21:18:26+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "1.14.8a3",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.8a3",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add unified declarative flow loading Improve crewai run startup UX Consolidate crewai run and crewai flow kickoff Keep flow method progress visible for nested crews Add declarative Flow CLI suppo…",
-      "ts": 1782249106,
-      "published": "2026-06-23T21:11:46+00:00",
       "collected_at": null
     }
   ]
