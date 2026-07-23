@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-23T07:07:25+09:00",
-  "count": 799,
+  "updated": "2026-07-23T09:03:24+09:00",
+  "count": 793,
   "items": [
+    {
+      "title": "dotnet-1.15.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.15.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "What's Changed Python: Add MCPStreamableHTTPTool security guidance for custom http client by @TaoChenOSU in #7245 Harden workflow credential selection by @moonbox3 in #7249 Python: preserve Gemini 3 thought_signature ac…",
+      "ts": 1784764693,
+      "published": "2026-07-22T23:58:13+00:00",
+      "collected_at": "2026-07-23T09:03:02+09:00"
+    },
+    {
+      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+      "link": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of Ope…",
+      "ts": 1784764293,
+      "published": "2026-07-22T23:51:33+00:00",
+      "collected_at": "2026-07-23T09:03:02+09:00"
+    },
+    {
+      "title": "Are AI labs pelicanmaxxing?",
+      "link": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Are AI labs pelicanmaxxing? Excellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bic…",
+      "ts": 1784761260,
+      "published": "2026-07-22T23:01:00+00:00",
+      "collected_at": "2026-07-23T09:03:02+09:00"
+    },
     {
       "title": "pandas 3.0.5",
       "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.0.5",
@@ -281,6 +311,16 @@
       "ts": 1784690849,
       "published": "2026-07-22T03:27:29+00:00",
       "collected_at": "2026-07-22T12:33:30+09:00"
+    },
+    {
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "link": "https://openai.com/index/ntt-data",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+      "ts": 1784678400,
+      "published": "2026-07-22T00:00:00+00:00",
+      "collected_at": "2026-07-23T09:03:02+09:00"
     },
     {
       "title": "\"Drawing\" the Mona Lisa with GPT-5.6, Claude, Gemini, and Grok",
@@ -7891,106 +7931,6 @@
       "ts": 1782180277,
       "published": "2026-06-23T02:04:37+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Self-Correcting Structured Output in Spring AI 2.0",
-      "link": "https://spring.io/blog/2026/06/23/spring-ai-self-correcting-structured-output",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Large language models are text-in, text-out systems — their interface is natural language. Natural language is a great interface for humans and a poor one for software. The moment downstream code needs to route on a fie…",
-      "ts": 1782172800,
-      "published": "2026-06-23T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "This Week in Spring - June 23rd, 2026",
-      "link": "https://spring.io/blog/2026/06/23/this-week-in-spring-june-23-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi Spring fans! In this installment, we look at the wide and wonderful world of Spring, as usual, and there's a good amount to get to, fresh off the recent Spring Boot 4.1 generation release train, so let's dive right i…",
-      "ts": 1782172800,
-      "published": "2026-06-23T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
-      "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782172800,
-      "published": "2026-06-23T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
-      "link": "https://huggingface.co/blog/cross-origin-storage",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782172800,
-      "published": "2026-06-23T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Introducing Claude Tag",
-      "link": "https://www.anthropic.com/news/introducing-claude-tag",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Introducing Claude Tag",
-      "ts": 1782172800,
-      "published": "2026-06-23T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Mitigated API authentication bypass for python.org download metadata",
-      "link": "https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Vulnerability mitigated in python.org with follow-up third-party audit from Trail of Bits",
-      "ts": 1782172800,
-      "published": "2026-06-23T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Python 3.15.0 beta 3 is here!",
-      "link": "https://blog.python.org/2026/06/python-3150-beta-3/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "The penultimate 3.15 beta is out!",
-      "ts": 1782172800,
-      "published": "2026-06-23T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "How Omio is building the future of conversational travel",
-      "link": "https://openai.com/index/omio",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Discover how Omio uses OpenAI to power conversational travel experiences, accelerate product development, and transform into an AI-native company.",
-      "ts": 1782172800,
-      "published": "2026-06-23T00:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Prompt Injection as Role Confusion",
-      "link": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Prompt Injection as Role Confusion First, I absolutely love this: This is a blog-style writeup of the paper. I wish every paper would come with one of these. Academic writing is pretty dry - the impact of a paper can be…",
-      "ts": 1782172793,
-      "published": "2026-06-22T23:59:53+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Porting the Moebius 0.2B image inpainting model to run in the browser with Claude Code",
-      "link": "https://simonwillison.net/2026/Jun/22/porting-moebius/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "This morning on Hacker News I saw Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance , describing a small but effective inpainting model - a model where you can mark regions of an image to r…",
-      "ts": 1782171831,
-      "published": "2026-06-22T23:43:51+00:00",
-      "collected_at": null
     }
   ]
 }
