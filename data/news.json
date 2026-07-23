@@ -1,7 +1,87 @@
 {
-  "updated": "2026-07-23T21:25:49+09:00",
-  "count": 807,
+  "updated": "2026-07-24T00:11:50+09:00",
+  "count": 813,
   "items": [
+    {
+      "title": "Most RAG Hallucinations Are Extraction Errors: Seven Patterns for a Typed Generation Contract",
+      "link": "https://towardsdatascience.com/most-rag-hallucinations-are-extraction-errors-seven-patterns-for-a-typed-generation-contract/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8ter] - Naming the RAG error correctly matters: model reads the context, so a wrong answer is an extraction error, not a hallucination. Seven typed-contract patterns keep the gen…",
+      "ts": 1784818800,
+      "published": "2026-07-23T15:00:00+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
+    },
+    {
+      "title": "Expedia Uses AI Driven Service Telemetry Analyzer to Accelerate Incident Investigation",
+      "link": "https://www.infoq.com/news/2026/07/expedia-ai-observability-star/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Expedia Group has introduced STAR, an internal AI-assisted observability platform that helps engineers investigate production incidents using service telemetry and LLMs. Built with FastAPI, Datadog, Celery, Redis, and L…",
+      "ts": 1784816100,
+      "published": "2026-07-23T14:15:00+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
+    },
+    {
+      "title": "Expedia Uses AI Driven Service Telemetry Analyzer to Accelerate Incident Investigation",
+      "link": "https://www.infoq.com/news/2026/07/expedia-ai-observability-star/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Expedia Group has introduced STAR, an internal AI-assisted observability platform that helps engineers investigate production incidents using service telemetry and LLMs. Built with FastAPI, Datadog, Celery, Redis, and L…",
+      "ts": 1784816100,
+      "published": "2026-07-23T14:15:00+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
+    },
+    {
+      "title": "Getting Started with OmniVoice-Studio",
+      "link": "https://www.kdnuggets.com/getting-started-with-omnivoice-studio",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "OmniVoice Studio is built on a premise that everything runs on your hardware. Voice cloning, video dubbing, real-time dictation, voice design, all of it local, all of it free for personal use, no API key required, no us…",
+      "ts": 1784815247,
+      "published": "2026-07-23T14:00:47+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
+    },
+    {
+      "title": "Lessons Learned After 8.5 Years of ML",
+      "link": "https://towardsdatascience.com/lessons-learned-after-8-5-years-of-ml/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Patience, Optimism, Discipline, Projects, Teams The post Lessons Learned After 8.5 Years of ML appeared first on Towards Data Science .",
+      "ts": 1784813400,
+      "published": "2026-07-23T13:30:00+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
+    },
+    {
+      "title": "Pretty maps of the NY mayoral election vote. (The meta-point here is that people have a (false) intuition that any complicated piece of information can be conveyed in a single plot.)",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/23/pretty-maps-of-the-ny-mayoral-election-vote-the-meta-point-here-is-that-people-have-a-false-intuition-that-any-complicated-piece-of-information-can-be-conveyed-in-a-single-plot/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In reaction to my recent post, If Cuomo had been able to run against Mamdani head-to-head, would he have won?, sociologist Kieran Healy posted a pair of maps showing precinct-level results from the recent New York mayor…",
+      "ts": 1784812932,
+      "published": "2026-07-23T13:22:12+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
+    },
+    {
+      "title": "OpenAI and Anthropic unite against open-weight AI risks to their bottom line",
+      "link": "https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.axios.com/2026/07/22/openai-anthropic-open-models-trump-china Comments URL: https://news.ycombinator.com/item?id=49020868 Points: 224 # Comments: 261",
+      "ts": 1784811603,
+      "published": "2026-07-23T13:00:03+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
+    },
+    {
+      "title": "Azul Zulu July 2026 Quarterly Update Released",
+      "link": "https://foojay.io/today/azul-zulu-july-2026-quarterly-update-released/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Every three months your production JDKs fall further behind on security patches. Azul closes that gap today with the July 2026 quarterly update for Azul Zulu Builds of OpenJDK, covering Java 26, 25, 21, 17, 11, 8, 7, an…",
+      "ts": 1784810126,
+      "published": "2026-07-23T12:35:26+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
+    },
     {
       "title": "Prompt Compression Techniques: How to Reduce LLM Costs Without Losing Important Context",
       "link": "https://www.analyticsvidhya.com/blog/2026/07/prompt-compression-techniques-guide/",
@@ -23,6 +103,16 @@
       "collected_at": "2026-07-23T21:25:38+09:00"
     },
     {
+      "title": "An Introduction to Loop Engineering",
+      "link": "https://machinelearningmastery.com/an-introduction-to-loop-engineering/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "It's tempting to treat loop engineering as something invented in a single week in June, but the mechanics behind it are closer to five years old, and knowing the lineage is what separates a real understanding of the ide…",
+      "ts": 1784808031,
+      "published": "2026-07-23T12:00:31+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
+    },
+    {
       "title": "Quiz: A Guide to Excel Spreadsheets in Python With openpyxl",
       "link": "https://realpython.com/quizzes/openpyxl-excel-spreadsheets-python/",
       "source": "Real Python",
@@ -41,6 +131,16 @@
       "ts": 1784808000,
       "published": "2026-07-23T12:00:00+00:00",
       "collected_at": "2026-07-23T21:25:38+09:00"
+    },
+    {
+      "title": "How AI helps scientists design the next generation of medicines",
+      "link": "https://www.technologyreview.com/2026/07/23/1140346/how-ai-helps-scientists-design-the-next-generation-of-medicines/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Designing and developing a new medicine is an expensive, failure-prone scientific challenge. A new drug can take many years to develop, at the cost of a significant investment. And even then, most possible candidates ne…",
+      "ts": 1784808000,
+      "published": "2026-07-23T12:00:00+00:00",
+      "collected_at": "2026-07-24T00:11:46+09:00"
     },
     {
       "title": "python-hosting-a2a-1.0.0a260723",
@@ -8030,46 +8130,6 @@
       "summary": "🎉 Pydantic AI V2.0 is here! After seven betas, Pydantic AI V2 is now stable. V2 leans into a harness-first design with capabilities as a core primitive — a single composable unit that bundles an agent's tools, hooks, in…",
       "ts": 1782229097,
       "published": "2026-06-23T15:38:17+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Using LlamaIndex for RAG in Python",
-      "link": "https://realpython.com/courses/using-llamaindex-for-rag-in-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to set up LlamaIndex, load your data, build and persist an index, and run queries to get grounded answers with RAG in Python.",
-      "ts": 1782223200,
-      "published": "2026-06-23T14:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Mind-body healing: An exchange.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/23/mind-body-healing-an-exchange/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This has come up a few times on the blog already: Carroll/Langer: Credulous, scientist-as-hero reporting from a podcaster who should know better 7 steps to junk science that can achieve worldly success A suggestion for…",
-      "ts": 1782222207,
-      "published": "2026-06-23T13:43:27+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Helping build shared standards for advanced AI",
-      "link": "https://openai.com/index/helping-build-shared-standards-for-advanced-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI helps build shared standards for advanced AI, supporting evaluation frameworks, safety practices, and global cooperation through the Appia Foundation.",
-      "ts": 1782219600,
-      "published": "2026-06-23T13:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
-      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782219115,
-      "published": "2026-06-23T12:51:55+00:00",
       "collected_at": null
     }
   ]
