@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-24T00:11:50+09:00",
-  "count": 813,
+  "updated": "2026-07-24T02:26:43+09:00",
+  "count": 816,
   "items": [
+    {
+      "title": "When Data Science Makes Us Sad: The Story of an Overbooked Flight",
+      "link": "https://towardsdatascience.com/when-data-science-makes-us-sad-the-story-of-an-overbooked-flight/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "$8 million vs $5k + Potentially Going Viral The post When Data Science Makes Us Sad: The Story of an Overbooked Flight appeared first on Towards Data Science .",
+      "ts": 1784824200,
+      "published": "2026-07-23T16:30:00+00:00",
+      "collected_at": "2026-07-24T02:26:39+09:00"
+    },
+    {
+      "title": "AI Found the Bugs. Who’s Patching Your EOL Java Code?",
+      "link": "https://foojay.io/today/ai-found-the-bugs-whos-patching-your-eol-java-code/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Earlier this year an AI model found a flaw in OpenBSD's TCP stack that had been sitting there for 27 years. The same scanning run turned up a 16-year-old bug in FFmpeg's H.264 code. How do you feel about AI ... The post…",
+      "ts": 1784820413,
+      "published": "2026-07-23T15:26:53+00:00",
+      "collected_at": "2026-07-24T02:26:39+09:00"
+    },
     {
       "title": "Most RAG Hallucinations Are Extraction Errors: Seven Patterns for a Typed Generation Contract",
       "link": "https://towardsdatascience.com/most-rag-hallucinations-are-extraction-errors-seven-patterns-for-a-typed-generation-contract/",
@@ -261,6 +281,36 @@
       "ts": 1784764800,
       "published": "2026-07-23T00:00:00+00:00",
       "collected_at": "2026-07-23T21:25:38+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: Java Developer Advocate Billy Korando on Java 27 and Beyond",
+      "link": "https://spring.io/blog/2026/07/23/a-bootiful-podcast-billy-korando",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi Spring fans! In this installment, I am thrilled to have the chance to sit down with Java Developer Advocate Billy Korando to talk about the amazing features in the upcoming Java 27! We recorded this a day before I fl…",
+      "ts": 1784764800,
+      "published": "2026-07-23T00:00:00+00:00",
+      "collected_at": "2026-07-24T02:26:39+09:00"
+    },
+    {
+      "title": "Launching Health in ChatGPT",
+      "link": "https://openai.com/index/health-in-chatgpt",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
+      "ts": 1784764800,
+      "published": "2026-07-23T00:00:00+00:00",
+      "collected_at": "2026-07-24T02:26:39+09:00"
+    },
+    {
+      "title": "Get Ready: 2026 Python Packaging Council Nominations Opening Soon!",
+      "link": "https://blog.python.org/2026/07/2026-packaging-council-nominations/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "The inaugural Python Packaging Council election nomination period opens on Tuesday, July 28th, 2:00 pm UTC and closes on Tuesday, August 11th, 2:00 pm UTC.",
+      "ts": 1784764800,
+      "published": "2026-07-23T00:00:00+00:00",
+      "collected_at": "2026-07-24T02:26:39+09:00"
     },
     {
       "title": "Quoting Thomas Ptacek",
@@ -8110,26 +8160,6 @@
       "summary": "Tool: OPFS + Pyodide test harness I've been pondering if Datasette Lite - the Python Datasette application run entirely in the browser using Pyodide and WebAssembly - might be able to edit persistent SQLite files stored…",
       "ts": 1782241134,
       "published": "2026-06-23T18:58:54+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
-      "link": "https://openai.com/index/gpt-5-immunology-mystery",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-5 Pro helped solve a 3-year-old immunology mystery, offering insights into T cell behavior. The breakthrough could support cancer and autoimmune research.",
-      "ts": 1782234000,
-      "published": "2026-06-23T17:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "v2.0.0 (2026-06-23)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.0.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "🎉 Pydantic AI V2.0 is here! After seven betas, Pydantic AI V2 is now stable. V2 leans into a harness-first design with capabilities as a core primitive — a single composable unit that bundles an agent's tools, hooks, in…",
-      "ts": 1782229097,
-      "published": "2026-06-23T15:38:17+00:00",
       "collected_at": null
     }
   ]
