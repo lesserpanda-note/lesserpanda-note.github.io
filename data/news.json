@@ -1,7 +1,77 @@
 {
-  "updated": "2026-07-23T19:26:41+09:00",
-  "count": 800,
+  "updated": "2026-07-23T21:25:49+09:00",
+  "count": 807,
   "items": [
+    {
+      "title": "Prompt Compression Techniques: How to Reduce LLM Costs Without Losing Important Context",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/prompt-compression-techniques-guide/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Large language models often receive more information than they need. A prompt may include long instructions, retrieved documents, chat history, examples, and tool descriptions. This increases token usage, cost, and resp…",
+      "ts": 1784808981,
+      "published": "2026-07-23T12:16:21+00:00",
+      "collected_at": "2026-07-23T21:25:38+09:00"
+    },
+    {
+      "title": "7 Best Claude Code Alternatives for CLI Agentic Coding",
+      "link": "https://www.kdnuggets.com/7-best-claude-code-alternatives-for-cli-agentic-coding",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Discover seven cheaper, faster Claude Code alternatives for CLI agentic coding, with open-source tools, local models, MCP support, and better context control.",
+      "ts": 1784808042,
+      "published": "2026-07-23T12:00:42+00:00",
+      "collected_at": "2026-07-23T21:25:38+09:00"
+    },
+    {
+      "title": "Quiz: A Guide to Excel Spreadsheets in Python With openpyxl",
+      "link": "https://realpython.com/quizzes/openpyxl-excel-spreadsheets-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice reading, writing, and styling Excel spreadsheets in Python with openpyxl, from cell values and formulas to charts and images.",
+      "ts": 1784808000,
+      "published": "2026-07-23T12:00:00+00:00",
+      "collected_at": "2026-07-23T21:25:38+09:00"
+    },
+    {
+      "title": "Why Adding More AI Agents Made Our System Slower",
+      "link": "https://towardsdatascience.com/why-adding-more-ai-agents-made-our-system-slower/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "The hidden cost of asynchronous systems, how tiny CPU tasks quietly became our biggest bottleneck while scaling hundreds of LLM agents. The post Why Adding More AI Agents Made Our System Slower appeared first on Towards…",
+      "ts": 1784808000,
+      "published": "2026-07-23T12:00:00+00:00",
+      "collected_at": "2026-07-23T21:25:38+09:00"
+    },
+    {
+      "title": "python-hosting-a2a-1.0.0a260723",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-hosting-a2a-1.0.0a260723",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "Added agent-framework-hosting-a2a : Add progressive agent and workflow A2A adapters with native card generation, skill discovery, typed conversion, and mode-aware validation ( #7258 ) Changed samples : Update the app-ow…",
+      "ts": 1784806048,
+      "published": "2026-07-23T11:27:28+00:00",
+      "collected_at": "2026-07-23T21:25:38+09:00"
+    },
+    {
+      "title": "What’s New In The July 2026 Azul Payara Release?",
+      "link": "https://foojay.io/today/whats-new-in-the-july-2026-azul-payara-release/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "The July 2026 release brings Azul Payara 7.2.0, Azul Payara Community 7.2026.7, Azul Payara 6.40.0, Azul Payara 5.89.0, and Azul Payara 4.1.2.191.57. A single security fix runs through every release, backported from the…",
+      "ts": 1784802538,
+      "published": "2026-07-23T10:28:58+00:00",
+      "collected_at": "2026-07-23T21:25:38+09:00"
+    },
+    {
+      "title": "Presentation: Compiling Workflows into Databases: The Architecture That Shouldn't Work (But Does)",
+      "link": "https://www.infoq.com/presentations/dbos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Jeremy Edberg & Qian Li discuss why external orchestrators decrease reliability and how to use your existing database for durable execution. They share how DBOS Transact uses standard tables, SKIP LOCKED queues, and uni…",
+      "ts": 1784802360,
+      "published": "2026-07-23T10:26:00+00:00",
+      "collected_at": "2026-07-23T21:25:38+09:00"
+    },
     {
       "title": "QCon AI New York 2026: Registration Opens for December 15-16 Production-AI Conference",
       "link": "https://www.infoq.com/news/2026/07/qcon-ai-newyork-2026-live/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -81,6 +151,16 @@
       "ts": 1784764800,
       "published": "2026-07-23T00:00:00+00:00",
       "collected_at": "2026-07-23T16:34:56+09:00"
+    },
+    {
+      "title": "Episode 63 “AI Solutions with Spring AI 2.0 [I/O]",
+      "link": "https://inside.java/2026/07/23/podcast-063/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Tips on deterministic agents, MCP servers and skills, prompt engineering, and where Java's richness for AI solutions stems from.",
+      "ts": 1784764800,
+      "published": "2026-07-23T00:00:00+00:00",
+      "collected_at": "2026-07-23T21:25:38+09:00"
     },
     {
       "title": "Quoting Thomas Ptacek",
@@ -731,6 +811,16 @@
       "ts": 1784628000,
       "published": "2026-07-21T10:00:00+00:00",
       "collected_at": "2026-07-21T20:49:36+09:00"
+    },
+    {
+      "title": "ANSI escape injection in MCP servers: Hidden from humans, visible to AI",
+      "link": "https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://brightsec.com/research/detecting-ansi-escape-sequence-injection-in-mcp-servers-with-dast/ Comments URL: https://news.ycombinator.com/item?id=48989006 Points: 32 # Comments: 14",
+      "ts": 1784617284,
+      "published": "2026-07-21T07:01:24+00:00",
+      "collected_at": "2026-07-23T21:25:38+09:00"
     },
     {
       "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
@@ -7980,26 +8070,6 @@
       "summary": "",
       "ts": 1782219115,
       "published": "2026-06-23T12:51:55+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Clustering Unstructured Text with LLM Embeddings and HDBSCAN",
-      "link": "https://machinelearningmastery.com/clustering-unstructured-text-with-llm-embeddings-and-hdbscan/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "The current era of Generative AI seems to primarily focus on chat interfaces and prompts, but the range of applications of large language models , or LLMs for short, is not limited to just that.",
-      "ts": 1782216057,
-      "published": "2026-06-23T12:00:57+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quiz: Using LlamaIndex for RAG in Python",
-      "link": "https://realpython.com/quizzes/using-llamaindex-for-rag-in-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of RAG in Python with LlamaIndex by loading data, building and persisting an index, and querying an LLM for grounded answers.",
-      "ts": 1782216000,
-      "published": "2026-06-23T12:00:00+00:00",
       "collected_at": null
     }
   ]
