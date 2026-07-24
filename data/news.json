@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-24T23:59:15+09:00",
-  "count": 814,
+  "updated": "2026-07-25T01:51:17+09:00",
+  "count": 813,
   "items": [
+    {
+      "title": "Tabular LLMs: An Introduction to the Foundation Models That Predict Your Spreadsheet",
+      "link": "https://towardsdatascience.com/tabular-llms-an-introduction-to-the-foundation-models-that-predict-your-spreadsheet/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Tabular foundation models predict the missing column of any spreadsheet zero-shot, the way an LLM completes text — and on the TabArena benchmark they now sit above fully tuned gradient-boosted trees. An introduction to…",
+      "ts": 1784910600,
+      "published": "2026-07-24T16:30:00+00:00",
+      "collected_at": "2026-07-25T01:51:12+09:00"
+    },
+    {
+      "title": "Own Your Pixels: Native Fidelity on Your Schedule",
+      "link": "https://foojay.io/today/own-your-pixels-native-fidelity-on-your-schedule/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Codename One statically links its lightweight UI into your native app, so an OS update cannot silently redesign it. New native-reference fidelity tests let us adopt iOS 26 Liquid Glass and Material 3 on our schedule wit…",
+      "ts": 1784907924,
+      "published": "2026-07-24T15:45:24+00:00",
+      "collected_at": "2026-07-25T01:51:12+09:00"
+    },
+    {
+      "title": "Build and Run an Intelligent Document Processing (IDP) System in the Cloud",
+      "link": "https://towardsdatascience.com/build-and-run-an-intelligent-document-processing-idp-system-in-the-cloud/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Automating the classification and extraction of PII from emails using AWS The post Build and Run an Intelligent Document Processing (IDP) System in the Cloud appeared first on Towards Data Science .",
+      "ts": 1784905200,
+      "published": "2026-07-24T15:00:00+00:00",
+      "collected_at": "2026-07-25T01:51:12+09:00"
+    },
     {
       "title": "Grok Build CLI vs Claude Code: I Tested Both So You Don’t Have To",
       "link": "https://www.analyticsvidhya.com/blog/2026/07/claude-code-vs-grok-build-cli/",
@@ -8100,46 +8130,6 @@
       "summary": "In the last few months, I've started to see [job applications] that were clearly cowritten by an LLM, link to an LLM-generated portfolio site, which then links to LLM-generated GitHub projects, with purely LLM-generated…",
       "ts": 1782324831,
       "published": "2026-06-24T18:13:51+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Introducing computer use in Gemini 3.5 Flash",
-      "link": "https://deepmind.google/blog/introducing-computer-use-in-gemini-3-5-flash/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782318601,
-      "published": "2026-06-24T16:30:01+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "1.14.8a4",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.8a4",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Support conversational flows in the CLI TUI. Bug Fixes Fix symlink path traversal in skill archive extraction. Validate declarative flow definition paths. Documentation Update snapshot and change…",
-      "ts": 1782318002,
-      "published": "2026-06-24T16:20:02+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Treating AI review like the contentious policy design problem it is",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/24/treating-ai-review-like-the-contentious-policy-design-problem-it-is/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This is Jessica. Many researchers are thinking about what we should do about scientific peer review now that AI makes producing papers so much easier. Submission numbers keep getting higher — in the past week, I saw rep…",
-      "ts": 1782317889,
-      "published": "2026-06-24T16:18:09+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel",
-      "link": "https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782316813,
-      "published": "2026-06-24T16:00:13+00:00",
       "collected_at": null
     }
   ]
