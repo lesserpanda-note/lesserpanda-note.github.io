@@ -1,7 +1,77 @@
 {
-  "updated": "2026-07-24T21:22:36+09:00",
-  "count": 810,
+  "updated": "2026-07-24T23:59:15+09:00",
+  "count": 814,
   "items": [
+    {
+      "title": "Grok Build CLI vs Claude Code: I Tested Both So You Don’t Have To",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/claude-code-vs-grok-build-cli/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "For months, Claude Code has been the go to terminal coding agent for developers. Then Grok Build arrived in beta on May 14, 2026, giving developers a second serious option and raising a new question: which one actually…",
+      "ts": 1784903140,
+      "published": "2026-07-24T14:25:40+00:00",
+      "collected_at": "2026-07-24T23:59:04+09:00"
+    },
+    {
+      "title": "Presentation: Autonomous Data Products for the Autonomous Era: Rethinking Data Architecture for GenAI",
+      "link": "https://www.infoq.com/presentations/ai-framework-data-infrastructure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Jörg Schad explains how to tame the complex \"data management hairball\" to build scalable, safe architectures for AI. He shares how autonomous data products act like containers for data, encapsulating pipelines, schemas,…",
+      "ts": 1784899800,
+      "published": "2026-07-24T13:30:00+00:00",
+      "collected_at": "2026-07-24T23:59:04+09:00"
+    },
+    {
+      "title": "Loop Engineering for RAG Generation: An LLM Cascade from a Cheap Local Model Up to a Hosted Flagship",
+      "link": "https://towardsdatascience.com/loop-engineering-for-rag-generation-an-llm-cascade-from-a-cheap-local-model-up-to-a-hosted-flagship/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #8quater] - Two angles on the cascade, cost and a validation loop, backed by a real sweep of twenty local models against a hosted flagship The post Loop Engineering for RAG Genera…",
+      "ts": 1784899800,
+      "published": "2026-07-24T13:30:00+00:00",
+      "collected_at": "2026-07-24T23:59:04+09:00"
+    },
+    {
+      "title": "Language Model Hallucination Evaluation with GraphEval",
+      "link": "https://www.kdnuggets.com/language-model-hallucination-evaluation-with-grapheval",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Turning the key principles and methodological stages of GraphEval into a simulated practical scenario to better understand its usefulness and key implications in understanding and combating LLM hallucinations.",
+      "ts": 1784898160,
+      "published": "2026-07-24T13:02:40+00:00",
+      "collected_at": "2026-07-24T23:59:04+09:00"
+    },
+    {
+      "title": "How generic language shapes the development of social thought",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/24/how-generic-language-shapes-the-development-of-social-thought/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Recently in the sister blog: Generic language, that is, language that refers to a category as an abstract whole (e.g., ‘Girls like pink’) rather than specific individuals (e.g., ‘This girl likes pink’), is a common mean…",
+      "ts": 1784898004,
+      "published": "2026-07-24T13:00:04+00:00",
+      "collected_at": "2026-07-24T23:59:04+09:00"
+    },
+    {
+      "title": "Stateful vs. Stateless Agent Design: Tradeoffs for Scalable Agentic Systems",
+      "link": "https://machinelearningmastery.com/stateful-vs-stateless-agent-design-tradeoffs-for-scalable-agentic-systems/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how an agent's approach to managing state — stateless or stateful — shapes both its implementation and the deployment...",
+      "ts": 1784897078,
+      "published": "2026-07-24T12:44:38+00:00",
+      "collected_at": "2026-07-24T23:59:04+09:00"
+    },
+    {
+      "title": "5 Key Concepts Behind Agentic AI Every Engineer Must Understand",
+      "link": "https://www.kdnuggets.com/5-key-concepts-behind-agentic-ai-every-engineer-must-understand",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "This article walks through and explains the five ideas that actually hold agentic systems together.",
+      "ts": 1784895901,
+      "published": "2026-07-24T12:25:01+00:00",
+      "collected_at": "2026-07-24T23:59:04+09:00"
+    },
     {
       "title": "The Real Python Podcast – Episode #304: Configuring a Versatile LLM Harness & Scraping the Web With Scrapy",
       "link": "https://realpython.com/podcasts/rpp/304/",
@@ -8070,36 +8140,6 @@
       "summary": "",
       "ts": 1782316813,
       "published": "2026-06-24T16:00:13+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Django Tasks: Exploring the Built-in Tasks Framework",
-      "link": "https://realpython.com/django-tasks/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Explore Django Tasks, the new built-in framework in Django 6.0, and run background jobs with @task, named queues, and a lightweight alternative to Celery.",
-      "ts": 1782309600,
-      "published": "2026-06-24T14:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "“Howard Lutnick gives top Cantor Fitzgerald jobs to his sons Brandon and Kyle” is a very clean example of meritocracy.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/24/howard-lutnick-gives-top-cantor-fitzgerald-jobs-to-his-sons-brandon-and-kyle-is-a-very-clean-example-of-meritocracy/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "In a post about possible corruption in the government and finance sector, Paul Campos points to a news article entitled, “Howard Lutnick gives top Cantor Fitzgerald jobs to his sons Brandon and Kyle,” that features an a…",
-      "ts": 1782307619,
-      "published": "2026-06-24T13:26:59+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Kotlin Toolchain 0.11: The Next Step for Amper",
-      "link": "https://blog.jetbrains.com/amper/2026/06/kotlin-toolchain-0-11/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Amper 0.11.0 is out, and you will notice a shift in the product branding immediately. If you missed the KotlinConf keynote (watch the recording), here’s the headline: Amper has evolved into the Kotlin Toolchain and is n…",
-      "ts": 1782306272,
-      "published": "2026-06-24T13:04:32+00:00",
       "collected_at": null
     }
   ]
