@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-25T05:23:34+09:00",
-  "count": 809,
+  "updated": "2026-07-25T07:08:41+09:00",
+  "count": 810,
   "items": [
+    {
+      "title": "1.15.6",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.6",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix detection of Anthropic preview tool-use blocks. Preserve strict tool schema property names. Dispatch execution_end hook on failed crew and flow executions. Handle async get_agent in load_age…",
+      "ts": 1784925033,
+      "published": "2026-07-24T20:30:33+00:00",
+      "collected_at": "2026-07-25T07:08:20+09:00"
+    },
     {
       "title": "Tabular LLMs: An Introduction to the Foundation Models That Predict Your Spreadsheet",
       "link": "https://towardsdatascience.com/tabular-llms-an-introduction-to-the-foundation-models-that-predict-your-spreadsheet/",
