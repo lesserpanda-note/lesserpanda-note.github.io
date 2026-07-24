@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-24T19:23:07+09:00",
-  "count": 812,
+  "updated": "2026-07-24T21:22:36+09:00",
+  "count": 810,
   "items": [
+    {
+      "title": "The Real Python Podcast – Episode #304: Configuring a Versatile LLM Harness & Scraping the Web With Scrapy",
+      "link": "https://realpython.com/podcasts/rpp/304/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Which is more important, the model or the \"harness\" around an LLM? What are ways to assemble an efficient agentic developer workflow? This week on the show, Ayan Pahwa joins us to discuss harnessing, web scraping, and s…",
+      "ts": 1784894400,
+      "published": "2026-07-24T12:00:00+00:00",
+      "collected_at": "2026-07-24T21:22:14+09:00"
+    },
+    {
+      "title": "Context Windows Forget What Matters — I Built a Usage-Reinforced Decay Engine for AI Agent Memory",
+      "link": "https://towardsdatascience.com/context-windows-forget-what-matters-i-used-a-140-year-old-psychology-paper-to-fix-ai-memory/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Most AI memory systems keep the newest information—not the most important. Here's how I used the Ebbinghaus forgetting curve to build a better memory engine for LLMs. The post Context Windows Forget What Matters — I Bui…",
+      "ts": 1784894400,
+      "published": "2026-07-24T12:00:00+00:00",
+      "collected_at": "2026-07-24T21:22:14+09:00"
+    },
+    {
+      "title": "Airbus Makes Protection from Extraterritorial Law a Scored Criterion in Its Cloud Tender",
+      "link": "https://www.infoq.com/news/2026/07/airbus-scaleway-sovereign-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Airbus selected Scaleway as its sovereign cloud provider after a tender that scored protection against non-European extraterritorial legislation alongside technical capability. Airbus frames it as complementing multi-cl…",
+      "ts": 1784889720,
+      "published": "2026-07-24T10:42:00+00:00",
+      "collected_at": "2026-07-24T21:22:14+09:00"
+    },
+    {
+      "title": "Airbus Makes Protection from Extraterritorial Law a Scored Criterion in Its Cloud Tender",
+      "link": "https://www.infoq.com/news/2026/07/airbus-scaleway-sovereign-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Airbus selected Scaleway as its sovereign cloud provider after a tender that scored protection against non-European extraterritorial legislation alongside technical capability. Airbus frames it as complementing multi-cl…",
+      "ts": 1784889720,
+      "published": "2026-07-24T10:42:00+00:00",
+      "collected_at": "2026-07-24T21:22:14+09:00"
+    },
     {
       "title": "Article: The Self-Building Agent: A LangChain4j Experiment",
       "link": "https://www.infoq.com/articles/self-building-agent-langchain4j/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
@@ -8060,66 +8100,6 @@
       "summary": "Amper 0.11.0 is out, and you will notice a shift in the product branding immediately. If you missed the KotlinConf keynote (watch the recording), here’s the headline: Amper has evolved into the Kotlin Toolchain and is n…",
       "ts": 1782306272,
       "published": "2026-06-24T13:04:32+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Context Windows Are Not Memory: What AI Agent Developers Need to Understand",
-      "link": "https://machinelearningmastery.com/context-windows-are-not-memory-what-ai-agent-developers-need-to-understand/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn why a large context window is not the same thing as agent memory, and how techniques like retrieval, compression,...",
-      "ts": 1782302418,
-      "published": "2026-06-24T12:00:18+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quiz: Django Tasks: Exploring the Built-in Tasks Framework",
-      "link": "https://realpython.com/quizzes/django-tasks/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Practice using Django Tasks in Django 6.0 to run background jobs with the @task decorator, enqueue work, check task results, and use named queues.",
-      "ts": 1782302400,
-      "published": "2026-06-24T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The emergence of the web data infrastructure layer for AI",
-      "link": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "AI is booming. New use cases are emerging each day. To capitalize on the technology’s potential, enterprises require data at scale. In many cases, though, the relevant information is blocked or unstructured, which limit…",
-      "ts": 1782302394,
-      "published": "2026-06-24T11:59:54+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "NSA lost access to Mythos amid Anthropic dispute",
-      "link": "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Unlocked: https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-acce... Comments URL: https://news.ycombinator.com/item?id=48658300 Points: 264 # Comments: 285",
-      "ts": 1782301547,
-      "published": "2026-06-24T11:45:47+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "What’s New In The June 2026 Azul Payara Release?",
-      "link": "https://foojay.io/today/whats-new-in-the-june-2026-azul-payara-release/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "The June 2026 cycle ships the first regular monthly release of the Payara 7 line, plus a critical security fix that lands across every supported branch. Azul Payara 7.1.0 continues the Jakarta EE 11 line that went gener…",
-      "ts": 1782300532,
-      "published": "2026-06-24T11:28:52+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "BoxLang 1.14.0 : Query Transformers – Take Full Control of Your Query Results",
-      "link": "https://foojay.io/today/boxlang-1-14-0-query-transformers-take-full-control-of-your-query-results/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "BoxLang 1.14.0 ships a lot of exciting features -- Dynamic Sets, Ranges, Inner Classes, JSONPath navigation -- but one quietly powerful addition will change the way you think about every database call in your applicatio…",
-      "ts": 1782297973,
-      "published": "2026-06-24T10:46:13+00:00",
       "collected_at": null
     }
   ]
