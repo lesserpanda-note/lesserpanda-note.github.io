@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-24T09:07:22+09:00",
-  "count": 813,
+  "updated": "2026-07-24T13:18:20+09:00",
+  "count": 814,
   "items": [
+    {
+      "title": "v2.17.0 (2026-07-23)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.17.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Make RequestUsage and RunUsage support arbitrary fields for upcoming genai-prices by @alexmojaki in #6683 Cache per-message OTel serialization to avoid O(n²) instrumentation cost by @dsfaccini…",
+      "ts": 1784853169,
+      "published": "2026-07-24T00:32:49+00:00",
+      "collected_at": "2026-07-24T13:18:14+09:00"
+    },
     {
       "title": "The first known runaway AI agent - or a very bad marketing stunt?",
       "link": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
