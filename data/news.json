@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-25T13:14:19+09:00",
-  "count": 806,
+  "updated": "2026-07-25T16:21:37+09:00",
+  "count": 807,
   "items": [
+    {
+      "title": "How Zalando Built an In-Process Client-Side Load Balancer for One Million Requests per Second",
+      "link": "https://www.infoq.com/news/2026/07/client-side-load-balancer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The engineering team at Zalando recently described the design and implementation of an in-process, client-side load balancer for a high-throughput API handling around 1 million requests per second. The result was more p…",
+      "ts": 1784961780,
+      "published": "2026-07-25T06:43:00+00:00",
+      "collected_at": "2026-07-25T16:21:15+09:00"
+    },
     {
       "title": "v2.18.0 (2026-07-24)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.18.0",
@@ -41,6 +51,16 @@
       "ts": 1784925033,
       "published": "2026-07-24T20:30:33+00:00",
       "collected_at": "2026-07-25T07:08:20+09:00"
+    },
+    {
+      "title": "The new rules of context engineering for Claude 5 generation models",
+      "link": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models Comments URL: https://news.ycombinator.com/item?id=49040821 Points: 10 # Comments: 1",
+      "ts": 1784922758,
+      "published": "2026-07-24T19:52:38+00:00",
+      "collected_at": "2026-07-25T16:21:15+09:00"
     },
     {
       "title": "Tabular LLMs: An Introduction to the Foundation Models That Predict Your Spreadsheet",
@@ -8050,16 +8070,6 @@
       "summary": "Cloudflare released the Cloudflare One stack, an open-source library of agent skills for planning, deploying, and managing Zero Trust environments. The skills include automated migration logic for Zscaler and Palo Alto…",
       "ts": 1782379620,
       "published": "2026-06-25T09:27:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Pi4J Drivers: Simplifying Sensor and Hardware Integration in Java",
-      "link": "https://foojay.io/today/pi4j-drivers-simplifying-sensor-and-hardware-integration-in-java/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "When developing Java applications for Raspberry Pi, Pi4J is one of the most popular libraries for accessing GPIO, I2C, SPI, PWM, and other hardware interfaces. However, interacting directly with these protocols often re…",
-      "ts": 1782371228,
-      "published": "2026-06-25T07:07:08+00:00",
       "collected_at": null
     }
   ]
