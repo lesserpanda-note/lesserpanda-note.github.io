@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-25T07:08:41+09:00",
-  "count": 810,
+  "updated": "2026-07-25T09:07:40+09:00",
+  "count": 807,
   "items": [
+    {
+      "title": "Introducing Claude Opus 5",
+      "link": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Introducing Claude Opus 5 I've been offline kayaking with sea otters for much of today so I haven't had a chance to put Anthropic's new model Claude Opus 5 through its paces yet. The buzz is positive, and Anthropic's de…",
+      "ts": 1784936930,
+      "published": "2026-07-24T23:48:50+00:00",
+      "collected_at": "2026-07-25T09:07:34+09:00"
+    },
     {
       "title": "1.15.6",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.6",
@@ -8060,46 +8070,6 @@
       "summary": "What's Changed Features Make declarative refs work across flows and crews ( #6326 ) Bug Fixes Fix JSON schema flow state kickoff inputs ( #6325 ) Documentation Nest One Card per Step under Crew Studio and drop rollout b…",
       "ts": 1782347505,
       "published": "2026-06-25T00:31:45+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Episode 60 “How JEPs Drive Java's Evolution” [AtA]",
-      "link": "https://inside.java/2026/06/25/podcast-060/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "JEPs are OpenJDK's vehicle for documenting and communicating substantial changes of the Java language, its APIs, and the runtime but also the JDK project itself.",
-      "ts": 1782345600,
-      "published": "2026-06-25T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Spring Boot 3.5.16 available now",
-      "link": "https://spring.io/blog/2026/06/25/spring-boot-3-5-16-available-now",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 3.5.16 has been released and is now available from Maven Central. This release includes 3 dependency upgrades . End of OSS S…",
-      "ts": 1782345600,
-      "published": "2026-06-25T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "A Bootiful Podcast: My friend Francesco Ciulla on developer advocacy and more",
-      "link": "https://spring.io/blog/2026/06/25/a-bootiful-podcast-francesco-ciulla",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi Spring fans! In this installment we talk to my friend Francesco Ciulla about the art of developer advocacy and more. Francesco Ciulla is the Head of DevRel Engineering at zerops.io .",
-      "ts": 1782345600,
-      "published": "2026-06-25T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "simonw/browser-compat-db",
-      "link": "https://simonwillison.net/2026/Jun/24/browser-compat-db/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "simonw/browser-compat-db Inspired by Mozilla's new MDN MCP service - source code here - I decided to try converting their comprehensive mdn/browser-compat-data repository full of browser compatibility data into a SQLite…",
-      "ts": 1782345543,
-      "published": "2026-06-24T23:59:03+00:00",
       "collected_at": null
     }
   ]
