@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-25T09:07:40+09:00",
-  "count": 807,
+  "updated": "2026-07-25T13:14:19+09:00",
+  "count": 806,
   "items": [
+    {
+      "title": "v2.18.0 (2026-07-24)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.18.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add AdvisorTool support for Anthropic and OpenRouter by @adtyavrdhn in #6605 Add 'us'/'eu' multi-region locations to GoogleCloudProvider location type by @pydanty[bot] in #6715 Add external_web…",
+      "ts": 1784942095,
+      "published": "2026-07-25T01:14:55+00:00",
+      "collected_at": "2026-07-25T13:14:09+09:00"
+    },
+    {
+      "title": "Quoting Boris Cherny",
+      "link": "https://simonwillison.net/2026/Jul/25/boris-cherny/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "More than any of these eval scores, what is most exciting to me is something else: Opus 5 is our least prompt injectable model yet. It is a bit buried in the system card, but across PI evals and red teaming, Opus 5 is v…",
+      "ts": 1784940179,
+      "published": "2026-07-25T00:42:59+00:00",
+      "collected_at": "2026-07-25T13:14:09+09:00"
+    },
     {
       "title": "Introducing Claude Opus 5",
       "link": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
@@ -8040,36 +8060,6 @@
       "summary": "When developing Java applications for Raspberry Pi, Pi4J is one of the most popular libraries for accessing GPIO, I2C, SPI, PWM, and other hardware interfaces. However, interacting directly with these protocols often re…",
       "ts": 1782371228,
       "published": "2026-06-25T07:07:08+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "[AINews] It's Meta-Harness Summer",
-      "link": "https://www.latent.space/p/ainews-its-meta-harness-summer",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Move over, Harness Engineering, it is time for the harness of harnesses!",
-      "ts": 1782353648,
-      "published": "2026-06-25T02:14:08+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "How agents are transforming work",
-      "link": "https://openai.com/index/how-agents-are-transforming-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-      "ts": 1782352800,
-      "published": "2026-06-25T02:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "1.14.8a5",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.14.8a5",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Make declarative refs work across flows and crews ( #6326 ) Bug Fixes Fix JSON schema flow state kickoff inputs ( #6325 ) Documentation Nest One Card per Step under Crew Studio and drop rollout b…",
-      "ts": 1782347505,
-      "published": "2026-06-25T00:31:45+00:00",
       "collected_at": null
     }
   ]
