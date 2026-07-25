@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-25T16:21:37+09:00",
-  "count": 807,
+  "updated": "2026-07-25T18:52:32+09:00",
+  "count": 809,
   "items": [
+    {
+      "title": "AI Root Cause Analysis Shifts from Model Reasoning to Context Engineering",
+      "link": "https://www.infoq.com/news/2026/07/ai-rca-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Engineers are increasingly arguing that modern LLMs can already reason through root cause analysis once given correctly prepared context, shifting the hard problem to the pipelines that correlate telemetry. A Coroot exp…",
+      "ts": 1784970000,
+      "published": "2026-07-25T09:00:00+00:00",
+      "collected_at": "2026-07-25T18:52:25+09:00"
+    },
+    {
+      "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+      "link": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "ain't nobody beats Anthropic at distilling Fable!",
+      "ts": 1784964338,
+      "published": "2026-07-25T07:25:38+00:00",
+      "collected_at": "2026-07-25T18:52:25+09:00"
+    },
     {
       "title": "How Zalando Built an In-Process Client-Side Load Balancer for One Million Requests per Second",
       "link": "https://www.infoq.com/news/2026/07/client-side-load-balancer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -31,6 +51,16 @@
       "ts": 1784940179,
       "published": "2026-07-25T00:42:59+00:00",
       "collected_at": "2026-07-25T13:14:09+09:00"
+    },
+    {
+      "title": "Pairing In-Process and Hosted Embeddings for Java MCP Tool Development",
+      "link": "https://inside.java/2026/07/25/design-java-mcp-tool/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Discover why a Java MCP tool can benefit from both in-process and hosted embeddings: in-process embeddings keep development, testing, and conformance fast and reliable, while external provider-backed embeddings offer pr…",
+      "ts": 1784937600,
+      "published": "2026-07-25T00:00:00+00:00",
+      "collected_at": "2026-07-25T18:52:25+09:00"
     },
     {
       "title": "Introducing Claude Opus 5",
@@ -8060,16 +8090,6 @@
       "summary": "And why MongoDB might be a better relational database than you ever realized. Design reviews are one-on-one meetings where MongoDB experts deliver advice on data modeling best practices and application design challenges…",
       "ts": 1782381660,
       "published": "2026-06-25T10:01:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Cloudflare Ships Agent Skills for Zero Trust Deployment and Migration",
-      "link": "https://www.infoq.com/news/2026/06/cloudflare-one-stack-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare released the Cloudflare One stack, an open-source library of agent skills for planning, deploying, and managing Zero Trust environments. The skills include automated migration logic for Zscaler and Palo Alto…",
-      "ts": 1782379620,
-      "published": "2026-06-25T09:27:00+00:00",
       "collected_at": null
     }
   ]
