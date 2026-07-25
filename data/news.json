@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-26T00:07:09+09:00",
-  "count": 809,
+  "updated": "2026-07-26T02:03:21+09:00",
+  "count": 808,
   "items": [
     {
       "title": "How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes",
@@ -111,6 +111,16 @@
       "ts": 1784936930,
       "published": "2026-07-24T23:48:50+00:00",
       "collected_at": "2026-07-25T09:07:34+09:00"
+    },
+    {
+      "title": "Show HN: How well do you use Claude Code?",
+      "link": "https://news.ycombinator.com/item?id=49042653",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "A bunch of companies that I spoke to had their own claude & codex OTel dashboards that showed spend + seats per month. However, none of the dashboards actually analyzed how the engineers worked with the tools and if the…",
+      "ts": 1784934038,
+      "published": "2026-07-24T23:00:38+00:00",
+      "collected_at": "2026-07-26T02:02:55+09:00"
     },
     {
       "title": "1.15.6",
@@ -8070,26 +8080,6 @@
       "summary": "Release: datasette-export-database 0.3a2 An embarrassingly tiny release. The pyproject.toml had pinned to datasette==1.0a27 , inadvertently making this plugin incompatible with all other Datasette versions. It's now dat…",
       "ts": 1782408069,
       "published": "2026-06-25T17:21:09+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Which tokens does a hybrid model predict better?",
-      "link": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782403902,
-      "published": "2026-06-25T16:11:42+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Our latest Google Finance upgrades, including a new app",
-      "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "The Google Finance logo, surrounded by elements of the user interface",
-      "ts": 1782403200,
-      "published": "2026-06-25T16:00:00+00:00",
       "collected_at": null
     }
   ]
