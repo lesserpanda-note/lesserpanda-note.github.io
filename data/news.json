@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-26T04:13:17+09:00",
-  "count": 807,
+  "updated": "2026-07-26T09:03:05+09:00",
+  "count": 804,
   "items": [
+    {
+      "title": "Ruff v0.16.0",
+      "link": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and m…",
+      "ts": 1785019445,
+      "published": "2026-07-25T22:44:05+00:00",
+      "collected_at": "2026-07-26T09:02:40+09:00"
+    },
     {
       "title": "A Complete Guide to AI Red-Teaming (With Garak Tutorial)",
       "link": "https://www.analyticsvidhya.com/blog/2026/07/guide-to-ai-red-teaming/",
@@ -8030,46 +8040,6 @@
       "summary": "It's happening.",
       "ts": 1782436350,
       "published": "2026-06-26T01:12:30+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Run a vLLM Server on HF Jobs in One Command",
-      "link": "https://huggingface.co/blog/vllm-jobs",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782432000,
-      "published": "2026-06-26T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "1.15.0",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.0",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Track conversational flow turn usage in telemetry Support conversational flows in the CLI TUI Add unified declarative flow loading Add declarative Flow CLI support Add optional if expression to e…",
-      "ts": 1782429472,
-      "published": "2026-06-25T23:17:52+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "dotnet-1.11.1",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.11.1",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "Changes: d9ec5ea update package version ( #6752 ) e3b64fd .NET: [BREAKING] Make all AgentSkillsProvider tools require approval by default ( #6729 ) [ #6727 ] 3a5bbb5 .NET: Add DeclarativeWorkflowJsonOptions for AOT-safe…",
-      "ts": 1782428949,
-      "published": "2026-06-25T23:09:09+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "AI and Liability",
-      "link": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "AI and Liability Bruce Schneier and Nathan Sanders on the recent German ruling that Google be held liable for errors introduced in their AI overviews: AI agents are agents of the person or organization that deploys them…",
-      "ts": 1782426526,
-      "published": "2026-06-25T22:28:46+00:00",
       "collected_at": null
     }
   ]
