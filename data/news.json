@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-27T01:04:10+09:00",
-  "count": 802,
+  "updated": "2026-07-27T03:03:23+09:00",
+  "count": 800,
   "items": [
+    {
+      "title": "1.15.7a1",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.7a1",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix registry skills resolution through the runtime's CrewAI+ client. Recover from the GPT-5.6 tools and reasoning_effort 400 errors. Make tool calling work on the Responses API path. Route respo…",
+      "ts": 1785085465,
+      "published": "2026-07-26T17:04:25+00:00",
+      "collected_at": "2026-07-27T03:02:57+09:00"
+    },
     {
       "title": "How to Efficiently Prompt Claude Code",
       "link": "https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/",
@@ -7990,36 +8000,6 @@
       "summary": "What happened after 2,000 people tried to hack my AI assistant Fernando Irarrázaval ran a challenge on hackmyclaw.com to see if anyone could leak secrets held by his OpenClaw test instance by sending it email. Surprisin…",
       "ts": 1782498794,
       "published": "2026-06-26T18:33:14+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Incident Report: CVE-2026-LGTM",
-      "link": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4…",
-      "ts": 1782496734,
-      "published": "2026-06-26T17:58:54+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quoting OpenAI",
-      "link": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while bein…",
-      "ts": 1782493843,
-      "published": "2026-06-26T17:10:43+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Vercel Introduces Eve, an Open-Source Framework for Building AI Agents",
-      "link": "https://www.infoq.com/news/2026/06/vercel-eve-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Vercel has released Eve, an open-source framework for building, deploying, and operating AI agents in production. The framework uses a filesystem-based project structure to organize agent instructions, tools, skills, su…",
-      "ts": 1782491940,
-      "published": "2026-06-26T16:39:00+00:00",
       "collected_at": null
     }
   ]
