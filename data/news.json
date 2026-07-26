@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-27T03:03:23+09:00",
-  "count": 800,
+  "updated": "2026-07-27T05:11:56+09:00",
+  "count": 801,
   "items": [
+    {
+      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+      "link": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from variou…",
+      "ts": 1785094254,
+      "published": "2026-07-26T19:30:54+00:00",
+      "collected_at": "2026-07-27T05:11:34+09:00"
+    },
+    {
+      "title": "1.15.7",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.7",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Resolve registry skills through the runtime's CrewAI+ client Recover from the GPT-5.6 tools + reasoning_effort 400 Make tool calling work on the Responses API path Route responses-only models in…",
+      "ts": 1785090002,
+      "published": "2026-07-26T18:20:02+00:00",
+      "collected_at": "2026-07-27T05:11:34+09:00"
+    },
     {
       "title": "1.15.7a1",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.7a1",
@@ -41,6 +61,16 @@
       "ts": 1785070800,
       "published": "2026-07-26T13:00:00+00:00",
       "collected_at": "2026-07-26T23:38:25+09:00"
+    },
+    {
+      "title": "Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
+      "link": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling/ Comments URL: https://news.ycombinator.com/item?id=49056022 Points: 24 # Comments: 13",
+      "ts": 1785055506,
+      "published": "2026-07-26T08:45:06+00:00",
+      "collected_at": "2026-07-27T05:11:34+09:00"
     },
     {
       "title": "Cracking the Data Science Case Study Interview",
@@ -7980,26 +8010,6 @@
       "summary": "This is like saying there's no learning curve to being a manager because your employees will just do whatever you tell them to do. — Timothy B. Lee , on the idea that LLMs take no skill and have no learning curve Tags:…",
       "ts": 1782508509,
       "published": "2026-06-26T21:15:09+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Native Linux, Apple Watch, A Game Builder And Crash Protection",
-      "link": "https://foojay.io/today/native-linux-apple-watch-a-game-builder-and-crash-protection/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "This week adds a native Linux desktop port, an Apple Watch and Wear OS port, a visual Game Builder with a high-level gaming API, and seamless crash protection that symbolicates native crashes and files them as GitHub is…",
-      "ts": 1782499402,
-      "published": "2026-06-26T18:43:22+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "What happened after 2,000 people tried to hack my AI assistant",
-      "link": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "What happened after 2,000 people tried to hack my AI assistant Fernando Irarrázaval ran a challenge on hackmyclaw.com to see if anyone could leak secrets held by his OpenClaw test instance by sending it email. Surprisin…",
-      "ts": 1782498794,
-      "published": "2026-06-26T18:33:14+00:00",
       "collected_at": null
     }
   ]
