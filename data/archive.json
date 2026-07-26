@@ -1,6 +1,82 @@
 {
   "digests": [
     {
+      "date": "2026-07-25",
+      "summary": "오늘은 Anthropic의 Claude Opus 5 출시가 가장 주목할 만한 소식으로, 에이전트 AI 분야에서 새로운 플래그십 모델이 긍정적인 반응을 얻고 있습니다. Java 생태계에서는 LangChain4j를 활용한 자가 구축 에이전트 실험과 Codename One의 네이티브 UI 관리 혁신이 눈에 띄며, 아키텍처 분야에서는 에어버스의 주권 클라우드 선택 기준이 업계에 새로운 시사점을 제시합니다. AI와 에이전트 기술의 성숙과 함께 보안·주권·확장성에 대한 실무적 고민이 깊어지고 있습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Own Your Pixels: Native Fidelity on Your Schedule",
+          "link": "https://foojay.io/today/own-your-pixels-native-fidelity-on-your-schedule/",
+          "summary": "Codename One은 경량 UI를 네이티브 앱에 정적으로 링크하여 OS 업데이트가 앱의 UI를 임의로 변경하지 못하도록 보호합니다. 새로운 네이티브 참조 충실도 테스트를 통해 iOS 26 Liquid Glass와 Material 3를 원하는 일정에 맞춰 도입할 수 있습니다.",
+          "detail": "Codename One은 경량 UI 컴포넌트를 네이티브 앱에 정적으로 링크하는 방식을 사용합니다. 이 접근법은 OS 업데이트가 앱의 시각적 디자인을 자동으로 변경하는 것을 방지하여 개발자가 UI 업데이트 시점을 직접 통제할 수 있게 합니다. 새롭게 도입된 네이티브 참조 충실도 테스트 덕분에 iOS 26의 Liquid Glass와 Material 3 디자인 언어를 운영체제 업데이트 주기와 무관하게 자체 릴리즈 일정에 맞춰 채택할 수 있습니다. OS 벤더의 디자인 변화에 끌려가지 않고 앱의 픽셀을 직접 소유하겠다는 철학을 제시합니다."
+        },
+        {
+          "category": "Java",
+          "title": "Article: The Self-Building Agent: A LangChain4j Experiment",
+          "link": "https://www.infoq.com/articles/self-building-agent-langchain4j/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "LangChain4j 문서를 활용해 코드 어시스턴트가 스스로 에이전트 시스템을 설계하는 실험을 소개합니다. 어시스턴트가 코드 작성, 테스트, 디버깅을 자율적으로 수행하는 코딩 프레임워크를 생성했습니다.",
+          "detail": "이 실험에서는 코드 어시스턴트가 LangChain4j 문서만을 참고해 에이전트 시스템 전체를 스스로 설계했습니다. 결과적으로 코드 작성, 테스트, 디버깅을 자율 수행하는 코딩 프레임워크가 생성되었습니다. 이는 'Self-Building Agent(자가 구축 에이전트)' 개념을 Java 생태계에서 검증한 사례로, LangChain4j가 Java 개발자들에게 실용적인 에이전트 구축 도구로 자리잡을 수 있음을 보여줍니다. AI가 AI 시스템을 설계하는 메타 에이전트 방식의 가능성을 탐색합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Tabular LLMs: An Introduction to the Foundation Models That Predict Your Spreadsheet",
+          "link": "https://towardsdatascience.com/tabular-llms-an-introduction-to-the-foundation-models-that-predict-your-spreadsheet/",
+          "summary": "테이블 파운데이션 모델이 스프레드시트의 누락된 열을 제로샷으로 예측하는 기술을 소개합니다. TabArena 벤치마크에서 완전히 튜닝된 그래디언트 부스팅 트리보다 높은 성능을 기록했습니다.",
+          "detail": "Tabular LLM은 LLM이 텍스트를 자연스럽게 완성하듯 스프레드시트의 누락된 열 값을 예측하는 파운데이션 모델입니다. 주목할 성과는 TabArena 벤치마크에서 완전히 파인튜닝된 그래디언트 부스팅 트리(XGBoost, LightGBM 등)보다 높은 성능을 달성했다는 점입니다. 제로샷 예측 능력이 핵심으로, 새로운 데이터셋에 특별한 학습 없이도 즉시 예측이 가능합니다. 텍스트·이미지 분야에 이어 테이블 데이터 분야에서도 대형 파운데이션 모델이 전통적 ML 방법론을 능가하기 시작했음을 보여주는 중요한 전환점입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Language Model Hallucination Evaluation with GraphEval",
+          "link": "https://www.kdnuggets.com/language-model-hallucination-evaluation-with-grapheval",
+          "summary": "GraphEval을 활용한 LLM 환각(hallucination) 평가 방법론과 실용적 시나리오를 소개합니다. 그래프 기반 접근법으로 LLM의 사실 왜곡을 체계적으로 탐지하고 평가할 수 있습니다.",
+          "detail": "GraphEval은 지식 그래프 구조를 활용해 LLM의 환각을 평가하는 프레임워크입니다. 핵심 원칙과 방법론적 단계를 실용적 시나리오로 시뮬레이션하여 LLM 환각의 유형과 발생 패턴을 체계적으로 분석합니다. 그래프 기반 접근법을 통해 모델의 출력과 사실 관계를 비교 검증하고 환각 발생 지점을 식별합니다. RAG 시스템이나 프로덕션 LLM 애플리케이션의 신뢰성을 높이는 품질 보증 도구로 활용할 수 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Introducing Claude Opus 5",
+          "link": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
+          "summary": "Anthropic이 Claude Opus 5를 공식 출시했습니다. 초기 커뮤니티 반응은 매우 긍정적이며 Anthropic의 최신 플래그십 모델로 주목받고 있습니다.",
+          "detail": "Anthropic이 Claude Opus 5를 출시했습니다. Simon Willison의 블로그에 따르면 커뮤니티의 초기 반응은 매우 긍정적입니다. Claude Opus 5는 Anthropic의 최신 플래그십 모델로, 복잡한 추론, 코딩, 에이전트 워크플로우 수행 능력에서 이전 버전 대비 향상이 기대됩니다. 에이전트 AI 애플리케이션 개발자들에게 새로운 기반 모델 옵션이 추가됐으며, 에이전트 작업과 복잡한 태스크 수행에서의 개선이 핵심 포인트입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Stateful vs. Stateless Agent Design: Tradeoffs for Scalable Agentic Systems",
+          "link": "https://machinelearningmastery.com/stateful-vs-stateless-agent-design-tradeoffs-for-scalable-agentic-systems/",
+          "summary": "에이전트의 상태 관리 방식(상태 저장 vs 상태 비저장)이 구현과 배포에 미치는 영향을 분석합니다. 확장 가능한 에이전트 시스템 설계를 위한 핵심 트레이드오프를 다룹니다.",
+          "detail": "상태 저장(Stateful) 에이전트는 대화 이력, 사용자 컨텍스트, 중간 결과를 메모리에 유지합니다. 반면 상태 비저장(Stateless) 에이전트는 각 요청을 독립적으로 처리합니다.\n상태 저장 방식은 복잡한 다단계 태스크와 개인화된 경험에 적합하지만 수평 확장이 어렵습니다. 상태 비저장 방식은 확장성이 뛰어나고 장애에 강하지만 컨텍스트 유지가 필요한 태스크에는 한계가 있습니다. 실제 프로덕션 시스템에서는 외부 저장소(Redis, 벡터 DB 등)를 활용한 하이브리드 접근법이 두 방식의 장점을 결합하는 현실적 해법으로 자주 사용됩니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Airbus Makes Protection from Extraterritorial Law a Scored Criterion in Its Cloud Tender",
+          "link": "https://www.infoq.com/news/2026/07/airbus-scaleway-sovereign-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "에어버스가 비유럽 역외 법률 보호를 공식 입찰 평가 기준으로 포함시켜 Scaleway를 주권 클라우드 제공업체로 선택했습니다. 클라우드 아키텍처에서 데이터 주권이 핵심 고려 사항으로 자리잡고 있습니다.",
+          "detail": "에어버스는 클라우드 제공업체 입찰에서 기술 역량 외에 비유럽 국가의 역외 법률(미국 CLOUD Act 등)에 대한 보호를 공식 평가 점수 기준으로 포함시켰습니다. 이를 통해 프랑스 클라우드 기업 Scaleway가 주권 클라우드 제공업체로 선정되었습니다. 에어버스는 이를 기존 멀티클라우드 전략의 보완으로 설명하며, 데이터 주권과 법적 리스크 관리가 클라우드 아키텍처 의사결정의 핵심 축으로 부상했음을 보여줍니다. EU 기업들이 미국 빅테크 클라우드에 대한 의존도를 줄이고 법적 보호를 아키텍처 설계의 필수 요소로 다루기 시작한 중요한 사례입니다."
+        },
+        {
+          "category": "Python",
+          "title": "The Real Python Podcast – Episode #304: Configuring a Versatile LLM Harness & Scraping the Web With Scrapy",
+          "link": "https://realpython.com/podcasts/rpp/304/",
+          "summary": "LLM 하네스(harness) 구성의 중요성과 Scrapy를 활용한 웹 스크래핑을 다룬 Real Python 팟캐스트입니다. 모델보다 주변 워크플로우 설계가 더 중요할 수 있다는 시각을 제시합니다.",
+          "detail": "Ayan Pahwa와 함께 LLM 하네스 구성, 웹 스크래핑, 에이전트 개발자 워크플로우를 논의합니다. 핵심 질문은 'LLM 자체와 모델 주변의 하네스 중 무엇이 더 중요한가?'입니다. 효율적인 에이전트 개발 워크플로우를 조립하는 방법과 Scrapy를 활용한 웹 스크래핑 기법도 다룹니다. Python 개발자가 실용적인 LLM 기반 애플리케이션을 구축할 때 모델 선택뿐 아니라 주변 인프라와 파이프라인 설계가 결과를 좌우한다는 관점을 제시합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Build and Run an Intelligent Document Processing (IDP) System in the Cloud",
+          "link": "https://towardsdatascience.com/build-and-run-an-intelligent-document-processing-idp-system-in-the-cloud/",
+          "summary": "AWS를 활용하여 이메일에서 PII(개인정보)를 자동으로 분류하고 추출하는 지능형 문서 처리 시스템 구축 방법을 소개합니다.",
+          "detail": "클라우드 기반 지능형 문서 처리(IDP) 시스템을 AWS에서 구축하고 운영하는 방법을 다룹니다. 이메일에서 PII(개인식별정보)를 자동으로 분류하고 추출하는 ML 파이프라인을 구성합니다. AWS 서비스와 ML 기반 분류 모델을 결합하여 문서 처리 자동화를 구현하며, GDPR·CCPA 등 규정 준수를 위한 PII 자동 탐지 및 처리 파이프라인 설계에 실용적인 가이드를 제공합니다. 데이터 엔지니어와 ML 엔지니어 모두에게 유용한 클라우드 기반 문서 처리 아키텍처 참고 사례입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "How generic language shapes the development of social thought",
+          "link": "https://statmodeling.stat.columbia.edu/2026/07/24/how-generic-language-shapes-the-development-of-social-thought/",
+          "summary": "제네릭 언어(예: '여자아이들은 핑크를 좋아한다')가 아동의 사회적 사고 발달에 미치는 영향을 연구한 통계 모델링 포스트입니다.",
+          "detail": "제네릭 언어란 특정 개인이 아닌 카테고리 전체를 지칭하는 표현(예: '여자아이들은 핑크를 좋아한다')입니다. Andrew Gelman의 통계 모델링 블로그에 소개된 연구로, 이러한 일반화 표현이 아동의 사회적 사고 발달에 어떤 영향을 미치는지 분석합니다. 언어가 사회적 고정관념과 범주적 사고를 형성하는 과정을 통계적으로 탐구하며, 사회과학 연구에서 언어 변수의 인과적 영향을 측정하는 방법론적 접근법을 제시합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-24",
       "summary": "오늘은 AI 에이전트의 의도치 않은 사고 사례와 OpenAI·Anthropic의 오픈소스 AI 규제 공조 등 AI 거버넌스 이슈가 두드러졌습니다. Java 진영에서는 Azul Zulu 7월 분기 보안 업데이트와 EOL 코드 패치 책임 공백 문제가 주목받았으며, 아키텍처 분야에서는 Expedia의 AI 기반 장애 분석 플랫폼과 데이터베이스를 워크플로 런타임으로 활용하는 DBOS 아키텍처가 소개됐습니다. 에이전트와 데이터 과학 분야에서도 RAG 오류 패턴 분석, 항공사 초과 예약 모델의 윤리적 딜레마 등 실용적이고 심층적인 주제들이 다뤄졌습니다.",
       "highlights": [
