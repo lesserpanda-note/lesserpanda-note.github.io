@@ -1,6 +1,40 @@
 {
   "digests": [
     {
+      "date": "2026-07-26",
+      "summary": "오늘은 AI 기반 장애 분석의 패러다임 전환, Anthropic의 Claude Opus 5 출시, 대규모 벡터 검색 최적화 전략, 그리고 Zalando의 초고처리량 클라이언트 사이드 로드 밸런서 구축 사례를 중점적으로 다룹니다. 특히 Claude Opus 5가 Fable 5 대비 절반 가격에 동등한 성능을 제공하며 비용 효율적인 AI 운영의 새로운 기준을 제시한 점이 주목됩니다. 전반적으로 AI 인프라와 엔지니어링 실무에서 비용 대비 효율을 극대화하는 접근이 화두입니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "AI Root Cause Analysis Shifts from Model Reasoning to Context Engineering",
+          "link": "https://www.infoq.com/news/2026/07/ai-rca-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "AI 기반 근본 원인 분석(RCA)의 핵심이 모델의 추론 능력보다 컨텍스트 엔지니어링으로 이동하고 있습니다. 올바른 텔레메트리 데이터를 사전에 정제·제공하는 결정론적 설계가 에이전트 기반 접근보다 더 신뢰할 수 있다는 인식이 확산되고 있습니다.",
+          "detail": "AI 기반 RCA에는 두 가지 주요 접근법이 있습니다.\n① 에이전트 기반 설계: LLM이 도구를 사용해 자율적으로 텔레메트리를 조회하는 방식.\n② 결정론적 설계: 신호를 사전에 상관관계 분석하고 하나의 정제된 컨텍스트를 모델에 전달하는 방식.\n\n업계는 결정론적 설계 쪽으로 기울고 있습니다. Dynatrace의 Davis AI는 실시간 의존성 맵을 순회하는 토폴로지 기반 인과 분석을 채택합니다. 에이전트 기반 접근의 문제점은 진단 실패 시 모델 추론 약점 때문인지 잘못된 데이터 제공 때문인지 불분명하다는 점입니다.\n\n핵심 통찰: 모델이 데이터를 보기 전에 올바른 데이터를 선택·준비하는 '컨텍스트 엔지니어링'이 모델 추론 능력만큼, 혹은 그 이상으로 중요할 수 있습니다. 관찰성 기업 Coroot의 연구는 이 두 변수를 분리하는 데 초점을 맞추고 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] Claude Opus 5: Fable-level performance at Opus price (half Fable)",
+          "link": "https://www.latent.space/p/ainews-claude-opus-5-fable-level",
+          "summary": "Anthropic이 2026년 7월 24일 Claude Opus 5를 출시했습니다. Fable 5 대비 절반 가격($5/$25 per million tokens)에 동급 성능을 제공하는 비용 효율적인 최전선 모델입니다.",
+          "detail": "Claude Opus 5는 Opus 4.8과 동일한 $5/$25/백만 토큰 가격으로 출시되었으며, Claude Fable 5 대비 약 절반의 비용입니다.\n\n주요 벤치마크:\n• Frontier-Bench SOTA 43.3%, ARC-AGI-3 30.2%\n• Artificial Analysis 인텔리전스 지수: Opus 5(max) 61점 — Fable 5(max, 60점) 및 GPT-5.6 Sol(max, 59점)과 동등\n• SWE-ECI(소프트웨어 엔지니어링): Fable 5와 동점(161점), ECI 159(Fable 5: 161)\n\n에이전틱 지식 업무에서 Fable 5 대비 약 150 Elo 높은 성능을 보이며 태스크당 비용을 20% 절감합니다. Anthropic은 'Fable 5의 프론티어 지능에 근접하면서도 절반 가격'이라고 설명하며, AI 커뮤니티에서 비용 대비 성능 측면의 최전선 모델로 높은 평가를 받고 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "How to Optimize Vector Search When RAM Gets Too Expensive: On-Disk vs. In-Memory ANN Indexes",
+          "link": "https://towardsdatascience.com/optimizing-vector-search-on-disk-vs-in-memory-ann-indexes-when-ram-gets-too-expensive/",
+          "summary": "데이터셋 규모 증가에 따른 메모리 기반 ANN 인덱스와 디스크 기반 인덱스 간의 비용-성능 트레이드오프를 분석한 실용 가이드입니다. HNSW, DiskANN 등 주요 알고리즘과 양자화 기법을 통한 비용 절감 전략을 소개합니다.",
+          "detail": "메모리 기반 인덱스(HNSW 등)는 낮은 지연 시간을 제공하지만, RAM은 클라우드에서 가장 비용이 높은 자원 중 하나입니다.\n\n디스크 기반 접근(DiskANN 등)은 하이브리드 아키텍처를 사용합니다. 핵심 라우팅 데이터는 RAM에, 전체 정밀도 벡터는 SSD에 저장해 비용을 대폭 절감하되 약간의 지연을 감수합니다.\n\n양자화도 핵심 기법입니다. 768차원 float32 벡터(3072바이트)를 PQ 인코딩(~96바이트)으로 변환하면 30배 이상의 메모리 절감이 가능합니다. IVF 인덱스는 역 목록을 RAM에 두고 실제 벡터는 디스크에서 가져오는 구조입니다.\n\n수십억 개 규모의 벡터에서는 그래프 기반 ANNS의 메모리 오버헤드가 하드 병목이 됩니다. 각 접근법의 선택 기준과 양자화·디스크 저장 결합 방법을 실무 관점에서 안내합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "How Zalando Built an In-Process Client-Side Load Balancer for One Million Requests per Second",
+          "link": "https://www.infoq.com/news/2026/07/client-side-load-balancer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Zalando가 초당 100만 건의 요청을 처리하는 API를 위해 외부 프록시 없이 클라이언트 프로세스 내부에서 동작하는 클라이언트 사이드 로드 밸런서를 구축한 사례입니다.",
+          "detail": "Zalando 엔지니어링 팀이 초당 약 100만 건의 요청을 처리하는 고처리량 API에 대해 프로세스 내(in-process) 클라이언트 사이드 로드 밸런서를 설계·구현한 사례를 공개했습니다.\n\n핵심 설계 결정:\n• xxHash64 기반 일관성 해싱, 엔드포인트당 100개 가상 노드(마이그레이션 중 캐시 분산 방지를 위해 Skipper 알고리즘과 동일)\n• 점유율 기반 부하 분산(Occupancy-based load balancing)\n• 엔드포인트 추가·제거 시 ~1/N의 키만 재매핑되어 캐시 변동 최소화\n\n결과: 더 예측 가능한 지연 시간, 낮은 인프라 비용, 장애 원인 가시성 향상. 클라이언트 디스커버리는 DNS, 서비스 레지스트리, 또는 xDS 등 컨트롤 플레인에 의존합니다. 이 사례는 라우팅 로직 내재화를 통해 전통적인 프록시 기반 로드 밸런싱을 초고처리량 환경에서 능가할 수 있음을 보여줍니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-25",
       "summary": "오늘은 Anthropic의 Claude Opus 5 출시가 가장 주목할 만한 소식으로, 에이전트 AI 분야에서 새로운 플래그십 모델이 긍정적인 반응을 얻고 있습니다. Java 생태계에서는 LangChain4j를 활용한 자가 구축 에이전트 실험과 Codename One의 네이티브 UI 관리 혁신이 눈에 띄며, 아키텍처 분야에서는 에어버스의 주권 클라우드 선택 기준이 업계에 새로운 시사점을 제시합니다. AI와 에이전트 기술의 성숙과 함께 보안·주권·확장성에 대한 실무적 고민이 깊어지고 있습니다.",
       "highlights": [
