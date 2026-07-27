@@ -1,7 +1,107 @@
 {
-  "updated": "2026-07-27T17:34:16+09:00",
-  "count": 797,
+  "updated": "2026-07-27T21:27:57+09:00",
+  "count": 808,
   "items": [
+    {
+      "title": "Claude Opus 5: Near-Frontier Intelligence, On a Dial",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/claude-opus-5-hands-on-review/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Anthropic has released Claude Opus 5. The fourth model in two months, if you are keeping count. Most people are not. This one matters more than the count suggests. Opus is the workhorse tier, the model that does the act…",
+      "ts": 1785154463,
+      "published": "2026-07-27T12:14:23+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
+    {
+      "title": "7 Steps to Building and Deploying Your First Autonomous Agent",
+      "link": "https://www.kdnuggets.com/7-steps-to-building-and-deploying-your-first-autonomous-agent",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "This article shows you up all the steps in building and deploying your first autonomous AI agents from start to finish.",
+      "ts": 1785153606,
+      "published": "2026-07-27T12:00:06+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
+    {
+      "title": "Quiz: How to Use Google's Antigravity CLI for AI Code Assistance",
+      "link": "https://realpython.com/quizzes/antigravity-cli/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your knowledge of Google's Antigravity CLI, a terminal-based AI coding agent, and how to use it to read, review, and refactor Python code.",
+      "ts": 1785153600,
+      "published": "2026-07-27T12:00:00+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
+    {
+      "title": "How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook",
+      "link": "https://towardsdatascience.com/how-i-reproduced-bm25-dense-retrieval-and-splade-on-a-16gb-macbook/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A practical reproduction of three retrieval baselines, including the crashes, fixes, and score checks that matter for RAG systems. The post How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook appeared f…",
+      "ts": 1785153600,
+      "published": "2026-07-27T12:00:00+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
+    {
+      "title": "Closing the data loop in AI-driven drug discovery",
+      "link": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubl…",
+      "ts": 1785152416,
+      "published": "2026-07-27T11:40:16+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
+    {
+      "title": "Building the enterprise environment for agentic AI",
+      "link": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best…",
+      "ts": 1785151978,
+      "published": "2026-07-27T11:32:58+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
+    {
+      "title": "Presentation: Clean Architecture for Serverless: Business Logic You Can Take Anywhere",
+      "link": "https://www.infoq.com/presentations/kotlin-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Elena van Engelen discusses how to eliminate serverless vendor lock-in without sacrificing native cloud capabilities. She explains how to structure FaaS applications using Clean Architecture, Spring Cloud Function, and…",
+      "ts": 1785151560,
+      "published": "2026-07-27T11:26:00+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
+    {
+      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
+      "link": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centr…",
+      "ts": 1785150000,
+      "published": "2026-07-27T11:00:00+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
+    {
+      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
+      "link": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centr…",
+      "ts": 1785150000,
+      "published": "2026-07-27T11:00:00+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
+    {
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1785144740,
+      "published": "2026-07-27T09:32:20+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
+    },
     {
       "title": "Netflix Details Its In-House LLM Serving Platform with Triton and vLLM",
       "link": "https://www.infoq.com/news/2026/07/netflix-llm-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -31,6 +131,16 @@
       "ts": 1785125405,
       "published": "2026-07-27T04:10:05+00:00",
       "collected_at": "2026-07-27T13:39:01+09:00"
+    },
+    {
+      "title": "How AI is expanding what people do at work",
+      "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
+      "ts": 1785123000,
+      "published": "2026-07-27T03:30:00+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
     },
     {
       "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
@@ -1291,6 +1401,16 @@
       "ts": 1784646990,
       "published": "2026-07-21T15:16:30+00:00",
       "collected_at": "2026-07-22T01:24:59+09:00"
+    },
+    {
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "ts": 1784646990,
+      "published": "2026-07-21T15:16:30+00:00",
+      "collected_at": "2026-07-27T21:27:51+09:00"
     },
     {
       "title": "I Tried Fine-Tuning a Robot AI Model on Colab. Here Is What Worked",
@@ -7961,16 +8081,6 @@
       "ts": 1782567411,
       "published": "2026-06-27T13:36:51+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Using Local Coding Agents",
-      "link": "https://magazine.sebastianraschka.com/p/using-local-coding-agents",
-      "source": "Ahead of AI",
-      "category": "AI",
-      "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
-      "ts": 1782559318,
-      "published": "2026-06-27T11:21:58+00:00",
-      "collected_at": null
     }
   ]
 }
