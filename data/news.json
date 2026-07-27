@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-27T13:39:14+09:00",
+  "updated": "2026-07-27T17:34:16+09:00",
   "count": 797,
   "items": [
+    {
+      "title": "Netflix Details Its In-House LLM Serving Platform with Triton and vLLM",
+      "link": "https://www.infoq.com/news/2026/07/netflix-llm-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Netflix has described the production lessons behind bringing LLM inference into its internal serving platform, including the challenges of supporting different model sizes, hardware requirements, and rapidly evolving in…",
+      "ts": 1785137580,
+      "published": "2026-07-27T07:33:00+00:00",
+      "collected_at": "2026-07-27T17:34:10+09:00"
+    },
+    {
+      "title": "New Between-Quarters Security Updates for Java: What CSPUs Mean for Your Release Pipeline",
+      "link": "https://foojay.io/today/new-between-quarters-security-updates-for-java-what-cspus-mean-for-your-release-pipeline/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "In an announcement on the OpenJDK Updates Mailinglist on July 20, 2026, Rob McKenna explained a change in the Oracle security release cycle for JDK builds. They plan to deliver security updates for the Oracle JDK as par…",
+      "ts": 1785137471,
+      "published": "2026-07-27T07:31:11+00:00",
+      "collected_at": "2026-07-27T17:34:10+09:00"
+    },
     {
       "title": "v0.19.0",
       "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.0",
@@ -7950,26 +7970,6 @@
       "summary": "Using Open-Weight Models in Local Coding Harnesses as an Alternative to Claude Code and Codex Subscriptions",
       "ts": 1782559318,
       "published": "2026-06-27T11:21:58+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "1.15.1",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.1",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Initialize Git repositories for generated projects ( #6364 ) Require explicit CrewAI project definitions ( #6358 ) Open deployment page after CLI deploy ( #6343 ) Bug Fixes Fix deployment page li…",
-      "ts": 1782543046,
-      "published": "2026-06-27T06:50:46+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "[AINews] OpenAI GPT-5.6 Sol / Terra / Luna — restricted to trusted partners",
-      "link": "https://www.latent.space/p/ainews-openai-gpt-56-sol-terra-luna",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Oddly tiered releases to both OAI and ANT on the same day.",
-      "ts": 1782537802,
-      "published": "2026-06-27T05:23:22+00:00",
       "collected_at": null
     }
   ]
