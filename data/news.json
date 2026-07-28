@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-29T05:18:21+09:00",
-  "count": 860,
+  "updated": "2026-07-29T07:07:48+09:00",
+  "count": 862,
   "items": [
+    {
+      "title": "Quoting Akshat Bubna",
+      "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were…",
+      "ts": 1785276355,
+      "published": "2026-07-28T22:05:55+00:00",
+      "collected_at": "2026-07-29T07:07:31+09:00"
+    },
+    {
+      "title": "uv 0.12.0",
+      "link": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "uv 0.12.0 Some interesting breaking changes in this release of uv , in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv…",
+      "ts": 1785275498,
+      "published": "2026-07-28T21:51:38+00:00",
+      "collected_at": "2026-07-29T07:07:31+09:00"
+    },
+    {
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their…",
+      "ts": 1785274134,
+      "published": "2026-07-28T21:28:54+00:00",
+      "collected_at": "2026-07-29T07:07:31+09:00"
+    },
     {
       "title": "Survey Statistics: equivalent models, equivalent weights (locally)",
       "link": "https://statmodeling.stat.columbia.edu/2026/07/28/survey-statistics-equivalent-models-equivalent-weights-locally/",
@@ -8590,16 +8620,6 @@
       "summary": "Gemma 4 is now significantly faster in Ollama 0.31 on Apple Silicon via multi-token prediction (MTP), powered by MLX. Performance is now up to 90% faster when used with coding agents, as measured using the Aider polyglo…",
       "ts": 1782691200,
       "published": "2026-06-29T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quoting Jon Udell",
-      "link": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Human Agent in the loop I dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now we recruit agents to join th…",
-      "ts": 1782683861,
-      "published": "2026-06-28T21:57:41+00:00",
       "collected_at": null
     }
   ]
