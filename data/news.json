@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-28T09:21:43+09:00",
-  "count": 822,
+  "updated": "2026-07-28T14:50:44+09:00",
+  "count": 823,
   "items": [
+    {
+      "title": "v2.19.0 (2026-07-27)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.19.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add headers and retry_after to ModelHTTPError , populate from all provider SDKs by @dmontagu in #6733 🐛 Bug Fixes Re-assert absorbed external cancellation at run step boundaries by @DouweM in #…",
+      "ts": 1785209241,
+      "published": "2026-07-28T03:27:21+00:00",
+      "collected_at": "2026-07-28T14:50:23+09:00"
+    },
     {
       "title": "moonshotai/Kimi-K3",
       "link": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
