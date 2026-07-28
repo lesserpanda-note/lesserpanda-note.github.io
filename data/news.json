@@ -1,7 +1,77 @@
 {
-  "updated": "2026-07-28T23:17:50+09:00",
-  "count": 851,
+  "updated": "2026-07-29T01:43:45+09:00",
+  "count": 856,
   "items": [
+    {
+      "title": "How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on Apple Silicon",
+      "link": "https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Five models, sustained generation, real wall-socket energy at $0.31/kWh — and the surprise the RTX-3090 numbers predicted, only bigger. The post How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on A…",
+      "ts": 1785256200,
+      "published": "2026-07-28T16:30:00+00:00",
+      "collected_at": "2026-07-29T01:43:28+09:00"
+    },
+    {
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1785256062,
+      "published": "2026-07-28T16:27:42+00:00",
+      "collected_at": "2026-07-29T01:43:28+09:00"
+    },
+    {
+      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers",
+      "ts": 1785254400,
+      "published": "2026-07-28T16:00:00+00:00",
+      "collected_at": "2026-07-29T01:43:28+09:00"
+    },
+    {
+      "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
+      "link": "https://www.latent.space/p/chatgpt-work",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.",
+      "ts": 1785252390,
+      "published": "2026-07-28T15:26:30+00:00",
+      "collected_at": "2026-07-29T01:43:28+09:00"
+    },
+    {
+      "title": "1.15.8",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.8",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add WaitTool for pausing on long-running jobs. Bug Fixes Fix FileWriterTool writes and address rough edges in file tool. Mark E2B_API_KEY as a required env var for E2B tools. Documentation Refres…",
+      "ts": 1785251164,
+      "published": "2026-07-28T15:06:04+00:00",
+      "collected_at": "2026-07-29T01:43:28+09:00"
+    },
+    {
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1785250905,
+      "published": "2026-07-28T15:01:45+00:00",
+      "collected_at": "2026-07-29T01:43:28+09:00"
+    },
+    {
+      "title": "MCP Explained: How Modern AI Agents Connect to the Real World",
+      "link": "https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-real-world/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "from custom integrations to a universal standard for tool access The post MCP Explained: How Modern AI Agents Connect to the Real World appeared first on Towards Data Science .",
+      "ts": 1785250800,
+      "published": "2026-07-28T15:00:00+00:00",
+      "collected_at": "2026-07-29T01:43:28+09:00"
+    },
     {
       "title": "An Introductory Guide to Practical Constraint Decoding",
       "link": "https://www.kdnuggets.com/an-introductory-guide-to-practical-constraint-decoding",
@@ -231,6 +301,16 @@
       "ts": 1785196800,
       "published": "2026-07-28T00:00:00+00:00",
       "collected_at": "2026-07-28T23:17:29+09:00"
+    },
+    {
+      "title": "This Week in Spring - July 28th, 2026",
+      "link": "https://spring.io/blog/2026/07/28/this-week-in-spring-july-28-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi Spring fans! Welcome to another installment of This Week in Spring ! The title says in Spring , but here in the northern hemisphere, it's clearly the middle of summer. Hot! I'm sitting here on my laptop on a warm sum…",
+      "ts": 1785196800,
+      "published": "2026-07-28T00:00:00+00:00",
+      "collected_at": "2026-07-29T01:43:28+09:00"
     },
     {
       "title": "moonshotai/Kimi-K3",
@@ -8481,36 +8561,6 @@
       "ts": 1782666000,
       "published": "2026-06-28T17:00:00+00:00",
       "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "I used Claude Code to get a second opinion on my MRI",
-      "link": "https://antoine.fi/mri-analysis-using-claude-code-opus",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://antoine.fi/mri-analysis-using-claude-code-opus Comments URL: https://news.ycombinator.com/item?id=48708941 Points: 515 # Comments: 644",
-      "ts": 1782664519,
-      "published": "2026-06-28T16:35:19+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "pandas 3.0.4",
-      "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.0.4",
-      "source": "pandas",
-      "category": "DataScience",
-      "summary": "We are pleased to announce the release of pandas 3.0.4. This is a patch release in the 3.0.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.0.x series upgrade to this versi…",
-      "ts": 1782660848,
-      "published": "2026-06-28T15:34:08+00:00",
-      "collected_at": "2026-07-13T22:56:22+09:00"
-    },
-    {
-      "title": "Grok 4.5, based on our 1.5T V9 foundation model, with Cursor data added in su",
-      "link": "https://twitter.com/elonmusk/status/2071184354756477041",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://twitter.com/elonmusk/status/2071184354756477041 Comments URL: https://news.ycombinator.com/item?id=48707997 Points: 11 # Comments: 6",
-      "ts": 1782659283,
-      "published": "2026-06-28T15:08:03+00:00",
-      "collected_at": null
     }
   ]
 }
