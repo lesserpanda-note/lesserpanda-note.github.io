@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-28T14:50:44+09:00",
-  "count": 823,
+  "updated": "2026-07-28T17:40:58+09:00",
+  "count": 825,
   "items": [
+    {
+      "title": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage",
+      "link": "https://www.infoq.com/news/2026/07/guardduty-investigation-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AWS released a public preview of the GuardDuty investigation agent, which correlates findings, 90-day activity logs, and resource topologies into structured reports with risk ratings, confidence scores, and MITRE ATT&CK…",
+      "ts": 1785222840,
+      "published": "2026-07-28T07:14:00+00:00",
+      "collected_at": "2026-07-28T17:40:34+09:00"
+    },
+    {
+      "title": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage",
+      "link": "https://www.infoq.com/news/2026/07/guardduty-investigation-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS released a public preview of the GuardDuty investigation agent, which correlates findings, 90-day activity logs, and resource topologies into structured reports with risk ratings, confidence scores, and MITRE ATT&CK…",
+      "ts": 1785222840,
+      "published": "2026-07-28T07:14:00+00:00",
+      "collected_at": "2026-07-28T17:40:34+09:00"
+    },
+    {
+      "title": "Uber’s Zero Growth Stack: Scaling Services, While Optimising Infrastructure and AI Cost",
+      "link": "https://www.infoq.com/news/2026/07/efficient-ai-infrastructure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Uber's \"Zero Growth Stack\" focuses on scalable infrastructure that separates capacity growth from business demand, reducing hardware needs while enhancing service scaling. Central to this is garbage collection optimisat…",
+      "ts": 1785222420,
+      "published": "2026-07-28T07:07:00+00:00",
+      "collected_at": "2026-07-28T17:40:34+09:00"
+    },
+    {
+      "title": "[AINews] Much ado about Open Weights",
+      "link": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Everyone is writing a lot, but only Kimi K3 shipped today",
+      "ts": 1785219613,
+      "published": "2026-07-28T06:20:13+00:00",
+      "collected_at": "2026-07-28T17:40:34+09:00"
+    },
     {
       "title": "v2.19.0 (2026-07-27)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.19.0",
@@ -8210,26 +8250,6 @@
       "summary": "Article URL: https://www.motherjones.com/environment/2026/06/grok-doj-justice-naacp-clean-air-act-gas-turbine-pollution-national-security-ai/ Comments URL: https://news.ycombinator.com/item?id=48705717 Points: 12 # Comm…",
       "ts": 1782638347,
       "published": "2026-06-28T09:19:07+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "AI-Assisted Unused & Dead Code Removal",
-      "link": "https://foojay.io/today/ai-assisted-unused-dead-code-removal/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Why Your Codebase Is Forcing AI to Underperform, and What to Do About It Your AI coding assistant is only as good as the codebase it works on. If your Java application carries years of dead & unused code, and most do, .…",
-      "ts": 1782631182,
-      "published": "2026-06-28T07:19:42+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "AWS Previews FinOps Agent for Cost Analysis and Optimization",
-      "link": "https://www.infoq.com/news/2026/06/aws-finops-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Amazon has released AWS FinOps Agent in public preview, a managed service that automates several common FinOps workflows. The agent can investigate cost anomalies, correlate spend changes with AWS activity data, and int…",
-      "ts": 1782626100,
-      "published": "2026-06-28T05:55:00+00:00",
       "collected_at": null
     }
   ]
