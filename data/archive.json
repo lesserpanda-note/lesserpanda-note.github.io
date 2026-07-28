@@ -1,6 +1,33 @@
 {
   "digests": [
     {
+      "date": "2026-07-27",
+      "summary": "오늘은 LLM API 토큰을 불법 재판매하는 '릴레이 마켓'의 실태 조사, OpenAI Agents SDK와 Playwright MCP를 결합해 에이전트에게 브라우저를 부여하는 실습 가이드, 그리고 앤드류 겔만의 유대인 표에 관한 통계적 분석이 주목을 받았습니다. AI 생태계의 보안 위협부터 에이전트 구현 기법, 선거 통계의 심층 분석까지 다양한 주제를 다룹니다.",
+      "highlights": [
+        {
+          "category": "Agents",
+          "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+          "link": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+          "summary": "LLM API 토큰을 할인 가격으로 재판매하는 '릴레이 마켓'의 실태를 분석한 심층 조사 기사입니다. 도용된 API 키와 사기성 결제를 이용한 토큰 재판매 생태계가 빠르게 성장하고 있음을 밝힙니다.",
+          "detail": "Matt Lenhard의 심층 조사를 Simon Willison이 소개한 이 글은, OpenAI·Anthropic 등 주요 AI 제공사의 API 토큰을 할인 가격에 재판매하는 '릴레이 마켓'이 빠르게 성장하고 있음을 보여줍니다. 이 시장은 여러 출처에서 수집한 API 키를 통합해 정상 가격보다 저렴하게 제공하는 방식으로 운영됩니다. 배후에는 탈취된 계정, 도용된 신용카드로 생성된 API 키, 결제 사기 등 불법 행위가 뒤따릅니다. 구매자는 비용 절감을 위해 이 채널을 이용하지만, 실제로는 훔친 자원을 소비하는 셈입니다. 공식 제공사는 정당한 사용자에게 귀속되어야 할 요금을 회수하지 못하게 되고, 정당한 계정은 예상치 못한 청구서를 받거나 서비스가 정지되는 피해를 입습니다. Willison은 이 생태계가 LLM 산업 전반의 보안 취약점을 드러내며, 토큰 남용과 인증 강화가 시급한 과제임을 강조합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "How to Give an LLM Agent a Browser",
+          "link": "https://towardsdatascience.com/giving-an-llm-agent-a-browser/",
+          "summary": "OpenAI Agents SDK와 Playwright MCP를 결합해 LLM 에이전트에게 실제 브라우저 제어 능력을 부여하는 방법을 소개합니다. 실습 코드와 함께 웹 자동화 에이전트 구축의 핵심 단계를 안내합니다.",
+          "detail": "이 글은 OpenAI Agents SDK와 Playwright MCP(Model Context Protocol) 서버를 결합해 LLM 에이전트가 실제 브라우저를 제어할 수 있도록 구성하는 방법을 설명합니다. Playwright는 Chromium·Firefox 등을 자동화하는 라이브러리로, MCP 서버 형태로 에이전트에 연결하면 클릭·폼 입력·페이지 탐색 등 다양한 웹 작업을 에이전트가 직접 수행할 수 있게 됩니다. OpenAI Agents SDK를 통해 에이전트 루프를 구성하고 Playwright MCP를 툴로 등록하면, 에이전트가 실시간으로 웹페이지를 탐색하며 지시에 따라 작업을 완료합니다. 이 구조는 웹 스크래핑, UI 자동화 테스트, 정보 검색, 폼 자동 작성 등 다양한 실무 시나리오에 바로 적용할 수 있습니다. MCP 표준을 활용하면 에이전트와 외부 도구 간 연동이 표준화되어 유지보수와 확장이 용이합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "People sometimes talk about \"the Jewish vote,\" but what's relevant is not really the Jewish vote or Jewish public opinion; it's really about campaign contributions and the news media. Also similar wi…",
+          "link": "https://statmodeling.stat.columbia.edu/2026/07/26/the-jewish-vote-is-not-about-the-jewish-vote-jewish-public-opinion-is-not-about-jewish-public-opinion/",
+          "summary": "앤드류 겔만이 '유대인 표'라는 표현이 실제 투표 행동보다 선거 자금 기부와 언론 영향력을 둘러싼 프레임임을 통계적으로 분석합니다. 소수 집단의 정치적 영향력 측정에서 투표율 외 자금·미디어 변수의 중요성을 강조합니다.",
+          "detail": "앤드류 겔만(Columbia 통계학과)은 선거 담론에서 자주 등장하는 '유대인 표(the Jewish vote)'라는 표현이 실제 유권자 행동보다 선거 자금 기부와 미디어 영향력이라는 두 가지 핵심 변수를 가리는 프레임임을 논증합니다. 2차 세계대전 이후 유대인은 미국 인구의 약 3%에 불과했지만, 높은 투표 참여율과 뉴욕주 집중으로 스윙스테이트에서 영향력을 발휘했습니다. 그러나 현재 맥락에서 '유대인 표'를 논할 때 실질적으로 중요한 것은 유대계 커뮤니티의 불균형적으로 높은 선거 자금 기부 비율과 특정 언론사 및 미디어 채널에 대한 접근성입니다. 겔만은 이 분석이 유대인 집단에만 국한되지 않으며 AIPAC 등 로비 조직이나 다른 소수 집단의 정치적 영향력 측정에도 동일하게 적용된다고 지적합니다. 결론적으로 여론 자체보다 자금력과 미디어 접근성이 실질적 정치 영향력의 핵심 변수이며, 이를 무시한 단순 여론조사 해석은 왜곡된 결론으로 이어질 수 있다고 경고합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-26",
       "summary": "오늘은 AI 기반 장애 분석의 패러다임 전환, Anthropic의 Claude Opus 5 출시, 대규모 벡터 검색 최적화 전략, 그리고 Zalando의 초고처리량 클라이언트 사이드 로드 밸런서 구축 사례를 중점적으로 다룹니다. 특히 Claude Opus 5가 Fable 5 대비 절반 가격에 동등한 성능을 제공하며 비용 효율적인 AI 운영의 새로운 기준을 제시한 점이 주목됩니다. 전반적으로 AI 인프라와 엔지니어링 실무에서 비용 대비 효율을 극대화하는 접근이 화두입니다.",
       "highlights": [
