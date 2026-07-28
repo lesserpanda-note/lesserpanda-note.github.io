@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-29T03:17:26+09:00",
-  "count": 856,
+  "updated": "2026-07-29T05:18:21+09:00",
+  "count": 860,
   "items": [
+    {
+      "title": "Survey Statistics: equivalent models, equivalent weights (locally)",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/28/survey-statistics-equivalent-models-equivalent-weights-locally/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Last month we saw that the Times/Siena Poll is now using energy balancing weights (Huling & Mak, 2024). In a toy example, we saw under which outcome models these weighting methods might do well. I was inspired by Little…",
+      "ts": 1785268826,
+      "published": "2026-07-28T20:00:26+00:00",
+      "collected_at": "2026-07-29T05:17:59+09:00"
+    },
+    {
+      "title": "MCP 2026-07-28 Specification: transport going stateless",
+      "link": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://blog.modelcontextprotocol.io/posts/2026-07-28/ Comments URL: https://news.ycombinator.com/item?id=49088058 Points: 39 # Comments: 15",
+      "ts": 1785263711,
+      "published": "2026-07-28T18:35:11+00:00",
+      "collected_at": "2026-07-29T05:17:59+09:00"
+    },
+    {
+      "title": "langgraph==1.2.10",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.10",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.9 release(langgraph): 1.2.10 ( #8462 ) chore(deps): bump jupyterlab from 4.5.9 to 4.5.10 in /libs/langgraph ( #8440 ) chore(deps): bump setuptools from 80.9.0 to 83.0.0 in /libs/langgraph ( #8435 ) fea…",
+      "ts": 1785263654,
+      "published": "2026-07-28T18:34:14+00:00",
+      "collected_at": "2026-07-29T05:17:59+09:00"
+    },
     {
       "title": "Scientific computing in the age of agentic AI",
       "link": "https://openai.com/index/scientific-computing-agentic-ai",
@@ -291,6 +321,16 @@
       "ts": 1785219613,
       "published": "2026-07-28T06:20:13+00:00",
       "collected_at": "2026-07-28T17:40:34+09:00"
+    },
+    {
+      "title": "Graph Engineering for AI Agents: Beyond the Single-Agent Loop",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/graph-engineering/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "AI-agent development has progressed through overlapping phases: prompt engineering, context engineering, tool use, autonomous loops, memory systems, and multi-agent coordination. A newer focus is graph engineering, whic…",
+      "ts": 1785218621,
+      "published": "2026-07-28T06:03:41+00:00",
+      "collected_at": "2026-07-29T05:17:59+09:00"
     },
     {
       "title": "v2.19.0 (2026-07-27)",
@@ -651,6 +691,16 @@
       "ts": 1785110400,
       "published": "2026-07-27T00:00:00+00:00",
       "collected_at": "2026-07-28T23:17:29+09:00"
+    },
+    {
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1785110400,
+      "published": "2026-07-27T00:00:00+00:00",
+      "collected_at": "2026-07-29T05:17:59+09:00"
     },
     {
       "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
@@ -8550,16 +8600,6 @@
       "summary": "Human Agent in the loop I dislike the phrase “human in the loop” because it cedes authority to the machines. Let’s flip the narrative. It’s our loop, we work the same way we always have, now we recruit agents to join th…",
       "ts": 1782683861,
       "published": "2026-06-28T21:57:41+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Hack Your Summer",
-      "link": "https://simonwillison.net/2026/Jun/28/hack-your-summer/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Hack Your Summer I learned about this initiative from DJ Patil this morning: It’s a 4-week, high-velocity production sprint for undergraduate students, graduate students, and recent graduates who want to build something…",
-      "ts": 1782674771,
-      "published": "2026-06-28T19:26:11+00:00",
       "collected_at": null
     }
   ]
