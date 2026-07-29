@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-30T02:18:42+09:00",
-  "count": 865,
+  "updated": "2026-07-30T04:22:33+09:00",
+  "count": 864,
   "items": [
+    {
+      "title": "AI Worming through Word",
+      "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions…",
+      "ts": 1785350583,
+      "published": "2026-07-29T18:43:03+00:00",
+      "collected_at": "2026-07-30T04:22:11+09:00"
+    },
+    {
+      "title": "Quoting Matthew Green",
+      "link": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new post-quantum algorithms based on novel problems. This is why there…",
+      "ts": 1785349095,
+      "published": "2026-07-29T18:18:15+00:00",
+      "collected_at": "2026-07-30T04:22:11+09:00"
+    },
     {
       "title": "Prompt Engineering Is Solved—Prompt Management Isn’t",
       "link": "https://towardsdatascience.com/prompt-engineering-is-solved-prompt-management-isnt/",
@@ -211,6 +231,16 @@
       "ts": 1785286012,
       "published": "2026-07-29T00:46:52+00:00",
       "collected_at": "2026-07-29T13:14:20+09:00"
+    },
+    {
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "link": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llm…",
+      "ts": 1785283998,
+      "published": "2026-07-29T00:13:18+00:00",
+      "collected_at": "2026-07-30T04:22:11+09:00"
     },
     {
       "title": "Discovering cryptographic weaknesses with Claude",
@@ -8610,46 +8640,6 @@
       "summary": "Article URL: https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code Comments URL: https://news.ycombinator.com/item?id=48725359 Points: 35 # Comments: 68",
       "ts": 1782767818,
       "published": "2026-06-29T21:16:58+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Count the number of Safari tabs",
-      "link": "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari: osascript -e 'tell application \"Safari\" to count tabs of every window' Tags: safari , til , applescript",
-      "ts": 1782758178,
-      "published": "2026-06-29T18:36:18+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "You’re invited to IntelliJ IDEA Conf 2026!",
-      "link": "https://foojay.io/today/youre-invited-to-intellij-idea-conf-2026/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "We are excited to invite you to IntelliJ IDEA Conf 2026, a free virtual event on September 8-9, 2026. IntelliJ IDEA Conf is a celebration of the developer community, bringing together professionals who strive for excell…",
-      "ts": 1782758108,
-      "published": "2026-06-29T18:35:08+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "DiScoFormer: One transformer for density and score, across distributions",
-      "link": "https://huggingface.co/blog/allenai/discoformer",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782756168,
-      "published": "2026-06-29T18:02:48+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "AI agents are not your “coworkers”",
-      "link": "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The w…",
-      "ts": 1782756000,
-      "published": "2026-06-29T18:00:00+00:00",
       "collected_at": null
     }
   ]
