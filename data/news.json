@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-30T06:00:23+09:00",
-  "count": 872,
+  "updated": "2026-07-30T07:08:21+09:00",
+  "count": 874,
   "items": [
+    {
+      "title": "Quoting D. Richard Hipp",
+      "link": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer. Then SQL comes along—I’m simplifying this only a little bit—and…",
+      "ts": 1785359721,
+      "published": "2026-07-29T21:15:21+00:00",
+      "collected_at": "2026-07-30T07:08:03+09:00"
+    },
+    {
+      "title": "“Over-coverage caught by pre-registration: 47 of 56 inside a stated 50% interval”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/29/over-coverage-caught-by-pre-registration-47-of-56-inside-a-stated-50-interval/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Alex Malinowski has a question about evaluating the calibration of interval forecasts: We publish interval forecasts under a pre-registration scheme: each forecast is serialised, hashed and timestamped into a Bitcoin bl…",
+      "ts": 1785359547,
+      "published": "2026-07-29T21:12:27+00:00",
+      "collected_at": "2026-07-30T07:08:03+09:00"
+    },
     {
       "title": "AI Worming through Word",
       "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
@@ -21,6 +41,16 @@
       "ts": 1785349095,
       "published": "2026-07-29T18:18:15+00:00",
       "collected_at": "2026-07-30T04:22:11+09:00"
+    },
+    {
+      "title": "Some thoughts about Anthropic's new cryptanalysis results",
+      "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/ Comments URL: https://news.ycombinator.com/item?id=49099804 Points: 81 # Comments: 44",
+      "ts": 1785343340,
+      "published": "2026-07-29T16:42:20+00:00",
+      "collected_at": "2026-07-30T07:08:03+09:00"
     },
     {
       "title": "Prompt Engineering Is Solved—Prompt Management Isn’t",
@@ -8710,16 +8740,6 @@
       "summary": "This week's Java roundup for June 22nd, 2026, features news highlighting: the GA releases of Hardwood 1.0 and Endive 1.0; the June 2026 edition of Azul Payara; point releases of Quarkus, LangChain4j; the first beta rele…",
       "ts": 1782775800,
       "published": "2026-06-29T23:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "You shouldn't copy-paste errors into Claude Code",
-      "link": "https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://home.robusta.dev/blog/you-really-shouldnt-copy-paste-errors-into-claude-code Comments URL: https://news.ycombinator.com/item?id=48725359 Points: 35 # Comments: 68",
-      "ts": 1782767818,
-      "published": "2026-06-29T21:16:58+00:00",
       "collected_at": null
     }
   ]
