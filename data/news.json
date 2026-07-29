@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-29T07:07:48+09:00",
-  "count": 862,
+  "updated": "2026-07-29T09:00:52+09:00",
+  "count": 863,
   "items": [
+    {
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "link": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"…",
+      "ts": 1785278737,
+      "published": "2026-07-28T22:45:37+00:00",
+      "collected_at": "2026-07-29T09:00:29+09:00"
+    },
     {
       "title": "Quoting Akshat Bubna",
       "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
@@ -31,6 +41,16 @@
       "ts": 1785274134,
       "published": "2026-07-28T21:28:54+00:00",
       "collected_at": "2026-07-29T07:07:31+09:00"
+    },
+    {
+      "title": "Anthropic publishes a practical key-recovery attack on HAWK-256",
+      "link": "https://github.com/anthropics/cryptography-research-demo",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/anthropics/cryptography-research-demo Comments URL: https://news.ycombinator.com/item?id=49090083 Points: 50 # Comments: 2",
+      "ts": 1785273768,
+      "published": "2026-07-28T21:22:48+00:00",
+      "collected_at": "2026-07-29T09:00:29+09:00"
     },
     {
       "title": "Survey Statistics: equivalent models, equivalent weights (locally)",
@@ -8610,16 +8630,6 @@
       "summary": "A few weeks ago, we wrote about a new generation of Java libraries powered by WebAssembly. SQLite, QuickJS, Protocol Buffers, the Ruby Prism parser, all compiled to Wasm and shipped as regular JARs. No JNI, no platform-…",
       "ts": 1782691860,
       "published": "2026-06-29T00:11:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Faster Gemma 4 on MLX with multi-token prediction",
-      "link": "https://ollama.com/blog/faster-gemma-4-mlx-mtp",
-      "source": "Ollama",
-      "category": "AI",
-      "summary": "Gemma 4 is now significantly faster in Ollama 0.31 on Apple Silicon via multi-token prediction (MTP), powered by MLX. Performance is now up to 90% faster when used with coding agents, as measured using the Aider polyglo…",
-      "ts": 1782691200,
-      "published": "2026-06-29T00:00:00+00:00",
       "collected_at": null
     }
   ]
