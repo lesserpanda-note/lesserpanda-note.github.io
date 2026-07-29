@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-29T09:20:36+09:00",
-  "count": 862,
+  "updated": "2026-07-29T13:14:24+09:00",
+  "count": 867,
   "items": [
+    {
+      "title": "v2.20.0 (2026-07-28)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.20.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add Claude Opus 5 ( claude-opus-5 ) support by @dsfaccini in #6723 Add OpenAI Responses API reasoning.context support (default all_turns ) for the gpt-5.4 / gpt-5.5 / gpt-5.6 families by @pydan…",
+      "ts": 1785295606,
+      "published": "2026-07-29T03:26:46+00:00",
+      "collected_at": "2026-07-29T13:14:20+09:00"
+    },
+    {
+      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
+      "link": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "The Big Pause is coming.",
+      "ts": 1785286012,
+      "published": "2026-07-29T00:46:52+00:00",
+      "collected_at": "2026-07-29T13:14:20+09:00"
+    },
     {
       "title": "Discovering cryptographic weaknesses with Claude",
       "link": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
@@ -63,6 +83,16 @@
       "collected_at": "2026-07-29T05:17:59+09:00"
     },
     {
+      "title": "Show HN: Minute – Offline meeting notes on macOS with Whisper and llama.cpp",
+      "link": "https://github.com/mraza007/minute",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Hello HN, I built Minute because I wanted searchable meeting notes without sending recordings or transcripts to a cloud service. It captures microphone and optional system audio, transcribes locally with Whisper, and ge…",
+      "ts": 1785267077,
+      "published": "2026-07-28T19:31:17+00:00",
+      "collected_at": "2026-07-29T13:14:20+09:00"
+    },
+    {
       "title": "MCP 2026-07-28 Specification: transport going stateless",
       "link": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
       "source": "Hacker News",
@@ -81,6 +111,16 @@
       "ts": 1785263654,
       "published": "2026-07-28T18:34:14+00:00",
       "collected_at": "2026-07-29T05:17:59+09:00"
+    },
+    {
+      "title": "Grok Introducing Build Mode",
+      "link": "https://x.ai/news/grok-build-mode",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://x.ai/news/grok-build-mode Comments URL: https://news.ycombinator.com/item?id=49087752 Points: 10 # Comments: 1",
+      "ts": 1785262248,
+      "published": "2026-07-28T18:10:48+00:00",
+      "collected_at": "2026-07-29T13:14:20+09:00"
     },
     {
       "title": "Scientific computing in the age of agentic AI",
@@ -831,6 +871,16 @@
       "ts": 1785050880,
       "published": "2026-07-26T07:28:00+00:00",
       "collected_at": "2026-07-26T16:37:24+09:00"
+    },
+    {
+      "title": "sqlite-utils 3.39.1",
+      "link": "https://simonwillison.net/2026/Jul/26/sqlite-utils/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: sqlite-utils 3.39.1 I back-ported a fix for table.delete_where() that shipped in version 4. Tags: sqlite-utils",
+      "ts": 1785040726,
+      "published": "2026-07-26T04:38:46+00:00",
+      "collected_at": "2026-07-29T13:14:20+09:00"
     },
     {
       "title": "Ruff v0.16.0",
