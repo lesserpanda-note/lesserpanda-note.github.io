@@ -1,7 +1,67 @@
 {
-  "updated": "2026-07-29T22:02:57+09:00",
+  "updated": "2026-07-30T00:50:34+09:00",
   "count": 864,
   "items": [
+    {
+      "title": "Why Your Best Predictive Model Gives the Wrong Treatment Effect",
+      "link": "https://towardsdatascience.com/why-your-best-predictive-model-gives-the-wrong-treatment-effect/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Why prediction-driven variable selection misses confounders and how Bayesian Adjustment for Confounding attempts to fix it. The post Why Your Best Predictive Model Gives the Wrong Treatment Effect appeared first on Towa…",
+      "ts": 1785337200,
+      "published": "2026-07-29T15:00:00+00:00",
+      "collected_at": "2026-07-30T00:50:30+09:00"
+    },
+    {
+      "title": "What Professionals Should Know About Data Science and AI, According to Harvard Business School Online",
+      "link": "https://www.kdnuggets.com/what-professionals-should-know-about-data-science-and-ai-according-to-harvard-business-school-online",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn why clear business goals, data quality, simple models, careful validation, realistic costs, and human judgment matter more than chasing the latest technology.",
+      "ts": 1785333625,
+      "published": "2026-07-29T14:00:25+00:00",
+      "collected_at": "2026-07-30T00:50:30+09:00"
+    },
+    {
+      "title": "CrewAI in Python: Coordinating Teams of AI Agents",
+      "link": "https://realpython.com/crewai-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use CrewAI to build teams of AI agents in Python, define roles and tools, and coordinate multi-agent workflows that solve complex tasks.",
+      "ts": 1785333600,
+      "published": "2026-07-29T14:00:00+00:00",
+      "collected_at": "2026-07-30T00:50:30+09:00"
+    },
+    {
+      "title": "How to Create Custom Skills in Claude: A Step-by-Step Guide",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/how-to-create-custom-skills-in-claude/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Claude can review data, check code, write reports, and prepare presentations, but teams still end up repeating the same structure, validation rules, company standards, and final-check instructions in every conversation.…",
+      "ts": 1785332968,
+      "published": "2026-07-29T13:49:28+00:00",
+      "collected_at": "2026-07-30T00:50:30+09:00"
+    },
+    {
+      "title": "Los Movimientos, Part II: Solving Large Pickup-and-Delivery Problems with Adaptive Large Neighborhood Search",
+      "link": "https://towardsdatascience.com/los-movimientos-part-ii-solving-large-pickup-and-delivery-problems-with-adaptive-large-neighborhood-search/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Building an ALNS heuristic in Python for vehicle routing, time windows, capacity constraints, and mandatory driver breaks. The post Los Movimientos, Part II: Solving Large Pickup-and-Delivery Problems with Adaptive Larg…",
+      "ts": 1785331800,
+      "published": "2026-07-29T13:30:00+00:00",
+      "collected_at": "2026-07-30T00:50:30+09:00"
+    },
+    {
+      "title": "Eleven Kinds of Loneliness: Richard Yates and the tragedy of agency",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/29/eleven-kinds-of-loneliness-richard-yates-and-the-tragedy-of-agency/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Following up on Richard Yates (see last year’s post, Double Feature: Revolutionary Road and That Darned Chatbot), I came across his collection of short stories from 1962, Eleven Kinds of Loneliness. These stories are wo…",
+      "ts": 1785331779,
+      "published": "2026-07-29T13:29:39+00:00",
+      "collected_at": "2026-07-30T00:50:30+09:00"
+    },
     {
       "title": "5 Must-Read Resources for Mastering Small Language Models",
       "link": "https://www.kdnuggets.com/5-must-read-resources-for-mastering-small-language-models",
@@ -11,6 +71,16 @@
       "ts": 1785326422,
       "published": "2026-07-29T12:00:22+00:00",
       "collected_at": "2026-07-29T22:02:39+09:00"
+    },
+    {
+      "title": "Ollama vs. LM Studio vs. llama.cpp: Which Local AI Runtime Should You Use in 2026?",
+      "link": "https://machinelearningmastery.com/ollama-vs-lm-studio-vs-llama-cpp-which-local-ai-runtime-should-you-use-in-2026/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how Ollama, LM Studio, and llama.cpp differ across the dimensions that matter most to practitioners, and how to choose...",
+      "ts": 1785326413,
+      "published": "2026-07-29T12:00:13+00:00",
+      "collected_at": "2026-07-30T00:50:30+09:00"
     },
     {
       "title": "Avoiding Entity Key Drift in a Data Lake: Step 1, Normalization",
@@ -8571,76 +8641,6 @@
       "ts": 1782748800,
       "published": "2026-06-29T16:00:00+00:00",
       "collected_at": null
-    },
-    {
-      "title": "Eliya 25 Brings a JVM-Level Diagnostic Profile to OpenJDK 25 LTS",
-      "link": "https://www.infoq.com/news/2026/06/eliya-jvm-diagnostic-profile/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Asymm Systems has released Eliya 25.0.3, an OpenJDK 25 LTS distribution aimed at improving production diagnostics in Java environments. It consolidates several HotSpot features into an opt-in Production profile. Eliya i…",
-      "ts": 1782744600,
-      "published": "2026-06-29T14:50:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Eliya 25 Brings a JVM-Level Diagnostic Profile to OpenJDK 25 LTS",
-      "link": "https://www.infoq.com/news/2026/06/eliya-jvm-diagnostic-profile/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Asymm Systems has released Eliya 25.0.3, an OpenJDK 25 LTS distribution aimed at improving production diagnostics in Java environments. It consolidates several HotSpot features into an opt-in Production profile. Eliya i…",
-      "ts": 1782744600,
-      "published": "2026-06-29T14:50:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Agent confidence on the technical frontier",
-      "link": "https://www.technologyreview.com/2026/06/29/1139635/agent-confidence-on-the-technical-frontier/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Enterprise investment in AI is booming. Gartner is calling 2026 an “inflection year” for organizations to align their AI projects with strategic business objectives. As the pressure to prove ROI mounts, executives and t…",
-      "ts": 1782744241,
-      "published": "2026-06-29T14:44:01+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Inside Target’s LLM-Based System for Semantic Matching in Marketing Forecast Pipelines",
-      "link": "https://www.infoq.com/news/2026/06/target-ai-campaign-forecasting/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Target built a generative AI system to improve marketing campaign forecasting by retrieving and ranking similar historical campaigns. Using embeddings, vector search, and LLM ranking, it replaces rule-based workflows. E…",
-      "ts": 1782743160,
-      "published": "2026-06-29T14:26:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Inside Target’s LLM-Based System for Semantic Matching in Marketing Forecast Pipelines",
-      "link": "https://www.infoq.com/news/2026/06/target-ai-campaign-forecasting/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Target built a generative AI system to improve marketing campaign forecasting by retrieving and ranking similar historical campaigns. Using embeddings, vector search, and LLM ranking, it replaces rule-based workflows. E…",
-      "ts": 1782743160,
-      "published": "2026-06-29T14:26:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "How to Get Started With the GitHub Copilot CLI",
-      "link": "https://realpython.com/github-copilot-cli/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to install, authenticate, and use the GitHub Copilot CLI to plan, write, and review Python code from your terminal with AI agents.",
-      "ts": 1782741600,
-      "published": "2026-06-29T14:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Cheapskate evolutionary biologist underpays his statistical help",
-      "link": "https://statmodeling.stat.columbia.edu/2026/06/29/cheapskate-evolutionary-biologist-underpays-his-statistical-help/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "OK, this one was funny. I searched the Epstein files for “statistician” and found this receipt from biologist Robert Trivers: Only $1000 for the statistician??? What a cheapskate! Especially given that he said the stati…",
-      "ts": 1782740973,
-      "published": "2026-06-29T13:49:33+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
     }
   ]
 }
