@@ -1,7 +1,57 @@
 {
-  "updated": "2026-07-29T16:45:25+09:00",
-  "count": 867,
+  "updated": "2026-07-29T19:42:29+09:00",
+  "count": 868,
   "items": [
+    {
+      "title": "Cloudflare Makes Internal DNS Generally Available",
+      "link": "https://www.infoq.com/news/2026/07/cloudflare-internal-dns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare has launched its Internal DNS service, providing authoritative and recursive DNS for private networks. This service simplifies DNS management by consolidating private and public DNS operations on a single pla…",
+      "ts": 1785321000,
+      "published": "2026-07-29T10:30:00+00:00",
+      "collected_at": "2026-07-29T19:42:24+09:00"
+    },
+    {
+      "title": "Presentation: Getting Rid of LeetCode Interviews in the World of AI",
+      "link": "https://www.infoq.com/presentations/ai-lead-interview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Daniel Doubrovkine explains why traditional LeetCode whiteboard interviews fail to evaluate senior engineering talent. He discusses his own experience bombing basic algorithm tests despite decades of leadership, and sha…",
+      "ts": 1785320700,
+      "published": "2026-07-29T10:25:00+00:00",
+      "collected_at": "2026-07-29T19:42:24+09:00"
+    },
+    {
+      "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway",
+      "link": "https://www.infoq.com/articles/securing-mcp-production-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "This article presents a defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production. It outlines four architectural control layers: safe execution, management infrastructure, outbound t…",
+      "ts": 1785315600,
+      "published": "2026-07-29T09:00:00+00:00",
+      "collected_at": "2026-07-29T19:42:24+09:00"
+    },
+    {
+      "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway",
+      "link": "https://www.infoq.com/articles/securing-mcp-production-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This article presents a defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production. It outlines four architectural control layers: safe execution, management infrastructure, outbound t…",
+      "ts": 1785315600,
+      "published": "2026-07-29T09:00:00+00:00",
+      "collected_at": "2026-07-29T19:42:24+09:00"
+    },
+    {
+      "title": "The AI Hype Index: Unsexy AI",
+      "link": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X…",
+      "ts": 1785314577,
+      "published": "2026-07-29T08:42:57+00:00",
+      "collected_at": "2026-07-29T19:42:24+09:00"
+    },
     {
       "title": "v0.19.1",
       "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.1",
@@ -8630,46 +8680,6 @@
       "summary": "In this episode, Heroku co-founder and Ink & Switch founder Adam Wiggins argues for a 'local-first' architecture that reconciles cloud-based collaboration with the performance and data ownership of local software. He ex…",
       "ts": 1782730800,
       "published": "2026-06-29T11:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Building an AI-Powered Operations Assistant with Spring AI and MongoDB Atlas — Part 3: Stateful Workflows and Human-in-the-Loop",
-      "link": "https://foojay.io/today/building-an-ai-powered-operations-assistant-with-spring-ai-and-mongodb-atlas-part-3-stateful-workflows-and-human-in-the-loop/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "This is the third and final article in the series. Part 1 covered the RAG foundation — loading runbooks into a vector store and grounding model answers in real documentation. Part 2 added short-term and long-term conver…",
-      "ts": 1782726040,
-      "published": "2026-06-29T09:40:40+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v2.1.0 (2026-06-29)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.1.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features feat: Add Anthropic _20260209 web tools with server-tool replay by @adtyavrdhn in #4844 Serialize instrumentation message attributes with to_json instead of json.dumps by @Kludex in #6045 Add T…",
-      "ts": 1782725973,
-      "published": "2026-06-29T09:39:33+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Anthropic CEO: Open-Source AI is getting dangerous (2023)",
-      "link": "https://xcancel.com/coinbureau/status/2071330294452666695",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://xcancel.com/coinbureau/status/2071330294452666695 Comments URL: https://news.ycombinator.com/item?id=48716750 Points: 58 # Comments: 25",
-      "ts": 1782724293,
-      "published": "2026-06-29T09:11:33+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "AI Tools Accelerates Coding, But Not Overall Software Delivery, GitLab Research Finds",
-      "link": "https://www.infoq.com/news/2026/06/ai-coding-outpaces-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "GitLab's 2026 AI Accountability Report highlights an AI Paradox: although 78% of developers say they code faster, overall software delivery has not accelerated due to downstream testing and review bottlenecks and new ch…",
-      "ts": 1782720000,
-      "published": "2026-06-29T08:00:00+00:00",
       "collected_at": null
     }
   ]
