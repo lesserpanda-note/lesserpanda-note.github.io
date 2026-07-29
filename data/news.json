@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-30T00:50:34+09:00",
-  "count": 864,
+  "updated": "2026-07-30T02:18:42+09:00",
+  "count": 865,
   "items": [
+    {
+      "title": "Prompt Engineering Is Solved—Prompt Management Isn’t",
+      "link": "https://towardsdatascience.com/prompt-engineering-is-solved-prompt-management-isnt/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Prompt engineering helps you write better prompts—but it doesn’t help you change them safely. This article explores a common production failure where a simple variable rename breaks every live call, and introduces a lig…",
+      "ts": 1785342837,
+      "published": "2026-07-29T16:33:57+00:00",
+      "collected_at": "2026-07-30T02:18:38+09:00"
+    },
+    {
+      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+      "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1785340930,
+      "published": "2026-07-29T16:02:10+00:00",
+      "collected_at": "2026-07-30T02:18:38+09:00"
+    },
     {
       "title": "Why Your Best Predictive Model Gives the Wrong Treatment Effect",
       "link": "https://towardsdatascience.com/why-your-best-predictive-model-gives-the-wrong-treatment-effect/",
@@ -121,6 +141,16 @@
       "ts": 1785320700,
       "published": "2026-07-29T10:25:00+00:00",
       "collected_at": "2026-07-29T19:42:24+09:00"
+    },
+    {
+      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
+      "ts": 1785319200,
+      "published": "2026-07-29T10:00:00+00:00",
+      "collected_at": "2026-07-30T02:18:38+09:00"
     },
     {
       "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway",
@@ -8620,26 +8650,6 @@
       "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Imagine coming in to work to learn that a new underling will report to you. The w…",
       "ts": 1782756000,
       "published": "2026-06-29T18:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
-      "link": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce. [...] with variants including 9B Dense, 31B Dense, 35B MoE,…",
-      "ts": 1782749879,
-      "published": "2026-06-29T16:17:59+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Ask an AI expert: What exactly is the full stack?",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "An illustration depicting a full-stack AI infrastructure against a dark background",
-      "ts": 1782748800,
-      "published": "2026-06-29T16:00:00+00:00",
       "collected_at": null
     }
   ]
