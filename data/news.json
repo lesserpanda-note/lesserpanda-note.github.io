@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-30T04:22:33+09:00",
-  "count": 864,
+  "updated": "2026-07-30T06:00:23+09:00",
+  "count": 872,
   "items": [
     {
       "title": "AI Worming through Word",
@@ -241,6 +241,86 @@
       "ts": 1785283998,
       "published": "2026-07-29T00:13:18+00:00",
       "collected_at": "2026-07-30T04:22:11+09:00"
+    },
+    {
+      "title": "Newsletter: JDK 27 Rampdown Phase is Closing - Default G1 in All Environments",
+      "link": "https://inside.java/2026/07/29/quality-heads-up/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "OpenJDK Quality Outreach July 2026 Newsletter",
+      "ts": 1785283200,
+      "published": "2026-07-29T00:00:00+00:00",
+      "collected_at": "2026-07-30T05:59:59+09:00"
+    },
+    {
+      "title": "cve-2026-47858 - HIGH - CVE-2026-47858: live information startup mode is vulnerable for remote code execution",
+      "link": "https://spring.io/security/cve-2026-47858",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Description Starting Spring Boot applications in the Spring Tools with the live information mode enabled makes the running application vulnerable against JMX-based remote code execution. This affects the live informatio…",
+      "ts": 1785283200,
+      "published": "2026-07-29T00:00:00+00:00",
+      "collected_at": "2026-07-30T05:59:59+09:00"
+    },
+    {
+      "title": "cve-2026-47873 - HIGH - CVE-2026-47873: Spring Tools Docker integration publishes unauthenticated debug (JDWP) and JMX ports on all network interfaces",
+      "link": "https://spring.io/security/cve-2026-47873",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Description The Boot Dashboard Docker integration in Spring Tools publishes container control ports on all of the host's network interfaces ( 0.0.0.0 ) rather than restricting them to loopback. Affected Spring Products…",
+      "ts": 1785283200,
+      "published": "2026-07-29T00:00:00+00:00",
+      "collected_at": "2026-07-30T05:59:59+09:00"
+    },
+    {
+      "title": "cve-2026-59326 - LOW - CVE-2026-59326: HTTP Proxy Credentials Logged in Plaintext by the Spring Boot Language Server",
+      "link": "https://spring.io/security/cve-2026-59326",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Description The Spring Boot language server logs the raw value of the https_proxy / HTTPS_PROXY / http_proxy / HTTP_PROXY environment variable at INFO level whenever it creates an outbound HTTP client and no explicit ht…",
+      "ts": 1785283200,
+      "published": "2026-07-29T00:00:00+00:00",
+      "collected_at": "2026-07-30T05:59:59+09:00"
+    },
+    {
+      "title": "cve-2026-47882 - LOW - CVE-2026-47882: Spring Boot DevTools remote secret generated with a non-cryptographic PRNG",
+      "link": "https://spring.io/security/cve-2026-47882",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Description When enabling Spring Boot DevTools support for a remote application target (for example a Docker container or Cloud Foundry app) from the Spring Tools Boot Dashboard, Spring Tools generates a shared secret t…",
+      "ts": 1785283200,
+      "published": "2026-07-29T00:00:00+00:00",
+      "collected_at": "2026-07-30T05:59:59+09:00"
+    },
+    {
+      "title": "cve-2026-59327 - MEDIUM - CVE-2026-59327: Cleartext Storage of Spring Boot DevTools Remote Secret in Eclipse Launch Configurations",
+      "link": "https://spring.io/security/cve-2026-59327",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Description Spring Tools for Eclipse stores the Spring Boot DevTools remote secret ( spring.devtools.remote.secret ) as a plain string attribute on the \"Spring Boot DevTools Client\" launch configuration. Eclipse persist…",
+      "ts": 1785283200,
+      "published": "2026-07-29T00:00:00+00:00",
+      "collected_at": "2026-07-30T05:59:59+09:00"
+    },
+    {
+      "title": "cve-2026-59328 - MEDIUM - CVE-2026-59328: Cross-Site Scripting in Eclipse Spring Boot Starter Wizard Dependency Tooltips",
+      "link": "https://spring.io/security/cve-2026-59328",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Description Spring Tools for Eclipse renders Spring Boot starter wizard dependency tooltips in a native embedded browser (SWT Browser ) with JavaScript enabled. Using untrusted and compromised Initializr endpoints for t…",
+      "ts": 1785283200,
+      "published": "2026-07-29T00:00:00+00:00",
+      "collected_at": "2026-07-30T05:59:59+09:00"
+    },
+    {
+      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
+      "ts": 1785283200,
+      "published": "2026-07-29T00:00:00+00:00",
+      "collected_at": "2026-07-30T05:59:59+09:00"
     },
     {
       "title": "Discovering cryptographic weaknesses with Claude",
