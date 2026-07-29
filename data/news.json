@@ -1,7 +1,37 @@
 {
-  "updated": "2026-07-29T19:42:29+09:00",
-  "count": 868,
+  "updated": "2026-07-29T22:02:57+09:00",
+  "count": 864,
   "items": [
+    {
+      "title": "5 Must-Read Resources for Mastering Small Language Models",
+      "link": "https://www.kdnuggets.com/5-must-read-resources-for-mastering-small-language-models",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Five resources covering SLM architecture, fine-tuning, agentic workflows, and local deployment for data professionals.",
+      "ts": 1785326422,
+      "published": "2026-07-29T12:00:22+00:00",
+      "collected_at": "2026-07-29T22:02:39+09:00"
+    },
+    {
+      "title": "Avoiding Entity Key Drift in a Data Lake: Step 1, Normalization",
+      "link": "https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-1-normalization/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "This is the opening piece of a four-part deep dive series, on building a high-frequency streaming pipeline against a live public API. The data source is openSenseMap, a citizen-science IoT network used for climate resea…",
+      "ts": 1785326400,
+      "published": "2026-07-29T12:00:00+00:00",
+      "collected_at": "2026-07-29T22:02:39+09:00"
+    },
+    {
+      "title": "Secure Your APIs: OAuth2 and JWT for Beginners",
+      "link": "https://blog.jetbrains.com/kotlin/2026/07/secure-your-apis-oauth2-and-jwt-for-beginners/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "This tutorial was written by an external contributor. APIs are frequent targets for bad actors since they expose data and functionality. Securing them while maintaining usability is often one of the most challenging and…",
+      "ts": 1785324501,
+      "published": "2026-07-29T11:28:21+00:00",
+      "collected_at": "2026-07-29T22:02:39+09:00"
+    },
     {
       "title": "Cloudflare Makes Internal DNS Generally Available",
       "link": "https://www.infoq.com/news/2026/07/cloudflare-internal-dns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -8611,76 +8641,6 @@
       "ts": 1782740973,
       "published": "2026-06-29T13:49:33+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Kotlin Notebook Sunset",
-      "link": "https://blog.jetbrains.com/idea/2026/06/kotlin-notebook-sunset/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Starting from IntelliJ IDEA 2026.2, JetBrains will sunset Kotlin Notebook as a product and will no longer maintain it. The plugin will remain available on an open-source model so the community can continue its developme…",
-      "ts": 1782734536,
-      "published": "2026-06-29T12:02:16+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Model Context Protocol Explained in 3 Levels of Difficulty",
-      "link": "https://machinelearningmastery.com/model-context-protocol-explained-in-3-levels-of-difficulty/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "MCP provides a standard way for AI applications and external systems to communicate.",
-      "ts": 1782734430,
-      "published": "2026-06-29T12:00:30+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quiz: How to Get Started With the GitHub Copilot CLI",
-      "link": "https://realpython.com/quizzes/github-copilot-cli/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of the GitHub Copilot CLI, from installing it to running prompts, switching agent modes, and reviewing code in your terminal.",
-      "ts": 1782734400,
-      "published": "2026-06-29T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "7 New Vulnerabilities in Jackson in One Day: This Is What AI-Assisted Security Research Looks Like",
-      "link": "https://foojay.io/today/7-new-vulnerabilities-in-jackson-in-one-day-this-is-what-ai-assisted-security-research-looks-like/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Quick version check: the affected range for all seven is broadly >=2.10.0 =2.19.0 =3.0.0 <3.1.4 — with some CVEs affecting narrower ranges. If you're on a supported release, upgrade to 2.18.8, 2.21.4, or 3.1.4. If you'r…",
-      "ts": 1782733661,
-      "published": "2026-06-29T11:47:41+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution",
-      "link": "https://www.infoq.com/articles/security-ai-threat-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "This virtual panel brings together AI security experts to examine the evolution of AI-driven threats, from prompt injection and data poisoning to agent abuse and AI-powered social engineering. The discussion explores em…",
-      "ts": 1782730800,
-      "published": "2026-06-29T11:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Article: Virtual panel: Security in the Machine Age: Expert Insights on AI Threat Evolution",
-      "link": "https://www.infoq.com/articles/security-ai-threat-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This virtual panel brings together AI security experts to examine the evolution of AI-driven threats, from prompt injection and data poisoning to agent abuse and AI-powered social engineering. The discussion explores em…",
-      "ts": 1782730800,
-      "published": "2026-06-29T11:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Podcast: Architectural Patterns: Moving Beyond Cloud-Native to Local-First - Insights from Adam Wiggins",
-      "link": "https://www.infoq.com/podcasts/natural-evolution-cloud-native/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "In this episode, Heroku co-founder and Ink & Switch founder Adam Wiggins argues for a 'local-first' architecture that reconciles cloud-based collaboration with the performance and data ownership of local software. He ex…",
-      "ts": 1782730800,
-      "published": "2026-06-29T11:00:00+00:00",
-      "collected_at": null
     }
   ]
 }
