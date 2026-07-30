@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-31T00:14:03+09:00",
-  "count": 867,
+  "updated": "2026-07-31T02:39:34+09:00",
+  "count": 866,
   "items": [
+    {
+      "title": "The Python Ecosystem That Changed AI Development",
+      "link": "https://towardsdatascience.com/the-python-ecosystem-that-changed-ai-development/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How one open-source ecosystem made state-of-the-art AI accessible The post The Python Ecosystem That Changed AI Development appeared first on Towards Data Science .",
+      "ts": 1785429000,
+      "published": "2026-07-30T16:30:00+00:00",
+      "collected_at": "2026-07-31T02:39:22+09:00"
+    },
     {
       "title": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
       "link": "https://huggingface.co/blog/Dharma-AI/gpu-management",
@@ -31,6 +41,16 @@
       "ts": 1785423600,
       "published": "2026-07-30T15:00:00+00:00",
       "collected_at": "2026-07-31T00:13:42+09:00"
+    },
+    {
+      "title": "The End-to-End Agentic AI Pipeline",
+      "link": "https://machinelearningmastery.com/the-end-to-end-agentic-ai-pipeline/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn the seven architectural components that separate a production-grade agentic AI system from a demo script, and how each one...",
+      "ts": 1785421911,
+      "published": "2026-07-30T14:31:51+00:00",
+      "collected_at": "2026-07-31T02:39:22+09:00"
     },
     {
       "title": "A Beginner’s Guide to Working with Claude Design",
@@ -143,6 +163,16 @@
       "collected_at": "2026-07-30T19:28:22+09:00"
     },
     {
+      "title": "Advancing the price-performance frontier with GPT-5.6",
+      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
+      "ts": 1785405600,
+      "published": "2026-07-30T10:00:00+00:00",
+      "collected_at": "2026-07-31T02:39:22+09:00"
+    },
+    {
       "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
       "link": "https://github.com/YoanWai/agent-manager",
       "source": "Hacker News",
@@ -221,6 +251,16 @@
       "ts": 1785369600,
       "published": "2026-07-30T00:00:00+00:00",
       "collected_at": "2026-07-30T21:47:38+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: Spring Boot founder and lead Phil Webb",
+      "link": "https://spring.io/blog/2026/07/30/a-bootiful-podcast-phil-webb",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! In this installment I talk to Spring Boot cofounder Phil Webb who joins the show to unpack the latest Spring Boot 4.1 release, from the long-awaited Spring gRPC support and MongoDB batch starter to secu…",
+      "ts": 1785369600,
+      "published": "2026-07-30T00:00:00+00:00",
+      "collected_at": "2026-07-31T02:39:22+09:00"
     },
     {
       "title": "[AINews] AI is eating Finance; AIE NYC now open",
@@ -8620,56 +8660,6 @@
       "summary": "",
       "ts": 1782844370,
       "published": "2026-06-30T18:32:50+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The AI Compass",
-      "link": "https://simonwillison.net/2026/Jun/30/the-ai-compass/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The AI Compass This political compass style quiz by bambamramfan is pretty neat - answer 29 questions about AI and AI ethics to see which of the 30 archetypes you best fit. I'm impressed that my answers on my first time…",
-      "ts": 1782841163,
-      "published": "2026-06-30T17:39:23+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Have your agent record video demos of its work with shot-scraper video",
-      "link": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that r…",
-      "ts": 1782838466,
-      "published": "2026-06-30T16:54:26+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Anthropic has embedded hidden spyware-like code in Claude Code",
-      "link": "https://twitter.com/IntCyberDigest/status/2071971609183678544",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://twitter.com/IntCyberDigest/status/2071971609183678544 Comments URL: https://news.ycombinator.com/item?id=48735113 Points: 56 # Comments: 14",
-      "ts": 1782836976,
-      "published": "2026-06-30T16:29:36+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "link": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782835360,
-      "published": "2026-06-30T16:02:40+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Claude Code is steganographically marking requests",
-      "link": "https://thereallo.dev/blog/claude-code-prompt-steganography",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://thereallo.dev/blog/claude-code-prompt-steganography Comments URL: https://news.ycombinator.com/item?id=48734373 Points: 2407 # Comments: 732",
-      "ts": 1782834264,
-      "published": "2026-06-30T15:44:24+00:00",
       "collected_at": null
     }
   ]
