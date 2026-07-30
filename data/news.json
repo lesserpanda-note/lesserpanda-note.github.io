@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-30T16:36:38+09:00",
-  "count": 865,
+  "updated": "2026-07-30T19:28:27+09:00",
+  "count": 863,
   "items": [
+    {
+      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+      "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learn…",
+      "ts": 1785406519,
+      "published": "2026-07-30T10:15:19+00:00",
+      "collected_at": "2026-07-30T19:28:22+09:00"
+    },
+    {
+      "title": "AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit",
+      "link": "https://www.infoq.com/news/2026/07/lambda-self-managed-storage/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS Lambda can now reference deployment packages directly in customer-owned S3 buckets, removing the per-Region code storage quota and raising the managed default from 75 GB to 300 GB. Per-function package limits are un…",
+      "ts": 1785398220,
+      "published": "2026-07-30T07:57:00+00:00",
+      "collected_at": "2026-07-30T19:28:22+09:00"
+    },
     {
       "title": "Introducing Sheetmusic4J, a Java(FX) Library to Render and Interact with Sheet Music",
       "link": "https://foojay.io/today/introducing-sheetmusic4j-a-javafx-library-to-render-and-interact-with-sheet-music/",
@@ -8611,46 +8631,6 @@
       "ts": 1782820800,
       "published": "2026-06-30T12:00:00+00:00",
       "collected_at": null
-    },
-    {
-      "title": "AWS Launches Lambda MicroVMs for Isolated Agent and User Code Execution",
-      "link": "https://www.infoq.com/news/2026/06/aws-lambda-microvms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS launched Lambda MicroVMs, a new serverless compute primitive that runs each user session or AI agent in its own Firecracker virtual machine with hardware-level isolation, snapshot-based rapid launch, and state prese…",
-      "ts": 1782810540,
-      "published": "2026-06-30T09:09:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design",
-      "link": "https://www.infoq.com/articles/tradeoffs-event-driven-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Event-driven architecture promises scalability, but in Java-based real-time systems the tradeoffs only surface in production. Drawing on a Java/Kafka contact center platform handling 80k BHCC across 10k agents, this art…",
-      "ts": 1782810000,
-      "published": "2026-06-30T09:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Article: Scaling Java-Based Real-Time Systems: The Hidden Tradeoffs of Event-Driven Design",
-      "link": "https://www.infoq.com/articles/tradeoffs-event-driven-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Event-driven architecture promises scalability, but in Java-based real-time systems the tradeoffs only surface in production. Drawing on a Java/Kafka contact center platform handling 80k BHCC across 10k agents, this art…",
-      "ts": 1782810000,
-      "published": "2026-06-30T09:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "How ChatGPT adoption has expanded",
-      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
-      "ts": 1782810000,
-      "published": "2026-06-30T09:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
     }
   ]
 }
