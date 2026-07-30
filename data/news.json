@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-30T07:08:21+09:00",
-  "count": 874,
+  "updated": "2026-07-30T09:03:25+09:00",
+  "count": 864,
   "items": [
+    {
+      "title": "[AINews] AI is eating Finance; AIE NYC now open",
+      "link": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.",
+      "ts": 1785367932,
+      "published": "2026-07-29T23:32:12+00:00",
+      "collected_at": "2026-07-30T09:03:15+09:00"
+    },
     {
       "title": "Quoting D. Richard Hipp",
       "link": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
@@ -81,6 +91,16 @@
       "ts": 1785337200,
       "published": "2026-07-29T15:00:00+00:00",
       "collected_at": "2026-07-30T00:50:30+09:00"
+    },
+    {
+      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
+      "ts": 1785337200,
+      "published": "2026-07-29T15:00:00+00:00",
+      "collected_at": "2026-07-30T09:03:15+09:00"
     },
     {
       "title": "What Professionals Should Know About Data Science and AI, According to Harvard Business School Online",
@@ -8620,126 +8640,6 @@
       "summary": "Changes since 1.2.6 release(langgraph): 1.2.7 ( #8223 ) fix(langgraph): snapshot DeltaChannel overwrite supersteps ( #8125 ) fix(langgraph): Make Overwrite survive JSON roundtrips ( #8127 ) chore(deps): bump redis in /l…",
       "ts": 1782782666,
       "published": "2026-06-30T01:24:26+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "This Week in Spring - June 30th, 2026",
-      "link": "https://spring.io/blog/2026/06/30/this-week-in-spring-june-30-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring , a weekly recap in which we review the latest and greatest in the wide and wonderful world of Spring. You probably already knew this. I don't know…",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Featuring Every Eval Ever Results on Hugging Face Model Pages",
-      "link": "https://huggingface.co/blog/eee-community-evals",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "ZGC: A Decade of Redefining Java Performance",
-      "link": "https://inside.java/2026/06/30/zgc-performance-decade/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "ZGC is a concurrent garbage collector, meaning all heavy GC tasks are performed alongside application threads, resulting in sub-millisecond pause times. This talk will explore a brief history of ZGC, its internal mechan…",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Claude Science, an AI workbench for scientists, is now available",
-      "link": "https://www.anthropic.com/news/claude-science-ai-workbench",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Claude Science, an AI workbench for scientists, is now available",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Introducing Claude Sonnet 5",
-      "link": "https://www.anthropic.com/news/claude-sonnet-5",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Introducing Claude Sonnet 5",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Redeploying Fable 5",
-      "link": "https://www.anthropic.com/news/redeploying-fable-5",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Redeploying Fable 5",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Inside Genebench-Pro",
-      "link": "https://openai.com/index/genebench-pro/case-studies",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Introducing GeneBench-Pro",
-      "link": "https://openai.com/index/introducing-genebench-pro",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Core dump epidemiology: fixing an 18-year-old bug",
-      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
-      "ts": 1782777600,
-      "published": "2026-06-30T00:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "HTML table extractor",
-      "link": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: HTML table extractor Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdow…",
-      "ts": 1782776301,
-      "published": "2026-06-29T23:38:21+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Java News Roundup: Hardwood 1.0, Endive 1.0, Azul Payara, Quarkus, WildFly, LangChain4j, OSSI",
-      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun22-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for June 22nd, 2026, features news highlighting: the GA releases of Hardwood 1.0 and Endive 1.0; the June 2026 edition of Azul Payara; point releases of Quarkus, LangChain4j; the first beta rele…",
-      "ts": 1782775800,
-      "published": "2026-06-29T23:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Java News Roundup: Hardwood 1.0, Endive 1.0, Azul Payara, Quarkus, WildFly, LangChain4j, OSSI",
-      "link": "https://www.infoq.com/news/2026/06/java-news-roundup-jun22-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for June 22nd, 2026, features news highlighting: the GA releases of Hardwood 1.0 and Endive 1.0; the June 2026 edition of Azul Payara; point releases of Quarkus, LangChain4j; the first beta rele…",
-      "ts": 1782775800,
-      "published": "2026-06-29T23:30:00+00:00",
       "collected_at": null
     }
   ]
