@@ -1,7 +1,57 @@
 {
-  "updated": "2026-07-31T02:39:34+09:00",
-  "count": 866,
+  "updated": "2026-07-31T04:38:21+09:00",
+  "count": 871,
   "items": [
+    {
+      "title": "langgraph-checkpoint-sqlite==3.1.1",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.1",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since checkpointsqlite==3.1.0 release(checkpoint-sqlite): 3.1.1 ( #8481 ) fix(checkpoint-postgres,checkpoint-sqlite): scope namespace matching to segment boundaries ( #8478 ) chore(deps): bump the minor-and-patc…",
+      "ts": 1785439187,
+      "published": "2026-07-30T19:19:47+00:00",
+      "collected_at": "2026-07-31T04:38:16+09:00"
+    },
+    {
+      "title": "langgraph-checkpoint-postgres==3.1.1",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.1",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since checkpointpostgres==3.1.0 release(checkpoint-postgres): 3.1.1 ( #8480 ) fix(checkpoint-postgres,checkpoint-sqlite): scope namespace matching to segment boundaries ( #8478 ) feat(checkpoint,checkpoint-postg…",
+      "ts": 1785438961,
+      "published": "2026-07-30T19:16:01+00:00",
+      "collected_at": "2026-07-31T04:38:16+09:00"
+    },
+    {
+      "title": "Quoting Bruce Schneier",
+      "link": "https://simonwillison.net/2026/Jul/30/bruce-schneier/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The writing assignments I give my students are gym tasks, not work tasks. I ask them to write policy memos not because the world needs more policy memos. I assign them because the very act of writing, which includes thi…",
+      "ts": 1785435926,
+      "published": "2026-07-30T18:25:26+00:00",
+      "collected_at": "2026-07-31T04:38:16+09:00"
+    },
+    {
+      "title": "Claude Code CLI Commands I Wish I Had Known Sooner",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/hidden-claude-code-cli-commands/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "I used Claude Code daily for months before realizing that claude --help hides many of its most useful capabilities. I kept restarting fresh sessions, repeatedly explaining the same project structure, simply because I di…",
+      "ts": 1785435900,
+      "published": "2026-07-30T18:25:00+00:00",
+      "collected_at": "2026-07-31T04:38:16+09:00"
+    },
+    {
+      "title": "dotnet-1.16.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.16.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "What's Changed .NET: fix InMemoryChatHistoryProvider persisting when service stores history by @westey-m in #7284 .NET: Add TodoProvider and AgentModeProvider samples by @westey-m in #7262 .NET: Graduate GitHub Copilot…",
+      "ts": 1785435190,
+      "published": "2026-07-30T18:13:10+00:00",
+      "collected_at": "2026-07-31T04:38:16+09:00"
+    },
     {
       "title": "The Python Ecosystem That Changed AI Development",
       "link": "https://towardsdatascience.com/the-python-ecosystem-that-changed-ai-development/",
@@ -41,6 +91,16 @@
       "ts": 1785423600,
       "published": "2026-07-30T15:00:00+00:00",
       "collected_at": "2026-07-31T00:13:42+09:00"
+    },
+    {
+      "title": "Show HN: Claude-account – switch Claude Code accounts without logging in again",
+      "link": "https://github.com/hamzarehmandeveloper/claude-account",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "I use separate Claude Code accounts for work and personal projects. Having to log out and go through the login flow every time I switched accounts became annoying, so I built a small CLI to solve it. The commands are in…",
+      "ts": 1785423539,
+      "published": "2026-07-30T14:58:59+00:00",
+      "collected_at": "2026-07-31T04:38:16+09:00"
     },
     {
       "title": "The End-to-End Agentic AI Pipeline",
@@ -8651,16 +8711,6 @@
       "ts": 1782849682,
       "published": "2026-06-30T20:01:22+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "link": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1782844370,
-      "published": "2026-06-30T18:32:50+00:00",
-      "collected_at": null
     }
   ]
 }
