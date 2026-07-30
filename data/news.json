@@ -1,7 +1,17 @@
 {
-  "updated": "2026-07-30T09:03:25+09:00",
+  "updated": "2026-07-30T13:08:41+09:00",
   "count": 864,
   "items": [
+    {
+      "title": "v2.21.0 (2026-07-29)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.21.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features feat(usage): add per_request_input_tokens_limit to UsageLimits by @Oxygen56 in #5907 🐛 Bug Fixes Refresh KnownModelName from Gateway probes and stable Google image IDs by @adtyavrdhn in #6806 F…",
+      "ts": 1785376746,
+      "published": "2026-07-30T01:59:06+00:00",
+      "collected_at": "2026-07-30T13:08:36+09:00"
+    },
     {
       "title": "[AINews] AI is eating Finance; AIE NYC now open",
       "link": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
@@ -8630,16 +8640,6 @@
       "summary": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer.",
       "ts": 1782799200,
       "published": "2026-06-30T06:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "langgraph==1.2.7",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.7",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.6 release(langgraph): 1.2.7 ( #8223 ) fix(langgraph): snapshot DeltaChannel overwrite supersteps ( #8125 ) fix(langgraph): Make Overwrite survive JSON roundtrips ( #8127 ) chore(deps): bump redis in /l…",
-      "ts": 1782782666,
-      "published": "2026-06-30T01:24:26+00:00",
       "collected_at": null
     }
   ]
