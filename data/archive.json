@@ -1,6 +1,89 @@
 {
   "digests": [
     {
+      "date": "2026-07-29",
+      "summary": "오늘 다이제스트에서는 MCP의 상태 비저장(stateless) 전환과 Anthropic의 HAWK-256 암호 취약점 발견, 7월 AI 에이전트 보안 침입 사건 등 에이전트 생태계의 굵직한 보안·프로토콜 변화가 두드러집니다. 아키텍처 분야에서는 오케스트레이터 컨텍스트 부하 문제와 5년에 걸친 모놀리스→마이크로서비스 전환 사례를 다루며, Java 생태계에서는 KotlinLLM의 오픈소스 공개가 주목받습니다. 데이터사이언스 분야에서는 서베이 가중치 방법론과 Adam 옵티마이저의 올바른 이해를 주제로 한 글들이 실용적인 인사이트를 제공합니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "KotlinLLM is Going Open Source",
+          "link": "https://blog.jetbrains.com/research/2026/07/kotlinllm-open-source/",
+          "summary": "JetBrains Research가 Kotlin 코드에서 런타임 로직을 LLM에 위임할 수 있는 연구 프로토타입 KotlinLLM을 오픈소스로 공개했습니다.",
+          "detail": "KotlinLLM은 JetBrains Research가 개발한 연구용 프로토타입으로, Kotlin 코드에서 명시적으로 LLM에 런타임 로직을 위임할 수 있게 해줍니다. 기존 방식처럼 매 요청마다 LLM을 직접 호출하거나 별도의 에이전트를 실행하는 대신, 개발자가 명시적인 Kotlin 함수를 작성하면 LLM이 해당 로직을 처리하는 형태입니다. 이 프로젝트가 이제 공개(public) 오픈소스로 전환됨으로써 커뮤니티가 코드와 연구 결과를 자유롭게 접근하고 기여할 수 있게 되었습니다. AI 기능을 Kotlin 애플리케이션에 자연스럽게 통합하는 새로운 패러다임을 제시하는 실험적 프레임워크로, 별도 에이전트 루프 없이 LLM을 애플리케이션 로직의 일부로 활용하고 싶은 개발자들에게 유용한 참고 자료입니다."
+        },
+        {
+          "category": "Java",
+          "title": "Featured Foojay Authors for July and August 2026",
+          "link": "https://foojay.io/today/featured-authors-july-and-august-2026/",
+          "summary": "Foojay가 2026년 7월·8월 추천 작가를 발표했습니다. Java 커뮤니티 기여자들의 지식 공유를 매달 조명하는 시리즈입니다.",
+          "detail": "Foojay는 Java 개발자 커뮤니티 플랫폼으로, 커뮤니티 기여를 독려하기 위해 매달 두 명의 '이달의 추천 작가'를 선정해 소개합니다. 단일 게시물 하나든 지속적인 지식 공유든 모든 기여를 소중히 여기는 오픈 커뮤니티의 정신을 반영하는 시리즈입니다. 2026년 7월과 8월의 추천 작가가 발표되었으며, Java 생태계 내에서 활발히 활동하는 기여자들을 알릴 수 있는 기회가 됩니다. Java 커뮤니티 내 다양한 배경과 전문성을 가진 개발자들이 어떤 주제를 다루고 있는지 파악하는 데 좋은 출발점이 됩니다."
+        },
+        {
+          "category": "AI",
+          "title": "Anthropic publishes a practical key-recovery attack on HAWK-256",
+          "link": "https://github.com/anthropics/cryptography-research-demo",
+          "summary": "Anthropic 연구팀이 HAWK-256 암호화 알고리즘에 대한 실용적 키 복구 공격을 발표하고, Claude를 활용해 암호 취약점을 발견한 연구 코드를 오픈소스로 공개했습니다.",
+          "detail": "Anthropic Research가 cryptography-research-demo 리포지터리를 Apache 2.0 라이선스로 공개했습니다. 이 리포지터리에는 AES, HAWK, LEA 세 암호화 시스템에 대한 암호분석 코드가 포함되어 있으며, 특히 HAWK-256에 대한 실용적 키 복구 공격이 핵심입니다. HAWK는 NIST 포스트-양자 암호화 표준화 과정에서 평가받는 알고리즘 중 하나로, 실용적 공격 가능성의 증명은 암호화 커뮤니티에 중요한 의미를 갖습니다. Simon Willison의 주석에 따르면 Claude가 이 암호화 취약점 발견 과정에 직접 활용되었으며, AI를 정식 보안 연구에 적용하는 새로운 접근 방식을 보여주는 사례입니다. 이 리포지터리는 유지보수되지 않는 연구 아티팩트로 기여를 받지 않지만, 관련 학술 논문과 함께 포스트-양자 암호화 연구자들에게 중요한 참고 자료가 됩니다."
+        },
+        {
+          "category": "AI",
+          "title": "Scientific computing in the age of agentic AI",
+          "link": "https://openai.com/index/scientific-computing-agentic-ai",
+          "summary": "OpenAI가 과학자들이 AI 코딩 에이전트를 사용해 과학 소프트웨어를 현대화하고 연구를 가속화하는 현장 보고서를 발표했습니다.",
+          "detail": "OpenAI의 현장 보고서에 따르면, 유전체학(genomics)을 포함한 다양한 과학 분야에서 연구자들이 AI 코딩 에이전트를 활용하여 수십 년 된 레거시 과학 소프트웨어를 현대화하고 있습니다. 에이전틱 AI는 코드 작성·디버깅·최적화 등의 작업을 자동화하며, 단순 보조 도구를 넘어 과학적 발견 과정 자체를 가속화하는 역할을 맡고 있습니다. 특히 FORTRAN 등으로 작성된 수십 년 된 레거시 과학 코드베이스를 현대 언어와 환경으로 마이그레이션하는 작업에서 두드러진 성과를 보이고 있으며, 연구 개발 속도를 크게 높이는 것으로 보고됩니다. 이 보고서는 에이전틱 AI가 산업 현장을 넘어 기초과학 연구 인프라에도 본격적으로 진입하고 있음을 보여주는 사례입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "MCP 2026-07-28 Specification: transport going stateless",
+          "link": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
+          "summary": "MCP(Model Context Protocol)의 2026-07-28 신규 명세가 발표되었습니다. 양방향 상태 유지 연결에서 상태 비저장(stateless) 요청-응답 방식으로 전환되는 중대한 변경을 포함합니다.",
+          "detail": "MCP 신규 명세의 가장 큰 변화는 프로토콜이 상태 비저장(stateless) 아키텍처로 전환된다는 점입니다. 각 요청이 프로토콜 버전·클라이언트 ID·기능을 메타데이터에 자기 서술 방식으로 포함하여 영속적 연결 없이도 동작하며, 표준 로드 밸런서 뒤에 배포가 가능해집니다.\n주요 신규 기능: ▲Multi Round-Trip Requests(MRTR) — 서버가 툴 실행 도중 사용자 입력을 요청할 수 있는 메커니즘 ▲HTTP 헤더(Mcp-Method, Mcp-Name) 기반 라우팅으로 게이트웨이·WAF에서 JSON 파싱 없이 인가 가능 ▲툴·프롬프트·리소스 목록에 ttlMs·cacheScope 메타데이터를 추가해 클라이언트 캐싱 전략 지원.\n파괴적 변경: initialize/initialized 핸드셰이크 및 Mcp-Session-Id 헤더 제거, Roots·Sampling·Logging 서브시스템 12개월 일몰 예정, HTTP+SSE 트랜스포트 deprecated. TypeScript·Python·Go·C# SDK 모두 마이그레이션 가이드와 함께 업데이트되었습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+          "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
+          "summary": "Hugging Face가 2026년 7월 발생한 AI 에이전트 보안 침입 사건의 상세한 기술 타임라인을 공개했습니다. OpenAI의 에이전트와 관련된 이 '우발적 사이버 공격' 사례는 에이전트 시스템 보안의 중요성을 재확인시킵니다.",
+          "detail": "Hugging Face가 2026년 7월 발생한 OpenAI 관련 AI 에이전트 보안 사건의 상세한 기술적 타임라인을 공개했으며, Simon Willison이 이를 '극도로 상세한 기술적 설명'이라고 평했습니다. 보고서는 AI 에이전트가 운영 환경에서 의도치 않게 사이버 공격을 유발한 과정을 시간 순서대로 상세히 서술합니다. 이 사건은 에이전트 시스템의 자율적 행동이 예상치 못한 방식으로 외부 시스템에 영향을 미칠 수 있음을 보여주며, 에이전트에 대한 엄격한 가드레일·권한 제어·샌드박싱의 필요성을 강조합니다. 프론티어 AI 랩들이 에이전트를 프로덕션에 배포할 때 직면하는 실질적 위험을 구체적으로 보여주는 보고서로, 에이전트 보안 설계자들에게 중요한 참고 사례입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "The Orchestrator's Tax",
+          "link": "https://martinfowler.com/articles/orchestrator-tax.html",
+          "summary": "Martin Fowler 사이트의 Rahul Garg 기고문으로, 서브에이전트의 진짜 가치는 병렬 실행이나 시간 절약이 아니라 오케스트레이터의 컨텍스트 부하를 줄이는 데 있다고 주장합니다.",
+          "detail": "Rahul Garg가 Martin Fowler 사이트에 발표한 이 글은 멀티에이전트 시스템에서 오케스트레이터가 치르는 '세금(tax)'을 분석합니다. 일반적으로 서브에이전트 사용의 이점을 시간 절약과 병렬 실행에서 찾지만, 저자는 핵심적 가치는 오케스트레이터의 컨텍스트 내 토큰 경쟁을 줄이는 것이라고 주장합니다. 오케스트레이터 컨텍스트의 모든 토큰은 어텐션(attention)을 위해 경쟁하며, 작업을 서브에이전트로 분리하면 오케스트레이터가 핵심 판단에 집중할 수 있습니다. 이는 LLM 기반 에이전트 시스템을 설계할 때 컨텍스트 관리를 병렬성이나 속도보다 더 중요한 아키텍처 고려사항으로 다뤄야 함을 시사하며, 멀티에이전트 시스템 설계 방향에 실질적인 시각을 제공합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Article: The Hard-Stop Rule: From 3 HCM Monoliths to 120 Domain Microservices",
+          "link": "https://www.infoq.com/articles/pull-based-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "5년에 걸쳐 전용 마이그레이션 예산 없이 급여·HR 소프트웨어의 세 모놀리스를 120개 이상의 마이크로서비스로 전환한 사례입니다.",
+          "detail": "한 급여·인사관리(HCM) 소프트웨어 팀이 5년 동안 별도 마이그레이션 예산 없이 세 개의 모놀리식 시스템을 120개 이상의 도메인 마이크로서비스로 전환한 경험을 InfoQ에서 공유합니다. 핵심 전략은 '하드-스탑 규칙(Hard-Stop Rule)'으로, 기존 모놀리스를 수정하는 대신 모든 신규 기능을 독립된 서비스로 구축하는 풀-기반(pull-based) 마이그레이션 방식입니다. 이 접근법은 점진적으로 새 서비스가 모놀리스 기능을 대체하게 만들며, 대규모 리팩토링 없이도 아키텍처 현대화를 가능하게 합니다. 전용 예산이나 빅뱅 마이그레이션 일정 없이도 성공적인 마이크로서비스 전환이 가능함을 보여주는 실용적 사례 연구로, 레거시 시스템 현대화를 고민하는 팀에게 유용한 참고 자료입니다."
+        },
+        {
+          "category": "Python",
+          "title": "Managing Imports With Python's __all__",
+          "link": "https://realpython.com/courses/managing-imports-dunder-all/",
+          "summary": "Python의 `__all__` 변수가 와일드카드 임포트를 어떻게 제어하고, 패키지 및 모듈의 공개 API를 어떻게 정의하는지를 다루는 강좌입니다.",
+          "detail": "Real Python의 이 강좌는 Python의 던더(dunder) `__all__` 변수의 작동 방식과 올바른 활용법을 다룹니다. `__all__`을 정의하면 `from module import *` 와일드카드 임포트 시 어떤 이름이 외부에 노출될지 명시적으로 제어할 수 있습니다. 이를 통해 패키지와 모듈의 공개 API를 명확히 정의하고, 내부 구현 세부사항을 외부로 노출하지 않을 수 있습니다. `__all__`을 적절히 활용하면 라이브러리 사용자에게 더 명확하고 일관된 인터페이스를 제공할 수 있으며, 이름 충돌과 불필요한 네임스페이스 오염을 방지하는 데 도움이 됩니다. 공개 라이브러리나 패키지를 개발하는 Python 개발자라면 반드시 이해해야 할 핵심 개념입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Survey Statistics: equivalent models, equivalent weights (locally)",
+          "link": "https://statmodeling.stat.columbia.edu/2026/07/28/survey-statistics-equivalent-models-equivalent-weights-locally/",
+          "summary": "Andrew Gelman이 Times/Siena Poll의 에너지 균형 가중치 도입을 계기로, 서베이 가중치 방법과 결과 모델 간의 국소적 등가성(local equivalence)을 분석합니다.",
+          "detail": "Andrew Gelman의 Statistical Modeling 블로그에서 Times/Siena Poll이 Huling & Mak(2024)의 에너지 균형 가중치(energy balancing weights)를 도입한 것을 계기로 서베이 통계 방법론을 심층 분석합니다. 핵심 주제는 서베이 가중치 방법과 결과 모델(outcome model) 간의 국소적 등가성입니다. 특정 결과 모델 하에서 특정 가중치 방법이 최적 결과를 내는 조건을 toy 예제를 통해 분석하며, Little 등의 연구에서 영감을 받아 각 가중치 방법이 암묵적으로 가정하는 모델을 설명합니다. 서베이 설계와 가중치 방법 선택이 추정 결과에 미치는 영향을 이해하는 이론적 통찰을 제공하며, 여론조사 통계와 서베이 방법론 연구자들에게 유용한 내용입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Don't Just \"Throw Adam at It\": Misunderstanding Adam Will Cost You",
+          "link": "https://towardsdatascience.com/dont-just-throw-adam-at-it-misunderstanding-adam-will-cost-you/",
+          "summary": "Adam 옵티마이저를 기본값으로만 사용하는 관행의 위험성을 경고하고, Adam의 최적화 역학을 올바르게 이해하고 활용하는 방법을 설명합니다.",
+          "detail": "Towards Data Science의 이 글은 머신러닝 실무에서 Adam 옵티마이저를 아무 고민 없이 기본 설정으로 사용('vibe coding' 방식)하는 관행의 위험성을 경고합니다. Adam은 적응형 학습률 방법으로 많은 경우에 효과적이지만, 동작 원리를 이해하지 못하면 심각한 성능 저하를 야기할 수 있습니다. 주요 오해로는 학습률 설정 방식, 편향 보정(bias correction)의 역할, 특정 유형 문제에서 Adam이 SGD보다 성능이 떨어지는 사례 등이 있습니다. 저자는 Adam의 내부 동작(1차 모멘텀, 2차 모멘트 추정)을 이해하고 하이퍼파라미터를 상황에 맞게 조정할 것을 권장합니다. 옵티마이저 선택과 튜닝의 중요성을 강조하는 실용적 가이드로, 모델 학습 성능에 어려움을 겪는 ML 실무자들에게 유용합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-28",
       "summary": "오늘 다이제스트는 Java JDK 28 JEP 제안과 Oracle의 새로운 분기 간 보안 패치(CSPU) 정책, Hugging Face 공격 사태와 Netflix의 LLM 서빙 플랫폼 운영 경험 등 AI 보안과 프로덕션 인프라 소식을 중점적으로 다룹니다. 에이전트 분야에서는 AI 에이전트의 영속적 메모리 아키텍처 패턴과 AI 도구 선택 가이드를, 아키텍처 분야에서는 로컬 퍼스트 이벤트 소싱과 AI 게이트웨이 패턴을 소개합니다. 데이터사이언스에서는 능동 학습을 활용한 어노테이션 비용 절감과 시간 제약 라우팅 최적화 문제를 실용적으로 다룬 글들을 선정했습니다.",
       "highlights": [
