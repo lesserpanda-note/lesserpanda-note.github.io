@@ -1,7 +1,27 @@
 {
-  "updated": "2026-07-30T13:08:41+09:00",
-  "count": 864,
+  "updated": "2026-07-30T16:36:38+09:00",
+  "count": 865,
   "items": [
+    {
+      "title": "Introducing Sheetmusic4J, a Java(FX) Library to Render and Interact with Sheet Music",
+      "link": "https://foojay.io/today/introducing-sheetmusic4j-a-javafx-library-to-render-and-interact-with-sheet-music/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "I'm building MelodyMatrix with my son, an application to look at and play along with music. The app already shows a song in different views: falling blocks, chords, guitar views, and many more. Now we want a Learn secti…",
+      "ts": 1785396480,
+      "published": "2026-07-30T07:28:00+00:00",
+      "collected_at": "2026-07-30T16:36:33+09:00"
+    },
+    {
+      "title": "1.15.9",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.9",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Surface tool failures instead of reporting them as success Emit FlowFailedEvent when a flow execution fails Implement progressive disclosure for skills Documentation Update snapshot and changelog…",
+      "ts": 1785390326,
+      "published": "2026-07-30T05:45:26+00:00",
+      "collected_at": "2026-07-30T16:36:33+09:00"
+    },
     {
       "title": "v2.21.0 (2026-07-29)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.21.0",
@@ -11,6 +31,26 @@
       "ts": 1785376746,
       "published": "2026-07-30T01:59:06+00:00",
       "collected_at": "2026-07-30T13:08:36+09:00"
+    },
+    {
+      "title": "Show HN: A local merge queue for parallel Claude Code agents",
+      "link": "https://github.com/funador/claude-code-merge-queue",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "I have been pushing up to 90 commits a day on a MacBook Air via 4-5 parallel agents. As you can imagine when all the agents try to build, test and run dev servers on an 8GB machine it is the fast lane to a force quit an…",
+      "ts": 1785370816,
+      "published": "2026-07-30T00:20:16+00:00",
+      "collected_at": "2026-07-30T16:36:33+09:00"
+    },
+    {
+      "title": "Under the HAT: Empowering GPU Acceleration for Java",
+      "link": "https://inside.java/2026/07/30/under-the-hat-empowering-gpu-acceleration-for-java/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Explore the latest work on the HotSpot JVM, with a focus on auto-vectorization and the Vector API.",
+      "ts": 1785369600,
+      "published": "2026-07-30T00:00:00+00:00",
+      "collected_at": "2026-07-30T16:36:33+09:00"
     },
     {
       "title": "[AINews] AI is eating Finance; AIE NYC now open",
@@ -8611,36 +8651,6 @@
       "ts": 1782810000,
       "published": "2026-06-30T09:00:00+00:00",
       "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "JavaFX Links of June 2026",
-      "link": "https://foojay.io/today/javafx-links-of-june-2026/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Here are the JavaFX LinksOfTheMonth of June 2026. You can find the weekly lists on jfx-central.com. Did we miss anything? Is there anything you want to have included in one of the next overviews? Let us know via links@j…",
-      "ts": 1782804211,
-      "published": "2026-06-30T07:23:31+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "[AINews] not much happened today",
-      "link": "https://www.latent.space/p/ainews-not-much-happened-today-07e",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day before the storm.",
-      "ts": 1782802047,
-      "published": "2026-06-30T06:47:27+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
-      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Four illustrated characters representing different professional roles, including a scientist, technician, explorer, and observer.",
-      "ts": 1782799200,
-      "published": "2026-06-30T06:00:00+00:00",
-      "collected_at": null
     }
   ]
 }
