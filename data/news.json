@@ -1,7 +1,47 @@
 {
-  "updated": "2026-07-30T19:28:27+09:00",
-  "count": 863,
+  "updated": "2026-07-30T21:47:43+09:00",
+  "count": 865,
   "items": [
+    {
+      "title": "7 Machine Learning Algorithms That Still Matter",
+      "link": "https://www.kdnuggets.com/7-machine-learning-algorithms-that-still-matter",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Discover 7 essential machine learning algorithms that every data scientist should know before reaching for LLMs and generative AI, with simple explanations and practical Python code.",
+      "ts": 1785412846,
+      "published": "2026-07-30T12:00:46+00:00",
+      "collected_at": "2026-07-30T21:47:38+09:00"
+    },
+    {
+      "title": "Quiz: NumPy Tutorial: Your First Steps Into Data Science in Python",
+      "link": "https://realpython.com/quizzes/numpy-tutorial/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your NumPy knowledge of arrays, axes, broadcasting, indexing, masks, and data types, the foundation of data science in Python.",
+      "ts": 1785412800,
+      "published": "2026-07-30T12:00:00+00:00",
+      "collected_at": "2026-07-30T21:47:38+09:00"
+    },
+    {
+      "title": "How to Decode the Temperature Parameter in LLMs",
+      "link": "https://towardsdatascience.com/decoding-the-temperature-parameter-in-llms/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "How statistical physics explains the transition from deterministic predictions to generative AI. The post How to Decode the Temperature Parameter in LLMs appeared first on Towards Data Science .",
+      "ts": 1785412800,
+      "published": "2026-07-30T12:00:00+00:00",
+      "collected_at": "2026-07-30T21:47:38+09:00"
+    },
+    {
+      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+      "link": "https://www.latent.space/p/ontologies-agentic-systems",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries.",
+      "ts": 1785410275,
+      "published": "2026-07-30T11:17:55+00:00",
+      "collected_at": "2026-07-30T21:47:38+09:00"
+    },
     {
       "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
       "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
@@ -11,6 +51,16 @@
       "ts": 1785406519,
       "published": "2026-07-30T10:15:19+00:00",
       "collected_at": "2026-07-30T19:28:22+09:00"
+    },
+    {
+      "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
+      "link": "https://github.com/YoanWai/agent-manager",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/YoanWai/agent-manager Comments URL: https://news.ycombinator.com/item?id=49107749 Points: 27 # Comments: 15",
+      "ts": 1785404067,
+      "published": "2026-07-30T09:34:27+00:00",
+      "collected_at": "2026-07-30T21:47:38+09:00"
     },
     {
       "title": "AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit",
@@ -71,6 +121,16 @@
       "ts": 1785369600,
       "published": "2026-07-30T00:00:00+00:00",
       "collected_at": "2026-07-30T16:36:33+09:00"
+    },
+    {
+      "title": "Episode 64 “JIT Compiler From the Ground Up” [AtA]",
+      "link": "https://inside.java/2026/07/30/podcast-064/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "An introduction to key concepts of just-in-time compilation: speculation and traps, inlining and constant folding, escape analysis and scalar replacement, and more",
+      "ts": 1785369600,
+      "published": "2026-07-30T00:00:00+00:00",
+      "collected_at": "2026-07-30T21:47:38+09:00"
     },
     {
       "title": "[AINews] AI is eating Finance; AIE NYC now open",
@@ -8590,46 +8650,6 @@
       "summary": "Elastic open-sourced Atlas, a system built on Elasticsearch that maintains three categories of memory for agents. Atlas integrates with agents via MCP and maintains per-user isolation of memories. When evaluated on ques…",
       "ts": 1782824400,
       "published": "2026-06-30T13:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Context Window Management for Long-Running Agents: Strategies and Tradeoffs",
-      "link": "https://machinelearningmastery.com/context-window-management-for-long-running-agents-strategies-and-tradeoffs/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn five practical strategies for managing context windows in long-running AI agent applications, along with the key tradeoffs each approach...",
-      "ts": 1782820817,
-      "published": "2026-06-30T12:00:17+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Agriculture is ready for AI, but its data isn’t",
-      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industr…",
-      "ts": 1782820800,
-      "published": "2026-06-30T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Microsoft Brings AI-Powered Vulnerability Remediation to Azure DevOps with Copilot Autofix",
-      "link": "https://www.infoq.com/news/2026/06/azuredevops-copilot-autofix/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Microsoft has announced the limited public preview of Copilot Autofix for GitHub Advanced Security for Azure DevOps, extending AI-powered vulnerability remediation to teams using Azure Repos. By Craig Risi",
-      "ts": 1782820800,
-      "published": "2026-06-30T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quiz: Managing and Measuring Python Code Quality",
-      "link": "https://realpython.com/quizzes/managing-and-measuring-python-code-quality/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of what makes Python code functional, readable, efficient, and reusable, plus the tools that measure code quality.",
-      "ts": 1782820800,
-      "published": "2026-06-30T12:00:00+00:00",
       "collected_at": null
     }
   ]
