@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-31T09:16:08+09:00",
-  "count": 862,
+  "updated": "2026-07-31T12:22:23+09:00",
+  "count": 863,
   "items": [
     {
       "title": "Advancing the price-performance frontier with GPT‑5.6",
@@ -31,6 +31,16 @@
       "ts": 1785453753,
       "published": "2026-07-30T23:22:33+00:00",
       "collected_at": "2026-07-31T09:16:03+09:00"
+    },
+    {
+      "title": "llm 0.32rc2",
+      "link": "https://simonwillison.net/2026/Jul/30/llm-rc2/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm 0.32rc2 Hot on the heels of RC1 , this fixes a dependency issue and also adds two neat new features: The default model for users who have not set their own default is now GPT-5.6 Luna . It was previously GP…",
+      "ts": 1785451926,
+      "published": "2026-07-30T22:52:06+00:00",
+      "collected_at": "2026-07-31T12:22:02+09:00"
     },
     {
       "title": "langgraph-checkpoint-sqlite==3.1.1",
@@ -91,6 +101,16 @@
       "ts": 1785429000,
       "published": "2026-07-30T16:30:00+00:00",
       "collected_at": "2026-07-31T02:39:22+09:00"
+    },
+    {
+      "title": "llm-chat-completions-server 0.1a0",
+      "link": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-chat-completions-server 0.1a0 A key goal of the new content-addressable logs in LLM 0.32rc1 was being able to support OpenAI Chat Completion style requests where each incoming message extends the previous c…",
+      "ts": 1785426196,
+      "published": "2026-07-30T15:43:16+00:00",
+      "collected_at": "2026-07-31T12:22:02+09:00"
     },
     {
       "title": "llm 0.32rc1",
@@ -361,6 +381,16 @@
       "ts": 1785369600,
       "published": "2026-07-30T00:00:00+00:00",
       "collected_at": "2026-07-31T02:39:22+09:00"
+    },
+    {
+      "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "link": "https://openai.com/index/avatarin",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive.",
+      "ts": 1785369600,
+      "published": "2026-07-30T00:00:00+00:00",
+      "collected_at": "2026-07-31T12:22:02+09:00"
     },
     {
       "title": "[AINews] AI is eating Finance; AIE NYC now open",
@@ -8600,26 +8630,6 @@
       "summary": "On Tuesday at the AI Engineer World's Fair, there was a lot of talk about loops, agent engineering, and the emergence of software factories. Also a hot topic: open models.",
       "ts": 1782881181,
       "published": "2026-07-01T04:46:21+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "[AINews] Sonnet 5 today, and Fable 5 tomorrow",
-      "link": "https://www.latent.space/p/ainews-sonnet-5-today-and-fable-5",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Everything is open again!",
-      "ts": 1782874869,
-      "published": "2026-07-01T03:01:09+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Forward Deployed Engineers and the future of software engineering",
-      "link": "https://www.latent.space/p/forward-deployed-engineers-aiewf",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Sierra's Natalie Meurer on why product engineers and forward deployed engineers are starting to converge.",
-      "ts": 1782865218,
-      "published": "2026-07-01T00:20:18+00:00",
       "collected_at": null
     }
   ]
