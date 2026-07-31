@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T04:40:11+09:00",
-  "count": 874,
+  "updated": "2026-08-01T08:05:11+09:00",
+  "count": 875,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,26 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+      "link": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Oxide and Friends: The Open Weight Revolution with Simon Willison On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the wild week we've had - with Kimi K3 showing open weight mod…",
+      "ts": 1785533593,
+      "published": "2026-07-31T21:33:13+00:00",
+      "collected_at": "2026-08-01T08:04:49+09:00"
+    },
+    {
+      "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
+      "link": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "smevals - a small eval suite for evaluating models, prompts, and harnesses I've been working with Jesse Vincent's Prime Radiant applied AI research lab building out this evals framework to help answer questions about th…",
+      "ts": 1785532523,
+      "published": "2026-07-31T21:15:23+00:00",
+      "collected_at": "2026-08-01T08:04:49+09:00"
     },
     {
       "title": "The 3× Token Bill We Didn’t See Coming",
@@ -8730,16 +8750,6 @@
       "summary": "Introspection co-founder Roland Gavrilescu explains autoresearch, agent “recipes,” self-improving loops, and why humans remain central to the software factory.",
       "ts": 1782949950,
       "published": "2026-07-01T23:52:30+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "1.15.2a2",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.2a2",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add aiobotocore to the bedrock extra Document flow agent options Add text helper to flow skill example Add text helper for flow CEL prompts Add streaming docs to the navigation Bug Fixes Reject s…",
-      "ts": 1782944105,
-      "published": "2026-07-01T22:15:05+00:00",
       "collected_at": null
     }
   ]
