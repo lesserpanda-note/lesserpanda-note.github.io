@@ -1,7 +1,87 @@
 {
-  "updated": "2026-07-31T15:48:14+09:00",
-  "count": 863,
+  "updated": "2026-07-31T18:48:11+09:00",
+  "count": 870,
   "items": [
+    {
+      "title": "Advancing responsible AI across Europe",
+      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+      "ts": 1785510000,
+      "published": "2026-07-31T15:00:00+00:00",
+      "collected_at": "2026-07-31T18:48:07+09:00"
+    },
+    {
+      "title": "July 2026 AI Releases: A Timeline of Frontier Model Shifts",
+      "link": "https://www.analyticsvidhya.com/blog/2026/07/july-2026-ai-models-releases/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "July 2026 was the busiest month for frontier model releases the field has seen. Four major labs shipped flagship or near-flagship models, two well funded newcomers shipped their first, and the largest open weight model…",
+      "ts": 1785488461,
+      "published": "2026-07-31T09:01:01+00:00",
+      "collected_at": "2026-07-31T18:48:07+09:00"
+    },
+    {
+      "title": "Article: Virtual Threads After JDK 24: What Changed for Production Java",
+      "link": "https://www.infoq.com/articles/virtual-threads-after-jdk24/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "JDK 24 removed the monitor-related carrier-thread pinning that stalled Netflix and similar teams on Java 21. What has replaced it on JDK 25 LTS is downstream-resource saturation: The bottleneck moved and now demands exp…",
+      "ts": 1785488400,
+      "published": "2026-07-31T09:00:00+00:00",
+      "collected_at": "2026-07-31T18:48:07+09:00"
+    },
+    {
+      "title": "Article: Virtual Threads After JDK 24: What Changed for Production Java",
+      "link": "https://www.infoq.com/articles/virtual-threads-after-jdk24/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "JDK 24 removed the monitor-related carrier-thread pinning that stalled Netflix and similar teams on Java 21. What has replaced it on JDK 25 LTS is downstream-resource saturation: The bottleneck moved and now demands exp…",
+      "ts": 1785488400,
+      "published": "2026-07-31T09:00:00+00:00",
+      "collected_at": "2026-07-31T18:48:07+09:00"
+    },
+    {
+      "title": "How to Create a Spring Boot Fraud Scoring Service",
+      "link": "https://foojay.io/today/how-to-create-a-spring-boot-fraud-scoring-service/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Most Java teams who want a machine learning model in production end up standing up a Python service and calling it over HTTP. That works, but it buys you, as a Java developer, a second runtime, a second deployment pipel…",
+      "ts": 1785487543,
+      "published": "2026-07-31T08:45:43+00:00",
+      "collected_at": "2026-07-31T18:48:07+09:00"
+    },
+    {
+      "title": "HTTP QUERY Method Explained: RFC 10008, Ecosystem Adoption, and a Quarkus Implementation",
+      "link": "https://foojay.io/today/http-query-method-explained-rfc-10008-ecosystem-adoption-and-a-quarkus-implementation/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "When you build a search API, you usually start with HTTP GET, the natural choice for a read operation: it is safe, idempotent, and cacheable. Then the search form grows, filters multiply, and nested criteria appear. Sin…",
+      "ts": 1785484837,
+      "published": "2026-07-31T08:00:37+00:00",
+      "collected_at": "2026-07-31T18:48:07+09:00"
+    },
+    {
+      "title": "Univé builds an AI-ready workforce",
+      "link": "https://openai.com/index/unive",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+      "ts": 1785481200,
+      "published": "2026-07-31T07:00:00+00:00",
+      "collected_at": "2026-07-31T18:48:07+09:00"
+    },
+    {
+      "title": "Show HN: What should the GUI for AI agents look like?",
+      "link": "https://marbleos.com/demo",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs,…",
+      "ts": 1785475049,
+      "published": "2026-07-31T05:17:29+00:00",
+      "collected_at": "2026-07-31T18:48:07+09:00"
+    },
     {
       "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
       "link": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
@@ -8620,16 +8700,6 @@
       "summary": "Kotlin support is now available in BlueJ, one of the most established environments for teaching introductory object-oriented programming (OOP). This work is the result of a collaboration between JetBrains and the BlueJ…",
       "ts": 1782899423,
       "published": "2026-07-01T09:50:23+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Using the Raspberry Pi Sense HAT with Pi4J Drivers",
-      "link": "https://foojay.io/today/using-the-raspberry-pi-sense-hat-with-pi4j-drivers/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "One of the biggest advantages of the Pi4J Drivers project is the ability to interact with complex hardware through simple and intuitive Java APIs. A great example of this is the Raspberry Pi Sense HAT, one of the most p…",
-      "ts": 1782895080,
-      "published": "2026-07-01T08:38:00+00:00",
       "collected_at": null
     }
   ]
