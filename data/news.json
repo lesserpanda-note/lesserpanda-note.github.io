@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T05:57:52+09:00",
+  "updated": "2026-08-02T07:03:13+09:00",
   "count": 863,
   "items": [
     {
@@ -11,6 +11,16 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "datasette-apps 0.2a0",
+      "link": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_…",
+      "ts": 1785619436,
+      "published": "2026-08-01T21:23:56+00:00",
+      "collected_at": "2026-08-02T07:02:51+09:00"
     },
     {
       "title": "Ten advances in mathematics and theoretical computer science",
@@ -8620,16 +8630,6 @@
       "summary": "The Vercel Chief of Software explains how its agent framework, eve, was created — and why skills, sandboxes and agent-readable websites now matter.",
       "ts": 1783037298,
       "published": "2026-07-03T00:08:18+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The website of the future may assemble itself for every visitor",
-      "link": "https://www.latent.space/p/the-website-of-the-future",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Adobe is experimenting with “agentic sites” that generate pages around an individual user’s intent. At AIEWF, we talked to Carlos Sanchez about the Web's future.",
-      "ts": 1783027514,
-      "published": "2026-07-02T21:25:14+00:00",
       "collected_at": null
     }
   ]
