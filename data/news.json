@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T18:09:01+09:00",
-  "count": 876,
+  "updated": "2026-08-01T20:19:53+09:00",
+  "count": 873,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,16 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "LanceDB Vector Database Guide: Features, Python Demo",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/lancedb-vector-database/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "Large language models understand text well, but they become less effective when information is scattered across documents or mixed with images and other media. Modern AI systems rely on vector databases, which store emb…",
+      "ts": 1785580865,
+      "published": "2026-08-01T10:41:05+00:00",
+      "collected_at": "2026-08-01T20:19:31+09:00"
     },
     {
       "title": "v2.22.0 (2026-07-31)",
@@ -8720,46 +8730,6 @@
       "summary": "Test your understanding of natural language processing with Python's NLTK, from tokenizing and stemming to tagging, chunking, and analyzing text.",
       "ts": 1782993600,
       "published": "2026-07-02T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
-      "link": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Apple chose Google Cloud to run Private Cloud Compute outside its own data centers for the first time, using NVIDIA Blackwell GPUs, Intel TDX, and Google's Titan chip. Apple maintains an independent append-only hardware…",
-      "ts": 1782986640,
-      "published": "2026-07-02T10:04:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Apple Extends Private Cloud Compute to Google Cloud for the First Time",
-      "link": "https://www.infoq.com/news/2026/07/apple-pcc-google-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Apple chose Google Cloud to run Private Cloud Compute outside its own data centers for the first time, using NVIDIA Blackwell GPUs, Intel TDX, and Google's Titan chip. Apple maintains an independent append-only hardware…",
-      "ts": 1782986640,
-      "published": "2026-07-02T10:04:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Building AI Systems with MongoDB: Implementing the Planning Pattern",
-      "link": "https://foojay.io/today/building-ai-systems-with-mongodb-implementing-the-planning-pattern/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Artificial Intelligence has swiftly evolved from a niche research topic to a technology that impacts nearly every aspect of the software industry. Developers now use AI to generate code, review pull requests, create doc…",
-      "ts": 1782986400,
-      "published": "2026-07-02T10:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Presentation: Enhancing Reliability Using Service-Level Prioritized Load Shedding at Netflix",
-      "link": "https://www.infoq.com/presentations/service-level-prioritized-load-shedding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "The speakers discuss Netflix’s architecture for surviving extreme traffic spikes. They explain the mechanics of prioritized load shedding embedded in their Envoy sidecar proxy, allowing user-initiated requests to steal…",
-      "ts": 1782984000,
-      "published": "2026-07-02T09:20:00+00:00",
       "collected_at": null
     }
   ]
