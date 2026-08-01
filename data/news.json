@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T09:18:18+09:00",
-  "count": 873,
+  "updated": "2026-08-01T12:20:44+09:00",
+  "count": 877,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,36 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "v2.22.0 (2026-07-31)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.22.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Allow MCPToolset clients to skip optional MCP tasks via prefer_tasks by @adtyavrdhn in #6851 Default Gemini VALIDATED tool mode on supported models by @hramezani in #6353 Stop advertising tool…",
+      "ts": 1785551266,
+      "published": "2026-08-01T02:27:46+00:00",
+      "collected_at": "2026-08-01T12:20:19+09:00"
+    },
+    {
+      "title": "[AINews] not much happened today",
+      "link": "https://www.latent.space/p/ainews-not-much-happened-today-038",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "apart from DeepSeek V4-Flash 0731, a quiet day.",
+      "ts": 1785548289,
+      "published": "2026-08-01T01:38:09+00:00",
+      "collected_at": "2026-08-01T12:20:19+09:00"
+    },
+    {
+      "title": "v0.19.2",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.2",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed feat: expose original callable through wrapped by @seratch in #4038 fix: report input guardrail results when a tripwire aborts the run by @hsusul in #4071 fix: consolidate same-exception re-raises into ba…",
+      "ts": 1785546517,
+      "published": "2026-08-01T01:08:37+00:00",
+      "collected_at": "2026-08-01T12:20:19+09:00"
     },
     {
       "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -31,6 +61,16 @@
       "ts": 1785539602,
       "published": "2026-07-31T23:13:22+00:00",
       "collected_at": "2026-08-01T09:18:13+09:00"
+    },
+    {
+      "title": "llm-mcp-client 0.1a0",
+      "link": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-mcp-client 0.1a0 See this blog entry . Tags: llm , model-context-protocol",
+      "ts": 1785539027,
+      "published": "2026-07-31T23:03:47+00:00",
+      "collected_at": "2026-08-01T12:20:19+09:00"
     },
     {
       "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
@@ -131,6 +171,16 @@
       "ts": 1785508560,
       "published": "2026-07-31T14:36:00+00:00",
       "collected_at": "2026-08-01T00:22:36+09:00"
+    },
+    {
+      "title": "datasette-agent 0.4a0",
+      "link": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-agent 0.4a0 New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. #33 This is an exciting new capability: it makes it easy for Datasette Agent plu…",
+      "ts": 1785507263,
+      "published": "2026-07-31T14:14:23+00:00",
+      "collected_at": "2026-08-01T12:20:19+09:00"
     },
     {
       "title": "Building Voice-Controlled AI Agents",
@@ -8720,16 +8770,6 @@
       "summary": "The software factory vision met resistance today from speakers defending human understanding and control.",
       "ts": 1782972829,
       "published": "2026-07-02T06:13:49+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v2.3.0 (2026-07-01)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.3.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add native Z.AI (Zhipu AI) provider with thinking support by @eliasaronson in #4273 🐛 Bug Fixes fix(test): set provider_name on TestModel non-streaming responses by @syf2211 in #6066 Keep Bedro…",
-      "ts": 1782958156,
-      "published": "2026-07-02T02:09:16+00:00",
       "collected_at": null
     }
   ]
