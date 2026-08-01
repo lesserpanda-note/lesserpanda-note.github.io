@@ -1,6 +1,75 @@
 {
   "digests": [
     {
+      "date": "2026-07-31",
+      "summary": "오늘은 LLM의 근본적 보안 취약점에 대한 ICML 연구 발표와 OpenAI의 GPT-5.6 가격 인하가 AI 분야의 핵심 뉴스입니다. 에이전트 분야에서는 온톨로지가 확률적 에이전트의 경계를 제어하는 도구로 재부상하고 있으며, 프로덕션 에이전트 파이프라인의 7가지 아키텍처 구성 요소도 정리되었습니다. 아키텍처에서는 컴퓨트-스토리지 분리 기반 비집합형 클라우드 DB와 리팩터링의 경제적 효과를 토큰 비용으로 측정하는 실험이, 데이터사이언스에서는 사후 예측 검사의 비베이지안 활용과 LLM 시대에도 유효한 7가지 ML 알고리즘이 소개됩니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Introducing Sheetmusic4J, a Java(FX) Library to Render and Interact with Sheet Music",
+          "link": "https://foojay.io/today/introducing-sheetmusic4j-a-javafx-library-to-render-and-interact-with-sheet-music/",
+          "summary": "악보를 렌더링하고 상호작용할 수 있는 JavaFX 기반 오픈소스 라이브러리 Sheetmusic4J를 소개합니다.",
+          "detail": "MelodyMatrix 앱 개발 중 악보 학습 기능이 필요해진 개발자가 JavaFX로 직접 제작한 악보 렌더링 라이브러리입니다.\nSheetmusic4J는 MusicXML 형식의 악보를 파싱해 JavaFX Scene 위에 렌더링하며, 음표 클릭·선택·하이라이트 같은 인터랙션도 지원합니다. 낙하 블록, 코드, 기타 뷰 등 다양한 뮤직 뷰를 이미 구현한 MelodyMatrix에 악보 뷰를 추가하기 위해 탄생한 실전 라이브러리입니다.\nJavaFX 생태계에서 악보 렌더링 솔루션은 드물었던 만큼, 음악 교육·연습 앱 또는 MIDI/MusicXML 기반 도구를 Java로 개발하는 팀에게 유용한 선택지가 될 수 있습니다."
+        },
+        {
+          "category": "AI",
+          "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+          "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+          "summary": "ICML에서 발표된 연구에 따르면, LLM의 작동 방식에 근본적 결함이 존재해 해킹으로부터 완전히 보안을 갖추는 것이 불가능하다고 주장합니다.",
+          "detail": "MIT Technology Review가 보도한 이 연구는 국제 머신러닝 학술대회(ICML)에서 발표된 논문을 기반으로 합니다. 연구팀은 LLM이 입력 텍스트를 처리하는 근본적인 방식 자체에 보안 취약점이 내재되어 있어, 어떤 방어 기법을 적용해도 완전한 보안을 달성하는 것이 이론적으로 불가능하다고 주장합니다.\n이는 프롬프트 인젝션·탈옥(jailbreak) 등 LLM 공격이 단순한 구현 버그가 아닌 구조적 문제임을 시사합니다. LLM 기반 시스템의 보안을 설계할 때 '완전 차단'보다는 '피해 최소화'와 '위험 격리' 전략이 현실적 접근임을 보여주는 중요한 연구입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Advancing the price-performance frontier with GPT-5.6",
+          "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+          "summary": "OpenAI가 GPT-5.6의 Luna·Terra 티어에 대한 가격을 인하하고 기업 규모 AI 워크플로우 배포 효율성 향상을 발표했습니다.",
+          "detail": "OpenAI가 GPT-5.6 모델의 두 가지 서비스 티어인 Luna와 Terra의 가격을 낮추며 가격 대비 성능 경계를 확장했습니다. 더 효율적인 모델 아키텍처를 통해 동일한 성능을 더 낮은 비용으로 제공하게 되었으며, 이는 기업이 대규모 AI 워크플로우를 경제적으로 배포하는 데 기여합니다.\n최근 AI 시장의 치열한 가격 경쟁 속에서 OpenAI가 모델 효율성 향상을 비용 절감으로 고객에게 직접 환원하는 전략을 택한 것으로, 클라우드 AI API를 대규모로 사용하는 기업 고객에게 의미있는 변화입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
+          "link": "https://www.latent.space/p/ontologies-agentic-systems",
+          "summary": "확률적 AI 에이전트를 결정론적 경계 안에서 동작시키기 위해 AI 엔지니어들이 온톨로지와 시맨틱 웹 개념을 재발견하고 있습니다.",
+          "detail": "Latent Space 뉴스레터가 AI 에이전트 분야에서 온톨로지(ontology)가 재주목받는 이유를 분석합니다. LLM 기반 에이전트는 확률적(probabilistic)으로 동작해 예측 불가능한 행동을 할 수 있는데, 온톨로지는 도메인 지식을 명시적으로 구조화해 에이전트가 허용 범위 내에서만 동작하도록 경계를 설정하는 역할을 합니다.\n1990년대 시맨틱 웹 운동에서 발전한 온톨로지 기술이 LLM 에이전트의 신뢰성·안전성 문제를 해결하는 실용적 도구로 재부상하고 있으며, 결정론적 제약과 확률적 추론을 결합하는 하이브리드 아키텍처에 대한 관심이 높아지고 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "The End-to-End Agentic AI Pipeline",
+          "link": "https://machinelearningmastery.com/the-end-to-end-agentic-ai-pipeline/",
+          "summary": "데모 스크립트와 프로덕션 수준 에이전트 AI 시스템을 구분하는 7가지 아키텍처 구성 요소를 설명합니다.",
+          "detail": "Machine Learning Mastery가 프로덕션 수준의 에이전트 AI 시스템 구축에 필요한 7가지 핵심 아키텍처 구성 요소를 정리했습니다. 단순한 데모 스크립트에서 실제 운영 가능한 에이전트로 발전하기 위해 무엇이 필요한지를 구조적으로 설명하며, 각 구성 요소가 어떻게 협력하는지를 다룹니다.\n에이전트 시스템을 처음 설계하거나 기존 프로토타입을 프로덕션으로 전환하려는 ML 엔지니어에게 실질적인 체크리스트 역할을 하는 아티클입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Presentation: Parting the Clouds: The Rise of Disaggregated Systems",
+          "link": "https://www.infoq.com/presentations/disaggregation-industrial-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "클라우드 경제학이 주도하는 비집합형(disaggregated) 클라우드 데이터베이스 아키텍처의 부상을 Murat Demirbas가 설명합니다.",
+          "detail": "InfoQ QCon 발표에서 Murat Demirbas는 클라우드 비용 구조가 데이터베이스 아키텍처를 어떻게 바꾸고 있는지를 다룹니다. 전통적으로 컴퓨트와 스토리지를 결합한 단일 노드 DB 아키텍처는 클라우드 환경에서 비효율적이며, 이를 분리(decouple)하는 비집합형 아키텍처가 탄력적 확장(elastic scaling), 비용 효율성, 장애 격리(fault isolation) 측면에서 우수합니다.\nAmazon Aurora, Google Spanner, Snowflake 등 주요 클라우드 DB들이 이미 이 방향을 채택하고 있으며, 산업용 시스템(industrial systems)으로도 확산되는 추세를 분석합니다. 클라우드 네이티브 데이터베이스 설계를 고려하는 아키텍트에게 핵심 트렌드를 정리한 유익한 발표입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "The Economic Benefit of Refactoring",
+          "link": "https://martinfowler.com/articles/exploring-gen-ai/refactoring-economic-benefit.html",
+          "summary": "함수를 분해하는 리팩터링이 LLM 토큰 비용을 줄일 수 있는지 실험한 결과, 생성형 AI 시대에 리팩터링의 경제적 효과를 새로운 관점으로 측정할 수 있음을 보여줍니다.",
+          "detail": "Giles Edwards-Alexander가 Martin Fowler 블로그의 '생성형 AI 탐구' 시리즈에서 공유한 실험입니다. 큰 함수 하나를 여러 작은 함수로 분해하면 LLM이 코드를 처리할 때 사용하는 컨텍스트 토큰 수가 줄어드는지 측정했습니다.\n실험 결과, 리팩터링된 코드는 LLM 처리에 필요한 토큰이 감소하는 경향이 있었으며, 이는 기존의 '코드 유지보수성 향상'이라는 리팩터링 가치에 더해 'AI 도구 비용 절감'이라는 측정 가능한 경제적 혜택을 추가할 수 있음을 시사합니다. 생성형 AI 도구를 활용하는 팀에게 리팩터링 투자의 ROI를 새로운 시각으로 정당화할 근거를 제공합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Posterior predictive checking is for non-Bayesians too!",
+          "link": "https://statmodeling.stat.columbia.edu/2026/07/30/posterior-predictive-checking-is-for-non-bayesians-too/",
+          "summary": "Andrew Gelman이 1988년부터 연구해 온 사후 예측 검사(PPC)가 베이지안 통계 전용이 아니라 빈도주의 모델 검증에도 유용한 범용 도구임을 주장합니다.",
+          "detail": "Andrew Gelman의 Statistical Modeling 블로그에서 사후 예측 검사(Posterior Predictive Checking, PPC)의 범용성을 강조하는 포스트입니다. PPC는 원래 제약된 모수를 가진 모델의 카이제곱 검정을 위한 유효 자유도 계산 도구로 개발되었지만, 베이지안·빈도주의 구분 없이 모델이 데이터를 얼마나 잘 설명하는지 시각적·수치적으로 검사하는 데 활용될 수 있습니다.\n모델이 생성한 예측 데이터와 실제 관측 데이터를 비교함으로써 모델의 결함을 진단하는 이 방법은, 베이지안 워크플로우에만 국한되지 않고 모든 통계 모델러에게 유용한 모델 검증 도구입니다. 실무 통계 분석에서 모델 적합성 평가를 강화하려는 데이터 사이언티스트에게 가치있는 시각을 제공합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "7 Machine Learning Algorithms That Still Matter",
+          "link": "https://www.kdnuggets.com/7-machine-learning-algorithms-that-still-matter",
+          "summary": "LLM과 생성형 AI 시대에도 모든 데이터 사이언티스트가 알아야 할 7가지 핵심 머신러닝 알고리즘을 Python 코드 예제와 함께 소개합니다.",
+          "detail": "KDnuggets가 생성형 AI가 화두인 시대에도 여전히 중요한 7가지 전통적 ML 알고리즘을 정리했습니다. LLM을 먼저 찾기 전에 이 알고리즘들을 먼저 고려해야 한다는 실용적 관점에서, 각 알고리즘의 핵심 원리와 적합한 사용 사례를 간단한 Python 코드 예제와 함께 설명합니다.\n선형/로지스틱 회귀, 결정 트리, 랜덤 포레스트, 그래디언트 부스팅, SVM, k-NN 등 해석 가능성과 효율성 측면에서 여전히 강력한 알고리즘들이 포함되며, 실무에서 복잡한 딥러닝 모델보다 단순한 알고리즘이 더 적합한 경우가 많음을 강조합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-07-30",
       "summary": "오늘은 주요 AI 랩들(OpenAI·Anthropic·Google DeepMind·Meta)의 AI 속도 조절 공동 서한과 OpenAI의 ARC-AGI-3 벤치마크 세 배 향상 등 AI 생태계 전반에서 중요한 소식이 이어졌습니다. 아키텍처 분야에서는 Cloudflare Internal DNS GA 출시와 프로덕션 MCP 보안 심층 방어 전략이, 데이터사이언스 분야에서는 예측 모델의 처리 효과 추정 오류와 구간 예측 보정 문제가 주목받습니다. Python 및 에이전트 분야에서는 CrewAI 실전 가이드와 프롬프트 관리의 미해결 과제가 실무 개발자에게 유용한 인사이트를 제공합니다.",
       "highlights": [
