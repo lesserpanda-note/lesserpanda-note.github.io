@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-01T08:05:11+09:00",
-  "count": 875,
+  "updated": "2026-08-01T09:18:18+09:00",
+  "count": 873,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,26 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+      "link": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "deepseek-ai/DeepSeek-V4-Flash-0731 The latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch well above…",
+      "ts": 1785542384,
+      "published": "2026-07-31T23:59:44+00:00",
+      "collected_at": "2026-08-01T09:18:13+09:00"
+    },
+    {
+      "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+      "link": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tuesday was Stateless MCP day - the rollout of MCP 2.0, or the 2026-07-28 Model Context Protocol specification to use the more formal but less memorable name. This is the most significant change to the MCP spec since it…",
+      "ts": 1785539602,
+      "published": "2026-07-31T23:13:22+00:00",
+      "collected_at": "2026-08-01T09:18:13+09:00"
     },
     {
       "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
@@ -8710,46 +8730,6 @@
       "summary": "What's Changed 🚀 Features Add native Z.AI (Zhipu AI) provider with thinking support by @eliasaronson in #4273 🐛 Bug Fixes fix(test): set provider_name on TestModel non-streaming responses by @syf2211 in #6066 Keep Bedro…",
       "ts": 1782958156,
       "published": "2026-07-02T02:09:16+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "A Bootiful Podcast: Sébastien Deleuze on the latest-and-greatest in Spring AI and Spring Framework",
-      "link": "https://spring.io/blog/2026/07/02/a-bootiful-podcast-sebastien-deleuze",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi Spring fans! In this installment we talk to the legendary Spring AI and Spring Framework contributor Sébastien Deleuze about the latest-and-greatest in AI, Kotlin, the framework, and more.",
-      "ts": 1782950400,
-      "published": "2026-07-02T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "SIMD Vectors in the HotSpot JVM - Auto Vectorization and the Vector API",
-      "link": "https://inside.java/2026/07/02/simd-vectors-hotspot-jvm/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Explore the latest work on the HotSpot JVM, with a focus on auto-vectorization and the Vector API.",
-      "ts": 1782950400,
-      "published": "2026-07-02T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-      "link": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-      "ts": 1782950400,
-      "published": "2026-07-02T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Autoresearch: The feedback loop behind self-improving agents",
-      "link": "https://www.latent.space/p/autoresearch-introspection",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Introspection co-founder Roland Gavrilescu explains autoresearch, agent “recipes,” self-improving loops, and why humans remain central to the software factory.",
-      "ts": 1782949950,
-      "published": "2026-07-01T23:52:30+00:00",
       "collected_at": null
     }
   ]
