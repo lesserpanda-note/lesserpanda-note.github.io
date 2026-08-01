@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T02:04:01+09:00",
-  "count": 867,
+  "updated": "2026-08-02T04:14:19+09:00",
+  "count": 862,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -8620,56 +8620,6 @@
       "summary": "Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it. I started a new Py…",
       "ts": 1783020792,
       "published": "2026-07-02T19:33:12+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The high cost of split R-hat",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/02/the-high-cost-of-split-r-hat/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This post is by Bob. I’ve been thinking a lot lately about R-hat given that I’m using it for online converging monitoring in our new Walnuts implementation. In that setting, where I use Welford accumulators to update R-…",
-      "ts": 1783018843,
-      "published": "2026-07-02T19:00:43+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
-      "link": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Research: Using DSPy to evaluate and improve Datasette Agent's SQL system prompts One of this morning's AIE keynotes covered dspy , which reminded me I've been meaning to see if it could help me improve the system promp…",
-      "ts": 1783016700,
-      "published": "2026-07-02T18:25:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "BoxLang 1.14.0 : Navigate Anything: JSONPath Comes to BoxLang’s DataNavigator",
-      "link": "https://foojay.io/today/boxlang-1-14-0-navigate-anything-jsonpath-comes-to-boxlangs-datanavigator/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Every application eventually has to deal with deeply nested data. JSON API responses with payloads six levels deep. Configuration files where the key you need is buried inside an array of objects, one of which has a nul…",
-      "ts": 1783016236,
-      "published": "2026-07-02T18:17:16+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "dotnet-1.12.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.12.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "What's Changed .NET: Fix typo in XML doc comment for workflow outputs param by @marcominerva in #6326 .NET: Add BackgroundTaskCompletionLoopEvaluator for harness background agents by @westey-m in #6736 .NET: Foundry hos…",
-      "ts": 1783012705,
-      "published": "2026-07-02T17:18:25+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Understand to participate",
-      "link": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I saw Geoffrey Litt speak at AIE yesterday, and one framing he used particularly resonated with me: Understand to participate Geoffrey was talking about the challenge of collaborating with coding agents as they construc…",
-      "ts": 1783012034,
-      "published": "2026-07-02T17:07:14+00:00",
       "collected_at": null
     }
   ]
