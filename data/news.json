@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T00:03:35+09:00",
-  "count": 868,
+  "updated": "2026-08-02T02:04:01+09:00",
+  "count": 867,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,16 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "Coding Agents Don’t Need Bigger Context Windows — They Need a Context Compiler",
+      "link": "https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Most coding agents treat prompt construction like retrieval: gather more files, add more context, hope the model figures it out. But that approach breaks down fast. As context grows, irrelevant code competes for attenti…",
+      "ts": 1785596400,
+      "published": "2026-08-01T15:00:00+00:00",
+      "collected_at": "2026-08-02T02:03:56+09:00"
     },
     {
       "title": "Why quantitative understanding of effect sizes matters, even if all you care about is the presence of the effect",
@@ -8660,26 +8670,6 @@
       "summary": "I saw Geoffrey Litt speak at AIE yesterday, and one framing he used particularly resonated with me: Understand to participate Geoffrey was talking about the challenge of collaborating with coding agents as they construc…",
       "ts": 1783012034,
       "published": "2026-07-02T17:07:14+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Achieving operational excellence with AI",
-      "link": "https://www.technologyreview.com/2026/07/02/1140045/achieving-operational-excellence-with-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Frameworks like Lean Six Sigma and business process management (BPM) first gained traction because they promised clarity in the chaos—a structured way to bring order to messy, sprawling operations. Lean Six Sigma emphas…",
-      "ts": 1783006628,
-      "published": "2026-07-02T15:37:08+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Launch HN: Manufact (YC S25) – MCP Cloud",
-      "link": "https://manufact.com",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Hi HN, we are Pietro and Luigi, cofounders of Manufact ( https://manufact.com ), a cloud for MCP apps and servers. We used to be called mcp-use, and still build open source SDKs for MCP under that name: https://github.c…",
-      "ts": 1783005080,
-      "published": "2026-07-02T15:11:20+00:00",
       "collected_at": null
     }
   ]
