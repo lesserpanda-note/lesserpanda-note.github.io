@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T04:14:19+09:00",
-  "count": 862,
+  "updated": "2026-08-02T05:57:52+09:00",
+  "count": 863,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,16 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "Ten advances in mathematics and theoretical computer science",
+      "link": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that inclu…",
+      "ts": 1785616489,
+      "published": "2026-08-01T20:34:49+00:00",
+      "collected_at": "2026-08-02T05:57:40+09:00"
     },
     {
       "title": "Coding Agents Don’t Need Bigger Context Windows — They Need a Context Compiler",
@@ -151,6 +161,16 @@
       "ts": 1785532523,
       "published": "2026-07-31T21:15:23+00:00",
       "collected_at": "2026-08-01T08:04:49+09:00"
+    },
+    {
+      "title": "Slack Emoji Maker",
+      "link": "https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Slack Emoji Maker I wanted to create a new Slack emoji, and their tool recommends a square that's 128x128 and has a transparent background... so I had Fable build me this simple image editor against those requirem…",
+      "ts": 1785529085,
+      "published": "2026-07-31T20:18:05+00:00",
+      "collected_at": "2026-08-02T05:57:40+09:00"
     },
     {
       "title": "The 3× Token Bill We Didn’t See Coming",
@@ -8610,16 +8630,6 @@
       "summary": "Adobe is experimenting with “agentic sites” that generate pages around an individual user’s intent. At AIEWF, we talked to Carlos Sanchez about the Web's future.",
       "ts": 1783027514,
       "published": "2026-07-02T21:25:14+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "llm-coding-agent 0.1a0",
-      "link": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-coding-agent 0.1a0 Another Fable 5 experiment. Now that my LLM library has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it. I started a new Py…",
-      "ts": 1783020792,
-      "published": "2026-07-02T19:33:12+00:00",
       "collected_at": null
     }
   ]
