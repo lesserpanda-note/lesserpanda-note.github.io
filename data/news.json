@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-03T04:15:56+09:00",
-  "count": 844,
+  "updated": "2026-08-03T05:59:34+09:00",
+  "count": 845,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -81,6 +81,16 @@
       "ts": 1785643961,
       "published": "2026-08-02T04:12:41+00:00",
       "collected_at": "2026-08-02T15:36:32+09:00"
+    },
+    {
+      "title": "Faster floating point math with Rust’s new API",
+      "link": "https://pythonspeed.com/articles/faster-float-math-rust/",
+      "source": "Python Speed",
+      "category": "Python",
+      "summary": "Floating point math is often slower than integer math because the compiler is being conservative about how it optimizes your code. While some programming languages already had solutions of a sort, until now Rust did not…",
+      "ts": 1785628800,
+      "published": "2026-08-02T00:00:00+00:00",
+      "collected_at": "2026-08-03T05:59:24+09:00"
     },
     {
       "title": "Quoting Greg Brockman",
