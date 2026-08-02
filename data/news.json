@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T12:45:20+09:00",
-  "count": 861,
+  "updated": "2026-08-02T15:36:41+09:00",
+  "count": 863,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,36 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare recently introduced Meerkat, an internal globally consistent control-plane service based on the QuePaxa consensus algorithm. Unlike Raft, it allows leaderless writes while preserving strong consistency, impro…",
+      "ts": 1785651420,
+      "published": "2026-08-02T06:17:00+00:00",
+      "collected_at": "2026-08-02T15:36:32+09:00"
+    },
+    {
+      "title": "Open letters about AI development",
+      "link": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership…",
+      "ts": 1785644212,
+      "published": "2026-08-02T04:16:52+00:00",
+      "collected_at": "2026-08-02T15:36:32+09:00"
+    },
+    {
+      "title": "July 2026 newsletter",
+      "link": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under…",
+      "ts": 1785643961,
+      "published": "2026-08-02T04:12:41+00:00",
+      "collected_at": "2026-08-02T15:36:32+09:00"
     },
     {
       "title": "Quoting Greg Brockman",
@@ -8600,16 +8630,6 @@
       "summary": "I pointed a scanner I have been building at an old Spring project, and it flagged javax.activation. The bump was 1.1-rev-1 to 1.1.1. Prior releases carried a GPG signature. This one did not. If you have read the post-mo…",
       "ts": 1783067487,
       "published": "2026-07-03T08:31:27+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "AIEWF Daily Dispatch: The great loops debate and the state of AI engineering",
-      "link": "https://www.latent.space/p/aiewf-daily-dispatch-locomotives",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "The AI Engineer World’s Fair ended with a debate about loops, a report on the state of AI engineering, and closing keynotes focused on what to build next.",
-      "ts": 1783055503,
-      "published": "2026-07-03T05:11:43+00:00",
       "collected_at": null
     }
   ]
