@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T18:11:42+09:00",
-  "count": 861,
+  "updated": "2026-08-02T20:18:56+09:00",
+  "count": 858,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,16 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "Agentic Misalignment Explained: When AI Agents Go Rogue",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/agentic-misalignment-explained/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "Imagine hiring an AI assistant to handle important tasks, only to find that it quietly ignores your instructions because it believes it knows better. This is known as agentic misalignment, where an AI intentionally purs…",
+      "ts": 1785663229,
+      "published": "2026-08-02T09:33:49+00:00",
+      "collected_at": "2026-08-02T20:18:52+09:00"
     },
     {
       "title": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination",
@@ -8570,46 +8580,6 @@
       "summary": "Check your understanding of Python interfaces, from informal interfaces and duck typing to formal interfaces built with the abc module.",
       "ts": 1783080000,
       "published": "2026-07-03T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Mini book: Agentic AI Architecture",
-      "link": "https://www.infoq.com/minibooks/agentic-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "In this eMag, we try to establish agentic AI architecture as a new type of software architecture that will likely dominate the industry for years to come. The articles, written by industry experts, cover various element…",
-      "ts": 1783076400,
-      "published": "2026-07-03T11:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Oracle Quietly Halves Free Tier Ampere A1 Compute Limits with No Public Announcement",
-      "link": "https://www.infoq.com/news/2026/07/oracle-cloud-free-tier-limits/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Oracle halved the Always Free Ampere A1 compute allowance from 4 OCPUs and 24 GB RAM to 2 OCPUs and 12 GB RAM with no public announcement. Support agents gave conflicting answers on whether PAYG accounts are affected. D…",
-      "ts": 1783073580,
-      "published": "2026-07-03T10:13:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "In Conversation With the Golden Kodee Winners",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/in-conversation-with-the-golden-kodee-winners/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "KotlinConf 2026 marked a milestone for the Kotlin community: the very first Golden Kodee Community Awards. The awards recognize the individuals and communities whose passion and dedication help the Kotlin ecosystem thri…",
-      "ts": 1783072633,
-      "published": "2026-07-03T09:57:13+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Presentation: Fine Tuning the Enterprise: Reinforcement Learning in Practice",
-      "link": "https://www.infoq.com/presentations/rft-openai-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The speakers discuss Agent RFT, OpenAI’s platform for fine-tuning reasoning models via real-time tool interactions and custom reward signals. They explain how reinforcement learning solves complex credit assignment chal…",
-      "ts": 1783070520,
-      "published": "2026-07-03T09:22:00+00:00",
       "collected_at": null
     }
   ]
