@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-02T20:18:56+09:00",
-  "count": 858,
+  "updated": "2026-08-02T22:36:06+09:00",
+  "count": 854,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,26 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "What gets you is not what you don’t know but what you don’t know you don’t know.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/02/what-gets-you-is-not-what-you-dont-know-but-what-you-dont-know-you-dont-know/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I was thinking about the above saying in the context of bad regression discontinuity analyses. Statistical methods can be characterized in terms of how they can go wrong. Some common modes of “how can things go wrong” i…",
+      "ts": 1785676463,
+      "published": "2026-08-02T13:14:23+00:00",
+      "collected_at": "2026-08-02T22:36:02+09:00"
+    },
+    {
+      "title": "I Replaced a 15-Minute Booking Process with a LangGraph AI Agent",
+      "link": "https://towardsdatascience.com/i-replaced-a-15-minute-booking-process-with-a-langgraph-ai-agent/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A step-by-step guide to building, running, and monitoring a stateful customer support agent using Python, LangGraph, and Langfuse. The post I Replaced a 15-Minute Booking Process with a LangGraph AI Agent appeared first…",
+      "ts": 1785675600,
+      "published": "2026-08-02T13:00:00+00:00",
+      "collected_at": "2026-08-02T22:36:02+09:00"
     },
     {
       "title": "Agentic Misalignment Explained: When AI Agents Go Rogue",
@@ -8521,66 +8541,6 @@
       "ts": 1783088743,
       "published": "2026-07-03T14:25:43+00:00",
       "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "A new episode in the Francesca Gino case",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/03/a-new-episode-in-the-francesca-gino-case/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Andy King writes: 𝗪𝗵𝘆 𝗛𝗮𝗿𝘃𝗮𝗿𝗱’𝘀 𝗹𝗮𝘄𝘆𝗲𝗿𝘀 𝘀𝘂𝗯𝗽𝗼𝗲𝗻𝗮𝗲𝗱 𝗺𝗲 𝗶𝗻 𝘁𝗵𝗲 𝗙𝗿𝗮𝗻𝗰𝗲𝘀𝗰𝗮 𝗚𝗶𝗻𝗼 𝗰𝗮𝘀𝗲 My wife called to me. A constable was at the door. He handed me a subpoena to appear for a deposition in the case of Francesca Gino … Cont…",
-      "ts": 1783084281,
-      "published": "2026-07-03T13:11:21+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies",
-      "link": "https://www.infoq.com/news/2026/07/hardwood-java-parquet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Hardwood, the project Gunnar Morling kick-started handling of Parquet files in Java, reached version 1. Its multi-threaded approach and zero mandatory external dependencies promise a simpler, more efficient alternative…",
-      "ts": 1783080720,
-      "published": "2026-07-03T12:12:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Hardwood Promises High-Speed JVM Apache Parquet Processing with Zero Mandatory Dependencies",
-      "link": "https://www.infoq.com/news/2026/07/hardwood-java-parquet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Hardwood, the project Gunnar Morling kick-started handling of Parquet files in Java, reached version 1. Its multi-threaded approach and zero mandatory external dependencies promise a simpler, more efficient alternative…",
-      "ts": 1783080720,
-      "published": "2026-07-03T12:12:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Getting Started with the Claude API in Python",
-      "link": "https://www.kdnuggets.com/getting-started-with-the-claude-api-in-python",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "In this article, you'll learn how to use the Claude API in Python, make your first request, and handle responses with the official SDK.",
-      "ts": 1783080025,
-      "published": "2026-07-03T12:00:25+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The Real Python Podcast – Episode #301: Running Python Locally in a Sandbox",
-      "link": "https://realpython.com/podcasts/rpp/301/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "How do you avoid the risk of running a Python application locally that could be malicious, break your code, or leak private data? How can you create a sandboxed local environment using WASM and MicroPython? Christopher…",
-      "ts": 1783080000,
-      "published": "2026-07-03T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quiz: Python Interfaces: Object-Oriented Design Principles",
-      "link": "https://realpython.com/quizzes/interfaces-object-oriented-design-principles/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of Python interfaces, from informal interfaces and duck typing to formal interfaces built with the abc module.",
-      "ts": 1783080000,
-      "published": "2026-07-03T12:00:00+00:00",
-      "collected_at": null
     }
   ]
 }
