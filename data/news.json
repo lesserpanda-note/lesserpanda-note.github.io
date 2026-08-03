@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-03T17:32:14+09:00",
-  "count": 848,
+  "updated": "2026-08-03T21:28:49+09:00",
+  "count": 858,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,96 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "Quiz: Bypassing the GIL for Parallel Processing in Python",
+      "link": "https://realpython.com/quizzes/python-parallel-processing/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of the GIL, process-based parallelism, and the ways to run Python threads in parallel across multiple CPU cores.",
+      "ts": 1785758400,
+      "published": "2026-08-03T12:00:00+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
+    },
+    {
+      "title": "How Claude Help Me Build My $200k+ ML Resume",
+      "link": "https://towardsdatascience.com/how-claude-help-me-build-my-200k-ml-resume/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "How use Claude to craft an outstanding resume that lands offers The post How Claude Help Me Build My $200k+ ML Resume appeared first on Towards Data Science .",
+      "ts": 1785758400,
+      "published": "2026-08-03T12:00:00+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
+    },
+    {
+      "title": "Podcast: WebAssembly on the JVM: Feature Evolution, Performance, and the Transition to Endive",
+      "link": "https://www.infoq.com/podcasts/feature-evolution-performance-transition-endive/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Andrea Peruffo discusses the evolution of WebAssembly beyond the browser and its growing role on the server-side JVM. He covers performance advancements in Wasm runtimes, moving from interpreters to efficient JIT compil…",
+      "ts": 1785754800,
+      "published": "2026-08-03T11:00:00+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
+    },
+    {
+      "title": "Article: Enabling Evolutionary Architecture Through the Preservation of Change Locality",
+      "link": "https://www.infoq.com/articles/evolutionary-architecture-change-locality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Why do simple features suddenly require cross-team negotiations? In this article, explore how boundary drift quietly destroys change locality and increases cognitive load across teams. Learn practical sociotechnical str…",
+      "ts": 1785754800,
+      "published": "2026-08-03T11:00:00+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
+    },
+    {
+      "title": "Podcast: WebAssembly on the JVM: Feature Evolution, Performance, and the Transition to Endive",
+      "link": "https://www.infoq.com/podcasts/feature-evolution-performance-transition-endive/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Andrea Peruffo discusses the evolution of WebAssembly beyond the browser and its growing role on the server-side JVM. He covers performance advancements in Wasm runtimes, moving from interpreters to efficient JIT compil…",
+      "ts": 1785754800,
+      "published": "2026-08-03T11:00:00+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
+    },
+    {
+      "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
+      "link": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Microsoft's Agent Framework now ships a supported runtime. Build 2026 brought the Agent Harness, the GitHub Copilot and Claude Agent SDK connectors, and the orchestration patterns to stable release; the harness and Foun…",
+      "ts": 1785753000,
+      "published": "2026-08-03T10:30:00+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
+    },
+    {
+      "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
+      "link": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Microsoft's Agent Framework now ships a supported runtime. Build 2026 brought the Agent Harness, the GitHub Copilot and Claude Agent SDK connectors, and the orchestration patterns to stable release; the harness and Foun…",
+      "ts": 1785753000,
+      "published": "2026-08-03T10:30:00+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
+    },
+    {
+      "title": "HashiCorp Ships Public Beta of Vault Kubernetes Key Management",
+      "link": "https://www.infoq.com/news/2026/08/vault-kubernetes-key-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "HashiCorp has released a public beta of Vault Kubernetes key management, a KMS v2-compatible plugin that lets the Kubernetes API server delegate envelope encryption to Vault Enterprise, moving the key encryption keys th…",
+      "ts": 1785751200,
+      "published": "2026-08-03T10:00:00+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
+    },
+    {
+      "title": "Here’s why AI agents lie and cheat to reach their goals",
+      "link": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the w…",
+      "ts": 1785745805,
+      "published": "2026-08-03T08:30:05+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
     },
     {
       "title": "Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer",
@@ -61,6 +151,16 @@
       "ts": 1785732180,
       "published": "2026-08-03T04:43:00+00:00",
       "collected_at": "2026-08-03T17:32:07+09:00"
+    },
+    {
+      "title": "Boris Cherny on Trying to Get Claude Code to Rewrite the Claude App",
+      "link": "https://daringfireball.net/linked/2026/08/02/cherny-claude-swift",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://daringfireball.net/linked/2026/08/02/cherny-claude-swift Comments URL: https://news.ycombinator.com/item?id=49149800 Points: 62 # Comments: 13",
+      "ts": 1785716575,
+      "published": "2026-08-03T00:22:55+00:00",
+      "collected_at": "2026-08-03T21:28:31+09:00"
     },
     {
       "title": "condense-json 1.0",
