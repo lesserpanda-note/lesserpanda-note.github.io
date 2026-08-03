@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-04T00:45:54+09:00",
-  "count": 867,
+  "updated": "2026-08-04T02:54:46+09:00",
+  "count": 872,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -13,6 +13,56 @@
       "collected_at": "2026-08-01T02:42:30+09:00"
     },
     {
+      "title": "Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is Built On",
+      "link": "https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #M2] - Every RAG system is built in three engineering layers stacked on one LLM call: prompt (the call itself), context (what fills the model’s window), loop (when the next call f…",
+      "ts": 1785774600,
+      "published": "2026-08-03T16:30:00+00:00",
+      "collected_at": "2026-08-04T02:54:42+09:00"
+    },
+    {
+      "title": "Quoting David Crawshaw's prompt",
+      "link": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. —…",
+      "ts": 1785773727,
+      "published": "2026-08-03T16:15:27+00:00",
+      "collected_at": "2026-08-04T02:54:42+09:00"
+    },
+    {
+      "title": "Does MiniMax Agent Actually Make Work Easier?",
+      "link": "https://www.kdnuggets.com/does-minimax-agent-actually-make-work-easier",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Read about MiniMax's own architecture, and see how it runs a real task against the actual API. Learn the pieces of the MiniMax story that weren't covered in the launch post.",
+      "ts": 1785772859,
+      "published": "2026-08-03T16:00:59+00:00",
+      "collected_at": "2026-08-04T02:54:42+09:00"
+    },
+    {
+      "title": "The Codename One JavaScript Port Is Now Free and Open Source",
+      "link": "https://foojay.io/today/the-codename-one-javascript-port-is-now-free-and-open-source/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Codename One's JavaScript port is now open source, available on every plan, and buildable locally without an account. ParparVM is the default, while TeaVM remains available through a build hint. The post The Codename On…",
+      "ts": 1785771990,
+      "published": "2026-08-03T15:46:30+00:00",
+      "collected_at": "2026-08-04T02:54:42+09:00"
+    },
+    {
+      "title": "Devtools must be open source (exe.dev)",
+      "link": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My comment on Devtools must be open source (exe.dev) — Hacker News. One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for…",
+      "ts": 1785771038,
+      "published": "2026-08-03T15:30:38+00:00",
+      "collected_at": "2026-08-04T02:54:42+09:00"
+    },
+    {
       "title": "How to Build CLI Agents with Python & Ollama",
       "link": "https://towardsdatascience.com/cli-agents-with-python-ollama/",
       "source": "Towards Data Science",
@@ -21,6 +71,16 @@
       "ts": 1785769200,
       "published": "2026-08-03T15:00:00+00:00",
       "collected_at": "2026-08-04T00:45:33+09:00"
+    },
+    {
+      "title": "Decoding Strategies and Output Control",
+      "link": "https://machinelearningmastery.com/decoding-strategies-and-output-control/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "This chapter is divided into nine parts; they are: • Reading Logits from a Model • Greedy Decoding • Temperature Sampling • Top-$k$ Sampling • Nucleus Sampling • Repetition Penalties • Beam Search • Stop Conditions • St…",
+      "ts": 1785767777,
+      "published": "2026-08-03T14:36:17+00:00",
+      "collected_at": "2026-08-04T02:54:42+09:00"
     },
     {
       "title": "Java News Roundup: OpenJDK JEPs, Jakarta EE, GraalVM, TornadoVM, Micronaut, Quarkus, JobRunr, Maven",
@@ -8661,16 +8721,6 @@
       "ts": 1783194913,
       "published": "2026-07-04T19:55:13+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "v2.5.1 (July 4, 2026)",
-      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.1",
-      "source": "NumPy",
-      "category": "DataScience",
-      "summary": "NumPy 2.5.1 Release Notes The NumPy 2.5.1 is a patch release that fixes bugs discovered after the 2.5.0 release. The most noticeable is the fix is to the numpy datetime cython API which should allow downstream to suppor…",
-      "ts": 1783186220,
-      "published": "2026-07-04T17:30:20+00:00",
-      "collected_at": "2026-07-13T22:56:22+09:00"
     }
   ]
 }
