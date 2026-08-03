@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-03T13:32:59+09:00",
-  "count": 843,
+  "updated": "2026-08-03T17:32:14+09:00",
+  "count": 848,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,56 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer",
+      "link": "https://www.infoq.com/presentations/agentic-compute/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Arun Joseph shares real-world insights on scaling enterprise agentic platforms like Deutsche Telekom’s LMOS. He discusses bridging organizational fault lines, replacing tool sprawl with core platform abstractions, and m…",
+      "ts": 1785744480,
+      "published": "2026-08-03T08:08:00+00:00",
+      "collected_at": "2026-08-03T17:32:07+09:00"
+    },
+    {
+      "title": "Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer",
+      "link": "https://www.infoq.com/presentations/agentic-compute/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Arun Joseph shares real-world insights on scaling enterprise agentic platforms like Deutsche Telekom’s LMOS. He discusses bridging organizational fault lines, replacing tool sprawl with core platform abstractions, and m…",
+      "ts": 1785744480,
+      "published": "2026-08-03T08:08:00+00:00",
+      "collected_at": "2026-08-03T17:32:07+09:00"
+    },
+    {
+      "title": "Embabel Agent Framework Reaches 1.0",
+      "link": "https://www.infoq.com/news/2026/08/embabel-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Embabel has reached its 1.0 release, providing a framework for AI agents on Java It allows Java and Kotlin developers to define agents as typed domain objects. Built on Spring AI, Embabel supports multiple model provide…",
+      "ts": 1785732180,
+      "published": "2026-08-03T04:43:00+00:00",
+      "collected_at": "2026-08-03T17:32:07+09:00"
+    },
+    {
+      "title": "Embabel Agent Framework Reaches 1.0",
+      "link": "https://www.infoq.com/news/2026/08/embabel-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Embabel has reached its 1.0 release, providing a framework for AI agents on Java It allows Java and Kotlin developers to define agents as typed domain objects. Built on Spring AI, Embabel supports multiple model provide…",
+      "ts": 1785732180,
+      "published": "2026-08-03T04:43:00+00:00",
+      "collected_at": "2026-08-03T17:32:07+09:00"
+    },
+    {
+      "title": "Embabel Agent Framework Reaches 1.0",
+      "link": "https://www.infoq.com/news/2026/08/embabel-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Embabel has reached its 1.0 release, providing a framework for AI agents on Java It allows Java and Kotlin developers to define agents as typed domain objects. Built on Spring AI, Embabel supports multiple model provide…",
+      "ts": 1785732180,
+      "published": "2026-08-03T04:43:00+00:00",
+      "collected_at": "2026-08-03T17:32:07+09:00"
     },
     {
       "title": "condense-json 1.0",
@@ -471,6 +521,16 @@
       "ts": 1785495600,
       "published": "2026-07-31T11:00:00+00:00",
       "collected_at": "2026-07-31T21:03:22+09:00"
+    },
+    {
+      "title": "Presentation: The Free-Lunch Guide to Idea Circularity",
+      "link": "https://www.infoq.com/presentations/tech-hype-cycles-architectural-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Holly Cummins discusses why \"nothing is new under the sun\" in tech. She maps historical architectural tradeoffs to modern cloud, microservices, and AI hype cycles. She connects financial debt (post-ZIRP) and technical d…",
+      "ts": 1785495600,
+      "published": "2026-07-31T11:00:00+00:00",
+      "collected_at": "2026-08-03T17:32:07+09:00"
     },
     {
       "title": "Keeping Java Hot This Summer: August 2026 US & Canada JUG Tour with Simon Ritter",
@@ -8420,16 +8480,6 @@
       "summary": "Enterprise Document Intelligence [Vol.1 #8A] - The schema is the contract: every field is a question the pipeline asks the model, and every answer is checkable The post Stop Returning Text from RAG: The Typed Answer Con…",
       "ts": 1783170000,
       "published": "2026-07-04T13:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Cycle Introduces EU Control Plane as Sovereignty Debate Continues",
-      "link": "https://www.infoq.com/news/2026/07/cycle-eu-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cycle recently introduced a separate EU-based control plane, allowing European customers to keep platform management data and telemetry within Europe. The new offering is designed to improve compliance, operational isol…",
-      "ts": 1783152900,
-      "published": "2026-07-04T08:15:00+00:00",
       "collected_at": null
     }
   ]
