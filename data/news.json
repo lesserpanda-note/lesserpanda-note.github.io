@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-04T06:07:13+09:00",
-  "count": 875,
+  "updated": "2026-08-04T08:05:28+09:00",
+  "count": 876,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,16 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+      "link": "https://www.latent.space/p/inference-eng",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Baseten just raised a $13B Series F and is now one of the leading kings of inference engineering. We go into everything you need to know for autoregressive and diffusion engineering.",
+      "ts": 1785793443,
+      "published": "2026-08-03T21:44:03+00:00",
+      "collected_at": "2026-08-04T08:05:09+09:00"
     },
     {
       "title": "Azure and Community Guidelines on Choosing Between a Skill or a Sub-Agent",
@@ -51,6 +61,16 @@
       "ts": 1785774600,
       "published": "2026-08-03T16:30:00+00:00",
       "collected_at": "2026-08-04T02:54:42+09:00"
+    },
+    {
+      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
+      "link": "https://armature.tech/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Hi HN! We’re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought. You wr…",
+      "ts": 1785773879,
+      "published": "2026-08-03T16:17:59+00:00",
+      "collected_at": "2026-08-04T08:05:09+09:00"
     },
     {
       "title": "Quoting David Crawshaw's prompt",
@@ -8740,16 +8760,6 @@
       "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4 @modelcontextprotocol/server-sequential-thinking@2026.7.4 @modelcontextprotocol/serv…",
       "ts": 1783206356,
       "published": "2026-07-04T23:05:56+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Better Models: Worse Tools",
-      "link": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Better Models: Worse Tools Armin reports on a weird problem he ran into while hacking on Pi: The short version is that newer Claude models sometimes call Pi’s edit tool with extra, invented fields in the nested edits[]…",
-      "ts": 1783205632,
-      "published": "2026-07-04T22:53:52+00:00",
       "collected_at": null
     }
   ]
