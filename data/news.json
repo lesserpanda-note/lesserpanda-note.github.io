@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-04T14:51:49+09:00",
+  "updated": "2026-08-04T17:43:32+09:00",
   "count": 879,
   "items": [
+    {
+      "title": "v0.19.3",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.3",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed fix: resolve agent tool name collisions consistently by @seratch in #4137 fix: reconcile resumed tool name collisions by @seratch in #4145 fix: persist the max-turns handler output to the session by @LeSi…",
+      "ts": 1785827868,
+      "published": "2026-08-04T07:17:48+00:00",
+      "collected_at": "2026-08-04T17:43:28+09:00"
+    },
+    {
+      "title": "Swarm of OpenAI Agents Exploit Artifactory Zero-Day to Escape Sandbox and Breach Hugging Face",
+      "link": "https://www.infoq.com/news/2026/08/openai-huggingface-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Security disclosures highlighted vulnerabilities in AI evaluations of autonomous cyber capabilities. Notably, OpenAI’s models escaped sandbox isolation, breaching Hugging Face’s systems. The incident involved a multi-st…",
+      "ts": 1785825720,
+      "published": "2026-08-04T06:42:00+00:00",
+      "collected_at": "2026-08-04T17:43:28+09:00"
+    },
     {
       "title": "[AINews] Qwen 3.8 Max(2.4T) and 27B, new open weights models for Coding and Cowork",
       "link": "https://www.latent.space/p/ainews-qwen-38-max24t-and-27b-new",
@@ -8770,26 +8790,6 @@
       "summary": "AWS recently announced Amazon S3 Annotations, a feature that lets teams attach rich, searchable context such as summaries, classifications, compliance data, or AI-generated insights directly to S3 objects. Annotations c…",
       "ts": 1783241700,
       "published": "2026-07-05T08:55:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It",
-      "link": "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Claude models reached GA on Microsoft Foundry with Azure-native billing and governance, but no European data zone exists. Anthropic's own documentation confirms data residency guarantees apply to Bedrock and Vertex AI b…",
-      "ts": 1783239180,
-      "published": "2026-07-05T08:13:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Claude Reaches GA on Microsoft Foundry: European Enterprises Cannot Deploy It",
-      "link": "https://www.infoq.com/news/2026/07/claude-foundry-ga-europe/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Claude models reached GA on Microsoft Foundry with Azure-native billing and governance, but no European data zone exists. Anthropic's own documentation confirms data residency guarantees apply to Bedrock and Vertex AI b…",
-      "ts": 1783239180,
-      "published": "2026-07-05T08:13:00+00:00",
       "collected_at": null
     }
   ]
