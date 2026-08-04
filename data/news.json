@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-04T09:20:48+09:00",
-  "count": 875,
+  "updated": "2026-08-04T11:51:22+09:00",
+  "count": 876,
   "items": [
+    {
+      "title": "v2.23.0 (2026-08-03)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.23.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add Bedrock support for ModelSettings.extra_headers by @kkauy in #4825 Restore stable gemini-3-pro-image and gemini-3.1-flash-image Gateway aliases by @adtyavrdhn in #7069 Add cost to RunUsage…",
+      "ts": 1785808022,
+      "published": "2026-08-04T01:47:02+00:00",
+      "collected_at": "2026-08-04T11:51:17+09:00"
+    },
+    {
+      "title": "Quoting Steve Yegge",
+      "link": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Gas Town was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the…",
+      "ts": 1785804165,
+      "published": "2026-08-04T00:42:45+00:00",
+      "collected_at": "2026-08-04T11:51:17+09:00"
+    },
     {
       "title": "Disrupting a Criminal Scam Operation",
       "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
@@ -381,6 +401,16 @@
       "ts": 1785716575,
       "published": "2026-08-03T00:22:55+00:00",
       "collected_at": "2026-08-03T21:28:31+09:00"
+    },
+    {
+      "title": "Circles powers telco personalization with OpenAI technology",
+      "link": "https://openai.com/index/circles",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency.",
+      "ts": 1785715200,
+      "published": "2026-08-03T00:00:00+00:00",
+      "collected_at": "2026-08-04T11:51:17+09:00"
     },
     {
       "title": "condense-json 1.0",
@@ -8730,26 +8760,6 @@
       "summary": "Claude models reached GA on Microsoft Foundry with Azure-native billing and governance, but no European data zone exists. Anthropic's own documentation confirms data residency guarantees apply to Bedrock and Vertex AI b…",
       "ts": 1783239180,
       "published": "2026-07-05T08:13:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25)",
-      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I wrote about the sqlite-utils 4.0rc1 release a couple of weeks ago. Since we only have Claude Fable on our Max subscriptions for a few more days, I decided to see if it could help me get to a 4.0 stable release that I…",
-      "ts": 1783213248,
-      "published": "2026-07-05T01:00:48+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "sqlite-utils 4.0rc2",
-      "link": "https://simonwillison.net/2026/Jul/5/sqlite-utils/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: sqlite-utils 4.0rc2 See sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25) .",
-      "ts": 1783212458,
-      "published": "2026-07-05T00:47:38+00:00",
       "collected_at": null
     }
   ]
