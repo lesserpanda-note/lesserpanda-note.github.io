@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-04T08:05:28+09:00",
-  "count": 876,
+  "updated": "2026-08-04T09:20:48+09:00",
+  "count": 875,
   "items": [
     {
       "title": "Disrupting a Criminal Scam Operation",
@@ -11,6 +11,16 @@
       "ts": 1785801600,
       "published": "2026-08-04T00:00:00+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
+    },
+    {
+      "title": "Don't be a meat proxy",
+      "link": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Don't be a meat proxy Niklas Gruhn coins an excellent new term - meat proxy - for people who blindly copy and paste the output of AI systems to their peers. By all means, prompt AI. But don't just relay the output. Read…",
+      "ts": 1785800704,
+      "published": "2026-08-03T23:45:04+00:00",
+      "collected_at": "2026-08-04T09:20:23+09:00"
     },
     {
       "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
@@ -8740,26 +8750,6 @@
       "summary": "Release: sqlite-utils 4.0rc2 See sqlite-utils 4.0rc2, mostly written by Claude Fable (for about $149.25) .",
       "ts": 1783212458,
       "published": "2026-07-05T00:47:38+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Building a World Map with only 500 bytes",
-      "link": "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Building a World Map with only 500 bytes Iwo Kadziela (assisted by Codex) figured out a way to generate a credible ASCII world map using 445 bytes of data: The key trick is to use deflate compression, which is then wire…",
-      "ts": 1783206542,
-      "published": "2026-07-04T23:09:02+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Release 2026.7.4",
-      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.7.4",
-      "source": "MCP servers",
-      "category": "Agents",
-      "summary": "Release : v2026.7.4 Updated packages @modelcontextprotocol/server-everything@2026.7.4 @modelcontextprotocol/server-filesystem@2026.7.4 @modelcontextprotocol/server-sequential-thinking@2026.7.4 @modelcontextprotocol/serv…",
-      "ts": 1783206356,
-      "published": "2026-07-04T23:05:56+00:00",
       "collected_at": null
     }
   ]
