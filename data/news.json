@@ -1,7 +1,57 @@
 {
-  "updated": "2026-08-04T23:24:16+09:00",
-  "count": 891,
+  "updated": "2026-08-05T01:55:36+09:00",
+  "count": 897,
   "items": [
+    {
+      "title": "The Medallion Data Architecture: An Introduction",
+      "link": "https://towardsdatascience.com/the-medallion-data-architecture/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A practical guide to Bronze, Silver and Gold, with a working Python and DuckDB example The post The Medallion Data Architecture: An Introduction appeared first on Towards Data Science .",
+      "ts": 1785861000,
+      "published": "2026-08-04T16:30:00+00:00",
+      "collected_at": "2026-08-05T01:55:28+09:00"
+    },
+    {
+      "title": "Presentation: The Five Stages of AI Maturity in Engineering Organizations - Where and Why Teams Get Stuck",
+      "link": "https://www.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Quotient CEO Lizzie Matusov explains why soaring AI spend often fails to improve software delivery. She presents a research-backed AI maturity framework designed to help engineering leaders move beyond vanity metrics li…",
+      "ts": 1785859200,
+      "published": "2026-08-04T16:00:00+00:00",
+      "collected_at": "2026-08-05T01:55:28+09:00"
+    },
+    {
+      "title": "Presentation: The Five Stages of AI Maturity in Engineering Organizations - Where and Why Teams Get Stuck",
+      "link": "https://www.infoq.com/presentations/ai-sdlc-maturity-framework-bottlenecks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Quotient CEO Lizzie Matusov explains why soaring AI spend often fails to improve software delivery. She presents a research-backed AI maturity framework designed to help engineering leaders move beyond vanity metrics li…",
+      "ts": 1785859200,
+      "published": "2026-08-04T16:00:00+00:00",
+      "collected_at": "2026-08-05T01:55:28+09:00"
+    },
+    {
+      "title": "How to Get More Statistical Power from Fewer Research Participants",
+      "link": "https://towardsdatascience.com/increasing-statistical-power-with-more-problems/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "An online simulation and a novel method for increasing power The post How to Get More Statistical Power from Fewer Research Participants appeared first on Towards Data Science .",
+      "ts": 1785855600,
+      "published": "2026-08-04T15:00:00+00:00",
+      "collected_at": "2026-08-05T01:55:28+09:00"
+    },
+    {
+      "title": "Agent skills that bring team coding standards to Claude Code and Codex",
+      "link": "https://github.com/tikalk/adlc-team-skills",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/tikalk/adlc-team-skills Comments URL: https://news.ycombinator.com/item?id=49169640 Points: 71 # Comments: 36",
+      "ts": 1785854311,
+      "published": "2026-08-04T14:38:31+00:00",
+      "collected_at": "2026-08-05T01:55:28+09:00"
+    },
     {
       "title": "Measuring Performance of Transformer Inference",
       "link": "https://machinelearningmastery.com/measuring-performance-of-transformer-inference/",
@@ -233,6 +283,16 @@
       "collected_at": "2026-08-01T02:42:30+09:00"
     },
     {
+      "title": "Python 3.15.0 candidate 1 is here!",
+      "link": "https://blog.python.org/2026/08/python-3150-rc1/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Get those wheels rolling!",
+      "ts": 1785801600,
+      "published": "2026-08-04T00:00:00+00:00",
+      "collected_at": "2026-08-05T01:55:28+09:00"
+    },
+    {
       "title": "Don't be a meat proxy",
       "link": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
       "source": "Simon Willison",
@@ -361,6 +421,16 @@
       "ts": 1785769200,
       "published": "2026-08-03T15:00:00+00:00",
       "collected_at": "2026-08-04T00:45:33+09:00"
+    },
+    {
+      "title": "Inside our 353,000-person vibe coding course",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Illustrations of a laptop, an AI spark, messages, code, and a 3-D cube",
+      "ts": 1785769200,
+      "published": "2026-08-03T15:00:00+00:00",
+      "collected_at": "2026-08-05T01:55:28+09:00"
     },
     {
       "title": "Decoding Strategies and Output Control",
@@ -8900,16 +8970,6 @@
       "summary": "Article URL: https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/ Comments URL: https://news.ycombinator.com/item?id=48795826 Points: 125 # Comments: 131",
       "ts": 1783271135,
       "published": "2026-07-05T17:05:35+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Assemble Each RAG Generation Prompt from a Base Prompt Plus the Rules Each Question Needs",
-      "link": "https://towardsdatascience.com/assemble-each-rag-generation-prompt-from-a-base-prompt-plus-the-rules-each-question-needs/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #8B] - A fixed BASE, the rules each question needs, one registry: the dispatcher that turns a parsed question into a typed LLM call The post Assemble Each RAG Generation Prompt fr…",
-      "ts": 1783263600,
-      "published": "2026-07-05T15:00:00+00:00",
       "collected_at": null
     }
   ]
