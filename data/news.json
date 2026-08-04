@@ -1,7 +1,167 @@
 {
-  "updated": "2026-08-04T20:28:01+09:00",
-  "count": 878,
+  "updated": "2026-08-04T23:24:16+09:00",
+  "count": 891,
   "items": [
+    {
+      "title": "Measuring Performance of Transformer Inference",
+      "link": "https://machinelearningmastery.com/measuring-performance-of-transformer-inference/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "This chapter is divided into eight parts; they are: • Metrics for LLM Inference • Measuring a Single Request • Warmup and Synchronization • Measuring GPU Work with CUDA Events • Measuring Memory Usage • Measuring Concur…",
+      "ts": 1785852056,
+      "published": "2026-08-04T14:00:56+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "I Replaced Pip, Virtualenv, and Poetry With uv: Here’s Why",
+      "link": "https://www.kdnuggets.com/i-replaced-pip-virtualenv-and-poetry-with-uv-heres-why",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "uv is making my life easier by giving me one fast tool for package installation, virtual environments, lock files, Python versions, and running project commands.",
+      "ts": 1785852056,
+      "published": "2026-08-04T14:00:56+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Sending Emails Using Python",
+      "link": "https://realpython.com/courses/sending-emails-using-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to send emails with Python using SMTP and smtplib, attach files, format HTML messages, and personalize bulk emails.",
+      "ts": 1785852000,
+      "published": "2026-08-04T14:00:00+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Deploy local agents everywhere with LFM2.5-2.6B",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1785851909,
+      "published": "2026-08-04T13:58:29+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Are Home Teams Favoured by Referees in Football/Soccer?",
+      "link": "https://towardsdatascience.com/are-home-teams-favoured-by-referees-in-football-soccer/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Data Storytelling Series, Chapter 1 The post Are Home Teams Favoured by Referees in Football/Soccer? appeared first on Towards Data Science .",
+      "ts": 1785850200,
+      "published": "2026-08-04T13:30:00+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Stand-up comedy—like teaching, and book writing—requires “a collaboration with the audience.”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/04/53426/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In our bathroom we have this book, “And here’s the kicker: Conversations with 21 top humor writers on their craft,” edited by Mike Sacks. It’s well suited for the throne, as you can dip in and read as little or … Contin…",
+      "ts": 1785848735,
+      "published": "2026-08-04T13:05:35+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "The latest AI news we announced in July 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "July AI recap header",
+      "ts": 1785848400,
+      "published": "2026-08-04T13:00:00+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Agent Harness vs Loop vs Graph Engineering: A Technical Guide",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/agent-harness-loop-graph-engineering/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "One of your colleagues asserts that “we require improved loop engineering,” yet the fundamental issue lies within the harness itself. Others may create graphs with 40 nodes before they observe how the agent executes a g…",
+      "ts": 1785846675,
+      "published": "2026-08-04T12:31:15+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Fragments: August 4",
+      "link": "https://martinfowler.com/fragments/2026-08-04.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "There’s been a fair bit of publicity of the Open AI “rogue agent” that hacked into Hugging Face . This prompted Anthropic to check what their models were up to and, to my complete lack of surprise, discovered three inci…",
+      "ts": 1785845280,
+      "published": "2026-08-04T12:08:00+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "7 Approaches to Reduce Inference Latency in Your LLM Workflows",
+      "link": "https://www.kdnuggets.com/7-approaches-to-reduce-inference-latency-in-your-llm-workflows",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "From quantization to speculative decoding, here are seven engineering strategies to ship faster, more responsive generative AI applications in production.",
+      "ts": 1785844859,
+      "published": "2026-08-04T12:00:59+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Static vs. Dynamic vs. Continuous Batching in LLM Inference",
+      "link": "https://machinelearningmastery.com/static-vs-dynamic-vs-continuous-batching-in-llm-inference/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how static, dynamic, and continuous batching work in LLM inference, and why the differences between them matter at production...",
+      "ts": 1785844810,
+      "published": "2026-08-04T12:00:10+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success",
+      "link": "https://www.infoq.com/news/2026/08/perforce-maturity-ai-success/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Platform engineering maturity is emerging as an important factor in determining whether organizations can turn AI adoption into sustainable operational value, according to Perforce Software's 2026 Platform Engineering R…",
+      "ts": 1785844800,
+      "published": "2026-08-04T12:00:00+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Quiz: Sending Emails Using Python",
+      "link": "https://realpython.com/quizzes/sending-emails-using-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test what you know about sending email from Python with smtplib, building messages with EmailMessage, and connecting to real servers over SSL.",
+      "ts": 1785844800,
+      "published": "2026-08-04T12:00:00+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Quiz: K-Means Clustering in Python: A Practical Guide",
+      "link": "https://realpython.com/quizzes/k-means-clustering-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check how well you know k-means clustering in Python, from picking the number of clusters to building and tuning a scikit-learn pipeline.",
+      "ts": 1785844800,
+      "published": "2026-08-04T12:00:00+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Using Agents as Tools",
+      "link": "https://towardsdatascience.com/using-agents-as-tools/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Building manager–specialist workflows with the OpenAI Agents SDK The post Using Agents as Tools appeared first on Towards Data Science .",
+      "ts": 1785844800,
+      "published": "2026-08-04T12:00:00+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
+    {
+      "title": "Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns",
+      "link": "https://www.infoq.com/presentations/microservices-platform-team-topology/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Chris Richardson discusses leveraging Team Topologies and internal platforms to accelerate microservices delivery. He explains six key platform patterns - from security and observability to build and deployment - and sh…",
+      "ts": 1785843900,
+      "published": "2026-08-04T11:45:00+00:00",
+      "collected_at": "2026-08-04T23:24:10+09:00"
+    },
     {
       "title": "Kodee’s Kotlin Roundup: Birthday Wishes, Shipaton 2026, and the New Kotlin AI Benchmark",
       "link": "https://blog.jetbrains.com/kotlin/2026/08/kodees-kotlin-roundup-birthday-wishes-shipaton-2026-and-the-new-kotlin-ai-benchmark/",
@@ -8750,36 +8910,6 @@
       "summary": "Enterprise Document Intelligence [Vol.1 #8B] - A fixed BASE, the rules each question needs, one registry: the dispatcher that turns a parsed question into a typed LLM call The post Assemble Each RAG Generation Prompt fr…",
       "ts": 1783263600,
       "published": "2026-07-05T15:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The NIH wants to “Measure and Reward Scientific Impact and Replicable Research Practices.” Here’s my recommendation to the NIH director: you can start by no longer suppressing government reports whos…",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/05/n2/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This came in the email from the U.S. National Institutes of Health: How Would You Measure and Reward Scientific Impact and Replicable Research Practices? As NIH continues efforts to strengthen rigor, reproducibility, an…",
-      "ts": 1783259556,
-      "published": "2026-07-05T13:52:36+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Funding Open Source Without The Bait And Switch: Analytics, Native Maps, TV And More",
-      "link": "https://foojay.io/today/funding-open-source-without-the-bait-and-switch-analytics-native-maps-tv-and-more/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "This week adds a privacy-first analytics API, a pure-vector map engine with pluggable native providers, Apple TV and Android TV support with CSS @media for form factors, rich text and code editors, and device integrity…",
-      "ts": 1783258860,
-      "published": "2026-07-05T13:41:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "PANet Paper Walkthrough: When Feature Pyramids Go Bottom-Up",
-      "link": "https://towardsdatascience.com/panet-paper-walkthrough-when-feature-pyramids-go-bottom-up/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Understanding how PANet shortens the path between low-level and high-level features The post PANet Paper Walkthrough: When Feature Pyramids Go Bottom-Up appeared first on Towards Data Science .",
-      "ts": 1783256400,
-      "published": "2026-07-05T13:00:00+00:00",
       "collected_at": null
     }
   ]
