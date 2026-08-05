@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-05T07:16:12+09:00",
+  "updated": "2026-08-05T09:07:33+09:00",
   "count": 906,
   "items": [
+    {
+      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+      "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned co…",
+      "ts": 1785887904,
+      "published": "2026-08-04T23:58:24+00:00",
+      "collected_at": "2026-08-05T09:07:11+09:00"
+    },
+    {
+      "title": "dotnet-1.17.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.17.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "What's Changed .NET and Python: Extract Durable Task and Azure Functions integrations by @cgillum in #7465 .NET: Fix Handoff orchestration sample not responding to user input by @peibekwe in #7442 .NET: Fail declarative…",
+      "ts": 1785886038,
+      "published": "2026-08-04T23:27:18+00:00",
+      "collected_at": "2026-08-05T09:07:11+09:00"
+    },
+    {
+      "title": "Survey Statistics: structured MRP to smooth survey weights",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/04/survey-statistics-structured-mrp-to-smooth-survey-weights/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Last week, Raphael K shared a concern: adjusting for lots of variables can lead to very large weights. So today let’s dive into Si et al. 2020, who saw this in constructing survey weights for the NYC Longitudinal Study…",
+      "ts": 1785883701,
+      "published": "2026-08-04T22:48:21+00:00",
+      "collected_at": "2026-08-05T09:07:11+09:00"
+    },
     {
       "title": "Idempotent REST Endpoints Without the Boilerplate",
       "link": "https://foojay.io/today/idempotent-spring-boot-starter/",
@@ -9030,36 +9060,6 @@
       "summary": "Introduction For quite some time, I have been a huge fan of and fascinated by JetBrains products, tools, and libraries because of their masterful craftsmanship in product creation and their pristine focus on building hi…",
       "ts": 1783309140,
       "published": "2026-07-06T03:39:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "🤗 Kernels: Major Updates",
-      "link": "https://huggingface.co/blog/revamped-kernels",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1783296000,
-      "published": "2026-07-06T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "A New Home for Spring Cloud Contract: Transitioning to Stubborn.sh",
-      "link": "https://spring.io/blog/2026/07/06/spring-cloud-contract-transition-to-stubbornsh",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "For years, Spring Cloud Contract has been an important tool for developers building consumer-driven contracts and ensuring reliable microservices communication. Today, we are announcing an exciting transition for the pr…",
-      "ts": 1783296000,
-      "published": "2026-07-06T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Spring Office Hours Podcast: S5E17 - Spring Boot 4.1 with Phil Webb",
-      "link": "https://spring.io/blog/2026/07/06/spring-office-hours-podcast-S5E17",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun are joined by Spring Boot co-creator and project lead Phil Webb to dig into what's new in Spring Boot 4…",
-      "ts": 1783296000,
-      "published": "2026-07-06T00:00:00+00:00",
       "collected_at": null
     }
   ]
