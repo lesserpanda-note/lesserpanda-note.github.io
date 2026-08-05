@@ -1,6 +1,89 @@
 {
   "digests": [
     {
+      "date": "2026-08-04",
+      "summary": "오늘은 Microsoft Agent Framework의 GA 출시와 OpenAI GPT-Live의 실시간 음성 AI 시스템 공개 등 AI 인프라 분야에서 중요한 이정표가 세워졌습니다. Java 생태계에서는 JDK 28 JEP 진행 상황과 JVM 위에서의 WebAssembly 발전이 주목받았으며, 아키텍처 분야에서는 변경 지역성 보존을 통한 진화 가능한 설계와 HashiCorp의 Vault Kubernetes 키 관리 퍼블릭 베타가 화제였습니다. Python 생태계에서는 MCP의 대규모 재작성이, 통계 분야에서는 플라시보 테스트에 베이지안 다층 모델을 적용하는 엄밀한 접근법이 소개되었습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java News Roundup: OpenJDK JEPs, Jakarta EE, GraalVM, TornadoVM, Micronaut, Quarkus, JobRunr, Maven",
+          "link": "https://www.infoq.com/news/2026/08/java-news-roundup-jul27-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "2026년 7월 4주차 Java 생태계 주요 소식을 정리한 라운드업으로, OpenJDK JEP 진행 상황부터 주요 프레임워크 릴리스까지 한눈에 살펴볼 수 있습니다.",
+          "detail": "7월 27일 기준 Java 생태계 주요 소식: JDK 28을 대상으로 한 OpenJDK JEP가 추가로 지정 및 제안되었습니다. GPULlama3.java 1.0이 GA 릴리스를 달성하여 Java에서 GPU 가속 LLM 추론이 가능해졌습니다. Micronaut, Quarkus, JobRunr의 포인트 릴리스가 이루어졌으며, Jakarta EE 관련 업데이트와 GraalVM, TornadoVM의 최신 개발 현황도 포함되었습니다. Maven의 업데이트도 이번 주 주목할 만한 소식 중 하나입니다. Java 개발자라면 놓치지 말아야 할 한 주간의 에코시스템 변화를 압축적으로 담고 있습니다."
+        },
+        {
+          "category": "Java",
+          "title": "Podcast: WebAssembly on the JVM: Feature Evolution, Performance, and the Transition to Endive",
+          "link": "https://www.infoq.com/podcasts/feature-evolution-performance-transition-endive/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "JVM 위에서의 WebAssembly 발전 방향과 성능 개선, 서버 사이드 활용 가능성을 다룬 팟캐스트로, Endive 프로젝트로의 전환 과정을 상세히 설명합니다.",
+          "detail": "Andrea Peruffo가 브라우저 밖에서 WebAssembly가 어떻게 서버 사이드 JVM 환경으로 확장되고 있는지를 설명합니다. 인터프리터 방식에서 효율적인 JIT 컴파일로 전환하며 Wasm 런타임의 성능이 크게 향상되었습니다. Endive 프로젝트로의 전환 과정과 기능 진화 현황, JVM에서 WebAssembly를 실행할 때의 실질적인 성능 특성을 다룹니다. JVM 개발자가 Wasm을 통해 다양한 언어로 작성된 모듈을 안전하게 실행하는 방법과, 서버 사이드 Wasm이 마이크로서비스 환경에서 갖는 잠재력에 대한 인사이트를 제공합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
+          "link": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Microsoft의 Agent Framework가 정식 GA 단계에 진입하며, Agent Harness와 GitHub Copilot·Claude Agent SDK 커넥터, 오케스트레이션 패턴이 안정화되었습니다.",
+          "detail": "Build 2026에서 발표된 Microsoft Agent Framework의 핵심 컴포넌트들이 GA를 달성했습니다. Agent Harness는 에이전트의 실행 런타임으로, GitHub Copilot과 Claude Agent SDK 커넥터를 통해 다양한 AI 에이전트를 통합 관리할 수 있습니다. Foundation 모델 연결과 오케스트레이션 패턴도 함께 안정화되어 엔터프라이즈 환경에서의 에이전트 개발 및 배포가 가능해졌습니다. Hosted Agent 기능을 통해 서버 호스팅 방식의 에이전트 운영도 지원하며, 기업 환경에서의 AI 에이전트 도입을 위한 공식 지원 체계가 갖추어졌습니다."
+        },
+        {
+          "category": "AI",
+          "title": "How we built a realtime system for responsive voice AI in six months",
+          "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+          "summary": "OpenAI가 6개월 만에 개발한 GPT-Live의 기술 구조를 공개했으며, 턴 없는 음성 모델과 저지연 아키텍처로 더 자연스러운 AI 음성 대화를 구현했습니다.",
+          "detail": "OpenAI의 GPT-Live는 기존의 턴 기반 대화 방식을 벗어나 연속적인 음성 상호작용을 가능하게 하는 실시간 시스템입니다. 핵심은 'turnless speech model'로, 사용자가 말하는 중에도 AI가 반응할 수 있어 더욱 자연스러운 대화 흐름을 만들어냅니다. 저지연 아키텍처를 통해 응답 속도를 크게 단축시켰으며, 6개월이라는 짧은 기간 안에 프로덕션 수준의 시스템으로 구축했습니다. 이 시스템은 대화 중 끊김 없는 상호작용을 위한 기술 기반을 제시하며 음성 AI 경험의 새로운 기준을 제안합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "The Inference Engineering Masterclass — Philip Kiely & Ali Taha, Baseten",
+          "link": "https://www.latent.space/p/inference-eng",
+          "summary": "$130억 Series F를 유치한 Baseten의 엔지니어들이 오토레그레시브 모델과 디퓨전 모델의 추론 엔지니어링 핵심 개념을 심층 설명한 마스터클래스입니다.",
+          "detail": "Latent Space 팟캐스트에서 Baseten의 Philip Kiely와 Ali Taha가 추론 엔지니어링의 핵심을 다룬 마스터클래스를 공개했습니다. Baseten은 최근 약 $130억 규모의 Series F 투자를 유치하며 추론 인프라 분야의 선두주자로 부상했습니다. 오토레그레시브 생성(GPT 계열)과 디퓨전 모델의 추론 최적화 전략 차이를 비교하며, 배치 처리, KV 캐시 관리, 하드웨어 활용 효율화 등 실전 추론 엔지니어링의 핵심 기법들을 상세히 설명합니다. AI 에이전트 인프라를 구축하거나 모델 서빙 비용을 최적화하려는 엔지니어에게 필수적인 내용입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "A Guide to Saving Token Usage with Multi-Agent AI",
+          "link": "https://www.kdnuggets.com/a-guide-to-saving-token-usage-with-multi-agent-ai",
+          "summary": "멀티 에이전트 AI 아키텍처에서 비용을 늘리지 않고 효율을 높이는 4가지 토큰 절약 전략을 소개합니다.",
+          "detail": "멀티 에이전트 시스템을 확장할수록 토큰 비용이 기하급수적으로 증가하는 문제를 다루며, 이를 제어하기 위한 실용적인 4가지 전략을 제안합니다. 핵심 전략으로는 에이전트 간 컨텍스트 공유 최적화, 작업 분해를 통한 불필요한 컨텍스트 전달 최소화, 프롬프트 캐싱 활용, 그리고 작업 유형에 따른 모델 선택 최적화가 포함됩니다. 대규모 멀티 에이전트 시스템에서도 아키텍처 설계를 통해 비용을 통제할 수 있음을 보여주는 실용적인 가이드입니다. 프로덕션 환경에서 에이전트 비용을 관리하는 개발자에게 유용한 참고 자료입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Article: Enabling Evolutionary Architecture Through the Preservation of Change Locality",
+          "link": "https://www.infoq.com/articles/evolutionary-architecture-change-locality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "팀 간 협상 없이 독립적으로 변경할 수 있는 코드베이스를 만들기 위해 '변경 지역성(Change Locality)'을 어떻게 보존해야 하는지를 다룬 아키텍처 심층 분석 글입니다.",
+          "detail": "간단한 기능 하나가 여러 팀 간 협상을 필요로 하는 이유는 '경계 드리프트(boundary drift)' 때문입니다. 이 글은 시스템이 성장하면서 경계가 서서히 무너지고 변경 지역성이 파괴되는 과정을 분석합니다. 변경 지역성이란 하나의 변경이 시스템의 좁은 영역에만 영향을 미치는 특성으로, 이것이 보존될 때 팀이 자율적으로 움직일 수 있습니다. 실용적인 소셜-기술적(sociotechnical) 전략으로 경계 드리프트를 인식하고 수정하는 방법, 그리고 진화 가능한 아키텍처를 유지하는 구체적인 기법들을 제시합니다. 코드 구조와 팀 구조의 정렬(alignment)이 핵심이라는 점을 강조합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "HashiCorp Ships Public Beta of Vault Kubernetes Key Management",
+          "link": "https://www.infoq.com/news/2026/08/vault-kubernetes-key-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "HashiCorp가 Vault Kubernetes 키 관리 퍼블릭 베타를 출시하여, Kubernetes API 서버가 봉투 암호화 키를 Vault Enterprise에 위임할 수 있게 했습니다.",
+          "detail": "HashiCorp가 KMS v2 호환 플러그인인 Vault Kubernetes Key Management의 퍼블릭 베타를 공개했습니다. 이 플러그인은 Kubernetes API 서버가 봉투 암호화(envelope encryption)를 Vault Enterprise에 위임할 수 있도록 하며, 키 암호화 키(KEK)를 Kubernetes 클러스터 외부의 Vault에 안전하게 보관합니다. KMS v2 API와의 호환성을 통해 기존 Kubernetes 환경과 자연스럽게 통합되며, Vault의 감사 로깅 및 접근 제어 기능을 활용하여 규정 준수 요구사항을 충족할 수 있습니다. 시크릿 관리와 키 수명주기 관리를 중앙화하려는 엔터프라이즈 Kubernetes 운영팀에게 중요한 보안 기능입니다."
+        },
+        {
+          "category": "Python",
+          "title": "MCP Gets Its Biggest Rewrite and Other Python News for August 2026",
+          "link": "https://realpython.com/python-news-august-2026/",
+          "summary": "MCP가 세션을 제거하고 FastMCP를 공식 이름으로 채택하는 대규모 재작성을 단행했으며, Claude Opus 5 기본 thinking 활성화, Python 3.15 최종 베타 출시 등 8월 주요 Python 뉴스를 다룹니다.",
+          "detail": "2026년 8월 Python 생태계 주요 소식: MCP(Model Context Protocol)가 가장 큰 규모의 재작성을 거쳤습니다. 세션 개념이 제거되고 FastMCP가 공식 명칭으로 채택되어 API 구조가 단순화되었습니다. Claude Opus 5에서는 사고 과정(thinking)이 기본적으로 활성화되도록 변경되어 추론 능력이 강화되었습니다. Python 3.15가 최종 베타 버전을 출시하여 정식 릴리스가 임박했습니다. MCP 생태계의 변화는 Python 기반 AI 에이전트 및 LLM 통합 개발에 직접적인 영향을 미치며, 기존 MCP 구현체들의 마이그레이션이 필요할 수 있습니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "\"Placebo tests deserve a model, not just a glance.\"",
+          "link": "https://statmodeling.stat.columbia.edu/2026/08/03/placebo-tests-deserve-a-model-not-just-a-glance/",
+          "summary": "플라시보 테스트에 베이지안 다층 모델을 적용하여 편향을 교정하고 불확실성을 보정해야 한다는 주장으로, 단순 시각 검사를 넘어선 통계적 엄밀성을 제안합니다.",
+          "detail": "Miha Gazvoda가 Andrew Gelman의 Statistical Modeling 블로그에 공유한 글로, 부제는 '베이지안 다층 모델로 편향 교정 및 불확실성 보정'입니다. 플라시보 테스트는 회귀 불연속(Regression Discontinuity) 분석의 유효성을 검증하는 데 자주 쓰이지만, 대부분의 연구자들이 단순한 그래프 시각 검사에 의존합니다. 이 연구는 Slamming the Sham 논문에서 소개된 닭 모델을 활용하여, 플라시보 테스트에도 정식 베이지안 다층 모델을 적용해야 한다는 주장을 펼칩니다. 모델 기반 접근은 편향 교정과 불확실성 정량화를 가능하게 하여 더 신뢰할 수 있는 인과추론 검증 결과를 제공합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Decoding Strategies and Output Control",
+          "link": "https://machinelearningmastery.com/decoding-strategies-and-output-control/",
+          "summary": "언어 모델 텍스트 생성 과정에서 사용되는 주요 디코딩 전략들(탐욕적 디코딩, 온도 샘플링, Top-k, Nucleus 샘플링 등)을 9개 파트로 체계적으로 설명합니다.",
+          "detail": "언어 모델이 다음 토큰을 선택하는 방식인 디코딩 전략에 대한 체계적인 가이드입니다. 총 9개 파트로 구성됩니다: (1) 모델에서 로짓(Logits) 읽기, (2) 탐욕적 디코딩(항상 최고 확률 토큰 선택), (3) 온도 샘플링(temperature로 분포 조절), (4) Top-k 샘플링(상위 k개 토큰 중 선택), (5) 뉴클리어스 샘플링(누적 확률 p 이내 선택), (6) 반복 패널티, (7) 빔 서치, (8) 정지 조건, (9) 스트리밍 출력. 각 전략의 수학적 원리와 실제 사용 사례를 설명하며, LLM 출력 품질과 다양성을 제어하는 방법을 이해하는 데 도움이 됩니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-03",
       "summary": "오늘은 AI 에이전트 분야에서 안전성과 실용성 두 측면이 모두 주목받았습니다. 에이전트 정렬 실패 현상의 위험성과 LangGraph를 활용한 업무 프로세스 자동화 사례가 관심을 끌었으며, 아키텍처 분야에서는 Cloudflare의 Meerkat이 리더리스 합의 방식으로 글로벌 분산 조정 문제를 해결하는 새로운 접근을 제시했습니다. 통계 분야에서는 알려지지 않은 미지(Unknown Unknowns)가 회귀 불연속 분석 오류의 근본 원인이 될 수 있다는 통찰을 공유했습니다.",
       "highlights": [
