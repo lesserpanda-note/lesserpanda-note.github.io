@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-05T19:39:54+09:00",
+  "updated": "2026-08-05T21:56:31+09:00",
   "count": 907,
   "items": [
+    {
+      "title": "Turn Any CSV into an Executive Report with Python and AI",
+      "link": "https://www.kdnuggets.com/turn-any-csv-into-an-executive-report-with-python-and-ai",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn to implement a repeatable pipeline that cleans a CSV, finds the story, and writes it up.",
+      "ts": 1785931218,
+      "published": "2026-08-05T12:00:18+00:00",
+      "collected_at": "2026-08-05T21:56:25+09:00"
+    },
+    {
+      "title": "Quiz: Validating Data With Pointblank in Python",
+      "link": "https://realpython.com/quizzes/python-pointblank/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Validate data in Python with Pointblank. Declare quality checks, split clean rows from failing ones, and rerun validation plans from YAML.",
+      "ts": 1785931200,
+      "published": "2026-08-05T12:00:00+00:00",
+      "collected_at": "2026-08-05T21:56:25+09:00"
+    },
+    {
+      "title": "Building Document Structure with Loop Engineering: Recovering a PDF’s Outline from Body Typography for RAG",
+      "link": "https://towardsdatascience.com/building-document-structure-with-loop-engineering-recovering-a-pdfs-outline-from-body-typography-for-rag/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5octies] - Rules propose, LLM validates: six deterministic signals on span-level typography surface heading candidates, one bounded loop keeps the real ones, and the same toc_df…",
+      "ts": 1785931200,
+      "published": "2026-08-05T12:00:00+00:00",
+      "collected_at": "2026-08-05T21:56:25+09:00"
+    },
+    {
+      "title": "Presentation: Automatically Retrofitting JIT Compilers",
+      "link": "https://www.infoq.com/presentations/yk-meta-tracing-jit-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Laurence Tratt discusses yk, an open-source meta-tracing JIT compiler framework. He shares how to automatically speed up C-based language interpreters like Lua and MicroPython with minimal, non-invasive code changes. He…",
+      "ts": 1785927600,
+      "published": "2026-08-05T11:00:00+00:00",
+      "collected_at": "2026-08-05T21:56:25+09:00"
+    },
+    {
+      "title": "Presentation: Automatically Retrofitting JIT Compilers",
+      "link": "https://www.infoq.com/presentations/yk-meta-tracing-jit-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Laurence Tratt discusses yk, an open-source meta-tracing JIT compiler framework. He shares how to automatically speed up C-based language interpreters like Lua and MicroPython with minimal, non-invasive code changes. He…",
+      "ts": 1785927600,
+      "published": "2026-08-05T11:00:00+00:00",
+      "collected_at": "2026-08-05T21:56:25+09:00"
+    },
+    {
+      "title": "Jakarta Agentic AI Hits Its First Milestone",
+      "link": "https://foojay.io/today/jakarta-agentic-ai-hits-its-first-milestone/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Jakarta Agentic AI just shipped its first deliverable: version 1.0.0-M1 is live on Maven Central and the draft 1.0 specification is out for review. The project now has a specific API surface that developers can look at,…",
+      "ts": 1785926592,
+      "published": "2026-08-05T10:43:12+00:00",
+      "collected_at": "2026-08-05T21:56:25+09:00"
+    },
     {
       "title": "Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge",
       "link": "https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -9010,66 +9070,6 @@
       "summary": "Enterprise Document Intelligence [Vol.1 #8C] - Structured output is the start of validation, not the end: check the evidence, accept not-found, loop the feedback The post Validating the RAG Answer Before the User Sees I…",
       "ts": 1783344600,
       "published": "2026-07-06T13:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Fragments: July 6",
-      "link": "https://martinfowler.com/fragments/2026-07-06.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Last week, Thoughtworks ran a second Future of Software Development Retreat , this time in Europe. As with the previous event, I’ll be sharing some fragmentary thoughts on this. There were five parallel streams, so I co…",
-      "ts": 1783342380,
-      "published": "2026-07-06T12:53:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Anthropic's Method to Losing Goodwill in a Few Easy Steps",
-      "link": "https://raheeljunaid.com/blog/anthropics-method-to-losing-goodwill-in-a-few-easy-steps/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://raheeljunaid.com/blog/anthropics-method-to-losing-goodwill-in-a-few-easy-steps/ Comments URL: https://news.ycombinator.com/item?id=48803751 Points: 247 # Comments: 192",
-      "ts": 1783341426,
-      "published": "2026-07-06T12:37:06+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "5 Ways Small Language Models Are Powering Next-Gen Agents",
-      "link": "https://www.kdnuggets.com/5-ways-small-language-models-are-powering-next-gen-agents",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "This article looks at five concrete ways SLMs are showing up inside next-generation agents right now, from the research backing them to the tools and numbers worth knowing if you're deciding whether your next agent need…",
-      "ts": 1783339253,
-      "published": "2026-07-06T12:00:53+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "InfoQ Opens AI Security & Privacy Engineering Cohort for Regulated Industries",
-      "link": "https://www.infoq.com/news/2026/07/online-cohort-ai-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "InfoQ has opened enrollment for a five-week AI Security & Privacy Engineering cohort for senior engineers and architects in regulated industries, focused on applying security, privacy, threat modeling, observability, an…",
-      "ts": 1783339200,
-      "published": "2026-07-06T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Stop Ranking Agent Configs by Average Score",
-      "link": "https://towardsdatascience.com/stop-ranking-agent-configs-by-average-score/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Best-worst comparisons, MaxDiff-style judging, and Plackett-Luce utility scores give agent teams a cleaner way to decide which configs to ship, prune, and route toward next. The post Stop Ranking Agent Configs by Averag…",
-      "ts": 1783339200,
-      "published": "2026-07-06T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The Complete Guide to Tool Selection in AI Agents",
-      "link": "https://machinelearningmastery.com/the-complete-guide-to-tool-selection-in-ai-agents/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "You build an agent with five tools.",
-      "ts": 1783337635,
-      "published": "2026-07-06T11:33:55+00:00",
       "collected_at": null
     }
   ]
