@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-05T09:26:08+09:00",
-  "count": 909,
+  "updated": "2026-08-05T13:13:25+09:00",
+  "count": 911,
   "items": [
+    {
+      "title": "v0.19.4",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.4",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed fix: preserve completed tool guardrail results by @seratch in #4180 fix: redact invalid tool argument errors by @seratch in #4182 fix: defer non-stream session saves until output guardrails by @seratch in…",
+      "ts": 1785898715,
+      "published": "2026-08-05T02:58:35+00:00",
+      "collected_at": "2026-08-05T13:13:21+09:00"
+    },
+    {
+      "title": "v2.24.0 (2026-08-04)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.24.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Fix Google provider dropping an explicit timeout=0 by @pydanty[bot] in #7114 Filter unavailable names from Google allowed_function_names by @LHMQ878 in #6875 Preserve caller-owned OpenAI model…",
+      "ts": 1785895926,
+      "published": "2026-08-05T02:12:06+00:00",
+      "collected_at": "2026-08-05T13:13:21+09:00"
+    },
+    {
+      "title": "[AINews] Megakernels are so dead and so back",
+      "link": "https://www.latent.space/p/ainews-megakernels-are-so-dead-and",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "A quiet day lets us highlight a Cursor launch and an engineering debate",
+      "ts": 1785892907,
+      "published": "2026-08-05T01:21:47+00:00",
+      "collected_at": "2026-08-05T13:13:21+09:00"
+    },
     {
       "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
       "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
@@ -9081,16 +9111,6 @@
       "ts": 1783314851,
       "published": "2026-07-06T05:14:11+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Demystifying Exposed: The Intelligent SQL Library for Kotlin",
-      "link": "https://foojay.io/today/exposed-kotlin-orm-complete-guide/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Introduction For quite some time, I have been a huge fan of and fascinated by JetBrains products, tools, and libraries because of their masterful craftsmanship in product creation and their pristine focus on building hi…",
-      "ts": 1783309140,
-      "published": "2026-07-06T03:39:00+00:00",
-      "collected_at": null
     }
   ]
 }
