@@ -1,7 +1,87 @@
 {
-  "updated": "2026-08-05T21:56:31+09:00",
-  "count": 907,
+  "updated": "2026-08-06T00:21:09+09:00",
+  "count": 910,
   "items": [
+    {
+      "title": "Top 5 Claude Skills for Writing (Ranked by GitHub Stars)",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/top-5-claude-writing-skills/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Search “best Claude Skills for writing” and you get lists padded with skills that write commit messages and internal status reports. Useful things. Not writing. This list only includes repositories that exist for writin…",
+      "ts": 1785942742,
+      "published": "2026-08-05T15:12:22+00:00",
+      "collected_at": "2026-08-06T00:20:56+09:00"
+    },
+    {
+      "title": "Introduction to Semi-Supervised Learning",
+      "link": "https://towardsdatascience.com/introduction-to-semi-supervised-learning/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A primer about Semi-Supervised Learning, the approaches taken with different algorithms and the limitations of using unlabelled data. The post Introduction to Semi-Supervised Learning appeared first on Towards Data Scie…",
+      "ts": 1785942000,
+      "published": "2026-08-05T15:00:00+00:00",
+      "collected_at": "2026-08-06T00:20:56+09:00"
+    },
+    {
+      "title": "JioHotstar Explains the Distributed Engineering Behind Personalized Ad Requests at Streaming Scale",
+      "link": "https://www.infoq.com/news/2026/08/jiohotstar-ad-decisioning-flow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "JioHotstar explains the distributed architecture behind its real-time ad request workflow, covering ad decisioning, waterfall tiering, pacing algorithms, latency optimization, and service coordination required to select…",
+      "ts": 1785938940,
+      "published": "2026-08-05T14:09:00+00:00",
+      "collected_at": "2026-08-06T00:20:56+09:00"
+    },
+    {
+      "title": "Getting Started with GitHub Agentic Workflows",
+      "link": "https://www.kdnuggets.com/getting-started-with-github-agentic-workflows",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "GitHub Agentic Workflows are in public preview. Find out all about them here.",
+      "ts": 1785938425,
+      "published": "2026-08-05T14:00:25+00:00",
+      "collected_at": "2026-08-06T00:20:56+09:00"
+    },
+    {
+      "title": "Validating Data With Pointblank in Python",
+      "link": "https://realpython.com/python-pointblank/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to validate data in Python with Pointblank: declare quality checks, split clean from failing rows, and rerun validation plans from YAML.",
+      "ts": 1785938400,
+      "published": "2026-08-05T14:00:00+00:00",
+      "collected_at": "2026-08-06T00:20:56+09:00"
+    },
+    {
+      "title": "Is This Slop? Detecting AI-Generated Content Without a Model",
+      "link": "https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Research-backed cues to detect LLM-generated text along with the mathematical intuition as to 'why' The post Is This Slop? Detecting AI-Generated Content Without a Model appeared first on Towards Data Science .",
+      "ts": 1785936600,
+      "published": "2026-08-05T13:30:00+00:00",
+      "collected_at": "2026-08-06T00:20:56+09:00"
+    },
+    {
+      "title": "Manned Mars Mission Miscellanea",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/05/manned-mars-mission-miscellanea/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Maciej Cegłowski writes: Unlike the Moon, which hangs in the sky like a lonely grandparent waiting for someone to visit, Mars leads a rich orbital life of its own and is not always around to entertain the itinerant astr…",
+      "ts": 1785935140,
+      "published": "2026-08-05T13:05:40+00:00",
+      "collected_at": "2026-08-06T00:20:56+09:00"
+    },
+    {
+      "title": "7 Chunking Strategies That Decide Whether Your RAG Works",
+      "link": "https://machinelearningmastery.com/7-chunking-strategies-that-decide-whether-your-rag-works/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "Day 100 in production isn't really about chunking strategies anymore.",
+      "ts": 1785931238,
+      "published": "2026-08-05T12:00:38+00:00",
+      "collected_at": "2026-08-06T00:20:56+09:00"
+    },
     {
       "title": "Turn Any CSV into an Executive Report with Python and AI",
       "link": "https://www.kdnuggets.com/turn-any-csv-into-an-executive-report-with-python-and-ai",
@@ -111,6 +191,16 @@
       "ts": 1785892907,
       "published": "2026-08-05T01:21:47+00:00",
       "collected_at": "2026-08-05T13:13:21+09:00"
+    },
+    {
+      "title": "Oracle Java Platform Extension for Visual Studio Code - Version 26.0.1 Is Now Available",
+      "link": "https://inside.java/2026/08/05/java-vscode-extension-update/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "New release of the Java Platform Extension for VS Code",
+      "ts": 1785888000,
+      "published": "2026-08-05T00:00:00+00:00",
+      "collected_at": "2026-08-06T00:20:56+09:00"
     },
     {
       "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
@@ -9010,66 +9100,6 @@
       "summary": "",
       "ts": 1783351855,
       "published": "2026-07-06T15:30:55+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "How to Run End-to-End Tests with Claude Code",
-      "link": "https://towardsdatascience.com/how-to-run-end-to-end-tests-with-claude-code/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Increase the effectiveness of your coding agents through end-to-end testing. The post How to Run End-to-End Tests with Claude Code appeared first on Towards Data Science .",
-      "ts": 1783350000,
-      "published": "2026-07-06T15:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Netflix Cuts Cassandra Read Latency from Seconds to Milliseconds with Dynamic Partition Splitting",
-      "link": "https://www.infoq.com/news/2026/07/netflix-cassandra-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Netflix engineers introduced dynamic partition splitting for Cassandra to address wide partitions in time series workloads. The metadata-driven approach detects oversized partitions, splits them smaller units, and route…",
-      "ts": 1783347840,
-      "published": "2026-07-06T14:24:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Getting Started with Hugging Face ML Intern: Your First ML Agent",
-      "link": "https://www.kdnuggets.com/getting-started-with-hugging-face-ml-intern-your-first-ml-agent",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "You describe the model. It writes the code, runs the training, and ships the checkpoint. Welcome to ML Intern.",
-      "ts": 1783346431,
-      "published": "2026-07-06T14:00:31+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Python's JIT Faces Some Challenges and Other News for July 2026",
-      "link": "https://realpython.com/python-news-july-2026/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Python 3.15 picks up two more betas, the Steering Council puts CPython's JIT on a six-month clock, and the PSF confronts its finances.",
-      "ts": 1783346400,
-      "published": "2026-07-06T14:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Turning chaotic sensitivity from a bug into a feature: Using physical modeling and deep learning to alter the paths of storms and mitigate extreme weather events",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/06/turning-chaotic-sensitivity-from-a-bug-into-a-feature-using-physical-modeling-and-deep-learning-to-alter-the-paths-of-storms-and-mitigate-extreme-weather-events/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Qin Huang, Moyan Liu, and Upmanu Lall write: Extreme weather events, e.g., droughts, floods, heatwaves, and freezes, are increasing in frequency and intensity, posing severe socio-economic impacts as growing populations…",
-      "ts": 1783344972,
-      "published": "2026-07-06T13:36:12+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Validating the RAG Answer Before the User Sees It: Spans, Quotes, and the Feedback Loop",
-      "link": "https://towardsdatascience.com/validating-the-rag-answer-before-the-user-sees-it-spans-quotes-and-the-feedback-loop/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #8C] - Structured output is the start of validation, not the end: check the evidence, accept not-found, loop the feedback The post Validating the RAG Answer Before the User Sees I…",
-      "ts": 1783344600,
-      "published": "2026-07-06T13:30:00+00:00",
       "collected_at": null
     }
   ]
