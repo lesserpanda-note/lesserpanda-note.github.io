@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-06T11:51:26+09:00",
+  "updated": "2026-08-06T14:58:21+09:00",
   "count": 904,
   "items": [
+    {
+      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
+      "link": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "The end of an era.",
+      "ts": 1785990851,
+      "published": "2026-08-06T04:34:11+00:00",
+      "collected_at": "2026-08-06T14:58:10+09:00"
+    },
+    {
+      "title": "v2.25.0 (2026-08-05)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.25.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Forward xAI FileSearchTool collections search options by @pydanty[bot] in #7154 🐛 Bug Fixes fix(azure): send max_tokens for Mistral models, not max_completion_tokens by @feiiiiii5 in #6929 Omit…",
+      "ts": 1785985053,
+      "published": "2026-08-06T02:57:33+00:00",
+      "collected_at": "2026-08-06T14:58:10+09:00"
+    },
     {
       "title": "An AI model from Meta also hacked another company during testing",
       "link": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
@@ -9020,26 +9040,6 @@
       "summary": "Key Changes RealtimeAgent's default is now gpt-realtime-2.1 Since this version, the default model for RealtimeAgents is gpt-realtime-2.1: https://developers.openai.com/api/docs/models/gpt-realtime-2.1 What's Changed fea…",
       "ts": 1783404115,
       "published": "2026-07-07T06:01:55+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "sqlite-utils 4.0rc4",
-      "link": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: sqlite-utils 4.0rc4 The last RC before the 4.0 stable release. Mainly implements feedback from a detailed review by Claude Fable 5. Tags: sqlite-utils , claude-mythos-fable",
-      "ts": 1783402575,
-      "published": "2026-07-07T05:36:15+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "[AINews] The Field Guide to Fable",
-      "link": "https://www.latent.space/p/ainews-the-field-guide-to-fable",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us digest the world's most significant model launch... to date.",
-      "ts": 1783399493,
-      "published": "2026-07-07T04:44:53+00:00",
       "collected_at": null
     }
   ]
