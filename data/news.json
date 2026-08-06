@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-06T09:19:53+09:00",
-  "count": 903,
+  "updated": "2026-08-06T11:51:26+09:00",
+  "count": 904,
   "items": [
+    {
+      "title": "An AI model from Meta also hacked another company during testing",
+      "link": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "An AI model from Meta also hacked another company during testing Stop me if you've heard this one before : An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cyber…",
+      "ts": 1785975927,
+      "published": "2026-08-06T00:25:27+00:00",
+      "collected_at": "2026-08-06T11:51:22+09:00"
+    },
     {
       "title": "Introducing Muse Code and Muse Spark 1.2",
       "link": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
@@ -131,6 +141,16 @@
       "ts": 1785935140,
       "published": "2026-08-05T13:05:40+00:00",
       "collected_at": "2026-08-06T00:20:56+09:00"
+    },
+    {
+      "title": "Anthropic AI created fake profiles and impersonated people in attempted hack",
+      "link": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.bbc.co.uk/news/articles/c1w1lvn7d9go Comments URL: https://news.ycombinator.com/item?id=49181773 Points: 50 # Comments: 20",
+      "ts": 1785932207,
+      "published": "2026-08-05T12:16:47+00:00",
+      "collected_at": "2026-08-06T11:51:22+09:00"
     },
     {
       "title": "7 Chunking Strategies That Decide Whether Your RAG Works",
@@ -9020,16 +9040,6 @@
       "summary": "a quiet day lets us digest the world's most significant model launch... to date.",
       "ts": 1783399493,
       "published": "2026-07-07T04:44:53+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v2.5.1 (2026-07-06)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.5.1",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🐛 Bug Fixes fix(bedrock): handle toolResult attachment co-location per-model via bedrock_tool_result_colocatable_content by @Hasnaathussain in #6098 fix(groq): map unified thinking setting to Groq reasoni…",
-      "ts": 1783389350,
-      "published": "2026-07-07T01:55:50+00:00",
       "collected_at": null
     }
   ]
