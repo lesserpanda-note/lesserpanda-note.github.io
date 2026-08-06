@@ -1,7 +1,47 @@
 {
-  "updated": "2026-08-06T14:58:21+09:00",
+  "updated": "2026-08-06T17:42:40+09:00",
   "count": 904,
   "items": [
+    {
+      "title": "Sheetmusic4J 0.0.3: ABC Notation, Guitar Pro, Engraving Improvements",
+      "link": "https://foojay.io/today/sheetmusic4j-0-0-3-abc-notation-guitar-pro-engraving-improvements/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Last week I introduced Sheetmusic4J, a Java(FX) library to render and interact with sheet music. That first 0.0.1 release was really a question more than a product: is there any interest in a native Java(FX) sheet music…",
+      "ts": 1786004760,
+      "published": "2026-08-06T08:26:00+00:00",
+      "collected_at": "2026-08-06T17:42:35+09:00"
+    },
+    {
+      "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
+      "link": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no—agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod…",
+      "ts": 1785996000,
+      "published": "2026-08-06T06:00:00+00:00",
+      "collected_at": "2026-08-06T17:42:35+09:00"
+    },
+    {
+      "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
+      "link": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no—agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod…",
+      "ts": 1785996000,
+      "published": "2026-08-06T06:00:00+00:00",
+      "collected_at": "2026-08-06T17:42:35+09:00"
+    },
+    {
+      "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
+      "link": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Vercel Labs has introduced Zero, an experimental systems programming language aimed at AI rather than human users. It employs unique features like a specific toolchain contract and structured error messages. Reaching ve…",
+      "ts": 1785995460,
+      "published": "2026-08-06T05:51:00+00:00",
+      "collected_at": "2026-08-06T17:42:35+09:00"
+    },
     {
       "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
       "link": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
@@ -9000,46 +9040,6 @@
       "summary": "Managed agents feature bundle launch",
       "ts": 1783414440,
       "published": "2026-07-07T08:54:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Closing the Visual Gap Between the Official Lottie Webplayer and Lottie4J",
-      "link": "https://foojay.io/today/closing-the-visual-gap-between-the-official-lottie-webplayer-and-lottie4j/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "A Lottie library is only as good as its output looks. If an animation renders differently in Lottie4J than it does in the official web player, that's a bug, even when no exception is thrown and the code looks correct. .…",
-      "ts": 1783412755,
-      "published": "2026-07-07T08:25:55+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Presentation: Designing AI Platforms for Reliability: Tools for Certainty, Agents for Discovery",
-      "link": "https://www.infoq.com/presentations/reliable-ai-platforms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Aaron Erickson explains how NVIDIA designs and tests purpose-built AI agent hierarchies. For senior developers and architects, he outlines why balancing deterministic tools with agentic discovery is crucial. Discover ho…",
-      "ts": 1783411380,
-      "published": "2026-07-07T08:03:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The Making of Claude Code",
-      "link": "https://www.anthropic.com/features/making-of-claude-code",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.anthropic.com/features/making-of-claude-code Comments URL: https://news.ycombinator.com/item?id=48814264 Points: 43 # Comments: 26",
-      "ts": 1783405160,
-      "published": "2026-07-07T06:19:20+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v0.18.0",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.18.0",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "Key Changes RealtimeAgent's default is now gpt-realtime-2.1 Since this version, the default model for RealtimeAgents is gpt-realtime-2.1: https://developers.openai.com/api/docs/models/gpt-realtime-2.1 What's Changed fea…",
-      "ts": 1783404115,
-      "published": "2026-07-07T06:01:55+00:00",
       "collected_at": null
     }
   ]
