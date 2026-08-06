@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-06T20:26:38+09:00",
-  "count": 910,
+  "updated": "2026-08-06T23:21:19+09:00",
+  "count": 906,
   "items": [
+    {
+      "title": "The Minimal AI Engineer Toolkit for 2026",
+      "link": "https://www.kdnuggets.com/the-minimal-ai-engineer-toolkit-for-2026",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Discover the six essential tools AI engineers need in 2026 to build and deploy production-grade autonomous systems.",
+      "ts": 1786024849,
+      "published": "2026-08-06T14:00:49+00:00",
+      "collected_at": "2026-08-06T23:20:53+09:00"
+    },
+    {
+      "title": "The blessing of dimensionality",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/06/the-blessing-of-dimensionality/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Jonathan “No Trump” Falk writes: Your post this week on Integration and Differentiation got me thinking, never a good sign. Adding to this, I only really learned in January what Attention means, the foundation of LLM. A…",
+      "ts": 1786023917,
+      "published": "2026-08-06T13:45:17+00:00",
+      "collected_at": "2026-08-06T23:20:53+09:00"
+    },
+    {
+      "title": "I Built a Tool-Calling Agent in Python. Here’s How I Debugged It",
+      "link": "https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A minimal loop with real API calls, validation, compact outputs, and trace evidence before adding an agent framework The post I Built a Tool-Calling Agent in Python. Here’s How I Debugged It appeared first on Towards Da…",
+      "ts": 1786023000,
+      "published": "2026-08-06T13:30:00+00:00",
+      "collected_at": "2026-08-06T23:20:53+09:00"
+    },
+    {
+      "title": "7 Best Web Crawling Tools and APIs in 2026",
+      "link": "https://www.kdnuggets.com/7-best-web-crawling-tools-and-apis-in-2026",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn about the best web crawling tools for collecting website content, crawling subpages, generating clean web data, and powering AI agents.",
+      "ts": 1786017633,
+      "published": "2026-08-06T12:00:33+00:00",
+      "collected_at": "2026-08-06T23:20:53+09:00"
+    },
+    {
+      "title": "Quiz: Python's Assignment Operator: Write Robust Assignments",
+      "link": "https://realpython.com/quizzes/python-assignment-operator/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice using Python's assignment operator to create, initialize, and update variables, plus augmented assignments and the walrus operator.",
+      "ts": 1786017600,
+      "published": "2026-08-06T12:00:00+00:00",
+      "collected_at": "2026-08-06T23:20:53+09:00"
+    },
+    {
+      "title": "Loop Engineering for Cross-References: When RAG Answers ‘see Section 7.2’ Instead of the Actual Answer",
+      "link": "https://towardsdatascience.com/loop-engineering-for-cross-references-when-rag-answers-see-section-7-2-instead-of-the-actual-answer/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #11] - When the first answer points elsewhere in the document, the pipeline loops back to fetch the linked context The post Loop Engineering for Cross-References: When RAG Answers…",
+      "ts": 1786017600,
+      "published": "2026-08-06T12:00:00+00:00",
+      "collected_at": "2026-08-06T23:20:53+09:00"
+    },
     {
       "title": "Designing AI Agents That Can Self-Correct",
       "link": "https://machinelearningmastery.com/designing-ai-agents-that-can-self-correct/",
@@ -151,6 +211,16 @@
       "ts": 1785974400,
       "published": "2026-08-06T00:00:00+00:00",
       "collected_at": "2026-08-06T20:26:32+09:00"
+    },
+    {
+      "title": "Baseten on Hugging Face Inference Providers 🔥",
+      "link": "https://huggingface.co/blog/baseten",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1785974400,
+      "published": "2026-08-06T00:00:00+00:00",
+      "collected_at": "2026-08-06T23:20:53+09:00"
     },
     {
       "title": "Introducing Muse Code and Muse Spark 1.2",
@@ -8991,116 +9061,6 @@
       "ts": 1783436400,
       "published": "2026-07-07T15:00:00+00:00",
       "collected_at": null
-    },
-    {
-      "title": "Show HN: Shellular – run Claude Code, Codex, Pi from your phone",
-      "link": "https://shellular.dev/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://shellular.dev/ Comments URL: https://news.ycombinator.com/item?id=48818124 Points: 27 # Comments: 26",
-      "ts": 1783433338,
-      "published": "2026-07-07T14:08:58+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Zero-Shot Local Document Parsing with Gemma 4: Treating PDFs as Images",
-      "link": "https://www.kdnuggets.com/zero-shot-local-document-parsing-with-gemma-4-treating-pdfs-as-images",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Treating PDFs as images and feeding those images to Gemma 4 dissolves the scanned-versus-digital distinction that makes every text-extraction pipeline fragile. Fix that.",
-      "ts": 1783432804,
-      "published": "2026-07-07T14:00:04+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Testing MCP Servers With a Python MCP Client",
-      "link": "https://realpython.com/courses/testing-mcp-servers-with-a-python-mcp-client/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to build a Python MCP client that tests MCP servers from your terminal. List their tools, prompts, and resources, then call each one.",
-      "ts": 1783432800,
-      "published": "2026-07-07T14:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Identifying Microbes in Space",
-      "link": "https://towardsdatascience.com/space-mould/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "What's living on the International Space Station? The post Identifying Microbes in Space appeared first on Towards Data Science .",
-      "ts": 1783431000,
-      "published": "2026-07-07T13:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "A message for Carol Tavris",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/07/can-someone-forward-this-to-carol-tavris-please/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Dear Dr. Tavris: I saw in a recent issue of the Times Literary Supplement that you have been critical of the “chambermaid” study which purported to show that people were losing weight without changing their diet or exer…",
-      "ts": 1783429856,
-      "published": "2026-07-07T13:10:56+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Viability of local models for coding",
-      "link": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-factors.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Birgitta Böckeler recently spent some time trying out running local LLMs for some programming tasks. In this memo she outlines the factors that influence how viable they are for the job. more…",
-      "ts": 1783427640,
-      "published": "2026-07-07T12:34:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "10 Probability Concepts for Machine Learning Explained Simply",
-      "link": "https://www.kdnuggets.com/10-probability-concepts-for-machine-learning-explained-simply",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "A model is almost never 100% sure of anything. These 10 probability concepts explain how it makes decisions anyway.",
-      "ts": 1783425636,
-      "published": "2026-07-07T12:00:36+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "AWS Expands DevOps Agent with AI-Powered Release Management to Validate Code Before Production",
-      "link": "https://www.infoq.com/news/2026/07/aws-devops-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Amazon Web Services (AWS) has announced a major expansion of its AWS DevOps Agent, introducing new release management capabilities designed to assess code changes and autonomously test software before it reaches product…",
-      "ts": 1783425600,
-      "published": "2026-07-07T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Quiz: Testing MCP Servers With a Python MCP Client",
-      "link": "https://realpython.com/quizzes/testing-mcp-servers-with-a-python-mcp-client/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Build a command-line MCP client in Python, connect it to servers over stdio, and test their tools, prompts, and resources.",
-      "ts": 1783425600,
-      "published": "2026-07-07T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Survival Analysis for Data Drift and ML Reliability",
-      "link": "https://towardsdatascience.com/survival-analysis-for-data-drift-and-ml-reliability/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Treating model degradation as a time-to-failure problem The post Survival Analysis for Data Drift and ML Reliability appeared first on Towards Data Science .",
-      "ts": 1783425600,
-      "published": "2026-07-07T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "OKF: Redefining Knowledge Bases for AI Agents",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/open-knowledge-format-okf/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "In June 2026, Google introduced the Open Knowledge Format (OKF), an open specification for how AI agents organise and exchange knowledge. An OKF bundle is just Markdown files, lightweight YAML metadata, and links betwee…",
-      "ts": 1783424743,
-      "published": "2026-07-07T11:45:43+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
     }
   ]
 }
