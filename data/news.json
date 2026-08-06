@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-06T17:42:40+09:00",
-  "count": 904,
+  "updated": "2026-08-06T20:26:38+09:00",
+  "count": 910,
   "items": [
+    {
+      "title": "Designing AI Agents That Can Self-Correct",
+      "link": "https://machinelearningmastery.com/designing-ai-agents-that-can-self-correct/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "With the vocabulary and the failure modes in place, here's the build.",
+      "ts": 1786014809,
+      "published": "2026-08-06T11:13:29+00:00",
+      "collected_at": "2026-08-06T20:26:32+09:00"
+    },
+    {
+      "title": "Presentation: From ms to µs: OSS Valkey Architecture Patterns for Modern AI",
+      "link": "https://www.infoq.com/presentations/valkey-architecture-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Dumanshu Goyal discusses optimizing data layers for low-latency workloads like AI feature stores. Drawing lessons from NASA's Space Shuttle, he explains how proxy architectures introduce hidden CPU costs, elevated tail…",
+      "ts": 1786008840,
+      "published": "2026-08-06T09:34:00+00:00",
+      "collected_at": "2026-08-06T20:26:32+09:00"
+    },
+    {
+      "title": "Presentation: From ms to µs: OSS Valkey Architecture Patterns for Modern AI",
+      "link": "https://www.infoq.com/presentations/valkey-architecture-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Dumanshu Goyal discusses optimizing data layers for low-latency workloads like AI feature stores. Drawing lessons from NASA's Space Shuttle, he explains how proxy architectures introduce hidden CPU costs, elevated tail…",
+      "ts": 1786008840,
+      "published": "2026-08-06T09:34:00+00:00",
+      "collected_at": "2026-08-06T20:26:32+09:00"
+    },
+    {
+      "title": "Wiz Discloses CosmosEscape, and Practitioners Debate What Customers Could Have Done",
+      "link": "https://www.infoq.com/news/2026/08/cosmosescape-master-key/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Wiz Research disclosed CosmosEscape, a chain that escaped Azure Cosmos DB's Gremlin sandbox and reached a platform-wide key granting read and write access to every database on the service. Microsoft blocked the entry po…",
+      "ts": 1786008060,
+      "published": "2026-08-06T09:21:00+00:00",
+      "collected_at": "2026-08-06T20:26:32+09:00"
+    },
+    {
+      "title": "Article: Runtime-Agnostic AI Workflows: A Pattern for Production Durability and Fast Eval Iteration",
+      "link": "https://www.infoq.com/articles/ai-workflow-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AI workflows have two needs that trade off directly. Running reliably in production requires persisting and distributing every step so it survives crashes, deploys, and restarts. But that same machinery is what makes ru…",
+      "ts": 1786006800,
+      "published": "2026-08-06T09:00:00+00:00",
+      "collected_at": "2026-08-06T20:26:32+09:00"
+    },
+    {
+      "title": "Embedding DuckDB in a Maven App (and Using It for Things That Aren’t Databases)",
+      "link": "https://foojay.io/today/embedding-duckdb-in-a-maven-app-and-using-it-for-things-that-arent-databases/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "DuckDB is described as \"SQLite for analytics,\" which is true: it's an in-process database engine that runs inside your application, with no server to install or manage. What's less obvious from that description is that…",
+      "ts": 1786005988,
+      "published": "2026-08-06T08:46:28+00:00",
+      "collected_at": "2026-08-06T20:26:32+09:00"
+    },
     {
       "title": "Sheetmusic4J 0.0.3: ABC Notation, Guitar Pro, Engraving Improvements",
       "link": "https://foojay.io/today/sheetmusic4j-0-0-3-abc-notation-guitar-pro-engraving-improvements/",
@@ -53,6 +113,16 @@
       "collected_at": "2026-08-06T14:58:10+09:00"
     },
     {
+      "title": "Show HN: Wallfacer – A terminal session manager for Claude Code, and more",
+      "link": "https://github.com/pradipta/wallfacer",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/pradipta/wallfacer Comments URL: https://news.ycombinator.com/item?id=49192219 Points: 27 # Comments: 16",
+      "ts": 1785988376,
+      "published": "2026-08-06T03:52:56+00:00",
+      "collected_at": "2026-08-06T20:26:32+09:00"
+    },
+    {
       "title": "v2.25.0 (2026-08-05)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.25.0",
       "source": "Pydantic AI",
@@ -71,6 +141,16 @@
       "ts": 1785975927,
       "published": "2026-08-06T00:25:27+00:00",
       "collected_at": "2026-08-06T11:51:22+09:00"
+    },
+    {
+      "title": "Episode 65 “Embracing Virtual Threads with Helidon” [I/O]",
+      "link": "https://inside.java/2026/08/06/podcast-065/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "How Helidon 4.4 embraces virtual threads, ahoead-of-time computation, and OpenJDK",
+      "ts": 1785974400,
+      "published": "2026-08-06T00:00:00+00:00",
+      "collected_at": "2026-08-06T20:26:32+09:00"
     },
     {
       "title": "Introducing Muse Code and Muse Spark 1.2",
@@ -9021,26 +9101,6 @@
       "ts": 1783424743,
       "published": "2026-07-07T11:45:43+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "The foundational elements of AI architecture that IT leaders need to scale",
-      "link": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "With the rapid progress of AI capabilities and the move to agentic systems, organizations are expanding their use cases as the technology continues to grow. That constant evolution also introduces risk, leaving IT leade…",
-      "ts": 1783422652,
-      "published": "2026-07-07T11:10:52+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Managed agents feature bundle launch",
-      "ts": 1783414440,
-      "published": "2026-07-07T08:54:00+00:00",
-      "collected_at": null
     }
   ]
 }
