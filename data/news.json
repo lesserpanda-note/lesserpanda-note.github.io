@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-06T08:04:03+09:00",
-  "count": 909,
+  "updated": "2026-08-06T09:19:53+09:00",
+  "count": 903,
   "items": [
+    {
+      "title": "Introducing Muse Code and Muse Spark 1.2",
+      "link": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting tha…",
+      "ts": 1785974315,
+      "published": "2026-08-05T23:58:35+00:00",
+      "collected_at": "2026-08-06T09:19:32+09:00"
+    },
+    {
+      "title": "Third-party cyber evaluations involving OpenAI models",
+      "link": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see m…",
+      "ts": 1785973532,
+      "published": "2026-08-05T23:45:32+00:00",
+      "collected_at": "2026-08-06T09:19:32+09:00"
+    },
+    {
+      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+      "link": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation wit…",
+      "ts": 1785972726,
+      "published": "2026-08-05T23:32:06+00:00",
+      "collected_at": "2026-08-06T09:19:32+09:00"
+    },
     {
       "title": "1.15.12",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.12",
@@ -9000,96 +9030,6 @@
       "summary": "What's Changed 🐛 Bug Fixes fix(bedrock): handle toolResult attachment co-location per-model via bedrock_tool_result_colocatable_content by @Hasnaathussain in #6098 fix(groq): map unified thinking setting to Groq reasoni…",
       "ts": 1783389350,
       "published": "2026-07-07T01:55:50+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "link": "https://huggingface.co/blog/lerobot-release-v060",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1783382400,
-      "published": "2026-07-07T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "This Week in Spring - July 7th, 2026",
-      "link": "https://spring.io/blog/2026/07/07/this-week-in-spring-july-07-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "This Week in Spring - July 7th, 2026 Hi, Spring fans! Welcome to another installment of This Week in Spring ! We've got a lot to cover and I've got a plane to catch so let's go! What's that over on Spring Initializr? It…",
-      "ts": 1783382400,
-      "published": "2026-07-07T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
-      "link": "https://huggingface.co/blog/skypilot-hf-storage",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1783382400,
-      "published": "2026-07-07T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "MUFG aims to become AI-native with OpenAI",
-      "link": "https://openai.com/index/mufg",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-      "ts": 1783382400,
-      "published": "2026-07-07T00:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
-      "link": "https://openai.com/index/australian-payments-plus",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
-      "ts": 1783382400,
-      "published": "2026-07-07T00:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "tencent/Hy3",
-      "link": "https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "tencent/Hy3 New Apache 2.0 licensed model from Tencent in China: Hy3 is a 295B-parameter Mixture-of-Experts (MoE) model with 21B active parameters and 3.8B MTP layer parameters, developed by the Tencent Hy Team. Followi…",
-      "ts": 1783382255,
-      "published": "2026-07-06T23:57:35+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v0.17.8",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.17.8",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "What's Changed feat: add invalid final output recovery handler by @seratch in #3736 fix: propagate realtime session iterator cancellation by @fallintoplace in #3686 fix: redact realtime validation failure logs by @falli…",
-      "ts": 1783380998,
-      "published": "2026-07-06T23:36:38+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Java News Roundup: Strict Field Initialization, GlassFish, GraalVM, JReleaser, RefactorFirst",
-      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jun29-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for June 29th, 2026, features news highlighting: a new JEP candidate, Strict Field Initialization; point releases of GraalVM, JReleaser, RefactorFirst and Java Operator SDK; maintenance releases…",
-      "ts": 1783380600,
-      "published": "2026-07-06T23:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Java News Roundup: Strict Field Initialization, GlassFish, GraalVM, JReleaser, RefactorFirst",
-      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jun29-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for June 29th, 2026, features news highlighting: a new JEP candidate, Strict Field Initialization; point releases of GraalVM, JReleaser, RefactorFirst and Java Operator SDK; maintenance releases…",
-      "ts": 1783380600,
-      "published": "2026-07-06T23:30:00+00:00",
       "collected_at": null
     }
   ]
