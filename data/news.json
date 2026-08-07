@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-07T09:19:01+09:00",
-  "count": 902,
+  "updated": "2026-08-07T12:51:55+09:00",
+  "count": 897,
   "items": [
+    {
+      "title": "v2.26.0 (2026-08-06)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.26.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Support hiding function tools until revealed — via tool search, load_capability , or ToolReturn.tools — using each provider's native deferral/addition channel by @DouweM in #7104 Add first-part…",
+      "ts": 1786072479,
+      "published": "2026-08-07T03:14:39+00:00",
+      "collected_at": "2026-08-07T12:51:50+09:00"
+    },
     {
       "title": "datasette 1.0a38",
       "link": "https://simonwillison.net/2026/Aug/6/datasette/#atom-everything",
@@ -8960,66 +8970,6 @@
       "summary": "Agentic coding benchmarks are getting closer to real-world software development. For Kotlin teams, the most important question is how reliably AI agents can complete end-to-end Kotlin tasks, from reading an issue to pro…",
       "ts": 1783495605,
       "published": "2026-07-08T07:26:45+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "[AINews] Lilian Weng summarizes 35 papers on Harness Engineering for RSI",
-      "link": "https://www.latent.space/p/ainews-lilian-weng-summarizes-35",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us read some condensed insight",
-      "ts": 1783477225,
-      "published": "2026-07-08T02:20:25+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "1.15.2",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.2",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Pull latest LLM models dynamically in the crew wizard. Support inline skill definitions. Add generated Flow Definition authoring skill. Support templated Flow action inputs. Add text helper for f…",
-      "ts": 1783476322,
-      "published": "2026-07-08T02:05:22+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Information Theory and Ensemble Models",
-      "link": "https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "How should we ensemble time-series forecasts better? The post Information Theory and Ensemble Models appeared first on Towards Data Science .",
-      "ts": 1783475859,
-      "published": "2026-07-08T01:57:39+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Granger Causal Networks and Indirect Feedback",
-      "link": "https://towardsdatascience.com/granger-causal-networks-and-indirect-feedback-676549ba99e/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A non-parametric variable selection for Structural VARs The post Granger Causal Networks and Indirect Feedback appeared first on Towards Data Science .",
-      "ts": 1783475771,
-      "published": "2026-07-08T01:56:11+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Measuring Structure Stability of Econometric Models",
-      "link": "https://towardsdatascience.com/measuring-structure-stability-of-econometric-models-d8eb3a56e1bd/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The simplest most important idea for time series forecasting The post Measuring Structure Stability of Econometric Models appeared first on Towards Data Science .",
-      "ts": 1783475616,
-      "published": "2026-07-08T01:53:36+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v2.6.0 (2026-07-07)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.6.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Record time-to-first-token for streaming model requests by @dmontagu in #5967 feat: Add files support to CodeExecutionTool for Anthropic and OpenAI by @HenryYYang in #4338 Add Bedrock model pro…",
-      "ts": 1783473755,
-      "published": "2026-07-08T01:22:35+00:00",
       "collected_at": null
     }
   ]
