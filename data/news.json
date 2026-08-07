@@ -1,7 +1,57 @@
 {
-  "updated": "2026-08-07T20:50:00+09:00",
-  "count": 905,
+  "updated": "2026-08-07T22:11:59+09:00",
+  "count": 906,
   "items": [
+    {
+      "title": "5 Free Courses to Learn Modern AI and LLMs",
+      "link": "https://www.kdnuggets.com/5-free-courses-to-learn-modern-ai-and-llms",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Learn how to use generative AI at work, build RAG and agentic apps, fine-tune models, work with the Hugging Face ecosystem, and prototype AI products with hands-on resources.",
+      "ts": 1786104030,
+      "published": "2026-08-07T12:00:30+00:00",
+      "collected_at": "2026-08-07T22:11:50+09:00"
+    },
+    {
+      "title": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans",
+      "link": "https://www.infoq.com/news/2026/08/ai-incident-response/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Artificial intelligence is rapidly changing how engineering teams respond to production incidents, offering the ability to summarize incident channels, analyze unfamiliar code, suggest remediation steps, generate pull r…",
+      "ts": 1786104000,
+      "published": "2026-08-07T12:00:00+00:00",
+      "collected_at": "2026-08-07T22:11:50+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #306: Programmatically Developing LLM Prompts With DSPy",
+      "link": "https://realpython.com/podcasts/rpp/306/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How can you move from manually writing prompts for an LLM application toward defining them programmatically? This week on the show, Brett Kennedy returns to discuss his new book \"Building LLM Applications with DSPy.\"",
+      "ts": 1786104000,
+      "published": "2026-08-07T12:00:00+00:00",
+      "collected_at": "2026-08-07T22:11:50+09:00"
+    },
+    {
+      "title": "Quiz: How to Use Type Hints for Multiple Return Types in Python",
+      "link": "https://realpython.com/quizzes/python-type-hints-multiple-types/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of type hints for multiple return types in Python. Practice unions, tuples, callables, generators, and type aliases.",
+      "ts": 1786104000,
+      "published": "2026-08-07T12:00:00+00:00",
+      "collected_at": "2026-08-07T22:11:50+09:00"
+    },
+    {
+      "title": "My Fall-Detection Model Scored 94%, and It Was Lying to Me",
+      "link": "https://towardsdatascience.com/my-fall-detection-model-scored-94-and-it-was-lying-to-me/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How a single evaluation choice inflated my results by 25 points, and what rebuilding honestly taught me about ML systems people might depend on The post My Fall-Detection Model Scored 94%, and It Was Lying to Me appeare…",
+      "ts": 1786104000,
+      "published": "2026-08-07T12:00:00+00:00",
+      "collected_at": "2026-08-07T22:11:50+09:00"
+    },
     {
       "title": "Presentation: Rewriting All of Spotify's Code Base, All the Time",
       "link": "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -9011,46 +9061,6 @@
       "ts": 1783516756,
       "published": "2026-07-08T13:19:16+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Separating signal from noise in coding evaluations",
-      "link": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-      "ts": 1783515600,
-      "published": "2026-07-08T13:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Quiz: How to Use GitHub",
-      "link": "https://realpython.com/quizzes/how-to-use-github/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Practice putting a Python project on GitHub by creating a remote repository, pushing your local code, and collaborating with others.",
-      "ts": 1783512000,
-      "published": "2026-07-08T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The Threshold Is a Price, Not a Percentage",
-      "link": "https://towardsdatascience.com/the-threshold-is-a-price-not-a-percentage/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "How to decide when an AI agent should act on its own by using cost asymmetry instead of a fixed confidence cutoff The post The Threshold Is a Price, Not a Percentage appeared first on Towards Data Science .",
-      "ts": 1783512000,
-      "published": "2026-07-08T12:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Experiences with local models for coding",
-      "link": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Birgitta Böckeler now reports on her recent experiences trying local LLMs for coding. She compares them using two standard tasks, and tries out the most promising model for day-to-day use. more…",
-      "ts": 1783511820,
-      "published": "2026-07-08T11:57:00+00:00",
-      "collected_at": null
     }
   ]
 }
