@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-08T05:45:16+09:00",
-  "count": 901,
+  "updated": "2026-08-08T06:42:17+09:00",
+  "count": 903,
   "items": [
+    {
+      "title": "1.15.13",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.13",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix preservation of provider on LiteLLM-routed models. Harden brittle LLM event-bus mocks. Fix underreporting of Anthropic cache token usage. Bump h2 to version 4.4.1 to address security vulnera…",
+      "ts": 1786137203,
+      "published": "2026-08-07T21:13:23+00:00",
+      "collected_at": "2026-08-08T06:42:13+09:00"
+    },
+    {
+      "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare has introduced Cloudflare Computer, a new open-source runtime designed to give AI agents something closer to a real \"computer\" instead of just ephemeral containers. It leverages Cloudflare isolates for fast s…",
+      "ts": 1786136400,
+      "published": "2026-08-07T21:00:00+00:00",
+      "collected_at": "2026-08-08T06:42:13+09:00"
+    },
     {
       "title": "langgraph-checkpoint-postgres==3.1.2",
       "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2",
