@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-08T02:51:02+09:00",
-  "count": 902,
+  "updated": "2026-08-08T04:03:34+09:00",
+  "count": 900,
   "items": [
+    {
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "link": "https://huggingface.co/blog/allenai/tutormoments",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1786125212,
+      "published": "2026-08-07T17:53:32+00:00",
+      "collected_at": "2026-08-08T04:03:29+09:00"
+    },
     {
       "title": "Matplotlib vs Plotly: Which Python Chart Tool Should You Choose?",
       "link": "https://towardsdatascience.com/matplotlib-vs-plotly-which-python-chart-tool-should-you-choose/",
@@ -8991,36 +9001,6 @@
       "ts": 1783541014,
       "published": "2026-07-08T20:03:34+00:00",
       "collected_at": null
-    },
-    {
-      "title": "What’s New in actions/setup-java 5.4 and 5.5: Signature Verification, Kona JDK, and a Better Maven Experience",
-      "link": "https://foojay.io/today/whats-new-in-actions-setup-java-5-4-and-5-5-signature-verification-kona-jdk-and-a-better-maven-experience/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "If you build Java on GitHub Actions, actions/setup-java is almost certainly the first step in your workflow. It installs a JDK, wires up JAVA_HOME and the PATH, configures Maven settings.xml, sets up dependency caching,…",
-      "ts": 1783536991,
-      "published": "2026-07-08T18:56:31+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "DeepSeek DSpark: The Speculative Decoding Trick Behind 400% Faster LLM",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/deepseek-dspark-speculative-decoding/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "DeepSeek’s new DSpark module brings speculative decoding to DeepSeek-V4. It might look like a niche inference tweak, but in production it boosted per-user generation speed by 60 to 85 percent with no drop in model quali…",
-      "ts": 1783535160,
-      "published": "2026-07-08T18:26:00+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Grok 4.5",
-      "link": "https://x.ai/news/grok-4-5",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "https://cursor.com/blog/grok-4-5 Comments URL: https://news.ycombinator.com/item?id=48835111 Points: 757 # Comments: 1404",
-      "ts": 1783533632,
-      "published": "2026-07-08T18:00:32+00:00",
-      "collected_at": "2026-07-10T08:44:08+09:00"
     }
   ]
 }
