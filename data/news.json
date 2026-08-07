@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-07T22:11:59+09:00",
-  "count": 906,
+  "updated": "2026-08-07T23:56:21+09:00",
+  "count": 904,
   "items": [
+    {
+      "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
+      "link": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Instacart introduced Blueberry, an AI-assisted incident response system that helps on-call engineers investigate production issues faster. It combines AI agents, operational data, and historical incident knowledge to ge…",
+      "ts": 1786113240,
+      "published": "2026-08-07T14:34:00+00:00",
+      "collected_at": "2026-08-07T23:56:15+09:00"
+    },
+    {
+      "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
+      "link": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Instacart introduced Blueberry, an AI-assisted incident response system that helps on-call engineers investigate production issues faster. It combines AI agents, operational data, and historical incident knowledge to ge…",
+      "ts": 1786113240,
+      "published": "2026-08-07T14:34:00+00:00",
+      "collected_at": "2026-08-07T23:56:15+09:00"
+    },
+    {
+      "title": "Small Language Models with Hugging Face transformers Library + smolLM3",
+      "link": "https://www.kdnuggets.com/small-language-models-with-hugging-face-transformers-library-smollm3",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Running a 70B model in production is expensive, and for many tasks, unnecessary. If you're building a focused pipeline, a well-trained 3B model will match or beat the 70B on your specific task at a fraction of the cost.",
+      "ts": 1786111225,
+      "published": "2026-08-07T14:00:25+00:00",
+      "collected_at": "2026-08-07T23:56:15+09:00"
+    },
+    {
+      "title": "How to avoid the “clean data, clean model” trap when teaching statistics and data science",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/07/how-to-avoid-the-clean-data-clean-model-trap-when-teaching-statistics-and-data-science/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Parthsarthi Joshi writes: There is a stark problem that I have observed with how data science is taught in most books and tutorials – the concepts are taught on an individual level but fail to give a complete idea. The…",
+      "ts": 1786109445,
+      "published": "2026-08-07T13:30:45+00:00",
+      "collected_at": "2026-08-07T23:56:15+09:00"
+    },
+    {
+      "title": "The Problem with pandas Isn’t Performance. It’s Cognitive Overhead.",
+      "link": "https://towardsdatascience.com/the-problem-with-pandas-isnt-performance-its-cognitive-overhead/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Faster dataframe engines are nice, but they don't reduce the amount of syntax an analyst has to hold in their head. The post The Problem with pandas Isn’t Performance. It’s Cognitive Overhead. appeared first on Towards…",
+      "ts": 1786109400,
+      "published": "2026-08-07T13:30:00+00:00",
+      "collected_at": "2026-08-07T23:56:15+09:00"
+    },
+    {
+      "title": "Identifying Token Costs Hiding in Your Agentic Loop",
+      "link": "https://machinelearningmastery.com/identifying-token-costs-hiding-in-your-agentic-loop/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "But cutting your runtime token burn is just the first problem.",
+      "ts": 1786108756,
+      "published": "2026-08-07T13:19:16+00:00",
+      "collected_at": "2026-08-07T23:56:15+09:00"
+    },
     {
       "title": "5 Free Courses to Learn Modern AI and LLMs",
       "link": "https://www.kdnuggets.com/5-free-courses-to-learn-modern-ai-and-llms",
@@ -8981,86 +9041,6 @@
       "ts": 1783522800,
       "published": "2026-07-08T15:00:00+00:00",
       "collected_at": null
-    },
-    {
-      "title": "Show HN: Abralo – Free, easy way to run several Claude Code agents in one window",
-      "link": "https://abralo.com/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Hi guys, I've been using Claude Code for almost everything lately. Have given one an email account so it can research business leads, draft emails, fact-check them and clear them with me before sending (works really wel…",
-      "ts": 1783522499,
-      "published": "2026-07-08T14:54:59+00:00",
-      "collected_at": "2026-07-10T08:44:08+09:00"
-    },
-    {
-      "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services",
-      "link": "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Airbnb engineers detailed Sitar-agent, a Kubernetes sidecar for dynamic configuration delivery across tens of thousands of pods, processing updates several times per minute. The system was redesigned with Java, Amazon S…",
-      "ts": 1783520700,
-      "published": "2026-07-08T14:25:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Airbnb Shares Architecture Behind Sitar-Agent Dynamic Configuration Sidecar for Kubernetes Services",
-      "link": "https://www.infoq.com/news/2026/07/sitar-agent-sidecar-config/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Airbnb engineers detailed Sitar-agent, a Kubernetes sidecar for dynamic configuration delivery across tens of thousands of pods, processing updates several times per minute. The system was redesigned with Java, Amazon S…",
-      "ts": 1783520700,
-      "published": "2026-07-08T14:25:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Presentation: The Multi-Agent Approach: Building Reliable and Controllable Software Development Automation",
-      "link": "https://www.infoq.com/presentations/multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Itamar Friedman discusses how architects and engineering leaders can break through the AI productivity ceiling using adaptive multi-agent systems. He shares insights on moving past simple autocomplete to resilient workf…",
-      "ts": 1783519560,
-      "published": "2026-07-08T14:06:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "How to Use GitHub",
-      "link": "https://realpython.com/how-to-use-github/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use GitHub step by step to create a remote repository, push your local Python project, and collaborate with others using GitHub Issues.",
-      "ts": 1783519200,
-      "published": "2026-07-08T14:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Inside the Subspace Where Spurious Correlations Are Born",
-      "link": "https://towardsdatascience.com/inside-the-subspace-where-spurious-correlations-are-born/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Why small samples can produce large correlations by chance, and why large does not always mean meaningful The post Inside the Subspace Where Spurious Correlations Are Born appeared first on Towards Data Science .",
-      "ts": 1783517400,
-      "published": "2026-07-08T13:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Our approach to government and national security partnerships",
-      "link": "https://openai.com/index/government-national-security-partnerships",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-      "ts": 1783517400,
-      "published": "2026-07-08T13:30:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "Is fabricating data worse than fabricating results? Is failing to correct a known false report more or less serious than making the false report in the first place?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/08/is-fabricating-data-worse-than-fabricating-results-is-failing-to-correct-a-known-false-report-more-or-less-serious-than-making-the-false-report-in-the-first-place/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Andy King writes: I have a question for you–and, if you think it worthwhile, for your readers. A few weeks ago, I was deposed by Harvard’s lawyers in the lawsuit between Francesca Gino and Harvard. Much of the questioni…",
-      "ts": 1783516756,
-      "published": "2026-07-08T13:19:16+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
     }
   ]
 }
