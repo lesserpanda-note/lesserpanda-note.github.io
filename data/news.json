@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-07T23:56:21+09:00",
-  "count": 904,
+  "updated": "2026-08-08T01:00:41+09:00",
+  "count": 903,
   "items": [
+    {
+      "title": "Loop Engineering for Listing Questions: When the Answer Is Every Passage, Not the Top One",
+      "link": "https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Enterprise Document Intelligence [Vol.1 #12] - The category of question most RAG pipelines silently fail on, and the pipeline shape that handles them The post Loop Engineering for Listing Questions: When the Answer Is E…",
+      "ts": 1786114800,
+      "published": "2026-08-07T15:00:00+00:00",
+      "collected_at": "2026-08-08T01:00:34+09:00"
+    },
     {
       "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
       "link": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -5563,6 +5573,16 @@
       "collected_at": "2026-07-20T23:14:17+09:00"
     },
     {
+      "title": "Criminal innumeracy",
+      "link": "https://statmodeling.stat.columbia.edu/2026/07/20/criminal-innumeracy/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This horrifying news article relates this stunning story of governmental innumeracy: Mr. Bovino said he had a master plan that was in motion before his exile back to El Centro. It would have neutralized protesters, he s…",
+      "ts": 1784553410,
+      "published": "2026-07-20T13:16:50+00:00",
+      "collected_at": "2026-08-08T01:00:34+09:00"
+    },
+    {
       "title": "Rebecca Makkai points out: Fancy three-dimensional sets are easier to construct in books than in movies, but harder to explain",
       "link": "https://statmodeling.stat.columbia.edu/2026/07/20/fancy-three-dimensional-sets-are-easier-to-construct-in-books-than-in-movies-but-harder-to-explain/",
       "source": "Statistical Modeling",
@@ -9010,36 +9030,6 @@
       "summary": "Hint: it is not GPU speed! The post The Real Challenge Limiting AI Models Today appeared first on Towards Data Science .",
       "ts": 1783528200,
       "published": "2026-07-08T16:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Why We Moved Our Timefold Java Worker Pods from AMD to ARM64",
-      "link": "https://foojay.io/today/why-we-moved-our-timefold-java-worker-pods-from-amd-to-arm64/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "When we investigated unexpected performance variance in our Timefold Solver worker pods on our platform, we traced it to hyperthreading on AMD (x86-64) cloud instances. Switching to ARM (ARM64), where each vCPU maps to…",
-      "ts": 1783524358,
-      "published": "2026-07-08T15:25:58+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "How to Clean Messy CSV Files with Python: A Beginner’s Guide",
-      "link": "https://www.kdnuggets.com/how-to-clean-messy-csv-files-with-python-a-beginners-guide",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn how to clean CSV files with pandas by handling missing values, duplicate rows, messy text, wrong data types, mixed date formats, invalid emails, and currency values.",
-      "ts": 1783523439,
-      "published": "2026-07-08T15:10:39+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Redesign Work Before You Add More AI Agents",
-      "link": "https://towardsdatascience.com/redesign-work-before-you-add-more-ai-agents/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Map AI value, design workflows, redefine talent, upgrade the executive team, and measure the business impact. The post Redesign Work Before You Add More AI Agents appeared first on Towards Data Science .",
-      "ts": 1783522800,
-      "published": "2026-07-08T15:00:00+00:00",
       "collected_at": null
     }
   ]
