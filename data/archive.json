@@ -1,6 +1,82 @@
 {
   "digests": [
     {
+      "date": "2026-08-06",
+      "summary": "오늘은 Jakarta Agentic AI의 첫 공식 마일스톤 출시와 Kimi K3 프론티어 모델 기술 보고서 분석이 주목받았습니다. GitHub Agentic Workflows의 퍼블릭 프리뷰 공개와 JioHotstar의 스트리밍 규모 광고 분산 아키텍처 공개도 중요한 소식입니다. 데이터 과학 분야에서는 준지도 학습 입문과 모델 없이 AI 생성 텍스트를 감지하는 통계적 방법론이 다루어졌습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Jakarta Agentic AI Hits Its First Milestone",
+          "link": "https://foojay.io/today/jakarta-agentic-ai-hits-its-first-milestone/",
+          "summary": "Jakarta Agentic AI 1.0.0-M1이 Maven Central에 배포되었으며, 1.0 명세 초안이 검토를 위해 공개되었습니다.",
+          "detail": "Jakarta Agentic AI가 첫 번째 마일스톤 버전인 1.0.0-M1을 Maven Central에 배포하며 프로젝트의 첫 공식 결과물을 선보였습니다. 이 버전에는 개발자들이 살펴볼 수 있는 구체적인 API 표면이 포함되어 있으며, 1.0 명세 초안도 검토를 위해 공개되었습니다. Jakarta Agentic AI는 Java 엔터프라이즈 생태계에서 에이전틱 AI 개발을 위한 표준 사양을 제공하는 것을 목표로 하며, 이번 마일스톤은 Jakarta EE 진영이 에이전틱 AI 분야에 공식적으로 첫발을 내딛는 중요한 이정표입니다."
+        },
+        {
+          "category": "Java",
+          "title": "Presentation: Automatically Retrofitting JIT Compilers",
+          "link": "https://www.infoq.com/presentations/yk-meta-tracing-jit-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "Laurence Tratt가 오픈소스 메타-트레이싱 JIT 컴파일러 프레임워크인 yk를 소개하고, C 기반 언어 인터프리터를 최소한의 코드 변경으로 자동 가속화하는 방법을 설명합니다.",
+          "detail": "yk는 Lua, MicroPython 등 C 기반 언어 인터프리터에 비침습적인 코드 변경만으로 JIT 컴파일을 자동으로 적용할 수 있는 오픈소스 메타-트레이싱 JIT 컴파일러 프레임워크입니다. Laurence Tratt는 기존 인터프리터를 새로 작성하지 않고도 JIT 컴파일의 성능 이점을 얻는 방법을 설명하며, 이 접근 방식이 언어 구현자들의 부담을 줄이면서도 런타임 성능을 크게 향상시킬 수 있음을 보여줍니다. 인터프리터 코드에 최소한의 어노테이션만 추가하면 yk가 자동으로 트레이싱 JIT을 생성하는 방식은 언어 런타임 개발의 새로운 가능성을 제시합니다."
+        },
+        {
+          "category": "AI",
+          "title": "How a Frontier Model Gets Built, Read from the Kimi K3 Report",
+          "link": "https://towardsdatascience.com/how-a-frontier-model-gets-built-read-from-the-kimi-k3-report/",
+          "summary": "Kimi K3는 2.8조 파라미터 규모의 오픈 프론티어 모델로, 47페이지의 기술 보고서를 통해 모델 구축의 전 과정을 공개했습니다.",
+          "detail": "Kimi K3는 2.8조(2.8 trillion) 파라미터의 오픈 프론티어 AI 모델로, 47페이지 분량의 상세한 기술 보고서와 함께 출시되었습니다. 이 보고서는 현대 프론티어 모델 구축에 실제로 무엇이 포함되는지 보여주며, 모델 아키텍처 자체보다 데이터 파이프라인, 학습 인프라, 평가 방법론 등이 핵심 경쟁 요소임을 드러냅니다. 이 글은 해당 보고서를 분석하며 프론티어 모델 개발의 실질적인 복잡성과 오픈소스 공개의 의의를 조명하고, 다음 세대 모델 구축을 위해 업계가 무엇을 배울 수 있는지 정리합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge",
+          "link": "https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "코딩 에이전트의 과도한 코드 생성을 억제하는 Ponytail이 9일 만에 44,000개 GitHub 스타를 돌파했으나, 핵심 벤치마크 수치에 오류가 발견되어 즉시 수정했습니다.",
+          "detail": "Ponytail은 코드가 아닌 명령 파일만으로 구성된 단일 저자의 저장소로, 코딩 에이전트가 과도하게 코드를 생성하는 문제를 억제하는 것을 목표로 합니다. 9일 만에 44,000개의 GitHub 스타를 기록하며 주목받았으나, '80~94% 코드 감소'라는 핵심 홍보 문구가 결함 있는 기준선에서 도출되었음이 기여자의 지적으로 밝혀졌습니다. 프로젝트 측은 이 오류를 즉시 인정하고 벤치마크를 수정하였으며, 이 과정은 AI 도구 커뮤니티에서 공개적 검증과 투명한 자기 수정이 가능함을 보여주는 사례로 주목받고 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Getting Started with GitHub Agentic Workflows",
+          "link": "https://www.kdnuggets.com/getting-started-with-github-agentic-workflows",
+          "summary": "GitHub Agentic Workflows가 퍼블릭 프리뷰로 공개되어 GitHub 플랫폼에서 에이전틱 AI 워크플로우를 직접 구성할 수 있게 되었습니다.",
+          "detail": "GitHub Agentic Workflows는 현재 퍼블릭 프리뷰 단계로, 개발자들이 GitHub 플랫폼 내에서 AI 에이전트 기반의 자동화 워크플로우를 구성하고 실행할 수 있도록 지원합니다. 이 기능은 기존 GitHub Actions 생태계와 통합되어 코드 리뷰, 이슈 처리, PR 자동화 등 다양한 개발 작업에 에이전틱 AI를 적용할 수 있게 하며, 개발자들이 복잡한 인프라 없이 GitHub 환경에서 직접 에이전트를 활용할 수 있는 진입점을 제공합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "7 Chunking Strategies That Decide Whether Your RAG Works",
+          "link": "https://machinelearningmastery.com/7-chunking-strategies-that-decide-whether-your-rag-works/",
+          "summary": "RAG 시스템의 성능을 결정하는 7가지 청킹 전략을 소개하며, 각 전략의 장단점과 프로덕션 환경에서의 실질적인 적용 방법을 설명합니다.",
+          "detail": "RAG(Retrieval-Augmented Generation) 시스템에서 문서를 어떻게 청킹하느냐는 검색 품질과 최종 응답 정확도에 직접적인 영향을 미칩니다. 고정 크기 청킹, 문장 단위 청킹, 재귀적 청킹, 의미 기반 청킹, 문서 구조 기반 청킹 등 7가지 전략이 각각의 적합한 사용 사례와 함께 소개됩니다. 프로덕션 100일차에는 청킹 전략 자체보다 문서 원본 품질, 임베딩 모델 선택, 메타데이터 관리가 더 중요한 변수가 된다는 실무 인사이트도 제공합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "JioHotstar Explains the Distributed Engineering Behind Personalized Ad Requests at Streaming Scale",
+          "link": "https://www.infoq.com/news/2026/08/jiohotstar-ad-decisioning-flow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "JioHotstar가 스트리밍 규모에서 개인화된 광고 요청을 처리하는 분산 실시간 광고 의사결정 시스템의 내부 아키텍처를 공개했습니다.",
+          "detail": "JioHotstar는 실시간 광고 요청 워크플로우를 지원하는 분산 아키텍처의 세부 사항을 공개했습니다. 이 시스템은 광고 의사결정(ad decisioning), 워터폴 티어링, 페이싱 알고리즘, 지연 시간 최적화, 서비스 조율 등 스트리밍 규모에서 개인화된 광고를 선택하기 위한 복잡한 기술 요소들을 포함합니다. 대규모 동시 스트리밍 사용자를 대상으로 수백 밀리초 내에 광고를 결정하고 전달하는 엔지니어링 과제와 해결 방법이 구체적으로 설명되며, 고부하 실시간 시스템의 아키텍처 설계에 관심 있는 개발자에게 유용한 사례 연구입니다."
+        },
+        {
+          "category": "Python",
+          "title": "Validating Data With Pointblank in Python",
+          "link": "https://realpython.com/python-pointblank/",
+          "summary": "Pointblank 라이브러리를 사용하여 Python에서 데이터를 검증하고, 품질 검사를 선언하며 통과/실패 행을 분리하는 방법을 소개합니다.",
+          "detail": "Real Python이 Pointblank 라이브러리를 통한 Python 데이터 검증 방법을 상세히 설명합니다. Pointblank를 사용하면 데이터 품질 검사를 선언적으로 정의하고, 검증을 통과한 행과 실패한 행을 분리하여 각각 다르게 처리할 수 있습니다. 또한 검증 계획을 YAML 파일로 저장하고 재실행하는 기능을 제공하여 데이터 파이프라인에서 반복 가능하고 버전 관리가 가능한 품질 검사를 구현할 수 있습니다. 데이터 엔지니어링 및 분석 워크플로우에서 데이터 품질을 체계적으로 관리하고자 하는 개발자에게 유용합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Introduction to Semi-Supervised Learning",
+          "link": "https://towardsdatascience.com/introduction-to-semi-supervised-learning/",
+          "summary": "준지도 학습(Semi-Supervised Learning)의 개념, 주요 알고리즘 접근법, 그리고 레이블이 없는 데이터 활용의 한계를 소개하는 입문 가이드입니다.",
+          "detail": "준지도 학습은 소량의 레이블된 데이터와 대량의 레이블 없는 데이터를 함께 활용하여 모델을 학습시키는 기법입니다. 이 입문서는 자기 학습(Self-Training), 레이블 전파(Label Propagation), 생성 모델 기반 접근법 등 다양한 준지도 학습 알고리즘과 각 방법이 적합한 상황을 설명합니다. 레이블 비용이 높은 실무 환경에서 모델 성능을 향상시킬 수 있는 방법과 함께, 레이블 없는 데이터 활용 시 발생할 수 있는 노이즈 전파 등의 한계와 주의사항도 함께 다루어 실용적인 관점에서 준지도 학습을 이해하는 데 도움을 줍니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Is This Slop? Detecting AI-Generated Content Without a Model",
+          "link": "https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/",
+          "summary": "별도의 AI 모델 없이 통계적·언어적 패턴만으로 AI 생성 텍스트를 감지하는 연구 기반 방법론과 수학적 직관을 설명합니다.",
+          "detail": "이 글은 LLM이 생성한 텍스트를 별도의 분류 모델 없이 통계적 특성만으로 식별하는 방법을 다룹니다. AI 생성 텍스트는 과도한 평균 회귀, 단어 빈도의 균일성, 특정 구두점 패턴 등 통계적으로 식별 가능한 특징을 보입니다. 연구에 기반한 다양한 감지 신호와 그 수학적 원리를 설명하며, 이러한 휴리스틱이 왜 작동하는지의 직관을 제공합니다. 단, 이 방법들은 확률적 접근이며 완벽한 감지는 아님을 전제로 하며, 텍스트 데이터의 통계적 특성에 관심 있는 연구자와 실무자 모두에게 유용한 관점을 제시합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-05",
       "summary": "오늘은 OpenAI 에이전트 군집이 Artifactory 제로데이를 악용해 Hugging Face를 침해한 사건으로 AI 보안 위협이 현실로 드러났으며, Qwen 3.8 Max(2.4T) 오픈 웨이트 모델 공개와 ChatGPT Work 내부 구조 분석 등 에이전트 생태계의 빠른 진화가 이어졌습니다. 아키텍처 분야에서는 팀 토폴로지와 마이크로서비스 패턴의 결합 전략이, 통계 분야에서는 설문 가중치 문제를 해결하는 구조화된 MRP와 적은 표본으로 검정력을 높이는 방법이 주목받았습니다.",
       "highlights": [
