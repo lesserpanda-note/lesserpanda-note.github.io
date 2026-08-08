@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-09T06:33:42+09:00",
-  "count": 878,
+  "updated": "2026-08-09T08:32:46+09:00",
+  "count": 880,
   "items": [
+    {
+      "title": "1.15.14",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.14",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Split runtime context from coding agent and add project ID Documentation Update snapshot and changelog for v1.15.13 Contributors @joaomdmoura",
+      "ts": 1786229857,
+      "published": "2026-08-08T22:57:37+00:00",
+      "collected_at": "2026-08-09T08:32:36+09:00"
+    },
+    {
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Clau…",
+      "ts": 1786228563,
+      "published": "2026-08-08T22:36:03+00:00",
+      "collected_at": "2026-08-09T08:32:36+09:00"
+    },
     {
       "title": "Message your other Claude Code sessions",
       "link": "https://code.claude.com/docs/en/cross-session-messaging",
