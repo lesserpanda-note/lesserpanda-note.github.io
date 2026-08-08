@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-08T21:55:12+09:00",
-  "count": 889,
+  "updated": "2026-08-08T22:49:18+09:00",
+  "count": 887,
   "items": [
+    {
+      "title": "Building Trustworthy Snowflake AI Agents with Semantic Governance",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/snowflake-ai-agents-semantic-governance/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "This year, many data teams have added AI agents to their roadmaps. The excitement is real: an agent that turns a two-day analysis into a two-minute conversation can change how analysts and business teams work together.…",
+      "ts": 1786195632,
+      "published": "2026-08-08T13:27:12+00:00",
+      "collected_at": "2026-08-08T22:49:12+09:00"
+    },
+    {
+      "title": "Building a Streamlit UI for My LangGraph AI Agent",
+      "link": "https://towardsdatascience.com/building-a-streamlit-ui-for-my-langgraph-ai-agent/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Building a production-ready web interface for a stateful LangGraph agent The post Building a Streamlit UI for My LangGraph AI Agent appeared first on Towards Data Science .",
+      "ts": 1786194000,
+      "published": "2026-08-08T13:00:00+00:00",
+      "collected_at": "2026-08-08T22:49:12+09:00"
+    },
     {
       "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
       "link": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -8851,46 +8871,6 @@
       "ts": 1783604979,
       "published": "2026-07-09T13:49:39+00:00",
       "collected_at": null
-    },
-    {
-      "title": "“A medical journal says the case reports it has published for 25 years are, in fact, fiction”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/09/a-medical-journal-says-the-case-reports-it-has-published-for-25-years-are-in-fact-fiction/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Retraction Watch reports: A Canadian journal has issued corrections on 138 case reports it published over the last 25 years to add a disclaimer: The cases described are fictional. Paediatrics & Child Health, the journal…",
-      "ts": 1783604195,
-      "published": "2026-07-09T13:36:35+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Loop Engineering for Hierarchical Retrieval: Reading a Long Document by Its Table of Contents",
-      "link": "https://towardsdatascience.com/loop-engineering-for-hierarchical-retrieval-reading-a-long-document-by-its-table-of-contents/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Enterprise Document Intelligence [Vol.1 #7quater] - A 492-page document has a 358-entry table of contents. You can’t read it all, and top-k over every page mixes the answer with its neighbours. Route through the TOC ins…",
-      "ts": 1783603800,
-      "published": "2026-07-09T13:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
-      "link": "https://github.com/ronak-create/FableCut",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/ronak-create/FableCut Comments URL: https://news.ycombinator.com/item?id=48845422 Points: 83 # Comments: 58",
-      "ts": 1783603390,
-      "published": "2026-07-09T13:23:10+00:00",
-      "collected_at": "2026-07-10T08:44:08+09:00"
-    },
-    {
-      "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-      "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
-      "ts": 1783602000,
-      "published": "2026-07-09T13:00:00+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
     }
   ]
 }
