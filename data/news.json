@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-08T10:52:41+09:00",
+  "updated": "2026-08-08T12:36:34+09:00",
   "count": 898,
   "items": [
+    {
+      "title": "v1.107.2 (2026-08-07)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.2",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🛡️ Security Fixes an availability vulnerability: unbounded memory use when downloading remote content via the local web_fetch tool or FileUrl media downloads, which could exhaust process memory and crash the worker. Pat…",
+      "ts": 1786158968,
+      "published": "2026-08-08T03:16:08+00:00",
+      "collected_at": "2026-08-08T12:36:25+09:00"
+    },
     {
       "title": "[AINews] Zawinski's Law of MultiAgents",
       "link": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
@@ -8970,16 +8980,6 @@
       "summary": "SpaceXAI continues to move faster than any other frontier lab on earth.",
       "ts": 1783577141,
       "published": "2026-07-09T06:05:41+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "v2.7.0 (2026-07-08)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.7.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Support azure-responses:[model-id] shorthand by @hramezani in #6355 Add xAI grok-4.5 model by @dsfaccini in #6362 🐛 Bug Fixes fix: handle boolean JSON Schema nodes in function signature walker…",
-      "ts": 1783562201,
-      "published": "2026-07-09T01:56:41+00:00",
       "collected_at": null
     }
   ]
