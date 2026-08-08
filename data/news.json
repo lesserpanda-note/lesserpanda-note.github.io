@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-08T23:35:29+09:00",
-  "count": 887,
+  "updated": "2026-08-09T00:34:03+09:00",
+  "count": 885,
   "items": [
+    {
+      "title": "Before Q, K, and V: Reconstructing the Transformer",
+      "link": "https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Many Transformer explainers start with the finished architecture. We ask why it looks the way it does. The post Before Q, K, and V: Reconstructing the Transformer appeared first on Towards Data Science .",
+      "ts": 1786201200,
+      "published": "2026-08-08T15:00:00+00:00",
+      "collected_at": "2026-08-09T00:33:39+09:00"
+    },
     {
       "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
       "link": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
@@ -8840,36 +8850,6 @@
       "summary": "The default assumption in most LLM developer communities is that you start with raw API calls and graduate to a framework as your project grows.",
       "ts": 1783611536,
       "published": "2026-07-09T15:38:56+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Presentation: Accelerating Netflix Data: A Cross-Team Journey from Offline to Online",
-      "link": "https://www.infoq.com/presentations/netflix-data-offline-online/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Raj Ummadisetty and Ken Kurzweil share Netflix's architectural pivot to CloudStream, a repeatable capture, conversion, and deployment framework. They discuss shifting key-value abstractions from stateless to stateful to…",
-      "ts": 1783610400,
-      "published": "2026-07-09T15:20:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "How to Find the Optimal Coding Agent Interface",
-      "link": "https://towardsdatascience.com/how-to-find-the-optimal-coding-agent-interface/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Find the optimal way to interact with your coding agents The post How to Find the Optimal Coding Agent Interface appeared first on Towards Data Science .",
-      "ts": 1783609200,
-      "published": "2026-07-09T15:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The History of Kodee, Kotlin’s Mascot",
-      "link": "https://blog.jetbrains.com/research/2026/07/the-history-of-kodee/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "A few years back, the Kotlin team figured it was time their programming language had a mascot – something fun and friendly to make developers feel more at home. After all, so many other programming languages have their…",
-      "ts": 1783608826,
-      "published": "2026-07-09T14:53:46+00:00",
       "collected_at": null
     }
   ]
