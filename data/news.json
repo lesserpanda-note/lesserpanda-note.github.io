@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-09T00:34:03+09:00",
-  "count": 885,
+  "updated": "2026-08-09T01:37:37+09:00",
+  "count": 880,
   "items": [
     {
       "title": "Before Q, K, and V: Reconstructing the Transformer",
@@ -8801,56 +8801,6 @@
       "ts": 1783617229,
       "published": "2026-07-09T17:13:49+00:00",
       "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Behind the Scenes of Distributed Training and Why Your GPU Wiring Matters as Much as Your Strategy",
-      "link": "https://towardsdatascience.com/behind-the-scenes-of-distributed-training-why-your-gpu-wiring-matters-as-much-as-your-strategy/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A measured look at distributed training, from DDP and FSDP to the ZeRO stages in between, and why the wiring between your GPUs matters as much as the strategy you choose The post Behind the Scenes of Distributed Trainin…",
-      "ts": 1783614600,
-      "published": "2026-07-09T16:30:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Introducing Muse Spark 1.1",
-      "link": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Introducing Muse Spark 1.1 Following Muse Spark in April , here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use. There are a lot mor…",
-      "ts": 1783614249,
-      "published": "2026-07-09T16:24:09+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "llm-meta-ai 0.1",
-      "link": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-meta-ai 0.1 Let's LLM run prompts against the new muse-spark-1.1 model. Tags: llm , meta",
-      "ts": 1783613540,
-      "published": "2026-07-09T16:12:20+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "llm 0.31.1",
-      "link": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm 0.31.1 Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. #1521 This bug came up when I was testing llm-meta-ai . Ta…",
-      "ts": 1783613175,
-      "published": "2026-07-09T16:06:15+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "LLM Orchestration Frameworks Compared: LangChain vs. LlamaIndex vs. Raw API Calls",
-      "link": "https://machinelearningmastery.com/llm-orchestration-frameworks-compared-langchain-vs-llamaindex-vs-raw-api-calls/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "The default assumption in most LLM developer communities is that you start with raw API calls and graduate to a framework as your project grows.",
-      "ts": 1783611536,
-      "published": "2026-07-09T15:38:56+00:00",
-      "collected_at": null
     }
   ]
 }
