@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-08T08:36:45+09:00",
-  "count": 901,
+  "updated": "2026-08-08T09:20:09+09:00",
+  "count": 897,
   "items": [
+    {
+      "title": "Quoting John Gruber",
+      "link": "https://simonwillison.net/2026/Aug/8/john-gruber/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Me, I try to get into the mindset of playing live music, not recording a studio album. Except when I’m writing a piece where I really want it to be an album. Those aren’t rare , per se, but they’re occasional . If I tri…",
+      "ts": 1786147840,
+      "published": "2026-08-08T00:10:40+00:00",
+      "collected_at": "2026-08-08T09:20:03+09:00"
+    },
+    {
+      "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+      "link": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "OpenAI gave a last-minute presentation at the Black Hat security on Wednesday about \"the Hugging Face Incident\" ( previously on this blog). The video was published yesterday. It's short and information dense and well wo…",
+      "ts": 1786146958,
+      "published": "2026-08-07T23:55:58+00:00",
+      "collected_at": "2026-08-08T09:20:03+09:00"
+    },
     {
       "title": "Push V3: One Message From Your Server to Every Surface",
       "link": "https://foojay.io/today/push-v3-one-message-from-your-server-to-every-surface/",
@@ -8950,66 +8970,6 @@
       "summary": "What's Changed 🚀 Features Support azure-responses:[model-id] shorthand by @hramezani in #6355 Add xAI grok-4.5 model by @dsfaccini in #6362 🐛 Bug Fixes fix: handle boolean JSON Schema nodes in function signature walker…",
       "ts": 1783562201,
       "published": "2026-07-09T01:56:41+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Episode 61 “Scripting JS and Python with Project Detroit” [AtA]",
-      "link": "https://inside.java/2026/07/09/podcast-061/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "OpenJDK recently resurrected Project Detroit, an effort to ease Java's interoperability with Python and JavaScript.",
-      "ts": 1783555200,
-      "published": "2026-07-09T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "A Bootiful Podcast: Spring Boot legend Moritz Halbritter on the latest and greatest in Spring Boot 4 and 4.1",
-      "link": "https://spring.io/blog/2026/07/09/a-bootiful-podcast-moritz-halbritter",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi Spring fans! Spring Boot 4.1 is here and with it a ton of amazing features. I'm delighted to have had the opportunity to sit down with Moritz Halbritter, of Spring Boot and Spring Initializr fame, to talk about some…",
-      "ts": 1783555200,
-      "published": "2026-07-09T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "Ollama: all aboard open models",
-      "link": "https://ollama.com/blog/all-aboard-open-models",
-      "source": "Ollama",
-      "category": "AI",
-      "summary": "Serving 8.9 million developers, Ollama has raised $88M from Benchmark, Theory Ventures, 8VC, Y Combinator, and many incredible angel investors.",
-      "ts": 1783555200,
-      "published": "2026-07-09T00:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "UST is bringing Claude to physical AI",
-      "link": "https://www.anthropic.com/news/ust-claude",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "UST is bringing Claude to physical AI",
-      "ts": 1783555200,
-      "published": "2026-07-09T00:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Inviting hard questions",
-      "link": "https://www.anthropic.com/news/hard-questions",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Inviting hard questions",
-      "ts": 1783555200,
-      "published": "2026-07-09T00:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Rewriting Bun in Rust",
-      "link": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Rewriting Bun in Rust Jarred Sumner has been promising this blog post ( since May 9th ) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite. Honestly, it was worth the wa…",
-      "ts": 1783555041,
-      "published": "2026-07-08T23:57:21+00:00",
       "collected_at": null
     }
   ]
