@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-08T16:54:50+09:00",
-  "count": 897,
+  "updated": "2026-08-08T17:46:43+09:00",
+  "count": 895,
   "items": [
+    {
+      "title": "Cloudflare's Precursor Detects Bots and AI Agents Through Continuous Behavioral Analysis",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-precursor-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare recently introduced Precursor, a client-side behavioral analysis engine that continuously evaluates session interactions, such as mouse movements and keyboard timing, to improve detection of sophisticated bot…",
+      "ts": 1786175640,
+      "published": "2026-08-08T07:54:00+00:00",
+      "collected_at": "2026-08-08T17:46:35+09:00"
+    },
     {
       "title": "v2.27.0 (2026-08-07)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.27.0",
@@ -8940,36 +8950,6 @@
       "summary": "In this article, I describe the challenges and the design of a React Native real-time mobile beat-aligned playback system for iOS and Android. The system combines personalization with low-latency, and seamless navigatio…",
       "ts": 1783587600,
       "published": "2026-07-09T09:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "The Java Story: A Film About All of Us",
-      "link": "https://foojay.io/today/the-java-story-a-film-about-all-of-us/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Every so often a story comes along that belongs to an entire community rather than any one company or person. The Java Story documentary by CultRepo is one of those. On July 17th at 7pm UTC, the official Java documentar…",
-      "ts": 1783586639,
-      "published": "2026-07-09T08:43:59+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database",
-      "link": "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google shipped AlloyDB AI functions GA with a proxy model architecture that trains a lightweight local model from LLM outputs, then runs queries at database speed without external calls. Smart batching delivers 2,400x t…",
-      "ts": 1783584000,
-      "published": "2026-07-09T08:00:00+00:00",
-      "collected_at": null
-    },
-    {
-      "title": "AlloyDB Ships Proxy Models That Replace LLM Calls with Local Inference Inside the Database",
-      "link": "https://www.infoq.com/news/2026/07/alloydb-ai-proxy-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Google shipped AlloyDB AI functions GA with a proxy model architecture that trains a lightweight local model from LLM outputs, then runs queries at database speed without external calls. Smart batching delivers 2,400x t…",
-      "ts": 1783584000,
-      "published": "2026-07-09T08:00:00+00:00",
       "collected_at": null
     }
   ]
