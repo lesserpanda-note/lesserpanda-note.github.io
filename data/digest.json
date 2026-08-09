@@ -1,76 +1,41 @@
 {
-  "updated": "2026-08-08T00:19:40Z",
-  "summary": "오늘은 Cloudflare의 에이전트용 영구 상태 컴퓨팅 환경 출시와 Microsoft Azure APIM의 AI 게이트웨이 전용 티어 공개가 두드러집니다. 에이전트 비용 관리 문제('토큰포칼립스')와 Instacart·Spotify의 실무 AI 엔지니어링 사례도 눈길을 끌며, DataScience 분야에서는 ML 평가 함정과 교육 현실의 괴리를 짚는 글이 주목받습니다.",
+  "updated": "2026-08-09T00:16:01Z",
+  "summary": "오늘은 Anthropic Claude Code의 두 가지 주요 업데이트가 중심을 이룹니다. Pro·Max·Team 플랜에서 Auto 모드가 기본값으로 전환되었고, 서로 다른 세션 간에 메시지를 직접 주고받는 크로스 세션 메시징 기능이 정식 출시되었습니다. AI 인프라 측면에서는 Cloudflare가 봇·AI 에이전트 탐지용 행동 분석 엔진 Precursor를 출시했으며, OpenAI에서는 에이전틱 워크플로우 환경에서 ChatGPT 성능을 유지하는 엔지니어링 전략이 공개되었습니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "Push V3: One Message From Your Server to Every Surface",
-      "link": "https://foojay.io/today/push-v3-one-message-from-your-server-to-every-surface/",
-      "summary": "Codename One Push V3가 출시되어 타입드 메시지, 관리형 자격증명, 세그멘테이션, 분석 기능 및 Surface 업데이트가 추가되었습니다. 기존 V2 앱 사용자는 다음 주 전환 전 새 클라우드 엔드포인트를 테스트해야 합니다.",
-      "detail": "Codename One의 Push V3는 모바일 앱 개발자를 위한 대규모 푸시 알림 기능 개선을 제공합니다. 주요 변경 사항으로 타입드 메시지(typed messages)를 통한 구조화된 데이터 전달, 관리형 자격증명(managed credentials)으로 인증 세부 정보 자동 관리, 세그멘테이션(segmentation)을 통한 특정 사용자 그룹 타겟팅, 그리고 분석 대시보드(analytics)가 포함됩니다. Surface 업데이트도 추가되어 단일 메시지를 모바일·웹·데스크톱 등 다양한 플랫폼에 동시 전송할 수 있습니다. 기존 Push V2 앱 운영자는 다음 주 예정된 클라우드 엔드포인트 강제 전환 이전에 V3 엔드포인트 테스트를 완료할 것을 권고합니다."
+      "category": "AI",
+      "title": "Cloudflare's Precursor Detects Bots and AI Agents Through Continuous Behavioral Analysis",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-precursor-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Cloudflare가 봇과 AI 에이전트를 지속적인 행동 분석으로 탐지하는 클라이언트 사이드 엔진 'Precursor'를 출시했습니다.",
+      "detail": "Cloudflare는 봇과 AI 에이전트를 탐지하기 위한 새 클라이언트 사이드 행동 분석 엔진 'Precursor'를 출시했습니다. 기존의 정적 규칙이나 챌린지 기반 방식과 달리 Precursor는 브라우저 동작 패턴을 실시간으로 지속 분석하여 자동화 여부를 판별합니다. 특히 AI 에이전트가 웹사이트를 탐색하는 상황을 감지하는 데 초점을 맞추며, 합법적인 사용자 트래픽과 자동화 트래픽을 더욱 정밀하게 구분할 수 있도록 설계되었습니다. 이는 AI 에이전트의 웹 활동이 급증하는 환경에서 웹 운영자가 트래픽 성격을 파악하고 보호 정책을 수립하는 데 실질적인 도움을 줍니다."
     },
     {
       "category": "AI",
-      "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Cloudflare가 AI 에이전트를 위한 지속적이고 상태 보존형 컴퓨팅 환경 'Cloudflare Computer'를 오픈소스로 출시했습니다. 기존의 일회성 컨테이너 대신 실제 컴퓨터에 가까운 환경을 에이전트에 제공합니다.",
-      "detail": "Cloudflare는 AI 에이전트가 실제 컴퓨터처럼 작동할 수 있는 새 오픈소스 런타임 'Cloudflare Computer'를 발표했습니다. 기존의 임시(ephemeral) 컨테이너 방식과 달리 영구적이고 상태를 유지하는 환경을 제공하는 것이 핵심입니다. Cloudflare isolates를 기반으로 빠른 시작을 지원하며, 에이전트가 브라우저를 제어하고 파일을 저장하며 세션 간 상태를 유지할 수 있습니다. 이를 통해 장기 실행 에이전트 작업, 복잡한 멀티스텝 워크플로우, 지속적인 컨텍스트가 필요한 AI 응용 프로그램 개발이 가능해집니다. 에이전트가 진정한 '컴퓨터 사용(computer use)' 능력을 발휘하기 위한 핵심 인프라 기반을 마련한 발표입니다."
-    },
-    {
-      "category": "AI",
-      "title": "Azure API Management Adds Dedicated AI Gateway Tier, Governing Models and MCP Tools",
-      "link": "https://www.infoq.com/news/2026/08/azure-apim-ai-gateway-tier/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Microsoft가 Azure API Management에 AI 모델과 MCP 도구 관리에 특화된 전용 AI 게이트웨이 티어를 공개 프리뷰로 출시했습니다.",
-      "detail": "Microsoft는 Azure API Management(APIM)에 AI Gateway 전용 티어를 공개 프리뷰로 발표했습니다. 기존 API 중심 구조와 달리, AI 모델·MCP(Model Context Protocol) 서버·도구(tools) 관리에 최적화된 컨트롤 플레인을 갖추고 있습니다. Azure AI Foundry, AWS Bedrock, Google Vertex AI, OpenAI 등 주요 AI 플랫폼을 모두 지원하는 통합 게이트웨이로 동작합니다. 엔터프라이즈 환경에서 여러 AI 공급자를 일관되게 거버넌스하고, 정책을 적용하며, 사용량을 추적할 수 있는 단일 제어 지점을 제공합니다. 멀티클라우드 AI 전략을 추진하는 조직에게 중요한 기능 추가입니다."
+      "title": "Before Q, K, and V: Reconstructing the Transformer",
+      "link": "https://towardsdatascience.com/before-q-k-and-v-reconstructing-the-transformer/",
+      "summary": "완성된 트랜스포머 구조에서 출발하는 대신 Q·K·V 개념이 등장하기 이전부터 왜 그런 설계가 필요했는지를 단계적으로 재구성하는 심층 교육 자료입니다.",
+      "detail": "대부분의 트랜스포머 설명 자료가 완성된 아키텍처에서 출발하는 것과 달리, 이 글은 \"왜 트랜스포머가 이런 형태를 갖게 되었는가\"라는 근본적인 질문에서 시작합니다. Q(Query), K(Key), V(Value) 개념이 도입되기 전 단계부터 어텐션 메커니즘이 어떻게 발전했는지를 단계적으로 재구성하며, 독자가 직접 그 필요성을 느끼고 이해할 수 있도록 이끕니다. 이 접근법은 단순한 수식 암기가 아닌 설계 의도와 인과 관계를 중심으로 트랜스포머를 이해하게 하여, AI·ML 실무자와 연구자 모두에게 아키텍처의 동작 원리를 더욱 직관적으로 파악할 수 있게 해줍니다."
     },
     {
       "category": "Agents",
-      "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
-      "link": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
-      "summary": "기업들이 AI 토큰 비용 급증에 대응하는 '토큰포칼립스' 현상이 확산되고 있습니다. Accenture 등 대기업들이 AI 에이전트 도입 후 급증한 토큰 비용을 줄이기 위해 긴급 대책을 마련하고 있습니다.",
-      "detail": "'토큰포칼립스(Tokenpocalypse)'는 기업들이 예상을 뛰어넘는 AI 토큰 비용에 직면하는 현상을 가리킵니다. 유출된 Accenture 내부 회의 음성 녹음에 따르면, AI 코딩 에이전트 도입 후 토큰 비용이 폭발적으로 증가했습니다. PDF 파싱, 긴 컨텍스트 윈도우 유지, 불필요한 재처리가 주요 비용 원인으로 지목됩니다. Simon Willison은 이 현상을 분석하며 PDF가 AI 파이프라인에서 특히 비효율적인 포맷임을 강조합니다. AI 도입 규모가 커질수록 토큰 비용 관리가 핵심 엔지니어링 과제로 부상하고 있으며, 단순 절약을 넘어선 아키텍처 수준 대응이 필요합니다."
+      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+      "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+      "summary": "Anthropic이 Claude Code의 Pro·Max·Team 플랜에서 Auto 모드를 기본 모드로 전환했습니다. Auto 모드는 작업 복잡도에 따라 최적 모델을 자동 선택합니다.",
+      "detail": "Anthropic이 Claude Code Pro·Max·Team 플랜 사용자 대상으로 Auto 모드를 기본값으로 설정했습니다. Auto 모드는 각 작업의 복잡도와 성격에 따라 Claude가 스스로 가장 적합한 모델을 선택하는 방식으로, 사용자가 수동으로 모델을 고를 필요를 없앱니다. 간단한 작업에는 경량 모델을, 복잡한 추론이 필요한 작업에는 고성능 모델을 자동으로 선택함으로써 비용과 성능 간의 균형을 최적화합니다. Simon Willison은 이 변화가 Anthropic의 멀티모델 전략에 대한 자신감을 반영하며, AI 에이전트 도구의 사용 경험을 더욱 단순하게 만드는 중요한 전환점이라고 분석합니다."
     },
     {
       "category": "Agents",
-      "title": "Identifying Token Costs Hiding in Your Agentic Loop",
-      "link": "https://machinelearningmastery.com/identifying-token-costs-hiding-in-your-agentic-loop/",
-      "summary": "에이전틱 루프(agentic loop)에 숨겨진 토큰 비용을 식별하고 최적화하는 방법을 다룹니다. 런타임 토큰 소비를 줄이는 것은 첫 번째 단계에 불과합니다.",
-      "detail": "AI 에이전트를 프로덕션에 배포할 때 예상치 못한 토큰 비용이 발생하는 주요 원인을 분석합니다. 에이전틱 루프에서 발생하는 숨겨진 비용의 대표 원인으로는 도구 정의(tool definitions)의 매 루프마다 반복 포함, 이전 대화 기록의 무한 누적, 과도하게 긴 시스템 프롬프트, 그리고 불필요한 중간 추론 단계가 있습니다. 단순히 런타임 토큰을 줄이는 것을 넘어, 에이전트 설계 단계에서 토큰 효율성을 반드시 고려해야 합니다. 각 루프 반복에서 실제로 필요한 컨텍스트만 유지하고, 도구 스키마를 최소화하며, 불필요한 재처리를 방지하는 전략적 접근이 장기적 비용 절감의 핵심입니다."
+      "title": "Message your other Claude Code sessions",
+      "link": "https://code.claude.com/docs/en/cross-session-messaging",
+      "summary": "Claude Code v2.1.224부터 서로 다른 세션의 Claude가 직접 텍스트 메시지를 주고받는 크로스 세션 메시징 기능이 정식 지원됩니다.",
+      "detail": "Claude Code v2.1.224 이상에서 크로스 세션 메시징 기능이 제공됩니다. ListAgents 도구로 도달 가능한 세션 목록을 확인하고 SendMessage로 특정 세션에 텍스트 메시지를 전달할 수 있습니다. 메시지는 순수 텍스트만 전달되며 대화 내역이나 파일은 공유되지 않습니다. macOS·Linux에서 지원되며, 같은 머신의 세션 간에는 Unix 소켓으로 로컬 전달되고, 다른 머신의 세션에는 Anthropic 서버를 경유합니다(답장만 가능). 수신 세션의 권한 모드에 따라 즉시 전달·사용자 승인 대기·거부 중 하나로 처리됩니다. crossSessionInbound 설정(accept/hold/refuse)으로 수신 정책을 세밀하게 제어할 수 있으며, 병렬 작업 세션 간 조율이나 장기 실행 작업 상태 보고에 활용됩니다. Amazon Bedrock, Google Cloud Agent Platform 등 일부 공급자 환경에서는 지원되지 않습니다."
     },
     {
       "category": "Architecture",
-      "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
-      "link": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Instacart가 온콜 엔지니어의 장애 대응을 지원하는 AI 어시스턴트 'Blueberry'를 공개했습니다. AI 에이전트, 실시간 운영 데이터, 과거 장애 이력을 결합하여 빠른 근본 원인 분석을 돕습니다.",
-      "detail": "Instacart는 프로덕션 장애 대응 시 온콜 엔지니어를 지원하는 AI 어시스턴트 'Blueberry'를 공개했습니다. Blueberry는 AI 에이전트, 실시간 운영 데이터, 그리고 과거 장애 이력 지식베이스를 결합하여 작동합니다. 장애 상황에서 엔지니어가 여러 대시보드와 로그를 수동으로 확인하는 시간을 크게 줄여주며, 관련 메트릭과 과거 유사 사례를 자동으로 수집·제시합니다. 목표는 장애 조사를 가속화하고 MTTR(Mean Time To Recovery)을 단축하는 것입니다. AI가 소프트웨어 운영(SRE) 분야에서 구체적인 생산성 향상을 제공하는 방식을 보여주는 실용적인 엔지니어링 케이스스터디입니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "Presentation: Rewriting All of Spotify's Code Base, All the Time",
-      "link": "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Spotify가 플릿 전체 코드베이스 마이그레이션을 처리하는 AI 코딩 에이전트 'Honk'를 개발하고 적용한 경험을 공유했습니다. CI 검증 런타임 분리 등 핵심 아키텍처 설계 원칙이 소개됩니다.",
-      "detail": "Spotify의 Jo Kelly-Fenton과 Aleksandar Mitic는 회사 전체 코드베이스 마이그레이션을 AI로 처리하는 에이전트 'Honk'를 소개했습니다. Honk는 단순 코드 변환을 넘어 대규모 플릿 수준의 마이그레이션을 수행하도록 설계되었습니다. 핵심 아키텍처 인사이트는 CI 검증 런타임을 에이전트 실행과 분리(decoupling)하는 것입니다. 이 설계를 통해 에이전트가 오류를 인식하고 수정하는 반복 루프를 더욱 효율적으로 수행할 수 있습니다. Spotify의 경험은 대규모 레거시 코드 현대화를 AI 에이전트로 자동화할 때 검증과 실행을 어떻게 분리해야 하는지에 대한 실용적 교훈을 제공합니다."
-    },
-    {
-      "category": "Python",
-      "title": "The Real Python Podcast – Episode #306: Programmatically Developing LLM Prompts With DSPy",
-      "link": "https://realpython.com/podcasts/rpp/306/",
-      "summary": "Real Python 팟캐스트 306화에서 DSPy를 활용한 LLM 프롬프트의 프로그래밍 방식 개발을 다룹니다. Brett Kennedy의 신간 《Building LLM Applications with DSPy》 핵심 내용을 소개합니다.",
-      "detail": "Real Python 팟캐스트 306화는 Stanford에서 개발된 DSPy 프레임워크를 통해 LLM 프롬프트를 수동 작성 대신 프로그래밍 방식으로 정의하는 방법을 주제로 합니다. Brett Kennedy가 출연하여 신간 《Building LLM Applications with DSPy》의 핵심 내용을 공유합니다. DSPy는 프롬프트를 코드처럼 다루며, 파이프라인 정의·자동 최적화·컴파일 등의 개념을 LLM 개발에 적용합니다. 수동 프롬프트 엔지니어링의 한계를 극복하고 재현 가능하며 테스트 가능한 LLM 애플리케이션을 구축하려는 Python 개발자에게 실용적인 에피소드입니다. 프롬프트를 선언형(declarative)으로 관리함으로써 유지보수성과 일관성을 높이는 접근법을 강조합니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "My Fall-Detection Model Scored 94%, and It Was Lying to Me",
-      "link": "https://towardsdatascience.com/my-fall-detection-model-scored-94-and-it-was-lying-to-me/",
-      "summary": "낙상 감지 모델이 94% 정확도를 기록했지만 잘못된 평가 방식으로 실제 성능이 25%p 부풀려진 사례를 소개합니다. ML 평가의 함정과 정직한 재구축 과정에서 얻은 교훈을 다룹니다.",
-      "detail": "저자는 낙상 감지 모델 개발 중 94% 정확도를 달성했지만, 단 하나의 잘못된 평가 선택으로 실제 성능이 25%p나 부풀려진 것을 발견했습니다. 핵심 원인은 데이터를 무작위로 분할(random split)함으로써 동일 인물의 데이터가 훈련·테스트 세트에 동시에 포함되는 데이터 누출(data leakage) 문제였습니다. 사람의 안전과 직결된 낙상 감지 시스템에서 과장된 정확도는 치명적인 결과를 초래할 수 있습니다. 저자는 person-level split 적용, 클래스 불균형 처리, 정확도 대신 의미 있는 메트릭 선택의 중요성을 강조하며, 정직한 재평가 과정에서 얻은 ML 시스템 설계 교훈을 공유합니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "How to avoid the \"clean data, clean model\" trap when teaching statistics and data science",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/07/how-to-avoid-the-clean-data-clean-model-trap-when-teaching-statistics-and-data-science/",
-      "summary": "데이터 사이언스 교육에서 항상 정제된 데이터셋을 사용하는 '깨끗한 데이터, 깨끗한 모델' 함정을 피하는 방법을 논의합니다.",
-      "detail": "Parthsarthi Joshi는 대부분의 데이터 사이언스 교재와 튜토리얼에서 발견되는 핵심 문제를 지적합니다. 개념들이 개별적으로는 잘 설명되지만, 현실 세계의 복잡성을 반영하는 통합적 시각이 부족하다는 것입니다. '깨끗한 데이터, 깨끗한 모델(clean data, clean model)' 함정이란 교육 환경에서 항상 정제된 데이터셋을 사용함으로써, 학습자가 실제 지저분한 데이터를 다루는 능력을 갖추지 못하는 현상입니다. 이 글은 누락값 처리, 이상치, 분포 이동(distribution shift) 등 현실적인 데이터 문제를 교육에 통합하는 방법과, 단순 정확도를 넘어선 모델 평가 기준을 가르치는 접근법을 제안합니다. 통계·데이터 사이언스를 가르치는 교육자와 독학하는 학습자 모두에게 중요한 성찰을 제공합니다."
+      "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
+      "link": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "OpenAI의 Martin Spier가 에이전틱 워크플로우로 급증한 코드 변경량 속에서도 ChatGPT 성능과 안정성을 유지하는 엔지니어링 전략을 발표했습니다.",
+      "detail": "AI 개발이 가속화되면서 에이전틱 워크플로우가 코드 변경 규모를 급격히 증가시키고 있습니다. OpenAI의 Martin Spier는 이 환경에서 ChatGPT의 성능과 안정성을 유지하기 위한 성능 엔지니어링 전략을 발표했습니다. 에이전트가 생성하는 코드 변경량이 인간 개발자를 크게 상회하는 상황에서, 성능 회귀를 조기에 감지하는 지속적 모니터링 체계, 배포 파이프라인 최적화, 그리고 급증하는 시스템 부하를 효과적으로 분산·관리하는 아키텍처 접근법이 핵심 내용입니다. AI 코딩 에이전트 도입이 인프라 운영 방식에 미치는 영향과 이에 대응하는 실제 사례로서 중요한 발표입니다."
     }
   ]
 }
