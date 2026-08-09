@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-09T09:17:42+09:00",
-  "count": 877,
+  "updated": "2026-08-09T11:00:16+09:00",
+  "count": 875,
   "items": [
+    {
+      "title": "v2.5.2",
+      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.2",
+      "source": "NumPy",
+      "category": "DataScience",
+      "summary": "NumPy 2.5.2 release",
+      "ts": 1786239962,
+      "published": "2026-08-09T01:46:02+00:00",
+      "collected_at": "2026-08-09T10:59:55+09:00"
+    },
     {
       "title": "1.15.14",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.14",
@@ -8741,36 +8751,6 @@
       "ts": 1783651147,
       "published": "2026-07-10T02:39:07+00:00",
       "collected_at": "2026-07-15T23:48:23+09:00"
-    },
-    {
-      "title": "v2.8.0 (2026-07-09)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.8.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Allow to_cli() to pass model for unset-model agents by @hramezani in #6384 Bump bundled chat UI to 2.0.0 and target sdk_version=7 in Agent.to_web() by @dsfaccini in #6296 🐛 Bug Fixes fix: valid…",
-      "ts": 1783648457,
-      "published": "2026-07-10T01:54:17+00:00",
-      "collected_at": "2026-07-10T20:24:55+09:00"
-    },
-    {
-      "title": "langgraph==1.2.9",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.9",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.8 release(langgraph): 1.2.9 ( #8316 ) fix: updateState metadata/counters for delta channel ( #8315 )",
-      "ts": 1783647024,
-      "published": "2026-07-10T01:30:24+00:00",
-      "collected_at": "2026-07-10T20:24:55+09:00"
-    },
-    {
-      "title": "Quoting OpenAI",
-      "link": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work thr…",
-      "ts": 1783645557,
-      "published": "2026-07-10T01:05:57+00:00",
-      "collected_at": "2026-07-10T20:24:55+09:00"
     }
   ]
 }
