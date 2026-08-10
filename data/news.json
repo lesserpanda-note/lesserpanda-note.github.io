@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-10T15:12:28+09:00",
-  "count": 858,
+  "updated": "2026-08-10T17:42:00+09:00",
+  "count": 860,
   "items": [
+    {
+      "title": "Buildpacks Move the Container Hardening Control Point Away From the Dockerfile",
+      "link": "https://www.infoq.com/news/2026/08/buildpacks-dockerfile-patching/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloud Native Buildpacks, which graduated within the CNCF in July 2026, move base image choice out of per-service Dockerfiles into a single builder owned by platform engineering, enabling fleet-wide patching. BellSoft's…",
+      "ts": 1786345200,
+      "published": "2026-08-10T07:00:00+00:00",
+      "collected_at": "2026-08-10T17:41:39+09:00"
+    },
+    {
+      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
+      "link": "https://www.docker.com/products/docker-sandboxes/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 139 # Comments: 92",
+      "ts": 1786341758,
+      "published": "2026-08-10T06:02:38+00:00",
+      "collected_at": "2026-08-10T17:41:39+09:00"
+    },
     {
       "title": "Beyond Consensus: The Fragmentation of AI Policy Across the Linux Ecosystem",
       "link": "https://www.infoq.com/news/2026/08/linux-ai-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
