@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-10T11:04:52+09:00",
+  "updated": "2026-08-10T13:41:30+09:00",
   "count": 856,
   "items": [
+    {
+      "title": "Beyond Consensus: The Fragmentation of AI Policy Across the Linux Ecosystem",
+      "link": "https://www.infoq.com/news/2026/08/linux-ai-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The AI policies across the Linux ecosystem are very heterogeneous, ranging from the GCC’s restrictiveness, the Linux kernel’s pragmatism, to the more open disclosure-based utility model of Kubernetes' landscape. From co…",
+      "ts": 1786334640,
+      "published": "2026-08-10T04:04:00+00:00",
+      "collected_at": "2026-08-10T13:41:25+09:00"
+    },
+    {
+      "title": "Quoting OpenClaw",
+      "link": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. — OpenClaw…",
+      "ts": 1786327516,
+      "published": "2026-08-10T02:05:16+00:00",
+      "collected_at": "2026-08-10T13:41:25+09:00"
+    },
     {
       "title": "People keep sending me AI slop that they want me to post on the blog.",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/09/people-keep-sending-me-ai-slop-that-they-want-me-to-post-on-the-blog/",
@@ -71,6 +91,16 @@
       "ts": 1786283183,
       "published": "2026-08-09T13:46:23+00:00",
       "collected_at": "2026-08-09T22:53:23+09:00"
+    },
+    {
+      "title": "Israeli startup was linked to rogue AI hacks at OpenAI, Anthropic and Meta",
+      "link": "https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.cnbc.com/2026/08/09/israeli-startup-irregular-linked-to-ai-hacks-openai-anthropic-meta.html Comments URL: https://news.ycombinator.com/item?id=49231022 Points: 51 # Comments: 18",
+      "ts": 1786280629,
+      "published": "2026-08-09T13:03:49+00:00",
+      "collected_at": "2026-08-10T13:41:25+09:00"
     },
     {
       "title": "How to Implement Structured Output with Local LLMs",
@@ -8531,36 +8561,6 @@
       "ts": 1783761336,
       "published": "2026-07-11T09:15:36+00:00",
       "collected_at": "2026-07-13T22:56:22+09:00"
-    },
-    {
-      "title": "v2.9.0 (2026-07-10)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🛡️ Security A moderate advisory, GHSA-jpr8-2v3g-wgf9 (CWE-863), affecting the AG-UI UIAdapter.sanitize_messages dangling-tool-call strip, was fixed in 2.5.0 and backported to 1.107.1 on the v1 line. If yo…",
-      "ts": 1783739230,
-      "published": "2026-07-11T03:07:10+00:00",
-      "collected_at": "2026-07-11T16:18:57+09:00"
-    },
-    {
-      "title": "v1.107.1 (2026-07-10)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.1",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🛡️ Security This release patches GHSA-jpr8-2v3g-wgf9 (moderate, CWE-863) on the v1 line. On the AG-UI serving path ( Agent.to_ag_ui() / AGUIAdapter ), UIAdapter.sanitize_messages anchored its dangling-too…",
-      "ts": 1783739229,
-      "published": "2026-07-11T03:07:09+00:00",
-      "collected_at": "2026-07-11T16:18:57+09:00"
-    },
-    {
-      "title": "[AINews] not much happened today",
-      "link": "https://www.latent.space/p/ainews-not-much-happened-today-f5c",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day after a week of nonstop model releases",
-      "ts": 1783738388,
-      "published": "2026-07-11T02:53:08+00:00",
-      "collected_at": "2026-07-11T16:18:57+09:00"
     }
   ]
 }
