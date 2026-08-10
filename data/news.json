@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-10T09:21:10+09:00",
-  "count": 857,
+  "updated": "2026-08-10T11:04:52+09:00",
+  "count": 856,
   "items": [
+    {
+      "title": "People keep sending me AI slop that they want me to post on the blog.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/09/people-keep-sending-me-ai-slop-that-they-want-me-to-post-on-the-blog/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I don’t get it. Instead of sending me the chatbot output, just send me your goddamn prompt. Cut out the middleman.",
+      "ts": 1786321553,
+      "published": "2026-08-10T00:25:53+00:00",
+      "collected_at": "2026-08-10T11:04:30+09:00"
+    },
     {
       "title": "Quoting Claude Opus 5 system prompt",
       "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
@@ -8551,26 +8561,6 @@
       "ts": 1783738388,
       "published": "2026-07-11T02:53:08+00:00",
       "collected_at": "2026-07-11T16:18:57+09:00"
-    },
-    {
-      "title": "v0.18.2",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.18.2",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "What's Changed feat: support GPT-5.6 request controls by @seratch in #3794 feat: add hosted multi-agent beta support by @seratch in #3788 fix(sandbox): own Daytona PTY worker tasks by @seratch in #3778 fix(realtime): en…",
-      "ts": 1783732066,
-      "published": "2026-07-11T01:07:46+00:00",
-      "collected_at": "2026-07-11T10:19:01+09:00"
-    },
-    {
-      "title": "🛑⚡ When NOT TO USE Event-Driven Architecture (EDA)",
-      "link": "https://foojay.io/today/when-not-to-use-event-driven-architecture-eda/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Event-Driven Architecture can unlock scalability, loose coupling and powerful integrations; but it also introduces retries, eventual consistency, observability challenges and operational overhead. This article explores…",
-      "ts": 1783730043,
-      "published": "2026-07-11T00:34:03+00:00",
-      "collected_at": "2026-07-11T10:19:01+09:00"
     }
   ]
 }
