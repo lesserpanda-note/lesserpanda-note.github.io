@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-10T19:20:22+09:00",
-  "count": 864,
+  "updated": "2026-08-10T20:50:59+09:00",
+  "count": 868,
   "items": [
+    {
+      "title": "Article: Comprehension as an Architectural Characteristic: A System That Is Not Understood Cannot Evolve Safely",
+      "link": "https://www.infoq.com/articles/system-comprehension-evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "As AI commoditizes code output, system comprehension silently decays, creating cognitive debt that threatens safe architectural evolution. This article explores why human understanding must be treated as an essential ar…",
+      "ts": 1786359600,
+      "published": "2026-08-10T11:00:00+00:00",
+      "collected_at": "2026-08-10T20:50:35+09:00"
+    },
+    {
+      "title": "Release: v5.15.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under th…",
+      "ts": 1786357693,
+      "published": "2026-08-10T10:28:13+00:00",
+      "collected_at": "2026-08-10T20:50:35+09:00"
+    },
     {
       "title": "Introduction to Retrieval-Augmented Generation with Java and MongoDB",
       "link": "https://foojay.io/today/introduction-to-retrieval-augmented-generation-with-java-and-mongodb/",
@@ -103,6 +123,16 @@
       "collected_at": "2026-08-10T13:41:25+09:00"
     },
     {
+      "title": "Blender MCP maintainer GitHub account hacked",
+      "link": "https://twitter.com/sidahuj/status/2086445625147793503",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://twitter.com/sidahuj/status/2086445625147793503 Comments URL: https://news.ycombinator.com/item?id=49238028 Points: 20 # Comments: 4",
+      "ts": 1786323509,
+      "published": "2026-08-10T00:58:29+00:00",
+      "collected_at": "2026-08-10T20:50:35+09:00"
+    },
+    {
       "title": "People keep sending me AI slop that they want me to post on the blog.",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/09/people-keep-sending-me-ai-slop-that-they-want-me-to-post-on-the-blog/",
       "source": "Statistical Modeling",
@@ -111,6 +141,26 @@
       "ts": 1786321553,
       "published": "2026-08-10T00:25:53+00:00",
       "collected_at": "2026-08-10T11:04:30+09:00"
+    },
+    {
+      "title": "Meta is back with Muse Glimmer: local, agentic, multimodal, and open source",
+      "link": "https://huggingface.co/blog/muse-glimmer",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1786320000,
+      "published": "2026-08-10T00:00:00+00:00",
+      "collected_at": "2026-08-10T20:50:35+09:00"
+    },
+    {
+      "title": "Muse Glimmer from Meta Superintelligence Labs is now available",
+      "link": "https://ollama.com/blog/muse-glimmer",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "Meta's Muse Glimmer, the first open model released by Meta Superintelligence Labs, is now available. Muse Glimmer is a 30B multimodal model released under the Apache 2.0 license, designed for local coding agents, and ac…",
+      "ts": 1786320000,
+      "published": "2026-08-10T00:00:00+00:00",
+      "collected_at": "2026-08-10T20:50:35+09:00"
     },
     {
       "title": "Quoting Claude Opus 5 system prompt",
@@ -8631,16 +8681,6 @@
       "ts": 1783774800,
       "published": "2026-07-11T13:00:00+00:00",
       "collected_at": "2026-07-12T00:33:24+09:00"
-    },
-    {
-      "title": "Temporal Is to Your Code What a Database Is to Your Data",
-      "link": "https://foojay.io/today/temporal-is-to-your-code-what-a-database-is-to-your-data/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Once upon a time, applications managed their own data files. Every program hand-rolled its own locking, its own crash recovery, its own consistency guarantees. Every program did it badly, in its own unique way. Then the…",
-      "ts": 1783765914,
-      "published": "2026-07-11T10:31:54+00:00",
-      "collected_at": "2026-07-11T20:33:05+09:00"
     }
   ]
 }
