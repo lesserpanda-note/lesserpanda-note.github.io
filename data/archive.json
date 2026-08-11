@@ -1,6 +1,61 @@
 {
   "digests": [
     {
+      "date": "2026-08-10",
+      "summary": "오늘은 AI 인프라 시장의 집중도를 보여주는 수익 데이터와 GitHub Models 서비스 종료 소식이 주목됩니다. Stripe의 그래프 기반 데이터베이스 자동 복구 아키텍처와 로컬 LLM 구조화 출력 구현 가이드 등 실용적인 기술 콘텐츠도 풍성합니다. DataScience 분야에서는 dbt를 활용한 분석 준비 데이터 파이프라인 구축 경험과 NumPy 2.5.2 버그 수정 릴리스가 소개됩니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "How to Implement Structured Output with Local LLMs",
+          "link": "https://towardsdatascience.com/structured-output-with-local-llms/",
+          "summary": "로컬 LLM에서 구조화된 출력을 구현하는 방법을 단계별로 설명하는 실용 가이드입니다. 구조화 출력의 필요성, 구현 방법, 실패 시 대처법을 다룹니다.",
+          "detail": "이 글은 로컬에서 실행되는 LLM을 이용해 JSON 등 구조화된 형식으로 출력을 얻는 방법을 안내합니다. 구조화 출력은 LLM 응답을 애플리케이션에서 프로그래밍 방식으로 파싱·활용할 수 있게 해주며, 특히 API 통합이나 데이터 파이프라인 구축에 필수적입니다. 로컬 LLM에서 구조화 출력을 사용해야 하는 이유, 이를 구현하는 구체적인 방법, 그리고 모델이 지정된 형식을 따르지 않을 때의 폴백 전략까지 실용적인 관점에서 다룹니다."
+        },
+        {
+          "category": "AI",
+          "title": "70% of AI revenue comes from OpenAI and Anthropic",
+          "link": "https://www.youtube.com/watch?v=68X8yEatepQ",
+          "summary": "AI 산업 전체 매출의 70%가 OpenAI와 Anthropic 두 회사에서 발생한다는 시장 분석 데이터입니다.",
+          "detail": "AI 시장 분석에 따르면 전체 AI 관련 매출의 70%가 OpenAI와 Anthropic 두 기업에 집중되어 있습니다. 수많은 AI 스타트업과 대형 기술 기업들이 AI 시장에 진출해 있음에도 불구하고, 선두 두 기업이 압도적인 매출 점유율을 유지하고 있어 시장 집중도가 매우 높음을 보여줍니다. 이는 AI 인프라 및 서비스 시장에서의 경쟁 구도와 향후 투자·파트너십 전략 수립에 중요한 시사점을 제공합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "GitHub Models is now retired",
+          "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
+          "summary": "GitHub Models 서비스가 공식적으로 종료되었습니다. Simon Willison이 GitHub Actions 실행 오류를 통해 이 사실을 확인했습니다.",
+          "detail": "개발자들이 GitHub 플랫폼 내에서 다양한 AI 모델을 직접 테스트할 수 있도록 제공되던 GitHub Models 서비스가 공식 종료되었습니다. Simon Willison은 자신의 simonw/research 저장소에서 GitHub Actions 실행이 실패하며 \"GitHub Models is temporarily unavailable as part of a scheduled...\" 오류 메시지를 통해 이 사실을 확인했습니다. GitHub Models는 GPT-4, Claude, Llama 등 다양한 모델을 무료로 실험할 수 있는 환경을 제공했으나, 서비스 종료로 인해 이를 활용하던 워크플로와 프로젝트에 영향이 예상됩니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Quoting Claude Opus 5 system prompt",
+          "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
+          "summary": "Simon Willison이 Claude Opus 5의 시스템 프롬프트를 공개했습니다. Anthropic 모델의 설계 철학과 안전 지침을 확인할 수 있는 자료입니다.",
+          "detail": "Simon Willison이 Claude Opus 5의 시스템 프롬프트 전문을 공개하고 분석했습니다. 이 글에서는 Claude Fable 5와 Mythos 5가 2026년 6월 9일 처음 출시된 후, 미국 상무부의 수출 통제 규정 준수를 위해 6월 12일 일시 접근이 중단되었다가 이후 재개된 배경도 함께 소개합니다. 시스템 프롬프트는 모델의 행동 방식, 안전 지침, 역할 정의 등을 담고 있어 Anthropic의 모델 설계 철학을 직접 확인할 수 있는 자료로서 개발자와 연구자의 주목을 받고 있습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Stripe Uses Graph Search and State Machines to Automate Database Remediation",
+          "link": "https://www.infoq.com/news/2026/08/database-remediation-graph/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Stripe가 전 세계 데이터베이스 인프라를 그래프로 모델링하고 그래프 탐색·상태 기계를 결합해 데이터베이스 장애 복구를 자동화한 사례를 공개했습니다.",
+          "detail": "Stripe 엔지니어링 팀은 데이터베이스 인시던트 대응 자동화를 위해 전 세계 인프라 전체를 그래프 구조로 모델링하는 방식을 도입했습니다. 그래프 탐색 알고리즘으로 장애 데이터베이스 노드와 그 의존 관계를 신속히 파악하고, 상태 기계(state machine)를 통해 복구 절차를 단계별로 자동 실행합니다. 이 시스템은 기존에 엔지니어가 수동으로 처리하던 데이터베이스 복구 작업의 상당 부분을 자동화하여 인시던트 대응 시간을 크게 단축했습니다. 대규모 분산 인프라에서 그래프 이론을 실용적으로 적용한 사례로, 운영 자동화 아키텍처 설계에 참고할 만한 중요한 접근법입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "I Thought Loading Data Was the Finish Line. It Was the Starting Point.",
+          "link": "https://towardsdatascience.com/i-thought-loading-data-was-the-finish-line-it-was-the-starting-point/",
+          "summary": "데이터 파이프라인에서 dbt 모델을 처음 구축하며 \"분석 준비 완료 데이터\"의 진정한 의미를 배운 경험을 다룬 실습 가이드입니다.",
+          "detail": "이 글은 데이터를 데이터 웨어하우스에 로드하는 것이 분석 작업의 끝이 아닌 시작점임을 dbt(data build tool)를 통해 실감한 경험을 담고 있습니다. 저자는 원시 데이터를 분석 즉시 활용 가능한 형태로 변환하는 dbt 모델 구축 과정에서 데이터 정제·표준화·변환이 얼마나 중요한 단계인지를 배웁니다. \"분석 준비 완료 데이터\"란 단순히 데이터베이스에 저장된 상태가 아니라 신뢰할 수 있고 일관된 변환 파이프라인을 거친 결과임을 설명하며, 실제 dbt 모델 구현을 통해 데이터 엔지니어링의 핵심 개념을 소개합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "v2.5.2",
+          "link": "https://github.com/numpy/numpy/releases/tag/v2.5.2",
+          "summary": "NumPy 2.5.2 패치 릴리스가 출시되어 32비트 시스템 크래시와 StringDType 관련 다수의 버그가 수정되었습니다.",
+          "detail": "NumPy 2.5.2는 2026년 8월 9일 출시된 패치 릴리스로, 신기능 없이 버그 수정에 집중합니다. 주요 수정 사항으로는 32비트 시스템의 크래시 문제 해결, StringDType 바이너리 ufunc 프로모션의 coerce 플래그 동작 오류 수정, overlapping copyto 연산의 참조 카운트 누수 해결, np.fromiter에서 StringDType 재사용 시 발생하던 데이터 손상 수정이 포함됩니다. 또한 random number generator 상태 캐싱 문제와 버퍼드 이터레이터 스트라이드 계산 오류도 수정되었습니다. 28개 PR을 통해 16명의 기여자가 참여했으며 Python 3.12~3.15를 지원합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-09",
       "summary": "오늘은 Anthropic Claude Code의 두 가지 주요 업데이트가 중심을 이룹니다. Pro·Max·Team 플랜에서 Auto 모드가 기본값으로 전환되었고, 서로 다른 세션 간에 메시지를 직접 주고받는 크로스 세션 메시징 기능이 정식 출시되었습니다. AI 인프라 측면에서는 Cloudflare가 봇·AI 에이전트 탐지용 행동 분석 엔진 Precursor를 출시했으며, OpenAI에서는 에이전틱 워크플로우 환경에서 ChatGPT 성능을 유지하는 엔지니어링 전략이 공개되었습니다.",
       "highlights": [

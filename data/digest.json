@@ -1,55 +1,83 @@
 {
-  "updated": "2026-08-10T00:18:34Z",
-  "summary": "오늘은 AI 인프라 시장의 집중도를 보여주는 수익 데이터와 GitHub Models 서비스 종료 소식이 주목됩니다. Stripe의 그래프 기반 데이터베이스 자동 복구 아키텍처와 로컬 LLM 구조화 출력 구현 가이드 등 실용적인 기술 콘텐츠도 풍성합니다. DataScience 분야에서는 dbt를 활용한 분석 준비 데이터 파이프라인 구축 경험과 NumPy 2.5.2 버그 수정 릴리스가 소개됩니다.",
+  "updated": "2026-08-11T00:19:13Z",
+  "summary": "오늘은 Project Valhalla의 JEP 401 미리보기 통합, Cloudflare의 WebMCP 지원 발표 등 개발 인프라 전반에 걸친 중요 소식이 있었습니다. Anthropic이 Claude Code의 Auto 모드를 기본값으로 전환하면서 AI 코딩 에이전트 생태계에도 중요한 변화가 생겼으며, Hugging Face Transformers v5.15.0 출시로 에이전틱 용도에 최적화된 새 모델들도 공개되었습니다.",
   "highlights": [
     {
-      "category": "AI",
-      "title": "How to Implement Structured Output with Local LLMs",
-      "link": "https://towardsdatascience.com/structured-output-with-local-llms/",
-      "summary": "로컬 LLM에서 구조화된 출력을 구현하는 방법을 단계별로 설명하는 실용 가이드입니다. 구조화 출력의 필요성, 구현 방법, 실패 시 대처법을 다룹니다.",
-      "detail": "이 글은 로컬에서 실행되는 LLM을 이용해 JSON 등 구조화된 형식으로 출력을 얻는 방법을 안내합니다. 구조화 출력은 LLM 응답을 애플리케이션에서 프로그래밍 방식으로 파싱·활용할 수 있게 해주며, 특히 API 통합이나 데이터 파이프라인 구축에 필수적입니다. 로컬 LLM에서 구조화 출력을 사용해야 하는 이유, 이를 구현하는 구체적인 방법, 그리고 모델이 지정된 형식을 따르지 않을 때의 폴백 전략까지 실용적인 관점에서 다룹니다."
+      "category": "Java",
+      "title": "Project Valhalla's First Preview: JEP 401 Redefines == for Java Object",
+      "link": "https://www.infoq.com/news/2026/08/jep401-value-objects-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "JEP 401이 JDK 28에 미리보기 기능으로 통합되어 값 객체(value objects)를 도입하고, == 연산자의 동작과 힙 메모리 최적화 방식이 근본적으로 변경됩니다.",
+      "detail": "10년 이상 진행된 Project Valhalla의 결실인 JEP 401이 JDK 28(2027년 3월 출시 예정)에 미리보기 기능으로 통합되었습니다. `value class Point { ... }` 형태로 선언하는 값 클래스는 모든 필드가 `final`이며 객체 동일성(identity)을 갖지 않습니다. 이로 인해 == 비교는 필드 값 기준으로만 이루어집니다.\n\nJVM 최적화 관점에서 값 객체는 힙 헤더와 포인터 간접 참조를 제거하며, JIT 컴파일러가 작은 불변 객체를 스칼라화(scalarize)하거나 배열/필드에 직접 평탄화(flatten)할 수 있어 성능 향상을 기대할 수 있습니다. 동기화 제약과 생성자 규칙도 강화됩니다.\n\nJEP 539(JVM 엄격 필드 초기화)도 함께 통합되었으며, 이번 PR에는 1,816개 파일에 걸쳐 197,000줄 이상의 코드가 변경되었습니다. 사용 시 `javac --release 28 --enable-preview`로 컴파일하고 `java --enable-preview`로 실행해야 합니다."
+    },
+    {
+      "category": "Java",
+      "title": "Java News Roundup: Shenandoah GC, TeamCity CVE, A2A Java SDK, Camel, G",
+      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug03-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "2026년 8월 3일 주의 Java 뉴스 모음으로, JEP 535 세대별 Shenandoah GC 기본화, TeamCity 심각한 보안 취약점 CVE-2026-63077, 다수의 라이브러리 업데이트가 포함됩니다.",
+      "detail": "JDK 28을 대상으로 JEP 535(Shenandoah GC: 세대별 모드 기본값 설정)가 Targeted 상태로 격상되었습니다. JDK 27 RC1 날짜는 8월 18일 CPU 릴리스에 맞춰 8월 20일로 조정되었습니다.\n\n보안 측면에서 TeamCity CVE-2026-63077이 공개되었습니다. 이는 원격 공격자가 HTTP(S)를 통해 인증 없이 임의 명령을 실행할 수 있는 심각한 취약점으로, 패치되지 않은 서버에 대한 실제 공격 사례가 보고되었습니다. 즉시 패치가 권고됩니다.\n\n라이브러리 업데이트로는 A2A Java SDK, Apache Camel, Gradle의 포인트 릴리스가 있었고, GlassFish 유지보수 릴리스와 Groovy 8.0 마일스톤 5도 출시되었습니다."
     },
     {
       "category": "AI",
-      "title": "70% of AI revenue comes from OpenAI and Anthropic",
-      "link": "https://www.youtube.com/watch?v=68X8yEatepQ",
-      "summary": "AI 산업 전체 매출의 70%가 OpenAI와 Anthropic 두 회사에서 발생한다는 시장 분석 데이터입니다.",
-      "detail": "AI 시장 분석에 따르면 전체 AI 관련 매출의 70%가 OpenAI와 Anthropic 두 기업에 집중되어 있습니다. 수많은 AI 스타트업과 대형 기술 기업들이 AI 시장에 진출해 있음에도 불구하고, 선두 두 기업이 압도적인 매출 점유율을 유지하고 있어 시장 집중도가 매우 높음을 보여줍니다. 이는 AI 인프라 및 서비스 시장에서의 경쟁 구도와 향후 투자·파트너십 전략 수립에 중요한 시사점을 제공합니다."
+      "title": "CloudFlare Previews Automatic WebMCP Support for Web Pages",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-webmcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Cloudflare가 Chrome 146에 실험 도입된 WebMCP API를 지원하는 개발자 프리뷰를 공개했습니다. 이를 통해 웹사이트가 AI 에이전트에게 구조화된 도구를 직접 노출할 수 있습니다.",
+      "detail": "WebMCP(Web Model Context Protocol)는 Google Chrome 팀이 개발한 새로운 브라우저 API로, Chrome 146에서 실험적으로 제공됩니다(`document.modelContext` / `navigator.modelContext`). 웹사이트가 AI 에이전트에게 타입이 지정된 구조적 도구(예: `searchFlights()`, `bookTicket(parameters)`)를 직접 노출할 수 있어, 기존의 느린 스크린샷-분석-클릭 자동화 방식을 대체합니다.\n\nCloudflare는 `McpAgent`를 WebMCP 도구 제공자로 변환하는 어댑터를 출시했으며, Browser Run 서비스를 자체 컨테이너 플랫폼으로 재구축해 동시 브라우저 수를 30개에서 120개로 4배 늘리고, 빠른 작업의 응답 속도는 50% 개선되었습니다. WebGL 지원도 추가되었습니다. 해당 어댑터와 API는 조기 프리뷰 단계이며 변경될 수 있습니다."
+    },
+    {
+      "category": "AI",
+      "title": "Release: v5.15.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
+      "summary": "Hugging Face Transformers v5.15.0이 출시되어 에이전틱 용도의 Meta Muse Glimmer 등 4개의 새로운 모델과 대규모 성능 개선이 포함되었습니다.",
+      "detail": "이번 릴리스에는 4개의 새로운 모델이 추가되었습니다.\n• Meta Muse Glimmer: 에이전틱 용도를 위한 30B 파라미터 멀티모달 모델(2B ViT 비전 인코더 + 28B 텍스트 디코더), Apache 2.0 라이선스\n• IBM Granite-SWA / GraniteMoE-SWA: 슬라이딩 윈도우 어텐션 최적화 모델\n• SKT A.X-K1 / A.X-K2: 다목적 언어 모델\n• Cosmos3 Edge: 엣지 배포용 비전-언어 모델\n\n3가지 주요 변경사항: 선형 어텐션 커널이 기본 필수에서 선택(opt-in)으로 변경; 캐시 크롭 API가 음수 값만 허용; T5 계열이 SDPA 어텐션 백엔드 지원. 72명 이상의 기여자가 참여했으며 토크나이저 정규식 ReDoS 취약점 패치, Mistral tekken 토크나이저 지원, FP8 커널 확장, 94개 ForCausalLM 모델의 FSDP 플랜 생성 등이 포함됩니다."
     },
     {
       "category": "Agents",
-      "title": "GitHub Models is now retired",
-      "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
-      "summary": "GitHub Models 서비스가 공식적으로 종료되었습니다. Simon Willison이 GitHub Actions 실행 오류를 통해 이 사실을 확인했습니다.",
-      "detail": "개발자들이 GitHub 플랫폼 내에서 다양한 AI 모델을 직접 테스트할 수 있도록 제공되던 GitHub Models 서비스가 공식 종료되었습니다. Simon Willison은 자신의 simonw/research 저장소에서 GitHub Actions 실행이 실패하며 \"GitHub Models is temporarily unavailable as part of a scheduled...\" 오류 메시지를 통해 이 사실을 확인했습니다. GitHub Models는 GPT-4, Claude, Llama 등 다양한 모델을 무료로 실험할 수 있는 환경을 제공했으나, 서비스 종료로 인해 이를 활용하던 워크플로와 프로젝트에 영향이 예상됩니다."
+      "title": "Building an Agent-Ready Data Warehouse: What Traditional Architectures Do Wrong",
+      "link": "https://towardsdatascience.com/building-an-agent-ready-data-warehouse-what-traditional-architectures-do-wrong/",
+      "summary": "AI 에이전트에 데이터 웨어하우스 접근 권한을 부여하는 것만으로는 에이전트-레디가 되지 않으며, 전통 아키텍처의 근본적 한계와 필요한 변화를 설명합니다.",
+      "detail": "전통적인 데이터 웨어하우스는 '무슨 일이 있었나'(what happened)에 최적화되어 있지만, AI 에이전트는 '다음에 무엇을 해야 하는가'(what should happen next)에 답해야 합니다. 전통 아키텍처의 주요 한계는 실시간 컨텍스트 부재, 시맨틱 일관성 결여, 과도한 쿼리 지연, 다중 에이전트 동시 작업 미지원입니다.\n\n5년 연속으로 데이터 품질과 통합이 AI 프로젝트 스케일의 최대 장애물로 꼽혔습니다. 권장 접근법으로는 Data-as-a-Product(DaaP), 오픈 데이터 레이크하우스(호수의 유연성 + 웨어하우스의 거버넌스), 시맨틱 레이어, 이벤트 기반 반응성이 있습니다. 에이전트 특화 요구사항으로는 지속 가능한 장기 메모리, 내구성 있는 트랜잭션, 강력한 거버넌스(계보, 감사, PII 보호)가 필요합니다."
     },
     {
       "category": "Agents",
-      "title": "Quoting Claude Opus 5 system prompt",
-      "link": "https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything",
-      "summary": "Simon Willison이 Claude Opus 5의 시스템 프롬프트를 공개했습니다. Anthropic 모델의 설계 철학과 안전 지침을 확인할 수 있는 자료입니다.",
-      "detail": "Simon Willison이 Claude Opus 5의 시스템 프롬프트 전문을 공개하고 분석했습니다. 이 글에서는 Claude Fable 5와 Mythos 5가 2026년 6월 9일 처음 출시된 후, 미국 상무부의 수출 통제 규정 준수를 위해 6월 12일 일시 접근이 중단되었다가 이후 재개된 배경도 함께 소개합니다. 시스템 프롬프트는 모델의 행동 방식, 안전 지침, 역할 정의 등을 담고 있어 Anthropic의 모델 설계 철학을 직접 확인할 수 있는 자료로서 개발자와 연구자의 주목을 받고 있습니다."
+      "title": "Auto mode is now the default in Claude Code",
+      "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "summary": "Anthropic이 Claude Code의 Auto 모드를 Pro, Max, Team 플랜의 기본값으로 전환한다고 발표했습니다. AI 분류기가 도구 호출을 자동 승인하거나 차단합니다.",
+      "detail": "2026년 8월 14일부터 Claude Code의 Auto 모드가 Pro, Max, Team 플랜에서 기본으로 활성화됩니다. Auto 모드는 AI 분류기를 사용해 도구 호출을 자동으로 승인하거나 차단하며, '비가역적이거나 파괴적인 행동, 또는 현재 환경 밖을 대상으로 하는 행동'이 아닌 경우 인간 승인 없이 진행합니다.\n\n기존 Claude Code 권한 요청의 97%가 자동 승인되고 있었으며, 1,053명 테스터 대상 안전성 테스트에서 인간 검토자는 위험 명령의 13.6%만 차단한 반면 Auto 모드는 89%를 차단했습니다. Claude Enterprise, Claude API, Amazon Bedrock, Google Cloud, Microsoft Foundry에서는 아직 기본값이 아니며 이번 달 내 순차 적용 예정입니다."
     },
     {
       "category": "Architecture",
-      "title": "Stripe Uses Graph Search and State Machines to Automate Database Remediation",
-      "link": "https://www.infoq.com/news/2026/08/database-remediation-graph/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Stripe가 전 세계 데이터베이스 인프라를 그래프로 모델링하고 그래프 탐색·상태 기계를 결합해 데이터베이스 장애 복구를 자동화한 사례를 공개했습니다.",
-      "detail": "Stripe 엔지니어링 팀은 데이터베이스 인시던트 대응 자동화를 위해 전 세계 인프라 전체를 그래프 구조로 모델링하는 방식을 도입했습니다. 그래프 탐색 알고리즘으로 장애 데이터베이스 노드와 그 의존 관계를 신속히 파악하고, 상태 기계(state machine)를 통해 복구 절차를 단계별로 자동 실행합니다. 이 시스템은 기존에 엔지니어가 수동으로 처리하던 데이터베이스 복구 작업의 상당 부분을 자동화하여 인시던트 대응 시간을 크게 단축했습니다. 대규모 분산 인프라에서 그래프 이론을 실용적으로 적용한 사례로, 운영 자동화 아키텍처 설계에 참고할 만한 중요한 접근법입니다."
+      "title": "Canva Shares S3 Based Architecture for Session Revocation Across Hundr",
+      "link": "https://www.infoq.com/news/2026/08/canva-session-revocation-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Canva가 1억 개의 활성 세션을 지원하면서 데이터베이스 조회를 최소화한 S3 기반 세션 취소 아키텍처를 공개했습니다.",
+      "detail": "Canva는 1억 개의 활성 세션을 효율적으로 지원하기 위해 세션 취소 인프라를 전면 재설계했습니다. 새 아키텍처의 핵심은 Amazon S3를 내구성 있는 취소 레코드 저장소로 사용하는 것입니다. 각 웹 서버에는 컴팩트한 인메모리 인덱스가 배포되어 주요 읽기 경로를 로컬에서 처리합니다.\n\nS3는 기본 읽기 경로가 아닌 조정 레이어(coordination layer)로 활용되어 만료된 토큰을 효율적으로 감지합니다. 이를 통해 대규모 세션 환경에서도 데이터베이스 조회 수를 크게 줄였습니다. 이 설계는 읽기 부하와 쓰기 내구성을 분리하는 방식으로 확장성과 신뢰성을 동시에 확보합니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "Article: Comprehension as an Architectural Characteristic: A System Th",
+      "link": "https://www.infoq.com/articles/system-comprehension-evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "AI가 코드 생산을 자동화함에 따라 시스템 이해도(comprehension)를 핵심 아키텍처 품질 속성으로 다뤄야 한다는 주장을 담은 글입니다.",
+      "detail": "AI가 코드 출력을 상품화함에 따라 시스템 이해도가 조용히 저하되어 안전한 아키텍처 진화를 위협하는 인지 부채(cognitive debt)가 누적됩니다. 이 글은 인간의 시스템 이해 능력이 단순한 부드러운 목표(soft goal)가 아닌 필수적인 아키텍처 특성(architectural characteristic)으로 취급되어야 한다고 주장합니다.\n\n코드베이스의 이해 가능성은 의존성 명확성, 결합도(coupling), 문서화 밀도, 변경 영향 가시성 등 측정 가능한 기준으로 평가할 수 있습니다. AI 보조 개발 시대에는 개발 속도가 빨라질수록 이해도 저하 문제가 심화될 수 있으며, 진화적 아키텍처를 안전하게 유지하려면 시스템 이해도를 지속적으로 관리해야 합니다."
+    },
+    {
+      "category": "Python",
+      "title": "Qt Designer and Python: Build Your GUI Applications Faster",
+      "link": "https://realpython.com/qt-designer-python/",
+      "summary": "Qt Designer와 PyQt6를 사용해 Python GUI 애플리케이션을 시각적으로 빠르게 구축하는 방법을 설명합니다.",
+      "detail": "Qt Designer는 PyQt6용 시각적 GUI 빌더로, 코드 없이 주 창(main window)과 다이얼로그를 드래그 앤 드롭으로 설계할 수 있습니다. 디자인은 `.ui` 파일로 저장되며, Python 앱에서 `uic.loadUi()`로 직접 로드하거나 `pyuic6` 도구로 Python 코드로 변환해 사용합니다.\n\n이 접근법은 UI와 비즈니스 로직을 분리하여 유지보수성을 높입니다. 레이아웃 관리(수직·수평·그리드), 시그널-슬롯 연결, 스타일시트 커스터마이즈까지 지원하여 복잡한 GUI도 효율적으로 구현할 수 있습니다."
     },
     {
       "category": "DataScience",
-      "title": "I Thought Loading Data Was the Finish Line. It Was the Starting Point.",
-      "link": "https://towardsdatascience.com/i-thought-loading-data-was-the-finish-line-it-was-the-starting-point/",
-      "summary": "데이터 파이프라인에서 dbt 모델을 처음 구축하며 \"분석 준비 완료 데이터\"의 진정한 의미를 배운 경험을 다룬 실습 가이드입니다.",
-      "detail": "이 글은 데이터를 데이터 웨어하우스에 로드하는 것이 분석 작업의 끝이 아닌 시작점임을 dbt(data build tool)를 통해 실감한 경험을 담고 있습니다. 저자는 원시 데이터를 분석 즉시 활용 가능한 형태로 변환하는 dbt 모델 구축 과정에서 데이터 정제·표준화·변환이 얼마나 중요한 단계인지를 배웁니다. \"분석 준비 완료 데이터\"란 단순히 데이터베이스에 저장된 상태가 아니라 신뢰할 수 있고 일관된 변환 파이프라인을 거친 결과임을 설명하며, 실제 dbt 모델 구현을 통해 데이터 엔지니어링의 핵심 개념을 소개합니다."
+      "title": "I recommend this book on Applied Regression and Causal Inference",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/10/i-recommend-this-book-on-applied-regression-and-causal-inference/",
+      "summary": "Statistical Modeling 블로그에서 응용 회귀 분석과 인과 추론을 다룬 책을 강력히 추천합니다. 이론보다 실용적인 데이터 분석 방법론에 중점을 둡니다.",
+      "detail": "Statistical Modeling, Causal Inference, and Social Science 블로그에서 응용 회귀 분석과 인과 추론에 관한 책을 강력히 추천합니다. 저자는 제목을 'Applied Regression and Causal Inference'로 짓지 못한 것을 유일한 아쉬움으로 언급합니다.\n\n이 책은 이론보다 실제 데이터 분석 방법론에 중점을 두며, 회귀 분석과 인과 추론을 실질적으로 적용하는 방법을 다룹니다. 공변량 조정, 처리 효과 추정, 관측 연구 방법론 등의 주제를 포함하며, 통계학자, 데이터 과학자, 사회과학 연구자에게 유용합니다. 인과 추론을 위한 회귀 기반 접근법을 이해하려는 분들에게 좋은 참고 자료입니다."
     },
     {
       "category": "DataScience",
-      "title": "v2.5.2",
-      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.2",
-      "summary": "NumPy 2.5.2 패치 릴리스가 출시되어 32비트 시스템 크래시와 StringDType 관련 다수의 버그가 수정되었습니다.",
-      "detail": "NumPy 2.5.2는 2026년 8월 9일 출시된 패치 릴리스로, 신기능 없이 버그 수정에 집중합니다. 주요 수정 사항으로는 32비트 시스템의 크래시 문제 해결, StringDType 바이너리 ufunc 프로모션의 coerce 플래그 동작 오류 수정, overlapping copyto 연산의 참조 카운트 누수 해결, np.fromiter에서 StringDType 재사용 시 발생하던 데이터 손상 수정이 포함됩니다. 또한 random number generator 상태 캐싱 문제와 버퍼드 이터레이터 스트라이드 계산 오류도 수정되었습니다. 28개 PR을 통해 16명의 기여자가 참여했으며 Python 3.12~3.15를 지원합니다."
+      "title": "Variational Autoencoders (VAEs) Explained: From Theory to ELBO and the",
+      "link": "https://towardsdatascience.com/variational-autoencoders-vaes-explained-from-theory-to-elbo-and-the-reparameterization-trick/",
+      "summary": "변분 오토인코더(VAE)의 이론부터 ELBO 유도, 재파라미터화 트릭까지 수학적으로 명확하게 설명하는 튜토리얼입니다.",
+      "detail": "VAE(Variational Autoencoder)는 잠재 공간(latent space)에서 확률 분포를 학습해 새로운 데이터를 생성하는 생성 모델입니다. 표준 오토인코더와 달리 인코더가 잠재 벡터를 직접 출력하지 않고 분포의 평균과 분산을 출력합니다.\n\nELBO(Evidence Lower BOund)는 최적화하기 어려운 로그 가능도의 하한으로, 재구성 손실과 KL 발산의 합으로 표현됩니다. 이를 최대화함으로써 VAE를 효율적으로 훈련합니다. 재파라미터화 트릭(reparameterization trick)은 샘플링 연산을 역전파 가능하게 만들어 그래디언트 흐름을 가능하게 하는 핵심 기법입니다. 이 글은 수학 중심으로 각 단계를 유도하므로 VAE 내부 동작을 깊이 이해하고자 하는 독자에게 적합합니다."
     }
   ]
 }
