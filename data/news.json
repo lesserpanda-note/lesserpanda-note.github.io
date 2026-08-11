@@ -1,7 +1,77 @@
 {
-  "updated": "2026-08-11T20:47:22+09:00",
-  "count": 897,
+  "updated": "2026-08-11T22:14:07+09:00",
+  "count": 902,
   "items": [
+    {
+      "title": "Claude Now Watermarks Everything It Makes",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/claude-ai-watermarking-explained/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "First, pick the line that applies to you. Since August 2nd, 2026, Claude marks all content during generation. For instance, text receives a hidden watermark, while files receive a signature. Anthropic committed to the E…",
+      "ts": 1786451806,
+      "published": "2026-08-11T12:36:46+00:00",
+      "collected_at": "2026-08-11T22:14:00+09:00"
+    },
+    {
+      "title": "How Netflix Scaled Its Real-Time Service Map",
+      "link": "https://www.infoq.com/news/2026/08/netflix-service-topology/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Netflix has described how it redesigned the streaming pipeline behind Service Topology, its real-time service dependencies map, to support production scale. The system uses three stages to separate intermediary resoluti…",
+      "ts": 1786450800,
+      "published": "2026-08-11T12:20:00+00:00",
+      "collected_at": "2026-08-11T22:14:00+09:00"
+    },
+    {
+      "title": "3 Visual Proofs of the Central Limit Theorem to Build Your Intuition",
+      "link": "https://www.kdnuggets.com/3-visual-proofs-of-the-central-limit-theorem-to-build-your-intuition",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "To build your intuition, this article shows three visual proofs that the classic bell curve appears in myriad situations.",
+      "ts": 1786449645,
+      "published": "2026-08-11T12:00:45+00:00",
+      "collected_at": "2026-08-11T22:14:00+09:00"
+    },
+    {
+      "title": "7 Async Patterns for Running Agents Concurrently in Python",
+      "link": "https://machinelearningmastery.com/7-async-patterns-for-running-agents-concurrently-in-python/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn seven async patterns for running AI agents concurrently in Python, what each pattern is suited for, and the production-level...",
+      "ts": 1786449635,
+      "published": "2026-08-11T12:00:35+00:00",
+      "collected_at": "2026-08-11T22:14:00+09:00"
+    },
+    {
+      "title": "IBM and Red Hat Expand Lightwell to Strengthen Trust and Governance for AI-Era Open Source",
+      "link": "https://www.infoq.com/news/2026/08/lightwell-ai-open-source/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "IBM and Red Hat have announced an expansion of Lightwell, introducing new commercial offerings designed to help organizations establish trusted, verifiable software supply chains for the age of AI-assisted software deve…",
+      "ts": 1786449600,
+      "published": "2026-08-11T12:00:00+00:00",
+      "collected_at": "2026-08-11T22:14:00+09:00"
+    },
+    {
+      "title": "Quiz: Coding With OpenCode: AI-Assisted Python",
+      "link": "https://realpython.com/quizzes/coding-with-opencode-ai-assisted-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn to install OpenCode, connect it to a free Gemini API key, and refactor a Python project from your terminal using Plan and Build modes.",
+      "ts": 1786449600,
+      "published": "2026-08-11T12:00:00+00:00",
+      "collected_at": "2026-08-11T22:14:00+09:00"
+    },
+    {
+      "title": "Can a Local LLM Run My AI Assistant?",
+      "link": "https://towardsdatascience.com/can-a-local-llm-run-my-ai-assistant/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "I replayed the same 27 real production tasks through two local models, one hardware upgrade apart, to find out what it actually takes to replace Claude as the brain behind a 90-tool personal agent. The post Can a Local…",
+      "ts": 1786449600,
+      "published": "2026-08-11T12:00:00+00:00",
+      "collected_at": "2026-08-11T22:14:00+09:00"
+    },
     {
       "title": "TDD inside the agent loop - theater or actual value?",
       "link": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
@@ -8951,26 +9021,6 @@
       "ts": 1783862461,
       "published": "2026-07-12T13:21:01+00:00",
       "collected_at": "2026-07-13T05:02:52+09:00"
-    },
-    {
-      "title": "“Archaeology can’t give social scientists population or GDP, but here are some things we can measure that might be useful for social science.”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/12/archaeology-cant-give-social-scientists-population-or-gdp-but-here-are-some-things-we-can-measure-that-might-be-useful-for-social-science/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Apropos of our recent discussion on the estimation of historical population sizes, Sean Manning writes: Some archaeologists have measured house sizes for Gini-coefficient-style studies aside from studying human remains…",
-      "ts": 1783861252,
-      "published": "2026-07-12T13:00:52+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "How to Orchestrate 100+ Agents With Claude Code",
-      "link": "https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Run 100+ agents in parallel The post How to Orchestrate 100+ Agents With Claude Code appeared first on Towards Data Science .",
-      "ts": 1783861200,
-      "published": "2026-07-12T13:00:00+00:00",
-      "collected_at": "2026-07-13T00:39:55+09:00"
     }
   ]
 }
