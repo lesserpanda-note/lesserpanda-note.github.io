@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-12T02:00:32+09:00",
-  "count": 912,
+  "updated": "2026-08-12T03:02:36+09:00",
+  "count": 916,
   "items": [
+    {
+      "title": "Grok Bot by SpaceXAI",
+      "link": "https://x.ai/news/introducing-grok-bot",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://x.ai/news/introducing-grok-bot Comments URL: https://news.ycombinator.com/item?id=49261532 Points: 35 # Comments: 19",
+      "ts": 1786469089,
+      "published": "2026-08-11T17:24:49+00:00",
+      "collected_at": "2026-08-12T03:02:30+09:00"
+    },
+    {
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "AMIE promotional video",
+      "ts": 1786467600,
+      "published": "2026-08-11T17:00:00+00:00",
+      "collected_at": "2026-08-12T03:02:30+09:00"
+    },
     {
       "title": "Stop Calling the First Significant Day a Win",
       "link": "https://towardsdatascience.com/stop-calling-the-first-significant-day-a-win/",
@@ -21,6 +41,26 @@
       "ts": 1786460400,
       "published": "2026-08-11T15:00:00+00:00",
       "collected_at": "2026-08-12T02:00:04+09:00"
+    },
+    {
+      "title": "Apple Silicon and macOS VMs: 11–16× Faster LLM Inference with Llama.cpp",
+      "link": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 172 # Comments: 29",
+      "ts": 1786459833,
+      "published": "2026-08-11T14:50:33+00:00",
+      "collected_at": "2026-08-12T03:02:30+09:00"
+    },
+    {
+      "title": "Claude Code is leaking real email address as a User-Agent string in curl command",
+      "link": "https://github.com/anthropics/claude-code/issues/78431",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/78431 Comments URL: https://news.ycombinator.com/item?id=49258881 Points: 35 # Comments: 28",
+      "ts": 1786458107,
+      "published": "2026-08-11T14:21:47+00:00",
+      "collected_at": "2026-08-12T03:02:30+09:00"
     },
     {
       "title": "langgraph==1.2.11",
@@ -171,6 +211,16 @@
       "ts": 1786448340,
       "published": "2026-08-11T11:39:00+00:00",
       "collected_at": "2026-08-11T20:47:12+09:00"
+    },
+    {
+      "title": "How to organize Claude Code for product work",
+      "link": "https://www.theaithinker.com/p/how-to-organize-claude-code-for-product",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.theaithinker.com/p/how-to-organize-claude-code-for-product Comments URL: https://news.ycombinator.com/item?id=49256258 Points: 35 # Comments: 25",
+      "ts": 1786446154,
+      "published": "2026-08-11T11:02:34+00:00",
+      "collected_at": "2026-08-12T03:02:30+09:00"
     },
     {
       "title": "Presentation: Producing the World's Cheapest Tokens: A How-to Guide",
@@ -9110,16 +9160,6 @@
       "summary": "This started based off of a hunch. We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using…",
       "ts": 1783880751,
       "published": "2026-07-12T18:25:51+00:00",
-      "collected_at": "2026-07-13T05:02:52+09:00"
-    },
-    {
-      "title": "Claude Code May–July 2026 weekly limits promotion",
-      "link": "https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://support.claude.com/en/articles/15910845-claude-code-may-july-2026-weekly-limits-promotion Comments URL: https://news.ycombinator.com/item?id=48883064 Points: 40 # Comments: 58",
-      "ts": 1783879289,
-      "published": "2026-07-12T18:01:29+00:00",
       "collected_at": "2026-07-13T05:02:52+09:00"
     }
   ]
