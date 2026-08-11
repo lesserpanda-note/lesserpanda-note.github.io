@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-12T03:02:36+09:00",
-  "count": 916,
+  "updated": "2026-08-12T05:01:30+09:00",
+  "count": 917,
   "items": [
+    {
+      "title": "Survey Statistics: wanting workflow",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/11/survey-statistics-wanting-workflow/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Last week Andrew commented that we need a more transparent workflow for survey statistics. So I looked in the new Bayesian Workflow book: Chapter 19 “Building up to a hierarchical model: Coronavirus testing” is a case s…",
+      "ts": 1786478448,
+      "published": "2026-08-11T20:00:48+00:00",
+      "collected_at": "2026-08-12T05:01:18+09:00"
+    },
     {
       "title": "Grok Bot by SpaceXAI",
       "link": "https://x.ai/news/introducing-grok-bot",
@@ -321,6 +331,16 @@
       "ts": 1786406400,
       "published": "2026-08-11T00:00:00+00:00",
       "collected_at": "2026-08-12T02:00:04+09:00"
+    },
+    {
+      "title": "The Power of JDK Flight Recorder: Efficient Profiling and Troubleshooting for Java Applications",
+      "link": "https://inside.java/2026/08/11/efficient-java-apps-profiling-troubleshooting/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Take a guided tour of the JDK Flight Recorder, the powerful event recording framework for the JVM. We'll cover the basics for getting started, show how to capture and analyze rich telemetry data, and demonstrate real-wo…",
+      "ts": 1786406400,
+      "published": "2026-08-11T00:00:00+00:00",
+      "collected_at": "2026-08-12T05:01:18+09:00"
     },
     {
       "title": "Introducing Muse Glimmer",
@@ -9151,16 +9171,6 @@
       "ts": 1783889386,
       "published": "2026-07-12T20:49:46+00:00",
       "collected_at": "2026-07-13T19:42:50+09:00"
-    },
-    {
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k",
-      "link": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "This started based off of a hunch. We usually use OpenCode, but were 'forced' to use Claude Code for a while due to issues with Meridian. In that time, we saw the usage meter rise much, much more quickly than when using…",
-      "ts": 1783880751,
-      "published": "2026-07-12T18:25:51+00:00",
-      "collected_at": "2026-07-13T05:02:52+09:00"
     }
   ]
 }
