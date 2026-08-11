@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-11T10:59:39+09:00",
-  "count": 890,
+  "updated": "2026-08-11T12:52:16+09:00",
+  "count": 892,
   "items": [
+    {
+      "title": "v0.20.0",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.20.0",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "Key Changes Version 0.20.0 is a minor release because it changes the implicit default model and includes a potentially breaking MCP dependency migration for applications with customized local HTTP transports. MCP v1 rem…",
+      "ts": 1786417934,
+      "published": "2026-08-11T03:12:14+00:00",
+      "collected_at": "2026-08-11T12:52:08+09:00"
+    },
+    {
+      "title": "v2.27.1 (2026-08-10)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.27.1",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Restore tool spans for failed argument validation by @adtyavrdhn in #6601 Fix XaiStreamedResponse finish_reason mapping for streaming responses by @pydanty[bot] in #6814 Point offline web UI h…",
+      "ts": 1786416116,
+      "published": "2026-08-11T02:41:56+00:00",
+      "collected_at": "2026-08-11T12:52:08+09:00"
+    },
     {
       "title": "Introducing Muse Glimmer",
       "link": "https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything",
