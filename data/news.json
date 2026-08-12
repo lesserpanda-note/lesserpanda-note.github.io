@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-13T05:01:07+09:00",
-  "count": 921,
+  "updated": "2026-08-13T06:51:10+09:00",
+  "count": 923,
   "items": [
+    {
+      "title": "Bayesian computation meeting in France in May, 2027",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/12/bayesian-computation-meeting-in-france-in-may-2027/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "OK, this one’s time constrained so I’ll post it right away, not on the usual lag. Christian Robert points to this conference announcement: We invite proposals for the BayesComp 2027 mirror event in Aussois, France, that…",
+      "ts": 1786571168,
+      "published": "2026-08-12T21:46:08+00:00",
+      "collected_at": "2026-08-13T06:50:49+09:00"
+    },
     {
       "title": "Scaling AI agents with trustworthy data",
       "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
@@ -321,6 +331,16 @@
       "ts": 1786492800,
       "published": "2026-08-12T00:00:00+00:00",
       "collected_at": "2026-08-13T00:01:05+09:00"
+    },
+    {
+      "title": "How RingCentral builds AI-native work from engineering to ops",
+      "link": "https://openai.com/index/ringcentral",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
+      "ts": 1786492800,
+      "published": "2026-08-12T00:00:00+00:00",
+      "collected_at": "2026-08-13T06:50:49+09:00"
     },
     {
       "title": "There are no lossless transformations of natural-language text",
@@ -9173,6 +9193,26 @@
       "collected_at": "2026-07-28T23:17:29+09:00"
     },
     {
+      "title": "How data science teams use ChatGPT Work",
+      "link": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how data science teams can use ChatGPT Work to build root-cause briefs, impact readouts, KPI memos, scoped analyses, and dashboard specs from real work inputs.",
+      "ts": 1783987200,
+      "published": "2026-07-14T00:00:00+00:00",
+      "collected_at": "2026-08-13T06:50:49+09:00"
+    },
+    {
+      "title": "How sales teams use ChatGPT Work",
+      "link": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how sales teams can use ChatGPT Work to create pipeline briefs, meeting prep packets, forecast reviews, account plans, and stalled-deal diagnoses from real work inputs.",
+      "ts": 1783987200,
+      "published": "2026-07-14T00:00:00+00:00",
+      "collected_at": "2026-08-13T06:50:49+09:00"
+    },
+    {
       "title": "DOOMQL",
       "link": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
       "source": "Simon Willison",
@@ -9190,26 +9230,6 @@
       "summary": "Article URL: https://github.com/thephw/claude-meseeks Comments URL: https://news.ycombinator.com/item?id=48899529 Points: 129 # Comments: 54",
       "ts": 1783980234,
       "published": "2026-07-13T22:03:54+00:00",
-      "collected_at": "2026-07-14T15:37:56+09:00"
-    },
-    {
-      "title": "datasette code-frequency chart on GitHub",
-      "link": "https://simonwillison.net/2026/Jul/13/datasette-code-frequency/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "datasette code-frequency chart on GitHub Out of curiosity I decided to see if I could find a useful illustration of the impact of coding agents and Opus 4.5 class models on my own output. The best I've found so far is t…",
-      "ts": 1783979127,
-      "published": "2026-07-13T21:45:27+00:00",
-      "collected_at": "2026-07-14T07:14:35+09:00"
-    },
-    {
-      "title": "A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
-      "link": "https://arxiv.org/abs/2607.01418",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://arxiv.org/abs/2607.01418 Comments URL: https://news.ycombinator.com/item?id=48899321 Points: 53 # Comments: 28",
-      "ts": 1783979031,
-      "published": "2026-07-13T21:43:51+00:00",
       "collected_at": "2026-07-14T15:37:56+09:00"
     }
   ]
