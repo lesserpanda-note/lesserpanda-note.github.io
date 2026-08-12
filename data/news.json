@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-12T13:49:45+09:00",
-  "count": 920,
+  "updated": "2026-08-12T15:17:26+09:00",
+  "count": 922,
   "items": [
+    {
+      "title": "llama.cpp",
+      "link": "https://llama.app",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://llama.app Comments URL: https://news.ycombinator.com/item?id=49267928 Points: 55 # Comments: 11",
+      "ts": 1786510319,
+      "published": "2026-08-12T04:51:59+00:00",
+      "collected_at": "2026-08-12T15:17:16+09:00"
+    },
     {
       "title": "v1.107.4 (2026-08-11)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.4",
@@ -71,6 +81,16 @@
       "ts": 1786482230,
       "published": "2026-08-11T21:03:50+00:00",
       "collected_at": "2026-08-12T06:52:41+09:00"
+    },
+    {
+      "title": "datasette-upload-dbs 0.5a0",
+      "link": "https://simonwillison.net/2026/Aug/11/datasette-upload-dbs/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-upload-dbs 0.5a0 This plugin has been around for a while - it lets users upload a brand new SQLite database to a hosted Datasette instance, at which point that database will start being served by that…",
+      "ts": 1786480513,
+      "published": "2026-08-11T20:35:13+00:00",
+      "collected_at": "2026-08-12T15:17:16+09:00"
     },
     {
       "title": "Survey Statistics: wanting workflow",
