@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-12T17:21:06+09:00",
-  "count": 922,
+  "updated": "2026-08-12T19:10:01+09:00",
+  "count": 923,
   "items": [
+    {
+      "title": "MCP Goes Stateless, and Developers Ask Whether That Just Makes It an API Again",
+      "link": "https://www.infoq.com/news/2026/08/mcp-stateless-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "The MCP 2026-07-28 specification removes the initialize handshake and session header, and adds required method and tool-name headers so gateways can route agent traffic without parsing JSON. Reaction split between devel…",
+      "ts": 1786528080,
+      "published": "2026-08-12T09:48:00+00:00",
+      "collected_at": "2026-08-12T19:09:44+09:00"
+    },
+    {
+      "title": "MCP Goes Stateless, and Developers Ask Whether That Just Makes It an API Again",
+      "link": "https://www.infoq.com/news/2026/08/mcp-stateless-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The MCP 2026-07-28 specification removes the initialize handshake and session header, and adds required method and tool-name headers so gateways can route agent traffic without parsing JSON. Reaction split between devel…",
+      "ts": 1786528080,
+      "published": "2026-08-12T09:48:00+00:00",
+      "collected_at": "2026-08-12T19:09:44+09:00"
+    },
     {
       "title": "[AINews] How to steal a Reasoning Trace",
       "link": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
@@ -9211,16 +9231,6 @@
       "ts": 1783940400,
       "published": "2026-07-13T11:00:00+00:00",
       "collected_at": "2026-07-13T22:56:22+09:00"
-    },
-    {
-      "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-      "link": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://raymyers.org/post/zed-creator-calls-spade-a-spade/ Comments URL: https://news.ycombinator.com/item?id=48889637 Points: 1524 # Comments: 773",
-      "ts": 1783931979,
-      "published": "2026-07-13T08:39:39+00:00",
-      "collected_at": "2026-07-15T23:48:23+09:00"
     }
   ]
 }
