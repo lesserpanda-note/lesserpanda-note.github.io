@@ -1,7 +1,87 @@
 {
-  "updated": "2026-08-12T22:17:53+09:00",
-  "count": 922,
+  "updated": "2026-08-13T00:01:10+09:00",
+  "count": 919,
   "items": [
+    {
+      "title": "Netflix Adopts Cloud-Native Job Queueing System Kueue to Replace an In-House Solution",
+      "link": "https://www.infoq.com/news/2026/08/netflix-kueue-kubernetes-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Netflix migrated most of its batch workloads onto Kueue, an open-source cloud-native batch job execution system that has outgrown its homegrown solution over the years. The company mapped the capabilities previously cre…",
+      "ts": 1786545000,
+      "published": "2026-08-12T14:30:00+00:00",
+      "collected_at": "2026-08-13T00:01:05+09:00"
+    },
+    {
+      "title": "Spotify Builds External Index to Enable Low Latency Point Queries on Its Data Lake",
+      "link": "https://www.infoq.com/news/2026/08/spotify-data-lake-point-queries/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Spotify introduced external indexing architecture for Apache Parquet data lakes that enables low-latency point queries without replicating datasets into operational databases. The approach maps lookup keys to Parquet fi…",
+      "ts": 1786544760,
+      "published": "2026-08-12T14:26:00+00:00",
+      "collected_at": "2026-08-13T00:01:05+09:00"
+    },
+    {
+      "title": "Spotify Builds External Index to Enable Low Latency Point Queries on Its Data Lake",
+      "link": "https://www.infoq.com/news/2026/08/spotify-data-lake-point-queries/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Spotify introduced external indexing architecture for Apache Parquet data lakes that enables low-latency point queries without replicating datasets into operational databases. The approach maps lookup keys to Parquet fi…",
+      "ts": 1786544760,
+      "published": "2026-08-12T14:26:00+00:00",
+      "collected_at": "2026-08-13T00:01:05+09:00"
+    },
+    {
+      "title": "Putting sign language AI into users’ hands",
+      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
+      "ts": 1786543319,
+      "published": "2026-08-12T14:01:59+00:00",
+      "collected_at": "2026-08-13T00:01:05+09:00"
+    },
+    {
+      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1786543251,
+      "published": "2026-08-12T14:00:51+00:00",
+      "collected_at": "2026-08-13T00:01:05+09:00"
+    },
+    {
+      "title": "Building an End-to-End Data Science Portfolio Project",
+      "link": "https://www.kdnuggets.com/building-an-end-to-end-data-science-portfolio-project",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Most portfolios stop at a notebook. Take yours all the way.",
+      "ts": 1786543250,
+      "published": "2026-08-12T14:00:50+00:00",
+      "collected_at": "2026-08-13T00:01:05+09:00"
+    },
+    {
+      "title": "How to Integrate OpenTelemetry With a FastAPI App",
+      "link": "https://realpython.com/fastapi-opentelemetry/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to integrate OpenTelemetry with a FastAPI app in Python to instrument endpoints, export traces, add custom spans, and correlate logs.",
+      "ts": 1786543200,
+      "published": "2026-08-12T14:00:00+00:00",
+      "collected_at": "2026-08-13T00:01:05+09:00"
+    },
+    {
+      "title": "Building Multimodal Workflows with a Local LLM",
+      "link": "https://towardsdatascience.com/building-multimodal-workflows-with-a-local-llm/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Image inputs and structured outputs with Gemma 4 and Ollama The post Building Multimodal Workflows with a Local LLM appeared first on Towards Data Science .",
+      "ts": 1786541400,
+      "published": "2026-08-12T13:30:00+00:00",
+      "collected_at": "2026-08-13T00:01:05+09:00"
+    },
     {
       "title": "Who were “The Makers of Public Policy” in 1965?",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/12/who-were-the-makers-of-public-policy-in-1965/",
@@ -161,6 +241,16 @@
       "ts": 1786498050,
       "published": "2026-08-12T01:27:30+00:00",
       "collected_at": "2026-08-12T11:12:28+09:00"
+    },
+    {
+      "title": "Evolving a Java MCP Server During MCP Specification Upgrades",
+      "link": "https://inside.java/2026/08/12/java-mcp-migration/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Learn how a Java MCP server can embrace the latest MCP specification without breaking existing integrations or forcing immediate client upgrades.",
+      "ts": 1786492800,
+      "published": "2026-08-12T00:00:00+00:00",
+      "collected_at": "2026-08-13T00:01:05+09:00"
     },
     {
       "title": "There are no lossless transformations of natural-language text",
@@ -9101,126 +9191,6 @@
       "ts": 1783958760,
       "published": "2026-07-13T16:06:00+00:00",
       "collected_at": "2026-07-14T03:12:02+09:00"
-    },
-    {
-      "title": "Context Rot: Why Claude Code Sessions Decay, and How to Govern Them",
-      "link": "https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Long sessions rot quietly, well before any token limit is reached. Here’s why, and how to govern your context in Claude Code. The post Context Rot: Why Claude Code Sessions Decay, and How to Govern Them appeared first o…",
-      "ts": 1783954800,
-      "published": "2026-07-13T15:00:00+00:00",
-      "collected_at": "2026-07-14T03:12:02+09:00"
-    },
-    {
-      "title": "The Path to Sovereign Data: Challenges and Priorities in Local-First Computing",
-      "link": "https://www.infoq.com/news/2026/07/data-ownership-localfirst/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "A panel on data ownership challenged the definition of \"ownership,\" arguing it must extend beyond simple account control to include structural independence, interoperability, and community governance. Speakers like Zenn…",
-      "ts": 1783952040,
-      "published": "2026-07-13T14:14:00+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "The Path to Sovereign Data: Challenges and Priorities in Local-First Computing",
-      "link": "https://www.infoq.com/news/2026/07/data-ownership-localfirst/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "A panel on data ownership challenged the definition of \"ownership,\" arguing it must extend beyond simple account control to include structural independence, interoperability, and community governance. Speakers like Zenn…",
-      "ts": 1783952040,
-      "published": "2026-07-13T14:14:00+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "How DoorDash Built an AI Shopping Assistant That Doesn’t Rely on the LLM Alone",
-      "link": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "DoorDash details the architecture behind Ask DoorDash, its AI-powered conversational shopping assistant, combining LLMs, specialized AI agents, MCP-based tooling, and an intelligence layer with persistent consumer memor…",
-      "ts": 1783951680,
-      "published": "2026-07-13T14:08:00+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "How DoorDash Built an AI Shopping Assistant That Doesn’t Rely on the LLM Alone",
-      "link": "https://www.infoq.com/news/2026/07/doordash-ai-ask-assistant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "DoorDash details the architecture behind Ask DoorDash, its AI-powered conversational shopping assistant, combining LLMs, specialized AI agents, MCP-based tooling, and an intelligence layer with persistent consumer memor…",
-      "ts": 1783951680,
-      "published": "2026-07-13T14:08:00+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Structured Language Model Generation with Outlines",
-      "link": "https://www.kdnuggets.com/structured-language-model-generation-with-outlines",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Outlines is an open-source library that introduces deterministic certainty into LLMs' output generation process for better, more reliable generation of structured outputs.",
-      "ts": 1783951203,
-      "published": "2026-07-13T14:00:03+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "LangGraph Tutorial: Build Stateful AI Agents in Python",
-      "link": "https://realpython.com/langgraph-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn LangGraph in Python with hands-on examples and build stateful, multi-agent AI agents that manage memory, cycles, and complex LLM workflows.",
-      "ts": 1783951200,
-      "published": "2026-07-13T14:00:00+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Grok uploaded my user directory to xAI's servers",
-      "link": "https://twitter.com/a_green_being/status/2076598897779020159",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://twitter.com/a_green_being/status/2076598897779020159 Comments URL: https://news.ycombinator.com/item?id=48892512 Points: 68 # Comments: 27",
-      "ts": 1783949999,
-      "published": "2026-07-13T13:39:59+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Grok CLI uploaded the whole home directory to GCS",
-      "link": "https://twitter.com/i/status/2076598897779020159",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://twitter.com/i/status/2076598897779020159 Comments URL: https://news.ycombinator.com/item?id=48892468 Points: 46 # Comments: 16",
-      "ts": 1783949732,
-      "published": "2026-07-13T13:35:32+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "It’s all about the nonlinearity: An interesting statistical example of flaws in a voter impact index",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/13/interesting-statistical-example-of-flaws-in-a-voter-impact-index/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "The following came in the email the other day: I’m reaching out to introduce the Voter Impact Index, a new data tool from PowerMoves that assigns every U.S. zip code a voter impact score based on the recent competitiven…",
-      "ts": 1783949698,
-      "published": "2026-07-13T13:34:58+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
-    },
-    {
-      "title": "Building Models in Two Worlds: From Latent Constructs to Behavioral Signals",
-      "link": "https://towardsdatascience.com/building-models-in-two-worlds-from-latent-constructs-to-behavioral-signals/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "My PhD models tried to explain why people engage. My industry models predict who will. The statistics barely changed. Everything around them did. The post Building Models in Two Worlds: From Latent Constructs to Behavio…",
-      "ts": 1783949400,
-      "published": "2026-07-13T13:30:00+00:00",
-      "collected_at": "2026-07-13T22:56:22+09:00"
-    },
-    {
-      "title": "How to Measure Video Similarity: 6 Techniques I Tested (and the One I Shipped)",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/video-similarity-measurement/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Two short clips. One question: how alike do they look? Sounds trivial, it isn’t, and I learned that the slow way. My setup: one reference clip, eight others to rank against it, all waterfalls (more on why in a second).…",
-      "ts": 1783948800,
-      "published": "2026-07-13T13:20:00+00:00",
-      "collected_at": "2026-07-13T23:24:55+09:00"
     }
   ]
 }
