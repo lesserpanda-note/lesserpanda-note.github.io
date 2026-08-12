@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-13T00:01:10+09:00",
-  "count": 919,
+  "updated": "2026-08-13T01:59:16+09:00",
+  "count": 924,
   "items": [
+    {
+      "title": "Scaling AI agents with trustworthy data",
+      "link": "https://www.technologyreview.com/2026/08/12/1141032/scaling-ai-agents-with-trustworthy-data/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Business and technology leaders need no convincing that the time of agentic AI is here. Organizations are rapidly adopting agents, and few executives doubt the technology’s potential to transform work. But many organiza…",
+      "ts": 1786553517,
+      "published": "2026-08-12T16:51:57+00:00",
+      "collected_at": "2026-08-13T01:59:10+09:00"
+    },
+    {
+      "title": "Before Full Agentic RAG: Know How You Decide, and the Parsing Methods You Pick From",
+      "link": "https://towardsdatascience.com/before-full-agentic-rag-know-how-you-decide-and-the-parsing-methods-you-pick-from/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #5nonies] - Nature, plan, execute, synthesize: closing brick 1 with a dispatcher that reads each PDF’s nature and picks the method that fits, fitz, Docling, PaddleOCR, EasyOCR, Mi…",
+      "ts": 1786552200,
+      "published": "2026-08-12T16:30:00+00:00",
+      "collected_at": "2026-08-13T01:59:10+09:00"
+    },
+    {
+      "title": "When Escape Routes Become Toll Roads: Mapping How Developers Move Between Programming Languages",
+      "link": "https://blog.jetbrains.com/research/2026/08/programming-language-migration/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "TL;DR: This post relates findings about language migration from the 2025 State of Developer Ecosystem survey. In general, project requirements are still the most common reasons for switching languages. One outlier from…",
+      "ts": 1786551318,
+      "published": "2026-08-12T16:15:18+00:00",
+      "collected_at": "2026-08-13T01:59:10+09:00"
+    },
+    {
+      "title": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-embeddings",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1786551276,
+      "published": "2026-08-12T16:14:36+00:00",
+      "collected_at": "2026-08-13T01:59:10+09:00"
+    },
+    {
+      "title": "Quoting Florian Herrengt",
+      "link": "https://simonwillison.net/2026/Aug/12/florian-herrengt/#atom-everything",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "But then users start to report a weird bug. It's the 4th time your team has been trying to fix it. I mean... asking AI to fix it. Unfortunately, it seems like not even Fable can figure it out. You go talk to the person…",
+      "ts": 1786547327,
+      "published": "2026-08-12T15:08:47+00:00",
+      "collected_at": "2026-08-13T01:59:10+09:00"
+    },
+    {
+      "title": "Backpropagation Explained for Beginners (Part 3): How Backpropagation Really Works",
+      "link": "https://towardsdatascience.com/backpropagation-explained-for-beginners-part-3-how-backpropagation-really-works/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "From one gradient to every gradient The post Backpropagation Explained for Beginners (Part 3): How Backpropagation Really Works appeared first on Towards Data Science .",
+      "ts": 1786546800,
+      "published": "2026-08-12T15:00:00+00:00",
+      "collected_at": "2026-08-13T01:59:10+09:00"
+    },
     {
       "title": "Netflix Adopts Cloud-Native Job Queueing System Kueue to Replace an In-House Solution",
       "link": "https://www.infoq.com/news/2026/08/netflix-kueue-kubernetes-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -171,6 +231,16 @@
       "ts": 1786528080,
       "published": "2026-08-12T09:48:00+00:00",
       "collected_at": "2026-08-12T19:09:44+09:00"
+    },
+    {
+      "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
+      "link": "https://discoveredmaterials.com/research/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Hey HN, we're Advaith and Akash from Discovered Materials ( https://discoveredmaterials.com/ ). We build AI agents that discover new materials for the semiconductor industry. GPUs today have a heat problem. Nvidia & AMD…",
+      "ts": 1786521080,
+      "published": "2026-08-12T07:51:20+00:00",
+      "collected_at": "2026-08-13T01:59:10+09:00"
     },
     {
       "title": "[AINews] How to steal a Reasoning Trace",
@@ -9171,26 +9241,6 @@
       "ts": 1783965600,
       "published": "2026-07-13T18:00:00+00:00",
       "collected_at": "2026-07-14T07:14:35+09:00"
-    },
-    {
-      "title": "Agentic RAG: Let the Agent Search",
-      "link": "https://towardsdatascience.com/agentic-rag-let-the-agent-search/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A minimal OpenAI Agents SDK implementation where retrieval becomes a search-read-decide loop The post Agentic RAG: Let the Agent Search appeared first on Towards Data Science .",
-      "ts": 1783960200,
-      "published": "2026-07-13T16:30:00+00:00",
-      "collected_at": "2026-07-14T03:12:02+09:00"
-    },
-    {
-      "title": "Fragments: July 13",
-      "link": "https://martinfowler.com/fragments/2026-07-13.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Some more of my notes from Thoughtworks Future of Software Development Retreat . When we had our first retreat in Utah early this year, nobody had heard of Harness Engineering . This time we had a whole session on it. W…",
-      "ts": 1783958760,
-      "published": "2026-07-13T16:06:00+00:00",
-      "collected_at": "2026-07-14T03:12:02+09:00"
     }
   ]
 }
