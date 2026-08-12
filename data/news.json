@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-12T09:22:28+09:00",
-  "count": 916,
+  "updated": "2026-08-12T11:12:33+09:00",
+  "count": 919,
   "items": [
+    {
+      "title": "v1.107.3 (2026-08-11)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.3",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🛡️ Security This release backports two security fixes to the v1 line: GHSA-h4xc-3qfq-jf93 (high) — the development web chat UI's ( Agent.to_web() , clai web ) chat endpoint didn't check the request's content type, so a…",
+      "ts": 1786500306,
+      "published": "2026-08-12T02:05:06+00:00",
+      "collected_at": "2026-08-12T11:12:28+09:00"
+    },
+    {
+      "title": "v2.28.0 (2026-08-11)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.28.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🛡️ Security Fixes a high-severity vulnerability in the development web chat UI ( Agent.to_web() , clai web ): the chat endpoint didn't check the request's content type, so a plain cross-origin request from a website ope…",
+      "ts": 1786500283,
+      "published": "2026-08-12T02:04:43+00:00",
+      "collected_at": "2026-08-12T11:12:28+09:00"
+    },
+    {
+      "title": "1.15.15",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.15",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Report flow outcome, duration, and human-in-the-loop signals. Bug Fixes Emit FlowStartedEvent when a boundary hook aborts the flow. Scope span export to our own tracer provider. Bump torch to ver…",
+      "ts": 1786498050,
+      "published": "2026-08-12T01:27:30+00:00",
+      "collected_at": "2026-08-12T11:12:28+09:00"
+    },
     {
       "title": "There are no lossless transformations of natural-language text",
       "link": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
