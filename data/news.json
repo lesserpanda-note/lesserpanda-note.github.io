@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-13T20:51:18+09:00",
-  "count": 947,
+  "updated": "2026-08-13T22:20:11+09:00",
+  "count": 944,
   "items": [
+    {
+      "title": "How Baidu Unlimited-OCR Works: Solving Long-Document Transcription",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/baidu-unlimited-ocr-technical-breakdown/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "About a month ago, Baidu (often called the “Google of China”) introduced Unlimited-OCR, an advancement over DeepSeek OCR. The model was designed to transcribe long, multi-page documents with high accuracy while deliveri…",
+      "ts": 1786623018,
+      "published": "2026-08-13T12:10:18+00:00",
+      "collected_at": "2026-08-13T22:19:49+09:00"
+    },
+    {
+      "title": "Constraining Output Space for SLM Narrow Automation Optimization",
+      "link": "https://www.kdnuggets.com/constraining-output-space-small-language-model-narrow-automation-optimization",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "This article will kick off a series on narrow automation optimization for SLMs, and as the first entry will cover one of the more most useful techniques for doing so: constraining the output space instead of parsing gen…",
+      "ts": 1786622417,
+      "published": "2026-08-13T12:00:17+00:00",
+      "collected_at": "2026-08-13T22:19:49+09:00"
+    },
+    {
+      "title": "LangChain vs LangGraph: 4 Key Differences and When to Use Each",
+      "link": "https://towardsdatascience.com/langchain-vs-langgraph-4-key-differences-and-when-to-use-each/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A practical guide to choose the proper tool for your agentic workflows and systems The post LangChain vs LangGraph: 4 Key Differences and When to Use Each appeared first on Towards Data Science .",
+      "ts": 1786622400,
+      "published": "2026-08-13T12:00:00+00:00",
+      "collected_at": "2026-08-13T22:19:49+09:00"
+    },
     {
       "title": "How Artificial Intelligence Disrupts Engineering Progression",
       "link": "https://www.infoq.com/news/2026/08/AI-disrupts-engineering-progress/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -11,6 +41,16 @@
       "ts": 1786620480,
       "published": "2026-08-13T11:28:00+00:00",
       "collected_at": "2026-08-13T20:51:05+09:00"
+    },
+    {
+      "title": "Claude users are mad that Anthropic's new watermarks will catch them using it",
+      "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/ Comments URL: https://news.ycombinator.com/item?id=49283891 Points:…",
+      "ts": 1786616631,
+      "published": "2026-08-13T10:23:51+00:00",
+      "collected_at": "2026-08-13T22:19:49+09:00"
     },
     {
       "title": "Anthropic's Claude Breaches Sandbox During Model Security Evaluations",
@@ -9400,76 +9440,6 @@
       "summary": "I measured the actual GPU electricity for eight local models on one RTX 3090 — and the cheapest wasn't the smallest, nor the priciest the biggest. The post How Much Does It Actually Cost to Run a Local LLM? (Euros per M…",
       "ts": 1784035800,
       "published": "2026-07-14T13:30:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Meta's Noninvasive Brain–Computer Interface Brain2Qwerty Achieves 61% Accuracy",
-      "link": "https://www.infoq.com/news/2026/07/meta-brain-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Meta recently open-sourced Brain2Qwerty v2, a noninvasive Brain–Computer Interface (BCI) that can decode sentences from thoughts using electroencephalography (EEG) or magnetoencephalography (MEG) signals from the brain.…",
-      "ts": 1784034000,
-      "published": "2026-07-14T13:00:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "DSLs Enable Reliable Use of LLMs",
-      "link": "https://martinfowler.com/articles/llm-and-dsls.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "LLMs generate code incredibly fast, but to ensure they generate exactly what is intended, they need clear boundaries. Abstractions and Domain-Specific Languages (DSLs) provide a strong harness that guides LLMs right fro…",
-      "ts": 1784033460,
-      "published": "2026-07-14T12:51:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Presentation: Lessons Learned in Migrating to Micro-Frontends",
-      "link": "https://www.infoq.com/presentations/migration-micro-frontend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Luca Mezzalira shares proven learnings from guiding hundreds of teams through the migration from monolithic web applications to distributed frontend architectures. He explains the core architectural difference between c…",
-      "ts": 1784032920,
-      "published": "2026-07-14T12:42:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "12 Ways to Reduce LLM Latency and Inference Costs in Production",
-      "link": "https://www.kdnuggets.com/12-ways-to-reduce-llm-latency-and-inference-costs-in-production",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Scaling LLMs isn’t about adding GPUs. It’s about removing wasted work from every request.",
-      "ts": 1784030433,
-      "published": "2026-07-14T12:00:33+00:00",
-      "collected_at": "2026-07-14T21:00:48+09:00"
-    },
-    {
-      "title": "LLM Evaluation Frameworks Compared: How to Actually Measure What Your Model Does",
-      "link": "https://machinelearningmastery.com/llm-evaluation-frameworks-compared-how-to-actually-measure-what-your-model-does/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how to evaluate LLM applications using the three dominant open-source frameworks — RAGAS, DeepEval, and Promptfoo — and why...",
-      "ts": 1784030429,
-      "published": "2026-07-14T12:00:29+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Quiz: Understanding Mixin Classes in Python",
-      "link": "https://realpython.com/quizzes/understanding-mixin-classes/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python mixin classes, see how they differ from abstract base classes, and avoid common pitfalls.",
-      "ts": 1784030400,
-      "published": "2026-07-14T12:00:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs",
-      "link": "https://towardsdatascience.com/pydantic-openai-the-cleanest-way-to-get-structured-outputs-from-llms/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "How to stop parsing JSON by hand and start trusting your model's output The post Pydantic + OpenAI: The Cleanest Way to Get Structured Outputs from LLMs appeared first on Towards Data Science .",
-      "ts": 1784030400,
-      "published": "2026-07-14T12:00:00+00:00",
       "collected_at": "2026-07-15T01:57:09+09:00"
     }
   ]
