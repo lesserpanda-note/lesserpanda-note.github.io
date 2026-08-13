@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-14T01:58:58+09:00",
-  "count": 945,
+  "updated": "2026-08-14T03:01:18+09:00",
+  "count": 947,
   "items": [
+    {
+      "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1786641364,
+      "published": "2026-08-13T17:16:04+00:00",
+      "collected_at": "2026-08-14T03:01:14+09:00"
+    },
+    {
+      "title": "Introducing Gemini 3.7 Flash",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1786640658,
+      "published": "2026-08-13T17:04:18+00:00",
+      "collected_at": "2026-08-14T03:01:14+09:00"
+    },
+    {
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "link": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "The video shows Sheets canvas in action.",
+      "ts": 1786639500,
+      "published": "2026-08-13T16:45:00+00:00",
+      "collected_at": "2026-08-14T03:01:14+09:00"
+    },
     {
       "title": "How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs",
       "link": "https://towardsdatascience.com/how-to-utilize-okf-efficiently-to-enable-knowledge-exchange-among-llms/",
@@ -151,6 +181,16 @@
       "ts": 1786615800,
       "published": "2026-08-13T10:10:00+00:00",
       "collected_at": "2026-08-13T20:51:05+09:00"
+    },
+    {
+      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
+      "link": "https://openai.com/index/previewing-ultrafast",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
+      "ts": 1786615200,
+      "published": "2026-08-13T10:00:00+00:00",
+      "collected_at": "2026-08-14T03:01:14+09:00"
     },
     {
       "title": "How kids feel about AI, in their own words",
@@ -9430,26 +9470,6 @@
       "summary": "The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has t…",
       "ts": 1784052263,
       "published": "2026-07-14T18:04:23+00:00",
-      "collected_at": "2026-07-15T05:43:21+09:00"
-    },
-    {
-      "title": "BoxLang 1.15.0 Released: Blazing Fast Strings, Runtime Portability, and much more",
-      "link": "https://foojay.io/today/boxlang-1-15-0-released-blazing-fast-strings-runtime-portability-and-much-more/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "BoxLang 1.15.0 is a high-impact release with two big headlines and a long tail of hardening. The first headline is a massive performance upgrade to string handling: a new first-class BoxStringBuilder type, compile-time…",
-      "ts": 1784051830,
-      "published": "2026-07-14T17:57:10+00:00",
-      "collected_at": "2026-07-15T05:43:21+09:00"
-    },
-    {
-      "title": "What is Meta Prompting and How does it work?",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/meta-prompting/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Prompts shape every interaction with a large language model. Clear instructions produce focused, useful responses, while vague ones often lead to inconsistent results. This becomes harder when teams need the same task c…",
-      "ts": 1784049706,
-      "published": "2026-07-14T17:21:46+00:00",
       "collected_at": "2026-07-15T05:43:21+09:00"
     }
   ]
