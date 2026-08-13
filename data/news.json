@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-14T06:51:02+09:00",
-  "count": 949,
+  "updated": "2026-08-14T07:47:10+09:00",
+  "count": 948,
   "items": [
+    {
+      "title": "Answering some questions about statistics from a high school student",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/13/answering-some-questions-about-statistics-from-a-high-school-student/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This came in the mail: My name is ** and I am a junior at ** High School. I am writing to you as a part of a summer assignment for my upcoming research class where I had to choose … Continue reading →",
+      "ts": 1786661106,
+      "published": "2026-08-13T22:45:06+00:00",
+      "collected_at": "2026-08-14T07:47:02+09:00"
+    },
     {
       "title": "7 1/2 Schools—mistakes were made",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/13/7-1-2-schools-mistakes-were-made/",
@@ -261,6 +271,16 @@
       "ts": 1786593773,
       "published": "2026-08-13T04:02:53+00:00",
       "collected_at": "2026-08-13T13:53:54+09:00"
+    },
+    {
+      "title": "alchemy-utils 0.1a1",
+      "link": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
+      "ts": 1786590197,
+      "published": "2026-08-13T03:03:17+00:00",
+      "collected_at": "2026-08-14T07:47:02+09:00"
     },
     {
       "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
@@ -9460,36 +9480,6 @@
       "summary": "At this year's AIE World’s Fair, AI engineering entered a new phase: building systems around agents, rather than just building with agents.",
       "ts": 1784071281,
       "published": "2026-07-14T23:21:21+00:00",
-      "collected_at": "2026-07-15T08:38:28+09:00"
-    },
-    {
-      "title": "Quoting GitHub Changeling",
-      "link": "https://simonwillison.net/2026/Jul/14/github-changeling/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Dependabot now waits until a new release has been available on its registry for at least three days before opening a version update pull request. This cooldown is now the default and requires no configuration. — GitHub…",
-      "ts": 1784069015,
-      "published": "2026-07-14T22:43:35+00:00",
-      "collected_at": "2026-07-15T08:38:28+09:00"
-    },
-    {
-      "title": "simonw/pedalican",
-      "link": "https://simonwillison.net/2026/Jul/14/pedalican/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "simonw/pedalican Clearly I wasn't paying attention when these were first announced back in May, but today I accidentally activated a \"pet\" in Codex Desktop - a little animated robot, reminiscent of Clippy - and then lea…",
-      "ts": 1784068185,
-      "published": "2026-07-14T22:29:45+00:00",
-      "collected_at": "2026-07-15T08:38:28+09:00"
-    },
-    {
-      "title": "Google Cloud Workbench Notebooks Extension Connects VS Code to Google Cloud's Jupyter Notebooks",
-      "link": "https://www.infoq.com/news/2026/07/cloud-workbench-vscode-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The Google Cloud Workbench Notebooks extension for VS Code is a new tool that enables developers to connect their local IDE directly to managed Jupyter notebook environments on Google Cloud. By Sergio De Simone",
-      "ts": 1784066400,
-      "published": "2026-07-14T22:00:00+00:00",
       "collected_at": "2026-07-15T08:38:28+09:00"
     }
   ]
