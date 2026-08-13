@@ -1,7 +1,57 @@
 {
-  "updated": "2026-08-13T22:20:11+09:00",
-  "count": 944,
+  "updated": "2026-08-14T00:00:45+09:00",
+  "count": 942,
   "items": [
+    {
+      "title": "Build Secure AI Chat Applications with BoxLang, RAG, Ollama, and Amazon Bedrock with Dan Card",
+      "link": "https://foojay.io/today/build-secure-ai-chat-applications-with-boxlang-rag-ollama-and-amazon-bedrock-with-dan-card/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Build Secure AI Chat Applications with BoxLang, RAG, Ollama, and Amazon Bedrock AI demos are everywhere. Building an AI-powered feature that can securely work with your documents, databases, and real application data is…",
+      "ts": 1786632733,
+      "published": "2026-08-13T14:52:13+00:00",
+      "collected_at": "2026-08-14T00:00:38+09:00"
+    },
+    {
+      "title": "Building a Streaming Local AI Agent",
+      "link": "https://www.kdnuggets.com/building-a-streaming-local-ai-agent",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Streaming gets used in two different ways when people talk about AI agents. Straighten out your understanding here.",
+      "ts": 1786629615,
+      "published": "2026-08-13T14:00:15+00:00",
+      "collected_at": "2026-08-14T00:00:38+09:00"
+    },
+    {
+      "title": "Lots of detail on the continuing “Q collar” scandal and why we should probably be doing more coverage of that sort of science-adjacent medical scams and less on repulsively self-promoting but ultimat…",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/13/we-should-probably-be-doing-more-coverage-of-science-adjacent-medical-scams-like-the-q-collar-and-less-on-repulsively-self-promoting-but-ultimately-less-harmful-academic-grifters/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "The Q collar, I hope you don’t remember, is a neck accessory that is advertised as “proven” to protect athletes’ brains, but the studies purporting to offer this proof are suspect. This is an interesting example of scie…",
+      "ts": 1786629228,
+      "published": "2026-08-13T13:53:48+00:00",
+      "collected_at": "2026-08-14T00:00:38+09:00"
+    },
+    {
+      "title": "Flock is tightening its rules in response to a growing surveillance backlash",
+      "link": "https://www.technologyreview.com/2026/08/13/1141904/flock-is-tightening-its-rules-in-response-to-a-growing-surveillance-backlash/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "The police-tech giant Flock is announcing today that it will change officers’ access to its nationwide network of license plate readers, in an apparent effort to quell a growing backlash and win back contracts lost amid…",
+      "ts": 1786628470,
+      "published": "2026-08-13T13:41:10+00:00",
+      "collected_at": "2026-08-14T00:00:38+09:00"
+    },
+    {
+      "title": "How to Orchestrate a Fleet of OpenClaw Bots",
+      "link": "https://towardsdatascience.com/how-to-orchestrate-a-fleet-of-openclaw-bots/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Learn how to run OpenClaw bots for increased productivity The post How to Orchestrate a Fleet of OpenClaw Bots appeared first on Towards Data Science .",
+      "ts": 1786627800,
+      "published": "2026-08-13T13:30:00+00:00",
+      "collected_at": "2026-08-14T00:00:38+09:00"
+    },
     {
       "title": "How Baidu Unlimited-OCR Works: Solving Long-Document Transcription",
       "link": "https://www.analyticsvidhya.com/blog/2026/08/baidu-unlimited-ocr-technical-breakdown/",
@@ -91,6 +141,16 @@
       "ts": 1786586027,
       "published": "2026-08-13T01:53:47+00:00",
       "collected_at": "2026-08-13T11:16:39+09:00"
+    },
+    {
+      "title": "Announcing the Packaging Council Election Candidates for 2026!",
+      "link": "https://blog.python.org/2026/08/2026-packaging-council-nominees/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Announcing the 17 nominees for the inaugural Python Packaging Council election, and how to vote in the election.",
+      "ts": 1786579200,
+      "published": "2026-08-13T00:00:00+00:00",
+      "collected_at": "2026-08-14T00:00:38+09:00"
     },
     {
       "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
@@ -9360,86 +9420,6 @@
       "summary": "Google Images logo surrounded by illustrations of people searching for different images",
       "ts": 1784044800,
       "published": "2026-07-14T16:00:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "A Gentle Introduction to Autoencoders & Latent Space",
-      "link": "https://towardsdatascience.com/gentle-introduction-to-autoencoders-latent-space/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Introduction Heavy computation is a well-known problem in various ML algorithms today, especially when generative AI is applied to text, images, and other unstructured data. One of the principal approaches to mitigate t…",
-      "ts": 1784041200,
-      "published": "2026-07-14T15:00:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "I Asked GitHub Copilot to Profile a Java App. It Found a Bug in My Heap Sizing, and Offered to Fix It",
-      "link": "https://foojay.io/today/i-asked-github-copilot-to-profile-a-java-app-it-found-a-bug-in-my-heap-sizing-and-offered-to-fix-it/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "I built an extension to collapse the entire loop of running and measuring the performance of Java workloads, so it can be used within a place some developers are starting to consider their new \"development environment\"…",
-      "ts": 1784040131,
-      "published": "2026-07-14T14:42:11+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Getting Started with Conductor for Gemini CLI",
-      "link": "https://www.kdnuggets.com/getting-started-with-conductor-for-gemini-cli",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Conductor is a Gemini CLI extension built to fix your context problems. Learn all about it here.",
-      "ts": 1784037624,
-      "published": "2026-07-14T14:00:24+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Understanding Mixin Classes in Python",
-      "link": "https://realpython.com/courses/understanding-mixin-classes-in-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to write reusable Python mixin classes, distinguish them from abstract base classes, and steer clear of common pitfalls.",
-      "ts": 1784037600,
-      "published": "2026-07-14T14:00:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "“Making Statistics Work: Information Theory and Bayesian Inference”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/14/making-statistics-work-information-theory-and-bayesian-inference/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I took a look at the above-titled book by economists Duncan Foley and Ellis Scharfenaker. It’s an interesting read, in many ways a throwback to the 1950s when a group of mathematicians brewed a heady mix of operations r…",
-      "ts": 1784036702,
-      "published": "2026-07-14T13:45:02+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents",
-      "link": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google and industry partners announced Agentic Resource Discovery (ARD) Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. ARD introduces a discovery layer built on ca…",
-      "ts": 1784036400,
-      "published": "2026-07-14T13:40:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Google and Industry Partners Announce Agentic Resource Discovery Specification for AI Agents",
-      "link": "https://www.infoq.com/news/2026/07/agentic-resource-discovery-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Google and industry partners announced Agentic Resource Discovery (ARD) Specification, an open standard for publishing, discovering, and verifying AI tools, APIs, and agents. ARD introduces a discovery layer built on ca…",
-      "ts": 1784036400,
-      "published": "2026-07-14T13:40:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "How Much Does It Actually Cost to Run a Local LLM? (Euros per Million Tokens, Measured)",
-      "link": "https://towardsdatascience.com/how-much-does-it-actually-cost-to-run-a-local-llm-e-per-million-tokens-measured/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "I measured the actual GPU electricity for eight local models on one RTX 3090 — and the cheapest wasn't the smallest, nor the priciest the biggest. The post How Much Does It Actually Cost to Run a Local LLM? (Euros per M…",
-      "ts": 1784035800,
-      "published": "2026-07-14T13:30:00+00:00",
       "collected_at": "2026-07-15T01:57:09+09:00"
     }
   ]
