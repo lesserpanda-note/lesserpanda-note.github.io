@@ -1,83 +1,76 @@
 {
-  "updated": "2026-08-12T00:19:30Z",
-  "summary": "오늘은 Google AMIE의 실시간 영상 진료 능력 입증, OpenAI ChatGPT 광고 테스트 한국 확대, Netflix 서비스 맵 아키텍처 공개 등 AI와 시스템 설계 분야의 굵직한 소식이 이어졌습니다. PyPI가 HTML 인덱스 API를 공식 동결하고 JSON API로의 전환을 권고한 것도 Python 생태계의 중요한 변화입니다. 통계 분야에서는 A/B 테스트의 조기 종료 오류와 중심극한정리의 직관적 이해를 다룬 글들이 주목받았습니다.",
+  "updated": "2026-08-13T00:20:28Z",
+  "summary": "오늘은 xAI의 Grok 4.6 출시와 Google DeepMind의 수어-텍스트 변환 AI 모델(SL2T) 공개가 AI 분야의 핵심 소식입니다. 아키텍처 분야에서는 Netflix가 자체 배치 큐를 Kueue로 교체하고 Spotify가 데이터 레이크에 외부 인덱스를 도입한 대규모 인프라 전환 사례가 주목됩니다. 에이전틱 RAG 설계 방법론과 검색·기억의 차이를 다룬 실용 가이드, 그리고 JetBrains의 언어 마이그레이션 연구와 FastAPI·OpenTelemetry 통합 튜토리얼도 이번 주 눈에 띄는 콘텐츠입니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "DuckDB in Spring Batch: Replace In-Memory Java Loops with One SQL Statement",
-      "link": "https://foojay.io/today/duckdb-in-spring-batch-replace-in-memory-java-loops-with-one-sql-statement/",
-      "summary": "Spring Batch의 청크 지향 처리 방식 대신 DuckDB를 임베드하여 단일 SQL 구문으로 Java 루프를 대체하는 방법을 설명합니다.",
-      "detail": "Spring Batch의 전형적인 패턴은 ItemReader가 행을 스트림하고, ItemProcessor가 각 행을 변환하며, ItemWriter가 결과를 쓰는 방식입니다. 이 청크 지향 처리는 대용량 데이터의 경우 Java 루프 오버헤드로 인해 성능 병목이 될 수 있습니다.\n\nDuckDB를 Spring Batch에 임베드하면 이 루프 전체를 단일 SQL 구문으로 대체할 수 있습니다. DuckDB는 인프로세스(in-process) OLAP 데이터베이스로, Parquet·CSV 등 다양한 형식을 직접 쿼리할 수 있습니다. 복잡한 집계, 필터링, 변환 작업을 SQL 한 줄로 처리함으로써 Spring Batch 잡의 코드 구조를 대폭 단순화하고 성능을 크게 향상시킬 수 있습니다."
+      "title": "When Escape Routes Become Toll Roads: Mapping How Developers Move Between Programming Languages",
+      "link": "https://blog.jetbrains.com/research/2026/08/programming-language-migration/",
+      "summary": "JetBrains의 2025 개발자 생태계 서베이를 분석해 개발자들이 프로그래밍 언어를 전환하는 이유와 경로를 연구한 리포트입니다.",
+      "detail": "JetBrains가 2025 State of Developer Ecosystem 서베이 데이터를 바탕으로 개발자들의 프로그래밍 언어 이동 패턴을 분석했습니다. 전반적으로 언어 전환의 가장 흔한 이유는 '프로젝트 요구 사항'으로, 개인 선호보다 업무 환경이 언어 선택에 더 큰 영향을 미칩니다.\n\n제목이 암시하듯, 특정 언어에서 벗어나는 '탈출 경로'는 막힘없는 선택이 아니라 학습 비용·생태계 전환·도구 재습득 등의 부담을 수반하는 '유료 경로'처럼 작용합니다. 언어별로 이탈·유입 패턴에 뚜렷한 차이가 있으며, 일부 언어에서 특이한 예외 사례도 발견되었습니다. 이 연구는 어떤 언어가 개발자를 묶어 두는지, 어느 방향으로 이동이 일어나는지에 대한 생태계 수준의 시사점을 제공합니다."
     },
     {
       "category": "AI",
-      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
-      "summary": "Google의 의료 AI 연구 시스템 AMIE가 실시간 영상 진료 능력을 입증했으며, 제어된 연구에서 일차 진료 의사와 대등하거나 그 이상의 진단 수준을 달성했습니다.",
-      "detail": "AMIE(Articulate Medical Intelligence Explorer)가 실시간 영상 진료를 지원하는 Gemini 기반 멀티에이전트 시스템으로 확장되었습니다. 저지연 대화 담당 Talker, 임상 추론 담당 Planner, 실시간 시청각 이해 담당 Perception 에이전트로 구성됩니다.\n\nOSCE(객관적 구조화 임상 시험) 연구에서 30명의 일차 진료 의사(PCP), 15명의 환자 역할 배우, 100가지 임상 시나리오를 사용해 세 조건을 비교했습니다. AMIE Video는 병력 청취, 진단 정확도, 관리 계획 수립에서 의사와 동등하거나 높은 평가를 받았으며, 더 정확하고 완전한 감별 진단을 제시했습니다. 환자 역할 배우들은 병태 설명 면에서 AMIE를 선호했으나, 라포 형성과 파트너십에서는 의사가 우위였습니다. 안전 중단 사례는 0건이었으며, AI와 상호작용 후 환자 신뢰도가 상승했습니다. Google은 Included Health와 협력하여 전국 규모의 실제 임상 연구도 진행 중입니다."
+      "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
+      "link": "https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis",
+      "summary": "xAI의 최신 모델 Grok 4.6이 출시되어 Artificial Analysis 인텔리전스 지수에서 61점을 기록했으며, 독립 벤치마크 기관의 성능·가격 분석이 공개되었습니다.",
+      "detail": "xAI(일론 머스크의 AI 기업)가 Grok 4.6을 출시했으며, Artificial Analysis의 독립 벤치마크 분석 결과 Intelligence Index에서 61점을 기록했습니다. Artificial Analysis는 다양한 LLM의 성능·속도·가격을 종합 평가하는 외부 분석 기관으로, 해당 점수는 Grok 4.6의 추론 및 지식 능력을 종합한 수치입니다.\n\n공식 발표(x.ai)는 Hacker News에서 336 포인트와 345개의 댓글을 받으며 주요 AI 모델 출시 중 하나로 주목받았습니다. 별도 분석 페이지에서는 성능·속도·가격 비교가 함께 제공되어 다른 최신 모델 대비 Grok 4.6의 포지셔닝을 확인할 수 있습니다."
     },
     {
       "category": "AI",
-      "title": "Testing ads in ChatGPT",
-      "link": "https://openai.com/index/testing-ads-in-chatgpt",
-      "summary": "OpenAI가 2026년 1월부터 ChatGPT 무료·Go 플랜 사용자에게 광고 테스트를 시작했으며, 현재 한국을 포함한 6개국으로 확대되었습니다.",
-      "detail": "OpenAI가 2026년 1월 16일, ChatGPT에서 광고 테스트를 시작했습니다. 광고는 응답 하단에 '후원(Sponsored)' 표시로 명확히 구분되며 응답 내용에는 전혀 영향을 미치지 않습니다. 무료 및 Go(약 월 $8) 플랜 사용자에게 표시되며, Plus·Pro·Enterprise 구독자에게는 광고가 없습니다. 무료 플랜 사용자는 광고 거부 시 일일 메시지 한도가 줄어듭니다.\n\n광고 모델은 CPV(클릭당 비용) 기반이며 광고 단가는 약 CPM $60 수준입니다. 광고주에게는 집계된 성과 데이터만 제공되며 개인 대화 데이터는 공유되지 않습니다. 첫 광고 파트너는 Target, Adobe, Williams-Sonoma, Albertsons 등 미국 소매 브랜드였으며, 2026년 8월 현재 영국·멕시코·브라질·일본·한국으로 확대되었습니다. OpenAI는 광고와 제휴 수익으로 2026년 약 $10억, 2029년에는 약 $250억 규모를 예상합니다."
+      "title": "Putting sign language AI into users' hands",
+      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "summary": "Google DeepMind가 수어를 텍스트로 변환하는 AI 모델 SL2T(Sign Language to Text)를 발표하여 청각장애인과 난청 사용자를 위한 새로운 기능을 구현했습니다.",
+      "detail": "Google DeepMind가 수어-텍스트 변환(SL2T, Sign Language to Text) 모델을 공개했습니다. SL2T는 청각장애인 및 난청 사용자를 위한 새로운 수어 기능을 구동하는 핵심 AI 모델로, DeepMind가 '획기적인 모델(breakthrough model)'이라 표현한 만큼 수어 인식과 텍스트 변환 분야에서 중요한 기술적 진전을 나타냅니다.\n\n수어 인식 AI는 기존에도 존재했지만 실제 제품 수준의 정확도와 확장성을 갖추는 것이 과제였습니다. SL2T는 이 격차를 줄여 청각장애 사용자에게 실질적인 커뮤니케이션 도구를 제공하는 것을 목표로 합니다. AI 기술을 소외 계층 지원에 직접 적용한 접근성 강화 사례로 주목됩니다."
     },
     {
       "category": "Agents",
-      "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
-      "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
-      "summary": "Anthropic, OpenAI, Google 등 주요 LLM API가 반환하는 암호화된 추론 블록을 재전송하여 독점 모델의 추론 흔적을 탈취할 수 있다는 연구가 발표되었습니다.",
-      "detail": "Anthropic, OpenAI, Google의 LLM API는 클라이언트에게 암호화된 체인-오브-소트(chain-of-thought) 블록을 반환합니다. 최근 연구에 따르면 이 블록을 동일한 API에 재전송(replay)하면 독점 모델의 추론 흔적을 탈취할 수 있습니다.\n\nSimon Willison이 'stolen-thoughts.com'이라는 도메인을 연결하여 이 연구를 소개했습니다. 해당 논문은 주요 AI 회사들이 반환하는 암호화된 추론 블록의 보안 취약성을 구체적으로 밝히고 있습니다. 이 취약점은 AI API 보안의 새로운 위협 벡터를 제기하며, 기업들이 독점 추론 과정 보호를 위한 추가 보안 조치를 마련해야 함을 시사합니다."
+      "title": "Before Full Agentic RAG: Know How You Decide, and the Parsing Methods You Pick From",
+      "link": "https://towardsdatascience.com/before-full-agentic-rag-know-how-you-decide-and-the-parsing-methods-you-pick-from/",
+      "summary": "완전한 에이전틱 RAG를 구축하기 전, 문서 유형별 파싱 방법 선택 논리와 디스패처 아키텍처를 설계하는 방법을 설명하는 엔터프라이즈 문서 인텔리전스 시리즈입니다.",
+      "detail": "기업 문서 인텔리전스를 위한 에이전틱 RAG 구현 이전 단계, 즉 '어떤 문서에 어떤 파싱 방법을 쓸지 결정하는 디스패처'를 구축하는 방법에 집중한 글입니다.\n\n핵심 워크플로는 '문서 특성 파악 → 계획 → 실행 → 합성'의 4단계이며, 첫 번째 단계인 디스패처가 각 PDF의 유형(스캔본·네이티브 PDF·이미지 등)을 읽고 가장 적합한 파싱 방법을 선택합니다. 지원하는 파싱 도구로는 fitz(PyMuPDF), Docling, PaddleOCR, EasyOCR 등이 포함됩니다. 에이전틱 RAG를 무조건 최대 규모로 구현하기보다, 먼저 의사결정 구조와 파싱 방법론을 명확히 정의하고 점진적으로 확장하는 실용적 접근을 강조합니다."
     },
     {
       "category": "Agents",
-      "title": "7 Async Patterns for Running Agents Concurrently in Python",
-      "link": "https://machinelearningmastery.com/7-async-patterns-for-running-agents-concurrently-in-python/",
-      "summary": "Python에서 AI 에이전트를 동시에 실행하기 위한 7가지 비동기 패턴을 소개하는 프로덕션 수준의 실용 가이드입니다.",
-      "detail": "AI 에이전트를 프로덕션 환경에서 동시에 실행하려면 적절한 비동기 패턴이 필수입니다. 이 글은 Python의 `asyncio`를 활용한 7가지 구체적인 패턴을 제시하며, 각 패턴이 적합한 사용 사례를 설명합니다.\n\n팬아웃(fan-out), 파이프라인(pipeline), 게이트(gate), 배치(batch), 우선순위 큐(priority queue) 등 다양한 동시 실행 구조가 포함됩니다. 프로덕션 수준의 예외 처리, 타임아웃 관리, 에이전트 간 상태 공유 방법도 다루며, 여러 에이전트가 협력하는 복잡한 워크플로를 안정적으로 구성하고자 하는 개발자에게 실질적인 참고 자료가 됩니다."
+      "title": "Retrieval vs. Memory in Agentic AI Systems",
+      "link": "https://machinelearningmastery.com/retrieval-vs-memory-in-agentic-ai-systems/",
+      "summary": "에이전틱 AI 시스템에서 외부 검색(Retrieval)과 내부 기억(Memory)의 개념적·실용적 차이점과 두 가지를 효과적으로 결합하는 방법을 설명합니다.",
+      "detail": "에이전틱 AI 시스템을 설계할 때 핵심 질문 중 하나는 '정보를 어떻게 저장하고 접근할 것인가'입니다. 이 글은 두 핵심 메커니즘인 검색(Retrieval)과 기억(Memory)의 차이를 개념적·실용적 관점에서 정리합니다.\n\n검색(Retrieval)은 필요할 때 외부 데이터 소스(벡터 DB, 문서 저장소 등)에서 관련 정보를 끌어오는 방식이고, 기억(Memory)은 에이전트가 과거 상호작용·상태·컨텍스트를 내부적으로 유지하는 방식입니다. 두 메커니즘은 서로 보완적이며, 검색은 넓은 지식 커버리지를, 기억은 맥락 일관성과 개인화를 담당합니다. 각각을 언제 어떻게 쓸지, 그리고 두 가지를 결합해 더 견고한 에이전트를 구성하는 방법도 안내합니다."
     },
     {
       "category": "Architecture",
-      "title": "How Netflix Scaled Its Real-Time Service Map",
-      "link": "https://www.infoq.com/news/2026/08/netflix-service-topology/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Netflix가 수천 개의 마이크로서비스 의존성을 실시간으로 추적하는 Service Topology 시스템의 스트리밍 파이프라인 재설계 방법을 공개했습니다.",
-      "detail": "Netflix는 Service Topology(실시간 서비스 의존성 맵)의 스트리밍 파이프라인을 프로덕션 규모로 지원하기 위해 전면 재설계했습니다. 새 아키텍처는 중간 해석(intermediary resolution) 과정을 분리하는 세 단계 파이프라인으로 구성됩니다.\n\n수천 개의 마이크로서비스가 실시간으로 의존성 데이터를 업데이트하는 환경에서 처리 지연을 최소화하면서도 정확한 의존성 그래프를 유지하는 것이 핵심 과제였습니다. 단계를 분리함으로써 각 처리 단계를 독립적으로 확장하고 장애를 격리할 수 있습니다. 대규모 분산 시스템에서 실시간 위상(topology) 정보를 효율적으로 관리하는 방법에 대한 실용적인 인사이트를 제공합니다."
+      "title": "Netflix Adopts Cloud-Native Job Queueing System Kueue to Replace an In-House Solution",
+      "link": "https://www.infoq.com/news/2026/08/netflix-kueue-kubernetes-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Netflix가 자체 개발한 배치 작업 큐 솔루션을 오픈소스 클라우드 네이티브 시스템인 Kueue로 교체하여 대부분의 배치 워크로드를 마이그레이션했습니다.",
+      "detail": "Netflix가 수년간 사용해온 자체 개발(in-house) 배치 작업 큐 시스템을 오픈소스 클라우드 네이티브 솔루션 Kueue로 교체했습니다. Kueue는 Kubernetes 기반의 배치 작업 스케줄링 및 큐잉 시스템으로, 다양한 프레임워크의 배치 작업을 통합 관리할 수 있습니다.\n\nNetflix는 자체 솔루션이 오랜 기간 사용되면서 유지보수 부담이 증가하고 기능 확장에 한계를 느껴 Kueue 도입을 결정했습니다. 기존 홈그로운 솔루션의 기능을 Kueue의 개념·API에 매핑하는 작업을 거쳐 대부분의 배치 워크로드를 성공적으로 마이그레이션했습니다. 자체 개발 솔루션 대신 오픈소스를 채택함으로써 커뮤니티 지원, 표준화, 장기 유지보수 절감 효과를 기대할 수 있으며, Netflix 규모의 기업이 핵심 인프라를 오픈소스로 전환한 실제 사례입니다."
     },
     {
       "category": "Architecture",
-      "title": "TDD inside the agent loop - theater or actual value?",
-      "link": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
-      "summary": "Thoughtworks의 Birgitta Böckeler가 LLM 에이전트 루프에서 TDD를 적용했을 때 실제 가치가 있는지 실험한 결과를 Martin Fowler 블로그에 공유했습니다.",
-      "detail": "많은 개발자와 AI 연구자들이 LLM 에이전트에게 TDD(테스트 주도 개발) 방식으로 소프트웨어를 개발하도록 권장합니다. Thoughtworks의 Birgitta Böckeler는 이것이 실제 가치를 창출하는지, 아니면 단순한 '연극'에 불과한지를 직접 실험했습니다.\n\n실험 결과, 에이전트 루프에서의 TDD는 인간이 TDD를 활용하는 방식과 다를 수 있습니다. 에이전트는 테스트를 먼저 작성하고 구현하는 과정에서 일관성을 유지하기 어려우며, 테스트 자체를 수정하거나 우회하는 경향도 관찰되었습니다. Martin Fowler의 블로그에 게재된 이 글은 AI 에이전트와 전통적 소프트웨어 개발 방법론의 교차점을 실증적으로 탐구하며, 에이전트 기반 개발에서 TDD의 실질적 적용 방법을 고민하는 독자에게 중요한 시사점을 제공합니다."
+      "title": "Spotify Builds External Index to Enable Low Latency Point Queries on Its Data Lake",
+      "link": "https://www.infoq.com/news/2026/08/spotify-data-lake-point-queries/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Spotify가 Apache Parquet 데이터 레이크에 외부 인덱싱 아키텍처를 도입하여, 데이터셋을 운영 DB로 복제하지 않고도 저지연 포인트 쿼리를 가능하게 만들었습니다.",
+      "detail": "Spotify가 데이터 레이크의 핵심 한계인 '낮은 포인트 쿼리 성능'을 해결하기 위해 외부 인덱스 아키텍처를 구축했습니다. 기존에는 특정 레코드를 빠르게 조회하려면 전체 데이터를 운영 데이터베이스(예: Cassandra, DynamoDB)에 복제해야 했고, 이는 저장 비용과 파이프라인 복잡도를 높였습니다.\n\nSpotify의 새 아키텍처는 조회 키(lookup key)를 Apache Parquet 파일 경로 및 행 그룹으로 매핑하는 외부 인덱스를 별도로 구축해, 전체 데이터 복제 없이 특정 레코드를 저지연으로 검색할 수 있습니다. 이 접근법은 대규모 데이터 레이크 운영의 비용 효율성을 높이고 아키텍처를 단순화합니다. 데이터 레이크와 운영 DB의 경계를 허무는 현대적 데이터 아키텍처 패턴의 실제 구현 사례입니다."
     },
     {
       "category": "Python",
-      "title": "The HTML representation of the index API is now frozen",
-      "link": "https://blog.pypi.org/posts/2026-08-11-html-index-is-frozen/",
-      "summary": "PyPI가 PEP 833을 채택하여 인덱스 API의 HTML 표현을 '동결'했습니다. 앞으로 새 기능은 JSON API를 통해서만 제공됩니다.",
-      "detail": "PyPI(Python Package Index)가 PEP 833을 공식 채택하여 Simple API(단순 저장소 API)라고도 불리는 인덱스 API의 HTML 표현을 동결했습니다.\n\n새 패키지와 릴리스는 계속 HTML 인덱스에 나타나지만, HTML의 구조와 형식 자체는 더 이상 변경되지 않습니다. 향후 모든 새 기능은 JSON API(`application/vnd.pypi.simple.v1+json`)를 통해서만 제공될 예정입니다. HTML 기반 패키지 인덱스 탐색 방식을 사용하는 pip, poetry, uv 등 패키지 관리 도구 개발자와 PyPI 클라이언트 라이브러리 개발자들은 JSON API로의 전환을 준비해야 합니다. Python 패키지 생태계의 장기적인 API 안정성을 위한 중요한 이정표입니다."
-    },
-    {
-      "category": "Python",
-      "title": "Coding With OpenCode: AI-Assisted Python",
-      "link": "https://realpython.com/courses/coding-with-opencode-ai/",
-      "summary": "Real Python의 새 강좌로, 무료 Gemini API 키를 활용한 OpenCode를 사용해 터미널에서 AI 보조 Python 코딩을 배웁니다.",
-      "detail": "OpenCode는 터미널에서 직접 AI 지원 코딩을 제공하는 오픈소스 도구입니다. 이 Real Python 강좌는 무료 Gemini API 키를 사용하여 코드 분석 및 리팩터링에 OpenCode를 활용하는 방법을 단계별로 다룹니다.\n\nVS Code, Cursor 등 IDE 내 AI 도구와 달리 OpenCode는 터미널 중심의 워크플로에 최적화되어 있습니다. 기존 코드 분석, 리팩터링 제안, 버그 탐지 등의 작업을 터미널에서 AI와 직접 상호작용하며 수행할 수 있습니다. 무료로 제공되는 Gemini API를 통해 별도 비용 없이 체험할 수 있어 AI 보조 코딩을 처음 접하는 개발자에게 진입 장벽이 낮습니다."
+      "title": "How to Integrate OpenTelemetry With a FastAPI App",
+      "link": "https://realpython.com/fastapi-opentelemetry/",
+      "summary": "FastAPI 앱에 OpenTelemetry를 통합하여 엔드포인트 계측, 트레이스 내보내기, 커스텀 스팬 추가, 로그 연결 등을 구현하는 방법을 단계별로 설명하는 실용 튜토리얼입니다.",
+      "detail": "OpenTelemetry는 분산 시스템의 관측 가능성(Observability)을 위한 오픈소스 표준으로, 트레이스·메트릭·로그를 벤더 중립적으로 수집·내보낼 수 있습니다. 이 Real Python 튜토리얼은 FastAPI 앱에 OpenTelemetry를 통합하는 과정을 단계별로 안내합니다.\n\n주요 내용으로는 FastAPI 엔드포인트 자동 계측(auto-instrumentation), 트레이스 데이터를 외부 백엔드(Jaeger, OTLP 등)로 내보내는 익스포터 설정, 비즈니스 로직의 특정 구간을 추적하는 커스텀 스팬 추가, 그리고 분산 로그와 트레이스를 연결하는 방법이 포함됩니다. 마이크로서비스 환경에서 FastAPI를 사용하는 개발자가 프로덕션 모니터링 및 디버깅 체계를 갖추는 데 실질적인 도움이 됩니다."
     },
     {
       "category": "DataScience",
-      "title": "Stop Calling the First Significant Day a Win",
-      "link": "https://towardsdatascience.com/stop-calling-the-first-significant-day-a-win/",
-      "summary": "A/B 테스트에서 p값이 처음으로 유의수준을 넘는 날을 '승리'로 선언하는 관행의 통계적 오류와 올바른 실험 설계 방법을 설명합니다.",
-      "detail": "A/B 테스트를 지속적으로 모니터링하다가 p값이 처음으로 유의수준(예: p < 0.05)을 교차하는 순간 실험을 중단하고 결과를 발표하는 것은 심각한 통계적 오류입니다. 이른바 '피킹(peeking)' 또는 '선택적 정지(optional stopping)' 문제로, 실제로 효과가 없어도 거짓 양성(false positive) 비율이 크게 증가합니다.\n\n연속 모니터링 시뮬레이션에 따르면, 효과가 전혀 없는 실험에서도 장시간 관찰하면 명목 유의수준 5%를 훨씬 초과하는 비율로 '유의한' 결과가 나타납니다. 올바른 접근법은 실험 시작 전 표본 크기와 검정 기간을 사전에 고정하고, 그 기간이 완료된 후에만 결론을 내리는 것입니다. 시퀀셜 테스트(sequential testing)나 베이지안 방법도 대안으로 활용할 수 있습니다."
+      "title": "Backpropagation Explained for Beginners (Part 3): How Backpropagation Really Works",
+      "link": "https://towardsdatascience.com/backpropagation-explained-for-beginners-part-3-how-backpropagation-really-works/",
+      "summary": "역전파(Backpropagation) 시리즈 3부로, 하나의 그래디언트에서 전체 네트워크의 모든 그래디언트를 계산하는 역전파의 실제 작동 원리를 설명합니다.",
+      "detail": "역전파(Backpropagation) 알고리즘은 신경망 학습의 핵심으로, 손실 함수의 그래디언트를 출력층부터 입력층 방향으로 역방향 전파하여 각 가중치를 업데이트합니다. 이 시리즈 3부는 '하나의 그래디언트에서 모든 그래디언트로'라는 개념에 초점을 맞춥니다.\n\n연쇄 법칙(chain rule)을 이용해 단일 출력에 대한 그래디언트 계산이 어떻게 네트워크 전체로 확장되는지, 그리고 각 레이어의 가중치가 어떻게 효율적으로 업데이트되는지를 설명합니다. 역전파의 수학적 메커니즘을 직관적으로 이해하고자 하는 초보자에게 적합한 시리즈의 핵심 파트입니다."
     },
     {
       "category": "DataScience",
-      "title": "3 Visual Proofs of the Central Limit Theorem to Build Your Intuition",
-      "link": "https://www.kdnuggets.com/3-visual-proofs-of-the-central-limit-theorem-to-build-your-intuition",
-      "summary": "중심극한정리(CLT)를 세 가지 시각적 증명으로 설명하며, 다양한 상황에서 정규분포(종형 곡선)가 나타나는 이유에 대한 직관을 기릅니다.",
-      "detail": "중심극한정리(Central Limit Theorem, CLT)는 통계학의 핵심 정리로, 모집단의 분포 형태와 무관하게 충분히 큰 표본의 표본 평균은 정규분포에 수렴한다는 내용입니다.\n\n이 글은 세 가지 시각적 방법으로 CLT를 증명하여 단순 암기가 아닌 직관적 이해를 돕습니다. 균등분포, 지수분포 등 다양한 비정규 분포에서 시작하더라도 표본 크기가 커질수록 표본 평균의 분포가 종형 곡선으로 수렴하는 과정을 시각적으로 보여줍니다. 이 정리가 확률론의 합성곱(convolution)과 어떻게 연결되는지, 그리고 통계적 추론(신뢰구간, 가설 검정)의 기초로 작동하는 원리를 직관적으로 파악할 수 있어 데이터 과학자에게 유용한 학습 자료입니다."
+      "title": "How to Place Vertiport Locations in Any City Using Geospatial Machine Learning",
+      "link": "https://towardsdatascience.com/how-to-place-vertiport-locations-in-any-city-using-geospatial-machine-learning/",
+      "summary": "라고스(Lagos) 사례 연구를 통해 인구 데이터, 교통 접근성, 공역 제약을 결합한 지리공간 머신러닝으로 도시 내 버티포트(eVTOL 착륙장) 최적 위치를 선정하는 방법을 설명합니다.",
+      "detail": "도심 항공 모빌리티(UAM)의 핵심 인프라인 버티포트(vertiport, eVTOL 수직 이착륙장)의 최적 위치 선정 문제를 지리공간 머신러닝으로 해결한 사례 연구입니다. 라고스(나이지리아 최대 도시)를 대상으로 하며, 재현 가능한(reproducible) 방법론을 제시합니다.\n\n사용 데이터는 인구 분포 데이터, 기존 교통 접근성(대중교통·도로망), 그리고 공역(airspace) 제약 조건입니다. 이 세 가지 요소를 지리공간 분석 모델에 결합하여 수요가 높고 접근성이 좋으며 공역 규정을 충족하는 최적의 버티포트 후보지를 도출합니다. 전 세계 어느 도시에도 적용 가능하도록 범용적인 파이프라인을 설계했으며, 도시 계획과 ML의 교차점에서 실용적인 응용 사례를 보여줍니다."
     }
   ]
 }

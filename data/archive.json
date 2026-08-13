@@ -1,6 +1,89 @@
 {
   "digests": [
     {
+      "date": "2026-08-12",
+      "summary": "오늘은 Google AMIE의 실시간 영상 진료 능력 입증, OpenAI ChatGPT 광고 테스트 한국 확대, Netflix 서비스 맵 아키텍처 공개 등 AI와 시스템 설계 분야의 굵직한 소식이 이어졌습니다. PyPI가 HTML 인덱스 API를 공식 동결하고 JSON API로의 전환을 권고한 것도 Python 생태계의 중요한 변화입니다. 통계 분야에서는 A/B 테스트의 조기 종료 오류와 중심극한정리의 직관적 이해를 다룬 글들이 주목받았습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "DuckDB in Spring Batch: Replace In-Memory Java Loops with One SQL Statement",
+          "link": "https://foojay.io/today/duckdb-in-spring-batch-replace-in-memory-java-loops-with-one-sql-statement/",
+          "summary": "Spring Batch의 청크 지향 처리 방식 대신 DuckDB를 임베드하여 단일 SQL 구문으로 Java 루프를 대체하는 방법을 설명합니다.",
+          "detail": "Spring Batch의 전형적인 패턴은 ItemReader가 행을 스트림하고, ItemProcessor가 각 행을 변환하며, ItemWriter가 결과를 쓰는 방식입니다. 이 청크 지향 처리는 대용량 데이터의 경우 Java 루프 오버헤드로 인해 성능 병목이 될 수 있습니다.\n\nDuckDB를 Spring Batch에 임베드하면 이 루프 전체를 단일 SQL 구문으로 대체할 수 있습니다. DuckDB는 인프로세스(in-process) OLAP 데이터베이스로, Parquet·CSV 등 다양한 형식을 직접 쿼리할 수 있습니다. 복잡한 집계, 필터링, 변환 작업을 SQL 한 줄로 처리함으로써 Spring Batch 잡의 코드 구조를 대폭 단순화하고 성능을 크게 향상시킬 수 있습니다."
+        },
+        {
+          "category": "AI",
+          "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+          "link": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+          "summary": "Google의 의료 AI 연구 시스템 AMIE가 실시간 영상 진료 능력을 입증했으며, 제어된 연구에서 일차 진료 의사와 대등하거나 그 이상의 진단 수준을 달성했습니다.",
+          "detail": "AMIE(Articulate Medical Intelligence Explorer)가 실시간 영상 진료를 지원하는 Gemini 기반 멀티에이전트 시스템으로 확장되었습니다. 저지연 대화 담당 Talker, 임상 추론 담당 Planner, 실시간 시청각 이해 담당 Perception 에이전트로 구성됩니다.\n\nOSCE(객관적 구조화 임상 시험) 연구에서 30명의 일차 진료 의사(PCP), 15명의 환자 역할 배우, 100가지 임상 시나리오를 사용해 세 조건을 비교했습니다. AMIE Video는 병력 청취, 진단 정확도, 관리 계획 수립에서 의사와 동등하거나 높은 평가를 받았으며, 더 정확하고 완전한 감별 진단을 제시했습니다. 환자 역할 배우들은 병태 설명 면에서 AMIE를 선호했으나, 라포 형성과 파트너십에서는 의사가 우위였습니다. 안전 중단 사례는 0건이었으며, AI와 상호작용 후 환자 신뢰도가 상승했습니다. Google은 Included Health와 협력하여 전국 규모의 실제 임상 연구도 진행 중입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Testing ads in ChatGPT",
+          "link": "https://openai.com/index/testing-ads-in-chatgpt",
+          "summary": "OpenAI가 2026년 1월부터 ChatGPT 무료·Go 플랜 사용자에게 광고 테스트를 시작했으며, 현재 한국을 포함한 6개국으로 확대되었습니다.",
+          "detail": "OpenAI가 2026년 1월 16일, ChatGPT에서 광고 테스트를 시작했습니다. 광고는 응답 하단에 '후원(Sponsored)' 표시로 명확히 구분되며 응답 내용에는 전혀 영향을 미치지 않습니다. 무료 및 Go(약 월 $8) 플랜 사용자에게 표시되며, Plus·Pro·Enterprise 구독자에게는 광고가 없습니다. 무료 플랜 사용자는 광고 거부 시 일일 메시지 한도가 줄어듭니다.\n\n광고 모델은 CPV(클릭당 비용) 기반이며 광고 단가는 약 CPM $60 수준입니다. 광고주에게는 집계된 성과 데이터만 제공되며 개인 대화 데이터는 공유되지 않습니다. 첫 광고 파트너는 Target, Adobe, Williams-Sonoma, Albertsons 등 미국 소매 브랜드였으며, 2026년 8월 현재 영국·멕시코·브라질·일본·한국으로 확대되었습니다. OpenAI는 광고와 제휴 수익으로 2026년 약 $10억, 2029년에는 약 $250억 규모를 예상합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+          "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+          "summary": "Anthropic, OpenAI, Google 등 주요 LLM API가 반환하는 암호화된 추론 블록을 재전송하여 독점 모델의 추론 흔적을 탈취할 수 있다는 연구가 발표되었습니다.",
+          "detail": "Anthropic, OpenAI, Google의 LLM API는 클라이언트에게 암호화된 체인-오브-소트(chain-of-thought) 블록을 반환합니다. 최근 연구에 따르면 이 블록을 동일한 API에 재전송(replay)하면 독점 모델의 추론 흔적을 탈취할 수 있습니다.\n\nSimon Willison이 'stolen-thoughts.com'이라는 도메인을 연결하여 이 연구를 소개했습니다. 해당 논문은 주요 AI 회사들이 반환하는 암호화된 추론 블록의 보안 취약성을 구체적으로 밝히고 있습니다. 이 취약점은 AI API 보안의 새로운 위협 벡터를 제기하며, 기업들이 독점 추론 과정 보호를 위한 추가 보안 조치를 마련해야 함을 시사합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "7 Async Patterns for Running Agents Concurrently in Python",
+          "link": "https://machinelearningmastery.com/7-async-patterns-for-running-agents-concurrently-in-python/",
+          "summary": "Python에서 AI 에이전트를 동시에 실행하기 위한 7가지 비동기 패턴을 소개하는 프로덕션 수준의 실용 가이드입니다.",
+          "detail": "AI 에이전트를 프로덕션 환경에서 동시에 실행하려면 적절한 비동기 패턴이 필수입니다. 이 글은 Python의 `asyncio`를 활용한 7가지 구체적인 패턴을 제시하며, 각 패턴이 적합한 사용 사례를 설명합니다.\n\n팬아웃(fan-out), 파이프라인(pipeline), 게이트(gate), 배치(batch), 우선순위 큐(priority queue) 등 다양한 동시 실행 구조가 포함됩니다. 프로덕션 수준의 예외 처리, 타임아웃 관리, 에이전트 간 상태 공유 방법도 다루며, 여러 에이전트가 협력하는 복잡한 워크플로를 안정적으로 구성하고자 하는 개발자에게 실질적인 참고 자료가 됩니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "How Netflix Scaled Its Real-Time Service Map",
+          "link": "https://www.infoq.com/news/2026/08/netflix-service-topology/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Netflix가 수천 개의 마이크로서비스 의존성을 실시간으로 추적하는 Service Topology 시스템의 스트리밍 파이프라인 재설계 방법을 공개했습니다.",
+          "detail": "Netflix는 Service Topology(실시간 서비스 의존성 맵)의 스트리밍 파이프라인을 프로덕션 규모로 지원하기 위해 전면 재설계했습니다. 새 아키텍처는 중간 해석(intermediary resolution) 과정을 분리하는 세 단계 파이프라인으로 구성됩니다.\n\n수천 개의 마이크로서비스가 실시간으로 의존성 데이터를 업데이트하는 환경에서 처리 지연을 최소화하면서도 정확한 의존성 그래프를 유지하는 것이 핵심 과제였습니다. 단계를 분리함으로써 각 처리 단계를 독립적으로 확장하고 장애를 격리할 수 있습니다. 대규모 분산 시스템에서 실시간 위상(topology) 정보를 효율적으로 관리하는 방법에 대한 실용적인 인사이트를 제공합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "TDD inside the agent loop - theater or actual value?",
+          "link": "https://martinfowler.com/articles/exploring-gen-ai/tdd-in-the-agent-loop.html",
+          "summary": "Thoughtworks의 Birgitta Böckeler가 LLM 에이전트 루프에서 TDD를 적용했을 때 실제 가치가 있는지 실험한 결과를 Martin Fowler 블로그에 공유했습니다.",
+          "detail": "많은 개발자와 AI 연구자들이 LLM 에이전트에게 TDD(테스트 주도 개발) 방식으로 소프트웨어를 개발하도록 권장합니다. Thoughtworks의 Birgitta Böckeler는 이것이 실제 가치를 창출하는지, 아니면 단순한 '연극'에 불과한지를 직접 실험했습니다.\n\n실험 결과, 에이전트 루프에서의 TDD는 인간이 TDD를 활용하는 방식과 다를 수 있습니다. 에이전트는 테스트를 먼저 작성하고 구현하는 과정에서 일관성을 유지하기 어려우며, 테스트 자체를 수정하거나 우회하는 경향도 관찰되었습니다. Martin Fowler의 블로그에 게재된 이 글은 AI 에이전트와 전통적 소프트웨어 개발 방법론의 교차점을 실증적으로 탐구하며, 에이전트 기반 개발에서 TDD의 실질적 적용 방법을 고민하는 독자에게 중요한 시사점을 제공합니다."
+        },
+        {
+          "category": "Python",
+          "title": "The HTML representation of the index API is now frozen",
+          "link": "https://blog.pypi.org/posts/2026-08-11-html-index-is-frozen/",
+          "summary": "PyPI가 PEP 833을 채택하여 인덱스 API의 HTML 표현을 '동결'했습니다. 앞으로 새 기능은 JSON API를 통해서만 제공됩니다.",
+          "detail": "PyPI(Python Package Index)가 PEP 833을 공식 채택하여 Simple API(단순 저장소 API)라고도 불리는 인덱스 API의 HTML 표현을 동결했습니다.\n\n새 패키지와 릴리스는 계속 HTML 인덱스에 나타나지만, HTML의 구조와 형식 자체는 더 이상 변경되지 않습니다. 향후 모든 새 기능은 JSON API(`application/vnd.pypi.simple.v1+json`)를 통해서만 제공될 예정입니다. HTML 기반 패키지 인덱스 탐색 방식을 사용하는 pip, poetry, uv 등 패키지 관리 도구 개발자와 PyPI 클라이언트 라이브러리 개발자들은 JSON API로의 전환을 준비해야 합니다. Python 패키지 생태계의 장기적인 API 안정성을 위한 중요한 이정표입니다."
+        },
+        {
+          "category": "Python",
+          "title": "Coding With OpenCode: AI-Assisted Python",
+          "link": "https://realpython.com/courses/coding-with-opencode-ai/",
+          "summary": "Real Python의 새 강좌로, 무료 Gemini API 키를 활용한 OpenCode를 사용해 터미널에서 AI 보조 Python 코딩을 배웁니다.",
+          "detail": "OpenCode는 터미널에서 직접 AI 지원 코딩을 제공하는 오픈소스 도구입니다. 이 Real Python 강좌는 무료 Gemini API 키를 사용하여 코드 분석 및 리팩터링에 OpenCode를 활용하는 방법을 단계별로 다룹니다.\n\nVS Code, Cursor 등 IDE 내 AI 도구와 달리 OpenCode는 터미널 중심의 워크플로에 최적화되어 있습니다. 기존 코드 분석, 리팩터링 제안, 버그 탐지 등의 작업을 터미널에서 AI와 직접 상호작용하며 수행할 수 있습니다. 무료로 제공되는 Gemini API를 통해 별도 비용 없이 체험할 수 있어 AI 보조 코딩을 처음 접하는 개발자에게 진입 장벽이 낮습니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Stop Calling the First Significant Day a Win",
+          "link": "https://towardsdatascience.com/stop-calling-the-first-significant-day-a-win/",
+          "summary": "A/B 테스트에서 p값이 처음으로 유의수준을 넘는 날을 '승리'로 선언하는 관행의 통계적 오류와 올바른 실험 설계 방법을 설명합니다.",
+          "detail": "A/B 테스트를 지속적으로 모니터링하다가 p값이 처음으로 유의수준(예: p < 0.05)을 교차하는 순간 실험을 중단하고 결과를 발표하는 것은 심각한 통계적 오류입니다. 이른바 '피킹(peeking)' 또는 '선택적 정지(optional stopping)' 문제로, 실제로 효과가 없어도 거짓 양성(false positive) 비율이 크게 증가합니다.\n\n연속 모니터링 시뮬레이션에 따르면, 효과가 전혀 없는 실험에서도 장시간 관찰하면 명목 유의수준 5%를 훨씬 초과하는 비율로 '유의한' 결과가 나타납니다. 올바른 접근법은 실험 시작 전 표본 크기와 검정 기간을 사전에 고정하고, 그 기간이 완료된 후에만 결론을 내리는 것입니다. 시퀀셜 테스트(sequential testing)나 베이지안 방법도 대안으로 활용할 수 있습니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "3 Visual Proofs of the Central Limit Theorem to Build Your Intuition",
+          "link": "https://www.kdnuggets.com/3-visual-proofs-of-the-central-limit-theorem-to-build-your-intuition",
+          "summary": "중심극한정리(CLT)를 세 가지 시각적 증명으로 설명하며, 다양한 상황에서 정규분포(종형 곡선)가 나타나는 이유에 대한 직관을 기릅니다.",
+          "detail": "중심극한정리(Central Limit Theorem, CLT)는 통계학의 핵심 정리로, 모집단의 분포 형태와 무관하게 충분히 큰 표본의 표본 평균은 정규분포에 수렴한다는 내용입니다.\n\n이 글은 세 가지 시각적 방법으로 CLT를 증명하여 단순 암기가 아닌 직관적 이해를 돕습니다. 균등분포, 지수분포 등 다양한 비정규 분포에서 시작하더라도 표본 크기가 커질수록 표본 평균의 분포가 종형 곡선으로 수렴하는 과정을 시각적으로 보여줍니다. 이 정리가 확률론의 합성곱(convolution)과 어떻게 연결되는지, 그리고 통계적 추론(신뢰구간, 가설 검정)의 기초로 작동하는 원리를 직관적으로 파악할 수 있어 데이터 과학자에게 유용한 학습 자료입니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-11",
       "summary": "오늘은 Project Valhalla의 JEP 401 미리보기 통합, Cloudflare의 WebMCP 지원 발표 등 개발 인프라 전반에 걸친 중요 소식이 있었습니다. Anthropic이 Claude Code의 Auto 모드를 기본값으로 전환하면서 AI 코딩 에이전트 생태계에도 중요한 변화가 생겼으며, Hugging Face Transformers v5.15.0 출시로 에이전틱 용도에 최적화된 새 모델들도 공개되었습니다.",
       "highlights": [
