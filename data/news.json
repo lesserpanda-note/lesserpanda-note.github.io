@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-13T19:11:28+09:00",
-  "count": 948,
+  "updated": "2026-08-13T20:51:18+09:00",
+  "count": 947,
   "items": [
+    {
+      "title": "How Artificial Intelligence Disrupts Engineering Progression",
+      "link": "https://www.infoq.com/news/2026/08/AI-disrupts-engineering-progress/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AI is disrupting career progression by eliminating the learning opportunities at each rung while simultaneously enabling people to perform above their experience level, Alasdair Allan explained in his talk Engineering P…",
+      "ts": 1786620480,
+      "published": "2026-08-13T11:28:00+00:00",
+      "collected_at": "2026-08-13T20:51:05+09:00"
+    },
+    {
+      "title": "Anthropic's Claude Breaches Sandbox During Model Security Evaluations",
+      "link": "https://www.infoq.com/news/2026/08/claude-sandox-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Anthropic conducted an audit of 141006 evaluation runs after OpenAI's sandbox escape disclosure. The review identified three incidents where Claude models accessed the internet due to misconfigurations. These incidents…",
+      "ts": 1786615800,
+      "published": "2026-08-13T10:10:00+00:00",
+      "collected_at": "2026-08-13T20:51:05+09:00"
+    },
     {
       "title": "How kids feel about AI, in their own words",
       "link": "https://www.technologyreview.com/2026/08/13/1141410/how-kids-feel-about-ai-own-words/",
@@ -9451,36 +9471,6 @@
       "ts": 1784030400,
       "published": "2026-07-14T12:00:00+00:00",
       "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
-      "link": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Google released the Genkit Agents API in preview for TypeScript and Go. The open-source framework packages message history, tool loops, streaming, and state persistence behind a single chat() interface. Detached turns l…",
-      "ts": 1784024220,
-      "published": "2026-07-14T10:17:00+00:00",
-      "collected_at": "2026-07-14T21:00:48+09:00"
-    },
-    {
-      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
-      "link": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google released the Genkit Agents API in preview for TypeScript and Go. The open-source framework packages message history, tool loops, streaming, and state persistence behind a single chat() interface. Detached turns l…",
-      "ts": 1784024220,
-      "published": "2026-07-14T10:17:00+00:00",
-      "collected_at": "2026-07-14T21:00:48+09:00"
-    },
-    {
-      "title": "Google's Genkit Ships Agents API with Detached Turns and Human-in-the-Loop for TypeScript and Go",
-      "link": "https://www.infoq.com/news/2026/07/genkit-agents-api-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Google released the Genkit Agents API in preview for TypeScript and Go. The open-source framework packages message history, tool loops, streaming, and state persistence behind a single chat() interface. Detached turns l…",
-      "ts": 1784024220,
-      "published": "2026-07-14T10:17:00+00:00",
-      "collected_at": "2026-07-14T21:00:48+09:00"
     }
   ]
 }
