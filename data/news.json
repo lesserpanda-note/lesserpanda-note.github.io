@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-14T03:01:18+09:00",
+  "updated": "2026-08-14T04:56:32+09:00",
   "count": 947,
   "items": [
+    {
+      "title": "7 1/2 Schools—mistakes were made",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/13/7-1-2-schools-mistakes-were-made/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Mitzi Morris sends along the paper trail (I love archaic idioms) for her data spelunking in advance of her all-day introductory Stan tutorial next week at StanCon (we’ll see you in Uppsala). She was trying to reproduce…",
+      "ts": 1786647606,
+      "published": "2026-08-13T19:00:06+00:00",
+      "collected_at": "2026-08-14T04:56:27+09:00"
+    },
     {
       "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "link": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
@@ -161,6 +171,16 @@
       "ts": 1786620480,
       "published": "2026-08-13T11:28:00+00:00",
       "collected_at": "2026-08-13T20:51:05+09:00"
+    },
+    {
+      "title": "The builder’s guide to GPT‑5.6",
+      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
+      "ts": 1786618800,
+      "published": "2026-08-13T11:00:00+00:00",
+      "collected_at": "2026-08-14T04:56:27+09:00"
     },
     {
       "title": "Claude users are mad that Anthropic's new watermarks will catch them using it",
@@ -9450,26 +9470,6 @@
       "summary": "We’ve talked about uncertainty in polls (see Margin of Error, Total Margin of Error, Total Margin of Error II) and we’ve talked about ranked data (see exploded logit !). A new paper, Rosenman & Liang 2026, looks at unce…",
       "ts": 1784059217,
       "published": "2026-07-14T20:00:17+00:00",
-      "collected_at": "2026-07-15T05:43:21+09:00"
-    },
-    {
-      "title": "lobste.rs is now running on SQLite",
-      "link": "https://simonwillison.net/2026/Jul/14/lobsters-sqlite/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "lobste.rs is now running on SQLite Community site Lobsters has been planning a migration away from MariaDB since August 2018 - originally targeting PostgreSQL, but last year they decided to investigate SQLite instead. T…",
-      "ts": 1784058251,
-      "published": "2026-07-14T19:44:11+00:00",
-      "collected_at": "2026-07-15T05:43:21+09:00"
-    },
-    {
-      "title": "Quoting Armin Ronacher",
-      "link": "https://simonwillison.net/2026/Jul/14/armin-ronacher/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The shared language of a software project is not English or Python but it is the common understanding of what its concepts mean, where the boundaries are, which invariants matter, who owns what, and why the system has t…",
-      "ts": 1784052263,
-      "published": "2026-07-14T18:04:23+00:00",
       "collected_at": "2026-07-15T05:43:21+09:00"
     }
   ]
