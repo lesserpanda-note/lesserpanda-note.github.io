@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-13T11:16:48+09:00",
-  "count": 950,
+  "updated": "2026-08-13T13:54:06+09:00",
+  "count": 951,
   "items": [
+    {
+      "title": "v2.29.0 (2026-08-12)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.29.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Support FastMCP 4 and MCP SDK v2 in MCPToolset alongside FastMCP 3 by @adtyavrdhn in #6738 Add Azure AI Voice Live via the azure_voice_live setting by @DouweM in #6642 🐛 Bug Fixes Fix silent tr…",
+      "ts": 1786593773,
+      "published": "2026-08-13T04:02:53+00:00",
+      "collected_at": "2026-08-13T13:53:54+09:00"
+    },
     {
       "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
       "link": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
@@ -31,6 +41,16 @@
       "ts": 1786571168,
       "published": "2026-08-12T21:46:08+00:00",
       "collected_at": "2026-08-13T06:50:49+09:00"
+    },
+    {
+      "title": "alchemy-utils 0.1a0",
+      "link": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 So…",
+      "ts": 1786564290,
+      "published": "2026-08-12T19:51:30+00:00",
+      "collected_at": "2026-08-13T13:53:54+09:00"
     },
     {
       "title": "Grok 4.6 scores 61 on the Artificial Analysis Intelligence Index",
@@ -9491,16 +9511,6 @@
       "ts": 1784016480,
       "published": "2026-07-14T08:08:00+00:00",
       "collected_at": "2026-07-14T21:00:48+09:00"
-    },
-    {
-      "title": "v2.9.1 (2026-07-13)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.9.1",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🐛 Bug Fixes Fix typed composition members recursion in JsonSchemaTransformer by @pydanty[bot] in #6440 fix: handle int timeout values in MistralModel._get_timeout_ms by @Ricardo-M-L in #5019 Remove retire…",
-      "ts": 1783997968,
-      "published": "2026-07-14T02:59:28+00:00",
-      "collected_at": "2026-07-14T15:37:56+09:00"
     }
   ]
 }
