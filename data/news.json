@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-13T09:24:30+09:00",
-  "count": 951,
+  "updated": "2026-08-13T11:16:48+09:00",
+  "count": 950,
   "items": [
+    {
+      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+      "link": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "AI teammate category just had its most significant new entrant yet",
+      "ts": 1786586027,
+      "published": "2026-08-13T01:53:47+00:00",
+      "collected_at": "2026-08-13T11:16:39+09:00"
+    },
     {
       "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
       "link": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
@@ -9490,26 +9500,6 @@
       "summary": "What's Changed 🐛 Bug Fixes Fix typed composition members recursion in JsonSchemaTransformer by @pydanty[bot] in #6440 fix: handle int timeout values in MistralModel._get_timeout_ms by @Ricardo-M-L in #5019 Remove retire…",
       "ts": 1783997968,
       "published": "2026-07-14T02:59:28+00:00",
-      "collected_at": "2026-07-14T15:37:56+09:00"
-    },
-    {
-      "title": "[AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??",
-      "link": "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us fact check some numbers against the sound of silence of Claude Code reporting...",
-      "ts": 1783992147,
-      "published": "2026-07-14T01:22:27+00:00",
-      "collected_at": "2026-07-14T15:37:56+09:00"
-    },
-    {
-      "title": "Using uvx in GitHub Actions in a cache-friendly way",
-      "link": "https://simonwillison.net/2026/Jul/14/uvx-github-actions-cache/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "TIL: Using uvx in GitHub Actions in a cache-friendly way I finally found a cache-friendly recipe for using uvx tool-name in GitHub Actions workflows that I like. The trick is setting a UV_EXCLUDE_NEWER: \"2026-07-12\" env…",
-      "ts": 1783990580,
-      "published": "2026-07-14T00:56:20+00:00",
       "collected_at": "2026-07-14T15:37:56+09:00"
     }
   ]
