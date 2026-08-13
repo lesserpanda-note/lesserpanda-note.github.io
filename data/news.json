@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-14T00:00:45+09:00",
-  "count": 942,
+  "updated": "2026-08-14T01:58:58+09:00",
+  "count": 945,
   "items": [
+    {
+      "title": "How to Utilize OKF Efficiently to Enable Knowledge Exchange Among LLMs",
+      "link": "https://towardsdatascience.com/how-to-utilize-okf-efficiently-to-enable-knowledge-exchange-among-llms/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Google's Open Knowledge Format (OKF) is a Markdown+YAML skeleton for sharing knowledge between humans and AI agents. This post reuses that skeleton for a very specific job — an agent-to-agent hand-off of pre-tokenized i…",
+      "ts": 1786638600,
+      "published": "2026-08-13T16:30:00+00:00",
+      "collected_at": "2026-08-14T01:58:53+09:00"
+    },
+    {
+      "title": "Vercel Launches v0 API for Headless App Building",
+      "link": "https://www.infoq.com/news/2026/08/vercel-v0-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Vercel has made the v0 API generally available, enabling developers and AI agents to programmatically generate, iterate on, preview, and deploy applications through API calls. By Daniel Dominguez",
+      "ts": 1786635420,
+      "published": "2026-08-13T15:37:00+00:00",
+      "collected_at": "2026-08-14T01:58:53+09:00"
+    },
+    {
+      "title": "Cut an Enterprise RAG Pipeline’s Latency and Cost by Calling the LLM Less, Not by Buying a Faster Model",
+      "link": "https://towardsdatascience.com/cut-an-enterprise-rag-pipelines-latency-and-cost-by-calling-the-llm-less-not-by-buying-a-faster-model/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #9ter] - The pipeline from Article 9 calls a model at several steps to be sure it is right. On easy questions that is needless latency. A per-question signal routes them past the…",
+      "ts": 1786633200,
+      "published": "2026-08-13T15:00:00+00:00",
+      "collected_at": "2026-08-14T01:58:53+09:00"
+    },
     {
       "title": "Build Secure AI Chat Applications with BoxLang, RAG, Ollama, and Amazon Bedrock with Dan Card",
       "link": "https://foojay.io/today/build-secure-ai-chat-applications-with-boxlang-rag-ollama-and-amazon-bedrock-with-dan-card/",
@@ -51,6 +81,16 @@
       "ts": 1786627800,
       "published": "2026-08-13T13:30:00+00:00",
       "collected_at": "2026-08-14T00:00:38+09:00"
+    },
+    {
+      "title": "AI agents lie, cheat and steal. That is putting off users",
+      "link": "https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.economist.com/business/2026/08/12/ai-agents-lie-cheat-and-steal-that-is-putting-off-users Comments URL: https://news.ycombinator.com/item?id=49285604 Points: 140 # Comments: 155",
+      "ts": 1786627725,
+      "published": "2026-08-13T13:28:45+00:00",
+      "collected_at": "2026-08-14T01:58:53+09:00"
     },
     {
       "title": "How Baidu Unlimited-OCR Works: Solving Long-Document Transcription",
@@ -123,6 +163,16 @@
       "collected_at": "2026-08-13T19:11:11+09:00"
     },
     {
+      "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
+      "link": "https://openai.com/index/dali-rajic-chief-revenue-officer",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI appoints Dali Rajic as Chief Revenue Officer to lead its global revenue organization and help businesses realize the full value of AI.",
+      "ts": 1786611600,
+      "published": "2026-08-13T09:00:00+00:00",
+      "collected_at": "2026-08-14T01:58:53+09:00"
+    },
+    {
       "title": "v2.29.0 (2026-08-12)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.29.0",
       "source": "Pydantic AI",
@@ -151,6 +201,16 @@
       "ts": 1786579200,
       "published": "2026-08-13T00:00:00+00:00",
       "collected_at": "2026-08-14T00:00:38+09:00"
+    },
+    {
+      "title": "What We Learned by Reproducing 2,200 papers from ICML",
+      "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1786579200,
+      "published": "2026-08-13T00:00:00+00:00",
+      "collected_at": "2026-08-14T01:58:53+09:00"
     },
     {
       "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
@@ -9391,36 +9451,6 @@
       "ts": 1784049706,
       "published": "2026-07-14T17:21:46+00:00",
       "collected_at": "2026-07-15T05:43:21+09:00"
-    },
-    {
-      "title": "datasette 1.0a37",
-      "link": "https://simonwillison.net/2026/Jul/14/datasette/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette 1.0a37 A minor release. Performance and documentation improvements to the permissions system, plus I reverted a cosmetic API change which caused almost every existing plugin test suite to break. Tags:…",
-      "ts": 1784046701,
-      "published": "2026-07-14T16:31:41+00:00",
-      "collected_at": "2026-07-15T05:43:21+09:00"
-    },
-    {
-      "title": "How I’m Making Sure My Analytics Career Doesn’t Get Eaten by AI",
-      "link": "https://towardsdatascience.com/how-im-making-sure-my-analytics-career-doesnt-get-eaten-by-ai/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The analytics career I signed up for five years ago doesn't exist anymore, and honestly, I am fine with that. The post How I’m Making Sure My Analytics Career Doesn’t Get Eaten by AI appeared first on Towards Data Scien…",
-      "ts": 1784046600,
-      "published": "2026-07-14T16:30:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
-    },
-    {
-      "title": "Celebrating 25 years of visual search innovation",
-      "link": "https://blog.google/products-and-platforms/products/search/google-images-25th-anniversary/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Google Images logo surrounded by illustrations of people searching for different images",
-      "ts": 1784044800,
-      "published": "2026-07-14T16:00:00+00:00",
-      "collected_at": "2026-07-15T01:57:09+09:00"
     }
   ]
 }
