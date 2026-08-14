@@ -1,7 +1,57 @@
 {
-  "updated": "2026-08-14T20:47:19+09:00",
-  "count": 954,
+  "updated": "2026-08-14T22:14:27+09:00",
+  "count": 953,
   "items": [
+    {
+      "title": "“Q collar” promoters have no shame, advertising their discredited research on social media using lying, cheating chatbots",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/14/q-collar-promoters-have-no-shame-advertising-their-discredited-research-on-social-media-using-lying-cheating-chatbots/",
+      "source": "Statistical Modeling",
+      "category": "AI",
+      "summary": "In a distressing update to an already distressing story, James Smoliga writes: Q-collar is ramping up its fall sports campaign. Lots of buzz on Facebook, with misleading comments from the company, new ways of spinning t…",
+      "ts": 1786713099,
+      "published": "2026-08-14T13:11:39+00:00",
+      "collected_at": "2026-08-14T22:14:20+09:00"
+    },
+    {
+      "title": "5 Fun Agentic AI Papers to Read",
+      "link": "https://www.kdnuggets.com/5-fun-agentic-ai-papers-to-read",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "If you read only five papers on AI agents, make them these.",
+      "ts": 1786708813,
+      "published": "2026-08-14T12:00:13+00:00",
+      "collected_at": "2026-08-14T22:14:20+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #307: Improving NumPy Performance on Free-Threaded Python",
+      "link": "https://realpython.com/podcasts/rpp/307/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What bottlenecks were preventing NumPy from scaling on free-threaded Python? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles and projects.",
+      "ts": 1786708800,
+      "published": "2026-08-14T12:00:00+00:00",
+      "collected_at": "2026-08-14T22:14:20+09:00"
+    },
+    {
+      "title": "Quiz: How to Publish an Open-Source Python Package to PyPI",
+      "link": "https://realpython.com/quizzes/pypi-publish-python-package/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python packaging, from naming and configuring your package to building distributions and uploading them to PyPI.",
+      "ts": 1786708800,
+      "published": "2026-08-14T12:00:00+00:00",
+      "collected_at": "2026-08-14T22:14:20+09:00"
+    },
+    {
+      "title": "I Made an LLM Lay Siege to My Minecraft House",
+      "link": "https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Can a language model do live adversarial level design? Yes, emphasis on the adversarial part The post I Made an LLM Lay Siege to My Minecraft House appeared first on Towards Data Science .",
+      "ts": 1786708800,
+      "published": "2026-08-14T12:00:00+00:00",
+      "collected_at": "2026-08-14T22:14:20+09:00"
+    },
     {
       "title": "NVIDIA Nemotron 3.5 Lightning: The AI Agent Workhorse",
       "link": "https://www.analyticsvidhya.com/blog/2026/08/nvidia-nemotron-3-5-lightning/",
@@ -9481,66 +9531,6 @@
       "ts": 1784121334,
       "published": "2026-07-15T13:15:34+00:00",
       "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "Presentation: Postgres for Production Agents: Your Relational Foundation for Enterprise AI",
-      "link": "https://www.infoq.com/presentations/postgres-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Gwen Shapira shares how teams are scaling AI features using PostgreSQL for mission-critical apps. She explains how to leverage Postgres's multi-modal capabilities - including JSONB parsing and high-recall HNSW vector in…",
-      "ts": 1784120220,
-      "published": "2026-07-15T12:57:00+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "7 Python Frameworks for Orchestrating Local AI Agents",
-      "link": "https://www.kdnuggets.com/7-python-frameworks-for-orchestrating-local-ai-agents",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "This article contains seven Python tools that engineers are actually using in 2026 to build, coordinate, and run agents on local infrastructure.",
-      "ts": 1784116856,
-      "published": "2026-07-15T12:00:56+00:00",
-      "collected_at": "2026-07-15T21:55:43+09:00"
-    },
-    {
-      "title": "Scikit-Ollama for Scikit-LLM/Ollama Integration",
-      "link": "https://machinelearningmastery.com/scikit-ollama-for-scikit-llm-ollama-integration/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how scikit-ollama bridges the scikit-learn interface with locally running Ollama models to perform zero-shot text classification; no cloud API...",
-      "ts": 1784116834,
-      "published": "2026-07-15T12:00:34+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "Quiz: How to Write a CLAUDE.md File for Claude Code",
-      "link": "https://realpython.com/quizzes/python-claude-md/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Practice writing CLAUDE.md files for Claude Code across global, project, and local layers that capture your Python commands and conventions.",
-      "ts": 1784116800,
-      "published": "2026-07-15T12:00:00+00:00",
-      "collected_at": "2026-07-15T21:55:43+09:00"
-    },
-    {
-      "title": "Most RAG Hallucinations Are Retrieval Failures: How the Retrieval Brick Decides What the Model Can Invent",
-      "link": "https://towardsdatascience.com/most-rag-hallucinations-are-retrieval-failures-how-the-retrieval-brick-decides-what-the-model-can-invent/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #7quinquies] - Hallucination is usually garbage-in. Fix retrieval, and the model has nothing left to make up The post Most RAG Hallucinations Are Retrieval Failures: How the Retri…",
-      "ts": 1784116800,
-      "published": "2026-07-15T12:00:00+00:00",
-      "collected_at": "2026-07-15T21:55:43+09:00"
-    },
-    {
-      "title": "The US is advancing AI safety through state and federal action",
-      "link": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI.",
-      "ts": 1784116800,
-      "published": "2026-07-15T12:00:00+00:00",
-      "collected_at": "2026-07-16T02:50:08+09:00"
     }
   ]
 }
