@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-14T13:51:31+09:00",
-  "count": 950,
+  "updated": "2026-08-14T15:16:43+09:00",
+  "count": 953,
   "items": [
+    {
+      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+      "link": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Down, but not out!",
+      "ts": 1786685439,
+      "published": "2026-08-14T05:30:39+00:00",
+      "collected_at": "2026-08-14T15:16:39+09:00"
+    },
+    {
+      "title": "Meta Open-Sources Muse Glimmer: A 30B Local Agentic Model Optimised for On-Device Execution",
+      "link": "https://www.infoq.com/news/2026/08/meta-muse-glimmer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Meta AI Research has introduced Muse Glimmer, a 30-billion-parameter open-weight model under the Apache 2.0 license, designed for local workflows. It enables autonomous agents and complex task execution on consumer GPUs…",
+      "ts": 1786683900,
+      "published": "2026-08-14T05:05:00+00:00",
+      "collected_at": "2026-08-14T15:16:39+09:00"
+    },
     {
       "title": "v1.107.5 (2026-08-13)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.5",
@@ -41,6 +61,16 @@
       "ts": 1786666087,
       "published": "2026-08-14T00:08:07+00:00",
       "collected_at": "2026-08-14T09:23:54+09:00"
+    },
+    {
+      "title": "Preparing for Change: Safe Switching over Sealed APIs",
+      "link": "https://inside.java/2026/08/14/java-exhaustiveness-guide/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "An exhaustive switch on a sealed type covers the permitted subtypes the compiler knows about; it does not cover future additions, which can cause MatchException at run time. API authors should document the expected evol…",
+      "ts": 1786665600,
+      "published": "2026-08-14T00:00:00+00:00",
+      "collected_at": "2026-08-14T15:16:39+09:00"
     },
     {
       "title": "sqlite-utils 4.2.1",
