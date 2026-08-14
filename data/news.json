@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-14T15:16:43+09:00",
+  "updated": "2026-08-14T19:06:45+09:00",
   "count": 953,
   "items": [
+    {
+      "title": "LLM-Generated GraphQL Mocks Arrive at Airbnb and Expedia, While the Spec Lags Behind",
+      "link": "https://www.infoq.com/news/2026/08/graphql-llm-mocking-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Expedia Group has open-sourced mockql-rs, a Rust CLI that fills @mock-annotated GraphQL fields with LLM-generated data at request time. It follows Airbnb's @generateMock in April and a GraphQL Foundation RFC opened in F…",
+      "ts": 1786701660,
+      "published": "2026-08-14T10:01:00+00:00",
+      "collected_at": "2026-08-14T19:06:32+09:00"
+    },
     {
       "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
       "link": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
@@ -9521,16 +9531,6 @@
       "ts": 1784113440,
       "published": "2026-07-15T11:04:00+00:00",
       "collected_at": "2026-07-15T21:55:43+09:00"
-    },
-    {
-      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
-      "link": "https://openai.com/index/unlocking-self-improvement-gpt-red",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore GPT-Red, OpenAI’s automated red teaming system that uses self-play to improve AI safety, alignment, and prompt injection robustness.",
-      "ts": 1784109600,
-      "published": "2026-07-15T10:00:00+00:00",
-      "collected_at": "2026-07-16T02:50:08+09:00"
     }
   ]
 }
