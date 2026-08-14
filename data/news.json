@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-14T23:55:00+09:00",
-  "count": 949,
+  "updated": "2026-08-15T00:55:31+09:00",
+  "count": 951,
   "items": [
+    {
+      "title": "RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop",
+      "link": "https://towardsdatascience.com/rag-workflow-and-loop-engineering-the-dispatcher-that-decides-when-to-loop-and-when-to-stop/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #13] - Putting the patterns together, and why this is what “agentic RAG” should look like The post RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and…",
+      "ts": 1786719600,
+      "published": "2026-08-14T15:00:00+00:00",
+      "collected_at": "2026-08-15T00:55:17+09:00"
+    },
     {
       "title": "Cloudflare Migrates JavaScript CDN Serving 9B Requests a Day to Its Developer Platform",
       "link": "https://www.infoq.com/news/2026/08/cloudflare-cdnjs-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -51,6 +61,16 @@
       "ts": 1786709709,
       "published": "2026-08-14T12:15:09+00:00",
       "collected_at": "2026-08-14T23:54:37+09:00"
+    },
+    {
+      "title": "Understanding the Role of Latent Space in Machine Learning Models",
+      "link": "https://machinelearningmastery.com/understanding-the-role-of-latent-space-in-machine-learning-models/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn what latent spaces are and how they serve three distinct roles — descriptive, generative, and predictive — across a...",
+      "ts": 1786708823,
+      "published": "2026-08-14T12:00:23+00:00",
+      "collected_at": "2026-08-15T00:55:17+09:00"
     },
     {
       "title": "5 Fun Agentic AI Papers to Read",
@@ -201,6 +221,16 @@
       "ts": 1786665600,
       "published": "2026-08-14T00:00:00+00:00",
       "collected_at": "2026-08-14T15:16:39+09:00"
+    },
+    {
+      "title": "State of Open Models: Summer 2026 Observations",
+      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1786665600,
+      "published": "2026-08-14T00:00:00+00:00",
+      "collected_at": "2026-08-15T00:55:17+09:00"
     },
     {
       "title": "sqlite-utils 4.2.1",
@@ -9480,16 +9510,6 @@
       "summary": "Cross-provider PR review with Codex in GitHub Actions, and why a second opinion from a different lab beats any self-review The post Don’t Let Claude Grade Its Own Homework appeared first on Towards Data Science .",
       "ts": 1784133000,
       "published": "2026-07-15T16:30:00+00:00",
-      "collected_at": "2026-07-16T02:50:08+09:00"
-    },
-    {
-      "title": "Building Trustworthy Production RAG Systems Through Continuous Evaluation",
-      "link": "https://towardsdatascience.com/building-trustworthy-production-rag-systems-through-continuous-evaluation/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A practical guide to building an evaluation workflow that catches retrieval failures, hallucinations, and performance drift before they reach users The post Building Trustworthy Production RAG Systems Through Continuous…",
-      "ts": 1784127600,
-      "published": "2026-07-15T15:00:00+00:00",
       "collected_at": "2026-07-16T02:50:08+09:00"
     }
   ]
