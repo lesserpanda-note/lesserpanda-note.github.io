@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-14T22:14:27+09:00",
-  "count": 953,
+  "updated": "2026-08-14T23:55:00+09:00",
+  "count": 949,
   "items": [
+    {
+      "title": "Cloudflare Migrates JavaScript CDN Serving 9B Requests a Day to Its Developer Platform",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-cdnjs-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare has migrated cdnjs, its open source CDN for JavaScript and CSS libraries, to its Developer Platform. The new architecture uses Workers, R2, KV, Workflows, Queues, Durable Objects and Containers, consolidating…",
+      "ts": 1786718520,
+      "published": "2026-08-14T14:42:00+00:00",
+      "collected_at": "2026-08-14T23:54:37+09:00"
+    },
+    {
+      "title": "How to Build a Simple AI Web Scraper with Python",
+      "link": "https://www.kdnuggets.com/how-to-build-a-simple-ai-web-scraper-with-python",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Turn any webpage into a lightweight LLM-powered QA engine by cleaning HTML, converting content to Markdown, and returning focused answers while reducing token usage.",
+      "ts": 1786716029,
+      "published": "2026-08-14T14:00:29+00:00",
+      "collected_at": "2026-08-14T23:54:37+09:00"
+    },
+    {
+      "title": "My Model Was Cheating on Its Own Test",
+      "link": "https://towardsdatascience.com/my-model-was-cheating-on-its-own-test/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A preprocessing pipeline let my car price model peek at the test set before the exam, and the twelve points of R squared it cheated its way to The post My Model Was Cheating on Its Own Test appeared first on Towards Dat…",
+      "ts": 1786714200,
+      "published": "2026-08-14T13:30:00+00:00",
+      "collected_at": "2026-08-14T23:54:37+09:00"
+    },
     {
       "title": "“Q collar” promoters have no shame, advertising their discredited research on social media using lying, cheating chatbots",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/14/q-collar-promoters-have-no-shame-advertising-their-discredited-research-on-social-media-using-lying-cheating-chatbots/",
@@ -11,6 +41,16 @@
       "ts": 1786713099,
       "published": "2026-08-14T13:11:39+00:00",
       "collected_at": "2026-08-14T22:14:20+09:00"
+    },
+    {
+      "title": "Exploring Compose HTML for Server Side Rendering",
+      "link": "https://blog.jetbrains.com/kotlin/2026/08/exploring-compose-html-for-server-side-rendering/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Something is happening in server-rendered web development. React shipped Server Components. HTMX made “hypermedia” cool again. Phoenix LiveView proved a server can push interactive UI updates without a client framework…",
+      "ts": 1786709709,
+      "published": "2026-08-14T12:15:09+00:00",
+      "collected_at": "2026-08-14T23:54:37+09:00"
     },
     {
       "title": "5 Fun Agentic AI Papers to Read",
@@ -9451,86 +9491,6 @@
       "ts": 1784127600,
       "published": "2026-07-15T15:00:00+00:00",
       "collected_at": "2026-07-16T02:50:08+09:00"
-    },
-    {
-      "title": "Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation",
-      "link": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Stripe introduces a benchmark suite to evaluate whether AI agents can build real-world Stripe integrations across backend, frontend, and browser-based checkout workflows. The study examines end-to-end software engineeri…",
-      "ts": 1784125500,
-      "published": "2026-07-15T14:25:00+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "Stripe Benchmark Shows AI Agents Build Integrations but Struggle with Validation",
-      "link": "https://www.infoq.com/news/2026/07/stripe-ai-agents-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Stripe introduces a benchmark suite to evaluate whether AI agents can build real-world Stripe integrations across backend, frontend, and browser-based checkout workflows. The study examines end-to-end software engineeri…",
-      "ts": 1784125500,
-      "published": "2026-07-15T14:25:00+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "How I tricked Claude into leaking your deepest, darkest secrets",
-      "link": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "How I tricked Claude into leaking your deepest, darkest secrets I've been impressed by the way the Claude web_fetch tool is designed to avoid data exfiltration attacks. Ayush Paul found a hole in that design. To recap:…",
-      "ts": 1784125314,
-      "published": "2026-07-15T14:21:54+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "Stop Using If-Else Chains: Use the Registry Pattern in Python Instead",
-      "link": "https://www.kdnuggets.com/stop-using-if-else-chains-use-the-registry-pattern-in-python-instead",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn a cleaner, more extensible way to dispatch logic in Python.",
-      "ts": 1784124006,
-      "published": "2026-07-15T14:00:06+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "How to Write a CLAUDE.md File for Claude Code",
-      "link": "https://realpython.com/python-claude-md/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to write a CLAUDE.md file for Claude Code, with global, project, and local examples that capture your Python commands and conventions.",
-      "ts": 1784124000,
-      "published": "2026-07-15T14:00:00+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "Elon Musk quietly buys a $1 billion gas turbine company to power Grok",
-      "link": "https://electrek.co/2026/07/14/musk-buys-gas-turbine-company-apr-energy-grok/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://electrek.co/2026/07/14/musk-buys-gas-turbine-company-apr-energy-grok/ Comments URL: https://news.ycombinator.com/item?id=48920862 Points: 10 # Comments: 1",
-      "ts": 1784123613,
-      "published": "2026-07-15T13:53:33+00:00",
-      "collected_at": "2026-07-16T06:32:23+09:00"
-    },
-    {
-      "title": "How I Mastered Data Structures and Algorithms for ML (In 6 Weeks)",
-      "link": "https://towardsdatascience.com/how-i-mastered-data-structures-algorithms-for-ml-in-6-weeks/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The strategies, questions, and process I used to ace coding interviews. The post How I Mastered Data Structures and Algorithms for ML (In 6 Weeks) appeared first on Towards Data Science .",
-      "ts": 1784122200,
-      "published": "2026-07-15T13:30:00+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "A ranked-choice election in Maine: Using voting data to understand preferences",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/15/a-ranked-choice-election-in-maine-using-voting-data-to-understand-preferences/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Evan Rosenman writes: The implosion of Graham Platner’s Senate campaign in Maine has upended a marquee Senate race, leaving the state Democratic party just a few weeks to choose a substitute nominee. A planned nominatin…",
-      "ts": 1784121334,
-      "published": "2026-07-15T13:15:34+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
     }
   ]
 }
