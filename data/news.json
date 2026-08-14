@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-14T08:45:40+09:00",
+  "updated": "2026-08-14T09:24:04+09:00",
   "count": 948,
   "items": [
+    {
+      "title": "1.15.16",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.16",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Introduce execution context management with UUID support Record what kind of exception ended a flow Record when a trace batch is shared with AMP Count deployments from any origin and record where…",
+      "ts": 1786666087,
+      "published": "2026-08-14T00:08:07+00:00",
+      "collected_at": "2026-08-14T09:23:54+09:00"
+    },
+    {
+      "title": "sqlite-utils 4.2.1",
+      "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a depende…",
+      "ts": 1786665227,
+      "published": "2026-08-13T23:53:47+00:00",
+      "collected_at": "2026-08-14T09:23:54+09:00"
+    },
     {
       "title": "Answering some questions about statistics from a high school student",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/13/answering-some-questions-about-statistics-from-a-high-school-student/",
@@ -21,6 +41,16 @@
       "ts": 1786659985,
       "published": "2026-08-13T22:26:25+00:00",
       "collected_at": "2026-08-14T08:45:16+09:00"
+    },
+    {
+      "title": "sqlite-utils 4.2",
+      "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dr…",
+      "ts": 1786651889,
+      "published": "2026-08-13T20:11:29+00:00",
+      "collected_at": "2026-08-14T09:23:54+09:00"
     },
     {
       "title": "7 1/2 Schools—mistakes were made",
@@ -9451,36 +9481,6 @@
       "ts": 1784080632,
       "published": "2026-07-15T01:57:12+00:00",
       "collected_at": "2026-07-15T16:30:48+09:00"
-    },
-    {
-      "title": "Introducing Real World VoiceEQ: Measuring the human quality of voice AI",
-      "link": "https://huggingface.co/blog/real-world-voiceeq",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1784073600,
-      "published": "2026-07-15T00:00:00+00:00",
-      "collected_at": "2026-07-15T23:40:04+09:00"
-    },
-    {
-      "title": "Welcome Inkling by Thinking Machines",
-      "link": "https://huggingface.co/blog/thinkingmachines-inkling",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1784073600,
-      "published": "2026-07-15T00:00:00+00:00",
-      "collected_at": "2026-07-16T06:32:23+09:00"
-    },
-    {
-      "title": "[AINews] not much happened today",
-      "link": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a continuation: Codex adding 1M users a day now.",
-      "ts": 1784073247,
-      "published": "2026-07-14T23:54:07+00:00",
-      "collected_at": "2026-07-15T09:17:09+09:00"
     }
   ]
 }
