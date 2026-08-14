@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-14T11:13:01+09:00",
-  "count": 948,
+  "updated": "2026-08-14T13:51:31+09:00",
+  "count": 950,
   "items": [
+    {
+      "title": "v1.107.5 (2026-08-13)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.5",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security GHSA-q2xc-rrxj-58x9 : the local dev web chat UI ( Agent.to_web() , clai web ) didn't validate the Host header, so DNS rebinding from a website you visit could reach it and run the served agent…",
+      "ts": 1786676279,
+      "published": "2026-08-14T02:57:59+00:00",
+      "collected_at": "2026-08-14T13:51:25+09:00"
+    },
+    {
+      "title": "v2.30.0 (2026-08-13)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.30.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security GHSA-q2xc-rrxj-58x9 : the local dev web chat UI ( Agent.to_web() , clai web ) didn't validate the Host header, so DNS rebinding from a website you visit could reach it and run the served agent…",
+      "ts": 1786676274,
+      "published": "2026-08-14T02:57:54+00:00",
+      "collected_at": "2026-08-14T13:51:25+09:00"
+    },
     {
       "title": "python-1.14.0",
       "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.14.0",
@@ -61,6 +81,16 @@
       "ts": 1786651889,
       "published": "2026-08-13T20:11:29+00:00",
       "collected_at": "2026-08-14T09:23:54+09:00"
+    },
+    {
+      "title": "llm-gemini 0.33",
+      "link": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding…",
+      "ts": 1786649854,
+      "published": "2026-08-13T19:37:34+00:00",
+      "collected_at": "2026-08-14T13:51:25+09:00"
     },
     {
       "title": "7 1/2 Schools—mistakes were made",
@@ -9471,16 +9501,6 @@
       "ts": 1784109600,
       "published": "2026-07-15T10:00:00+00:00",
       "collected_at": "2026-07-16T02:50:08+09:00"
-    },
-    {
-      "title": "Inside the Claude Fable 5 System Prompt: A Full Breakdown",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/claude-fable-5-system-prompt/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "THE GIST ▸ What it is: A 3,826-line system prompt steering Claude Fable 5 inside the Claude app, pulled from a public GitHub archive. ▸ What’s in it: Rules about safety, tone and restraint. ▸ Why it matters: it shows a…",
-      "ts": 1784090668,
-      "published": "2026-07-15T04:44:28+00:00",
-      "collected_at": "2026-07-15T16:30:48+09:00"
     }
   ]
 }
