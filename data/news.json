@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-14T09:24:04+09:00",
+  "updated": "2026-08-14T11:13:01+09:00",
   "count": 948,
   "items": [
+    {
+      "title": "python-1.14.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.14.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.14.0] - 2026-08-13 Added agent-framework-core , agent-framework-mistral : Add a Mistral chat client with native chat, streaming, tools, structured output, and embeddings support ( #7392 ) agent-framework-core : Add e…",
+      "ts": 1786673286,
+      "published": "2026-08-14T02:08:06+00:00",
+      "collected_at": "2026-08-14T11:12:55+09:00"
+    },
     {
       "title": "1.15.16",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.16",
@@ -9470,16 +9480,6 @@
       "summary": "THE GIST ▸ What it is: A 3,826-line system prompt steering Claude Fable 5 inside the Claude app, pulled from a public GitHub archive. ▸ What’s in it: Rules about safety, tone and restraint. ▸ Why it matters: it shows a…",
       "ts": 1784090668,
       "published": "2026-07-15T04:44:28+00:00",
-      "collected_at": "2026-07-15T16:30:48+09:00"
-    },
-    {
-      "title": "v2.10.0 (2026-07-14)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.10.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Make message_history provider-valid out of the box (repair tool-call/result pairing) by @DouweM in #6319 Add support for OpenAI background mode and handle Anthropic stop_reason=pause_turn by @D…",
-      "ts": 1784080632,
-      "published": "2026-07-15T01:57:12+00:00",
       "collected_at": "2026-07-15T16:30:48+09:00"
     }
   ]
