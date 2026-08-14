@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-14T19:06:45+09:00",
-  "count": 953,
+  "updated": "2026-08-14T20:47:19+09:00",
+  "count": 954,
   "items": [
+    {
+      "title": "NVIDIA Nemotron 3.5 Lightning: The AI Agent Workhorse",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/nvidia-nemotron-3-5-lightning/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "Long-running AI agents often spend most of their time on routine execution rather than difficult reasoning. After making a plan, they may perform hundreds of tool calls, file reads, validations, commands, and formatting…",
+      "ts": 1786705734,
+      "published": "2026-08-14T11:08:54+00:00",
+      "collected_at": "2026-08-14T20:47:13+09:00"
+    },
+    {
+      "title": "Presentation: The Right 300 Tokens Beat 100k Noisy Ones: The Architecture of Context Engineering",
+      "link": "https://www.infoq.com/presentations/architecture-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Baruch Sadogursky and Patrick Debois discuss why coding agents fail due to bloated context windows and stuffed prompts. They explain practical context engineering fixes, including lazy-loaded skills, versioned context a…",
+      "ts": 1786705200,
+      "published": "2026-08-14T11:00:00+00:00",
+      "collected_at": "2026-08-14T20:47:13+09:00"
+    },
+    {
+      "title": "Presentation: The Right 300 Tokens Beat 100k Noisy Ones: The Architecture of Context Engineering",
+      "link": "https://www.infoq.com/presentations/architecture-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Baruch Sadogursky and Patrick Debois discuss why coding agents fail due to bloated context windows and stuffed prompts. They explain practical context engineering fixes, including lazy-loaded skills, versioned context a…",
+      "ts": 1786705200,
+      "published": "2026-08-14T11:00:00+00:00",
+      "collected_at": "2026-08-14T20:47:13+09:00"
+    },
     {
       "title": "LLM-Generated GraphQL Mocks Arrive at Airbnb and Expedia, While the Spec Lags Behind",
       "link": "https://www.infoq.com/news/2026/08/graphql-llm-mocking-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -9511,26 +9541,6 @@
       "ts": 1784116800,
       "published": "2026-07-15T12:00:00+00:00",
       "collected_at": "2026-07-16T02:50:08+09:00"
-    },
-    {
-      "title": "AWS Ships Claude Apps Gateway as Self-Hosted Control Plane for Claude Code and Claude Desktop",
-      "link": "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "AWS and Anthropic have released the Claude apps gateway for AWS, a self-hosted control plane that centralizes identity, policy, telemetry, routing, and spend caps for Claude Code and Claude Desktop. The gateway runs as…",
-      "ts": 1784113440,
-      "published": "2026-07-15T11:04:00+00:00",
-      "collected_at": "2026-07-15T21:55:43+09:00"
-    },
-    {
-      "title": "AWS Ships Claude Apps Gateway as Self-Hosted Control Plane for Claude Code and Claude Desktop",
-      "link": "https://www.infoq.com/news/2026/07/claude-apps-gateway-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS and Anthropic have released the Claude apps gateway for AWS, a self-hosted control plane that centralizes identity, policy, telemetry, routing, and spend caps for Claude Code and Claude Desktop. The gateway runs as…",
-      "ts": 1784113440,
-      "published": "2026-07-15T11:04:00+00:00",
-      "collected_at": "2026-07-15T21:55:43+09:00"
     }
   ]
 }
