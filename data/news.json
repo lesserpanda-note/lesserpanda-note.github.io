@@ -1,7 +1,57 @@
 {
-  "updated": "2026-08-15T19:26:30+09:00",
-  "count": 935,
+  "updated": "2026-08-15T20:23:27+09:00",
+  "count": 940,
   "items": [
+    {
+      "title": "Presentation: From Models to Agents: Building Context-Aware Consumer AI at Scale at DoorDash",
+      "link": "https://www.infoq.com/presentations/ai-agentic-recommendations-semantic-ids/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Sudeep Das shares how DoorDash shifts from legacy one-shot predictions to an agentic recommendation platform. He discusses leveraging language-native consumer memory, RQ-VAE semantic IDs for catalog representation, and…",
+      "ts": 1786791600,
+      "published": "2026-08-15T11:00:00+00:00",
+      "collected_at": "2026-08-15T20:23:06+09:00"
+    },
+    {
+      "title": "Presentation: From Models to Agents: Building Context-Aware Consumer AI at Scale at DoorDash",
+      "link": "https://www.infoq.com/presentations/ai-agentic-recommendations-semantic-ids/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Sudeep Das shares how DoorDash shifts from legacy one-shot predictions to an agentic recommendation platform. He discusses leveraging language-native consumer memory, RQ-VAE semantic IDs for catalog representation, and…",
+      "ts": 1786791600,
+      "published": "2026-08-15T11:00:00+00:00",
+      "collected_at": "2026-08-15T20:23:06+09:00"
+    },
+    {
+      "title": "Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare launched agent tracing, adding spans for agent invocations, model calls, tool runs, and approvals to existing Workers traces. Sessions replay turn by turn, though the docs warn traces are not lossless and pay…",
+      "ts": 1786790760,
+      "published": "2026-08-15T10:46:00+00:00",
+      "collected_at": "2026-08-15T20:23:06+09:00"
+    },
+    {
+      "title": "Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare launched agent tracing, adding spans for agent invocations, model calls, tool runs, and approvals to existing Workers traces. Sessions replay turn by turn, though the docs warn traces are not lossless and pay…",
+      "ts": 1786790760,
+      "published": "2026-08-15T10:46:00+00:00",
+      "collected_at": "2026-08-15T20:23:06+09:00"
+    },
+    {
+      "title": "How to Install Codex CLI: A Step-by-Step Guide",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/how-to-install-codex-cli/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "If you have already used Codex in ChatGPT, the Codex CLI will feel familiar. It brings the same AI assistance directly into your local development environment, where it can work with your repository, shell, tests, and o…",
+      "ts": 1786789800,
+      "published": "2026-08-15T10:30:00+00:00",
+      "collected_at": "2026-08-15T20:23:06+09:00"
+    },
     {
       "title": "Cloudflare Introduces Cache Response Rules for Post-Origin Cache Control",
       "link": "https://www.infoq.com/news/2026/08/cloudflare-cache-rules/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
