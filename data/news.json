@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T08:25:12+09:00",
-  "count": 946,
+  "updated": "2026-08-15T09:19:42+09:00",
+  "count": 941,
   "items": [
     {
       "title": "Don't classify. Hallucinate!",
@@ -9410,56 +9410,6 @@
       "summary": "Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Merm…",
       "ts": 1784161998,
       "published": "2026-07-16T00:33:18+00:00",
-      "collected_at": "2026-07-16T15:37:47+09:00"
-    },
-    {
-      "title": "Identifying JDK Value Class Candidates",
-      "link": "https://inside.java/2026/07/16/identify-jdk-value-classes-candidates/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "As long as value classes are a preview feature, they can’t generally be adopted in the JDK libraries (which are not compiled with `--enable-preview`). However, we felt it was important for this JEP to provide users with…",
-      "ts": 1784160000,
-      "published": "2026-07-16T00:00:00+00:00",
-      "collected_at": "2026-07-16T21:10:50+09:00"
-    },
-    {
-      "title": "Security incident disclosure — July 2026",
-      "link": "https://huggingface.co/blog/security-incident-july-2026",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1784160000,
-      "published": "2026-07-16T00:00:00+00:00",
-      "collected_at": "2026-07-16T21:10:50+09:00"
-    },
-    {
-      "title": "How Cars24 scales conversations and builds faster with OpenAI",
-      "link": "https://openai.com/index/cars24",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-      "ts": 1784160000,
-      "published": "2026-07-16T00:00:00+00:00",
-      "collected_at": "2026-07-17T01:57:46+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: Russ Miles on Safer, More Productive Interactions with AI",
-      "link": "https://spring.io/blog/2026/07/16/a-bootiful-podcast-russ-miles",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "I’m joined, I think, for the second time by my friend, the legendary architect and developer extraordinaire Russ Miles, who has given some of the most cerebral and exciting Spring keynotes and talks ever. And this time,…",
-      "ts": 1784160000,
-      "published": "2026-07-16T00:00:00+00:00",
-      "collected_at": "2026-07-17T05:15:11+09:00"
-    },
-    {
-      "title": "xai-org/grok-build, now open source",
-      "link": "https://simonwillison.net/2026/Jul/15/grok-build/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "xai-org/grok-build, now open source xAI's grok CLI tool faced severe community backlash yesterday when it became apparent that running the command in a directory could upload that entire directory to xAI's Google Cloud…",
-      "ts": 1784159970,
-      "published": "2026-07-15T23:59:30+00:00",
       "collected_at": "2026-07-16T15:37:47+09:00"
     }
   ]
