@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T09:19:42+09:00",
+  "updated": "2026-08-15T10:24:54+09:00",
   "count": 941,
   "items": [
     {
@@ -281,6 +281,16 @@
       "ts": 1786665600,
       "published": "2026-08-14T00:00:00+00:00",
       "collected_at": "2026-08-15T00:55:17+09:00"
+    },
+    {
+      "title": "How Claude’s text watermark works",
+      "link": "https://www.anthropic.com/news/claude-text-watermark",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "How Claude’s text watermark works",
+      "ts": 1786665600,
+      "published": "2026-08-14T00:00:00+00:00",
+      "collected_at": "2026-08-15T10:24:49+09:00"
     },
     {
       "title": "sqlite-utils 4.2.1",
@@ -9400,16 +9410,6 @@
       "summary": "What's Changed 🚀 Features feat: export HistoryProcessor and add actionable hints to usage-limit and tool-retry errors by @DouweM in #6346 🐛 Bug Fixes Fix MistralStreamedResponse streamed number/integer validation to acc…",
       "ts": 1784168409,
       "published": "2026-07-16T02:20:09+00:00",
-      "collected_at": "2026-07-16T15:37:47+09:00"
-    },
-    {
-      "title": "Mermaid to Unicode box art (grok-mermaid)",
-      "link": "https://simonwillison.net/2026/Jul/16/grok-mermaid/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: Mermaid to Unicode box art (grok-mermaid) While exploring the codebase for the newly open-sourced Grok CLI coding agent I came across xai-grok-markdown/src/mermaid.rs , a \"self-contained terminal renderer for Merm…",
-      "ts": 1784161998,
-      "published": "2026-07-16T00:33:18+00:00",
       "collected_at": "2026-07-16T15:37:47+09:00"
     }
   ]
