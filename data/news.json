@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-15T11:54:33+09:00",
-  "count": 941,
+  "updated": "2026-08-15T12:42:20+09:00",
+  "count": 943,
   "items": [
+    {
+      "title": "Northern Gannet",
+      "link": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. He showed up in the Farallon Islands off the co…",
+      "ts": 1786764120,
+      "published": "2026-08-15T03:22:00+00:00",
+      "collected_at": "2026-08-15T12:42:06+09:00"
+    },
+    {
+      "title": "v2.31.0 (2026-08-14)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.31.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Allow a UIEventStream to be built without a run_input , and give AGUIEventStream its own thread_id / run_id by @dsfaccini in #7292 🐛 Bug Fixes Attribute failed FallbackModel spans to the failin…",
+      "ts": 1786763086,
+      "published": "2026-08-15T03:04:46+00:00",
+      "collected_at": "2026-08-15T12:42:06+09:00"
+    },
     {
       "title": "v0.21.0",
       "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.0",
