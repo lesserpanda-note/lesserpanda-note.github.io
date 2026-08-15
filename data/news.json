@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-15T10:24:54+09:00",
+  "updated": "2026-08-15T11:54:33+09:00",
   "count": 941,
   "items": [
+    {
+      "title": "v0.21.0",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.0",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "Key Changes This minor release does not introduce a known breaking SDK behavior change. The minor version bump is for the new provider-neutral testing APIs and the OpenAI Python v3 compatibility update. Highlights: Adde…",
+      "ts": 1786762177,
+      "published": "2026-08-15T02:49:37+00:00",
+      "collected_at": "2026-08-15T11:54:28+09:00"
+    },
     {
       "title": "Don't classify. Hallucinate!",
       "link": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
@@ -9400,16 +9410,6 @@
       "summary": "Thinky's first full LLM release is a banger and bonus: it's open weights!",
       "ts": 1784182685,
       "published": "2026-07-16T06:18:05+00:00",
-      "collected_at": "2026-07-16T15:37:47+09:00"
-    },
-    {
-      "title": "v2.11.0 (2026-07-15)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.11.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features feat: export HistoryProcessor and add actionable hints to usage-limit and tool-retry errors by @DouweM in #6346 🐛 Bug Fixes Fix MistralStreamedResponse streamed number/integer validation to acc…",
-      "ts": 1784168409,
-      "published": "2026-07-16T02:20:09+00:00",
       "collected_at": "2026-07-16T15:37:47+09:00"
     }
   ]
