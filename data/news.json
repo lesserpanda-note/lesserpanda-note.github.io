@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-15T23:26:22+09:00",
-  "count": 934,
+  "updated": "2026-08-16T00:24:52+09:00",
+  "count": 933,
   "items": [
+    {
+      "title": "Mathematical Experiments Are Becoming Abundant Through Human-Machine Teaming",
+      "link": "https://towardsdatascience.com/mathematical-experiments-are-becoming-abundant-through-human-machine-teaming/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Two open problems, exact-arithmetic checking and a proof assistant, over a single weekend. The post Mathematical Experiments Are Becoming Abundant Through Human-Machine Teaming appeared first on Towards Data Science .",
+      "ts": 1786806000,
+      "published": "2026-08-15T15:00:00+00:00",
+      "collected_at": "2026-08-16T00:24:47+09:00"
+    },
     {
       "title": "Inbox zero. Bloglag 365.",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/15/inbox-zero-bloglag-365/",
@@ -9321,26 +9331,6 @@
       "ts": 1784216125,
       "published": "2026-07-16T15:35:25+00:00",
       "collected_at": "2026-07-17T01:57:46+09:00"
-    },
-    {
-      "title": "Context Engineering for RAG Question Parsing: From a Raw Question to Typed Fields That Steer Retrieval and Generation",
-      "link": "https://towardsdatascience.com/context-engineering-for-rag-question-parsing-from-a-raw-question-to-typed-fields-that-steer-retrieval-and-generation/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #6quater] - Question parsing takes one messy string and writes four typed pieces, each read by a different downstream call The post Context Engineering for RAG Question Parsing: F…",
-      "ts": 1784214000,
-      "published": "2026-07-16T15:00:00+00:00",
-      "collected_at": "2026-07-17T01:57:46+09:00"
-    },
-    {
-      "title": "Mermaid to ASCII art (mermaid-ascii)",
-      "link": "https://simonwillison.net/2026/Jul/16/mermaid-ascii/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: Mermaid to ASCII art (mermaid-ascii) After building the Mermaid to ASCII tool based on Grok Build's Rust code I learned that there's an older, more fully-featured Go library called AlexanderGrooff/mermaid-ascii th…",
-      "ts": 1784213859,
-      "published": "2026-07-16T14:57:39+00:00",
-      "collected_at": "2026-07-17T09:16:23+09:00"
     }
   ]
 }
