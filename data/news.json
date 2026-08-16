@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-16T23:27:09+09:00",
-  "count": 904,
+  "updated": "2026-08-17T00:25:04+09:00",
+  "count": 903,
   "items": [
+    {
+      "title": "Quoting Dario Amodei",
+      "link": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I do agree that the public has a negative view of AI (and that this is a big problem), but I don’t think it is primarily caused by me or any other AI leader warning about AI’s risks. I think it is fundamentally a crisis…",
+      "ts": 1786892736,
+      "published": "2026-08-16T15:05:36+00:00",
+      "collected_at": "2026-08-17T00:24:57+09:00"
+    },
+    {
+      "title": "Designing a Persistent Knowledge Layer That Refuses to Guess",
+      "link": "https://towardsdatascience.com/designing-a-persistent-knowledge-layer-that-refuses-to-guess/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "RAG Retrieves, It Never Remembers. A vendor-neutral blueprint for applications that accumulate understanding. Includes a complete Azure-native implementation (Microsoft Foundry, Azure AI Search, Cosmos DB, FastAPI) mapp…",
+      "ts": 1786892400,
+      "published": "2026-08-16T15:00:00+00:00",
+      "collected_at": "2026-08-17T00:24:57+09:00"
+    },
     {
       "title": "“How Can America Be So Miserable When It’s So Rich?”",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/16/how-can-america-be-so-miserable-when-its-so-rich/",
@@ -9011,36 +9031,6 @@
       "ts": 1784303874,
       "published": "2026-07-17T15:57:54+00:00",
       "collected_at": "2026-07-18T04:51:50+09:00"
-    },
-    {
-      "title": "Introducing Gemini 3.5 Flash Cyber",
-      "link": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
-      "ts": 1784300411,
-      "published": "2026-07-17T15:00:11+00:00",
-      "collected_at": "2026-07-22T01:24:59+09:00"
-    },
-    {
-      "title": "Using Classical ML to Empower AI Agents",
-      "link": "https://towardsdatascience.com/using-classical-ml-to-empower-ai-agents/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "On the value of building on existing foundations The post Using Classical ML to Empower AI Agents appeared first on Towards Data Science .",
-      "ts": 1784300400,
-      "published": "2026-07-17T15:00:00+00:00",
-      "collected_at": "2026-07-18T00:01:24+09:00"
-    },
-    {
-      "title": "1.15.4",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.4",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Promote Skills Repository out of experimental status Documentation Add Flows in Studio documentation Contributors @jessemiller , @joaomdmoura , @vinibrsl",
-      "ts": 1784298810,
-      "published": "2026-07-17T14:33:30+00:00",
-      "collected_at": "2026-07-18T00:01:24+09:00"
     }
   ]
 }
