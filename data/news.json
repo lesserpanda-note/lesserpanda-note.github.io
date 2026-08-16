@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-16T16:33:39+09:00",
-  "count": 920,
+  "updated": "2026-08-16T17:33:25+09:00",
+  "count": 921,
   "items": [
+    {
+      "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
+      "link": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AWS has open-sourced Dogwood, a policy language extending Cedar with temporal conditions so rules can reason about an agent's prior tool calls rather than one request in isolation. It covers approvals, rate limits and r…",
+      "ts": 1786865160,
+      "published": "2026-08-16T07:26:00+00:00",
+      "collected_at": "2026-08-16T17:33:21+09:00"
+    },
+    {
+      "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
+      "link": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS has open-sourced Dogwood, a policy language extending Cedar with temporal conditions so rules can reason about an agent's prior tool calls rather than one request in isolation. It covers approvals, rate limits and r…",
+      "ts": 1786865160,
+      "published": "2026-08-16T07:26:00+00:00",
+      "collected_at": "2026-08-16T17:33:21+09:00"
+    },
     {
       "title": "AWS Introduces Native Vector Search for DynamoDB",
       "link": "https://www.infoq.com/news/2026/08/aws-dynamodb-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -9190,16 +9210,6 @@
       "summary": "Every morning, airline dispatchers, grid operators, and farmers around the world make decisions based on the same thing: a weather forecast. While these forecasts are something that most people glance at for two seconds…",
       "ts": 1784278652,
       "published": "2026-07-17T08:57:32+00:00",
-      "collected_at": "2026-07-17T18:19:14+09:00"
-    },
-    {
-      "title": "Warm Up Fast, Run Lean: Vertical Scaling for Java on Kubernetes with Azul Prime and Kedify",
-      "link": "https://foojay.io/today/warm-up-fast-run-lean-vertical-scaling-for-java-on-kubernetes-with-azul-prime-and-kedify/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Autoscaling on Kubernetes has evolved significantly, but many production systems still rely on reactive scaling based on CPU and memory utilization. The issue is that resource metrics often lag behind real demand. By th…",
-      "ts": 1784275327,
-      "published": "2026-07-17T08:02:07+00:00",
       "collected_at": "2026-07-17T18:19:14+09:00"
     }
   ]
