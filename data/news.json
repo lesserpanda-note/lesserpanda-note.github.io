@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-16T21:45:57+09:00",
-  "count": 910,
+  "updated": "2026-08-16T22:33:46+09:00",
+  "count": 907,
   "items": [
+    {
+      "title": "“How Can America Be So Miserable When It’s So Rich?”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/16/how-can-america-be-so-miserable-when-its-so-rich/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "The above is the title of a recent a newspaper op-ed by columnist David French. He’s asking a good question! My quick take is that there are four things going on: 1. People want improvement. If you’re at X, then … Conti…",
+      "ts": 1786885390,
+      "published": "2026-08-16T13:03:10+00:00",
+      "collected_at": "2026-08-16T22:33:40+09:00"
+    },
+    {
+      "title": "Running SQL Concurrently Across Three Remote DuckDB Servers with Quack",
+      "link": "https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A small experiment in remote SQL execution The post Running SQL Concurrently Across Three Remote DuckDB Servers with Quack appeared first on Towards Data Science .",
+      "ts": 1786885200,
+      "published": "2026-08-16T13:00:00+00:00",
+      "collected_at": "2026-08-16T22:33:40+09:00"
+    },
     {
       "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
       "link": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -9051,56 +9071,6 @@
       "ts": 1784295833,
       "published": "2026-07-17T13:43:53+00:00",
       "collected_at": "2026-07-18T00:01:24+09:00"
-    },
-    {
-      "title": "Context Engineering Isn’t Enough — A Loop Engineering Experiment With No LLM Inside the Loop",
-      "link": "https://towardsdatascience.com/context-engineering-isnt-enough-a-loop-engineering-experiment-with-no-llm-inside-the-loop/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Everyone is talking about loop engineering, but most discussions assume an LLM sits at the center of the loop. I wanted to isolate the architecture itself. So I built a deterministic, zero-dependency Python benchmark th…",
-      "ts": 1784295000,
-      "published": "2026-07-17T13:30:00+00:00",
-      "collected_at": "2026-07-18T00:01:24+09:00"
-    },
-    {
-      "title": "Kotlin Turns 15: Celebrate the Kotlin Effect",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/kotlin-turns-15-celebrate-the-kotlin-effect/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "🎉 Kotlin turns 15! 🎉 For 15 years, you’ve helped shape Kotlin into the language it is today. Whether you’ve built apps, contributed to the ecosystem, taught others, or simply chosen Kotlin for your next project – thank…",
-      "ts": 1784294980,
-      "published": "2026-07-17T13:29:40+00:00",
-      "collected_at": "2026-07-18T00:01:24+09:00"
-    },
-    {
-      "title": "Herman Chernoff",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/17/herman-chernoff/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I recently learned from a blog comment that Herman Chernoff passed away last week at the age of 103. He was born the same year as my dad. I first met Chernoff–it’s not like he was a particularly formal guy, … Continue r…",
-      "ts": 1784294802,
-      "published": "2026-07-17T13:26:42+00:00",
-      "collected_at": "2026-07-18T00:01:24+09:00"
-    },
-    {
-      "title": "Presentation: From OTEL to SLMs: Distilling Frontier Model Behaviour from Production Telemetry",
-      "link": "https://www.infoq.com/presentations/otel-slm-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Ben O'Mahony discusses building custom AI-powered Language Server Protocols (LSPs) that go beyond standard rule-based checkers. He explains how to instrument AI agents natively with OpenTelemetry to track concrete user…",
-      "ts": 1784294220,
-      "published": "2026-07-17T13:17:00+00:00",
-      "collected_at": "2026-07-18T00:01:24+09:00"
-    },
-    {
-      "title": "Presentation: From OTEL to SLMs: Distilling Frontier Model Behaviour from Production Telemetry",
-      "link": "https://www.infoq.com/presentations/otel-slm-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Ben O'Mahony discusses building custom AI-powered Language Server Protocols (LSPs) that go beyond standard rule-based checkers. He explains how to instrument AI agents natively with OpenTelemetry to track concrete user…",
-      "ts": 1784294220,
-      "published": "2026-07-17T13:17:00+00:00",
-      "collected_at": "2026-07-21T03:55:22+09:00"
     }
   ]
 }
