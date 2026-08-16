@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T02:22:45+09:00",
-  "count": 901,
+  "updated": "2026-08-17T03:33:24+09:00",
+  "count": 900,
   "items": [
     {
       "title": "Quoting Dario Amodei",
@@ -9001,16 +9001,6 @@
       "ts": 1784331596,
       "published": "2026-07-17T23:39:56+00:00",
       "collected_at": "2026-07-18T19:51:06+09:00"
-    },
-    {
-      "title": "How We Beat HotSpot Performance (By Cheating, But Not Like That)",
-      "link": "https://foojay.io/today/how-we-beat-hotspot-performance-by-cheating-but-not-like-that/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "ParparVM went from 4.21x slower than warmed Java 25 to geomean parity, with six of ten benchmarks at or below HotSpot and peak memory below the JVM's. The architecture behind it: frameless C codegen, a BiBOP page heap,…",
-      "ts": 1784309057,
-      "published": "2026-07-17T17:24:17+00:00",
-      "collected_at": "2026-07-18T04:51:50+09:00"
     }
   ]
 }
