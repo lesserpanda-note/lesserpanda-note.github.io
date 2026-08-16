@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T12:04:04+09:00",
-  "count": 919,
+  "updated": "2026-08-16T13:39:49+09:00",
+  "count": 918,
   "items": [
     {
       "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
@@ -9180,16 +9180,6 @@
       "summary": "Autoscaling on Kubernetes has evolved significantly, but many production systems still rely on reactive scaling based on CPU and memory utilization. The issue is that resource metrics often lag behind real demand. By th…",
       "ts": 1784275327,
       "published": "2026-07-17T08:02:07+00:00",
-      "collected_at": "2026-07-17T18:19:14+09:00"
-    },
-    {
-      "title": "v0.18.3",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.18.3",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "What's Changed feat: make task and turn tracing spans configurable by @seratch in #3834 feat(realtime): track response usage in session context by @seratch in #3812 fix(memory): serialize OpenAI conversation session ini…",
-      "ts": 1784259591,
-      "published": "2026-07-17T03:39:51+00:00",
       "collected_at": "2026-07-17T18:19:14+09:00"
     }
   ]
