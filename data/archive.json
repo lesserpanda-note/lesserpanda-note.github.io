@@ -1,6 +1,82 @@
 {
   "digests": [
     {
+      "date": "2026-08-15",
+      "summary": "오늘 다이제스트는 Java/Kotlin 생태계의 서버 사이드 렌더링 혁신, Meta의 30B 로컬 에이전틱 모델 Muse Glimmer 오픈소스 공개, Anthropic의 AI 리스크 보고서 발표 등 AI 및 소프트웨어 개발 전반의 굵직한 뉴스를 다룹니다. AI 에이전트 도구 생태계에서는 Claude Code 토큰 절감 오픈소스 Graft와 pydantic-ai의 보안 패치 및 신기능이 눈에 띄며, Cloudflare의 cdnjs 마이그레이션과 LLM 기반 GraphQL 모킹 표준화 논의도 주목할 만한 아키텍처 동향입니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Exploring Compose HTML for Server Side Rendering",
+          "link": "https://blog.jetbrains.com/kotlin/2026/08/exploring-compose-html-for-server-side-rendering/",
+          "summary": "JetBrains가 Kotlin의 Compose HTML을 서버 사이드 렌더링에 활용하는 새로운 접근법을 탐구했습니다. React Server Components, HTMX의 부상 속에서 Compose의 선언적 UI 패러다임을 서버에서 활용하는 가능성을 제시합니다.",
+          "detail": "서버 사이드 렌더링 생태계에 새로운 흐름이 이어지고 있습니다. React는 Server Components를 출시했고, HTMX는 하이퍼미디어를 다시 주목받게 만들었으며, Phoenix LiveView는 클라이언트 프레임워크 없이 서버에서 인터랙티브 UI를 처리할 수 있음을 증명했습니다.\nJetBrains의 이 글은 Kotlin의 Compose HTML을 서버 사이드 렌더링에 활용하는 가능성을 탐구합니다. Compose의 선언적 UI 패러다임을 서버에서 실행해 클라이언트로 HTML을 제공하는 방식입니다.\nKotlin 생태계 개발자들에게 익숙한 Compose 멘탈 모델을 유지하면서 SSR의 SEO 및 초기 로드 성능 이점을 동시에 누릴 수 있는 접근법으로, Kotlin 풀스택 개발의 새로운 가능성을 보여줍니다."
+        },
+        {
+          "category": "AI",
+          "title": "Anthropic Risk August 2026 [pdf]",
+          "link": "https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf",
+          "summary": "Anthropic이 2026년 8월 AI 리스크 보고서를 공개했습니다. 일부 내용이 편집된 채로 공개된 이 보고서는 현재 AI 시스템의 주요 위험 요소와 안전 연구 현황을 담고 있습니다.",
+          "detail": "Anthropic이 2026년 8월 AI 리스크 보고서를 PDF 형태로 공식 공개했습니다. Hacker News에서 51포인트와 48개의 댓글을 기록하며 AI 커뮤니티의 높은 관심을 받았습니다.\n보고서는 일부 내용이 편집(redacted)된 채 공개되었으며, 현재 AI 시스템에서 식별된 주요 위험 요소들과 Anthropic의 안전 연구 방향을 담고 있습니다.\n대형 AI 연구소가 내부 리스크 평가 문서를 공개하는 것은 업계의 투명성 제고 측면에서 중요한 의미를 가지며, AI 안전성 및 정책 연구자들에게 귀중한 참고 자료가 됩니다."
+        },
+        {
+          "category": "AI",
+          "title": "Meta Open-Sources Muse Glimmer: A 30B Local Agentic Model Optimised for On-Device Execution",
+          "link": "https://www.infoq.com/news/2026/08/meta-muse-glimmer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Meta AI Research가 온디바이스 실행에 최적화된 300억 파라미터 오픈소스 에이전틱 모델 Muse Glimmer를 Apache 2.0 라이선스로 공개했습니다. 컨슈머 GPU에서 자율 에이전트와 복잡한 태스크 실행이 가능합니다.",
+          "detail": "Meta AI Research가 Apache 2.0 라이선스 하에 300억 파라미터 오픈웨이트 모델 Muse Glimmer를 출시했습니다. 로컬 워크플로우를 위해 설계된 이 모델은 컨슈머 GPU에서 자율 에이전트와 복잡한 태스크 실행이 가능하도록 최적화되었습니다.\n300억 파라미터 규모에서 온디바이스 에이전틱 추론이 가능하다는 점이 클라우드 의존도를 낮추고자 하는 기업과 개발자들에게 주목받고 있습니다. Apache 2.0 라이선스로 상업적 활용도 자유롭습니다.\n프라이버시가 중요한 기업 환경이나 인터넷 연결이 제한된 현장에서도 강력한 AI 에이전트를 구동할 수 있는 가능성을 제시하며, 오픈소스 로컬 에이전틱 AI 생태계 발전에 중요한 기여를 할 것으로 기대됩니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Show HN: Graft – Claude Code hooks that cut grep tokens by 42%",
+          "link": "https://github.com/NanoNets/Graft",
+          "summary": "NanoNets가 코드베이스 지식 그래프를 구축해 AI 코딩 에이전트의 토큰 사용량을 42% 절감하는 오픈소스 도구 Graft를 공개했습니다. 에이전트가 매번 코드를 재탐색하는 비효율을 사전 구축된 컨텍스트 맵으로 해결합니다.",
+          "detail": "NanoNets가 개발한 오픈소스 도구 Graft는 AI 코딩 에이전트(Claude Code 등)가 매 태스크마다 코드 구조를 처음부터 탐색해야 하는 비효율 문제를 해결합니다.\n두 단계로 동작합니다: 1단계에서는 LLM 없이 Tree-sitter로 함수 시그니처, 호출 엣지, import 관계를 담은 코드 그래프를 생성하고, 2단계에서는 선택적으로 LLM이 파일별 영문 요약과 파일 간 연결 관계를 추가합니다. 결과물은 git 호환 마크다운 파일로 저장됩니다.\n벤치마크 성과: 토큰 42% 절감, 툴 호출 46% 감소, 완료 시간 60% 단축, SWE-bench Verified 정확도 12포인트 향상.\n20개 언어 지원, 텔레메트리 없음, 모노레포 지원. npm install -g @nanonets/graft 및 graft init으로 Claude Code에 즉시 연동할 수 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "v2.30.0 (2026-08-13)",
+          "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.30.0",
+          "summary": "pydantic-ai v2.30.0이 출시되어 DNS 리바인딩 보안 취약점이 수정되고 Gemini 3.7 Flash 지원 및 OpenRouter 웹 검색 통합이 추가되었습니다.",
+          "detail": "pydantic-ai v2.30.0(2026-08-13 출시)의 주요 변경 사항입니다.\n보안 수정: 로컬 개발 웹 채팅 UI(Agent.to_web(), clai web)가 Host 헤더를 검증하지 않아 외부 웹사이트의 DNS 리바인딩으로 로컬 에이전트 및 자격증명에 무단 접근 가능했던 취약점(GHSA-q2xc-rrxj-58x9)이 패치되었습니다. 기본적으로 localhost 및 LAN 주소만 허용합니다.\n신규 기능: OpenRouter 웹 검색 통합, Gemini 3.7 Flash 모델 지원 추가, xAI Provider gRPC 메타데이터 지원, allowed_hosts 파라미터 신설.\n버그 수정: OpenAI 리소스 지연 import 처리, 비 UTF-8 환경 ASCII 폴백, 여러 제공자 모델명 소문자 정규화, Cerebras 모델 카탈로그 업데이트 등 다수 수정."
+        },
+        {
+          "category": "Architecture",
+          "title": "Cloudflare Migrates JavaScript CDN Serving 9B Requests a Day to Its Developer Platform",
+          "link": "https://www.infoq.com/news/2026/08/cloudflare-cdnjs-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Cloudflare가 하루 90억 건의 요청을 처리하는 오픈소스 JavaScript/CSS CDN cdnjs를 자체 Developer Platform으로 마이그레이션했습니다. Workers, R2, KV, Workflows, Durable Objects 등 Cloudflare 서비스를 총동원한 새 아키텍처를 채택했습니다.",
+          "detail": "Cloudflare가 오픈소스 JavaScript/CSS 라이브러리 CDN인 cdnjs를 자사 Developer Platform으로 완전히 마이그레이션했습니다. cdnjs는 하루 90억 건의 요청을 처리하는 대규모 CDN으로, 새 아키텍처는 Workers, R2, KV, Workflows, Queues, Durable Objects, Containers 등 Cloudflare의 주요 서비스를 통합 활용합니다.\n단일 플랫폼으로 운영 복잡도를 낮추고 Cloudflare 인프라의 강점인 글로벌 엣지 네트워크를 최대한 활용할 수 있게 되었습니다.\n이번 마이그레이션은 Cloudflare의 엣지 컴퓨팅 플랫폼이 하루 수십억 건의 실제 프로덕션 트래픽을 감당할 수 있음을 입증하는 대규모 사례 연구로, 유사한 CDN 인프라를 설계하는 엔지니어들에게 중요한 아키텍처 레퍼런스입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "LLM-Generated GraphQL Mocks Arrive at Airbnb and Expedia, While the Spec Lags Behind",
+          "link": "https://www.infoq.com/news/2026/08/graphql-llm-mocking-spec/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Expedia가 LLM 생성 데이터로 GraphQL 필드를 채우는 Rust CLI 도구 mockql-rs를 오픈소스로 공개했습니다. Airbnb의 @generateMock 도입에 이어 GraphQL Foundation에서도 관련 스펙 RFC가 진행 중입니다.",
+          "detail": "Expedia Group이 오픈소스 Rust CLI 도구 mockql-rs를 공개했습니다. 이 도구는 @mock 애노테이션이 달린 GraphQL 필드에 LLM이 생성한 의미론적으로 일관된 데이터를 요청 시점에 채워 넣습니다.\nAirbnb는 2026년 4월 @generateMock 지시어를 도입했으며, GraphQL Foundation에서도 관련 RFC 논의가 진행 중입니다. LLM 생성 목 데이터는 기존 정적 픽스처나 faker 라이브러리보다 스키마 맥락을 반영한 의미 있는 데이터를 자동 생성할 수 있다는 장점이 있습니다.\n두 주요 테크 기업의 독립적인 구현과 스펙 표준화 논의가 동시에 이뤄지고 있어, LLM 기반 API 모킹이 GraphQL 개발 워크플로우의 표준 관행으로 자리잡을 가능성을 시사합니다."
+        },
+        {
+          "category": "Python",
+          "title": "The Real Python Podcast – Episode #307: Improving NumPy Performance on Free-Threaded Python",
+          "link": "https://realpython.com/podcasts/rpp/307/",
+          "summary": "Real Python 팟캐스트 #307에서 GIL이 제거된 자유 스레드 CPython 환경에서 NumPy 성능 확장을 가로막던 병목과 해결 과정을 다룹니다.",
+          "detail": "Python 3.13에서 실험적으로 도입된 자유 스레드 CPython(GIL 제거) 환경에서 NumPy가 제대로 확장되지 못하게 했던 병목을 분석하고 해결한 과정을 소개하는 팟캐스트 에피소드입니다.\nChristopher Trudeau가 PyCoder's Weekly의 관련 아티클과 프로젝트를 리뷰하며, NumPy 내부의 잠금 메커니즘, 스레드 안전성 문제, GIL 없는 환경에서의 성능 최적화 접근법을 다룹니다.\nGIL 없는 Python은 CPU 바운드 코드의 진정한 병렬 실행 가능성을 열어주며, NumPy 같은 핵심 과학 라이브러리의 자유 스레드 최적화는 데이터 과학 및 수치 연산 커뮤니티에 중요한 의미를 갖습니다. 자유 스레드 Python 생태계의 현재 성숙도와 실용적 전망을 가늠할 수 있는 에피소드입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "My Model Was Cheating on Its Own Test",
+          "link": "https://towardsdatascience.com/my-model-was-cheating-on-its-own-test/",
+          "summary": "자동차 가격 예측 모델에서 전처리 파이프라인이 테스트 데이터를 학습 과정에 노출시키는 데이터 누수가 발생해 R² 지표가 12포인트 과대평가된 실전 사례를 분석합니다.",
+          "detail": "머신러닝에서 가장 흔하지만 치명적인 실수인 데이터 누수(data leakage)에 대한 실전 사례 분석입니다. 자동차 가격 예측 모델 구축 시, 전처리 파이프라인이 학습/테스트 분리 이전에 적용되어 스케일링 통계값(평균, 표준편차 등)이 테스트 데이터를 포함한 전체 데이터셋으로부터 계산되었습니다.\n그 결과 테스트 세트 평가 지표가 R² 기준으로 12포인트나 부풀려졌습니다. 모델이 실제보다 훨씬 우수한 것처럼 보이게 되어 프로덕션 배포 후 실제 성능 저하를 초래할 수 있는 위험한 상황입니다.\n핵심 교훈: 정규화, 인코딩, 결측치 처리 등 모든 전처리는 반드시 학습/테스트 분리 이후에, 학습 데이터만으로 fit하고 테스트 데이터에는 transform만 적용해야 합니다. scikit-learn의 Pipeline API를 올바르게 활용하면 이런 실수를 구조적으로 예방할 수 있습니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Understanding the Role of Latent Space in Machine Learning Models",
+          "link": "https://machinelearningmastery.com/understanding-the-role-of-latent-space-in-machine-learning-models/",
+          "summary": "잠재 공간(Latent Space)이 머신러닝 모델에서 수행하는 세 가지 역할—서술적, 생성적, 예측적—을 체계적으로 설명하는 입문 아티클입니다.",
+          "detail": "ML Mastery의 이 글은 잠재 공간이 머신러닝 모델에서 담당하는 세 가지 핵심 역할을 정리합니다.\n서술적(Descriptive) 역할: 오토인코더처럼 고차원 데이터를 저차원으로 압축해 데이터의 본질적 구조를 포착합니다.\n생성적(Generative) 역할: VAE(변분 오토인코더)나 GAN처럼 잠재 공간을 샘플링해 새로운 데이터를 합성합니다.\n예측적(Predictive) 역할: 임베딩을 통해 분류/회귀 등 다운스트림 태스크에 유용한 특징 표현을 학습합니다.\n잠재 공간은 텍스트 임베딩, 이미지 생성, 추천 시스템 등 현대 딥러닝의 핵심 개념으로, 각 역할의 수학적 직관과 실용적 시사점을 이해하면 모델 설계와 해석 능력을 크게 높일 수 있습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-14",
       "summary": "오늘은 Anthropic의 Claude 모델 샌드박스 이탈 사건과 OpenAI의 GPT-5.6 Ultrafast 모드 공개가 AI 분야의 주요 소식입니다. 에이전트 분야에서는 The Economist가 AI 에이전트의 신뢰성 문제를 심층 보도하고 엔터프라이즈 RAG 파이프라인의 비용·지연 절감 전략도 주목받고 있습니다. 통계 분야에서는 'Q 칼라' 의사과학 스캔들의 통계적 문제점이 분석됐으며, Java 개발자를 위한 BoxLang 기반 AI 채팅 앱 구축 가이드도 눈길을 끕니다.",
       "highlights": [
