@@ -1,55 +1,48 @@
 {
-  "updated": "2026-08-16T00:14:33Z",
-  "summary": "오늘은 AI 텍스트 탐지기 구축 프로젝트, DoorDash의 에이전틱 추천 플랫폼 사례, Flue 2 프레임워크와 pydantic-ai 신규 릴리스 등 에이전트 생태계의 주요 소식이 돋보입니다. Cloudflare는 에이전트 트레이싱과 캐시 응답 규칙을 연달아 출시하며 AI 인프라 관측 가능성과 캐시 제어 기능을 강화했습니다. DataScience 분야에서는 인간-기계 협업을 통한 수학적 실험 가능성이 주목받고 있습니다.",
+  "updated": "2026-08-17T00:18:05Z",
+  "summary": "오늘은 AWS의 두 가지 주요 발표가 주목받았습니다. DynamoDB에 네이티브 벡터 검색 기능이 추가되어 별도의 벡터 데이터베이스 없이 AI 파이프라인을 구성할 수 있게 되었고, 에이전트 정책 언어 Dogwood가 오픈소스로 공개되어 멀티스텝 에이전트 거버넌스가 한층 강화되었습니다. Agents 분야에서는 Alibaba의 Qwen 3.8 27B 모델이 주목받은 한편, OpenAI Agents Python SDK의 새 버전도 출시되었습니다.",
   "highlights": [
     {
       "category": "AI",
-      "title": "Building an AI Text Detector From Scratch",
-      "link": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-      "summary": "데이터셋 구성부터 모델 학습, 로컬 배포, RLVR까지 AI 텍스트 탐지기를 처음부터 구축하는 엔드투엔드 프로젝트를 다룹니다.",
-      "detail": "Sebastian Raschka가 AI 생성 텍스트 탐지기를 처음부터 구축하는 실전 엔드투엔드 프로젝트를 공개했습니다. 이 프로젝트는 데이터셋 구성, 모델 학습, 로컬 배포, 그리고 RLVR(검증 가능한 보상을 활용한 강화학습)까지 전체 파이프라인을 단계별로 안내합니다. RLVR은 AI 탐지 과제에서 정답이 검증 가능하다는 특성을 활용해 모델을 강화학습으로 추가 개선하는 기법입니다. 연구 수준의 방법론을 실제 배포 가능한 시스템으로 연결하는 실용적인 내용이 특징으로, ML 실무자에게 유익한 참고 자료입니다."
+      "title": "AWS Introduces Native Vector Search for DynamoDB",
+      "link": "https://www.infoq.com/news/2026/08/aws-dynamodb-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Amazon DynamoDB에 네이티브 벡터 검색 기능이 추가되어 별도의 벡터 데이터베이스 없이 임베딩 저장과 유사도 검색이 가능해졌습니다.",
+      "detail": "Amazon DynamoDB가 네이티브 벡터 검색 기능을 도입했습니다. 개발자들은 이제 애플리케이션 데이터와 함께 임베딩(embeddings)을 DynamoDB에 직접 저장하고, OpenSearch나 Pinecone 같은 별도의 벡터 데이터베이스 없이 ANN(근사 최근접 이웃) 쿼리를 수행할 수 있습니다.\n\n기존에는 시맨틱 검색이나 유사도 검색을 위해 DynamoDB의 운영 데이터를 별도 벡터 스토어에 동기화하는 복잡한 아키텍처가 필요했습니다. 이번 기능 추가로 RAG(검색 증강 생성) 파이프라인, 추천 시스템 등에서 데이터 동기화 오버헤드와 운영 복잡성이 크게 줄어들 것으로 기대됩니다. DynamoDB의 기존 확장성, 일관성, IAM 보안 모델 안에서 벡터 검색을 활용할 수 있어 운영 부담이 적다는 점이 핵심 장점입니다."
     },
     {
       "category": "AI",
-      "title": "Presentation: From Models to Agents: Building Context-Aware Consumer AI at Scale at DoorDash",
-      "link": "https://www.infoq.com/presentations/ai-agentic-recommendations-semantic-ids/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "DoorDash가 기존 단발성 예측 기반 추천에서 에이전틱 추천 플랫폼으로 전환한 사례를 공유합니다. 언어 기반 소비자 메모리와 RQ-VAE 시맨틱 ID를 핵심 기술로 활용합니다.",
-      "detail": "InfoQ 발표에서 DoorDash의 Sudeep Das는 기존 일회성 예측 모델에서 에이전틱 추천 플랫폼으로 전환하는 여정을 공유했습니다. 핵심 기술 요소는 두 가지입니다. 첫째, 언어 기반 소비자 메모리(language-native consumer memory)로 사용자의 과거 행동과 선호를 LLM이 직접 활용 가능한 형태로 저장합니다. 둘째, RQ-VAE(Residual Quantized Variational Autoencoder) 시맨틱 ID를 활용해 상품 카탈로그를 언어 모델이 이해할 수 있는 이산 토큰으로 표현합니다. 이 접근 방식은 추천 시스템과 LLM을 자연스럽게 통합하여 컨텍스트 인식 AI를 대규모 프로덕션에서 운영하는 실제 사례로, 아직 LLM 기반 추천 시스템을 탐색 중인 팀에게 참고할 만한 아키텍처 방향을 제시합니다."
+      "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
+      "link": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+      "summary": "Daring Fireball의 존 그루버가 Anthropic의 Claude가 출력 텍스트에 워터마크를 삽입하는 것은 작문 도구의 본질을 훼손하는 행위라고 강하게 비판했습니다.",
+      "detail": "Daring Fireball의 존 그루버(John Gruber)는 Anthropic이 Claude 출력 텍스트에 사용자 모르게 일종의 워터마크를 삽입하고 있다는 점을 비판했습니다. 그는 이를 'adulteration(불순물 첨가)'이라 표현하며, AI 생성 텍스트 탐지를 위한 워터마킹이 명목상의 이유가 될 수 있더라도 사용자가 요청한 내용을 몰래 변조하는 것은 작문 도구로서의 신뢰를 근본적으로 배신하는 행위라고 주장했습니다. 제목에서 'Watermark'를 따옴표로 표기한 것은 전통적인 의미의 디지털 워터마크와 다른 형태일 수 있음을 시사합니다. 이 글은 Hacker News에서 72포인트, 51개 댓글을 기록하며 AI 출력의 투명성과 사용자 신뢰에 관한 논의를 촉발했습니다."
     },
     {
       "category": "Agents",
-      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
-      "link": "https://www.latent.space/p/flue-2",
-      "summary": "Astro 창시자 Fred Schott이 React 훅 패턴에서 영감을 받은 에이전트 메타 하네스 Flue 2를 공개했습니다. 에이전트는 그것을 감싸는 하네스에 의해 정의된다는 철학을 담고 있습니다.",
-      "detail": "Latent Space 인터뷰에서 Astro 프레임워크 창시자 Fred Schott이 에이전트 메타 하네스 Flue의 두 번째 버전을 발표했습니다. Flue 2는 React의 훅(hooks) 패턴에서 영감을 받아 설계되었으며, 에이전트 개발자가 상태 관리와 사이드 이펙트를 보다 선언적으로 다룰 수 있도록 합니다. Schott은 에이전트의 핵심 특성이 에이전트 자체가 아닌 그것을 감싸는 '하네스(harness)'에 의해 정의된다는 철학을 강조합니다. Flue는 이 하네스 레이어를 추상화하는 메타 프레임워크로, React 개발자에게 익숙한 컴포넌트 구성 방식을 에이전트 시스템에 적용하는 새로운 접근 방식을 제시합니다. 특히 에이전트 하네스가 단순한 래퍼가 아닌 에이전트의 행동 방식 자체를 결정한다는 관점은, 에이전트 시스템 설계를 바라보는 새로운 시각을 제공합니다."
+      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+      "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+      "summary": "Alibaba Qwen 연구소의 Qwen 3.8 27B 모델은 Apache 2.0 라이선스의 비전 지원 LLM으로, 로컬 실행에 적합한 크기이지만 기본값으로 과도한 추론 경향이 있다는 점이 지적되었습니다.",
+      "detail": "Alibaba Qwen 연구소가 공개한 Qwen 3.8 27B는 Apache 2.0 라이선스를 적용한 27B 파라미터의 비전 지원 LLM입니다. Simon Willison은 27B 파라미터가 로컬 기기에서 실행하기에 우수한 크기라고 평가했습니다. 그러나 모델이 기본값으로 '과도하게 사고하는(wildly overthinking)' 경향이 있어, 간단한 요청에도 지나치게 긴 내부 추론 과정을 거친다는 점을 비판했습니다. 비전 기능도 포함되어 이미지 처리가 가능하며, 오픈소스로 공개되어 상업적 사용이 자유롭습니다. 기본 사고 패턴을 조정하면 뛰어난 성능을 발휘할 수 있는 모델로 평가됩니다."
     },
     {
       "category": "Agents",
-      "title": "v2.31.0 (2026-08-14)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.31.0",
-      "summary": "pydantic-ai v2.31.0이 릴리스되었습니다. UIEventStream의 유연성 향상, FallbackModel 스팬 귀속 수정, Temporal 워크플로 호환성 버그가 해결되었습니다.",
-      "detail": "pydantic-ai v2.31.0이 2026년 8월 14일 출시되었습니다. 주요 변경 사항은 다음과 같습니다.\n• UIEventStream 개선: run_input 없이도 UIEventStream을 생성할 수 있게 되어 UI 이벤트 스트림 파이프라인 구성이 더 유연해졌습니다.\n• AGUIEventStream 식별성 향상: 이제 각 AGUIEventStream 인스턴스가 독립적인 thread_id와 run_id를 부여받아 다중 스트림 환경에서의 추적이 용이해졌습니다.\n• FallbackModel 스팬 수정: 실패한 FallbackModel 스팬이 래퍼가 아닌 실제 실패 모델에 올바르게 귀속되어 관측 가능성이 향상되었습니다.\n• Temporal 워크플로 호환성: Temporal 워크플로 샌드박스 내에서 openai 라이브러리가 정상 동작하도록 수정되었습니다.\n이번 릴리스는 브레이킹 체인지가 없으며, Temporal 또는 AG-UI 이벤트 스트림 API를 사용하는 팀에 특히 유익합니다."
+      "title": "v0.21.1",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.1",
+      "summary": "OpenAI Agents Python SDK v0.21.1이 출시되어 모델 호출 타임아웃, 런 범위 샌드박스 작업 디렉토리, Docker 샌드박스 네트워크 비활성화 등 주요 기능이 추가되었습니다.",
+      "detail": "openai/openai-agents-python v0.21.1이 릴리스되었습니다. 주요 변경사항은 다음과 같습니다.\n\n신규 기능: 모델 호출 타임아웃(model call timeouts)이 추가되어 장시간 실행되는 모델 호출을 제어할 수 있게 되었습니다. 런(run) 범위의 샌드박스 작업 디렉토리 지원이 추가되었으며, Docker 샌드박스의 네트워크 비활성화 옵션과 Modal 샌드박스 리소스 옵션도 신규 제공됩니다.\n\n버그 수정: 통화 승인 결정 처리 오류, MultiProvider 실패 시 자식 리소스 미종료, SQLite 세션 테이블 충돌, 이미지 래스터 콘텐츠 검증 누락, Chat Completions 추론 리플레이 오류, 오디오 절단 문제 등이 수정되었습니다."
     },
     {
       "category": "Architecture",
-      "title": "Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Cloudflare가 Workers 트레이스에 에이전트 호출, 모델 호출, 툴 실행, 승인 스팬을 추가하는 에이전트 트레이싱을 출시했습니다. 트레이스가 무손실이 아니며 페이로드 기본값이 일관적이지 않다는 제한이 존재합니다.",
-      "detail": "Cloudflare가 AI 에이전트의 동작을 추적하는 에이전트 트레이싱 기능을 Workers 플랫폼에 도입했습니다. 이 기능은 에이전트 호출, LLM 모델 호출, 툴 실행, 사람 승인(human approval) 등 각 단계에 OpenTelemetry 스팬을 추가하여 기존 Workers 트레이스와 통합됩니다. 세션은 턴 단위로 재생할 수 있어 에이전트 흐름 디버깅에 도움이 됩니다. 단, Cloudflare 공식 문서는 트레이스가 무손실(lossless)이 아님을 명시하며, 페이로드 기본값이 항목 유형별로 일관되지 않아 실제 운영 환경에서 주의가 필요합니다. 또한 트레이스 크기 제한(truncation limits)이 존재합니다. Cloudflare AI Gateway 및 Workers AI와 통합되어 프로덕션 에이전트의 관측 가능성을 강화하는 유용한 기능이지만, 현재 단계에서의 한계를 인지하고 사용해야 합니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "Cloudflare Introduces Cache Response Rules for Post-Origin Cache Control",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-cache-rules/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Cloudflare가 오리진 응답 후, 캐시 저장 전에 동작하는 Cache Response Rules를 도입했습니다. 응답 속성 기반의 세밀한 캐싱 제어가 가능해졌습니다.",
-      "detail": "Cloudflare가 Cache Response Rules를 새롭게 도입했습니다. 이는 오리진 서버가 응답한 이후, 해당 콘텐츠가 Cloudflare 캐시에 기록되기 전 단계에서 동작하는 규칙 엔진입니다. 기존 Cache Rules는 요청(request) 속성만을 기준으로 작동하여 오리진 응답의 특성에 따른 세밀한 캐싱 제어가 어려웠습니다. Cache Response Rules를 통해 관리자는 응답 헤더, 상태 코드, 콘텐츠 유형 등 응답(response) 속성을 기반으로 캐싱 동작을 조정할 수 있습니다. 예를 들어, 오리진이 보내는 특정 헤더 값에 따라 캐시 TTL을 동적으로 변경하거나, 특정 상태 코드의 응답을 캐시에서 제외하는 고급 정책 구현이 가능해집니다. 요청 시점에만 제어할 수 있었던 기존 방식에서 응답 시점까지 제어 범위가 확장된 점이 핵심 개선 사항입니다."
+      "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
+      "link": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "AWS가 Cedar를 확장한 오픈소스 정책 언어 Dogwood를 공개했습니다. 에이전트의 이전 도구 호출 이력을 기반으로 현재 요청의 허용 여부를 결정하는 시간적 조건을 지원합니다.",
+      "detail": "AWS가 Cedar 정책 언어를 확장한 Dogwood를 오픈소스로 공개했습니다. Cedar는 AWS의 세밀한 인가(authorization) 정책 언어로, 기존에는 단일 요청 단위로만 정책을 평가했습니다. Dogwood는 시간적 조건(temporal conditions)을 추가하여 에이전트의 이전 도구 호출 이력을 기반으로 현재 요청의 허용 여부를 결정할 수 있게 합니다.\n\n이 도구는 에이전트 파이프라인에서 승인 흐름, 속도 제한(rate limits), 역할 위임 등을 정책으로 표현하는 데 활용됩니다. 다단계 에이전트 작업에서 발생하는 권한 남용(confused deputy) 문제를 해결하는 데 특히 유용합니다. Cedar의 핵심 속성인 완전한 결정 가능성(decidability)을 유지하면서 에이전트 특유의 복잡한 시퀀스 정책을 표현할 수 있다는 점이 차별점입니다."
     },
     {
       "category": "DataScience",
-      "title": "Mathematical Experiments Are Becoming Abundant Through Human-Machine Teaming",
-      "link": "https://towardsdatascience.com/mathematical-experiments-are-becoming-abundant-through-human-machine-teaming/",
-      "summary": "인간과 AI의 협업을 통해 단 하나의 주말 동안 두 가지 미해결 수학 문제에 접근한 실험을 소개합니다. 정확한 산술 검증과 증명 보조 도구 활용이 핵심입니다.",
-      "detail": "이 글은 인간-기계 협업(human-machine teaming)을 통해 수학적 실험이 어떻게 더 활발하게 이루어질 수 있는지를 다룹니다. 저자는 단 하나의 주말 동안 두 가지 문제에 도전했습니다. 첫째는 정확한 산술 검증(exact-arithmetic checking), 둘째는 증명 보조 도구(proof assistant) 활용입니다. AI가 수학적 추론과 검증 과정에서 인간의 역할을 보완함으로써 수학 실험의 속도와 규모를 확장할 수 있음을 보여줍니다. 전통적으로 수학적 발견은 소수의 전문가에 의해 이루어졌으나, AI 도구의 발전으로 더 많은 연구자가 실험적 수학에 접근할 수 있는 환경이 조성되고 있음을 강조합니다. 계산 과학과 형식 검증 분야의 연구자들에게 참고할 만한 사례를 제공합니다."
+      "title": "Running SQL Concurrently Across Three Remote DuckDB Servers with Quack",
+      "link": "https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/",
+      "summary": "Quack 도구를 활용해 세 개의 원격 DuckDB 서버에 동시에 SQL 쿼리를 실행하는 실험을 소개한 글로, 분산 SQL 실행 패턴을 다룹니다.",
+      "detail": "이 글은 Quack 도구를 활용해 세 개의 원격 DuckDB 서버에 동시에 SQL 쿼리를 실행하는 실험을 다루고 있습니다. DuckDB는 일반적으로 임베디드 방식으로 사용되지만, 원격 서버 모드에서도 작동할 수 있습니다. Quack을 사용하면 여러 DuckDB 인스턴스에 동시(concurrent) SQL 실행이 가능하여 순차 실행 대비 응답 시간을 크게 줄일 수 있습니다.\n\n분산 데이터 파이프라인 구성이나 여러 서버에 분산된 데이터를 집계해야 하는 데이터 엔지니어링 시나리오에 유용한 패턴을 보여주며, 원격 쿼리 결과를 클라이언트 측에서 통합하는 방식도 설명합니다."
     }
   ]
 }

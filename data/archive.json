@@ -1,6 +1,61 @@
 {
   "digests": [
     {
+      "date": "2026-08-16",
+      "summary": "오늘은 AI 텍스트 탐지기 구축 프로젝트, DoorDash의 에이전틱 추천 플랫폼 사례, Flue 2 프레임워크와 pydantic-ai 신규 릴리스 등 에이전트 생태계의 주요 소식이 돋보입니다. Cloudflare는 에이전트 트레이싱과 캐시 응답 규칙을 연달아 출시하며 AI 인프라 관측 가능성과 캐시 제어 기능을 강화했습니다. DataScience 분야에서는 인간-기계 협업을 통한 수학적 실험 가능성이 주목받고 있습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "Building an AI Text Detector From Scratch",
+          "link": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
+          "summary": "데이터셋 구성부터 모델 학습, 로컬 배포, RLVR까지 AI 텍스트 탐지기를 처음부터 구축하는 엔드투엔드 프로젝트를 다룹니다.",
+          "detail": "Sebastian Raschka가 AI 생성 텍스트 탐지기를 처음부터 구축하는 실전 엔드투엔드 프로젝트를 공개했습니다. 이 프로젝트는 데이터셋 구성, 모델 학습, 로컬 배포, 그리고 RLVR(검증 가능한 보상을 활용한 강화학습)까지 전체 파이프라인을 단계별로 안내합니다. RLVR은 AI 탐지 과제에서 정답이 검증 가능하다는 특성을 활용해 모델을 강화학습으로 추가 개선하는 기법입니다. 연구 수준의 방법론을 실제 배포 가능한 시스템으로 연결하는 실용적인 내용이 특징으로, ML 실무자에게 유익한 참고 자료입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Presentation: From Models to Agents: Building Context-Aware Consumer AI at Scale at DoorDash",
+          "link": "https://www.infoq.com/presentations/ai-agentic-recommendations-semantic-ids/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "DoorDash가 기존 단발성 예측 기반 추천에서 에이전틱 추천 플랫폼으로 전환한 사례를 공유합니다. 언어 기반 소비자 메모리와 RQ-VAE 시맨틱 ID를 핵심 기술로 활용합니다.",
+          "detail": "InfoQ 발표에서 DoorDash의 Sudeep Das는 기존 일회성 예측 모델에서 에이전틱 추천 플랫폼으로 전환하는 여정을 공유했습니다. 핵심 기술 요소는 두 가지입니다. 첫째, 언어 기반 소비자 메모리(language-native consumer memory)로 사용자의 과거 행동과 선호를 LLM이 직접 활용 가능한 형태로 저장합니다. 둘째, RQ-VAE(Residual Quantized Variational Autoencoder) 시맨틱 ID를 활용해 상품 카탈로그를 언어 모델이 이해할 수 있는 이산 토큰으로 표현합니다. 이 접근 방식은 추천 시스템과 LLM을 자연스럽게 통합하여 컨텍스트 인식 AI를 대규모 프로덕션에서 운영하는 실제 사례로, 아직 LLM 기반 추천 시스템을 탐색 중인 팀에게 참고할 만한 아키텍처 방향을 제시합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+          "link": "https://www.latent.space/p/flue-2",
+          "summary": "Astro 창시자 Fred Schott이 React 훅 패턴에서 영감을 받은 에이전트 메타 하네스 Flue 2를 공개했습니다. 에이전트는 그것을 감싸는 하네스에 의해 정의된다는 철학을 담고 있습니다.",
+          "detail": "Latent Space 인터뷰에서 Astro 프레임워크 창시자 Fred Schott이 에이전트 메타 하네스 Flue의 두 번째 버전을 발표했습니다. Flue 2는 React의 훅(hooks) 패턴에서 영감을 받아 설계되었으며, 에이전트 개발자가 상태 관리와 사이드 이펙트를 보다 선언적으로 다룰 수 있도록 합니다. Schott은 에이전트의 핵심 특성이 에이전트 자체가 아닌 그것을 감싸는 '하네스(harness)'에 의해 정의된다는 철학을 강조합니다. Flue는 이 하네스 레이어를 추상화하는 메타 프레임워크로, React 개발자에게 익숙한 컴포넌트 구성 방식을 에이전트 시스템에 적용하는 새로운 접근 방식을 제시합니다. 특히 에이전트 하네스가 단순한 래퍼가 아닌 에이전트의 행동 방식 자체를 결정한다는 관점은, 에이전트 시스템 설계를 바라보는 새로운 시각을 제공합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "v2.31.0 (2026-08-14)",
+          "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.31.0",
+          "summary": "pydantic-ai v2.31.0이 릴리스되었습니다. UIEventStream의 유연성 향상, FallbackModel 스팬 귀속 수정, Temporal 워크플로 호환성 버그가 해결되었습니다.",
+          "detail": "pydantic-ai v2.31.0이 2026년 8월 14일 출시되었습니다. 주요 변경 사항은 다음과 같습니다.\n• UIEventStream 개선: run_input 없이도 UIEventStream을 생성할 수 있게 되어 UI 이벤트 스트림 파이프라인 구성이 더 유연해졌습니다.\n• AGUIEventStream 식별성 향상: 이제 각 AGUIEventStream 인스턴스가 독립적인 thread_id와 run_id를 부여받아 다중 스트림 환경에서의 추적이 용이해졌습니다.\n• FallbackModel 스팬 수정: 실패한 FallbackModel 스팬이 래퍼가 아닌 실제 실패 모델에 올바르게 귀속되어 관측 가능성이 향상되었습니다.\n• Temporal 워크플로 호환성: Temporal 워크플로 샌드박스 내에서 openai 라이브러리가 정상 동작하도록 수정되었습니다.\n이번 릴리스는 브레이킹 체인지가 없으며, Temporal 또는 AG-UI 이벤트 스트림 API를 사용하는 팀에 특히 유익합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults",
+          "link": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Cloudflare가 Workers 트레이스에 에이전트 호출, 모델 호출, 툴 실행, 승인 스팬을 추가하는 에이전트 트레이싱을 출시했습니다. 트레이스가 무손실이 아니며 페이로드 기본값이 일관적이지 않다는 제한이 존재합니다.",
+          "detail": "Cloudflare가 AI 에이전트의 동작을 추적하는 에이전트 트레이싱 기능을 Workers 플랫폼에 도입했습니다. 이 기능은 에이전트 호출, LLM 모델 호출, 툴 실행, 사람 승인(human approval) 등 각 단계에 OpenTelemetry 스팬을 추가하여 기존 Workers 트레이스와 통합됩니다. 세션은 턴 단위로 재생할 수 있어 에이전트 흐름 디버깅에 도움이 됩니다. 단, Cloudflare 공식 문서는 트레이스가 무손실(lossless)이 아님을 명시하며, 페이로드 기본값이 항목 유형별로 일관되지 않아 실제 운영 환경에서 주의가 필요합니다. 또한 트레이스 크기 제한(truncation limits)이 존재합니다. Cloudflare AI Gateway 및 Workers AI와 통합되어 프로덕션 에이전트의 관측 가능성을 강화하는 유용한 기능이지만, 현재 단계에서의 한계를 인지하고 사용해야 합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Cloudflare Introduces Cache Response Rules for Post-Origin Cache Control",
+          "link": "https://www.infoq.com/news/2026/08/cloudflare-cache-rules/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Cloudflare가 오리진 응답 후, 캐시 저장 전에 동작하는 Cache Response Rules를 도입했습니다. 응답 속성 기반의 세밀한 캐싱 제어가 가능해졌습니다.",
+          "detail": "Cloudflare가 Cache Response Rules를 새롭게 도입했습니다. 이는 오리진 서버가 응답한 이후, 해당 콘텐츠가 Cloudflare 캐시에 기록되기 전 단계에서 동작하는 규칙 엔진입니다. 기존 Cache Rules는 요청(request) 속성만을 기준으로 작동하여 오리진 응답의 특성에 따른 세밀한 캐싱 제어가 어려웠습니다. Cache Response Rules를 통해 관리자는 응답 헤더, 상태 코드, 콘텐츠 유형 등 응답(response) 속성을 기반으로 캐싱 동작을 조정할 수 있습니다. 예를 들어, 오리진이 보내는 특정 헤더 값에 따라 캐시 TTL을 동적으로 변경하거나, 특정 상태 코드의 응답을 캐시에서 제외하는 고급 정책 구현이 가능해집니다. 요청 시점에만 제어할 수 있었던 기존 방식에서 응답 시점까지 제어 범위가 확장된 점이 핵심 개선 사항입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Mathematical Experiments Are Becoming Abundant Through Human-Machine Teaming",
+          "link": "https://towardsdatascience.com/mathematical-experiments-are-becoming-abundant-through-human-machine-teaming/",
+          "summary": "인간과 AI의 협업을 통해 단 하나의 주말 동안 두 가지 미해결 수학 문제에 접근한 실험을 소개합니다. 정확한 산술 검증과 증명 보조 도구 활용이 핵심입니다.",
+          "detail": "이 글은 인간-기계 협업(human-machine teaming)을 통해 수학적 실험이 어떻게 더 활발하게 이루어질 수 있는지를 다룹니다. 저자는 단 하나의 주말 동안 두 가지 문제에 도전했습니다. 첫째는 정확한 산술 검증(exact-arithmetic checking), 둘째는 증명 보조 도구(proof assistant) 활용입니다. AI가 수학적 추론과 검증 과정에서 인간의 역할을 보완함으로써 수학 실험의 속도와 규모를 확장할 수 있음을 보여줍니다. 전통적으로 수학적 발견은 소수의 전문가에 의해 이루어졌으나, AI 도구의 발전으로 더 많은 연구자가 실험적 수학에 접근할 수 있는 환경이 조성되고 있음을 강조합니다. 계산 과학과 형식 검증 분야의 연구자들에게 참고할 만한 사례를 제공합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-15",
       "summary": "오늘 다이제스트는 Java/Kotlin 생태계의 서버 사이드 렌더링 혁신, Meta의 30B 로컬 에이전틱 모델 Muse Glimmer 오픈소스 공개, Anthropic의 AI 리스크 보고서 발표 등 AI 및 소프트웨어 개발 전반의 굵직한 뉴스를 다룹니다. AI 에이전트 도구 생태계에서는 Claude Code 토큰 절감 오픈소스 Graft와 pydantic-ai의 보안 패치 및 신기능이 눈에 띄며, Cloudflare의 cdnjs 마이그레이션과 LLM 기반 GraphQL 모킹 표준화 논의도 주목할 만한 아키텍처 동향입니다.",
       "highlights": [
