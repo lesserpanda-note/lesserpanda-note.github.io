@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-19T02:30:53+09:00",
-  "count": 956,
+  "updated": "2026-08-19T03:41:53+09:00",
+  "count": 957,
   "items": [
+    {
+      "title": "How Much Memory Does Your Agent Actually Need?",
+      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787076578,
+      "published": "2026-08-18T18:09:38+00:00",
+      "collected_at": "2026-08-19T03:41:48+09:00"
+    },
     {
       "title": "From Prototype to Production: The Architecture Behind Secure & Governed AI Agents",
       "link": "https://towardsdatascience.com/from-prototype-to-production-the-architecture-behind-secure-governed-ai-agents/",
@@ -241,6 +251,16 @@
       "ts": 1787050800,
       "published": "2026-08-18T11:00:00+00:00",
       "collected_at": "2026-08-18T20:28:17+09:00"
+    },
+    {
+      "title": "Pacing model development in an era of cyber-critical capabilities",
+      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
+      "ts": 1787050800,
+      "published": "2026-08-18T11:00:00+00:00",
+      "collected_at": "2026-08-19T03:41:48+09:00"
     },
     {
       "title": "We still don’t know how people are really using AI",
@@ -9550,16 +9570,6 @@
       "summary": "GenPage is a generative AI system developed by Netflix to replace its traditional multi-stage recommendation pipeline by directly generating personalized user homepages. GenPage leverages user history and request contex…",
       "ts": 1784491200,
       "published": "2026-07-19T20:00:00+00:00",
-      "collected_at": "2026-07-20T05:09:50+09:00"
-    },
-    {
-      "title": "Toward a Durable Spring PetClinic",
-      "link": "https://foojay.io/today/toward-a-durable-spring-petclinic/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Overview Durable Execution is a way of running code so that its progress survives failure. A normal program keeps its state in memory: if the process crashes, the machine reboots, or a network call times out halfway thr…",
-      "ts": 1784484366,
-      "published": "2026-07-19T18:06:06+00:00",
       "collected_at": "2026-07-20T05:09:50+09:00"
     }
   ]
