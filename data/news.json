@@ -1,7 +1,57 @@
 {
-  "updated": "2026-08-18T22:45:49+09:00",
-  "count": 942,
+  "updated": "2026-08-18T23:37:07+09:00",
+  "count": 948,
   "items": [
+    {
+      "title": "dotnet-1.18.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.18.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "What's Changed .NET: Fix IDE0039 by using local functions in samples by Roger Barreto (@rogerbarreto) in #7666 .NET: Allow agents to opt into concurrent tool invocation by ump45nose in #7650 .NET: Add Foundry hosted ses…",
+      "ts": 1787063458,
+      "published": "2026-08-18T14:30:58+00:00",
+      "collected_at": "2026-08-18T23:36:49+09:00"
+    },
+    {
+      "title": "Introducing BoxLang AI Explorer: A Local Catalog for Every AI Pattern",
+      "link": "https://foojay.io/today/introducing-boxlang-ai-explorer-a-local-catalog-for-every-ai-pattern/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Learning a new AI API usually means jumping between scattered documentation pages, guessing at imports, and copy-pasting code that may or may not still work. We wanted something better for BoxLang AI, so we built the Bo…",
+      "ts": 1787062548,
+      "published": "2026-08-18T14:15:48+00:00",
+      "collected_at": "2026-08-18T23:36:49+09:00"
+    },
+    {
+      "title": "Vibe Coding, Maven, and the Dependencies You Didn’t Choose",
+      "link": "https://foojay.io/today/vibe-coding-maven-and-the-dependencies-you-didnt-choose/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "When I write about bad actors, I sometimes try to imagine where they are and how they work. For this article, it’s clearer than usual because there is some evidence around. You can use your imagination to fill in the ..…",
+      "ts": 1787061680,
+      "published": "2026-08-18T14:01:20+00:00",
+      "collected_at": "2026-08-18T23:36:49+09:00"
+    },
+    {
+      "title": "Run Qwen3.8-27B as a Local AI Coding Agent in Just 3 Commands",
+      "link": "https://www.kdnuggets.com/run-qwen3-8-27b-as-a-local-ai-coding-agent-in-just-3-commands",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Download Ollama, pull and serve Qwen3.8-27B, and launch it with OpenCode using just three command lines.",
+      "ts": 1787061629,
+      "published": "2026-08-18T14:00:29+00:00",
+      "collected_at": "2026-08-18T23:36:49+09:00"
+    },
+    {
+      "title": "Working With Python's deque",
+      "link": "https://realpython.com/courses/working-with-pythons-deque/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Python's deque to efficiently append and pop items from both ends, build queues and stacks, and set maxlen for bounded history.",
+      "ts": 1787061600,
+      "published": "2026-08-18T14:00:00+00:00",
+      "collected_at": "2026-08-18T23:36:49+09:00"
+    },
     {
       "title": "The improvement in political analysis in the past 25 years, as demonstrated by excellent demonstrations of statistical workflow from Elliott Morris, Nate Silver, and Eli Mckown-Dawson",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/18/modern-day-political-analysis-excellent-demonstrations-of-statistical-workflow-from-elliott-morris-nate-silver-and-eli-mckown-dawson/",
@@ -161,6 +211,16 @@
       "ts": 1787015304,
       "published": "2026-08-18T01:08:24+00:00",
       "collected_at": "2026-08-18T10:23:43+09:00"
+    },
+    {
+      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/multi-vector-encoder",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787011200,
+      "published": "2026-08-18T00:00:00+00:00",
+      "collected_at": "2026-08-18T23:36:49+09:00"
     },
     {
       "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
