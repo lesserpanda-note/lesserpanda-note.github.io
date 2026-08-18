@@ -1,48 +1,83 @@
 {
-  "updated": "2026-08-17T00:18:05Z",
-  "summary": "오늘은 AWS의 두 가지 주요 발표가 주목받았습니다. DynamoDB에 네이티브 벡터 검색 기능이 추가되어 별도의 벡터 데이터베이스 없이 AI 파이프라인을 구성할 수 있게 되었고, 에이전트 정책 언어 Dogwood가 오픈소스로 공개되어 멀티스텝 에이전트 거버넌스가 한층 강화되었습니다. Agents 분야에서는 Alibaba의 Qwen 3.8 27B 모델이 주목받은 한편, OpenAI Agents Python SDK의 새 버전도 출시되었습니다.",
+  "updated": "2026-08-18T00:18:22Z",
+  "summary": "오늘은 Java의 네이티브 JSON API(JEP 540) 제안, llama.cpp 첫 정식 버전 출시, Stripe의 OpenRouter 70억 달러 인수 등 굵직한 소식이 이어졌습니다. Cloudflare의 TypeScript 기반 CI SDK 출시와 Grab의 AI 에이전트 분석 자동화 성과도 주목할 만하며, 에이전틱 트래픽이 기존 오토스케일링 패러다임을 어떻게 무너뜨리는지에 대한 심층 분석도 눈에 띕니다.",
   "highlights": [
     {
-      "category": "AI",
-      "title": "AWS Introduces Native Vector Search for DynamoDB",
-      "link": "https://www.infoq.com/news/2026/08/aws-dynamodb-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Amazon DynamoDB에 네이티브 벡터 검색 기능이 추가되어 별도의 벡터 데이터베이스 없이 임베딩 저장과 유사도 검색이 가능해졌습니다.",
-      "detail": "Amazon DynamoDB가 네이티브 벡터 검색 기능을 도입했습니다. 개발자들은 이제 애플리케이션 데이터와 함께 임베딩(embeddings)을 DynamoDB에 직접 저장하고, OpenSearch나 Pinecone 같은 별도의 벡터 데이터베이스 없이 ANN(근사 최근접 이웃) 쿼리를 수행할 수 있습니다.\n\n기존에는 시맨틱 검색이나 유사도 검색을 위해 DynamoDB의 운영 데이터를 별도 벡터 스토어에 동기화하는 복잡한 아키텍처가 필요했습니다. 이번 기능 추가로 RAG(검색 증강 생성) 파이프라인, 추천 시스템 등에서 데이터 동기화 오버헤드와 운영 복잡성이 크게 줄어들 것으로 기대됩니다. DynamoDB의 기존 확장성, 일관성, IAM 보안 모델 안에서 벡터 검색을 활용할 수 있어 운영 부담이 적다는 점이 핵심 장점입니다."
+      "category": "Java",
+      "title": "JEP 540 Proposed to Target JDK 28 with a Simple JSON API",
+      "link": "https://www.infoq.com/news/2026/08/java-native-json-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "JDK 28에 네이티브 JSON API(JEP 540)가 타겟으로 제안되었습니다. 외부 라이브러리 없이 JSON을 파싱·생성할 수 있는 불변 기반의 간결한 표준 API입니다.",
+      "detail": "JEP 540, Simple JSON API가 JDK 28 타겟으로 제안(Proposed to Target) 상태에 도달했습니다. 이 API는 외부 라이브러리 없이 Java 표준 라이브러리만으로 JSON 파싱 및 생성이 가능하도록 합니다. 불변(immutable) 모델을 기반으로 하며, 핵심 JSON 작업에 집중된 컴팩트한 설계가 특징입니다.\nJackson, Gson 등 서드파티 라이브러리에 대한 의존성을 줄이고 Java 플랫폼이 직접 JSON을 지원함으로써 개발 생산성과 호환성을 높이는 것이 목표입니다. 채택되면 Java 개발자들의 기본 JSON 처리 방식이 크게 변화할 것으로 예상됩니다."
+    },
+    {
+      "category": "Java",
+      "title": "Idempotent Write Paths: Keeping an Integration Pipeline Correct When Messages Repeat",
+      "link": "https://foojay.io/today/idempotent-write-paths-keeping-an-integration-pipeline-correct-when-messages-repeat/",
+      "summary": "대규모 세일 이후 재무 시스템 불일치 사례를 통해, 통합 파이프라인에서 메시지 중복 전달 시 멱등성을 보장하는 실용적인 패턴을 소개합니다.",
+      "detail": "대규모 프로모션 후 주문 상태가 내부 시스템과 재무 시스템 간 불일치하는 실제 장애에서 출발한 글입니다. 이벤트 기반 아키텍처에서 메시지 브로커는 at-least-once 전달을 보장하므로, 같은 메시지가 여러 번 처리될 수 있습니다.\n멱등성 확보를 위한 핵심 기법으로 고유 메시지 ID를 이용한 중복 감지, 데이터베이스 유니크 제약을 활용한 조건부 쓰기(conditional write), 처리 결과 캐싱 등을 Java 코드 예시와 함께 설명합니다. 분산 환경에서 여러 소비자 인스턴스가 동시에 같은 메시지를 처리하는 경합 상황을 안전하게 다루는 방법을 구체적으로 제시합니다."
     },
     {
       "category": "AI",
-      "title": "Anthropic's 'Watermark' Text Adulteration in Claude Is a Perversion of Writing",
-      "link": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-      "summary": "Daring Fireball의 존 그루버가 Anthropic의 Claude가 출력 텍스트에 워터마크를 삽입하는 것은 작문 도구의 본질을 훼손하는 행위라고 강하게 비판했습니다.",
-      "detail": "Daring Fireball의 존 그루버(John Gruber)는 Anthropic이 Claude 출력 텍스트에 사용자 모르게 일종의 워터마크를 삽입하고 있다는 점을 비판했습니다. 그는 이를 'adulteration(불순물 첨가)'이라 표현하며, AI 생성 텍스트 탐지를 위한 워터마킹이 명목상의 이유가 될 수 있더라도 사용자가 요청한 내용을 몰래 변조하는 것은 작문 도구로서의 신뢰를 근본적으로 배신하는 행위라고 주장했습니다. 제목에서 'Watermark'를 따옴표로 표기한 것은 전통적인 의미의 디지털 워터마크와 다른 형태일 수 있음을 시사합니다. 이 글은 Hacker News에서 72포인트, 51개 댓글을 기록하며 AI 출력의 투명성과 사용자 신뢰에 관한 논의를 촉발했습니다."
+      "title": "Llama.cpp v0.1.0",
+      "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.0",
+      "summary": "로컬 LLM 추론 라이브러리인 llama.cpp가 첫 공식 정식 버전 v0.1.0을 출시했습니다. 로컬 AI 추론 생태계의 중요한 이정표입니다.",
+      "detail": "Georgi Gerganov가 만든 llama.cpp가 공식 v0.1.0 버전을 릴리스하며 프로젝트의 첫 번째 안정 버전을 선언했습니다. C/C++ 기반의 이 추론 라이브러리는 Meta LLaMA를 비롯해 Mistral, Gemma, Phi 등 다양한 오픈소스 LLM을 CPU와 GPU에서 효율적으로 실행할 수 있게 해주는 로컬 AI 생태계의 핵심 도구입니다.\nv0.1.0은 API 안정성, 멀티모달 지원, GGUF 양자화(quantization) 형식의 성숙, 서버 모드 등 주요 기능이 안정화 단계에 도달했음을 의미합니다. Hacker News 커뮤니티에서 활발한 관심을 받으며 로컬 AI 추론의 사실상 표준 도구로서 위치를 재확인했습니다."
+    },
+    {
+      "category": "AI",
+      "title": "Grab Cuts Mechanical Analytics Work From 44% to 30% with AI Agents",
+      "link": "https://www.infoq.com/news/2026/08/grab-ai-analytics-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "동남아시아 슈퍼앱 Grab이 AI 에이전트로 분석가의 기계적 반복 작업 비중을 2월 44%에서 6월 30%로 줄이는 데 성공했습니다.",
+      "detail": "Grab은 AI 에이전트를 활용해 분석팀의 기계적 작업 비중을 불과 4개월 만에 44%에서 30%로 14%p 감소시켰습니다. AI 에이전트는 SQL 쿼리 생성, 대시보드 구성, 정형화된 데이터 추출 등 반복적 분석 작업을 자동화합니다.\n성공의 핵심 요소는 네 가지입니다: (1) 에이전트 자율성과 인간 감독의 균형, (2) 검증된 데이터 세트(certified data)만 에이전트에게 제공, (3) 세션 간 컨텍스트 유지 관리, (4) 이상 결과에 대한 인간 검토 유지. 이를 통해 분석가들은 더 가치 있는 인사이트 도출과 전략적 의사결정에 집중할 수 있게 되었으며, 프로덕션 환경에서 AI 에이전트가 실제 업무를 변화시키는 검증된 케이스 스터디를 제공합니다."
     },
     {
       "category": "Agents",
-      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
-      "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "summary": "Alibaba Qwen 연구소의 Qwen 3.8 27B 모델은 Apache 2.0 라이선스의 비전 지원 LLM으로, 로컬 실행에 적합한 크기이지만 기본값으로 과도한 추론 경향이 있다는 점이 지적되었습니다.",
-      "detail": "Alibaba Qwen 연구소가 공개한 Qwen 3.8 27B는 Apache 2.0 라이선스를 적용한 27B 파라미터의 비전 지원 LLM입니다. Simon Willison은 27B 파라미터가 로컬 기기에서 실행하기에 우수한 크기라고 평가했습니다. 그러나 모델이 기본값으로 '과도하게 사고하는(wildly overthinking)' 경향이 있어, 간단한 요청에도 지나치게 긴 내부 추론 과정을 거친다는 점을 비판했습니다. 비전 기능도 포함되어 이미지 처리가 가능하며, 오픈소스로 공개되어 상업적 사용이 자유롭습니다. 기본 사고 패턴을 조정하면 뛰어난 성능을 발휘할 수 있는 모델로 평가됩니다."
+      "title": "[AINews] Stripe buys OpenRouter for $7B",
+      "link": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+      "summary": "결제 인프라 기업 Stripe가 AI 모델 라우팅 플랫폼 OpenRouter를 70억 달러에 인수했습니다. AI API 경제의 핵심 인프라를 둘러싼 대형 M&A입니다.",
+      "detail": "Stripe가 OpenRouter를 70억 달러($7B)에 인수했다는 소식이 AI 업계에 큰 파장을 일으켰습니다. OpenRouter는 GPT-4, Claude, Gemini, Llama 등 수백 개의 LLM을 단일 통합 API로 접근할 수 있게 해주는 모델 라우팅·집계 플랫폼입니다.\n'GPU도, 에이전트도 아닌, 정말로 뛰어난 인프라와 배포망'이라는 평가처럼, Stripe의 인수 전략은 AI 모델 소비 계층(API 경제)과 결제·분배 네트워크를 결합하려는 포석으로 해석됩니다. 이번 거래는 AI 시대에 모델 자체보다 모델 접근성과 라우팅 인프라의 가치가 급상승하고 있음을 상징적으로 보여줍니다."
     },
     {
       "category": "Agents",
-      "title": "v0.21.1",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.1",
-      "summary": "OpenAI Agents Python SDK v0.21.1이 출시되어 모델 호출 타임아웃, 런 범위 샌드박스 작업 디렉토리, Docker 샌드박스 네트워크 비활성화 등 주요 기능이 추가되었습니다.",
-      "detail": "openai/openai-agents-python v0.21.1이 릴리스되었습니다. 주요 변경사항은 다음과 같습니다.\n\n신규 기능: 모델 호출 타임아웃(model call timeouts)이 추가되어 장시간 실행되는 모델 호출을 제어할 수 있게 되었습니다. 런(run) 범위의 샌드박스 작업 디렉토리 지원이 추가되었으며, Docker 샌드박스의 네트워크 비활성화 옵션과 Modal 샌드박스 리소스 옵션도 신규 제공됩니다.\n\n버그 수정: 통화 승인 결정 처리 오류, MultiProvider 실패 시 자식 리소스 미종료, SQLite 세션 테이블 충돌, 이미지 래스터 콘텐츠 검증 누락, Chat Completions 추론 리플레이 오류, 오디오 절단 문제 등이 수정되었습니다."
+      "title": "Three Generations of Autoscaling — And Why Agentic Traffic Breaks All of Them",
+      "link": "https://towardsdatascience.com/three-generations-of-autoscaling-and-why-agentic-traffic-breaks-all-of-them/",
+      "summary": "에이전틱 AI 트래픽이 20년간의 오토스케일링 패러다임 세 세대 모두를 무너뜨리고 있으며, 새로운 용량 계획 방식이 필요하다는 심층 분석입니다.",
+      "detail": "오토스케일링의 세 세대를 분석합니다: (1) CPU/메모리 지표 기반, (2) 요청률(RPS) 기반, (3) 예측적 사전 스케일링. 에이전틱 워크로드는 이 세 가지 모두를 무력화합니다.\n에이전트 트래픽의 특성상 단계별 작업 체인이 비선형적이고 폭발적인 컴퓨팅 수요를 생성하며, 재시도 루프가 트래픽을 기하급수적으로 증폭시킵니다. 기존 메트릭으로는 에이전트 부하를 사전에 감지하기 어렵습니다. 저자는 새로운 전략으로 큐 깊이(queue depth) 기반 스케일링, 토큰 예산(token budget) 관리, 에이전트 세션 수 기반 프로비저닝, 사전 워밍(pre-warming) 등을 제안합니다."
     },
     {
       "category": "Architecture",
-      "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
-      "link": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "AWS가 Cedar를 확장한 오픈소스 정책 언어 Dogwood를 공개했습니다. 에이전트의 이전 도구 호출 이력을 기반으로 현재 요청의 허용 여부를 결정하는 시간적 조건을 지원합니다.",
-      "detail": "AWS가 Cedar 정책 언어를 확장한 Dogwood를 오픈소스로 공개했습니다. Cedar는 AWS의 세밀한 인가(authorization) 정책 언어로, 기존에는 단일 요청 단위로만 정책을 평가했습니다. Dogwood는 시간적 조건(temporal conditions)을 추가하여 에이전트의 이전 도구 호출 이력을 기반으로 현재 요청의 허용 여부를 결정할 수 있게 합니다.\n\n이 도구는 에이전트 파이프라인에서 승인 흐름, 속도 제한(rate limits), 역할 위임 등을 정책으로 표현하는 데 활용됩니다. 다단계 에이전트 작업에서 발생하는 권한 남용(confused deputy) 문제를 해결하는 데 특히 유용합니다. Cedar의 핵심 속성인 완전한 결정 가능성(decidability)을 유지하면서 에이전트 특유의 복잡한 시퀀스 정책을 표현할 수 있다는 점이 차별점입니다."
+      "title": "Cloudflare Turns CI Pipelines into TypeScript Workflows",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-ci-code-workflows/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Cloudflare가 TypeScript로 CI 파이프라인을 코드로 정의하는 cloudflare/ci SDK를 출시했습니다. 각 단계에 내구성 있는 재시도와 기본 병렬 실행을 지원합니다.",
+      "detail": "Cloudflare는 cloudflare/ci SDK를 공개하여 개발자가 YAML 대신 TypeScript로 CI 파이프라인을 작성할 수 있게 했습니다. Cloudflare Workflows 위에 구축되어 각 단계에 내구성 있는 재시도(durable retries)와 재생(replay) 기능을 기본 제공합니다.\n주요 특징으로는 기본 병렬 단계 실행, Sandbox 스냅샷 캐싱을 통한 빌드 속도 향상, TypeScript 타입 시스템을 통한 파이프라인 로직의 명시적 표현 등이 있습니다. YAML 기반 CI 설정과 달리 프로그래밍 언어의 표현력(조건문, 반복문, 함수)을 파이프라인에 직접 활용할 수 있어 복잡한 CI 로직을 더 명확하게 구현할 수 있습니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "Article: Agentic Fitness Functions: Extending Evolutionary Architecture Beyond Deterministic Rules",
+      "link": "https://www.infoq.com/articles/agentic-fitness-functions-evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "AI 에이전트와 버전화된 루브릭을 결합한 '에이전틱 피트니스 함수'로 판단이 필요한 복잡한 아키텍처 품질 속성을 자동 평가하는 방법을 제안합니다.",
+      "detail": "진화적 아키텍처(Evolutionary Architecture)의 피트니스 함수 개념을 AI 에이전트로 확장한 접근법입니다. 기존 결정론적 피트니스 함수(응답 시간, 테스트 커버리지 등)는 측정 가능한 메트릭에 집중하지만, 경계 컨텍스트(bounded context) 준수, 서비스 응집성, 도메인 모델 의도 같은 판단이 필요한 아키텍처 관심사는 평가하기 어렵습니다.\n에이전틱 피트니스 함수는 LLM 에이전트가 버전화된 루브릭(평가 기준표)을 기반으로 이런 복잡한 품질 속성을 자동 평가합니다. 루브릭을 버전 관리함으로써 평가 기준의 변화를 추적하고, CI/CD 파이프라인에 통합하여 아키텍처 드리프트를 지속적으로 감지할 수 있는 실용적인 방법론입니다."
+    },
+    {
+      "category": "Python",
+      "title": "How to Debug Python Code With an AI Agent",
+      "link": "https://realpython.com/ai-debugging/",
+      "summary": "AI 에이전트를 파트너로 활용한 Python 디버깅 워크플로우를 단계별로 안내합니다. 실패하는 테스트로 버그를 재현하고, 에이전트에게 컨텍스트를 제공한 뒤 수정을 검증하는 방법입니다.",
+      "detail": "Real Python의 실용적인 튜토리얼로, AI 코딩 에이전트와 협력하여 Python 버그를 체계적으로 해결하는 방법을 설명합니다. 핵심 워크플로우는 세 단계입니다: (1) 실패하는 단위 테스트로 버그를 재현 가능하게 격리하기, (2) 에러 메시지, 스택 트레이스, 관련 코드 컨텍스트를 에이전트에게 충분히 제공하기, (3) 에이전트의 수정 제안을 기존 테스트로 검증하기.\nAI 에이전트를 단순한 코드 생성기가 아닌 능동적인 디버깅 파트너로 활용하는 방법에 초점을 맞추며, 수정이 다른 부분을 깨뜨리지 않는지 테스트로 보장하는 것을 강조합니다."
     },
     {
       "category": "DataScience",
-      "title": "Running SQL Concurrently Across Three Remote DuckDB Servers with Quack",
-      "link": "https://towardsdatascience.com/running-sql-concurrently-across-three-remote-duckdb-servers-with-quack/",
-      "summary": "Quack 도구를 활용해 세 개의 원격 DuckDB 서버에 동시에 SQL 쿼리를 실행하는 실험을 소개한 글로, 분산 SQL 실행 패턴을 다룹니다.",
-      "detail": "이 글은 Quack 도구를 활용해 세 개의 원격 DuckDB 서버에 동시에 SQL 쿼리를 실행하는 실험을 다루고 있습니다. DuckDB는 일반적으로 임베디드 방식으로 사용되지만, 원격 서버 모드에서도 작동할 수 있습니다. Quack을 사용하면 여러 DuckDB 인스턴스에 동시(concurrent) SQL 실행이 가능하여 순차 실행 대비 응답 시간을 크게 줄일 수 있습니다.\n\n분산 데이터 파이프라인 구성이나 여러 서버에 분산된 데이터를 집계해야 하는 데이터 엔지니어링 시나리오에 유용한 패턴을 보여주며, 원격 쿼리 결과를 클라이언트 측에서 통합하는 방식도 설명합니다."
+      "title": "Frequentism for Bayesians: He wants to teach frequentist methods to engineering students with a strong Bayesian background",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/17/he-wants-to-teach-frequentist-methods-to-engineering-students-with-a-strong-bayesian-background/",
+      "summary": "베이지안 통계를 먼저 배운 공학 학생들에게 빈도주의 방법을 가르치는 방법과, 두 통계 패러다임의 상호보완적 관계를 심층 논의합니다.",
+      "detail": "Columbia 대학교 통계학 블로그(Statistical Modeling)에서 다루는 교육학적 주제로, 베이지안 배경을 가진 공학 학생들에게 빈도주의 통계를 가르치는 최선의 방법을 탐구합니다. 점 추정(point estimation), 가설 검정(hypothesis testing), 불확실성 정량화를 베이지안 프레임워크에서 먼저 접한 학생들에게 빈도주의적 해석을 연결하는 것이 핵심 과제입니다.\n이 논의는 단순한 교육 방법론을 넘어, 두 통계 패러다임을 대립적 관계가 아닌 상호보완적 관점에서 이해하는 것이 실제 데이터 과학 업무에서 더 유연하고 강력한 사고를 가능하게 한다는 점을 강조합니다. 빈도주의와 베이지안의 차이를 실용적으로 이해하고자 하는 데이터 과학자에게 유용한 관점을 제공합니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "5 Python Libraries That Make Data Cleaning More Enjoyable",
+      "link": "https://www.kdnuggets.com/5-python-libraries-that-make-data-cleaning-more-enjoyable",
+      "summary": "데이터 정제 작업을 표현력 있고 즐겁게 만들어주는 Python 라이브러리 5가지를 소개합니다.",
+      "detail": "데이터 과학 실무에서 가장 많은 시간을 소비하는 데이터 클리닝 작업을 효율화하는 Python 라이브러리 5개를 소개하는 KDnuggets 아티클입니다. pandas의 기본 기능을 넘어 데이터 품질 검사, 이상값 탐지, 결측값 처리, 데이터 타입 추론, 스키마 검증 등을 더 직관적이고 선언적으로 처리할 수 있는 도구들을 다룹니다.\n각 라이브러리는 특정 클리닝 작업에 특화되어 있어, 데이터 엔지니어와 분석가가 파이프라인 구축 시 목적에 맞게 조합하여 사용할 수 있습니다. 반복적이고 지루한 데이터 전처리 코드를 줄이고, 더 선언적이고 표현력 있는 방식으로 데이터 품질을 관리하는 것을 목표로 합니다."
     }
   ]
 }
