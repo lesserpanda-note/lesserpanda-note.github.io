@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-19T04:30:38+09:00",
-  "count": 958,
+  "updated": "2026-08-19T05:27:45+09:00",
+  "count": 959,
   "items": [
+    {
+      "title": "Survey Statistics: Modeling Complex Contingency Tables",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/18/survey-statistics-modeling-complex-contingency-tables/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Andrew looped me into an email thread with folks working on poststratification with partial population information. (He knew I’d be interested, see “poststratification without population level information”.) They pointe…",
+      "ts": 1787083231,
+      "published": "2026-08-18T20:00:31+00:00",
+      "collected_at": "2026-08-19T05:27:40+09:00"
+    },
+    {
+      "title": "Strengthening Democratic Oversight in National Security",
+      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
+      "ts": 1787079600,
+      "published": "2026-08-18T19:00:00+00:00",
+      "collected_at": "2026-08-19T05:27:40+09:00"
+    },
     {
       "title": "How Much Memory Does Your Agent Actually Need?",
       "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
@@ -11,6 +31,16 @@
       "ts": 1787076578,
       "published": "2026-08-18T18:09:38+00:00",
       "collected_at": "2026-08-19T03:41:48+09:00"
+    },
+    {
+      "title": "Claude Code May–August 2026 weekly limits promotion",
+      "link": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion Comments URL: https://news.ycombinator.com/item?id=49348751 Points: 236 # Comments: 197",
+      "ts": 1787072535,
+      "published": "2026-08-18T17:02:15+00:00",
+      "collected_at": "2026-08-19T05:27:40+09:00"
     },
     {
       "title": "From Prototype to Production: The Architecture Behind Secure & Governed AI Agents",
@@ -9561,26 +9591,6 @@
       "ts": 1784497886,
       "published": "2026-07-19T21:51:26+00:00",
       "collected_at": "2026-07-20T09:25:16+09:00"
-    },
-    {
-      "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
-      "link": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "GenPage is a generative AI system developed by Netflix to replace its traditional multi-stage recommendation pipeline by directly generating personalized user homepages. GenPage leverages user history and request contex…",
-      "ts": 1784491200,
-      "published": "2026-07-19T20:00:00+00:00",
-      "collected_at": "2026-07-20T05:09:50+09:00"
-    },
-    {
-      "title": "How Netflix Built GenPage: a Single GenAI Model to Build Personalized Homepages",
-      "link": "https://www.infoq.com/news/2026/07/netflix-llm-homepage-generation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "GenPage is a generative AI system developed by Netflix to replace its traditional multi-stage recommendation pipeline by directly generating personalized user homepages. GenPage leverages user history and request contex…",
-      "ts": 1784491200,
-      "published": "2026-07-19T20:00:00+00:00",
-      "collected_at": "2026-07-20T05:09:50+09:00"
     }
   ]
 }
