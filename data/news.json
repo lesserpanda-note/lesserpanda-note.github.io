@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-20T03:39:54+09:00",
+  "updated": "2026-08-20T04:28:55+09:00",
   "count": 961,
   "items": [
     {
@@ -11,6 +11,36 @@
       "ts": 1787166000,
       "published": "2026-08-19T19:00:00+00:00",
       "collected_at": "2026-08-20T02:29:24+09:00"
+    },
+    {
+      "title": "5 new ways to level up your learning with Search",
+      "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "an illustrated image with icons and phrasing like \"Add Notebook\" and \"Ask Google\"",
+      "ts": 1787166000,
+      "published": "2026-08-19T19:00:00+00:00",
+      "collected_at": "2026-08-20T04:28:50+09:00"
+    },
+    {
+      "title": "v0.14.24",
+      "link": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24",
+      "source": "LlamaIndex",
+      "category": "Agents",
+      "summary": "Release Notes [2026-08-19] llama-index-core [0.14.24] fix: close HotpotQA evaluator file handles ( #22113 ) fix(core): preserve oversized leaf nodes in CodeSplitter ( #22119 ) fix: preserve multiblock chat history write…",
+      "ts": 1787165281,
+      "published": "2026-08-19T18:48:01+00:00",
+      "collected_at": "2026-08-20T04:28:50+09:00"
+    },
+    {
+      "title": "Show HN: Open Bot – an open-source Grok Bot that works with any agent harness",
+      "link": "https://github.com/copilotkit/openbot",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/copilotkit/openbot Comments URL: https://news.ycombinator.com/item?id=49365575 Points: 11 # Comments: 1",
+      "ts": 1787165148,
+      "published": "2026-08-19T18:45:48+00:00",
+      "collected_at": "2026-08-20T04:28:50+09:00"
     },
     {
       "title": "Citizens Build, Agents Execute, Experts Govern",
@@ -9581,36 +9611,6 @@
       "ts": 1784592000,
       "published": "2026-07-21T00:00:00+00:00",
       "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Reverse-engineering is cheap now",
-      "link": "https://simonwillison.net/2026/Jul/20/cheap-reverse-engineering/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I keep hearing anecdotes from people who used coding agents to reverse-engineer and automate devices in their homes. I think this is an interesting illustration of the impact of the reduced cost of writing code. Prior t…",
-      "ts": 1784575445,
-      "published": "2026-07-20T19:24:05+00:00",
-      "collected_at": "2026-07-21T05:24:36+09:00"
-    },
-    {
-      "title": "Java News Roundup: Value Objects, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio",
-      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for July 13th, 2026, features news highlighting: a reintroduction of Value Objects (Preview); the GA release of WildFly 41; the July 2026 edition of Open Liberty 26.0.0.7; point releases of Torn…",
-      "ts": 1784573100,
-      "published": "2026-07-20T18:45:00+00:00",
-      "collected_at": "2026-07-21T03:55:22+09:00"
-    },
-    {
-      "title": "Java News Roundup: Value Objects, WildFly 41, TornadoVM, LangChain4j, Oracle AI Agent Studio",
-      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul13-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for July 13th, 2026, features news highlighting: a reintroduction of Value Objects (Preview); the GA release of WildFly 41; the July 2026 edition of Open Liberty 26.0.0.7; point releases of Torn…",
-      "ts": 1784573100,
-      "published": "2026-07-20T18:45:00+00:00",
-      "collected_at": "2026-07-21T03:55:22+09:00"
     }
   ]
 }
