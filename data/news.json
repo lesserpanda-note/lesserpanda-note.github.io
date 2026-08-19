@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-19T13:43:11+09:00",
+  "updated": "2026-08-19T15:50:17+09:00",
   "count": 960,
   "items": [
+    {
+      "title": "How to Remove Claude Watermarks from Text, Code, and Files",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/how-to-remove-claude-watermarks/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Claude now marks AI-generated content. But it does not mark everything the same way. Anthropic currently uses embedded watermarks for text and signed C2PA provenance metadata for supported files. Code sits somewhere in…",
+      "ts": 1787118775,
+      "published": "2026-08-19T05:52:55+00:00",
+      "collected_at": "2026-08-19T15:50:04+09:00"
+    },
     {
       "title": "v2.32.0 (2026-08-18)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.32.0",
@@ -21,6 +31,16 @@
       "ts": 1787104891,
       "published": "2026-08-19T02:01:31+00:00",
       "collected_at": "2026-08-19T12:00:27+09:00"
+    },
+    {
+      "title": "ChatGPT Ads expands across Europe",
+      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "ts": 1787090400,
+      "published": "2026-08-18T22:00:00+00:00",
+      "collected_at": "2026-08-19T15:50:04+09:00"
     },
     {
       "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
@@ -9581,26 +9601,6 @@
       "ts": 1784536741,
       "published": "2026-07-20T08:39:01+00:00",
       "collected_at": "2026-07-20T20:48:57+09:00"
-    },
-    {
-      "title": "Complete Guide to Thinking Machines Inkling",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/thinking-machines-inkling/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Thinking Machines Lab has unveiled Inkling, its first general-purpose open-weights foundation model. It is a multimodal MoE model with 975B parameters, 41B active parameters, and a 1M-token context window. Rather than c…",
-      "ts": 1784529420,
-      "published": "2026-07-20T06:37:00+00:00",
-      "collected_at": "2026-07-20T17:21:12+09:00"
-    },
-    {
-      "title": "First Test of Java on Banana Pi (ARM and RISC-V), Plus a Blinking LED with Pi4J",
-      "link": "https://foojay.io/today/first-test-of-java-on-banana-pi-arm-and-risc-v-plus-a-blinking-led-with-pi4j/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "As part of my 2026 learning goals around Java on RISC-V (see this post about x86 versus ARM versus RISC-V), I've asked various suppliers to send me evaluation boards. I already published these: I got all these boards fo…",
-      "ts": 1784527380,
-      "published": "2026-07-20T06:03:00+00:00",
-      "collected_at": "2026-07-20T17:21:12+09:00"
     }
   ]
 }
