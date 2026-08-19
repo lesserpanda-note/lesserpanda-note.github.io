@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-19T21:53:51+09:00",
-  "count": 958,
+  "updated": "2026-08-19T22:48:17+09:00",
+  "count": 955,
   "items": [
+    {
+      "title": "v0.22.0",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.0",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "Key Changes Version 0.22.0 is a minor release because it adds substantial runtime hardening and tightens an existing provider configuration contract. Applications that combine an explicit openai_client with organization…",
+      "ts": 1787147078,
+      "published": "2026-08-19T13:44:38+00:00",
+      "collected_at": "2026-08-19T22:47:51+09:00"
+    },
     {
       "title": "5 Tools for Building and Deploying AI Agents in Production",
       "link": "https://www.kdnuggets.com/5-tools-for-building-and-deploying-ai-agents-in-production",
@@ -1421,6 +1431,16 @@
       "ts": 1786688160,
       "published": "2026-08-14T06:16:00+00:00",
       "collected_at": "2026-08-17T16:02:07+09:00"
+    },
+    {
+      "title": "How AWS Powers PyPI and the PSF",
+      "link": "https://blog.pypi.org/posts/2026-08-14-how-aws-powers-pypi-and-the-psf/",
+      "source": "PyPI Blog",
+      "category": "Python",
+      "summary": "Working on infrastructure at the Python Software Foundation (PSF) as the Director of Engineering is a broad job with many hats. Python turns up everywhere. It's in healthcare systems and government agencies, in research…",
+      "ts": 1786687740,
+      "published": "2026-08-14T06:09:00+00:00",
+      "collected_at": "2026-08-19T22:47:51+09:00"
     },
     {
       "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
@@ -9530,56 +9550,6 @@
       "summary": "DoorDash has developed Entity Cache, a transparent proxy caching platform built on Envoy and Valkey to reduce redundant service-to-service requests across its microservices architecture. Operating within DoorDash’s serv…",
       "ts": 1784555580,
       "published": "2026-07-20T13:53:00+00:00",
-      "collected_at": "2026-07-20T23:14:17+09:00"
-    },
-    {
-      "title": "Water Cooler Small Talk, Ep. 12: Byzantine Fault Tolerance",
-      "link": "https://towardsdatascience.com/water-cooler-small-talk-ep-12-byzantine-fault-tolerance/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "How do you make decisions when you can't trust anyone in the room? The post Water Cooler Small Talk, Ep. 12: Byzantine Fault Tolerance appeared first on Towards Data Science .",
-      "ts": 1784554200,
-      "published": "2026-07-20T13:30:00+00:00",
-      "collected_at": "2026-07-20T23:14:17+09:00"
-    },
-    {
-      "title": "Criminal innumeracy",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/20/criminal-innumeracy/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This horrifying news article relates this stunning story of governmental innumeracy: Mr. Bovino said he had a master plan that was in motion before his exile back to El Centro. It would have neutralized protesters, he s…",
-      "ts": 1784553410,
-      "published": "2026-07-20T13:16:50+00:00",
-      "collected_at": "2026-08-08T01:00:34+09:00"
-    },
-    {
-      "title": "Rebecca Makkai points out: Fancy three-dimensional sets are easier to construct in books than in movies, but harder to explain",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/20/fancy-three-dimensional-sets-are-easier-to-construct-in-books-than-in-movies-but-harder-to-explain/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "In a post entitled, “You’re Writing a Book. So Stop Writing a Movie,” Rebecca Makkai writes: You want to set your movie in a futuristic New York where every building has a flying car port on top and there are … Continue…",
-      "ts": 1784552643,
-      "published": "2026-07-20T13:04:03+00:00",
-      "collected_at": "2026-07-20T23:14:17+09:00"
-    },
-    {
-      "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators",
-      "link": "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "InfoQ has opened enrollment for three five-week online certification cohorts starting in August, each led by a senior practitioner applying QCon talk frameworks to participants' own work: architecture with Luca Mezzalir…",
-      "ts": 1784552400,
-      "published": "2026-07-20T13:00:00+00:00",
-      "collected_at": "2026-07-20T23:14:17+09:00"
-    },
-    {
-      "title": "Three InfoQ Certification Cohorts Start This August: Meet the Facilitators",
-      "link": "https://www.infoq.com/news/2026/07/infoq-online-cohorts-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "InfoQ has opened enrollment for three five-week online certification cohorts starting in August, each led by a senior practitioner applying QCon talk frameworks to participants' own work: architecture with Luca Mezzalir…",
-      "ts": 1784552400,
-      "published": "2026-07-20T13:00:00+00:00",
       "collected_at": "2026-07-20T23:14:17+09:00"
     }
   ]
