@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-20T00:34:50+09:00",
+  "updated": "2026-08-20T01:35:24+09:00",
   "count": 958,
   "items": [
+    {
+      "title": "Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality",
+      "link": "https://towardsdatascience.com/kimi-k3s-1m-token-context-window-vs-rag-cost-latency-and-answer-quality/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A controlled comparison of a top-5 RAG pipeline and a full 127,000 token prompt on the same 12 questions, same system prompt and same model. Graded blind on correctness, completeness and grounding. The post Kimi K3’s 1M…",
+      "ts": 1787157000,
+      "published": "2026-08-19T16:30:00+00:00",
+      "collected_at": "2026-08-20T01:35:03+09:00"
+    },
+    {
+      "title": "Signatures, be true: domain errors and functional handling in Kotlin",
+      "link": "https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-domain-errors-and-functional-handling-in-kotlin/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Here’s a function that signs a document: In Kotlin, Unit means the function completes without returning a meaningful value – roughly equivalent to void in Java. Got it? Now, tell me what could go wrong. You can’t. Yet,…",
+      "ts": 1787154725,
+      "published": "2026-08-19T15:52:05+00:00",
+      "collected_at": "2026-08-20T01:35:03+09:00"
+    },
     {
       "title": "Understanding Anti-AI Public Opinion",
       "link": "https://towardsdatascience.com/understanding-anti-ai-public-opinion/",
@@ -121,6 +141,16 @@
       "ts": 1787140800,
       "published": "2026-08-19T12:00:00+00:00",
       "collected_at": "2026-08-19T21:53:46+09:00"
+    },
+    {
+      "title": "Quiz: How to Use Claude Code to Write and Debug Python",
+      "link": "https://realpython.com/quizzes/how-to-use-claude-code/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Claude Code by working through installation, plan mode, diff review, and debugging a Python project.",
+      "ts": 1787140800,
+      "published": "2026-08-19T12:00:00+00:00",
+      "collected_at": "2026-08-20T01:35:03+09:00"
     },
     {
       "title": "Presentation: Understanding Progressive Collapse: How To Avoid A Cascading Failure",
@@ -9551,36 +9581,6 @@
       "ts": 1784567359,
       "published": "2026-07-20T17:09:19+00:00",
       "collected_at": "2026-07-21T03:55:22+09:00"
-    },
-    {
-      "title": "1.15.5",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.5",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Authenticate skill registry downloads Documentation Update snapshot and changelog for v1.15.4 Contributors @vinibrsl",
-      "ts": 1784565205,
-      "published": "2026-07-20T16:33:25+00:00",
-      "collected_at": "2026-07-21T03:55:22+09:00"
-    },
-    {
-      "title": "How to Run Claude Code Agents for 24+ Hours",
-      "link": "https://towardsdatascience.com/how-to-run-claude-code-agents-for-24-hours/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Apply long-running coding agents to become a more productive engineer The post How to Run Claude Code Agents for 24+ Hours appeared first on Towards Data Science .",
-      "ts": 1784565000,
-      "published": "2026-07-20T16:30:00+00:00",
-      "collected_at": "2026-07-21T03:55:22+09:00"
-    },
-    {
-      "title": "Introducing Cosmos 3 Edge",
-      "link": "https://huggingface.co/blog/nvidia/cosmos3edge",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1784563131,
-      "published": "2026-07-20T15:58:51+00:00",
-      "collected_at": "2026-07-21T01:26:41+09:00"
     }
   ]
 }
