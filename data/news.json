@@ -1,7 +1,67 @@
 {
-  "updated": "2026-08-19T22:48:17+09:00",
-  "count": 955,
+  "updated": "2026-08-19T23:37:43+09:00",
+  "count": 957,
   "items": [
+    {
+      "title": "Whatsapp Tests on Device ML for Scam Detection with Privacy Preserving Analytics",
+      "link": "https://www.infoq.com/news/2026/08/whatsapp-scam-alert-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "WhatsApp is testing Scam Alert in limited beta, using on device machine learning to detect potential scam messages from non contacts. Meta's architecture keeps message content on the device while using confidential comp…",
+      "ts": 1787149020,
+      "published": "2026-08-19T14:17:00+00:00",
+      "collected_at": "2026-08-19T23:37:39+09:00"
+    },
+    {
+      "title": "Whatsapp Tests on Device ML for Scam Detection with Privacy Preserving Analytics",
+      "link": "https://www.infoq.com/news/2026/08/whatsapp-scam-alert-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "WhatsApp is testing Scam Alert in limited beta, using on device machine learning to detect potential scam messages from non contacts. Meta's architecture keeps message content on the device while using confidential comp…",
+      "ts": 1787149020,
+      "published": "2026-08-19T14:17:00+00:00",
+      "collected_at": "2026-08-19T23:37:39+09:00"
+    },
+    {
+      "title": "How to Answer AI System Design Interview Questions",
+      "link": "https://www.kdnuggets.com/how-to-answer-ai-system-design-interview-questions",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "The interview moved from Design YouTube to Design ChatGPT. Here's the framework.",
+      "ts": 1787148055,
+      "published": "2026-08-19T14:00:55+00:00",
+      "collected_at": "2026-08-19T23:37:39+09:00"
+    },
+    {
+      "title": "How to Use Claude Code to Write and Debug Python",
+      "link": "https://realpython.com/how-to-use-claude-code/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Claude Code to build and debug Python projects with natural-language commands right from your terminal.",
+      "ts": 1787148000,
+      "published": "2026-08-19T14:00:00+00:00",
+      "collected_at": "2026-08-19T23:37:39+09:00"
+    },
+    {
+      "title": "What does it mean when different articles published by different people on the same topic have nearly identical titles? (“A novel nutritional supplement reduces postprandial glucose response in healt…",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/19/what-does-it-mean-when-different-articles-published-by-different-people-on-the-same-topic-have-nearly-identical-titles-a-novel-nutritional-supplement-reduces-postprandial-glucose-response-in-heal/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Sanjeev Sripathi writes: I came across a firm that seems to be offering a miracle product – https://letsmoderate.com/products/sugar-slayer . Their claim is that ingesting it hammers your post-meal blood sugar spike down…",
+      "ts": 1787147434,
+      "published": "2026-08-19T13:50:34+00:00",
+      "collected_at": "2026-08-19T23:37:39+09:00"
+    },
+    {
+      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
+      "link": "https://huggingface.co/blog/LiquidAI/qad",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787147329,
+      "published": "2026-08-19T13:48:49+00:00",
+      "collected_at": "2026-08-19T23:37:39+09:00"
+    },
     {
       "title": "v0.22.0",
       "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.0",
@@ -9511,46 +9571,6 @@
       "ts": 1784559600,
       "published": "2026-07-20T15:00:00+00:00",
       "collected_at": "2026-07-21T01:26:41+09:00"
-    },
-    {
-      "title": "A Beginner’s Guide to Setting Up Claude Code for High Performance Agentic Programming",
-      "link": "https://www.kdnuggets.com/a-beginners-guide-to-setting-up-claude-code-for-high-performance-agentic-programming",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "This article walks through the actual configuration, permissions, hooks, and command habits that separate a fresh install from a setup that holds up under real, sustained agentic work.",
-      "ts": 1784556023,
-      "published": "2026-07-20T14:00:23+00:00",
-      "collected_at": "2026-07-20T23:14:17+09:00"
-    },
-    {
-      "title": "Using NumPy reshape() to Change the Shape of an Array",
-      "link": "https://realpython.com/numpy-reshape/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use NumPy reshape() in Python to change an array's shape, add or remove dimensions, and control how the data is rearranged.",
-      "ts": 1784556000,
-      "published": "2026-07-20T14:00:00+00:00",
-      "collected_at": "2026-07-21T01:26:41+09:00"
-    },
-    {
-      "title": "Show HN: A Pipeline for Making 10-minute AI Movies with Claude Code and Seedance",
-      "link": "https://github.com/dawndrain/movie-gen",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "I've been working on this Claude Code pipeline for making 10-minute movies, gluing together Seedance (videogen), Nano Banana (image gen), and ElevenLabs (voice gen), and using Claude as the director. My repo contributes…",
-      "ts": 1784555864,
-      "published": "2026-07-20T13:57:44+00:00",
-      "collected_at": "2026-07-22T01:24:59+09:00"
-    },
-    {
-      "title": "DoorDash Uses Envoy and Valkey for a 1.5M RPS Proxy Cache with 99.99999% Availability",
-      "link": "https://www.infoq.com/news/2026/07/doordash-entity-cache-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "DoorDash has developed Entity Cache, a transparent proxy caching platform built on Envoy and Valkey to reduce redundant service-to-service requests across its microservices architecture. Operating within DoorDash’s serv…",
-      "ts": 1784555580,
-      "published": "2026-07-20T13:53:00+00:00",
-      "collected_at": "2026-07-20T23:14:17+09:00"
     }
   ]
 }
