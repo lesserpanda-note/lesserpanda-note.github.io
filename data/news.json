@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-19T19:32:51+09:00",
+  "updated": "2026-08-19T20:28:55+09:00",
   "count": 958,
   "items": [
+    {
+      "title": "Presentation: Understanding Progressive Collapse: How To Avoid A Cascading Failure",
+      "link": "https://www.infoq.com/presentations/progressive-collapse-system-resilience/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Sam Newman discusses the concept of progressive collapse in civil engineering and how it applies to distributed systems. Using real-world examples - from the 1968 Ronan Point tower failure to AWS outages - he shares cru…",
+      "ts": 1787137200,
+      "published": "2026-08-19T11:00:00+00:00",
+      "collected_at": "2026-08-19T20:28:33+09:00"
+    },
+    {
+      "title": "Patch release: v5.15.1",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It co…",
+      "ts": 1787136647,
+      "published": "2026-08-19T10:50:47+00:00",
+      "collected_at": "2026-08-19T20:28:33+09:00"
+    },
     {
       "title": "[AINews] Memory prices up 500% in 12 months",
       "link": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
@@ -9561,26 +9581,6 @@
       "ts": 1784548800,
       "published": "2026-07-20T12:00:00+00:00",
       "collected_at": "2026-07-20T23:14:17+09:00"
-    },
-    {
-      "title": "Building Agentic Workflows in Python with LangGraph",
-      "link": "https://machinelearningmastery.com/building-agentic-workflows-in-python-with-langgraph/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how to build a complete agentic workflow in Python with LangGraph, from a single model call to a tool-using...",
-      "ts": 1784546838,
-      "published": "2026-07-20T11:27:18+00:00",
-      "collected_at": "2026-07-20T23:14:17+09:00"
-    },
-    {
-      "title": "Podcast: Strands Agents with Clare Liguori",
-      "link": "https://www.infoq.com/podcasts/strands-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Thomas Betts talks with Clare Liguori, the technical lead on the open source Strands Agents SDK. The conversation covers how Strands Agents has grown from a Python SDK to a full agent harness running in production. Clar…",
-      "ts": 1784545200,
-      "published": "2026-07-20T11:00:00+00:00",
-      "collected_at": "2026-07-20T20:48:57+09:00"
     }
   ]
 }
