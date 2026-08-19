@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-20T02:29:30+09:00",
-  "count": 958,
+  "updated": "2026-08-20T03:39:54+09:00",
+  "count": 961,
   "items": [
     {
       "title": "Offering Zero Data Retention for frontier models",
@@ -11,6 +11,46 @@
       "ts": 1787166000,
       "published": "2026-08-19T19:00:00+00:00",
       "collected_at": "2026-08-20T02:29:24+09:00"
+    },
+    {
+      "title": "Citizens Build, Agents Execute, Experts Govern",
+      "link": "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "TL;DR Why building an app over the weekend isn't the same as building enterprise software I’ve noticed an interesting gap opening up over the last six months. It isn’t really a gap in technology. It’s a gap in what diff…",
+      "ts": 1787164200,
+      "published": "2026-08-19T18:30:00+00:00",
+      "collected_at": "2026-08-20T03:39:48+09:00"
+    },
+    {
+      "title": "Practitioner Voice: The Writing Category Nobody has Named Yet",
+      "link": "https://martinfowler.com/articles/practitioner-voice.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Jim Highsmith recognizes that effective writing from a practitioner is a style distinct from academic writing or thought-leadership content. It's a style that I advocate, and my contributors mostly follow. Jim decided i…",
+      "ts": 1787163300,
+      "published": "2026-08-19T18:15:00+00:00",
+      "collected_at": "2026-08-20T03:39:48+09:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.3",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.2 release(sdk-py): 0.4.3 ( #8657 ) feat(sdk-py): add decrypt replacement result ( #8598 ) release(langgraph): 1.2.11 ( #8595 ) chore(deps): bump the minor-and-patch group across 1 directory with 5…",
+      "ts": 1787162732,
+      "published": "2026-08-19T18:05:32+00:00",
+      "collected_at": "2026-08-20T03:39:48+09:00"
+    },
+    {
+      "title": "How to Scale an Integration Pipeline Without Breaking Correctness",
+      "link": "https://towardsdatascience.com/scaling-an-integration-pipeline-without-breaking-correctness/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A production account of scaling an enterprise integration pipeline from 500 to 8,000 events per second, and the two correctness guarantees the throughput work was never allowed to trade away. The post How to Scale an In…",
+      "ts": 1787162400,
+      "published": "2026-08-19T18:00:00+00:00",
+      "collected_at": "2026-08-20T03:39:48+09:00"
     },
     {
       "title": "Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality",
@@ -9570,16 +9610,6 @@
       "summary": "This week's Java roundup for July 13th, 2026, features news highlighting: a reintroduction of Value Objects (Preview); the GA release of WildFly 41; the July 2026 edition of Open Liberty 26.0.0.7; point releases of Torn…",
       "ts": 1784573100,
       "published": "2026-07-20T18:45:00+00:00",
-      "collected_at": "2026-07-21T03:55:22+09:00"
-    },
-    {
-      "title": "China’s AI models have Trump’s AI world at war with itself",
-      "link": "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Over the weekend, several current and former advisors to President Donald Trump o…",
-      "ts": 1784570400,
-      "published": "2026-07-20T18:00:00+00:00",
       "collected_at": "2026-07-21T03:55:22+09:00"
     }
   ]
