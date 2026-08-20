@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-20T13:40:20+09:00",
-  "count": 962,
+  "updated": "2026-08-20T14:34:31+09:00",
+  "count": 963,
   "items": [
+    {
+      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+      "link": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Every lab CEO is on X now",
+      "ts": 1787203032,
+      "published": "2026-08-20T05:17:12+00:00",
+      "collected_at": "2026-08-20T14:34:04+09:00"
+    },
+    {
+      "title": "The Open-Sourcing of DeepSeek Harness Opens the Door to Modular, Unbundled AI Agent Infrastructure",
+      "link": "https://www.infoq.com/news/2026/08/deep-seek-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DeepSeek has released a developer preview of DeepSeek Harness (dsh), an open-source execution runtime for building autonomous AI agents. The software features a micro-kernel architecture with modular plugins for various…",
+      "ts": 1787202300,
+      "published": "2026-08-20T05:05:00+00:00",
+      "collected_at": "2026-08-20T14:34:04+09:00"
+    },
     {
       "title": "v2.32.1 (2026-08-19)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.32.1",
@@ -9611,16 +9631,6 @@
       "ts": 1784617200,
       "published": "2026-07-21T07:00:00+00:00",
       "collected_at": "2026-07-22T05:20:06+09:00"
-    },
-    {
-      "title": "v2.14.1 (2026-07-20)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.14.1",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🐛 Bug Fixes Always fetch MCP instructions via a durable step under DBOSDurability by @DouweM in #6624 Temporarily withdraw durable wrapper-agent deprecations by @dsfaccini in #6625 Full Changelog : v2.14.…",
-      "ts": 1784611617,
-      "published": "2026-07-21T05:26:57+00:00",
-      "collected_at": "2026-07-21T15:32:21+09:00"
     }
   ]
 }
