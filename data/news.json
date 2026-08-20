@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-21T01:38:44+09:00",
-  "count": 956,
+  "updated": "2026-08-21T02:33:21+09:00",
+  "count": 976,
   "items": [
+    {
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787244777,
+      "published": "2026-08-20T16:52:57+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
     {
       "title": "The LLM Judge That Kept Agreeing With Itself",
       "link": "https://towardsdatascience.com/the-llm-judge-that-kept-agreeing-with-itself/",
@@ -211,6 +221,216 @@
       "ts": 1787184000,
       "published": "2026-08-20T00:00:00+00:00",
       "collected_at": "2026-08-21T01:38:39+09:00"
+    },
+    {
+      "title": "cve-2026-47859 - MEDIUM - Unbounded memory allocation in RFC6587SyslogDeserializer (octet-counted framing) — remote DoS",
+      "link": "https://spring.io/security/cve-2026-47859",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "RFC6587SyslogDeserializer , used by the Spring Integration syslog TCP inbound adapter to decode RFC 6587 / RFC 5424 frames, trusts the sender-supplied octet count of an octet-counted frame and allocates a byte array of…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-47856 - MEDIUM - JsonToObjectTransformer resolves the json__TypeId__ message header to an arbitrary class without an allow-list",
+      "link": "https://spring.io/security/cve-2026-47856",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Integration's JSON to object conversion uses the json__TypeId__ header to choose the deserialization target type, and resolves that header value to a class with ClassUtils.forName and no type/package allow-list.…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-47860 - MEDIUM - Unbounded decompression of attacker-supplied compressed message bodies",
+      "link": "https://spring.io/security/cve-2026-47860",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "An attacker who can publish to a queue consumed by an application that has enabled message decompression can crash the consumer JVM with a single ~1 MB message. The default JavaLangErrorHandler calls System.exit(99) on…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-47861 - MEDIUM - UDP adapter sends ack to attacker-supplied host:port parsed from packet body, even when acknowledge=false",
+      "link": "https://spring.io/security/cve-2026-47861",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "An unauthenticated remote attacker who can send a single UDP packet to a Spring Integration UDP inbound adapter can cause the server to emit an outbound UDP datagram to an arbitrary internal or external host and port of…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-47862 - MEDIUM - ZipTransformer uses file_name header to build workDirectory path without sanitization",
+      "link": "https://spring.io/security/cve-2026-47862",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "An attacker who can set the file_name header on a message reaching a ZipTransformer with ZipResultType.FILE (the default) can cause the resulting .zip archive to be written to an arbitrary filesystem path outside the co…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-47864 - MEDIUM - Unsafe Java deserialization in SerializingHttpMessageConverter — remote code execution",
+      "link": "https://spring.io/security/cve-2026-47864",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "SerializingHttpMessageConverter deserializes the body of incoming HTTP requests with a raw java.io.ObjectInputStream and no class filtering. Any request with Content-Type application/x-java-serialized-object whose body…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-47880 - MEDIUM - DefaultJmsHeaderMapper copies all JMS user properties into MessageHeaders without excluding framework-significant names",
+      "link": "https://spring.io/security/cve-2026-47880",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A producer who can publish to a JMS destination consumed by any Spring Integration JMS inbound component can set String JMS properties named replyChannel , errorChannel , or json__TypeId__ which are copied verbatim into…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59272 - MEDIUM - Log4j2 AmqpAppender disables TLS hostname verification by default",
+      "link": "https://spring.io/security/cve-2026-59272",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Any application shipping logs to RabbitMQ over TLS via the Log4j2 appender, relying on the documented default, is exposed to man-in-the-middle interception of every log event. Attackers on the network path can read or a…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59271 - MEDIUM - Admin password disclosed in BrokerNotAliveException message",
+      "link": "https://spring.io/security/cve-2026-59271",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "When the RabbitMQ management aliveness check fails, the configured admin password is embedded in cleartext in the thrown exception message. If a CI pipeline sets RABBITMQ_TEST_ADMIN_PASSWORD to a real credential and the…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59278 - MEDIUM - In Spring for Apache Kafka, SSRF via DNS resolution triggered by untrusted java.net types in header mapper default trusted packages",
+      "link": "https://spring.io/security/cve-2026-59278",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "JsonKafkaHeaderMapper and DefaultKafkaHeaderMapper include java.net in their default trusted packages list. When these mappers are used — which is the default configuration for all @KafkaListener consumers — an external…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59275 - MEDIUM - Remote JVM termination: nested-array Java deserialization bypasses allowlist, triggers StackOverflowError, default JavaLangErrorHandler calls System.exit(99)",
+      "link": "https://spring.io/security/cve-2026-59275",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A single hostile AMQP message can terminate the entire consumer JVM (System.exit(99)) , not just the listener thread — full availability loss for every workload co-located in that process.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59307 - HIGH - Deserialization allow-list silently bypassed: setBeanClassLoader replaces deserializer but mapper keeps stale reference",
+      "link": "https://spring.io/security/cve-2026-59307",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "An operator who calls JdbcMessageStore.addAllowedPatterns(...) to restrict deserialization receives no protection at all when the store is a Spring-managed bean. setBeanClassLoader , invoked by the container as part of…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59293 - MEDIUM - SMB minimum protocol dialect defaults to SMB1",
+      "link": "https://spring.io/security/cve-2026-59293",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Unless the application explicitly raises smbMinVersion , the jCIFS client will negotiate down to SMB1/CIFS , which lacks mandatory signing/encryption and is vulnerable to NTLM relay and content-tampering MITM. An on-pat…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59292 - LOW - World-readable metadata file in PropertiesPersistingMetadataStore (insecure temp-file permissions)",
+      "link": "https://spring.io/security/cve-2026-59292",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "PropertiesPersistingMetadataStore , the default file-based ConcurrentMetadataStore , persists its state to ${java.io.tmpdir}/spring-integration/metadata-store.properties . afterPropertiesSet() creates this directory and…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59317 - MEDIUM - In Spring for Apache Kafka, missing header validation in DeadLetterPublishingRecovererFactory enables denial of service via a poison-pill loop",
+      "link": "https://spring.io/security/cve-2026-59317",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "DeadLetterPublishingRecovererFactory reads the retry_topic-original-timestamp header from an inbound ConsumerRecord and passes its raw bytes directly to new BigInteger(header.value()) with no length or format validation…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59321 - MEDIUM - Shared JSR-223 ScriptEngine evaluated concurrently without THREADING check",
+      "link": "https://spring.io/security/cve-2026-59321",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A single ScriptEngine instance is reused for every message on a script-backed channel. For JSR-223 engines that report THREADING=null (not thread-safe—e.g. the Kotlin kts engine), concurrent message processing can corru…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59311 - MEDIUM - Fixed predictable /tmp/ziptransformer work directory enables symlink pre-creation",
+      "link": "https://spring.io/security/cve-2026-59311",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A local unprivileged user on the same host can redirect all Zip/UnZip transformer output into a directory of their choosing by pre-creating /tmp/ziptransformer as a symlink before the application starts. Extracted archi…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59324 - HIGH - fluxTransform shared RequestMessageHolder causes cross-message header leakage under async fluxFunction",
+      "link": "https://spring.io/security/cve-2026-59324",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "When an IntegrationFlow uses .fluxTransform() with an asynchronous/reordering fluxFunction that emits raw payloads, concurrent requests on the same FluxMessageChannel subscription have their reply headers ( replyChannel…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59322 - MEDIUM - EmbeddedHeadersJsonMessageMapper default gives wire peer full control of MessageHeaders",
+      "link": "https://spring.io/security/cve-2026-59322",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The EmbeddedHeadersJsonMessageMapper defaults to an overly permissive header parsing posture in its constructor. When decodeNativeFormat processes raw byte payloads, it deserializes embedded JSON headers into a plain Ma…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59320 - MEDIUM - In Spring AMQP the link credit never replenished on listener exception path",
+      "link": "https://spring.io/security/cve-2026-59320",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "When a container-level ErrorHandler is configured (the mitigation for finding 221000), each delivery whose processing throws still permanently consumes one link credit. After initialCredits (default 100) failing message…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-59274 - MEDIUM - Unbounded decompression in UnZipTransformer enables zip-bomb DoS",
+      "link": "https://spring.io/security/cve-2026-59274",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The UnZipTransformer does not limit decompressed entry size or entry count when processing archives. Consequently, an attacker can send a zip archive that can exhaust JVM heap memory, causing a denial-of-service outage.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T02:33:02+09:00"
     },
     {
       "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
@@ -9541,26 +9761,6 @@
       "ts": 1784658120,
       "published": "2026-07-21T18:22:00+00:00",
       "collected_at": "2026-07-22T12:33:30+09:00"
-    },
-    {
-      "title": "Jack Dorsey launches Buzz to combine team chat, AI agents and Git hosting",
-      "link": "https://runtimewire.com/article/jack-dorsey-block-buzz-team-chat-ai-agents-git",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "https://x.com/jack/status/2079605800998146171 , https://xcancel.com/jack/status/2079605800998146171 https://buzz.xyz/ Comments URL: https://news.ycombinator.com/item?id=48995213 Points: 105 # Comments: 95",
-      "ts": 1784654046,
-      "published": "2026-07-21T17:14:06+00:00",
-      "collected_at": "2026-07-22T05:20:06+09:00"
-    },
-    {
-      "title": "Introducing the ChatGPT for small business program",
-      "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "ts": 1784653200,
-      "published": "2026-07-21T17:00:00+00:00",
-      "collected_at": "2026-07-22T03:17:23+09:00"
     }
   ]
 }
