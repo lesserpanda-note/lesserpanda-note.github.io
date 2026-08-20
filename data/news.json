@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-21T00:37:18+09:00",
+  "updated": "2026-08-21T01:38:44+09:00",
   "count": 956,
   "items": [
+    {
+      "title": "The LLM Judge That Kept Agreeing With Itself",
+      "link": "https://towardsdatascience.com/the-llm-judge-that-kept-agreeing-with-itself/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "What a production incident taught me about trusting a model to judge another model's work The post The LLM Judge That Kept Agreeing With Itself appeared first on Towards Data Science .",
+      "ts": 1787243400,
+      "published": "2026-08-20T16:30:00+00:00",
+      "collected_at": "2026-08-21T01:38:39+09:00"
+    },
+    {
+      "title": "Debates over AI consciousness are a trap",
+      "link": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis,…",
+      "ts": 1787240559,
+      "published": "2026-08-20T15:42:39+00:00",
+      "collected_at": "2026-08-21T01:38:39+09:00"
+    },
     {
       "title": "Three Kinds of RAG Corpus, and What It Costs to Build for the Wrong One",
       "link": "https://towardsdatascience.com/three-kinds-of-rag-corpus-and-what-it-costs-to-build-for-the-wrong-one/",
@@ -181,6 +201,16 @@
       "ts": 1787184000,
       "published": "2026-08-20T00:00:00+00:00",
       "collected_at": "2026-08-20T18:38:02+09:00"
+    },
+    {
+      "title": "How ChatGPT Work helps Stampli move ideas to market",
+      "link": "https://openai.com/index/stampli",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T01:38:39+09:00"
     },
     {
       "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
@@ -9531,36 +9561,6 @@
       "ts": 1784653200,
       "published": "2026-07-21T17:00:00+00:00",
       "collected_at": "2026-07-22T03:17:23+09:00"
-    },
-    {
-      "title": "Prompt Engineering Isn’t Enough: How Four Bricks of Context Engineering Stop RAG Hallucinations",
-      "link": "https://towardsdatascience.com/prompt-engineering-isnt-enough-how-four-bricks-of-context-engineering-stop-rag-hallucinations/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #9bis] - Your RAG isn’t hallucinating, it’s answering the wrong context faithfully. On real NIST and World Bank documents, watch each of the four bricks break, and the contract th…",
-      "ts": 1784651400,
-      "published": "2026-07-21T16:30:00+00:00",
-      "collected_at": "2026-07-22T03:17:23+09:00"
-    },
-    {
-      "title": "dotnet-1.14.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.14.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "What's Changed .NET: Fix CosmosChatHistoryProvider: omit ttl when MessageTtlSeconds is nul… by @TheovanKraay in #7030 .NET: Fix CompactionMessageIndex.IsSummaryMessage by @pwoosam in #7042 .NET: Fix workflow session bug…",
-      "ts": 1784650910,
-      "published": "2026-07-21T16:21:50+00:00",
-      "collected_at": "2026-07-22T01:24:59+09:00"
-    },
-    {
-      "title": "Show HN: An MCP server that turns async-work practices into tools",
-      "link": "https://github.com/open-and-async/mcp",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "More than a decade ago, I adopted the self-imposed rule, if I answer a question more than once, the third time I need to be able to answer with a URL. Today, I published one very large URL - a book distilling what I lea…",
-      "ts": 1784649980,
-      "published": "2026-07-21T16:06:20+00:00",
-      "collected_at": "2026-07-22T18:29:02+09:00"
     }
   ]
 }
