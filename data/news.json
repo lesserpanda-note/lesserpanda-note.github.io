@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-20T21:55:57+09:00",
-  "count": 959,
+  "updated": "2026-08-20T22:50:55+09:00",
+  "count": 961,
   "items": [
+    {
+      "title": "How to Fine-Tune an LLM: An End-to-End Guide",
+      "link": "https://towardsdatascience.com/how-to-fine-tune-an-llm-an-end-to-end-guide/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "A hands-on guide to fine-tuning LLMs for the real world The post How to Fine-Tune an LLM: An End-to-End Guide appeared first on Towards Data Science .",
+      "ts": 1787232600,
+      "published": "2026-08-20T13:30:00+00:00",
+      "collected_at": "2026-08-20T22:50:33+09:00"
+    },
+    {
+      "title": "One night in Uzbekistan: Why was this one data point so influential, and what should these researchers had done ahead of time to see this?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/20/we-couldnt-reproduce-their-findings-and-realized-that-it-was-all-driven-by-weird-data-from-uzbekistan/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Sol Hsiang writes: We have a comment coming out in Nature next week that is going to cause the retraction of a high-profile paper by Kotz et al. from last year (the second most cited climate paper in the news … Continue…",
+      "ts": 1787232030,
+      "published": "2026-08-20T13:20:30+00:00",
+      "collected_at": "2026-08-20T22:50:33+09:00"
+    },
+    {
+      "title": "Presentation: Why Fetch When You Can Sync? Building Local-First Apps on a Sync Engine Architecture",
+      "link": "https://www.infoq.com/presentations/local-first-sync-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "James Arthur shares why sync is the next frontier in frontend architecture. He explains how extending reactivity to the server with Electric and TanStack DB replaces imperative fetching with declarative data bindings. L…",
+      "ts": 1787231940,
+      "published": "2026-08-20T13:19:00+00:00",
+      "collected_at": "2026-08-20T22:50:33+09:00"
+    },
     {
       "title": "Top 10 Open-Source Benchmarks for AI Coding Agents in 2026",
       "link": "https://www.kdnuggets.com/top-10-open-source-benchmarks-for-ai-coding-agents-in-2026",
@@ -11,6 +41,16 @@
       "ts": 1787227238,
       "published": "2026-08-20T12:00:38+00:00",
       "collected_at": "2026-08-20T21:55:38+09:00"
+    },
+    {
+      "title": "How to Build a Robust RAG System with Minimal Resources",
+      "link": "https://machinelearningmastery.com/how-to-build-a-robust-rag-system-with-minimal-resources/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how to design, assemble, and tune a retrieval-augmented generation system that runs entirely on a standard laptop, without cloud...",
+      "ts": 1787227221,
+      "published": "2026-08-20T12:00:21+00:00",
+      "collected_at": "2026-08-20T22:50:33+09:00"
     },
     {
       "title": "InfoQ Opens Enrollment for New AI-Assisted Engineering Online Certification Program",
@@ -9570,26 +9610,6 @@
       "summary": "Joshua Brooks writes: I know you’ve posted on the topic more generally but don’t recall if you’ve discussed this in particular. Given the timing in relation to cuts in food assistance, It seems a particularly egregious…",
       "ts": 1784642380,
       "published": "2026-07-21T13:59:40+00:00",
-      "collected_at": "2026-07-21T23:01:55+09:00"
-    },
-    {
-      "title": "How Much of a Data Science Workflow Can Run on a GPU Today? Part 1: Accelerating Data Preparation",
-      "link": "https://towardsdatascience.com/how-much-of-a-data-science-workflow-can-run-on-a-gpu-today-part-1-accelerating-data-preparation/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Exploring GPU acceleration with cuDF, cudf.pandas, and the Polars GPU Engine The post How Much of a Data Science Workflow Can Run on a GPU Today? Part 1: Accelerating Data Preparation appeared first on Towards Data Scie…",
-      "ts": 1784640600,
-      "published": "2026-07-21T13:30:00+00:00",
-      "collected_at": "2026-07-21T23:01:55+09:00"
-    },
-    {
-      "title": "Fragments: July 21",
-      "link": "https://martinfowler.com/fragments/2026-07-21.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "With this post, I’ll wrap up my notes from the second Future of Software Development Retreat . But before I do, I should note that the full Thoughtworks report on the retreat is now available . They have five headline f…",
-      "ts": 1784639580,
-      "published": "2026-07-21T13:13:00+00:00",
       "collected_at": "2026-07-21T23:01:55+09:00"
     }
   ]
