@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-21T02:33:21+09:00",
-  "count": 976,
+  "updated": "2026-08-21T03:44:01+09:00",
+  "count": 998,
   "items": [
+    {
+      "title": "How to Effectively Align Your Intent with Claude Code",
+      "link": "https://towardsdatascience.com/how-to-effectively-align-your-intents-with-claude-code/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Improve your proficiency with Claude Code. The post How to Effectively Align Your Intent with Claude Code appeared first on Towards Data Science .",
+      "ts": 1787248800,
+      "published": "2026-08-20T18:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
     {
       "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
       "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
@@ -431,6 +441,226 @@
       "ts": 1787184000,
       "published": "2026-08-20T00:00:00+00:00",
       "collected_at": "2026-08-21T02:33:02+09:00"
+    },
+    {
+      "title": "cve-2026-47884 - MEDIUM - Spring Framework Improper Path Limitation in XsltView",
+      "link": "https://spring.io/security/cve-2026-47884",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Use of XsltView in a Spring MVC application can result in SSRF and RCE attack if the application has an \"/**\" mapping that results in view rendering, and where the view name is not explicitly specified.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47886 - MEDIUM - Spring Framework Denial of Service via Unbounded Exponentiation in SpEL Expressions",
+      "link": "https://spring.io/security/cve-2026-47886",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Applications that evaluate user-supplied Spring Expression Language (SpEL) expressions may be vulnerable to a Denial of Service (DoS) attack when the power operator ( ^ ) is used with a BigDecimal or BigInteger operand…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47887 - MEDIUM - Spring Framework Open Redirect in UrlFileNameViewController",
+      "link": "https://spring.io/security/cve-2026-47887",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A Spring MVC application that uses UrlFileNameViewController that is mapped with an end-of-path, and does not have a configured prefix is vulnerable to an open redirect.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47888 - MEDIUM - Spring Framework Memory Leak via SETUP Frame in RSocketMessageHandler",
+      "link": "https://spring.io/security/cve-2026-47888",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A Spring RSocket application is exposed to a memory leak via a malformed SETUP frame.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47885 - MEDIUM - Spring Framework maxPartSize Ignored in PartEventHttpMessageReader",
+      "link": "https://spring.io/security/cve-2026-47885",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The PartEventHttpMessageReader in Spring WebFlux does not enforce the maxPartSize limit when maxInMemorySize is set to -1. PartEventHttpMessageReader is used when controller a method has an @RequestBody Flux<PartEvent>…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47883 - MEDIUM - Spring Framework Open Redirect in UrlHandlerFilter",
+      "link": "https://spring.io/security/cve-2026-47883",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "UrlHandlerFilter can be vulnerable to an open redirect when configured with very broadly matching patterns. The issue applies to the filter variants in both Spring MVC and Spring WebFlux.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47891 - MEDIUM - Spring Framework maxInMemorySize Bypassed in Jaxb2Decoder",
+      "link": "https://spring.io/security/cve-2026-47891",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A Spring WebFlux application that relies on the Aalto XML processor to parse XML input does not correctly enforce the maxInMemorySize limit.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47890 - LOW - Spring Framework Server Sent Event stream corruption while rendering fragments",
+      "link": "https://spring.io/security/cve-2026-47890",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring MVC and WebFlux applications are vulnerable to stream corruption when using Server-Sent Events (SSE) with view fragments. More precisely, an application can be vulnerable when all the following are true: the appl…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47893 - LOW - Spring Framework Request Headers Included in Exception Reasons in HandshakeWebsocketService",
+      "link": "https://spring.io/security/cve-2026-47893",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A Spring WebFlux application that supports WebSocket connections may expose indirectly sensitive user information by including request headers in an exception reason.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47889 - MEDIUM - Spring Framework sameSite Attribute Dropped in JettyCoreServerHttpResponse",
+      "link": "https://spring.io/security/cve-2026-47889",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A WebFlux application running on the Jetty 12 Core reactive adapter serializes response cookies without the sameSite attribute.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47892 - MEDIUM - Spring Framework Header Predicate Bypass in WebFlux Functional Endpoints",
+      "link": "https://spring.io/security/cve-2026-47892",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A WebFlux application using functional endpoints and deployed with DispatcherServlet may be vulnerable to a header predicate bypass in a pre-flight request.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59281 - MEDIUM - Spring Framework Cross-site Scripting via EscapedErrors",
+      "link": "https://spring.io/security/cve-2026-59281",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring MVC and WebFlux applications that obtain a data-binding Errors instance with HTML escaping enabled and then render field errors using the no-argument Errors.getFieldErrors() or Errors.getFieldError() accessors ar…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59282 - MEDIUM - Spring Framework Denial of Service via Unbounded List Growth in Data Binding",
+      "link": "https://spring.io/security/cve-2026-59282",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Framework applications that use Spring's data binding infrastructure to apply user-supplied property paths onto a target object may be vulnerable to a Denial of Service (DoS) attack. Spring Framework's property b…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59283 - MEDIUM - Spring Framework Safety Guard Bypass via SpEL Expression Compilation",
+      "link": "https://spring.io/security/cve-2026-59283",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Applications that evaluate Spring Expression Language (SpEL) expressions using SimpleEvaluationContext may be vulnerable to a safety guard bypass when the SpEL expression compiler is active. Specifically, an application…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59280 - MEDIUM - Spring Framework Path Traversal via Backslash in SpringTemplateLoader",
+      "link": "https://spring.io/security/cve-2026-59280",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Applications using Spring Framework's FreeMarker integration may be vulnerable to a path traversal attack when a controller returns a view name derived from untrusted input and FreeMarker is configured to resolve templa…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59285 - HIGH - Spring for GraphQL Unsafe Deserialization in pagination support",
+      "link": "https://spring.io/security/cve-2026-59285",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring for GraphQL applications are vulnerable to Unsafe Deserialization when processing paginated GraphQL queries. More precisely, an application is vulnerable when all the following are true: the application is using…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59286 - HIGH - Spring for GraphQL loads Untrusted Resources in GraphiQL support",
+      "link": "https://spring.io/security/cve-2026-59286",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The GraphiQL page bundled with Spring for GraphQL loads JavaScript libraries from a public CDN, without Subresource Integrity checks. An attacked can inject malicious code in those scripts and execute aribtrary code on…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59287 - MEDIUM - Spring for GraphQL WebSocket Client Denial of Service",
+      "link": "https://spring.io/security/cve-2026-59287",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring for GraphQL is vulnerable to Denial of Service attacks when using the WebSocket client with keepAlive enabled. More precisely, an application is vulnerable when all the following are true: the application is usin…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59289 - HIGH - Spring for GraphQL Denial of Service via pagination support",
+      "link": "https://spring.io/security/cve-2026-59289",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring for GraphQL's Spring Data pagination support resolves arguments of a scrollable query and forwards the client-supplied values to the underlying repository. An attacker can forge a malicious query for a Connection…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59288 - HIGH - Spring for GraphQL Information Exposure in GraphiQL support",
+      "link": "https://spring.io/security/cve-2026-59288",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The GraphiQL page bundled with Spring for GraphQL sends requests to the GraphQL endpoints of the application. An attacker can share a malicious URL so that the victim's browser might leak confidential information to the…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59313 - LOW - Server Sent Event stream corruption in Spring MVC functional web framework",
+      "link": "https://spring.io/security/cve-2026-59313",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring MVC applications using the functional web framework are vulnerable to stream corruption when using Server-Sent Events (SSE). More precisely, an application can be vulnerable when all the following are true: the a…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-59314 - LOW - Spring Framework response splitting in ContentDisposition",
+      "link": "https://spring.io/security/cve-2026-59314",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Applications that build a Content-Disposition header value from untrusted input may be vulnerable to HTTP response splitting when the input is a malicious file name. Specifically, an application can be vulnerable in eit…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T03:43:41+09:00"
     },
     {
       "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
@@ -9751,16 +9981,6 @@
       "ts": 1784660679,
       "published": "2026-07-21T19:04:39+00:00",
       "collected_at": "2026-07-22T07:06:07+09:00"
-    },
-    {
-      "title": "Agentic AI vs AI Automation: What’s the Real Difference?",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/agentic-ai-vs-ai-automation/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "This scene is playing out across engineering teams everywhere. Someone wraps a few LangChain calls inside a loop, adds a couple of tools, and proudly declares, “We’ve built an AI agent.” The demo looks great. Everyone i…",
-      "ts": 1784658120,
-      "published": "2026-07-21T18:22:00+00:00",
-      "collected_at": "2026-07-22T12:33:30+09:00"
     }
   ]
 }
