@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21T04:34:28+09:00",
-  "count": 996,
+  "updated": "2026-08-21T05:32:25+09:00",
+  "count": 1010,
   "items": [
     {
       "title": "How to Effectively Align Your Intent with Claude Code",
@@ -151,6 +151,16 @@
       "ts": 1787219242,
       "published": "2026-08-20T09:47:22+00:00",
       "collected_at": "2026-08-20T19:34:33+09:00"
+    },
+    {
+      "title": "Introducing AI Futures",
+      "link": "https://openai.com/index/introducing-ai-futures",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "ts": 1787209200,
+      "published": "2026-08-20T07:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
     },
     {
       "title": "Harper Argues Against the Multi-System Stack and Releases 5.2",
@@ -661,6 +671,176 @@
       "ts": 1787184000,
       "published": "2026-08-20T00:00:00+00:00",
       "collected_at": "2026-08-21T03:43:41+09:00"
+    },
+    {
+      "title": "cve-2026-47836 - HIGH - Spring Cloud Config Server Susceptible To TOCTOU Attack When Using SVN",
+      "link": "https://spring.io/security/cve-2026-47836",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The base directory ( spring.cloud.config.server.svn.basedir ) used by the Spring Cloud Config Server to clone SVN repositories to is susceptible to time-of-check-time-of-use (TOCTOU) attacks.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-47837 - MEDIUM - Spring Cloud Config Server Monitor Endpoint Does Not Validate Webhook Requests",
+      "link": "https://spring.io/security/cve-2026-47837",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Webhook requests to Spring Cloud Config Server's /monitor endpoint are not validated.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-47879 - HIGH - Spring Cloud Gateway SSRF and native file access with gRPC",
+      "link": "https://spring.io/security/cve-2026-47879",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Cloud Gateway JsonToGrpcGatewayFilterFactory allows arbitrary Spring Resource locations for defining the proto descriptor.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-47894 - MEDIUM - Spring Cloud Config Server Native Environment Repository Exposure",
+      "link": "https://spring.io/security/cve-2026-47894",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Cloud Config Server native environment repository allows exposure of configuration files outside of the configured repository path.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59284 - HIGH - Spring Cloud Commons no allow list for writable env actuator endpoint",
+      "link": "https://spring.io/security/cve-2026-59284",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "There is no allow list for property keys when Spring Cloud Commons writable /actuator/env is enabled.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59291 - LOW - Potential arbitrary file read and SSRF vulnerability in Spring Cloud Function",
+      "link": "https://spring.io/security/cve-2026-59291",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Potential arbitrary file read and SSRF vulnerability in Spring Cloud Function",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59295 - MEDIUM - Micrometer instrumentation of Apache HttpAsyncClient DoS vulnerability",
+      "link": "https://spring.io/security/cve-2026-59295",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "It is possible for outbound HTTP requests using a Micrometer-instrumented client to cause a denial-of-service (DoS) condition due to an unbounded memory leak. Specifically, an application is vulnerable when all the foll…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59296 - MEDIUM - Micrometer StatsD and Logging meter registries line-protocol and log injection vulnerability",
+      "link": "https://spring.io/security/cve-2026-59296",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Using untrusted, non-normalized input as-is for metrics data (such as metric names, tag keys, or tag values) is a dangerous antipattern that general-purpose instrumentation should never perform. When such unsafe instrum…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59297 - LOW - Spring Cloud Function can incorrectly determine if URI is secure",
+      "link": "https://spring.io/security/cve-2026-59297",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Implementation of isSecure() call of ServerlessHttpServletRequest does not verify the actual scheme.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59298 - LOW - Potential for improper filtering of HTTP headers in Spring Cloud Function",
+      "link": "https://spring.io/security/cve-2026-59298",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Potential for improper filtering of HTTP headers in Spring Cloud Function.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59299 - LOW - Composition lookup can potentially poison base function in Spring Cloud Function",
+      "link": "https://spring.io/security/cve-2026-59299",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Composition lookup can potentially poison base function in Spring Cloud Function",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59300 - LOW - Potential for logging sensitive data in Spring Cloud Function AWS",
+      "link": "https://spring.io/security/cve-2026-59300",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Potential for logging sensitive data in Spring Cloud Function AWS",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59301 - LOW - Potential for logging sensitive data in Spring Cloud Function Azure",
+      "link": "https://spring.io/security/cve-2026-59301",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Potential for logging sensitive data in Spring Cloud Function Azure",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59303 - LOW - Dynamic destination cache size is not properly bound in Spring Cloud Stream",
+      "link": "https://spring.io/security/cve-2026-59303",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Dynamic destination cache size is not properly bound in Spring Cloud Stream",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59304 - LOW - Improper caching of the original content type in Spring Cloud Stream Avro",
+      "link": "https://spring.io/security/cve-2026-59304",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Improper caching of the original content type in Spring Cloud Stream Avro",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59306 - LOW - Potential for deserialization of untrusted types in Spring Cloud Stream",
+      "link": "https://spring.io/security/cve-2026-59306",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Potential for deserialization of untrusted types in Spring Cloud Stream",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "cve-2026-59302 - LOW - Potential for logging sensitive data in Spring Cloud Stream",
+      "link": "https://spring.io/security/cve-2026-59302",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Potential for logging sensitive data in Spring Cloud Stream",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T05:32:19+09:00"
     },
     {
       "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
@@ -9921,46 +10101,6 @@
       "ts": 1784668400,
       "published": "2026-07-21T21:13:20+00:00",
       "collected_at": "2026-07-22T07:06:07+09:00"
-    },
-    {
-      "title": "Survey Statistics: poststratification without population level information",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/21/survey-statistics-poststratification-without-population-level-information/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Poststratification uses population data on X to estimate E(Y) via E(E(Y | X, R = 1)), where R = 1 are survey respondents who provide Y and X. When the inner expectation “E” is estimated via Multilevel Regression, this i…",
-      "ts": 1784664934,
-      "published": "2026-07-21T20:15:34+00:00",
-      "collected_at": "2026-07-22T05:20:06+09:00"
-    },
-    {
-      "title": "The State of Simulation for Physical AI: An Overview",
-      "link": "https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1784664027,
-      "published": "2026-07-21T20:00:27+00:00",
-      "collected_at": "2026-07-22T05:20:06+09:00"
-    },
-    {
-      "title": "California Sea Lion",
-      "link": "https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "California Sea Lion, in San Francisco County, US, CA We took some visiting family to Pier 39 to see the sea lions. They're somehow always even fun than I remember them being last time. Tags: san-francisco , wildlife",
-      "ts": 1784663463,
-      "published": "2026-07-21T19:51:03+00:00",
-      "collected_at": "2026-07-23T09:21:24+09:00"
-    },
-    {
-      "title": "python-1.12.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.12.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.12.0] - 2026-07-21 Added agent-framework-azure-cosmos-memory : Add an alpha Azure Cosmos DB semantic-memory context provider with fact extraction, user profiles, samples, and integration coverage ( #6719 ) agent-fram…",
-      "ts": 1784662832,
-      "published": "2026-07-21T19:40:32+00:00",
-      "collected_at": "2026-07-22T05:20:06+09:00"
     }
   ]
 }
