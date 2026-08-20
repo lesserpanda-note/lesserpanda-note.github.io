@@ -1,83 +1,76 @@
 {
-  "updated": "2026-08-19T00:13:51Z",
-  "summary": "오늘은 MCP 서버 보안 강화와 주요 오픈소스 공개 소식이 주목됩니다. Cloudflare WriteGuard가 AI 에이전트의 MCP 서버 접근을 세밀하게 제어하고, Netflix가 관찰 인과 추론 에이전틱 워크플로우를 오픈소스로 공개했습니다. Mojo 언어가 1.0 출시 직후 오픈소스로 전환되었으며, 설문 통계 분할표 모델링과 정치 분석의 통계적 발전도 인상적입니다.",
+  "updated": "2026-08-20T00:13:12Z",
+  "summary": "오늘은 OpenAI의 프론티어 모델 대상 제로 데이터 보유 정책 확장과 Replit의 무료 AI 개발 환경 출시가 AI 분야 주요 소식입니다. 에이전트 영역에서는 대형 컨텍스트 윈도우 대 RAG의 실증 비교와 메모리 가격 500% 급등이라는 AI 인프라 위기가 두드러지며, 아키텍처 분야에서는 시민·에이전트·전문가 역할 거버넌스 모델과 분산 시스템 연쇄 붕괴 방지 원칙이 핵심 주제로 다루어집니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "Introducing BoxLang AI Explorer: A Local Catalog for Every AI Pattern",
-      "link": "https://foojay.io/today/introducing-boxlang-ai-explorer-a-local-catalog-for-every-ai-pattern/",
-      "summary": "BoxLang AI Explorer는 BoxLang AI의 다양한 패턴을 로컬에서 탐색할 수 있는 카탈로그 도구입니다.",
-      "detail": "BoxLang AI를 학습할 때 흩어진 문서 페이지를 뒤지고 임포트를 추측하며 동작 여부가 불확실한 코드를 복사·붙여넣기 해야 하는 불편함을 해소하기 위해 BoxLang AI Explorer가 개발되었습니다. 이 도구는 BoxLang AI에서 사용 가능한 모든 AI 패턴을 로컬 카탈로그 형태로 제공하여 개발자가 API 패턴을 손쉽게 탐색하고 즉시 실행 가능한 예제 코드를 참조할 수 있도록 돕습니다. BoxLang은 JVM 기반 동적 언어로, AI 통합 개발 경험을 단순화하는 것을 목표로 하며 이번 Explorer 도구로 온보딩 장벽을 낮춥니다."
-    },
-    {
-      "category": "Java",
-      "title": "Vibe Coding, Maven, and the Dependencies You Didn't Choose",
-      "link": "https://foojay.io/today/vibe-coding-maven-and-the-dependencies-you-didnt-choose/",
-      "summary": "AI 기반 바이브 코딩이 Maven 의존성 선택을 AI에 맡기면서 발생하는 공급망 보안 위험을 분석합니다.",
-      "detail": "AI 코딩 도구(바이브 코딩)를 통해 Maven 의존성을 자동으로 선택할 때 개발자가 직접 선택하지 않은 라이브러리가 포함될 위험성을 경고합니다. 악의적인 행위자들은 AI 모델이 자주 추천하는 패키지를 타겟으로 삼아 악성 코드를 삽입할 수 있으며, 전이적 의존성(transitive dependency) 체인이 깊어질수록 공격 표면이 넓어집니다. LLM은 학습 데이터 기준으로 인기 있는 패키지를 추천하는 경향이 있어 사용 중단되거나 유지보수되지 않는 라이브러리를 제안할 위험도 있습니다. 개발자는 AI가 선택한 의존성이라도 반드시 직접 검토하고 검증해야 합니다."
+      "title": "Signatures, be true: domain errors and functional handling in Kotlin",
+      "link": "https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-domain-errors-and-functional-handling-in-kotlin/",
+      "summary": "Kotlin 함수 시그니처를 통해 도메인 오류를 명확하게 표현하고 함수형 방식으로 처리하는 방법을 탐구하는 JetBrains 블로그 글입니다.",
+      "detail": "JetBrains의 이 글은 Kotlin 함수 시그니처와 반환 타입이 도메인 오류를 어떻게 드러내거나 감출 수 있는지를 분석합니다. 예를 들어 Unit을 반환하는 함수는 Java의 void와 유사하지만, 문서 서명처럼 실패 가능성이 있는 연산에서 오류 정보를 전혀 전달하지 못하는 문제가 있습니다. 글은 Result 타입, sealed class, Either 등의 함수형 접근법을 통해 오류 처리를 타입 시스템에 통합하는 방법을 제시합니다. 함수 시그니처가 '거짓말을 하지 않도록(be true)' 설계함으로써 컴파일 타임에 오류 처리를 강제할 수 있으며, 이는 Kotlin의 표현력 있는 타입 시스템을 활용한 도메인 주도 설계 적용에 핵심적인 원칙입니다."
     },
     {
       "category": "AI",
-      "title": "Cloudflare WriteGuard Brings Fine-Grained Security Controls for MCP Servers",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-writeguard-mcp-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Cloudflare WriteGuard는 MCP 서버에 세밀한 보안 제어를 제공하는 기능으로, 현재 프라이빗 베타 중입니다.",
-      "detail": "Cloudflare가 Model Context Protocol(MCP) 서버에 대한 세밀한 보안 제어를 위해 WriteGuard를 발표했습니다. 현재 프라이빗 베타 단계인 WriteGuard는 AI 에이전트가 데이터 쓰기, 삭제, 외부 서비스 호출 등 잠재적으로 위험한 도구에 접근하는 것을 제어합니다. MCP 서버는 AI 에이전트가 외부 도구와 연동하는 핵심 인터페이스이므로 세밀한 권한 관리가 보안 측면에서 중요합니다. WriteGuard는 읽기/쓰기 권한을 분리해 최소 권한 원칙을 적용하며, 프롬프트 인젝션이나 에이전트 오작동으로 인한 피해를 방지하는 것을 목표로 합니다."
+      "title": "Offering Zero Data Retention for frontier models",
+      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "summary": "OpenAI가 최신 프론티어 모델에 대한 제로 데이터 보유(ZDR) 정책을 공식 확장하고, 프라이버시를 유지하는 AI 안전 처리 기술 Private Safety Processing도 예고했습니다.",
+      "detail": "OpenAI는 API를 통해 자사의 최신 프론티어 모델을 사용하는 적격 고객들에게 제로 데이터 보유(Zero Data Retention, ZDR) 옵션을 제공한다고 발표했습니다. ZDR은 API 요청과 응답 데이터가 OpenAI 서버에 저장되지 않도록 보장하는 엔터프라이즈 보안 정책으로, 데이터 민감성이 높은 의료·금융·법률 분야 기업들의 AI 도입 장벽을 낮추는 핵심 기능입니다. 아울러 Private Safety Processing도 예고했는데, 이는 데이터 프라이버시를 손상시키지 않으면서 AI 안전성 모니터링을 수행할 수 있는 기술 접근 방식입니다. 이 발표는 기업 AI 채택 확대를 위한 데이터 거버넌스 요구에 OpenAI가 적극 대응하는 행보를 보여줍니다."
     },
     {
       "category": "AI",
-      "title": "Netflix Open-Sources Agentic Workflow for Causal Inference",
-      "link": "https://www.infoq.com/news/2026/08/netflix-oci-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Netflix가 관찰 데이터 기반 인과 추론을 자동화하는 에이전틱 워크플로우를 오픈소스로 공개했습니다.",
-      "detail": "Netflix는 Observational Causal Inference(OCI)를 위한 에이전틱 워크플로우를 오픈소스로 공개했습니다. 이 시스템은 관찰 데이터와 사용자의 분석 계획을 입력받아 액터-크리틱 루프(actor-critic loop)를 통해 인과 분석의 반복적인 작업을 자동화합니다. OCI는 A/B 테스트가 불가능한 상황에서 관찰 데이터만으로 인과 효과를 추정하는 기법으로 대규모 서비스에서 핵심적인 분석 방법론입니다. 이 오픈소스 공개를 통해 데이터 과학자들이 인과 분석의 반복 과정을 에이전트에 위임하고 고수준 의사결정에 집중할 수 있을 것으로 기대됩니다."
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "link": "https://openai.com/index/replit",
+      "summary": "Replit이 OpenAI의 GPT-5.6 Luna 기반 무료 모드를 출시하여, 누구나 토큰 비용 부담 없이 AI로 소프트웨어를 개발할 수 있게 되었습니다.",
+      "detail": "Replit은 OpenAI의 GPT-5.6 Luna 모델을 탑재한 Free Mode를 출시하여 소프트웨어 개발의 접근성을 대폭 확장했습니다. 이를 통해 사용자는 자연어 명령만으로 아이디어를 실제로 동작하는 소프트웨어로 변환할 수 있으며, 토큰 비용에 대한 부담 없이 무료로 이용 가능합니다. 코딩 경험이 없는 일반인도 AI의 도움으로 실용적인 앱을 만들 수 있는 환경이 구축되어 소프트웨어 개발 민주화가 한 단계 더 진전되었습니다. 이번 협업은 OpenAI와 Replit의 파트너십을 통해 더 많은 사람들이 AI 기반 소프트웨어 개발의 혜택을 누릴 수 있도록 하는 전략적 행보입니다."
     },
     {
       "category": "Agents",
-      "title": "Mojo🔥 is now open source",
-      "link": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
-      "summary": "2023년 5월부터 예고되었던 Mojo 프로그래밍 언어가 1.0 출시 직후 오픈소스로 전환되었습니다.",
-      "detail": "Modular이 개발한 Mojo 프로그래밍 언어가 마침내 오픈소스로 공개되었습니다. Mojo는 Python 문법과 호환되면서도 시스템 프로그래밍 성능을 제공하는 언어로 AI·ML 워크로드를 위한 고성능 코드 작성을 목표로 합니다. 2023년 5월 처음 발표 당시부터 오픈소스 전환을 약속했으며 최근 1.0 버전을 출시한 직후 이를 이행했습니다. Python 생태계와의 호환성을 유지하면서 C/C++ 수준의 성능을 제공하여 ML 연구자와 시스템 개발자 모두를 겨냥합니다. 오픈소스 전환으로 커뮤니티 기여와 생태계 확장이 가속화될 것으로 기대됩니다."
+      "title": "Kimi K3's 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality",
+      "link": "https://towardsdatascience.com/kimi-k3s-1m-token-context-window-vs-rag-cost-latency-and-answer-quality/",
+      "summary": "Moonshot AI Kimi K3의 100만 토큰 컨텍스트 윈도우와 RAG 파이프라인을 비용, 지연 시간, 답변 품질 측면에서 통제된 조건 하에 비교 분석했습니다.",
+      "detail": "이 연구는 Kimi K3의 100만 토큰 컨텍스트 윈도우를 활용한 전체 문서 프롬프팅(127,000 토큰)과 상위 수준의 RAG(검색 증강 생성) 파이프라인을 동일한 12개 질문, 동일한 시스템 프롬프트, 동일 모델 기준으로 비교했습니다. 응답 품질은 정확성, 완전성, 근거 제시 능력 기준으로 블라인드 채점으로 평가되었습니다. 이 비교 연구는 대형 컨텍스트 윈도우 방식이 RAG 대비 비용, 지연 시간, 응답 품질 면에서 어떤 트레이드오프를 갖는지 실증적으로 분석하여 AI 시스템 아키텍처 설계 시 컨텍스트 전략 선택에 중요한 기준을 제공합니다."
     },
     {
       "category": "Agents",
-      "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
-      "link": "https://www.latent.space/p/glean-model-routing",
-      "summary": "프론티어 모델 비용 증가와 오픈웨이트 모델의 인기가 기업용 AI에서 모델 라우팅 수요를 촉진하고 있습니다.",
-      "detail": "Glean CEO Arvind Jain은 모델 라우팅이 기업의 AI 비용 관리에 핵심적인 역할을 한다고 설명합니다. GPT-4 수준의 프론티어 모델은 강력하지만 비용이 높고, Llama나 Mistral 같은 오픈웨이트 모델은 비용 효율적이지만 모든 작업에 충분하지 않습니다. 모델 라우팅은 각 요청의 복잡도와 요구 사항을 분석해 적절한 모델로 자동 전달하는 방식으로 비용을 최소화하면서 품질을 유지합니다. Glean은 대규모 휴먼 피드백 루프를 통해 라우팅 시스템을 지속적으로 개선하며, 실제 사용 데이터를 기반으로 어떤 작업에 어떤 모델이 적합한지 학습합니다."
+      "title": "[AINews] Memory prices up 500% in 12 months",
+      "link": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
+      "summary": "AI 인프라의 핵심인 메모리 가격이 지난 12개월 동안 500% 급등하여 무어의 법칙이 2007년 수준으로 역전되는 공급 위기가 지속되고 있습니다.",
+      "detail": "Latent Space의 AINews 뉴스레터는 AI 인프라에 필수적인 메모리 가격이 최근 12개월 사이에 500% 급등했다고 보고합니다. 이는 무어의 법칙이 지속적인 비용 하락을 보장하던 추세가 2007년 수준으로 역전된 것을 의미합니다. 고대역폭 메모리(HBM)의 공급 제한이 AI 모델 훈련과 추론 비용을 직접적으로 끌어올리고 있으며, AI 스타트업과 클라우드 제공업체 모두 심각한 인프라 비용 압박에 직면해 있습니다. 이 메모리 공급 위기는 AI 시스템의 확장성과 경제성에 직접 영향을 미치는 가장 중요한 제약 요인으로 부각되고 있습니다."
     },
     {
       "category": "Architecture",
-      "title": "Presentation: From Fab To Token - The State Of The Market",
-      "link": "https://www.infoq.com/presentations/ai-hardware-tokenomics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "반도체 제약, 데이터센터 확장, 네트워크 병목이 AI 소프트웨어 아키텍처에 미치는 영향을 분석한 발표입니다.",
-      "detail": "Jordan Nanos가 SemiAnalysis 연구를 바탕으로 AI 하드웨어 시장 현황과 소프트웨어 아키텍처에 대한 함의를 설명합니다. 반도체 생산 제약(Fab)부터 토큰 생성(Token)까지의 공급망 전반을 분석하며, 데이터센터 확장 속도와 네트워킹 인프라 병목이 AI 추론 성능에 미치는 영향을 다룹니다. GPU 벤치마크 성능, 메모리 대역폭, 인터커넥트 속도 등 하드웨어 제약이 AI 시스템 설계 결정에 직접적으로 영향을 준다는 점을 강조합니다. 아키텍트와 엔지니어가 AI 인프라 투자 결정 시 고려해야 할 하드웨어 트레이드오프를 실증적으로 제시합니다."
+      "title": "Citizens Build, Agents Execute, Experts Govern",
+      "link": "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html",
+      "summary": "마틴 파울러 블로그에서 AI 에이전트 시대에 주말 앱 개발과 엔터프라이즈 소프트웨어의 근본적 차이를 분석하며 시민·에이전트·전문가 역할 분리 거버넌스 모델을 제안합니다.",
+      "detail": "이 글은 지난 6개월간 관찰된 흥미로운 격차를 분석합니다. 기술적 격차가 아닌 역할 이해의 격차로, AI 에이전트를 활용하면 누구나 주말에 앱을 만들 수 있지만 이것이 엔터프라이즈 소프트웨어 개발과 동일하다는 착각이 퍼지고 있습니다. 저자는 세 역할의 명확한 분리를 제안합니다: 시민(Citizens)이 비즈니스 요구를 정의하고, AI 에이전트(Agents)가 구현을 수행하며, 전문가(Experts)가 보안·확장성·유지보수성·팀 협업 등 엔터프라이즈 품질 거버넌스를 담당해야 합니다. 기술적 부채와 보안 요구사항 같은 엔터프라이즈의 고유한 복잡성은 전문가 거버넌스 없이는 AI만으로 해결될 수 없다고 강조합니다."
     },
     {
       "category": "Architecture",
-      "title": "Fragments: August 18",
-      "link": "https://martinfowler.com/fragments/2026-08-18.html",
-      "summary": "Martin Fowler가 ThoughtWorks와 소프트웨어 개발의 기술적 탁월함에 관한 단상을 담은 8월 18일자 프래그먼트를 공유합니다.",
-      "detail": "Martin Fowler는 이번 프래그먼트에서 소프트웨어 업계의 기술적 탁월함(technical excellence)을 추구하는 조직의 필요성에 대한 단상을 공유합니다. ThoughtWorks에 몸담는 이유 중 하나로 기술 탁월함을 기반으로 한 소프트웨어 개발 조직의 모범 사례를 업계에 보여주고 싶다는 점을 언급하면서도, 실제로 그러한 영향력을 발휘하는 것이 어렵다는 솔직한 고백도 담겨 있습니다. 소프트웨어 아키텍처, 개발 문화, 엔지니어링 리더십에 관한 짧은 생각들을 담고 있습니다."
+      "title": "Presentation: Understanding Progressive Collapse: How To Avoid A Cascading Failure",
+      "link": "https://www.infoq.com/presentations/progressive-collapse-system-resilience/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Sam Newman이 토목공학의 연쇄 붕괴 개념을 분산 시스템에 적용하여 AWS 장애 등 실제 사례를 통해 연쇄 실패를 방지하는 시스템 복원력 설계 원칙을 제시합니다.",
+      "detail": "Sam Newman은 1968년 Ronan Point 타워 붕괴 사고에서 유래한 토목공학의 연쇄 붕괴(Progressive Collapse) 개념을 분산 컴퓨팅 시스템에 적용합니다. 연쇄 붕괴란 하나의 구성 요소 실패가 인접 구성 요소에 과부하를 전달하여 결국 전체 시스템 붕괴로 이어지는 현상입니다. AWS 장애와 같은 실제 사례를 분석하며 서킷 브레이커(Circuit Breaker), 백프레셔(Back-pressure), 격벽(Bulkhead) 패턴 등 연쇄 실패 전파를 차단하는 분산 시스템 설계 원칙을 제시합니다. 단순한 장애 대응을 넘어 연쇄 전파 경로 자체를 설계 단계에서 차단하는 복원력 설계의 중요성을 강조합니다."
     },
     {
       "category": "Python",
-      "title": "Working With Python's deque",
-      "link": "https://realpython.com/courses/working-with-pythons-deque/",
-      "summary": "Python의 collections.deque를 사용하여 양쪽 끝에서 O(1)로 요소를 추가·제거하는 방법을 학습합니다.",
-      "detail": "Real Python 코스에서 Python 표준 라이브러리의 collections.deque를 활용한 효율적인 데이터 구조 활용 방법을 다룹니다. deque(double-ended queue)는 양쪽 끝에서 O(1) 시간 복잡도로 요소를 추가·제거할 수 있어 일반 리스트보다 큐와 스택 구현에 더 효율적입니다. maxlen 매개변수를 설정하면 크기가 제한된 히스토리나 슬라이딩 윈도우를 손쉽게 구현할 수 있습니다. 작업 큐, 브라우저 히스토리 추적, 최근 N개 항목 관리 등 실제 활용 사례를 통해 실용적인 Python 코딩 역량을 향상시킵니다."
+      "title": "How to Use Claude Code to Write and Debug Python",
+      "link": "https://realpython.com/how-to-use-claude-code/",
+      "summary": "Real Python이 Claude Code CLI를 활용하여 터미널에서 자연어 명령으로 Python 프로젝트를 개발하고 디버깅하는 실습 중심 튜토리얼을 공개했습니다.",
+      "detail": "Real Python의 이 튜토리얼은 Anthropic의 Claude Code CLI 도구를 통해 Python 프로젝트를 빌드하고 디버깅하는 단계별 가이드를 제공합니다. 설치부터 시작하여 자연어 명령으로 코드를 작성하고, Plan 모드로 구현 계획을 미리 검토하며, diff 리뷰로 변경 사항을 확인하고, 대화형 방식으로 버그를 디버깅하는 전체 워크플로우를 다룹니다. 단순한 기능 설명을 넘어 실제 Python 프로젝트를 AI 도움으로 개발하는 현실적인 사례를 통해 터미널 기반 AI 개발 도구를 실무에 통합하는 방법을 안내합니다."
     },
     {
       "category": "DataScience",
-      "title": "Survey Statistics: Modeling Complex Contingency Tables",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/18/survey-statistics-modeling-complex-contingency-tables/",
-      "summary": "부분적 모집단 정보를 활용한 사후층화(poststratification)와 복잡한 분할표 모델링 방법론을 탐구합니다.",
-      "detail": "이 포스트는 완전한 모집단 수준 정보 없이 사후층화(poststratification)를 수행하는 방법에 관한 논의에서 시작됩니다. 복잡한 분할표(contingency table) 모델링은 설문 통계에서 다중 범주형 변수 간의 상호작용을 분석할 때 필수적이며, 표본이 모집단을 완벽하게 대표하지 않는 상황에서 특히 중요합니다. 베이지안 접근법을 포함한 다양한 통계적 기법이 논의되며, 불완전한 인구 정보 상황에서의 추정 정확도 향상 방법이 핵심 주제입니다. 선거 분석, 여론조사, 사회과학 연구 등에서 실제로 적용 가능한 방법론을 다룹니다."
+      "title": "How to Scale an Integration Pipeline Without Breaking Correctness",
+      "link": "https://towardsdatascience.com/scaling-an-integration-pipeline-without-breaking-correctness/",
+      "summary": "엔터프라이즈 통합 파이프라인을 초당 500개에서 8,000개 이벤트로 16배 확장하면서 데이터 정확성 보장을 유지한 실제 프로덕션 경험을 공유합니다.",
+      "detail": "이 글은 기업 통합 파이프라인의 처리량을 초당 500이벤트에서 8,000이벤트로 16배 확장한 실제 프로덕션 사례를 상세히 설명합니다. 핵심은 이 과정에서 두 가지 정확성 보장(correctness guarantees)을 절대 타협하지 않았다는 점입니다. 수평 확장, 파티셔닝 전략, 역압력(backpressure) 메커니즘 등의 기술적 결정이 어떻게 처리량과 정확성 사이의 균형을 유지했는지 설명합니다. 대규모 데이터 파이프라인 확장 시 성능과 정확성이 상충 관계에 있다는 통념에 도전하는 실무적 인사이트를 제공합니다."
     },
     {
       "category": "DataScience",
-      "title": "The improvement in political analysis in the past 25 years, as demonstrated by excellent demonstrations of statistical workflow from Elliott Morris, Nate Silver, and Eli Mckown-Dawson",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/18/modern-day-political-analysis-excellent-demonstrations-of-statistical-workflow-from-elliott-morris-nate-silver-and-eli-mckown-dawson/",
-      "summary": "Elliott Morris, Nate Silver, Eli Mckown-Dawson의 작업을 통해 현대 정치 분석의 통계적 워크플로우가 25년간 어떻게 발전했는지 평가합니다.",
-      "detail": "Andrew Gelman은 스포츠 분석처럼 정치 분석 분야도 지난 25년간 통계적 수준이 비약적으로 향상되었다고 평가합니다. Elliott Morris(Economist), Nate Silver(FiveThirtyEight), Eli Mckown-Dawson이 선보인 정치 예측 모델은 불확실성을 정직하게 표현하고, 베이지안 추론과 계층적 모델을 활용하며, 투명한 방법론을 공개하는 모범적인 통계 워크플로우를 실천합니다. 단순한 여론조사 평균화를 넘어 상관 오류, 층화 효과, 구조적 불확실성을 명시적으로 모델링하는 방식이 정치 분석의 새로운 표준으로 자리 잡았습니다."
+      "title": "Update on a regression discontinuity dispute: some asynchronous collaboration",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/18/update-on-a-regression-discontinuity-dispute-some-asynchronous-collaboration/",
+      "summary": "회귀 불연속(RD) 설계를 활용한 2018년 정치학 연구의 방법론적 오류를 비동기 협업을 통해 재검토하고 수정한 과정을 공유합니다.",
+      "detail": "Columbia 통계 블로그에서 Anjali Thomas가 2018년 AJPS 논문 '일반 유권자 vs 정치 엘리트 타겟팅'의 재검토 결과를 공유했습니다. 이 논문은 회귀 불연속(Regression Discontinuity, RD) 설계를 활용한 인과 추론 연구로, 이후 방법론적 오류가 지적된 바 있습니다. 이번 업데이트는 여러 연구자들의 비동기적 온라인 협업을 통해 원 분석의 오류를 수정하고 더 강건한 인과 추론 결과를 도출한 과정을 담고 있습니다. 회귀 불연속 같은 준실험적(quasi-experimental) 방법론의 올바른 적용과 학술적 오류 수정 프로세스를 보여주는 투명한 과학적 사례입니다."
     }
   ]
 }

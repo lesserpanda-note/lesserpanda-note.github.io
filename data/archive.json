@@ -1,6 +1,89 @@
 {
   "digests": [
     {
+      "date": "2026-08-19",
+      "summary": "오늘은 MCP 서버 보안 강화와 주요 오픈소스 공개 소식이 주목됩니다. Cloudflare WriteGuard가 AI 에이전트의 MCP 서버 접근을 세밀하게 제어하고, Netflix가 관찰 인과 추론 에이전틱 워크플로우를 오픈소스로 공개했습니다. Mojo 언어가 1.0 출시 직후 오픈소스로 전환되었으며, 설문 통계 분할표 모델링과 정치 분석의 통계적 발전도 인상적입니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Introducing BoxLang AI Explorer: A Local Catalog for Every AI Pattern",
+          "link": "https://foojay.io/today/introducing-boxlang-ai-explorer-a-local-catalog-for-every-ai-pattern/",
+          "summary": "BoxLang AI Explorer는 BoxLang AI의 다양한 패턴을 로컬에서 탐색할 수 있는 카탈로그 도구입니다.",
+          "detail": "BoxLang AI를 학습할 때 흩어진 문서 페이지를 뒤지고 임포트를 추측하며 동작 여부가 불확실한 코드를 복사·붙여넣기 해야 하는 불편함을 해소하기 위해 BoxLang AI Explorer가 개발되었습니다. 이 도구는 BoxLang AI에서 사용 가능한 모든 AI 패턴을 로컬 카탈로그 형태로 제공하여 개발자가 API 패턴을 손쉽게 탐색하고 즉시 실행 가능한 예제 코드를 참조할 수 있도록 돕습니다. BoxLang은 JVM 기반 동적 언어로, AI 통합 개발 경험을 단순화하는 것을 목표로 하며 이번 Explorer 도구로 온보딩 장벽을 낮춥니다."
+        },
+        {
+          "category": "Java",
+          "title": "Vibe Coding, Maven, and the Dependencies You Didn't Choose",
+          "link": "https://foojay.io/today/vibe-coding-maven-and-the-dependencies-you-didnt-choose/",
+          "summary": "AI 기반 바이브 코딩이 Maven 의존성 선택을 AI에 맡기면서 발생하는 공급망 보안 위험을 분석합니다.",
+          "detail": "AI 코딩 도구(바이브 코딩)를 통해 Maven 의존성을 자동으로 선택할 때 개발자가 직접 선택하지 않은 라이브러리가 포함될 위험성을 경고합니다. 악의적인 행위자들은 AI 모델이 자주 추천하는 패키지를 타겟으로 삼아 악성 코드를 삽입할 수 있으며, 전이적 의존성(transitive dependency) 체인이 깊어질수록 공격 표면이 넓어집니다. LLM은 학습 데이터 기준으로 인기 있는 패키지를 추천하는 경향이 있어 사용 중단되거나 유지보수되지 않는 라이브러리를 제안할 위험도 있습니다. 개발자는 AI가 선택한 의존성이라도 반드시 직접 검토하고 검증해야 합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Cloudflare WriteGuard Brings Fine-Grained Security Controls for MCP Servers",
+          "link": "https://www.infoq.com/news/2026/08/cloudflare-writeguard-mcp-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Cloudflare WriteGuard는 MCP 서버에 세밀한 보안 제어를 제공하는 기능으로, 현재 프라이빗 베타 중입니다.",
+          "detail": "Cloudflare가 Model Context Protocol(MCP) 서버에 대한 세밀한 보안 제어를 위해 WriteGuard를 발표했습니다. 현재 프라이빗 베타 단계인 WriteGuard는 AI 에이전트가 데이터 쓰기, 삭제, 외부 서비스 호출 등 잠재적으로 위험한 도구에 접근하는 것을 제어합니다. MCP 서버는 AI 에이전트가 외부 도구와 연동하는 핵심 인터페이스이므로 세밀한 권한 관리가 보안 측면에서 중요합니다. WriteGuard는 읽기/쓰기 권한을 분리해 최소 권한 원칙을 적용하며, 프롬프트 인젝션이나 에이전트 오작동으로 인한 피해를 방지하는 것을 목표로 합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Netflix Open-Sources Agentic Workflow for Causal Inference",
+          "link": "https://www.infoq.com/news/2026/08/netflix-oci-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Netflix가 관찰 데이터 기반 인과 추론을 자동화하는 에이전틱 워크플로우를 오픈소스로 공개했습니다.",
+          "detail": "Netflix는 Observational Causal Inference(OCI)를 위한 에이전틱 워크플로우를 오픈소스로 공개했습니다. 이 시스템은 관찰 데이터와 사용자의 분석 계획을 입력받아 액터-크리틱 루프(actor-critic loop)를 통해 인과 분석의 반복적인 작업을 자동화합니다. OCI는 A/B 테스트가 불가능한 상황에서 관찰 데이터만으로 인과 효과를 추정하는 기법으로 대규모 서비스에서 핵심적인 분석 방법론입니다. 이 오픈소스 공개를 통해 데이터 과학자들이 인과 분석의 반복 과정을 에이전트에 위임하고 고수준 의사결정에 집중할 수 있을 것으로 기대됩니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Mojo🔥 is now open source",
+          "link": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+          "summary": "2023년 5월부터 예고되었던 Mojo 프로그래밍 언어가 1.0 출시 직후 오픈소스로 전환되었습니다.",
+          "detail": "Modular이 개발한 Mojo 프로그래밍 언어가 마침내 오픈소스로 공개되었습니다. Mojo는 Python 문법과 호환되면서도 시스템 프로그래밍 성능을 제공하는 언어로 AI·ML 워크로드를 위한 고성능 코드 작성을 목표로 합니다. 2023년 5월 처음 발표 당시부터 오픈소스 전환을 약속했으며 최근 1.0 버전을 출시한 직후 이를 이행했습니다. Python 생태계와의 호환성을 유지하면서 C/C++ 수준의 성능을 제공하여 ML 연구자와 시스템 개발자 모두를 겨냥합니다. 오픈소스 전환으로 커뮤니티 기여와 생태계 확장이 가속화될 것으로 기대됩니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
+          "link": "https://www.latent.space/p/glean-model-routing",
+          "summary": "프론티어 모델 비용 증가와 오픈웨이트 모델의 인기가 기업용 AI에서 모델 라우팅 수요를 촉진하고 있습니다.",
+          "detail": "Glean CEO Arvind Jain은 모델 라우팅이 기업의 AI 비용 관리에 핵심적인 역할을 한다고 설명합니다. GPT-4 수준의 프론티어 모델은 강력하지만 비용이 높고, Llama나 Mistral 같은 오픈웨이트 모델은 비용 효율적이지만 모든 작업에 충분하지 않습니다. 모델 라우팅은 각 요청의 복잡도와 요구 사항을 분석해 적절한 모델로 자동 전달하는 방식으로 비용을 최소화하면서 품질을 유지합니다. Glean은 대규모 휴먼 피드백 루프를 통해 라우팅 시스템을 지속적으로 개선하며, 실제 사용 데이터를 기반으로 어떤 작업에 어떤 모델이 적합한지 학습합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Presentation: From Fab To Token - The State Of The Market",
+          "link": "https://www.infoq.com/presentations/ai-hardware-tokenomics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "반도체 제약, 데이터센터 확장, 네트워크 병목이 AI 소프트웨어 아키텍처에 미치는 영향을 분석한 발표입니다.",
+          "detail": "Jordan Nanos가 SemiAnalysis 연구를 바탕으로 AI 하드웨어 시장 현황과 소프트웨어 아키텍처에 대한 함의를 설명합니다. 반도체 생산 제약(Fab)부터 토큰 생성(Token)까지의 공급망 전반을 분석하며, 데이터센터 확장 속도와 네트워킹 인프라 병목이 AI 추론 성능에 미치는 영향을 다룹니다. GPU 벤치마크 성능, 메모리 대역폭, 인터커넥트 속도 등 하드웨어 제약이 AI 시스템 설계 결정에 직접적으로 영향을 준다는 점을 강조합니다. 아키텍트와 엔지니어가 AI 인프라 투자 결정 시 고려해야 할 하드웨어 트레이드오프를 실증적으로 제시합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Fragments: August 18",
+          "link": "https://martinfowler.com/fragments/2026-08-18.html",
+          "summary": "Martin Fowler가 ThoughtWorks와 소프트웨어 개발의 기술적 탁월함에 관한 단상을 담은 8월 18일자 프래그먼트를 공유합니다.",
+          "detail": "Martin Fowler는 이번 프래그먼트에서 소프트웨어 업계의 기술적 탁월함(technical excellence)을 추구하는 조직의 필요성에 대한 단상을 공유합니다. ThoughtWorks에 몸담는 이유 중 하나로 기술 탁월함을 기반으로 한 소프트웨어 개발 조직의 모범 사례를 업계에 보여주고 싶다는 점을 언급하면서도, 실제로 그러한 영향력을 발휘하는 것이 어렵다는 솔직한 고백도 담겨 있습니다. 소프트웨어 아키텍처, 개발 문화, 엔지니어링 리더십에 관한 짧은 생각들을 담고 있습니다."
+        },
+        {
+          "category": "Python",
+          "title": "Working With Python's deque",
+          "link": "https://realpython.com/courses/working-with-pythons-deque/",
+          "summary": "Python의 collections.deque를 사용하여 양쪽 끝에서 O(1)로 요소를 추가·제거하는 방법을 학습합니다.",
+          "detail": "Real Python 코스에서 Python 표준 라이브러리의 collections.deque를 활용한 효율적인 데이터 구조 활용 방법을 다룹니다. deque(double-ended queue)는 양쪽 끝에서 O(1) 시간 복잡도로 요소를 추가·제거할 수 있어 일반 리스트보다 큐와 스택 구현에 더 효율적입니다. maxlen 매개변수를 설정하면 크기가 제한된 히스토리나 슬라이딩 윈도우를 손쉽게 구현할 수 있습니다. 작업 큐, 브라우저 히스토리 추적, 최근 N개 항목 관리 등 실제 활용 사례를 통해 실용적인 Python 코딩 역량을 향상시킵니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Survey Statistics: Modeling Complex Contingency Tables",
+          "link": "https://statmodeling.stat.columbia.edu/2026/08/18/survey-statistics-modeling-complex-contingency-tables/",
+          "summary": "부분적 모집단 정보를 활용한 사후층화(poststratification)와 복잡한 분할표 모델링 방법론을 탐구합니다.",
+          "detail": "이 포스트는 완전한 모집단 수준 정보 없이 사후층화(poststratification)를 수행하는 방법에 관한 논의에서 시작됩니다. 복잡한 분할표(contingency table) 모델링은 설문 통계에서 다중 범주형 변수 간의 상호작용을 분석할 때 필수적이며, 표본이 모집단을 완벽하게 대표하지 않는 상황에서 특히 중요합니다. 베이지안 접근법을 포함한 다양한 통계적 기법이 논의되며, 불완전한 인구 정보 상황에서의 추정 정확도 향상 방법이 핵심 주제입니다. 선거 분석, 여론조사, 사회과학 연구 등에서 실제로 적용 가능한 방법론을 다룹니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "The improvement in political analysis in the past 25 years, as demonstrated by excellent demonstrations of statistical workflow from Elliott Morris, Nate Silver, and Eli Mckown-Dawson",
+          "link": "https://statmodeling.stat.columbia.edu/2026/08/18/modern-day-political-analysis-excellent-demonstrations-of-statistical-workflow-from-elliott-morris-nate-silver-and-eli-mckown-dawson/",
+          "summary": "Elliott Morris, Nate Silver, Eli Mckown-Dawson의 작업을 통해 현대 정치 분석의 통계적 워크플로우가 25년간 어떻게 발전했는지 평가합니다.",
+          "detail": "Andrew Gelman은 스포츠 분석처럼 정치 분석 분야도 지난 25년간 통계적 수준이 비약적으로 향상되었다고 평가합니다. Elliott Morris(Economist), Nate Silver(FiveThirtyEight), Eli Mckown-Dawson이 선보인 정치 예측 모델은 불확실성을 정직하게 표현하고, 베이지안 추론과 계층적 모델을 활용하며, 투명한 방법론을 공개하는 모범적인 통계 워크플로우를 실천합니다. 단순한 여론조사 평균화를 넘어 상관 오류, 층화 효과, 구조적 불확실성을 명시적으로 모델링하는 방식이 정치 분석의 새로운 표준으로 자리 잡았습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-18",
       "summary": "오늘은 Java의 네이티브 JSON API(JEP 540) 제안, llama.cpp 첫 정식 버전 출시, Stripe의 OpenRouter 70억 달러 인수 등 굵직한 소식이 이어졌습니다. Cloudflare의 TypeScript 기반 CI SDK 출시와 Grab의 AI 에이전트 분석 자동화 성과도 주목할 만하며, 에이전틱 트래픽이 기존 오토스케일링 패러다임을 어떻게 무너뜨리는지에 대한 심층 분석도 눈에 띕니다.",
       "highlights": [
