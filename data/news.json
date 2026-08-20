@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-20T10:24:58+09:00",
-  "count": 962,
+  "updated": "2026-08-20T12:00:42+09:00",
+  "count": 963,
   "items": [
+    {
+      "title": "v2.32.1 (2026-08-19)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.32.1",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Reject Agent.run_sync() from synchronous callbacks inside agent runs by @dsfaccini in #7277 Don't send Anthropic thinking blocks with an empty signature by @mpfaffenberger in #7601 Accept any…",
+      "ts": 1787191865,
+      "published": "2026-08-20T02:11:05+00:00",
+      "collected_at": "2026-08-20T12:00:14+09:00"
+    },
     {
       "title": "1.15.17",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.17",
