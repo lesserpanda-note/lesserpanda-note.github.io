@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-21T17:45:01+09:00",
-  "count": 1035,
+  "updated": "2026-08-21T18:40:41+09:00",
+  "count": 1037,
   "items": [
+    {
+      "title": "S3 Compatibility Doesn't Guarantee S3-Level Security",
+      "link": "https://www.infoq.com/news/2026/08/s3-clone-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Security researchers at Wiz recently examined S3-compatible object storage services across six popular neoclouds, revealing significant security gaps compared to Amazon S3. While S3 has become the de facto standard for…",
+      "ts": 1787301660,
+      "published": "2026-08-21T08:41:00+00:00",
+      "collected_at": "2026-08-21T18:40:20+09:00"
+    },
     {
       "title": "Azul August 2026 Release: Java’s First Monthly CSPU",
       "link": "https://foojay.io/today/azul-august-2026-release-javas-first-monthly-cspu/",
@@ -1181,6 +1191,16 @@
       "ts": 1787184000,
       "published": "2026-08-20T00:00:00+00:00",
       "collected_at": "2026-08-21T13:41:56+09:00"
+    },
+    {
+      "title": "Spring Batch 6.0.5 and 6.1.0-M1 available now",
+      "link": "https://spring.io/blog/2026/08/20/spring-batch-6-0-5-and-6-1-0-M1-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 6.0.5 and 6.1.0-M1 are available from Maven Central. These releases come with a number of security fixes and dependencies updates. T…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T18:40:20+09:00"
     },
     {
       "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
