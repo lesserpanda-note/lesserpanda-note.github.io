@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-21T08:28:34+09:00",
-  "count": 1015,
+  "updated": "2026-08-21T09:17:03+09:00",
+  "count": 1023,
   "items": [
+    {
+      "title": "ChatGPT search now uses the site:operator at scale",
+      "link": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help you…",
+      "ts": 1787270252,
+      "published": "2026-08-20T23:57:32+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
     {
       "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
       "link": "https://www.latent.space/p/wayfinder-skill",
@@ -901,6 +911,106 @@
       "ts": 1787184000,
       "published": "2026-08-20T00:00:00+00:00",
       "collected_at": "2026-08-21T08:28:15+09:00"
+    },
+    {
+      "title": "cve-2026-41707 - HIGH - Spring Security DPoPProofJwtDecoderFactory vulnerable to DPoP Proof Replay",
+      "link": "https://spring.io/security/cve-2026-41707",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Security's DPoPProofJwtDecoderFactory uses an internal cache to store the processed jti (JWT ID) claims, which is intended to protect against replay attacks by ensuring that each DPoP proof is only used once. How…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
+    {
+      "title": "cve-2026-47841 - HIGH - WebAuthn User Verification Bypass via Session Serialization",
+      "link": "https://spring.io/security/cve-2026-47841",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "An application using Spring Security's WebAuthn support may be vulnerable to user verification bypass when using a distributed HTTP session store. Spring Security compares UserVerificationRequirement using identity ( ==…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
+    {
+      "title": "cve-2026-47842 - MEDIUM - Deterministic AES/CBC Encryption in Spring Security AesBytesEncryptor Allows Ciphertext Correlation",
+      "link": "https://spring.io/security/cve-2026-47842",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "This is a continuation of CVE-2020-5408 . Applications using AesBytesEncryptor with the two-argument constructor or when passing a null IV generator and CBC as the encryption mode encrypt data with AES/CBC using a null…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
+    {
+      "title": "cve-2026-47875 - MEDIUM - JobParameterDeserializer bypasses the trusted-type allowlist",
+      "link": "https://spring.io/security/cve-2026-47875",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Applications that deserialize execution contexts with Jackson2ExecutionContextStringSerializer are vulnerable to a deserialization attack if they use an untrusted data source for the job repository. The JobParameterDese…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
+    {
+      "title": "cve-2026-47877 - HIGH - Spring Security Authorization Server Default Consent Page is vulnerable to Cross-Site Scripting (XSS)",
+      "link": "https://spring.io/security/cve-2026-47877",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Security Authorization Server's default consent page renders user-controlled values without HTML entity encoding. When using the DefaultConsentPage , an attacker can craft an OAuth2 authorization request containi…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
+    {
+      "title": "cve-2026-47878 - MEDIUM - Unsafe Java deserialization in DefaultExecutionContextSerializer without class allowlist",
+      "link": "https://spring.io/security/cve-2026-47878",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "DefaultExecutionContextSerializer , used by default in Spring Batch's JDBC job repository, passes Base64-decoded bytes directly to ObjectInputStream.readObject() without an ObjectInputFilter that restricts types to a tr…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
+    {
+      "title": "cve-2026-47881 - MEDIUM - Denial of Service in Spring Batch FlatFileItemReader via Malformed Input File",
+      "link": "https://spring.io/security/cve-2026-47881",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Batch's FlatFileItemReader supports files where a single logical record spans multiple physical lines — for example, a CSV field that contains embedded newlines wrapped in quotes. A specially crafted input file c…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
+    {
+      "title": "cve-2026-59270 - CRITICAL - Spring Security embedded UnboundID LDAP server exposes well-known administrative bind DN on all network interfaces",
+      "link": "https://spring.io/security/cve-2026-59270",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Security's embedded UnboundID LDAP server ( UnboundIdContainer ) unconditionally registers an administrative credential and binds its listener to all available network interfaces. An attacker who could reach the…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
+    {
+      "title": "cve-2026-59277 - LOW - Spring Security InetAddressMatchers Incomplete Internal Network Classification",
+      "link": "https://spring.io/security/cve-2026-59277",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Security's InetAddressMatchers utility provides matchInternal() and matchExternal() builders for constructing an InetAddressMatcher that classifies a given IP address as belonging to an internal (private) or exte…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
+    },
+    {
+      "title": "cve-2026-59276 - MEDIUM - Timing Attack via Non-Constant-Time Comparison of Sensitive Values",
+      "link": "https://spring.io/security/cve-2026-59276",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Several components in Spring Security compare security-sensitive values using standard string equality ( String.equals() ) rather than a constant-time comparison. Because String.equals() returns as soon as it finds a di…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T09:16:56+09:00"
     },
     {
       "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
@@ -10121,36 +10231,6 @@
       "ts": 1784690849,
       "published": "2026-07-22T03:27:29+00:00",
       "collected_at": "2026-07-22T12:33:30+09:00"
-    },
-    {
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "link": "https://openai.com/index/ntt-data",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "ts": 1784678400,
-      "published": "2026-07-22T00:00:00+00:00",
-      "collected_at": "2026-07-23T09:03:02+09:00"
-    },
-    {
-      "title": "Ask Claude about the Anthropic Economic Index",
-      "link": "https://www.anthropic.com/news/anthropic-economic-index-connector",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Ask Claude about the Anthropic Economic Index",
-      "ts": 1784678400,
-      "published": "2026-07-22T00:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "A research agenda for the Economic Futures Research Fund",
-      "link": "https://www.anthropic.com/news/economic-futures-research-fund-agenda",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "A research agenda for the Economic Futures Research Fund",
-      "ts": 1784678400,
-      "published": "2026-07-22T00:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
     }
   ]
 }
