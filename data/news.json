@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-21T21:54:37+09:00",
-  "count": 1046,
+  "updated": "2026-08-21T22:49:38+09:00",
+  "count": 1043,
   "items": [
+    {
+      "title": "Bayesian Guardrails for AI Decisions: Measuring Uncertainty Before Automating Decisions",
+      "link": "https://towardsdatascience.com/bayesian-guardrails-for-ai-decisions-measuring-uncertainty-before-automating-decisions/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "AI systems should not automate a decision simply because they can provide a prediction. A decision system should consider how uncertain the prediction is and defer if a mistake would be costly. The post Bayesian Guardra…",
+      "ts": 1787319000,
+      "published": "2026-08-21T13:30:00+00:00",
+      "collected_at": "2026-08-21T22:49:16+09:00"
+    },
+    {
+      "title": "Here are the talks from StanCon 2026!",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/21/here-are-the-talks-from-stancon-2026/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "StanCon 2026 just happened! And here are the talks: Matthew Kay Adrian Seyboldt Paul-Christian Bürkner Charles Margossian Javier Enrique Aguilar Sean Pinkney Nikolas Siccha Anna Dreber Kaitlyn Johnson Jonas Wallin Prana…",
+      "ts": 1787318735,
+      "published": "2026-08-21T13:25:35+00:00",
+      "collected_at": "2026-08-21T22:49:16+09:00"
+    },
     {
       "title": "5 Real-World Use Cases for AI Agents Transforming Industries",
       "link": "https://www.kdnuggets.com/5-real-world-use-cases-for-ai-agents-transforming-industries",
@@ -211,6 +231,16 @@
       "ts": 1787270400,
       "published": "2026-08-21T00:00:00+00:00",
       "collected_at": "2026-08-21T21:54:20+09:00"
+    },
+    {
+      "title": "Measuring benchmark optimization in speech recognition",
+      "link": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787270400,
+      "published": "2026-08-21T00:00:00+00:00",
+      "collected_at": "2026-08-21T22:49:16+09:00"
     },
     {
       "title": "ChatGPT search now uses the site:operator at scale",
@@ -10401,66 +10431,6 @@
       "ts": 1784728800,
       "published": "2026-07-22T14:00:00+00:00",
       "collected_at": "2026-07-23T01:21:23+09:00"
-    },
-    {
-      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-      "link": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "Google commits $40M in AI tokens and credits for the Genesis Mission",
-      "ts": 1784727534,
-      "published": "2026-07-22T13:38:54+00:00",
-      "collected_at": "2026-07-22T23:04:53+09:00"
-    },
-    {
-      "title": "Build an LLM Agent That Can Write and Run Code",
-      "link": "https://towardsdatascience.com/build-an-llm-agent-that-can-write-and-run-code/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A hands-on walkthrough of code execution with the OpenAI Agents SDK and Docker The post Build an LLM Agent That Can Write and Run Code appeared first on Towards Data Science .",
-      "ts": 1784727000,
-      "published": "2026-07-22T13:30:00+00:00",
-      "collected_at": "2026-07-22T23:04:53+09:00"
-    },
-    {
-      "title": "He “washed his hands in a can of tetraethyl lead at a press conference, claiming he was ‘not taking any chance whatever’. He knew this to be a lie, having already succumbed to a bout of lead poisonin…",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/22/he-washed-his-hands-in-a-can-of-tetraethyl-lead-at-a-press-conference-claiming-he-was-not-taking-any-chance-whatever-he-knew-this-to-be-a-lie-having-already-succumbed-to-a-bout/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "OK, this is absolutely horrifying: The ill effects of ingested lead and other heavy metals had been known since the 1920s, when employees at TEL [tetraethyl lead]-refining plants began hallucinating butterflies and goin…",
-      "ts": 1784725841,
-      "published": "2026-07-22T13:10:41+00:00",
-      "collected_at": "2026-07-22T23:04:53+09:00"
-    },
-    {
-      "title": "3 Google updates from Galaxy Unpacked 2026",
-      "link": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Gentle Monster glasses, Warby Parker glasses, a prompt asking for the history behind a pictured building, and a prompt asking to book a table at a pictured restaurant",
-      "ts": 1784725200,
-      "published": "2026-07-22T13:00:00+00:00",
-      "collected_at": "2026-07-22T23:04:53+09:00"
-    },
-    {
-      "title": "Building AI infrastructure with the Effingham County community",
-      "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "ts": 1784725200,
-      "published": "2026-07-22T13:00:00+00:00",
-      "collected_at": "2026-07-22T23:04:53+09:00"
-    },
-    {
-      "title": "How news organizations are using AI to advance their vital missions",
-      "link": "https://openai.com/index/how-news-organizations-are-using-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide.",
-      "ts": 1784725200,
-      "published": "2026-07-22T13:00:00+00:00",
-      "collected_at": "2026-07-23T05:12:49+09:00"
     }
   ]
 }
