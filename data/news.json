@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-22T07:28:37+09:00",
+  "updated": "2026-08-22T08:27:37+09:00",
   "count": 1047,
   "items": [
+    {
+      "title": "python-1.15.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.15.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.15.0] - 2026-08-21 Added agent-framework-ag-ui , agent-framework-openai : Add optional A2UI support for agent-generated interfaces and preserve streaming tool-call indices for A2UI consumers ( #7423 ) agent-framework…",
+      "ts": 1787353764,
+      "published": "2026-08-21T23:09:24+00:00",
+      "collected_at": "2026-08-22T08:27:32+09:00"
+    },
     {
       "title": "Running Codex as a Headless Agent",
       "link": "https://towardsdatascience.com/running-codex-as-a-headless-agent/",
@@ -10460,16 +10470,6 @@
       "summary": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of Ope…",
       "ts": 1784764293,
       "published": "2026-07-22T23:51:33+00:00",
-      "collected_at": "2026-07-23T09:03:02+09:00"
-    },
-    {
-      "title": "Are AI labs pelicanmaxxing?",
-      "link": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Are AI labs pelicanmaxxing? Excellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bic…",
-      "ts": 1784761260,
-      "published": "2026-07-22T23:01:00+00:00",
       "collected_at": "2026-07-23T09:03:02+09:00"
     }
   ]
