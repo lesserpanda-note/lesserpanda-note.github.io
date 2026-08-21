@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-21T19:34:01+09:00",
-  "count": 1038,
+  "updated": "2026-08-21T20:29:47+09:00",
+  "count": 1041,
   "items": [
+    {
+      "title": "Presentation: Enchant Your AI and APIs with eBPF Magic 🪄",
+      "link": "https://www.infoq.com/presentations/ebpf-ai-gateway-kubernetes-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Dan Finneran discusses the risks of unowned AI-generated code in production and demonstrates how eBPF can intercept and control AI API traffic in Kubernetes. He explains how kernel-level socket hooks enable transparent…",
+      "ts": 1787310000,
+      "published": "2026-08-21T11:00:00+00:00",
+      "collected_at": "2026-08-21T20:29:35+09:00"
+    },
+    {
+      "title": "Presentation: Enchant Your AI and APIs with eBPF Magic 🪄",
+      "link": "https://www.infoq.com/presentations/ebpf-ai-gateway-kubernetes-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Dan Finneran discusses the risks of unowned AI-generated code in production and demonstrates how eBPF can intercept and control AI API traffic in Kubernetes. He explains how kernel-level socket hooks enable transparent…",
+      "ts": 1787310000,
+      "published": "2026-08-21T11:00:00+00:00",
+      "collected_at": "2026-08-21T20:29:35+09:00"
+    },
+    {
+      "title": "PagedAttention vs. RadixAttention: Optimizing LLM KV Cache Management",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/pagedattention-radixattention-llm-kv-cache/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Modern LLMs rely on quantization, pruning, distillation, and faster attention kernels, but production performance often depends most on KV cache management. As context windows grow, the cache consumes significant GPU me…",
+      "ts": 1787308923,
+      "published": "2026-08-21T10:42:03+00:00",
+      "collected_at": "2026-08-21T20:29:35+09:00"
+    },
     {
       "title": "Azure DevOps Remote MCP Server Reaches GA, Without Support for Claude, ChatGPT, or Cursor",
       "link": "https://www.infoq.com/news/2026/08/azure-devops-remote-mcp-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
