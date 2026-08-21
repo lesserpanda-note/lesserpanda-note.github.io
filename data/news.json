@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-21T10:35:10+09:00",
-  "count": 1025,
+  "updated": "2026-08-21T12:06:31+09:00",
+  "count": 1033,
   "items": [
+    {
+      "title": "v2.32.2 (2026-08-20)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.32.2",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Await async callable instances in pydantic_evals tasks and the evaluate decorator by @pydanty[bot] in #7535 Fix RunContext.cancel() in realtime sessions by @adtyavrdhn in #7528 Recognize m.you…",
+      "ts": 1787280992,
+      "published": "2026-08-21T02:56:32+00:00",
+      "collected_at": "2026-08-21T12:06:21+09:00"
+    },
     {
       "title": "My answer is No.",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/20/my-answer-is-no/",
@@ -1031,6 +1041,76 @@
       "ts": 1787184000,
       "published": "2026-08-20T00:00:00+00:00",
       "collected_at": "2026-08-21T10:35:01+09:00"
+    },
+    {
+      "title": "cve-2026-47843 - LOW - Reactor Netty may incorrectly route traffic due to DNS resolver reuse",
+      "link": "https://spring.io/security/cve-2026-47843",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "In specific scenarios involving multiple clients with different DNS resolver configurations, Reactor Netty may incorrectly reuse a previously configured DNS resolver. In order for this to happen, the application must dy…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T12:06:21+09:00"
+    },
+    {
+      "title": "cve-2026-47844 - MEDIUM - Reactor Netty HTTP Server Leaks Exception Details",
+      "link": "https://spring.io/security/cve-2026-47844",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "In specific scenarios, the Reactor Netty HTTP Server may leak exception details across unrelated requests. In order for this to happen, the server must be configured with Brave Tracing.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T12:06:21+09:00"
+    },
+    {
+      "title": "cve-2026-47848 - MEDIUM - Reactor Netty WebSocket Client Leaks Credentials On Redirect",
+      "link": "https://spring.io/security/cve-2026-47848",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "In specific scenarios involving WebSocket handshake redirects to a different origin, the Reactor Netty WebSocket client may leak credentials. In order for this to happen, the HTTP client must have been explicitly config…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T12:06:21+09:00"
+    },
+    {
+      "title": "cve-2026-47857 - MEDIUM - Reactor Core windowTimeout fair-backpressure stream hang due to 20-bit index wrap-around",
+      "link": "https://spring.io/security/cve-2026-47857",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "In Reactor Core, applications that use the Flux.windowTimeout operator with fairBackpressure enabled are vulnerable to a Denial of Service (DoS) condition. If a stream remains active for an extended period and experienc…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T12:06:21+09:00"
+    },
+    {
+      "title": "cve-2026-47845 - MEDIUM - Reactor Netty HTTP Server may incorrectly evaluate proxy addresses",
+      "link": "https://spring.io/security/cve-2026-47845",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "In specific scenarios, Reactor Netty HTTP Server may incorrectly evaluate the remote IP address when HAProxy Protocol is enabled. In order for this to happen, the application must be configured to use HAProxy Protocol.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T12:06:21+09:00"
+    },
+    {
+      "title": "cve-2026-47863 - MEDIUM - Reactor Core bufferTimeout fair-backpressure pipeline permanently hangs when upstream delivers items during an active flush",
+      "link": "https://spring.io/security/cve-2026-47863",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "In Reactor Core, applications that use the Flux.bufferTimeout operator with fairBackpressure enabled are vulnerable to a Denial of Service (DoS) condition. A race condition exists between the flushing of buffered items…",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T12:06:21+09:00"
+    },
+    {
+      "title": "cve-2026-47874 - MEDIUM - Reactor Netty HTTP Server Denial of Service With Pipelined Requests",
+      "link": "https://spring.io/security/cve-2026-47874",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The vulnerability occurs when a client sends HTTP/1.1 pipelined requests over a single connection, causing the Reactor Netty HTTP server to consume an excessive amount of memory.",
+      "ts": 1787184000,
+      "published": "2026-08-20T00:00:00+00:00",
+      "collected_at": "2026-08-21T12:06:21+09:00"
     },
     {
       "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
