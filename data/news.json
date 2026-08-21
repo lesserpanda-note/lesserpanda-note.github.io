@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-22T00:36:56+09:00",
-  "count": 1043,
+  "updated": "2026-08-22T01:38:23+09:00",
+  "count": 1045,
   "items": [
+    {
+      "title": "Retrieve One Row from a Table, Not the Whole Table: Row-Level Chunks for RAG",
+      "link": "https://towardsdatascience.com/retrieve-one-row-from-a-table-not-the-whole-table-row-level-chunks-for-rag/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #7sexies] - The unit of retrieval doesn’t have to be a page or a paragraph. When the corpus carries tables, each body row with its column headers is a chunk in its own right, and…",
+      "ts": 1787329800,
+      "published": "2026-08-21T16:30:00+00:00",
+      "collected_at": "2026-08-22T01:38:18+09:00"
+    },
+    {
+      "title": "Stop Making TUIs",
+      "link": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Stop Making TUIs Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to alm…",
+      "ts": 1787328452,
+      "published": "2026-08-21T16:07:32+00:00",
+      "collected_at": "2026-08-22T01:38:18+09:00"
+    },
+    {
+      "title": "Aggregation Optimization in MongoDB: Optimizing Many-to-Many Relationships (Part 3)",
+      "link": "https://foojay.io/today/aggregation-optimization-in-mongodb-optimizing-many-to-many-relationships-part-3/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "And why MongoDB might be a better relational database than you ever realized. Design reviews are one-on-one meetings where MongoDB experts deliver advice on data modeling best practices and application design challenges…",
+      "ts": 1787328040,
+      "published": "2026-08-21T16:00:40+00:00",
+      "collected_at": "2026-08-22T01:38:18+09:00"
+    },
     {
       "title": "Quoting Matt Webb",
       "link": "https://simonwillison.net/2026/Aug/21/matt-webb/",
@@ -10421,16 +10451,6 @@
       "ts": 1784738719,
       "published": "2026-07-22T16:45:19+00:00",
       "collected_at": "2026-07-24T06:08:06+09:00"
-    },
-    {
-      "title": "Loop Engineering for RAG Generation: iterate top-k one at a time",
-      "link": "https://towardsdatascience.com/loop-engineering-for-rag-generation-when-top-1-is-enough-when-you-need-top-k/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #8bis] - Two regimes for sending retrieved candidates to the generation brick, the sufficiency signal that picks between them, and the per-question type dispatch that makes it che…",
-      "ts": 1784737800,
-      "published": "2026-07-22T16:30:00+00:00",
-      "collected_at": "2026-07-23T03:10:11+09:00"
     }
   ]
 }
