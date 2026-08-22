@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-22T17:34:04+09:00",
-  "count": 1039,
+  "updated": "2026-08-22T18:30:35+09:00",
+  "count": 1040,
   "items": [
+    {
+      "title": "AI Code Review at Scale: LinkedIn's Multi-Agent Approach",
+      "link": "https://www.infoq.com/news/2026/08/linkedin-ai-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "At LinkedIn's scale, relying solely on human reviewers or simply putting an off-the-shelf AI reviewer in front of GitHub is not an effective way to manage PRs. To address this, LinkedIn engineers built a multi-agent AI…",
+      "ts": 1787389200,
+      "published": "2026-08-22T09:00:00+00:00",
+      "collected_at": "2026-08-22T18:30:29+09:00"
+    },
+    {
+      "title": "Offline Crypto Address Validation in Java",
+      "link": "https://foojay.io/today/offline-crypto-address-validation-in-java/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Backend validation often starts with simple questions. Is the input empty? Does it have the expected shape? Can it be parsed? Does it belong to the selected domain? Crypto wallet addresses are no different, except the f…",
+      "ts": 1787388184,
+      "published": "2026-08-22T08:43:04+00:00",
+      "collected_at": "2026-08-22T18:30:29+09:00"
+    },
     {
       "title": "AWS Releases Aws-Bench to Evaluate Agents on Cloud Tasks",
       "link": "https://www.infoq.com/news/2026/08/aws-bench-agent-evaluation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -10380,16 +10400,6 @@
       "summary": "QCon AI New York 2026 (Dec 15-16) has opened registration at The Westin Jersey City Newport. Six tracks on production AI, chaired by Eder Ignatowicz with Faye Zhang and Wes Reisz. First sessions announced in August, ful…",
       "ts": 1784800800,
       "published": "2026-07-23T10:00:00+00:00",
-      "collected_at": "2026-07-23T19:26:32+09:00"
-    },
-    {
-      "title": "Article: Multi-Agent AI for Production Security Operations: An A2A and MCP Architecture in a 5G Core",
-      "link": "https://www.infoq.com/articles/multi-agent-security-operations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The bottleneck in a mature SOC is rarely analyst triage; rather, it is the detection-engineering team's ability to keep the rule base aligned with a threat landscape that evolves faster than rules can be written. Learn…",
-      "ts": 1784797200,
-      "published": "2026-07-23T09:00:00+00:00",
       "collected_at": "2026-07-23T19:26:32+09:00"
     }
   ]
