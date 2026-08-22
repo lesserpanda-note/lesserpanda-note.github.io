@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-23T00:25:07+09:00",
+  "updated": "2026-08-23T01:28:31+09:00",
   "count": 1031,
   "items": [
+    {
+      "title": "More than just code review",
+      "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Somet…",
+      "ts": 1787414214,
+      "published": "2026-08-22T15:56:54+00:00",
+      "collected_at": "2026-08-23T01:28:13+09:00"
+    },
     {
       "title": "Cloudflare Announces Kitesurf, a Browser Engine for Agents",
       "link": "https://www.infoq.com/news/2026/08/cloudflare-kitesurf-browser/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -161,6 +171,16 @@
       "ts": 1787368639,
       "published": "2026-08-22T03:17:19+00:00",
       "collected_at": "2026-08-22T12:48:26+09:00"
+    },
+    {
+      "title": "The Python documentation is now available in Russian!",
+      "link": "https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "",
+      "ts": 1787356800,
+      "published": "2026-08-22T00:00:00+00:00",
+      "collected_at": "2026-08-23T01:28:13+09:00"
     },
     {
       "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
@@ -10290,26 +10310,6 @@
       "summary": "$8 million vs $5k + Potentially Going Viral The post When Data Science Makes Us Sad: The Story of an Overbooked Flight appeared first on Towards Data Science .",
       "ts": 1784824200,
       "published": "2026-07-23T16:30:00+00:00",
-      "collected_at": "2026-07-24T02:26:39+09:00"
-    },
-    {
-      "title": "Show HN: OneCLI – OSS credential gateway that keeps secrets out of AI agents",
-      "link": "https://github.com/onecli/onecli",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "hey HN, Jonathan and Guy here, creators of OneCLI ( https://onecli.sh/ ). OneCLI is an open source vault for AI Agents. Traditional vaults are used to store your secrets and, on demand, provide them to you all in a secu…",
-      "ts": 1784821360,
-      "published": "2026-07-23T15:42:40+00:00",
-      "collected_at": "2026-07-24T06:08:06+09:00"
-    },
-    {
-      "title": "AI Found the Bugs. Who’s Patching Your EOL Java Code?",
-      "link": "https://foojay.io/today/ai-found-the-bugs-whos-patching-your-eol-java-code/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Earlier this year an AI model found a flaw in OpenBSD's TCP stack that had been sitting there for 27 years. The same scanning run turned up a 16-year-old bug in FFmpeg's H.264 code. How do you feel about AI ... The post…",
-      "ts": 1784820413,
-      "published": "2026-07-23T15:26:53+00:00",
       "collected_at": "2026-07-24T02:26:39+09:00"
     }
   ]
