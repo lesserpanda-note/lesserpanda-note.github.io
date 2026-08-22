@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-22T23:25:14+09:00",
-  "count": 1030,
+  "updated": "2026-08-23T00:25:07+09:00",
+  "count": 1031,
   "items": [
+    {
+      "title": "Cloudflare Announces Kitesurf, a Browser Engine for Agents",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-kitesurf-browser/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare recently introduced Kitesurf, a lightweight browser built for automated workloads. Kitesurf runs browser components in isolated WebAssembly/Rust environments on Cloudflare Workers and supports the Chrome DevT…",
+      "ts": 1787410860,
+      "published": "2026-08-22T15:01:00+00:00",
+      "collected_at": "2026-08-23T00:24:44+09:00"
+    },
+    {
+      "title": "Multi-Document RAG: A Folder of Unrelated PDFs Is One Long Document with a Nested Outline",
+      "link": "https://towardsdatascience.com/multi-document-rag-a-folder-of-unrelated-pdfs-is-one-long-document-with-a-nested-outline/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #14B] - No shared fields means no index to build. One summary line per file plus each file’s own table of contents, and retrieval routes down two levels The post Multi-Document RA…",
+      "ts": 1787410800,
+      "published": "2026-08-22T15:00:00+00:00",
+      "collected_at": "2026-08-23T00:24:44+09:00"
+    },
     {
       "title": "This is one of the worst scientific papers I’ve ever seen.",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/22/this-is-one-of-the-worst-scientific-papers-ive-ever-seen/",
@@ -11,6 +31,16 @@
       "ts": 1787405562,
       "published": "2026-08-22T13:32:42+00:00",
       "collected_at": "2026-08-22T22:34:01+09:00"
+    },
+    {
+      "title": "The New MCP Roadmap",
+      "link": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://blog.modelcontextprotocol.io/posts/mcp-roadmap/ Comments URL: https://news.ycombinator.com/item?id=49399591 Points: 48 # Comments: 32",
+      "ts": 1787405494,
+      "published": "2026-08-22T13:31:34+00:00",
+      "collected_at": "2026-08-23T00:24:44+09:00"
     },
     {
       "title": "Why We Fine-Tuned SigLip (And Why That’s Not Always the Right Call)",
@@ -10281,26 +10311,6 @@
       "ts": 1784820413,
       "published": "2026-07-23T15:26:53+00:00",
       "collected_at": "2026-07-24T02:26:39+09:00"
-    },
-    {
-      "title": "Most RAG Hallucinations Are Extraction Errors: Seven Patterns for a Typed Generation Contract",
-      "link": "https://towardsdatascience.com/most-rag-hallucinations-are-extraction-errors-seven-patterns-for-a-typed-generation-contract/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #8ter] - Naming the RAG error correctly matters: model reads the context, so a wrong answer is an extraction error, not a hallucination. Seven typed-contract patterns keep the gen…",
-      "ts": 1784818800,
-      "published": "2026-07-23T15:00:00+00:00",
-      "collected_at": "2026-07-24T00:11:46+09:00"
-    },
-    {
-      "title": "Présentation du Kotlin Benchmark pour les agents de programmation IA",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/presentation-du-kotlin-benchmark-pour-les-agents-de-programmation-ia",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Les benchmarks du développement piloté par des agents se rapprochent de plus en plus des conditions réelles du développement logiciel. Pour les équipes Kotlin, la question la plus importante est de savoir dans quelle me…",
-      "ts": 1784816764,
-      "published": "2026-07-23T14:26:04+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
     }
   ]
 }
