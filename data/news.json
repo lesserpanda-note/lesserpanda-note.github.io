@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-22T08:27:37+09:00",
-  "count": 1047,
+  "updated": "2026-08-22T09:16:15+09:00",
+  "count": 1040,
   "items": [
+    {
+      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+      "link": "https://www.latent.space/p/simile",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Simile’s CEO about his journey from the viral Generative Agents to creating 8 Billion Digital Twins of every living human... and why it’s gone from fun exploration to very serious business.",
+      "ts": 1787355458,
+      "published": "2026-08-21T23:37:38+00:00",
+      "collected_at": "2026-08-22T09:16:08+09:00"
+    },
     {
       "title": "python-1.15.0",
       "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.15.0",
@@ -10391,86 +10401,6 @@
       "ts": 1784773535,
       "published": "2026-07-23T02:25:35+00:00",
       "collected_at": "2026-07-23T13:17:31+09:00"
-    },
-    {
-      "title": "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "link": "https://huggingface.co/blog/nunchaku-diffusers",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1784764800,
-      "published": "2026-07-23T00:00:00+00:00",
-      "collected_at": "2026-07-23T16:34:56+09:00"
-    },
-    {
-      "title": "Episode 63 “AI Solutions with Spring AI 2.0 [I/O]",
-      "link": "https://inside.java/2026/07/23/podcast-063/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Tips on deterministic agents, MCP servers and skills, prompt engineering, and where Java's richness for AI solutions stems from.",
-      "ts": 1784764800,
-      "published": "2026-07-23T00:00:00+00:00",
-      "collected_at": "2026-07-23T21:25:38+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: Java Developer Advocate Billy Korando on Java 27 and Beyond",
-      "link": "https://spring.io/blog/2026/07/23/a-bootiful-podcast-billy-korando",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi Spring fans! In this installment, I am thrilled to have the chance to sit down with Java Developer Advocate Billy Korando to talk about the amazing features in the upcoming Java 27! We recorded this a day before I fl…",
-      "ts": 1784764800,
-      "published": "2026-07-23T00:00:00+00:00",
-      "collected_at": "2026-07-24T02:26:39+09:00"
-    },
-    {
-      "title": "Launching Health in ChatGPT",
-      "link": "https://openai.com/index/health-in-chatgpt",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health.",
-      "ts": 1784764800,
-      "published": "2026-07-23T00:00:00+00:00",
-      "collected_at": "2026-07-24T02:26:39+09:00"
-    },
-    {
-      "title": "Get Ready: 2026 Python Packaging Council Nominations Opening Soon!",
-      "link": "https://blog.python.org/2026/07/2026-packaging-council-nominations/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "The inaugural Python Packaging Council election nomination period opens on Tuesday, July 28th, 2:00 pm UTC and closes on Tuesday, August 11th, 2:00 pm UTC.",
-      "ts": 1784764800,
-      "published": "2026-07-23T00:00:00+00:00",
-      "collected_at": "2026-07-24T02:26:39+09:00"
-    },
-    {
-      "title": "Quoting Thomas Ptacek",
-      "link": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume…",
-      "ts": 1784764741,
-      "published": "2026-07-22T23:59:01+00:00",
-      "collected_at": "2026-07-23T09:21:24+09:00"
-    },
-    {
-      "title": "dotnet-1.15.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.15.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "What's Changed Python: Add MCPStreamableHTTPTool security guidance for custom http client by @TaoChenOSU in #7245 Harden workflow credential selection by @moonbox3 in #7249 Python: preserve Gemini 3 thought_signature ac…",
-      "ts": 1784764693,
-      "published": "2026-07-22T23:58:13+00:00",
-      "collected_at": "2026-07-23T09:03:02+09:00"
-    },
-    {
-      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
-      "link": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of Ope…",
-      "ts": 1784764293,
-      "published": "2026-07-22T23:51:33+00:00",
-      "collected_at": "2026-07-23T09:03:02+09:00"
     }
   ]
 }
