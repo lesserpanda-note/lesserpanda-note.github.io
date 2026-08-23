@@ -1,6 +1,89 @@
 {
   "digests": [
     {
+      "date": "2026-08-22",
+      "summary": "오늘은 Java의 첫 월간 CSPU 출시와 MCP 서버의 GA 도달 등 중요한 릴리스 소식이 많았습니다. Cloudflare가 AI 에이전트로 GitHub 이슈를 85% 감소시킨 사례와 Agent Framework, Pydantic AI의 새 버전 출시도 주목됩니다. 데이터 과학 분야에서는 베이지안 불확실성 측정을 통한 AI 의사결정 자동화 방법론과 StanCon 2026 발표 자료가 공개되었습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Azul August 2026 Release: Java's First Monthly CSPU",
+          "link": "https://foojay.io/today/azul-august-2026-release-javas-first-monthly-cspu/",
+          "summary": "Azul이 Java 역사상 최초의 월간 CSPU(Critical Security Patch Update)를 출시했습니다. 이로써 심각한 취약점 발견 시 최대 3개월을 기다리지 않아도 됩니다.",
+          "detail": "기존 Java의 분기별 CPU(Critical Patch Update) 주기는 치명적 취약점 공개 직후 최대 3개월의 패치 공백을 만들었습니다. Azul의 2026년 8월 릴리스는 이 문제를 해결하는 Java 역사상 첫 번째 월간 CSPU입니다.\n\n월간 CSPU는 심각도가 높은 보안 취약점에 대해 분기 주기를 기다리지 않고 긴급 패치를 제공하는 방식입니다. 이를 통해 기업 환경에서 취약점 노출 시간을 크게 단축할 수 있습니다. Azul은 OpenJDK 기반 상용 배포판인 Zulu와 Zing 플랫폼을 통해 이를 제공하며, 엔터프라이즈 Java 환경의 보안 거버넌스 요구사항을 충족합니다. 월간 주기 도입은 금융, 의료 등 보안 규정이 엄격한 산업군에서 특히 중요한 의미를 갖습니다."
+        },
+        {
+          "category": "Java",
+          "title": "Aggregation Optimization in MongoDB: Optimizing Many-to-Many Relationships (Part 3)",
+          "link": "https://foojay.io/today/aggregation-optimization-in-mongodb-optimizing-many-to-many-relationships-part-3/",
+          "summary": "MongoDB의 집계 파이프라인을 활용해 다대다 관계를 최적화하는 방법을 다룹니다. MongoDB가 관계형 데이터베이스보다 우수한 성능을 낼 수 있는 설계 전략을 소개합니다.",
+          "detail": "시리즈 3편에서는 MongoDB 전문가의 데이터 모델링 설계 검토 세션을 바탕으로, 다대다 관계를 처리하는 집계 최적화 기법을 심층 설명합니다.\n\n핵심 내용은 $lookup, $unwind, $group 등 집계 파이프라인 스테이지를 조합해 조인 없이 고성능 다대다 쿼리를 구현하는 방법입니다. 문서 지향 모델의 특성을 활용해 중간 결합 테이블 없이 배열 참조로 관계를 표현하고, 인덱스 전략과 함께 쿼리 플랜을 최적화하는 접근법이 소개됩니다. 저자는 적절한 설계 하에 MongoDB가 복잡한 관계형 쿼리에서도 관계형 DB 이상의 성능을 낼 수 있음을 실제 사례로 보여줍니다."
+        },
+        {
+          "category": "AI",
+          "title": "Cloudflare Cuts Astro Github Issues by 85% with AI Agents",
+          "link": "https://www.infoq.com/news/2026/08/cloudflare-astro-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Cloudflare가 AI 에이전트를 활용해 Astro 오픈소스 프로젝트의 GitHub 이슈를 85% 감소시켰습니다. GitHub Actions 기반 자동화 워크플로로 이슈 분류와 처리를 대폭 자동화한 사례입니다.",
+          "detail": "Cloudflare가 오픈소스 웹 프레임워크 Astro의 GitHub 이슈 관리에 AI 에이전트를 도입해 미처리 이슈를 85% 줄인 결과를 공개했습니다.\n\n이 시스템은 GitHub Actions를 트리거로 AI 에이전트가 새 이슈를 자동 분류하고, 중복 이슈를 감지하며, 재현 불가능하거나 정보가 부족한 이슈에 대해 자동으로 추가 정보를 요청합니다. 사람의 판단이 필요한 경우를 위한 human-in-the-loop 구조도 포함되어 있습니다. 이를 통해 메인테이너가 실제 버그와 기능 요청에 집중할 수 있게 되었으며, 커뮤니티 응답 속도도 향상되었습니다. 이 사례는 AI 에이전트가 오픈소스 프로젝트 운영 비용을 실질적으로 낮출 수 있음을 보여줍니다."
+        },
+        {
+          "category": "AI",
+          "title": "Azure DevOps Remote MCP Server Reaches GA, Without Support for Claude, ChatGPT, or Cursor",
+          "link": "https://www.infoq.com/news/2026/08/azure-devops-remote-mcp-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Microsoft가 Azure DevOps Remote MCP 서버를 GA(정식 출시)했습니다. 설치 없이 워크아이템, 저장소, 파이프라인에 접근할 수 있지만, Claude, ChatGPT, Cursor는 아직 지원하지 않습니다.",
+          "detail": "Microsoft가 Azure DevOps Remote MCP(Model Context Protocol) 서버를 정식 출시(GA)했습니다. 이 서버는 호스팅된 엔드포인트를 통해 Azure DevOps의 워크아이템, 저장소, 파이프라인에 클라이언트 측 설치 없이 접근할 수 있게 합니다.\n\n중요한 제한사항은 현재 Claude Desktop, Claude Code, ChatGPT, Cursor 등 주요 AI 코딩 도구가 지원되지 않는다는 점입니다. MCP 원격 서버 인증 방식의 차이로 인해 일부 클라이언트와의 호환성 문제가 있습니다. 현재는 Microsoft의 자체 Copilot 생태계 내에서 우선 지원됩니다. MCP가 AI 도구 통합 표준으로 자리잡아 가는 과정에서 기업 DevOps 도구와의 연동이 점차 확대될 것으로 예상됩니다."
+        },
+        {
+          "category": "Agents",
+          "title": "python-1.15.0",
+          "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.15.0",
+          "summary": "Microsoft Agent Framework Python 1.15.0이 출시되었습니다. A2UI 지원, Foundry 호스팅 에이전트 복원력 강화, 체크포인트 레지스트리 등 주요 기능이 추가되었습니다.",
+          "detail": "Microsoft Agent Framework Python 1.15.0(2026-08-21)은 에이전트 개발 생산성을 높이는 다수의 신기능을 포함합니다.\n\n주요 추가 사항:\n• A2UI(Agent-to-UI) 지원: 에이전트가 인터페이스를 동적으로 생성할 수 있으며, 스트리밍 tool-call 인덱스 보존 기능 포함\n• Middleware 개선: 함수 미들웨어의 치명적 오류 신호로 MiddlewareFailure 도입\n• 체크포인트 레지스트리: Cosmos 체크포인트 상태 타입을 포함한 프로세스 전역 워크플로 체크포인트 레지스트리 구현\n• Foundry 복원력: 장기 실행 Foundry 호스팅 에이전트를 위한 스티어링, 재시도, 복구 메커니즘 추가\n\nOpenTelemetry GenAI 시맨틱 컨벤션에 대한 breaking change도 포함되어 있으므로 업그레이드 시 주의가 필요합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "v2.33.0 (2026-08-20)",
+          "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.33.0",
+          "summary": "Pydantic AI v2.33.0이 출시되어 Anthropic SDK 1.0.0(httpx2 기반)과의 호환성 문제를 해결했습니다. Anthropic 모델이 중단된 경우 즉시 업그레이드가 권장됩니다.",
+          "detail": "Pydantic AI v2.33.0은 Anthropic SDK 1.0.0과의 호환성 문제를 해결하는 중요한 릴리스입니다.\n\nAnthropic SDK 1.0.0은 기존 httpx 라이브러리 대신 httpx2를 채택했습니다. 이전 pydantic-ai 버전들은 anthropic 1.0.0 설치를 허용했지만 런타임에서 오류가 발생했습니다. v2.33.0은 이 갭을 해소하며, anthropic>=1.0.0을 요구합니다.\n\nAnthropicProvider에 커스텀 http_client를 전달하는 사용자는 반드시 httpx2.AsyncClient를 제공해야 합니다. 만약 최근 Anthropic 모델이 작동을 멈췄다면 즉시 v2.33.0으로 업그레이드하거나, 구버전 pydantic-ai를 유지하려면 anthropic<1로 핀닝해야 합니다. 이 릴리스는 Anthropic 모델 사용자에게 사실상 필수 업데이트입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "S3 Compatibility Doesn't Guarantee S3-Level Security",
+          "link": "https://www.infoq.com/news/2026/08/s3-clone-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Wiz 보안 연구팀이 6개 네오클라우드의 S3 호환 오브젝트 스토리지를 조사한 결과, Amazon S3 수준의 보안을 제공하지 못하는 심각한 격차가 발견되었습니다.",
+          "detail": "Wiz의 보안 연구팀이 S3 호환 오브젝트 스토리지를 제공하는 6개 주요 네오클라우드를 분석해 중대한 보안 격차를 발견했습니다.\n\nS3는 클라우드 오브젝트 스토리지의 사실상 표준 API가 되었고, 많은 클라우드 벤더가 S3 호환 엔드포인트를 제공합니다. 그러나 API 호환성이 보안 동등성을 의미하지는 않습니다. 연구에서 발견된 주요 보안 격차로는 버킷 정책 처리 방식의 차이, IAM 권한 검증 불일치, 특정 인증 엣지 케이스에서의 취약점 등이 있습니다. 아키텍처 설계 시 S3 호환 스토리지를 Amazon S3와 동일한 보안 수준으로 가정하는 것은 위험하며, 실제 보안 검증이 필요합니다. 특히 규정 준수나 데이터 보호가 중요한 워크로드에서는 세밀한 검토가 필요합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Mini book: Architecture as a Socio-Technical Craft",
+          "link": "https://www.infoq.com/minibooks/architect-sociotechnical-craft/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "소프트웨어 아키텍처를 기술적 결정만이 아닌 사회기술적 공예(socio-technical craft)로 바라보는 7편의 글을 엮은 InfoQ 미니북입니다.",
+          "detail": "InfoQ가 공개한 이 미니북은 소프트웨어 아키텍처가 한 번의 고정된 결정이 아니라 지속적으로 변화하는 규정, 기술, 시장에 맞춰 진화해야 하는 살아있는 공예임을 강조합니다.\n\n7편의 아티클로 구성된 이 책은 다음을 다룹니다: 아키텍처 피트니스 함수와 적합성 평가, 나쁜 결정 없이도 아키텍처가 조용히 부적합해지는 현상, 조직과 팀 구조가 아키텍처에 미치는 영향(Conway의 법칙), 기술과 사람 양쪽을 모두 고려하는 설계 접근법. 소프트웨어 아키텍트가 단순한 기술 전문가를 넘어 조직과 비즈니스 맥락을 이해하는 역할을 해야 한다는 관점을 제시합니다. 아키텍처 의사결정의 장기적 관점과 지속적인 피트니스 평가의 중요성을 실용적으로 안내합니다."
+        },
+        {
+          "category": "Python",
+          "title": "The Real Python Podcast – Episode #308: Navigating Silent Failures in AI: Strategies for Effective Oversight",
+          "link": "https://realpython.com/podcasts/rpp/308/",
+          "summary": "AI 시스템이 조용히 실패하는 이유와, 결과를 검증하면서도 자동화를 유지하는 효과적인 감독 전략을 Calvin Hendryx-Parker와 함께 논의합니다.",
+          "detail": "Real Python 팟캐스트 308화는 Calvin Hendryx-Parker가 'Orchestrating Chaos: Keeping AI in Check'라는 발표를 기반으로 AI의 조용한 실패 문제와 효과적인 감독 전략을 소개합니다.\n\n핵심 주제:\n• AI 시스템이 오류 없이 잘못된 결과를 반환하는 '조용한 실패' 패턴\n• 자동화된 검증과 인간 감독을 조합하는 하이브리드 접근법\n• Python 환경에서 AI 파이프라인을 오케스트레이션하며 결과를 지속적으로 검토하는 시스템 설계\n• 프로덕션 AI 시스템에서 신뢰도와 관찰 가능성(observability)을 높이는 전략\n\nAI를 프로덕션에 배포하는 Python 개발자라면 실질적인 인사이트를 얻을 수 있는 에피소드입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Bayesian Guardrails for AI Decisions: Measuring Uncertainty Before Automating Decisions",
+          "link": "https://towardsdatascience.com/bayesian-guardrails-for-ai-decisions-measuring-uncertainty-before-automating-decisions/",
+          "summary": "AI 시스템은 예측을 할 수 있다고 해서 자동으로 의사결정을 내려서는 안 됩니다. 베이지안 방법으로 불확실성을 정량화하고, 실수 비용이 큰 경우 자동화를 보류하는 가드레일 설계를 소개합니다.",
+          "detail": "이 글은 AI 기반 의사결정 자동화에서 베이지안 불확실성 추정을 가드레일로 활용하는 방법론을 다룹니다.\n\n핵심 논지는 예측 정확도만으로 자동화 여부를 결정하는 것은 불충분하며, 개별 예측의 불확실성 수준을 측정해야 한다는 것입니다. 구체적으로:\n• 베이지안 추론으로 예측 신뢰 구간 추정\n• 불확실성 임계값 설정: 불확실성이 높으면 인간 판단으로 에스컬레이션\n• 결정 비용 함수와 불확실성을 결합한 자동화 판단 기준\n• 크레딧 승인, 의료 진단 등 고위험 도메인에서의 적용 사례\n\n데이터 과학자와 ML 엔지니어가 프로덕션 AI 시스템에 책임감 있는 자동화를 구현하는 데 실용적인 프레임워크를 제공합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Here are the talks from StanCon 2026!",
+          "link": "https://statmodeling.stat.columbia.edu/2026/08/21/here-are-the-talks-from-stancon-2026/",
+          "summary": "StanCon 2026 발표 목록이 공개되었습니다. Matthew Kay, Paul-Christian Bürkner, Charles Margossian 등 통계 모델링 분야의 주요 연구자들이 참여했습니다.",
+          "detail": "StanCon 2026의 발표 자료가 공개되었습니다. Stan은 베이지안 통계 추론을 위한 확률적 프로그래밍 언어로, 학계와 산업계에서 광범위하게 활용됩니다.\n\n이번 컨퍼런스 발표자 목록에는 Matthew Kay, Adrian Seyboldt, Paul-Christian Bürkner(brms 개발자), Charles Margossian, Javier Enrique Aguilar, Sean Pinkney, Nikolas Siccha, Anna Dreber, Kaitlyn Johnson, Jonas Wallin, Pranav Sriram 등이 포함되어 있습니다. 발표 주제는 Stan의 새로운 추론 알고리즘, 계층적 모델, 실험 분석, 인과 추론 등 다양한 베이지안 모델링 영역을 다룹니다. 통계 모델링과 베이지안 방법론에 관심 있는 데이터 과학자와 연구자에게 유용한 자료입니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-21",
       "summary": "오늘 다이제스트는 LiquidAI의 LFM2.5-DSpark가 최대 3.2배 빠른 추론 속도를 달성하고 DeepSeek가 오픈소스 에이전트 런타임을 공개하는 등 AI 인프라 분야의 굵직한 소식을 다룹니다. 아키텍처 분야에서는 로컬 퍼스트 동기화 엔진과 단일 런타임 데이터베이스 철학이, 에이전트 개발 도구로는 Claude Code의 /wayfinder 스킬과 RAG 코퍼스 분류법이 주목받았습니다. 데이터 사이언스에서는 우즈베키스탄 데이터 포인트 하나가 고영향 기후 논문 전체를 무력화한 사례가 통계적 이상치 진단의 중요성을 다시금 일깨웁니다.",
       "highlights": [
