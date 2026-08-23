@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-24T05:26:54+09:00",
-  "count": 1019,
+  "updated": "2026-08-24T06:24:44+09:00",
+  "count": 1020,
   "items": [
+    {
+      "title": "To the three different people who sent me chatbot emails today",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/23/to-the-three-people-who-sent-me-chatbot-emails-today/",
+      "source": "Statistical Modeling",
+      "category": "AI",
+      "summary": "Just send me your goddamn prompt.",
+      "ts": 1787517936,
+      "published": "2026-08-23T20:45:36+00:00",
+      "collected_at": "2026-08-24T06:24:40+09:00"
+    },
+    {
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is u…",
+      "ts": 1787516692,
+      "published": "2026-08-23T20:24:52+00:00",
+      "collected_at": "2026-08-24T06:24:40+09:00"
+    },
     {
       "title": "Quoting Drew Breunig",
       "link": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
@@ -10181,16 +10201,6 @@
       "ts": 1784934038,
       "published": "2026-07-24T23:00:38+00:00",
       "collected_at": "2026-07-26T02:02:55+09:00"
-    },
-    {
-      "title": "1.15.6",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.6",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Fix detection of Anthropic preview tool-use blocks. Preserve strict tool schema property names. Dispatch execution_end hook on failed crew and flow executions. Handle async get_agent in load_age…",
-      "ts": 1784925033,
-      "published": "2026-07-24T20:30:33+00:00",
-      "collected_at": "2026-07-25T07:08:20+09:00"
     }
   ]
 }
