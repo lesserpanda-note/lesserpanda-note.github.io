@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-23T09:14:18+09:00",
-  "count": 1031,
+  "updated": "2026-08-23T10:38:06+09:00",
+  "count": 1030,
   "items": [
     {
       "title": "Quoting Linus Torvalds",
@@ -10301,16 +10301,6 @@
       "ts": 1784867412,
       "published": "2026-07-24T04:30:12+00:00",
       "collected_at": "2026-07-24T16:34:51+09:00"
-    },
-    {
-      "title": "v2.17.0 (2026-07-23)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.17.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Make RequestUsage and RunUsage support arbitrary fields for upcoming genai-prices by @alexmojaki in #6683 Cache per-message OTel serialization to avoid O(n²) instrumentation cost by @dsfaccini…",
-      "ts": 1784853169,
-      "published": "2026-07-24T00:32:49+00:00",
-      "collected_at": "2026-07-24T13:18:14+09:00"
     }
   ]
 }
