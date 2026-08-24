@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-25T06:33:25+09:00",
-  "count": 1038,
+  "updated": "2026-08-25T08:25:23+09:00",
+  "count": 1042,
   "items": [
+    {
+      "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
+      "link": "https://github.com/l3a0/claude-plugins",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/l3a0/claude-plugins Comments URL: https://news.ycombinator.com/item?id=49424758 Points: 43 # Comments: 11",
+      "ts": 1787599938,
+      "published": "2026-08-24T19:32:18+00:00",
+      "collected_at": "2026-08-25T08:25:05+09:00"
+    },
     {
       "title": "Put Your Own Logic Inside the Codex Agentic Loop",
       "link": "https://towardsdatascience.com/put-your-own-logic-inside-the-codex-agentic-loop/",
@@ -243,6 +253,26 @@
       "collected_at": "2026-08-24T18:51:52+09:00"
     },
     {
+      "title": "Anthropic Claude and API service outages",
+      "link": "https://status.claude.com/uptime",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://status.claude.com/uptime Comments URL: https://news.ycombinator.com/item?id=49415907 Points: 75 # Comments: 60",
+      "ts": 1787553148,
+      "published": "2026-08-24T06:32:28+00:00",
+      "collected_at": "2026-08-25T08:25:05+09:00"
+    },
+    {
+      "title": "Why is Anthropic's public writing style so unlike Claude's?",
+      "link": "https://cmart.blog/claude-writing/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://cmart.blog/claude-writing/ Comments URL: https://news.ycombinator.com/item?id=49414934 Points: 72 # Comments: 65",
+      "ts": 1787542362,
+      "published": "2026-08-24T03:32:42+00:00",
+      "collected_at": "2026-08-25T08:25:05+09:00"
+    },
+    {
       "title": "JDK 27 and JDK 28: What We Know So Far",
       "link": "https://www.infoq.com/news/2026/08/java-27-so-far/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
       "source": "InfoQ Java",
@@ -343,6 +373,16 @@
       "collected_at": "2026-08-24T05:26:49+09:00"
     },
     {
+      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+      "link": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245 Comments URL: https://news.ycombinator.com/item?id=49411102 Points: 760 # Comments: 665",
+      "ts": 1787508997,
+      "published": "2026-08-23T18:16:37+00:00",
+      "collected_at": "2026-08-25T08:25:05+09:00"
+    },
+    {
       "title": "Google's HEIR Aims to Make Homomorphic-Encrypted Inference a One-Click Capability",
       "link": "https://www.infoq.com/news/2026/08/google-heir-homomorphic-llm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -371,6 +411,16 @@
       "ts": 1787504400,
       "published": "2026-08-23T17:00:00+00:00",
       "collected_at": "2026-08-24T02:23:25+09:00"
+    },
+    {
+      "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
+      "link": "https://reinvently.co.uk/tools/ed-o-meter/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://reinvently.co.uk/tools/ed-o-meter/ Comments URL: https://news.ycombinator.com/item?id=49410097 Points: 238 # Comments: 110",
+      "ts": 1787502261,
+      "published": "2026-08-23T16:24:21+00:00",
+      "collected_at": "2026-08-25T08:25:05+09:00"
     },
     {
       "title": "Parse the Folder, Not Just the PDFs: The Relational Tables RAG Needs on a Case File",
@@ -10371,16 +10421,6 @@
       "ts": 1785040726,
       "published": "2026-07-26T04:38:46+00:00",
       "collected_at": "2026-07-29T13:14:20+09:00"
-    },
-    {
-      "title": "Ruff v0.16.0",
-      "link": "https://simonwillison.net/2026/Jul/25/ruff/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Ruff v0.16.0 Astral shipped a significant new version of their Ruff Python linting tool a few days ago on July 23rd. I noticed today because my various CI jobs all started failing thanks to new default Ruff checks and m…",
-      "ts": 1785019445,
-      "published": "2026-07-25T22:44:05+00:00",
-      "collected_at": "2026-07-26T09:02:40+09:00"
     }
   ]
 }
