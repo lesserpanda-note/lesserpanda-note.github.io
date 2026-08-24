@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-24T21:57:02+09:00",
+  "updated": "2026-08-24T22:56:24+09:00",
   "count": 1026,
   "items": [
+    {
+      "title": "What contributions can academic statisticians make to sports analytics? (a discussion related to the launch of the new open-access Journal of Statistics and Data Science in Sports)",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/24/journal-of-statistics-and-data-science-in-sports/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Related to our recent post on the absurdity of open access fees, somebody recently informed me that a group of statisticians that work in sports decided they were sick and tired of this with the Journal of Quantitative…",
+      "ts": 1787578819,
+      "published": "2026-08-24T13:40:19+00:00",
+      "collected_at": "2026-08-24T22:56:13+09:00"
+    },
+    {
+      "title": "Speculative Decoding on CPUs: Nearly 4x Faster Token Generation with DFlash",
+      "link": "https://towardsdatascience.com/speculative-decoding-on-cpus-nearly-4x-faster-token-generation-with-dflash/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Speculative decoding can turn underused CPU compute into faster token generation, without changing the model's output. In our vLLM tests, DFlash delivered 3.92x the autoregressive throughput with Qwen3.5-9B on Intel Xeo…",
+      "ts": 1787578200,
+      "published": "2026-08-24T13:30:00+00:00",
+      "collected_at": "2026-08-24T22:56:13+09:00"
+    },
     {
       "title": "How to Use Kimi K3: Moonshot AI’s 2.8T Open-Weight Model",
       "link": "https://www.analyticsvidhya.com/blog/2026/08/kimi-k3-explained/",
@@ -11,6 +31,16 @@
       "ts": 1787574177,
       "published": "2026-08-24T12:22:57+00:00",
       "collected_at": "2026-08-24T21:56:56+09:00"
+    },
+    {
+      "title": "Integrating Agentic AI with Existing Machine Learning Pipelines",
+      "link": "https://machinelearningmastery.com/integrating-agentic-ai-with-existing-machine-learning-pipelines/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how to combine a classical machine learning pipeline with an agentic AI system to build a hybrid, autonomous customer...",
+      "ts": 1787572848,
+      "published": "2026-08-24T12:00:48+00:00",
+      "collected_at": "2026-08-24T22:56:13+09:00"
     },
     {
       "title": "Build an End-to-End Data Science Project with Grok Build and Grok 4.6",
@@ -10231,36 +10261,6 @@
       "ts": 1784991600,
       "published": "2026-07-25T15:00:00+00:00",
       "collected_at": "2026-07-26T00:06:47+09:00"
-    },
-    {
-      "title": "I don’t see journal review as a gatekeeping process that will keep erroneous articles from being published",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/25/i-dont-see-journal-review-as-a-gatekeeping-process-that-will-keep-erroneous-articles-from-being-published/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Someone pointed to this post from last year, “If only Arxiv required researchers to sign at the top rather than the bottom of the page, none of this would’ve happened,” and asked about this statement of mine: “Seriously…",
-      "ts": 1784986200,
-      "published": "2026-07-25T13:30:00+00:00",
-      "collected_at": "2026-07-25T22:42:48+09:00"
-    },
-    {
-      "title": "KDnuggets Weekly Roundup: Week of July 20, 2026",
-      "link": "https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-20",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Top 5 MCP Servers for High Performance Agentic Development • 10 Newsletters Keeping You Ahead in AI • Kaggle + Google’s Free 5-Day Agentic AI Course • Language Model Hallucination Evaluation with GraphEval",
-      "ts": 1784984437,
-      "published": "2026-07-25T13:00:37+00:00",
-      "collected_at": "2026-07-25T22:42:48+09:00"
-    },
-    {
-      "title": "The Fluid Simulator That Doesn’t Solve the Fluid Equations",
-      "link": "https://towardsdatascience.com/the-fluid-simulator-that-doesnt-solve-the-fluid-equations/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "I generated a Kármán vortex street without solving a single fluid equation. Here's how the Lattice Boltzmann Method gets there instead, derived from first principles, implemented in C++, and run on a supercomputer. The…",
-      "ts": 1784984400,
-      "published": "2026-07-25T13:00:00+00:00",
-      "collected_at": "2026-07-25T22:42:48+09:00"
     }
   ]
 }
