@@ -1,7 +1,57 @@
 {
-  "updated": "2026-08-24T20:32:40+09:00",
-  "count": 1021,
+  "updated": "2026-08-24T21:57:02+09:00",
+  "count": 1026,
   "items": [
+    {
+      "title": "How to Use Kimi K3: Moonshot AI’s 2.8T Open-Weight Model",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/kimi-k3-explained/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Moonshot AI’s Kimi K3 is a 2.8-trillion-parameter open-weight model built with a Mixture-of-Experts architecture. It activates only a small fraction of its parameters per token, helping reduce inference costs while deli…",
+      "ts": 1787574177,
+      "published": "2026-08-24T12:22:57+00:00",
+      "collected_at": "2026-08-24T21:56:56+09:00"
+    },
+    {
+      "title": "Build an End-to-End Data Science Project with Grok Build and Grok 4.6",
+      "link": "https://www.kdnuggets.com/build-an-end-to-end-data-science-project-with-grok-build-and-grok-4-6",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Use Grok Build to create a production-ready data science workflow with EDA, scikit-learn, model training, FastAPI, API testing, and cloud deployment.",
+      "ts": 1787572806,
+      "published": "2026-08-24T12:00:06+00:00",
+      "collected_at": "2026-08-24T21:56:56+09:00"
+    },
+    {
+      "title": "Quiz: How to Write an AGENTS.md File for a Python Project",
+      "link": "https://realpython.com/quizzes/agents-md/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of how an AGENTS.md file gives your AI coding agent the project context it needs to write code that fits your project.",
+      "ts": 1787572800,
+      "published": "2026-08-24T12:00:00+00:00",
+      "collected_at": "2026-08-24T21:56:56+09:00"
+    },
+    {
+      "title": "AI Agents Don’t Need More Context — They Need Typed Context",
+      "link": "https://towardsdatascience.com/ai-agents-dont-need-more-context-they-need-typed-context/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "AI agents don’t just have a context problem—they have a context typing problem. When instructions, memory, retrieved evidence, and tool outputs are flattened into one string, their semantic boundaries can disappear. I b…",
+      "ts": 1787572800,
+      "published": "2026-08-24T12:00:00+00:00",
+      "collected_at": "2026-08-24T21:56:56+09:00"
+    },
+    {
+      "title": "Your executable is a SQLite database",
+      "link": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte app…",
+      "ts": 1787571495,
+      "published": "2026-08-24T11:38:15+00:00",
+      "collected_at": "2026-08-24T21:56:56+09:00"
+    },
     {
       "title": "Podcast: The Human Edge: Why Brownfield Codebases Need Mob Programming, Not Just AI Vibes",
       "link": "https://www.infoq.com/podcasts/brownfield-codebases-mob-programming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
