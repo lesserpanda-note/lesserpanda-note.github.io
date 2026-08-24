@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-25T00:42:20+09:00",
-  "count": 1032,
+  "updated": "2026-08-25T02:33:44+09:00",
+  "count": 1035,
   "items": [
+    {
+      "title": "10 Positions for Enterprise RAG That Mainstream Tutorials Get Wrong",
+      "link": "https://towardsdatascience.com/10-positions-for-enterprise-rag-that-mainstream-tutorials-get-wrong/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #M3] - The ten positions the series argues from, and the map of every article that argues them The post 10 Positions for Enterprise RAG That Mainstream Tutorials Get Wrong appeare…",
+      "ts": 1787589000,
+      "published": "2026-08-24T16:30:00+00:00",
+      "collected_at": "2026-08-25T02:33:37+09:00"
+    },
     {
       "title": "What’s New In The August 2026 Azul Payara Release?",
       "link": "https://foojay.io/today/whats-new-in-the-august-2026-azul-payara-release/",
@@ -21,6 +31,16 @@
       "ts": 1787585340,
       "published": "2026-08-24T15:29:00+00:00",
       "collected_at": "2026-08-25T00:41:55+09:00"
+    },
+    {
+      "title": "Can an LLM Forget the Right Things?",
+      "link": "https://towardsdatascience.com/can-an-llm-forget-the-right-things/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Most LLM inference runtimes have no idea a physical deadline exists. This one refuses admission rather than miss a 33ms robot control cycle, evicts KV cache by meaning instead of age, and is written entirely in hand-wri…",
+      "ts": 1787583600,
+      "published": "2026-08-24T15:00:00+00:00",
+      "collected_at": "2026-08-25T02:33:37+09:00"
     },
     {
       "title": "How to encourage smarter AI use in the classroom",
@@ -211,6 +231,16 @@
       "ts": 1787538600,
       "published": "2026-08-24T02:30:00+00:00",
       "collected_at": "2026-08-24T12:06:46+09:00"
+    },
+    {
+      "title": "Value Classes Still Need Compiler Sympathy",
+      "link": "https://inside.java/2026/08/24/value-classes-compiler-sympathy/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Declaring a value class is first and foremost a semantic decision. It tells our fellow programmers that its instances are defined entirely by their state and do not need identity. That clearer model is valuable in itsel…",
+      "ts": 1787529600,
+      "published": "2026-08-24T00:00:00+00:00",
+      "collected_at": "2026-08-25T02:33:37+09:00"
     },
     {
       "title": "Cloudflare OS: Cloudflare's Open-Source Corporate AI Platform Built on a Capability-Based Model",
