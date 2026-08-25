@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-25T22:53:09+09:00",
-  "count": 1056,
+  "updated": "2026-08-25T23:50:23+09:00",
+  "count": 1061,
   "items": [
+    {
+      "title": "Python Data Classes Beyond the Boilerplate",
+      "link": "https://www.kdnuggets.com/python-dataclasses-beyond-the-boilerplate",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn how Python dataclasses go beyond reducing boilerplate with custom fields, validation, computed attributes, immutability, and memory optimization techniques.",
+      "ts": 1787666408,
+      "published": "2026-08-25T14:00:08+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
+    },
+    {
+      "title": "BoxLang 1.16.0 Released!",
+      "link": "https://foojay.io/today/boxlang-1-16-0-released/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "BoxLang 1.16.0 is here, closing 50 issues across new features, improvements, and bug fixes. The theme running through this release is control: control over how HTTP clients are created and reused, control over what happ…",
+      "ts": 1787666267,
+      "published": "2026-08-25T13:57:47+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
+    },
     {
       "title": "Hallucinations, Watermarks, Removers, and a Squeezed Balloon",
       "link": "https://towardsdatascience.com/hallucinations-watermarks-removers-and-a-squeezed-balloon/",
@@ -83,6 +103,16 @@
       "collected_at": "2026-08-25T21:52:59+09:00"
     },
     {
+      "title": "I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke.",
+      "link": "https://towardsdatascience.com/i-deployed-my-data-pipeline-to-aws-then-everything-that-was-local-broke/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "What moving a Dockerized pipeline off my laptop taught me about containers, networking, and hidden assumptions. The post I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke. appeared first on Towa…",
+      "ts": 1787653801,
+      "published": "2026-08-25T10:30:01+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
+    },
+    {
       "title": "What is a Forward Deployed Engineer? Role, Skills & Salary",
       "link": "https://www.analyticsvidhya.com/blog/2026/08/what-is-a-forward-deployed-engineer/",
       "source": "Analytics Vidhya",
@@ -91,6 +121,16 @@
       "ts": 1787649867,
       "published": "2026-08-25T09:24:27+00:00",
       "collected_at": "2026-08-25T18:39:11+09:00"
+    },
+    {
+      "title": "Recursive CTEs: SQL’s Hidden Graph Traversal Engine",
+      "link": "https://towardsdatascience.com/six-degrees-of-sql/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A practical guide to navigate hierarchies, find routes, detect cycles and calculate degrees of separation The post Recursive CTEs: SQL’s Hidden Graph Traversal Engine appeared first on Towards Data Science .",
+      "ts": 1787648401,
+      "published": "2026-08-25T09:00:01+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
     },
     {
       "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
@@ -121,6 +161,16 @@
       "ts": 1787643966,
       "published": "2026-08-25T07:46:06+00:00",
       "collected_at": "2026-08-25T17:47:46+09:00"
+    },
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "link": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "ts": 1787641200,
+      "published": "2026-08-25T07:00:00+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
     },
     {
       "title": "Beyond Embedded: How DuckDB v2.0 Shifts Architecture Toward Distributed Network Capabilities",
