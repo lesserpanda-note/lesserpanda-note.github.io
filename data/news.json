@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-26T02:34:46+09:00",
-  "count": 1067,
+  "updated": "2026-08-26T03:43:46+09:00",
+  "count": 1069,
   "items": [
+    {
+      "title": "A New Towards Data Science: A Faster Site and a Brand-New Contributor Portal",
+      "link": "https://towardsdatascience.com/a-new-towards-data-science-a-faster-site-and-a-brand-new-contributor-portal/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "We're excited to share some big news: We completely rebuilt the TDS website and our contributor portal. Whether you come here to read, to write, or both, here's what you can expect from our new site. The post A New Towa…",
+      "ts": 1787678723,
+      "published": "2026-08-25T17:25:23+00:00",
+      "collected_at": "2026-08-26T03:43:23+09:00"
+    },
     {
       "title": "The Data & AI Leadership Questions That Will Define the Next Stage of Enterprise AI",
       "link": "https://www.kdnuggets.com/2026/08/corinium/the-data-ai-leadership-questions-that-will-define-the-next-stage-of-enterprise-ai",
@@ -311,6 +321,26 @@
       "ts": 1787616000,
       "published": "2026-08-25T00:00:00+00:00",
       "collected_at": "2026-08-25T18:39:11+09:00"
+    },
+    {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "link": "https://openai.com/index/introducing-admin-plugin",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-26T03:43:23+09:00"
+    },
+    {
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "link": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Funding better evaluations of AI’s impact on wellbeing",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-26T03:43:23+09:00"
     },
     {
       "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
@@ -10660,16 +10690,6 @@
       "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from variou…",
       "ts": 1785094254,
       "published": "2026-07-26T19:30:54+00:00",
-      "collected_at": "2026-07-27T05:11:34+09:00"
-    },
-    {
-      "title": "1.15.7",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.7",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Resolve registry skills through the runtime's CrewAI+ client Recover from the GPT-5.6 tools + reasoning_effort 400 Make tool calling work on the Responses API path Route responses-only models in…",
-      "ts": 1785090002,
-      "published": "2026-07-26T18:20:02+00:00",
       "collected_at": "2026-07-27T05:11:34+09:00"
     }
   ]
