@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T12:01:58+09:00",
+  "updated": "2026-08-25T13:41:58+09:00",
   "count": 1044,
   "items": [
     {
@@ -21,6 +21,16 @@
       "ts": 1787622438,
       "published": "2026-08-25T01:47:18+00:00",
       "collected_at": "2026-08-25T12:01:49+09:00"
+    },
+    {
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "link": "https://huggingface.co/blog/gradio-workflow-guide",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-25T13:41:53+09:00"
     },
     {
       "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
@@ -10431,16 +10441,6 @@
       "ts": 1785050880,
       "published": "2026-07-26T07:28:00+00:00",
       "collected_at": "2026-07-26T16:37:24+09:00"
-    },
-    {
-      "title": "sqlite-utils 3.39.1",
-      "link": "https://simonwillison.net/2026/Jul/26/sqlite-utils/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: sqlite-utils 3.39.1 I back-ported a fix for table.delete_where() that shipped in version 4. Tags: sqlite-utils",
-      "ts": 1785040726,
-      "published": "2026-07-26T04:38:46+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
     }
   ]
 }
