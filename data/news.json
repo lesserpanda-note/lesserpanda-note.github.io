@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-27T04:06:24+09:00",
-  "count": 1074,
+  "updated": "2026-08-27T07:54:34+09:00",
+  "count": 1077,
   "items": [
+    {
+      "title": "Serve Markdown to AI Agents with Accept Headers",
+      "link": "https://acceptmarkdown.com/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://acceptmarkdown.com/ Comments URL: https://news.ycombinator.com/item?id=49454764 Points: 63 # Comments: 24",
+      "ts": 1787773559,
+      "published": "2026-08-26T19:45:59+00:00",
+      "collected_at": "2026-08-27T07:54:29+09:00"
+    },
+    {
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a gr…",
+      "ts": 1787770800,
+      "published": "2026-08-26T19:00:00+00:00",
+      "collected_at": "2026-08-27T07:54:29+09:00"
+    },
     {
       "title": "Intelligent transcription with Gemini 3.5 Transcribe",
       "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
@@ -351,6 +371,16 @@
       "ts": 1787702400,
       "published": "2026-08-26T00:00:00+00:00",
       "collected_at": "2026-08-26T22:59:22+09:00"
+    },
+    {
+      "title": "The Hugging Face incident and the road ahead",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "ts": 1787702400,
+      "published": "2026-08-26T00:00:00+00:00",
+      "collected_at": "2026-08-27T07:54:29+09:00"
     },
     {
       "title": "EVE Online: The Move to Python 3 Begins!",
@@ -2001,6 +2031,16 @@
       "ts": 1787209200,
       "published": "2026-08-20T07:00:00+00:00",
       "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "Introducing Intelligence Age",
+      "link": "https://openai.com/index/introducing-intelligence-age",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "ts": 1787209200,
+      "published": "2026-08-20T07:00:00+00:00",
+      "collected_at": "2026-08-27T07:54:29+09:00"
     },
     {
       "title": "Harper Argues Against the Multi-System Stack and Releases 5.2",
@@ -10731,16 +10771,6 @@
       "ts": 1785195544,
       "published": "2026-07-27T23:39:04+00:00",
       "collected_at": "2026-07-28T09:21:33+09:00"
-    },
-    {
-      "title": "An opinionated guide to which AI to use to do stuff",
-      "link": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus,…",
-      "ts": 1785189353,
-      "published": "2026-07-27T21:55:53+00:00",
-      "collected_at": "2026-07-28T08:06:34+09:00"
     }
   ]
 }
