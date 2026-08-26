@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-26T19:38:30+09:00",
-  "count": 1077,
+  "updated": "2026-08-26T20:33:20+09:00",
+  "count": 1074,
   "items": [
+    {
+      "title": "Presentation: Can Claude Fix Itself? Using LLMs for Incident Response",
+      "link": "https://www.infoq.com/presentations/claude-sre-incidents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Anthropic reliability engineer Alex Palcuie shares practical lessons on using LLMs for real-world incident response. He explains where AI acts as a superhuman for observing logs and traces, why it still struggles with c…",
+      "ts": 1787742000,
+      "published": "2026-08-26T11:00:00+00:00",
+      "collected_at": "2026-08-26T20:33:16+09:00"
+    },
+    {
+      "title": "Presentation: Can Claude Fix Itself? Using LLMs for Incident Response",
+      "link": "https://www.infoq.com/presentations/claude-sre-incidents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Anthropic reliability engineer Alex Palcuie shares practical lessons on using LLMs for real-world incident response. He explains where AI acts as a superhuman for observing logs and traces, why it still struggles with c…",
+      "ts": 1787742000,
+      "published": "2026-08-26T11:00:00+00:00",
+      "collected_at": "2026-08-26T20:33:16+09:00"
+    },
     {
       "title": "How Does a RAG Reranker Really Work?",
       "link": "https://towardsdatascience.com/how-does-a-rag-reranker-really-work-the-honest-answer-most-data-scientists-wont-give-you/",
@@ -10720,56 +10740,6 @@
       "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubl…",
       "ts": 1785152416,
       "published": "2026-07-27T11:40:16+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Building the enterprise environment for agentic AI",
-      "link": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best…",
-      "ts": 1785151978,
-      "published": "2026-07-27T11:32:58+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Presentation: Clean Architecture for Serverless: Business Logic You Can Take Anywhere",
-      "link": "https://www.infoq.com/presentations/kotlin-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Elena van Engelen discusses how to eliminate serverless vendor lock-in without sacrificing native cloud capabilities. She explains how to structure FaaS applications using Clean Architecture, Spring Cloud Function, and…",
-      "ts": 1785151560,
-      "published": "2026-07-27T11:26:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Presentation: Clean Architecture for Serverless: Business Logic You Can Take Anywhere",
-      "link": "https://www.infoq.com/presentations/kotlin-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Elena van Engelen discusses how to eliminate serverless vendor lock-in without sacrificing native cloud capabilities. She explains how to structure FaaS applications using Clean Architecture, Spring Cloud Function, and…",
-      "ts": 1785151560,
-      "published": "2026-07-27T11:26:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
-      "link": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centr…",
-      "ts": 1785150000,
-      "published": "2026-07-27T11:00:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
-      "link": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centr…",
-      "ts": 1785150000,
-      "published": "2026-07-27T11:00:00+00:00",
       "collected_at": "2026-07-27T21:27:51+09:00"
     }
   ]
