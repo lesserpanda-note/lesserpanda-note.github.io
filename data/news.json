@@ -1,7 +1,47 @@
 {
-  "updated": "2026-08-26T22:59:26+09:00",
-  "count": 1069,
+  "updated": "2026-08-26T23:55:05+09:00",
+  "count": 1072,
   "items": [
+    {
+      "title": "Release v5.16.1",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active p…",
+      "ts": 1787755801,
+      "published": "2026-08-26T14:50:01+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
+    },
+    {
+      "title": "AWS Introduces Specification Driven Composition for Flexible Data Workflows",
+      "link": "https://www.infoq.com/news/2026/08/aws-spec-driven-data-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS describes a specification-driven approach for composing flexible data workflows by separating intent from processing logic. Architecture uses declarative specifications, reusable processing capabilities, and validat…",
+      "ts": 1787753880,
+      "published": "2026-08-26T14:18:00+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
+    },
+    {
+      "title": "Understanding the Impact of AI on Job Markets",
+      "link": "https://www.kdnuggets.com/understanding-the-impact-of-ai-on-job-markets",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Explore five distinct ways AI is reshaping jobs, from automating routine tasks to thinning entry-level hiring.",
+      "ts": 1787752853,
+      "published": "2026-08-26T14:00:53+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
+    },
+    {
+      "title": "Python 3.15 Preview: Sampling Profiler",
+      "link": "https://realpython.com/python315-sampling-profiler/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore Python 3.15's new sampling profiler and learn low-overhead profiling of scripts, threads, and live production processes.",
+      "ts": 1787752800,
+      "published": "2026-08-26T14:00:00+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
+    },
     {
       "title": "(1) “Do you think the culture of research has genuinely changed since the replication crisis became widely discussed, or has it mostly generated new compliance rituals around pre-registration and ope…",
       "link": "https://statmodeling.stat.columbia.edu/2026/08/26/do/",
@@ -11,6 +51,16 @@
       "ts": 1787751600,
       "published": "2026-08-26T13:40:00+00:00",
       "collected_at": "2026-08-26T22:59:22+09:00"
+    },
+    {
+      "title": "Compose Multiplatform 1.12.0 Released",
+      "link": "https://blog.jetbrains.com/kotlin/2026/08/compose-multiplatform-1-12-0/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Compose Multiplatform 1.12.0 is out! This version brings new tooling for AI assistants, improvements to web resource management, and finer control over desktop window states. Here are the highlights of this release: For…",
+      "ts": 1787750921,
+      "published": "2026-08-26T13:28:41+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
     },
     {
       "title": "Mastering the AI Project Cycle: From Concept to Production",
@@ -10670,26 +10720,6 @@
       "summary": "In a world where human time is expensive, learn how to use it only when really necessary The post Reducing Human Annotation with ML Active Learning appeared first on Towards Data Science .",
       "ts": 1785164400,
       "published": "2026-07-27T15:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Is KimiClaw a Useful Tool?",
-      "link": "https://www.kdnuggets.com/is-kimiclaw-a-useful-tool",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Compare KimiClaw's cloud-hosted AI agent platform against self-hosted OpenClaw across setup, privacy, and automation capabilities.",
-      "ts": 1785160803,
-      "published": "2026-07-27T14:00:03+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "How to Use Google's Antigravity CLI for AI Code Assistance",
-      "link": "https://realpython.com/antigravity-cli/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Get started with Google's Antigravity CLI, a terminal-based AI coding agent, and use it to read, review, and refactor your Python code.",
-      "ts": 1785160800,
-      "published": "2026-07-27T14:00:00+00:00",
       "collected_at": "2026-07-28T00:44:54+09:00"
     }
   ]
