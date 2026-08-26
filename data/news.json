@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-26T10:36:04+09:00",
-  "count": 1069,
+  "updated": "2026-08-26T12:08:42+09:00",
+  "count": 1070,
   "items": [
     {
       "title": "v2.35.0 (2026-08-25)",
@@ -391,6 +391,16 @@
       "ts": 1787616000,
       "published": "2026-08-25T00:00:00+00:00",
       "collected_at": "2026-08-26T06:31:47+09:00"
+    },
+    {
+      "title": "Claude Desktop support with Ollama",
+      "link": "https://ollama.com/blog/claude-desktop",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-26T12:08:39+09:00"
     },
     {
       "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
