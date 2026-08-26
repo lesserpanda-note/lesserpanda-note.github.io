@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-26T21:59:07+09:00",
-  "count": 1072,
+  "updated": "2026-08-26T22:59:26+09:00",
+  "count": 1069,
   "items": [
+    {
+      "title": "(1) “Do you think the culture of research has genuinely changed since the replication crisis became widely discussed, or has it mostly generated new compliance rituals around pre-registration and ope…",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/26/do/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Luke Ford writes: [Regarding] the replication crisis, researcher degrees of freedom, and the gap between what statistical methods claim to establish and what they can actually support . . . Looking at the current state…",
+      "ts": 1787751600,
+      "published": "2026-08-26T13:40:00+00:00",
+      "collected_at": "2026-08-26T22:59:22+09:00"
+    },
     {
       "title": "Mastering the AI Project Cycle: From Concept to Production",
       "link": "https://www.analyticsvidhya.com/blog/2026/08/ai-project-cycle-guide/",
@@ -221,6 +231,16 @@
       "ts": 1787702400,
       "published": "2026-08-26T00:00:00+00:00",
       "collected_at": "2026-08-26T19:38:25+09:00"
+    },
+    {
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787702400,
+      "published": "2026-08-26T00:00:00+00:00",
+      "collected_at": "2026-08-26T22:59:22+09:00"
     },
     {
       "title": "EVE Online: The Move to Python 3 Begins!",
@@ -10670,56 +10690,6 @@
       "summary": "Get started with Google's Antigravity CLI, a terminal-based AI coding agent, and use it to read, review, and refactor your Python code.",
       "ts": 1785160800,
       "published": "2026-07-27T14:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "The Most Beautiful Statistic: The History and the Science of the Humble Mean",
-      "link": "https://towardsdatascience.com/the-most-beautiful-statistic-the-history-and-the-science-of-the-humble-mean/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The mean keeps making its usefulness felt in all sorts of situations, often in truly non-obvious ways The post The Most Beautiful Statistic: The History and the Science of the Humble Mean appeared first on Towards Data…",
-      "ts": 1785159000,
-      "published": "2026-07-27T13:30:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "He fit the same statistical models with three different software and got much different estimates. It’s another dimension of the multiverse.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/27/53408/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Scott Cunningham writes: You’ll appreciate this I think. I ran Claude code on 96 specs for a popular difference-in-difference estimator with the identical specifications, ranging covariates only, for three languages (R,…",
-      "ts": 1785157558,
-      "published": "2026-07-27T13:05:58+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Java News Roundup: Simple JSON API, JEPs for JDK 28, Oracle CPUs, Embabel 1.0, Azul Payara, Helidon",
-      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul20-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for July 20th, 2026, features news highlighting: two JEPs proposed to target for JDK 28; new JEPs 540 and 541, Simple JSON API (Incubator) and Deprecate the macOS/x64 Port for Removal, respectiv…",
-      "ts": 1785157200,
-      "published": "2026-07-27T13:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Java News Roundup: Simple JSON API, JEPs for JDK 28, Oracle CPUs, Embabel 1.0, Azul Payara, Helidon",
-      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul20-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for July 20th, 2026, features news highlighting: two JEPs proposed to target for JDK 28; new JEPs 540 and 541, Simple JSON API (Incubator) and Deprecate the macOS/x64 Port for Removal, respectiv…",
-      "ts": 1785157200,
-      "published": "2026-07-27T13:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Podcast: Rethinking Data: Moving From the Traditional Three-Tier Web Stack to Client-Side Event Sourcing",
-      "link": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Johannes Schickling explores how he moved beyond the traditional three-tier web stack to a local-first approach. He shares his experience transitioning from Prisma to developing Overtone—a music curation app leveraging…",
-      "ts": 1785157200,
-      "published": "2026-07-27T13:00:00+00:00",
       "collected_at": "2026-07-28T00:44:54+09:00"
     }
   ]
