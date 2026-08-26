@@ -1,7 +1,57 @@
 {
-  "updated": "2026-08-26T20:33:20+09:00",
-  "count": 1074,
+  "updated": "2026-08-26T21:59:07+09:00",
+  "count": 1072,
   "items": [
+    {
+      "title": "Mastering the AI Project Cycle: From Concept to Production",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/ai-project-cycle-guide/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "In fact, AI projects are not built by simply choosing a model and feeding it data. Furthermore, a successful AI system goes through multiple stages, starting with identifying the right problem and ending with deployment…",
+      "ts": 1787747992,
+      "published": "2026-08-26T12:39:52+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
+    {
+      "title": "Release: v5.16.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5's hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PL…",
+      "ts": 1787747715,
+      "published": "2026-08-26T12:35:15+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
+    {
+      "title": "10 Rules for Getting Better Results from AI Coding Agents",
+      "link": "https://www.kdnuggets.com/10-rules-for-getting-better-results-from-ai-coding-agents",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Everyone's using AI coding agents. Here's how to make yours actually useful.",
+      "ts": 1787745650,
+      "published": "2026-08-26T12:00:50+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
+    {
+      "title": "Learn Vectorized Thinking in Python Through Examples",
+      "link": "https://machinelearningmastery.com/learn-vectorized-thinking-in-python-through-examples/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn how to think in terms of vectorized operations using NumPy, replacing slow Python loops with efficient array-level computations. Topics...",
+      "ts": 1787745616,
+      "published": "2026-08-26T12:00:16+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
+    {
+      "title": "Quiz: Python 3.15 Preview: Sampling Profiler",
+      "link": "https://realpython.com/quizzes/python315-sampling-profiler/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python 3.15's new sampling profiler, from CPU and GIL modes to flame graphs, heatmaps, and attaching to a live process.",
+      "ts": 1787745600,
+      "published": "2026-08-26T12:00:00+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
     {
       "title": "Presentation: Can Claude Fix Itself? Using LLMs for Incident Response",
       "link": "https://www.infoq.com/presentations/claude-sre-incidents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -10671,76 +10721,6 @@
       "ts": 1785157200,
       "published": "2026-07-27T13:00:00+00:00",
       "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Claude Opus 5: Near-Frontier Intelligence, On a Dial",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/claude-opus-5-hands-on-review/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Anthropic has released Claude Opus 5. The fourth model in two months, if you are keeping count. Most people are not. This one matters more than the count suggests. Opus is the workhorse tier, the model that does the act…",
-      "ts": 1785154463,
-      "published": "2026-07-27T12:14:23+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "5 Architectural Patterns for Persistent Memory and State in AI Agents",
-      "link": "https://machinelearningmastery.com/5-architectural-patterns-for-persistent-memory-and-state-in-ai-agents/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "Memory & State For AI Agents Building an AI agent can be tricky. Keeping it on track over a six-month deployment is incredibly hard. LLMs...",
-      "ts": 1785153646,
-      "published": "2026-07-27T12:00:46+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "7 Steps to Building and Deploying Your First Autonomous Agent",
-      "link": "https://www.kdnuggets.com/7-steps-to-building-and-deploying-your-first-autonomous-agent",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "This article shows you up all the steps in building and deploying your first autonomous AI agents from start to finish.",
-      "ts": 1785153606,
-      "published": "2026-07-27T12:00:06+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Quiz: How to Use Google's Antigravity CLI for AI Code Assistance",
-      "link": "https://realpython.com/quizzes/antigravity-cli/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your knowledge of Google's Antigravity CLI, a terminal-based AI coding agent, and how to use it to read, review, and refactor Python code.",
-      "ts": 1785153600,
-      "published": "2026-07-27T12:00:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook",
-      "link": "https://towardsdatascience.com/how-i-reproduced-bm25-dense-retrieval-and-splade-on-a-16gb-macbook/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A practical reproduction of three retrieval baselines, including the crashes, fixes, and score checks that matter for RAG systems. The post How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook appeared f…",
-      "ts": 1785153600,
-      "published": "2026-07-27T12:00:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "The path to artificial superintelligence",
-      "link": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own…",
-      "ts": 1785153600,
-      "published": "2026-07-27T12:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Closing the data loop in AI-driven drug discovery",
-      "link": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubl…",
-      "ts": 1785152416,
-      "published": "2026-07-27T11:40:16+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
     }
   ]
 }
