@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-27T07:54:34+09:00",
-  "count": 1077,
+  "updated": "2026-08-27T09:16:24+09:00",
+  "count": 1075,
   "items": [
+    {
+      "title": "Qwen3.8-Flash-Next",
+      "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active whic…",
+      "ts": 1787788378,
+      "published": "2026-08-26T23:52:58+00:00",
+      "collected_at": "2026-08-27T09:16:18+09:00"
+    },
     {
       "title": "Serve Markdown to AI Agents with Accept Headers",
       "link": "https://acceptmarkdown.com/",
@@ -10741,36 +10751,6 @@
       "ts": 1785209241,
       "published": "2026-07-28T03:27:21+00:00",
       "collected_at": "2026-07-28T14:50:23+09:00"
-    },
-    {
-      "title": "Quality Outreach Heads-up - JDK 28: jlink cacerts plugin",
-      "link": "https://inside.java/2026/07/28/quality-heads-up/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "This Heads-Up is part of the regular communication sent to the projects involved; it covers a new plugin being added to the `jlink` command-line tool for adding cacerts.",
-      "ts": 1785196800,
-      "published": "2026-07-28T00:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "This Week in Spring - July 28th, 2026",
-      "link": "https://spring.io/blog/2026/07/28/this-week-in-spring-july-28-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi Spring fans! Welcome to another installment of This Week in Spring ! The title says in Spring , but here in the northern hemisphere, it's clearly the middle of summer. Hot! I'm sitting here on my laptop on a warm sum…",
-      "ts": 1785196800,
-      "published": "2026-07-28T00:00:00+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "moonshotai/Kimi-K3",
-      "link": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "moonshotai/Kimi-K3 As promised earlier this month , Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified…",
-      "ts": 1785195544,
-      "published": "2026-07-27T23:39:04+00:00",
-      "collected_at": "2026-07-28T09:21:33+09:00"
     }
   ]
 }
