@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-27T09:16:24+09:00",
-  "count": 1075,
+  "updated": "2026-08-27T13:25:18+09:00",
+  "count": 1077,
   "items": [
+    {
+      "title": "v2.35.1 (2026-08-26)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.35.1",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Carry Bedrock guardrail trace in ModelResponse.provider_details by @pydanty in #7562 Honor provider_factory when cancelling Temporal responses by @DouweM in #7000 Cap dbos below 2.31.0 to avoi…",
+      "ts": 1787804020,
+      "published": "2026-08-27T04:13:40+00:00",
+      "collected_at": "2026-08-27T13:24:57+09:00"
+    },
+    {
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "link": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Open Source wins!",
+      "ts": 1787795454,
+      "published": "2026-08-27T01:50:54+00:00",
+      "collected_at": "2026-08-27T13:24:57+09:00"
+    },
+    {
+      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+      "link": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "The conference with hot chips and even hotter companies",
+      "ts": 1787794282,
+      "published": "2026-08-27T01:31:22+00:00",
+      "collected_at": "2026-08-27T13:24:57+09:00"
+    },
     {
       "title": "Qwen3.8-Flash-Next",
       "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
@@ -10741,16 +10771,6 @@
       "ts": 1785218621,
       "published": "2026-07-28T06:03:41+00:00",
       "collected_at": "2026-07-29T05:17:59+09:00"
-    },
-    {
-      "title": "v2.19.0 (2026-07-27)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.19.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add headers and retry_after to ModelHTTPError , populate from all provider SDKs by @dmontagu in #6733 🐛 Bug Fixes Re-assert absorbed external cancellation at run step boundaries by @DouweM in #…",
-      "ts": 1785209241,
-      "published": "2026-07-28T03:27:21+00:00",
-      "collected_at": "2026-07-28T14:50:23+09:00"
     }
   ]
 }
