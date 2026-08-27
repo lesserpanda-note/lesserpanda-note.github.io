@@ -1,6 +1,75 @@
 {
   "digests": [
     {
+      "date": "2026-08-26",
+      "summary": "오늘은 OpenAI의 자체 AI 추론 칩 Jalapeño의 첫 성능 결과와 Cursor의 GitHub 대안 Origin 출시 등 AI·개발 도구 분야의 굵직한 소식들이 눈에 띕니다. Java 생태계에서는 JDK 27 RC1 공개와 BoxLang 1.16.0 릴리스가 있었으며, 베이즈 통계 분야에서는 'Bayesian Workflow' 책의 무료 PDF 공개라는 반가운 소식이 전해졌습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java News Roundup: JDK 27-RC1, OpenJDK JEPs, Jakarta EE, BellSoft, Helidon, Micrometer, Tika 4.0",
+          "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "JDK 27의 첫 번째 릴리스 후보(RC1) 공개, JDK 28 대상 JEP 541·540 지정, Apache Tika 4.0 GA 릴리스 등 주요 Java 생태계 동향을 정리한 주간 라운드업입니다.",
+          "detail": "2026년 8월 17일 주의 Java 주간 라운드업입니다. 핵심 내용: JDK 27의 첫 번째 릴리스 후보(RC1)가 공개되었습니다. JDK 28을 대상으로 JEP 541과 JEP 540이 지정되었습니다. Apache Tika 4.0이 GA 릴리스를 달성했습니다. Jakarta EE, BellSoft, Helidon, Micrometer 등의 관련 생태계 업데이트도 포함되어 있습니다. Java 커뮤니티의 최신 JEP 동향과 주요 라이브러리 릴리스를 한 번에 파악할 수 있는 종합 정리 글입니다."
+        },
+        {
+          "category": "Java",
+          "title": "BoxLang 1.16.0 Released!",
+          "link": "https://foojay.io/today/boxlang-1-16-0-released/",
+          "summary": "JVM 기반 동적 스크립팅 언어 BoxLang의 1.16.0 버전이 출시되었으며, 50개 이상의 이슈를 해결하고 HTTP 클라이언트 제어 기능을 강화했습니다.",
+          "detail": "BoxLang 1.16.0이 출시되었습니다. 이번 릴리스는 새 기능, 개선 사항, 버그 수정 포함 총 50개의 이슈를 해결했습니다. 이번 릴리스의 핵심 테마는 '제어(control)'로, HTTP 클라이언트의 생성 및 재사용 방식에 대한 세밀한 제어 기능 등이 강화되었습니다. BoxLang은 ColdFusion/CFML의 차세대 후속 언어로 JVM 위에서 실행되며, 웹 서버·CLI·AWS Lambda·Android 등 다양한 런타임을 지원하는 모듈식 동적 언어입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Jalapeño's first results show industry-leading speed and efficiency in AI inference",
+          "link": "https://openai.com/index/jalapeno-first-results",
+          "summary": "OpenAI의 자체 개발 AI 추론 칩 'Jalapeño'의 첫 성능 결과가 공개되었으며, 업계 최고 수준의 처리량과 전력 효율을 달성했다고 발표했습니다.",
+          "detail": "OpenAI가 자체 개발한 커스텀 AI 추론 칩 Jalapeño의 첫 번째 성능 결과를 발표했습니다. 이 칩은 최신 모델에 대해 높은 처리량(throughput)과 낮은 지연 시간(latency)을 제공하며, 기존 솔루션 대비 더 높은 전력 효율성을 갖추었습니다. OpenAI는 AI 추론 분야에서 업계 최고 수준의 속도와 효율을 달성했다고 주장합니다. 자체 칩 개발은 외부 AI 칩 공급업체 의존도를 줄이고 추론 비용을 낮추려는 OpenAI의 장기 하드웨어 전략의 일환입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Cursor Releases Origin as an Agent-Native Alternative to GitHub",
+          "link": "https://www.infoq.com/news/2026/08/cursor-origin-alternative-github/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "AI 코딩 에이전트 Cursor가 에디터 내에 통합된 Git 기반 코드 호스팅 플랫폼 'Origin'을 출시하며 GitHub의 대안으로 포지셔닝했습니다.",
+          "detail": "Cursor가 에이전트 네이티브(agent-native) 코드 호스팅 플랫폼 'Origin'을 공개했습니다. Origin은 Cursor AI 에디터 내에 직접 내장된 Git 기반 코드 호스팅 서비스로, 이미 Cursor를 사용하는 팀에게 GitHub의 실질적인 대안을 제시합니다. 에이전트 중심의 개발 워크플로우에 최적화되어 있으며, 에디터와 코드 호스팅의 긴밀한 일체화가 핵심 차별점입니다. 현재 출시 초기 단계로, AI 에이전트와의 심층 통합을 강점으로 내세우고 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Comparing Local Tool Calling: Gemma 4 vs. Llama 3 vs. Mistral",
+          "link": "https://machinelearningmastery.com/comparing-local-tool-calling-gemma-4-vs-llama-3-vs-mistral/",
+          "summary": "로컬 환경에서 Gemma 4, Llama 3, Mistral의 도구 호출(tool calling) 구현 방식을 비교하고 각 모델의 트레이드오프를 분석한 실용 가이드입니다.",
+          "detail": "이 글은 로컬에서 실행되는 주요 오픈소스 LLM 세 가지—Gemma 4, Llama 3, Mistral—가 도구 호출(tool calling) 기능을 어떻게 구현하는지 비교·분석합니다. 각 모델이 도구 호출을 지원하는 방식의 차이와, 로컬 환경에서 각 모델 계열이 제시하는 트레이드오프를 실용적인 관점에서 다룹니다. 인터넷 연결 없이 프라이버시 중심의 AI 에이전트를 구축하려는 개발자에게 유용한 비교 자료입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] Andrew Ng gets into AI Engineering",
+          "link": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
+          "summary": "AI 분야의 거장 앤드류 응(Andrew Ng)이 AI 엔지니어링 분야에 본격 참여한다는 소식을 담은 Latent Space 주간 AI 뉴스레터입니다.",
+          "detail": "Latent Space의 주간 AINews 뉴스레터로, AI 분야의 저명한 인물 앤드류 응(Andrew Ng)이 AI 엔지니어링 영역에 진출한다는 소식을 중심으로 합니다. 앤드류 응은 코세라 공동 창업자, deeplearning.ai 설립자로서 AI 교육 분야에서 큰 영향력을 지닌 인물입니다. 이번 호에서는 AI 엔지니어링의 필연적 성장과 업계 리더들의 동향을 다루며, AI 엔지니어링이 점차 주류 분야로 자리잡고 있음을 보여줍니다."
+        },
+        {
+          "category": "Python",
+          "title": "The Python print() Function: Go Beyond the Basics",
+          "link": "https://realpython.com/courses/python-print/",
+          "summary": "Python의 print() 함수를 심층적으로 다루는 Real Python 코스로, 잘 알려지지 않은 기능들과 흔한 실수, 더 나은 대안을 소개합니다.",
+          "detail": "Real Python에서 제공하는 이 코스는 Python 개발자들이 매일 사용하는 print() 함수를 기초를 넘어 심층적으로 살펴봅니다. 잘 알려지지 않은 기능들을 탐구하고, 흔히 저지르는 실수를 피하는 방법, 그리고 특정 상황에서 print()보다 더 나은 대안이 무엇인지 안내합니다. 파이썬 초급자부터 중급자까지 실용적인 통찰을 얻을 수 있는 내용입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Bayesian Workflow free pdf!",
+          "link": "https://statmodeling.stat.columbia.edu/2026/08/25/bayesian-workflow-free-pdf/",
+          "summary": "베이즈 통계 분석의 전 과정을 체계적으로 다룬 'Bayesian Workflow' 책이 무료 PDF로 공개되었습니다.",
+          "detail": "Andrew Gelman의 통계 모델링 블로그에서 'Bayesian Workflow' 책이 무료 PDF로 공개되었다고 발표했습니다. 이 책은 베이즈 통계 분석의 전체 워크플로우를 체계적으로 다루는 종합 참고서로, 모델 설정·추정·검증·비교 등 실무적인 베이즈 분석의 전 과정을 포함합니다. 저자는 종이책도 함께 구매하여 컴퓨터 작업 중 참고하는 것을 권장합니다. 베이즈 통계를 공부하거나 실무에 적용하려는 연구자와 데이터 과학자에게 매우 유용한 자료입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Survey Statistics: more on SynthMargins and Bayes-Raking",
+          "link": "https://statmodeling.stat.columbia.edu/2026/08/25/survey-statistics-more-on-synthmargins-and-bayes-raking/",
+          "summary": "포스트스트레티피케이션 변수의 부분 정보(주변값)를 활용하는 SynthMargins 기법과 Bayes-Raking의 연관성에 대한 심화 논의를 담은 설문 통계 글입니다.",
+          "detail": "Andrew Gelman의 통계 블로그에서 지난주에 이어 SynthMargins 방법론에 대한 추가 논의가 진행되었습니다. SynthMargins는 포스트스트레티피케이션 변수에 대한 부분 정보(주변값, margins)를 활용하여 복잡한 분할표(contingency table)를 모델링하는 기법입니다. 이번 글은 설문 통계 시리즈의 일부로, 가중치 보정과 인구 통계학적 조정 방법인 Bayes-Raking과의 연관성을 다루고 있습니다. 베이즈적 접근법을 통한 복잡한 조사 데이터 분석에 관심 있는 통계학자들에게 관련 있는 내용입니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-25",
       "summary": "오늘은 Java 생태계의 활발한 릴리스 소식이 눈에 띕니다. JDK 27이 9개 JEP를 확정하며 RC 단계에 진입했고, Microsoft는 AI 정책을 런타임 집행과 연결하는 거버넌스 아키텍처를 공개했습니다. 아이들이 AI보다 언어를 더 빠르게 습득하는 이유가 여전히 수수께끼로 남아 있다는 MIT의 분석과 함께, 엔터프라이즈 RAG의 올바른 구현 원칙 및 AI 에이전트를 위한 타입화된 컨텍스트 설계도 주목받고 있습니다.",
       "highlights": [
