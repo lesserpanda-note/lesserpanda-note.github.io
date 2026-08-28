@@ -1,7 +1,87 @@
 {
-  "updated": "2026-08-28T01:15:45+09:00",
-  "count": 1066,
+  "updated": "2026-08-28T09:15:47+09:00",
+  "count": 1054,
   "items": [
+    {
+      "title": "v2.35.2 (2026-08-27)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.35.2",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Route Heroku GLM models through zai_model_profile by @LHMQ878 in #6837 Scope safe_download cookies to original hostnames by @Diwak4r in #7077 Fix DeferredToolRequests.remaining resolving cross…",
+      "ts": 1787874872,
+      "published": "2026-08-27T23:54:32+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default…",
+      "ts": 1787871025,
+      "published": "2026-08-27T22:50:25+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.4",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.3 release(sdk-py): 0.4.4 ( #8738 ) Merge commit from fork feat: route LangSmith traces from thread streams ( #8723 )",
+      "ts": 1787865936,
+      "published": "2026-08-27T21:25:36+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "The incredible shrinking SSRN page",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/27/the-incredible-disappearing-ssrn-page/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I was going through comments on this morning’s post which involved the amazing productivity evidenced by the list of preprints here: But then when I was checking something, I saw that something happened: The number of p…",
+      "ts": 1787859130,
+      "published": "2026-08-27T19:32:10+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "The Sigmoid Function: From 'e' to Neural Networks",
+      "link": "https://towardsdatascience.com/the-sigmoid-function-from-e-to-neural-networks/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "We use the equation all the time. But where did it actually come from? The post The Sigmoid Function: From 'e' to Neural Networks appeared first on Towards Data Science .",
+      "ts": 1787855701,
+      "published": "2026-08-27T18:35:01+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "1.15.18",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.18",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Promote conversational flows to stable Record a created deployment with the given UUID Enhance conversational flow documentation and APIs Let a declaration name the router's response format Let a…",
+      "ts": 1787854039,
+      "published": "2026-08-27T18:07:19+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "I Trained Six Models for Fraud Detection, and the Best One Isn't in Production",
+      "link": "https://towardsdatascience.com/i-trained-six-models-for-fraud-detection-and-the-best-one-isnt-in-production/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "What a final-year project taught me about the gap between evaluation metrics and production decisions The post I Trained Six Models for Fraud Detection, and the Best One Isn't in Production appeared first on Towards Dat…",
+      "ts": 1787850301,
+      "published": "2026-08-27T17:05:01+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "10 Essential Agentic AI Concepts Explained Simply",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/basic-agentic-ai-concepts/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "AI agents are everywhere right now. You hear terms like tool calling, agent loops, MCP, guardrails thrown around as if its common language… it isn’t! But that is about to change. Agentic AI isn’t nearly as complicated a…",
+      "ts": 1787849920,
+      "published": "2026-08-27T16:58:40+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
     {
       "title": "Gemini Omni 1.1 Flash lets you build with more control",
       "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
@@ -211,6 +291,26 @@
       "ts": 1787788800,
       "published": "2026-08-27T00:00:00+00:00",
       "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Expanding our support for scientists",
+      "link": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Expanding our support for scientists",
+      "ts": 1787788800,
+      "published": "2026-08-27T00:00:00+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "Previewing the Model Hardware Standard",
+      "link": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Previewing the Model Hardware Standard",
+      "ts": 1787788800,
+      "published": "2026-08-27T00:00:00+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
     },
     {
       "title": "Qwen3.8-Flash-Next",
@@ -10441,226 +10541,6 @@
       "ts": 1785286012,
       "published": "2026-07-29T00:46:52+00:00",
       "collected_at": "2026-07-29T13:14:20+09:00"
-    },
-    {
-      "title": "Adding a custom MCP server to Claude and ChatGPT",
-      "link": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llm…",
-      "ts": 1785283998,
-      "published": "2026-07-29T00:13:18+00:00",
-      "collected_at": "2026-07-30T04:22:11+09:00"
-    },
-    {
-      "title": "Newsletter: JDK 27 Rampdown Phase is Closing - Default G1 in All Environments",
-      "link": "https://inside.java/2026/07/29/quality-heads-up/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "OpenJDK Quality Outreach July 2026 Newsletter",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-47858 - HIGH - CVE-2026-47858: live information startup mode is vulnerable for remote code execution",
-      "link": "https://spring.io/security/cve-2026-47858",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description Starting Spring Boot applications in the Spring Tools with the live information mode enabled makes the running application vulnerable against JMX-based remote code execution. This affects the live informatio…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-47873 - HIGH - CVE-2026-47873: Spring Tools Docker integration publishes unauthenticated debug (JDWP) and JMX ports on all network interfaces",
-      "link": "https://spring.io/security/cve-2026-47873",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description The Boot Dashboard Docker integration in Spring Tools publishes container control ports on all of the host's network interfaces ( 0.0.0.0 ) rather than restricting them to loopback. Affected Spring Products…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-59326 - LOW - CVE-2026-59326: HTTP Proxy Credentials Logged in Plaintext by the Spring Boot Language Server",
-      "link": "https://spring.io/security/cve-2026-59326",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description The Spring Boot language server logs the raw value of the https_proxy / HTTPS_PROXY / http_proxy / HTTP_PROXY environment variable at INFO level whenever it creates an outbound HTTP client and no explicit ht…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-47882 - LOW - CVE-2026-47882: Spring Boot DevTools remote secret generated with a non-cryptographic PRNG",
-      "link": "https://spring.io/security/cve-2026-47882",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description When enabling Spring Boot DevTools support for a remote application target (for example a Docker container or Cloud Foundry app) from the Spring Tools Boot Dashboard, Spring Tools generates a shared secret t…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-59327 - MEDIUM - CVE-2026-59327: Cleartext Storage of Spring Boot DevTools Remote Secret in Eclipse Launch Configurations",
-      "link": "https://spring.io/security/cve-2026-59327",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description Spring Tools for Eclipse stores the Spring Boot DevTools remote secret ( spring.devtools.remote.secret ) as a plain string attribute on the \"Spring Boot DevTools Client\" launch configuration. Eclipse persist…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-59328 - MEDIUM - CVE-2026-59328: Cross-Site Scripting in Eclipse Spring Boot Starter Wizard Dependency Tooltips",
-      "link": "https://spring.io/security/cve-2026-59328",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description Spring Tools for Eclipse renders Spring Boot starter wizard dependency tooltips in a native embedded browser (SWT Browser ) with JavaScript enabled. Using untrusted and compromised Initializr endpoints for t…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "Discovering cryptographic weaknesses with Claude",
-      "link": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"…",
-      "ts": 1785278737,
-      "published": "2026-07-28T22:45:37+00:00",
-      "collected_at": "2026-07-29T09:00:29+09:00"
-    },
-    {
-      "title": "Quoting Akshat Bubna",
-      "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were…",
-      "ts": 1785276355,
-      "published": "2026-07-28T22:05:55+00:00",
-      "collected_at": "2026-07-29T07:07:31+09:00"
-    },
-    {
-      "title": "uv 0.12.0",
-      "link": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "uv 0.12.0 Some interesting breaking changes in this release of uv , in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv…",
-      "ts": 1785275498,
-      "published": "2026-07-28T21:51:38+00:00",
-      "collected_at": "2026-07-29T07:07:31+09:00"
-    },
-    {
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their…",
-      "ts": 1785274134,
-      "published": "2026-07-28T21:28:54+00:00",
-      "collected_at": "2026-07-29T07:07:31+09:00"
-    },
-    {
-      "title": "Anthropic publishes a practical key-recovery attack on HAWK-256",
-      "link": "https://github.com/anthropics/cryptography-research-demo",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://github.com/anthropics/cryptography-research-demo Comments URL: https://news.ycombinator.com/item?id=49090083 Points: 50 # Comments: 2",
-      "ts": 1785273768,
-      "published": "2026-07-28T21:22:48+00:00",
-      "collected_at": "2026-07-29T09:00:29+09:00"
-    },
-    {
-      "title": "Survey Statistics: equivalent models, equivalent weights (locally)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/28/survey-statistics-equivalent-models-equivalent-weights-locally/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Last month we saw that the Times/Siena Poll is now using energy balancing weights (Huling & Mak, 2024). In a toy example, we saw under which outcome models these weighting methods might do well. I was inspired by Little…",
-      "ts": 1785268826,
-      "published": "2026-07-28T20:00:26+00:00",
-      "collected_at": "2026-07-29T05:17:59+09:00"
-    },
-    {
-      "title": "Show HN: Minute – Offline meeting notes on macOS with Whisper and llama.cpp",
-      "link": "https://github.com/mraza007/minute",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Hello HN, I built Minute because I wanted searchable meeting notes without sending recordings or transcripts to a cloud service. It captures microphone and optional system audio, transcribes locally with Whisper, and ge…",
-      "ts": 1785267077,
-      "published": "2026-07-28T19:31:17+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
-    },
-    {
-      "title": "MCP 2026-07-28 Specification: transport going stateless",
-      "link": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://blog.modelcontextprotocol.io/posts/2026-07-28/ Comments URL: https://news.ycombinator.com/item?id=49088058 Points: 39 # Comments: 15",
-      "ts": 1785263711,
-      "published": "2026-07-28T18:35:11+00:00",
-      "collected_at": "2026-07-29T05:17:59+09:00"
-    },
-    {
-      "title": "langgraph==1.2.10",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.10",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.9 release(langgraph): 1.2.10 ( #8462 ) chore(deps): bump jupyterlab from 4.5.9 to 4.5.10 in /libs/langgraph ( #8440 ) chore(deps): bump setuptools from 80.9.0 to 83.0.0 in /libs/langgraph ( #8435 ) fea…",
-      "ts": 1785263654,
-      "published": "2026-07-28T18:34:14+00:00",
-      "collected_at": "2026-07-29T05:17:59+09:00"
-    },
-    {
-      "title": "Grok Introducing Build Mode",
-      "link": "https://x.ai/news/grok-build-mode",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://x.ai/news/grok-build-mode Comments URL: https://news.ycombinator.com/item?id=49087752 Points: 10 # Comments: 1",
-      "ts": 1785262248,
-      "published": "2026-07-28T18:10:48+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
-    },
-    {
-      "title": "Scientific computing in the age of agentic AI",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "ts": 1785258000,
-      "published": "2026-07-28T17:00:00+00:00",
-      "collected_at": "2026-07-29T03:17:22+09:00"
-    },
-    {
-      "title": "How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on Apple Silicon",
-      "link": "https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "Five models, sustained generation, real wall-socket energy at $0.31/kWh — and the surprise the RTX-3090 numbers predicted, only bigger. The post How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on A…",
-      "ts": 1785256200,
-      "published": "2026-07-28T16:30:00+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1785256062,
-      "published": "2026-07-28T16:27:42+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
     }
   ]
 }
