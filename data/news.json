@@ -1,7 +1,27 @@
 {
-  "updated": "2026-08-28T09:15:47+09:00",
-  "count": 1054,
+  "updated": "2026-08-28T10:22:14+09:00",
+  "count": 1057,
   "items": [
+    {
+      "title": "python-1.16.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.16.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.16.0] - 2026-08-27 Added agent-framework-core : Add configurable timeouts for waiting on the first background-agent task completion ( #7908 ) agent-framework-core : Allow programmatic OpenTelemetry service metadata,…",
+      "ts": 1787878400,
+      "published": "2026-08-28T00:53:20+00:00",
+      "collected_at": "2026-08-28T10:22:04+09:00"
+    },
+    {
+      "title": "v2.35.3 (2026-08-27)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.35.3",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Route Heroku GLM models through zai_model_profile by @LHMQ878 in #6837 Scope safe_download cookies to original hostnames by @Diwak4r in #7077 Fix DeferredToolRequests.remaining resolving cross…",
+      "ts": 1787877569,
+      "published": "2026-08-28T00:39:29+00:00",
+      "collected_at": "2026-08-28T10:22:04+09:00"
+    },
     {
       "title": "v2.35.2 (2026-08-27)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.35.2",
@@ -31,6 +51,16 @@
       "ts": 1787865936,
       "published": "2026-08-27T21:25:36+00:00",
       "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "Lawsuit: Grok was trained on child sex abuse images of preschool-age victim",
+      "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/ Comments URL: https://news.ycombinator.com/item?id=49471175 Points: 10 # Comments: 0",
+      "ts": 1787864348,
+      "published": "2026-08-27T20:59:08+00:00",
+      "collected_at": "2026-08-28T10:22:04+09:00"
     },
     {
       "title": "The incredible shrinking SSRN page",
@@ -81,6 +111,16 @@
       "ts": 1787849920,
       "published": "2026-08-27T16:58:40+00:00",
       "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "Grok Bot for Linux: Unofficial port of the official app (open source)",
+      "link": "https://github.com/jakob-bu/grok-bot-linux-unofficial",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/jakob-bu/grok-bot-linux-unofficial Comments URL: https://news.ycombinator.com/item?id=49467702 Points: 29 # Comments: 9",
+      "ts": 1787849387,
+      "published": "2026-08-27T16:49:47+00:00",
+      "collected_at": "2026-08-28T10:22:04+09:00"
     },
     {
       "title": "Gemini Omni 1.1 Flash lets you build with more control",
@@ -10530,16 +10570,6 @@
       "summary": "What's Changed 🚀 Features Add Claude Opus 5 ( claude-opus-5 ) support by @dsfaccini in #6723 Add OpenAI Responses API reasoning.context support (default all_turns ) for the gpt-5.4 / gpt-5.5 / gpt-5.6 families by @pydan…",
       "ts": 1785295606,
       "published": "2026-07-29T03:26:46+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
-    },
-    {
-      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
-      "link": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "The Big Pause is coming.",
-      "ts": 1785286012,
-      "published": "2026-07-29T00:46:52+00:00",
       "collected_at": "2026-07-29T13:14:20+09:00"
     }
   ]
