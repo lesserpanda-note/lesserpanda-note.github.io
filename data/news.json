@@ -1,7 +1,137 @@
 {
-  "updated": "2026-08-28T10:22:14+09:00",
-  "count": 1057,
+  "updated": "2026-08-28T23:08:57+09:00",
+  "count": 1050,
   "items": [
+    {
+      "title": "The Local AI Stack for Productive SLMs",
+      "link": "https://www.kdnuggets.com/the-local-ai-stack-for-productive-slms",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "A practical framework for choosing the right tools at each layer of your local AI setup, from model serving to context retrieval.",
+      "ts": 1787925654,
+      "published": "2026-08-28T14:00:54+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Why Claude Code Time Estimates Are Poor",
+      "link": "https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Be a better communicator with LLM programming The post Why Claude Code Time Estimates Are Poor appeared first on Towards Data Science .",
+      "ts": 1787925601,
+      "published": "2026-08-28T14:00:01+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Where’s the Evel Knievel blockbuster biopic?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/28/wheres-the-evel-knievel-blockbuster-biopic/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "A few years ago we discussed Objects of the class Jacques Cousteau: people who are world famous (or at least world famous in the U.S.) but of a category for which there’s only one famous person. Some examples: • Coustea…",
+      "ts": 1787925073,
+      "published": "2026-08-28T13:51:13+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Quantization and Pruning Methods to Make Your LLM Leaner",
+      "link": "https://www.kdnuggets.com/quantization-and-pruning-methods-to-make-your-llm-leaner",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "This article walks through what each technique actually does, why skipping them costs real money and real latency, and then gets hands-on with five specific methods people are running in production right now.",
+      "ts": 1787918455,
+      "published": "2026-08-28T12:00:55+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Interpretable Text Classification: Probing Scikit-LLM Embedding Spaces",
+      "link": "https://machinelearningmastery.com/interpretable-text-classification-probing-scikit-llm-embedding-spaces/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how to use probing classifiers, UMAP visualization, and SHAP values to interpret and analyze the quality of text embeddings...",
+      "ts": 1787918450,
+      "published": "2026-08-28T12:00:50+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #309: Exploring Complex Systems & Maintainable Data Science Pipelines",
+      "link": "https://realpython.com/podcasts/rpp/309/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What are the key characteristics of complex systems, and what are practical patterns for tackling complex coding problems? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly article…",
+      "ts": 1787918400,
+      "published": "2026-08-28T12:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Quiz: Rock, Paper, Scissors With Python: A Command Line Game",
+      "link": "https://realpython.com/quizzes/python-rock-paper-scissors-game/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of building a command line rock paper scissors game in Python, from player input and loops to enums and dictionary rules.",
+      "ts": 1787918400,
+      "published": "2026-08-28T12:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Presentation: From DVDs to Global Streaming: How Netflix’s Commerce Architecture Actually Evolved",
+      "link": "https://www.infoq.com/presentations/netflix-commerce-architecture-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Kasia Trapszo discusses how Netflix evolved its commerce platform from a U.S. DVD service into global infrastructure. She explains navigating international payment realities, adapting to strict regulatory mandates, deco…",
+      "ts": 1787914800,
+      "published": "2026-08-28T11:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Article: Post-Quantum Cryptography in Spring Boot: Four Patterns You Can Ship This Sprint",
+      "link": "https://www.infoq.com/articles/pqc-in-spring-boot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "There are four patterns that bring PQC into a Spring Boot fleet: encrypting payloads between services, locking down database fields, signing documents that need to hold up for decades, and moving service tokens off RS25…",
+      "ts": 1787907600,
+      "published": "2026-08-28T09:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Article: Post-Quantum Cryptography in Spring Boot: Four Patterns You Can Ship This Sprint",
+      "link": "https://www.infoq.com/articles/pqc-in-spring-boot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "There are four patterns that bring PQC into a Spring Boot fleet: encrypting payloads between services, locking down database fields, signing documents that need to hold up for decades, and moving service tokens off RS25…",
+      "ts": 1787907600,
+      "published": "2026-08-28T09:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Meta Expands Its Custom Silicon Strategy From Compute Into Networking",
+      "link": "https://www.infoq.com/news/2026/08/meta-hccl/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Meta has detailed MTIA 300, its first in-house accelerator optimized for training ranking and recommendation models. By Matt Foster",
+      "ts": 1787902980,
+      "published": "2026-08-28T07:43:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "link": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "It’s Time. We’re in the Endgame now.",
+      "ts": 1787901130,
+      "published": "2026-08-28T07:12:10+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "ts": 1787882400,
+      "published": "2026-08-28T02:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
     {
       "title": "python-1.16.0",
       "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.16.0",
@@ -10371,206 +10501,6 @@
       "ts": 1785337200,
       "published": "2026-07-29T15:00:00+00:00",
       "collected_at": "2026-07-30T09:03:15+09:00"
-    },
-    {
-      "title": "What Professionals Should Know About Data Science and AI, According to Harvard Business School Online",
-      "link": "https://www.kdnuggets.com/what-professionals-should-know-about-data-science-and-ai-according-to-harvard-business-school-online",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn why clear business goals, data quality, simple models, careful validation, realistic costs, and human judgment matter more than chasing the latest technology.",
-      "ts": 1785333625,
-      "published": "2026-07-29T14:00:25+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "CrewAI in Python: Coordinating Teams of AI Agents",
-      "link": "https://realpython.com/crewai-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use CrewAI to build teams of AI agents in Python, define roles and tools, and coordinate multi-agent workflows that solve complex tasks.",
-      "ts": 1785333600,
-      "published": "2026-07-29T14:00:00+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "How to Create Custom Skills in Claude: A Step-by-Step Guide",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/how-to-create-custom-skills-in-claude/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Claude can review data, check code, write reports, and prepare presentations, but teams still end up repeating the same structure, validation rules, company standards, and final-check instructions in every conversation.…",
-      "ts": 1785332968,
-      "published": "2026-07-29T13:49:28+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "Qodana 2026.2: More Security, Better Coverage, Less Configuration",
-      "link": "https://blog.jetbrains.com/qodana/2026/07/qodana-2026-2-more-security-better-coverage-less-configuration/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Qodana 2026.2 makes it easier for development teams to act on code quality, security, and compliance findings throughout the development workflow. This release introduces clearer code coverage insights for pull requests…",
-      "ts": 1785332823,
-      "published": "2026-07-29T13:47:03+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "Qodana 2026.2: More Security, Better Coverage, Less Configuration",
-      "link": "https://blog.jetbrains.com/qodana/2026/07/qodana-2026-2-more-security-better-coverage-less-configuration",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Qodana 2026.2 makes it easier for development teams to act on code quality, security, and compliance findings throughout the development workflow. This release introduces clearer code coverage insights for pull requests…",
-      "ts": 1785332823,
-      "published": "2026-07-29T13:47:03+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "Los Movimientos, Part II: Solving Large Pickup-and-Delivery Problems with Adaptive Large Neighborhood Search",
-      "link": "https://towardsdatascience.com/los-movimientos-part-ii-solving-large-pickup-and-delivery-problems-with-adaptive-large-neighborhood-search/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Building an ALNS heuristic in Python for vehicle routing, time windows, capacity constraints, and mandatory driver breaks. The post Los Movimientos, Part II: Solving Large Pickup-and-Delivery Problems with Adaptive Larg…",
-      "ts": 1785331800,
-      "published": "2026-07-29T13:30:00+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "Eleven Kinds of Loneliness: Richard Yates and the tragedy of agency",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/29/eleven-kinds-of-loneliness-richard-yates-and-the-tragedy-of-agency/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Following up on Richard Yates (see last year’s post, Double Feature: Revolutionary Road and That Darned Chatbot), I came across his collection of short stories from 1962, Eleven Kinds of Loneliness. These stories are wo…",
-      "ts": 1785331779,
-      "published": "2026-07-29T13:29:39+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "5 Must-Read Resources for Mastering Small Language Models",
-      "link": "https://www.kdnuggets.com/5-must-read-resources-for-mastering-small-language-models",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Five resources covering SLM architecture, fine-tuning, agentic workflows, and local deployment for data professionals.",
-      "ts": 1785326422,
-      "published": "2026-07-29T12:00:22+00:00",
-      "collected_at": "2026-07-29T22:02:39+09:00"
-    },
-    {
-      "title": "Ollama vs. LM Studio vs. llama.cpp: Which Local AI Runtime Should You Use in 2026?",
-      "link": "https://machinelearningmastery.com/ollama-vs-lm-studio-vs-llama-cpp-which-local-ai-runtime-should-you-use-in-2026/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how Ollama, LM Studio, and llama.cpp differ across the dimensions that matter most to practitioners, and how to choose...",
-      "ts": 1785326413,
-      "published": "2026-07-29T12:00:13+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "Avoiding Entity Key Drift in a Data Lake: Step 1, Normalization",
-      "link": "https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-1-normalization/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "This is the opening piece of a four-part deep dive series, on building a high-frequency streaming pipeline against a live public API. The data source is openSenseMap, a citizen-science IoT network used for climate resea…",
-      "ts": 1785326400,
-      "published": "2026-07-29T12:00:00+00:00",
-      "collected_at": "2026-07-29T22:02:39+09:00"
-    },
-    {
-      "title": "Secure Your APIs: OAuth2 and JWT for Beginners",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/secure-your-apis-oauth2-and-jwt-for-beginners/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "This tutorial was written by an external contributor. APIs are frequent targets for bad actors since they expose data and functionality. Securing them while maintaining usability is often one of the most challenging and…",
-      "ts": 1785324501,
-      "published": "2026-07-29T11:28:21+00:00",
-      "collected_at": "2026-07-29T22:02:39+09:00"
-    },
-    {
-      "title": "Secure Your APIs: OAuth2 and JWT for Beginners",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/secure-your-apis-oauth2-and-jwt-for-beginners",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "This tutorial was written by an external contributor. APIs are frequent targets for bad actors since they expose data and functionality. Securing them while maintaining usability is often one of the most challenging and…",
-      "ts": 1785324501,
-      "published": "2026-07-29T11:28:21+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "Cloudflare Makes Internal DNS Generally Available",
-      "link": "https://www.infoq.com/news/2026/07/cloudflare-internal-dns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has launched its Internal DNS service, providing authoritative and recursive DNS for private networks. This service simplifies DNS management by consolidating private and public DNS operations on a single pla…",
-      "ts": 1785321000,
-      "published": "2026-07-29T10:30:00+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "Presentation: Getting Rid of LeetCode Interviews in the World of AI",
-      "link": "https://www.infoq.com/presentations/ai-lead-interview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Daniel Doubrovkine explains why traditional LeetCode whiteboard interviews fail to evaluate senior engineering talent. He discusses his own experience bombing basic algorithm tests despite decades of leadership, and sha…",
-      "ts": 1785320700,
-      "published": "2026-07-29T10:25:00+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "ts": 1785319200,
-      "published": "2026-07-29T10:00:00+00:00",
-      "collected_at": "2026-07-30T02:18:38+09:00"
-    },
-    {
-      "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway",
-      "link": "https://www.infoq.com/articles/securing-mcp-production-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "This article presents a defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production. It outlines four architectural control layers: safe execution, management infrastructure, outbound t…",
-      "ts": 1785315600,
-      "published": "2026-07-29T09:00:00+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway",
-      "link": "https://www.infoq.com/articles/securing-mcp-production-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This article presents a defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production. It outlines four architectural control layers: safe execution, management infrastructure, outbound t…",
-      "ts": 1785315600,
-      "published": "2026-07-29T09:00:00+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "The AI Hype Index: Unsexy AI",
-      "link": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X…",
-      "ts": 1785314577,
-      "published": "2026-07-29T08:42:57+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "v0.19.1",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.1",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "What's Changed feat(sandbox): support native host paths in path grants by @seratch in #4009 fix: redact Realtime audio format diagnostics by @seratch in #3992 fix: redact Blaxel unmount paths in logging by @seratch in #…",
-      "ts": 1785311064,
-      "published": "2026-07-29T07:44:24+00:00",
-      "collected_at": "2026-07-29T16:45:21+09:00"
-    },
-    {
-      "title": "v2.20.0 (2026-07-28)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.20.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add Claude Opus 5 ( claude-opus-5 ) support by @dsfaccini in #6723 Add OpenAI Responses API reasoning.context support (default all_turns ) for the gpt-5.4 / gpt-5.5 / gpt-5.6 families by @pydan…",
-      "ts": 1785295606,
-      "published": "2026-07-29T03:26:46+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
     }
   ]
 }
