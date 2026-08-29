@@ -1,7 +1,47 @@
 {
-  "updated": "2026-08-29T09:25:39+09:00",
-  "count": 1046,
+  "updated": "2026-08-29T15:43:56+09:00",
+  "count": 1049,
   "items": [
+    {
+      "title": "[AINews] OpenAI shuts off Cursor",
+      "link": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Elon v Altman has a real consequence.",
+      "ts": 1787980312,
+      "published": "2026-08-29T05:11:52+00:00",
+      "collected_at": "2026-08-29T15:43:50+09:00"
+    },
+    {
+      "title": "FreeToken Unlocks Frontier MoE Inference on Consumer Hardware via Dynamic Co-Execution",
+      "link": "https://www.infoq.com/news/2026/08/freetoken-local-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Researchers from UC Berkeley and MIT have developed FreeToken, an open-source inference engine that enhances the utility of Mixture-of-Experts models on consumer hardware. By implementing a dynamic scheduling policy and…",
+      "ts": 1787979900,
+      "published": "2026-08-29T05:05:00+00:00",
+      "collected_at": "2026-08-29T15:43:50+09:00"
+    },
+    {
+      "title": "v2.36.0 (2026-08-28)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.36.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Add --mcp-config support and tool-call streaming to clai by @Kludex in #1374 🚀 Features Add @durable_operation for capabilities and a public backend API for third-party durable exec…",
+      "ts": 1787966708,
+      "published": "2026-08-29T01:25:08+00:00",
+      "collected_at": "2026-08-29T15:43:50+09:00"
+    },
+    {
+      "title": "Lawsuit: Grok Not Only Generates Child Porn but Was Also Trained on It",
+      "link": "https://gizmodo.com/grok-not-only-generates-child-porn-but-was-also-trained-on-it-new-lawsuit-claims-2000804488",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://gizmodo.com/grok-not-only-generates-child-porn-but-was-also-trained-on-it-new-lawsuit-claims-2000804488 Comments URL: https://news.ycombinator.com/item?id=49485776 Points: 11 # Comments: 0",
+      "ts": 1787963593,
+      "published": "2026-08-29T00:33:13+00:00",
+      "collected_at": "2026-08-29T15:43:50+09:00"
+    },
     {
       "title": "Just a rumour of a bug is enough to find a security exploit these days",
       "link": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
@@ -211,6 +251,16 @@
       "ts": 1787901130,
       "published": "2026-08-28T07:12:10+00:00",
       "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "link": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+      "ts": 1787896800,
+      "published": "2026-08-28T06:00:00+00:00",
+      "collected_at": "2026-08-29T15:43:50+09:00"
     },
     {
       "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
@@ -10441,26 +10491,6 @@
       "ts": 1785396480,
       "published": "2026-07-30T07:28:00+00:00",
       "collected_at": "2026-07-30T16:36:33+09:00"
-    },
-    {
-      "title": "1.15.9",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.9",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Surface tool failures instead of reporting them as success Emit FlowFailedEvent when a flow execution fails Implement progressive disclosure for skills Documentation Update snapshot and changelog…",
-      "ts": 1785390326,
-      "published": "2026-07-30T05:45:26+00:00",
-      "collected_at": "2026-07-30T16:36:33+09:00"
-    },
-    {
-      "title": "v2.21.0 (2026-07-29)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.21.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features feat(usage): add per_request_input_tokens_limit to UsageLimits by @Oxygen56 in #5907 🐛 Bug Fixes Refresh KnownModelName from Gateway probes and stable Google image IDs by @adtyavrdhn in #6806 F…",
-      "ts": 1785376746,
-      "published": "2026-07-30T01:59:06+00:00",
-      "collected_at": "2026-07-30T13:08:36+09:00"
     }
   ]
 }
