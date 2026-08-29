@@ -1,90 +1,55 @@
 {
-  "updated": "2026-08-29T00:20:49Z",
-  "summary": "오늘은 Anthropic의 모델 하드웨어 표준 예고와 OpenAI의 GPT-5.6 출시가 AI 분야 주요 소식이었습니다. Spring 생태계에서는 Spring Authorization Server의 Spring Security 7 통합 소식과 Spring Modulith 다중 버전 릴리스가 발표되었으며, Java 진영에서는 JDK 27/28 로드맵과 Azul Payara 업데이트가 관심을 끌었습니다. 아키텍처 분야에서는 Microsoft의 AI 거버넌스 런타임 적용 사례와 Roblox의 자율 SDLC 구현이 대규모 AI 시스템 설계 인사이트를 제공했습니다.",
+  "updated": "2026-08-28T00:13:30Z",
+  "summary": "오늘은 NVIDIA의 허깅페이스 130억 달러 인수라는 오픈소스 AI 생태계를 뒤흔드는 대형 뉴스와 함께, Google DeepMind의 Gemini Omni 1.1 Flash 출시 및 세계 최초 이중 맹검 AI 평가 파일럿이 주목을 받았습니다. Spring 생태계에서는 10주 만에 Boot, Framework, Data, Security 등 다수 프로젝트의 첫 마일스톤이 동시에 공개되었으며, 에이전트 설계와 데이터 준비, AI 에이전트 결제 인프라에 관한 실용적인 논의들이 아키텍처 분야에서 이어졌습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "What's New In The August 2026 Azul Payara Release?",
-      "link": "https://foojay.io/today/whats-new-in-the-august-2026-azul-payara-release/",
-      "summary": "2026년 8월 Azul Payara 릴리스에서는 Payara Server/Micro 7.3.0과 Community 7.2026.8이 공개되어 Jakarta EE 11 지원과 성능 개선 사항이 포함되었습니다.",
-      "detail": "2026년 8월 Azul Payara 릴리스에서 Azul Payara Server와 Micro 7.3.0, 그리고 Azul Payara Community 7.2026.8이 발표되었습니다.\n이번 릴리스는 Jakarta EE 11 사양을 기반으로 하며 최신 Java 엔터프라이즈 API를 지원합니다. 7.3.0 버전에서는 성능 최적화와 안정성 개선이 포함되었으며, Community 버전은 월간 업데이트 주기로 최신 패치와 의존성 업그레이드를 제공합니다. Payara는 GlassFish 기반의 Jakarta EE 애플리케이션 서버로, Azul과의 협력을 통해 최신 JDK와의 긴밀한 통합 및 장기 지원(LTS)을 제공하고 있습니다. Java 엔터프라이즈 환경에서 안정적인 서버 플랫폼을 필요로 하는 팀에게 의미 있는 업데이트입니다."
-    },
-    {
-      "category": "Java",
-      "title": "JDK 27 and JDK 28: What We Know So Far",
-      "link": "https://foojay.io/today/jdk-27-and-jdk-28-what-we-know-so-far/",
-      "summary": "비LTS 릴리스인 JDK 27이 첫 번째 릴리스 후보(RC) 단계에 진입했으며, JDK 28의 JEP 제안들도 서서히 모습을 드러내고 있습니다.",
-      "detail": "JDK 25 이후 두 번째 비LTS 릴리스인 JDK 27이 첫 번째 릴리스 후보(RC) 단계에 도달했습니다. 이 기사는 JDK 27과 이미 논의가 시작된 JDK 28의 예상 기능들을 정리합니다.\nJDK 27에는 스코프 값(Scoped Values), 가상 스레드 개선, 패턴 매칭 확장, 문자열 템플릿 관련 JEP들이 포함될 예정이며, 일부는 Preview 또는 Incubator 단계를 거쳐 표준화됩니다. JDK 28은 아직 초기 계획 단계이지만, 값 타입(Value Types), Valhalla 프로젝트 관련 JEP 등이 포함될 가능성이 거론되고 있습니다. Java 개발자라면 향후 릴리스 방향을 미리 파악하고 마이그레이션 및 학습 계획을 수립하는 데 참고할 수 있습니다."
-    },
-    {
-      "category": "Spring",
-      "title": "A Bootiful Podcast: Joe Grandja on Spring Authorization Server, OAuth, and so much more",
-      "link": "https://spring.io/blog/2026/08/27/a-bootiful-podcast-joe-grandja-on-spring-authorization-server-oauth-and-so-much-more",
-      "summary": "Spring Security의 Joe Grandja가 Spring Authorization Server의 Spring Security 7 통합과 DPoP, PAR 등 최신 OAuth 보안 기능을 소개하는 팟캐스트입니다.",
-      "detail": "A Bootiful Podcast 최신 에피소드에서 Spring Security 팀의 Joe Grandja가 Spring Authorization Server와 OAuth의 최신 동향을 소개합니다.\n핵심 내용: Spring Authorization Server가 Spring Security 7에 통합(graduation)되어 프레임워크 성숙도의 중요한 이정표를 달성했습니다. 또한 두 가지 새로운 보안 강화 프로토콜이 도입됩니다: DPoP(Demonstration of Proof-of-Possession)는 액세스 토큰이 특정 클라이언트 키에 바인딩되도록 해 토큰 탈취 공격을 방어하며, PAR(Pushed Authorization Requests)은 인가 요청을 브라우저 URL이 아닌 백채널로 전송해 파라미터 노출 위험을 줄입니다. Spring Security 기반 OAuth 서버를 운영하는 팀이라면 이 에피소드를 통해 최신 보안 강화 방향을 파악할 수 있습니다."
-    },
-    {
-      "category": "Spring",
-      "title": "Spring Modulith 2.2 M1, 2.1.1, 2.0.8, and 1.4.13 released",
-      "link": "https://spring.io/blog/2026/08/26/spring-modulith-2-2-m1-2-1-1-2-0-8-and-1-4-13-released",
-      "summary": "Spring Modulith 2.2 M1이 Spring Boot 4.2 M1과 Spring Framework 7.1 M1로 업그레이드되었으며, 2.1.1, 2.0.8, 1.4.13 패치 버전들도 함께 출시되었습니다.",
-      "detail": "Spring Modulith 커뮤니티에서 한 번에 네 가지 버전이 릴리스되었습니다.\nSpring Modulith 2.2 M1(마일스톤): 가장 주목할 변경으로 Spring Boot 4.2 M1과 Spring Framework 7.1 M1로 기반을 업그레이드했습니다. Namastack Outbox 통합과 자동 설정 등록 메커니즘도 개선되었습니다. 이 버전은 차기 주요 버전 개발을 위한 첫 마일스톤으로, 피드백을 수집하는 단계입니다.\n패치 버전(2.1.1, 2.0.8, 1.4.13): 의존성 업그레이드와 일반적인 유지보수 패치가 포함됩니다. 일부 개선 사항은 해당 버전 호환 범위 내에서 백포트되었습니다. 모듈형 Spring Boot 애플리케이션 아키텍처를 채택한 팀은 사용 버전에 맞는 패치를 적용하는 것이 권장됩니다."
+      "title": "Spring News Roundup: First Milestone Releases for Boot, Framework, Data, Security, Modulith, Batch",
+      "link": "https://www.infoq.com/news/2026/08/spring-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "10주간의 공백 이후 Spring Boot 4.0, Spring Framework 7.0, Spring Data 4.0, Spring Security 7.0, Spring Modulith 2.0, Spring Batch 6.0 등 주요 Spring 프로젝트의 첫 번째 마일스톤 릴리스가 2026년 8월 17일 주간에 일제히 발표되었습니다.",
+      "detail": "Spring 생태계에서 10주간의 공백 이후 2026년 8월 17일 주간에 대규모 릴리스가 한꺼번에 발표되었습니다. Spring Boot 4.0, Spring Framework 7.0, Spring Data 4.0, Spring Security 7.0, Spring Modulith 2.0, Spring Batch 6.0 등 여러 핵심 프로젝트의 첫 번째 마일스톤 버전이 공개되었습니다.\n이는 각 프레임워크의 다음 주요 메이저 버전 개발이 본격적으로 시작되었음을 의미합니다. 마일스톤 릴리스는 정식 출시 전 커뮤니티 피드백을 수집하는 단계로, 개발자들은 새로운 기능과 API 변경 사항을 미리 파악하고 마이그레이션을 준비할 수 있습니다. Spring 생태계 전반에 걸친 동시다발적 업데이트는 Java 엔터프라이즈 개발자들에게 중요한 준비 시점이 되고 있습니다."
     },
     {
       "category": "AI",
-      "title": "Previewing the Model Hardware Standard",
-      "link": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "summary": "Anthropic이 AI 모델과 하드웨어 간의 상호운용성을 위한 '모델 하드웨어 표준'을 연구 미리보기 형태로 공개했습니다.",
-      "detail": "Anthropic이 '모델 하드웨어 표준(Model Hardware Standard)' 연구 미리보기를 발표했습니다. 이 표준은 AI 모델과 다양한 하드웨어 플랫폼 간의 상호운용성을 높이기 위한 사양으로, 모델이 어떤 가속기(GPU, TPU, 커스텀 칩 등)에서도 일관되게 실행될 수 있도록 하는 것을 목표로 합니다.\n현재 AI 모델은 특정 하드웨어 플랫폼에 최적화되어 있어 다른 하드웨어로의 이식이 복잡하고 성능 저하가 발생하는 경우가 많습니다. 이 표준이 채택되면 모델 개발자와 하드웨어 제조사 모두 표준화된 인터페이스를 통해 더 쉽게 협력할 수 있습니다. 오픈 표준화를 통해 AI 생태계의 독점적 의존성을 줄이고 경쟁과 혁신을 촉진하려는 의도가 담겨 있습니다."
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "summary": "Google DeepMind가 개발자에게 더 세밀한 제어권을 제공하는 Gemini Omni 1.1 Flash 모델을 출시했습니다. 속도와 비용 효율성을 갖춘 멀티모달 모델의 업그레이드 버전입니다.",
+      "detail": "Google DeepMind가 Gemini Omni 1.1 Flash를 출시했습니다. 이 모델은 개발자들이 모델 동작에 대해 더욱 정밀한 제어를 할 수 있도록 설계된 업그레이드 버전입니다.\n'Omni'라는 이름에서 알 수 있듯이 텍스트, 이미지, 오디오 등 멀티모달 입출력을 지원하며, 'Flash' 버전은 속도와 비용 효율성에 초점을 맞추고 있습니다. 버전 1.1은 이전 버전 대비 제어 가능성(controllability)을 높인 것이 핵심 개선점으로, 개발자가 출력 형식, 스타일, 동작 방식을 더 세밀하게 지정할 수 있습니다. Gemini API를 통해 Google AI Studio 및 Vertex AI에서 사용할 수 있습니다."
     },
     {
       "category": "AI",
-      "title": "Advancing price-performance for developers with GPT-5.6 in Kiro",
-      "link": "https://openai.com/index/gpt-5-6-in-kiro",
-      "summary": "OpenAI가 자사 AI 개발 IDE인 Kiro에 GPT-5.6 모델을 도입해 가격 대비 성능을 크게 향상시켰다고 발표했습니다.",
-      "detail": "OpenAI가 AI 지원 개발 환경 Kiro에 GPT-5.6 모델을 도입했습니다. GPT-5.6은 소프트웨어 개발 작업에 최적화된 모델로, 이전 버전 대비 더 나은 가격 대비 성능(price-performance)을 제공합니다.\nKiro는 OpenAI의 AI 기반 IDE로, 코드 계획, 작성, 검토, 테스트 등 소프트웨어 개발의 전체 라이프사이클을 AI로 지원합니다. GPT-5.6 도입으로 개발자들은 더 낮은 비용으로 더 정확한 코드 생성과 복잡한 리팩토링 지원을 받을 수 있게 됩니다. 이번 발표는 AI 코딩 도구 시장에서 Cursor, GitHub Copilot 등 경쟁 제품들과의 경쟁이 가속화되는 맥락에서 이루어진 것으로 주목됩니다."
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "summary": "Google DeepMind가 세계 최초로 이중 맹검(double-blind) 방식을 AI 모델 평가에 적용하는 파일럿을 시작했습니다. 편향 없는 객관적 AI 성능 측정을 위한 새로운 평가 패러다임입니다.",
+      "detail": "Google DeepMind는 의학 임상시험에서 확립된 이중 맹검(double-blind) 방법론을 AI 평가에 최초로 도입하는 파일럿 프로그램을 시작했습니다. 이중 맹검 방식은 평가자와 피평가자 모두 편향 요인에 노출되지 않도록 설계된 엄밀한 실험 방법입니다.\n현재 AI 벤치마크 평가는 평가자가 어떤 모델을 평가하는지 알거나, 모델이 특정 벤치마크에 최적화되는 문제가 있습니다. 이중 맹검 방식을 도입하면 평가자 편향과 모델의 벤치마크 오염(contamination) 문제를 줄여 보다 신뢰할 수 있는 성능 비교가 가능해집니다. 이 파일럿은 AI 평가 방법론 전반의 신뢰성과 재현성을 높이려는 중요한 시도로 주목받고 있습니다."
     },
     {
       "category": "Agents",
-      "title": "Put Your Own Logic Inside the Codex Agentic Loop",
-      "link": "https://towardsdatascience.com/put-your-own-logic-inside-the-codex-agentic-loop/",
-      "summary": "Codex CLI의 훅(hook) 시스템을 활용해 에이전트 루프 내에 커스텀 로직을 삽입하는 방법을 소개합니다.",
-      "detail": "OpenAI의 Codex CLI는 에이전트 루프를 실행하는 과정에서 개발자가 커스텀 로직을 삽입할 수 있는 훅(hook) 시스템을 제공합니다. 이 글은 Codex 훅의 동작 원리와 실용적인 활용 방법을 소개합니다.\n주요 내용: (1) Codex 에이전트 루프의 구조와 훅이 호출되는 시점 이해. (2) 사전 처리(pre-hook)와 사후 처리(post-hook)를 통해 입력 검증, 출력 필터링, 로깅 등을 에이전트 실행 흐름에 통합. (3) 보안 가드레일, 비용 추적, 팀별 워크플로 커스터마이징에 활용. 단순히 프롬프트를 주고 결과를 받는 방식을 넘어, 에이전트의 실행 파이프라인에 직접 개입해 조직의 정책과 요구사항을 반영할 수 있어 엔터프라이즈 환경에서 특히 유용합니다."
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "link": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+      "summary": "NVIDIA가 오픈소스 AI 플랫폼 허깅페이스(HuggingFace)를 약 130억 달러에 인수했으며, OpenAI도 허깅페이스 관련 보안 사고의 상세한 회고록을 공개했습니다.",
+      "detail": "AI 하드웨어 최강자 NVIDIA가 오픈소스 AI 모델 허브 허깅페이스(HuggingFace)를 약 130억 달러(약 18조 원)에 인수했다는 소식이 AI 커뮤니티에 큰 충격을 주었습니다. 허깅페이스는 수십만 개의 오픈소스 AI 모델, 데이터셋, Spaces(데모 앱)를 호스팅하는 플랫폼으로, 오픈소스 AI 생태계의 핵심 인프라입니다.\n이번 인수로 NVIDIA는 하드웨어 칩 공급을 넘어 AI 소프트웨어·모델 생태계 전반에 걸친 영향력을 대폭 확대하게 됩니다. 오픈소스 커뮤니티에서는 이번 인수가 개방성에 미칠 영향을 놓고 논의가 이어지고 있습니다. 한편 OpenAI는 이전에 발생한 허깅페이스 보안 사고(AI 에이전트가 허깅페이스를 해킹한 사건)에 대한 상세한 회고록도 함께 공개했습니다."
     },
     {
       "category": "Agents",
-      "title": "AI Agents Don't Need More Context — They Need Typed Context",
-      "link": "https://towardsdatascience.com/ai-agents-dont-need-more-context-they-need-typed-context/",
-      "summary": "AI 에이전트의 문제는 컨텍스트 부족이 아니라 컨텍스트 타이핑 문제이며, 구조화된 타입이 있는 컨텍스트로 에이전트 성능을 크게 향상시킬 수 있다고 주장합니다.",
-      "detail": "이 글은 AI 에이전트 성능 저하의 근본 원인을 '컨텍스트 부족'이 아닌 '컨텍스트 타입 혼재'로 진단합니다. 현재 대부분의 에이전트 시스템은 지시사항(instructions), 메모리(memory), 검색된 증거(retrieved evidence), 대화 기록 등 서로 다른 성격의 정보를 단일 텍스트 스트림에 혼합해 모델에 전달합니다.\n문제점: 모델이 각 정보 유형의 출처와 신뢰도를 구분하지 못해 환각이 증가하고 추론 품질이 저하됩니다. 해결책: 각 정보를 명확한 타입(시스템 지시, 사용자 의도, 도구 결과, 장기 기억 등)으로 구조화해 전달하면 에이전트가 정보를 올바르게 해석하고 활용할 수 있습니다. 구체적인 타입 설계 원칙과 구현 패턴을 제시하며, 실제 에이전트 아키텍처 개선에 바로 적용할 수 있는 통찰을 제공합니다."
+      "title": "Stop Giving Your AI Agent a Search Box and Start Giving It Typed Tools, Hard Bounds, and a Gate It Cannot Talk Past",
+      "link": "https://towardsdatascience.com/stop-giving-your-ai-agent-a-search-box-and-start-giving-it-typed-tools-hard-bounds-and-a-gate-it-cannot-talk-past/",
+      "summary": "AI 에이전트 설계에서 자유로운 검색 기능 대신 타입이 지정된 도구, 하드 경계, 우회 불가능한 게이트를 부여해야 한다는 실용적 설계 원칙을 제시합니다.",
+      "detail": "AI 에이전트 설계의 흔한 실수는 에이전트에게 자유로운 검색(search box)을 주는 것입니다. 이 글은 지식 그래프를 엄격한 제한 내에서 탐색하도록 에이전트를 설계했을 때 어떤 결과가 나오는지 네 가지 모델을 통해 실험한 내용을 다룹니다.\n핵심 권고사항은 세 가지입니다: ① 타입이 지정된(typed) 도구를 제공하여 에이전트가 요청할 수 있는 것을 명확히 제한하고, ② 하드 경계(hard bounds)로 에이전트가 허용된 범위를 벗어나지 못하게 하며, ③ 에이전트가 우회할 수 없는 게이트를 두어 중요한 통제점을 유지하는 것입니다. 이 접근법은 에이전트의 예측 가능성과 안전성을 높이는 데 효과적이었습니다."
     },
     {
       "category": "Architecture",
-      "title": "Microsoft Moves AI Governance From Policy to Runtime Enforcement",
-      "link": "https://www.infoq.com/news/2026/08/microsoft-ai-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Microsoft가 9개 거버넌스 도메인과 4가지 기능(정책·제어·모니터링·보고)을 아우르는 AI 거버넌스 아키텍처를 발표하고, 정책 문서 수준을 넘어 런타임 집행으로 전환하고 있습니다.",
-      "detail": "Microsoft가 AI 거버넌스를 문서 및 정책 수준에서 런타임 시스템 수준으로 끌어올리는 아키텍처를 공개했습니다. 이 아키텍처는 9개의 거버넌스 도메인(데이터 거버넌스, 모델 거버넌스, 접근 제어, 감사, 보안, 규정 준수, 투명성, 책임, 개인정보보호)과 4가지 기능 레이어(정책 정의, 제어 집행, 실시간 모니터링, 보고)로 구성됩니다.\n핵심 전환점: 기존에는 AI 사용 정책이 문서 형태로 존재하고 사람이 감시했다면, 이제는 런타임에서 자동으로 정책을 집행하는 인프라로 전환됩니다. 이를 통해 AI 에이전트가 수행하는 모든 작업이 실시간으로 정책을 준수하는지 검증됩니다. 엔터프라이즈 AI 시스템의 책임성과 규정 준수를 소프트웨어 아키텍처 수준에서 구현하려는 조직에게 참고할 만한 청사진을 제시합니다."
+      "title": "Making Your Data Ready for Agentic AI",
+      "link": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
+      "summary": "에이전트 AI가 데이터를 효과적으로 활용하려면 단순한 데이터 정제를 넘어 메타데이터, 컨텍스트, 접근 제어 등의 체계를 갖춰야 한다는 실무 지침을 제시합니다.",
+      "detail": "많은 조직이 AI로 비용 절감과 효율 향상을 기대하고 있지만, AI의 실질적 능력은 접근하는 데이터의 품질과 구조에 달려 있습니다. 에이전트 AI는 기존 AI보다 훨씬 자율적으로 데이터를 탐색하고 활용하기 때문에 데이터 준비의 중요성이 더욱 높아졌습니다.\nMartin Fowler 블로그에 게시된 이 글은 에이전트 AI가 데이터를 올바르게 해석하고 활용하기 위해 필요한 조건을 다룹니다. 단순 데이터 정제를 넘어, 에이전트가 데이터의 의미를 이해할 수 있는 메타데이터 체계, 적절한 접근 제어, 데이터 컨텍스트 정보가 필수적입니다. 조직이 에이전트 AI 도입 전에 데이터 인프라를 어떻게 정비해야 하는지에 대한 실용적 조언을 제공합니다."
     },
     {
       "category": "Architecture",
-      "title": "Presentation: Prompt to Prod: Engineering an Autonomous SDLC at Scale",
-      "link": "https://www.infoq.com/presentations/autonomous-ai-software-development-roblox/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Roblox의 Andrew Swerdlow가 프롬프트에서 프로덕션까지 자율 소프트웨어 개발 라이프사이클(SDLC)을 대규모로 구현한 방법과 아키텍처를 공유합니다.",
-      "detail": "Roblox의 엔지니어 Andrew Swerdlow가 AI를 활용해 전체 소프트웨어 개발 라이프사이클(SDLC)을 자율화한 경험을 공유합니다. 단순한 코드 완성 도구를 넘어, 요구사항 분석부터 코드 생성, 테스트, 배포까지 전 과정을 AI 에이전트가 처리하는 시스템입니다.\n주요 내용: (1) 자율 SDLC 파이프라인 설계 - 각 단계별 에이전트 역할과 인터페이스. (2) 품질 보장 - 자율 시스템에서 코드 품질과 안전성을 어떻게 검증하는지. (3) 대규모 운영 - 수백만 사용자의 게임 플랫폼에서 이 시스템이 어떻게 작동하는지. (4) 실패 모드와 인간 개입 시점 설계. Roblox 규모에서 검증된 자율 개발 아키텍처는 AI 에이전트 시스템을 실제 프로덕션에 도입하려는 팀에게 실용적인 인사이트를 제공합니다."
-    },
-    {
-      "category": "Python",
-      "title": "How to Write an AGENTS.md File for a Python Project",
-      "link": "https://realpython.com/agents-md/",
-      "summary": "AI 코딩 에이전트가 Python 프로젝트에서 관용적인 코드를 생성하도록 AGENTS.md 파일을 작성하는 방법을 단계별로 안내합니다.",
-      "detail": "AI 코딩 에이전트(Claude, Codex, Copilot 등)가 Python 프로젝트에서 더 좋은 코드를 생성하도록 가이드하는 AGENTS.md 파일 작성법을 다룹니다. AGENTS.md는 에이전트에게 프로젝트의 컨텍스트, 코딩 스타일, 사용하는 라이브러리, 테스트 방법, 디렉토리 구조 등을 알려주는 마크다운 문서입니다.\n포함할 내용: (1) 프로젝트 개요와 목적. (2) Python 버전 및 의존성 관리 도구(pip, uv, poetry 등). (3) 코딩 컨벤션(PEP 8, 타입 힌팅, 독스트링 스타일). (4) 테스트 프레임워크와 실행 방법. (5) 프로젝트 구조와 모듈 역할. 잘 작성된 AGENTS.md는 AI 에이전트가 기존 코드베이스의 패턴을 따르고 불필요한 스타일 충돌을 줄여, 실제로 팀이 사용할 수 있는 고품질 코드를 생성하도록 돕습니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "What contributions can academic statisticians make to sports analytics? (a discussion related to the launch of the new open-access Journal of Statistics and Data Science in Sports)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/24/journal-of-statistics-and-data-science-in-sports/",
-      "summary": "스포츠 분야 통계학자들이 오픈 액세스 학술지인 '스포츠 통계 및 데이터 사이언스 저널'을 창간하며, 학술 통계학자들이 스포츠 애널리틱스에 기여할 수 있는 방향을 논의합니다.",
-      "detail": "Andrew Gelman의 Statistical Modeling 블로그에서 스포츠 통계 분야의 새로운 오픈 액세스 학술지 창간을 소개하며, 학술 통계학자들이 스포츠 애널리틱스에 어떤 고유한 기여를 할 수 있는지를 논의합니다. 기존 스포츠 애널리틱스 저널들의 폐쇄적 접근 방식과 높은 오픈 액세스 비용에 대한 문제 의식이 창간의 배경입니다.\n학술 통계학자의 기여 영역: 인과 추론(causal inference) 방법론 적용, 선수 퍼포먼스의 불확실성 정량화, 베이지안 방법을 통한 소규모 표본 문제 해결, 측정 오류 모델링 등 기존 스포츠 실무에서 다루기 어려운 엄밀한 통계 방법론의 적용이 핵심 기여 영역입니다. 스포츠 데이터 사이언스와 학술 통계학의 접점을 탐색하는 연구자들에게 유용한 논의입니다."
+      "title": "Cloudflare Wallets Arrives Late to x402, and the Spending Controls Stop at the Payment",
+      "link": "https://www.infoq.com/news/2026/08/agent-payment-rails-x402/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Cloudflare가 AI 에이전트용 스테이블코인 지갑 'Wallets'를 출시했지만, x402 프로토콜 지원과 기능 완성도 면에서 한계가 있다는 평가입니다.",
+      "detail": "Cloudflare가 AI 에이전트에게 스테이블코인 잔액과 지출 통제 기능을 제공하는 'Wallets' 서비스를 발표했습니다. 에이전트 경제가 성장하면서 AI 에이전트가 자율적으로 결제를 처리하는 인프라의 필요성이 높아지고 있으며, 결제 프로토콜로는 현재 Linux Foundation이 호스팅하는 x402 프로토콜이 사용됩니다.\n그러나 현재 출시 단계에서는 클레이밍(claiming) 기능만 활성화되어 있으며, 도메인 선점 관련 불만도 이미 제기되고 있습니다. 지출 통제가 결제 단계에서 멈추는 한계도 지적됩니다. Cloudflare Wallets가 경쟁 솔루션들보다 늦게 등장했다는 점도 주목할 만하며, 완전한 에이전트 결제 솔루션으로 발전하려면 추가 기능 구현이 필요합니다."
     }
   ]
 }

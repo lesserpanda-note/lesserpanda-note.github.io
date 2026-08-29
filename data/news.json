@@ -1,7 +1,1377 @@
 {
-  "updated": "2026-08-25T08:25:23+09:00",
-  "count": 1042,
+  "updated": "2026-08-29T08:56:28+09:00",
+  "count": 1052,
   "items": [
+    {
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "link": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he rep…",
+      "ts": 1787955122,
+      "published": "2026-08-28T22:12:02+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "Show HN: Conduct, open-source guardrails for LLM and MCP tool calls",
+      "link": "https://github.com/sseshachala/conductai",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/sseshachala/conductai Comments URL: https://news.ycombinator.com/item?id=49483173 Points: 20 # Comments: 3",
+      "ts": 1787945360,
+      "published": "2026-08-28T19:29:20+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "App Shield: Your Server Should Not Trust the App Calling It",
+      "link": "https://foojay.io/today/app-shield-your-server-should-not-trust-the-app-calling-it/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Codename One App Shield turns Apple App Attest and Google Play Integrity into short-lived tokens your backend can verify. This release also adds OpenType fonts, advances the R2 repository migration, and prepares new Win…",
+      "ts": 1787942342,
+      "published": "2026-08-28T18:39:02+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "Human-in-the-Loop Without Killing Throughput",
+      "link": "https://towardsdatascience.com/human-in-the-loop-without-killing-throughput/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How we stopped reviewing every agent action and started routing human attention where it actually mattered The post Human-in-the-Loop Without Killing Throughput appeared first on Towards Data Science .",
+      "ts": 1787941801,
+      "published": "2026-08-28T18:30:01+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "From One Agent to a Team: Understanding Codex Subagents",
+      "link": "https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A hands-on guide to defining specialist agents and coordinating their work in the Codex CLI The post From One Agent to a Team: Understanding Codex Subagents appeared first on Towards Data Science .",
+      "ts": 1787936401,
+      "published": "2026-08-28T17:00:01+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "What stories should we tell about science now?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/28/what-stories-should-we-tell-about-science-now/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This is Jessica. Like many academics, I am concerned about what sort of new steady state U.S. universities will find themselves in after the dust settles on recent transitions. Namely, the last few years have brought fu…",
+      "ts": 1787933475,
+      "published": "2026-08-28T16:11:15+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "Connecting My LangGraph AI Agent to Postgres",
+      "link": "https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "How to run the backend locally with Docker or in the cloud The post Connecting My LangGraph AI Agent to Postgres appeared first on Towards Data Science .",
+      "ts": 1787931002,
+      "published": "2026-08-28T15:30:02+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "Uber Builds GitFarm to Run Git Operations as a Service for Large-Scale Monorepos",
+      "link": "https://www.infoq.com/news/2026/08/uber-gitfarm-git-as-a-service/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Uber’s GitFarm provides Git operations as a centralized service, eliminating local repository clones across large scale monorepo workloads. The platform uses prewarmed checkouts, ephemeral sandboxes, repository synchron…",
+      "ts": 1787927400,
+      "published": "2026-08-28T14:30:00+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "The Local AI Stack for Productive SLMs",
+      "link": "https://www.kdnuggets.com/the-local-ai-stack-for-productive-slms",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "A practical framework for choosing the right tools at each layer of your local AI setup, from model serving to context retrieval.",
+      "ts": 1787925654,
+      "published": "2026-08-28T14:00:54+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Why Claude Code Time Estimates Are Poor",
+      "link": "https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Be a better communicator with LLM programming The post Why Claude Code Time Estimates Are Poor appeared first on Towards Data Science .",
+      "ts": 1787925601,
+      "published": "2026-08-28T14:00:01+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Where’s the Evel Knievel blockbuster biopic?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/28/wheres-the-evel-knievel-blockbuster-biopic/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "A few years ago we discussed Objects of the class Jacques Cousteau: people who are world famous (or at least world famous in the U.S.) but of a category for which there’s only one famous person. Some examples: • Coustea…",
+      "ts": 1787925073,
+      "published": "2026-08-28T13:51:13+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Quantization and Pruning Methods to Make Your LLM Leaner",
+      "link": "https://www.kdnuggets.com/quantization-and-pruning-methods-to-make-your-llm-leaner",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "This article walks through what each technique actually does, why skipping them costs real money and real latency, and then gets hands-on with five specific methods people are running in production right now.",
+      "ts": 1787918455,
+      "published": "2026-08-28T12:00:55+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Interpretable Text Classification: Probing Scikit-LLM Embedding Spaces",
+      "link": "https://machinelearningmastery.com/interpretable-text-classification-probing-scikit-llm-embedding-spaces/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how to use probing classifiers, UMAP visualization, and SHAP values to interpret and analyze the quality of text embeddings...",
+      "ts": 1787918450,
+      "published": "2026-08-28T12:00:50+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #309: Exploring Complex Systems & Maintainable Data Science Pipelines",
+      "link": "https://realpython.com/podcasts/rpp/309/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What are the key characteristics of complex systems, and what are practical patterns for tackling complex coding problems? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly article…",
+      "ts": 1787918400,
+      "published": "2026-08-28T12:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Quiz: Rock, Paper, Scissors With Python: A Command Line Game",
+      "link": "https://realpython.com/quizzes/python-rock-paper-scissors-game/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of building a command line rock paper scissors game in Python, from player input and loops to enums and dictionary rules.",
+      "ts": 1787918400,
+      "published": "2026-08-28T12:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
+      "link": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/ Comments URL: https://news.ycombinator.com/item?id=49477055 Points: 322 # Comments: 3",
+      "ts": 1787916330,
+      "published": "2026-08-28T11:25:30+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "Presentation: From DVDs to Global Streaming: How Netflix’s Commerce Architecture Actually Evolved",
+      "link": "https://www.infoq.com/presentations/netflix-commerce-architecture-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Kasia Trapszo discusses how Netflix evolved its commerce platform from a U.S. DVD service into global infrastructure. She explains navigating international payment realities, adapting to strict regulatory mandates, deco…",
+      "ts": 1787914800,
+      "published": "2026-08-28T11:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Article: Post-Quantum Cryptography in Spring Boot: Four Patterns You Can Ship This Sprint",
+      "link": "https://www.infoq.com/articles/pqc-in-spring-boot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "There are four patterns that bring PQC into a Spring Boot fleet: encrypting payloads between services, locking down database fields, signing documents that need to hold up for decades, and moving service tokens off RS25…",
+      "ts": 1787907600,
+      "published": "2026-08-28T09:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Article: Post-Quantum Cryptography in Spring Boot: Four Patterns You Can Ship This Sprint",
+      "link": "https://www.infoq.com/articles/pqc-in-spring-boot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "There are four patterns that bring PQC into a Spring Boot fleet: encrypting payloads between services, locking down database fields, signing documents that need to hold up for decades, and moving service tokens off RS25…",
+      "ts": 1787907600,
+      "published": "2026-08-28T09:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Meta Expands Its Custom Silicon Strategy From Compute Into Networking",
+      "link": "https://www.infoq.com/news/2026/08/meta-hccl/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Meta has detailed MTIA 300, its first in-house accelerator optimized for training ranking and recommendation models. By Matt Foster",
+      "ts": 1787902980,
+      "published": "2026-08-28T07:43:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "link": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "It’s Time. We’re in the Endgame now.",
+      "ts": 1787901130,
+      "published": "2026-08-28T07:12:10+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "Judge rules Trump administration’s blacklisting of Anthropic was illegal",
+      "link": "https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "https://archive.ph/ni6I3 https://storage.courtlistener.com/recap/gov.uscourts.cand.46... Comments URL: https://news.ycombinator.com/item?id=49473522 Points: 495 # Comments: 358",
+      "ts": 1787882618,
+      "published": "2026-08-28T02:03:38+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "link": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
+      "ts": 1787882400,
+      "published": "2026-08-28T02:00:00+00:00",
+      "collected_at": "2026-08-28T23:08:52+09:00"
+    },
+    {
+      "title": "python-1.16.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.16.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.16.0] - 2026-08-27 Added agent-framework-core : Add configurable timeouts for waiting on the first background-agent task completion ( #7908 ) agent-framework-core : Allow programmatic OpenTelemetry service metadata,…",
+      "ts": 1787878400,
+      "published": "2026-08-28T00:53:20+00:00",
+      "collected_at": "2026-08-28T10:22:04+09:00"
+    },
+    {
+      "title": "v2.35.3 (2026-08-27)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.35.3",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Route Heroku GLM models through zai_model_profile by @LHMQ878 in #6837 Scope safe_download cookies to original hostnames by @Diwak4r in #7077 Fix DeferredToolRequests.remaining resolving cross…",
+      "ts": 1787877569,
+      "published": "2026-08-28T00:39:29+00:00",
+      "collected_at": "2026-08-28T10:22:04+09:00"
+    },
+    {
+      "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
+      "link": "https://www.terminal-bench-science.ai/announcement",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.terminal-bench-science.ai/announcement Comments URL: https://news.ycombinator.com/item?id=49472820 Points: 112 # Comments: 35",
+      "ts": 1787875611,
+      "published": "2026-08-28T00:06:51+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787875200,
+      "published": "2026-08-28T00:00:00+00:00",
+      "collected_at": "2026-08-29T08:56:06+09:00"
+    },
+    {
+      "title": "v2.35.2 (2026-08-27)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.35.2",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Route Heroku GLM models through zai_model_profile by @LHMQ878 in #6837 Scope safe_download cookies to original hostnames by @Diwak4r in #7077 Fix DeferredToolRequests.remaining resolving cross…",
+      "ts": 1787874872,
+      "published": "2026-08-27T23:54:32+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default…",
+      "ts": 1787871025,
+      "published": "2026-08-27T22:50:25+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.4",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.4",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.3 release(sdk-py): 0.4.4 ( #8738 ) Merge commit from fork feat: route LangSmith traces from thread streams ( #8723 )",
+      "ts": 1787865936,
+      "published": "2026-08-27T21:25:36+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "Lawsuit: Grok was trained on child sex abuse images of preschool-age victim",
+      "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/ Comments URL: https://news.ycombinator.com/item?id=49471175 Points: 10 # Comments: 0",
+      "ts": 1787864348,
+      "published": "2026-08-27T20:59:08+00:00",
+      "collected_at": "2026-08-28T10:22:04+09:00"
+    },
+    {
+      "title": "The incredible shrinking SSRN page",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/27/the-incredible-disappearing-ssrn-page/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I was going through comments on this morning’s post which involved the amazing productivity evidenced by the list of preprints here: But then when I was checking something, I saw that something happened: The number of p…",
+      "ts": 1787859130,
+      "published": "2026-08-27T19:32:10+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "The Sigmoid Function: From 'e' to Neural Networks",
+      "link": "https://towardsdatascience.com/the-sigmoid-function-from-e-to-neural-networks/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "We use the equation all the time. But where did it actually come from? The post The Sigmoid Function: From 'e' to Neural Networks appeared first on Towards Data Science .",
+      "ts": 1787855701,
+      "published": "2026-08-27T18:35:01+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "1.15.18",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.18",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Promote conversational flows to stable Record a created deployment with the given UUID Enhance conversational flow documentation and APIs Let a declaration name the router's response format Let a…",
+      "ts": 1787854039,
+      "published": "2026-08-27T18:07:19+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "I Trained Six Models for Fraud Detection, and the Best One Isn't in Production",
+      "link": "https://towardsdatascience.com/i-trained-six-models-for-fraud-detection-and-the-best-one-isnt-in-production/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "What a final-year project taught me about the gap between evaluation metrics and production decisions The post I Trained Six Models for Fraud Detection, and the Best One Isn't in Production appeared first on Towards Dat…",
+      "ts": 1787850301,
+      "published": "2026-08-27T17:05:01+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "10 Essential Agentic AI Concepts Explained Simply",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/basic-agentic-ai-concepts/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "AI agents are everywhere right now. You hear terms like tool calling, agent loops, MCP, guardrails thrown around as if its common language… it isn’t! But that is about to change. Agentic AI isn’t nearly as complicated a…",
+      "ts": 1787849920,
+      "published": "2026-08-27T16:58:40+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "Grok Bot for Linux: Unofficial port of the official app (open source)",
+      "link": "https://github.com/jakob-bu/grok-bot-linux-unofficial",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/jakob-bu/grok-bot-linux-unofficial Comments URL: https://news.ycombinator.com/item?id=49467702 Points: 29 # Comments: 9",
+      "ts": 1787849387,
+      "published": "2026-08-27T16:49:47+00:00",
+      "collected_at": "2026-08-28T10:22:04+09:00"
+    },
+    {
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787847092,
+      "published": "2026-08-27T16:11:32+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "3 new ways to plan and book travel in Search",
+      "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Graphic depicting new travel features for AI Mode in Search",
+      "ts": 1787846400,
+      "published": "2026-08-27T16:00:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Spring News Roundup: First Milestone Releases for Boot, Framework, Data, Security, Modulith, Batch",
+      "link": "https://www.infoq.com/news/2026/08/spring-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "After a 10-week hiatus since the last batch of Spring ecosystem releases, there was a flurry of activity during the week of August 17th, 2026, highlighting first milestone releases of: Spring Boot, Spring Framework, Spr…",
+      "ts": 1787845800,
+      "published": "2026-08-27T15:50:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Spring News Roundup: First Milestone Releases for Boot, Framework, Data, Security, Modulith, Batch",
+      "link": "https://www.infoq.com/news/2026/08/spring-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "After a 10-week hiatus since the last batch of Spring ecosystem releases, there was a flurry of activity during the week of August 17th, 2026, highlighting first milestone releases of: Spring Boot, Spring Framework, Spr…",
+      "ts": 1787845800,
+      "published": "2026-08-27T15:50:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Agentic AI Is Rewriting The Analytics Stack But There's One Skill It Still Can't Touch",
+      "link": "https://towardsdatascience.com/agentic-ai-is-rewriting-the-analytics-stack-but-theres-one-skill-it-still-cant-touch/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "As AI handles more of the execution, what work should belong to agents vs humans and why does that distinction matter? The post Agentic AI Is Rewriting The Analytics Stack But There's One Skill It Still Can't Touch appe…",
+      "ts": 1787844602,
+      "published": "2026-08-27T15:30:02+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "What We Can Learn From Google Engineers’ Indispensible Prompts",
+      "link": "https://www.kdnuggets.com/what-we-can-learn-from-google-engineers-indispensible-prompts",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Hey, Google Engineers: What prompt do you personally refuse to work without, and why?",
+      "ts": 1787839224,
+      "published": "2026-08-27T14:00:24+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "How to Work with AI Coding Agents",
+      "link": "https://towardsdatascience.com/how-to-work-with-ai-coding-agents/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A practical guide to getting better code, not just more code The post How to Work with AI Coding Agents appeared first on Towards Data Science .",
+      "ts": 1787839201,
+      "published": "2026-08-27T14:00:01+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Making Your Data Ready for Agentic AI",
+      "link": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Lots of organizations are excited about what AI can do to streamline their processes, save money, and juice margins. But AI's capabilities are founded on the data that AI accesses, and for many organizations that founda…",
+      "ts": 1787836260,
+      "published": "2026-08-27T13:11:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "This University of Chicago business school professor has authored 258 academic papers in 2026 (so far).",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/27/258/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Jeremy Horpedahl tells the story: Nicholas Polson has, by my count using his SSRN page, already written 258 working papers in 2026 alone. He’s already written (or at least published to SSRN), six papers today, August 26…",
+      "ts": 1787835947,
+      "published": "2026-08-27T13:05:47+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Piloting the world's first double-blind AI evaluations",
+      "ts": 1787835556,
+      "published": "2026-08-27T12:59:16+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Stop Giving Your AI Agent a Search Box and Start Giving It Typed Tools, Hard Bounds, and a Gate It Cannot Talk Past",
+      "link": "https://towardsdatascience.com/stop-giving-your-ai-agent-a-search-box-and-start-giving-it-typed-tools-hard-bounds-and-a-gate-it-cannot-talk-past/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "What happens when you stop feeding a model context and let it go find its own, walking a knowledge graph within strict limits, and what four models and one wrong prediction revealed about whether that is worth doing. Th…",
+      "ts": 1787834101,
+      "published": "2026-08-27T12:35:01+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Quiz: Getting Started With Claude Code",
+      "link": "https://realpython.com/quizzes/getting-started-claude-code/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your Claude Code basics: install it, set it up, work with CLAUDE.md, and use Git to stay in control of your changes.",
+      "ts": 1787832000,
+      "published": "2026-08-27T12:00:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Cloudflare Wallets Arrives Late to x402, and the Spending Controls Stop at the Payment",
+      "link": "https://www.infoq.com/news/2026/08/agent-payment-rails-x402/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare announced Wallets, giving agents a stablecoin balance and spending controls, though only handle claiming is live and squatting complaints have already surfaced. Payments run on x402, now hosted by the Linux F…",
+      "ts": 1787821440,
+      "published": "2026-08-27T09:04:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
+      "ts": 1787821200,
+      "published": "2026-08-27T09:00:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Postdoc and doctoral student positions in Bayesian workflow at Aalto, Finland",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/27/postdoc-and-doctoral-student-positions-in-bayesian-workflow-at-aalto-finland/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This job ad is by Aki I’m looking for postdocs and doctoral students to work on Bayesian workflow. The candidates need to have knowledge of Bayesian inference and some experience with building models (for real applicati…",
+      "ts": 1787817538,
+      "published": "2026-08-27T07:58:58+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "v2.35.1 (2026-08-26)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.35.1",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🐛 Bug Fixes Carry Bedrock guardrail trace in ModelResponse.provider_details by @pydanty in #7562 Honor provider_factory when cancelling Temporal responses by @DouweM in #7000 Cap dbos below 2.31.0 to avoi…",
+      "ts": 1787804020,
+      "published": "2026-08-27T04:13:40+00:00",
+      "collected_at": "2026-08-27T13:24:57+09:00"
+    },
+    {
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "link": "https://openai.com/index/expanding-our-presence-in-brazil",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
+      "ts": 1787799600,
+      "published": "2026-08-27T03:00:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "link": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Open Source wins!",
+      "ts": 1787795454,
+      "published": "2026-08-27T01:50:54+00:00",
+      "collected_at": "2026-08-27T13:24:57+09:00"
+    },
+    {
+      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+      "link": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "The conference with hot chips and even hotter companies",
+      "ts": 1787794282,
+      "published": "2026-08-27T01:31:22+00:00",
+      "collected_at": "2026-08-27T13:24:57+09:00"
+    },
+    {
+      "title": "Episode 68 “Operator Overloading with Type Classes” [AtA]",
+      "link": "https://inside.java/2026/08/27/podcast-068/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "How OpenJDK's Project Valhalla is improving Java's support for custom numerical types.",
+      "ts": 1787788800,
+      "published": "2026-08-27T00:00:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: Joe Grandja on Spring Authorization Server, OAuth, and so much more",
+      "link": "https://spring.io/blog/2026/08/27/a-bootiful-podcast-joe-grandja",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! In this episode, I talk Spring Security’s Joe Grandja about Spring Authorization Server’s graduation into Spring Security 7, and the new security heavyweights DPoP and PAR.",
+      "ts": 1787788800,
+      "published": "2026-08-27T00:00:00+00:00",
+      "collected_at": "2026-08-28T01:15:22+09:00"
+    },
+    {
+      "title": "Expanding our support for scientists",
+      "link": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Expanding our support for scientists",
+      "ts": 1787788800,
+      "published": "2026-08-27T00:00:00+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "Previewing the Model Hardware Standard",
+      "link": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Previewing the Model Hardware Standard",
+      "ts": 1787788800,
+      "published": "2026-08-27T00:00:00+00:00",
+      "collected_at": "2026-08-28T09:15:39+09:00"
+    },
+    {
+      "title": "Qwen3.8-Flash-Next",
+      "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active whic…",
+      "ts": 1787788378,
+      "published": "2026-08-26T23:52:58+00:00",
+      "collected_at": "2026-08-27T09:16:18+09:00"
+    },
+    {
+      "title": "Serve Markdown to AI Agents with Accept Headers",
+      "link": "https://acceptmarkdown.com/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://acceptmarkdown.com/ Comments URL: https://news.ycombinator.com/item?id=49454764 Points: 63 # Comments: 24",
+      "ts": 1787773559,
+      "published": "2026-08-26T19:45:59+00:00",
+      "collected_at": "2026-08-27T07:54:29+09:00"
+    },
+    {
+      "title": "The inside story on why OpenAI agents hacked Hugging Face",
+      "link": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a gr…",
+      "ts": 1787770800,
+      "published": "2026-08-26T19:00:00+00:00",
+      "collected_at": "2026-08-27T07:54:29+09:00"
+    },
+    {
+      "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "link": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.",
+      "ts": 1787763660,
+      "published": "2026-08-26T17:01:00+00:00",
+      "collected_at": "2026-08-27T04:06:18+09:00"
+    },
+    {
+      "title": "The Future of SaaS Is Apps That Agents Can Use",
+      "link": "https://www.latent.space/p/lovable-future-of-saas",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin.",
+      "ts": 1787760985,
+      "published": "2026-08-26T16:16:25+00:00",
+      "collected_at": "2026-08-27T01:20:58+09:00"
+    },
+    {
+      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+      "link": "https://www.latent.space/p/anima",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors.",
+      "ts": 1787757339,
+      "published": "2026-08-26T15:15:39+00:00",
+      "collected_at": "2026-08-27T01:20:58+09:00"
+    },
+    {
+      "title": "WebMCP: Teaching Your Website to Talk to AI Agents",
+      "link": "https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://sreenathmenon.com/blog/2026-08-04-webmcp-teaching-websites-to-talk-to-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=49450417 Points: 54 # Comments: 54",
+      "ts": 1787756535,
+      "published": "2026-08-26T15:02:15+00:00",
+      "collected_at": "2026-08-27T04:06:18+09:00"
+    },
+    {
+      "title": "Release v5.16.1",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.16.1",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.16.1 This is a special release as we include GLM! (and a few small fixes) GLM-5.3-Flash GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active p…",
+      "ts": 1787755801,
+      "published": "2026-08-26T14:50:01+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
+    },
+    {
+      "title": "AWS Introduces Specification Driven Composition for Flexible Data Workflows",
+      "link": "https://www.infoq.com/news/2026/08/aws-spec-driven-data-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS describes a specification-driven approach for composing flexible data workflows by separating intent from processing logic. Architecture uses declarative specifications, reusable processing capabilities, and validat…",
+      "ts": 1787753880,
+      "published": "2026-08-26T14:18:00+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
+    },
+    {
+      "title": "Understanding the Impact of AI on Job Markets",
+      "link": "https://www.kdnuggets.com/understanding-the-impact-of-ai-on-job-markets",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Explore five distinct ways AI is reshaping jobs, from automating routine tasks to thinning entry-level hiring.",
+      "ts": 1787752853,
+      "published": "2026-08-26T14:00:53+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
+    },
+    {
+      "title": "Python 3.15 Preview: Sampling Profiler",
+      "link": "https://realpython.com/python315-sampling-profiler/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore Python 3.15's new sampling profiler and learn low-overhead profiling of scripts, threads, and live production processes.",
+      "ts": 1787752800,
+      "published": "2026-08-26T14:00:00+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
+    },
+    {
+      "title": "(1) “Do you think the culture of research has genuinely changed since the replication crisis became widely discussed, or has it mostly generated new compliance rituals around pre-registration and ope…",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/26/do/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Luke Ford writes: [Regarding] the replication crisis, researcher degrees of freedom, and the gap between what statistical methods claim to establish and what they can actually support . . . Looking at the current state…",
+      "ts": 1787751600,
+      "published": "2026-08-26T13:40:00+00:00",
+      "collected_at": "2026-08-26T22:59:22+09:00"
+    },
+    {
+      "title": "Compose Multiplatform 1.12.0 Released",
+      "link": "https://blog.jetbrains.com/kotlin/2026/08/compose-multiplatform-1-12-0/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Compose Multiplatform 1.12.0 is out! This version brings new tooling for AI assistants, improvements to web resource management, and finer control over desktop window states. Here are the highlights of this release: For…",
+      "ts": 1787750921,
+      "published": "2026-08-26T13:28:41+00:00",
+      "collected_at": "2026-08-26T23:54:58+09:00"
+    },
+    {
+      "title": "Mastering the AI Project Cycle: From Concept to Production",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/ai-project-cycle-guide/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "In fact, AI projects are not built by simply choosing a model and feeding it data. Furthermore, a successful AI system goes through multiple stages, starting with identifying the right problem and ending with deployment…",
+      "ts": 1787747992,
+      "published": "2026-08-26T12:39:52+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
+    {
+      "title": "Release: v5.16.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.16.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.16.0 New Model additions Qwen4-Exp Qwen4-Exp builds on Qwen3.5's hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PL…",
+      "ts": 1787747715,
+      "published": "2026-08-26T12:35:15+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
+    {
+      "title": "10 Rules for Getting Better Results from AI Coding Agents",
+      "link": "https://www.kdnuggets.com/10-rules-for-getting-better-results-from-ai-coding-agents",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Everyone's using AI coding agents. Here's how to make yours actually useful.",
+      "ts": 1787745650,
+      "published": "2026-08-26T12:00:50+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
+    {
+      "title": "Learn Vectorized Thinking in Python Through Examples",
+      "link": "https://machinelearningmastery.com/learn-vectorized-thinking-in-python-through-examples/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn how to think in terms of vectorized operations using NumPy, replacing slow Python loops with efficient array-level computations. Topics...",
+      "ts": 1787745616,
+      "published": "2026-08-26T12:00:16+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
+    {
+      "title": "Quiz: Python 3.15 Preview: Sampling Profiler",
+      "link": "https://realpython.com/quizzes/python315-sampling-profiler/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python 3.15's new sampling profiler, from CPU and GIL modes to flame graphs, heatmaps, and attaching to a live process.",
+      "ts": 1787745600,
+      "published": "2026-08-26T12:00:00+00:00",
+      "collected_at": "2026-08-26T21:58:45+09:00"
+    },
+    {
+      "title": "Presentation: Can Claude Fix Itself? Using LLMs for Incident Response",
+      "link": "https://www.infoq.com/presentations/claude-sre-incidents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Anthropic reliability engineer Alex Palcuie shares practical lessons on using LLMs for real-world incident response. He explains where AI acts as a superhuman for observing logs and traces, why it still struggles with c…",
+      "ts": 1787742000,
+      "published": "2026-08-26T11:00:00+00:00",
+      "collected_at": "2026-08-26T20:33:16+09:00"
+    },
+    {
+      "title": "Presentation: Can Claude Fix Itself? Using LLMs for Incident Response",
+      "link": "https://www.infoq.com/presentations/claude-sre-incidents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Anthropic reliability engineer Alex Palcuie shares practical lessons on using LLMs for real-world incident response. He explains where AI acts as a superhuman for observing logs and traces, why it still struggles with c…",
+      "ts": 1787742000,
+      "published": "2026-08-26T11:00:00+00:00",
+      "collected_at": "2026-08-26T20:33:16+09:00"
+    },
+    {
+      "title": "How Does a RAG Reranker Really Work?",
+      "link": "https://towardsdatascience.com/how-does-a-rag-reranker-really-work-the-honest-answer-most-data-scientists-wont-give-you/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #2D] - What data scientists say when asked, what the model actually does under the hood, and why the honest answer changes your architecture decisions in enterprise RAG The post H…",
+      "ts": 1787740201,
+      "published": "2026-08-26T10:30:01+00:00",
+      "collected_at": "2026-08-26T19:38:25+09:00"
+    },
+    {
+      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+      "ts": 1787738400,
+      "published": "2026-08-26T10:00:00+00:00",
+      "collected_at": "2026-08-27T04:06:18+09:00"
+    },
+    {
+      "title": "Learning never stops: How AI makes learning continuous",
+      "link": "https://openai.com/index/learning-never-stops",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
+      "ts": 1787738400,
+      "published": "2026-08-26T10:00:00+00:00",
+      "collected_at": "2026-08-27T04:06:18+09:00"
+    },
+    {
+      "title": "How to Effectively Solve 100+ Tasks with Claude Code",
+      "link": "https://towardsdatascience.com/how-to-effectively-solve-100-tasks-with-claude-code/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Work more effectively with your coding agents The post How to Effectively Solve 100+ Tasks with Claude Code appeared first on Towards Data Science .",
+      "ts": 1787734802,
+      "published": "2026-08-26T09:00:02+00:00",
+      "collected_at": "2026-08-26T18:46:10+09:00"
+    },
+    {
+      "title": "Raised on AI",
+      "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creati…",
+      "ts": 1787734800,
+      "published": "2026-08-26T09:00:00+00:00",
+      "collected_at": "2026-08-26T18:46:10+09:00"
+    },
+    {
+      "title": "AI models flub these intelligence tests. Can you fare any better?",
+      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming…",
+      "ts": 1787734800,
+      "published": "2026-08-26T09:00:00+00:00",
+      "collected_at": "2026-08-26T18:46:10+09:00"
+    },
+    {
+      "title": "Article: Beyond Offset Lag: Computing Time in Queue for Apache Hudi Data Lake Pipelines at Petabyte Scale",
+      "link": "https://www.infoq.com/articles/beyond-offset-lag-kafka-apache-hudi/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In this article, author Srikanth Mamidala discusses the data lake architecture used for analytics, reporting, and machine learning and shows how to manage the consumer lag metrics when using Kafka and Apache Hudi. By Sr…",
+      "ts": 1787734800,
+      "published": "2026-08-26T09:00:00+00:00",
+      "collected_at": "2026-08-26T18:46:10+09:00"
+    },
+    {
+      "title": "Quoting Paul Dix",
+      "link": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowi…",
+      "ts": 1787731675,
+      "published": "2026-08-26T08:07:55+00:00",
+      "collected_at": "2026-08-26T17:49:09+09:00"
+    },
+    {
+      "title": "Why Random Forest Needs to Be This Random",
+      "link": "https://towardsdatascience.com/why-random-forest-needs-to-be-this-random/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Bagging hits a wall no amount of trees can break — here's the equation that explains why, and the experiment that proves it The post Why Random Forest Needs to Be This Random appeared first on Towards Data Science .",
+      "ts": 1787729402,
+      "published": "2026-08-26T07:30:02+00:00",
+      "collected_at": "2026-08-26T16:50:19+09:00"
+    },
+    {
+      "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
+      "link": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gate…",
+      "ts": 1787727660,
+      "published": "2026-08-26T07:01:00+00:00",
+      "collected_at": "2026-08-26T16:50:19+09:00"
+    },
+    {
+      "title": "Diagrid Catalyst 2.0 Adds Durable and Verifiable Execution for AI Agents",
+      "link": "https://www.infoq.com/news/2026/08/diagrid-catalyst-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Diagrid Catalyst 2.0 applies Dapr-based recovery, signed workflow history and execution attestation across several agent frameworks. Architects should compare it with framework-native durability and established workflow…",
+      "ts": 1787727600,
+      "published": "2026-08-26T07:00:00+00:00",
+      "collected_at": "2026-08-26T16:50:19+09:00"
+    },
+    {
+      "title": "I miss the old Claude Code",
+      "link": "https://alexkras.com/focus-is-the-main-feature-why-i-miss-the-old-claude-code/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://alexkras.com/focus-is-the-main-feature-why-i-miss-the-old-claude-code/ Comments URL: https://news.ycombinator.com/item?id=49444863 Points: 22 # Comments: 3",
+      "ts": 1787726075,
+      "published": "2026-08-26T06:34:35+00:00",
+      "collected_at": "2026-08-26T17:49:09+09:00"
+    },
+    {
+      "title": "Is Agentic AI Just Automation?",
+      "link": "https://towardsdatascience.com/is-agentic-ai-just-automation/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Why most agents are just flowcharts in disguise, and what to build instead. The post Is Agentic AI Just Automation? appeared first on Towards Data Science .",
+      "ts": 1787724002,
+      "published": "2026-08-26T06:00:02+00:00",
+      "collected_at": "2026-08-26T15:55:01+09:00"
+    },
+    {
+      "title": "v2.35.0 (2026-08-25)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.35.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Deprecate RunContext.capability_loaded and available_capability_ids in favor of capability_active and active_capability_ids by @DouweM in #7454 Make inclusive integer maximum reacha…",
+      "ts": 1787707861,
+      "published": "2026-08-26T01:31:01+00:00",
+      "collected_at": "2026-08-26T10:35:43+09:00"
+    },
+    {
+      "title": "How to Format Your TDS Draft: A New and Improved Guide",
+      "link": "https://towardsdatascience.com/how-to-format-your-tds-draft-a-new-and-improved-guide/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Everything you need to know about creating a draft on our Contributor Portal The post How to Format Your TDS Draft: A New and Improved Guide appeared first on Towards Data Science .",
+      "ts": 1787706819,
+      "published": "2026-08-26T01:13:39+00:00",
+      "collected_at": "2026-08-26T10:35:43+09:00"
+    },
+    {
+      "title": "Spring Modulith 2.2 M1, 2.1.1, 2.0.8, and 1.4.13 released",
+      "link": "https://spring.io/blog/2026/08/26/spring-modulith-2-2-m1-2-1-1-2-0-8-and-1-4-13-released",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the community, I am happy to announce the availability of Spring Modulith 2.2 M1, 2.1.1, 2.0.8, and 1.4.13. The bug fix releases primarily ship the usual dependency upgrades. The first milestone of 2.2 move…",
+      "ts": 1787702400,
+      "published": "2026-08-26T00:00:00+00:00",
+      "collected_at": "2026-08-26T17:49:09+09:00"
+    },
+    {
+      "title": "How loveholidays is making everyone a builder with Codex",
+      "link": "https://openai.com/index/loveholidays",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
+      "ts": 1787702400,
+      "published": "2026-08-26T00:00:00+00:00",
+      "collected_at": "2026-08-26T19:38:25+09:00"
+    },
+    {
+      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
+      "link": "https://huggingface.co/blog/train-multi-vector-encoder",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787702400,
+      "published": "2026-08-26T00:00:00+00:00",
+      "collected_at": "2026-08-26T22:59:22+09:00"
+    },
+    {
+      "title": "The Hugging Face incident and the road ahead",
+      "link": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
+      "ts": 1787702400,
+      "published": "2026-08-26T00:00:00+00:00",
+      "collected_at": "2026-08-27T07:54:29+09:00"
+    },
+    {
+      "title": "EVE Online: The Move to Python 3 Begins!",
+      "link": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, an…",
+      "ts": 1787698770,
+      "published": "2026-08-25T22:59:30+00:00",
+      "collected_at": "2026-08-26T08:27:38+09:00"
+    },
+    {
+      "title": "Survey Statistics: more on SynthMargins and Bayes-Raking",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/25/survey-statistics-more-on-synthmargins-and-bayes-raking/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Last week we discussed SynthMargins, a method from the poster Modeling Complex Contingency Tables that uses partial information (margins) about poststratification variables. On theme for this series (“it is the people”)…",
+      "ts": 1787688009,
+      "published": "2026-08-25T20:00:09+00:00",
+      "collected_at": "2026-08-26T05:32:34+09:00"
+    },
+    {
+      "title": "A New Towards Data Science: A Faster Site and a Brand-New Contributor Portal",
+      "link": "https://towardsdatascience.com/a-new-towards-data-science-a-faster-site-and-a-brand-new-contributor-portal/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "We're excited to share some big news: We completely rebuilt the TDS website and our contributor portal. Whether you come here to read, to write, or both, here's what you can expect from our new site. The post A New Towa…",
+      "ts": 1787678723,
+      "published": "2026-08-25T17:25:23+00:00",
+      "collected_at": "2026-08-26T03:43:23+09:00"
+    },
+    {
+      "title": "The Data & AI Leadership Questions That Will Define the Next Stage of Enterprise AI",
+      "link": "https://www.kdnuggets.com/2026/08/corinium/the-data-ai-leadership-questions-that-will-define-the-next-stage-of-enterprise-ai",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "If you're responsible for turning data and AI strategy into enterprise reality, this is a conversation worth being part of.",
+      "ts": 1787677234,
+      "published": "2026-08-25T17:00:34+00:00",
+      "collected_at": "2026-08-26T02:34:42+09:00"
+    },
+    {
+      "title": "5 ways to upgrade your home decor with Google Search",
+      "link": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Illustration of ombre rainbow furniture items like a sofa, lamp, and chair against a purple background",
+      "ts": 1787673600,
+      "published": "2026-08-25T16:00:00+00:00",
+      "collected_at": "2026-08-26T01:41:01+09:00"
+    },
+    {
+      "title": "Java News Roundup: JDK 27-RC1, OpenJDK JEPs, Jakarta EE, BellSoft, Helidon, Micrometer, Tika 4.0",
+      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for August 17th, 2026, features news highlighting: the first release candidate of JDK 27; JEP 541 and JEP 540 targeted for JDK 28; the GA release of Apache Tika 4.0; a maintenance release of Hel…",
+      "ts": 1787671200,
+      "published": "2026-08-25T15:20:00+00:00",
+      "collected_at": "2026-08-26T00:45:53+09:00"
+    },
+    {
+      "title": "Java News Roundup: JDK 27-RC1, OpenJDK JEPs, Jakarta EE, BellSoft, Helidon, Micrometer, Tika 4.0",
+      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for August 17th, 2026, features news highlighting: the first release candidate of JDK 27; JEP 541 and JEP 540 targeted for JDK 28; the GA release of Apache Tika 4.0; a maintenance release of Hel…",
+      "ts": 1787671200,
+      "published": "2026-08-25T15:20:00+00:00",
+      "collected_at": "2026-08-26T00:45:53+09:00"
+    },
+    {
+      "title": "Granite 4.2 LLMs: How They're Built",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-4-2",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787670854,
+      "published": "2026-08-25T15:14:14+00:00",
+      "collected_at": "2026-08-26T00:45:53+09:00"
+    },
+    {
+      "title": "Anthropic tells staff to work from home due to possible security team strike",
+      "link": "https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8 Comments URL: https://news.ycombinator.com/item?id=49434291 Points: 52 # Comments: 52",
+      "ts": 1787666427,
+      "published": "2026-08-25T14:00:27+00:00",
+      "collected_at": "2026-08-26T00:45:53+09:00"
+    },
+    {
+      "title": "Python Data Classes Beyond the Boilerplate",
+      "link": "https://www.kdnuggets.com/python-dataclasses-beyond-the-boilerplate",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn how Python dataclasses go beyond reducing boilerplate with custom fields, validation, computed attributes, immutability, and memory optimization techniques.",
+      "ts": 1787666408,
+      "published": "2026-08-25T14:00:08+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
+    },
+    {
+      "title": "The Python print() Function: Go Beyond the Basics",
+      "link": "https://realpython.com/courses/python-print/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn about Python's print() function, discover its lesser-known features, avoid common mistakes, and know when to use a better alternative.",
+      "ts": 1787666400,
+      "published": "2026-08-25T14:00:00+00:00",
+      "collected_at": "2026-08-26T01:41:01+09:00"
+    },
+    {
+      "title": "BoxLang 1.16.0 Released!",
+      "link": "https://foojay.io/today/boxlang-1-16-0-released/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "BoxLang 1.16.0 is here, closing 50 issues across new features, improvements, and bug fixes. The theme running through this release is control: control over how HTTP clients are created and reused, control over what happ…",
+      "ts": 1787666267,
+      "published": "2026-08-25T13:57:47+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
+    },
+    {
+      "title": "Hallucinations, Watermarks, Removers, and a Squeezed Balloon",
+      "link": "https://towardsdatascience.com/hallucinations-watermarks-removers-and-a-squeezed-balloon/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Watermarks act at the model’s moments of doubt, and so do the safety checks that catch AI mistakes The post Hallucinations, Watermarks, Removers, and a Squeezed Balloon appeared first on Towards Data Science .",
+      "ts": 1787664600,
+      "published": "2026-08-25T13:30:00+00:00",
+      "collected_at": "2026-08-25T22:53:05+09:00"
+    },
+    {
+      "title": "Bayesian Workflow free pdf!",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/25/bayesian-workflow-free-pdf/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Our wonderful new Bayesian Workflow book is now available as a free pdf! Just go the link—it’s right there! I recommend getting the hard copy too because you’ll want to be able to read it while working on the computer,…",
+      "ts": 1787662856,
+      "published": "2026-08-25T13:00:56+00:00",
+      "collected_at": "2026-08-25T22:53:05+09:00"
+    },
+    {
+      "title": "I Tried Kimi Agent and Here’s What I Found",
+      "link": "https://www.kdnuggets.com/i-tried-kimi-agent-and-heres-what-i-found",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Kimi Agent is a name that's come to cover a sprawling family, and untangling it matters before judging any piece of it.",
+      "ts": 1787659247,
+      "published": "2026-08-25T12:00:47+00:00",
+      "collected_at": "2026-08-25T21:52:59+09:00"
+    },
+    {
+      "title": "Comparing Local Tool Calling: Gemma 4 vs. Llama 3 vs. Mistral",
+      "link": "https://machinelearningmastery.com/comparing-local-tool-calling-gemma-4-vs-llama-3-vs-mistral/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how Gemma 4, Llama 3, and Mistral implement tool calling locally, and what trade-offs each model family presents for...",
+      "ts": 1787659221,
+      "published": "2026-08-25T12:00:21+00:00",
+      "collected_at": "2026-08-25T21:52:59+09:00"
+    },
+    {
+      "title": "Quiz: The Python print() Function: Go Beyond the Basics",
+      "link": "https://realpython.com/quizzes/python-print-course/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check what you know about Python's print() function, including string formatting, escape sequences, file streams, and when to reach for logging instead.",
+      "ts": 1787659200,
+      "published": "2026-08-25T12:00:00+00:00",
+      "collected_at": "2026-08-25T21:52:59+09:00"
+    },
+    {
+      "title": "Quiz: Python 3.12 Preview: Static Typing Improvements",
+      "link": "https://realpython.com/quizzes/python312-typing/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of Python 3.12 static typing. Practice the new type variable syntax, the @override decorator, and typed dictionaries.",
+      "ts": 1787659200,
+      "published": "2026-08-25T12:00:00+00:00",
+      "collected_at": "2026-08-25T21:52:59+09:00"
+    },
+    {
+      "title": "One Document Type, a Million Files: Structured Extraction into the SQL Table RAG Queries",
+      "link": "https://towardsdatascience.com/one-document-type-a-million-files-structured-extraction-into-the-sql-table-rag-queries/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #14C] - One hour with two people, six to ten fields, and the two signals that separate a real column from one that will break a filter later The post One Document Type, a Million…",
+      "ts": 1787659200,
+      "published": "2026-08-25T12:00:00+00:00",
+      "collected_at": "2026-08-25T21:52:59+09:00"
+    },
+    {
+      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787657964,
+      "published": "2026-08-25T11:39:24+00:00",
+      "collected_at": "2026-08-25T21:52:59+09:00"
+    },
+    {
+      "title": "I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke.",
+      "link": "https://towardsdatascience.com/i-deployed-my-data-pipeline-to-aws-then-everything-that-was-local-broke/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "What moving a Dockerized pipeline off my laptop taught me about containers, networking, and hidden assumptions. The post I Deployed My Data Pipeline to AWS. Then Everything That Was “Local” Broke. appeared first on Towa…",
+      "ts": 1787653801,
+      "published": "2026-08-25T10:30:01+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
+    },
+    {
+      "title": "What is a Forward Deployed Engineer? Role, Skills & Salary",
+      "link": "https://www.analyticsvidhya.com/blog/2026/08/what-is-a-forward-deployed-engineer/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "A forward deployed engineer (FDE) is a software engineer who embeds directly inside a customer’s team and infrastructure to build, integrate, and run production systems, instead of building a generic product from headqu…",
+      "ts": 1787649867,
+      "published": "2026-08-25T09:24:27+00:00",
+      "collected_at": "2026-08-25T18:39:11+09:00"
+    },
+    {
+      "title": "Recursive CTEs: SQL’s Hidden Graph Traversal Engine",
+      "link": "https://towardsdatascience.com/six-degrees-of-sql/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A practical guide to navigate hierarchies, find routes, detect cycles and calculate degrees of separation The post Recursive CTEs: SQL’s Hidden Graph Traversal Engine appeared first on Towards Data Science .",
+      "ts": 1787648401,
+      "published": "2026-08-25T09:00:01+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
+    },
+    {
+      "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
+      "link": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embod…",
+      "ts": 1787648400,
+      "published": "2026-08-25T09:00:00+00:00",
+      "collected_at": "2026-08-25T18:39:11+09:00"
+    },
+    {
+      "title": "Cursor Releases Origin as an Agent-Native Alternative to GitHub",
+      "link": "https://www.infoq.com/news/2026/08/cursor-origin-alternative-github/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AI coding agent Cursor has launched Origin, a git based code hosting platform embedded inside its AI-powered editor, positioning it as an alternative to GitHub for teams that already work in Cursor. Origin is rolling ou…",
+      "ts": 1787644800,
+      "published": "2026-08-25T08:00:00+00:00",
+      "collected_at": "2026-08-25T17:47:46+09:00"
+    },
+    {
+      "title": "Scripting in small apps: you don’t need a container for a macro",
+      "link": "https://foojay.io/today/scripting-in-small-apps-you-dont-need-a-container-for-a-macro/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Disclosure: I maintain Aussom, an Apache 2.0 interpreted language for the JVM. It's the approach I argue for here, and I have tried to be clear about where it is the wrong choice. Your app has a scripting feature, or ..…",
+      "ts": 1787643966,
+      "published": "2026-08-25T07:46:06+00:00",
+      "collected_at": "2026-08-25T17:47:46+09:00"
+    },
+    {
+      "title": "The full stack behind abundant intelligence",
+      "link": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost.",
+      "ts": 1787641500,
+      "published": "2026-08-25T07:05:00+00:00",
+      "collected_at": "2026-08-26T00:45:53+09:00"
+    },
+    {
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "link": "https://openai.com/index/jalapeno-first-results",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models.",
+      "ts": 1787641200,
+      "published": "2026-08-25T07:00:00+00:00",
+      "collected_at": "2026-08-25T23:50:18+09:00"
+    },
+    {
+      "title": "Beyond Embedded: How DuckDB v2.0 Shifts Architecture Toward Distributed Network Capabilities",
+      "link": "https://www.infoq.com/news/2026/08/duckdb-v2-distributed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DuckDB Labs has previewed DuckDB v2.0, codenamed \"Cyanoptera.\" This release includes over 10000 commits and introduces a client/server mode, enabling network connections. Improvements also encompass extension portabilit…",
+      "ts": 1787637960,
+      "published": "2026-08-25T06:06:00+00:00",
+      "collected_at": "2026-08-25T15:53:51+09:00"
+    },
+    {
+      "title": "[AINews] Andrew Ng gets into AI Engineering",
+      "link": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "An industry legend starts covering the inevitable!",
+      "ts": 1787626257,
+      "published": "2026-08-25T02:50:57+00:00",
+      "collected_at": "2026-08-25T12:01:49+09:00"
+    },
+    {
+      "title": "v2.34.0 (2026-08-24)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.34.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add a LangChain migration skill by @adtyavrdhn in #7679 Add GLM-5.3 support to ZaiModel by @aisk in #7600 🐛 Bug Fixes Fix TestModel generation for equal inclusive bounds by @pydanty[bot] in #76…",
+      "ts": 1787622438,
+      "published": "2026-08-25T01:47:18+00:00",
+      "collected_at": "2026-08-25T12:01:49+09:00"
+    },
+    {
+      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
+      "link": "https://huggingface.co/blog/gradio-workflow-guide",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-25T13:41:53+09:00"
+    },
+    {
+      "title": "Announcing Oracle Jipher 10.37: FIPS 140-3 Cryptography for Java",
+      "link": "https://inside.java/2026/08/25/jipher-cryptography-for-java/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Oracle Jipher 10 packages a FIPS 140-3 validated OpenSSL cryptographic module, making cryptographic services available through the standard Java Cryptography Architecture (JCA) framework.",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-25T15:53:51+09:00"
+    },
+    {
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-25T18:39:11+09:00"
+    },
+    {
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "link": "https://openai.com/index/introducing-admin-plugin",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-26T03:43:23+09:00"
+    },
+    {
+      "title": "Funding better evaluations of AI’s impact on wellbeing",
+      "link": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Funding better evaluations of AI’s impact on wellbeing",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-26T03:43:23+09:00"
+    },
+    {
+      "title": "This Week in Spring - August 25th, 2026",
+      "link": "https://spring.io/blog/2026/08/25/this-week-in-spring-august-25",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a S…",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-26T06:31:47+09:00"
+    },
+    {
+      "title": "Claude Desktop support with Ollama",
+      "link": "https://ollama.com/blog/claude-desktop",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.",
+      "ts": 1787616000,
+      "published": "2026-08-25T00:00:00+00:00",
+      "collected_at": "2026-08-26T12:08:39+09:00"
+    },
     {
       "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
       "link": "https://github.com/l3a0/claude-plugins",
@@ -1073,6 +2443,16 @@
       "collected_at": "2026-08-21T22:49:16+09:00"
     },
     {
+      "title": "How Hugging Face Inference Endpoints, Jobs, and Buckets Power Search on Papers with Code",
+      "link": "https://huggingface.co/blog/pwc-search",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1787270400,
+      "published": "2026-08-21T00:00:00+00:00",
+      "collected_at": "2026-08-25T20:31:25+09:00"
+    },
+    {
       "title": "ChatGPT search now uses the site:operator at scale",
       "link": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
       "source": "Simon Willison",
@@ -1261,6 +2641,16 @@
       "ts": 1787209200,
       "published": "2026-08-20T07:00:00+00:00",
       "collected_at": "2026-08-21T05:32:19+09:00"
+    },
+    {
+      "title": "Introducing Intelligence Age",
+      "link": "https://openai.com/index/introducing-intelligence-age",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "ts": 1787209200,
+      "published": "2026-08-20T07:00:00+00:00",
+      "collected_at": "2026-08-27T07:54:29+09:00"
     },
     {
       "title": "Harper Argues Against the Multi-System Stack and Releases 5.2",
@@ -9131,1296 +10521,6 @@
       "ts": 1785369600,
       "published": "2026-07-30T00:00:00+00:00",
       "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "[AINews] AI is eating Finance; AIE NYC now open",
-      "link": "https://www.latent.space/p/ainews-ai-is-eating-finance-aie-nyc",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us cover how AI is permeating financial services as the next big vertical after coding.",
-      "ts": 1785367932,
-      "published": "2026-07-29T23:32:12+00:00",
-      "collected_at": "2026-07-30T09:03:15+09:00"
-    },
-    {
-      "title": "Quoting D. Richard Hipp",
-      "link": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Years ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer. Then SQL comes along—I’m simplifying this only a little bit—and…",
-      "ts": 1785359721,
-      "published": "2026-07-29T21:15:21+00:00",
-      "collected_at": "2026-07-30T07:08:03+09:00"
-    },
-    {
-      "title": "“Over-coverage caught by pre-registration: 47 of 56 inside a stated 50% interval”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/29/over-coverage-caught-by-pre-registration-47-of-56-inside-a-stated-50-interval/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Alex Malinowski has a question about evaluating the calibration of interval forecasts: We publish interval forecasts under a pre-registration scheme: each forecast is serialised, hashed and timestamped into a Bitcoin bl…",
-      "ts": 1785359547,
-      "published": "2026-07-29T21:12:27+00:00",
-      "collected_at": "2026-07-30T07:08:03+09:00"
-    },
-    {
-      "title": "AI Worming through Word",
-      "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "AI Worming through Word Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms: An attacker places hidden instructions…",
-      "ts": 1785350583,
-      "published": "2026-07-29T18:43:03+00:00",
-      "collected_at": "2026-07-30T04:22:11+09:00"
-    },
-    {
-      "title": "Quoting Matthew Green",
-      "link": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Right now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new post-quantum algorithms based on novel problems. This is why there…",
-      "ts": 1785349095,
-      "published": "2026-07-29T18:18:15+00:00",
-      "collected_at": "2026-07-30T04:22:11+09:00"
-    },
-    {
-      "title": "Some thoughts about Anthropic's new cryptanalysis results",
-      "link": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/ Comments URL: https://news.ycombinator.com/item?id=49099804 Points: 81 # Comments: 44",
-      "ts": 1785343340,
-      "published": "2026-07-29T16:42:20+00:00",
-      "collected_at": "2026-07-30T07:08:03+09:00"
-    },
-    {
-      "title": "Prompt Engineering Is Solved—Prompt Management Isn’t",
-      "link": "https://towardsdatascience.com/prompt-engineering-is-solved-prompt-management-isnt/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Prompt engineering helps you write better prompts—but it doesn’t help you change them safely. This article explores a common production failure where a simple variable rename breaks every live call, and introduces a lig…",
-      "ts": 1785342837,
-      "published": "2026-07-29T16:33:57+00:00",
-      "collected_at": "2026-07-30T02:18:38+09:00"
-    },
-    {
-      "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
-      "link": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1785340930,
-      "published": "2026-07-29T16:02:10+00:00",
-      "collected_at": "2026-07-30T02:18:38+09:00"
-    },
-    {
-      "title": "Why Your Best Predictive Model Gives the Wrong Treatment Effect",
-      "link": "https://towardsdatascience.com/why-your-best-predictive-model-gives-the-wrong-treatment-effect/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Why prediction-driven variable selection misses confounders and how Bayesian Adjustment for Confounding attempts to fix it. The post Why Your Best Predictive Model Gives the Wrong Treatment Effect appeared first on Towa…",
-      "ts": 1785337200,
-      "published": "2026-07-29T15:00:00+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
-      "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How two API settings improved GPT-5.6 performance on ARC-AGI-3, boosting scores and efficiency by retaining reasoning and enabling compaction.",
-      "ts": 1785337200,
-      "published": "2026-07-29T15:00:00+00:00",
-      "collected_at": "2026-07-30T09:03:15+09:00"
-    },
-    {
-      "title": "What Professionals Should Know About Data Science and AI, According to Harvard Business School Online",
-      "link": "https://www.kdnuggets.com/what-professionals-should-know-about-data-science-and-ai-according-to-harvard-business-school-online",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn why clear business goals, data quality, simple models, careful validation, realistic costs, and human judgment matter more than chasing the latest technology.",
-      "ts": 1785333625,
-      "published": "2026-07-29T14:00:25+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "CrewAI in Python: Coordinating Teams of AI Agents",
-      "link": "https://realpython.com/crewai-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use CrewAI to build teams of AI agents in Python, define roles and tools, and coordinate multi-agent workflows that solve complex tasks.",
-      "ts": 1785333600,
-      "published": "2026-07-29T14:00:00+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "How to Create Custom Skills in Claude: A Step-by-Step Guide",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/how-to-create-custom-skills-in-claude/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Claude can review data, check code, write reports, and prepare presentations, but teams still end up repeating the same structure, validation rules, company standards, and final-check instructions in every conversation.…",
-      "ts": 1785332968,
-      "published": "2026-07-29T13:49:28+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "Qodana 2026.2: More Security, Better Coverage, Less Configuration",
-      "link": "https://blog.jetbrains.com/qodana/2026/07/qodana-2026-2-more-security-better-coverage-less-configuration/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Qodana 2026.2 makes it easier for development teams to act on code quality, security, and compliance findings throughout the development workflow. This release introduces clearer code coverage insights for pull requests…",
-      "ts": 1785332823,
-      "published": "2026-07-29T13:47:03+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "Qodana 2026.2: More Security, Better Coverage, Less Configuration",
-      "link": "https://blog.jetbrains.com/qodana/2026/07/qodana-2026-2-more-security-better-coverage-less-configuration",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Qodana 2026.2 makes it easier for development teams to act on code quality, security, and compliance findings throughout the development workflow. This release introduces clearer code coverage insights for pull requests…",
-      "ts": 1785332823,
-      "published": "2026-07-29T13:47:03+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "Los Movimientos, Part II: Solving Large Pickup-and-Delivery Problems with Adaptive Large Neighborhood Search",
-      "link": "https://towardsdatascience.com/los-movimientos-part-ii-solving-large-pickup-and-delivery-problems-with-adaptive-large-neighborhood-search/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Building an ALNS heuristic in Python for vehicle routing, time windows, capacity constraints, and mandatory driver breaks. The post Los Movimientos, Part II: Solving Large Pickup-and-Delivery Problems with Adaptive Larg…",
-      "ts": 1785331800,
-      "published": "2026-07-29T13:30:00+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "Eleven Kinds of Loneliness: Richard Yates and the tragedy of agency",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/29/eleven-kinds-of-loneliness-richard-yates-and-the-tragedy-of-agency/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Following up on Richard Yates (see last year’s post, Double Feature: Revolutionary Road and That Darned Chatbot), I came across his collection of short stories from 1962, Eleven Kinds of Loneliness. These stories are wo…",
-      "ts": 1785331779,
-      "published": "2026-07-29T13:29:39+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "5 Must-Read Resources for Mastering Small Language Models",
-      "link": "https://www.kdnuggets.com/5-must-read-resources-for-mastering-small-language-models",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Five resources covering SLM architecture, fine-tuning, agentic workflows, and local deployment for data professionals.",
-      "ts": 1785326422,
-      "published": "2026-07-29T12:00:22+00:00",
-      "collected_at": "2026-07-29T22:02:39+09:00"
-    },
-    {
-      "title": "Ollama vs. LM Studio vs. llama.cpp: Which Local AI Runtime Should You Use in 2026?",
-      "link": "https://machinelearningmastery.com/ollama-vs-lm-studio-vs-llama-cpp-which-local-ai-runtime-should-you-use-in-2026/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how Ollama, LM Studio, and llama.cpp differ across the dimensions that matter most to practitioners, and how to choose...",
-      "ts": 1785326413,
-      "published": "2026-07-29T12:00:13+00:00",
-      "collected_at": "2026-07-30T00:50:30+09:00"
-    },
-    {
-      "title": "Avoiding Entity Key Drift in a Data Lake: Step 1, Normalization",
-      "link": "https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-1-normalization/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "This is the opening piece of a four-part deep dive series, on building a high-frequency streaming pipeline against a live public API. The data source is openSenseMap, a citizen-science IoT network used for climate resea…",
-      "ts": 1785326400,
-      "published": "2026-07-29T12:00:00+00:00",
-      "collected_at": "2026-07-29T22:02:39+09:00"
-    },
-    {
-      "title": "Secure Your APIs: OAuth2 and JWT for Beginners",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/secure-your-apis-oauth2-and-jwt-for-beginners/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "This tutorial was written by an external contributor. APIs are frequent targets for bad actors since they expose data and functionality. Securing them while maintaining usability is often one of the most challenging and…",
-      "ts": 1785324501,
-      "published": "2026-07-29T11:28:21+00:00",
-      "collected_at": "2026-07-29T22:02:39+09:00"
-    },
-    {
-      "title": "Secure Your APIs: OAuth2 and JWT for Beginners",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/secure-your-apis-oauth2-and-jwt-for-beginners",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "This tutorial was written by an external contributor. APIs are frequent targets for bad actors since they expose data and functionality. Securing them while maintaining usability is often one of the most challenging and…",
-      "ts": 1785324501,
-      "published": "2026-07-29T11:28:21+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "Cloudflare Makes Internal DNS Generally Available",
-      "link": "https://www.infoq.com/news/2026/07/cloudflare-internal-dns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has launched its Internal DNS service, providing authoritative and recursive DNS for private networks. This service simplifies DNS management by consolidating private and public DNS operations on a single pla…",
-      "ts": 1785321000,
-      "published": "2026-07-29T10:30:00+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "Presentation: Getting Rid of LeetCode Interviews in the World of AI",
-      "link": "https://www.infoq.com/presentations/ai-lead-interview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Daniel Doubrovkine explains why traditional LeetCode whiteboard interviews fail to evaluate senior engineering talent. He discusses his own experience bombing basic algorithm tests despite decades of leadership, and sha…",
-      "ts": 1785320700,
-      "published": "2026-07-29T10:25:00+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
-      "link": "https://openai.com/index/chatgpt-for-academic-researchers",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery.",
-      "ts": 1785319200,
-      "published": "2026-07-29T10:00:00+00:00",
-      "collected_at": "2026-07-30T02:18:38+09:00"
-    },
-    {
-      "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway",
-      "link": "https://www.infoq.com/articles/securing-mcp-production-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "This article presents a defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production. It outlines four architectural control layers: safe execution, management infrastructure, outbound t…",
-      "ts": 1785315600,
-      "published": "2026-07-29T09:00:00+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "Article: Securing MCP in Production: Defense-in-Depth Beyond the Gateway",
-      "link": "https://www.infoq.com/articles/securing-mcp-production-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This article presents a defense-in-depth approach for securing Model Context Protocol (MCP) deployments in production. It outlines four architectural control layers: safe execution, management infrastructure, outbound t…",
-      "ts": 1785315600,
-      "published": "2026-07-29T09:00:00+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "The AI Hype Index: Unsexy AI",
-      "link": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "It feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exactly what the company 1X…",
-      "ts": 1785314577,
-      "published": "2026-07-29T08:42:57+00:00",
-      "collected_at": "2026-07-29T19:42:24+09:00"
-    },
-    {
-      "title": "v0.19.1",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.1",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "What's Changed feat(sandbox): support native host paths in path grants by @seratch in #4009 fix: redact Realtime audio format diagnostics by @seratch in #3992 fix: redact Blaxel unmount paths in logging by @seratch in #…",
-      "ts": 1785311064,
-      "published": "2026-07-29T07:44:24+00:00",
-      "collected_at": "2026-07-29T16:45:21+09:00"
-    },
-    {
-      "title": "v2.20.0 (2026-07-28)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.20.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add Claude Opus 5 ( claude-opus-5 ) support by @dsfaccini in #6723 Add OpenAI Responses API reasoning.context support (default all_turns ) for the gpt-5.4 / gpt-5.5 / gpt-5.6 families by @pydan…",
-      "ts": 1785295606,
-      "published": "2026-07-29T03:26:46+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
-    },
-    {
-      "title": "[AINews] Fearing RSI: OpenAI, Anthropic, GDM, Meta, Thinky cosign letter to \"Pace\" AI development, as HuggingFace details Machine-Speed Offensive Cyberattack",
-      "link": "https://www.latent.space/p/ainews-fearing-rsi-openai-anthropic",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "The Big Pause is coming.",
-      "ts": 1785286012,
-      "published": "2026-07-29T00:46:52+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
-    },
-    {
-      "title": "Adding a custom MCP server to Claude and ChatGPT",
-      "link": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "TIL: Adding a custom MCP server to Claude and ChatGPT Connecting a custom MCP server to Claude and ChatGPT's standard chat interfaces is possible, but can take quite a few steps. Tags: ai , generative-ai , chatgpt , llm…",
-      "ts": 1785283998,
-      "published": "2026-07-29T00:13:18+00:00",
-      "collected_at": "2026-07-30T04:22:11+09:00"
-    },
-    {
-      "title": "Newsletter: JDK 27 Rampdown Phase is Closing - Default G1 in All Environments",
-      "link": "https://inside.java/2026/07/29/quality-heads-up/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "OpenJDK Quality Outreach July 2026 Newsletter",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-47858 - HIGH - CVE-2026-47858: live information startup mode is vulnerable for remote code execution",
-      "link": "https://spring.io/security/cve-2026-47858",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description Starting Spring Boot applications in the Spring Tools with the live information mode enabled makes the running application vulnerable against JMX-based remote code execution. This affects the live informatio…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-47873 - HIGH - CVE-2026-47873: Spring Tools Docker integration publishes unauthenticated debug (JDWP) and JMX ports on all network interfaces",
-      "link": "https://spring.io/security/cve-2026-47873",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description The Boot Dashboard Docker integration in Spring Tools publishes container control ports on all of the host's network interfaces ( 0.0.0.0 ) rather than restricting them to loopback. Affected Spring Products…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-59326 - LOW - CVE-2026-59326: HTTP Proxy Credentials Logged in Plaintext by the Spring Boot Language Server",
-      "link": "https://spring.io/security/cve-2026-59326",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description The Spring Boot language server logs the raw value of the https_proxy / HTTPS_PROXY / http_proxy / HTTP_PROXY environment variable at INFO level whenever it creates an outbound HTTP client and no explicit ht…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-47882 - LOW - CVE-2026-47882: Spring Boot DevTools remote secret generated with a non-cryptographic PRNG",
-      "link": "https://spring.io/security/cve-2026-47882",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description When enabling Spring Boot DevTools support for a remote application target (for example a Docker container or Cloud Foundry app) from the Spring Tools Boot Dashboard, Spring Tools generates a shared secret t…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-59327 - MEDIUM - CVE-2026-59327: Cleartext Storage of Spring Boot DevTools Remote Secret in Eclipse Launch Configurations",
-      "link": "https://spring.io/security/cve-2026-59327",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description Spring Tools for Eclipse stores the Spring Boot DevTools remote secret ( spring.devtools.remote.secret ) as a plain string attribute on the \"Spring Boot DevTools Client\" launch configuration. Eclipse persist…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "cve-2026-59328 - MEDIUM - CVE-2026-59328: Cross-Site Scripting in Eclipse Spring Boot Starter Wizard Dependency Tooltips",
-      "link": "https://spring.io/security/cve-2026-59328",
-      "source": "Spring Security",
-      "category": "Spring",
-      "summary": "Description Spring Tools for Eclipse renders Spring Boot starter wizard dependency tooltips in a native embedded browser (SWT Browser ) with JavaScript enabled. Using untrusted and compromised Initializr endpoints for t…",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-      "link": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar.",
-      "ts": 1785283200,
-      "published": "2026-07-29T00:00:00+00:00",
-      "collected_at": "2026-07-30T05:59:59+09:00"
-    },
-    {
-      "title": "Discovering cryptographic weaknesses with Claude",
-      "link": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Discovering cryptographic weaknesses with Claude The best part of this article (here's the repo ) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"…",
-      "ts": 1785278737,
-      "published": "2026-07-28T22:45:37+00:00",
-      "collected_at": "2026-07-29T09:00:29+09:00"
-    },
-    {
-      "title": "Quoting Akshat Bubna",
-      "link": "https://simonwillison.net/2026/Jul/28/akshat-bubna/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "We’re aware a Modal customer published an unauthenticated endpoint that allowed ​anyone on the internet to use ​their ⁠sandboxes for code execution. This was used by the rogue agent. Modal’s ⁠platform ​or isolation were…",
-      "ts": 1785276355,
-      "published": "2026-07-28T22:05:55+00:00",
-      "collected_at": "2026-07-29T07:07:31+09:00"
-    },
-    {
-      "title": "uv 0.12.0",
-      "link": "https://simonwillison.net/2026/Jul/28/uv/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "uv 0.12.0 Some interesting breaking changes in this release of uv , in particular to the default project produced by the uv init command. uv init is the uv shortcut for creating a new project. The previous version of uv…",
-      "ts": 1785275498,
-      "published": "2026-07-28T21:51:38+00:00",
-      "collected_at": "2026-07-29T07:07:31+09:00"
-    },
-    {
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "link": "https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident Hugging Face just released this extremely detailed technical description of OpenAI's recent accidental cyberattack against their…",
-      "ts": 1785274134,
-      "published": "2026-07-28T21:28:54+00:00",
-      "collected_at": "2026-07-29T07:07:31+09:00"
-    },
-    {
-      "title": "Anthropic publishes a practical key-recovery attack on HAWK-256",
-      "link": "https://github.com/anthropics/cryptography-research-demo",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://github.com/anthropics/cryptography-research-demo Comments URL: https://news.ycombinator.com/item?id=49090083 Points: 50 # Comments: 2",
-      "ts": 1785273768,
-      "published": "2026-07-28T21:22:48+00:00",
-      "collected_at": "2026-07-29T09:00:29+09:00"
-    },
-    {
-      "title": "Survey Statistics: equivalent models, equivalent weights (locally)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/28/survey-statistics-equivalent-models-equivalent-weights-locally/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Last month we saw that the Times/Siena Poll is now using energy balancing weights (Huling & Mak, 2024). In a toy example, we saw under which outcome models these weighting methods might do well. I was inspired by Little…",
-      "ts": 1785268826,
-      "published": "2026-07-28T20:00:26+00:00",
-      "collected_at": "2026-07-29T05:17:59+09:00"
-    },
-    {
-      "title": "Show HN: Minute – Offline meeting notes on macOS with Whisper and llama.cpp",
-      "link": "https://github.com/mraza007/minute",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Hello HN, I built Minute because I wanted searchable meeting notes without sending recordings or transcripts to a cloud service. It captures microphone and optional system audio, transcribes locally with Whisper, and ge…",
-      "ts": 1785267077,
-      "published": "2026-07-28T19:31:17+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
-    },
-    {
-      "title": "MCP 2026-07-28 Specification: transport going stateless",
-      "link": "https://blog.modelcontextprotocol.io/posts/2026-07-28/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://blog.modelcontextprotocol.io/posts/2026-07-28/ Comments URL: https://news.ycombinator.com/item?id=49088058 Points: 39 # Comments: 15",
-      "ts": 1785263711,
-      "published": "2026-07-28T18:35:11+00:00",
-      "collected_at": "2026-07-29T05:17:59+09:00"
-    },
-    {
-      "title": "langgraph==1.2.10",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.10",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.9 release(langgraph): 1.2.10 ( #8462 ) chore(deps): bump jupyterlab from 4.5.9 to 4.5.10 in /libs/langgraph ( #8440 ) chore(deps): bump setuptools from 80.9.0 to 83.0.0 in /libs/langgraph ( #8435 ) fea…",
-      "ts": 1785263654,
-      "published": "2026-07-28T18:34:14+00:00",
-      "collected_at": "2026-07-29T05:17:59+09:00"
-    },
-    {
-      "title": "Grok Introducing Build Mode",
-      "link": "https://x.ai/news/grok-build-mode",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://x.ai/news/grok-build-mode Comments URL: https://news.ycombinator.com/item?id=49087752 Points: 10 # Comments: 1",
-      "ts": 1785262248,
-      "published": "2026-07-28T18:10:48+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
-    },
-    {
-      "title": "Scientific computing in the age of agentic AI",
-      "link": "https://openai.com/index/scientific-computing-agentic-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond.",
-      "ts": 1785258000,
-      "published": "2026-07-28T17:00:00+00:00",
-      "collected_at": "2026-07-29T03:17:22+09:00"
-    },
-    {
-      "title": "How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on Apple Silicon",
-      "link": "https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "Five models, sustained generation, real wall-socket energy at $0.31/kWh — and the surprise the RTX-3090 numbers predicted, only bigger. The post How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on A…",
-      "ts": 1785256200,
-      "published": "2026-07-28T16:30:00+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1785256062,
-      "published": "2026-07-28T16:27:42+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Managed Agents Gemini 3.6 Flash, Hooks and Triggers",
-      "ts": 1785254400,
-      "published": "2026-07-28T16:00:00+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "Codex from 0 to 10M Users: Building ChatGPT Work — Akshay Nathan, OpenAI",
-      "link": "https://www.latent.space/p/chatgpt-work",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "OpenAI's core product engineering lead on how they are building ChatGPT Work to make AGI accessible to all of humanity: Sites, OpenClaw, Memory, Subagents, Finance, No-Code and advice.",
-      "ts": 1785252390,
-      "published": "2026-07-28T15:26:30+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "1.15.8",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.8",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add WaitTool for pausing on long-running jobs. Bug Fixes Fix FileWriterTool writes and address rough edges in file tool. Mark E2B_API_KEY as a required env var for E2B tools. Documentation Refres…",
-      "ts": 1785251164,
-      "published": "2026-07-28T15:06:04+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1785250905,
-      "published": "2026-07-28T15:01:45+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "MCP Explained: How Modern AI Agents Connect to the Real World",
-      "link": "https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-real-world/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "from custom integrations to a universal standard for tool access The post MCP Explained: How Modern AI Agents Connect to the Real World appeared first on Towards Data Science .",
-      "ts": 1785250800,
-      "published": "2026-07-28T15:00:00+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "An Introductory Guide to Practical Constraint Decoding",
-      "link": "https://www.kdnuggets.com/an-introductory-guide-to-practical-constraint-decoding",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "With this introductory guide to practical constraint decoding, you'll no longer need to beg your model to \"output valid JSON without including any markdown.\"",
-      "ts": 1785247230,
-      "published": "2026-07-28T14:00:30+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Managing Imports With Python's __all__",
-      "link": "https://realpython.com/courses/managing-imports-dunder-all/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how Python's dunder all variable controls wildcard imports and shapes the public API your packages and modules expose.",
-      "ts": 1785247200,
-      "published": "2026-07-28T14:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Don’t Just “Throw Adam at It”: Misunderstanding Adam Will Cost You",
-      "link": "https://towardsdatascience.com/dont-just-throw-adam-at-it-misunderstanding-adam-will-cost-you/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "You \"vibe coded\" the import. Understand Adam's optimization dynamics, why it fails spectacularly, and how to fix it. The post Don’t Just “Throw Adam at It”: Misunderstanding Adam Will Cost You appeared first on Towards…",
-      "ts": 1785245400,
-      "published": "2026-07-28T13:30:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "link": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1785244897,
-      "published": "2026-07-28T13:21:37+00:00",
-      "collected_at": "2026-07-31T00:13:42+09:00"
-    },
-    {
-      "title": "Selection effects can go both ways (for taxi drivers as well as the rest of us)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/28/selection-effects-can-go-both-ways/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "You know how we talk about the two modes of microeconomic reasoning? For example, here: The logic of social science can work in two directions: generative modeling predicts behavior given assumed preferences, and infere…",
-      "ts": 1785244838,
-      "published": "2026-07-28T13:20:38+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "The Orchestrator's Tax",
-      "link": "https://martinfowler.com/articles/orchestrator-tax.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Subagents get justified by time saved and parallel execution, but Rahul Garg explains that's not what matters most. Every token in the orchestrator's context is competing for its attention, and the real value of a subag…",
-      "ts": 1785244200,
-      "published": "2026-07-28T13:10:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "5 ways AI Mode in Search helps you enjoy the real world",
-      "link": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Illustration of a black magnifying glass in a white circle on green grass surrounded by items related to fun activities like tennis and games",
-      "ts": 1785243600,
-      "published": "2026-07-28T13:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "5 ways to host the ultimate dinner party with Google Search",
-      "link": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "An illustrated black magnifying glass with a sparkle in a white circle surrounded by a dinner party tablescape",
-      "ts": 1785243600,
-      "published": "2026-07-28T13:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Why I’m Writing Rachel’s Ramblings",
-      "link": "https://martinfowler.com/rachels-ramblings/intro.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "TL;DR I have ideas. I haven’t been writing them. That’s about to change. I promise… myself. I’ve been thinking a lot about talent. Actually, I’ve been thinking a lot about thinking. And writing. Or more specifically, no…",
-      "ts": 1785241920,
-      "published": "2026-07-28T12:32:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "5 Best AI Tools for Data Analysis You Should Try in 2026",
-      "link": "https://www.kdnuggets.com/5-best-ai-tools-for-data-analysis-you-should-try-in-2026",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Discover five of the best AI tools for data analysis that can clean data, write code, create visualizations, and generate insights faster.",
-      "ts": 1785240008,
-      "published": "2026-07-28T12:00:08+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Grafana Assistant Expands to More Than 30 Data Sources",
-      "link": "https://www.infoq.com/news/2026/07/grafana-assistant-data-source/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Grafana Labs has expanded the capabilities of Grafana Assistant, enabling its AI-powered observability assistant to query and correlate data across more than 30 different data sources through natural language. By Craig…",
-      "ts": 1785240000,
-      "published": "2026-07-28T12:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Quiz: Managing Imports With Python's __all__",
-      "link": "https://realpython.com/quizzes/managing-imports-dunder-all/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of wildcard imports, the dunder all variable, and how to control the public APIs of your Python modules and packages.",
-      "ts": 1785240000,
-      "published": "2026-07-28T12:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Backpropagation Explained for Beginners (Part 2): There Has to Be a Better Way",
-      "link": "https://towardsdatascience.com/backpropagation-explained-for-beginners-part-2-there-has-to-be-a-better-way/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The idea that makes backpropagation possible. The post Backpropagation Explained for Beginners (Part 2): There Has to Be a Better Way appeared first on Towards Data Science .",
-      "ts": 1785240000,
-      "published": "2026-07-28T12:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Presentation: The Future of Engineering: Mindsets That Matter When Code Isn’t Enough",
-      "link": "https://www.infoq.com/presentations/ai-future-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Ben Greene discusses how software engineers can adapt and thrive in an era of rapid AI code automation. Drawing on his startup experience, he explains key mindsets like starting simple, maintaining code comprehension, a…",
-      "ts": 1785237000,
-      "published": "2026-07-28T11:10:00+00:00",
-      "collected_at": "2026-07-28T20:21:21+09:00"
-    },
-    {
-      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
-      "link": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Lee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to excel at his projects. But lately, he’s been coming straight home to work on hi…",
-      "ts": 1785230337,
-      "published": "2026-07-28T09:18:57+00:00",
-      "collected_at": "2026-07-28T20:21:21+09:00"
-    },
-    {
-      "title": "Featured Foojay Authors for July and August 2026",
-      "link": "https://foojay.io/today/featured-authors-july-and-august-2026/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Foojay wouldn't exist without the many contributions from its community, whether it's a single post or an ongoing stream of knowledge sharing. That's why we've started highlighting two of them each month as Featured Aut…",
-      "ts": 1785229530,
-      "published": "2026-07-28T09:05:30+00:00",
-      "collected_at": "2026-07-28T20:21:21+09:00"
-    },
-    {
-      "title": "Article: The Hard-Stop Rule: From 3 HCM Monoliths to 120 Domain Microservices",
-      "link": "https://www.infoq.com/articles/pull-based-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "A payroll and HR software team rebuilt three monoliths into over 120 smaller services over five years, with no dedicated migration budget. Every new feature was built as its own service instead of changing the old ones.…",
-      "ts": 1785229200,
-      "published": "2026-07-28T09:00:00+00:00",
-      "collected_at": "2026-07-28T20:21:21+09:00"
-    },
-    {
-      "title": "KotlinLLM is Going Open Source",
-      "link": "https://blog.jetbrains.com/research/2026/07/kotlinllm-open-source/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "TL;DR KotlinLLM is now public. It’s a research prototype for delegating runtime logic to an LLM from Kotlin code. Instead of calling an LLM on every request or running a separate agent, you can write an explicit Kotlin…",
-      "ts": 1785225041,
-      "published": "2026-07-28T07:50:41+00:00",
-      "collected_at": "2026-07-28T20:21:21+09:00"
-    },
-    {
-      "title": "KotlinLLM is Going Open Source",
-      "link": "https://blog.jetbrains.com/research/2026/07/kotlinllm-open-source",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "TL;DR KotlinLLM is now public. It’s a research prototype for delegating runtime logic to an LLM from Kotlin code. Instead of calling an LLM on every request or running a separate agent, you can write an explicit Kotlin…",
-      "ts": 1785225041,
-      "published": "2026-07-28T07:50:41+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage",
-      "link": "https://www.infoq.com/news/2026/07/guardduty-investigation-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "AWS released a public preview of the GuardDuty investigation agent, which correlates findings, 90-day activity logs, and resource topologies into structured reports with risk ratings, confidence scores, and MITRE ATT&CK…",
-      "ts": 1785222840,
-      "published": "2026-07-28T07:14:00+00:00",
-      "collected_at": "2026-07-28T17:40:34+09:00"
-    },
-    {
-      "title": "AWS Launches Amazon GuardDuty Investigation Agent to Automate Threat Triage",
-      "link": "https://www.infoq.com/news/2026/07/guardduty-investigation-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS released a public preview of the GuardDuty investigation agent, which correlates findings, 90-day activity logs, and resource topologies into structured reports with risk ratings, confidence scores, and MITRE ATT&CK…",
-      "ts": 1785222840,
-      "published": "2026-07-28T07:14:00+00:00",
-      "collected_at": "2026-07-28T17:40:34+09:00"
-    },
-    {
-      "title": "Uber’s Zero Growth Stack: Scaling Services, While Optimising Infrastructure and AI Cost",
-      "link": "https://www.infoq.com/news/2026/07/efficient-ai-infrastructure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Uber's \"Zero Growth Stack\" focuses on scalable infrastructure that separates capacity growth from business demand, reducing hardware needs while enhancing service scaling. Central to this is garbage collection optimisat…",
-      "ts": 1785222420,
-      "published": "2026-07-28T07:07:00+00:00",
-      "collected_at": "2026-07-28T17:40:34+09:00"
-    },
-    {
-      "title": "[AINews] Much ado about Open Weights",
-      "link": "https://www.latent.space/p/ainews-much-ado-about-open-weights",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Everyone is writing a lot, but only Kimi K3 shipped today",
-      "ts": 1785219613,
-      "published": "2026-07-28T06:20:13+00:00",
-      "collected_at": "2026-07-28T17:40:34+09:00"
-    },
-    {
-      "title": "Graph Engineering for AI Agents: Beyond the Single-Agent Loop",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/graph-engineering/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "AI-agent development has progressed through overlapping phases: prompt engineering, context engineering, tool use, autonomous loops, memory systems, and multi-agent coordination. A newer focus is graph engineering, whic…",
-      "ts": 1785218621,
-      "published": "2026-07-28T06:03:41+00:00",
-      "collected_at": "2026-07-29T05:17:59+09:00"
-    },
-    {
-      "title": "v2.19.0 (2026-07-27)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.19.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add headers and retry_after to ModelHTTPError , populate from all provider SDKs by @dmontagu in #6733 🐛 Bug Fixes Re-assert absorbed external cancellation at run step boundaries by @DouweM in #…",
-      "ts": 1785209241,
-      "published": "2026-07-28T03:27:21+00:00",
-      "collected_at": "2026-07-28T14:50:23+09:00"
-    },
-    {
-      "title": "Quality Outreach Heads-up - JDK 28: jlink cacerts plugin",
-      "link": "https://inside.java/2026/07/28/quality-heads-up/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "This Heads-Up is part of the regular communication sent to the projects involved; it covers a new plugin being added to the `jlink` command-line tool for adding cacerts.",
-      "ts": 1785196800,
-      "published": "2026-07-28T00:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "This Week in Spring - July 28th, 2026",
-      "link": "https://spring.io/blog/2026/07/28/this-week-in-spring-july-28-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi Spring fans! Welcome to another installment of This Week in Spring ! The title says in Spring , but here in the northern hemisphere, it's clearly the middle of summer. Hot! I'm sitting here on my laptop on a warm sum…",
-      "ts": 1785196800,
-      "published": "2026-07-28T00:00:00+00:00",
-      "collected_at": "2026-07-29T01:43:28+09:00"
-    },
-    {
-      "title": "moonshotai/Kimi-K3",
-      "link": "https://simonwillison.net/2026/Jul/27/kimi-k3/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "moonshotai/Kimi-K3 As promised earlier this month , Moonshot have released the weights for their excellent 2.8 trillion parameter Kimi K3. They're a hefty 1.56TB on Hugging Face. Kimi introduced their own janky modified…",
-      "ts": 1785195544,
-      "published": "2026-07-27T23:39:04+00:00",
-      "collected_at": "2026-07-28T09:21:33+09:00"
-    },
-    {
-      "title": "An opinionated guide to which AI to use to do stuff",
-      "link": "https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "An opinionated guide to which AI to use to do stuff It's interesting watching the evolution of Ethan Mollick's guide over time. A year ago it was still all about chat - ChatGPT, Claude, Gemini - with o3, Claude 4 Opus,…",
-      "ts": 1785189353,
-      "published": "2026-07-27T21:55:53+00:00",
-      "collected_at": "2026-07-28T08:06:34+09:00"
-    },
-    {
-      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
-      "link": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Reading OpenAI’s account last week of how some of its models broke their containm…",
-      "ts": 1785175200,
-      "published": "2026-07-27T18:00:00+00:00",
-      "collected_at": "2026-07-28T04:40:11+09:00"
-    },
-    {
-      "title": "“Los Movimientos”: The Routing Problem That Nearly Broke My Spirit",
-      "link": "https://towardsdatascience.com/los-movimientos-the-routing-problem-that-nearly-broke-my-spirit-2/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Using mathematical optimization to solve a pickup-and-delivery problem with time windows. The post “Los Movimientos”: The Routing Problem That Nearly Broke My Spirit appeared first on Towards Data Science .",
-      "ts": 1785169800,
-      "published": "2026-07-27T16:30:00+00:00",
-      "collected_at": "2026-07-28T02:45:37+09:00"
-    },
-    {
-      "title": "All major LLMs are lib-left. Even Grok, half the time",
-      "link": "https://unslop.run/blog/political-compass-of-llms",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://unslop.run/blog/political-compass-of-llms Comments URL: https://news.ycombinator.com/item?id=49071441 Points: 35 # Comments: 61",
-      "ts": 1785167835,
-      "published": "2026-07-27T15:57:15+00:00",
-      "collected_at": "2026-07-28T02:45:37+09:00"
-    },
-    {
-      "title": "Reducing Human Annotation with ML Active Learning",
-      "link": "https://towardsdatascience.com/reducing-human-annotation-with-ml-active-learning/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "In a world where human time is expensive, learn how to use it only when really necessary The post Reducing Human Annotation with ML Active Learning appeared first on Towards Data Science .",
-      "ts": 1785164400,
-      "published": "2026-07-27T15:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Is KimiClaw a Useful Tool?",
-      "link": "https://www.kdnuggets.com/is-kimiclaw-a-useful-tool",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Compare KimiClaw's cloud-hosted AI agent platform against self-hosted OpenClaw across setup, privacy, and automation capabilities.",
-      "ts": 1785160803,
-      "published": "2026-07-27T14:00:03+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "How to Use Google's Antigravity CLI for AI Code Assistance",
-      "link": "https://realpython.com/antigravity-cli/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Get started with Google's Antigravity CLI, a terminal-based AI coding agent, and use it to read, review, and refactor your Python code.",
-      "ts": 1785160800,
-      "published": "2026-07-27T14:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "The Most Beautiful Statistic: The History and the Science of the Humble Mean",
-      "link": "https://towardsdatascience.com/the-most-beautiful-statistic-the-history-and-the-science-of-the-humble-mean/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The mean keeps making its usefulness felt in all sorts of situations, often in truly non-obvious ways The post The Most Beautiful Statistic: The History and the Science of the Humble Mean appeared first on Towards Data…",
-      "ts": 1785159000,
-      "published": "2026-07-27T13:30:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "He fit the same statistical models with three different software and got much different estimates. It’s another dimension of the multiverse.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/27/53408/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Scott Cunningham writes: You’ll appreciate this I think. I ran Claude code on 96 specs for a popular difference-in-difference estimator with the identical specifications, ranging covariates only, for three languages (R,…",
-      "ts": 1785157558,
-      "published": "2026-07-27T13:05:58+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Java News Roundup: Simple JSON API, JEPs for JDK 28, Oracle CPUs, Embabel 1.0, Azul Payara, Helidon",
-      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul20-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for July 20th, 2026, features news highlighting: two JEPs proposed to target for JDK 28; new JEPs 540 and 541, Simple JSON API (Incubator) and Deprecate the macOS/x64 Port for Removal, respectiv…",
-      "ts": 1785157200,
-      "published": "2026-07-27T13:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Java News Roundup: Simple JSON API, JEPs for JDK 28, Oracle CPUs, Embabel 1.0, Azul Payara, Helidon",
-      "link": "https://www.infoq.com/news/2026/07/java-news-roundup-jul20-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for July 20th, 2026, features news highlighting: two JEPs proposed to target for JDK 28; new JEPs 540 and 541, Simple JSON API (Incubator) and Deprecate the macOS/x64 Port for Removal, respectiv…",
-      "ts": 1785157200,
-      "published": "2026-07-27T13:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Podcast: Rethinking Data: Moving From the Traditional Three-Tier Web Stack to Client-Side Event Sourcing",
-      "link": "https://www.infoq.com/podcasts/rethinking-data-client-event-sourcing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Johannes Schickling explores how he moved beyond the traditional three-tier web stack to a local-first approach. He shares his experience transitioning from Prisma to developing Overtone—a music curation app leveraging…",
-      "ts": 1785157200,
-      "published": "2026-07-27T13:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Claude Opus 5: Near-Frontier Intelligence, On a Dial",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/claude-opus-5-hands-on-review/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Anthropic has released Claude Opus 5. The fourth model in two months, if you are keeping count. Most people are not. This one matters more than the count suggests. Opus is the workhorse tier, the model that does the act…",
-      "ts": 1785154463,
-      "published": "2026-07-27T12:14:23+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "5 Architectural Patterns for Persistent Memory and State in AI Agents",
-      "link": "https://machinelearningmastery.com/5-architectural-patterns-for-persistent-memory-and-state-in-ai-agents/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "Memory & State For AI Agents Building an AI agent can be tricky. Keeping it on track over a six-month deployment is incredibly hard. LLMs...",
-      "ts": 1785153646,
-      "published": "2026-07-27T12:00:46+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "7 Steps to Building and Deploying Your First Autonomous Agent",
-      "link": "https://www.kdnuggets.com/7-steps-to-building-and-deploying-your-first-autonomous-agent",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "This article shows you up all the steps in building and deploying your first autonomous AI agents from start to finish.",
-      "ts": 1785153606,
-      "published": "2026-07-27T12:00:06+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Quiz: How to Use Google's Antigravity CLI for AI Code Assistance",
-      "link": "https://realpython.com/quizzes/antigravity-cli/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your knowledge of Google's Antigravity CLI, a terminal-based AI coding agent, and how to use it to read, review, and refactor Python code.",
-      "ts": 1785153600,
-      "published": "2026-07-27T12:00:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook",
-      "link": "https://towardsdatascience.com/how-i-reproduced-bm25-dense-retrieval-and-splade-on-a-16gb-macbook/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A practical reproduction of three retrieval baselines, including the crashes, fixes, and score checks that matter for RAG systems. The post How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook appeared f…",
-      "ts": 1785153600,
-      "published": "2026-07-27T12:00:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "The path to artificial superintelligence",
-      "link": "https://www.technologyreview.com/2026/07/27/1140724/the-path-to-artificial-superintelligence/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Imagine a healthcare system made up of multiple AI agents: one that manages symptom assessment, another scheduling, a third insurance, and a fourth pharmacy. Each is an expert in its domain. But they all have their own…",
-      "ts": 1785153600,
-      "published": "2026-07-27T12:00:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Closing the data loop in AI-driven drug discovery",
-      "link": "https://www.technologyreview.com/2026/07/27/1139667/closing-the-data-loop-in-ai-driven-drug-discovery/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Drug discovery is a high-cost, high-risk endeavor that is under growing pressure from a market increasingly defined by first-mover advantage. Since the 1950s, the cost of developing new pharmaceuticals has roughly doubl…",
-      "ts": 1785152416,
-      "published": "2026-07-27T11:40:16+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Building the enterprise environment for agentic AI",
-      "link": "https://www.technologyreview.com/2026/07/27/1140668/building-the-enterprise-environment-for-agentic-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "For the enterprise, the promise of agentic AI is much more than just a better chatbot. It is software agents that execute business tasks end-to-end across people, business workflows, data, and systems. The platform best…",
-      "ts": 1785151978,
-      "published": "2026-07-27T11:32:58+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Presentation: Clean Architecture for Serverless: Business Logic You Can Take Anywhere",
-      "link": "https://www.infoq.com/presentations/kotlin-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Elena van Engelen discusses how to eliminate serverless vendor lock-in without sacrificing native cloud capabilities. She explains how to structure FaaS applications using Clean Architecture, Spring Cloud Function, and…",
-      "ts": 1785151560,
-      "published": "2026-07-27T11:26:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Presentation: Clean Architecture for Serverless: Business Logic You Can Take Anywhere",
-      "link": "https://www.infoq.com/presentations/kotlin-serverless/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Elena van Engelen discusses how to eliminate serverless vendor lock-in without sacrificing native cloud capabilities. She explains how to structure FaaS applications using Clean Architecture, Spring Cloud Function, and…",
-      "ts": 1785151560,
-      "published": "2026-07-27T11:26:00+00:00",
-      "collected_at": "2026-07-28T00:44:54+09:00"
-    },
-    {
-      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
-      "link": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centr…",
-      "ts": 1785150000,
-      "published": "2026-07-27T11:00:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Article: An Evolutionary Architecture Pattern for Managing AI’s Pace of Change",
-      "link": "https://www.infoq.com/articles/evolutionary-architecture-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Traditional API gateways assume deterministic services and simple schemas - assumptions agentic AI breaks. Discover why enterprise engineering leaders are adopting AI Gateways as an evolutionary architecture seam. Centr…",
-      "ts": 1785150000,
-      "published": "2026-07-27T11:00:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "AI コーディングエージェント向け Kotlin Benchmark のご紹介",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/introducing-the-kotlin-benchmark-evaluate-ai-coding-agents-on-real-world-kotlin-tasks",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "エージェント型コーディングのベンチマークが実際のソフトウェア開発で身近になりつつあります。Kotlin チームにとっては、問題の解釈から検証に合格する解決策を生成するまでの一連の Kotlin タスクを AI エージェントがどれくらい確実に完了できるのか？というのが最大の疑問です。 当社はこの疑問を解決するための第一歩として、Kotlin のソフトウェアエンジニアリングタスクの AI コーディングエージェントを評価する JetBrai…",
-      "ts": 1785145492,
-      "published": "2026-07-27T09:44:52+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-      "link": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1785144740,
-      "published": "2026-07-27T09:32:20+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Netflix Details Its In-House LLM Serving Platform with Triton and vLLM",
-      "link": "https://www.infoq.com/news/2026/07/netflix-llm-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Netflix has described the production lessons behind bringing LLM inference into its internal serving platform, including the challenges of supporting different model sizes, hardware requirements, and rapidly evolving in…",
-      "ts": 1785137580,
-      "published": "2026-07-27T07:33:00+00:00",
-      "collected_at": "2026-07-27T17:34:10+09:00"
-    },
-    {
-      "title": "New Between-Quarters Security Updates for Java: What CSPUs Mean for Your Release Pipeline",
-      "link": "https://foojay.io/today/new-between-quarters-security-updates-for-java-what-cspus-mean-for-your-release-pipeline/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "In an announcement on the OpenJDK Updates Mailinglist on July 20, 2026, Rob McKenna explained a change in the Oracle security release cycle for JDK builds. They plan to deliver security updates for the Oracle JDK as par…",
-      "ts": 1785137471,
-      "published": "2026-07-27T07:31:11+00:00",
-      "collected_at": "2026-07-27T17:34:10+09:00"
-    },
-    {
-      "title": "v0.19.0",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.19.0",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "Key Changes This minor release does not introduce a breaking change. The minor version bump reflects a significant new OpenAI Responses feature area: Programmatic Tool Calling. Highlights: Added agents.tool.Programmatic…",
-      "ts": 1785125405,
-      "published": "2026-07-27T04:10:05+00:00",
-      "collected_at": "2026-07-27T13:39:01+09:00"
-    },
-    {
-      "title": "How AI is expanding what people do at work",
-      "link": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries.",
-      "ts": 1785123000,
-      "published": "2026-07-27T03:30:00+00:00",
-      "collected_at": "2026-07-27T21:27:51+09:00"
-    },
-    {
-      "title": "Spring Office Hours Podcast: S5E19 - Docker, Compose, Testcontainers, Oh My!",
-      "link": "https://spring.io/blog/2026/07/27/spring-office-hours-podcast-S5E19",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun will discuss some of the new features around Docker, Testcontainers and the Spring Boot plugin. You can…",
-      "ts": 1785110400,
-      "published": "2026-07-27T00:00:00+00:00",
-      "collected_at": "2026-07-28T08:06:34+09:00"
-    },
-    {
-      "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
-      "link": "https://www.anthropic.com/news/cognizant-anthropic",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
-      "ts": 1785110400,
-      "published": "2026-07-27T00:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Our position on open-weights models",
-      "link": "https://www.anthropic.com/news/position-open-weights-models",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Our position on open-weights models",
-      "ts": 1785110400,
-      "published": "2026-07-27T00:00:00+00:00",
-      "collected_at": "2026-07-28T23:17:29+09:00"
-    },
-    {
-      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "link": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1785110400,
-      "published": "2026-07-27T00:00:00+00:00",
-      "collected_at": "2026-07-29T05:17:59+09:00"
-    },
-    {
-      "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
-      "link": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "An Inside Look at the Relay Market Powering Token Resellers and Fraud Fascinating investigation by Matt Lenhard into the market that has grown up around reselling LLM tokens at a discount by pooling API keys from variou…",
-      "ts": 1785094254,
-      "published": "2026-07-26T19:30:54+00:00",
-      "collected_at": "2026-07-27T05:11:34+09:00"
-    },
-    {
-      "title": "1.15.7",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.7",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Resolve registry skills through the runtime's CrewAI+ client Recover from the GPT-5.6 tools + reasoning_effort 400 Make tool calling work on the Responses API path Route responses-only models in…",
-      "ts": 1785090002,
-      "published": "2026-07-26T18:20:02+00:00",
-      "collected_at": "2026-07-27T05:11:34+09:00"
-    },
-    {
-      "title": "1.15.7a1",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.7a1",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Fix registry skills resolution through the runtime's CrewAI+ client. Recover from the GPT-5.6 tools and reasoning_effort 400 errors. Make tool calling work on the Responses API path. Route respo…",
-      "ts": 1785085465,
-      "published": "2026-07-26T17:04:25+00:00",
-      "collected_at": "2026-07-27T03:02:57+09:00"
-    },
-    {
-      "title": "How to Efficiently Prompt Claude Code",
-      "link": "https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Maximize your efficiency with Claude Code The post How to Efficiently Prompt Claude Code appeared first on Towards Data Science .",
-      "ts": 1785078000,
-      "published": "2026-07-26T15:00:00+00:00",
-      "collected_at": "2026-07-27T01:04:06+09:00"
-    },
-    {
-      "title": "People sometimes talk about “the Jewish vote,” but what’s relevant is not really the Jewish vote or Jewish public opinion; it’s really about campaign contributions and the news media. Also similar wi…",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/26/the-jewish-vote-is-not-about-the-jewish-vote-jewish-public-opinion-is-not-about-jewish-public-opinion/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "At the end of the second world war, Jews were a bit over 3% of the U.S. population, voted at a high rate, and were concentrated in the swing state of New York. Jews had two big issues–Israel and political … Continue rea…",
-      "ts": 1785072151,
-      "published": "2026-07-26T13:22:31+00:00",
-      "collected_at": "2026-07-26T23:38:25+09:00"
-    },
-    {
-      "title": "How to Give an LLM Agent a Browser",
-      "link": "https://towardsdatascience.com/giving-an-llm-agent-a-browser/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Building a browser-use agent with OpenAI Agents SDK and Playwright MCP The post How to Give an LLM Agent a Browser appeared first on Towards Data Science .",
-      "ts": 1785070800,
-      "published": "2026-07-26T13:00:00+00:00",
-      "collected_at": "2026-07-26T23:38:25+09:00"
-    },
-    {
-      "title": "Claude Code has a hardcoded instruction telling Opus 5 not to use subagents",
-      "link": "https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://old.reddit.com/r/ClaudeCode/comments/1v6y5q2/claude_code_has_a_hardcoded_instruction_telling/ Comments URL: https://news.ycombinator.com/item?id=49056022 Points: 24 # Comments: 13",
-      "ts": 1785055506,
-      "published": "2026-07-26T08:45:06+00:00",
-      "collected_at": "2026-07-27T05:11:34+09:00"
-    },
-    {
-      "title": "Cracking the Data Science Case Study Interview",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/data-science-case-study/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Data science case study interviews are not just about writing code. They test how you think through a problem, analyze data, make decisions, and explain your approach in a way that solves a real business challenge. In t…",
-      "ts": 1785050880,
-      "published": "2026-07-26T07:28:00+00:00",
-      "collected_at": "2026-07-26T16:37:24+09:00"
-    },
-    {
-      "title": "sqlite-utils 3.39.1",
-      "link": "https://simonwillison.net/2026/Jul/26/sqlite-utils/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: sqlite-utils 3.39.1 I back-ported a fix for table.delete_where() that shipped in version 4. Tags: sqlite-utils",
-      "ts": 1785040726,
-      "published": "2026-07-26T04:38:46+00:00",
-      "collected_at": "2026-07-29T13:14:20+09:00"
     }
   ]
 }
