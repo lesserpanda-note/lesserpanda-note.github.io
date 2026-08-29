@@ -1,7 +1,47 @@
 {
-  "updated": "2026-08-29T15:43:56+09:00",
-  "count": 1049,
+  "updated": "2026-08-29T22:03:37+09:00",
+  "count": 1044,
   "items": [
+    {
+      "title": "RAG Is Not the Whole Toolkit: The NLP Techniques Real Problems Still Need",
+      "link": "https://towardsdatascience.com/rag-is-not-the-whole-toolkit-the-nlp-techniques-real-problems-still-need/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #B00] - Retrieval answers one kind of question. Classifying a request, matching free text to a reference list, reading a table, cleaning OCR noise: each has a cheaper method that…",
+      "ts": 1788008401,
+      "published": "2026-08-29T13:00:01+00:00",
+      "collected_at": "2026-08-29T22:03:32+09:00"
+    },
+    {
+      "title": "Presentation: Architecting the Data Layer for AI Agents: From Transactional Systems to MCP and Semantic Models",
+      "link": "https://www.infoq.com/presentations/enterprise-data-architecture-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Fabiane Nardon shares how TOTVS prepares enterprise data for token-hungry AI agents. She discusses balancing deterministic logic and non-deterministic LLMs across precision, security, and cost. Nardon details using data…",
+      "ts": 1788001200,
+      "published": "2026-08-29T11:00:00+00:00",
+      "collected_at": "2026-08-29T22:03:32+09:00"
+    },
+    {
+      "title": "Presentation: Architecting the Data Layer for AI Agents: From Transactional Systems to MCP and Semantic Models",
+      "link": "https://www.infoq.com/presentations/enterprise-data-architecture-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Fabiane Nardon shares how TOTVS prepares enterprise data for token-hungry AI agents. She discusses balancing deterministic logic and non-deterministic LLMs across precision, security, and cost. Nardon details using data…",
+      "ts": 1788001200,
+      "published": "2026-08-29T11:00:00+00:00",
+      "collected_at": "2026-08-29T22:03:32+09:00"
+    },
+    {
+      "title": "Cloudflare Workers Accept Inbound TCP, with gRPC the First Protocol on Top",
+      "link": "https://www.infoq.com/news/2026/08/workers-inbound-tcp-grpc/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare Workers can now accept inbound TCP connections through a new connect(socket) handler routed via Spectrum, ending an eight-year restriction to HTTP. Containers get full-duplex gRPC in any language, while Worke…",
+      "ts": 1787997300,
+      "published": "2026-08-29T09:55:00+00:00",
+      "collected_at": "2026-08-29T22:03:32+09:00"
+    },
     {
       "title": "[AINews] OpenAI shuts off Cursor",
       "link": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
@@ -10401,96 +10441,6 @@
       "ts": 1785416640,
       "published": "2026-07-30T13:04:00+00:00",
       "collected_at": "2026-07-31T00:13:42+09:00"
-    },
-    {
-      "title": "7 Machine Learning Algorithms That Still Matter",
-      "link": "https://www.kdnuggets.com/7-machine-learning-algorithms-that-still-matter",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Discover 7 essential machine learning algorithms that every data scientist should know before reaching for LLMs and generative AI, with simple explanations and practical Python code.",
-      "ts": 1785412846,
-      "published": "2026-07-30T12:00:46+00:00",
-      "collected_at": "2026-07-30T21:47:38+09:00"
-    },
-    {
-      "title": "Quiz: NumPy Tutorial: Your First Steps Into Data Science in Python",
-      "link": "https://realpython.com/quizzes/numpy-tutorial/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your NumPy knowledge of arrays, axes, broadcasting, indexing, masks, and data types, the foundation of data science in Python.",
-      "ts": 1785412800,
-      "published": "2026-07-30T12:00:00+00:00",
-      "collected_at": "2026-07-30T21:47:38+09:00"
-    },
-    {
-      "title": "How to Decode the Temperature Parameter in LLMs",
-      "link": "https://towardsdatascience.com/decoding-the-temperature-parameter-in-llms/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "How statistical physics explains the transition from deterministic predictions to generative AI. The post How to Decode the Temperature Parameter in LLMs appeared first on Towards Data Science .",
-      "ts": 1785412800,
-      "published": "2026-07-30T12:00:00+00:00",
-      "collected_at": "2026-07-30T21:47:38+09:00"
-    },
-    {
-      "title": "Ontologies Are So Back: Why AI Agents Are Reviving the Semantic Web",
-      "link": "https://www.latent.space/p/ontologies-agentic-systems",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "AI engineers are rediscovering ontologies as a way to keep probabilistic agents inside deterministic boundaries.",
-      "ts": 1785410275,
-      "published": "2026-07-30T11:17:55+00:00",
-      "collected_at": "2026-07-30T21:47:38+09:00"
-    },
-    {
-      "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-      "link": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learn…",
-      "ts": 1785406519,
-      "published": "2026-07-30T10:15:19+00:00",
-      "collected_at": "2026-07-30T19:28:22+09:00"
-    },
-    {
-      "title": "Advancing the price-performance frontier with GPT-5.6",
-      "link": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale.",
-      "ts": 1785405600,
-      "published": "2026-07-30T10:00:00+00:00",
-      "collected_at": "2026-07-31T02:39:22+09:00"
-    },
-    {
-      "title": "Agent-Manager: A Tmux TUI for Running Claude Code, Codex and OpenCode",
-      "link": "https://github.com/YoanWai/agent-manager",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/YoanWai/agent-manager Comments URL: https://news.ycombinator.com/item?id=49107749 Points: 27 # Comments: 15",
-      "ts": 1785404067,
-      "published": "2026-07-30T09:34:27+00:00",
-      "collected_at": "2026-07-30T21:47:38+09:00"
-    },
-    {
-      "title": "AWS Lambda's Self-Managed Code Storage Lifts the Account Quota, Not the Function Size Limit",
-      "link": "https://www.infoq.com/news/2026/07/lambda-self-managed-storage/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS Lambda can now reference deployment packages directly in customer-owned S3 buckets, removing the per-Region code storage quota and raising the managed default from 75 GB to 300 GB. Per-function package limits are un…",
-      "ts": 1785398220,
-      "published": "2026-07-30T07:57:00+00:00",
-      "collected_at": "2026-07-30T19:28:22+09:00"
-    },
-    {
-      "title": "Introducing Sheetmusic4J, a Java(FX) Library to Render and Interact with Sheet Music",
-      "link": "https://foojay.io/today/introducing-sheetmusic4j-a-javafx-library-to-render-and-interact-with-sheet-music/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "I'm building MelodyMatrix with my son, an application to look at and play along with music. The app already shows a song in different views: falling blocks, chords, guitar views, and many more. Now we want a Learn secti…",
-      "ts": 1785396480,
-      "published": "2026-07-30T07:28:00+00:00",
-      "collected_at": "2026-07-30T16:36:33+09:00"
     }
   ]
 }
