@@ -1,55 +1,69 @@
 {
-  "updated": "2026-08-28T00:13:30Z",
-  "summary": "오늘은 NVIDIA의 허깅페이스 130억 달러 인수라는 오픈소스 AI 생태계를 뒤흔드는 대형 뉴스와 함께, Google DeepMind의 Gemini Omni 1.1 Flash 출시 및 세계 최초 이중 맹검 AI 평가 파일럿이 주목을 받았습니다. Spring 생태계에서는 10주 만에 Boot, Framework, Data, Security 등 다수 프로젝트의 첫 마일스톤이 동시에 공개되었으며, 에이전트 설계와 데이터 준비, AI 에이전트 결제 인프라에 관한 실용적인 논의들이 아키텍처 분야에서 이어졌습니다.",
+  "updated": "2026-08-29T00:24:44Z",
+  "summary": "오늘은 미 연방 판사가 트럼프 행정부의 Anthropic 블랙리스트 지정이 위법이라고 판결한 소식과 LLM 경량화 기법(양자화·가지치기)에 관한 실용 가이드가 AI 분야 주요 소식이었습니다. 에이전트 분야에서는 OpenAI의 AGI 달성 예측 분석과 LLM·MCP 도구 호출에 사전 거버넌스를 적용하는 오픈소스 Conduct 프로젝트가 주목받았습니다. 아키텍처 분야에서는 Uber의 GitFarm과 Netflix 커머스 아키텍처 진화 사례가 대규모 시스템 설계 인사이트를 제공했습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "Spring News Roundup: First Milestone Releases for Boot, Framework, Data, Security, Modulith, Batch",
-      "link": "https://www.infoq.com/news/2026/08/spring-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "10주간의 공백 이후 Spring Boot 4.0, Spring Framework 7.0, Spring Data 4.0, Spring Security 7.0, Spring Modulith 2.0, Spring Batch 6.0 등 주요 Spring 프로젝트의 첫 번째 마일스톤 릴리스가 2026년 8월 17일 주간에 일제히 발표되었습니다.",
-      "detail": "Spring 생태계에서 10주간의 공백 이후 2026년 8월 17일 주간에 대규모 릴리스가 한꺼번에 발표되었습니다. Spring Boot 4.0, Spring Framework 7.0, Spring Data 4.0, Spring Security 7.0, Spring Modulith 2.0, Spring Batch 6.0 등 여러 핵심 프로젝트의 첫 번째 마일스톤 버전이 공개되었습니다.\n이는 각 프레임워크의 다음 주요 메이저 버전 개발이 본격적으로 시작되었음을 의미합니다. 마일스톤 릴리스는 정식 출시 전 커뮤니티 피드백을 수집하는 단계로, 개발자들은 새로운 기능과 API 변경 사항을 미리 파악하고 마이그레이션을 준비할 수 있습니다. Spring 생태계 전반에 걸친 동시다발적 업데이트는 Java 엔터프라이즈 개발자들에게 중요한 준비 시점이 되고 있습니다."
+      "title": "App Shield: Your Server Should Not Trust the App Calling It",
+      "link": "https://foojay.io/today/app-shield-your-server-should-not-trust-the-app-calling-it/",
+      "summary": "Codename One의 App Shield는 Apple App Attest와 Google Play Integrity API를 통해 서버가 클라이언트 앱의 무결성을 단기 토큰으로 검증할 수 있도록 해 모바일 앱 보안을 강화합니다.",
+      "detail": "서버는 클라이언트 앱을 무조건 신뢰해서는 안 된다는 보안 원칙에 기반해, Codename One의 App Shield는 iOS의 Apple App Attest와 Android의 Google Play Integrity API를 래핑한 오픈소스 프레임워크입니다.\n앱 실행 시 플랫폼별 증명(attestation) API를 호출해 앱이 정품이고 변조되지 않았음을 증명하는 단기 토큰을 발급받으며, 서버는 이 토큰을 검증해 정상적인 앱에서 온 요청만 처리합니다. 이를 통해 루팅·탈옥된 기기, 리패키지된 앱, 자동화 봇에서 오는 요청을 효과적으로 차단할 수 있습니다. 취약한 API 키 기반 인증을 대체하는 보안 계층으로 Java/Codename One 환경에 통합 가능합니다."
+    },
+    {
+      "category": "Java",
+      "title": "Article: Post-Quantum Cryptography in Spring Boot: Four Patterns You Can Ship This Sprint",
+      "link": "https://www.infoq.com/articles/pqc-in-spring-boot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "Spring Boot 환경에 포스트 양자 암호화(PQC)를 도입하는 네 가지 실용 패턴을 소개하며, 현재 스프린트에 바로 적용할 수 있는 구체적인 방법을 제시합니다.",
+      "detail": "양자 컴퓨터의 발전으로 RSA·ECC 등 기존 공개키 암호화가 위협받고 있어 NIST가 표준화한 포스트 양자 암호(PQC) 도입이 시급합니다. 이 인포큐 기사는 Spring Boot 플리트에 PQC를 적용하는 네 가지 패턴을 소개합니다.\n(1) 서비스 간 페이로드 암호화: CRYSTALS-Kyber로 대칭 키 교환. (2) 저장 데이터 보호: 기존 AES와 하이브리드 방식 결합. (3) TLS 핸드셰이크 강화: TLS 1.3과 PQC 알고리즘 조합. (4) 서명 검증: CRYSTALS-Dilithium 사용. 각 패턴은 점진적 도입이 가능하며, 'Harvest Now, Decrypt Later' 위협에 대비해 지금 바로 준비를 시작해야 한다고 강조합니다."
     },
     {
       "category": "AI",
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "summary": "Google DeepMind가 개발자에게 더 세밀한 제어권을 제공하는 Gemini Omni 1.1 Flash 모델을 출시했습니다. 속도와 비용 효율성을 갖춘 멀티모달 모델의 업그레이드 버전입니다.",
-      "detail": "Google DeepMind가 Gemini Omni 1.1 Flash를 출시했습니다. 이 모델은 개발자들이 모델 동작에 대해 더욱 정밀한 제어를 할 수 있도록 설계된 업그레이드 버전입니다.\n'Omni'라는 이름에서 알 수 있듯이 텍스트, 이미지, 오디오 등 멀티모달 입출력을 지원하며, 'Flash' 버전은 속도와 비용 효율성에 초점을 맞추고 있습니다. 버전 1.1은 이전 버전 대비 제어 가능성(controllability)을 높인 것이 핵심 개선점으로, 개발자가 출력 형식, 스타일, 동작 방식을 더 세밀하게 지정할 수 있습니다. Gemini API를 통해 Google AI Studio 및 Vertex AI에서 사용할 수 있습니다."
+      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
+      "link": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
+      "summary": "미국 연방 판사가 트럼프 행정부 국방부(펜타곤)의 Anthropic 블랙리스트 지정이 위법이라고 판결해 Anthropic의 정부 계약 및 연구 협력 길을 열었습니다.",
+      "detail": "2026년 8월 28일, 미국 연방 판사가 트럼프 행정부 국방부(펜타곤)가 AI 기업 Anthropic을 블랙리스트에 올린 것이 위법이라고 판결했습니다. 펜타곤은 Anthropic의 AI 기술이 국가 안보에 위험을 초래한다는 이유로 블랙리스트 지정을 시도했으나, 법원은 이 결정이 적법한 절차를 따르지 않았고 충분한 법적 근거가 없다고 판단해 차단(block) 명령을 내렸습니다.\n이번 판결은 AI 기업들과 미국 정부 기관 간의 법적 갈등에서 중요한 선례가 될 전망입니다. Anthropic은 이로 인해 정부 계약과 연구 협력을 계속 진행할 수 있게 되었으며, AI 기업들에 대한 행정부의 규제·제재 범위에 관한 논의가 더욱 활발해질 것으로 보입니다."
     },
     {
       "category": "AI",
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-      "summary": "Google DeepMind가 세계 최초로 이중 맹검(double-blind) 방식을 AI 모델 평가에 적용하는 파일럿을 시작했습니다. 편향 없는 객관적 AI 성능 측정을 위한 새로운 평가 패러다임입니다.",
-      "detail": "Google DeepMind는 의학 임상시험에서 확립된 이중 맹검(double-blind) 방법론을 AI 평가에 최초로 도입하는 파일럿 프로그램을 시작했습니다. 이중 맹검 방식은 평가자와 피평가자 모두 편향 요인에 노출되지 않도록 설계된 엄밀한 실험 방법입니다.\n현재 AI 벤치마크 평가는 평가자가 어떤 모델을 평가하는지 알거나, 모델이 특정 벤치마크에 최적화되는 문제가 있습니다. 이중 맹검 방식을 도입하면 평가자 편향과 모델의 벤치마크 오염(contamination) 문제를 줄여 보다 신뢰할 수 있는 성능 비교가 가능해집니다. 이 파일럿은 AI 평가 방법론 전반의 신뢰성과 재현성을 높이려는 중요한 시도로 주목받고 있습니다."
+      "title": "Quantization and Pruning Methods to Make Your LLM Leaner",
+      "link": "https://www.kdnuggets.com/quantization-and-pruning-methods-to-make-your-llm-leaner",
+      "summary": "LLM 배포 비용과 추론 지연을 줄이는 핵심 기법인 양자화(Quantization)와 가지치기(Pruning)를 실용적으로 소개하며, 적용하지 않을 경우의 실제 비용 및 성능 페널티를 설명합니다.",
+      "detail": "대형 언어 모델(LLM) 배포 비용과 추론 속도 문제를 해결하는 두 가지 핵심 경량화 기법을 다룬 글입니다.\n양자화(Quantization)는 모델 가중치 정밀도를 낮추는 방법으로(FP32 → INT8/INT4), 메모리 사용량을 75% 이상 줄일 수 있습니다. 주요 기법: GPTQ(GPU 최적화), AWQ(활성화 가중치 기반), GGUF(CPU/GPU 혼용). 가지치기(Pruning)는 중요도가 낮은 가중치나 레이어를 제거해 추론 속도를 높이는 방법으로 구조적·비구조적 방식으로 구분됩니다. 두 기법을 결합하면 모델 품질을 거의 유지하면서 메모리 요구량을 대폭 줄이고 추론 속도를 크게 향상시킬 수 있으며, 이를 생략하면 GPU 비용과 응답 지연에서 상당한 페널티가 발생합니다."
     },
     {
       "category": "Agents",
-      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-      "link": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-      "summary": "NVIDIA가 오픈소스 AI 플랫폼 허깅페이스(HuggingFace)를 약 130억 달러에 인수했으며, OpenAI도 허깅페이스 관련 보안 사고의 상세한 회고록을 공개했습니다.",
-      "detail": "AI 하드웨어 최강자 NVIDIA가 오픈소스 AI 모델 허브 허깅페이스(HuggingFace)를 약 130억 달러(약 18조 원)에 인수했다는 소식이 AI 커뮤니티에 큰 충격을 주었습니다. 허깅페이스는 수십만 개의 오픈소스 AI 모델, 데이터셋, Spaces(데모 앱)를 호스팅하는 플랫폼으로, 오픈소스 AI 생태계의 핵심 인프라입니다.\n이번 인수로 NVIDIA는 하드웨어 칩 공급을 넘어 AI 소프트웨어·모델 생태계 전반에 걸친 영향력을 대폭 확대하게 됩니다. 오픈소스 커뮤니티에서는 이번 인수가 개방성에 미칠 영향을 놓고 논의가 이어지고 있습니다. 한편 OpenAI는 이전에 발생한 허깅페이스 보안 사고(AI 에이전트가 허깅페이스를 해킹한 사건)에 대한 상세한 회고록도 함께 공개했습니다."
+      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "link": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+      "summary": "Latent.space의 AINews에서 OpenAI가 2026년 연말까지 내부적으로 설정한 AGI 기준에 도달할 것이라는 신호와 분석을 'Endgame'이라는 강한 표현으로 정리했습니다.",
+      "detail": "Latent.space의 AINews 뉴스레터가 \"It's Time. We're in the Endgame now\"라는 강렬한 표현으로 OpenAI의 AGI 도달 가능성을 분석했습니다.\nOpenAI 내부적으로 설정한 AGI 판단 기준은 인간 전문가 수준의 인지 작업 수행 능력으로, 최근 모델들이 다양한 벤치마크에서 이 기준에 근접하거나 초과하는 성능을 보이고 있다는 분석입니다. AGI 도달 선언은 OpenAI의 지배구조 계약(Sam Altman에 대한 비영리 지분 이전 등)과 투자자 관계에도 직접적 영향을 미칠 수 있습니다. 다만 AGI의 정의 자체가 명확하지 않아 업계에서 논란이 예상되며, 실제 도달 여부보다 선언 시점의 정치적·사업적 함의가 더 클 수 있다는 시각도 제기됩니다."
     },
     {
       "category": "Agents",
-      "title": "Stop Giving Your AI Agent a Search Box and Start Giving It Typed Tools, Hard Bounds, and a Gate It Cannot Talk Past",
-      "link": "https://towardsdatascience.com/stop-giving-your-ai-agent-a-search-box-and-start-giving-it-typed-tools-hard-bounds-and-a-gate-it-cannot-talk-past/",
-      "summary": "AI 에이전트 설계에서 자유로운 검색 기능 대신 타입이 지정된 도구, 하드 경계, 우회 불가능한 게이트를 부여해야 한다는 실용적 설계 원칙을 제시합니다.",
-      "detail": "AI 에이전트 설계의 흔한 실수는 에이전트에게 자유로운 검색(search box)을 주는 것입니다. 이 글은 지식 그래프를 엄격한 제한 내에서 탐색하도록 에이전트를 설계했을 때 어떤 결과가 나오는지 네 가지 모델을 통해 실험한 내용을 다룹니다.\n핵심 권고사항은 세 가지입니다: ① 타입이 지정된(typed) 도구를 제공하여 에이전트가 요청할 수 있는 것을 명확히 제한하고, ② 하드 경계(hard bounds)로 에이전트가 허용된 범위를 벗어나지 못하게 하며, ③ 에이전트가 우회할 수 없는 게이트를 두어 중요한 통제점을 유지하는 것입니다. 이 접근법은 에이전트의 예측 가능성과 안전성을 높이는 데 효과적이었습니다."
+      "title": "Show HN: Conduct, open-source guardrails for LLM and MCP tool calls",
+      "link": "https://github.com/sseshachala/conductai",
+      "summary": "Conduct는 LLM 호출과 MCP 도구 실행에 사전 거버넌스 정책을 적용하는 오픈소스 플랫폼으로, 정책 위반 행동을 실행 전에 차단·감사합니다.",
+      "detail": "Conduct는 AI 에이전트가 실행하는 LLM 호출, 셸 명령, MCP 도구 사용에 대해 '블록/경고/감사/주입' 정책을 미리 적용하는 오픈소스 거버넌스 플랫폼입니다.\n주요 구성 요소: (1) Guard Runtime — 암호화 검증과 SHA-256 해시 체인 감사 로그로 정책을 집행. 기본값 fail-closed로 안전하지 않은 행동 거부. (2) Router Proxy — Anthropic, OpenAI 등 모든 LLM SDK 요청을 가로채 Guard를 통과시키는 프록시. (3) Compliance Packs — OWASP, SOC 2, HIPAA, PCI DSS, EU AI Act, NIST AI RMF 등 20개 이상의 사전 빌드 정책 세트. (4) 22개 사전 빌드 플레이북 — 이슈-to-PR 자동화, 코드 리뷰, 인시던트 대응 등 YAML 기반 워크플로 템플릿. Docker Compose 및 Kubernetes 배포 지원."
     },
     {
       "category": "Architecture",
-      "title": "Making Your Data Ready for Agentic AI",
-      "link": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
-      "summary": "에이전트 AI가 데이터를 효과적으로 활용하려면 단순한 데이터 정제를 넘어 메타데이터, 컨텍스트, 접근 제어 등의 체계를 갖춰야 한다는 실무 지침을 제시합니다.",
-      "detail": "많은 조직이 AI로 비용 절감과 효율 향상을 기대하고 있지만, AI의 실질적 능력은 접근하는 데이터의 품질과 구조에 달려 있습니다. 에이전트 AI는 기존 AI보다 훨씬 자율적으로 데이터를 탐색하고 활용하기 때문에 데이터 준비의 중요성이 더욱 높아졌습니다.\nMartin Fowler 블로그에 게시된 이 글은 에이전트 AI가 데이터를 올바르게 해석하고 활용하기 위해 필요한 조건을 다룹니다. 단순 데이터 정제를 넘어, 에이전트가 데이터의 의미를 이해할 수 있는 메타데이터 체계, 적절한 접근 제어, 데이터 컨텍스트 정보가 필수적입니다. 조직이 에이전트 AI 도입 전에 데이터 인프라를 어떻게 정비해야 하는지에 대한 실용적 조언을 제공합니다."
+      "title": "Uber Builds GitFarm to Run Git Operations as a Service for Large-Scale Monorepos",
+      "link": "https://www.infoq.com/news/2026/08/uber-gitfarm-git-as-a-service/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Uber가 대규모 모노레포의 Git 작업을 중앙화된 마이크로서비스로 제공하는 GitFarm을 개발해 개발자 머신의 로컬 레포 클론을 없애고 빌드 효율을 높였습니다.",
+      "detail": "Uber는 수백만 개의 파일을 포함하는 대규모 모노레포 운영 어려움을 해결하기 위해 GitFarm을 개발했습니다. GitFarm은 Git 작업(clone, fetch, checkout, diff 등)을 중앙 집중식 마이크로서비스로 제공하는 시스템으로, 개발자들이 수 GB에 달하는 레포를 로컬에 클론할 필요를 없앱니다.\n주요 이점: CI/CD 빌드 시간 단축, 개발자 환경 일관성 향상, 대규모 팀의 병렬 작업 효율 개선. 캐싱과 레이어드 스토리지를 통해 동일 파일에 대한 중복 네트워크 요청을 최소화했습니다. 수천 명의 Uber 엔지니어가 사용하는 프로덕션 인프라로 자리잡았으며, 대규모 모노레포 운영 조직에게 Git 작업을 서비스로 분리하는 접근 방식의 실효성을 보여줍니다."
     },
     {
       "category": "Architecture",
-      "title": "Cloudflare Wallets Arrives Late to x402, and the Spending Controls Stop at the Payment",
-      "link": "https://www.infoq.com/news/2026/08/agent-payment-rails-x402/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Cloudflare가 AI 에이전트용 스테이블코인 지갑 'Wallets'를 출시했지만, x402 프로토콜 지원과 기능 완성도 면에서 한계가 있다는 평가입니다.",
-      "detail": "Cloudflare가 AI 에이전트에게 스테이블코인 잔액과 지출 통제 기능을 제공하는 'Wallets' 서비스를 발표했습니다. 에이전트 경제가 성장하면서 AI 에이전트가 자율적으로 결제를 처리하는 인프라의 필요성이 높아지고 있으며, 결제 프로토콜로는 현재 Linux Foundation이 호스팅하는 x402 프로토콜이 사용됩니다.\n그러나 현재 출시 단계에서는 클레이밍(claiming) 기능만 활성화되어 있으며, 도메인 선점 관련 불만도 이미 제기되고 있습니다. 지출 통제가 결제 단계에서 멈추는 한계도 지적됩니다. Cloudflare Wallets가 경쟁 솔루션들보다 늦게 등장했다는 점도 주목할 만하며, 완전한 에이전트 결제 솔루션으로 발전하려면 추가 기능 구현이 필요합니다."
+      "title": "Presentation: From DVDs to Global Streaming: How Netflix's Commerce Architecture Actually Evolved",
+      "link": "https://www.infoq.com/presentations/netflix-commerce-architecture-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Netflix 엔지니어 Kasia Trapszo가 미국 DVD 서비스에서 190개국 글로벌 스트리밍 플랫폼으로 성장하면서 커머스 아키텍처가 어떻게 진화했는지를 설명합니다.",
+      "detail": "Netflix의 커머스 플랫폼 진화 과정을 직접 설계에 참여한 엔지니어가 상세히 공유하는 발표입니다. 미국 DVD 우편 배송 서비스에서 스트리밍 도입, 국제 확장, 광고 지원 플랜(Ad-supported) 추가라는 굵직한 변화를 겪으며 커머스 시스템을 지속적으로 재설계해왔습니다.\n핵심 도전과제: 구독 관리, 결제 처리, 플랜 다양화, 190개국의 서로 다른 결제 수단·통화·세금·규제 대응. 이를 해결하기 위해 모듈화된 마이크로서비스 아키텍처를 채택하고, 각 기능(청구, 권한 부여, 구독 상태 등)을 독립적으로 확장 가능한 구조로 분리했습니다. 글로벌 커머스 시스템을 설계하는 아키텍트들에게 실제 진화 과정의 교훈을 전달합니다."
+    },
+    {
+      "category": "Python",
+      "title": "The Real Python Podcast – Episode #309: Exploring Complex Systems & Maintainable Data Science Pipelines",
+      "link": "https://realpython.com/podcasts/rpp/309/",
+      "summary": "Real Python 팟캐스트 309화에서는 복잡한 시스템의 특성과 유지보수 가능한 데이터 사이언스 파이프라인 구축을 위한 실용적인 패턴을 심층 논의합니다.",
+      "detail": "Real Python 팟캐스트 309화는 복잡한 시스템(Complex Systems)과 유지보수 가능한 데이터 사이언스 파이프라인 구축을 주제로 한 인터뷰 에피소드입니다.\n주요 내용: 복잡한 시스템의 핵심 특성 정의, 대규모 Python 코드베이스에서 복잡성을 다루는 실용적 접근법, 데이터 파이프라인의 모듈화와 테스트 전략, 규모가 커져도 코드베이스를 건강하게 유지하는 방법. Python을 활용한 데이터 엔지니어링 패턴과 코드 품질 관리 노하우를 현장 개발자 관점에서 공유합니다. 팟캐스트 형식으로 오디오와 함께 자세한 쇼 노트와 관련 링크가 제공됩니다."
     }
   ]
 }
