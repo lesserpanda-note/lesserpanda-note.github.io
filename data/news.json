@@ -1,7 +1,37 @@
 {
-  "updated": "2026-08-30T19:22:33+09:00",
-  "count": 1020,
+  "updated": "2026-08-31T00:15:09+09:00",
+  "count": 1003,
   "items": [
+    {
+      "title": "Context Engineering Is Changing. Here’s What It Means for Data Scientists",
+      "link": "https://towardsdatascience.com/context-engineering-is-changing-heres-what-it-means-for-data-scientists/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "How to apply the latest context engineering guidelines to your day-to-day data science work The post Context Engineering Is Changing. Here’s What It Means for Data Scientists appeared first on Towards Data Science .",
+      "ts": 1788102002,
+      "published": "2026-08-30T15:00:02+00:00",
+      "collected_at": "2026-08-31T00:14:50+09:00"
+    },
+    {
+      "title": "Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves",
+      "link": "https://towardsdatascience.com/noisy-text-in-rag-typos-ocr-and-the-gap-classical-spell-check-leaves/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #B1] - Three sources of one problem. User typos, fast-typing transcription noise, OCR character errors. Classical spell-check handles one of them. Embeddings carry the rest The po…",
+      "ts": 1788094802,
+      "published": "2026-08-30T13:00:02+00:00",
+      "collected_at": "2026-08-31T00:14:50+09:00"
+    },
+    {
+      "title": "NetBeans DataWrangler: Query, Convert, and Edit Data Analytics Files",
+      "link": "https://foojay.io/today/netbeans-datawrangler-query-convert-and-edit-data-analytics-files/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Apache NetBeans DataWrangler brings the file formats of data analytics into Apache NetBeans 31: CSV, Apache Parquet, JSON and Excel, the formats exchanged with pandas, Spark, R, dbt, Power BI and Excel itself. You can q…",
+      "ts": 1788085543,
+      "published": "2026-08-30T10:25:43+00:00",
+      "collected_at": "2026-08-31T00:14:50+09:00"
+    },
     {
       "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
       "link": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -10001,206 +10031,6 @@
       "ts": 1785514726,
       "published": "2026-07-31T16:18:46+00:00",
       "collected_at": "2026-08-01T02:42:30+09:00"
-    },
-    {
-      "title": "Advancing responsible AI across Europe",
-      "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
-      "ts": 1785510000,
-      "published": "2026-07-31T15:00:00+00:00",
-      "collected_at": "2026-07-31T18:48:07+09:00"
-    },
-    {
-      "title": "Building abundant intelligence",
-      "link": "https://openai.com/index/building-abundant-intelligence",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
-      "ts": 1785510000,
-      "published": "2026-07-31T15:00:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "When the Code Becomes the CEO: Why Your Next Manager Might Be a Decentralized Agentic Loop",
-      "link": "https://towardsdatascience.com/when-the-code-becomes-the-ceo-why-your-next-manager-might-be-a-decentralized-agentic-loop/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "In five to ten years, the sharpest manager in your company might not be human, might not sleep, and might exist entirely in shared GPU memory. This is the systems-level view of the algorithmic corporation — why middle m…",
-      "ts": 1785510000,
-      "published": "2026-07-31T15:00:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "1.15.10",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.10",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Collect skill usage events Documentation Remove migrated AMP documentation Update security reporting guidelines Snapshot and changelog for v1.15.9 Contributors @gvieira , @joaomdmoura , @theCyber…",
-      "ts": 1785509857,
-      "published": "2026-07-31T14:57:37+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "Dropbox Integrates MCP and Dash to Close the Gap Between Security Design and Code Review",
-      "link": "https://www.infoq.com/news/2026/07/dropbox-mcp-ai-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Dropbox has integrated Model Context Protocol (MCP) with its internal knowledge platform, Dash, to surface security design context during AI assisted code reviews. The system retrieves threat models and security require…",
-      "ts": 1785508560,
-      "published": "2026-07-31T14:36:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "Dropbox Integrates MCP and Dash to Close the Gap Between Security Design and Code Review",
-      "link": "https://www.infoq.com/news/2026/07/dropbox-mcp-ai-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Dropbox has integrated Model Context Protocol (MCP) with its internal knowledge platform, Dash, to surface security design context during AI assisted code reviews. The system retrieves threat models and security require…",
-      "ts": 1785508560,
-      "published": "2026-07-31T14:36:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "Using a Transformer Model: From Training to Inference",
-      "link": "https://machinelearningmastery.com/using-a-transformer-model-from-training-to-inference/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "This chapter is divided into four parts; they are: • Autoregressive Generation • Prefill and Decode • A Simple KV Cache • Memory Usage of the KV Cache A decoder-only transformer model predicts the next token from the to…",
-      "ts": 1785507754,
-      "published": "2026-07-31T14:22:34+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "datasette-agent 0.4a0",
-      "link": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette-agent 0.4a0 New await context.browser_task() mechanism allowing agent tools to run code directly in the user's browser. #33 This is an exciting new capability: it makes it easy for Datasette Agent plu…",
-      "ts": 1785507263,
-      "published": "2026-07-31T14:14:23+00:00",
-      "collected_at": "2026-08-01T12:20:19+09:00"
-    },
-    {
-      "title": "Building Voice-Controlled AI Agents",
-      "link": "https://www.kdnuggets.com/building-voice-controlled-ai-agents",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Building a voice-controlled AI agents isn't hard, this article breaks the pipeline into its real components: streaming speech recognition, turn detection, streaming generation, interruption handling, and tool calling un…",
-      "ts": 1785506406,
-      "published": "2026-07-31T14:00:06+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "Know Kotlin? Ship It Everywhere and Win at Shipaton 2026",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/know-kotlin-ship-it-everywhere-and-win-at-shipaton-2026/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Somewhere in your notes there’s an app idea waiting for a free weekend that never comes. Consider this its official deadline: RevenueCat Shipaton 2026, the world’s biggest mobile hackathon, runs August 1 to September 30…",
-      "ts": 1785505773,
-      "published": "2026-07-31T13:49:33+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "Know Kotlin? Ship It Everywhere and Win at Shipaton 2026",
-      "link": "https://blog.jetbrains.com/kotlin/2026/07/know-kotlin-ship-it-everywhere-and-win-at-shipaton-2026",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Somewhere in your notes there’s an app idea waiting for a free weekend that never comes. Consider this its official deadline: RevenueCat Shipaton 2026, the world’s biggest mobile hackathon, runs August 1 to September 30…",
-      "ts": 1785505773,
-      "published": "2026-07-31T13:49:33+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "The Conductor Developer",
-      "link": "https://martinfowler.com/rachels-ramblings/conductor-developer.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "TL;DR Why I think software development is starting to feel a little more like conducting an orchestra. There’s a shift happening in software development that I don’t think we’re talking about clearly enough. For the las…",
-      "ts": 1785505680,
-      "published": "2026-07-31T13:48:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "What do we learn from bestseller regressions?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/07/31/what-do-we-learn-from-bestseller-regressions/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Gaurav Sood writes: I was reading ‘The Bestseller Code.’ The book reports results from some regressions of the form: bestseller or not ~ features of content This got me thinking about what you can recover from such an e…",
-      "ts": 1785505137,
-      "published": "2026-07-31T13:38:57+00:00",
-      "collected_at": "2026-08-01T02:42:30+09:00"
-    },
-    {
-      "title": "How to Debug AI Coding Agents When They Change the Wrong Thing",
-      "link": "https://towardsdatascience.com/how-to-debug-ai-coding-agents-when-they-change-the-wrong-thing/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A practical tutorial for recording model tool requests, real function results, patches, checks, screenshots, and a saved run log. The post How to Debug AI Coding Agents When They Change the Wrong Thing appeared first on…",
-      "ts": 1785504600,
-      "published": "2026-07-31T13:30:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "5 Books That Will Deepen Your Understanding of Large Language Models",
-      "link": "https://www.kdnuggets.com/5-books-that-will-deepen-your-understanding-of-large-language-models",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Check out these five books on building, fine-tuning, and deploying large language models.",
-      "ts": 1785499244,
-      "published": "2026-07-31T12:00:44+00:00",
-      "collected_at": "2026-07-31T21:03:22+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #305: Should You Understand Your Entire Python Codebase?",
-      "link": "https://realpython.com/podcasts/rpp/305/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Should you understand the entirety of your codebase? How familiar are you with Python's built-in functions? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles and projects.",
-      "ts": 1785499200,
-      "published": "2026-07-31T12:00:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "Quiz: 11 Beginner Tips for Learning Python Programming",
-      "link": "https://realpython.com/quizzes/python-beginner-tips/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your knowledge of the habits that help you learn Python, from coding daily to asking good questions and building your first project.",
-      "ts": 1785499200,
-      "published": "2026-07-31T12:00:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "How Benders Decomposition Works Part I: Optimality Cuts",
-      "link": "https://towardsdatascience.com/how-benders-decomposition-works-part-i-optimality-cuts/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A friendly introduction to one of the most powerfull optimization techniques using the uncapacitated facility location problem The post How Benders Decomposition Works Part I: Optimality Cuts appeared first on Towards D…",
-      "ts": 1785499200,
-      "published": "2026-07-31T12:00:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "Presentation: The Free-Lunch Guide to Idea Circularity",
-      "link": "https://www.infoq.com/presentations/tech-hype-cycles-architectural-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Holly Cummins discusses why \"nothing is new under the sun\" in tech. She maps historical architectural tradeoffs to modern cloud, microservices, and AI hype cycles. She connects financial debt (post-ZIRP) and technical d…",
-      "ts": 1785495600,
-      "published": "2026-07-31T11:00:00+00:00",
-      "collected_at": "2026-07-31T21:03:22+09:00"
-    },
-    {
-      "title": "Presentation: The Free-Lunch Guide to Idea Circularity",
-      "link": "https://www.infoq.com/presentations/tech-hype-cycles-architectural-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Holly Cummins discusses why \"nothing is new under the sun\" in tech. She maps historical architectural tradeoffs to modern cloud, microservices, and AI hype cycles. She connects financial debt (post-ZIRP) and technical d…",
-      "ts": 1785495600,
-      "published": "2026-07-31T11:00:00+00:00",
-      "collected_at": "2026-08-03T17:32:07+09:00"
     }
   ]
 }
