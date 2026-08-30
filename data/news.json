@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-30T09:15:25+09:00",
-  "count": 1028,
+  "updated": "2026-08-30T19:22:33+09:00",
+  "count": 1020,
   "items": [
+    {
+      "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
+      "link": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Amazon recently announced Kiro Crew, an open-source system for running multiple Kiro coding agents across sessions, tools, and tasks. The new workspace lets developers assign asynchronous coding tasks to AI agents, allo…",
+      "ts": 1788078180,
+      "published": "2026-08-30T08:23:00+00:00",
+      "collected_at": "2026-08-30T19:22:16+09:00"
+    },
     {
       "title": "Introducing Hy4 Preview",
       "link": "https://simonwillison.net/2026/Aug/29/hy4/",
@@ -10191,96 +10201,6 @@
       "ts": 1785495600,
       "published": "2026-07-31T11:00:00+00:00",
       "collected_at": "2026-08-03T17:32:07+09:00"
-    },
-    {
-      "title": "Keeping Java Hot This Summer: August 2026 US & Canada JUG Tour with Simon Ritter",
-      "link": "https://foojay.io/today/keeping-java-hot-this-summer-august-2026/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Summer conference season goes quiet. Most major Java events wrap by June, CFPs go dark while we're waiting for the results and a lot of us - if we decide to carry on with the work - use August to ... The post Keeping Ja…",
-      "ts": 1785491418,
-      "published": "2026-07-31T09:50:18+00:00",
-      "collected_at": "2026-07-31T21:03:22+09:00"
-    },
-    {
-      "title": "July 2026 AI Releases: A Timeline of Frontier Model Shifts",
-      "link": "https://www.analyticsvidhya.com/blog/2026/07/july-2026-ai-models-releases/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "July 2026 was the busiest month for frontier model releases the field has seen. Four major labs shipped flagship or near-flagship models, two well funded newcomers shipped their first, and the largest open weight model…",
-      "ts": 1785488461,
-      "published": "2026-07-31T09:01:01+00:00",
-      "collected_at": "2026-07-31T18:48:07+09:00"
-    },
-    {
-      "title": "Article: Virtual Threads After JDK 24: What Changed for Production Java",
-      "link": "https://www.infoq.com/articles/virtual-threads-after-jdk24/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "JDK 24 removed the monitor-related carrier-thread pinning that stalled Netflix and similar teams on Java 21. What has replaced it on JDK 25 LTS is downstream-resource saturation: The bottleneck moved and now demands exp…",
-      "ts": 1785488400,
-      "published": "2026-07-31T09:00:00+00:00",
-      "collected_at": "2026-07-31T18:48:07+09:00"
-    },
-    {
-      "title": "Article: Virtual Threads After JDK 24: What Changed for Production Java",
-      "link": "https://www.infoq.com/articles/virtual-threads-after-jdk24/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "JDK 24 removed the monitor-related carrier-thread pinning that stalled Netflix and similar teams on Java 21. What has replaced it on JDK 25 LTS is downstream-resource saturation: The bottleneck moved and now demands exp…",
-      "ts": 1785488400,
-      "published": "2026-07-31T09:00:00+00:00",
-      "collected_at": "2026-07-31T18:48:07+09:00"
-    },
-    {
-      "title": "How to Create a Spring Boot Fraud Scoring Service",
-      "link": "https://foojay.io/today/how-to-create-a-spring-boot-fraud-scoring-service/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Most Java teams who want a machine learning model in production end up standing up a Python service and calling it over HTTP. That works, but it buys you, as a Java developer, a second runtime, a second deployment pipel…",
-      "ts": 1785487543,
-      "published": "2026-07-31T08:45:43+00:00",
-      "collected_at": "2026-07-31T18:48:07+09:00"
-    },
-    {
-      "title": "HTTP QUERY Method Explained: RFC 10008, Ecosystem Adoption, and a Quarkus Implementation",
-      "link": "https://foojay.io/today/http-query-method-explained-rfc-10008-ecosystem-adoption-and-a-quarkus-implementation/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "When you build a search API, you usually start with HTTP GET, the natural choice for a read operation: it is safe, idempotent, and cacheable. Then the search form grows, filters multiply, and nested criteria appear. Sin…",
-      "ts": 1785484837,
-      "published": "2026-07-31T08:00:37+00:00",
-      "collected_at": "2026-07-31T18:48:07+09:00"
-    },
-    {
-      "title": "Univé builds an AI-ready workforce",
-      "link": "https://openai.com/index/unive",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
-      "ts": 1785481200,
-      "published": "2026-07-31T07:00:00+00:00",
-      "collected_at": "2026-07-31T18:48:07+09:00"
-    },
-    {
-      "title": "Show HN: What should the GUI for AI agents look like?",
-      "link": "https://marbleos.com/demo",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS. The inspiration for Marble comes from the GUI work at Xerox PARC, the 1984 Macintosh, and later NeXTSTEP, which became the foundation for Mac OS X. Before GUIs,…",
-      "ts": 1785475049,
-      "published": "2026-07-31T05:17:29+00:00",
-      "collected_at": "2026-07-31T18:48:07+09:00"
-    },
-    {
-      "title": "[AINews] GPT 5.6 price cut by 20%-80%: Cost of GPT 5.4 Intelligence dropped 13x in 4 months due to GPT 5.6 recursive self-optimization",
-      "link": "https://www.latent.space/p/ainews-gpt-56-price-cut-by-20-80",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Distillation is all you need!",
-      "ts": 1785472854,
-      "published": "2026-07-31T04:40:54+00:00",
-      "collected_at": "2026-07-31T15:48:00+09:00"
     }
   ]
 }
