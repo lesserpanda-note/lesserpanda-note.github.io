@@ -1,7 +1,17 @@
 {
-  "updated": "2026-08-30T08:07:03+09:00",
-  "count": 1030,
+  "updated": "2026-08-30T09:15:25+09:00",
+  "count": 1028,
   "items": [
+    {
+      "title": "Introducing Hy4 Preview",
+      "link": "https://simonwillison.net/2026/Aug/29/hy4/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size i…",
+      "ts": 1788047593,
+      "published": "2026-08-29T23:53:13+00:00",
+      "collected_at": "2026-08-30T09:15:05+09:00"
+    },
     {
       "title": "Jakarta Faces, Java Web Framework, Stateless Edition: Marketplace AliFaces",
       "link": "https://foojay.io/today/jakarta-faces-java-web-framework-stateless-edition-marketplace-alifaces/",
@@ -11,6 +21,16 @@
       "ts": 1788031372,
       "published": "2026-08-29T19:22:52+00:00",
       "collected_at": "2026-08-30T05:41:06+09:00"
+    },
+    {
+      "title": "Claude Code is going reduce limits by 25% from September 14",
+      "link": "https://twitter.com/ClaudeDevs/status/2093742321473065266",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://twitter.com/ClaudeDevs/status/2093742321473065266 Comments URL: https://news.ycombinator.com/item?id=49491631 Points: 24 # Comments: 13",
+      "ts": 1788024451,
+      "published": "2026-08-29T17:27:31+00:00",
+      "collected_at": "2026-08-30T09:15:05+09:00"
     },
     {
       "title": "4 Claude Skills Every Data Scientist Needs in 2026",
@@ -10261,46 +10281,6 @@
       "ts": 1785472854,
       "published": "2026-07-31T04:40:54+00:00",
       "collected_at": "2026-07-31T15:48:00+09:00"
-    },
-    {
-      "title": "Transitioning Java to More Frequent Security Updates",
-      "link": "https://inside.java/2026/07/31/transitioning-java-to-more-frequent-security-updates/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Oracle intends to provide Java security updates more frequently than the current quarterly CPU cadence of January, April, July, and October.",
-      "ts": 1785456000,
-      "published": "2026-07-31T00:00:00+00:00",
-      "collected_at": "2026-08-01T00:22:36+09:00"
-    },
-    {
-      "title": "Advancing the price-performance frontier with GPT‑5.6",
-      "link": "https://simonwillison.net/2026/Jul/30/luna-price-drop/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Advancing the price-performance frontier with GPT‑5.6 Huge price drop from OpenAI today: GPT-5.6 Terra got a 20% reduction, and GPT-5.6 Luna got a massive 80% drop. OpenAI credit 5.6 Sol with enabling this: in How GPT‑5…",
-      "ts": 1785455922,
-      "published": "2026-07-30T23:58:42+00:00",
-      "collected_at": "2026-07-31T09:16:03+09:00"
-    },
-    {
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations",
-      "link": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Investigating three real-world incidents in our cybersecurity evaluations It happened again! This is turning into something of a pattern. Last week OpenAI accidentally exploited Hugging Face when one of their frontier m…",
-      "ts": 1785454889,
-      "published": "2026-07-30T23:41:29+00:00",
-      "collected_at": "2026-07-31T09:16:03+09:00"
-    },
-    {
-      "title": "python-1.13.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.13.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.13.0] - 2026-07-30 Added agent-framework-core , agent-framework-foundry-hosting : Add bounded, in-memory archive skill discovery for MCP sources and expose archive controls through FoundryToolbox ( #7121 ) agent-fram…",
-      "ts": 1785453753,
-      "published": "2026-07-30T23:22:33+00:00",
-      "collected_at": "2026-07-31T09:16:03+09:00"
     }
   ]
 }
