@@ -1,7 +1,267 @@
 {
-  "updated": "2026-08-31T17:22:41+09:00",
-  "count": 992,
+  "updated": "2026-09-01T01:53:34+09:00",
+  "count": 1014,
   "items": [
+    {
+      "title": "Your LLM Can Return Perfect JSON and Still Be Wrong",
+      "link": "https://towardsdatascience.com/your-llm-can-return-perfect-json-and-still-be-wrong/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "What I learned after thinking more carefully about Structured Outputs on messy, incomplete data The post Your LLM Can Return Perfect JSON and Still Be Wrong appeared first on Towards Data Science .",
+      "ts": 1788190201,
+      "published": "2026-08-31T15:30:01+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Aggregation Optimization in MongoDB: Data Duplication to Improve Read Performance (Part 4)",
+      "link": "https://foojay.io/today/aggregation-optimization-in-mongodb-data-duplication-to-improve-read-performance-part-4/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "And why MongoDB might be a better relational database than you ever realized. Design reviews are one-on-one meetings where MongoDB experts deliver advice on data modeling best practices and application design challenges…",
+      "ts": 1788187504,
+      "published": "2026-08-31T14:45:04+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "DoorDash’s Flux Runs 130,000 Engineering Tasks Through Cloud-Based Agents",
+      "link": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DoorDash has moved engineering agent workloads from developer laptops to its Flux cloud platform. The platform automated 130,000 engineering tasks in one month and supports more than 25,000 automated code reviews weekly…",
+      "ts": 1788186480,
+      "published": "2026-08-31T14:28:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "DoorDash’s Flux Runs 130,000 Engineering Tasks Through Cloud-Based Agents",
+      "link": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "DoorDash has moved engineering agent workloads from developer laptops to its Flux cloud platform. The platform automated 130,000 engineering tasks in one month and supports more than 25,000 automated code reviews weekly…",
+      "ts": 1788186480,
+      "published": "2026-08-31T14:28:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "FAQ as RAG: When You Get to Design the Corpus",
+      "link": "https://towardsdatascience.com/faq-as-rag-when-you-get-to-design-the-corpus/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #B2] - The FAQ inverts every brick of the standard RAG pipeline. Parsing is trivial, retrieval doubles as a cache, and few-shot prompting becomes a retrieval problem too The post…",
+      "ts": 1788184802,
+      "published": "2026-08-31T14:00:02+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Async Programming in Python: From Generators to asyncio",
+      "link": "https://realpython.com/python-async-features/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how Python async programming works. Write async functions with async and await, and run slow I/O operations concurrently with asyncio.",
+      "ts": 1788184800,
+      "published": "2026-08-31T14:00:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Speed Up LLM Inference with DSpark Speculative Decoding",
+      "link": "https://www.kdnuggets.com/speed-up-llm-inference-with-dspark-speculative-decoding",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Learn how DSpark speculative decoding can improve local LLM generation speed using the same GPU, with Qwen3-8B, llama.cpp, and CUDA.",
+      "ts": 1788184800,
+      "published": "2026-08-31T14:00:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Do children grow continuously or do they grow in fits and starts?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/31/fits-and-starts/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "There’s some literature on saltatory growth in children. From 1992: Saltation and Stasis: A Model of Human Growth, by Lampl, Veldhuis, and Johnson: From 1993: A case study of daily growth during adolescence: a single sp…",
+      "ts": 1788184454,
+      "published": "2026-08-31T13:54:14+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "JavaFX Links of August 2026",
+      "link": "https://foojay.io/today/javafx-links-of-august-2026/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Here are the JavaFX LinksOfTheMonth of August 2026. We took a summer break, so there was only one \"Links Of The Week\" this month, and it covers all of August. We hope you had a great summer and are ready ... The post Ja…",
+      "ts": 1788181082,
+      "published": "2026-08-31T12:58:02+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Why RAG Complexity Should Be Earned",
+      "link": "https://towardsdatascience.com/why-rag-complexity-should-be-earned/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A framework for building RAG pipelines that introduces complexity in response to observed failure modes, from lexical and hybrid search to reranking and agentic information seeking The post Why RAG Complexity Should Be…",
+      "ts": 1788179401,
+      "published": "2026-08-31T12:30:01+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "7 Python Mistakes Beginners Make (And What to Do Instead)",
+      "link": "https://www.kdnuggets.com/7-python-mistakes-beginners-make-and-what-to-do-instead",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "It's about the mistakes that make a running program wrong. Below are seven of them. For each one you get the hidden cause, plus the first thing worth checking.",
+      "ts": 1788177634,
+      "published": "2026-08-31T12:00:34+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Combining LLM Embeddings with Tabular Features in a Unified Scikit-learn Pipeline",
+      "link": "https://machinelearningmastery.com/combining-llm-embeddings-with-tabular-features-in-a-unified-scikit-learn-pipeline/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how to build a unified scikit-learn pipeline that combines text embeddings generated by a lightweight open-source language model with...",
+      "ts": 1788177618,
+      "published": "2026-08-31T12:00:18+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Quiz: Async Programming in Python: From Generators to asyncio",
+      "link": "https://realpython.com/quizzes/python-async-features/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of async features in Python, including async and await, blocking versus non-blocking code, and the event loop.",
+      "ts": 1788177600,
+      "published": "2026-08-31T12:00:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere",
+      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug24-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for August 24th, 2026, features news highlighting: the GA release of Atmosphere 4.0; point releases of GraalVM, Azul Payara and Quarkus; a maintenance release of WildFly 41; milestone releases o…",
+      "ts": 1788175800,
+      "published": "2026-08-31T11:30:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere",
+      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug24-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for August 24th, 2026, features news highlighting: the GA release of Atmosphere 4.0; point releases of GraalVM, Azul Payara and Quarkus; a maintenance release of WildFly 41; milestone releases o…",
+      "ts": 1788175800,
+      "published": "2026-08-31T11:30:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production",
+      "link": "https://towardsdatascience.com/agentops-is-not-mlops-what-breaks-in-your-monitoring-stack-when-agents-go-to-production/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "The five MLOps monitoring assumptions agents break, and which inherited signals now pass failed runs as healthy. The post AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production appeared…",
+      "ts": 1788174001,
+      "published": "2026-08-31T11:00:01+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Podcast: Scott Jenson on Evolving Desktop OS, Local-First, & Agentic UX",
+      "link": "https://www.infoq.com/podcasts/evolving-desktop-agentic-ux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In this episode, Scott Jenson, a veteran UX designer known for his work on the Macintosh, Google Maps, and Chrome examines the long-term stagnation of desktop operating systems and the limitations of current mobile and…",
+      "ts": 1788174000,
+      "published": "2026-08-31T11:00:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser",
+      "link": "https://www.infoq.com/presentations/local-ai-browser-inference-privacy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "James Hall discusses the strategic and technical imperative of moving AI workloads from cloud providers to local edge devices. He shares practical approaches using WebGPU, Transformers.js, and DuckDB to achieve near-nat…",
+      "ts": 1788174000,
+      "published": "2026-08-31T11:00:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Article: Eliminating Long-Lived Credentials in GCP with Workload Identity Federation",
+      "link": "https://www.infoq.com/articles/gcp-wif-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Long-lived GCP service account keys are secrets that must be managed forever, are hard to rotate, and are easy to leak. Scaling Workload Identity Federation to 120+ production projects shows why it changes how machine i…",
+      "ts": 1788174000,
+      "published": "2026-08-31T11:00:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Podcast: Scott Jenson on Evolving Desktop OS, Local-First, & Agentic UX",
+      "link": "https://www.infoq.com/podcasts/evolving-desktop-agentic-ux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In this episode, Scott Jenson, a veteran UX designer known for his work on the Macintosh, Google Maps, and Chrome examines the long-term stagnation of desktop operating systems and the limitations of current mobile and…",
+      "ts": 1788174000,
+      "published": "2026-08-31T11:00:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser",
+      "link": "https://www.infoq.com/presentations/local-ai-browser-inference-privacy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "James Hall discusses the strategic and technical imperative of moving AI workloads from cloud providers to local edge devices. He shares practical approaches using WebGPU, Transformers.js, and DuckDB to achieve near-nat…",
+      "ts": 1788174000,
+      "published": "2026-08-31T11:00:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Foundry Model Router Expands from Two Regions to 28, Refreshing Its Model Pool",
+      "link": "https://www.infoq.com/news/2026/08/foundry-model-router-regions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Microsoft expanded Foundry's model router from two regions to 28 for global standard and 21 for data zone deployments, while adding Claude Opus 4.8 and GPT-5.6 and removing four deprecated models. Default deployments re…",
+      "ts": 1788171480,
+      "published": "2026-08-31T10:18:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Foundry Model Router Expands from Two Regions to 28, Refreshing Its Model Pool",
+      "link": "https://www.infoq.com/news/2026/08/foundry-model-router-regions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Microsoft expanded Foundry's model router from two regions to 28 for global standard and 21 for data zone deployments, while adding Claude Opus 4.8 and GPT-5.6 and removing four deprecated models. Default deployments re…",
+      "ts": 1788171480,
+      "published": "2026-08-31T10:18:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "link": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/ Comments URL: https://news.ycombinator.com/item?id=49506819 Points: 284 # Comments: 91",
+      "ts": 1788162558,
+      "published": "2026-08-31T07:49:18+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Claude Code reduces it's weekly limit by 17% – compared to today",
+      "link": "https://twitter.com/ClaudeDevs/status/2093742322525810912",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://twitter.com/ClaudeDevs/status/2093742322525810912 Comments URL: https://news.ycombinator.com/item?id=49506519 Points: 61 # Comments: 38",
+      "ts": 1788159725,
+      "published": "2026-08-31T07:02:05+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "A milestone in expanding access to AI",
+      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
+      "ts": 1788148800,
+      "published": "2026-08-31T04:00:00+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
+    },
     {
       "title": "FlexGanttFX is Open Source",
       "link": "https://www.infoq.com/news/2026/08/flexgantfx/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
@@ -21,6 +281,16 @@
       "ts": 1788134387,
       "published": "2026-08-30T23:59:47+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
+    },
+    {
+      "title": "I am no longer letting Claude Code add itself as Co-author in my commits",
+      "link": "https://igupta.in/blog/why-i-am-no-longer-letting-claude-code-add-itself-as-coauthor/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://igupta.in/blog/why-i-am-no-longer-letting-claude-code-add-itself-as-coauthor/ Comments URL: https://news.ycombinator.com/item?id=49502101 Points: 21 # Comments: 41",
+      "ts": 1788119273,
+      "published": "2026-08-30T19:47:53+00:00",
+      "collected_at": "2026-09-01T01:52:56+09:00"
     },
     {
       "title": "Cloudflare Extends AI Search to Make it Easier for Agents and Developers to Search Custom Data",
@@ -9871,56 +10141,6 @@
       "ts": 1785616489,
       "published": "2026-08-01T20:34:49+00:00",
       "collected_at": "2026-08-02T05:57:40+09:00"
-    },
-    {
-      "title": "Coding Agents Don’t Need Bigger Context Windows — They Need a Context Compiler",
-      "link": "https://towardsdatascience.com/coding-agents-dont-need-bigger-context-windows-they-need-a-context-compiler/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Most coding agents treat prompt construction like retrieval: gather more files, add more context, hope the model figures it out. But that approach breaks down fast. As context grows, irrelevant code competes for attenti…",
-      "ts": 1785596400,
-      "published": "2026-08-01T15:00:00+00:00",
-      "collected_at": "2026-08-02T02:03:56+09:00"
-    },
-    {
-      "title": "Why quantitative understanding of effect sizes matters, even if all you care about is the presence of the effect",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/01/how-can-we-train-researchers-and-consumers-of-research-to-put-numbers-in-perspective-as-a-matter-of-course/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "In reaction to my article with Andy King proposing post-publication review, Dan “Fast and Frugal” Goldstein writes: Your process limits information search, computation, and time so it seems fast and frugal to me. Happy…",
-      "ts": 1785591492,
-      "published": "2026-08-01T13:38:12+00:00",
-      "collected_at": "2026-08-02T00:03:31+09:00"
-    },
-    {
-      "title": "KDnuggets Weekly Roundup: Build and Deploy Your First Autonomous Agent • 7 Machine Learning Algorithms That Still Matter",
-      "link": "https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-27",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "A Beginner's Guide to Working with Claude Design • 5 Best AI Tools for Data Analysis You Should Try in 2026 • 5 Books That Will Deepen Your Understanding of Large Language Models • Is KimiClaw a Useful Tool?",
-      "ts": 1785589243,
-      "published": "2026-08-01T13:00:43+00:00",
-      "collected_at": "2026-08-01T22:35:33+09:00"
-    },
-    {
-      "title": "Put the Agent Inside the Workflow",
-      "link": "https://towardsdatascience.com/put-the-agent-inside-the-workflow/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A hybrid LLM application pattern that combines a predefined workflow with adaptive agent behavior The post Put the Agent Inside the Workflow appeared first on Towards Data Science .",
-      "ts": 1785589200,
-      "published": "2026-08-01T13:00:00+00:00",
-      "collected_at": "2026-08-01T22:35:33+09:00"
-    },
-    {
-      "title": "LanceDB Vector Database Guide: Features, Python Demo",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/lancedb-vector-database/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "Large language models understand text well, but they become less effective when information is scattered across documents or mixed with images and other media. Modern AI systems rely on vector databases, which store emb…",
-      "ts": 1785580865,
-      "published": "2026-08-01T10:41:05+00:00",
-      "collected_at": "2026-08-01T20:19:31+09:00"
     }
   ]
 }
