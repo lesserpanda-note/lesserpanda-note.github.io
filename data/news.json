@@ -1,7 +1,47 @@
 {
-  "updated": "2026-09-01T01:53:34+09:00",
-  "count": 1014,
+  "updated": "2026-09-01T06:48:45+09:00",
+  "count": 1016,
   "items": [
+    {
+      "title": "Release 2026.8.31",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Release : v2026.8.31 Updated packages @modelcontextprotocol/server-filesystem@2026.8.31 @modelcontextprotocol/server-memory@2026.8.31 @modelcontextprotocol/server-sequential-thinking@2026.8.31 @modelcontextprotocol/serv…",
+      "ts": 1788208472,
+      "published": "2026-08-31T20:34:32+00:00",
+      "collected_at": "2026-09-01T06:48:40+09:00"
+    },
+    {
+      "title": "I am shocked, shocked to learn that this 2002 paper by Dan Ariely is based on dubious data and doesn’t replicate.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/31/shocked/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Dan Ariely—the much-decorated business school professor, retired Wall Street Journal columnist, Ted-talk star, NPR hero, Jeffrey Epstein contact, Founding Partner of Irrational Capital, insurance agent, inspiration for…",
+      "ts": 1788203737,
+      "published": "2026-08-31T19:15:37+00:00",
+      "collected_at": "2026-09-01T06:48:40+09:00"
+    },
+    {
+      "title": "dotnet-1.20.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.20.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "What's Changed .NET: Bump AWSSDK.Extensions.Bedrock.MEAI from 4.0.6.10 to 4.0.101.8 by Dependabot (@dependabot) [bot] in #7829 .NET: Stabilize Foundry recovery tests by Roger Barreto (@rogerbarreto) in #7817 .NET: fix:…",
+      "ts": 1788202399,
+      "published": "2026-08-31T18:53:19+00:00",
+      "collected_at": "2026-09-01T06:48:40+09:00"
+    },
+    {
+      "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+      "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in wh…",
+      "ts": 1788199200,
+      "published": "2026-08-31T18:00:00+00:00",
+      "collected_at": "2026-09-01T06:48:40+09:00"
+    },
     {
       "title": "Your LLM Can Return Perfect JSON and Still Be Wrong",
       "link": "https://towardsdatascience.com/your-llm-can-return-perfect-json-and-still-be-wrong/",
@@ -10121,26 +10161,6 @@
       "ts": 1785622921,
       "published": "2026-08-01T22:22:01+00:00",
       "collected_at": "2026-08-04T14:51:45+09:00"
-    },
-    {
-      "title": "datasette-apps 0.2a0",
-      "link": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette-apps 0.2a0 Changes that improve Datasette Apps when created and edited using Datasette Agent : New app_debug() tool allowing agent to open an app (invisibly) and test it using JavaScript. #33 New app_…",
-      "ts": 1785619436,
-      "published": "2026-08-01T21:23:56+00:00",
-      "collected_at": "2026-08-02T07:02:51+09:00"
-    },
-    {
-      "title": "Ten advances in mathematics and theoretical computer science",
-      "link": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Ten advances in mathematics and theoretical computer science A few days ago it was Anthropic discovering cryptographic weaknesses with Claude using Mythos Preview, spending $100,000 on tokens and with prompts that inclu…",
-      "ts": 1785616489,
-      "published": "2026-08-01T20:34:49+00:00",
-      "collected_at": "2026-08-02T05:57:40+09:00"
     }
   ]
 }
