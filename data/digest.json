@@ -1,48 +1,41 @@
 {
-  "updated": "2026-08-24T00:12:18Z",
-  "summary": "오늘은 AI 보안·프라이버시 기술의 진전이 눈에 띕니다. Cloudflare가 역량 기반 모델을 적용한 오픈소스 기업용 AI 플랫폼을 공개했고, Google은 동형 암호화 추론을 쉽게 만드는 HEIR 툴체인을 선보였습니다. 한편 AI 메모리 수요 급등이 비AI 클라우드 인프라 가격까지 끌어올리는 가운데, 고성능 최상위 AI 모델보다 비용 효율적인 도구 쪽으로 시장 수요가 이동하는 흐름도 주목됩니다.",
+  "updated": "2026-08-31T00:11:25Z",
+  "summary": "오늘은 Java 개발 환경부터 AI 에이전트 인프라까지 다양한 영역의 핵심 소식을 다룹니다. Cloudflare의 AI Search 확장과 AWS의 Kiro Crew 오픈소스 공개로 AI 에이전트 생태계가 빠르게 성숙해가고 있으며, RAG 시스템의 노이즈 텍스트 처리 문제와 에이전트 지시문 작성 노하우 등 실무적인 주제도 포함되었습니다. NetBeans DataWrangler를 통해 Java IDE에서 데이터 분석 파일을 직접 다룰 수 있게 된 점도 주목할 만합니다.",
   "highlights": [
     {
-      "category": "AI",
-      "title": "Cloudflare OS: Cloudflare's Open-Source Corporate AI Platform Built on a Capability-Based Model",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Cloudflare가 역량 기반 보안 모델을 적용한 기업용 오픈소스 AI 플랫폼 Cloudflare OS를 공개했습니다. 엔터프라이즈 지식 기반 작업 산출물 생성과 워크플로우 자동화를 지원합니다.",
-      "detail": "Cloudflare OS는 기업 팀이 내부 지식·노하우·커넥터를 기반으로 작업 산출물을 생성하고 반복 워크플로우를 자동화할 수 있는 오픈소스 기업용 AI 플랫폼입니다. 핵심 설계 원칙은 역량 기반(capability-based) 보안 모델로, 각 에이전트나 컴포넌트가 명시적으로 허가된 기능에만 접근할 수 있도록 최소 권한 원칙을 구현합니다. 이를 통해 AI 에이전트가 필요 이상의 권한을 보유하는 것을 방지하고, 기업 환경에서의 보안성과 제어 가능성을 높입니다. 기업이 AI 기반 업무 자동화를 보다 안전하게 도입할 수 있는 기반을 제공하며, 오픈소스로 공개되어 커스터마이징과 자체 호스팅이 가능합니다."
+      "category": "Java",
+      "title": "NetBeans DataWrangler: Query, Convert, and Edit Data Analytics Files",
+      "link": "https://foojay.io/today/netbeans-datawrangler-query-convert-and-edit-data-analytics-files/",
+      "summary": "Apache NetBeans 31에 데이터 분석 파일 형식을 직접 편집할 수 있는 DataWrangler 플러그인이 추가되었습니다.",
+      "detail": "Apache NetBeans DataWrangler는 NetBeans 31에 CSV, Apache Parquet, JSON, Excel 등 주요 데이터 분석 파일 형식 지원을 추가하는 플러그인입니다. pandas, Spark, R, dbt, Power BI, Excel과 같은 도구들이 사용하는 파일 형식을 IDE 내에서 직접 쿼리·변환·편집할 수 있습니다.\n주요 기능으로는 SQL과 유사한 쿼리 인터페이스, 파일 형식 간 변환, 대용량 파일의 시각적 데이터 편집 등이 있습니다. 데이터 엔지니어링과 분석 작업을 Java IDE 환경 안에서 통합적으로 처리할 수 있어, 별도 외부 도구 없이 데이터 파이프라인 파일을 직접 검사하고 조작할 수 있는 워크플로우를 제공합니다."
     },
     {
       "category": "AI",
-      "title": "Google's HEIR Aims to Make Homomorphic-Encrypted Inference a One-Click Capability",
-      "link": "https://www.infoq.com/news/2026/08/google-heir-homomorphic-llm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Google이 동형 암호화 연산을 간소화하는 오픈소스 컴파일러 툴체인 HEIR를 공개했습니다. 암호화된 상태에서 AI 추론을 원클릭으로 수행할 수 있게 하는 것이 목표입니다.",
-      "detail": "HEIR(Homomorphic Encryption Intermediate Representation)는 Google이 공개한 오픈소스 컴파일러 및 개발 툴체인으로, 동형 암호화(HE) 연산 배포를 크게 단순화하도록 설계되었습니다. 동형 암호화는 데이터를 복호화하지 않고 암호화된 상태에서 직접 연산을 수행하는 기술로, 의료·금융 등 프라이버시가 중요한 규제 산업에서 특히 유용합니다. HEIR는 기존 ML 모델을 동형 암호화 환경에 컴파일할 수 있는 중간 표현(IR)을 제공하여, 전문 지식 없이도 프라이버시 보존형 AI 추론 파이프라인을 구축할 수 있도록 합니다. Google은 이를 통해 동형 암호화 AI 추론의 진입 장벽을 낮추고, 암호화된 데이터로의 LLM 추론을 일반적인 개발 워크플로우의 일부로 만들 것을 목표로 합니다."
+      "title": "Cloudflare Extends AI Search to Make it Easier for Agents and Developers to Search Custom Data",
+      "link": "https://www.infoq.com/news/2026/08/cloudflare-ai-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Cloudflare가 AI 에이전트와 개발자를 위한 커스텀 데이터 검색 서비스인 AI Search를 확장 출시했습니다.",
+      "detail": "Cloudflare AI Search는 AI 에이전트 및 애플리케이션에 즉시 사용 가능한 커스텀 데이터 검색 엔진을 제공하는 내장형 검색·검색(retrieval) 서비스입니다. 개발자가 별도의 검색 인프라를 구축하지 않아도 에이전트가 자체 데이터를 효과적으로 검색할 수 있도록 설계되었습니다.\n주요 특징으로는 에이전트 통합 지원, 멀티모달 검색 기능, Cloudflare의 기존 인프라와의 원활한 연동 등이 있습니다. 이를 통해 AI 에이전트는 외부 검색 서비스 의존 없이 사용자 정의 데이터셋에 대한 고품질 검색을 수행할 수 있으며, 에이전트 파이프라인에서의 RAG(Retrieval-Augmented Generation) 구현도 간소화됩니다. Cloudflare Workers AI 생태계와의 통합으로 엣지 환경에서도 낮은 지연 시간으로 검색이 가능합니다."
+    },
+    {
+      "category": "AI",
+      "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
+      "link": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Amazon이 여러 Kiro 코딩 에이전트를 비동기적으로 실행할 수 있는 오픈소스 시스템 Kiro Crew를 공개했습니다.",
+      "detail": "Amazon은 AI 코딩 도구인 Kiro의 확장 기능으로 Kiro Crew를 오픈소스로 발표했습니다. Kiro Crew는 여러 Kiro 코딩 에이전트를 세션, 도구, 작업 전반에 걸쳐 비동기적으로 실행할 수 있는 워크스페이스 시스템입니다.\n개발자는 AI 에이전트에게 비동기 코딩 작업을 할당할 수 있으며, 각 에이전트는 독립적으로 작업을 수행합니다. 이를 통해 복잡한 소프트웨어 프로젝트에서 여러 AI 에이전트가 병렬로 협업하는 멀티에이전트 개발 워크플로우를 구현할 수 있습니다. 오픈소스로 공개되어 커뮤니티의 기여와 확장이 가능하며, 대규모 코드베이스에서 AI 지원 개발 생산성을 높이는 것을 목표로 합니다."
     },
     {
       "category": "Agents",
-      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-      "link": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-      "summary": "FT 보도를 인용한 분석에 따르면 Anthropic의 최상위 AI 모델이 더 저렴한 경쟁 도구들에 밀려 사용자 확보에 어려움을 겪고 있습니다.",
-      "detail": "Simon Willison이 Financial Times 보도를 바탕으로 Anthropic 최상위 모델의 시장 현황을 분석한 글입니다. 내부 관계자 발 수치에 따르면 Anthropic의 7월 연간화 매출은 일정 수준에 달했지만, 가격이 더 저렴한 AI 도구들이 시장에서 강세를 보이고 있습니다. 이는 AI 시장에서 최고 성능보다 비용 효율성을 우선시하는 수요가 점점 강해지고 있다는 트렌드를 반영합니다. 기업과 개발자들이 최상위 모델의 성능 우위보다 합리적인 가격의 도구에서 충분한 가치를 찾고 있음을 시사하며, AI 도구 시장에서 가격 경쟁이 더욱 치열해지고 있음을 보여줍니다. 고성능·고비용 모델 전략이 시장 점유율 확보에 직접적으로 연결되지 않는 현상이 두드러집니다."
+      "title": "8 Tips for Writing Effective Agent Instructions",
+      "link": "https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/",
+      "summary": "AI 에이전트 성능을 높이기 위한 8가지 효과적인 에이전트 지시문 작성 팁을 소개합니다.",
+      "detail": "효과적인 에이전트 지시문 작성은 AI 에이전트 시스템의 품질을 결정하는 핵심 요소입니다. 이 글은 에이전트가 의도한 작업을 정확히 수행하도록 돕는 실용적인 8가지 팁을 제시합니다.\n주요 권고사항에는 지시문을 명확하고 구체적으로 작성할 것, 에이전트의 역할과 범위를 명시적으로 정의할 것, 예외 케이스와 엣지 케이스에 대한 처리 방침을 포함할 것, 지시문의 길이와 복잡도를 적절히 조절할 것 등이 포함됩니다. LLM 기반 에이전트를 개발하거나 프롬프트 엔지니어링을 수행하는 데이터 과학자와 ML 엔지니어에게 실질적인 가이드라인을 제공합니다."
     },
     {
       "category": "Agents",
-      "title": "Parse the Folder, Not Just the PDFs: The Relational Tables RAG Needs on a Case File",
-      "link": "https://towardsdatascience.com/parse-the-folder-not-just-the-pdfs-the-relational-tables-rag-needs-on-a-case-file/",
-      "summary": "기업 문서 RAG에서 개별 PDF 파싱을 넘어 폴더 전체의 구조를 관계형 테이블로 모델링해야 한다는 접근법을 제안합니다. 케이스 파일 인텔리전스의 핵심 두 질문은 검색 질문이 아님을 강조합니다.",
-      "detail": "Enterprise Document Intelligence 시리즈(Vol.1 #14D)의 글로, 기업 문서 RAG 구현 시 흔한 실수인 '개별 PDF만 파싱'의 한계를 지적합니다. 케이스 파일은 단순 문서 묶음이 아니라, 각 케이스 유형마다 어떤 파일이 있어야 하는지를 정의하는 인덱스를 가진 구조적 시스템입니다. 저자는 폴더를 열기 전에 인덱스에서 케이스 유형의 요구 사항을 먼저 파악해야 한다고 주장합니다. 진정한 가치를 제공하는 두 가지 핵심 질문은 단순한 문서 검색 질문이 아니라, 구조에 대한 이해를 요구하는 질문입니다. 개별 청크 임베딩 대신 관계형 테이블 구조를 RAG 인덱스의 기반으로 삼아야 더 정확하고 신뢰할 수 있는 기업 문서 AI를 구축할 수 있다는 것이 핵심 메시지입니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "OVHcloud Raises Prices as AI Memory Demand Reprices Non-AI Infrastructure",
-      "link": "https://www.infoq.com/news/2026/08/ovhcloud-memory-price-rise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "OVHcloud가 9월부터 서버 가격을 대폭 인상합니다. AI 수요로 메모리 비용이 1년 전 대비 6배 상승한 것이 원인으로, 게이밍 서버는 최대 87% 오릅니다.",
-      "detail": "OVHcloud 창업자 Octave Klaba에 따르면 메모리 비용이 2025년 6월 대비 6배 급등했으며, 이는 AI 워크로드용 고대역폭 메모리(HBM) 수요 폭증이 일반 서버 메모리 시장 전체에 가격 압박을 주고 있기 때문입니다. 9월부터 2026년형 게이밍 서버는 87%, 기타 최신 서버는 40~59% 가격이 인상될 예정입니다. 이 사례는 AI 붐이 단순히 AI 전용 하드웨어에만 영향을 미치는 것이 아니라, 일반 클라우드 인프라 전체의 가격 체계를 재편하고 있음을 보여주는 중요한 신호입니다. 비AI 워크로드를 운영하는 기업들도 AI 인프라 경쟁의 여파로 운영 비용 상승을 피할 수 없게 되었으며, 이는 클라우드 아키텍처 비용 계획 수립 시 반드시 고려해야 할 요소가 되었습니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly Guide",
-      "link": "https://towardsdatascience.com/a-first-look-at-survival-analysis-and-the-cox-model/",
-      "summary": "생존 분석과 콕스 비례 위험 모델을 Kaplan-Meier 곡선부터 위험비까지 파이썬 코드와 함께 입문자도 이해하기 쉽게 설명한 가이드입니다.",
-      "detail": "생존 분석(Survival Analysis)은 특정 사건(사망, 기계 고장, 고객 이탈 등)이 발생하기까지 걸리는 시간을 모델링하는 통계 기법으로, 의료 연구, 신뢰성 공학, 마케팅 등 다양한 분야에서 활용됩니다. 이 가이드는 입문자를 위해 Kaplan-Meier 생존 곡선부터 콕스 비례 위험 모델까지 단계적으로 설명합니다. Kaplan-Meier 곡선은 시간에 따른 생존 확률을 비모수적으로 추정하며, 추적이 중단된 검열 데이터(censored data)를 올바르게 처리하는 방법을 보여줍니다. 콕스 비례 위험 모델은 여러 공변량이 사건 발생 위험에 미치는 영향을 위험비(hazard ratio)로 추정하는 반모수적(semi-parametric) 방법입니다. 비례 위험 가정의 검증 방법도 다루며, 전체 분석 과정이 실행 가능한 파이썬 코드로 제공되어 바로 실습할 수 있습니다."
+      "title": "Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves",
+      "link": "https://towardsdatascience.com/noisy-text-in-rag-typos-ocr-and-the-gap-classical-spell-check-leaves/",
+      "summary": "RAG 시스템에서 오탈자, OCR 오류, 전사 노이즈가 검색 품질에 미치는 영향과 기존 맞춤법 검사의 한계를 분석합니다.",
+      "detail": "기업용 문서 인텔리전스 시리즈의 첫 번째 글로, RAG(Retrieval-Augmented Generation) 파이프라인에서 노이즈 텍스트가 초래하는 문제를 심층 분석합니다.\n노이즈의 세 가지 주요 원인으로 사용자 오탈자, 빠른 타이핑으로 인한 전사 노이즈, OCR 문자 인식 오류를 꼽습니다. 전통적인 맞춤법 검사기는 이 중 일부만 처리할 수 있으며, 나머지 노이즈는 임베딩 벡터 공간에서의 유사도 계산에 부정적 영향을 줍니다. 특히 OCR 오류와 도메인 특화 용어의 변형은 고전적 방법으로 해결하기 어렵습니다. 이에 대한 개선 방안으로 노이즈에 강건한 임베딩 전략과 전처리 파이프라인 설계 방향을 제시하며, 실제 기업 환경에서 RAG 시스템의 검색 정확도를 높이는 실용적 접근법을 다룹니다."
     }
   ]
 }
