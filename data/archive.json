@@ -1,6 +1,47 @@
 {
   "digests": [
     {
+      "date": "2026-08-31",
+      "summary": "오늘은 Java 개발 환경부터 AI 에이전트 인프라까지 다양한 영역의 핵심 소식을 다룹니다. Cloudflare의 AI Search 확장과 AWS의 Kiro Crew 오픈소스 공개로 AI 에이전트 생태계가 빠르게 성숙해가고 있으며, RAG 시스템의 노이즈 텍스트 처리 문제와 에이전트 지시문 작성 노하우 등 실무적인 주제도 포함되었습니다. NetBeans DataWrangler를 통해 Java IDE에서 데이터 분석 파일을 직접 다룰 수 있게 된 점도 주목할 만합니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "NetBeans DataWrangler: Query, Convert, and Edit Data Analytics Files",
+          "link": "https://foojay.io/today/netbeans-datawrangler-query-convert-and-edit-data-analytics-files/",
+          "summary": "Apache NetBeans 31에 데이터 분석 파일 형식을 직접 편집할 수 있는 DataWrangler 플러그인이 추가되었습니다.",
+          "detail": "Apache NetBeans DataWrangler는 NetBeans 31에 CSV, Apache Parquet, JSON, Excel 등 주요 데이터 분석 파일 형식 지원을 추가하는 플러그인입니다. pandas, Spark, R, dbt, Power BI, Excel과 같은 도구들이 사용하는 파일 형식을 IDE 내에서 직접 쿼리·변환·편집할 수 있습니다.\n주요 기능으로는 SQL과 유사한 쿼리 인터페이스, 파일 형식 간 변환, 대용량 파일의 시각적 데이터 편집 등이 있습니다. 데이터 엔지니어링과 분석 작업을 Java IDE 환경 안에서 통합적으로 처리할 수 있어, 별도 외부 도구 없이 데이터 파이프라인 파일을 직접 검사하고 조작할 수 있는 워크플로우를 제공합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Cloudflare Extends AI Search to Make it Easier for Agents and Developers to Search Custom Data",
+          "link": "https://www.infoq.com/news/2026/08/cloudflare-ai-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Cloudflare가 AI 에이전트와 개발자를 위한 커스텀 데이터 검색 서비스인 AI Search를 확장 출시했습니다.",
+          "detail": "Cloudflare AI Search는 AI 에이전트 및 애플리케이션에 즉시 사용 가능한 커스텀 데이터 검색 엔진을 제공하는 내장형 검색·검색(retrieval) 서비스입니다. 개발자가 별도의 검색 인프라를 구축하지 않아도 에이전트가 자체 데이터를 효과적으로 검색할 수 있도록 설계되었습니다.\n주요 특징으로는 에이전트 통합 지원, 멀티모달 검색 기능, Cloudflare의 기존 인프라와의 원활한 연동 등이 있습니다. 이를 통해 AI 에이전트는 외부 검색 서비스 의존 없이 사용자 정의 데이터셋에 대한 고품질 검색을 수행할 수 있으며, 에이전트 파이프라인에서의 RAG(Retrieval-Augmented Generation) 구현도 간소화됩니다. Cloudflare Workers AI 생태계와의 통합으로 엣지 환경에서도 낮은 지연 시간으로 검색이 가능합니다."
+        },
+        {
+          "category": "AI",
+          "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
+          "link": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Amazon이 여러 Kiro 코딩 에이전트를 비동기적으로 실행할 수 있는 오픈소스 시스템 Kiro Crew를 공개했습니다.",
+          "detail": "Amazon은 AI 코딩 도구인 Kiro의 확장 기능으로 Kiro Crew를 오픈소스로 발표했습니다. Kiro Crew는 여러 Kiro 코딩 에이전트를 세션, 도구, 작업 전반에 걸쳐 비동기적으로 실행할 수 있는 워크스페이스 시스템입니다.\n개발자는 AI 에이전트에게 비동기 코딩 작업을 할당할 수 있으며, 각 에이전트는 독립적으로 작업을 수행합니다. 이를 통해 복잡한 소프트웨어 프로젝트에서 여러 AI 에이전트가 병렬로 협업하는 멀티에이전트 개발 워크플로우를 구현할 수 있습니다. 오픈소스로 공개되어 커뮤니티의 기여와 확장이 가능하며, 대규모 코드베이스에서 AI 지원 개발 생산성을 높이는 것을 목표로 합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "8 Tips for Writing Effective Agent Instructions",
+          "link": "https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/",
+          "summary": "AI 에이전트 성능을 높이기 위한 8가지 효과적인 에이전트 지시문 작성 팁을 소개합니다.",
+          "detail": "효과적인 에이전트 지시문 작성은 AI 에이전트 시스템의 품질을 결정하는 핵심 요소입니다. 이 글은 에이전트가 의도한 작업을 정확히 수행하도록 돕는 실용적인 8가지 팁을 제시합니다.\n주요 권고사항에는 지시문을 명확하고 구체적으로 작성할 것, 에이전트의 역할과 범위를 명시적으로 정의할 것, 예외 케이스와 엣지 케이스에 대한 처리 방침을 포함할 것, 지시문의 길이와 복잡도를 적절히 조절할 것 등이 포함됩니다. LLM 기반 에이전트를 개발하거나 프롬프트 엔지니어링을 수행하는 데이터 과학자와 ML 엔지니어에게 실질적인 가이드라인을 제공합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves",
+          "link": "https://towardsdatascience.com/noisy-text-in-rag-typos-ocr-and-the-gap-classical-spell-check-leaves/",
+          "summary": "RAG 시스템에서 오탈자, OCR 오류, 전사 노이즈가 검색 품질에 미치는 영향과 기존 맞춤법 검사의 한계를 분석합니다.",
+          "detail": "기업용 문서 인텔리전스 시리즈의 첫 번째 글로, RAG(Retrieval-Augmented Generation) 파이프라인에서 노이즈 텍스트가 초래하는 문제를 심층 분석합니다.\n노이즈의 세 가지 주요 원인으로 사용자 오탈자, 빠른 타이핑으로 인한 전사 노이즈, OCR 문자 인식 오류를 꼽습니다. 전통적인 맞춤법 검사기는 이 중 일부만 처리할 수 있으며, 나머지 노이즈는 임베딩 벡터 공간에서의 유사도 계산에 부정적 영향을 줍니다. 특히 OCR 오류와 도메인 특화 용어의 변형은 고전적 방법으로 해결하기 어렵습니다. 이에 대한 개선 방안으로 노이즈에 강건한 임베딩 전략과 전처리 파이프라인 설계 방향을 제시하며, 실제 기업 환경에서 RAG 시스템의 검색 정확도를 높이는 실용적 접근법을 다룹니다."
+        }
+      ]
+    },
+    {
       "date": "2026-08-30",
       "summary": "오늘의 다이제스트는 Java 에코시스템의 무상태 프레임워크와 GraalVM 네이티브 이미지 기술부터 MoE 추론 혁신, OpenAI의 Cursor API 차단 사태, 엔터프라이즈 AI 에이전트 데이터 아키텍처까지 다양한 주제를 다룹니다. 특히 FreeToken의 소비자 하드웨어 기반 프런티어 모델 추론 지원과 Cloudflare Workers의 TCP·gRPC 확장이 주목할 만한 기술 변화로 부각됩니다. 데이터 사이언스 분야에서는 Andrew Gelman의 ANOVA 재조명 글을 통해 통계 방법론이 계층적 모델로 진화해온 흐름을 살펴봅니다.",
       "highlights": [

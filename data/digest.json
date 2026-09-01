@@ -1,41 +1,83 @@
 {
-  "updated": "2026-08-31T00:11:25Z",
-  "summary": "오늘은 Java 개발 환경부터 AI 에이전트 인프라까지 다양한 영역의 핵심 소식을 다룹니다. Cloudflare의 AI Search 확장과 AWS의 Kiro Crew 오픈소스 공개로 AI 에이전트 생태계가 빠르게 성숙해가고 있으며, RAG 시스템의 노이즈 텍스트 처리 문제와 에이전트 지시문 작성 노하우 등 실무적인 주제도 포함되었습니다. NetBeans DataWrangler를 통해 Java IDE에서 데이터 분석 파일을 직접 다룰 수 있게 된 점도 주목할 만합니다.",
+  "updated": "2026-09-01T00:16:59Z",
+  "summary": "오늘은 Java 생태계의 다양한 릴리스 소식부터 AI 산업의 주요 이정표까지 폭넓은 주제를 다룹니다. ChatGPT 광고 서비스가 연간 환산 매출 10억 달러를 돌파하며 AI 수익화 모델의 가능성을 입증했고, DoorDash의 Flux 플랫폼은 월 13만 건의 엔지니어링 작업을 자동화하며 대규모 에이전트 운영의 실제 사례를 보여줍니다. RAG 복잡성의 점진적 획득 원칙과 AgentOps의 새로운 모니터링 패러다임 등 실무자를 위한 심층 인사이트도 풍부하게 담겨 있습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "NetBeans DataWrangler: Query, Convert, and Edit Data Analytics Files",
-      "link": "https://foojay.io/today/netbeans-datawrangler-query-convert-and-edit-data-analytics-files/",
-      "summary": "Apache NetBeans 31에 데이터 분석 파일 형식을 직접 편집할 수 있는 DataWrangler 플러그인이 추가되었습니다.",
-      "detail": "Apache NetBeans DataWrangler는 NetBeans 31에 CSV, Apache Parquet, JSON, Excel 등 주요 데이터 분석 파일 형식 지원을 추가하는 플러그인입니다. pandas, Spark, R, dbt, Power BI, Excel과 같은 도구들이 사용하는 파일 형식을 IDE 내에서 직접 쿼리·변환·편집할 수 있습니다.\n주요 기능으로는 SQL과 유사한 쿼리 인터페이스, 파일 형식 간 변환, 대용량 파일의 시각적 데이터 편집 등이 있습니다. 데이터 엔지니어링과 분석 작업을 Java IDE 환경 안에서 통합적으로 처리할 수 있어, 별도 외부 도구 없이 데이터 파이프라인 파일을 직접 검사하고 조작할 수 있는 워크플로우를 제공합니다."
+      "title": "Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere",
+      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug24-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "2026년 8월 24일 주 Java 생태계 뉴스 모음으로, Atmosphere 4.0 GA 릴리스와 GraalVM·Quarkus·Azul Payara 포인트 릴리스 등 주요 프로젝트 업데이트를 정리합니다.",
+      "detail": "2026년 8월 24일 주 Java 주간 뉴스 하이라이트입니다.\nAtmosphere 4.0이 GA(General Availability)로 릴리스되었으며, GraalVM·Azul Payara·Quarkus의 포인트 릴리스와 WildFly 41 유지보수 릴리스가 함께 발표되었습니다. Jakarta Data와 JNoSQL은 마일스톤 릴리스를 공개하며 지속적인 발전을 이어가고 있습니다.\nAtmosphere 4.0은 비동기 웹 애플리케이션 프레임워크의 새로운 메이저 버전으로, Java 생태계에서 비동기 통신 처리에 사용됩니다. 이처럼 한 주에 다수의 핵심 Java 프로젝트들이 업데이트되며 생태계가 활발히 성숙해가고 있음을 보여줍니다."
+    },
+    {
+      "category": "Java",
+      "title": "Aggregation Optimization in MongoDB: Data Duplication to Improve Read Performance (Part 4)",
+      "link": "https://foojay.io/today/aggregation-optimization-in-mongodb-data-duplication-to-improve-read-performance-part-4/",
+      "summary": "MongoDB 집계 최적화 시리즈 4편으로, 읽기 성능 향상을 위해 데이터를 전략적으로 중복 저장하는 패턴을 MongoDB 전문가 설계 리뷰 관점에서 다룹니다.",
+      "detail": "MongoDB 집계 최적화 시리즈의 4편입니다. MongoDB 전문가들이 수행하는 설계 리뷰를 통해 데이터 모델링 모범 사례를 소개하며, 특히 읽기 성능 향상을 위한 데이터 중복(Data Duplication) 패턴에 집중합니다.\nMongoDB에서 자주 조회되는 필드를 여러 컬렉션에 중복 저장함으로써 집계 파이프라인의 $lookup 연산을 줄이고 읽기 성능을 크게 개선할 수 있습니다. 이는 정규화를 중시하는 관계형 DB 사고방식과 다르지만, 문서 지향 DB의 강점을 살리는 핵심 설계 원칙입니다. 쓰기 시 약간의 오버헤드를 감수하고 읽기 속도를 최적화하는 이 전략은 읽기 빈도가 높은 애플리케이션에 특히 효과적입니다."
     },
     {
       "category": "AI",
-      "title": "Cloudflare Extends AI Search to Make it Easier for Agents and Developers to Search Custom Data",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-ai-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Cloudflare가 AI 에이전트와 개발자를 위한 커스텀 데이터 검색 서비스인 AI Search를 확장 출시했습니다.",
-      "detail": "Cloudflare AI Search는 AI 에이전트 및 애플리케이션에 즉시 사용 가능한 커스텀 데이터 검색 엔진을 제공하는 내장형 검색·검색(retrieval) 서비스입니다. 개발자가 별도의 검색 인프라를 구축하지 않아도 에이전트가 자체 데이터를 효과적으로 검색할 수 있도록 설계되었습니다.\n주요 특징으로는 에이전트 통합 지원, 멀티모달 검색 기능, Cloudflare의 기존 인프라와의 원활한 연동 등이 있습니다. 이를 통해 AI 에이전트는 외부 검색 서비스 의존 없이 사용자 정의 데이터셋에 대한 고품질 검색을 수행할 수 있으며, 에이전트 파이프라인에서의 RAG(Retrieval-Augmented Generation) 구현도 간소화됩니다. Cloudflare Workers AI 생태계와의 통합으로 엣지 환경에서도 낮은 지연 시간으로 검색이 가능합니다."
+      "title": "Hugging Face hack could indicate cultural issues at OpenAI",
+      "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
+      "summary": "MIT 테크놀로지 리뷰가 최근 발생한 주요 AI 보안 사건인 Hugging Face 해킹이 OpenAI의 내부 문화적 문제를 시사할 수 있다고 분석합니다.",
+      "detail": "MIT 테크놀로지 리뷰의 뉴스레터 The Algorithm에서 다룬 주요 AI 보안 사건 분석입니다. 최근 발생한 Hugging Face 해킹 사건을 단순한 기술적 보안 취약점이 아닌, AI 업계 특히 OpenAI 내부의 조직 문화적 문제와 연결짓습니다.\n이 사건은 AI 기업들이 빠른 성장을 추구하면서 보안 관행과 책임감 있는 개발 문화를 소홀히 할 수 있다는 우려를 드러냅니다. AI 생태계 전반의 보안 취약성과 대형 AI 기업들의 내부 문화가 외부 보안 사고에 어떻게 영향을 미치는지에 대한 비판적 시각을 제공합니다."
     },
     {
       "category": "AI",
-      "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
-      "link": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Amazon이 여러 Kiro 코딩 에이전트를 비동기적으로 실행할 수 있는 오픈소스 시스템 Kiro Crew를 공개했습니다.",
-      "detail": "Amazon은 AI 코딩 도구인 Kiro의 확장 기능으로 Kiro Crew를 오픈소스로 발표했습니다. Kiro Crew는 여러 Kiro 코딩 에이전트를 세션, 도구, 작업 전반에 걸쳐 비동기적으로 실행할 수 있는 워크스페이스 시스템입니다.\n개발자는 AI 에이전트에게 비동기 코딩 작업을 할당할 수 있으며, 각 에이전트는 독립적으로 작업을 수행합니다. 이를 통해 복잡한 소프트웨어 프로젝트에서 여러 AI 에이전트가 병렬로 협업하는 멀티에이전트 개발 워크플로우를 구현할 수 있습니다. 오픈소스로 공개되어 커뮤니티의 기여와 확장이 가능하며, 대규모 코드베이스에서 AI 지원 개발 생산성을 높이는 것을 목표로 합니다."
+      "title": "A milestone in expanding access to AI",
+      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+      "summary": "ChatGPT 광고 서비스가 연간 환산 매출(ARR) 10억 달러를 달성하며 전 세계적으로 확장되고 있습니다.",
+      "detail": "OpenAI의 ChatGPT 광고 사업이 연간 환산 매출(ARR) 10억 달러를 돌파하는 중요한 이정표를 달성했습니다. 이 서비스는 무료 및 저렴한 가격 옵션을 통해 더 많은 사람들이 AI를 사용할 수 있도록 광범위한 접근성을 지원하는 것을 목표로 합니다.\nChatGPT 광고 기반 수익 모델은 AI 서비스를 무료 사용자에게도 제공하면서 상업적 지속 가능성을 확보하는 전략입니다. 글로벌 확장과 함께 ARR 10억 달러 달성은 AI 서비스의 광고 기반 수익화가 실제로 대규모로 작동할 수 있음을 입증하는 사례로, AI 업계 비즈니스 모델에 중요한 선례를 남깁니다."
     },
     {
       "category": "Agents",
-      "title": "8 Tips for Writing Effective Agent Instructions",
-      "link": "https://towardsdatascience.com/8-tips-for-writing-effective-agent-instructions/",
-      "summary": "AI 에이전트 성능을 높이기 위한 8가지 효과적인 에이전트 지시문 작성 팁을 소개합니다.",
-      "detail": "효과적인 에이전트 지시문 작성은 AI 에이전트 시스템의 품질을 결정하는 핵심 요소입니다. 이 글은 에이전트가 의도한 작업을 정확히 수행하도록 돕는 실용적인 8가지 팁을 제시합니다.\n주요 권고사항에는 지시문을 명확하고 구체적으로 작성할 것, 에이전트의 역할과 범위를 명시적으로 정의할 것, 예외 케이스와 엣지 케이스에 대한 처리 방침을 포함할 것, 지시문의 길이와 복잡도를 적절히 조절할 것 등이 포함됩니다. LLM 기반 에이전트를 개발하거나 프롬프트 엔지니어링을 수행하는 데이터 과학자와 ML 엔지니어에게 실질적인 가이드라인을 제공합니다."
+      "title": "AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production",
+      "link": "https://towardsdatascience.com/agentops-is-not-mlops-what-breaks-in-your-monitoring-stack-when-agents-go-to-production/",
+      "summary": "AI 에이전트를 프로덕션에 배포할 때 기존 MLOps 모니터링의 다섯 가지 가정이 무너지며, 건강해 보이는 신호가 실제 실패를 감출 수 있음을 경고합니다.",
+      "detail": "MLOps 모니터링 시스템이 AI 에이전트 환경에서 작동하지 않는 근본적인 이유를 분석합니다. 기존 MLOps는 단일 모델 호출, 결정론적 실행, 짧은 추론 시간을 전제로 설계되었지만, 에이전트는 다단계 도구 호출 체인, 비결정론적 실행 흐름, 장시간 실행 세션을 포함합니다.\n다섯 가지 핵심 가정의 붕괴 영역: 지연 시간 기반 건강 신호, 에러율 중심 모니터링, 입출력 로깅 패턴, 리소스 사용량 예측, 단일 추론 단위 추적이 모두 에이전트 환경에서는 신뢰할 수 없습니다. AgentOps는 에이전트 추적(tracing), 목표 달성 여부 평가, 도구 호출 감사 등 새로운 모니터링 패러다임을 필요로 합니다."
     },
     {
       "category": "Agents",
-      "title": "Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves",
-      "link": "https://towardsdatascience.com/noisy-text-in-rag-typos-ocr-and-the-gap-classical-spell-check-leaves/",
-      "summary": "RAG 시스템에서 오탈자, OCR 오류, 전사 노이즈가 검색 품질에 미치는 영향과 기존 맞춤법 검사의 한계를 분석합니다.",
-      "detail": "기업용 문서 인텔리전스 시리즈의 첫 번째 글로, RAG(Retrieval-Augmented Generation) 파이프라인에서 노이즈 텍스트가 초래하는 문제를 심층 분석합니다.\n노이즈의 세 가지 주요 원인으로 사용자 오탈자, 빠른 타이핑으로 인한 전사 노이즈, OCR 문자 인식 오류를 꼽습니다. 전통적인 맞춤법 검사기는 이 중 일부만 처리할 수 있으며, 나머지 노이즈는 임베딩 벡터 공간에서의 유사도 계산에 부정적 영향을 줍니다. 특히 OCR 오류와 도메인 특화 용어의 변형은 고전적 방법으로 해결하기 어렵습니다. 이에 대한 개선 방안으로 노이즈에 강건한 임베딩 전략과 전처리 파이프라인 설계 방향을 제시하며, 실제 기업 환경에서 RAG 시스템의 검색 정확도를 높이는 실용적 접근법을 다룹니다."
+      "title": "Why RAG Complexity Should Be Earned",
+      "link": "https://towardsdatascience.com/why-rag-complexity-should-be-earned/",
+      "summary": "RAG 파이프라인에서 복잡성은 처음부터 도입하는 것이 아니라 실제 실패 모드에 대응하며 단계적으로 획득해야 한다는 실용적 프레임워크를 제시합니다.",
+      "detail": "RAG 파이프라인 구축 시 처음부터 복잡하게 만드는 실수를 경계하고, 관찰된 실패 모드에 반응하여 점진적으로 복잡성을 도입해야 한다는 프레임워크를 제안합니다.\n단계적 복잡성 도입 경로: (1) 기본 어휘 검색 -> (2) 하이브리드 검색(어휘+벡터) -> (3) 리랭킹(reranking) -> (4) 에이전트형 정보 탐색의 순서로, 각 단계에서 실제 실패가 발생할 때만 다음 단계로 진화합니다. 이 접근법은 과도한 엔지니어링을 방지하고 유지보수 가능성을 높이며, 실제 문제에 집중하는 팀의 생산성을 향상시킵니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "DoorDash's Flux Runs 130,000 Engineering Tasks Through Cloud-Based Agents",
+      "link": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "DoorDash가 AI 에이전트 엔지니어링 워크로드를 개발자 노트북에서 클라우드 플랫폼 Flux로 이전하여 월 13만 건의 작업을 자동화하고 주당 2만 5천 건 이상의 코드 리뷰를 처리합니다.",
+      "detail": "DoorDash는 AI 에이전트 기반 엔지니어링 자동화 플랫폼인 Flux를 구축하여, 기존에 개발자 노트북에서 실행되던 에이전트 워크로드를 클라우드로 이전했습니다.\n주요 성과: 한 달 동안 13만 건의 엔지니어링 작업 자동화, 매주 2만 5천 건 이상의 자동화된 코드 리뷰 처리. 클라우드 기반 에이전트 플랫폼 전환의 이점으로는 일관된 실행 환경, 리소스 확장성, 중앙 집중식 감사 및 모니터링이 있습니다. 이는 대규모 소프트웨어 조직에서 AI 에이전트를 체계적으로 운영하는 실제 아키텍처 사례로, 엔지니어링 자동화의 산업적 규모 적용 가능성을 입증합니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "Article: Eliminating Long-Lived Credentials in GCP with Workload Identity Federation",
+      "link": "https://www.infoq.com/articles/gcp-wif-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "GCP에서 장기 유효 서비스 계정 키를 제거하고 Workload Identity Federation으로 전환한 120개 이상의 프로덕션 프로젝트 적용 경험을 공유합니다.",
+      "detail": "GCP(Google Cloud Platform) 서비스 계정 키는 영구적으로 관리해야 하고 교체가 어려우며 유출 시 큰 위험을 초래합니다. Workload Identity Federation(WIF)은 이러한 장기 자격증명을 완전히 제거하고, 머신 신원이 인프라에서 작동하는 방식을 근본적으로 변경합니다.\n120개 이상의 프로덕션 프로젝트에 WIF를 스케일로 적용한 실제 경험을 바탕으로, CI/CD 파이프라인, 크로스 클라우드 워크로드, 서드파티 통합을 서비스 계정 키 없이 안전하게 처리하는 방법을 소개합니다. 키 기반 인증에서 아이덴티티 기반 인증으로의 전환이 가져오는 보안 개선 효과와 대규모 마이그레이션 시 주의할 패턴도 함께 다룹니다."
+    },
+    {
+      "category": "Python",
+      "title": "Async Programming in Python: From Generators to asyncio",
+      "link": "https://realpython.com/python-async-features/",
+      "summary": "Real Python의 비동기 프로그래밍 튜토리얼로, 제너레이터에서 asyncio까지 async/await 문법과 이벤트 루프를 활용한 I/O 동시 처리 방법을 다룹니다.",
+      "detail": "제너레이터부터 asyncio까지 Python 비동기 프로그래밍의 발전 과정을 체계적으로 안내하는 Real Python 튜토리얼입니다.\nasync/await 키워드를 사용한 비동기 함수 작성법, 블로킹 vs 논블로킹 연산의 차이, asyncio 이벤트 루프의 작동 원리를 실용적인 예시와 함께 소개합니다. 웹 요청과 파일 읽기 등 I/O 바운드 작업을 동시에 처리하여 애플리케이션 성능을 향상시키는 패턴을 학습할 수 있습니다. 비동기 프로그래밍은 현대 Python 웹 서버(FastAPI, aiohttp)와 데이터 파이프라인에서 필수적인 기법입니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "I am shocked, shocked to learn that this 2002 paper by Dan Ariely is based on dubious data and doesn't replicate.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/31/shocked/",
+      "summary": "행동경제학자 Dan Ariely의 2002년 논문이 의심스러운 데이터에 기반하며 재현에 실패한다는 사실이 드러나, 과학 연구 무결성 위기를 다시 조명합니다.",
+      "detail": "테드 강연 스타이자 저명한 행동경제학자 Dan Ariely의 2002년 논문이 의심스러운 데이터를 기반으로 작성되었으며 재현 불가능하다는 사실이 밝혀졌습니다. Ariely 교수는 이미 여러 논문에서 데이터 조작 의혹과 재현성 문제로 논란을 겪어왔으며, 이번 폭로는 그 사례가 더 깊이 뿌리내려 있음을 보여줍니다.\n이 사례는 행동경제학 분야의 광범위한 재현성 위기와 함께, 동료 심사(peer review) 시스템의 한계 및 데이터 무결성 검증의 중요성을 재확인시켜 줍니다. 연구 데이터의 사전 등록(preregistration)과 오픈 데이터 관행의 필요성을 강조하는 중요한 사례입니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "Do children grow continuously or do they grow in fits and starts?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/08/31/fits-and-starts/",
+      "summary": "아이들의 성장이 연속적으로 일어나는지, 간헐적인 급성장과 정체 패턴(saltatory growth)을 보이는지에 대한 통계적 모델링 논의를 검토합니다.",
+      "detail": "소아 성장 패턴에 관한 통계적 논쟁을 다루는 글로, 1992년 Lampl, Veldhuis, Johnson의 도약-정체 모델(saltation-and-stasis model)을 출발점으로 삼습니다. 이 모델은 아이들이 며칠 혹은 수 시간 만에 급격히 성장하는 도약(saltation) 후 정체 구간이 반복된다고 주장합니다.\n이후 연구들은 측정 오차와 데이터 수집 빈도가 이 패턴을 설명할 수 있다고 반박하며, 실제로 성장이 연속적일 수 있음을 시사합니다. 동일한 성장 데이터에서 어떤 통계 모델을 선택하느냐에 따라 전혀 다른 결론이 도출될 수 있다는 점에서, 데이터 생성 과정과 측정 방법이 통계적 추론에 얼마나 중요한지를 보여주는 흥미로운 사례 연구입니다."
     }
   ]
 }
