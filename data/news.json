@@ -1,7 +1,147 @@
 {
-  "updated": "2026-09-01T22:17:12+09:00",
-  "count": 1028,
+  "updated": "2026-09-02T02:43:07+09:00",
+  "count": 1044,
   "items": [
+    {
+      "title": "Introducing agentic video understanding with Gemini",
+      "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788282531,
+      "published": "2026-09-01T17:08:51+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Quoting Tarn Adams",
+      "link": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes — Tarn Adams , co-creator of Dwarf Fortress…",
+      "ts": 1788282071,
+      "published": "2026-09-01T17:01:11+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "How AI-native companies turn workflows into operating capability",
+      "link": "https://openai.com/index/ai-native-company-workflows",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
+      "ts": 1788282000,
+      "published": "2026-09-01T17:00:00+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "link": "https://www.latent.space/p/pr-not-welcome",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features.",
+      "ts": 1788279435,
+      "published": "2026-09-01T16:17:15+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "link": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Collage of images created by Google Pics, with the text \"Say hello to Google Pics\" on top",
+      "ts": 1788278400,
+      "published": "2026-09-01T16:00:00+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Your JSON Is Valid but Your Data Is Wrong: Five Failure Modes LLM Structured Outputs Won't Catch",
+      "link": "https://towardsdatascience.com/your-json-is-valid-but-your-data-is-wrong-five-failure-modes-llm-structured-outputs-wont-catch/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Five failure modes that survive constrained decoding, and why your schema validator will never catch them. The post Your JSON Is Valid but Your Data Is Wrong: Five Failure Modes LLM Structured Outputs Won't Catch appear…",
+      "ts": 1788276602,
+      "published": "2026-09-01T15:30:02+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Python 3.15.0 candidate 2 is here!",
+      "link": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate pha…",
+      "ts": 1788274758,
+      "published": "2026-09-01T14:59:18+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Aggregation Optimization in MongoDB: Sorting With Indexes (Part 5)",
+      "link": "https://foojay.io/today/aggregation-optimization-in-mongodb-sorting-with-indexes-part-5/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "And why MongoDB might be a better relational database than you ever realized. Design reviews are one-on-one meetings where MongoDB experts deliver advice on data modeling best practices and application design challenges…",
+      "ts": 1788271656,
+      "published": "2026-09-01T14:07:36+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Free Transcription with Speakr",
+      "link": "https://www.kdnuggets.com/free-transcription-with-speakr",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "How to set up, use, and get the most out of a private, self-hosted transcription platform with full control over where your audio goes",
+      "ts": 1788271247,
+      "published": "2026-09-01T14:00:47+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "What We Miss About Missing Values",
+      "link": "https://towardsdatascience.com/what-we-miss-about-missing-values/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The hidden assumptions behind the data we observe. The post What We Miss About Missing Values appeared first on Towards Data Science .",
+      "ts": 1788271202,
+      "published": "2026-09-01T14:00:02+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Primer on Python Decorators",
+      "link": "https://realpython.com/primer-on-python-decorators/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this tutorial, you'll look at what Python decorators are and how you define and use them. Decorators can make your code more readable and reusable. Come take a look at how decorators work under the hood and practice…",
+      "ts": 1788271200,
+      "published": "2026-09-01T14:00:00+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Build Your Own Face Recognition Tool With Python",
+      "link": "https://realpython.com/face-recognition-with-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this tutorial, you'll build your own face recognition command-line tool with Python. You'll learn how to use face detection to identify faces in an image and label them using face recognition. With this knowledge, yo…",
+      "ts": 1788271200,
+      "published": "2026-09-01T14:00:00+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "How to Get Started With Ollama",
+      "link": "https://realpython.com/courses/get-started-with-ollama/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to install Ollama, pull local models, and connect them to your Python code using the chat and text generation interfaces.",
+      "ts": 1788271200,
+      "published": "2026-09-01T14:00:00+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Updike’s kaleidoscope: Telling a life through a set of unconnected stories",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/01/updikes-kaleidoscope-telling-a-life-through-a-set-of-unconnected-stories/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "John Updike wrote around 250 short stories, the vast majority of which are from the perspective of the “Updike” character. As has been well documented, they’re based on himself, his family, and particular events that ha…",
+      "ts": 1788270230,
+      "published": "2026-09-01T13:43:50+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
     {
       "title": "InfoQ previews the September cohorts of its online certification programs",
       "link": "https://www.infoq.com/news/2026/09/infoq-online-cohorts-sept-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -61,6 +201,16 @@
       "ts": 1788264000,
       "published": "2026-09-01T12:00:00+00:00",
       "collected_at": "2026-09-01T22:16:53+09:00"
+    },
+    {
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "link": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
+      "ts": 1788264000,
+      "published": "2026-09-01T12:00:00+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
     },
     {
       "title": "Announcing BX-WORD: Native Microsoft Word Automation for BoxLang",
@@ -131,6 +281,26 @@
       "ts": 1788220800,
       "published": "2026-09-01T00:00:00+00:00",
       "collected_at": "2026-09-01T22:16:53+09:00"
+    },
+    {
+      "title": "This Week in Spring - September 1st, 2026",
+      "link": "https://spring.io/blog/2026/09/01/this-week-in-spring-september-1-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! Welcome to another exciting installment of This Week in Spring ! I'm writing this from lovely Oslo, Norway, for the joyous JavaZone conference. Next, I'm going to Amsterdam for the interesting IntelliJ…",
+      "ts": 1788220800,
+      "published": "2026-09-01T00:00:00+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI",
+      "link": "https://huggingface.co/blog/webgpu-kernels",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788220800,
+      "published": "2026-09-01T00:00:00+00:00",
+      "collected_at": "2026-09-02T02:42:41+09:00"
     },
     {
       "title": "Introducing wrapture",
@@ -10271,16 +10441,6 @@
       "ts": 1785709199,
       "published": "2026-08-02T22:19:59+00:00",
       "collected_at": "2026-08-03T09:01:33+09:00"
-    },
-    {
-      "title": "How to Apply Coding Agents to Non-Programming Tasks",
-      "link": "https://towardsdatascience.com/how-to-apply-coding-agents-to-non-programming-tasks/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Perform non-programming tasks with coding agents The post How to Apply Coding Agents to Non-Programming Tasks appeared first on Towards Data Science .",
-      "ts": 1785682800,
-      "published": "2026-08-02T15:00:00+00:00",
-      "collected_at": "2026-08-03T02:03:56+09:00"
     }
   ]
 }
