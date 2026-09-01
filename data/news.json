@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-01T10:06:19+09:00",
-  "count": 1018,
+  "updated": "2026-09-01T16:30:40+09:00",
+  "count": 1020,
   "items": [
+    {
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "link": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
+      "ts": 1788237414,
+      "published": "2026-09-01T04:36:54+00:00",
+      "collected_at": "2026-09-01T16:30:35+09:00"
+    },
+    {
+      "title": "Is MCP Good Yet?",
+      "link": "https://ismcpgoodyet.com",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://ismcpgoodyet.com Comments URL: https://news.ycombinator.com/item?id=49517483 Points: 23 # Comments: 1",
+      "ts": 1788231375,
+      "published": "2026-09-01T02:56:15+00:00",
+      "collected_at": "2026-09-01T16:30:35+09:00"
+    },
+    {
+      "title": "v2.37.0 (2026-08-31)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.37.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add glm-5.3-flash and rework the Z.AI test suite onto cassettes by @dsfaccini in #7887 🐛 Bug Fixes fix: preserve all conditions in pruned span queries by @mikemikimike in #7499 Accept and map Z…",
+      "ts": 1788227308,
+      "published": "2026-09-01T01:48:28+00:00",
+      "collected_at": "2026-09-01T16:30:35+09:00"
+    },
     {
       "title": "Introducing wrapture",
       "link": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
@@ -323,6 +353,16 @@
       "collected_at": "2026-09-01T09:17:37+09:00"
     },
     {
+      "title": "OpenAI supports California’s bill to advance youth AI safety",
+      "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
+      "ts": 1788159600,
+      "published": "2026-08-31T07:00:00+00:00",
+      "collected_at": "2026-09-01T16:30:35+09:00"
+    },
+    {
       "title": "Metadata requests no longer tracked in PyPI download counts",
       "link": "https://blog.pypi.org/posts/2026-08-31-download-counts/",
       "source": "PyPI Blog",
@@ -361,6 +401,16 @@
       "ts": 1788134400,
       "published": "2026-08-31T00:00:00+00:00",
       "collected_at": "2026-09-01T10:05:57+09:00"
+    },
+    {
+      "title": "Improving our alignment and security efforts",
+      "link": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Improving our alignment and security efforts",
+      "ts": 1788134400,
+      "published": "2026-08-31T00:00:00+00:00",
+      "collected_at": "2026-09-01T16:30:35+09:00"
     },
     {
       "title": "Understanding ChatGPT Work",
@@ -10151,36 +10201,6 @@
       "ts": 1785663229,
       "published": "2026-08-02T09:33:49+00:00",
       "collected_at": "2026-08-02T20:18:52+09:00"
-    },
-    {
-      "title": "Cloudflare Introduces Meerkat for Strongly Consistent Global Coordination",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-meerkat-consensus/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare recently introduced Meerkat, an internal globally consistent control-plane service based on the QuePaxa consensus algorithm. Unlike Raft, it allows leaderless writes while preserving strong consistency, impro…",
-      "ts": 1785651420,
-      "published": "2026-08-02T06:17:00+00:00",
-      "collected_at": "2026-08-02T15:36:32+09:00"
-    },
-    {
-      "title": "Open letters about AI development",
-      "link": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Open letters about AI development I wrote this summary of the past few weeks of open letters as a section of my sponsors-only newsletter but I've decided to share it here as well. Open Weights and American AI Leadership…",
-      "ts": 1785644212,
-      "published": "2026-08-02T04:16:52+00:00",
-      "collected_at": "2026-08-02T15:36:32+09:00"
-    },
-    {
-      "title": "July 2026 newsletter",
-      "link": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The June edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Accidental cyberattacks by OpenAl and Anthropic models under…",
-      "ts": 1785643961,
-      "published": "2026-08-02T04:12:41+00:00",
-      "collected_at": "2026-08-02T15:36:32+09:00"
     }
   ]
 }
