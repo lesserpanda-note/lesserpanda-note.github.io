@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-01T06:48:45+09:00",
+  "updated": "2026-09-01T09:17:49+09:00",
   "count": 1016,
   "items": [
+    {
+      "title": "Introducing wrapture",
+      "link": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tr…",
+      "ts": 1788220776,
+      "published": "2026-08-31T23:59:36+00:00",
+      "collected_at": "2026-09-01T09:17:37+09:00"
+    },
     {
       "title": "Release 2026.8.31",
       "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.31",
@@ -291,6 +301,26 @@
       "ts": 1788159725,
       "published": "2026-08-31T07:02:05+00:00",
       "collected_at": "2026-09-01T01:52:56+09:00"
+    },
+    {
+      "title": "Polimill builds Japan's next-generation public AI infrastructure",
+      "link": "https://openai.com/index/polimill",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
+      "ts": 1788159600,
+      "published": "2026-08-31T07:00:00+00:00",
+      "collected_at": "2026-09-01T09:17:37+09:00"
+    },
+    {
+      "title": "Metadata requests no longer tracked in PyPI download counts",
+      "link": "https://blog.pypi.org/posts/2026-08-31-download-counts/",
+      "source": "PyPI Blog",
+      "category": "Python",
+      "summary": "On 2026-08-24 I shipped a change to the configuration that emits PyPI's download logs so that only requests for actual distribution artifacts are counted. A request has to end in .whl , .tar.gz , or .zip to produce a do…",
+      "ts": 1788156540,
+      "published": "2026-08-31T06:09:00+00:00",
+      "collected_at": "2026-09-01T09:17:37+09:00"
     },
     {
       "title": "A milestone in expanding access to AI",
@@ -10131,36 +10161,6 @@
       "ts": 1785643961,
       "published": "2026-08-02T04:12:41+00:00",
       "collected_at": "2026-08-02T15:36:32+09:00"
-    },
-    {
-      "title": "Faster floating point math with Rust’s new API",
-      "link": "https://pythonspeed.com/articles/faster-float-math-rust/",
-      "source": "Python Speed",
-      "category": "Python",
-      "summary": "Floating point math is often slower than integer math because the compiler is being conservative about how it optimizes your code. While some programming languages already had solutions of a sort, until now Rust did not…",
-      "ts": 1785628800,
-      "published": "2026-08-02T00:00:00+00:00",
-      "collected_at": "2026-08-03T05:59:24+09:00"
-    },
-    {
-      "title": "Quoting Greg Brockman",
-      "link": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "at openai, many people hook their chatgpt up to slack. people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by t…",
-      "ts": 1785623384,
-      "published": "2026-08-01T22:29:44+00:00",
-      "collected_at": "2026-08-02T08:59:40+09:00"
-    },
-    {
-      "title": "Stateless MCP has recaptured my interest",
-      "link": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://simonwillison.net/2026/Jul/31/stateless-mcp/ Comments URL: https://news.ycombinator.com/item?id=49139067 Points: 20 # Comments: 2",
-      "ts": 1785622921,
-      "published": "2026-08-01T22:22:01+00:00",
-      "collected_at": "2026-08-04T14:51:45+09:00"
     }
   ]
 }
