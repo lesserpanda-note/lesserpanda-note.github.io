@@ -1,7 +1,47 @@
 {
-  "updated": "2026-09-02T02:43:07+09:00",
-  "count": 1044,
+  "updated": "2026-09-02T05:47:42+09:00",
+  "count": 1049,
   "items": [
+    {
+      "title": "Survey Statistics: logit shift and raking",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/01/survey-statistics-logit-shift-and-raking/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "We’ve been discussing how to use population margin information about poststratification variables (see Modeling Complex Contingency Tables and SynthMargins & Bayes-Raking). I want to connect two terms for this we’ve men…",
+      "ts": 1788292859,
+      "published": "2026-09-01T20:00:59+00:00",
+      "collected_at": "2026-09-02T05:47:19+09:00"
+    },
+    {
+      "title": "Fragments: September 1",
+      "link": "https://martinfowler.com/fragments/2026-09-01.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Like many readers, I’m wary of AI generated prose. Simon Wilison has written an LLM cliché highlighter - paste in some text, or a URL, and it will flag various patterns common to LLMs. It references a wikipedia page of…",
+      "ts": 1788292200,
+      "published": "2026-09-01T19:50:00+00:00",
+      "collected_at": "2026-09-02T05:47:19+09:00"
+    },
+    {
+      "title": "Codex bundles LibreOffice",
+      "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-…",
+      "ts": 1788289381,
+      "published": "2026-09-01T19:03:01+00:00",
+      "collected_at": "2026-09-02T05:47:19+09:00"
+    },
+    {
+      "title": "OpenClaw 2.0 Releases with Simplified Setup and Collaborative Agents",
+      "link": "https://www.infoq.com/news/2026/09/openclaw-2-release/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "OpenClaw has released OpenClaw 2.0, a major update to the open-source personal AI agent that changes its installation process, browser interface, memory, skills, automations, plugins, security, and collaboration feature…",
+      "ts": 1788288420,
+      "published": "2026-09-01T18:47:00+00:00",
+      "collected_at": "2026-09-02T05:47:19+09:00"
+    },
     {
       "title": "Introducing agentic video understanding with Gemini",
       "link": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
@@ -151,6 +191,16 @@
       "ts": 1788267600,
       "published": "2026-09-01T13:00:00+00:00",
       "collected_at": "2026-09-01T22:16:53+09:00"
+    },
+    {
+      "title": "Path to Astra: critical capabilities and frontier safeguards",
+      "link": "https://openai.com/index/path-to-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
+      "ts": 1788267600,
+      "published": "2026-09-01T13:00:00+00:00",
+      "collected_at": "2026-09-02T05:47:19+09:00"
     },
     {
       "title": "Beyond Point Predictions: A Practical Introduction to Bayesian Neural Networks",
