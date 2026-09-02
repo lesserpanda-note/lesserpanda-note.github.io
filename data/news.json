@@ -1,7 +1,177 @@
 {
-  "updated": "2026-09-02T22:25:38+09:00",
-  "count": 1052,
+  "updated": "2026-09-03T02:44:40+09:00",
+  "count": 1053,
   "items": [
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788366264,
+      "published": "2026-09-02T16:24:24+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788365911,
+      "published": "2026-09-02T16:18:31+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Quantifying User Behavior Patterns to Build Better Predictive Features",
+      "link": "https://www.kdnuggets.com/quantifying-user-behavior-patterns-to-build-better-predictive-features",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Simply knowing that a 35-year-old male in Seattle clicked 12 times last month tells you almost nothing about his intent.",
+      "ts": 1788364827,
+      "published": "2026-09-02T16:00:27+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Proactive cyber defense for governments and enterprises",
+      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Introducing Fairwind Program",
+      "ts": 1788363600,
+      "published": "2026-09-02T15:40:00+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working",
+      "link": "https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-2-when-fuzzy-matching-stops-working/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "I built a matcher meant to finish the cleanup that normalization left behind. Testing it against real data showed that no version of it could be made safe. What follows is the architecture that was left once the matcher…",
+      "ts": 1788363002,
+      "published": "2026-09-02T15:30:02+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "An Accidental Blackboard",
+      "link": "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Giles Edwards-Alexander reports that during an experiment to see how productive a team could be using fully agentic engineering practices, the team accidentally prompted the agents into creating a blackboard coordinatio…",
+      "ts": 1788360300,
+      "published": "2026-09-02T14:45:00+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just th…",
+      "ts": 1788358602,
+      "published": "2026-09-02T14:16:42+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "This Python Library Can Run Pandas Workloads Up to 20x Faster",
+      "link": "https://www.kdnuggets.com/this-python-library-can-run-pandas-workloads-up-to-20x-faster",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Discover how FireDucks can speed up pandas workloads with lazy execution, compiler optimization, and multithreaded processing, delivering up to 20x faster DataFrame performance in our benchmark.",
+      "ts": 1788357611,
+      "published": "2026-09-02T14:00:11+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "A RAG That Says “Not in This Document” Has to Show Four Kinds of Evidence",
+      "link": "https://towardsdatascience.com/a-rag-that-says-not-in-this-document-has-to-show-four-kinds-of-evidence/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Enterprise Document Intelligence [Vol.1 #B3] - A confident wrong answer is a bug. A bare “no answer” with no justification is almost as bad. Each of the four bricks has one piece of evidence to show The post A RAG That…",
+      "ts": 1788357602,
+      "published": "2026-09-02T14:00:02+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Facilitating AI integration with simplicity at scale",
+      "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data sil…",
+      "ts": 1788357600,
+      "published": "2026-09-02T14:00:00+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Python 3.15 Preview: UTF-8 by Default",
+      "link": "https://realpython.com/python315-utf8-default/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Preview the Python 3.15 UTF-8 default: see what changes, try it on a pre-release, and keep your file I/O portable across every platform.",
+      "ts": 1788357600,
+      "published": "2026-09-02T14:00:00+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Yale med school prof tells his postdocs: Work extra hours at my command or you’re no better than “the guy who charges me by the hour to cut my lawn.”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/02/yale-med-school-prof-tells-his-postdocs-work-extra-hours-at-my-command-or-youre-no-better-than-the-guy-who-charges-me-by-the-hour-to-cut-my-lawn/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I came across this opinion piece, “Postdocs Aren’t Burger Flippers: Why Unionization Is a Bad Idea,” by Yale medical school professor Evan Morris, who writes: Unfortunately, in 2026, postdoc unions are proliferating. An…",
+      "ts": 1788357507,
+      "published": "2026-09-02T13:58:27+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Swiggy Uses 350+ Features and Multi-Task MLP to Predict Customer Lifetime Value",
+      "link": "https://www.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Swiggy developed an in house predicted lifetime value model using more than 350 pre order features and a multi task MLP for Food and Instamart. Adding order count as an auxiliary task reduced model parameters by 63% whi…",
+      "ts": 1788357300,
+      "published": "2026-09-02T13:55:00+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Swiggy Uses 350+ Features and Multi-Task MLP to Predict Customer Lifetime Value",
+      "link": "https://www.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Swiggy developed an in house predicted lifetime value model using more than 350 pre order features and a multi task MLP for Food and Instamart. Adding order count as an auxiliary task reduced model parameters by 63% whi…",
+      "ts": 1788357300,
+      "published": "2026-09-02T13:55:00+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
+      "link": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788356954,
+      "published": "2026-09-02T13:49:14+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "link": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero Comments URL: https://news.ycombinator.com/item?id=49536114 Points: 116 # Comments: 37",
+      "ts": 1788356594,
+      "published": "2026-09-02T13:43:14+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
+    {
+      "title": "Maybe We Shouldn't Be Reviewing All This Code",
+      "link": "https://martinfowler.com/rachels-ramblings/code-review.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "TL;DR Or, perhaps the problem isn't that AI has broken code review, maybe it’s that we've been using code review to solve the wrong problems I was on a panel recently with Brian Houck from DX at Code Remix, hosted by Mo…",
+      "ts": 1788355920,
+      "published": "2026-09-02T13:32:00+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
+    },
     {
       "title": "Graph Neural Networks: GCN, MPNN, and GAT, Explained Simply",
       "link": "https://towardsdatascience.com/graph-neural-networks-gcn-mpnn-and-gat-explained-simply/",
@@ -51,6 +221,16 @@
       "ts": 1788350400,
       "published": "2026-09-02T12:00:00+00:00",
       "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "AI Agent Memory Design: What Works and What Doesn’t",
+      "link": "https://machinelearningmastery.com/ai-agent-memory-design-what-works-and-what-doesnt/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how to design reliable memory systems for AI agents, covering both the patterns that work and the common architectural...",
+      "ts": 1788349776,
+      "published": "2026-09-02T11:49:36+00:00",
+      "collected_at": "2026-09-03T02:44:35+09:00"
     },
     {
       "title": "A Complete Guide to Decoding LLM Model Names",
@@ -10351,176 +10531,6 @@
       "ts": 1785782610,
       "published": "2026-08-03T18:43:30+00:00",
       "collected_at": "2026-08-04T04:42:44+09:00"
-    },
-    {
-      "title": "Prompt, Context, Loop: The Three Engineering Layers Every RAG System Is Built On",
-      "link": "https://towardsdatascience.com/prompt-context-loop-the-three-engineering-layers-every-rag-system-is-built-on/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #M2] - Every RAG system is built in three engineering layers stacked on one LLM call: prompt (the call itself), context (what fills the model’s window), loop (when the next call f…",
-      "ts": 1785774600,
-      "published": "2026-08-03T16:30:00+00:00",
-      "collected_at": "2026-08-04T02:54:42+09:00"
-    },
-    {
-      "title": "Show HN: Product analytics (and evals) for agent sessions on your MCP",
-      "link": "https://armature.tech/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Hi HN! We’re Theodore and Louis, founders of Armature (YC P26). We reconstruct the entire session behind the MCP tool calls you receive, including what the user asked their agent to do and what the agent thought. You wr…",
-      "ts": 1785773879,
-      "published": "2026-08-03T16:17:59+00:00",
-      "collected_at": "2026-08-04T08:05:09+09:00"
-    },
-    {
-      "title": "Quoting David Crawshaw's prompt",
-      "link": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version. —…",
-      "ts": 1785773727,
-      "published": "2026-08-03T16:15:27+00:00",
-      "collected_at": "2026-08-04T02:54:42+09:00"
-    },
-    {
-      "title": "Does MiniMax Agent Actually Make Work Easier?",
-      "link": "https://www.kdnuggets.com/does-minimax-agent-actually-make-work-easier",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Read about MiniMax's own architecture, and see how it runs a real task against the actual API. Learn the pieces of the MiniMax story that weren't covered in the launch post.",
-      "ts": 1785772859,
-      "published": "2026-08-03T16:00:59+00:00",
-      "collected_at": "2026-08-04T02:54:42+09:00"
-    },
-    {
-      "title": "The Codename One JavaScript Port Is Now Free and Open Source",
-      "link": "https://foojay.io/today/the-codename-one-javascript-port-is-now-free-and-open-source/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Codename One's JavaScript port is now open source, available on every plan, and buildable locally without an account. ParparVM is the default, while TeaVM remains available through a build hint. The post The Codename On…",
-      "ts": 1785771990,
-      "published": "2026-08-03T15:46:30+00:00",
-      "collected_at": "2026-08-04T02:54:42+09:00"
-    },
-    {
-      "title": "Devtools must be open source (exe.dev)",
-      "link": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "My comment on Devtools must be open source (exe.dev) — Hacker News. One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works. The reality for…",
-      "ts": 1785771038,
-      "published": "2026-08-03T15:30:38+00:00",
-      "collected_at": "2026-08-04T02:54:42+09:00"
-    },
-    {
-      "title": "How to Build CLI Agents with Python & Ollama",
-      "link": "https://towardsdatascience.com/cli-agents-with-python-ollama/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Create a local CLI Agent from scratch completely for free The post How to Build CLI Agents with Python & Ollama appeared first on Towards Data Science .",
-      "ts": 1785769200,
-      "published": "2026-08-03T15:00:00+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "Inside our 353,000-person vibe coding course",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Illustrations of a laptop, an AI spark, messages, code, and a 3-D cube",
-      "ts": 1785769200,
-      "published": "2026-08-03T15:00:00+00:00",
-      "collected_at": "2026-08-05T01:55:28+09:00"
-    },
-    {
-      "title": "Decoding Strategies and Output Control",
-      "link": "https://machinelearningmastery.com/decoding-strategies-and-output-control/",
-      "source": "ML Mastery",
-      "category": "DataScience",
-      "summary": "This chapter is divided into nine parts; they are: • Reading Logits from a Model • Greedy Decoding • Temperature Sampling • Top-$k$ Sampling • Nucleus Sampling • Repetition Penalties • Beam Search • Stop Conditions • St…",
-      "ts": 1785767777,
-      "published": "2026-08-03T14:36:17+00:00",
-      "collected_at": "2026-08-04T02:54:42+09:00"
-    },
-    {
-      "title": "Java News Roundup: OpenJDK JEPs, Jakarta EE, GraalVM, TornadoVM, Micronaut, Quarkus, JobRunr, Maven",
-      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-jul27-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for July 27th, 2026, features news highlighting: OpenJDK JEPs targeted and proposed to target for JDK 28; the GA release of GPULlama3.java 1.0; point releases of Micronaut, Quarkus and JobRunr;…",
-      "ts": 1785767400,
-      "published": "2026-08-03T14:30:00+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "Java News Roundup: OpenJDK JEPs, Jakarta EE, GraalVM, TornadoVM, Micronaut, Quarkus, JobRunr, Maven",
-      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-jul27-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for July 27th, 2026, features news highlighting: OpenJDK JEPs targeted and proposed to target for JDK 28; the GA release of GPULlama3.java 1.0; point releases of Micronaut, Quarkus and JobRunr;…",
-      "ts": 1785767400,
-      "published": "2026-08-03T14:30:00+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "A Guide to Saving Token Usage with Multi-Agent AI",
-      "link": "https://www.kdnuggets.com/a-guide-to-saving-token-usage-with-multi-agent-ai",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Scaling up and streamlining a multi-agent architecture doesn't necessarily entail escalated costs if you know how to properly implement these four strategies for saving token usage.",
-      "ts": 1785765625,
-      "published": "2026-08-03T14:00:25+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "MCP Gets Its Biggest Rewrite and Other Python News for August 2026",
-      "link": "https://realpython.com/python-news-august-2026/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "MCP drops sessions and renames FastMCP, Claude Opus 5 turns thinking on by default, and Python 3.15 ships its final beta.",
-      "ts": 1785765600,
-      "published": "2026-08-03T14:00:00+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "HubSpot Redesigns JITA Authorization with Rule Engine Architecture",
-      "link": "https://www.infoq.com/news/2026/08/hubspot-jita-rule-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "HubSpot has redesigned its Just-In-Time Access (JITA) authorization system using a rule engine architecture. The system evaluates access requests through independent rules organized as a directed acyclic graph, adding s…",
-      "ts": 1785765540,
-      "published": "2026-08-03T13:59:00+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "HubSpot Redesigns JITA Authorization with Rule Engine Architecture",
-      "link": "https://www.infoq.com/news/2026/08/hubspot-jita-rule-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "HubSpot has redesigned its Just-In-Time Access (JITA) authorization system using a rule engine architecture. The system evaluates access requests through independent rules organized as a directed acyclic graph, adding s…",
-      "ts": 1785765540,
-      "published": "2026-08-03T13:59:00+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "“Placebo tests deserve a model, not just a glance.”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/03/placebo-tests-deserve-a-model-not-just-a-glance/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Miha Gazvoda shares this post with the above title and the subtitle, “Using Bayesian multilevel models to correct bias and calibrate uncertainty.” He’s using the chickens model from our Slamming the Sham paper in the mo…",
-      "ts": 1785763844,
-      "published": "2026-08-03T13:30:44+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "The AI Was the Easy Part: What Is a Forward-Deployed Engineer in a Supply Chain?",
-      "link": "https://towardsdatascience.com/the-ai-was-the-easy-part-what-is-a-forward-deployed-engineer-in-a-supply-chain/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "What actually makes a Forward Deployed Engineer, told through one supply chain project. The post The AI Was the Easy Part: What Is a Forward-Deployed Engineer in a Supply Chain? appeared first on Towards Data Science .",
-      "ts": 1785763800,
-      "published": "2026-08-03T13:30:00+00:00",
-      "collected_at": "2026-08-04T00:45:33+09:00"
     }
   ]
 }
