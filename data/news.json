@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-03T02:44:40+09:00",
+  "updated": "2026-09-03T05:47:11+09:00",
   "count": 1053,
   "items": [
+    {
+      "title": "Confirmation bias in software testing, Walnutpie edition",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/02/confirmation-bias-in-software-testing-walnutpie-edition/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "So, those exciting results I presented at StanCon about Walnutpie? Let’s pull back the curtain. Confirmation bias in testing Those stellar results were the result of a bug in the way we calculated R-hat and effective sa…",
+      "ts": 1788375634,
+      "published": "2026-09-02T19:00:34+00:00",
+      "collected_at": "2026-09-03T05:47:03+09:00"
+    },
+    {
+      "title": "Metascience corner: What can we learn from 12 million empirical research results?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/02/metascience-corner-what-can-we-learn-from-12-million-empirical-research-results/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This is Witold and today we are building a bear. In our recent paper with Erik van Zwet and Andrew, A statistical case for qualified scientific optimism, we fit metascientific models that use hundreds of thousands of z-…",
+      "ts": 1788372261,
+      "published": "2026-09-02T18:04:21+00:00",
+      "collected_at": "2026-09-03T05:47:03+09:00"
+    },
+    {
+      "title": "llm-gemini 0.34",
+      "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan .…",
+      "ts": 1788367178,
+      "published": "2026-09-02T16:39:38+00:00",
+      "collected_at": "2026-09-03T05:47:03+09:00"
+    },
     {
       "title": "Proactive cyber defense for governments and enterprises",
       "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
@@ -10501,36 +10531,6 @@
       "ts": 1785793443,
       "published": "2026-08-03T21:44:03+00:00",
       "collected_at": "2026-08-04T08:05:09+09:00"
-    },
-    {
-      "title": "Azure and Community Guidelines on Choosing Between a Skill or a Sub-Agent",
-      "link": "https://www.infoq.com/news/2026/08/choosing-between-subagent-skills/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "In a recent Azure Architecture blog article, Azure lead engineer Kishorekumar Pattabiraman outlines practical criteria for choosing between skills, sub-agents, and other approaches when building AI systems, emphasizing…",
-      "ts": 1785783600,
-      "published": "2026-08-03T19:00:00+00:00",
-      "collected_at": "2026-08-04T04:42:44+09:00"
-    },
-    {
-      "title": "Azure and Community Guidelines on Choosing Between a Skill or a Sub-Agent",
-      "link": "https://www.infoq.com/news/2026/08/choosing-between-subagent-skills/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "In a recent Azure Architecture blog article, Azure lead engineer Kishorekumar Pattabiraman outlines practical criteria for choosing between skills, sub-agents, and other approaches when building AI systems, emphasizing…",
-      "ts": 1785783600,
-      "published": "2026-08-03T19:00:00+00:00",
-      "collected_at": "2026-08-04T04:42:44+09:00"
-    },
-    {
-      "title": "Trump’s AI protectionism has come for robotics",
-      "link": "https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Humanoid robots usually elicit more cringe than awe: They stumble, kick children,…",
-      "ts": 1785782610,
-      "published": "2026-08-03T18:43:30+00:00",
-      "collected_at": "2026-08-04T04:42:44+09:00"
     }
   ]
 }
