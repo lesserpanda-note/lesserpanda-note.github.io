@@ -1,7 +1,127 @@
 {
-  "updated": "2026-09-02T17:36:28+09:00",
-  "count": 1048,
+  "updated": "2026-09-02T22:25:38+09:00",
+  "count": 1052,
   "items": [
+    {
+      "title": "Graph Neural Networks: GCN, MPNN, and GAT, Explained Simply",
+      "link": "https://towardsdatascience.com/graph-neural-networks-gcn-mpnn-and-gat-explained-simply/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A visual guide to how graph neural networks work under the hood The post Graph Neural Networks: GCN, MPNN, and GAT, Explained Simply appeared first on Towards Data Science .",
+      "ts": 1788352202,
+      "published": "2026-09-02T12:30:02+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "OpenAI Details GPT-Live’s Architecture for Continuous Stateful Voice Interaction",
+      "link": "https://www.infoq.com/news/2026/09/openai-gpt-live/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "OpenAI recently published an engineering account of GPT-Live. It described how they designed the system to maintain continuous voice interaction while separating latency-sensitive media processing from broader applicati…",
+      "ts": 1788351600,
+      "published": "2026-09-02T12:20:00+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "5 Real-World Applications of Agentic AI in Enterprise Automation",
+      "link": "https://www.kdnuggets.com/5-real-world-applications-of-agentic-ai-in-enterprise-automation",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Deploy agentic AI across SRE, finance, legal, migration, and security with deterministic safety constraints.",
+      "ts": 1788350439,
+      "published": "2026-09-02T12:00:39+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "Quiz: Python Project Structure: How to Choose the Right Layout",
+      "link": "https://realpython.com/quizzes/python-application-layouts/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python project structure, from flat and src layouts to organizing packages for CLI, web, and GUI applications.",
+      "ts": 1788350400,
+      "published": "2026-09-02T12:00:00+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "Quiz: Python 3.15 Preview: UTF-8 by Default",
+      "link": "https://realpython.com/quizzes/python315-utf8-default/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python 3.15's UTF-8 default, from the origins of the old locale-based encoding to passing explicit encodings in your code.",
+      "ts": 1788350400,
+      "published": "2026-09-02T12:00:00+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "A Complete Guide to Decoding LLM Model Names",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/decoding-llm-model-names/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "If you have ever tried downloading a local LLM, you have probably seen model names that look like this: Qwen3.8-27B-A3B-It-2507-gguf-q2ks-mixed-AutoRound At first, it looks like meaningless technical shorthand. It isn’t…",
+      "ts": 1788349403,
+      "published": "2026-09-02T11:43:23+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "A Practical Introduction to PySpark Window Functions",
+      "link": "https://towardsdatascience.com/a-practical-introduction-to-pyspark-window-functions/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Why the standard groupBy function isn’t enough The post A Practical Introduction to PySpark Window Functions appeared first on Towards Data Science .",
+      "ts": 1788346802,
+      "published": "2026-09-02T11:00:02+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "Presentation: Beyond Prompting: Context Engineering for Production-Grade AI",
+      "link": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Ricardo Ferreira discusses moving beyond simple prompt engineering to build production-grade AI applications. He shares practical architectural strategies for integrating long-term and short-term memory using Redis, man…",
+      "ts": 1788346800,
+      "published": "2026-09-02T11:00:00+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "Presentation: Beyond Prompting: Context Engineering for Production-Grade AI",
+      "link": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Ricardo Ferreira discusses moving beyond simple prompt engineering to build production-grade AI applications. He shares practical architectural strategies for integrating long-term and short-term memory using Redis, man…",
+      "ts": 1788346800,
+      "published": "2026-09-02T11:00:00+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "MongoDB Search Server, improved!",
+      "link": "https://foojay.io/today/mongodb-search-server-improved/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "In this article, we’re going to revisit and improve the MongoDB Search Server originally described in the article How to Build a Search Service in Java with MongoDB. First, let’s remind ourselves why an intermediate sea…",
+      "ts": 1788343200,
+      "published": "2026-09-02T10:00:00+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline",
+      "link": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare has added optional OAuth scopes, letting client owners mark which permissions users may deselect at consent. The company names MCP servers as the motivating case, since agents request the union of everything…",
+      "ts": 1788340020,
+      "published": "2026-09-02T09:07:00+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
+    {
+      "title": "Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline",
+      "link": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare has added optional OAuth scopes, letting client owners mark which permissions users may deselect at consent. The company names MCP servers as the motivating case, since agents request the union of everything…",
+      "ts": 1788340020,
+      "published": "2026-09-02T09:07:00+00:00",
+      "collected_at": "2026-09-02T22:25:13+09:00"
+    },
     {
       "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
       "link": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
@@ -10401,86 +10521,6 @@
       "ts": 1785763800,
       "published": "2026-08-03T13:30:00+00:00",
       "collected_at": "2026-08-04T00:45:33+09:00"
-    },
-    {
-      "title": "Quiz: Bypassing the GIL for Parallel Processing in Python",
-      "link": "https://realpython.com/quizzes/python-parallel-processing/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of the GIL, process-based parallelism, and the ways to run Python threads in parallel across multiple CPU cores.",
-      "ts": 1785758400,
-      "published": "2026-08-03T12:00:00+00:00",
-      "collected_at": "2026-08-03T21:28:31+09:00"
-    },
-    {
-      "title": "How Claude Help Me Build My $200k+ ML Resume",
-      "link": "https://towardsdatascience.com/how-claude-help-me-build-my-200k-ml-resume/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "How use Claude to craft an outstanding resume that lands offers The post How Claude Help Me Build My $200k+ ML Resume appeared first on Towards Data Science .",
-      "ts": 1785758400,
-      "published": "2026-08-03T12:00:00+00:00",
-      "collected_at": "2026-08-03T21:28:31+09:00"
-    },
-    {
-      "title": "Podcast: WebAssembly on the JVM: Feature Evolution, Performance, and the Transition to Endive",
-      "link": "https://www.infoq.com/podcasts/feature-evolution-performance-transition-endive/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Andrea Peruffo discusses the evolution of WebAssembly beyond the browser and its growing role on the server-side JVM. He covers performance advancements in Wasm runtimes, moving from interpreters to efficient JIT compil…",
-      "ts": 1785754800,
-      "published": "2026-08-03T11:00:00+00:00",
-      "collected_at": "2026-08-03T21:28:31+09:00"
-    },
-    {
-      "title": "Article: Enabling Evolutionary Architecture Through the Preservation of Change Locality",
-      "link": "https://www.infoq.com/articles/evolutionary-architecture-change-locality/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Why do simple features suddenly require cross-team negotiations? In this article, explore how boundary drift quietly destroys change locality and increases cognitive load across teams. Learn practical sociotechnical str…",
-      "ts": 1785754800,
-      "published": "2026-08-03T11:00:00+00:00",
-      "collected_at": "2026-08-03T21:28:31+09:00"
-    },
-    {
-      "title": "Podcast: WebAssembly on the JVM: Feature Evolution, Performance, and the Transition to Endive",
-      "link": "https://www.infoq.com/podcasts/feature-evolution-performance-transition-endive/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Andrea Peruffo discusses the evolution of WebAssembly beyond the browser and its growing role on the server-side JVM. He covers performance advancements in Wasm runtimes, moving from interpreters to efficient JIT compil…",
-      "ts": 1785754800,
-      "published": "2026-08-03T11:00:00+00:00",
-      "collected_at": "2026-08-03T21:28:31+09:00"
-    },
-    {
-      "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
-      "link": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Microsoft's Agent Framework now ships a supported runtime. Build 2026 brought the Agent Harness, the GitHub Copilot and Claude Agent SDK connectors, and the orchestration patterns to stable release; the harness and Foun…",
-      "ts": 1785753000,
-      "published": "2026-08-03T10:30:00+00:00",
-      "collected_at": "2026-08-03T21:28:31+09:00"
-    },
-    {
-      "title": "Microsoft Agent Framework Harness and Hosted Agents Reach General Availability",
-      "link": "https://www.infoq.com/news/2026/08/agent-framework-harness-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft's Agent Framework now ships a supported runtime. Build 2026 brought the Agent Harness, the GitHub Copilot and Claude Agent SDK connectors, and the orchestration patterns to stable release; the harness and Foun…",
-      "ts": 1785753000,
-      "published": "2026-08-03T10:30:00+00:00",
-      "collected_at": "2026-08-03T21:28:31+09:00"
-    },
-    {
-      "title": "HashiCorp Ships Public Beta of Vault Kubernetes Key Management",
-      "link": "https://www.infoq.com/news/2026/08/vault-kubernetes-key-management/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "HashiCorp has released a public beta of Vault Kubernetes key management, a KMS v2-compatible plugin that lets the Kubernetes API server delegate envelope encryption to Vault Enterprise, moving the key encryption keys th…",
-      "ts": 1785751200,
-      "published": "2026-08-03T10:00:00+00:00",
-      "collected_at": "2026-08-03T21:28:31+09:00"
     }
   ]
 }
