@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-02T12:43:21+09:00",
-  "count": 1053,
+  "updated": "2026-09-02T17:36:28+09:00",
+  "count": 1048,
   "items": [
+    {
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "link": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Queue the usual rush of model launches...",
+      "ts": 1788335168,
+      "published": "2026-09-02T07:46:08+00:00",
+      "collected_at": "2026-09-02T17:36:06+09:00"
+    },
+    {
+      "title": "Quoting Rick Brewster",
+      "link": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now ha…",
+      "ts": 1788328257,
+      "published": "2026-09-02T05:50:57+00:00",
+      "collected_at": "2026-09-02T17:36:06+09:00"
+    },
     {
       "title": "Claude Fable 5.1 made me a really nice animated pelican",
       "link": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
@@ -131,6 +151,16 @@
       "ts": 1788278400,
       "published": "2026-09-01T16:00:00+00:00",
       "collected_at": "2026-09-02T02:42:41+09:00"
+    },
+    {
+      "title": "datasette-mcp 0.2",
+      "link": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which colu…",
+      "ts": 1788276612,
+      "published": "2026-09-01T15:30:12+00:00",
+      "collected_at": "2026-09-02T17:36:06+09:00"
     },
     {
       "title": "Your JSON Is Valid but Your Data Is Wrong: Five Failure Modes LLM Structured Outputs Won't Catch",
@@ -10451,86 +10481,6 @@
       "ts": 1785751200,
       "published": "2026-08-03T10:00:00+00:00",
       "collected_at": "2026-08-03T21:28:31+09:00"
-    },
-    {
-      "title": "Here’s why AI agents lie and cheat to reach their goals",
-      "link": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the w…",
-      "ts": 1785745805,
-      "published": "2026-08-03T08:30:05+00:00",
-      "collected_at": "2026-08-03T21:28:31+09:00"
-    },
-    {
-      "title": "Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer",
-      "link": "https://www.infoq.com/presentations/agentic-compute/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Arun Joseph shares real-world insights on scaling enterprise agentic platforms like Deutsche Telekom’s LMOS. He discusses bridging organizational fault lines, replacing tool sprawl with core platform abstractions, and m…",
-      "ts": 1785744480,
-      "published": "2026-08-03T08:08:00+00:00",
-      "collected_at": "2026-08-03T17:32:07+09:00"
-    },
-    {
-      "title": "Presentation: Architecting AI Systems for the Messy Reality of Enterprises: Why Agentic Compute is the Missing Layer",
-      "link": "https://www.infoq.com/presentations/agentic-compute/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Arun Joseph shares real-world insights on scaling enterprise agentic platforms like Deutsche Telekom’s LMOS. He discusses bridging organizational fault lines, replacing tool sprawl with core platform abstractions, and m…",
-      "ts": 1785744480,
-      "published": "2026-08-03T08:08:00+00:00",
-      "collected_at": "2026-08-03T17:32:07+09:00"
-    },
-    {
-      "title": "How we built a realtime system for responsive voice AI in six months",
-      "link": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
-      "ts": 1785740400,
-      "published": "2026-08-03T07:00:00+00:00",
-      "collected_at": "2026-08-04T06:07:06+09:00"
-    },
-    {
-      "title": "condense-json 1.1",
-      "link": "https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: condense-json 1.1 After shipping condense-json 1.0 I started integrating it into LLM, and found there were some desirable new features already: Replacements object can now include values other than strings. The…",
-      "ts": 1785732986,
-      "published": "2026-08-03T04:56:26+00:00",
-      "collected_at": "2026-08-05T09:25:50+09:00"
-    },
-    {
-      "title": "Embabel Agent Framework Reaches 1.0",
-      "link": "https://www.infoq.com/news/2026/08/embabel-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Embabel has reached its 1.0 release, providing a framework for AI agents on Java It allows Java and Kotlin developers to define agents as typed domain objects. Built on Spring AI, Embabel supports multiple model provide…",
-      "ts": 1785732180,
-      "published": "2026-08-03T04:43:00+00:00",
-      "collected_at": "2026-08-03T17:32:07+09:00"
-    },
-    {
-      "title": "Embabel Agent Framework Reaches 1.0",
-      "link": "https://www.infoq.com/news/2026/08/embabel-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Embabel has reached its 1.0 release, providing a framework for AI agents on Java It allows Java and Kotlin developers to define agents as typed domain objects. Built on Spring AI, Embabel supports multiple model provide…",
-      "ts": 1785732180,
-      "published": "2026-08-03T04:43:00+00:00",
-      "collected_at": "2026-08-03T17:32:07+09:00"
-    },
-    {
-      "title": "Embabel Agent Framework Reaches 1.0",
-      "link": "https://www.infoq.com/news/2026/08/embabel-1/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Embabel has reached its 1.0 release, providing a framework for AI agents on Java It allows Java and Kotlin developers to define agents as typed domain objects. Built on Spring AI, Embabel supports multiple model provide…",
-      "ts": 1785732180,
-      "published": "2026-08-03T04:43:00+00:00",
-      "collected_at": "2026-08-03T17:32:07+09:00"
     }
   ]
 }
