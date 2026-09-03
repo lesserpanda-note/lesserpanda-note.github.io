@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-04T05:44:39+09:00",
-  "count": 1041,
+  "updated": "2026-09-04T08:05:50+09:00",
+  "count": 1042,
   "items": [
+    {
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "link": "https://www.latent.space/p/astra",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings.",
+      "ts": 1788469781,
+      "published": "2026-09-03T21:09:41+00:00",
+      "collected_at": "2026-09-04T08:05:25+09:00"
+    },
     {
       "title": "GPT‑6 Astra",
       "link": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
@@ -163,6 +173,16 @@
       "collected_at": "2026-09-04T02:40:32+09:00"
     },
     {
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
+      "ts": 1788441300,
+      "published": "2026-09-03T13:15:00+00:00",
+      "collected_at": "2026-09-04T08:05:25+09:00"
+    },
+    {
       "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
       "link": "https://huggingface.co/blog/Hcompany/neomme",
       "source": "Hugging Face",
@@ -211,6 +231,26 @@
       "ts": 1788436800,
       "published": "2026-09-03T12:00:00+00:00",
       "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
+      "ts": 1788436800,
+      "published": "2026-09-03T12:00:00+00:00",
+      "collected_at": "2026-09-04T08:05:25+09:00"
+    },
+    {
+      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
+      "ts": 1788436800,
+      "published": "2026-09-03T12:00:00+00:00",
+      "collected_at": "2026-09-04T08:05:25+09:00"
     },
     {
       "title": "OpenCode Explained: The Open-Source AI Coding Agent",
@@ -331,6 +371,16 @@
       "ts": 1788393600,
       "published": "2026-09-03T00:00:00+00:00",
       "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "Safety overview: GPT-6 Astra",
+      "link": "https://openai.com/index/safety-overview-gpt-6-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
+      "ts": 1788393600,
+      "published": "2026-09-03T00:00:00+00:00",
+      "collected_at": "2026-09-04T08:05:25+09:00"
     },
     {
       "title": "Bliki: Paracelsus Maxim",
@@ -10371,46 +10421,6 @@
       "ts": 1785886038,
       "published": "2026-08-04T23:27:18+00:00",
       "collected_at": "2026-08-05T09:07:11+09:00"
-    },
-    {
-      "title": "Survey Statistics: structured MRP to smooth survey weights",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/04/survey-statistics-structured-mrp-to-smooth-survey-weights/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Last week, Raphael K shared a concern: adjusting for lots of variables can lead to very large weights. So today let’s dive into Si et al. 2020, who saw this in constructing survey weights for the NYC Longitudinal Study…",
-      "ts": 1785883701,
-      "published": "2026-08-04T22:48:21+00:00",
-      "collected_at": "2026-08-05T09:07:11+09:00"
-    },
-    {
-      "title": "Idempotent REST Endpoints Without the Boilerplate",
-      "link": "https://foojay.io/today/idempotent-spring-boot-starter/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Stop Charging Your Users Twice: Idempotent REST Endpoints with One Annotation By Youssef Ben Henda The problem nobody talks about until production A user taps \"Pay.\" The request times out. Their app retries. Your server…",
-      "ts": 1785881482,
-      "published": "2026-08-04T22:11:22+00:00",
-      "collected_at": "2026-08-05T07:16:07+09:00"
-    },
-    {
-      "title": "llm-anthropic 0.26",
-      "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and…",
-      "ts": 1785880858,
-      "published": "2026-08-04T22:00:58+00:00",
-      "collected_at": "2026-08-05T09:25:50+09:00"
-    },
-    {
-      "title": "llm-anthropic 0.26",
-      "link": "https://simonwillison.net/2026/Aug/4/llm-anthropic/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-anthropic 0.26 Includes new features enabled by LLM 0.32 : New models: claude-fable-5 , claude-sonnet-5 , and claude-opus-5 . #75 , #76 Added server-side tools for WebSearch , WebFetch , CodeExecution , and…",
-      "ts": 1785880858,
-      "published": "2026-08-04T22:00:58+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
     }
   ]
 }
