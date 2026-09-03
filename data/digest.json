@@ -1,83 +1,76 @@
 {
-  "updated": "2026-09-02T00:18:24Z",
-  "summary": "오늘의 주요 소식으로 OpenAI Astra가 처음으로 Critical 사이버보안 역량 임계치를 충족하며 AI 안전성 관리의 새 이정표를 세웠고, Fal의 H3 Max Live는 실시간보다 빠른 AI 영상 생성을 달성했습니다. 오픈소스 생태계에서는 AI 에이전트 팀이 커뮤니티 PR을 대체하는 소프트웨어 팩토리 트렌드가 주목받고 있으며, AllenAI의 BenchMIRT는 LLM 벤치마크의 실제 측정 유효성에 의문을 제기합니다. Python과 데이터 사이언스 분야에서는 데코레이터·얼굴 인식 실습 튜토리얼과 함께 베이지안 신경망, 설문 통계의 logit shift·raking 방법론이 실용적 심화 학습 자료로 소개됩니다.",
+  "updated": "2026-09-03T00:13:54Z",
+  "summary": "오늘 다이제스트는 Google DeepMind의 Fairwind 사이버 방어 프로그램 발표, Anthropic Claude Fable 5.1(Mythos) 출시 등 AI·보안 분야의 굵직한 소식을 중심으로 구성되었습니다. 아키텍처 측면에서는 OpenAI GPT-Live의 상태 기반 음성 인터랙션 설계와 AI 시대의 코드 리뷰 재정의에 대한 통찰을 담았습니다. Python 3.15의 UTF-8 기본 인코딩 변경, 데이터 레이크 엔티티 키 드리프트 등 실무 적용 가능한 기술 심층 분석도 포함되어 있습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "Aggregation Optimization in MongoDB: Sorting With Indexes (Part 5)",
-      "link": "https://foojay.io/today/aggregation-optimization-in-mongodb-sorting-with-indexes-part-5/",
-      "summary": "MongoDB 집계 파이프라인에서 인덱스를 활용한 정렬 최적화를 심층 분석하는 시리즈 5편입니다.",
-      "detail": "이 글은 MongoDB 집계 최적화 시리즈의 5번째 편으로, 집계 파이프라인에서 $sort 단계가 인덱스를 효과적으로 활용하는 방법을 다룹니다. 인덱스 지원 정렬(index-backed sort)은 전체 컬렉션 스캔 없이 정렬을 수행하게 해주어 성능을 획기적으로 향상시킵니다. $match와 $sort를 함께 사용할 때 쿼리 플래너가 어떻게 인덱스를 선택하는지, 복합 인덱스 설계 시 필드 순서가 정렬 성능에 미치는 영향을 설명합니다. 또한 MongoDB가 관계형 데이터베이스 수준의 쿼리 최적화 기능을 갖추고 있음을 강조하며, MongoDB 전문가와의 설계 검토를 통해 데이터 모델링 및 성능 문제를 진단하는 방법도 소개합니다."
-    },
-    {
-      "category": "Java",
-      "title": "Announcing BX-WORD: Native Microsoft Word Automation for BoxLang",
-      "link": "https://foojay.io/today/announcing-bx-word-native-microsoft-word-automation-for-boxlang/",
-      "summary": "BoxLang 에코시스템에서 Microsoft Word 문서를 프로그래밍 방식으로 자동화할 수 있는 BX-WORD 모듈이 공식 출시되었습니다.",
-      "detail": "BX-WORD는 JVM 기반 동적 언어인 BoxLang을 위한 새로운 공식 모듈로, 엔터프라이즈 환경에서 필수적인 Microsoft Word(.docx) 문서를 네이티브로 생성·수정·자동화할 수 있게 해줍니다. 계약서, RFP, 제안서, 이사회 보고서, 채용 오퍼 레터, HR 핸드북, 청구서, 법률 메모 등 기업 업무 전반에서 사용되는 Word 문서 작업을 서버 사이드 코드로 처리할 수 있습니다. BoxLang은 CFML/ColdFusion 개발자에게 친숙한 문법을 제공하는 현대적 JVM 언어로, BX-WORD를 통해 Apache POI 등 저수준 라이브러리를 직접 다루지 않고도 Word 자동화를 간편하게 구현할 수 있습니다. 엔터프라이즈 문서 자동화 파이프라인 구축에 관심 있는 Java/BoxLang 개발자에게 유용합니다."
+      "title": "MongoDB Search Server, improved!",
+      "link": "https://foojay.io/today/mongodb-search-server-improved/",
+      "summary": "Java에서 MongoDB를 활용한 검색 서버를 개선하는 방법을 다룬 실용 가이드입니다. 중간 검색 서버 레이어의 필요성과 구체적인 개선 방안을 설명합니다.",
+      "detail": "이 글은 이전에 소개된 MongoDB 기반 Java 검색 서비스를 재방문하여 개선하는 내용을 담고 있습니다. 애플리케이션과 데이터베이스 사이에 전용 검색 서버 레이어를 두는 아키텍처의 장점을 상기시키며, 성능·확장성·관리 편의성을 높이는 구체적인 개선 방법들을 살펴봅니다. MongoDB의 검색 기능을 Java 환경에서 효과적으로 활용하려는 백엔드 개발자에게 유용한 실습 중심의 내용으로, 직접 코드 예제와 함께 중간 검색 서버를 왜 유지해야 하는지에 대한 이유도 명확히 제시합니다."
     },
     {
       "category": "AI",
-      "title": "BenchMIRT: What are LLM benchmarks actually measuring?",
-      "link": "https://huggingface.co/blog/allenai/benchmirt",
-      "summary": "AllenAI가 공개한 BenchMIRT 연구는 현재 널리 사용되는 LLM 벤치마크가 실제로 무엇을 측정하는지를 심층 분석합니다.",
-      "detail": "AllenAI(Allen Institute for AI)가 HuggingFace 블로그를 통해 발표한 BenchMIRT는 LLM 성능 평가 지표의 신뢰성에 의문을 제기하는 연구입니다. 현재 AI 분야에서는 다양한 벤치마크 점수가 모델 성능의 핵심 지표로 사용되지만, 이 연구는 이러한 벤치마크가 진정한 언어 이해·추론 능력을 측정하는지, 아니면 데이터 암기(memorization)나 단순 패턴 매칭을 측정하는지를 구분할 수 있는 방법론을 제시합니다. AI 모델 평가의 투명성과 신뢰성을 높이기 위한 도구를 오픈소스로 공개하였으며, 이는 과학적으로 더 엄밀한 LLM 평가 문화를 정착시키는 데 기여할 것으로 기대됩니다. 모델 개발자, 연구자, 사용자 모두에게 AI 벤치마크를 비판적으로 해석하는 시각을 제공합니다."
+      "title": "Proactive cyber defense for governments and enterprises",
+      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+      "summary": "Google DeepMind가 정부와 기업을 위한 선제적 사이버 방어 프로그램 'Fairwind'를 발표했습니다. AI 기반 위협 탐지와 사전 예방적 방어 역량을 제공합니다.",
+      "detail": "Google DeepMind는 Fairwind 프로그램을 통해 정부 및 기업 고객을 대상으로 선제적 사이버 보안 역량을 제공하겠다고 발표했습니다. 전통적인 사후 대응 방식에서 벗어나, AI를 활용해 공격자보다 먼저 취약점을 파악하고 위협을 차단하는 접근법을 강조합니다. DeepMind의 AI 연구 역량을 실제 사이버 방어에 적용함으로써, 국가 기관과 대규모 기업이 정교한 사이버 위협에 더 효과적으로 대응할 수 있도록 지원하는 것을 목표로 합니다. Google의 AI 기술과 보안 전문성을 결합한 이 프로그램은 점점 정교해지는 국가 지원 사이버 공격에 대응하는 수단으로 주목받고 있습니다."
     },
     {
       "category": "AI",
-      "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "link": "https://openai.com/index/path-to-astra",
-      "summary": "OpenAI의 Astra 모델이 Preparedness Framework에서 정의한 Critical 사이버보안 역량 임계치를 최초로 충족한 모델로 발표되었습니다.",
-      "detail": "OpenAI가 공개한 'Path to Astra' 문서에 따르면, Astra는 OpenAI의 Preparedness Framework에서 정의한 Critical 수준의 사이버보안 역량 임계치를 충족한 최초의 모델입니다. Preparedness Framework는 AI 모델이 출시 전 잠재적 위험 역량을 평가하는 OpenAI의 내부 기준으로, 사이버보안·생물무기·방사선무기·자율화 등의 영역에서 모델의 위험성을 단계별로 측정합니다. Critical 임계치 충족은 해당 모델이 고도화된 사이버보안 공격 능력을 보유할 수 있음을 의미하며, OpenAI는 이에 대응해 강화된 안전 장치(safeguards)를 마련한 후 출시했습니다. 이 사례는 AI 안전성 관리의 새로운 이정표로, 고도의 역량을 가진 AI 모델을 어떻게 책임감 있게 배포할 것인가에 대한 업계 논의를 심화시킵니다."
+      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
+      "link": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
+      "summary": "Aisle 보안 팀이 OpenAI와 Anthropic의 AI가 발견하지 못한 curl 라이브러리의 CVE 6건을 추가 발견했습니다. AI 보조 보안 테스트의 한계를 재조명합니다.",
+      "detail": "OpenAI와 Anthropic의 AI 보안 도구가 curl 코드베이스에서 취약점을 전혀 발견하지 못한 반면, Aisle의 보안 연구팀은 6건의 CVE(공통 취약점 및 노출)를 식별하는 데 성공했습니다. 이 사례는 현재 AI 기반 취약점 분석 도구가 인간 보안 전문가의 심층적인 수동 분석을 완전히 대체하기 어렵다는 점을 시사합니다. AI 도구가 광범위한 코드 스캔에는 유용하지만, 복잡한 논리 취약점이나 맥락 의존적 버그 탐지에서는 여전히 숙련된 보안 연구자의 역량이 필수적임을 보여줍니다. AI 보안 도구에 지나치게 의존하는 조직에 경각심을 높이는 중요한 실증 사례이며, Hacker News에서도 큰 관심을 모았습니다."
     },
     {
       "category": "Agents",
-      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-      "link": "https://www.latent.space/p/pr-not-welcome",
-      "summary": "Vercel AI SDK, Astro 등 주요 AI 오픈소스 프로젝트들이 커뮤니티 PR 대신 AI 에이전트 팀으로 구성된 소프트웨어 팩토리로 기여 방식을 전환하고 있습니다.",
-      "detail": "Latent.Space의 이 심층 분석 기사는 상위 AI 오픈소스 프로젝트들이 수천 건의 커뮤니티 기여 PR을 어떻게 관리하는지에 대한 패러다임 변화를 다룹니다. Vercel의 AI SDK, Astro, Flue, tldraw 등의 프로젝트들은 무작위 커뮤니티 드라이브-바이 PR을 직접 검토하고 병합하는 전통적 방식에서 벗어나, AI 에이전트 팀으로 구성된 '소프트웨어 팩토리'를 통해 수정 사항과 기능을 적용하는 방식으로 전환하고 있습니다. 이 새로운 방식은 PR 검토 부담을 줄이고 코드 품질을 일관성 있게 유지하는 장점이 있지만, 오픈소스 커뮤니티의 다양한 참여와 학습 기회를 제한할 수 있다는 우려도 제기됩니다. AI 에이전트가 코드 기여 파이프라인을 대체하는 현실은 오픈소스 생태계의 미래에 대한 근본적인 질문을 던집니다."
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "link": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+      "summary": "Anthropic이 새로운 SOTA 모델인 Claude Fable 5.1(Mythos)을 출시했습니다. 캐시 가격이 75% 인하되었지만 출력 토큰 비용은 70% 인상되었습니다.",
+      "detail": "Claude Fable 5.1(코드명 Mythos)이 새로운 최첨단 AI 모델로 출시되었습니다. 이번 출시의 핵심 변화는 프롬프트 캐싱 가격의 75% 대폭 인하로, 반복적인 컨텍스트를 많이 사용하는 애플리케이션에 유리해졌습니다. 반면 출력 토큰 비용은 70% 인상되어, 장문의 생성이 필요한 워크플로에서는 비용 증가가 예상됩니다. 에이전트 및 RAG 기반 시스템처럼 긴 시스템 프롬프트를 반복 재사용하는 경우에는 캐싱 할인의 혜택이 클 것으로 분석됩니다. AI 실무자들은 자신의 워크로드 특성에 따라 새 모델 도입의 비용 효율성을 면밀히 검토할 필요가 있으며, 다양한 모델 릴리스가 이어지는 시장 상황 속에서 주목할 만한 변화입니다."
     },
     {
       "category": "Agents",
-      "title": "[AINews] Fal's H3 Max Live breaks the infinite videogen barrier",
-      "link": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-      "summary": "Fal의 H3 Max Live 모델이 실제 재생 시간보다 빠른 AI 동영상 생성을 세계 최초로 달성하며 영상 AI 분야의 새로운 이정표를 세웠습니다.",
-      "detail": "Latent.Space의 AINews는 Fal이 출시한 H3 Max Live가 AI 영상 생성 분야에서 '무한 비디오 생성 장벽(infinite videogen barrier)'을 돌파했다고 평가합니다. 이 모델은 동영상을 실제 재생 시간보다 빠르게 생성할 수 있으며, 기존 AI 영상 생성 모델들이 짧은 클립 하나를 생성하는 데 수분이 걸리던 것과 대비됩니다. 이제 실시간 스트리밍에 근접한 속도로 적절한 품질의 동영상을 생성할 수 있게 됨으로써, 인터랙티브 미디어, 실시간 게임 콘텐츠 생성, 라이브 스트리밍 시각 효과 등 새로운 응용 분야의 가능성이 열렸습니다. Latent.Space 편집팀은 이것이 무언가 중요한 변화의 시작이라고 평가하면서도 그 함의를 파악 중이라고 언급합니다."
+      "title": "A RAG That Says \"Not in This Document\" Has to Show Four Kinds of Evidence",
+      "link": "https://towardsdatascience.com/a-rag-that-says-not-in-this-document-has-to-show-four-kinds-of-evidence/",
+      "summary": "RAG 시스템이 '문서에 없음'이라고 답할 때, 근거 없는 부정도 잘못된 긍정만큼 심각한 버그임을 지적합니다. 신뢰할 수 있는 부정 답변을 위한 네 가지 증거 유형을 제시합니다.",
+      "detail": "엔터프라이즈 환경에서 RAG(검색 증강 생성) 시스템이 '이 문서에는 해당 내용이 없습니다'라고 답하는 경우, 근거 없는 부정 답변은 자신감 없는 거짓 긍정 답변만큼이나 심각한 버그입니다. 이 글은 신뢰할 수 있는 부정적 답변을 위해 RAG 시스템이 제시해야 할 네 가지 유형의 증거를 정의합니다. 각 증거 유형은 검색 실패의 다른 원인을 설명하며, 이를 통해 시스템이 단순히 답을 못 찾은 것인지, 실제로 문서에 정보가 없는 것인지를 명확히 구분할 수 있게 합니다. 문서 인텔리전스 시스템의 신뢰성과 설명 가능성을 높이고자 하는 ML 엔지니어와 RAG 설계자에게 실용적이고 구체적인 가이드라인을 제공합니다."
     },
     {
       "category": "Architecture",
-      "title": "Fragments: September 1",
-      "link": "https://martinfowler.com/fragments/2026-09-01.html",
-      "summary": "Martin Fowler의 9월 1일 단편 모음으로, AI 생성 글쓰기 클리셰 감지 도구와 소프트웨어 아키텍처에 관한 단상을 담고 있습니다.",
-      "detail": "소프트웨어 아키텍처의 권위자 Martin Fowler가 정기적으로 게시하는 Fragments 시리즈의 2026년 9월 1일자입니다. Fowler는 AI 생성 산문에 대한 개인적 경계심을 표명하며, Simon Willison이 개발한 'LLM 클리셰 하이라이터'를 소개합니다. 이 도구는 텍스트나 URL을 입력하면 LLM이 자주 사용하는 반복적 표현 패턴을 자동으로 감지해 강조 표시해주는 도구로, LLM의 특징적 문체를 식별하는 데 도움을 줍니다. Fowler는 AI 생성 글이 넘쳐나는 현재 환경에서 콘텐츠의 진정성과 품질을 판별하는 능력이 중요해지고 있음을 강조합니다. 기술 커뮤니티의 AI 생성 콘텐츠에 대한 비판적 시각을 반영하는 단편입니다."
+      "title": "OpenAI Details GPT-Live's Architecture for Continuous Stateful Voice Interaction",
+      "link": "https://www.infoq.com/news/2026/09/openai-gpt-live/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "OpenAI가 GPT-Live의 연속적 상태 기반 음성 인터랙션 아키텍처를 공개했습니다. 지연 시간에 민감한 미디어 처리와 애플리케이션 로직을 분리하는 설계 방식을 설명합니다.",
+      "detail": "OpenAI는 GPT-Live 시스템의 엔지니어링 상세 내용을 공개했습니다. 핵심 설계 원칙은 지연 시간에 민감한 미디어 스트리밍 처리와 나머지 애플리케이션 로직을 분리하는 것입니다. 이를 통해 음성 인터랙션의 응답 속도를 유지하면서 복잡한 상태 관리와 비즈니스 로직을 별도로 처리할 수 있습니다. 연속적이고 상태를 유지하는 음성 대화 시스템은 기존 요청-응답 패턴과 달리 지속적인 연결과 컨텍스트 유지가 필요한데, GPT-Live의 아키텍처는 이 문제를 효과적으로 해결한 사례로 평가됩니다. 실시간 AI 음성 시스템을 구축하는 엔지니어에게 중요한 아키텍처 참고 자료가 될 것입니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "Maybe We Shouldn't Be Reviewing All This Code",
+      "link": "https://martinfowler.com/rachels-ramblings/code-review.html",
+      "summary": "AI 시대에 코드 리뷰의 본질적 문제를 재조명합니다. AI가 코드 리뷰를 어렵게 만든 것이 아니라, 우리가 처음부터 코드 리뷰로 잘못된 문제를 해결하려 했을 수 있다고 주장합니다.",
+      "detail": "이 글은 AI 도구가 생성하는 코드의 급증으로 코드 리뷰 부담이 커지는 현상에서 출발합니다. 저자는 이 문제의 진짜 원인이 AI가 아니라, 코드 리뷰가 지식 공유·품질 보증·멘토링 등 본래 목적 이외의 역할까지 담당해 왔다는 구조적 문제에 있다고 진단합니다. Code Remix 패널에서의 논의를 바탕으로, 코드 리뷰의 역할을 재정의하고 AI 생성 코드의 증가에 맞게 리뷰 프로세스를 재설계해야 한다는 관점을 제시합니다. 모든 코드를 리뷰해야 한다는 관행 자체를 의심하며, 리뷰 문화와 프로세스를 점검하는 테크 리드와 엔지니어링 매니저에게 유용한 시각을 제공합니다."
     },
     {
       "category": "Python",
-      "title": "Primer on Python Decorators",
-      "link": "https://realpython.com/primer-on-python-decorators/",
-      "summary": "Python 데코레이터의 개념, 내부 작동 원리, 다양한 실용 사례를 체계적으로 학습할 수 있는 Real Python의 종합 튜토리얼입니다.",
-      "detail": "Real Python의 이 튜토리얼은 Python 데코레이터를 처음 접하는 개발자부터 심화 학습을 원하는 중급자까지를 대상으로, 데코레이터의 개념과 활용법을 체계적으로 다룹니다. 데코레이터는 함수나 클래스를 수정하지 않고 추가 기능을 부여할 수 있는 Python의 핵심 기능으로, 고차 함수(higher-order functions)와 클로저(closure) 개념 위에 구축됩니다. 로깅, 실행 시간 측정, 캐싱(memoization), 접근 제어 등 실제 현장에서 사용되는 패턴을 예제와 함께 설명합니다. functools.wraps를 활용한 메타데이터 보존, 인수를 받는 데코레이터 팩토리, 클래스 기반 데코레이터, 다중 데코레이터 스택 등 고급 주제도 포괄합니다. 코드 재사용성과 가독성을 높이고자 하는 Python 개발자에게 필수적인 내용입니다."
-    },
-    {
-      "category": "Python",
-      "title": "Build Your Own Face Recognition Tool With Python",
-      "link": "https://realpython.com/face-recognition-with-python/",
-      "summary": "Python으로 얼굴 감지와 얼굴 인식 기능을 갖춘 커맨드라인 도구를 직접 구축하는 방법을 단계별로 안내하는 실습형 튜토리얼입니다.",
-      "detail": "Real Python의 이 실습 튜토리얼은 Python을 사용하여 얼굴 감지(face detection)와 얼굴 인식(face recognition) 기능을 모두 갖춘 CLI 도구를 처음부터 구축하는 전 과정을 안내합니다. face_recognition 라이브러리를 활용하여 이미지에서 얼굴을 탐지하고 레이블을 붙이는 방법을 학습하며, 얼굴 임베딩(face embeddings)과 얼굴 비교 알고리즘의 핵심 개념도 다룹니다. 단계별 프로젝트를 통해 컴퓨터 비전의 실용적인 응용법을 익히고, 완성된 도구는 사진 정리, 보안 시스템, 출결 관리 등 다양한 응용 분야에 활용할 수 있습니다. dlib, OpenCV와의 관계 및 딥러닝 기반 얼굴 인식의 원리도 쉽게 설명합니다."
+      "title": "Python 3.15 Preview: UTF-8 by Default",
+      "link": "https://realpython.com/python315-utf8-default/",
+      "summary": "Python 3.15에서 파일 I/O의 기본 인코딩이 UTF-8로 통일됩니다. 플랫폼 의존적 인코딩 동작으로 인한 이식성 문제를 해결하는 중요한 변화입니다.",
+      "detail": "Python 3.15부터 파일 읽기·쓰기 시 기본 인코딩이 시스템 로케일에 관계없이 UTF-8로 고정됩니다. 기존에는 Windows에서 cp1252, macOS에서 utf-8 등 플랫폼마다 다른 기본 인코딩을 사용해 이식성 문제가 빈번하게 발생했습니다. 이 변화는 Python 3.15 프리릴리스 버전에서 미리 체험해볼 수 있으며, 기존 코드에서 인코딩을 명시하지 않고 파일을 처리하는 부분은 사전에 점검하고 수정할 필요가 있습니다. 특히 레거시 인코딩 데이터를 다루는 코드에서 예상치 못한 동작 변화가 생길 수 있으므로, 프리릴리스를 활용한 사전 테스트와 마이그레이션 준비가 중요합니다. 모든 플랫폼에서 파일 I/O의 이식성이 크게 향상될 것으로 기대됩니다."
     },
     {
       "category": "DataScience",
-      "title": "Survey Statistics: logit shift and raking",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/01/survey-statistics-logit-shift-and-raking/",
-      "summary": "설문 조사 포스트스트래티피케이션에서 모집단 주변값 정보를 활용하는 두 핵심 방법인 logit shift와 raking을 비교·분석합니다.",
-      "detail": "Andrew Gelman의 Statistical Modeling 블로그에서 설문 통계의 핵심 방법론인 logit shift와 raking을 연결하여 설명합니다. 이 글은 Modeling Complex Contingency Tables와 SynthMargins & Bayes-Raking 논의의 연장으로, 포스트스트래티피케이션(poststratification) 변수에 대한 모집단 주변값(population margin) 정보를 어떻게 활용하는지를 다룹니다. Logit shift는 응답 가중치를 로짓(logit) 척도에서 조정하는 방법으로 극단적 가중치 발생을 억제합니다. Raking(반복 비례 맞춤, iterative proportional fitting)은 여러 변수의 주변 합계를 동시에 맞추기 위해 가중치를 반복적으로 조정하는 방법입니다. 두 방법의 이론적 관계와 실제 설문 데이터 분석에서의 선택 기준을 정리하여 조사 통계학자와 여론조사 분석가에게 실질적인 지침을 제공합니다."
+      "title": "Quantifying User Behavior Patterns to Build Better Predictive Features",
+      "link": "https://www.kdnuggets.com/quantifying-user-behavior-patterns-to-build-better-predictive-features",
+      "summary": "사용자 행동 패턴을 수치화하여 더 나은 예측 피처를 구축하는 방법을 소개합니다. 단순 집계 통계를 넘어 행동의 시간성·시퀀스·변화 추이를 피처로 변환하는 기법을 다룹니다.",
+      "detail": "단순히 사용자가 지난 달에 12번 클릭했다는 사실만으로는 그 의도를 파악하기 어렵습니다. 이 글은 시간적 패턴, 행동 시퀀스, 상대적 변화량 등 사용자 행동의 다양한 차원을 피처로 변환하는 구체적인 기법들을 다룹니다. 단순 집계 통계를 넘어 행동의 빈도·규칙성·변화 추이를 수치화함으로써 예측 모델의 성능을 개선할 수 있는 실용적인 피처 엔지니어링 접근법을 제시합니다. 사용자 행동 기반 추천 시스템, 이탈 예측, 고객 생애 가치 모델 등 다양한 예측 모델링 태스크에 적용 가능한 방법론으로, 데이터 사이언티스트와 ML 엔지니어에게 직접 활용 가능한 인사이트를 제공합니다."
     },
     {
       "category": "DataScience",
-      "title": "Beyond Point Predictions: A Practical Introduction to Bayesian Neural Networks",
-      "link": "https://towardsdatascience.com/beyond-point-predictions-a-practical-introduction-to-bayesian-neural-networks/",
-      "summary": "점 예측의 한계를 극복하고 불확실성을 정량화하는 베이지안 신경망(BNN)의 개념과 실용적 구현 방법을 소개합니다.",
-      "detail": "Towards Data Science의 이 가이드는 기존 신경망이 단일 예측값만 제공하는 한계를 지적하고, 불확실성 정량화(uncertainty quantification)를 위한 베이지안 신경망(Bayesian Neural Networks, BNN)을 실용적으로 소개합니다. BNN은 모델 파라미터를 고정된 값 대신 확률 분포로 표현하여 예측의 신뢰 구간을 함께 제공합니다. 사전 분포(prior), 사후 분포(posterior), 가능도(likelihood)의 베이지안 추론 핵심 개념을 신경망에 적용하는 원리를 설명하고, 변분 추론(variational inference)과 몬테카를로 드롭아웃(Monte Carlo Dropout) 기법으로 실용적 구현 방법을 다룹니다. 의료 진단, 금융 리스크 모델링, 자율주행 등 불확실성 정량화가 중요한 분야에서의 활용 가능성을 강조하며, 노트북에 바로 사용할 수 있는 실행 가능한 코드도 제공합니다."
+      "title": "Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working",
+      "link": "https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-2-when-fuzzy-matching-stops-working/",
+      "summary": "데이터 레이크의 엔티티 키 드리프트 문제를 해결하려 구축한 퍼지 매처가 실패한 이유와 교훈을 공유합니다. 정규화 이후에도 남은 불일치를 해소하는 현실적 한계를 다룹니다.",
+      "detail": "엔티티 키 드리프트는 데이터 레이크에서 동일한 실제 엔티티가 서로 다른 키로 표현될 때 발생하는 문제입니다. 저자는 정규화 이후 남은 불일치를 해소하기 위한 퍼지 매칭 시스템을 구축했지만, 실제 데이터에 대한 테스트에서 어떤 버전의 퍼지 매처도 안전하게 사용할 수 없다는 결론에 도달했습니다. 퍼지 매칭이 실패하는 구체적인 시나리오와 그 이유를 분석하고, 이 경험을 통해 도출된 새로운 아키텍처 방향을 제시합니다. 대용량 데이터 레이크에서 엔티티 해소(entity resolution)와 데이터 품질 유지에 어려움을 겪는 데이터 엔지니어에게 현실적인 교훈을 제공하는 실무 사례 연구입니다."
     }
   ]
 }
