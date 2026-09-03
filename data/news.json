@@ -1,7 +1,47 @@
 {
-  "updated": "2026-09-04T02:40:55+09:00",
-  "count": 1043,
+  "updated": "2026-09-04T05:44:39+09:00",
+  "count": 1041,
   "items": [
+    {
+      "title": "GPT‑6 Astra",
+      "link": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API…",
+      "ts": 1788466721,
+      "published": "2026-09-03T20:18:41+00:00",
+      "collected_at": "2026-09-04T05:44:23+09:00"
+    },
+    {
+      "title": "Update on “I don’t understand this paper claiming election fraud in 2024 in Pennsylvania”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/03/update-on-i-dont-understand-this-paper-claiming-election-fraud-in-2024-in-pennsylvania/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Last year we briefly discussed a hard-to-follow paper by political scientist Walter Mebane discussing possible “malevolent distortions of electors’ intentions.” Carter Walker and Jessica Huseman at the election news sit…",
+      "ts": 1788466281,
+      "published": "2026-09-03T20:11:21+00:00",
+      "collected_at": "2026-09-04T05:44:23+09:00"
+    },
+    {
+      "title": "Shopify Introduces Gisting: Compressing LLM System Prompts into Learned Tokens",
+      "link": "https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Shopify's engineering introduced gisting, a novel technique for compressing long LLM prompts into a smaller set of learned \"gist\" tokens, improving throughput and reducing inference cost. By Sergio De Simone",
+      "ts": 1788465600,
+      "published": "2026-09-03T20:00:00+00:00",
+      "collected_at": "2026-09-04T05:44:23+09:00"
+    },
+    {
+      "title": "Shopify Introduces Gisting: Compressing LLM System Prompts into Learned Tokens",
+      "link": "https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Shopify's engineering introduced gisting, a novel technique for compressing long LLM prompts into a smaller set of learned \"gist\" tokens, improving throughput and reducing inference cost. By Sergio De Simone",
+      "ts": 1788465600,
+      "published": "2026-09-03T20:00:00+00:00",
+      "collected_at": "2026-09-04T05:44:23+09:00"
+    },
     {
       "title": "Building an Agentic Warehouse Management System — Part 3: Tools, Decisions, and Actions",
       "link": "https://foojay.io/today/building-an-agentic-warehouse-management-system-part-3-tools-decisions-and-actions/",
@@ -10371,66 +10411,6 @@
       "ts": 1785880858,
       "published": "2026-08-04T22:00:58+00:00",
       "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "Walnutpie version 0.0.1 Released",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/04/walnutpie-version-0-0-1-released/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "We are happy to announce the official release of Walnutpie version 0.0.1. Walnutpie is an MCMC sampler for continuously differentiable densities coded in Python, accepting models coded in Stan, PyMC, NumPyro, JAX, and p…",
-      "ts": 1785876166,
-      "published": "2026-08-04T20:42:46+00:00",
-      "collected_at": "2026-08-05T07:16:07+09:00"
-    },
-    {
-      "title": "PipeNetwork/minimax-h3-mlx",
-      "link": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use…",
-      "ts": 1785870609,
-      "published": "2026-08-04T19:10:09+00:00",
-      "collected_at": "2026-08-05T05:27:12+09:00"
-    },
-    {
-      "title": "PipeNetwork/minimax-h3-mlx",
-      "link": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "PipeNetwork/minimax-h3-mlx MiniMax released MiniMax-H3 two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use…",
-      "ts": 1785870609,
-      "published": "2026-08-04T19:10:09+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "link": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
-      "ts": 1785870000,
-      "published": "2026-08-04T19:00:00+00:00",
-      "collected_at": "2026-08-05T07:16:07+09:00"
-    },
-    {
-      "title": "Unpacking ChatGPT Work: the Agent for a Billion Users",
-      "link": "https://www.latent.space/p/unpacking-chatgpt-work",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "An external reconstruction of how Memory, Proactivity, Scheduling, Browser Use, Plugins, Skills and Tools work in the new ChatGPT Work.",
-      "ts": 1785867614,
-      "published": "2026-08-04T18:20:14+00:00",
-      "collected_at": "2026-08-05T03:41:08+09:00"
-    },
-    {
-      "title": "“In that era, undergrad males at Madison and elsewhere, had to take ROTC classes, and he kept intentionally failing them because he was very leftwing politically.”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/04/in-that-era-undergrad-males-at-madison-and-elsewhere-had-to-take-rotc-classes-and-he-kept-intentionally-failing-them-because-he-was-very-leftwing-politically/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Paul Alper writes: Regarding your blog of today, believe it or not, I knew Marshall Brickman pretty well before he became famous. He was an undergrad at the University of Wisconsin in Madison when I was a grad student t…",
-      "ts": 1785867033,
-      "published": "2026-08-04T18:10:33+00:00",
-      "collected_at": "2026-08-05T03:41:08+09:00"
     }
   ]
 }
