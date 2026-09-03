@@ -1,7 +1,87 @@
 {
-  "updated": "2026-09-03T17:44:33+09:00",
+  "updated": "2026-09-03T22:23:59+09:00",
   "count": 1043,
   "items": [
+    {
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "link": "https://huggingface.co/blog/Hcompany/neomme",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788441228,
+      "published": "2026-09-03T13:13:48+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "Changing One Prompt Can Affect 50 Others — I Built a Prompt Dependency Graph to Find What Needs Retesting",
+      "link": "https://towardsdatascience.com/changing-one-prompt-can-affect-50-others-i-built-a-prompt-dependency-graph-to-find-what-needs-retesting/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "I built a prompt dependency graph that separates everything a component can reach from the smaller set that actually needs targeted evaluation. The post Changing One Prompt Can Affect 50 Others — I Built a Prompt Depend…",
+      "ts": 1788438601,
+      "published": "2026-09-03T12:30:01+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "5 Free Courses to Go From LLM Beginner to Practitioner",
+      "link": "https://www.kdnuggets.com/5-free-courses-to-go-from-llm-beginner-to-practitioner",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "A curated, linear pipeline of high-signal free resources that takes you from backpropagation basics to deploying production-grade LLM applications.",
+      "ts": 1788436827,
+      "published": "2026-09-03T12:00:27+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "Quiz: Python AI: How to Build a Neural Network & Make Predictions",
+      "link": "https://realpython.com/quizzes/python-ai-neural-network/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your grasp of how neural networks make predictions in Python, from dot products and activation functions to gradient descent and backpropagation.",
+      "ts": 1788436800,
+      "published": "2026-09-03T12:00:00+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "OpenCode Explained: The Open-Source AI Coding Agent",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/opencode-ai-explained/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "OpenCode is open source and works with any model, but those are no longer its most interesting features. Model choice is table stakes. What sets OpenCode apart is its architecture, and the trade-offs that come with it,…",
+      "ts": 1788436162,
+      "published": "2026-09-03T11:49:22+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "How to Solve the Right Problem in the Age of Agentic AI",
+      "link": "https://towardsdatascience.com/how-to-solve-the-right-problem-in-the-age-of-agentic-ai/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A practical framework for reducing uncertainty before agents accelerate implementation The post How to Solve the Right Problem in the Age of Agentic AI appeared first on Towards Data Science .",
+      "ts": 1788433201,
+      "published": "2026-09-03T11:00:01+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
+      "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, and more. Read on for…",
+      "ts": 1788432005,
+      "published": "2026-09-03T10:40:05+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "python-1.17.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.17.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.17.0] - 2026-09-03 Added samples : Add an end-to-end Foundry-hosted Telegram agent sample ( #7883 ) agent-framework-foundry-hosting : Add explicit Agent Server or agent-owned model history selection while preventing…",
+      "ts": 1788429021,
+      "published": "2026-09-03T09:50:21+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
     {
       "title": "No Database Operations Found: What Writing a Spring Boot Analyzer Taught Me About Spring",
       "link": "https://foojay.io/today/no-database-operations-found-what-writing-a-spring-boot-analyzer-taught-me-about-spring/",
@@ -51,6 +131,36 @@
       "ts": 1788393600,
       "published": "2026-09-03T00:00:00+00:00",
       "collected_at": "2026-09-03T17:44:20+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: BellSoft's Catherine Edelveis on hardened runtime images, container security, and more",
+      "link": "https://spring.io/blog/2026/09/03/a-bootiful-podcast-catherine-edelvais",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! I chat with BellSoft’s Catherine Edelweiss about using buildpacks and hardened images to ship Spring Boot apps with stronger security, cleaner defaults, and far less Dockerfile pain. #BellSoft #Docker #…",
+      "ts": 1788393600,
+      "published": "2026-09-03T00:00:00+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
+      "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788393600,
+      "published": "2026-09-03T00:00:00+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "Give Your Coding Agents a Memory You Own",
+      "link": "https://huggingface.co/blog/funes",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788393600,
+      "published": "2026-09-03T00:00:00+00:00",
+      "collected_at": "2026-09-03T22:23:37+09:00"
     },
     {
       "title": "Bliki: Paracelsus Maxim",
@@ -10320,116 +10430,6 @@
       "summary": "Data Storytelling Series, Chapter 1 The post Are Home Teams Favoured by Referees in Football/Soccer? appeared first on Towards Data Science .",
       "ts": 1785850200,
       "published": "2026-08-04T13:30:00+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "Stand-up comedy—like teaching, and book writing—requires “a collaboration with the audience.”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/04/53426/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "In our bathroom we have this book, “And here’s the kicker: Conversations with 21 top humor writers on their craft,” edited by Mike Sacks. It’s well suited for the throne, as you can dip in and read as little or … Contin…",
-      "ts": 1785848735,
-      "published": "2026-08-04T13:05:35+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "The latest AI news we announced in July 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "July AI recap header",
-      "ts": 1785848400,
-      "published": "2026-08-04T13:00:00+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "Agent Harness vs Loop vs Graph Engineering: A Technical Guide",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/agent-harness-loop-graph-engineering/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "One of your colleagues asserts that “we require improved loop engineering,” yet the fundamental issue lies within the harness itself. Others may create graphs with 40 nodes before they observe how the agent executes a g…",
-      "ts": 1785846675,
-      "published": "2026-08-04T12:31:15+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "Fragments: August 4",
-      "link": "https://martinfowler.com/fragments/2026-08-04.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "There’s been a fair bit of publicity of the Open AI “rogue agent” that hacked into Hugging Face . This prompted Anthropic to check what their models were up to and, to my complete lack of surprise, discovered three inci…",
-      "ts": 1785845280,
-      "published": "2026-08-04T12:08:00+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "7 Approaches to Reduce Inference Latency in Your LLM Workflows",
-      "link": "https://www.kdnuggets.com/7-approaches-to-reduce-inference-latency-in-your-llm-workflows",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "From quantization to speculative decoding, here are seven engineering strategies to ship faster, more responsive generative AI applications in production.",
-      "ts": 1785844859,
-      "published": "2026-08-04T12:00:59+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "Static vs. Dynamic vs. Continuous Batching in LLM Inference",
-      "link": "https://machinelearningmastery.com/static-vs-dynamic-vs-continuous-batching-in-llm-inference/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how static, dynamic, and continuous batching work in LLM inference, and why the differences between them matter at production...",
-      "ts": 1785844810,
-      "published": "2026-08-04T12:00:10+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "Platform Engineering Maturity Emerges as a Key Differentiator for Enterprise AI Success",
-      "link": "https://www.infoq.com/news/2026/08/perforce-maturity-ai-success/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Platform engineering maturity is emerging as an important factor in determining whether organizations can turn AI adoption into sustainable operational value, according to Perforce Software's 2026 Platform Engineering R…",
-      "ts": 1785844800,
-      "published": "2026-08-04T12:00:00+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "Quiz: Sending Emails Using Python",
-      "link": "https://realpython.com/quizzes/sending-emails-using-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test what you know about sending email from Python with smtplib, building messages with EmailMessage, and connecting to real servers over SSL.",
-      "ts": 1785844800,
-      "published": "2026-08-04T12:00:00+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "Quiz: K-Means Clustering in Python: A Practical Guide",
-      "link": "https://realpython.com/quizzes/k-means-clustering-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check how well you know k-means clustering in Python, from picking the number of clusters to building and tuning a scikit-learn pipeline.",
-      "ts": 1785844800,
-      "published": "2026-08-04T12:00:00+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "Using Agents as Tools",
-      "link": "https://towardsdatascience.com/using-agents-as-tools/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Building manager–specialist workflows with the OpenAI Agents SDK The post Using Agents as Tools appeared first on Towards Data Science .",
-      "ts": 1785844800,
-      "published": "2026-08-04T12:00:00+00:00",
-      "collected_at": "2026-08-04T23:24:10+09:00"
-    },
-    {
-      "title": "Presentation: Microservices Platforms: When Team Topologies Meets Microservices Patterns",
-      "link": "https://www.infoq.com/presentations/microservices-platform-team-topology/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Chris Richardson discusses leveraging Team Topologies and internal platforms to accelerate microservices delivery. He explains six key platform patterns - from security and observability to build and deployment - and sh…",
-      "ts": 1785843900,
-      "published": "2026-08-04T11:45:00+00:00",
       "collected_at": "2026-08-04T23:24:10+09:00"
     }
   ]
