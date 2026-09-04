@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T08:05:50+09:00",
-  "count": 1042,
+  "updated": "2026-09-04T09:17:17+09:00",
+  "count": 1038,
   "items": [
     {
       "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
@@ -381,6 +381,16 @@
       "ts": 1788393600,
       "published": "2026-09-03T00:00:00+00:00",
       "collected_at": "2026-09-04T08:05:25+09:00"
+    },
+    {
+      "title": "Acceleration of Curve25519 Field Operations with Java Software and Intrinsics",
+      "link": "https://inside.java/2026/09/03/java-acceleration-curve25519-field-operations/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Find out about the improved Curve25519 field performance in JDK 27 and JDK 28.",
+      "ts": 1788393600,
+      "published": "2026-09-03T00:00:00+00:00",
+      "collected_at": "2026-09-04T09:17:04+09:00"
     },
     {
       "title": "Bliki: Paracelsus Maxim",
@@ -10371,56 +10381,6 @@
       "ts": 1785892907,
       "published": "2026-08-05T01:21:47+00:00",
       "collected_at": "2026-08-05T13:13:21+09:00"
-    },
-    {
-      "title": "Oracle Java Platform Extension for Visual Studio Code - Version 26.0.1 Is Now Available",
-      "link": "https://inside.java/2026/08/05/java-vscode-extension-update/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "New release of the Java Platform Extension for VS Code",
-      "ts": 1785888000,
-      "published": "2026-08-05T00:00:00+00:00",
-      "collected_at": "2026-08-06T00:20:56+09:00"
-    },
-    {
-      "title": "Python 3.14.7 and 3.13.15 are now available!",
-      "link": "https://blog.python.org/2026/08/python-3147-31315/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "A pair of bug fix releases await your upgrade.",
-      "ts": 1785888000,
-      "published": "2026-08-05T00:00:00+00:00",
-      "collected_at": "2026-08-06T02:43:15+09:00"
-    },
-    {
-      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-      "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned co…",
-      "ts": 1785887904,
-      "published": "2026-08-04T23:58:24+00:00",
-      "collected_at": "2026-08-05T09:07:11+09:00"
-    },
-    {
-      "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
-      "link": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I released LLM 0.32 this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned co…",
-      "ts": 1785887904,
-      "published": "2026-08-04T23:58:24+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "dotnet-1.17.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.17.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "What's Changed .NET and Python: Extract Durable Task and Azure Functions integrations by @cgillum in #7465 .NET: Fix Handoff orchestration sample not responding to user input by @peibekwe in #7442 .NET: Fail declarative…",
-      "ts": 1785886038,
-      "published": "2026-08-04T23:27:18+00:00",
-      "collected_at": "2026-08-05T09:07:11+09:00"
     }
   ]
 }
