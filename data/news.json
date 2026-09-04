@@ -1,7 +1,167 @@
 {
-  "updated": "2026-09-04T17:39:53+09:00",
-  "count": 1038,
+  "updated": "2026-09-04T22:18:09+09:00",
+  "count": 1045,
   "items": [
+    {
+      "title": "1.15.20",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.20",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix legacy platform tool alias discovery Documentation Update snapshot and changelog for v1.15.19 Contributors @joaomdmoura , @vinibrsl",
+      "ts": 1788525741,
+      "published": "2026-09-04T12:42:21+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "The Power BI Developer's Survival Guide to Microsoft Fabric",
+      "link": "https://towardsdatascience.com/the-power-bi-developers-survival-guide-to-microsoft-fabric/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Power BI Premium is gone. Microsoft Fabric took its place. Here's what actually changed for you, what didn't, and where to start — without the panic. The post The Power BI Developer's Survival Guide to Microsoft Fabric…",
+      "ts": 1788525002,
+      "published": "2026-09-04T12:30:02+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Dataclasses for Structured Application Data",
+      "link": "https://machinelearningmastery.com/dataclasses-for-structured-application-data/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Scalar defaults work the way you'd expect, and batch_size: int = 500 is all you need.",
+      "ts": 1788523244,
+      "published": "2026-09-04T12:00:44+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "5 Free LLM API Providers You Can Use in 2026",
+      "link": "https://www.kdnuggets.com/5-free-llm-api-providers-you-can-use-in-2026",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Explore five free AI API providers for accessing large language models, fast inference, multimodal AI, and agentic applications without paying for API usage.",
+      "ts": 1788523238,
+      "published": "2026-09-04T12:00:38+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #310: Performance Engineering: Profiling and Making Apps Fast by Default",
+      "link": "https://realpython.com/podcasts/rpp/310/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How do you plan for the performance of your Python applications? What does a performance budget entail, and where should you spend your resources? This week on the show, we speak with Den Odell about his new book \"Fast…",
+      "ts": 1788523200,
+      "published": "2026-09-04T12:00:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Quiz: Common Python Data Structures (Guide)",
+      "link": "https://realpython.com/quizzes/common-python-data-structures/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of Python's built-in data structures. Work through dictionaries, arrays, records, sets, stacks, queues, and priority queues.",
+      "ts": 1788523200,
+      "published": "2026-09-04T12:00:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "1.15.19",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.19",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add Clipper integrations client Add now() to the CEL expression environment Record how a crew run ended for every user Report machine size as a coarse band, not a core count Add injectable client…",
+      "ts": 1788521312,
+      "published": "2026-09-04T11:28:32+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "How to Run 10+ Claude Code Sessions Without a Powerful Computer",
+      "link": "https://towardsdatascience.com/how-to-run-10-claude-code-sessions-without-a-powerful-computer/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Learn how to run a lot of parallel coding agents without expensive, powerful hardware at home The post How to Run 10+ Claude Code Sessions Without a Powerful Computer appeared first on Towards Data Science .",
+      "ts": 1788519602,
+      "published": "2026-09-04T11:00:02+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Mini book: Next-Gen Architecture Playbook: Insights and Patterns for the AI Era",
+      "link": "https://www.infoq.com/minibooks/next-gen-architecture-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "This eMag examines how architects can lead with clarity in a rapidly evolving engineering world, distilling industry insights into field-tested practices for teams. Together, these stories reveal a core theme: the techn…",
+      "ts": 1788519600,
+      "published": "2026-09-04T11:00:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Presentation: From S3 to GPU in One Copy: Rethinking Data Loading for ML Training",
+      "link": "https://www.infoq.com/presentations/vortex-columnar-file-format-gpu-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Onur Satici explains how Vortex, an open-source columnar file format under the Linux Foundation, revolutionizes high-throughput data loading. He details how cascading lightweight encodings, layout-based segment pruning,…",
+      "ts": 1788519600,
+      "published": "2026-09-04T11:00:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Mini book: Next-Gen Architecture Playbook: Insights and Patterns for the AI Era",
+      "link": "https://www.infoq.com/minibooks/next-gen-architecture-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This eMag examines how architects can lead with clarity in a rapidly evolving engineering world, distilling industry insights into field-tested practices for teams. Together, these stories reveal a core theme: the techn…",
+      "ts": 1788519600,
+      "published": "2026-09-04T11:00:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Presentation: From S3 to GPU in One Copy: Rethinking Data Loading for ML Training",
+      "link": "https://www.infoq.com/presentations/vortex-columnar-file-format-gpu-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Onur Satici explains how Vortex, an open-source columnar file format under the Linux Foundation, revolutionizes high-throughput data loading. He details how cascading lightweight encodings, layout-based segment pruning,…",
+      "ts": 1788519600,
+      "published": "2026-09-04T11:00:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Top 10 GitHub Repositories Trending in August 2026 (AI, Agents & Dev Tooling Edition)",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/top-github-repositories-august-2026/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "If you spent any time on GitHub Trending in August, you probably noticed the centre of gravity had shifted again. Models took a back seat to the machinery around them: agent harnesses, skills, memory layers, gateways, a…",
+      "ts": 1788519300,
+      "published": "2026-09-04T10:55:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Copilot Code Review Reaches Azure Repos, Billed Per Review with Reporting Two Days Behind",
+      "link": "https://www.infoq.com/news/2026/09/copilot-code-review-azure-repos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Microsoft opened GitHub Copilot code review for Azure Repos to all Azure DevOps customers, after acknowledging that many are not ready to migrate to GitHub. Reviews bill per use through the linked Azure subscription and…",
+      "ts": 1788516060,
+      "published": "2026-09-04T10:01:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Copilot Code Review Reaches Azure Repos, Billed Per Review with Reporting Two Days Behind",
+      "link": "https://www.infoq.com/news/2026/09/copilot-code-review-azure-repos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Microsoft opened GitHub Copilot code review for Azure Repos to all Azure DevOps customers, after acknowledging that many are not ready to migrate to GitHub. Reviews bill per use through the linked Azure subscription and…",
+      "ts": 1788516060,
+      "published": "2026-09-04T10:01:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
+    {
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. Th…",
+      "ts": 1788513919,
+      "published": "2026-09-04T09:25:19+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
+    },
     {
       "title": "August newsletter is out",
       "link": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
@@ -41,6 +201,16 @@
       "ts": 1788495532,
       "published": "2026-09-04T04:18:52+00:00",
       "collected_at": "2026-09-04T17:39:48+09:00"
+    },
+    {
+      "title": "Principles of Memory Management in Java",
+      "link": "https://inside.java/2026/09/04/memory-management-principles-java/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "In this talk, we’ll explore why the JDK’s garbage collectors work the way they do and how Java memory management affects application performance. We’ll look at the sometimes non-obvious relationship between RAM and CPU,…",
+      "ts": 1788480000,
+      "published": "2026-09-04T00:00:00+00:00",
+      "collected_at": "2026-09-04T22:18:05+09:00"
     },
     {
       "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
@@ -10281,106 +10451,6 @@
       "ts": 1785936600,
       "published": "2026-08-05T13:30:00+00:00",
       "collected_at": "2026-08-06T00:20:56+09:00"
-    },
-    {
-      "title": "Manned Mars Mission Miscellanea",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/05/manned-mars-mission-miscellanea/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Maciej Cegłowski writes: Unlike the Moon, which hangs in the sky like a lonely grandparent waiting for someone to visit, Mars leads a rich orbital life of its own and is not always around to entertain the itinerant astr…",
-      "ts": 1785935140,
-      "published": "2026-08-05T13:05:40+00:00",
-      "collected_at": "2026-08-06T00:20:56+09:00"
-    },
-    {
-      "title": "Anthropic AI created fake profiles and impersonated people in attempted hack",
-      "link": "https://www.bbc.co.uk/news/articles/c1w1lvn7d9go",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.bbc.co.uk/news/articles/c1w1lvn7d9go Comments URL: https://news.ycombinator.com/item?id=49181773 Points: 50 # Comments: 20",
-      "ts": 1785932207,
-      "published": "2026-08-05T12:16:47+00:00",
-      "collected_at": "2026-08-06T11:51:22+09:00"
-    },
-    {
-      "title": "7 Chunking Strategies That Decide Whether Your RAG Works",
-      "link": "https://machinelearningmastery.com/7-chunking-strategies-that-decide-whether-your-rag-works/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "Day 100 in production isn't really about chunking strategies anymore.",
-      "ts": 1785931238,
-      "published": "2026-08-05T12:00:38+00:00",
-      "collected_at": "2026-08-06T00:20:56+09:00"
-    },
-    {
-      "title": "Turn Any CSV into an Executive Report with Python and AI",
-      "link": "https://www.kdnuggets.com/turn-any-csv-into-an-executive-report-with-python-and-ai",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn to implement a repeatable pipeline that cleans a CSV, finds the story, and writes it up.",
-      "ts": 1785931218,
-      "published": "2026-08-05T12:00:18+00:00",
-      "collected_at": "2026-08-05T21:56:25+09:00"
-    },
-    {
-      "title": "Quiz: Validating Data With Pointblank in Python",
-      "link": "https://realpython.com/quizzes/python-pointblank/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Validate data in Python with Pointblank. Declare quality checks, split clean rows from failing ones, and rerun validation plans from YAML.",
-      "ts": 1785931200,
-      "published": "2026-08-05T12:00:00+00:00",
-      "collected_at": "2026-08-05T21:56:25+09:00"
-    },
-    {
-      "title": "Building Document Structure with Loop Engineering: Recovering a PDF’s Outline from Body Typography for RAG",
-      "link": "https://towardsdatascience.com/building-document-structure-with-loop-engineering-recovering-a-pdfs-outline-from-body-typography-for-rag/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #5octies] - Rules propose, LLM validates: six deterministic signals on span-level typography surface heading candidates, one bounded loop keeps the real ones, and the same toc_df…",
-      "ts": 1785931200,
-      "published": "2026-08-05T12:00:00+00:00",
-      "collected_at": "2026-08-05T21:56:25+09:00"
-    },
-    {
-      "title": "Presentation: Automatically Retrofitting JIT Compilers",
-      "link": "https://www.infoq.com/presentations/yk-meta-tracing-jit-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Laurence Tratt discusses yk, an open-source meta-tracing JIT compiler framework. He shares how to automatically speed up C-based language interpreters like Lua and MicroPython with minimal, non-invasive code changes. He…",
-      "ts": 1785927600,
-      "published": "2026-08-05T11:00:00+00:00",
-      "collected_at": "2026-08-05T21:56:25+09:00"
-    },
-    {
-      "title": "Presentation: Automatically Retrofitting JIT Compilers",
-      "link": "https://www.infoq.com/presentations/yk-meta-tracing-jit-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Laurence Tratt discusses yk, an open-source meta-tracing JIT compiler framework. He shares how to automatically speed up C-based language interpreters like Lua and MicroPython with minimal, non-invasive code changes. He…",
-      "ts": 1785927600,
-      "published": "2026-08-05T11:00:00+00:00",
-      "collected_at": "2026-08-05T21:56:25+09:00"
-    },
-    {
-      "title": "Jakarta Agentic AI Hits Its First Milestone",
-      "link": "https://foojay.io/today/jakarta-agentic-ai-hits-its-first-milestone/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Jakarta Agentic AI just shipped its first deliverable: version 1.0.0-M1 is live on Maven Central and the draft 1.0 specification is out for review. The project now has a specific API surface that developers can look at,…",
-      "ts": 1785926592,
-      "published": "2026-08-05T10:43:12+00:00",
-      "collected_at": "2026-08-05T21:56:25+09:00"
-    },
-    {
-      "title": "Building a Rust Inference Engine That Matches Llama.cpp",
-      "link": "https://www.fratepietro.com/2026/ferrox-rust-gguf-inference-engine/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.fratepietro.com/2026/ferrox-rust-gguf-inference-engine/ Comments URL: https://news.ycombinator.com/item?id=49180302 Points: 15 # Comments: 10",
-      "ts": 1785920407,
-      "published": "2026-08-05T09:00:07+00:00",
-      "collected_at": "2026-08-09T02:33:47+09:00"
     }
   ]
 }
