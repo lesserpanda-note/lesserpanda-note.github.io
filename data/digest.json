@@ -1,76 +1,62 @@
 {
-  "updated": "2026-09-03T00:13:54Z",
-  "summary": "오늘 다이제스트는 Google DeepMind의 Fairwind 사이버 방어 프로그램 발표, Anthropic Claude Fable 5.1(Mythos) 출시 등 AI·보안 분야의 굵직한 소식을 중심으로 구성되었습니다. 아키텍처 측면에서는 OpenAI GPT-Live의 상태 기반 음성 인터랙션 설계와 AI 시대의 코드 리뷰 재정의에 대한 통찰을 담았습니다. Python 3.15의 UTF-8 기본 인코딩 변경, 데이터 레이크 엔티티 키 드리프트 등 실무 적용 가능한 기술 심층 분석도 포함되어 있습니다.",
+  "updated": "2026-09-04T00:14:22Z",
+  "summary": "오늘은 Kotlin Toolchain 0.12의 멀티플랫폼 라이브러리 출판 기능 등 Java/Kotlin 생태계 주요 업데이트와 함께, Shopify의 Gisting 기법, Google DeepMind의 WeatherNext 3 등 AI 인프라 혁신 소식이 눈에 띕니다. 에이전트 분야에서는 GPT-6 Astra의 심층 분석과 Meta Superintelligence의 Muse Spark 1.3이 프론티어 AI 경쟁의 판도를 바꾸고 있으며, 데이터사이언스에서는 ML 모델의 실제 서비스화 과정의 현실적 고충을 다루는 실용적 글이 주목됩니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "MongoDB Search Server, improved!",
-      "link": "https://foojay.io/today/mongodb-search-server-improved/",
-      "summary": "Java에서 MongoDB를 활용한 검색 서버를 개선하는 방법을 다룬 실용 가이드입니다. 중간 검색 서버 레이어의 필요성과 구체적인 개선 방안을 설명합니다.",
-      "detail": "이 글은 이전에 소개된 MongoDB 기반 Java 검색 서비스를 재방문하여 개선하는 내용을 담고 있습니다. 애플리케이션과 데이터베이스 사이에 전용 검색 서버 레이어를 두는 아키텍처의 장점을 상기시키며, 성능·확장성·관리 편의성을 높이는 구체적인 개선 방법들을 살펴봅니다. MongoDB의 검색 기능을 Java 환경에서 효과적으로 활용하려는 백엔드 개발자에게 유용한 실습 중심의 내용으로, 직접 코드 예제와 함께 중간 검색 서버를 왜 유지해야 하는지에 대한 이유도 명확히 제시합니다."
+      "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
+      "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/",
+      "summary": "JetBrains가 Kotlin Toolchain 0.12.0을 릴리스했습니다. 멀티플랫폼 라이브러리 게시 기능, Wasm 앱 지원 미리보기, Compose Hot Reload 커맨드라인 실행 등 오래 기다려온 기능들이 한꺼번에 제공됩니다.",
+      "detail": "Kotlin Toolchain 0.12.0이 출시되었습니다. 이번 릴리스는 Kotlin 생태계에서 오랫동안 요청되어 온 여러 기능을 한 번에 제공합니다.\n멀티플랫폼 라이브러리 게시(Multiplatform Library Publishing) 기능이 추가되어 Kotlin Multiplatform 라이브러리를 표준화된 방식으로 배포할 수 있게 되었습니다.\nWasm 애플리케이션 지원의 미리보기(preview)도 포함되어, 코틀린으로 WebAssembly 앱을 개발하는 길이 열립니다.\nCompose Hot Reload를 커맨드라인에서 직접 실행할 수 있게 되어 UI 개발 피드백 루프가 빨라졌습니다.\n이 밖에도 다양한 개선이 포함된 중요한 릴리스로, Kotlin Multiplatform 개발자라면 반드시 확인해야 합니다."
+    },
+    {
+      "category": "Java",
+      "title": "Did Your AI Agent Run the Debugger? One JVM Bug, Two Agent Runs",
+      "link": "https://foojay.io/today/did-your-ai-agent-run-the-debugger-one-jvm-bug-two-agent-runs/",
+      "summary": "대부분의 AI 코딩 에이전트가 JVM 버그를 처리할 때 디버거 실행 단계를 건너뛴다는 점을 지적하는 글입니다. 동일한 JVM 버그에 대해 두 에이전트 실행을 비교하며 이 문제를 구체적으로 살펴봅니다.",
+      "detail": "Java 개발자들은 버그를 만나면 자연스럽게 디버거를 실행하고 브레이크포인트를 설정해 변수를 점검합니다. 그런데 대부분의 AI 코딩 에이전트는 이 단계를 생략하고 코드를 읽고 수정하는 방식으로만 접근합니다.\n이 글은 하나의 JVM 버그를 두 차례 AI 에이전트로 처리하며 각각의 접근 방식을 비교합니다.\n에이전트들이 코드를 텍스트로 읽는 데 그치고, 실제로 디버거를 실행해 런타임 상태를 확인하는 방법을 쓰지 않는다는 점이 핵심 문제로 지적됩니다.\nAI 에이전트가 디버거 같은 개발 도구를 더 능동적으로 활용해야 진정한 Java 개발 파트너가 될 수 있다는 시사점을 줍니다."
     },
     {
       "category": "AI",
-      "title": "Proactive cyber defense for governments and enterprises",
-      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "summary": "Google DeepMind가 정부와 기업을 위한 선제적 사이버 방어 프로그램 'Fairwind'를 발표했습니다. AI 기반 위협 탐지와 사전 예방적 방어 역량을 제공합니다.",
-      "detail": "Google DeepMind는 Fairwind 프로그램을 통해 정부 및 기업 고객을 대상으로 선제적 사이버 보안 역량을 제공하겠다고 발표했습니다. 전통적인 사후 대응 방식에서 벗어나, AI를 활용해 공격자보다 먼저 취약점을 파악하고 위협을 차단하는 접근법을 강조합니다. DeepMind의 AI 연구 역량을 실제 사이버 방어에 적용함으로써, 국가 기관과 대규모 기업이 정교한 사이버 위협에 더 효과적으로 대응할 수 있도록 지원하는 것을 목표로 합니다. Google의 AI 기술과 보안 전문성을 결합한 이 프로그램은 점점 정교해지는 국가 지원 사이버 공격에 대응하는 수단으로 주목받고 있습니다."
+      "title": "Shopify Introduces Gisting: Compressing LLM System Prompts into Learned Tokens",
+      "link": "https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Shopify 엔지니어링팀이 긴 LLM 시스템 프롬프트를 소수의 학습된 'gist' 토큰으로 압축하는 Gisting 기법을 소개했습니다. 이를 통해 추론 처리량이 향상되고 비용이 절감됩니다.",
+      "detail": "Shopify가 LLM 추론 비용과 지연을 줄이는 혁신적인 기법인 Gisting을 공개했습니다.\nGisting은 긴 시스템 프롬프트를 반복 사용할 때마다 전체 토큰을 처리하는 대신, 의미를 압축한 소수의 학습된 'gist' 토큰으로 대체하는 방법입니다.\n이 기법은 LLM 추론의 처리량(throughput)을 높이고 동시에 토큰 처리 비용을 낮출 수 있어 대규모 프로덕션 환경에서 직접적인 효용이 있습니다.\nShopify는 이를 실제 서비스에 적용해 성능 향상을 확인했으며, 고정된 시스템 프롬프트를 많이 사용하는 LLM 서비스라면 이 접근법이 비용 최적화의 새로운 방향을 제시합니다."
     },
     {
       "category": "AI",
-      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
-      "link": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
-      "summary": "Aisle 보안 팀이 OpenAI와 Anthropic의 AI가 발견하지 못한 curl 라이브러리의 CVE 6건을 추가 발견했습니다. AI 보조 보안 테스트의 한계를 재조명합니다.",
-      "detail": "OpenAI와 Anthropic의 AI 보안 도구가 curl 코드베이스에서 취약점을 전혀 발견하지 못한 반면, Aisle의 보안 연구팀은 6건의 CVE(공통 취약점 및 노출)를 식별하는 데 성공했습니다. 이 사례는 현재 AI 기반 취약점 분석 도구가 인간 보안 전문가의 심층적인 수동 분석을 완전히 대체하기 어렵다는 점을 시사합니다. AI 도구가 광범위한 코드 스캔에는 유용하지만, 복잡한 논리 취약점이나 맥락 의존적 버그 탐지에서는 여전히 숙련된 보안 연구자의 역량이 필수적임을 보여줍니다. AI 보안 도구에 지나치게 의존하는 조직에 경각심을 높이는 중요한 실증 사례이며, Hacker News에서도 큰 관심을 모았습니다."
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "summary": "Google DeepMind가 가장 고도화된 글로벌 기상 예측 AI 모델 WeatherNext 3를 공개했습니다. 이전 세대 대비 정확도와 예측 범위 모두에서 향상된 성능을 제공합니다.",
+      "detail": "Google DeepMind가 글로벌 기상 예측 분야에서 새로운 이정표가 될 WeatherNext 3를 출시했습니다.\nWeatherNext 시리즈의 세 번째 모델로, '가장 정밀하고 정확한 글로벌 기상 AI 모델'이라는 수식어가 붙었습니다.\n기상 AI 모델 분야는 물리 기반 수치 예보 모델과의 경쟁이 치열한 영역으로, DeepMind는 이 분야에서 지속적으로 성과를 내고 있습니다.\n수치예보와 AI 기상 모델의 통합이 기상 예측 산업 전반에 미치는 영향이 주목됩니다."
     },
     {
       "category": "Agents",
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "link": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "summary": "Anthropic이 새로운 SOTA 모델인 Claude Fable 5.1(Mythos)을 출시했습니다. 캐시 가격이 75% 인하되었지만 출력 토큰 비용은 70% 인상되었습니다.",
-      "detail": "Claude Fable 5.1(코드명 Mythos)이 새로운 최첨단 AI 모델로 출시되었습니다. 이번 출시의 핵심 변화는 프롬프트 캐싱 가격의 75% 대폭 인하로, 반복적인 컨텍스트를 많이 사용하는 애플리케이션에 유리해졌습니다. 반면 출력 토큰 비용은 70% 인상되어, 장문의 생성이 필요한 워크플로에서는 비용 증가가 예상됩니다. 에이전트 및 RAG 기반 시스템처럼 긴 시스템 프롬프트를 반복 재사용하는 경우에는 캐싱 할인의 혜택이 클 것으로 분석됩니다. AI 실무자들은 자신의 워크로드 특성에 따라 새 모델 도입의 비용 효율성을 면밀히 검토할 필요가 있으며, 다양한 모델 릴리스가 이어지는 시장 상황 속에서 주목할 만한 변화입니다."
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "link": "https://www.latent.space/p/astra",
+      "summary": "Latent.space가 200억 토큰 이상을 소모해 GPT-6 Astra를 철저히 탐구한 결과를 공유했습니다. 시간당 6달러 미만으로 자동화된 AI 엔지니어를 활용할 수 있는 새로운 시대가 열렸습니다.",
+      "detail": "OpenAI의 GPT-6 Astra는 자동화된 AI 엔지니어로 설계된 모델로, Latent.space가 200억 토큰(20B+) 이상을 사용해 그 가능성과 한계를 심층 분석했습니다.\nGPT-6 Astra의 가장 주목할 특징은 시간당 6달러 미만이라는 비용으로 복잡한 엔지니어링 작업을 자동화할 수 있다는 점입니다.\nLatent.space는 코딩, 디버깅, 설계 등 다양한 엔지니어링 작업에서의 성능을 실제로 테스트하고, 활용 가능한 시나리오와 아직 인간의 판단이 필요한 영역을 구분해 정리했습니다.\n이 분석은 AI 에이전트가 소프트웨어 개발 현장에 어떻게 통합될 수 있는지 이해하는 데 중요한 참고 자료가 됩니다."
     },
     {
       "category": "Agents",
-      "title": "A RAG That Says \"Not in This Document\" Has to Show Four Kinds of Evidence",
-      "link": "https://towardsdatascience.com/a-rag-that-says-not-in-this-document-has-to-show-four-kinds-of-evidence/",
-      "summary": "RAG 시스템이 '문서에 없음'이라고 답할 때, 근거 없는 부정도 잘못된 긍정만큼 심각한 버그임을 지적합니다. 신뢰할 수 있는 부정 답변을 위한 네 가지 증거 유형을 제시합니다.",
-      "detail": "엔터프라이즈 환경에서 RAG(검색 증강 생성) 시스템이 '이 문서에는 해당 내용이 없습니다'라고 답하는 경우, 근거 없는 부정 답변은 자신감 없는 거짓 긍정 답변만큼이나 심각한 버그입니다. 이 글은 신뢰할 수 있는 부정적 답변을 위해 RAG 시스템이 제시해야 할 네 가지 유형의 증거를 정의합니다. 각 증거 유형은 검색 실패의 다른 원인을 설명하며, 이를 통해 시스템이 단순히 답을 못 찾은 것인지, 실제로 문서에 정보가 없는 것인지를 명확히 구분할 수 있게 합니다. 문서 인텔리전스 시스템의 신뢰성과 설명 가능성을 높이고자 하는 ML 엔지니어와 RAG 설계자에게 실용적이고 구체적인 가이드라인을 제공합니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "OpenAI Details GPT-Live's Architecture for Continuous Stateful Voice Interaction",
-      "link": "https://www.infoq.com/news/2026/09/openai-gpt-live/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "OpenAI가 GPT-Live의 연속적 상태 기반 음성 인터랙션 아키텍처를 공개했습니다. 지연 시간에 민감한 미디어 처리와 애플리케이션 로직을 분리하는 설계 방식을 설명합니다.",
-      "detail": "OpenAI는 GPT-Live 시스템의 엔지니어링 상세 내용을 공개했습니다. 핵심 설계 원칙은 지연 시간에 민감한 미디어 스트리밍 처리와 나머지 애플리케이션 로직을 분리하는 것입니다. 이를 통해 음성 인터랙션의 응답 속도를 유지하면서 복잡한 상태 관리와 비즈니스 로직을 별도로 처리할 수 있습니다. 연속적이고 상태를 유지하는 음성 대화 시스템은 기존 요청-응답 패턴과 달리 지속적인 연결과 컨텍스트 유지가 필요한데, GPT-Live의 아키텍처는 이 문제를 효과적으로 해결한 사례로 평가됩니다. 실시간 AI 음성 시스템을 구축하는 엔지니어에게 중요한 아키텍처 참고 자료가 될 것입니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "Maybe We Shouldn't Be Reviewing All This Code",
-      "link": "https://martinfowler.com/rachels-ramblings/code-review.html",
-      "summary": "AI 시대에 코드 리뷰의 본질적 문제를 재조명합니다. AI가 코드 리뷰를 어렵게 만든 것이 아니라, 우리가 처음부터 코드 리뷰로 잘못된 문제를 해결하려 했을 수 있다고 주장합니다.",
-      "detail": "이 글은 AI 도구가 생성하는 코드의 급증으로 코드 리뷰 부담이 커지는 현상에서 출발합니다. 저자는 이 문제의 진짜 원인이 AI가 아니라, 코드 리뷰가 지식 공유·품질 보증·멘토링 등 본래 목적 이외의 역할까지 담당해 왔다는 구조적 문제에 있다고 진단합니다. Code Remix 패널에서의 논의를 바탕으로, 코드 리뷰의 역할을 재정의하고 AI 생성 코드의 증가에 맞게 리뷰 프로세스를 재설계해야 한다는 관점을 제시합니다. 모든 코드를 리뷰해야 한다는 관행 자체를 의심하며, 리뷰 문화와 프로세스를 점검하는 테크 리드와 엔지니어링 매니저에게 유용한 시각을 제공합니다."
-    },
-    {
-      "category": "Python",
-      "title": "Python 3.15 Preview: UTF-8 by Default",
-      "link": "https://realpython.com/python315-utf8-default/",
-      "summary": "Python 3.15에서 파일 I/O의 기본 인코딩이 UTF-8로 통일됩니다. 플랫폼 의존적 인코딩 동작으로 인한 이식성 문제를 해결하는 중요한 변화입니다.",
-      "detail": "Python 3.15부터 파일 읽기·쓰기 시 기본 인코딩이 시스템 로케일에 관계없이 UTF-8로 고정됩니다. 기존에는 Windows에서 cp1252, macOS에서 utf-8 등 플랫폼마다 다른 기본 인코딩을 사용해 이식성 문제가 빈번하게 발생했습니다. 이 변화는 Python 3.15 프리릴리스 버전에서 미리 체험해볼 수 있으며, 기존 코드에서 인코딩을 명시하지 않고 파일을 처리하는 부분은 사전에 점검하고 수정할 필요가 있습니다. 특히 레거시 인코딩 데이터를 다루는 코드에서 예상치 못한 동작 변화가 생길 수 있으므로, 프리릴리스를 활용한 사전 테스트와 마이그레이션 준비가 중요합니다. 모든 플랫폼에서 파일 I/O의 이식성이 크게 향상될 것으로 기대됩니다."
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "link": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+      "summary": "Meta의 Muse Spark 1.3이 OpenAI GPT-5.6-Sol과 동등한 성능을 달성하며, Meta Superintelligence가 최신 프론티어 AI 연구소로 확인되었습니다. 훈련 비용도 90% 이상 절감됩니다.",
+      "detail": "Meta의 Muse Spark 1.3 모델이 OpenAI의 GPT-5.6-Sol에 필적하는 성능을 보이며 AI 프론티어 경쟁의 지형이 재편되고 있습니다.\nMeta Superintelligence가 OpenAI, Anthropic, Google 등과 어깨를 나란히 하는 새로운 프론티어 AI 연구소로 공식 확인된 것은 Meta AI의 극적인 부활을 상징합니다.\n특히 훈련 비용이 90% 이상 절감된 점은 AI 모델 개발의 경제성 측면에서도 중요한 이정표입니다.\n이는 단순히 Meta의 성과에 그치지 않고, AI 모델의 효율적 훈련이 가속화되며 더 많은 플레이어가 프론티어 수준에 진입할 수 있음을 시사합니다."
     },
     {
       "category": "DataScience",
-      "title": "Quantifying User Behavior Patterns to Build Better Predictive Features",
-      "link": "https://www.kdnuggets.com/quantifying-user-behavior-patterns-to-build-better-predictive-features",
-      "summary": "사용자 행동 패턴을 수치화하여 더 나은 예측 피처를 구축하는 방법을 소개합니다. 단순 집계 통계를 넘어 행동의 시간성·시퀀스·변화 추이를 피처로 변환하는 기법을 다룹니다.",
-      "detail": "단순히 사용자가 지난 달에 12번 클릭했다는 사실만으로는 그 의도를 파악하기 어렵습니다. 이 글은 시간적 패턴, 행동 시퀀스, 상대적 변화량 등 사용자 행동의 다양한 차원을 피처로 변환하는 구체적인 기법들을 다룹니다. 단순 집계 통계를 넘어 행동의 빈도·규칙성·변화 추이를 수치화함으로써 예측 모델의 성능을 개선할 수 있는 실용적인 피처 엔지니어링 접근법을 제시합니다. 사용자 행동 기반 추천 시스템, 이탈 예측, 고객 생애 가치 모델 등 다양한 예측 모델링 태스크에 적용 가능한 방법론으로, 데이터 사이언티스트와 ML 엔지니어에게 직접 활용 가능한 인사이트를 제공합니다."
+      "title": "My Model Worked Perfectly. Then I Tried to Make It Useful.",
+      "link": "https://towardsdatascience.com/my-model-worked-perfectly-then-i-tried-to-make-it-useful/",
+      "summary": "성능 좋은 고객 이탈 예측 분류기를 실제 FastAPI 서비스로 배포하는 과정에서 겪는 현실적 어려움을 솔직하게 다룬 실용적인 글입니다.",
+      "detail": "ML 모델이 실험 환경에서 완벽하게 동작하더라도 실제 서비스로 전환하는 과정은 전혀 다른 도전을 요구합니다.\n이 글은 고객 이탈 예측(churn classification) 모델을 FastAPI 서비스로 전환해 다른 소프트웨어에서 호출 가능한 API로 만드는 과정을 다룹니다.\n데이터 스키마 정의, 직렬화, 입력 검증, 모델 로딩 등 서비스화에서 반드시 해결해야 하는 실질적 문제들이 소개됩니다.\n모델의 정확도(accuracy)가 아닌 실제 유용성(usefulness)을 확보하는 것이 얼마나 어렵고 별개의 역량을 요구하는지를 솔직하게 보여주어, 데이터 과학자와 ML 엔지니어 모두에게 의미있는 내용입니다."
     },
     {
       "category": "DataScience",
-      "title": "Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working",
-      "link": "https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-2-when-fuzzy-matching-stops-working/",
-      "summary": "데이터 레이크의 엔티티 키 드리프트 문제를 해결하려 구축한 퍼지 매처가 실패한 이유와 교훈을 공유합니다. 정규화 이후에도 남은 불일치를 해소하는 현실적 한계를 다룹니다.",
-      "detail": "엔티티 키 드리프트는 데이터 레이크에서 동일한 실제 엔티티가 서로 다른 키로 표현될 때 발생하는 문제입니다. 저자는 정규화 이후 남은 불일치를 해소하기 위한 퍼지 매칭 시스템을 구축했지만, 실제 데이터에 대한 테스트에서 어떤 버전의 퍼지 매처도 안전하게 사용할 수 없다는 결론에 도달했습니다. 퍼지 매칭이 실패하는 구체적인 시나리오와 그 이유를 분석하고, 이 경험을 통해 도출된 새로운 아키텍처 방향을 제시합니다. 대용량 데이터 레이크에서 엔티티 해소(entity resolution)와 데이터 품질 유지에 어려움을 겪는 데이터 엔지니어에게 현실적인 교훈을 제공하는 실무 사례 연구입니다."
+      "title": "Update on \"I don't understand this paper claiming election fraud in 2024 in Pennsylvania\"",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/03/update-on-i-dont-understand-this-paper-claiming-election-fraud-in-2024-in-pennsylvania/",
+      "summary": "컬럼비아 대학 통계 모델링 블로그가 2024년 펜실베이니아 선거 부정을 주장한 논문에 대한 최신 통계적 검토를 업데이트했습니다.",
+      "detail": "컬럼비아 대학교 통계 모델링 블로그(Statistical Modeling, Causal Inference, and Social Science)가 정치학자 Walter Mebane의 2024년 펜실베이니아 선거 부정 관련 논문에 대한 업데이트를 게시했습니다.\n원래 논문은 선거인 의도의 '악의적 왜곡'을 주장하는 복잡한 통계 분석을 담고 있어 전문가들도 이해하기 어렵다는 지적을 받았습니다.\n이번 업데이트는 선거 전문 언론인들의 새로운 보도를 기반으로 해당 논문의 통계적 주장을 재검토합니다.\n선거 관련 통계 분석에서 정밀성과 정직성이 얼마나 중요한지 다시 상기시켜주는 사례이며, 통계 모델의 정치적 활용에 대한 비판적 시각을 제시합니다."
     }
   ]
 }
