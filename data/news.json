@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-04T22:18:09+09:00",
-  "count": 1045,
+  "updated": "2026-09-05T02:28:27+09:00",
+  "count": 1043,
   "items": [
+    {
+      "title": "Optimal Traffic Allocation Under Heterogeneous Variant Cost",
+      "link": "https://towardsdatascience.com/optimal-traffic-allocation-under-heterogeneous-variant-cost/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Why the default 50/50 split is the wrong move when your treatment is more expensive than your control, and how cost-based sampling weights fix it The post Optimal Traffic Allocation Under Heterogeneous Variant Cost appe…",
+      "ts": 1788535802,
+      "published": "2026-09-04T15:30:02+00:00",
+      "collected_at": "2026-09-05T02:28:21+09:00"
+    },
+    {
+      "title": "Airbnb Cuts Authentication Code by 60% with Server Driven Architecture",
+      "link": "https://www.infoq.com/news/2026/09/airbnb-server-driven-login/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Airbnb redesigned its authentication architecture around server driven flows and policy based challenge selection. The new Flexible Authentication system reduced authentication related code by 60%, cut the web client bu…",
+      "ts": 1788532200,
+      "published": "2026-09-04T14:30:00+00:00",
+      "collected_at": "2026-09-05T02:28:21+09:00"
+    },
+    {
+      "title": "Switchyard: NVIDIA’s Open Source Routing Library",
+      "link": "https://www.kdnuggets.com/switchyard-nvidias-open-source-routing-library",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Stop sending every AI request to your most expensive model. See how intelligent routing can cut cost and latency without sacrificing much quality.",
+      "ts": 1788530407,
+      "published": "2026-09-04T14:00:07+00:00",
+      "collected_at": "2026-09-05T02:28:21+09:00"
+    },
+    {
+      "title": "Disaggregation Is a Thousand-GPU Problem",
+      "link": "https://towardsdatascience.com/disaggregation-is-a-thousand-gpu-problem/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Three conditions that must hold before splitting prefill from decode pays off, and why chunked prefill is the right default below that threshold. The post Disaggregation Is a Thousand-GPU Problem appeared first on Towar…",
+      "ts": 1788530402,
+      "published": "2026-09-04T14:00:02+00:00",
+      "collected_at": "2026-09-05T02:28:21+09:00"
+    },
+    {
+      "title": "Update on U.S. government’s Soviet-style push for “gold standard science”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/04/update-on-u-s-governments-push-for-gold-standard-science/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "We had a discussion last year: I got this email the other day from a journalist at a major news organization: I’m a science reporter from **, wondering if you’d have some time to talk/reflect on the Trump administration…",
+      "ts": 1788529427,
+      "published": "2026-09-04T13:43:47+00:00",
+      "collected_at": "2026-09-05T02:28:21+09:00"
+    },
     {
       "title": "1.15.20",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.20",
@@ -10381,76 +10431,6 @@
       "ts": 1785958958,
       "published": "2026-08-05T19:42:38+00:00",
       "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "How a Frontier Model Gets Built, Read from the Kimi K3 Report",
-      "link": "https://towardsdatascience.com/how-a-frontier-model-gets-built-read-from-the-kimi-k3-report/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "An open, 2.8-trillion-parameter model shipped with 47 pages of its own recipe. Reading it tells you what building a frontier model now involves, and how little of it is the model. The post How a Frontier Model Gets Buil…",
-      "ts": 1785947400,
-      "published": "2026-08-05T16:30:00+00:00",
-      "collected_at": "2026-08-06T02:43:15+09:00"
-    },
-    {
-      "title": "Top 5 Claude Skills for Writing (Ranked by GitHub Stars)",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/top-5-claude-writing-skills/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Search “best Claude Skills for writing” and you get lists padded with skills that write commit messages and internal status reports. Useful things. Not writing. This list only includes repositories that exist for writin…",
-      "ts": 1785942742,
-      "published": "2026-08-05T15:12:22+00:00",
-      "collected_at": "2026-08-06T00:20:56+09:00"
-    },
-    {
-      "title": "Introduction to Semi-Supervised Learning",
-      "link": "https://towardsdatascience.com/introduction-to-semi-supervised-learning/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A primer about Semi-Supervised Learning, the approaches taken with different algorithms and the limitations of using unlabelled data. The post Introduction to Semi-Supervised Learning appeared first on Towards Data Scie…",
-      "ts": 1785942000,
-      "published": "2026-08-05T15:00:00+00:00",
-      "collected_at": "2026-08-06T00:20:56+09:00"
-    },
-    {
-      "title": "JioHotstar Explains the Distributed Engineering Behind Personalized Ad Requests at Streaming Scale",
-      "link": "https://www.infoq.com/news/2026/08/jiohotstar-ad-decisioning-flow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "JioHotstar explains the distributed architecture behind its real-time ad request workflow, covering ad decisioning, waterfall tiering, pacing algorithms, latency optimization, and service coordination required to select…",
-      "ts": 1785938940,
-      "published": "2026-08-05T14:09:00+00:00",
-      "collected_at": "2026-08-06T00:20:56+09:00"
-    },
-    {
-      "title": "Getting Started with GitHub Agentic Workflows",
-      "link": "https://www.kdnuggets.com/getting-started-with-github-agentic-workflows",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "GitHub Agentic Workflows are in public preview. Find out all about them here.",
-      "ts": 1785938425,
-      "published": "2026-08-05T14:00:25+00:00",
-      "collected_at": "2026-08-06T00:20:56+09:00"
-    },
-    {
-      "title": "Validating Data With Pointblank in Python",
-      "link": "https://realpython.com/python-pointblank/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to validate data in Python with Pointblank: declare quality checks, split clean from failing rows, and rerun validation plans from YAML.",
-      "ts": 1785938400,
-      "published": "2026-08-05T14:00:00+00:00",
-      "collected_at": "2026-08-06T00:20:56+09:00"
-    },
-    {
-      "title": "Is This Slop? Detecting AI-Generated Content Without a Model",
-      "link": "https://towardsdatascience.com/is-this-slop-detecting-ai-generated-content-without-a-model-2/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Research-backed cues to detect LLM-generated text along with the mathematical intuition as to 'why' The post Is This Slop? Detecting AI-Generated Content Without a Model appeared first on Towards Data Science .",
-      "ts": 1785936600,
-      "published": "2026-08-05T13:30:00+00:00",
-      "collected_at": "2026-08-06T00:20:56+09:00"
     }
   ]
 }
