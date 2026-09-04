@@ -1,7 +1,47 @@
 {
-  "updated": "2026-09-04T12:43:30+09:00",
-  "count": 1036,
+  "updated": "2026-09-04T17:39:53+09:00",
+  "count": 1038,
   "items": [
+    {
+      "title": "August newsletter is out",
+      "link": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One…",
+      "ts": 1788501280,
+      "published": "2026-09-04T05:54:40+00:00",
+      "collected_at": "2026-09-04T17:39:48+09:00"
+    },
+    {
+      "title": "From Spec-Driven Development to Living Specifications in Java Projects",
+      "link": "https://foojay.io/today/from-spec-driven-development-to-living-specifications-in-java-projects/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "From Spec-Driven Development to Living Specifications in Java Projects Coding agents have changed the speed at which we can produce software. But producing code faster does not automatically mean producing better softwa…",
+      "ts": 1788501105,
+      "published": "2026-09-04T05:51:45+00:00",
+      "collected_at": "2026-09-04T17:39:48+09:00"
+    },
+    {
+      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+      "link": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
+      "ts": 1788499091,
+      "published": "2026-09-04T05:18:11+00:00",
+      "collected_at": "2026-09-04T17:39:48+09:00"
+    },
+    {
+      "title": "v2.39.0 (2026-09-03)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.39.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add OpenAI gpt-6-astra model support by @dsfaccini in #8055 🐛 Bug Fixes Fix the context_subtree() exporter cache and its span-processor leaks by @dsfaccini in #7667 Restore the Instrumentation…",
+      "ts": 1788495532,
+      "published": "2026-09-04T04:18:52+00:00",
+      "collected_at": "2026-09-04T17:39:48+09:00"
+    },
     {
       "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
       "link": "https://www.latent.space/p/astra",
@@ -10341,26 +10381,6 @@
       "ts": 1785920407,
       "published": "2026-08-05T09:00:07+00:00",
       "collected_at": "2026-08-09T02:33:47+09:00"
-    },
-    {
-      "title": "Ponytail Agent Skill Corrects Its Own Benchmark After Contributor Challenge",
-      "link": "https://www.infoq.com/news/2026/08/ponytail-agent-skill-benchmark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "A single-author repo of instruction files, not code, Ponytail passed 44,000 GitHub stars in nine days by making coding agents stop over-building. Its headline claim of 80-94% less code came from a flawed baseline; after…",
-      "ts": 1785917100,
-      "published": "2026-08-05T08:05:00+00:00",
-      "collected_at": "2026-08-05T19:39:45+09:00"
-    },
-    {
-      "title": "1.15.11",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.11",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Track interception-hook dispatches in telemetry Add project_id to link OSS usage to an enterprise account Surface AMP in AGENTS.md and detect coding agents in telemetry Add IBM Db2 search tool Bu…",
-      "ts": 1785911399,
-      "published": "2026-08-05T06:29:59+00:00",
-      "collected_at": "2026-08-05T16:42:49+09:00"
     }
   ]
 }
