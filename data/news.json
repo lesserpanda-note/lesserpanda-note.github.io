@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-05T14:24:34+09:00",
-  "count": 1036,
+  "updated": "2026-09-05T19:15:08+09:00",
+  "count": 1025,
   "items": [
     {
       "title": "Redefining GIS: Declarative Symbology and Collaborative Workflows in JupyterGIS",
@@ -10251,116 +10251,6 @@
       "ts": 1786014809,
       "published": "2026-08-06T11:13:29+00:00",
       "collected_at": "2026-08-06T20:26:32+09:00"
-    },
-    {
-      "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-      "link": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
-      "ts": 1786010400,
-      "published": "2026-08-06T10:00:00+00:00",
-      "collected_at": "2026-08-07T09:18:46+09:00"
-    },
-    {
-      "title": "Presentation: From ms to µs: OSS Valkey Architecture Patterns for Modern AI",
-      "link": "https://www.infoq.com/presentations/valkey-architecture-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Dumanshu Goyal discusses optimizing data layers for low-latency workloads like AI feature stores. Drawing lessons from NASA's Space Shuttle, he explains how proxy architectures introduce hidden CPU costs, elevated tail…",
-      "ts": 1786008840,
-      "published": "2026-08-06T09:34:00+00:00",
-      "collected_at": "2026-08-06T20:26:32+09:00"
-    },
-    {
-      "title": "Presentation: From ms to µs: OSS Valkey Architecture Patterns for Modern AI",
-      "link": "https://www.infoq.com/presentations/valkey-architecture-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Dumanshu Goyal discusses optimizing data layers for low-latency workloads like AI feature stores. Drawing lessons from NASA's Space Shuttle, he explains how proxy architectures introduce hidden CPU costs, elevated tail…",
-      "ts": 1786008840,
-      "published": "2026-08-06T09:34:00+00:00",
-      "collected_at": "2026-08-06T20:26:32+09:00"
-    },
-    {
-      "title": "Wiz Discloses CosmosEscape, and Practitioners Debate What Customers Could Have Done",
-      "link": "https://www.infoq.com/news/2026/08/cosmosescape-master-key/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Wiz Research disclosed CosmosEscape, a chain that escaped Azure Cosmos DB's Gremlin sandbox and reached a platform-wide key granting read and write access to every database on the service. Microsoft blocked the entry po…",
-      "ts": 1786008060,
-      "published": "2026-08-06T09:21:00+00:00",
-      "collected_at": "2026-08-06T20:26:32+09:00"
-    },
-    {
-      "title": "Article: Runtime-Agnostic AI Workflows: A Pattern for Production Durability and Fast Eval Iteration",
-      "link": "https://www.infoq.com/articles/ai-workflow-pattern/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "AI workflows have two needs that trade off directly. Running reliably in production requires persisting and distributing every step so it survives crashes, deploys, and restarts. But that same machinery is what makes ru…",
-      "ts": 1786006800,
-      "published": "2026-08-06T09:00:00+00:00",
-      "collected_at": "2026-08-06T20:26:32+09:00"
-    },
-    {
-      "title": "Embedding DuckDB in a Maven App (and Using It for Things That Aren’t Databases)",
-      "link": "https://foojay.io/today/embedding-duckdb-in-a-maven-app-and-using-it-for-things-that-arent-databases/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "DuckDB is described as \"SQLite for analytics,\" which is true: it's an in-process database engine that runs inside your application, with no server to install or manage. What's less obvious from that description is that…",
-      "ts": 1786005988,
-      "published": "2026-08-06T08:46:28+00:00",
-      "collected_at": "2026-08-06T20:26:32+09:00"
-    },
-    {
-      "title": "Sheetmusic4J 0.0.3: ABC Notation, Guitar Pro, Engraving Improvements",
-      "link": "https://foojay.io/today/sheetmusic4j-0-0-3-abc-notation-guitar-pro-engraving-improvements/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Last week I introduced Sheetmusic4J, a Java(FX) library to render and interact with sheet music. That first 0.0.1 release was really a question more than a product: is there any interest in a native Java(FX) sheet music…",
-      "ts": 1786004760,
-      "published": "2026-08-06T08:26:00+00:00",
-      "collected_at": "2026-08-06T17:42:35+09:00"
-    },
-    {
-      "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
-      "link": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no—agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod…",
-      "ts": 1785996000,
-      "published": "2026-08-06T06:00:00+00:00",
-      "collected_at": "2026-08-06T17:42:35+09:00"
-    },
-    {
-      "title": "Pods as Workers, Not Agents: Rethinking the Deployment Unit for AI Agents on Kubernetes",
-      "link": "https://www.infoq.com/news/2026/08/pod-deployment-unit-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Running AI agents on Kubernetes raises a key question: should each agent get its own Pod? The kagent project argues no—agents are bursty, short-lived, can spawn subagents, and may wait for human approval, making one Pod…",
-      "ts": 1785996000,
-      "published": "2026-08-06T06:00:00+00:00",
-      "collected_at": "2026-08-06T17:42:35+09:00"
-    },
-    {
-      "title": "Working with the American Psychological Association on youth mental health and AI",
-      "link": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
-      "ts": 1785996000,
-      "published": "2026-08-06T06:00:00+00:00",
-      "collected_at": "2026-08-07T09:18:46+09:00"
-    },
-    {
-      "title": "Vercel Labs Ships Zero: A Graph-First Language Built So Agents Write the Code",
-      "link": "https://www.infoq.com/news/2026/08/vercel-ships-zero-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Vercel Labs has introduced Zero, an experimental systems programming language aimed at AI rather than human users. It employs unique features like a specific toolchain contract and structured error messages. Reaching ve…",
-      "ts": 1785995460,
-      "published": "2026-08-06T05:51:00+00:00",
-      "collected_at": "2026-08-06T17:42:35+09:00"
     }
   ]
 }
