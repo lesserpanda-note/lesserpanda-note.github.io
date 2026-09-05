@@ -1,7 +1,77 @@
 {
-  "updated": "2026-09-05T19:15:08+09:00",
-  "count": 1025,
+  "updated": "2026-09-05T22:45:36+09:00",
+  "count": 1026,
   "items": [
+    {
+      "title": "OK, here’s a statistics problem for you, ripped directly from the headlines!",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/05/ok-heres-a-statistics-problem-for-you-directly-ripped-from-the-headlines/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "From the NYT: Mayor Zohran Mamdani is expected to propose linking Grand Army Plaza with Prospect Park by closing a dangerous stretch of road between them. . . . The plan would effectively reconnect the oval-shaped plaza…",
+      "ts": 1788614982,
+      "published": "2026-09-05T13:29:42+00:00",
+      "collected_at": "2026-09-05T22:45:12+09:00"
+    },
+    {
+      "title": "Dynamical System Transfer Learning with Reduced Order Models",
+      "link": "https://towardsdatascience.com/dynamical-system-transfer-learning-with-reduced-order-models/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Improving reinforcement learning for complex physics The post Dynamical System Transfer Learning with Reduced Order Models appeared first on Towards Data Science .",
+      "ts": 1788613201,
+      "published": "2026-09-05T13:00:01+00:00",
+      "collected_at": "2026-09-05T22:45:12+09:00"
+    },
+    {
+      "title": "Quiz: Build Your Own Face Recognition Tool With Python",
+      "link": "https://realpython.com/quizzes/face-recognition-with-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of face detection, face recognition, face encodings, bounding boxes, and model validation in Python.",
+      "ts": 1788609600,
+      "published": "2026-09-05T12:00:00+00:00",
+      "collected_at": "2026-09-05T22:45:12+09:00"
+    },
+    {
+      "title": "Presentation: A Few Predicted Talks From QConAI 2030",
+      "link": "https://www.infoq.com/presentations/ai-predictions-2030/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Meryem Arik discusses her predictions for software engineering in 2030. She explains how token spend management, parallel agent infrastructure, and non-technical builders will reshape IT. She shares insights on agent-dr…",
+      "ts": 1788606000,
+      "published": "2026-09-05T11:00:00+00:00",
+      "collected_at": "2026-09-05T22:45:12+09:00"
+    },
+    {
+      "title": "Presentation: A Few Predicted Talks From QConAI 2030",
+      "link": "https://www.infoq.com/presentations/ai-predictions-2030/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Meryem Arik discusses her predictions for software engineering in 2030. She explains how token spend management, parallel agent infrastructure, and non-technical builders will reshape IT. She shares insights on agent-dr…",
+      "ts": 1788606000,
+      "published": "2026-09-05T11:00:00+00:00",
+      "collected_at": "2026-09-05T22:45:12+09:00"
+    },
+    {
+      "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
+      "link": "https://www.infoq.com/news/2026/09/google-beyond-zero/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In a recent research paper, Google introduced Beyond Zero, a “security model for the AI era” that extends Zero Trust to autonomous AI agents. The new approach moves access decisions from the application level to individ…",
+      "ts": 1788604800,
+      "published": "2026-09-05T10:40:00+00:00",
+      "collected_at": "2026-09-05T22:45:12+09:00"
+    },
+    {
+      "title": "Beyond Zero: Google Publishes Successor to BeyondCorp",
+      "link": "https://www.infoq.com/news/2026/09/google-beyond-zero/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In a recent research paper, Google introduced Beyond Zero, a “security model for the AI era” that extends Zero Trust to autonomous AI agents. The new approach moves access decisions from the application level to individ…",
+      "ts": 1788604800,
+      "published": "2026-09-05T10:40:00+00:00",
+      "collected_at": "2026-09-05T22:45:12+09:00"
+    },
     {
       "title": "Redefining GIS: Declarative Symbology and Collaborative Workflows in JupyterGIS",
       "link": "https://www.infoq.com/news/2026/09/jupyter-gis-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -10191,66 +10261,6 @@
       "ts": 1786024849,
       "published": "2026-08-06T14:00:49+00:00",
       "collected_at": "2026-08-06T23:20:53+09:00"
-    },
-    {
-      "title": "The blessing of dimensionality",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/06/the-blessing-of-dimensionality/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Jonathan “No Trump” Falk writes: Your post this week on Integration and Differentiation got me thinking, never a good sign. Adding to this, I only really learned in January what Attention means, the foundation of LLM. A…",
-      "ts": 1786023917,
-      "published": "2026-08-06T13:45:17+00:00",
-      "collected_at": "2026-08-06T23:20:53+09:00"
-    },
-    {
-      "title": "I Built a Tool-Calling Agent in Python. Here’s How I Debugged It",
-      "link": "https://towardsdatascience.com/i-built-a-tool-calling-agent-in-python-heres-how-i-debugged-it/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A minimal loop with real API calls, validation, compact outputs, and trace evidence before adding an agent framework The post I Built a Tool-Calling Agent in Python. Here’s How I Debugged It appeared first on Towards Da…",
-      "ts": 1786023000,
-      "published": "2026-08-06T13:30:00+00:00",
-      "collected_at": "2026-08-06T23:20:53+09:00"
-    },
-    {
-      "title": "7 Best Web Crawling Tools and APIs in 2026",
-      "link": "https://www.kdnuggets.com/7-best-web-crawling-tools-and-apis-in-2026",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn about the best web crawling tools for collecting website content, crawling subpages, generating clean web data, and powering AI agents.",
-      "ts": 1786017633,
-      "published": "2026-08-06T12:00:33+00:00",
-      "collected_at": "2026-08-06T23:20:53+09:00"
-    },
-    {
-      "title": "Quiz: Python's Assignment Operator: Write Robust Assignments",
-      "link": "https://realpython.com/quizzes/python-assignment-operator/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Practice using Python's assignment operator to create, initialize, and update variables, plus augmented assignments and the walrus operator.",
-      "ts": 1786017600,
-      "published": "2026-08-06T12:00:00+00:00",
-      "collected_at": "2026-08-06T23:20:53+09:00"
-    },
-    {
-      "title": "Loop Engineering for Cross-References: When RAG Answers ‘see Section 7.2’ Instead of the Actual Answer",
-      "link": "https://towardsdatascience.com/loop-engineering-for-cross-references-when-rag-answers-see-section-7-2-instead-of-the-actual-answer/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #11] - When the first answer points elsewhere in the document, the pipeline loops back to fetch the linked context The post Loop Engineering for Cross-References: When RAG Answers…",
-      "ts": 1786017600,
-      "published": "2026-08-06T12:00:00+00:00",
-      "collected_at": "2026-08-06T23:20:53+09:00"
-    },
-    {
-      "title": "Designing AI Agents That Can Self-Correct",
-      "link": "https://machinelearningmastery.com/designing-ai-agents-that-can-self-correct/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "With the vocabulary and the failure modes in place, here's the build.",
-      "ts": 1786014809,
-      "published": "2026-08-06T11:13:29+00:00",
-      "collected_at": "2026-08-06T20:26:32+09:00"
     }
   ]
 }
