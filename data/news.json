@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-05T07:52:57+09:00",
-  "count": 1047,
+  "updated": "2026-09-05T09:15:45+09:00",
+  "count": 1038,
   "items": [
+    {
+      "title": "v2.40.0 (2026-09-04)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.40.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add pydantic_ai.prices.update_in_background() by @adtyavrdhn in #4841 Handle barge-in in the session: handle_barge_in=True , interrupt(played_bytes=...) , and played_audio_bytes by @DouweM in #…",
+      "ts": 1788566977,
+      "published": "2026-09-05T00:09:37+00:00",
+      "collected_at": "2026-09-05T09:15:12+09:00"
+    },
+    {
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "link": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rende…",
+      "ts": 1788566345,
+      "published": "2026-09-04T23:59:05+00:00",
+      "collected_at": "2026-09-05T09:15:12+09:00"
+    },
     {
       "title": "Architecting memory and storage in the AI era",
       "link": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
@@ -10361,116 +10381,6 @@
       "ts": 1785975927,
       "published": "2026-08-06T00:25:27+00:00",
       "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "Episode 65 “Embracing Virtual Threads with Helidon” [I/O]",
-      "link": "https://inside.java/2026/08/06/podcast-065/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "How Helidon 4.4 embraces virtual threads, ahoead-of-time computation, and OpenJDK",
-      "ts": 1785974400,
-      "published": "2026-08-06T00:00:00+00:00",
-      "collected_at": "2026-08-06T20:26:32+09:00"
-    },
-    {
-      "title": "Baseten on Hugging Face Inference Providers 🔥",
-      "link": "https://huggingface.co/blog/baseten",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1785974400,
-      "published": "2026-08-06T00:00:00+00:00",
-      "collected_at": "2026-08-06T23:20:53+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: Data guru Gregory Green on RabbitMQ, Valkey, Gemfire, Data Flow, and more",
-      "link": "https://spring.io/blog/2026/08/06/a-bootiful-podcast-gregory-green",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring and data fans! Want a faster, smarter data stack? Tune into this episode with Gregory Green for a deep dive into GemFire, RabbitMQ Streams, Dataflow, and more. We cover real-time event processing, active-acti…",
-      "ts": 1785974400,
-      "published": "2026-08-06T00:00:00+00:00",
-      "collected_at": "2026-08-07T09:18:46+09:00"
-    },
-    {
-      "title": "From asking to doing: How the world is putting ChatGPT to work",
-      "link": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
-      "ts": 1785974400,
-      "published": "2026-08-06T00:00:00+00:00",
-      "collected_at": "2026-08-07T09:18:46+09:00"
-    },
-    {
-      "title": "Introducing Muse Code and Muse Spark 1.2",
-      "link": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting tha…",
-      "ts": 1785974315,
-      "published": "2026-08-05T23:58:35+00:00",
-      "collected_at": "2026-08-06T09:19:32+09:00"
-    },
-    {
-      "title": "Introducing Muse Code and Muse Spark 1.2",
-      "link": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Introducing Muse Code and Muse Spark 1.2 Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting tha…",
-      "ts": 1785974315,
-      "published": "2026-08-05T23:58:35+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "link": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see m…",
-      "ts": 1785973532,
-      "published": "2026-08-05T23:45:32+00:00",
-      "collected_at": "2026-08-06T09:19:32+09:00"
-    },
-    {
-      "title": "Third-party cyber evaluations involving OpenAI models",
-      "link": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Third-party cyber evaluations involving OpenAI models And another one . I had to create a accidental-cyberattacks tag to keep track of them all! This post from OpenAI covers both the UK AI Safety Institute attack (see m…",
-      "ts": 1785973532,
-      "published": "2026-08-05T23:45:32+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
-      "link": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation wit…",
-      "ts": 1785972726,
-      "published": "2026-08-05T23:32:06+00:00",
-      "collected_at": "2026-08-06T09:19:32+09:00"
-    },
-    {
-      "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
-      "link": "https://simonwillison.net/2026/Aug/5/incident-report/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Incident Report: unsanctioned agent behaviour during cyber testing It happened again . This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation wit…",
-      "ts": 1785972726,
-      "published": "2026-08-05T23:32:06+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "1.15.12",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.12",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Bump Flow canary on release Add URLReadTool for reading arbitrary URLs Add app metadata to platform action tools Unify scaffolding under crewai create <resource> Bug Fixes Clarify conversational…",
-      "ts": 1785970594,
-      "published": "2026-08-05T22:56:34+00:00",
-      "collected_at": "2026-08-06T08:03:41+09:00"
     }
   ]
 }
