@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-05T09:43:58+09:00",
+  "updated": "2026-09-05T14:24:34+09:00",
   "count": 1036,
   "items": [
+    {
+      "title": "Redefining GIS: Declarative Symbology and Collaborative Workflows in JupyterGIS",
+      "link": "https://www.infoq.com/news/2026/09/jupyter-gis-extension/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "JupyterGIS is a GIS-focused extension for Jupyter notebooks. The recent 0.16 release enhances collaborative features, real-time editing, and support for large-scale data processing, including remote sensing. It introduc…",
+      "ts": 1788584700,
+      "published": "2026-09-05T05:05:00+00:00",
+      "collected_at": "2026-09-05T14:24:30+09:00"
+    },
+    {
+      "title": "GPT-6 Astra: What’s Actually New in OpenAI’s New Frontier Model",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/gpt-6-astra-explained/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "OpenAI has released GPT-6 Astra, its newest frontier model, less than a week after Anthropic’s Claude Fable 5.1. OpenAI calls Astra the world’s most intelligent and aligned model yet. What actually makes Astra different…",
+      "ts": 1788569845,
+      "published": "2026-09-05T00:57:25+00:00",
+      "collected_at": "2026-09-05T14:24:30+09:00"
+    },
     {
       "title": "v2.40.0 (2026-09-04)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.40.0",
@@ -621,6 +641,16 @@
       "ts": 1788433201,
       "published": "2026-09-03T11:00:01+00:00",
       "collected_at": "2026-09-03T22:23:37+09:00"
+    },
+    {
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "link": "https://openai.com/index/gpt-6-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "ts": 1788433200,
+      "published": "2026-09-03T11:00:00+00:00",
+      "collected_at": "2026-09-05T14:24:30+09:00"
     },
     {
       "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
@@ -10331,36 +10361,6 @@
       "ts": 1785995460,
       "published": "2026-08-06T05:51:00+00:00",
       "collected_at": "2026-08-06T17:42:35+09:00"
-    },
-    {
-      "title": "[AINews] Jeff, Sanjay, Oriol, and Quoc depart DeepMind; Demis to Chair; Koray to SVP — what is going on at GDM???",
-      "link": "https://www.latent.space/p/ainews-jeff-sanjay-oriol-and-quoc",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "The end of an era.",
-      "ts": 1785990851,
-      "published": "2026-08-06T04:34:11+00:00",
-      "collected_at": "2026-08-06T14:58:10+09:00"
-    },
-    {
-      "title": "Show HN: Wallfacer – A terminal session manager for Claude Code, and more",
-      "link": "https://github.com/pradipta/wallfacer",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/pradipta/wallfacer Comments URL: https://news.ycombinator.com/item?id=49192219 Points: 27 # Comments: 16",
-      "ts": 1785988376,
-      "published": "2026-08-06T03:52:56+00:00",
-      "collected_at": "2026-08-06T20:26:32+09:00"
-    },
-    {
-      "title": "v2.25.0 (2026-08-05)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.25.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Forward xAI FileSearchTool collections search options by @pydanty[bot] in #7154 🐛 Bug Fixes fix(azure): send max_tokens for Mistral models, not max_completion_tokens by @feiiiiii5 in #6929 Omit…",
-      "ts": 1785985053,
-      "published": "2026-08-06T02:57:33+00:00",
-      "collected_at": "2026-08-06T14:58:10+09:00"
     }
   ]
 }
