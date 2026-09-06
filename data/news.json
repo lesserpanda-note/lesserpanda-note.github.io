@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-07T03:56:50+09:00",
-  "count": 1004,
+  "updated": "2026-09-07T06:11:18+09:00",
+  "count": 999,
   "items": [
     {
       "title": "v2.5.3",
@@ -81,6 +81,16 @@
       "ts": 1788696000,
       "published": "2026-09-06T12:00:00+00:00",
       "collected_at": "2026-09-06T21:42:42+09:00"
+    },
+    {
+      "title": "There's No Limit to How Bad Code Can Get",
+      "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to…",
+      "ts": 1788685686,
+      "published": "2026-09-06T09:08:06+00:00",
+      "collected_at": "2026-09-07T06:11:05+09:00"
     },
     {
       "title": "An Alien Mind",
@@ -9981,66 +9991,6 @@
       "ts": 1786137203,
       "published": "2026-08-07T21:13:23+00:00",
       "collected_at": "2026-08-08T06:42:13+09:00"
-    },
-    {
-      "title": "Cloudflare Launches Persistent, Stateful, Computer-like Environments for Agents",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-computer-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare has introduced Cloudflare Computer, a new open-source runtime designed to give AI agents something closer to a real \"computer\" instead of just ephemeral containers. It leverages Cloudflare isolates for fast s…",
-      "ts": 1786136400,
-      "published": "2026-08-07T21:00:00+00:00",
-      "collected_at": "2026-08-08T06:42:13+09:00"
-    },
-    {
-      "title": "langgraph-checkpoint-postgres==3.1.2",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.2",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since checkpointpostgres==3.1.1 release(checkpoint-postgres): 3.1.2 ( #8565 ) release(checkpoint): 4.2.0 ( #8563 ) test(checkpoint-postgres,checkpoint-sqlite): run the conformance suite ( #8537 ) fix(checkpoint-…",
-      "ts": 1786135216,
-      "published": "2026-08-07T20:40:16+00:00",
-      "collected_at": "2026-08-08T05:45:03+09:00"
-    },
-    {
-      "title": "langgraph-checkpoint==4.2.0",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.2.0",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since checkpoint==4.1.1 release(checkpoint): 4.2.0 ( #8563 ) fix(checkpoint): collect writes at plain-value seed in delta channel history ( #8526 ) chore: enforce PLC0415 in tests for the remaining packages ( #8…",
-      "ts": 1786133122,
-      "published": "2026-08-07T20:05:22+00:00",
-      "collected_at": "2026-08-08T05:45:03+09:00"
-    },
-    {
-      "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
-      "link": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5 , where I had Claude Fable 5 build a full working game from a premise I g…",
-      "ts": 1786130289,
-      "published": "2026-08-07T19:18:09+00:00",
-      "collected_at": "2026-08-08T05:45:03+09:00"
-    },
-    {
-      "title": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra)",
-      "link": "https://simonwillison.net/2026/Aug/7/moonlight-mayhem/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Moonlight & Mayhem (Raccoon Heist by Codex + GPT-5.6 Sol Ultra) On Wednesday I wrote about One-shotting a Raccoon Heist game using Claude Fable 5 , where I had Claude Fable 5 build a full working game from a premise I g…",
-      "ts": 1786130289,
-      "published": "2026-08-07T19:18:09+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "Claude Code: Starting August 14, auto mode will be the default permission mode",
-      "link": "https://twitter.com/ClaudeDevs/status/2085794862608318627",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://twitter.com/ClaudeDevs/status/2085794862608318627 Comments URL: https://news.ycombinator.com/item?id=49214994 Points: 20 # Comments: 23",
-      "ts": 1786129860,
-      "published": "2026-08-07T19:11:00+00:00",
-      "collected_at": "2026-08-08T20:32:18+09:00"
     }
   ]
 }
