@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-06T17:29:46+09:00",
-  "count": 1014,
+  "updated": "2026-09-06T21:42:51+09:00",
+  "count": 1010,
   "items": [
+    {
+      "title": "Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset",
+      "link": "https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimensionality-reduction-in-a-real-estate-dataset/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Using LDA for dimensionality reduction in classification problems The post Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset appeared first on Towards Data Science .",
+      "ts": 1788696002,
+      "published": "2026-09-06T12:00:02+00:00",
+      "collected_at": "2026-09-06T21:42:42+09:00"
+    },
+    {
+      "title": "Google Mantis: An Agentic Vulnerability Scanning Harness for Reducing False Positives",
+      "link": "https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google has open-sourced Mantis, an AI-agent framework designed to automate the software vulnerability lifecycle, from identifying and validating vulnerabilities to reproducing and fixing them. Google says it developed M…",
+      "ts": 1788696000,
+      "published": "2026-09-06T12:00:00+00:00",
+      "collected_at": "2026-09-06T21:42:42+09:00"
+    },
+    {
+      "title": "Google Mantis: An Agentic Vulnerability Scanning Harness for Reducing False Positives",
+      "link": "https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google has open-sourced Mantis, an AI-agent framework designed to automate the software vulnerability lifecycle, from identifying and validating vulnerabilities to reproducing and fixing them. Google says it developed M…",
+      "ts": 1788696000,
+      "published": "2026-09-06T12:00:00+00:00",
+      "collected_at": "2026-09-06T21:42:42+09:00"
+    },
+    {
+      "title": "Quiz: Understanding the Python Traceback",
+      "link": "https://realpython.com/quizzes/python-traceback/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of Python tracebacks. Practice reading the error message line, recognizing common exceptions, and logging a traceback.",
+      "ts": 1788696000,
+      "published": "2026-09-06T12:00:00+00:00",
+      "collected_at": "2026-09-06T21:42:42+09:00"
+    },
+    {
+      "title": "Quoting Zach Kehs",
+      "link": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in perform…",
+      "ts": 1788684169,
+      "published": "2026-09-06T08:42:49+00:00",
+      "collected_at": "2026-09-06T21:42:42+09:00"
+    },
     {
       "title": "How Figma Uses AI Agents for Security",
       "link": "https://www.infoq.com/news/2026/09/figma-security-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -10051,96 +10101,6 @@
       "ts": 1786108756,
       "published": "2026-08-07T13:19:16+00:00",
       "collected_at": "2026-08-07T23:56:15+09:00"
-    },
-    {
-      "title": "5 Free Courses to Learn Modern AI and LLMs",
-      "link": "https://www.kdnuggets.com/5-free-courses-to-learn-modern-ai-and-llms",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Learn how to use generative AI at work, build RAG and agentic apps, fine-tune models, work with the Hugging Face ecosystem, and prototype AI products with hands-on resources.",
-      "ts": 1786104030,
-      "published": "2026-08-07T12:00:30+00:00",
-      "collected_at": "2026-08-07T22:11:50+09:00"
-    },
-    {
-      "title": "AI Is Transforming Incident Response - but the Hardest Problems May Still Belong to Humans",
-      "link": "https://www.infoq.com/news/2026/08/ai-incident-response/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Artificial intelligence is rapidly changing how engineering teams respond to production incidents, offering the ability to summarize incident channels, analyze unfamiliar code, suggest remediation steps, generate pull r…",
-      "ts": 1786104000,
-      "published": "2026-08-07T12:00:00+00:00",
-      "collected_at": "2026-08-07T22:11:50+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #306: Programmatically Developing LLM Prompts With DSPy",
-      "link": "https://realpython.com/podcasts/rpp/306/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "How can you move from manually writing prompts for an LLM application toward defining them programmatically? This week on the show, Brett Kennedy returns to discuss his new book \"Building LLM Applications with DSPy.\"",
-      "ts": 1786104000,
-      "published": "2026-08-07T12:00:00+00:00",
-      "collected_at": "2026-08-07T22:11:50+09:00"
-    },
-    {
-      "title": "Quiz: How to Use Type Hints for Multiple Return Types in Python",
-      "link": "https://realpython.com/quizzes/python-type-hints-multiple-types/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of type hints for multiple return types in Python. Practice unions, tuples, callables, generators, and type aliases.",
-      "ts": 1786104000,
-      "published": "2026-08-07T12:00:00+00:00",
-      "collected_at": "2026-08-07T22:11:50+09:00"
-    },
-    {
-      "title": "My Fall-Detection Model Scored 94%, and It Was Lying to Me",
-      "link": "https://towardsdatascience.com/my-fall-detection-model-scored-94-and-it-was-lying-to-me/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "How a single evaluation choice inflated my results by 25 points, and what rebuilding honestly taught me about ML systems people might depend on The post My Fall-Detection Model Scored 94%, and It Was Lying to Me appeare…",
-      "ts": 1786104000,
-      "published": "2026-08-07T12:00:00+00:00",
-      "collected_at": "2026-08-07T22:11:50+09:00"
-    },
-    {
-      "title": "Presentation: Rewriting All of Spotify's Code Base, All the Time",
-      "link": "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Jo Kelly-Fenton and Aleksandar Mitic explain how Spotify created \"Honk,\" an AI coding agent, to handle complex fleet-wide codebase migrations. They share key architectural insights on decoupling CI verification runtimes…",
-      "ts": 1786100400,
-      "published": "2026-08-07T11:00:00+00:00",
-      "collected_at": "2026-08-07T20:49:51+09:00"
-    },
-    {
-      "title": "Presentation: Rewriting All of Spotify's Code Base, All the Time",
-      "link": "https://www.infoq.com/presentations/spotify-ai-codebase-migration-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Jo Kelly-Fenton and Aleksandar Mitic explain how Spotify created \"Honk,\" an AI coding agent, to handle complex fleet-wide codebase migrations. They share key architectural insights on decoupling CI verification runtimes…",
-      "ts": 1786100400,
-      "published": "2026-08-07T11:00:00+00:00",
-      "collected_at": "2026-08-07T20:49:51+09:00"
-    },
-    {
-      "title": "Top 10 Skills for Claude Code and Codex CLI",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/best-skills-claude-code-codex-cli/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "The real skill isn’t getting AI to answers! But to do so in a manner that fits our budgets and fulfils our requirements. It’s guiding it with clear context and turning its output into useful action. This list is built a…",
-      "ts": 1786098600,
-      "published": "2026-08-07T10:30:00+00:00",
-      "collected_at": "2026-08-07T19:55:52+09:00"
-    },
-    {
-      "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
-      "link": "https://openai.com/index/hsp-gruppe",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
-      "ts": 1786093200,
-      "published": "2026-08-07T09:00:00+00:00",
-      "collected_at": "2026-08-07T18:03:21+09:00"
     }
   ]
 }
