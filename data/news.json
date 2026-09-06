@@ -1,7 +1,47 @@
 {
-  "updated": "2026-09-06T21:42:51+09:00",
-  "count": 1010,
+  "updated": "2026-09-07T01:03:05+09:00",
+  "count": 1007,
   "items": [
+    {
+      "title": "v2.5.3",
+      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.3",
+      "source": "NumPy",
+      "category": "DataScience",
+      "summary": "NumPy 2.5.3 release",
+      "ts": 1788707006,
+      "published": "2026-09-06T15:03:26+00:00",
+      "collected_at": "2026-09-07T01:02:36+09:00"
+    },
+    {
+      "title": "The purpose of DNS is to spread scams",
+      "link": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingl…",
+      "ts": 1788705607,
+      "published": "2026-09-06T14:40:07+00:00",
+      "collected_at": "2026-09-07T01:02:36+09:00"
+    },
+    {
+      "title": "Text Watermarking in Python: Catch Whoever Copies Your Writing",
+      "link": "https://towardsdatascience.com/text-watermarking-in-python-catch-whoever-copies-your-writing/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "AI companies quietly watermark billions of words a day. Here’s how to apply the same three families of techniques to your own writing—and what real experiments reveal about which watermarks survive copy-paste, editing,…",
+      "ts": 1788703201,
+      "published": "2026-09-06T14:00:01+00:00",
+      "collected_at": "2026-09-07T01:02:36+09:00"
+    },
+    {
+      "title": "Does anyone have a lower Jordan3 number than Evans Boney? (And what about the Ariely-Armstrong-Enron number?)",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/06/does-anyone-have-lower-jordan3-number-than-evans-boney/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "From last year’s post, What’s your Jordan3 number?: In the discussion of our post, Who has the lowest Erdos-Bacon-Epstein number? (the winner appears to be the mathematician Daniel Kleitman, my freshman-year academic ad…",
+      "ts": 1788701051,
+      "published": "2026-09-06T13:24:11+00:00",
+      "collected_at": "2026-09-07T01:02:36+09:00"
+    },
     {
       "title": "Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset",
       "link": "https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimensionality-reduction-in-a-real-estate-dataset/",
@@ -51,6 +91,16 @@
       "ts": 1788684169,
       "published": "2026-09-06T08:42:49+00:00",
       "collected_at": "2026-09-06T21:42:42+09:00"
+    },
+    {
+      "title": "Research acceleration: The view inside OpenAI",
+      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
+      "ts": 1788681600,
+      "published": "2026-09-06T08:00:00+00:00",
+      "collected_at": "2026-09-07T01:02:36+09:00"
     },
     {
       "title": "How Figma Uses AI Agents for Security",
@@ -10021,86 +10071,6 @@
       "ts": 1786119531,
       "published": "2026-08-07T16:18:51+00:00",
       "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "Responding to the next frontier of critical cyber capabilities",
-      "link": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
-      "ts": 1786116000,
-      "published": "2026-08-07T15:20:00+00:00",
-      "collected_at": "2026-08-08T02:50:42+09:00"
-    },
-    {
-      "title": "Loop Engineering for Listing Questions: When the Answer Is Every Passage, Not the Top One",
-      "link": "https://towardsdatascience.com/loop-engineering-for-listing-questions-when-the-answer-is-every-passage-not-the-top-one/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Enterprise Document Intelligence [Vol.1 #12] - The category of question most RAG pipelines silently fail on, and the pipeline shape that handles them The post Loop Engineering for Listing Questions: When the Answer Is E…",
-      "ts": 1786114800,
-      "published": "2026-08-07T15:00:00+00:00",
-      "collected_at": "2026-08-08T01:00:34+09:00"
-    },
-    {
-      "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
-      "link": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Instacart introduced Blueberry, an AI-assisted incident response system that helps on-call engineers investigate production issues faster. It combines AI agents, operational data, and historical incident knowledge to ge…",
-      "ts": 1786113240,
-      "published": "2026-08-07T14:34:00+00:00",
-      "collected_at": "2026-08-07T23:56:15+09:00"
-    },
-    {
-      "title": "Instacart Builds Blueberry, an AI-Powered Assistant to Help On-Call Engineers Investigate Incidents",
-      "link": "https://www.infoq.com/news/2026/08/instacart-blueberry-sre-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Instacart introduced Blueberry, an AI-assisted incident response system that helps on-call engineers investigate production issues faster. It combines AI agents, operational data, and historical incident knowledge to ge…",
-      "ts": 1786113240,
-      "published": "2026-08-07T14:34:00+00:00",
-      "collected_at": "2026-08-07T23:56:15+09:00"
-    },
-    {
-      "title": "Small Language Models with Hugging Face transformers Library + smolLM3",
-      "link": "https://www.kdnuggets.com/small-language-models-with-hugging-face-transformers-library-smollm3",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Running a 70B model in production is expensive, and for many tasks, unnecessary. If you're building a focused pipeline, a well-trained 3B model will match or beat the 70B on your specific task at a fraction of the cost.",
-      "ts": 1786111225,
-      "published": "2026-08-07T14:00:25+00:00",
-      "collected_at": "2026-08-07T23:56:15+09:00"
-    },
-    {
-      "title": "How to avoid the “clean data, clean model” trap when teaching statistics and data science",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/07/how-to-avoid-the-clean-data-clean-model-trap-when-teaching-statistics-and-data-science/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Parthsarthi Joshi writes: There is a stark problem that I have observed with how data science is taught in most books and tutorials – the concepts are taught on an individual level but fail to give a complete idea. The…",
-      "ts": 1786109445,
-      "published": "2026-08-07T13:30:45+00:00",
-      "collected_at": "2026-08-07T23:56:15+09:00"
-    },
-    {
-      "title": "The Problem with pandas Isn’t Performance. It’s Cognitive Overhead.",
-      "link": "https://towardsdatascience.com/the-problem-with-pandas-isnt-performance-its-cognitive-overhead/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Faster dataframe engines are nice, but they don't reduce the amount of syntax an analyst has to hold in their head. The post The Problem with pandas Isn’t Performance. It’s Cognitive Overhead. appeared first on Towards…",
-      "ts": 1786109400,
-      "published": "2026-08-07T13:30:00+00:00",
-      "collected_at": "2026-08-07T23:56:15+09:00"
-    },
-    {
-      "title": "Identifying Token Costs Hiding in Your Agentic Loop",
-      "link": "https://machinelearningmastery.com/identifying-token-costs-hiding-in-your-agentic-loop/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "But cutting your runtime token burn is just the first problem.",
-      "ts": 1786108756,
-      "published": "2026-08-07T13:19:16+00:00",
-      "collected_at": "2026-08-07T23:56:15+09:00"
     }
   ]
 }
