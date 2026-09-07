@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-08T04:42:17+09:00",
-  "count": 1001,
+  "updated": "2026-09-08T07:38:52+09:00",
+  "count": 1003,
   "items": [
+    {
+      "title": "Quoting Jakub Pachocki",
+      "link": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secu…",
+      "ts": 1788819985,
+      "published": "2026-09-07T22:26:25+00:00",
+      "collected_at": "2026-09-08T07:38:26+09:00"
+    },
+    {
+      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+      "link": "https://www.latent.space/p/aeo",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.",
+      "ts": 1788816757,
+      "published": "2026-09-07T21:32:37+00:00",
+      "collected_at": "2026-09-08T07:38:26+09:00"
+    },
     {
       "title": "Getting Started with Grok Bot",
       "link": "https://www.analyticsvidhya.com/blog/2026/09/grok-bot-automation-tutorial/",
@@ -11,6 +31,26 @@
       "ts": 1788809657,
       "published": "2026-09-07T19:34:17+00:00",
       "collected_at": "2026-09-08T04:42:13+09:00"
+    },
+    {
+      "title": "Video compressor",
+      "link": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code f…",
+      "ts": 1788805747,
+      "published": "2026-09-07T18:29:07+00:00",
+      "collected_at": "2026-09-08T07:38:26+09:00"
+    },
+    {
+      "title": "Mercator ↔ Equal Earth",
+      "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and E…",
+      "ts": 1788798256,
+      "published": "2026-09-07T16:24:16+00:00",
+      "collected_at": "2026-09-08T07:38:26+09:00"
     },
     {
       "title": "Netflix Moves Toward Open Source Flink Autoscaler for 30,000+ Streaming Jobs",
@@ -9991,26 +10031,6 @@
       "ts": 1786229857,
       "published": "2026-08-08T22:57:37+00:00",
       "collected_at": "2026-08-09T08:32:36+09:00"
-    },
-    {
-      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
-      "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Clau…",
-      "ts": 1786228563,
-      "published": "2026-08-08T22:36:03+00:00",
-      "collected_at": "2026-08-09T08:32:36+09:00"
-    },
-    {
-      "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
-      "link": "https://simonwillison.net/2026/Aug/8/auto-mode/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans Anthropic are really confident in Claude Code's auto mode , to the point that they are making it the default setting for new sessions in most Clau…",
-      "ts": 1786228563,
-      "published": "2026-08-08T22:36:03+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
     }
   ]
 }
