@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-07T12:44:56+09:00",
-  "count": 997,
+  "updated": "2026-09-07T18:07:29+09:00",
+  "count": 998,
   "items": [
+    {
+      "title": "Featured Foojay Authors for September 2026: Marit van Dijk and Graeme Robinson",
+      "link": "https://foojay.io/today/featured-foojay-authors-for-september-2026/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Foojay wouldn't exist without the many contributions from its community, whether it's a single post or an ongoing stream of knowledge sharing. That's why we highlight two of them each month as Featured Authors. After Ig…",
+      "ts": 1788770336,
+      "published": "2026-09-07T08:38:56+00:00",
+      "collected_at": "2026-09-07T18:07:23+09:00"
+    },
+    {
+      "title": "Bringing Raspberry Pico to Quarkus with Firmata",
+      "link": "https://foojay.io/today/bringing-raspberry-pico-to-quarkus-with-firmata/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Java applications are usually associated with APIs, databases, messaging systems, and cloud infrastructure. But Java can also interact with the physical world—reading sensors, controlling LEDs, driving motors, and commu…",
+      "ts": 1788761202,
+      "published": "2026-09-07T06:06:42+00:00",
+      "collected_at": "2026-09-07T18:07:23+09:00"
+    },
+    {
+      "title": "Coop – Isolated VM Environments for Running Claude Code and Codex",
+      "link": "https://github.com/trailofbits/coop",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/trailofbits/coop Comments URL: https://news.ycombinator.com/item?id=49593842 Points: 21 # Comments: 5",
+      "ts": 1788754708,
+      "published": "2026-09-07T04:18:28+00:00",
+      "collected_at": "2026-09-07T18:07:23+09:00"
+    },
     {
       "title": "Java News Roundup: TornadoVM 6, JReleaser, LangChain4j, Java Operator SDK, JHipster, Yupiik Fusion",
       "link": "https://www.infoq.com/news/2026/09/java-news-roundup-aug31-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
@@ -21,6 +51,26 @@
       "ts": 1788748200,
       "published": "2026-09-07T02:30:00+00:00",
       "collected_at": "2026-09-07T12:44:35+09:00"
+    },
+    {
+      "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
+      "link": "https://github.com/Staatsgeheim/MathKernel",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/Staatsgeheim/MathKernel Comments URL: https://news.ycombinator.com/item?id=49592366 Points: 30 # Comments: 5",
+      "ts": 1788740461,
+      "published": "2026-09-07T00:21:01+00:00",
+      "collected_at": "2026-09-07T18:07:23+09:00"
+    },
+    {
+      "title": "Supporting independent journalism in Ukraine",
+      "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
+      "ts": 1788739200,
+      "published": "2026-09-07T00:00:00+00:00",
+      "collected_at": "2026-09-07T18:07:23+09:00"
     },
     {
       "title": "Research acceleration: The view inside OpenAI",
@@ -9931,46 +9981,6 @@
       "ts": 1786188906,
       "published": "2026-08-08T11:35:06+00:00",
       "collected_at": "2026-08-10T15:12:24+09:00"
-    },
-    {
-      "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
-      "link": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Martin Spier explains how agentic workflows dramatically increase code change volume at OpenAI. He discusses the hidden systemic performance costs of rapid shipping beyond GPUs, and shares how deploying always-on AI age…",
-      "ts": 1786179600,
-      "published": "2026-08-08T09:00:00+00:00",
-      "collected_at": "2026-08-08T18:41:05+09:00"
-    },
-    {
-      "title": "Presentation: Keeping ChatGPT Fast as AI Development Accelerates",
-      "link": "https://www.infoq.com/presentations/openai-performance-engineering-agentic-coding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Martin Spier explains how agentic workflows dramatically increase code change volume at OpenAI. He discusses the hidden systemic performance costs of rapid shipping beyond GPUs, and shares how deploying always-on AI age…",
-      "ts": 1786179600,
-      "published": "2026-08-08T09:00:00+00:00",
-      "collected_at": "2026-08-08T18:41:05+09:00"
-    },
-    {
-      "title": "Cloudflare's Precursor Detects Bots and AI Agents Through Continuous Behavioral Analysis",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-precursor-detection/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare recently introduced Precursor, a client-side behavioral analysis engine that continuously evaluates session interactions, such as mouse movements and keyboard timing, to improve detection of sophisticated bot…",
-      "ts": 1786175640,
-      "published": "2026-08-08T07:54:00+00:00",
-      "collected_at": "2026-08-08T17:46:35+09:00"
-    },
-    {
-      "title": "v2.27.0 (2026-08-07)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.27.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add xai_agent_count to XaiModelSettings by @pydanty[bot] in #7155 Round-trip CompactionPart through the Vercel AI and AG-UI adapters by @DouweM in #7287 Add SnowflakeModel and SnowflakeProvider…",
-      "ts": 1786161100,
-      "published": "2026-08-08T03:51:40+00:00",
-      "collected_at": "2026-08-08T14:00:22+09:00"
     }
   ]
 }
