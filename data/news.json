@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-07T09:16:23+09:00",
-  "count": 994,
+  "updated": "2026-09-07T12:44:56+09:00",
+  "count": 997,
   "items": [
+    {
+      "title": "Java News Roundup: TornadoVM 6, JReleaser, LangChain4j, Java Operator SDK, JHipster, Yupiik Fusion",
+      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-aug31-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for August 31st, 2026, features news highlighting: the GA release of TornadoVM 6.0; point releases of JReleaser, LangChain4j, Java Operator SDK, JHipster, Kotlin Toolchain and Yupiik Fusion; and…",
+      "ts": 1788748200,
+      "published": "2026-09-07T02:30:00+00:00",
+      "collected_at": "2026-09-07T12:44:35+09:00"
+    },
+    {
+      "title": "Java News Roundup: TornadoVM 6, JReleaser, LangChain4j, Java Operator SDK, JHipster, Yupiik Fusion",
+      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-aug31-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for August 31st, 2026, features news highlighting: the GA release of TornadoVM 6.0; point releases of JReleaser, LangChain4j, Java Operator SDK, JHipster, Kotlin Toolchain and Yupiik Fusion; and…",
+      "ts": 1788748200,
+      "published": "2026-09-07T02:30:00+00:00",
+      "collected_at": "2026-09-07T12:44:35+09:00"
+    },
     {
       "title": "Research acceleration: The view inside OpenAI",
       "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
@@ -251,6 +271,16 @@
       "ts": 1788604800,
       "published": "2026-09-05T10:40:00+00:00",
       "collected_at": "2026-09-05T22:45:12+09:00"
+    },
+    {
+      "title": "Anthropic & friends caught paying religious NGO's 3.3M for propaganda",
+      "link": "https://www.effort.news/revelation",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.effort.news/revelation Comments URL: https://news.ycombinator.com/item?id=49573677 Points: 62 # Comments: 27",
+      "ts": 1788589891,
+      "published": "2026-09-05T06:31:31+00:00",
+      "collected_at": "2026-09-07T12:44:35+09:00"
     },
     {
       "title": "Redefining GIS: Declarative Symbology and Collaborative Workflows in JupyterGIS",
@@ -1383,6 +1413,16 @@
       "collected_at": "2026-09-02T22:25:13+09:00"
     },
     {
+      "title": "Presentation: Beyond Prompting: Context Engineering for Production-Grade AI",
+      "link": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Ricardo Ferreira discusses moving beyond simple prompt engineering to build production-grade AI applications. He shares practical architectural strategies for integrating long-term and short-term memory using Redis, man…",
+      "ts": 1788346800,
+      "published": "2026-09-02T11:00:00+00:00",
+      "collected_at": "2026-09-07T12:44:35+09:00"
+    },
+    {
       "title": "MongoDB Search Server, improved!",
       "link": "https://foojay.io/today/mongodb-search-server-improved/",
       "source": "Foojay",
@@ -1681,6 +1721,16 @@
       "ts": 1788267600,
       "published": "2026-09-01T13:00:00+00:00",
       "collected_at": "2026-09-02T05:47:19+09:00"
+    },
+    {
+      "title": "Presentation: Beyond Line Charts: Why Some Diversity in Telemetry Visualization Is Long Overdue",
+      "link": "https://www.infoq.com/presentations/telemetry-data/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Yao Yue discusses the fundamental limitations of standard line charts for system observability. Drawing from 15 years of operating large-scale systems, she shares how engineering leaders and software architects can tran…",
+      "ts": 1788266100,
+      "published": "2026-09-01T12:35:00+00:00",
+      "collected_at": "2026-09-07T12:44:35+09:00"
     },
     {
       "title": "Beyond Point Predictions: A Practical Introduction to Bayesian Neural Networks",
@@ -9921,26 +9971,6 @@
       "ts": 1786161100,
       "published": "2026-08-08T03:51:40+00:00",
       "collected_at": "2026-08-08T14:00:22+09:00"
-    },
-    {
-      "title": "v1.107.2 (2026-08-07)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.2",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "🛡️ Security Fixes an availability vulnerability: unbounded memory use when downloading remote content via the local web_fetch tool or FileUrl media downloads, which could exhaust process memory and crash the worker. Pat…",
-      "ts": 1786158968,
-      "published": "2026-08-08T03:16:08+00:00",
-      "collected_at": "2026-08-08T12:36:25+09:00"
-    },
-    {
-      "title": "[AINews] Zawinski's Law of MultiAgents",
-      "link": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us find some connections among recent themes",
-      "ts": 1786151527,
-      "published": "2026-08-08T01:12:07+00:00",
-      "collected_at": "2026-08-08T10:52:36+09:00"
     }
   ]
 }
