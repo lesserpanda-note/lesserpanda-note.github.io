@@ -1,6 +1,61 @@
 {
   "digests": [
     {
+      "date": "2026-09-07",
+      "summary": "오늘은 AI 에이전트의 실무 적용 사례가 두드러진 하루였습니다. OpenAI는 내부 코딩 에이전트가 연구 속도를 어떻게 높이는지 초기 데이터와 함께 공개했고, Figma와 Google은 AI 에이전트를 보안 자동화에 접목한 사례를 발표했습니다. 데이터사이언스 분야에서는 LDA를 활용한 부동산 데이터 차원 축소 실습과 텍스트 워터마킹 기법이 주목을 받았으며, 소프트웨어의 기술 부채가 물리적 제약 없이 무한히 나빠질 수 있다는 통찰도 눈길을 끌었습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "Research acceleration: The view inside OpenAI",
+          "link": "https://openai.com/index/research-acceleration-view-inside-openai",
+          "summary": "OpenAI 내부에서 코딩 에이전트가 AI 연구 방식을 변화시키고 있습니다. 에이전트 활용 초기 데이터, 실험 속도, 과제 복잡성, 연구 가속화에 관한 현황을 공개했습니다.",
+          "detail": "OpenAI가 내부 코딩 에이전트가 AI 연구를 어떻게 가속화하고 있는지를 공개했습니다. 에이전트 활용 초기 데이터와 함께 실험 속도, 과제 복잡성, 연구 가속화 사례를 소개하며, 코딩 에이전트가 연구자들의 실험 진행 방식과 처리 가능한 과제 수준에 실질적인 변화를 가져오고 있음을 보여줍니다. 이는 AI가 AI 연구 자체를 가속화하는 선순환 구조가 실제로 작동하고 있음을 시사하는 중요한 내부 보고입니다."
+        },
+        {
+          "category": "AI",
+          "title": "How Figma Uses AI Agents for Security",
+          "link": "https://www.infoq.com/news/2026/09/figma-security-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Figma 엔지니어링팀이 보안 경보 조사, 과거 인시던트 검색, 시스템 점검, 코드 수정 초안 작성까지 처리하는 AI 에이전트를 구축한 과정을 공개했습니다.",
+          "detail": "Figma 보안팀은 AI 에이전트를 활용해 보안 경보 조사, 과거 인시던트 검색, 회사 시스템 점검, 코드 수정 준비 등 다양한 보안 업무를 자동화했습니다. 보안 팀원이 수동으로 처리하던 반복적이고 시간 소모적인 작업을 에이전트가 대신 수행하여 대응 속도와 일관성을 높입니다. 이 접근 방식은 AI 에이전트를 실제 보안 운영에 실용적으로 통합한 엔지니어링 사례로, 유사한 보안 자동화를 고민하는 팀에 참고가 됩니다."
+        },
+        {
+          "category": "Agents",
+          "title": "There's No Limit to How Bad Code Can Get",
+          "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+          "summary": "Simon Willison이 기술 부채가 심각해질 때 처음부터 다시 만들어야 한다는 충동이 왜 대부분 잘못된 선택인지를 Lobste.rs 토론에서 논했습니다.",
+          "detail": "Willison은 기술 부채가 압도적으로 쌓였을 때 '불태우고 처음부터 다시 짜자'는 충동이 들지만, 실제로 그것이 현명한 결정인 경우는 매우 드물다고 지적합니다. 코드베이스는 건물과 달리 물리적 제약이 없어 이론적으로 무한히 나빠질 수 있으며, 재작성 역시 기존의 암묵적 지식과 엣지 케이스 처리를 잃어버리는 대가를 치르게 됩니다. 점진적 개선이 대부분의 경우 더 안전하고 실용적인 전략임을 강조합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Quoting Zach Kehs",
+          "link": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+          "summary": "건물은 층을 계속 추가하면 결국 무너지지만, 소프트웨어는 그런 물리적 제약이 없어 코드는 언제나 더 나빠질 수 있다는 통찰입니다.",
+          "detail": "Zach Kehs의 인용문은 소프트웨어와 물리적 구조물의 근본적 차이를 날카롭게 포착합니다. 건물은 중력과 물리 법칙이 결국 붕괴라는 자연적 한계를 부과하지만, 코드는 그런 제약이 없어 간접 레이어 추가, 성능 저하, 복잡성 증가가 이론적으로 무한히 지속될 수 있습니다. 소프트웨어 품질 유지의 책임이 외부 제약이 아닌 팀의 의식적이고 지속적인 노력에 달려 있음을 시사하는 짧지만 인상적인 통찰입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Google Mantis: An Agentic Vulnerability Scanning Harness for Reducing False Positives",
+          "link": "https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Google이 취약점 식별·검증·재현·수정 전체 라이프사이클을 자동화하는 AI 에이전트 프레임워크 Mantis를 오픈소스로 공개했습니다.",
+          "detail": "Google이 오픈소스로 공개한 Mantis는 소프트웨어 취약점의 전체 라이프사이클—식별, 검증, 재현, 수정—을 자동화하는 AI 에이전트 프레임워크입니다. 기존 정적 분석 도구들의 가장 큰 문제인 높은 오탐률(false positive)을 줄이기 위해, AI 에이전트가 각 취약점을 실제로 검증하는 에이전트 기반 접근법을 사용합니다. 보안팀이 수많은 오탐 대신 실제 의미 있는 취약점에만 집중할 수 있도록 자동화 파이프라인을 제공하며, 오픈소스 공개로 광범위한 적용이 가능해졌습니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset",
+          "link": "https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimensionality-reduction-in-a-real-estate-dataset/",
+          "summary": "부동산 데이터셋에 선형 판별 분석(LDA)을 적용해 분류 문제에서의 차원 축소를 단계별로 실습하는 내용을 소개합니다.",
+          "detail": "이 글은 머신러닝의 고전적 차원 축소 기법인 LDA(선형 판별 분석)를 실제 부동산 데이터셋에 적용하는 과정을 다룹니다. LDA는 클래스 간 분산을 최대화하고 클래스 내 분산을 최소화하는 방향으로 데이터를 투영하여 분류 성능을 유지하면서 차원을 줄이는 기법으로, PCA와 달리 레이블 정보를 활용합니다. 부동산이라는 친숙한 도메인 데이터를 통해 이론과 실제 적용 사이의 간격을 좁혀주는 실습 사례입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Text Watermarking in Python: Catch Whoever Copies Your Writing",
+          "link": "https://towardsdatascience.com/text-watermarking-in-python-catch-whoever-copies-your-writing/",
+          "summary": "AI 기업들이 하루에 수십억 단어에 적용하는 세 가지 텍스트 워터마킹 기법을 Python으로 직접 구현하고, 복사·편집 후에도 워터마크가 살아남는지 실험 결과를 공유합니다.",
+          "detail": "이 글은 텍스트 워터마킹의 세 가지 주요 기법 계열을 소개하고, 복사·붙여넣기나 편집 후에도 워터마크가 유지되는지 실험 결과를 공유합니다. AI 기업들이 생성 텍스트에 비밀리에 삽입하는 방식과 동일한 기법을 Python으로 직접 구현해볼 수 있으며, 각 기법의 강인성과 한계를 실제 데이터로 검증합니다. 텍스트 저작권 보호와 AI 생성 콘텐츠 추적이라는 실용적 문제에 대한 데이터 기반 접근법을 제시합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-09-06",
       "summary": "오늘은 AI 에이전트와 미래 기술 전망, 보안 아키텍처, 시계열 트랜스포머, 그리고 데이터 과학 실전 기법을 중심으로 7개의 하이라이트를 선정했습니다. GPT-6 Astra의 개발자 지향 기능과 Blender·AI 에이전트 통합 사례가 주목을 끌었으며, Google의 'Beyond Zero' 보안 모델은 AI 에이전트 시대의 아키텍처 방향을 제시합니다. 데이터 과학 분야에서는 물리 시스템 전이 학습과 실전 통계 문제가 포함되었습니다.",
       "highlights": [
