@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-08T09:17:35+09:00",
-  "count": 1006,
+  "updated": "2026-09-08T16:03:50+09:00",
+  "count": 1005,
   "items": [
+    {
+      "title": "v2.41.0 (2026-09-07)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.41.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Deprecate fallback_model in favor of fallback_subagent_model on ImageGeneration and XSearch by @dsfaccini in #8077 Add openai-codex provider for ChatGPT/Codex subscription authentication by @mp…",
+      "ts": 1788840921,
+      "published": "2026-09-08T04:15:21+00:00",
+      "collected_at": "2026-09-08T16:03:27+09:00"
+    },
+    {
+      "title": "llm 0.35",
+      "link": "https://simonwillison.net/2026/Sep/7/llm/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+      "ts": 1788825294,
+      "published": "2026-09-07T23:54:54+00:00",
+      "collected_at": "2026-09-08T16:03:27+09:00"
+    },
     {
       "title": "Creepy crawlies",
       "link": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
@@ -10031,36 +10051,6 @@
       "ts": 1786276576,
       "published": "2026-08-09T11:56:16+00:00",
       "collected_at": "2026-08-10T01:39:34+09:00"
-    },
-    {
-      "title": "Stripe Uses Graph Search and State Machines to Automate Database Remediation",
-      "link": "https://www.infoq.com/news/2026/08/database-remediation-graph/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The engineering team at Stripe recently described how they automated database incident recovery by modeling their global infrastructure as a graph. Using graph search algorithms together with state machines, the team co…",
-      "ts": 1786258500,
-      "published": "2026-08-09T06:55:00+00:00",
-      "collected_at": "2026-08-09T16:01:42+09:00"
-    },
-    {
-      "title": "Stripe Uses Graph Search and State Machines to Automate Database Remediation",
-      "link": "https://www.infoq.com/news/2026/08/database-remediation-graph/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "The engineering team at Stripe recently described how they automated database incident recovery by modeling their global infrastructure as a graph. Using graph search algorithms together with state machines, the team co…",
-      "ts": 1786258500,
-      "published": "2026-08-09T06:55:00+00:00",
-      "collected_at": "2026-08-09T16:01:42+09:00"
-    },
-    {
-      "title": "v2.5.2",
-      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.2",
-      "source": "NumPy",
-      "category": "DataScience",
-      "summary": "NumPy 2.5.2 release",
-      "ts": 1786239962,
-      "published": "2026-08-09T01:46:02+00:00",
-      "collected_at": "2026-08-09T10:59:55+09:00"
     }
   ]
 }
