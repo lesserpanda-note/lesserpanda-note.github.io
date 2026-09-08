@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-09T05:54:13+09:00",
-  "count": 1036,
+  "updated": "2026-09-09T08:15:32+09:00",
+  "count": 1033,
   "items": [
+    {
+      "title": "Introducing ChatGPT Images 2.5",
+      "link": "https://simonwillison.net/2026/Sep/8/introducing-chatgpt-images-25/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Introducing ChatGPT Images 2.5 OpenAI's image generation models are apparently used \"more than 3 billion images across ChatGPT Images and the GPT‑Image models in the API\". This latest release improves their instruction-…",
+      "ts": 1788907593,
+      "published": "2026-09-08T22:46:33+00:00",
+      "collected_at": "2026-09-09T08:15:25+09:00"
+    },
     {
       "title": "Survey Statistics: Pew Research finds “No Easy Fix for Bogus Respondents in Online Opt-In Polls”",
       "link": "https://statmodeling.stat.columbia.edu/2026/09/08/survey-statistics-pew-research-finds-no-easy-fix-for-bogus-respondents-in-online-opt-in-polls/",
@@ -10320,46 +10330,6 @@
       "summary": "Claude Fable 5 and Claude Mythos 5 were first released on June 9, 2026. On June 12, 2026, Anthropic suspended access to both models to comply with U.S. Department of Commerce export controls; the Department lifted those…",
       "ts": 1786318299,
       "published": "2026-08-09T23:31:39+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "GitHub Models is now retired",
-      "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled…",
-      "ts": 1786315685,
-      "published": "2026-08-09T22:48:05+00:00",
-      "collected_at": "2026-08-10T08:34:33+09:00"
-    },
-    {
-      "title": "GitHub Models is now retired",
-      "link": "https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as part of a scheduled…",
-      "ts": 1786315685,
-      "published": "2026-08-09T22:48:05+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "SQLite compressed text-history prototypes",
-      "link": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a new idea: how about taking the full text…",
-      "ts": 1786313100,
-      "published": "2026-08-09T22:05:00+00:00",
-      "collected_at": "2026-08-10T08:34:33+09:00"
-    },
-    {
-      "title": "SQLite compressed text-history prototypes",
-      "link": "https://simonwillison.net/2026/Aug/9/sqlite-text-history-prototype/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Research: SQLite compressed text-history prototypes I'm perennially interested in options for storing revision histories in relational databases. While out on a dog walk I had a new idea: how about taking the full text…",
-      "ts": 1786313100,
-      "published": "2026-08-09T22:05:00+00:00",
       "collected_at": "2026-08-13T07:45:10+09:00"
     }
   ]
