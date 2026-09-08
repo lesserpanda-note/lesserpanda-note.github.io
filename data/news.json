@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-08T07:38:52+09:00",
-  "count": 1003,
+  "updated": "2026-09-08T09:17:35+09:00",
+  "count": 1006,
   "items": [
+    {
+      "title": "Creepy crawlies",
+      "link": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend…",
+      "ts": 1788822538,
+      "published": "2026-09-07T23:08:58+00:00",
+      "collected_at": "2026-09-08T09:17:31+09:00"
+    },
     {
       "title": "Quoting Jakub Pachocki",
       "link": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
@@ -1293,6 +1303,16 @@
       "collected_at": "2026-09-03T08:08:07+09:00"
     },
     {
+      "title": "llm-openrouter 0.7.1",
+      "link": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter",
+      "ts": 1788380606,
+      "published": "2026-09-02T20:23:26+00:00",
+      "collected_at": "2026-09-08T09:17:31+09:00"
+    },
+    {
       "title": "AI Agents and the Refactoring That Never Happens",
       "link": "https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens/",
       "source": "Hacker News",
@@ -1301,6 +1321,16 @@
       "ts": 1788378699,
       "published": "2026-09-02T19:51:39+00:00",
       "collected_at": "2026-09-06T08:38:42+09:00"
+    },
+    {
+      "title": "llm 0.34",
+      "link": "https://simonwillison.net/2026/Sep/2/llm/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus seve…",
+      "ts": 1788377032,
+      "published": "2026-09-02T19:23:52+00:00",
+      "collected_at": "2026-09-08T09:17:31+09:00"
     },
     {
       "title": "Confirmation bias in software testing, Walnutpie edition",
@@ -1321,6 +1351,16 @@
       "ts": 1788372261,
       "published": "2026-09-02T18:04:21+00:00",
       "collected_at": "2026-09-03T05:47:03+09:00"
+    },
+    {
+      "title": "llm-anthropic 0.28",
+      "link": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , a…",
+      "ts": 1788371972,
+      "published": "2026-09-02T17:59:32+00:00",
+      "collected_at": "2026-09-08T09:17:31+09:00"
     },
     {
       "title": "llm-gemini 0.34",
@@ -10021,16 +10061,6 @@
       "ts": 1786239962,
       "published": "2026-08-09T01:46:02+00:00",
       "collected_at": "2026-08-09T10:59:55+09:00"
-    },
-    {
-      "title": "1.15.14",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.14",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Split runtime context from coding agent and add project ID Documentation Update snapshot and changelog for v1.15.13 Contributors @joaomdmoura",
-      "ts": 1786229857,
-      "published": "2026-08-08T22:57:37+00:00",
-      "collected_at": "2026-08-09T08:32:36+09:00"
     }
   ]
 }
