@@ -1,7 +1,107 @@
 {
-  "updated": "2026-09-08T16:03:50+09:00",
-  "count": 1005,
+  "updated": "2026-09-08T21:43:12+09:00",
+  "count": 1016,
   "items": [
+    {
+      "title": "The Four Caches in LLM Serving",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/four-caches-in-llm-serving/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "As LLM applications grow more complex, inference cost and latency become increasingly important. A single request can contain thousands or even millions of tokens from system instructions, conversation history, retrieve…",
+      "ts": 1788869611,
+      "published": "2026-09-08T12:13:31+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
+      "title": "GitLab Warns That AI Agent Sandboxes Are Only as Secure as Their Network Access",
+      "link": "https://www.infoq.com/news/2026/09/gitlab-ai-sandbox-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "GitLab warns that isolating an AI coding agent in a sandbox does not necessarily make the agent safe. In a new security analysis, the company describes an internal evaluation in which an AI agent escaped its sandbox by…",
+      "ts": 1788868800,
+      "published": "2026-09-08T12:00:00+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
+      "title": "Quiz: Python Timer Functions",
+      "link": "https://realpython.com/quizzes/python-timer-functions/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check what you know about Python timer functions, from picking the right time function to timing a block of code with a context manager.",
+      "ts": 1788868800,
+      "published": "2026-09-08T12:00:00+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
+      "title": "Community Spotlight: BoxLang Express Brings Node-Style HTTP to the JVM",
+      "link": "https://foojay.io/today/community-spotlight-boxlang-express-brings-node-style-http-to-the-jvm/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "If you've spent years in Spring Boot, Micronaut, or Jakarta EE, \"web framework\" usually means a servlet container, an embedded Tomcat or Netty, a build step, and a fat jar before anything answers a request. What if you…",
+      "ts": 1788866718,
+      "published": "2026-09-08T11:25:18+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
+      "title": "Context Windows Don’t Know What’s Still True — I Built a Validity Layer That Does",
+      "link": "https://towardsdatascience.com/context-windows-dont-know-whats-still-true-i-built-a-validity-layer-that-does/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A context window can be technically complete and still describe a world that no longer exists. I built a deterministic benchmark to measure the cost of acting on stale context. The post Context Windows Don’t Know What’s…",
+      "ts": 1788865201,
+      "published": "2026-09-08T11:00:01+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "link": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person th…",
+      "ts": 1788863640,
+      "published": "2026-09-08T10:34:00+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
+      "title": "v0.22.1",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.1",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed feat(core): support image results in web search tools by @seratch in #4898 feat(core): customize output guardrail blocked messages by @seratch in #4594 feat(mcp): add server-wide guardrails to MCP tools b…",
+      "ts": 1788859080,
+      "published": "2026-09-08T09:18:00+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
+      "title": "Article: Implementing Chaos Engineering in Financial Payment Systems: Lessons from Enterprise ECS Deployments",
+      "link": "https://www.infoq.com/articles/chaos-engineering-ecs-payments/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Standard chaos engineering assumes experiments stop cleanly, blast radius is knowable in advance, and production is fair game. Payment systems violate all three. Salim Adedeji describes ECS-specific failure modes from e…",
+      "ts": 1788858000,
+      "published": "2026-09-08T09:00:00+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
+      "title": "“Commit created” — but it isn’t: why the agent’s word needs external verification, and what the mistake costs",
+      "link": "https://foojay.io/today/commit-created-no-no-no-what-the-the-agents-word-needs-external-verification-%d0%b8-what-the-mistake-costs/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A detailed report reads like proof. The agent lists the files it touched, names the branch, quotes a commit hash, adds a test count and closes with \"done\". The work has a shape. The shape looks right. You have six ... T…",
+      "ts": 1788857643,
+      "published": "2026-09-08T08:54:03+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
+      "title": "From OpenTelemetry to DuckDB",
+      "link": "https://foojay.io/today/from-opentelemetry-to-duckdb/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Observability platforms generally expect you to do your analysis inside them, using their query language and their dashboards. That works for the questions you already know you have. It works less well for the ad-hoc on…",
+      "ts": 1788856177,
+      "published": "2026-09-08T08:29:37+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
     {
       "title": "v2.41.0 (2026-09-07)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.41.0",
@@ -11,6 +111,16 @@
       "ts": 1788840921,
       "published": "2026-09-08T04:15:21+00:00",
       "collected_at": "2026-09-08T16:03:27+09:00"
+    },
+    {
+      "title": "This Week in Spring - September 8th, 2026",
+      "link": "https://spring.io/blog/2026/09/08/this-week-in-spring-september-8th-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Bonjour a tout le monde ! Welcome to another rip-roarin' installment of This Week in Spring ! It's a fabulous and fun day here in Paris, France, as I wait to board the train to Amsterdam for the IntelliJ IDEA conference…",
+      "ts": 1788825600,
+      "published": "2026-09-08T00:00:00+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
     },
     {
       "title": "llm 0.35",
@@ -9993,6 +10103,16 @@
       "collected_at": "2026-08-13T07:45:10+09:00"
     },
     {
+      "title": "v2.5.2 (Aug 9, 2026)",
+      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.2",
+      "source": "NumPy",
+      "category": "DataScience",
+      "summary": "NumPy 2.5.2 Release Notes The NumPy 2.5.2 is a patch release that fixes bugs discovered after the 2.5.1 release. The big news is that it includes wheels for the newly released Python 3.15.0rc1. This release supports Pyt…",
+      "ts": 1786297349,
+      "published": "2026-08-09T17:42:29+00:00",
+      "collected_at": "2026-09-08T21:42:56+09:00"
+    },
+    {
       "title": "I Thought Loading Data Was the Finish Line. It Was the Starting Point.",
       "link": "https://towardsdatascience.com/i-thought-loading-data-was-the-finish-line-it-was-the-starting-point/",
       "source": "Towards Data Science",
@@ -10041,16 +10161,6 @@
       "ts": 1786280400,
       "published": "2026-08-09T13:00:00+00:00",
       "collected_at": "2026-08-09T22:53:23+09:00"
-    },
-    {
-      "title": "70% of AI revenue comes from OpenAI and Anthropic",
-      "link": "https://www.youtube.com/watch?v=68X8yEatepQ",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.youtube.com/watch?v=68X8yEatepQ Comments URL: https://news.ycombinator.com/item?id=49230605 Points: 50 # Comments: 35",
-      "ts": 1786276576,
-      "published": "2026-08-09T11:56:16+00:00",
-      "collected_at": "2026-08-10T01:39:34+09:00"
     }
   ]
 }
