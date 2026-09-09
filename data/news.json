@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-09T09:18:41+09:00",
-  "count": 1027,
+  "updated": "2026-09-09T12:54:05+09:00",
+  "count": 1025,
   "items": [
+    {
+      "title": "v2.42.0 (2026-09-08)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.42.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Reject invalid DeferredToolResults.approvals values by @adtyavrdhn in #8081 🚀 Features Add a GitHubCopilotProvider for GitHub Copilot's OpenAI-compatible API by @dsfaccini in #8059…",
+      "ts": 1788924812,
+      "published": "2026-09-09T03:33:32+00:00",
+      "collected_at": "2026-09-09T12:53:43+09:00"
+    },
+    {
+      "title": "What OpenAI’s latest controversy tells us about the future of math",
+      "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in…",
+      "ts": 1788923408,
+      "published": "2026-09-09T03:10:08+00:00",
+      "collected_at": "2026-09-09T12:53:43+09:00"
+    },
+    {
+      "title": "Quoting Terence Tao",
+      "link": "https://simonwillison.net/2026/Sep/9/terence-tao/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I wrote recently about how the collection of good, fruitful open problems is now being mined in a non-renewable fashion, leading to the potential scenario of these problems becoming scarce. [...] We have now seen that e…",
+      "ts": 1788913217,
+      "published": "2026-09-09T00:20:17+00:00",
+      "collected_at": "2026-09-09T12:53:43+09:00"
+    },
     {
       "title": "On the Navier–Stokes Millennium Prize Problem",
       "link": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
@@ -10221,56 +10251,6 @@
       "ts": 1786334640,
       "published": "2026-08-10T04:04:00+00:00",
       "collected_at": "2026-08-10T13:41:25+09:00"
-    },
-    {
-      "title": "Auto mode is now the default in Claude Code",
-      "link": "https://claude.com/blog/auto-mode-default-in-claude-code",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://claude.com/blog/auto-mode-default-in-claude-code Comments URL: https://news.ycombinator.com/item?id=49239021 Points: 115 # Comments: 77",
-      "ts": 1786333800,
-      "published": "2026-08-10T03:50:00+00:00",
-      "collected_at": "2026-08-10T15:12:24+09:00"
-    },
-    {
-      "title": "Quoting OpenClaw",
-      "link": "https://simonwillison.net/2026/Aug/10/openclaw/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. — OpenClaw…",
-      "ts": 1786327516,
-      "published": "2026-08-10T02:05:16+00:00",
-      "collected_at": "2026-08-10T13:41:25+09:00"
-    },
-    {
-      "title": "Quoting OpenClaw (running Opus 4.6)",
-      "link": "https://simonwillison.net/2026/Aug/10/openclaw/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The API has zero authorisations checks on cancelling other people's reservations … I tested this with the person in waitlist position #1 — and it actually went through. So you've moved from #4 to #3 already. — OpenClaw…",
-      "ts": 1786327516,
-      "published": "2026-08-10T02:05:16+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
-    },
-    {
-      "title": "Blender MCP maintainer GitHub account hacked",
-      "link": "https://twitter.com/sidahuj/status/2086445625147793503",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://twitter.com/sidahuj/status/2086445625147793503 Comments URL: https://news.ycombinator.com/item?id=49238028 Points: 20 # Comments: 4",
-      "ts": 1786323509,
-      "published": "2026-08-10T00:58:29+00:00",
-      "collected_at": "2026-08-10T20:50:35+09:00"
-    },
-    {
-      "title": "People keep sending me AI slop that they want me to post on the blog.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/09/people-keep-sending-me-ai-slop-that-they-want-me-to-post-on-the-blog/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I don’t get it. Instead of sending me the chatbot output, just send me your goddamn prompt. Cut out the middleman.",
-      "ts": 1786321553,
-      "published": "2026-08-10T00:25:53+00:00",
-      "collected_at": "2026-08-10T11:04:30+09:00"
     }
   ]
 }
