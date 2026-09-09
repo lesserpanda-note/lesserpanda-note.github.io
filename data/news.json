@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-09T12:54:05+09:00",
-  "count": 1025,
+  "updated": "2026-09-09T17:50:34+09:00",
+  "count": 1027,
   "items": [
+    {
+      "title": "Masking a JVM thread dump without breaking the analysis",
+      "link": "https://foojay.io/today/masking-a-jvm-thread-dump-without-breaking-the-analysis/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A few weeks ago I posted on r/java about detecting virtual thread pinning from a plain thread dump. The technical discussion was fine. The comment that stuck with me had nothing to do with pinning: \"the problem isn't ta…",
+      "ts": 1788939120,
+      "published": "2026-09-09T07:32:00+00:00",
+      "collected_at": "2026-09-09T17:50:11+09:00"
+    },
+    {
+      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
+      "link": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Overshadowing Cognition's $48B Series E, Mistral's $24B Series D, Meta's Muse agent, and GPT Image 2.5. The most jam packed, feel the AGI day in the history of AI.",
+      "ts": 1788930291,
+      "published": "2026-09-09T05:04:51+00:00",
+      "collected_at": "2026-09-09T17:50:11+09:00"
+    },
     {
       "title": "v2.42.0 (2026-09-08)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.42.0",
@@ -21,6 +41,26 @@
       "ts": 1788923408,
       "published": "2026-09-09T03:10:08+00:00",
       "collected_at": "2026-09-09T12:53:43+09:00"
+    },
+    {
+      "title": "AI Responsibility – OpenAI and Anthropic",
+      "link": "https://twitter.com/hilbertspaess/status/2097476196791709843",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/hilbertspaess/status/2097476196791709843 Comments URL: https://news.ycombinator.com/item?id=49619639 Points: 76 # Comments: 22",
+      "ts": 1788917569,
+      "published": "2026-09-09T01:32:49+00:00",
+      "collected_at": "2026-09-09T17:50:11+09:00"
+    },
+    {
+      "title": "I resigned from Anthropic today",
+      "link": "https://twitter.com/hilbertspaess/status/2097476196791709843#m",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "https://xcancel.com/hilbertspaess/status/2097476196791709843... Comments URL: https://news.ycombinator.com/item?id=49619227 Points: 548 # Comments: 707",
+      "ts": 1788914440,
+      "published": "2026-09-09T00:40:40+00:00",
+      "collected_at": "2026-09-09T17:50:11+09:00"
     },
     {
       "title": "Quoting Terence Tao",
@@ -941,6 +981,16 @@
       "ts": 1788584700,
       "published": "2026-09-05T05:05:00+00:00",
       "collected_at": "2026-09-05T14:24:30+09:00"
+    },
+    {
+      "title": "[AINews] Collusion.wiki: A second undisclosed OpenAI agent swarm incident...",
+      "link": "https://www.latent.space/p/ainews-collusionwiki-a-second-undisclosed",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "AI News for 9/2/2026-9/3/2026.",
+      "ts": 1788582720,
+      "published": "2026-09-05T04:32:00+00:00",
+      "collected_at": "2026-09-09T17:50:11+09:00"
     },
     {
       "title": "GPT-6 Astra: What’s Actually New in OpenAI’s New Frontier Model",
@@ -10221,36 +10271,6 @@
       "ts": 1786352400,
       "published": "2026-08-10T09:00:00+00:00",
       "collected_at": "2026-08-10T19:20:01+09:00"
-    },
-    {
-      "title": "Buildpacks Move the Container Hardening Control Point Away From the Dockerfile",
-      "link": "https://www.infoq.com/news/2026/08/buildpacks-dockerfile-patching/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloud Native Buildpacks, which graduated within the CNCF in July 2026, move base image choice out of per-service Dockerfiles into a single builder owned by platform engineering, enabling fleet-wide patching. BellSoft's…",
-      "ts": 1786345200,
-      "published": "2026-08-10T07:00:00+00:00",
-      "collected_at": "2026-08-10T17:41:39+09:00"
-    },
-    {
-      "title": "Docker Sandboxes – Disposable, isolated sandboxes for AI agents",
-      "link": "https://www.docker.com/products/docker-sandboxes/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.docker.com/products/docker-sandboxes/ Comments URL: https://news.ycombinator.com/item?id=49239751 Points: 139 # Comments: 92",
-      "ts": 1786341758,
-      "published": "2026-08-10T06:02:38+00:00",
-      "collected_at": "2026-08-10T17:41:39+09:00"
-    },
-    {
-      "title": "Beyond Consensus: The Fragmentation of AI Policy Across the Linux Ecosystem",
-      "link": "https://www.infoq.com/news/2026/08/linux-ai-policies/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "The AI policies across the Linux ecosystem are very heterogeneous, ranging from the GCC’s restrictiveness, the Linux kernel’s pragmatism, to the more open disclosure-based utility model of Kubernetes' landscape. From co…",
-      "ts": 1786334640,
-      "published": "2026-08-10T04:04:00+00:00",
-      "collected_at": "2026-08-10T13:41:25+09:00"
     }
   ]
 }
