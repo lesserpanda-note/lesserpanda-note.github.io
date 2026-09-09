@@ -1,7 +1,127 @@
 {
-  "updated": "2026-09-09T17:50:34+09:00",
-  "count": 1027,
+  "updated": "2026-09-09T22:34:35+09:00",
+  "count": 1023,
   "items": [
+    {
+      "title": "v0.22.2",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.2",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed feat: support current image generation tool options by @seratch in #4932 fix(sandbox): prevent UnixLocal file API symlink races by @seratch in #4931 fix(sessions): reset compaction response chain after po…",
+      "ts": 1788957370,
+      "published": "2026-09-09T12:36:10+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "When One Process Becomes Too Much: Splitting a Pipeline into MCP Services",
+      "link": "https://towardsdatascience.com/when-one-process-becomes-too-much-splitting-a-pipeline-into-mcp-services/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "How we split a tightly coupled Python pipeline into independently deployable services The post When One Process Becomes Too Much: Splitting a Pipeline into MCP Services appeared first on Towards Data Science .",
+      "ts": 1788957002,
+      "published": "2026-09-09T12:30:02+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "7 Approaches to Efficient LLM Training on Limited Hardware",
+      "link": "https://www.kdnuggets.com/7-approaches-to-efficient-llm-training-on-limited-hardware",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Learn seven engineering techniques to train large language models on consumer GPUs without running out of memory.",
+      "ts": 1788955250,
+      "published": "2026-09-09T12:00:50+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "Versioning and Tracking Scikit-LLM Experiments",
+      "link": "https://machinelearningmastery.com/versioning-and-tracking-scikit-llm-experiments/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how to build, track, compare, and register scikit-learn pipelines that integrate large language models using Scikit-LLM and MLflow. Topics...",
+      "ts": 1788955231,
+      "published": "2026-09-09T12:00:31+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "Quiz: Starting With Python IDLE",
+      "link": "https://realpython.com/quizzes/starting-python-idle/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of Python IDLE. Run code in the shell, edit and run files, debug with breakpoints, and make the editor look the way you like.",
+      "ts": 1788955200,
+      "published": "2026-09-09T12:00:00+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "Quiz: Python 3.15 Preview: Lazy Imports",
+      "link": "https://realpython.com/quizzes/python315-lazy-imports/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python 3.15 lazy imports, from the lazy keyword and __lazy_modules__ to the imports that have to stay eager.",
+      "ts": 1788955200,
+      "published": "2026-09-09T12:00:00+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+      "link": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+      "source": "Ahead of AI",
+      "category": "AI",
+      "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
+      "ts": 1788952465,
+      "published": "2026-09-09T11:14:25+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "10 Statistical Traps We Often Overlook",
+      "link": "https://towardsdatascience.com/10-statistical-traps-we-often-overlook/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Statistical thinking beyond formulas The post 10 Statistical Traps We Often Overlook appeared first on Towards Data Science .",
+      "ts": 1788951602,
+      "published": "2026-09-09T11:00:02+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "Presentation: Fixing the AI Infra Scale Problem by Stuffing 1M Sandboxes in a Single Server",
+      "link": "https://www.infoq.com/presentations/unikraft-microvm-sandboxes-cloud-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Felipe Huici explains how Unikraft achieves millisecond cold boots, stateful scale-to-zero, and extreme density for sandboxing AI workloads. He discusses isolation primitives, Linux kernel optimizations, and snapshottin…",
+      "ts": 1788951600,
+      "published": "2026-09-09T11:00:00+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "Presentation: Fixing the AI Infra Scale Problem by Stuffing 1M Sandboxes in a Single Server",
+      "link": "https://www.infoq.com/presentations/unikraft-microvm-sandboxes-cloud-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Felipe Huici explains how Unikraft achieves millisecond cold boots, stateful scale-to-zero, and extreme density for sandboxing AI workloads. He discusses isolation primitives, Linux kernel optimizations, and snapshottin…",
+      "ts": 1788951600,
+      "published": "2026-09-09T11:00:00+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "Azure Virtual Desktop Hybrid Reaches GA with Licensing Details Unpublished",
+      "link": "https://www.infoq.com/news/2026/09/avd-hybrid-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Microsoft has made Azure Virtual Desktop Hybrid generally available. Session hosts run on customer hardware through Azure Arc while brokering stays in Azure. The Hybrid service license is unpriced, Windows Server suppor…",
+      "ts": 1788944040,
+      "published": "2026-09-09T08:54:00+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
+    {
+      "title": "Gambling with our lives: AI researcher quits Anthropic with warning about safety",
+      "link": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/ Comments URL: https://news.ycombinator.com/item?id=49623306 Points: 70 # Comments: 93",
+      "ts": 1788943407,
+      "published": "2026-09-09T08:43:27+00:00",
+      "collected_at": "2026-09-09T22:34:30+09:00"
+    },
     {
       "title": "Masking a JVM thread dump without breaking the analysis",
       "link": "https://foojay.io/today/masking-a-jvm-thread-dump-without-breaking-the-analysis/",
@@ -10111,166 +10231,6 @@
       "ts": 1786369313,
       "published": "2026-08-10T13:41:53+00:00",
       "collected_at": "2026-08-11T00:02:06+09:00"
-    },
-    {
-      "title": "Variational Autoencoders (VAEs) Explained: From Theory to ELBO and the Reparameterization Trick",
-      "link": "https://towardsdatascience.com/variational-autoencoders-vaes-explained-from-theory-to-elbo-and-the-reparameterization-trick/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A clear, math-first walkthrough of how VAEs learn to generate new data The post Variational Autoencoders (VAEs) Explained: From Theory to ELBO and the Reparameterization Trick appeared first on Towards Data Science .",
-      "ts": 1786368600,
-      "published": "2026-08-10T13:30:00+00:00",
-      "collected_at": "2026-08-11T00:02:06+09:00"
-    },
-    {
-      "title": "Java News Roundup: Shenandoah GC, TeamCity CVE, A2A Java SDK, Camel, Gradle, GlassFish, Groovy",
-      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug03-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for August 3rd, 2026, features news highlighting: JEP 535, Shenandoah GC: Generational Mode by Default, targeted for JDK 28; point releases of A2A Java SDK, Apache Camel and Gradle; a maintenanc…",
-      "ts": 1786365900,
-      "published": "2026-08-10T12:45:00+00:00",
-      "collected_at": "2026-08-10T22:16:34+09:00"
-    },
-    {
-      "title": "Java News Roundup: Shenandoah GC, TeamCity CVE, A2A Java SDK, Camel, Gradle, GlassFish, Groovy",
-      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug03-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for August 3rd, 2026, features news highlighting: JEP 535, Shenandoah GC: Generational Mode by Default, targeted for JDK 28; point releases of A2A Java SDK, Apache Camel and Gradle; a maintenanc…",
-      "ts": 1786365900,
-      "published": "2026-08-10T12:45:00+00:00",
-      "collected_at": "2026-08-10T22:16:34+09:00"
-    },
-    {
-      "title": "Top 10 AI Influencers of 2026",
-      "link": "https://www.kdnuggets.com/top-10-ai-influencers-of-2026",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Ten AI influencers who are actually shaping 2026, from safe superintelligence to AI-native search. Here is who to follow and why.",
-      "ts": 1786363258,
-      "published": "2026-08-10T12:00:58+00:00",
-      "collected_at": "2026-08-10T22:16:34+09:00"
-    },
-    {
-      "title": "Prompt Caching vs. Fine-Tuning: A Cost and Latency Decision Framework",
-      "link": "https://machinelearningmastery.com/prompt-caching-vs-fine-tuning-a-cost-and-latency-decision-framework/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how prompt caching and fine-tuning differ as strategies for reducing cost and latency in agentic AI systems, and how...",
-      "ts": 1786363254,
-      "published": "2026-08-10T12:00:54+00:00",
-      "collected_at": "2026-08-10T22:16:34+09:00"
-    },
-    {
-      "title": "SPP-Net Paper Walkthrough: Breaking the Fixed-Size Constraint",
-      "link": "https://towardsdatascience.com/spp-net-paper-walkthrough-breaking-the-fixed-size-constraint/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Learn how Spatial Pyramid Pooling enables CNNs to handle any image size, with a from-scratch PyTorch implementation The post SPP-Net Paper Walkthrough: Breaking the Fixed-Size Constraint appeared first on Towards Data S…",
-      "ts": 1786363200,
-      "published": "2026-08-10T12:00:00+00:00",
-      "collected_at": "2026-08-10T22:16:34+09:00"
-    },
-    {
-      "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
-      "link": "https://openai.com/index/model-ml",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Model ML uses GPT-5.6 Sol to carry finance work from research and analysis through editable, traceable PowerPoint decks and Excel workbooks.",
-      "ts": 1786363200,
-      "published": "2026-08-10T12:00:00+00:00",
-      "collected_at": "2026-08-11T00:02:06+09:00"
-    },
-    {
-      "title": "Article: Comprehension as an Architectural Characteristic: A System That Is Not Understood Cannot Evolve Safely",
-      "link": "https://www.infoq.com/articles/system-comprehension-evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "As AI commoditizes code output, system comprehension silently decays, creating cognitive debt that threatens safe architectural evolution. This article explores why human understanding must be treated as an essential ar…",
-      "ts": 1786359600,
-      "published": "2026-08-10T11:00:00+00:00",
-      "collected_at": "2026-08-10T20:50:35+09:00"
-    },
-    {
-      "title": "Release: v5.15.0",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.15.0",
-      "source": "Transformers",
-      "category": "AI",
-      "summary": "Release v5.15.0 New Model additions Meta Muse Glimmer Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under th…",
-      "ts": 1786357693,
-      "published": "2026-08-10T10:28:13+00:00",
-      "collected_at": "2026-08-10T20:50:35+09:00"
-    },
-    {
-      "title": "Introduction to Retrieval-Augmented Generation with Java and MongoDB",
-      "link": "https://foojay.io/today/introduction-to-retrieval-augmented-generation-with-java-and-mongodb/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Modern organizations store large volumes of information in documents, databases, internal platforms, support systems, policies, and operational tools. However, having data does not guarantee that employees or applicatio…",
-      "ts": 1786356530,
-      "published": "2026-08-10T10:08:50+00:00",
-      "collected_at": "2026-08-10T19:20:01+09:00"
-    },
-    {
-      "title": "Making Knowledge Distillation Cheap Enough to Run at Scale",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1786356336,
-      "published": "2026-08-10T10:05:36+00:00",
-      "collected_at": "2026-08-10T19:20:01+09:00"
-    },
-    {
-      "title": "Putting frontier cyber models in more trusted hands",
-      "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-      "ts": 1786356000,
-      "published": "2026-08-10T10:00:00+00:00",
-      "collected_at": "2026-08-11T02:55:02+09:00"
-    },
-    {
-      "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
-      "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Meet GPT-5.6-Cyber, OpenAI’s cybersecurity-specific model available through Daybreak Red for authorized vulnerability research, exploit validation, and security testing.",
-      "ts": 1786356000,
-      "published": "2026-08-10T10:00:00+00:00",
-      "collected_at": "2026-08-11T04:02:03+09:00"
-    },
-    {
-      "title": "Presentation: Leveraging Adversary Emulation for GenAI Red Teaming",
-      "link": "https://www.infoq.com/presentations/emulation-genai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Kennedy Torkura discusses practical GenAI red teaming techniques to safeguard LLMs and knowledge bases against security threats like data poisoning and LLMjacking on AWS. He explains how engineering leaders and architec…",
-      "ts": 1786354320,
-      "published": "2026-08-10T09:32:00+00:00",
-      "collected_at": "2026-08-10T19:20:01+09:00"
-    },
-    {
-      "title": "AI for science needs reasoning, not just data",
-      "link": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Every few decades, someone announces that science has reached its end. In 1903, the revered physicist Albert Michelson wrote that the “facts of physical science have all been discovered.” In the 1980s, Stephen Hawking p…",
-      "ts": 1786352400,
-      "published": "2026-08-10T09:00:00+00:00",
-      "collected_at": "2026-08-10T19:20:01+09:00"
-    },
-    {
-      "title": "These startups are chasing the next big thing in LLMs",
-      "link": "https://www.technologyreview.com/2026/08/10/1141511/these-startups-are-chasing-the-next-big-thing-in-llms/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "MIT Technology Review’s What’s Next series looks across industries, trends, and technologies to give you a first look at the future. You can read the rest of them here. Way back in the summer of 2017, AI researchers at…",
-      "ts": 1786352400,
-      "published": "2026-08-10T09:00:00+00:00",
-      "collected_at": "2026-08-10T19:20:01+09:00"
     }
   ]
 }
