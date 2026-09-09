@@ -1,7 +1,127 @@
 {
-  "updated": "2026-09-09T22:34:35+09:00",
-  "count": 1023,
+  "updated": "2026-09-10T02:41:51+09:00",
+  "count": 1024,
   "items": [
+    {
+      "title": "Paul Christiano joins OpenAI Foundation Board",
+      "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "ts": 1788973200,
+      "published": "2026-09-09T17:00:00+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Social Media Engagement: summer 2026",
+      "link": "https://martinfowler.com/articles/2026-social-traffic.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "A quick survey of recent engagement of my posts on social media, indicating which service has by far the most engagement, and which service has seen a precipitous decline since early 2025. more…",
+      "ts": 1788970860,
+      "published": "2026-09-09T16:21:00+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Anthropic Is Building a Predictive Surveillance System to Monitor Activists",
+      "link": "https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://prospect.org/2026/09/09/anthropic-artificial-intelligence-surveillance-system-monitor-activists/ Comments URL: https://news.ycombinator.com/item?id=49628704 Points: 220 # Comments: 92",
+      "ts": 1788969701,
+      "published": "2026-09-09T16:01:41+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Get ready for the game with new football features in Search",
+      "link": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "An illustrated graphic set against a vibrant green background featuring American football elements, including a gold trophy, a blue helmet, a silver whistle, a football, a mini scoreboard, and play diagrams, with the ic…",
+      "ts": 1788969600,
+      "published": "2026-09-09T16:00:00+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Recreating a 70-year love story frame by frame",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "An elderly couple sitting in a movie theater. Overlayed are \"Teulluride Film Festival\" and \"Love, Rendered\"",
+      "ts": 1788969600,
+      "published": "2026-09-09T16:00:00+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Release 5.17.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.17.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.17.0 New Model additions HYV4 Hy4-Preview is a 780B-parameter mixture-of-experts language model that activates 49B parameters per token. Each MoE layer holds 256 routed experts plus one always-active shared e…",
+      "ts": 1788968565,
+      "published": "2026-09-09T15:42:45+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+      "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788968184,
+      "published": "2026-09-09T15:36:24+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Getting started with dbt",
+      "link": "https://towardsdatascience.com/getting-started-with-dbt/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A practical guide to building, testing, and documenting SQL transformations The post Getting started with dbt appeared first on Towards Data Science .",
+      "ts": 1788967801,
+      "published": "2026-09-09T15:30:01+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Build an AI Data Analyst That Thinks Like a Senior Analyst",
+      "link": "https://www.kdnuggets.com/build-an-ai-data-analyst-that-thinks-like-a-senior-analyst",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "A six-stage pipeline that checks its numbers before calling anything an answer.",
+      "ts": 1788962450,
+      "published": "2026-09-09T14:00:50+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "The Symmetry That Breaks Neural Network Averaging",
+      "link": "https://towardsdatascience.com/the-symmetry-that-breaks-neural-network-averaging/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Understanding permutation symmetry in deep learning, and what it means for weight averaging and model merging The post The Symmetry That Breaks Neural Network Averaging appeared first on Towards Data Science .",
+      "ts": 1788962402,
+      "published": "2026-09-09T14:00:02+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Python 3.15 Preview: Lazy Imports",
+      "link": "https://realpython.com/python315-lazy-imports/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how Python 3.15 lazy imports work, how deferring heavy modules cuts your app's startup time, and which imports still have to stay eager.",
+      "ts": 1788962400,
+      "published": "2026-09-09T14:00:00+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Living on the Edge: Aggressive mediocrity at the summit of America’s intellectual culture",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/09/living-on-the-edge-aggressive-mediocrity-at-the-summit-of-americas-intellectual-culture/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "So much good stuff here at the Edge Foundation and Jeffrey Epstein webpage: – The connection to Ted talks. I had no idea! But it fits. Money and bullshit go together like liver and onions. – “Bill Gates and his … Contin…",
+      "ts": 1788961460,
+      "published": "2026-09-09T13:44:20+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
+    },
     {
       "title": "v0.22.2",
       "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.2",
@@ -191,6 +311,16 @@
       "ts": 1788913217,
       "published": "2026-09-09T00:20:17+00:00",
       "collected_at": "2026-09-09T12:53:43+09:00"
+    },
+    {
+      "title": "Spring Tools 5.4.0 released",
+      "link": "https://spring.io/blog/2026/09/09/spring-tools-5-4-0-released",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I am pleased to announce the 5.4.0 release of the Spring Tools for Visual Studio Code, Cursor, Eclipse, Theia - and Claude Code. Hightlights New Validations & Quic…",
+      "ts": 1788912000,
+      "published": "2026-09-09T00:00:00+00:00",
+      "collected_at": "2026-09-10T02:41:41+09:00"
     },
     {
       "title": "On the Navier–Stokes Millennium Prize Problem",
@@ -10111,126 +10241,6 @@
       "ts": 1786386022,
       "published": "2026-08-10T18:20:22+00:00",
       "collected_at": "2026-08-11T04:02:03+09:00"
-    },
-    {
-      "title": "What building an AI-native finance function taught me",
-      "link": "https://openai.com/index/building-an-ai-native-finance-function",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI CFO Sarah Friar shares five lessons for building an AI-native finance function, from automated forecasting to stronger controls and AI ROI.",
-      "ts": 1786381200,
-      "published": "2026-08-10T17:00:00+00:00",
-      "collected_at": "2026-08-11T01:56:51+09:00"
-    },
-    {
-      "title": "How to Effectively Deploy Code With Claude Code",
-      "link": "https://towardsdatascience.com/how-to-effectively-deploy-code-with-claude-code/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Learn how to optimize your CI/CD pipeline for coding agents The post How to Effectively Deploy Code With Claude Code appeared first on Towards Data Science .",
-      "ts": 1786379400,
-      "published": "2026-08-10T16:30:00+00:00",
-      "collected_at": "2026-08-11T01:56:51+09:00"
-    },
-    {
-      "title": "Build Low-Latency Multilingual Voice Agents: Open Weights & Full Deployment Control with NVIDIA Magpie TTS",
-      "link": "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1786379136,
-      "published": "2026-08-10T16:25:36+00:00",
-      "collected_at": "2026-08-11T01:56:51+09:00"
-    },
-    {
-      "title": "New Free eBook: Understanding Agentic AI, an Executive Briefing",
-      "link": "https://www.kdnuggets.com/new-free-ebook-understanding-agentic-ai-an-executive-briefing",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Written for CEOs, CTOs, CIOs, and technology executives, our new free ebook \"Understanding Agentic AI: An Executive Briefing\" walks through the components every real agentic system is built from.",
-      "ts": 1786377613,
-      "published": "2026-08-10T16:00:13+00:00",
-      "collected_at": "2026-08-11T01:56:51+09:00"
-    },
-    {
-      "title": "Building an Agent-Ready Data Warehouse: What Traditional Architectures Do Wrong",
-      "link": "https://towardsdatascience.com/building-an-agent-ready-data-warehouse-what-traditional-architectures-do-wrong/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Giving an AI agent access to a data warehouse doesn't automatically make it agent-ready. The real challenge lies in teaching the agent what the data means and when it's reliable enough to use. The post Building an Agent…",
-      "ts": 1786374000,
-      "published": "2026-08-10T15:00:00+00:00",
-      "collected_at": "2026-08-11T01:56:51+09:00"
-    },
-    {
-      "title": "Project Valhalla's First Preview: JEP 401 Redefines == for Java Objects",
-      "link": "https://www.infoq.com/news/2026/08/jep401-value-objects-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "JEP 401, integrated into JDK 28, introduces value objects. These new class instances feature final fields, altered behavior for equality checks, and stricter construction and synchronization rules. It aims to enhance ef…",
-      "ts": 1786372320,
-      "published": "2026-08-10T14:32:00+00:00",
-      "collected_at": "2026-08-11T00:02:06+09:00"
-    },
-    {
-      "title": "Evolve your marketing with new AI tools",
-      "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Advisor UI in Google Ads and Google Analytics",
-      "ts": 1786372200,
-      "published": "2026-08-10T14:30:00+00:00",
-      "collected_at": "2026-08-11T00:02:06+09:00"
-    },
-    {
-      "title": "Canva Shares S3 Based Architecture for Session Revocation Across Hundreds of Millions of Sessions",
-      "link": "https://www.infoq.com/news/2026/08/canva-session-revocation-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Canva redesigned session revocation infrastructure to support 100M active sessions while reducing database lookups. The architecture uses Amazon S3 for durable revocation records and distributes compact, in-memory index…",
-      "ts": 1786371240,
-      "published": "2026-08-10T14:14:00+00:00",
-      "collected_at": "2026-08-11T00:02:06+09:00"
-    },
-    {
-      "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
-      "link": "https://openai.com/index/responsible-ai-infrastructure-texas",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI sent Governor Greg Abbott a letter outlining its commitment to responsible AI infrastructure in Texas. The letter supports reliable, transparent growth that benefits Texans.",
-      "ts": 1786370400,
-      "published": "2026-08-10T14:00:00+00:00",
-      "collected_at": "2026-08-11T00:02:06+09:00"
-    },
-    {
-      "title": "Qt Designer and Python: Build Your GUI Applications Faster",
-      "link": "https://realpython.com/qt-designer-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use Qt Designer to build Python GUIs with PyQt6. Create your main windows and dialogs visually, then load them in your app.",
-      "ts": 1786370400,
-      "published": "2026-08-10T14:00:00+00:00",
-      "collected_at": "2026-08-11T00:02:06+09:00"
-    },
-    {
-      "title": "Specification Engineering: The New Skill After Prompt Engineering",
-      "link": "https://www.kdnuggets.com/specification-engineering-the-new-skill-after-prompt-engineering",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Prompt engineering taught us how to ask better questions. Specification engineering teaches us how to define better work.",
-      "ts": 1786370400,
-      "published": "2026-08-10T14:00:00+00:00",
-      "collected_at": "2026-08-11T00:02:06+09:00"
-    },
-    {
-      "title": "I recommend this book on Applied Regression and Causal Inference",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/10/i-recommend-this-book-on-applied-regression-and-causal-inference/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This post offers two recommendations and a story. First, the recommendations. • Here’s the book referred to in the title of the post. I highly recommend it! My only regret is that we didn’t call it Applied Regression an…",
-      "ts": 1786369313,
-      "published": "2026-08-10T13:41:53+00:00",
-      "collected_at": "2026-08-11T00:02:06+09:00"
     }
   ]
 }
