@@ -1,6 +1,96 @@
 {
   "digests": [
     {
+      "date": "2026-09-09",
+      "summary": "오늘은 BoxLang Express의 JVM 기반 Node 스타일 HTTP 서버 소개와 OpenTelemetry 데이터를 DuckDB로 분석하는 실용적 방법이 주목받았습니다. DeepMind의 AlphaGenome Atlas가 90억 개 DNA 변이 예측 지도를 공개하며 유전체 연구에 새 지평을 열었고, 금융권의 GenAI 모델 검증 플레이북이 LLM 신뢰성 확보에 중요한 기준을 제시했습니다. 에이전트 AI의 기업 적용 전략과 CoT·ToT 추론 비교, 결제 시스템 카오스 엔지니어링 교훈, PyPI 파일 호스팅 장애 보고서, 그리고 온라인 설문 데이터 품질 문제까지 폭넓은 소식이 담겼습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Community Spotlight: BoxLang Express Brings Node-Style HTTP to the JVM",
+          "link": "https://foojay.io/today/community-spotlight-boxlang-express-brings-node-style-http-to-the-jvm/",
+          "summary": "BoxLang Express는 Node.js 스타일의 경량 HTTP 서버를 JVM 위에서 구현한 새로운 프레임워크로, 복잡한 설정 없이 빠르게 웹 서비스를 시작할 수 있습니다.",
+          "detail": "Spring Boot, Micronaut, Jakarta EE 같은 전통적 JVM 웹 프레임워크는 서블릿 컨테이너, 내장 Tomcat/Netty, 빌드 단계, 팻 JAR 등 상당한 초기 셋업을 필요로 합니다. BoxLang Express는 이러한 복잡성을 제거하고 Node.js처럼 단순하고 빠른 HTTP 서버 구동 방식을 JVM에 도입합니다.\n개발자는 최소한의 설정으로 즉시 웹 애플리케이션을 구동할 수 있으며, JVM의 성능과 생태계를 유지하면서도 Node.js의 개발 편의성을 누릴 수 있습니다. JVM 기반 개발자들에게 새로운 경량 HTTP 서버 대안을 제시하는 커뮤니티 주목 프로젝트입니다."
+        },
+        {
+          "category": "Java",
+          "title": "From OpenTelemetry to DuckDB",
+          "link": "https://foojay.io/today/from-opentelemetry-to-duckdb/",
+          "summary": "OpenTelemetry로 수집한 관측 데이터를 DuckDB로 직접 쿼리하는 방법을 소개하며, 기존 관측 플랫폼의 한계를 극복하는 애드혹 분석 접근법을 설명합니다.",
+          "detail": "기존 관측 플랫폼은 미리 알고 있는 질문에는 잘 작동하지만, 즉흥적인 탐색적 분석에는 제약이 따릅니다. 이 글은 OpenTelemetry로 수집된 스팬(span)·메트릭 데이터를 DuckDB로 내보내어 SQL로 자유롭게 분석하는 방법을 설명합니다.\nDuckDB는 경량 인프라로 로컬에서 빠른 분석이 가능하며, OTel 데이터를 Parquet 파일 형태로 저장해 쿼리하면 복잡한 성능 문제나 이상 패턴을 자유롭게 탐색할 수 있습니다. 관측 데이터를 자체 분석 도구로 활용하고 싶은 JVM 개발자들에게 실용적인 접근 방식을 제시합니다."
+        },
+        {
+          "category": "AI",
+          "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+          "link": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+          "summary": "DeepMind의 AlphaGenome Atlas는 인간 게놈에서 발생 가능한 90억 개의 단일 염기 DNA 변이가 각각 분자 수준에서 미치는 효과를 예측하는 전례 없는 규모의 지도를 공개했습니다.",
+          "detail": "DeepMind가 AlphaGenome Atlas를 발표했습니다. 이 시스템은 인간 게놈의 단일 염기 변이(SNV) 90억 개가 각각 분자 수준에서 어떤 효과를 미치는지 예측하는 포괄적 지도입니다.\n기존에는 실험실에서 하나하나 검증해야 했던 유전자 변이 효과를 AI 모델로 대규모 예측함으로써, 희귀 질환 연구, 약물 표적 발굴, 개인 맞춤 의학 등에 폭넓게 활용될 수 있습니다. AlphaFold가 단백질 구조 예측 분야에서 가져온 혁신처럼, AlphaGenome Atlas는 유전체 기능 해석 분야의 패러다임 전환을 목표로 합니다. 연구자들은 이 데이터를 통해 질병 관련 변이를 더 빠르게 식별하고 우선순위를 정할 수 있게 됩니다."
+        },
+        {
+          "category": "AI",
+          "title": "The Model Validation Playbook for GenAI: Lessons from Banking",
+          "link": "https://towardsdatascience.com/the-model-validation-playbook-for-genai-lessons-from-banking/",
+          "summary": "은행 분야에서 얻은 교훈을 바탕으로 LLM 기반 시스템의 모델 검증 방법이 어떻게 변화해야 하는지, 전통적 접근법의 한계와 새로운 검증 기준을 설명합니다.",
+          "detail": "전통적인 모델 검증은 결정론적 출력과 정량적 성능 지표를 전제로 하지만, LLM은 확률적이고 맥락 의존적인 출력을 생성합니다. 금융 규제 기관이 요구하는 검증 프레임워크를 LLM에 적용할 때 무엇이 달라져야 하는지 분석한 글입니다.\n기존 통계적 검증(PSI, KS 검정 등)은 부분적으로 활용 가능하지만, 출력 품질 평가를 위해 인간 평가자 기반 루브릭, LLM-as-judge 방식, 적대적 테스트 등 새로운 기법이 필요합니다. 환각(hallucination), 편향, 데이터 누출 등 LLM 고유의 리스크를 검증 계획에 포함시켜야 하며, 은행권의 경험은 다른 규제 산업에서도 참고할 모범 사례를 제공합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "From RAG to Agentic AI: Building the Next Generation of Intelligent Enterprise Systems",
+          "link": "https://www.kdnuggets.com/from-rag-to-agentic-ai-building-the-next-generation-of-intelligent-enterprise-systems",
+          "summary": "세 세대에 걸친 지능형 검색 시스템의 발전 과정을 통해 RAG에서 에이전트 AI로의 전환이 어떻게 이루어지고 엔터프라이즈 시스템에 적용되는지 설명합니다.",
+          "detail": "저자는 지능형 검색 시스템의 세 세대를 직접 경험하며 얻은 인사이트를 공유합니다. 1세대는 키워드 기반 단순 검색, 2세대는 RAG(검색 증강 생성)로 외부 지식을 LLM에 주입하는 방식, 3세대는 에이전트 AI로 스스로 도구를 선택하고 다단계 추론을 수행하는 방식입니다.\nRAG의 한계는 단일 쿼리-응답 패턴에 머문다는 점이며, 에이전트 AI는 복잡한 작업을 분해하고 외부 API, 데이터베이스, 코드 실행 환경을 자율적으로 활용합니다. 엔터프라이즈 환경에서는 안전성, 감사 추적, 오케스트레이션 아키텍처가 핵심이며, 이 전환을 위한 실용적인 설계 원칙과 주의점을 제시합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Chain of Thought vs. Tree of Thoughts: Which is Best for AI Agents?",
+          "link": "https://machinelearningmastery.com/chain-of-thought-vs-tree-of-thoughts-which-is-best-for-ai-agents/",
+          "summary": "AI 에이전트에서 Chain of Thought(CoT)와 Tree of Thoughts(ToT) 추론 프레임워크의 핵심 차이와 각각의 적합한 사용 상황을 비교 분석합니다.",
+          "detail": "Chain of Thought(CoT)는 LLM이 단계별로 순차적인 추론을 수행하도록 유도하는 기법으로, 수학 문제, 논리 추론, 코드 생성 등 선형적 사고가 필요한 작업에 효과적입니다.\nTree of Thoughts(ToT)는 여러 추론 경로를 동시에 탐색하고 가장 유망한 방향을 선택하는 방식으로, 복잡한 계획 수립, 창의적 문제 해결, 전략적 의사결정 등에 적합합니다. CoT는 구현이 단순하고 계산 비용이 낮은 반면, ToT는 더 높은 품질의 해결책을 찾을 수 있지만 리소스 소비가 큽니다. AI 에이전트 설계 시 작업의 복잡도와 탐색 공간 크기에 따라 적절한 추론 방식을 선택하는 것이 중요합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Article: Implementing Chaos Engineering in Financial Payment Systems: Lessons from Enterprise ECS Deployments",
+          "link": "https://www.infoq.com/articles/chaos-engineering-ecs-payments/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "금융 결제 시스템의 ECS 배포 환경에서 카오스 엔지니어링을 구현할 때 직면하는 고유한 도전 과제와 실용적 교훈을 설명합니다.",
+          "detail": "표준 카오스 엔지니어링은 실험이 깔끔하게 종료되고, 폭발 반경이 사전에 파악 가능하며, 프로덕션 테스트가 허용됨을 전제합니다. 그러나 결제 시스템은 이 세 가지 전제를 모두 위반합니다.\nSalim Adedeji는 ECS(Elastic Container Service) 기반 엔터프라이즈 결제 시스템에서의 실제 경험을 바탕으로 금융 거래의 원자성, 멱등성(idempotency) 보장, 부분 실패 시나리오 처리의 어려움을 설명합니다. 카나리 배포, 트래픽 미러링, 격리된 테스트 환경 구성 등의 안전 장치가 필수적이며, 금융 규정 준수와 가용성 SLA를 유지하면서 회복 탄력성을 검증하는 실용적 접근법을 제시합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Fragments: September 8",
+          "link": "https://martinfowler.com/fragments/2026-09-08.html",
+          "summary": "Martin Fowler의 9월 8일 단상에서 AI가 생성 비용은 낮추지만 검증 비용은 그렇지 않다는 핵심 긴장관계와 그 의미를 탐구합니다.",
+          "detail": "Christian Catalini의 통찰에서 출발한 이 단상은 AI가 생성 비용을 극적으로 낮추고 있지만 검증 비용은 그만큼 줄어들지 않는다는 핵심 긴장관계를 탐구합니다.\n이는 AI의 첫 번째 주요 제품들이 채팅, 이미지 생성처럼 검증이 즉각적인 영역에서 먼저 등장한 이유를 설명합니다. 코드 생성이나 의사결정 지원처럼 출력물의 정확성을 검증하기 어려운 영역에서는 AI 신뢰성과 채택 속도에 제약이 생깁니다. 소프트웨어 아키텍처 관점에서 AI 검증 메커니즘 설계에 대한 중요한 사고 거리를 제공합니다."
+        },
+        {
+          "category": "Python",
+          "title": "Python Timer Functions",
+          "link": "https://realpython.com/courses/python-timer-functions/",
+          "summary": "Python의 time 모듈을 활용한 코드 타이밍 기법과 재사용 가능한 Timer 클래스를 컨텍스트 매니저로 구현하는 방법을 가르치는 실용적 강의입니다.",
+          "detail": "Real Python의 이 강의는 Python 코드 성능 측정의 기초부터 실용적 구현까지 체계적으로 다룹니다. time.time(), time.perf_counter(), time.process_time() 등 다양한 타이머 함수의 특성과 용도를 비교하며, 각 상황에 적합한 함수 선택 방법을 설명합니다.\n핵심 내용은 재사용 가능한 Timer 클래스를 구현하고 이를 컨텍스트 매니저(with 문)로 활용하는 방법으로, 코드 블록의 실행 시간을 편리하게 측정할 수 있게 해줍니다. 성능 프로파일링이나 병목 지점 식별이 필요한 개발자에게 유용한 실용적 스킬을 제공합니다."
+        },
+        {
+          "category": "Python",
+          "title": "Incident Report: File Hosting Errors",
+          "link": "https://blog.pypi.org/posts/2026-09-08-file-hosting-errors/",
+          "summary": "2026년 8월 약 2주간 PyPI에서 파일 다운로드 시 간헐적 502/503 오류가 발생한 인시던트의 원인과 해결 과정을 공식 보고합니다.",
+          "detail": "2026년 8월 동안 일부 PyPI 사용자들이 files.pythonhosted.org에서 파일을 다운로드할 때 간헐적으로 502 및 503 오류를 경험했으며, 이로 인해 pip 설치 실패가 발생했습니다.\n이 공식 인시던트 보고서는 문제의 발생 기간, 영향 범위, 근본 원인 분석 및 최종 해결 방법을 상세히 기록합니다. PyPI 팀은 커뮤니티의 보고를 통해 문제를 파악하고 파일 호스팅 인프라의 오류를 수정했습니다. 대규모 패키지 설치 파이프라인을 운영하는 팀은 재시도 로직과 미러 활용 등의 방어적 설계를 고려할 것을 권장합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Survey Statistics: Pew Research finds \"No Easy Fix for Bogus Respondents in Online Opt-In Polls\"",
+          "link": "https://statmodeling.stat.columbia.edu/2026/09/08/survey-statistics-pew-research-finds-no-easy-fix-for-bogus-respondents-in-online-opt-in-polls/",
+          "summary": "Pew Research Center가 온라인 옵트인 설문조사에서 가짜 응답자를 걸러내는 쉬운 해결책은 없다는 연구 결과를 발표하며, 설문 데이터 품질 문제의 심각성을 경고합니다.",
+          "detail": "Pew Research Center의 새 보고서는 온라인 옵트인 설문에서 가장 시급한 문제인 가짜(사기) 응답자를 심층 분석합니다. 봇, 설문 중복 참여자, 허위 응답자 등이 데이터 품질을 크게 저해하며, 이를 탐지하기 위한 다양한 방법—주의 점검 문항(attention checks), IP 주소 필터링, 응답 시간 분석, 일관성 검사—을 검토했지만 어떤 단일 방법도 완전한 해결책이 되지 못했습니다.\n온라인 여론조사, 마케팅 조사, 학술 설문 등 옵트인 방식에 의존하는 모든 분야에서 결과 해석에 주의가 필요하며, 데이터 수집 설계 단계에서부터 품질 관리 방안을 내재화해야 한다고 강조합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Hey–here's an R package for imputing Census data using iterative proportional fitting on available margins.",
+          "link": "https://statmodeling.stat.columbia.edu/2026/09/08/hey-heres-an-r-package-for-imputing-census-data-using-iterative-proportional-fitting-on-available-margins/",
+          "summary": "반복 비례 적합(Iterative Proportional Fitting)을 활용해 PUMA 수준 센서스 데이터를 블록·구역 수준으로 대입하는 R 패키지를 소개합니다.",
+          "detail": "David Dorer가 개발한 이 R 패키지는 미국 센서스의 공개 마이크로데이터 지역(PUMA, Public Use Microdata Areas)에서 수집된 데이터를 더 세밀한 센서스 블록 또는 인구총조사구(tract) 수준으로 대입(impute)하는 통계적 도구입니다.\n핵심 방법론은 반복 비례 적합(IPF, Iterative Proportional Fitting)으로, 이용 가능한 주변 합계(margins)를 제약 조건으로 활용해 세분화된 지역의 데이터를 추정합니다. 이는 소지역 추정(small area estimation) 문제의 고전적 접근법으로, 지역 정책 연구, 인구통계 분석, 자원 배분 등에 활용됩니다. PUMA는 미국 센서스 마이크로데이터의 최소 공개 단위로, 이 패키지는 보다 세분화된 지리적 분석을 가능하게 해줍니다."
+        }
+      ]
+    },
+    {
       "date": "2026-09-08",
       "summary": "오늘은 Kotlin 2.4.20 출시와 TornadoVM 6.0 GA를 포함한 자바 에코시스템 소식, AI 에이전트의 프로덕션 전환 전략과 멀티 에이전트 실패 패턴 분석이 눈에 띕니다. Netflix의 Flink 오토스케일러 오픈소스 전환, Azure API Management의 가용 영역 이중화 지원, 그리고 파이썬 비동기 제너레이터에 yield from을 추가하는 PEP 828까지 다양한 분야의 굵직한 소식이 이어집니다.",
       "highlights": [
