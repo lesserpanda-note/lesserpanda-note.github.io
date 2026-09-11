@@ -1,7 +1,137 @@
 {
-  "updated": "2026-09-11T19:54:13+09:00",
-  "count": 1005,
+  "updated": "2026-09-11T23:55:00+09:00",
+  "count": 1004,
   "items": [
+    {
+      "title": "Soft-deprecating re.match()",
+      "link": "https://simonwillison.net/2026/Sep/11/soft-deprecating-re-match/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Soft-deprecating re.match() Python has a concept of soft deprecation , where APIs are marked as \"should no longer be used to write new code\" without any promise/threat to remove them in the future. Python 3.15 release m…",
+      "ts": 1789138077,
+      "published": "2026-09-11T14:47:57+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "Netflix Reworks Conductor for 420 Million Monthly Workflow Executions and 10X Larger Workflows",
+      "link": "https://www.infoq.com/news/2026/09/netflix-conductor-4-workflow/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Netflix has reworked its Conductor workflow orchestration engine to handle larger workloads, increasing supported workflow size from about 2,500 to 30,000 tasks and reducing p99 workflow evaluation latency by about 40%.…",
+      "ts": 1789136220,
+      "published": "2026-09-11T14:17:00+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "From Spaghetti Code to Clean Python: A Beginner’s Guide",
+      "link": "https://www.kdnuggets.com/from-spaghetti-code-to-clean-python-a-beginners-guide",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn how to refactor messy Python code into clean, maintainable functions.",
+      "ts": 1789135210,
+      "published": "2026-09-11T14:00:10+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "Software Design in the Age of AI",
+      "link": "https://towardsdatascience.com/software-design-in-the-age-of-ai/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Why AI coding makes software design more important The post Software Design in the Age of AI appeared first on Towards Data Science .",
+      "ts": 1789135202,
+      "published": "2026-09-11T14:00:02+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "Don't sleep on wrapture",
+      "link": "https://simonwillison.net/2026/Sep/11/wrapture/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Graham Dumpleton's new monkey patching package wrapture is shaping up to be an indispensable tool for Python developers. I'm not sure why I've seen so little buzz about it! Graham has been posting new tutorials for it a…",
+      "ts": 1789134692,
+      "published": "2026-09-11T13:51:32+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "“Belief” is not something you have; rather, it’s a relationship between thought and action.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/11/belief-is-not-something-you-have-rather-its-a-relationship-between-thought-and-action/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I came across this piece by John Ziman from 1989, in the middle of the “cold fusion” hoopla: When scientific controversies erupt like this, one must obviously try to grasp the essential points at issue. The mere fact th…",
+      "ts": 1789134506,
+      "published": "2026-09-11T13:48:26+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "The 95% Illusion: Why Your Confidence Interval Isn't What You Think It Is",
+      "link": "https://towardsdatascience.com/the-95-illusion-why-your-confidence-interval-isnt-what-you-think-it-is/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Frequentist confidence intervals and Bayesian credible intervals answer different questions, and confusing them can distort product decisions The post The 95% Illusion: Why Your Confidence Interval Isn't What You Think…",
+      "ts": 1789129802,
+      "published": "2026-09-11T12:30:02+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "Fine-Tuning Agentic AI: A Practical Guide",
+      "link": "https://machinelearningmastery.com/fine-tuning-agentic-ai-a-practical-guide/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how to fine-tune an agentic AI system holistically, covering all four critical dials: training data, parameter-efficient fine-tuning, runtime hyperparameters,...",
+      "ts": 1789128050,
+      "published": "2026-09-11T12:00:50+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "5 Python Techniques for Efficient Resource Orchestration",
+      "link": "https://www.kdnuggets.com/5-python-techniques-for-efficient-resource-orchestration",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "This article explains 5 Python techniques for efficient resource orchestration and sticks to what's stable today, 3.11 and later for the core techniques, with one 3.14-specific tool called out explicitly as requiring th…",
+      "ts": 1789128027,
+      "published": "2026-09-11T12:00:27+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #311: Django Developers Survey Results & Reproducible Python Builds",
+      "link": "https://realpython.com/podcasts/rpp/311/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What are the latest trends uncovered in the 2026 Django Developers Survey? How are Django users employing LLMs in their development process? Christopher Trudeau is back on the show this week with another batch of PyCode…",
+      "ts": 1789128000,
+      "published": "2026-09-11T12:00:00+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "Quiz: The subprocess Module: Wrapping Programs With Python",
+      "link": "https://realpython.com/quizzes/python-subprocess/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python's subprocess module. Run shell commands, handle exit codes and timeouts, and work with standard streams.",
+      "ts": 1789128000,
+      "published": "2026-09-11T12:00:00+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "Demystifying Anthropic's J-Space: A Mathematical Primer",
+      "link": "https://towardsdatascience.com/demystifying-anthropics-j-space-a-mathematical-primer/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Clarifying the math behind Anthropic’s representation workspace The post Demystifying Anthropic's J-Space: A Mathematical Primer appeared first on Towards Data Science .",
+      "ts": 1789124402,
+      "published": "2026-09-11T11:00:02+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
+    {
+      "title": "Presentation: How To Run on Three Clouds at Once, and When Not To",
+      "link": "https://www.infoq.com/presentations/form3-multicloud-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Ross McFarlane and Kevin Holditch discuss Form3's evolution from a single-cloud setup to a triple active multi-cloud architecture. They share key engineering strategies for cross-cloud networking, distributed databases…",
+      "ts": 1789124400,
+      "published": "2026-09-11T11:00:00+00:00",
+      "collected_at": "2026-09-11T23:54:54+09:00"
+    },
     {
       "title": "How LinkedIn Trains AI Job Search 8x Faster with Multi-Teacher Distillation",
       "link": "https://www.infoq.com/news/2026/09/linkedin-ai-multi-teacher/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -9911,146 +10041,6 @@
       "ts": 1786546800,
       "published": "2026-08-12T15:00:00+00:00",
       "collected_at": "2026-08-13T01:59:10+09:00"
-    },
-    {
-      "title": "Netflix Adopts Cloud-Native Job Queueing System Kueue to Replace an In-House Solution",
-      "link": "https://www.infoq.com/news/2026/08/netflix-kueue-kubernetes-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Netflix migrated most of its batch workloads onto Kueue, an open-source cloud-native batch job execution system that has outgrown its homegrown solution over the years. The company mapped the capabilities previously cre…",
-      "ts": 1786545000,
-      "published": "2026-08-12T14:30:00+00:00",
-      "collected_at": "2026-08-13T00:01:05+09:00"
-    },
-    {
-      "title": "Spotify Builds External Index to Enable Low Latency Point Queries on Its Data Lake",
-      "link": "https://www.infoq.com/news/2026/08/spotify-data-lake-point-queries/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Spotify introduced external indexing architecture for Apache Parquet data lakes that enables low-latency point queries without replicating datasets into operational databases. The approach maps lookup keys to Parquet fi…",
-      "ts": 1786544760,
-      "published": "2026-08-12T14:26:00+00:00",
-      "collected_at": "2026-08-13T00:01:05+09:00"
-    },
-    {
-      "title": "Spotify Builds External Index to Enable Low Latency Point Queries on Its Data Lake",
-      "link": "https://www.infoq.com/news/2026/08/spotify-data-lake-point-queries/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Spotify introduced external indexing architecture for Apache Parquet data lakes that enables low-latency point queries without replicating datasets into operational databases. The approach maps lookup keys to Parquet fi…",
-      "ts": 1786544760,
-      "published": "2026-08-12T14:26:00+00:00",
-      "collected_at": "2026-08-13T00:01:05+09:00"
-    },
-    {
-      "title": "Putting sign language AI into users’ hands",
-      "link": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "Introducing sign-language-to-text (SL2T), our breakthrough model powering new sign language features for Deaf and hard of hearing users.",
-      "ts": 1786543319,
-      "published": "2026-08-12T14:01:59+00:00",
-      "collected_at": "2026-08-13T00:01:05+09:00"
-    },
-    {
-      "title": "LFM2.5-VL-3B for Better and Faster Vision Capabilities for the Edge",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-3b",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1786543251,
-      "published": "2026-08-12T14:00:51+00:00",
-      "collected_at": "2026-08-13T00:01:05+09:00"
-    },
-    {
-      "title": "Building an End-to-End Data Science Portfolio Project",
-      "link": "https://www.kdnuggets.com/building-an-end-to-end-data-science-portfolio-project",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Most portfolios stop at a notebook. Take yours all the way.",
-      "ts": 1786543250,
-      "published": "2026-08-12T14:00:50+00:00",
-      "collected_at": "2026-08-13T00:01:05+09:00"
-    },
-    {
-      "title": "How to Integrate OpenTelemetry With a FastAPI App",
-      "link": "https://realpython.com/fastapi-opentelemetry/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to integrate OpenTelemetry with a FastAPI app in Python to instrument endpoints, export traces, add custom spans, and correlate logs.",
-      "ts": 1786543200,
-      "published": "2026-08-12T14:00:00+00:00",
-      "collected_at": "2026-08-13T00:01:05+09:00"
-    },
-    {
-      "title": "Building Multimodal Workflows with a Local LLM",
-      "link": "https://towardsdatascience.com/building-multimodal-workflows-with-a-local-llm/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "Image inputs and structured outputs with Gemma 4 and Ollama The post Building Multimodal Workflows with a Local LLM appeared first on Towards Data Science .",
-      "ts": 1786541400,
-      "published": "2026-08-12T13:30:00+00:00",
-      "collected_at": "2026-08-13T00:01:05+09:00"
-    },
-    {
-      "title": "Who were “The Makers of Public Policy” in 1965?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/12/who-were-the-makers-of-public-policy-in-1965/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I was in the Playroom the other day and noticed this book on the shelf, The Makers of Public Policy, by R. J. Monsen and M. W. Cannon, copyright 1965. Here’s the table of contents: It’s interesting to see here … Continu…",
-      "ts": 1786539784,
-      "published": "2026-08-12T13:03:04+00:00",
-      "collected_at": "2026-08-12T22:17:44+09:00"
-    },
-    {
-      "title": "Retrieval vs. Memory in Agentic AI Systems",
-      "link": "https://machinelearningmastery.com/retrieval-vs-memory-in-agentic-ai-systems/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn the conceptual and practical differences between retrieval and memory in agentic AI systems, and how to combine both effectively....",
-      "ts": 1786536035,
-      "published": "2026-08-12T12:00:35+00:00",
-      "collected_at": "2026-08-12T22:17:44+09:00"
-    },
-    {
-      "title": "5 Easy Ways to Install Python on Windows",
-      "link": "https://www.kdnuggets.com/5-easy-ways-to-install-python-on-windows",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn how to install Python on Windows using the Python Install Manager, WinGet, uv, Miniconda, or the official Python installer, and choose the best setup for beginners and Python development.",
-      "ts": 1786536025,
-      "published": "2026-08-12T12:00:25+00:00",
-      "collected_at": "2026-08-12T22:17:44+09:00"
-    },
-    {
-      "title": "Quiz: How to Integrate OpenTelemetry With a FastAPI App",
-      "link": "https://realpython.com/quizzes/fastapi-opentelemetry/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Instrument a FastAPI app with OpenTelemetry to export traces, add custom spans, and correlate your application logs with traces.",
-      "ts": 1786536000,
-      "published": "2026-08-12T12:00:00+00:00",
-      "collected_at": "2026-08-12T22:17:44+09:00"
-    },
-    {
-      "title": "How to Place Vertiport Locations in Any City Using Geospatial Machine Learning",
-      "link": "https://towardsdatascience.com/how-to-place-vertiport-locations-in-any-city-using-geospatial-machine-learning/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A reproducible Lagos case study with population data, transport access, and airspace constraints The post How to Place Vertiport Locations in Any City Using Geospatial Machine Learning appeared first on Towards Data Sci…",
-      "ts": 1786536000,
-      "published": "2026-08-12T12:00:00+00:00",
-      "collected_at": "2026-08-12T22:17:44+09:00"
-    },
-    {
-      "title": "Presentation: Adopting Memory-Safety and Fine-Grained Compartmentalisation with CHERI",
-      "link": "https://www.infoq.com/presentations/cheri-memory-safety-compartmentalization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "David Chisnall discusses how the CHERI hardware architecture redefines pointer safety to solve isolation and sharing challenges. He explains how CHERI enables spatial and temporal memory safety for C/C++, scales down to…",
-      "ts": 1786532400,
-      "published": "2026-08-12T11:00:00+00:00",
-      "collected_at": "2026-08-12T20:50:29+09:00"
     }
   ]
 }
