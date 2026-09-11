@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-12T03:16:59+09:00",
-  "count": 998,
+  "updated": "2026-09-12T06:36:20+09:00",
+  "count": 1000,
   "items": [
+    {
+      "title": "Roundtables: Will AI really kill us all?",
+      "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Join MIT Technology Review executive edito…",
+      "ts": 1789157106,
+      "published": "2026-09-11T20:05:06+00:00",
+      "collected_at": "2026-09-12T06:36:15+09:00"
+    },
+    {
+      "title": "Why I don’t like highest posterior density (HPD) intervals",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/11/why-i-dont-like-highest-posterior-density-hpd-intervals/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This post is by Bob There are several reasons I prefer central intervals. First, you can’t tell how much of the probability is above or below a highest posterior density interval. For example, if I look at the HPD for ……",
+      "ts": 1789156012,
+      "published": "2026-09-11T19:46:52+00:00",
+      "collected_at": "2026-09-12T06:36:15+09:00"
+    },
+    {
+      "title": "5 ChatGPT 2.5 Features to Try Today!",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/chatgpt-images-2-5-features-explained/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "OpenAI has released ChatGPT Images 2.5, its latest image-generation model, with a greater emphasis on controlled editing than simply producing prettier images. The update promises sharper details, more natural lighting…",
+      "ts": 1789152091,
+      "published": "2026-09-11T18:41:31+00:00",
+      "collected_at": "2026-09-12T06:36:15+09:00"
+    },
     {
       "title": "Quoting Boris Cherny",
       "link": "https://simonwillison.net/2026/Sep/11/boris-cherny/",
@@ -9971,16 +10001,6 @@
       "ts": 1786571168,
       "published": "2026-08-12T21:46:08+00:00",
       "collected_at": "2026-08-13T06:50:49+09:00"
-    },
-    {
-      "title": "alchemy-utils 0.1a0",
-      "link": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 So…",
-      "ts": 1786564290,
-      "published": "2026-08-12T19:51:30+00:00",
-      "collected_at": "2026-08-13T13:53:54+09:00"
     }
   ]
 }
