@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-11T08:00:26+09:00",
-  "count": 1017,
+  "updated": "2026-09-11T09:14:29+09:00",
+  "count": 1013,
   "items": [
+    {
+      "title": "Any Nix package, live in your browser",
+      "link": "https://simonwillison.net/2026/Sep/10/trynix/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Any Nix package, live in your browser Farid Zakaria calls this his \" magnum opus of Nix work\", and I can see why. trynix.dev provides a qemu-wasm powered x86_64 Linux virtual machine running entirely in your browser thr…",
+      "ts": 1789083855,
+      "published": "2026-09-10T23:44:15+00:00",
+      "collected_at": "2026-09-11T09:14:24+09:00"
+    },
     {
       "title": "Native is now the future of mobile at Shopify",
       "link": "https://simonwillison.net/2026/Sep/10/shopify-react-native/",
@@ -10121,56 +10131,6 @@
       "ts": 1786498050,
       "published": "2026-08-12T01:27:30+00:00",
       "collected_at": "2026-08-12T11:12:28+09:00"
-    },
-    {
-      "title": "Evolving a Java MCP Server During MCP Specification Upgrades",
-      "link": "https://inside.java/2026/08/12/java-mcp-migration/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Learn how a Java MCP server can embrace the latest MCP specification without breaking existing integrations or forcing immediate client upgrades.",
-      "ts": 1786492800,
-      "published": "2026-08-12T00:00:00+00:00",
-      "collected_at": "2026-08-13T00:01:05+09:00"
-    },
-    {
-      "title": "How RingCentral builds AI-native work from engineering to ops",
-      "link": "https://openai.com/index/ringcentral",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how RingCentral uses ChatGPT Work and Codex to accelerate AI product development and centralize operational intelligence across engineering and operations.",
-      "ts": 1786492800,
-      "published": "2026-08-12T00:00:00+00:00",
-      "collected_at": "2026-08-13T06:50:49+09:00"
-    },
-    {
-      "title": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
-      "link": "https://blog.python.org/2026/08/python-31214-31116-31021/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "[Python Releases Eclipse Your Security!](https://discuss.python.org/t/python-3-12-14-3-11-16-and-3-10-21-are-now-available/108537) New security releases for 3.10, 3.11 and 3.12 are now available.",
-      "ts": 1786492800,
-      "published": "2026-08-12T00:00:00+00:00",
-      "collected_at": "2026-08-13T09:24:26+09:00"
-    },
-    {
-      "title": "There are no lossless transformations of natural-language text",
-      "link": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/#atom-everything",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really g…",
-      "ts": 1786492115,
-      "published": "2026-08-11T23:48:35+00:00",
-      "collected_at": "2026-08-12T09:22:21+09:00"
-    },
-    {
-      "title": "There are no lossless transformations of natural-language text",
-      "link": "https://simonwillison.net/2026/Aug/11/there-are-no-lossless-transformations-of-natural-language-text/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "There are no lossless transformations of natural-language text Sophie Alpert shares her \"internal policy on acceptable use of AI writing by engineers\". It's a short read (supporting its own recommendations) and really g…",
-      "ts": 1786492115,
-      "published": "2026-08-11T23:48:35+00:00",
-      "collected_at": "2026-08-13T07:45:10+09:00"
     }
   ]
 }
