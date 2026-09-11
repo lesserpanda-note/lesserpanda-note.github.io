@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-12T06:36:20+09:00",
-  "count": 1000,
+  "updated": "2026-09-12T08:59:33+09:00",
+  "count": 1004,
   "items": [
+    {
+      "title": "So you want to use OpenRouter?",
+      "link": "https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "So you want to use OpenRouter? One of OpenRouter's selling points is that it \"handles fallbacks automatically and picks the most cost-effective option for each request\", so you can call a single API endpoint for a model…",
+      "ts": 1789166958,
+      "published": "2026-09-11T22:49:18+00:00",
+      "collected_at": "2026-09-12T08:59:08+09:00"
+    },
     {
       "title": "Roundtables: Will AI really kill us all?",
       "link": "https://www.technologyreview.com/2026/09/11/1143936/roundtables-will-ai-really-kill-us-all/",
@@ -51,6 +61,16 @@
       "ts": 1789147895,
       "published": "2026-09-11T17:31:35+00:00",
       "collected_at": "2026-09-12T03:16:53+09:00"
+    },
+    {
+      "title": "Feeling sad about AI",
+      "link": "https://simonwillison.net/2026/Sep/11/feeling-sad-about-ai/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My comment on Feeling sad about AI — Hacker News. I'm not sure how useful it is to say this, but I think a lot of people (myself included, a few years ago now) have been through this moment of existential crisis and com…",
+      "ts": 1789147717,
+      "published": "2026-09-11T17:28:37+00:00",
+      "collected_at": "2026-09-12T08:59:08+09:00"
     },
     {
       "title": "Quoting huggingface.co/security.txt",
@@ -261,6 +281,46 @@
       "ts": 1789097236,
       "published": "2026-09-11T03:27:16+00:00",
       "collected_at": "2026-09-11T14:49:51+09:00"
+    },
+    {
+      "title": "datasette-publish-fly 1.4",
+      "link": "https://simonwillison.net/2026/Sep/11/datasette-publish-fly/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-publish-fly 1.4 Sets force_https=true in fly.toml . #31 Fix for Volume could not be found bug. #32 Compatible with app-scoped deploy tokens. #34 Tags: datasette , fly",
+      "ts": 1789095532,
+      "published": "2026-09-11T02:58:52+00:00",
+      "collected_at": "2026-09-12T08:59:08+09:00"
+    },
+    {
+      "title": "github-to-sqlite 2.9.1",
+      "link": "https://simonwillison.net/2026/Sep/11/github-to-sqlite/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: github-to-sqlite 2.9.1 Fix for compatibility with sqlite-utils 4.x . #85 Tags: github , sqlite",
+      "ts": 1789086519,
+      "published": "2026-09-11T00:28:39+00:00",
+      "collected_at": "2026-09-12T08:59:08+09:00"
+    },
+    {
+      "title": "datasette 0.65.4",
+      "link": "https://simonwillison.net/2026/Sep/11/datasette/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette 0.65.4 See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog. Tags: security , datasette",
+      "ts": 1789085215,
+      "published": "2026-09-11T00:06:55+00:00",
+      "collected_at": "2026-09-12T08:59:08+09:00"
+    },
+    {
+      "title": "datasette 1.0a39",
+      "link": "https://simonwillison.net/2026/Sep/11/datasette-2/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette 1.0a39 See Datasette 1.0a39 and 0.65.4 security releases on the Datasette blog. Tags: security , datasette",
+      "ts": 1789085154,
+      "published": "2026-09-11T00:05:54+00:00",
+      "collected_at": "2026-09-12T08:59:08+09:00"
     },
     {
       "title": "Any Nix package, live in your browser",
@@ -9981,26 +10041,6 @@
       "ts": 1786579200,
       "published": "2026-08-13T00:00:00+00:00",
       "collected_at": "2026-08-14T06:50:42+09:00"
-    },
-    {
-      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
-      "link": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't bee…",
-      "ts": 1786579163,
-      "published": "2026-08-12T23:59:23+00:00",
-      "collected_at": "2026-08-13T09:24:26+09:00"
-    },
-    {
-      "title": "Bayesian computation meeting in France in May, 2027",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/12/bayesian-computation-meeting-in-france-in-may-2027/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "OK, this one’s time constrained so I’ll post it right away, not on the usual lag. Christian Robert points to this conference announcement: We invite proposals for the BayesComp 2027 mirror event in Aussois, France, that…",
-      "ts": 1786571168,
-      "published": "2026-08-12T21:46:08+00:00",
-      "collected_at": "2026-08-13T06:50:49+09:00"
     }
   ]
 }
