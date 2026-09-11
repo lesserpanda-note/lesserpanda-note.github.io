@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-11T14:50:10+09:00",
-  "count": 1009,
+  "updated": "2026-09-11T19:54:13+09:00",
+  "count": 1005,
   "items": [
+    {
+      "title": "How LinkedIn Trains AI Job Search 8x Faster with Multi-Teacher Distillation",
+      "link": "https://www.infoq.com/news/2026/09/linkedin-ai-multi-teacher/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "LinkedIn has published details of the training infrastructure behind its AI-powered job search, describing a multi-teacher distillation pipeline that compresses knowledge from large teacher models into a compact 0.6B-pa…",
+      "ts": 1789120800,
+      "published": "2026-09-11T10:00:00+00:00",
+      "collected_at": "2026-09-11T19:54:07+09:00"
+    },
+    {
+      "title": "Session Traces and Cost Controls Help Diagnose AI Agent Failures",
+      "link": "https://www.infoq.com/news/2026/09/observability-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Session traces and cost controls are emerging as key observability techniques for diagnosing AI agent failures, helping teams spot tool-call loops and runaway spend while preserving enough execution context for post-inc…",
+      "ts": 1789114440,
+      "published": "2026-09-11T08:14:00+00:00",
+      "collected_at": "2026-09-11T19:54:07+09:00"
+    },
     {
       "title": "Datasette 1.0a39 and 0.65.4 security releases",
       "link": "https://simonwillison.net/2026/Sep/11/datasette-security/",
@@ -10031,66 +10051,6 @@
       "ts": 1786532400,
       "published": "2026-08-12T11:00:00+00:00",
       "collected_at": "2026-08-12T20:50:29+09:00"
-    },
-    {
-      "title": "Why You Shouldn’t Always Trust LLMs as Judges: Understanding Bias in Automated Evaluation",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/why-you-shouldnt-trust-llm-judges/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "In the rush to automate evaluation, from grading student code to ranking research papers, we have embraced Large Language Models as judges. They are fast. These units are cheap. They scale. However, at a workshop at DHS…",
-      "ts": 1786530660,
-      "published": "2026-08-12T10:31:00+00:00",
-      "collected_at": "2026-08-12T20:50:29+09:00"
-    },
-    {
-      "title": "MCP Goes Stateless, and Developers Ask Whether That Just Makes It an API Again",
-      "link": "https://www.infoq.com/news/2026/08/mcp-stateless-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The MCP 2026-07-28 specification removes the initialize handshake and session header, and adds required method and tool-name headers so gateways can route agent traffic without parsing JSON. Reaction split between devel…",
-      "ts": 1786528080,
-      "published": "2026-08-12T09:48:00+00:00",
-      "collected_at": "2026-08-12T19:09:44+09:00"
-    },
-    {
-      "title": "MCP Goes Stateless, and Developers Ask Whether That Just Makes It an API Again",
-      "link": "https://www.infoq.com/news/2026/08/mcp-stateless-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "The MCP 2026-07-28 specification removes the initialize handshake and session header, and adds required method and tool-name headers so gateways can route agent traffic without parsing JSON. Reaction split between devel…",
-      "ts": 1786528080,
-      "published": "2026-08-12T09:48:00+00:00",
-      "collected_at": "2026-08-12T19:09:44+09:00"
-    },
-    {
-      "title": "Launch HN: Discovered Materials (YC P26) – AI agents to discover new materials",
-      "link": "https://discoveredmaterials.com/research/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Hey HN, we're Advaith and Akash from Discovered Materials ( https://discoveredmaterials.com/ ). We build AI agents that discover new materials for the semiconductor industry. GPUs today have a heat problem. Nvidia & AMD…",
-      "ts": 1786521080,
-      "published": "2026-08-12T07:51:20+00:00",
-      "collected_at": "2026-08-13T01:59:10+09:00"
-    },
-    {
-      "title": "[AINews] How to steal a Reasoning Trace",
-      "link": "https://www.latent.space/p/ainews-how-to-steal-a-reasoning-trace",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Speculative Decoding by any other name would distil as sweet",
-      "ts": 1786518668,
-      "published": "2026-08-12T07:11:08+00:00",
-      "collected_at": "2026-08-12T17:20:43+09:00"
-    },
-    {
-      "title": "From assistance to execution: How enterprises put AI to work",
-      "link": "https://openai.com/index/how-enterprises-put-ai-to-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI research reveals how enterprises are adopting agentic AI, using ChatGPT and Codex, and how frontier firms are pulling ahead in AI adoption.",
-      "ts": 1786514400,
-      "published": "2026-08-12T06:00:00+00:00",
-      "collected_at": "2026-08-12T22:17:44+09:00"
     }
   ]
 }
