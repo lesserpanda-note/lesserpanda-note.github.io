@@ -1,76 +1,48 @@
 {
-  "updated": "2026-09-10T00:13:40Z",
-  "summary": "오늘은 OpenAI의 GPT-6 Astra 비즈니스 모델 출시와 에이전트 10,000개를 동원해 밀레니엄 수학 난제를 해결한 충격적 성과가 주목받았습니다. 인프라 영역에서는 단일 서버에서 100만 개 마이크로VM을 구동하는 Unikraft 기술이 화제이며, Python 3.15 지연 임포트와 dbt 데이터 파이프라인 입문 가이드도 실무 개발자에게 유용한 내용을 담고 있습니다.",
+  "updated": "2026-09-11T00:13:14Z",
+  "summary": "OpenAI의 GPT-6 Astra 출시와 Anthropic의 생물무기 시도 차단 사례가 AI 분야의 주요 이슈로 부각됩니다. 에이전트 시스템에서는 LLM 추론 비용 최적화와 SHAP의 새로운 한계가 논의되고 있으며, 데이터 사이언스에서는 사이킷런 피처 엔지니어링 실무와 모델 가정 재검토 시점에 관한 인사이트가 공유되었습니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "Masking a JVM thread dump without breaking the analysis",
-      "link": "https://foojay.io/today/masking-a-jvm-thread-dump-without-breaking-the-analysis/",
-      "summary": "JVM 스레드 덤프에서 민감한 정보를 마스킹하면서도 분석 능력을 유지하는 방법을 다룹니다.",
-      "detail": "JVM 스레드 덤프에는 사용자 데이터, 내부 URL, 비즈니스 로직 관련 정보 등 민감한 데이터가 포함될 수 있어 팀 외부와 공유하기 어렵습니다. 이 글은 r/java에서 시작된 가상 스레드 핀닝 탐지 논의에서 출발해, 스레드 덤프의 구조(스레드 이름, 스택 트레이스, 락 정보 등)를 유지하면서 민감한 값만 마스킹하는 접근법을 설명합니다. 분석에 필요한 패턴(핀닝 여부, 대기 상태 등)은 보존하면서 식별 가능한 문자열만 대체하는 기법을 소개하며, 이를 통해 스레드 덤프를 안전하게 공유할 수 있습니다."
+      "category": "AI",
+      "title": "OpenAI Releases GPT-6 Astra for Coding and Computer Use",
+      "link": "https://www.infoq.com/news/2026/09/openai-gpt6-astra/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "OpenAI가 코딩, 컴퓨터 사용, 장기 에이전틱 작업 및 사이버보안에 특화된 새 모델 GPT-6 Astra를 출시했습니다. ChatGPT, Codex, OpenAI API를 통해 이용 가능합니다.",
+      "detail": "OpenAI는 GPT-6 Astra를 출시하며 코딩 지원, 컴퓨터 사용(Computer Use), 장기 실행 에이전틱 작업, 그리고 사이버보안 분야에서의 성능 향상을 강조했습니다. 이 모델은 ChatGPT, 코드 생성 플랫폼인 Codex, 그리고 OpenAI API를 통해 접근할 수 있습니다.\nGPT-6 시리즈의 특화 버전으로 출시된 Astra는 복잡한 코드 생성·디버깅, 컴퓨터 환경 내 직접 조작(computer use), 그리고 다단계 자율 작업을 장기간 수행하는 능력에 초점을 맞추고 있습니다. 사이버보안 분야에서도 위협 분석 및 취약점 탐지에 활용 가능한 것으로 소개되었습니다.\n개발자 생산성 향상과 자율 에이전트 구축을 목표로 하는 기업 및 연구자에게 중요한 릴리스로 평가됩니다."
     },
     {
       "category": "AI",
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "summary": "OpenAI가 비즈니스용 최강 모델 GPT-6 Astra를 공개했습니다. 고급 추론, 컴퓨터 사용, 강화된 글쓰기 및 디자인 판단 능력을 갖춘 기업 대상 모델입니다.",
-      "detail": "GPT-6 Astra는 OpenAI가 선보인 비즈니스 환경 특화 최신 최고 성능 모델입니다. 고급 추론(Advanced Reasoning), 컴퓨터 직접 조작(Computer Use), 개선된 글쓰기·디자인 판단력을 핵심 기능으로 내세웁니다. 에이전트 기반 워크플로우와 복잡한 업무 자동화에 최적화되어 있으며, 기업 환경에서의 의사결정 지원 및 다단계 작업 처리 능력이 이전 세대 대비 크게 향상되었습니다. 동시에 OpenAI는 Navier-Stokes 방정식 풀이에서도 Astra-next를 활용해 AI의 과학적 문제 해결 가능성을 보여주었습니다."
-    },
-    {
-      "category": "AI",
-      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-      "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "summary": "IBM Research가 시계열 예측 분야 SOTA를 달성한 Granite Time Series PatchTST-FM-r2 모델을 상용 친화적 라이선스로 HuggingFace에 공개했습니다.",
-      "detail": "IBM Research의 Granite Time Series PatchTST-FM-r2는 시계열 예측 벤치마크에서 최고 성능(SOTA)을 기록한 파운데이션 모델로, 상용 사용이 가능한 라이선스로 배포됩니다. PatchTST 아키텍처를 기반으로 하여 긴 시계열의 패턴을 효과적으로 학습하며, 금융·제조·에너지 등 다양한 산업 분야의 예측 태스크에 활용할 수 있습니다. 기업이 자체 데이터로 파인튜닝하거나 제로샷으로 사용할 수 있어 실무 도입이 용이합니다."
+      "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
+      "link": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
+      "summary": "Anthropic이 자사 AI 시스템이 생물무기 개발에 악용될 수 있는 시도를 탐지하고 차단했다고 밝혔습니다. AI 안전 시스템의 실제 위협 차단 능력을 보여주는 사례입니다.",
+      "detail": "Anthropic은 자사의 AI 모델이 생물무기 제조에 관련된 정보를 요청하는 시도를 탐지하고 이를 차단했다고 공개했습니다.\nAI 안전 및 악용 방지 분야에서 중요한 실제 사례로, Anthropic의 안전 시스템이 고위험 정보 요청을 식별하고 거부할 수 있음을 입증했습니다. 생물무기와 같은 대량살상무기(WMD) 관련 정보에 대한 AI의 접근 제한과 안전 장치의 중요성이 다시 한번 부각됩니다.\n이번 공개는 AI 기업들이 자사 시스템의 안전 조치를 투명하게 공유하는 흐름과 맞닿아 있으며, 향후 AI 거버넌스 및 규제 논의에서 중요한 참고 사례가 될 것입니다."
     },
     {
       "category": "Agents",
-      "title": "[AINews] OpenAI reports Navier-Stokes singularity find in 88 hours using Astra-next, roughly 10,000 agents and 130B tokens (>$40M), a contender for second ever Millennium Prize awarded",
-      "link": "https://www.latent.space/p/ainews-openai-reports-navier-stokes",
-      "summary": "OpenAI가 Astra-next 기반 약 1만 개 에이전트를 88시간 동안 운용해 밀레니엄 수학 난제인 나비에-스토크스 방정식의 특이점 문제를 풀었다고 발표했습니다.",
-      "detail": "OpenAI는 Astra-next 모델로 구동된 약 10,000개의 에이전트를 88시간 동안 병렬 운용해, 약 1,300억 토큰($4,000만 이상 비용) 소모 끝에 나비에-스토크스 방정식의 특이점 존재 문제를 해결했다고 발표했습니다. 이는 밀레니엄 상(Clay Mathematics Institute, 상금 $100만) 수상이 유력한 역사적 성과로, AI 에이전트 집단이 최초로 순수 수학의 미해결 난제를 해결한 사례가 될 수 있습니다. Cognition의 $480억 Series E, Mistral의 $240억 Series D 등 대형 뉴스를 압도하며 \"AI의 역사에서 AGI를 가장 강하게 느낀 날\"로 평가받고 있습니다. 단, 수학계의 공식 동료 검토는 아직 진행 중입니다."
+      "title": "Optimizing LLM Inference Costs in Multi-Agent Systems with Adaptive Model Routing",
+      "link": "https://towardsdatascience.com/optimizing-llm-inference-costs-in-multi-agent-systems-with-adaptive-model-routing/",
+      "summary": "멀티에이전트 시스템에서 고정된 모델 할당 방식 대신 작업별 적응형 모델 라우팅을 통해 LLM 추론 비용을 최적화하는 방법을 소개합니다.",
+      "detail": "이 글은 멀티에이전트 시스템에서 LLM 추론 비용을 줄이기 위한 적응형 모델 라우팅(Adaptive Model Routing) 기법을 다룹니다.\n기존의 정적 모델 할당 방식은 모든 작업에 동일한 대형 모델을 사용하므로 불필요한 비용이 발생합니다. 적응형 라우팅은 각 작업의 복잡성, 중요도, 컨텍스트를 동적으로 분석하여 가장 비용 효율적인 모델을 선택합니다.\n예를 들어 단순한 정보 검색이나 요약에는 소형·저비용 모델을, 복잡한 추론과 코드 생성에는 대형 모델을 배정하는 방식으로 전체 인프라 비용을 크게 절감할 수 있습니다. 실제 멀티에이전트 파이프라인에서 비용과 성능의 균형을 맞추는 실용적인 전략을 제시합니다."
     },
     {
       "category": "Agents",
-      "title": "When One Process Becomes Too Much: Splitting a Pipeline into MCP Services",
-      "link": "https://towardsdatascience.com/when-one-process-becomes-too-much-splitting-a-pipeline-into-mcp-services/",
-      "summary": "단일 Python 파이프라인을 독립적으로 배포 가능한 MCP 서비스로 분리하는 실전 아키텍처 사례를 소개합니다.",
-      "detail": "이 글은 확장성과 유지보수성의 한계에 달한 단일 프로세스 Python 파이프라인을 Model Context Protocol(MCP) 기반의 독립 서비스들로 분리한 실제 사례를 다룹니다. 단일 프로세스의 병목, 장애 전파, 팀별 독립 배포 불가 등의 문제를 해결하기 위해 각 파이프라인 단계를 MCP 서비스로 분리했습니다. 각 서비스는 명확한 인터페이스를 갖추고 독립적으로 스케일링되며, 에이전트 오케스트레이터가 이를 조율합니다. MCP를 서비스 경계 정의에 활용한 현실적 예시로, AI 파이프라인 모듈화를 고민하는 팀에 유용한 인사이트를 제공합니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "Meta's Recipe for Building Agents as \"Organizational Second Brains\"",
-      "link": "https://www.infoq.com/news/2026/09/meta-organizational-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Meta가 도메인 전문가의 지식과 논리를 담아내는 '조직의 세컨드 브레인' AI 에이전트 설계 방법을 공개했습니다.",
-      "detail": "Meta의 접근법은 단순한 문서 검색을 넘어 도메인 전문가의 실제 사고방식과 의사결정 논리를 에이전트에 인코딩하는 것을 목표로 합니다. \"조직의 세컨드 브레인\"이라는 개념 아래, 전문가가 특정 상황에서 어떻게 판단하는지를 체계적으로 캡처하고 유사한 상황에 재적용할 수 있도록 에이전트를 설계합니다. 이 시스템은 단순 Q&A를 넘어 복잡한 조직적 판단(예: 제품 결함 분류, 콘텐츠 정책 적용)을 AI가 수행할 수 있게 하며, 전문가 지식의 보존과 확산에 중점을 둔 실용적 아키텍처를 제시합니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "Presentation: Fixing the AI Infra Scale Problem by Stuffing 1M Sandboxes in a Single Server",
-      "link": "https://www.infoq.com/presentations/unikraft-microvm-sandboxes-cloud-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Unikraft는 단일 서버에서 100만 개의 마이크로VM 샌드박스를 실행하여 AI 워크로드의 인프라 밀도 문제를 해결합니다.",
-      "detail": "Felipe Huici의 InfoQ 발표에서 Unikraft는 밀리초 수준의 콜드 부팅, 상태 보존 스케일-투-제로(Stateful Scale-to-Zero), 극단적 밀도를 통해 AI 에이전트 샌드박싱의 인프라 과제를 해결합니다. 격리 프리미티브(isolation primitives)와 Linux 커널 최적화, 스냅샷 기술을 결합해 하나의 물리 서버에서 100만 개의 마이크로VM을 동시 구동하는 것을 목표로 합니다. 기존 컨테이너 대비 강력한 보안 격리(VM 수준)와 훨씬 높은 밀도를 동시에 제공하여, 대규모 AI 에이전트 실행 비용을 대폭 낮출 수 있는 차세대 인프라 기술로 주목받고 있습니다."
-    },
-    {
-      "category": "Python",
-      "title": "Python 3.15 Preview: Lazy Imports",
-      "link": "https://realpython.com/python315-lazy-imports/",
-      "summary": "Python 3.15에서 도입되는 지연 임포트(lazy imports)는 무거운 모듈 로딩을 실제 사용 시점까지 미루어 애플리케이션 시작 시간을 크게 단축합니다.",
-      "detail": "Python 3.15의 새 `lazy` 키워드를 사용하면 `import` 구문이 모듈을 즉시 로드하지 않고, 해당 모듈이 실제로 처음 사용되는 시점에 로딩을 지연시킬 수 있습니다. `__lazy_modules__` 변수로 세밀한 제어도 가능합니다. numpy, pandas, tensorflow 등 무거운 라이브러리를 조건부로 사용하는 CLI 도구나 대규모 애플리케이션에서 시작 시간 단축 효과가 두드러집니다. 단, 임포트 시 부작용(side effects)이 발생하는 모듈, 모듈 수준에서 즉시 실행이 필요한 코드, 타입 어노테이션에 사용되는 임포트 등은 여전히 즉시 임포트(eager import)로 유지해야 합니다."
+      "title": "What SHAP Can't Explain About Agentic AI Fraud",
+      "link": "https://towardsdatascience.com/what-shap-cant-explain-about-agentic-ai-fraud/",
+      "summary": "자율 AI 에이전트 기반 사기 탐지에서 기존 SHAP 설명 가능성 기법이 가진 근본적 한계와 새로운 접근법의 필요성을 분석합니다.",
+      "detail": "SHAP(SHapley Additive exPlanations)은 머신러닝 모델 예측에서 각 특성의 기여도를 설명하는 데 널리 쓰이는 도구입니다.\n그러나 자율 에이전트 기반 사기 탐지 시스템에서는 단일 모델 예측이 아니라 에이전트의 연속적 의사결정과 환경 상호작용이 결과를 결정합니다. 따라서 정적 특성 중요도 분석에 기반한 SHAP으로는 에이전트의 행동을 충분히 설명할 수 없는 근본적 한계가 있습니다.\n이 글은 에이전틱 AI 사기 탐지에서의 설명 가능성 문제를 분석하고, 에이전트의 행동 경로와 의사결정 과정을 추적하는 새로운 접근법의 필요성을 주장합니다. XAI 연구의 새로운 방향을 제시하는 글입니다."
     },
     {
       "category": "DataScience",
-      "title": "Getting started with dbt",
-      "link": "https://towardsdatascience.com/getting-started-with-dbt/",
-      "summary": "dbt(data build tool) 입문 가이드로, SQL 변환의 빌드·테스트·문서화 워크플로우를 단계별로 설명합니다.",
-      "detail": "dbt는 데이터 웨어하우스에서 SQL 변환 로직을 코드로 관리하는 ELT 도구입니다. 이 가이드는 dbt 프로젝트 초기 설정, 모델(.sql 파일) 작성, 내장 테스트(unique, not_null, relationships 등), schema.yml을 이용한 문서화, 그리고 `dbt run`, `dbt test`, `dbt docs generate` 명령어 활용을 다룹니다. 데이터 리니지 그래프를 통한 파이프라인 시각화, Git 버전 관리와의 통합, 재사용 가능한 Jinja 매크로 작성 등 핵심 기능도 소개합니다. SQL 변환 로직을 테스트 가능하고 재현 가능한 코드로 관리하고자 하는 데이터 엔지니어·분석가에게 실용적인 출발점을 제공합니다."
+      "title": "Feature Engineering in Scikit-Learn: A KDnuggets Cheat Sheet",
+      "link": "https://www.kdnuggets.com/feature-engineering-in-scikit-learn-a-kdnuggets-cheat-sheet",
+      "summary": "Scikit-Learn Pipeline 내에서 피처 엔지니어링을 올바르게 구현하는 핵심 기법들을 정리한 KDnuggets 치트 시트입니다.",
+      "detail": "이 치트 시트는 Scikit-Learn의 Pipeline을 활용한 피처 엔지니어링 기법을 체계적으로 정리합니다.\nPipeline 내부에서 각 변환 단계를 구현하면 모든 변환이 훈련 데이터에만 피팅되어 데이터 누수(data leakage)를 효과적으로 방지할 수 있습니다. 주요 기법으로는 수치형 데이터의 스케일링(StandardScaler, MinMaxScaler), 결측값 처리(SimpleImputer), 범주형 변수 인코딩(OneHotEncoder, OrdinalEncoder) 등이 포함됩니다.\n또한 ColumnTransformer를 통해 서로 다른 타입의 피처를 병렬로 처리하는 방법, 그리고 커스텀 변환을 위한 FunctionTransformer와 BaseEstimator 서브클래싱 방법도 다룹니다. ML 파이프라인의 재현 가능성과 안전성을 높이는 실용적인 참고 자료입니다."
     },
     {
       "category": "DataScience",
-      "title": "10 Statistical Traps We Often Overlook",
-      "link": "https://towardsdatascience.com/10-statistical-traps-we-often-overlook/",
-      "summary": "수식 너머의 통계적 사고방식을 강조하며, 실무에서 자주 간과되는 10가지 통계적 함정을 소개합니다.",
-      "detail": "이 글은 데이터 분석 실무에서 흔히 빠지는 통계적 함정들을 소개합니다: ① p-값의 맹목적 해석과 p-hacking, ② 다중 비교 문제(Bonferroni 등 보정 필요), ③ 교란 변수(confounders) 무시, ④ 심슨의 역설(Simpson's Paradox), ⑤ 생존 편향(Survivorship Bias), ⑥ 기저율 무시(Base Rate Neglect), ⑦ 회귀 평균화(Regression to the Mean), ⑧ 상관관계와 인과관계 혼동, ⑨ 표본 크기와 신뢰구간의 오해, ⑩ 외삽(extrapolation)의 위험성. 수식만으로는 파악하기 어려운 이러한 함정들을 사전에 인식하는 것이 올바른 통계 추론의 핵심이며, 모델 결과를 과신하지 않는 비판적 사고를 강조합니다."
+      "title": "Who Questions What Works: When Should We Retest Our Assumptions?",
+      "link": "https://towardsdatascience.com/who-questions-what-works-when-should-we-retest-our-assumptions/",
+      "summary": "모델의 신뢰성은 기저 가정에 달려 있으며, 언제 그 가정을 재검토하고 모델을 재평가해야 하는지를 논의합니다.",
+      "detail": "머신러닝과 통계 모델은 데이터 분포, 특성 간 관계, 목표 변수 패턴 등에 관한 특정 가정(assumptions)에 기반하여 구축됩니다.\n이 글은 그러한 가정이 언제 흔들릴 수 있으며, 어떤 상황에서 기존 가정을 재검토하고 모델을 재학습해야 하는지에 대한 체계적인 시각을 제공합니다. 분포 이동(distribution shift), 개념 이동(concept drift), 그리고 데이터 수집 환경의 변화 등을 감지하는 방법이 다뤄집니다.\n가정을 주기적으로 검증하는 것이 왜 모델 유지관리의 핵심인지, 그리고 특정 이해관계자가 이 검증 과정에서 어떤 역할을 해야 하는지를 논의합니다. 배포 후 모델 모니터링 및 재학습 결정 기준에 관심 있는 데이터 사이언티스트에게 유용한 글입니다."
     }
   ]
 }
