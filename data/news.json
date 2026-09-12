@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-12T18:06:44+09:00",
-  "count": 1002,
+  "updated": "2026-09-12T22:26:47+09:00",
+  "count": 999,
   "items": [
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -11,6 +11,56 @@
       "ts": 1789344000,
       "published": "2026-09-14T00:00:00+00:00",
       "collected_at": "2026-09-12T09:14:21+09:00"
+    },
+    {
+      "title": "Quiz: Python Debugging With Pdb",
+      "link": "https://realpython.com/quizzes/python-debugging-pdb/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice using pdb, Python's built-in debugger. Check variables, step through code, set conditional breakpoints, and read a stack trace.",
+      "ts": 1789214400,
+      "published": "2026-09-12T12:00:00+00:00",
+      "collected_at": "2026-09-12T22:26:42+09:00"
+    },
+    {
+      "title": "Stop Managing Alarms: An Incident-First Blueprint for Telecom AIOps",
+      "link": "https://towardsdatascience.com/stop-managing-alarms-an-incident-first-blueprint-for-telecom-aiops/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "What large operators can teach us about turning alert fatigue into faster, safer service assurance The post Stop Managing Alarms: An Incident-First Blueprint for Telecom AIOps appeared first on Towards Data Science .",
+      "ts": 1789210802,
+      "published": "2026-09-12T11:00:02+00:00",
+      "collected_at": "2026-09-12T22:26:42+09:00"
+    },
+    {
+      "title": "Presentation: From Retrieval to Reasoning: Building Production-Ready Agentic AI Systems with Knowledge Graphs",
+      "link": "https://www.infoq.com/presentations/knowledge-graphs-agentic-systems-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cassie Shum discusses why knowledge graphs serve as a critical foundation for agentic systems. Moving beyond basic RAG, she explains 4 practical architectural patterns: context bundling, decision provenance, code as tru…",
+      "ts": 1789210800,
+      "published": "2026-09-12T11:00:00+00:00",
+      "collected_at": "2026-09-12T22:26:42+09:00"
+    },
+    {
+      "title": "Presentation: From Retrieval to Reasoning: Building Production-Ready Agentic AI Systems with Knowledge Graphs",
+      "link": "https://www.infoq.com/presentations/knowledge-graphs-agentic-systems-patterns/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cassie Shum discusses why knowledge graphs serve as a critical foundation for agentic systems. Moving beyond basic RAG, she explains 4 practical architectural patterns: context bundling, decision provenance, code as tru…",
+      "ts": 1789210800,
+      "published": "2026-09-12T11:00:00+00:00",
+      "collected_at": "2026-09-12T22:26:42+09:00"
+    },
+    {
+      "title": "Lambda SnapStart Comes to Container Images, Ending a Packaging Tradeoff",
+      "link": "https://www.infoq.com/news/2026/09/lambda-snapstart-container-image/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS has extended Lambda SnapStart to container image functions, which hold up to 10 GB against 250 MB for zip archives. Teams previously chose between dependency headroom and sub-second startup. A Reddit thread from a m…",
+      "ts": 1789207740,
+      "published": "2026-09-12T10:09:00+00:00",
+      "collected_at": "2026-09-12T22:26:42+09:00"
     },
     {
       "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
@@ -9941,86 +9991,6 @@
       "ts": 1786627725,
       "published": "2026-08-13T13:28:45+00:00",
       "collected_at": "2026-08-14T01:58:53+09:00"
-    },
-    {
-      "title": "How Baidu Unlimited-OCR Works: Solving Long-Document Transcription",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/baidu-unlimited-ocr-technical-breakdown/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "About a month ago, Baidu (often called the “Google of China”) introduced Unlimited-OCR, an advancement over DeepSeek OCR. The model was designed to transcribe long, multi-page documents with high accuracy while deliveri…",
-      "ts": 1786623018,
-      "published": "2026-08-13T12:10:18+00:00",
-      "collected_at": "2026-08-13T22:19:49+09:00"
-    },
-    {
-      "title": "Constraining Output Space for SLM Narrow Automation Optimization",
-      "link": "https://www.kdnuggets.com/constraining-output-space-small-language-model-narrow-automation-optimization",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "This article will kick off a series on narrow automation optimization for SLMs, and as the first entry will cover one of the more most useful techniques for doing so: constraining the output space instead of parsing gen…",
-      "ts": 1786622417,
-      "published": "2026-08-13T12:00:17+00:00",
-      "collected_at": "2026-08-13T22:19:49+09:00"
-    },
-    {
-      "title": "LangChain vs LangGraph: 4 Key Differences and When to Use Each",
-      "link": "https://towardsdatascience.com/langchain-vs-langgraph-4-key-differences-and-when-to-use-each/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A practical guide to choose the proper tool for your agentic workflows and systems The post LangChain vs LangGraph: 4 Key Differences and When to Use Each appeared first on Towards Data Science .",
-      "ts": 1786622400,
-      "published": "2026-08-13T12:00:00+00:00",
-      "collected_at": "2026-08-13T22:19:49+09:00"
-    },
-    {
-      "title": "How Artificial Intelligence Disrupts Engineering Progression",
-      "link": "https://www.infoq.com/news/2026/08/AI-disrupts-engineering-progress/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "AI is disrupting career progression by eliminating the learning opportunities at each rung while simultaneously enabling people to perform above their experience level, Alasdair Allan explained in his talk Engineering P…",
-      "ts": 1786620480,
-      "published": "2026-08-13T11:28:00+00:00",
-      "collected_at": "2026-08-13T20:51:05+09:00"
-    },
-    {
-      "title": "The builder’s guide to GPT‑5.6",
-      "link": "https://openai.com/index/builders-guide-to-gpt-5-6",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how startups use GPT-5.6 to build faster, more cost-efficient AI agents with smarter model selection and new Responses API capabilities.",
-      "ts": 1786618800,
-      "published": "2026-08-13T11:00:00+00:00",
-      "collected_at": "2026-08-14T04:56:27+09:00"
-    },
-    {
-      "title": "Claude users are mad that Anthropic's new watermarks will catch them using it",
-      "link": "https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/ Comments URL: https://news.ycombinator.com/item?id=49283891 Points:…",
-      "ts": 1786616631,
-      "published": "2026-08-13T10:23:51+00:00",
-      "collected_at": "2026-08-13T22:19:49+09:00"
-    },
-    {
-      "title": "Anthropic's Claude Breaches Sandbox During Model Security Evaluations",
-      "link": "https://www.infoq.com/news/2026/08/claude-sandox-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Anthropic conducted an audit of 141006 evaluation runs after OpenAI's sandbox escape disclosure. The review identified three incidents where Claude models accessed the internet due to misconfigurations. These incidents…",
-      "ts": 1786615800,
-      "published": "2026-08-13T10:10:00+00:00",
-      "collected_at": "2026-08-13T20:51:05+09:00"
-    },
-    {
-      "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "link": "https://openai.com/index/previewing-ultrafast",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Preview Ultrafast, a new OpenAI API service tier that runs GPT-5.6 Sol up to 14× faster. Powered by Cerebras, it delivers up to 750 output tokens per second.",
-      "ts": 1786615200,
-      "published": "2026-08-13T10:00:00+00:00",
-      "collected_at": "2026-08-14T03:01:14+09:00"
     }
   ]
 }
