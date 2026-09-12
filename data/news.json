@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T04:02:52+09:00",
-  "count": 988,
+  "updated": "2026-09-13T07:02:13+09:00",
+  "count": 986,
   "items": [
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -9861,26 +9861,6 @@
       "ts": 1786659985,
       "published": "2026-08-13T22:26:25+00:00",
       "collected_at": "2026-08-14T08:45:16+09:00"
-    },
-    {
-      "title": "sqlite-utils 4.2",
-      "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dr…",
-      "ts": 1786651889,
-      "published": "2026-08-13T20:11:29+00:00",
-      "collected_at": "2026-08-14T09:23:54+09:00"
-    },
-    {
-      "title": "llm-gemini 0.33",
-      "link": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding…",
-      "ts": 1786649854,
-      "published": "2026-08-13T19:37:34+00:00",
-      "collected_at": "2026-08-14T13:51:25+09:00"
     }
   ]
 }
