@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T07:02:13+09:00",
-  "count": 986,
+  "updated": "2026-09-13T09:13:29+09:00",
+  "count": 981,
   "items": [
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -11,6 +11,26 @@
       "ts": 1789344000,
       "published": "2026-09-14T00:00:00+00:00",
       "collected_at": "2026-09-12T09:14:21+09:00"
+    },
+    {
+      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
+      "link": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and pro…",
+      "ts": 1789257402,
+      "published": "2026-09-12T23:56:42+00:00",
+      "collected_at": "2026-09-13T09:13:23+09:00"
+    },
+    {
+      "title": "California Brown Pelican",
+      "link": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelic…",
+      "ts": 1789247769,
+      "published": "2026-09-12T21:16:09+00:00",
+      "collected_at": "2026-09-13T09:13:23+09:00"
     },
     {
       "title": "Quoting Paul Ford",
@@ -9791,76 +9811,6 @@
       "ts": 1786673286,
       "published": "2026-08-14T02:08:06+00:00",
       "collected_at": "2026-08-14T11:12:55+09:00"
-    },
-    {
-      "title": "1.15.16",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.16",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Introduce execution context management with UUID support Record what kind of exception ended a flow Record when a trace batch is shared with AMP Count deployments from any origin and record where…",
-      "ts": 1786666087,
-      "published": "2026-08-14T00:08:07+00:00",
-      "collected_at": "2026-08-14T09:23:54+09:00"
-    },
-    {
-      "title": "Preparing for Change: Safe Switching over Sealed APIs",
-      "link": "https://inside.java/2026/08/14/java-exhaustiveness-guide/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "An exhaustive switch on a sealed type covers the permitted subtypes the compiler knows about; it does not cover future additions, which can cause MatchException at run time. API authors should document the expected evol…",
-      "ts": 1786665600,
-      "published": "2026-08-14T00:00:00+00:00",
-      "collected_at": "2026-08-14T15:16:39+09:00"
-    },
-    {
-      "title": "State of Open Models: Summer 2026 Observations",
-      "link": "https://huggingface.co/blog/state-of-open-models-summer-2026",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1786665600,
-      "published": "2026-08-14T00:00:00+00:00",
-      "collected_at": "2026-08-15T00:55:17+09:00"
-    },
-    {
-      "title": "How Claude’s text watermark works",
-      "link": "https://www.anthropic.com/news/claude-text-watermark",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "How Claude’s text watermark works",
-      "ts": 1786665600,
-      "published": "2026-08-14T00:00:00+00:00",
-      "collected_at": "2026-08-15T10:24:49+09:00"
-    },
-    {
-      "title": "sqlite-utils 4.2.1",
-      "link": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a depende…",
-      "ts": 1786665227,
-      "published": "2026-08-13T23:53:47+00:00",
-      "collected_at": "2026-08-14T09:23:54+09:00"
-    },
-    {
-      "title": "Answering some questions about statistics from a high school student",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/13/answering-some-questions-about-statistics-from-a-high-school-student/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This came in the mail: My name is ** and I am a junior at ** High School. I am writing to you as a part of a summer assignment for my upcoming research class where I had to choose … Continue reading →",
-      "ts": 1786661106,
-      "published": "2026-08-13T22:45:06+00:00",
-      "collected_at": "2026-08-14T07:47:02+09:00"
-    },
-    {
-      "title": "Show HN: MCP-stama – An ultra-fast Rust MCP server with no dependencies",
-      "link": "https://github.com/StamManif/mcp-stama",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/StamManif/mcp-stama Comments URL: https://news.ycombinator.com/item?id=49292584 Points: 71 # Comments: 0",
-      "ts": 1786659985,
-      "published": "2026-08-13T22:26:25+00:00",
-      "collected_at": "2026-08-14T08:45:16+09:00"
     }
   ]
 }
