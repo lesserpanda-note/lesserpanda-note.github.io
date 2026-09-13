@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T20:23:24+09:00",
-  "count": 975,
+  "updated": "2026-09-14T00:53:04+09:00",
+  "count": 969,
   "items": [
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -11,6 +11,76 @@
       "ts": 1789344000,
       "published": "2026-09-14T00:00:00+00:00",
       "collected_at": "2026-09-12T09:14:21+09:00"
+    },
+    {
+      "title": "Your Model Isn't Done Until Someone Else Can Call It",
+      "link": "https://towardsdatascience.com/your-model-isnt-done-until-someone-else-can-call-it/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Building a FastAPI endpoint for churn prediction, and everything that broke between \"it runs\" and \"it's live The post Your Model Isn't Done Until Someone Else Can Call It appeared first on Towards Data Science .",
+      "ts": 1789311601,
+      "published": "2026-09-13T15:00:01+00:00",
+      "collected_at": "2026-09-14T00:52:40+09:00"
+    },
+    {
+      "title": "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
+      "link": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo Comments URL: https://news.ycombinator.com/item?id=49684266 Points: 43 # Comments:…",
+      "ts": 1789308940,
+      "published": "2026-09-13T14:15:40+00:00",
+      "collected_at": "2026-09-14T00:52:40+09:00"
+    },
+    {
+      "title": "Primer on Jinja Templating",
+      "link": "https://realpython.com/primer-on-jinja-templating/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "With Jinja, you can build rich templates that power the front end of your web applications. But you can use Jinja without a web framework running in the background. Anytime you want to create text files with programmati…",
+      "ts": 1789308000,
+      "published": "2026-09-13T14:00:00+00:00",
+      "collected_at": "2026-09-14T00:52:40+09:00"
+    },
+    {
+      "title": "Python Practice Problems: Parsing CSV Files",
+      "link": "https://realpython.com/python-interview-problem-parsing-csv-files/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this tutorial, you'll prepare for future interviews by working through a set of Python practice problems that involve CSV files. You'll work through the problems yourself and then compare your results with solutions…",
+      "ts": 1789308000,
+      "published": "2026-09-13T14:00:00+00:00",
+      "collected_at": "2026-09-14T00:52:40+09:00"
+    },
+    {
+      "title": "What’s happening with the models of the Atlantic Meridional Overturning Circulation?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/13/whats-happening-with-the-models-of-the-atlantic-meridional-overturning-circulation/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "John “not Towering Inferno” Williams points to this new research article by Valentin Portmann et al., which states: Climate models show considerable discrepancies in their future projections around the Atlantic, mainly…",
+      "ts": 1789306904,
+      "published": "2026-09-13T13:41:44+00:00",
+      "collected_at": "2026-09-14T00:52:40+09:00"
+    },
+    {
+      "title": "Your AI Adoption Lift Is a Selection Effect",
+      "link": "https://towardsdatascience.com/your-ai-adoption-lift-is-a-selection-effect/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A practitioner's guide to estimating what an opt-in AI feature actually did, when nobody randomized it. The post Your AI Adoption Lift Is a Selection Effect appeared first on Towards Data Science .",
+      "ts": 1789300802,
+      "published": "2026-09-13T12:00:02+00:00",
+      "collected_at": "2026-09-14T00:52:40+09:00"
+    },
+    {
+      "title": "Quiz: Traditional Face Detection With Python",
+      "link": "https://realpython.com/quizzes/traditional-face-detection-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of face detection with Python. Review Haar-like features, integral images, AdaBoost, and cascading classifiers.",
+      "ts": 1789300800,
+      "published": "2026-09-13T12:00:00+00:00",
+      "collected_at": "2026-09-14T00:52:40+09:00"
     },
     {
       "title": "Cloudflare Tests Cache Transcoding to Reduce Storage Requirements",
@@ -9621,136 +9691,6 @@
       "ts": 1786724121,
       "published": "2026-08-14T16:15:21+00:00",
       "collected_at": "2026-08-15T04:05:23+09:00"
-    },
-    {
-      "title": "Show HN: Graft – Claude Code hooks that cut grep tokens by 42%",
-      "link": "https://github.com/NanoNets/Graft",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/NanoNets/Graft Comments URL: https://news.ycombinator.com/item?id=49299985 Points: 36 # Comments: 36",
-      "ts": 1786720922,
-      "published": "2026-08-14T15:22:02+00:00",
-      "collected_at": "2026-08-15T04:05:23+09:00"
-    },
-    {
-      "title": "RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and When to Stop",
-      "link": "https://towardsdatascience.com/rag-workflow-and-loop-engineering-the-dispatcher-that-decides-when-to-loop-and-when-to-stop/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #13] - Putting the patterns together, and why this is what “agentic RAG” should look like The post RAG Workflow and Loop Engineering: The Dispatcher That Decides When to Loop and…",
-      "ts": 1786719600,
-      "published": "2026-08-14T15:00:00+00:00",
-      "collected_at": "2026-08-15T00:55:17+09:00"
-    },
-    {
-      "title": "Cloudflare Migrates JavaScript CDN Serving 9B Requests a Day to Its Developer Platform",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-cdnjs-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has migrated cdnjs, its open source CDN for JavaScript and CSS libraries, to its Developer Platform. The new architecture uses Workers, R2, KV, Workflows, Queues, Durable Objects and Containers, consolidating…",
-      "ts": 1786718520,
-      "published": "2026-08-14T14:42:00+00:00",
-      "collected_at": "2026-08-14T23:54:37+09:00"
-    },
-    {
-      "title": "How to Build a Simple AI Web Scraper with Python",
-      "link": "https://www.kdnuggets.com/how-to-build-a-simple-ai-web-scraper-with-python",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Turn any webpage into a lightweight LLM-powered QA engine by cleaning HTML, converting content to Markdown, and returning focused answers while reducing token usage.",
-      "ts": 1786716029,
-      "published": "2026-08-14T14:00:29+00:00",
-      "collected_at": "2026-08-14T23:54:37+09:00"
-    },
-    {
-      "title": "My Model Was Cheating on Its Own Test",
-      "link": "https://towardsdatascience.com/my-model-was-cheating-on-its-own-test/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A preprocessing pipeline let my car price model peek at the test set before the exam, and the twelve points of R squared it cheated its way to The post My Model Was Cheating on Its Own Test appeared first on Towards Dat…",
-      "ts": 1786714200,
-      "published": "2026-08-14T13:30:00+00:00",
-      "collected_at": "2026-08-14T23:54:37+09:00"
-    },
-    {
-      "title": "“Q collar” promoters have no shame, advertising their discredited research on social media using lying, cheating chatbots",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/14/q-collar-promoters-have-no-shame-advertising-their-discredited-research-on-social-media-using-lying-cheating-chatbots/",
-      "source": "Statistical Modeling",
-      "category": "AI",
-      "summary": "In a distressing update to an already distressing story, James Smoliga writes: Q-collar is ramping up its fall sports campaign. Lots of buzz on Facebook, with misleading comments from the company, new ways of spinning t…",
-      "ts": 1786713099,
-      "published": "2026-08-14T13:11:39+00:00",
-      "collected_at": "2026-08-14T22:14:20+09:00"
-    },
-    {
-      "title": "Exploring Compose HTML for Server Side Rendering",
-      "link": "https://blog.jetbrains.com/kotlin/2026/08/exploring-compose-html-for-server-side-rendering/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Something is happening in server-rendered web development. React shipped Server Components. HTMX made “hypermedia” cool again. Phoenix LiveView proved a server can push interactive UI updates without a client framework…",
-      "ts": 1786709709,
-      "published": "2026-08-14T12:15:09+00:00",
-      "collected_at": "2026-08-14T23:54:37+09:00"
-    },
-    {
-      "title": "Exploring Compose HTML for Server Side Rendering",
-      "link": "https://blog.jetbrains.com/kotlin/2026/08/exploring-compose-html-for-server-side-rendering",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Something is happening in server-rendered web development. React shipped Server Components. HTMX made “hypermedia” cool again. Phoenix LiveView proved a server can push interactive UI updates without a client framework…",
-      "ts": 1786709709,
-      "published": "2026-08-14T12:15:09+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "Understanding the Role of Latent Space in Machine Learning Models",
-      "link": "https://machinelearningmastery.com/understanding-the-role-of-latent-space-in-machine-learning-models/",
-      "source": "ML Mastery",
-      "category": "DataScience",
-      "summary": "In this article, you will learn what latent spaces are and how they serve three distinct roles — descriptive, generative, and predictive — across a...",
-      "ts": 1786708823,
-      "published": "2026-08-14T12:00:23+00:00",
-      "collected_at": "2026-08-15T00:55:17+09:00"
-    },
-    {
-      "title": "5 Fun Agentic AI Papers to Read",
-      "link": "https://www.kdnuggets.com/5-fun-agentic-ai-papers-to-read",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "If you read only five papers on AI agents, make them these.",
-      "ts": 1786708813,
-      "published": "2026-08-14T12:00:13+00:00",
-      "collected_at": "2026-08-14T22:14:20+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #307: Improving NumPy Performance on Free-Threaded Python",
-      "link": "https://realpython.com/podcasts/rpp/307/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "What bottlenecks were preventing NumPy from scaling on free-threaded Python? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles and projects.",
-      "ts": 1786708800,
-      "published": "2026-08-14T12:00:00+00:00",
-      "collected_at": "2026-08-14T22:14:20+09:00"
-    },
-    {
-      "title": "Quiz: How to Publish an Open-Source Python Package to PyPI",
-      "link": "https://realpython.com/quizzes/pypi-publish-python-package/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python packaging, from naming and configuring your package to building distributions and uploading them to PyPI.",
-      "ts": 1786708800,
-      "published": "2026-08-14T12:00:00+00:00",
-      "collected_at": "2026-08-14T22:14:20+09:00"
-    },
-    {
-      "title": "I Made an LLM Lay Siege to My Minecraft House",
-      "link": "https://towardsdatascience.com/i-made-an-llm-lay-siege-to-my-minecraft-house/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "Can a language model do live adversarial level design? Yes, emphasis on the adversarial part The post I Made an LLM Lay Siege to My Minecraft House appeared first on Towards Data Science .",
-      "ts": 1786708800,
-      "published": "2026-08-14T12:00:00+00:00",
-      "collected_at": "2026-08-14T22:14:20+09:00"
     }
   ]
 }
