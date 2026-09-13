@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T09:13:29+09:00",
-  "count": 981,
+  "updated": "2026-09-13T14:46:38+09:00",
+  "count": 977,
   "items": [
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
@@ -41,6 +41,16 @@
       "ts": 1789236021,
       "published": "2026-09-12T18:00:21+00:00",
       "collected_at": "2026-09-13T04:02:47+09:00"
+    },
+    {
+      "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+      "link": "https://www.bbc.com/news/articles/c14dpgm0rg4o",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.bbc.com/news/articles/c14dpgm0rg4o Comments URL: https://news.ycombinator.com/item?id=49674395 Points: 51 # Comments: 106",
+      "ts": 1789232212,
+      "published": "2026-09-12T16:56:52+00:00",
+      "collected_at": "2026-09-13T14:46:34+09:00"
     },
     {
       "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
@@ -9761,56 +9771,6 @@
       "ts": 1786687740,
       "published": "2026-08-14T06:09:00+00:00",
       "collected_at": "2026-08-19T22:47:51+09:00"
-    },
-    {
-      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
-      "link": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Down, but not out!",
-      "ts": 1786685439,
-      "published": "2026-08-14T05:30:39+00:00",
-      "collected_at": "2026-08-14T15:16:39+09:00"
-    },
-    {
-      "title": "Meta Open-Sources Muse Glimmer: A 30B Local Agentic Model Optimised for On-Device Execution",
-      "link": "https://www.infoq.com/news/2026/08/meta-muse-glimmer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Meta AI Research has introduced Muse Glimmer, a 30-billion-parameter open-weight model under the Apache 2.0 license, designed for local workflows. It enables autonomous agents and complex task execution on consumer GPUs…",
-      "ts": 1786683900,
-      "published": "2026-08-14T05:05:00+00:00",
-      "collected_at": "2026-08-14T15:16:39+09:00"
-    },
-    {
-      "title": "v1.107.5 (2026-08-13)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.5",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🛡️ Security GHSA-q2xc-rrxj-58x9 : the local dev web chat UI ( Agent.to_web() , clai web ) didn't validate the Host header, so DNS rebinding from a website you visit could reach it and run the served agent…",
-      "ts": 1786676279,
-      "published": "2026-08-14T02:57:59+00:00",
-      "collected_at": "2026-08-14T13:51:25+09:00"
-    },
-    {
-      "title": "v2.30.0 (2026-08-13)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.30.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🛡️ Security GHSA-q2xc-rrxj-58x9 : the local dev web chat UI ( Agent.to_web() , clai web ) didn't validate the Host header, so DNS rebinding from a website you visit could reach it and run the served agent…",
-      "ts": 1786676274,
-      "published": "2026-08-14T02:57:54+00:00",
-      "collected_at": "2026-08-14T13:51:25+09:00"
-    },
-    {
-      "title": "python-1.14.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.14.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.14.0] - 2026-08-13 Added agent-framework-core , agent-framework-mistral : Add a Mistral chat client with native chat, streaming, tools, structured output, and embeddings support ( #7392 ) agent-framework-core : Add e…",
-      "ts": 1786673286,
-      "published": "2026-08-14T02:08:06+00:00",
-      "collected_at": "2026-08-14T11:12:55+09:00"
     }
   ]
 }
