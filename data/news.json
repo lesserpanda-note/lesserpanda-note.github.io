@@ -1,7 +1,207 @@
 {
-  "updated": "2026-09-14T19:25:01+09:00",
-  "count": 966,
+  "updated": "2026-09-15T01:52:00+09:00",
+  "count": 975,
   "items": [
+    {
+      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
+      "link": "https://www.latent.space/p/recursive",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI — already worth $5B!",
+      "ts": 1789401856,
+      "published": "2026-09-14T16:04:16+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "DevFest is back",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Animation of the text \"{DevFest} 2026 Join us! Google Developer Groups\" with a globe icon, asterisk icon, icon",
+      "ts": 1789401600,
+      "published": "2026-09-14T16:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "AI agents blew the whistle on their cheating colleagues",
+      "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by G…",
+      "ts": 1789401600,
+      "published": "2026-09-14T16:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Quoting Laurie Voss",
+      "link": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it p…",
+      "ts": 1789396469,
+      "published": "2026-09-14T14:34:29+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "7 Python Best Practices Senior Developers Follow (That Beginners Often Miss)",
+      "link": "https://www.kdnuggets.com/7-python-best-practices-senior-developers-follow-that-beginners-often-miss",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Senior Python practice, watched up close, is mostly surprise reduction. These seven habits surface the surprises before production does.",
+      "ts": 1789394409,
+      "published": "2026-09-14T14:00:09+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Agentic Engineering in Python: From Vibes to Evidence",
+      "link": "https://realpython.com/agentic-engineering/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Move from vibe coding to agentic engineering in Python, using tests, types, and code review to prove an AI agent's changes are safe to keep.",
+      "ts": 1789394400,
+      "published": "2026-09-14T14:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Agoda Replaces 72-Shard SQL Server Price Cache with DragonflyDB",
+      "link": "https://www.infoq.com/news/2026/09/agoda-price-cache-dragonflydb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Agoda migrated its 1.5 TB hotel Price Cache from 72 SQL Server shards to DragonflyDB to handle growing read and write volumes. The migration used staged dual reads, parity validation, gradual traffic shifting, and decen…",
+      "ts": 1789393680,
+      "published": "2026-09-14T13:48:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "This is how we do modern frequentist statistics: Using fake-data simulation to understand what can happen in a study",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/14/this-is-modern-frequentist-statistics-using-fake-data-simulation-to-understand/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In a famous (to readers of this blog) example of statistical error, a researcher reported that beautiful parents were 36% more likely to have girl babies. The saps at Freakonomics fell for this one hook, line, and sinke…",
+      "ts": 1789391982,
+      "published": "2026-09-14T13:19:42+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "A Gentle Introduction to Model Distillation",
+      "link": "https://machinelearningmastery.com/a-gentle-introduction-to-model-distillation/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn what model distillation is, how it has evolved for large language models, and why it has become one of...",
+      "ts": 1789389756,
+      "published": "2026-09-14T12:42:36+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Graph Engineering for AI Agents: From Prompts and Loops to Workflows",
+      "link": "https://towardsdatascience.com/graph-engineering-for-ai-agents-from-prompts-and-loops-to-workflows/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A viral debate over loops versus graphs points to a bigger shift in how we build AI systems. Here’s what graph engineering actually means, how it differs from prompt, context, and loop engineering, and why it matters. T…",
+      "ts": 1789389001,
+      "published": "2026-09-14T12:30:01+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Why DeepSeek-V4.1-Flash Is Such an Exciting Open Model Release",
+      "link": "https://www.kdnuggets.com/why-deepseek-v4-1-flash-is-such-an-exciting-open-model-release",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "DeepSeek-V4.1-Flash shows how Causal Encoder-Decoder architecture, MoE, KV cache compression, CSA2, cheaper prefill, and efficient decoding can make powerful open-source AI models far more efficient to run.",
+      "ts": 1789387209,
+      "published": "2026-09-14T12:00:09+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "link": "https://openai.com/index/fyxer",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.",
+      "ts": 1789387200,
+      "published": "2026-09-14T12:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Quiz: Agentic Engineering in Python: From Vibes to Evidence",
+      "link": "https://realpython.com/quizzes/agentic-engineering/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of agentic engineering in Python, from bounded tasks and review loops to the evidence that makes a diff safe to keep.",
+      "ts": 1789387200,
+      "published": "2026-09-14T12:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "From Static to Dynamic Skills: A Different Model for Agent Knowledge",
+      "link": "https://towardsdatascience.com/from-static-to-dynamic-skills-a-different-model-for-agent-knowledge/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Why the skill-inflation panic is aimed at the wrong thing, and what it costs to make agent knowledge a build artifact instead of a file. The post From Static to Dynamic Skills: A Different Model for Agent Knowledge appe…",
+      "ts": 1789383601,
+      "published": "2026-09-14T11:00:01+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Article: Implementing Durable Workflows on Postgres Without an External Orchestrator",
+      "link": "https://www.infoq.com/articles/durable-workflows-postgres/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Postgres can serve as the durable state store and coordination layer for workflows, eliminating the need for an external orchestrator. SKIP LOCKED enables concurrent work processing, primary-key checkpoints enforce idem…",
+      "ts": 1789383600,
+      "published": "2026-09-14T11:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Podcast: How Will We Train Developers If AI Does the Routine Work: A Conversation with Scott Hanselman",
+      "link": "https://www.infoq.com/podcasts/train-developers-ai-routine-work/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In this podcast, Michael Stiefel spoke to Scott Hanselman about developing new software engineers when artificial intelligence agents are doing most of the work on which junior developers were trained. Hanselman suggest…",
+      "ts": 1789383600,
+      "published": "2026-09-14T11:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Presentation: Decision Models in Agentic Architectures: From Production to Agent Skills",
+      "link": "https://www.infoq.com/presentations/decision-models-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Alex Porcelli discusses the critical gap in enterprise AI: non-deterministic output and lack of accountability in high-stakes decisions. He shares how integrating DMN decision models with LLMs, agent skills, and NeMo gu…",
+      "ts": 1789383600,
+      "published": "2026-09-14T11:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Article: Implementing Durable Workflows on Postgres Without an External Orchestrator",
+      "link": "https://www.infoq.com/articles/durable-workflows-postgres/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Postgres can serve as the durable state store and coordination layer for workflows, eliminating the need for an external orchestrator. SKIP LOCKED enables concurrent work processing, primary-key checkpoints enforce idem…",
+      "ts": 1789383600,
+      "published": "2026-09-14T11:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Podcast: How Will We Train Developers If AI Does the Routine Work: A Conversation with Scott Hanselman",
+      "link": "https://www.infoq.com/podcasts/train-developers-ai-routine-work/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In this podcast, Michael Stiefel spoke to Scott Hanselman about developing new software engineers when artificial intelligence agents are doing most of the work on which junior developers were trained. Hanselman suggest…",
+      "ts": 1789383600,
+      "published": "2026-09-14T11:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Presentation: Decision Models in Agentic Architectures: From Production to Agent Skills",
+      "link": "https://www.infoq.com/presentations/decision-models-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Alex Porcelli discusses the critical gap in enterprise AI: non-deterministic output and lack of accountability in high-stakes decisions. He shares how integrating DMN decision models with LLMs, agent skills, and NeMo gu…",
+      "ts": 1789383600,
+      "published": "2026-09-14T11:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
+    },
     {
       "title": "Independent Investigation of Hugging Face Incident Reveals How Agents Collaborated and Behaved",
       "link": "https://www.infoq.com/news/2026/09/metr-hugging-face-hack-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -1421,6 +1621,16 @@
       "ts": 1788912000,
       "published": "2026-09-09T00:00:00+00:00",
       "collected_at": "2026-09-10T02:41:41+09:00"
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E22 - Live from KCDC",
+      "link": "https://spring.io/blog/2026/09/09/spring-office-hours-podcast-S5E22",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun broadcast live from the Kansas City Developer Conference, one of the largest community driven developer…",
+      "ts": 1788912000,
+      "published": "2026-09-09T00:00:00+00:00",
+      "collected_at": "2026-09-15T01:51:38+09:00"
     },
     {
       "title": "On the Navier–Stokes Millennium Prize Problem",
@@ -9541,126 +9751,6 @@
       "ts": 1786856700,
       "published": "2026-08-16T05:05:00+00:00",
       "collected_at": "2026-08-16T14:31:31+09:00"
-    },
-    {
-      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
-      "link": "https://www.latent.space/p/flue-2",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses.",
-      "ts": 1786808782,
-      "published": "2026-08-15T15:46:22+00:00",
-      "collected_at": "2026-08-16T01:28:23+09:00"
-    },
-    {
-      "title": "Mathematical Experiments Are Becoming Abundant Through Human-Machine Teaming",
-      "link": "https://towardsdatascience.com/mathematical-experiments-are-becoming-abundant-through-human-machine-teaming/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Two open problems, exact-arithmetic checking and a proof assistant, over a single weekend. The post Mathematical Experiments Are Becoming Abundant Through Human-Machine Teaming appeared first on Towards Data Science .",
-      "ts": 1786806000,
-      "published": "2026-08-15T15:00:00+00:00",
-      "collected_at": "2026-08-16T00:24:47+09:00"
-    },
-    {
-      "title": "CORS Chat",
-      "link": "https://simonwillison.net/2026/Aug/15/cors-chat/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: CORS Chat I built this today ( with GPT-5.6-Sol xhigh ) to help test Qwen 3.8 27B running in LM Studio on both my M5 MacBook Pro and an NVIDIA DGX Spark. It provides a web UI for exercising an OpenAI-Responses-com…",
-      "ts": 1786805394,
-      "published": "2026-08-15T14:49:54+00:00",
-      "collected_at": "2026-08-16T10:35:54+09:00"
-    },
-    {
-      "title": "Yadda 3.0.0: BDD in the Age of AI Agents",
-      "link": "http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: http://www.stephen-cresswell.com/2026/08/15/Yadda-3.0.0-BDD-in-the-Age-of-AI-Agents.html Comments URL: https://news.ycombinator.com/item?id=49310495 Points: 54 # Comments: 27",
-      "ts": 1786801426,
-      "published": "2026-08-15T13:43:46+00:00",
-      "collected_at": "2026-08-16T08:23:12+09:00"
-    },
-    {
-      "title": "Inbox zero. Bloglag 365.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/15/inbox-zero-bloglag-365/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "With some sustained effort, I cleaned out my entire inbox! Now I’m ready to do research again. Actually, cleaning out the inbox entailed doing a lot of research and writing, lots of interesting things I’d put off for a…",
-      "ts": 1786798808,
-      "published": "2026-08-15T13:00:08+00:00",
-      "collected_at": "2026-08-15T22:32:42+09:00"
-    },
-    {
-      "title": "How to Shine as a Data Scientist in the Vibe Coding Era",
-      "link": "https://towardsdatascience.com/how-to-shine-in-the-vibe-coding-era-as-a-data-scientist/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Here's how to be the Data Scientist who thrives in a world where coding is a commodity. The post How to Shine as a Data Scientist in the Vibe Coding Era appeared first on Towards Data Science .",
-      "ts": 1786798800,
-      "published": "2026-08-15T13:00:00+00:00",
-      "collected_at": "2026-08-15T22:32:42+09:00"
-    },
-    {
-      "title": "Building an AI Text Detector From Scratch",
-      "link": "https://magazine.sebastianraschka.com/p/ai-detector-from-scratch",
-      "source": "Ahead of AI",
-      "category": "AI",
-      "summary": "An End-to-End Project With Dataset Construction, Model Training, Local Deployment, and RLVR",
-      "ts": 1786794864,
-      "published": "2026-08-15T11:54:24+00:00",
-      "collected_at": "2026-08-15T21:43:27+09:00"
-    },
-    {
-      "title": "Presentation: From Models to Agents: Building Context-Aware Consumer AI at Scale at DoorDash",
-      "link": "https://www.infoq.com/presentations/ai-agentic-recommendations-semantic-ids/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Sudeep Das shares how DoorDash shifts from legacy one-shot predictions to an agentic recommendation platform. He discusses leveraging language-native consumer memory, RQ-VAE semantic IDs for catalog representation, and…",
-      "ts": 1786791600,
-      "published": "2026-08-15T11:00:00+00:00",
-      "collected_at": "2026-08-15T20:23:06+09:00"
-    },
-    {
-      "title": "Presentation: From Models to Agents: Building Context-Aware Consumer AI at Scale at DoorDash",
-      "link": "https://www.infoq.com/presentations/ai-agentic-recommendations-semantic-ids/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Sudeep Das shares how DoorDash shifts from legacy one-shot predictions to an agentic recommendation platform. He discusses leveraging language-native consumer memory, RQ-VAE semantic IDs for catalog representation, and…",
-      "ts": 1786791600,
-      "published": "2026-08-15T11:00:00+00:00",
-      "collected_at": "2026-08-15T20:23:06+09:00"
-    },
-    {
-      "title": "Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare launched agent tracing, adding spans for agent invocations, model calls, tool runs, and approvals to existing Workers traces. Sessions replay turn by turn, though the docs warn traces are not lossless and pay…",
-      "ts": 1786790760,
-      "published": "2026-08-15T10:46:00+00:00",
-      "collected_at": "2026-08-15T20:23:06+09:00"
-    },
-    {
-      "title": "Cloudflare Adds Agent Tracing, with Truncation Limits and Uneven Payload Defaults",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-agent-tracing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare launched agent tracing, adding spans for agent invocations, model calls, tool runs, and approvals to existing Workers traces. Sessions replay turn by turn, though the docs warn traces are not lossless and pay…",
-      "ts": 1786790760,
-      "published": "2026-08-15T10:46:00+00:00",
-      "collected_at": "2026-08-15T20:23:06+09:00"
-    },
-    {
-      "title": "How to Install Codex CLI: A Step-by-Step Guide",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/how-to-install-codex-cli/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "If you have already used Codex in ChatGPT, the Codex CLI will feel familiar. It brings the same AI assistance directly into your local development environment, where it can work with your repository, shell, tests, and o…",
-      "ts": 1786789800,
-      "published": "2026-08-15T10:30:00+00:00",
-      "collected_at": "2026-08-15T20:23:06+09:00"
     }
   ]
 }
