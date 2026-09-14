@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-14T13:42:27+09:00",
-  "count": 965,
+  "updated": "2026-09-14T19:25:01+09:00",
+  "count": 966,
   "items": [
+    {
+      "title": "Independent Investigation of Hugging Face Incident Reveals How Agents Collaborated and Behaved",
+      "link": "https://www.infoq.com/news/2026/09/metr-hugging-face-hack-report/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "After six days of on-site investigation at OpenAI, a small team of METR and Redwood Research researchers provided an account of how OpenAI agents behaved during their hack of Hugging Face earlier this year. Roughly 700…",
+      "ts": 1789376400,
+      "published": "2026-09-14T09:00:00+00:00",
+      "collected_at": "2026-09-14T19:24:57+09:00"
+    },
     {
       "title": "commit-rewriter 0.1",
       "link": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
@@ -991,6 +1001,16 @@
       "ts": 1788998400,
       "published": "2026-09-10T00:00:00+00:00",
       "collected_at": "2026-09-11T05:37:30+09:00"
+    },
+    {
+      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
+      "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1788998400,
+      "published": "2026-09-10T00:00:00+00:00",
+      "collected_at": "2026-09-14T19:24:57+09:00"
     },
     {
       "title": ".blend URL Viewer",
@@ -9641,16 +9661,6 @@
       "ts": 1786789800,
       "published": "2026-08-15T10:30:00+00:00",
       "collected_at": "2026-08-15T20:23:06+09:00"
-    },
-    {
-      "title": "Cloudflare Introduces Cache Response Rules for Post-Origin Cache Control",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-cache-rules/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare recently introduced Cache Response Rules, a rules engine that operates after an origin server responds but before content is written to Cloudflare's cache. Previously, Cache Rules operated only on request att…",
-      "ts": 1786775280,
-      "published": "2026-08-15T06:28:00+00:00",
-      "collected_at": "2026-08-15T15:43:33+09:00"
     }
   ]
 }
