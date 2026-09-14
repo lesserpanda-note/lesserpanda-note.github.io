@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-14T09:13:58+09:00",
+  "updated": "2026-09-14T13:42:27+09:00",
   "count": 965,
   "items": [
+    {
+      "title": "commit-rewriter 0.1",
+      "link": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue I…",
+      "ts": 1789345690,
+      "published": "2026-09-14T00:28:10+00:00",
+      "collected_at": "2026-09-14T13:42:14+09:00"
+    },
     {
       "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
       "link": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
@@ -11,6 +21,16 @@
       "ts": 1789344000,
       "published": "2026-09-14T00:00:00+00:00",
       "collected_at": "2026-09-12T09:14:21+09:00"
+    },
+    {
+      "title": "shot-scraper 1.12",
+      "link": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: shot-scraper 1.12 I've added WebP support to my shot-scraper screenshot automation tool. You can now take a WebP screenshot of a web page like this: shot-scraper https://simonwillison.net -o screenshot.webp --q…",
+      "ts": 1789343894,
+      "published": "2026-09-13T23:58:14+00:00",
+      "collected_at": "2026-09-14T13:42:14+09:00"
     },
     {
       "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
@@ -581,6 +601,16 @@
       "ts": 1789114440,
       "published": "2026-09-11T08:14:00+00:00",
       "collected_at": "2026-09-11T19:54:07+09:00"
+    },
+    {
+      "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
+      "link": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace Comments URL: https://news.ycombinator.com/item?id=49653311 Points: 69 # Comments: 16",
+      "ts": 1789098342,
+      "published": "2026-09-11T03:45:42+00:00",
+      "collected_at": "2026-09-14T13:42:14+09:00"
     },
     {
       "title": "Datasette 1.0a39 and 0.65.4 security releases",
@@ -9621,36 +9651,6 @@
       "ts": 1786775280,
       "published": "2026-08-15T06:28:00+00:00",
       "collected_at": "2026-08-15T15:43:33+09:00"
-    },
-    {
-      "title": "Northern Gannet",
-      "link": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. He showed up in the Farallon Islands off the co…",
-      "ts": 1786764120,
-      "published": "2026-08-15T03:22:00+00:00",
-      "collected_at": "2026-08-15T12:42:06+09:00"
-    },
-    {
-      "title": "v2.31.0 (2026-08-14)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.31.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Allow a UIEventStream to be built without a run_input , and give AGUIEventStream its own thread_id / run_id by @dsfaccini in #7292 🐛 Bug Fixes Attribute failed FallbackModel spans to the failin…",
-      "ts": 1786763086,
-      "published": "2026-08-15T03:04:46+00:00",
-      "collected_at": "2026-08-15T12:42:06+09:00"
-    },
-    {
-      "title": "v0.21.0",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.0",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "Key Changes This minor release does not introduce a known breaking SDK behavior change. The minor version bump is for the new provider-neutral testing APIs and the OpenAI Python v3 compatibility update. Highlights: Adde…",
-      "ts": 1786762177,
-      "published": "2026-08-15T02:49:37+00:00",
-      "collected_at": "2026-08-15T11:54:28+09:00"
     }
   ]
 }
