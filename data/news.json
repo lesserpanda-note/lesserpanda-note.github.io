@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-15T13:08:13+09:00",
+  "updated": "2026-09-15T18:50:55+09:00",
   "count": 987,
   "items": [
+    {
+      "title": "Grab's Agent Framework LLM-Kit Accelerates AI Agent Production Deployment",
+      "link": "https://www.infoq.com/news/2026/09/grab-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Grab has implemented LLM-Kit, a framework that standardizes over 500 internal agent services. This system enhances service integration, evaluation, and secret handling, reducing the time to deploy new AI agents from two…",
+      "ts": 1789462800,
+      "published": "2026-09-15T09:00:00+00:00",
+      "collected_at": "2026-09-15T18:50:48+09:00"
+    },
+    {
+      "title": "How Solaris' Turnstile Influenced the Modern System Designs of Web Browsers and Language Runtimes",
+      "link": "https://www.infoq.com/news/2026/09/turnstile-system-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Sun's Solaris influenced modern systems engineering, with key innovations like the Slab Allocator for efficient memory management, OpenZFS for advanced storage, and DTrace for observability. Its turnstile mechanism addr…",
+      "ts": 1789452360,
+      "published": "2026-09-15T06:06:00+00:00",
+      "collected_at": "2026-09-15T18:50:48+09:00"
+    },
+    {
+      "title": "[AINews] AEF-1 standard emerges for Third Party Evaluators, as Xai, OpenAI, and Anthropic all cosign",
+      "link": "https://www.latent.space/p/ainews-aef-1-standard-emerges-for",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Pacing gathers pace.",
+      "ts": 1789447836,
+      "published": "2026-09-15T04:50:36+00:00",
+      "collected_at": "2026-09-15T18:50:48+09:00"
+    },
     {
       "title": "Amazon Linux 2027 Enters Public Preview with SELinux Enforcing by Default",
       "link": "https://www.infoq.com/news/2026/09/amazon-linux-2027-preview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -21,6 +51,16 @@
       "ts": 1789438653,
       "published": "2026-09-15T02:17:33+00:00",
       "collected_at": "2026-09-15T13:08:09+09:00"
+    },
+    {
+      "title": "Anthropic is in regulatory-capture financial loop",
+      "link": "https://twitter.com/kevinnbass/status/2099626156660043891",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/kevinnbass/status/2099626156660043891 Comments URL: https://news.ycombinator.com/item?id=49705630 Points: 65 # Comments: 14",
+      "ts": 1789428226,
+      "published": "2026-09-14T23:23:46+00:00",
+      "collected_at": "2026-09-15T18:50:48+09:00"
     },
     {
       "title": "The contagion of fear",
@@ -151,6 +191,16 @@
       "ts": 1789401600,
       "published": "2026-09-14T16:00:00+00:00",
       "collected_at": "2026-09-15T01:51:38+09:00"
+    },
+    {
+      "title": "Anthropic tells investors it will be profitable for second straight quarter",
+      "link": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/ Comments URL: https://news.ycombinator.com/item?id=49698936 Points: 51…",
+      "ts": 1789400849,
+      "published": "2026-09-14T15:47:29+00:00",
+      "collected_at": "2026-09-15T18:50:48+09:00"
     },
     {
       "title": "Quoting Laurie Voss",
@@ -9821,56 +9871,6 @@
       "ts": 1786885200,
       "published": "2026-08-16T13:00:00+00:00",
       "collected_at": "2026-08-16T22:33:40+09:00"
-    },
-    {
-      "title": "Show HN: PyScrappy, self-healing web scraping selectors plus an MCP server",
-      "link": "https://github.com/mldsveda/PyScrappy",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/mldsveda/PyScrappy Comments URL: https://news.ycombinator.com/item?id=49317799 Points: 20 # Comments: 2",
-      "ts": 1786866400,
-      "published": "2026-08-16T07:46:40+00:00",
-      "collected_at": "2026-08-17T14:37:43+09:00"
-    },
-    {
-      "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
-      "link": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "AWS has open-sourced Dogwood, a policy language extending Cedar with temporal conditions so rules can reason about an agent's prior tool calls rather than one request in isolation. It covers approvals, rate limits and r…",
-      "ts": 1786865160,
-      "published": "2026-08-16T07:26:00+00:00",
-      "collected_at": "2026-08-16T17:33:21+09:00"
-    },
-    {
-      "title": "AWS Open-Sources Dogwood, Extending Cedar to Govern Sequences of Agent Tool Calls",
-      "link": "https://www.infoq.com/news/2026/08/aws-dogwood-agent-policy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS has open-sourced Dogwood, a policy language extending Cedar with temporal conditions so rules can reason about an agent's prior tool calls rather than one request in isolation. It covers approvals, rate limits and r…",
-      "ts": 1786865160,
-      "published": "2026-08-16T07:26:00+00:00",
-      "collected_at": "2026-08-16T17:33:21+09:00"
-    },
-    {
-      "title": "AWS Introduces Native Vector Search for DynamoDB",
-      "link": "https://www.infoq.com/news/2026/08/aws-dynamodb-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Amazon DynamoDB recently introduced native vector search, allowing developers to store embeddings alongside application data and run approximate nearest-neighbor queries directly from DynamoDB without using a separate v…",
-      "ts": 1786864860,
-      "published": "2026-08-16T07:21:00+00:00",
-      "collected_at": "2026-08-16T16:33:27+09:00"
-    },
-    {
-      "title": "How PGSimCity Turns PostgreSQL Complexity Into a Virtual City 3D Simulation",
-      "link": "https://www.infoq.com/news/2026/08/pgsimcity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Nikolay Samokhvalov has developed PGSimCity, an open-source educational tool that visualises PostgreSQL mechanics as a 3D spatial simulation in the browser. It assists backend developers and site reliability engineers i…",
-      "ts": 1786856700,
-      "published": "2026-08-16T05:05:00+00:00",
-      "collected_at": "2026-08-16T14:31:31+09:00"
     }
   ]
 }
