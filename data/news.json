@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-17T01:28:53+09:00",
-  "count": 1004,
+  "updated": "2026-09-17T04:54:02+09:00",
+  "count": 1003,
   "items": [
+    {
+      "title": "Claude Cowork and chat are now one Claude",
+      "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Cla…",
+      "ts": 1789582189,
+      "published": "2026-09-16T18:09:49+00:00",
+      "collected_at": "2026-09-17T04:53:53+09:00"
+    },
+    {
+      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
+      "link": "https://www.latent.space/p/aiuc",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "We sit down with AIUC’s CEO on their Series A!",
+      "ts": 1789582065,
+      "published": "2026-09-16T18:07:45+00:00",
+      "collected_at": "2026-09-17T04:53:53+09:00"
+    },
     {
       "title": "Quoting Mustafa Suleyman",
       "link": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
@@ -133,6 +153,16 @@
       "collected_at": "2026-09-17T01:28:48+09:00"
     },
     {
+      "title": "How to connect AI usage to business value",
+      "link": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "ts": 1789560000,
+      "published": "2026-09-16T12:00:00+00:00",
+      "collected_at": "2026-09-17T04:53:53+09:00"
+    },
+    {
       "title": "[AINews] Jev: a “System One Model” that only decides/classifies/routes/scores — >100x faster, >200x cheaper than small frontier LLMs",
       "link": "https://www.latent.space/p/ainews-jev-a-system-one-model-that",
       "source": "Latent Space",
@@ -211,6 +241,16 @@
       "ts": 1789552800,
       "published": "2026-09-16T10:00:00+00:00",
       "collected_at": "2026-09-16T20:08:49+09:00"
+    },
+    {
+      "title": "How workers are unlocking new ways of working",
+      "link": "https://openai.com/index/unlocking-new-ways-of-working",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "ts": 1789549200,
+      "published": "2026-09-16T09:00:00+00:00",
+      "collected_at": "2026-09-17T04:53:53+09:00"
     },
     {
       "title": "Dropbox Outlines How Focusing on Existing Infrastructure Efficiency Can Create Headroom for AI",
@@ -381,6 +421,16 @@
       "ts": 1789486202,
       "published": "2026-09-15T15:30:02+00:00",
       "collected_at": "2026-09-16T03:46:55+09:00"
+    },
+    {
+      "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the background",
+      "link": "https://github.com/pizza-bot-app/pizza-bot",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Hi HN - long-time lurker (since 2012!), first time poster. Pizza Bot is a self-hosted desktop app for Mac, Windows, and Linux that runs AI agents in the background and exposes them through an email-like UI. Finished wor…",
+      "ts": 1789485626,
+      "published": "2026-09-15T15:20:26+00:00",
+      "collected_at": "2026-09-17T04:53:53+09:00"
     },
     {
       "title": "Nail the Narrative",
@@ -9981,66 +10031,6 @@
       "ts": 1787008421,
       "published": "2026-08-17T23:13:41+00:00",
       "collected_at": "2026-08-18T08:26:15+09:00"
-    },
-    {
-      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
-      "link": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1786995981,
-      "published": "2026-08-17T19:46:21+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "What Flock’s defenders are missing",
-      "link": "https://www.technologyreview.com/2026/08/17/1142200/what-flocks-defenders-are-missing/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Flock, the police-tech giant known for its network of some 120,000 automatic lice…",
-      "ts": 1786994169,
-      "published": "2026-08-17T19:16:09+00:00",
-      "collected_at": "2026-08-18T04:31:07+09:00"
-    },
-    {
-      "title": "SpaceXAI Launches Grok Bot for Autonomous AI Agents",
-      "link": "https://www.infoq.com/news/2026/08/grok-bot-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "SpaceXAI has introduced Grok Bot, a system of persistent AI agents that operate on dedicated cloud computers and can interact with websites, applications, inboxes, and other tools. By Daniel Dominguez",
-      "ts": 1786989720,
-      "published": "2026-08-17T18:02:00+00:00",
-      "collected_at": "2026-08-18T03:44:04+09:00"
-    },
-    {
-      "title": "Llama.cpp v0.1.0",
-      "link": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.0",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.0 Comments URL: https://news.ycombinator.com/item?id=49335017 Points: 38 # Comments: 8",
-      "ts": 1786989366,
-      "published": "2026-08-17T17:56:06+00:00",
-      "collected_at": "2026-08-18T06:28:41+09:00"
-    },
-    {
-      "title": "7 Kimi K3 Features That Make Every Other Model Feel Outdated",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/kimi-k3-features/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Developers launch new models every week, but most barely change how you work. Kimi K3 is different—not because of benchmark charts, but because of a few small API changes that fundamentally affect how you use it. The fi…",
-      "ts": 1786987031,
-      "published": "2026-08-17T17:17:11+00:00",
-      "collected_at": "2026-08-18T02:29:27+09:00"
-    },
-    {
-      "title": "Webwright: Why AI Web Agents Should Write Code, Not Click",
-      "link": "https://towardsdatascience.com/webwright-why-ai-web-agents-should-write-code-not-click/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "For years, web agents have worked one click at a time—and often fallen apart on long tasks. Microsoft Research’s Webwright makes a different bet: give the model a terminal and let it write the program instead. On long-h…",
-      "ts": 1786984200,
-      "published": "2026-08-17T16:30:00+00:00",
-      "collected_at": "2026-08-18T02:29:27+09:00"
     }
   ]
 }
