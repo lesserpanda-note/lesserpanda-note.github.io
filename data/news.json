@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-16T06:58:58+09:00",
-  "count": 1009,
+  "updated": "2026-09-16T09:09:39+09:00",
+  "count": 1006,
   "items": [
+    {
+      "title": "Gemini Live audio",
+      "link": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at th…",
+      "ts": 1789512427,
+      "published": "2026-09-15T22:47:07+00:00",
+      "collected_at": "2026-09-16T09:09:34+09:00"
+    },
     {
       "title": "Can Skills Learned in Games Transfer to Real-World Work?",
       "link": "https://www.latent.space/p/good-start-labs",
@@ -10051,46 +10061,6 @@
       "ts": 1786933800,
       "published": "2026-08-17T02:30:00+00:00",
       "collected_at": "2026-08-17T12:02:56+09:00"
-    },
-    {
-      "title": "Spring Office Hours Podcast: S5E20 - The Developer's Guide to AI with Danny Thompson",
-      "link": "https://spring.io/blog/2026/08/17/spring-office-hours-podcast-S5E20",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun are joined by Danny Thompson, Senior Developer Advocate at Atlassian, co-host of The Programming Podcas…",
-      "ts": 1786924800,
-      "published": "2026-08-17T00:00:00+00:00",
-      "collected_at": "2026-08-18T05:30:25+09:00"
-    },
-    {
-      "title": "Markdown SVG upgrades",
-      "link": "https://simonwillison.net/2026/Aug/16/markdown-svg-upgrades/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I started building my markdown-svg-renderer tool in May , but I've since added enough features to it that it's worth talking about here again. It's evolved into my ideal tool for sharing Markdown transcripts that includ…",
-      "ts": 1786924777,
-      "published": "2026-08-16T23:59:37+00:00",
-      "collected_at": "2026-08-17T09:19:38+09:00"
-    },
-    {
-      "title": "v0.21.1",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.21.1",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "What's Changed feat(core): add model call timeouts by @seratch in #4428 feat(sandbox): add run-scoped sandbox working directories by @seratch in #4427 feat(sandbox): allow Docker sandboxes to disable networking by @koad…",
-      "ts": 1786919335,
-      "published": "2026-08-16T22:28:55+00:00",
-      "collected_at": "2026-08-17T08:22:49+09:00"
-    },
-    {
-      "title": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
-      "link": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Friday's big release was Qwen 3.8 27B , an Apache 2 licensed 27B parameter vision-capable LLM from Alibaba's Qwen research lab. I've been looking forward to this one: 27B is an excellent size for running a model on a re…",
-      "ts": 1786917639,
-      "published": "2026-08-16T22:00:39+00:00",
-      "collected_at": "2026-08-17T07:24:49+09:00"
     }
   ]
 }
