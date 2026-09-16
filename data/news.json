@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-17T04:54:02+09:00",
-  "count": 1003,
+  "updated": "2026-09-17T07:45:53+09:00",
+  "count": 1009,
   "items": [
+    {
+      "title": "1.15.22",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.22",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Support aliases as connection identifiers Record reasons for deployment creation failures Collect human feedback and pause events in tracing Add llm_overlay context variable to route agent roles…",
+      "ts": 1789596598,
+      "published": "2026-09-16T22:09:58+00:00",
+      "collected_at": "2026-09-17T07:45:16+09:00"
+    },
+    {
+      "title": "Fragments: September 16",
+      "link": "https://martinfowler.com/fragments/2026-09-16.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Reports of agentic hacking continue, in this case it happened back in May and it seems OpenAI did not disclose that they were responsible. Simon Willison sees two options: After the Hugging Face and Wiki attacks OpenAI…",
+      "ts": 1789589100,
+      "published": "2026-09-16T20:05:00+00:00",
+      "collected_at": "2026-09-17T07:45:16+09:00"
+    },
     {
       "title": "Claude Cowork and chat are now one Claude",
       "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
@@ -21,6 +41,16 @@
       "ts": 1789582065,
       "published": "2026-09-16T18:07:45+00:00",
       "collected_at": "2026-09-17T04:53:53+09:00"
+    },
+    {
+      "title": "Our framework for reporting model misalignment",
+      "link": "https://openai.com/index/model-misalignment-reporting-framework",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "ts": 1789578000,
+      "published": "2026-09-16T17:00:00+00:00",
+      "collected_at": "2026-09-17T07:45:16+09:00"
     },
     {
       "title": "Quoting Mustafa Suleyman",
@@ -93,6 +123,16 @@
       "collected_at": "2026-09-17T01:28:48+09:00"
     },
     {
+      "title": "Estimators in Scikit-LLM: A KDnuggets Cheat Sheet",
+      "link": "https://www.kdnuggets.com/estimators-in-scikit-llm-a-kdnuggets-cheat-sheet",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Scikit-LLM wraps language models in the scikit-learn estimator API, so it drops into a Pipeline or a cross-validation loop natively.",
+      "ts": 1789567099,
+      "published": "2026-09-16T13:58:19+00:00",
+      "collected_at": "2026-09-17T07:45:16+09:00"
+    },
+    {
       "title": "It’s satisfying to see the economics profession come around on some things (regression discontinuity analysis and so-called risk aversion)",
       "link": "https://statmodeling.stat.columbia.edu/2026/09/16/its-satisfying-to-see-the-economics-profession-come-around-on-some-things-regression-discontinuity-analysis-and-so-called-risk-aversion/",
       "source": "Statistical Modeling",
@@ -131,6 +171,16 @@
       "ts": 1789561802,
       "published": "2026-09-16T12:30:02+00:00",
       "collected_at": "2026-09-17T01:28:48+09:00"
+    },
+    {
+      "title": "How to Build Effective Evals for AI Agents",
+      "link": "https://www.kdnuggets.com/how-to-build-effective-evals-for-ai-agents",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Learn how to build effective evals for AI agents, from designing clear tasks and choosing the right graders to building reliable eval harnesses and tracking changes over time.",
+      "ts": 1789560050,
+      "published": "2026-09-16T12:00:50+00:00",
+      "collected_at": "2026-09-17T07:45:16+09:00"
     },
     {
       "title": "The Roadmap to Mastering Voice Agents",
@@ -301,6 +351,16 @@
       "ts": 1789516800,
       "published": "2026-09-16T00:00:00+00:00",
       "collected_at": "2026-09-17T01:28:48+09:00"
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E23 - Java 27 Release Party with Billy Korando",
+      "link": "https://spring.io/blog/2026/09/16/spring-office-hours-podcast-S5E23",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun are joined by Kansas City JUG organizer and Java Developer Advocate, Billy Korando. In this episode, we…",
+      "ts": 1789516800,
+      "published": "2026-09-16T00:00:00+00:00",
+      "collected_at": "2026-09-17T07:45:16+09:00"
     },
     {
       "title": "Gemini Live audio",
