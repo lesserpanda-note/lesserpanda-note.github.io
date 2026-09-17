@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-18T03:01:43+09:00",
-  "count": 988,
+  "updated": "2026-09-18T06:58:42+09:00",
+  "count": 990,
   "items": [
+    {
+      "title": "pandas 3.0.6",
+      "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.0.6",
+      "source": "pandas",
+      "category": "DataScience",
+      "summary": "We are pleased to announce the release of pandas 3.0.6. This is a patch release in the 3.0.x series and includes some regression fixes and bug fixes. We recommend that all users of the 3.0.x series upgrade to this versi…",
+      "ts": 1789681746,
+      "published": "2026-09-17T21:49:06+00:00",
+      "collected_at": "2026-09-18T06:58:36+09:00"
+    },
+    {
+      "title": "Self-generated prompt injections in compaction summaries",
+      "link": "https://simonwillison.net/2026/Sep/17/compaction-summaries/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Self-generated prompt injections in compaction summaries In Our framework for reporting model misalignment OpenAI provide \"six reports on unexpected or concerning model behavior we’ve observed in the last six months\". T…",
+      "ts": 1789678675,
+      "published": "2026-09-17T20:57:55+00:00",
+      "collected_at": "2026-09-18T06:58:36+09:00"
+    },
+    {
+      "title": "Making global data easier to explore",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "UN System Data Commons Data webpage",
+      "ts": 1789675200,
+      "published": "2026-09-17T20:00:00+00:00",
+      "collected_at": "2026-09-18T06:58:36+09:00"
+    },
     {
       "title": "Building a Data Lakehouse with DuckDB and DuckLake",
       "link": "https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-and-ducklake/",
@@ -151,6 +181,46 @@
       "ts": 1789603200,
       "published": "2026-09-17T00:00:00+00:00",
       "collected_at": "2026-09-17T22:12:25+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: Spring Tools lead Martin Lippert",
+      "link": "https://spring.io/blog/2026/09/17/a-bootiful-podcast-martin-lippert",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! In this conversation, Spring Tools lead Martin Lippert joins us for a fascinating look at how developer tooling has evolved from Eclipse to VS Code and beyond. We dig into the architecture behind Spring…",
+      "ts": 1789603200,
+      "published": "2026-09-17T00:00:00+00:00",
+      "collected_at": "2026-09-18T06:58:36+09:00"
+    },
+    {
+      "title": "Introducing Astra for Law",
+      "link": "https://openai.com/index/astra-for-law",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
+      "ts": 1789603200,
+      "published": "2026-09-17T00:00:00+00:00",
+      "collected_at": "2026-09-18T06:58:36+09:00"
+    },
+    {
+      "title": "Introducing the Life Sciences Verification Program",
+      "link": "https://www.anthropic.com/news/life-sciences-verification-program",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Introducing the Life Sciences Verification Program",
+      "ts": 1789603200,
+      "published": "2026-09-17T00:00:00+00:00",
+      "collected_at": "2026-09-18T06:58:36+09:00"
+    },
+    {
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "link": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Measurements for understanding the pace of AI development inside frontier labs",
+      "ts": 1789603200,
+      "published": "2026-09-17T00:00:00+00:00",
+      "collected_at": "2026-09-18T06:58:36+09:00"
     },
     {
       "title": "datasette 1.0a40",
@@ -9763,6 +9833,16 @@
       "collected_at": "2026-08-19T20:28:33+09:00"
     },
     {
+      "title": "dotnet-1.18.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.18.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "What's Changed .NET: [Experimental] Extend A2A task store with isolation key scoping by SergeyMenshykh in #7504 .NET: Add CodeQL suppression for DevUI proxy validation by SergeyMenshykh in #7505 .NET: Bound the tool-app…",
+      "ts": 1787134584,
+      "published": "2026-08-19T10:16:24+00:00",
+      "collected_at": "2026-09-18T06:58:36+09:00"
+    },
+    {
       "title": "[AINews] Memory prices up 500% in 12 months",
       "link": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
       "source": "Latent Space",
@@ -9821,66 +9901,6 @@
       "ts": 1787090400,
       "published": "2026-08-18T22:00:00+00:00",
       "collected_at": "2026-08-19T15:50:04+09:00"
-    },
-    {
-      "title": "Frontier Model Cost and Open-Weights Popularity is Driving Demand for Model Routing",
-      "link": "https://www.latent.space/p/glean-model-routing",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Glean CEO Arvind Jain explains why model routing helps control AI costs for organizations, and how human feedback loops at scale improve its routing systems.",
-      "ts": 1787089270,
-      "published": "2026-08-18T21:41:10+00:00",
-      "collected_at": "2026-08-19T07:26:50+09:00"
-    },
-    {
-      "title": "Mojo🔥 is now open source",
-      "link": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Mojo🔥 is now open source Mojo🔥 is now open source The Mojo programming language has been promising an open source release since May 2023 . Last week they shipped their 1.0 and today they have followed through on that or…",
-      "ts": 1787089160,
-      "published": "2026-08-18T21:39:20+00:00",
-      "collected_at": "2026-08-19T07:26:50+09:00"
-    },
-    {
-      "title": "Claude Code Teaching macOS to Natively Print to the HP Laser 1008a",
-      "link": "https://cdn.kuber.studio/chat/hp-laser-1008a-driver",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://cdn.kuber.studio/chat/hp-laser-1008a-driver Comments URL: https://news.ycombinator.com/item?id=49352806 Points: 84 # Comments: 54",
-      "ts": 1787087661,
-      "published": "2026-08-18T21:14:21+00:00",
-      "collected_at": "2026-08-19T08:25:00+09:00"
-    },
-    {
-      "title": "Survey Statistics: Modeling Complex Contingency Tables",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/18/survey-statistics-modeling-complex-contingency-tables/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Andrew looped me into an email thread with folks working on poststratification with partial population information. (He knew I’d be interested, see “poststratification without population level information”.) They pointe…",
-      "ts": 1787083231,
-      "published": "2026-08-18T20:00:31+00:00",
-      "collected_at": "2026-08-19T05:27:40+09:00"
-    },
-    {
-      "title": "Strengthening Democratic Oversight in National Security",
-      "link": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI launches an initiative to strengthen democratic oversight of AI in national security, supporting government institutions with tools, training, and expertise.",
-      "ts": 1787079600,
-      "published": "2026-08-18T19:00:00+00:00",
-      "collected_at": "2026-08-19T05:27:40+09:00"
-    },
-    {
-      "title": "How Much Memory Does Your Agent Actually Need?",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1787076578,
-      "published": "2026-08-18T18:09:38+00:00",
-      "collected_at": "2026-08-19T03:41:48+09:00"
     }
   ]
 }
