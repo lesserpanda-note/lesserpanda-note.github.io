@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-17T16:23:22+09:00",
-  "count": 1007,
+  "updated": "2026-09-17T22:12:30+09:00",
+  "count": 1001,
   "items": [
+    {
+      "title": "Why You Think Like a Bayesian but Were Taught Like a Frequentist",
+      "link": "https://towardsdatascience.com/why-you-think-like-a-bayesian-but-were-taught-like-a-frequentist/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "From a chocolate bar with no price tag to a marketing mix model in PyMC, and the 200-year-old integral that stood in between. The post Why You Think Like a Bayesian but Were Taught Like a Frequentist appeared first on T…",
+      "ts": 1789648201,
+      "published": "2026-09-17T12:30:01+00:00",
+      "collected_at": "2026-09-17T22:12:25+09:00"
+    },
+    {
+      "title": "Multilingual Text Classification with Scikit-LLM and Multilingual Embeddings",
+      "link": "https://machinelearningmastery.com/multilingual-text-classification-with-scikit-llm-and-multilingual-embeddings/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how to build a multilingual text classification pipeline using multilingual large language model (LLM) embeddings and Scikit-learn, without training...",
+      "ts": 1789646449,
+      "published": "2026-09-17T12:00:49+00:00",
+      "collected_at": "2026-09-17T22:12:25+09:00"
+    },
+    {
+      "title": "Quiz: HTML and CSS Foundations for Python Developers",
+      "link": "https://realpython.com/quizzes/html-css-foundations/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of HTML and CSS basics for Python developers. Structure a page, link files, and style your site with CSS.",
+      "ts": 1789646400,
+      "published": "2026-09-17T12:00:00+00:00",
+      "collected_at": "2026-09-17T22:12:25+09:00"
+    },
+    {
+      "title": "When Does Graph RAG Actually Add Value? A Hands-On Experiment",
+      "link": "https://towardsdatascience.com/when-does-graph-rag-actually-add-value-a-hands-on-experiment/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "I built four AI retrieval architectures on a laptop and benchmarked them against the same set of documents and questions. Here’s what the results taught me about the trade-offs between plain RAG, graph RAG, and simply p…",
+      "ts": 1789642802,
+      "published": "2026-09-17T11:00:02+00:00",
+      "collected_at": "2026-09-17T22:12:25+09:00"
+    },
+    {
+      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
+      "link": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "A dash of cold water keeps the foomers away.",
+      "ts": 1789630105,
+      "published": "2026-09-17T07:28:25+00:00",
+      "collected_at": "2026-09-17T22:12:25+09:00"
+    },
     {
       "title": "LLMOps vs MLOps vs AgentOps: What Changes When You’re Operating Language Models at Scale",
       "link": "https://www.analyticsvidhya.com/blog/2026/09/mlops-vs-llmops-vs-agentops/",
@@ -51,6 +101,16 @@
       "ts": 1789615851,
       "published": "2026-09-17T03:30:51+00:00",
       "collected_at": "2026-09-17T16:23:00+09:00"
+    },
+    {
+      "title": "Episode 70 “AOT Caching - Netflix' Practice vs OpenJDK's Theory” [I/O]",
+      "link": "https://inside.java/2026/09/17/podcast-070/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "From time scales to checkpointing, from managing to inspecting cache files, there are a number of details to consider when creating AOT caches for faster Java application launches.",
+      "ts": 1789603200,
+      "published": "2026-09-17T00:00:00+00:00",
+      "collected_at": "2026-09-17T22:12:25+09:00"
     },
     {
       "title": "datasette 1.0a40",
@@ -9951,126 +10011,6 @@
       "ts": 1787059554,
       "published": "2026-08-18T13:25:54+00:00",
       "collected_at": "2026-08-19T00:35:06+09:00"
-    },
-    {
-      "title": "Netflix Open-Sources Agentic Workflow for Causal Inference",
-      "link": "https://www.infoq.com/news/2026/08/netflix-oci-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Netflix open-sourced an agentic workflow for Observational Causal Inference (OCI) that reduces toil in causal analysis. Given observational data and the human user's analysis plan, the agent uses an actor-critic loop to…",
-      "ts": 1787058000,
-      "published": "2026-08-18T13:00:00+00:00",
-      "collected_at": "2026-08-18T22:45:24+09:00"
-    },
-    {
-      "title": "Managing Small Context Windows in Language Models",
-      "link": "https://machinelearningmastery.com/managing-small-context-windows-in-language-models/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn three practical strategies for managing small context windows in large language models, along with working Python examples that demonstrate...",
-      "ts": 1787054420,
-      "published": "2026-08-18T12:00:20+00:00",
-      "collected_at": "2026-08-18T22:45:24+09:00"
-    },
-    {
-      "title": "5 Things Vibe Coding Gets Right and 5 Things It Gets Wrong",
-      "link": "https://www.kdnuggets.com/5-things-vibe-coding-gets-right-and-5-things-it-gets-wrong",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Is vibe coding the future of programming or a shortcut to bad code? Let’s look at what it gets right and wrong.",
-      "ts": 1787054412,
-      "published": "2026-08-18T12:00:12+00:00",
-      "collected_at": "2026-08-18T21:52:47+09:00"
-    },
-    {
-      "title": "Quiz: Arduino With Python: How to Get Started",
-      "link": "https://realpython.com/quizzes/arduino-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of using Arduino with Python. Practice setting up circuits, using the Firmata protocol, and controlling inputs and outputs.",
-      "ts": 1787054400,
-      "published": "2026-08-18T12:00:00+00:00",
-      "collected_at": "2026-08-18T21:52:47+09:00"
-    },
-    {
-      "title": "Quiz: Working With Python's deque",
-      "link": "https://realpython.com/quizzes/working-with-pythons-deque/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python's deque. Practice fast appends and pops at both ends, building queues and stacks, and setting maxlen.",
-      "ts": 1787054400,
-      "published": "2026-08-18T12:00:00+00:00",
-      "collected_at": "2026-08-18T21:52:47+09:00"
-    },
-    {
-      "title": "Ten Is Not a Hundred",
-      "link": "https://towardsdatascience.com/ten-is-not-a-hundred/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The number that fooled every hallucination detector The post Ten Is Not a Hundred appeared first on Towards Data Science .",
-      "ts": 1787054400,
-      "published": "2026-08-18T12:00:00+00:00",
-      "collected_at": "2026-08-18T21:52:47+09:00"
-    },
-    {
-      "title": "Partnering with CodeAI to prepare the first AI generation",
-      "link": "https://openai.com/index/partnering-with-codeai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and CodeAI are partnering to help students build AI literacy, think critically about AI, and develop the skills to use and shape it responsibly.",
-      "ts": 1787050800,
-      "published": "2026-08-18T11:00:00+00:00",
-      "collected_at": "2026-08-18T20:28:17+09:00"
-    },
-    {
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
-      "link": "https://openai.com/index/chatgpt-for-teens",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "ChatGPT for Teens helps teens learn, think critically, and use AI with confidence, with stronger built-in protections, healthy-use features, and additional controls for parents.",
-      "ts": 1787050800,
-      "published": "2026-08-18T11:00:00+00:00",
-      "collected_at": "2026-08-18T20:28:17+09:00"
-    },
-    {
-      "title": "Pacing model development in an era of cyber-critical capabilities",
-      "link": "https://openai.com/index/pacing-model-development-cyber-capabilities",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is strengthening monitoring, alignment, and security for frontier AI models. See how new safeguards are guiding the pace of model development.",
-      "ts": 1787050800,
-      "published": "2026-08-18T11:00:00+00:00",
-      "collected_at": "2026-08-19T03:41:48+09:00"
-    },
-    {
-      "title": "We still don’t know how people are really using AI",
-      "link": "https://www.technologyreview.com/2026/08/18/1142226/how-people-use-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "AI companies like Anthropic and OpenAI regularly publish reports on how people are using products like Claude and ChatGPT, but they only release the data they want us to see, AI researchers say. “There is no independent…",
-      "ts": 1787047603,
-      "published": "2026-08-18T10:06:43+00:00",
-      "collected_at": "2026-08-18T20:28:17+09:00"
-    },
-    {
-      "title": "How to Add Skills in Agents using LangChain",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/build-modular-agent-skills-langchain/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "Ever wondered how ChatGPT, Gemini, and other chat interfaces generate PDFs, PowerPoints, and more when all they have under the hood is an LLM? The trick isn’t a smarter model. It’s something simpler: skills which are in…",
-      "ts": 1787044655,
-      "published": "2026-08-18T09:17:35+00:00",
-      "collected_at": "2026-08-18T18:37:24+09:00"
-    },
-    {
-      "title": "AI’s recursive self-improvement might not come so quickly after all",
-      "link": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chip…",
-      "ts": 1787043600,
-      "published": "2026-08-18T09:00:00+00:00",
-      "collected_at": "2026-08-18T20:28:17+09:00"
     }
   ]
 }
