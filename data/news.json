@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-17T10:11:41+09:00",
-  "count": 1005,
+  "updated": "2026-09-17T16:23:22+09:00",
+  "count": 1007,
   "items": [
+    {
+      "title": "LLMOps vs MLOps vs AgentOps: What Changes When You’re Operating Language Models at Scale",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/mlops-vs-llmops-vs-agentops/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Putting AI into production now takes more than deploying a model and tracking accuracy. MLOps made traditional ML manageable, while LLMOps added concerns around prompts, retrieval, evaluation, latency, and cost. AgentOp…",
+      "ts": 1789626816,
+      "published": "2026-09-17T06:33:36+00:00",
+      "collected_at": "2026-09-17T16:23:00+09:00"
+    },
+    {
+      "title": "GPT-6 Astra Is the First Model OpenAI Classifies as Critical for Cybersecurity",
+      "link": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "OpenAI has classified GPT-6 Astra at the Critical cybersecurity threshold under its Preparedness Framework, a first. In expert-led testing the model found previously unknown vulnerabilities in a browser and an OS kernel…",
+      "ts": 1789621140,
+      "published": "2026-09-17T04:59:00+00:00",
+      "collected_at": "2026-09-17T16:23:00+09:00"
+    },
+    {
+      "title": "GPT-6 Astra Is the First Model OpenAI Classifies as Critical for Cybersecurity",
+      "link": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "OpenAI has classified GPT-6 Astra at the Critical cybersecurity threshold under its Preparedness Framework, a first. In expert-led testing the model found previously unknown vulnerabilities in a browser and an OS kernel…",
+      "ts": 1789621140,
+      "published": "2026-09-17T04:59:00+00:00",
+      "collected_at": "2026-09-17T16:23:00+09:00"
+    },
+    {
+      "title": "v2.44.0 (2026-09-16)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.44.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🛡️ Security This release fixes four security issues, all of them reached through web_fetch_tool or OpenTelemetry instrumentation. See each advisory for full details and affected versions. GHSA-vmxc-h2x2-jmf3 (moderate):…",
+      "ts": 1789617832,
+      "published": "2026-09-17T04:03:52+00:00",
+      "collected_at": "2026-09-17T16:23:00+09:00"
+    },
+    {
+      "title": "v1.107.6 (2026-09-16)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.6",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🛡️ Security A maintenance release for the v1 line, carrying the v1 backports of the four security fixes released in 2.44.0 . See each advisory for full details and affected versions. GHSA-vmxc-h2x2-jmf3 (moderate): clou…",
+      "ts": 1789615851,
+      "published": "2026-09-17T03:30:51+00:00",
+      "collected_at": "2026-09-17T16:23:00+09:00"
+    },
     {
       "title": "datasette 1.0a40",
       "link": "https://simonwillison.net/2026/Sep/16/datasette/",
@@ -10021,36 +10071,6 @@
       "ts": 1787043600,
       "published": "2026-08-18T09:00:00+00:00",
       "collected_at": "2026-08-18T20:28:17+09:00"
-    },
-    {
-      "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
-      "link": "https://openai.com/index/asana",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Asana used OpenAI Codex to replace an outdated testing system in two weeks, completing work expected to take five years for about $12K.",
-      "ts": 1787036400,
-      "published": "2026-08-18T07:00:00+00:00",
-      "collected_at": "2026-08-19T01:35:09+09:00"
-    },
-    {
-      "title": "Major Frontier Model Providers Adopt Watermarking Tech to Comply with EU Regulation",
-      "link": "https://www.infoq.com/news/2026/08/eu-ai-content-watermark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "As of August 2, 2026, the EU AI Act Article 50 requires AI systems to mark synthetic outputs in a machine-detectable manner. Major vendors are implementing statistical watermarking methods, which influence natural langu…",
-      "ts": 1787029500,
-      "published": "2026-08-18T05:05:00+00:00",
-      "collected_at": "2026-08-18T14:32:53+09:00"
-    },
-    {
-      "title": "v2.31.1 (2026-08-17)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.31.1",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🐛 Bug Fixes Deny native structured output for Claude Sonnet 5 and Fable 5 on Bedrock by @pydanty[bot] in #7374 Fall back to thinking_level='LOW' for Gemini models that reject MINIMAL by @pydanty[bot] in #…",
-      "ts": 1787023560,
-      "published": "2026-08-18T03:26:00+00:00",
-      "collected_at": "2026-08-18T12:51:33+09:00"
     }
   ]
 }
