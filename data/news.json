@@ -1,7 +1,47 @@
 {
-  "updated": "2026-09-17T22:12:30+09:00",
-  "count": 1001,
+  "updated": "2026-09-18T03:01:43+09:00",
+  "count": 988,
   "items": [
+    {
+      "title": "Building a Data Lakehouse with DuckDB and DuckLake",
+      "link": "https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-and-ducklake/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Starting with a local Parquet file, then joining it to data stored in the cloud The post Building a Data Lakehouse with DuckDB and DuckLake appeared first on Towards Data Science .",
+      "ts": 1789659002,
+      "published": "2026-09-17T15:30:02+00:00",
+      "collected_at": "2026-09-18T03:01:22+09:00"
+    },
+    {
+      "title": "How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA)",
+      "link": "https://towardsdatascience.com/how-i-built-a-multi-agent-system-for-interrupted-time-series-analysis-itsa/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "What it takes to turn counterfactual analysis into an AI product The post How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA) appeared first on Towards Data Science .",
+      "ts": 1789653601,
+      "published": "2026-09-17T14:00:01+00:00",
+      "collected_at": "2026-09-18T03:01:22+09:00"
+    },
+    {
+      "title": "I don't like LLMs",
+      "link": "https://martinfowler.com/articles/2026-dont-like-llms.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other han…",
+      "ts": 1789653000,
+      "published": "2026-09-17T13:50:00+00:00",
+      "collected_at": "2026-09-18T03:01:22+09:00"
+    },
+    {
+      "title": "Scientific citations as an overwhelmed communication channel",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/17/scientific-citations-as-an-overwhelmed-communication-channel/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Peter Dorman writes: This looks like it’s up your alley. I find it interesting, but I’m not convinced by what he says about innovation. Of course, the issue is empirical, but I suspect it may be different for different…",
+      "ts": 1789652624,
+      "published": "2026-09-17T13:43:44+00:00",
+      "collected_at": "2026-09-18T03:01:22+09:00"
+    },
     {
       "title": "Why You Think Like a Bayesian but Were Taught Like a Frequentist",
       "link": "https://towardsdatascience.com/why-you-think-like-a-bayesian-but-were-taught-like-a-frequentist/",
@@ -9841,176 +9881,6 @@
       "ts": 1787076578,
       "published": "2026-08-18T18:09:38+00:00",
       "collected_at": "2026-08-19T03:41:48+09:00"
-    },
-    {
-      "title": "Claude Code May–August 2026 weekly limits promotion",
-      "link": "https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://support.claude.com/en/articles/15910845-claude-code-may-august-2026-weekly-limits-promotion Comments URL: https://news.ycombinator.com/item?id=49348751 Points: 236 # Comments: 197",
-      "ts": 1787072535,
-      "published": "2026-08-18T17:02:15+00:00",
-      "collected_at": "2026-08-19T05:27:40+09:00"
-    },
-    {
-      "title": "From Prototype to Production: The Architecture Behind Secure & Governed AI Agents",
-      "link": "https://towardsdatascience.com/from-prototype-to-production-the-architecture-behind-secure-governed-ai-agents/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Building the Responsible AI, security, and governance layers required for enterprise-ready agents The post From Prototype to Production: The Architecture Behind Secure & Governed AI Agents appeared first on Towards Data…",
-      "ts": 1787070600,
-      "published": "2026-08-18T16:30:00+00:00",
-      "collected_at": "2026-08-19T02:30:31+09:00"
-    },
-    {
-      "title": "Release 2026.8.18",
-      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.8.18",
-      "source": "MCP servers",
-      "category": "Agents",
-      "summary": "Release : v2026.8.18 Updated packages @modelcontextprotocol/server-everything@2026.8.18 mcp-server-time@2026.8.18 mcp-server-fetch@2026.8.18 mcp-server-git@2026.8.18",
-      "ts": 1787069772,
-      "published": "2026-08-18T16:16:12+00:00",
-      "collected_at": "2026-08-19T01:35:09+09:00"
-    },
-    {
-      "title": "Cloudflare WriteGuard Brings Fine-Grained Security Controls for MCP Servers",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-writeguard-mcp-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare is introducing WriteGuard, now in private beta, to provide fine-grained security controls for MCP (Model Context Protocol) servers. It aims to make AI agents safer by controlling their access to tools that ca…",
-      "ts": 1787068800,
-      "published": "2026-08-18T16:00:00+00:00",
-      "collected_at": "2026-08-19T01:35:09+09:00"
-    },
-    {
-      "title": "Presentation: From Fab To Token - The State Of The Market",
-      "link": "https://www.infoq.com/presentations/ai-hardware-tokenomics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Jordan Nanos discusses how semiconductor constraints, data center expansion, and networking bottlenecks impact AI software architecture. Drawing from SemiAnalysis research, he shares insights on benchmark performance, G…",
-      "ts": 1787068800,
-      "published": "2026-08-18T16:00:00+00:00",
-      "collected_at": "2026-08-19T01:35:09+09:00"
-    },
-    {
-      "title": "Cloudflare WriteGuard Brings Fine-Grained Security Controls for MCP Servers",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-writeguard-mcp-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare is introducing WriteGuard, now in private beta, to provide fine-grained security controls for MCP (Model Context Protocol) servers. It aims to make AI agents safer by controlling their access to tools that ca…",
-      "ts": 1787068800,
-      "published": "2026-08-18T16:00:00+00:00",
-      "collected_at": "2026-08-19T01:35:09+09:00"
-    },
-    {
-      "title": "Presentation: From Fab To Token - The State Of The Market",
-      "link": "https://www.infoq.com/presentations/ai-hardware-tokenomics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Jordan Nanos discusses how semiconductor constraints, data center expansion, and networking bottlenecks impact AI software architecture. Drawing from SemiAnalysis research, he shares insights on benchmark performance, G…",
-      "ts": 1787068800,
-      "published": "2026-08-18T16:00:00+00:00",
-      "collected_at": "2026-08-19T01:35:09+09:00"
-    },
-    {
-      "title": "Fragments: August 18",
-      "link": "https://martinfowler.com/fragments/2026-08-18.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Part of the reason why I’m at Thoughtworks is because I’d like to see a software development organization founded on technical excellence as an example for the rest of the industry. The trouble is that I have little apt…",
-      "ts": 1787065440,
-      "published": "2026-08-18T15:04:00+00:00",
-      "collected_at": "2026-08-19T00:35:06+09:00"
-    },
-    {
-      "title": "Building Enterprise Agent Systems that People can Trust, Verify and Improve",
-      "link": "https://towardsdatascience.com/building-enterprise-agent-systems-that-people-can-trust-verify-and-improve/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "5 principles that determine whether an agent system succeeds in production, explained through one I built for a $100M+ company. The post Building Enterprise Agent Systems that People can Trust, Verify and Improve appear…",
-      "ts": 1787065200,
-      "published": "2026-08-18T15:00:00+00:00",
-      "collected_at": "2026-08-19T00:35:06+09:00"
-    },
-    {
-      "title": "dotnet-1.18.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.18.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "What's Changed .NET: Fix IDE0039 by using local functions in samples by Roger Barreto (@rogerbarreto) in #7666 .NET: Allow agents to opt into concurrent tool invocation by ump45nose in #7650 .NET: Add Foundry hosted ses…",
-      "ts": 1787063458,
-      "published": "2026-08-18T14:30:58+00:00",
-      "collected_at": "2026-08-18T23:36:49+09:00"
-    },
-    {
-      "title": "Introducing BoxLang AI Explorer: A Local Catalog for Every AI Pattern",
-      "link": "https://foojay.io/today/introducing-boxlang-ai-explorer-a-local-catalog-for-every-ai-pattern/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Learning a new AI API usually means jumping between scattered documentation pages, guessing at imports, and copy-pasting code that may or may not still work. We wanted something better for BoxLang AI, so we built the Bo…",
-      "ts": 1787062548,
-      "published": "2026-08-18T14:15:48+00:00",
-      "collected_at": "2026-08-18T23:36:49+09:00"
-    },
-    {
-      "title": "Vibe Coding, Maven, and the Dependencies You Didn’t Choose",
-      "link": "https://foojay.io/today/vibe-coding-maven-and-the-dependencies-you-didnt-choose/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "When I write about bad actors, I sometimes try to imagine where they are and how they work. For this article, it’s clearer than usual because there is some evidence around. You can use your imagination to fill in the ..…",
-      "ts": 1787061680,
-      "published": "2026-08-18T14:01:20+00:00",
-      "collected_at": "2026-08-18T23:36:49+09:00"
-    },
-    {
-      "title": "Run Qwen3.8-27B as a Local AI Coding Agent in Just 3 Commands",
-      "link": "https://www.kdnuggets.com/run-qwen3-8-27b-as-a-local-ai-coding-agent-in-just-3-commands",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Download Ollama, pull and serve Qwen3.8-27B, and launch it with OpenCode using just three command lines.",
-      "ts": 1787061629,
-      "published": "2026-08-18T14:00:29+00:00",
-      "collected_at": "2026-08-18T23:36:49+09:00"
-    },
-    {
-      "title": "Working With Python's deque",
-      "link": "https://realpython.com/courses/working-with-pythons-deque/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use Python's deque to efficiently append and pop items from both ends, build queues and stacks, and set maxlen for bounded history.",
-      "ts": 1787061600,
-      "published": "2026-08-18T14:00:00+00:00",
-      "collected_at": "2026-08-18T23:36:49+09:00"
-    },
-    {
-      "title": "The improvement in political analysis in the past 25 years, as demonstrated by excellent demonstrations of statistical workflow from Elliott Morris, Nate Silver, and Eli Mckown-Dawson",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/18/modern-day-political-analysis-excellent-demonstrations-of-statistical-workflow-from-elliott-morris-nate-silver-and-eli-mckown-dawson/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "As with baseball, football, and basketball (and I’m sure other sports too), the standard of political analytics is just so much higher than it was, decades ago. I was talking with Gustavo just the other day about Red St…",
-      "ts": 1787060260,
-      "published": "2026-08-18T13:37:40+00:00",
-      "collected_at": "2026-08-18T22:45:24+09:00"
-    },
-    {
-      "title": "Graph Engineering Isn’t About More Connections — It’s About Which Ones Get Used",
-      "link": "https://towardsdatascience.com/graph-engineering-isnt-about-more-connections-its-about-which-ones-get-used/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Adding more communication pathways between agents doesn’t necessarily improve multi-agent performance. In a controlled, reproducible experiment across 50 runs, recovery remained remarkably stable from 20% to 100% relati…",
-      "ts": 1787059800,
-      "published": "2026-08-18T13:30:00+00:00",
-      "collected_at": "2026-08-18T22:45:24+09:00"
-    },
-    {
-      "title": "NeoBrowser: An MCP server that drives real Chrome with your logged-in sessions",
-      "link": "https://github.com/pitiflautico/neobrowser",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/pitiflautico/neobrowser Comments URL: https://news.ycombinator.com/item?id=49345320 Points: 28 # Comments: 23",
-      "ts": 1787059554,
-      "published": "2026-08-18T13:25:54+00:00",
-      "collected_at": "2026-08-19T00:35:06+09:00"
     }
   ]
 }
