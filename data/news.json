@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-19T03:10:21+09:00",
-  "count": 995,
+  "updated": "2026-09-19T06:31:16+09:00",
+  "count": 993,
   "items": [
+    {
+      "title": "Note on 18th September 2026",
+      "link": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Tags: llms , ai…",
+      "ts": 1789759292,
+      "published": "2026-09-18T19:21:32+00:00",
+      "collected_at": "2026-09-19T06:30:55+09:00"
+    },
+    {
+      "title": "Quoting Thariq Shihipar",
+      "link": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, ou…",
+      "ts": 1789758567,
+      "published": "2026-09-18T19:09:27+00:00",
+      "collected_at": "2026-09-19T06:30:55+09:00"
+    },
+    {
+      "title": "MariaDB 13 Expands Oracle Compatibility and Improves Developer Experience and Observability",
+      "link": "https://www.infoq.com/news/2026/09/mariadb-13-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "MariaDB Community Server 13.0 has reached General Availability (GA) and is now officially stable. This release introduces a range of new features, deprecations, and performance improvements, including expanded support f…",
+      "ts": 1789758000,
+      "published": "2026-09-18T19:00:00+00:00",
+      "collected_at": "2026-09-19T06:30:55+09:00"
+    },
     {
       "title": "dotnet-1.22.0",
       "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.22.0",
@@ -31,6 +61,16 @@
       "ts": 1789742201,
       "published": "2026-09-18T14:36:41+00:00",
       "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "Reusing the Prompt Prefix with a Key-Value Cache for SLM Optimization",
+      "link": "https://www.kdnuggets.com/reusing-the-prompt-prefix-with-a-key-value-cache-for-slm-optimization",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "In this second article in our short series on SLM optimization techniques we focus on the reuse of the prompt prefix with a key-value cache.",
+      "ts": 1789740034,
+      "published": "2026-09-18T14:00:34+00:00",
+      "collected_at": "2026-09-19T06:30:55+09:00"
     },
     {
       "title": "We Pinned Our Model Version to Stay Safe. The Provider Deprecated It Anyway.",
@@ -101,6 +141,16 @@
       "ts": 1789734601,
       "published": "2026-09-18T12:30:01+00:00",
       "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "5 Prompt Optimization Strategies That Actually Improve LLM Output",
+      "link": "https://www.kdnuggets.com/5-prompt-optimization-strategies-that-actually-improve-llm-output",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "This article covers five prompt optimization strategies such as: prompt optimization, prompt engineering, LLM output quality, few-shot prompting, chain-of-thought, structured outputs.",
+      "ts": 1789732822,
+      "published": "2026-09-18T12:00:22+00:00",
+      "collected_at": "2026-09-19T06:30:55+09:00"
     },
     {
       "title": "Build And Understand a Vector Database From Scratch in 10 Easy Steps",
@@ -241,6 +291,16 @@
       "ts": 1789705872,
       "published": "2026-09-18T04:31:12+00:00",
       "collected_at": "2026-09-18T14:39:26+09:00"
+    },
+    {
+      "title": "Partnering with Accenture on embedded evaluation",
+      "link": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Partnering with Accenture on embedded evaluation",
+      "ts": 1789689600,
+      "published": "2026-09-18T00:00:00+00:00",
+      "collected_at": "2026-09-19T06:30:55+09:00"
     },
     {
       "title": "Be alert: targeted attacks on prominent Rustaceans",
@@ -9871,86 +9931,6 @@
       "ts": 1787179567,
       "published": "2026-08-19T22:46:07+00:00",
       "collected_at": "2026-08-20T08:25:47+09:00"
-    },
-    {
-      "title": "Why I am so against volunteering in academia (ecology-edition)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/19/why-i-am-so-against-volunteering-in-academia-ecology-edition/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This post is by Lizzie. The photo is from this summer and included for no other reason than because I like a photo with a post. A few months ago I wrote a post where I compared the toxic culture … Continue reading →",
-      "ts": 1787171841,
-      "published": "2026-08-19T20:37:21+00:00",
-      "collected_at": "2026-08-20T06:28:18+09:00"
-    },
-    {
-      "title": "Offering Zero Data Retention for frontier models",
-      "link": "https://openai.com/index/our-commitment-to-zero-data-retention",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "ts": 1787166000,
-      "published": "2026-08-19T19:00:00+00:00",
-      "collected_at": "2026-08-20T02:29:24+09:00"
-    },
-    {
-      "title": "5 new ways to level up your learning with Search",
-      "link": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "an illustrated image with icons and phrasing like \"Add Notebook\" and \"Ask Google\"",
-      "ts": 1787166000,
-      "published": "2026-08-19T19:00:00+00:00",
-      "collected_at": "2026-08-20T04:28:50+09:00"
-    },
-    {
-      "title": "Offering Zero Data Retention for frontier models",
-      "link": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
-      "ts": 1787166000,
-      "published": "2026-08-19T19:00:00+00:00",
-      "collected_at": "2026-08-20T05:32:08+09:00"
-    },
-    {
-      "title": "v0.14.24",
-      "link": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24",
-      "source": "LlamaIndex",
-      "category": "Agents",
-      "summary": "Release Notes [2026-08-19] llama-index-core [0.14.24] fix: close HotpotQA evaluator file handles ( #22113 ) fix(core): preserve oversized leaf nodes in CodeSplitter ( #22119 ) fix: preserve multiblock chat history write…",
-      "ts": 1787165281,
-      "published": "2026-08-19T18:48:01+00:00",
-      "collected_at": "2026-08-20T04:28:50+09:00"
-    },
-    {
-      "title": "Show HN: Open Bot – an open-source Grok Bot that works with any agent harness",
-      "link": "https://github.com/copilotkit/openbot",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://github.com/copilotkit/openbot Comments URL: https://news.ycombinator.com/item?id=49365575 Points: 11 # Comments: 1",
-      "ts": 1787165148,
-      "published": "2026-08-19T18:45:48+00:00",
-      "collected_at": "2026-08-20T04:28:50+09:00"
-    },
-    {
-      "title": "Citizens Build, Agents Execute, Experts Govern",
-      "link": "https://martinfowler.com/rachels-ramblings/citizens-agents-experts.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "TL;DR Why building an app over the weekend isn't the same as building enterprise software I’ve noticed an interesting gap opening up over the last six months. It isn’t really a gap in technology. It’s a gap in what diff…",
-      "ts": 1787164200,
-      "published": "2026-08-19T18:30:00+00:00",
-      "collected_at": "2026-08-20T03:39:48+09:00"
-    },
-    {
-      "title": "Practitioner Voice: The Writing Category Nobody has Named Yet",
-      "link": "https://martinfowler.com/articles/practitioner-voice.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Jim Highsmith recognizes that effective writing from a practitioner is a style distinct from academic writing or thought-leadership content. It's a style that I advocate, and my contributors mostly follow. Jim decided i…",
-      "ts": 1787163300,
-      "published": "2026-08-19T18:15:00+00:00",
-      "collected_at": "2026-08-20T03:39:48+09:00"
     }
   ]
 }
