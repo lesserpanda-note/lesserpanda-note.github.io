@@ -1,6 +1,82 @@
 {
   "digests": [
     {
+      "date": "2026-09-17",
+      "summary": "Java 27 공식 출시와 OpenAI의 모델 정렬 이탈 보고 프레임워크가 오늘의 핵심 소식입니다. 에이전트 분야에서는 Claude 인터페이스 통합 발표와 AI 에이전트 평가(eval) 방법론이 주목받았으며, Pinterest와 Lyft의 대규모 아키텍처 마이그레이션 사례도 눈에 띄었습니다. 데이터사이언스·Python 분야에서는 이상치 강건 회귀, 텐서 브로드캐스팅 버그, AI 생성 코드 검토 워크플로 등 실무 중심 콘텐츠가 이어졌습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java 27 Delivers Post-Quantum Cryptography, Future Language Innovation, Helidon 27, JavaFX 27",
+          "link": "https://www.infoq.com/news/2026/09/java27-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "Oracle이 Java 27을 공식 출시했습니다. 9개의 JEP를 포함하는 비-LTS 릴리스로 양자 내성 암호화(Post-Quantum Cryptography) 지원이 새롭게 추가되었습니다.",
+          "detail": "Oracle은 JDK 25 이후 두 번째 비-LTS 릴리스인 Java 27을 공식 출시했습니다. 이번 릴리스에는 총 9개의 JEP가 포함되며, 그 중 일부는 아직 진행 중인 상태입니다. 가장 주목할 만한 기능은 양자 컴퓨팅 위협에 대비한 양자 내성 암호화(Post-Quantum Cryptography) 표준의 지원입니다. 미래 언어 혁신을 위한 기반도 함께 마련되었으며, 관련 프레임워크인 Helidon 27과 JavaFX 27도 동시에 업데이트되었습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Our framework for reporting model misalignment",
+          "link": "https://openai.com/index/model-misalignment-reporting-framework",
+          "summary": "OpenAI가 AI 모델의 정렬 이탈(misalignment) 사례를 추적·조사·공개하는 프레임워크와 함께 우려스러운 모델 행동 사례 6건을 발표했습니다.",
+          "detail": "OpenAI는 모델 오정렬(model misalignment) 보고 프레임워크를 공개하고, 예상치 못한 또는 우려스러운 모델 행동 사례 6건을 함께 발표했습니다. 이 프레임워크는 AI 모델이 의도한 대로 행동하지 않는 사례를 체계적으로 추적·조사·공개하는 절차를 규정합니다. AI 안전 거버넌스의 표준 수립 측면에서 의미 있는 발표로, 투명성 강화와 업계 공유를 통해 안전 연구를 진전시키려는 의도입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Article: Your Next DSL Author Is a Language Model",
+          "link": "https://www.infoq.com/articles/next-dsl-author-language-model/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "LLM이 도메인 특화 언어(DSL)를 생성할 때 발생하는 환각을 줄이는 Typed Domain Grounding 접근법을 소개합니다.",
+          "detail": "InfoQ 기사는 LLM이 DSL(도메인 특화 언어)을 생성할 때 발생하는 환각(hallucination) 문제를 해결하는 Typed Domain Grounding 기법을 소개합니다. 이 접근법은 DSL을 기존의 타입이 있는 주류 프로그래밍 언어에 임베딩하여, LLM이 타입 시스템의 제약 안에서 DSL을 생성하도록 강제하는 방식입니다. kUML 벤치마크를 활용한 평가에서 환각 발생률이 크게 감소했으며, 코드 생성 정확도를 높이는 실용적인 방법으로 주목받습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Claude Cowork and chat are now one Claude",
+          "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
+          "summary": "Anthropic이 Claude Cowork와 Claude 채팅을 통합하여 하나의 일관된 Claude 경험으로 단일화했습니다.",
+          "detail": "Simon Willison의 블로그에 따르면, 2026년 9월 16일부터 Claude Cowork와 Claude 채팅이 하나의 Claude 인터페이스로 통합되었습니다. 이로써 사용자들이 Cowork, Claude, Claude Code 사이에서 혼란 없이 단일 경험을 이용할 수 있게 됩니다. Anthropic의 이번 변화는 분산된 제품 라인업을 단순화하여 사용자 경험을 개선하려는 전략의 일환으로 평가됩니다."
+        },
+        {
+          "category": "Agents",
+          "title": "How to Build Effective Evals for AI Agents",
+          "link": "https://www.kdnuggets.com/how-to-build-effective-evals-for-ai-agents",
+          "summary": "AI 에이전트를 위한 효과적인 평가(eval) 체계를 명확한 태스크 설계부터 그레이더 선택, 평가 하네스 구성까지 단계별로 소개합니다.",
+          "detail": "KDnuggets는 AI 에이전트 평가(eval) 시스템을 구축하는 실용적인 가이드를 제공합니다. 핵심 단계로는 명확한 태스크 정의, 적절한 그레이더(평가자) 선택, 안정적인 eval 하네스 구성, 그리고 시간 경과에 따른 변화 추적이 포함됩니다. 에이전트가 복잡한 다단계 작업을 수행하는 만큼, 단순 정확도 평가를 넘어 프로세스 평가와 최종 결과 평가를 함께 설계하는 것이 중요하다고 강조합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "From Memory-Hungry HNSW to Quantized SPANN: The Technical Evolution of Pinterest's Manas Platform",
+          "link": "https://www.infoq.com/news/2026/09/pinterest-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Pinterest Engineering이 Manas 검색 플랫폼에 Scalar·Product Quantization을 도입해 메모리 사용량을 크게 줄이고 대규모 벡터 검색 효율을 향상시켰습니다.",
+          "detail": "Pinterest의 Manas 플랫폼은 대규모 벡터 검색을 위해 메모리 소모가 큰 HNSW에서 SPANN(Sublinear Approximate Nearest Neighbor)으로 전환하고, Scalar Quantization(SQ)과 Product Quantization(PQ)을 적용했습니다. 이로써 수십억 규모의 벡터 데이터에서 메모리 사용량이 크게 감소하고 효율적인 검색이 가능해졌습니다. 양자화 기술은 벡터 표현 정밀도를 낮추는 대신 메모리·속도 트레이드오프를 최적화하는 방식으로, Pinterest의 검색·추천 인프라를 실질적으로 개선한 사례로 주목받습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Lyft Moves Streaming Fleet to Apache Flink Kubernetes Operator",
+          "link": "https://www.infoq.com/news/2026/09/lyft-flink-k8s-operator/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Lyft가 수백 개의 프로덕션 Flink 작업을 사내 Kubernetes 오퍼레이터에서 공식 Apache Flink Kubernetes Operator로 마이그레이션했습니다.",
+          "detail": "Lyft는 2020년에 구축한 사내 Kubernetes 오퍼레이터에서 벗어나, 공식 Apache Flink Kubernetes Operator로 수백 개의 프로덕션 Flink 작업을 이전했습니다. 마이그레이션을 통해 last-state 업그레이드, 인플레이스 오토스케일링, 리소스 자동 조정(autotuning) 기능이 가능해졌습니다. 커뮤니티 오퍼레이터 채택으로 유지 관리 부담을 줄이고 최신 Flink 생태계 기능을 빠르게 활용할 수 있게 된 실무 마이그레이션 사례입니다."
+        },
+        {
+          "category": "Python",
+          "title": "How to Review AI-Generated Python Code Efficiently",
+          "link": "https://realpython.com/review-ai-generated-code/",
+          "summary": "ruff, mypy, bandit, pytest를 활용해 AI가 생성한 Python 코드를 효율적으로 검토하고 에이전트가 자주 놓치는 버그를 잡는 워크플로를 소개합니다.",
+          "detail": "Real Python 튜토리얼은 AI 코드 생성 도구가 보편화된 시대에 AI가 만든 Python 코드를 체계적으로 검토하는 실용적인 워크플로를 안내합니다. ruff(린팅·포맷팅), mypy(타입 체크), bandit(보안 취약점 탐지), pytest(테스트)를 순서대로 실행하여 코드 품질을 다각도로 검증합니다. AI 에이전트가 자주 놓치는 패턴(타입 불일치, 보안 취약점, 엣지케이스 누락 등)을 사람이 효율적으로 확인하는 방법을 구체적으로 설명합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "How to Make Linear Regression Survive Outliers",
+          "link": "https://towardsdatascience.com/how-to-make-linear-regression-survive-outliers/",
+          "summary": "이상치에 강건한 회귀 분석을 위한 고전적·현대적 Robust 추정량을 이론, 코드, 실험으로 비교 분석합니다.",
+          "detail": "Towards Data Science의 Robust Estimation 시리즈로, 이상치(outlier)에 취약한 OLS(최소제곱법) 대신 사용할 수 있는 다양한 Robust 추정량을 비교합니다. Huber 회귀, Theil-Sen 추정량, RANSAC 등 대표적인 방법들을 이론적 배경과 Python 코드, 실험 결과로 설명합니다. 각 방법의 이상치 내성과 통계적 효율성 간의 트레이드오프를 실험으로 확인하고, 실무 적용 시 상황에 맞는 방법을 선택하는 기준을 제시합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Silent Broadcasting Can Ruin Your Model",
+          "link": "https://towardsdatascience.com/silent-broadcasting-can-ruin-your-model/",
+          "summary": "PyTorch와 TensorFlow의 텐서 브로드캐스팅이 조용히 Shape 오류를 허용해 디버깅하기 어려운 머신러닝 버그를 유발할 수 있습니다.",
+          "detail": "Towards Data Science 기사는 PyTorch·TensorFlow의 자동 브로드캐스팅(broadcasting)이 Shape이 맞지 않는 텐서 연산을 오류 없이 실행시켜 미묘한 버그를 만드는 문제를 다룹니다. 예상과 다른 Shape으로 연산이 수행되면 학습 손실이 이상하게 낮아지거나 결과가 왜곡될 수 있어 디버깅이 매우 어렵습니다. assert 문이나 명시적 Shape 검사를 통해 브로드캐스팅 오류를 조기에 발견하는 방어적 코딩 습관의 중요성을 강조합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-09-16",
       "summary": "오늘은 Google DeepMind의 Gemini 3.8 Live 출시와 AI 인프라 대규모 투자의 위험성 분석이 주요 화제를 이뤘으며, AI 에이전트의 인터넷 훼손 문제와 평가 표준화 움직임(AEF-1)도 주목받았습니다. 아키텍처 분야에서는 AWS Amazon Linux 2027 공개 프리뷰와 Solaris Turnstile의 현대 시스템 설계 영향이 눈에 띄었습니다. 데이터사이언스·Python 분야에서는 재매개변수화 그래디언트 기법, 텍스트 분류 데이터 효율성 실증, EDA 자동화 도구 등 실용적인 기술 콘텐츠가 풍성했습니다.",
       "highlights": [
