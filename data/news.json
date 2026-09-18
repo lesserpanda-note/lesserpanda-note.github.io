@@ -1,7 +1,157 @@
 {
-  "updated": "2026-09-18T19:51:12+09:00",
-  "count": 996,
+  "updated": "2026-09-18T23:51:00+09:00",
+  "count": 998,
   "items": [
+    {
+      "title": "The Creative Spirit of Who Framed Roger Rabbit",
+      "link": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The Creative Spirit of Who Framed Roger Rabbit I love Who Framed Roger Rabbit , the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from e…",
+      "ts": 1789742201,
+      "published": "2026-09-18T14:36:41+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "We Pinned Our Model Version to Stay Safe. The Provider Deprecated It Anyway.",
+      "link": "https://towardsdatascience.com/we-pinned-our-model-version-to-stay-safe-the-provider-deprecated-it-anyway/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The recurring cost of production AI is not inference. It is re-qualification: the eval reruns, prompt retuning, and regression testing you owe every time a model changes under you. Here is what that tax actually covers,…",
+      "ts": 1789740002,
+      "published": "2026-09-18T14:00:02+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "New experts join Google’s AI & Economy team",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
+      "ts": 1789740000,
+      "published": "2026-09-18T14:00:00+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "DoorDash Uses Multi Agent LLMs to Clean up 60,000 Feature Flags",
+      "link": "https://www.infoq.com/news/2026/09/doordash-feature-flag-cleanup/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DoorDash built a multi-agent LLM system to automate stale feature flag cleanup across more than 60,000 flags and 623 repositories. The workflow combines live experimentation data through MCP, engineer approval, isolated…",
+      "ts": 1789739400,
+      "published": "2026-09-18T13:50:00+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "DoorDash Uses Multi Agent LLMs to Clean up 60,000 Feature Flags",
+      "link": "https://www.infoq.com/news/2026/09/doordash-feature-flag-cleanup/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "DoorDash built a multi-agent LLM system to automate stale feature flag cleanup across more than 60,000 flags and 623 repositories. The workflow combines live experimentation data through MCP, engineer approval, isolated…",
+      "ts": 1789739400,
+      "published": "2026-09-18T13:50:00+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "Meritocracy to-morrow and meritocracy yesterday – but never meritocracy to-day",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/18/meritocracy-to-morrow-and-meritocracy-yesterday-but-never-meritocracy-to-day/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Alice couldn’t help laughing, as she said, “I don’t want you to hire me – and I don’t care for jam.” “It’s very good jam,” said the Queen. “Well, I don’t want any to-day, at any rate.” “You couldn’t have … Continue read…",
+      "ts": 1789736971,
+      "published": "2026-09-18T13:09:31+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "Co-creating the future of fashion with Google",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Jane Wade and Sergio Hudson",
+      "ts": 1789736400,
+      "published": "2026-09-18T13:00:00+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "Starting a Career in Data Science in the Age of AI",
+      "link": "https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How do you set yourself up for a career that will stand the test of time when things are changing so fast? The post Starting a Career in Data Science in the Age of AI appeared first on Towards Data Science .",
+      "ts": 1789734601,
+      "published": "2026-09-18T12:30:01+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "Build And Understand a Vector Database From Scratch in 10 Easy Steps",
+      "link": "https://machinelearningmastery.com/build-and-understand-a-vector-database-from-scratch-in-10-easy-steps/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how a vector database works under the hood by building one from scratch in ten incremental steps using Python...",
+      "ts": 1789732803,
+      "published": "2026-09-18T12:00:03+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "WSO2 Releases Agent Manager as Enterprises Look to Control Growing AI Agent Sprawl",
+      "link": "https://www.infoq.com/news/2026/09/ws02-agent-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "WSO2 has announced the general availability of WSO2 Agent Manager, an open-source platform designed to provide centralized governance, identity management, security controls, and operational oversight for AI agents runn…",
+      "ts": 1789732800,
+      "published": "2026-09-18T12:00:00+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "Quiz: Introduction to pandas",
+      "link": "https://realpython.com/quizzes/introduction-pandas/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your pandas basics: read tables from the web, save data to CSV, explore a DataFrame, and calculate averages in this interactive quiz.",
+      "ts": 1789732800,
+      "published": "2026-09-18T12:00:00+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "Could AI really kill us all? Your questions, answered.",
+      "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had…",
+      "ts": 1789730962,
+      "published": "2026-09-18T11:29:22+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "Multi-Agent Coding Isn’t Enough — Agents Need a Commitment Layer",
+      "link": "https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-layer/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Multi-agent coding systems don't necessarily fail because agents can't communicate. They can fail because important commitments made in conversation have nowhere to live afterward. The post Multi-Agent Coding Isn’t Enou…",
+      "ts": 1789729201,
+      "published": "2026-09-18T11:00:01+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "Presentation: Complexity and Creativity in Software Engineering",
+      "link": "https://www.infoq.com/presentations/ai-software-engineering-complexity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Phillip Mortimer discusses the shift toward write-only software driven by AI code generation. He explains why traditional pull requests are broken and shares how engineering leaders can manage complexity by decoupling i…",
+      "ts": 1789729200,
+      "published": "2026-09-18T11:00:00+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
+    {
+      "title": "What’s Actually Inside 24,723 Tokens of a Search Result? We Broke It Down, Field by Field",
+      "link": "https://machinelearningmastery.com/2026-09-prnews-io-whats-actually-inside-24723-tokens-of-a-search-result-we-broke-it-down-field-by-field/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Sponsored Content It's no secret that AI agents burn massive amounts of tokens on search results and file retrievals. They pull in...",
+      "ts": 1789727868,
+      "published": "2026-09-18T10:37:48+00:00",
+      "collected_at": "2026-09-18T23:50:39+09:00"
+    },
     {
       "title": "python-1.19.0",
       "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.19.0",
@@ -9831,136 +9981,6 @@
       "ts": 1787151600,
       "published": "2026-08-19T15:00:00+00:00",
       "collected_at": "2026-08-20T00:34:36+09:00"
-    },
-    {
-      "title": "Whatsapp Tests on Device ML for Scam Detection with Privacy Preserving Analytics",
-      "link": "https://www.infoq.com/news/2026/08/whatsapp-scam-alert-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "WhatsApp is testing Scam Alert in limited beta, using on device machine learning to detect potential scam messages from non contacts. Meta's architecture keeps message content on the device while using confidential comp…",
-      "ts": 1787149020,
-      "published": "2026-08-19T14:17:00+00:00",
-      "collected_at": "2026-08-19T23:37:39+09:00"
-    },
-    {
-      "title": "Whatsapp Tests on Device ML for Scam Detection with Privacy Preserving Analytics",
-      "link": "https://www.infoq.com/news/2026/08/whatsapp-scam-alert-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "WhatsApp is testing Scam Alert in limited beta, using on device machine learning to detect potential scam messages from non contacts. Meta's architecture keeps message content on the device while using confidential comp…",
-      "ts": 1787149020,
-      "published": "2026-08-19T14:17:00+00:00",
-      "collected_at": "2026-08-19T23:37:39+09:00"
-    },
-    {
-      "title": "How to Answer AI System Design Interview Questions",
-      "link": "https://www.kdnuggets.com/how-to-answer-ai-system-design-interview-questions",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "The interview moved from Design YouTube to Design ChatGPT. Here's the framework.",
-      "ts": 1787148055,
-      "published": "2026-08-19T14:00:55+00:00",
-      "collected_at": "2026-08-19T23:37:39+09:00"
-    },
-    {
-      "title": "How to Use Claude Code to Write and Debug Python",
-      "link": "https://realpython.com/how-to-use-claude-code/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use Claude Code to build and debug Python projects with natural-language commands right from your terminal.",
-      "ts": 1787148000,
-      "published": "2026-08-19T14:00:00+00:00",
-      "collected_at": "2026-08-19T23:37:39+09:00"
-    },
-    {
-      "title": "What does it mean when different articles published by different people on the same topic have nearly identical titles? (“A novel nutritional supplement reduces postprandial glucose response in healt…",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/19/what-does-it-mean-when-different-articles-published-by-different-people-on-the-same-topic-have-nearly-identical-titles-a-novel-nutritional-supplement-reduces-postprandial-glucose-response-in-heal/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Sanjeev Sripathi writes: I came across a firm that seems to be offering a miracle product – https://letsmoderate.com/products/sugar-slayer . Their claim is that ingesting it hammers your post-meal blood sugar spike down…",
-      "ts": 1787147434,
-      "published": "2026-08-19T13:50:34+00:00",
-      "collected_at": "2026-08-19T23:37:39+09:00"
-    },
-    {
-      "title": "What does it mean when different articles published by different people on the same topic have nearly identical titles? (“A novel nutritional supplement reduces postprandial glucose response in healt…",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/19/wh/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Sanjeev Sripathi writes: I came across a firm that seems to be offering a miracle product – https://letsmoderate.com/products/sugar-slayer . Their claim is that ingesting it hammers your post-meal blood sugar spike down…",
-      "ts": 1787147434,
-      "published": "2026-08-19T13:50:34+00:00",
-      "collected_at": "2026-08-20T00:34:36+09:00"
-    },
-    {
-      "title": "LFM2.5 Q4\\_0 Checkpoints from Quantization-Aware Distillation",
-      "link": "https://huggingface.co/blog/LiquidAI/qad",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1787147329,
-      "published": "2026-08-19T13:48:49+00:00",
-      "collected_at": "2026-08-19T23:37:39+09:00"
-    },
-    {
-      "title": "v0.22.0",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.0",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "Key Changes Version 0.22.0 is a minor release because it adds substantial runtime hardening and tightens an existing provider configuration contract. Applications that combine an explicit openai_client with organization…",
-      "ts": 1787147078,
-      "published": "2026-08-19T13:44:38+00:00",
-      "collected_at": "2026-08-19T22:47:51+09:00"
-    },
-    {
-      "title": "5 Tools for Building and Deploying AI Agents in Production",
-      "link": "https://www.kdnuggets.com/5-tools-for-building-and-deploying-ai-agents-in-production",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "This article walks through five tools, one for each layer of the stack from building the agent's logic to running all of it at scale.",
-      "ts": 1787140815,
-      "published": "2026-08-19T12:00:15+00:00",
-      "collected_at": "2026-08-19T21:53:46+09:00"
-    },
-    {
-      "title": "Quiz: How to Review AI-Generated Python Code Efficiently",
-      "link": "https://realpython.com/quizzes/review-ai-generated-code/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of how to review AI-generated Python code, from automated checks to the bugs that coding agents get wrong most often.",
-      "ts": 1787140800,
-      "published": "2026-08-19T12:00:00+00:00",
-      "collected_at": "2026-08-19T21:53:46+09:00"
-    },
-    {
-      "title": "Jigsaw Jeeves: Building a Puzzle Assistant using Computer Vision",
-      "link": "https://towardsdatascience.com/jigsaw-jeeves-building-a-puzzle-assistant-using-computer-vision/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Conceptual overview and walkthrough of a solution approach in Python The post Jigsaw Jeeves: Building a Puzzle Assistant using Computer Vision appeared first on Towards Data Science .",
-      "ts": 1787140800,
-      "published": "2026-08-19T12:00:00+00:00",
-      "collected_at": "2026-08-19T21:53:46+09:00"
-    },
-    {
-      "title": "Quiz: How to Use Claude Code to Write and Debug Python",
-      "link": "https://realpython.com/quizzes/how-to-use-claude-code/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Claude Code by working through installation, plan mode, diff review, and debugging a Python project.",
-      "ts": 1787140800,
-      "published": "2026-08-19T12:00:00+00:00",
-      "collected_at": "2026-08-20T01:35:03+09:00"
-    },
-    {
-      "title": "Presentation: Understanding Progressive Collapse: How To Avoid A Cascading Failure",
-      "link": "https://www.infoq.com/presentations/progressive-collapse-system-resilience/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Sam Newman discusses the concept of progressive collapse in civil engineering and how it applies to distributed systems. Using real-world examples - from the 1968 Ronan Point tower failure to AWS outages - he shares cru…",
-      "ts": 1787137200,
-      "published": "2026-08-19T11:00:00+00:00",
-      "collected_at": "2026-08-19T20:28:33+09:00"
     }
   ]
 }
