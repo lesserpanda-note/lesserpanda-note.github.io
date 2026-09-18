@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-18T23:51:00+09:00",
-  "count": 998,
+  "updated": "2026-09-19T03:10:21+09:00",
+  "count": 995,
   "items": [
+    {
+      "title": "dotnet-1.22.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.22.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "dotnet-1.22.0",
+      "ts": 1789754931,
+      "published": "2026-09-18T18:08:51+00:00",
+      "collected_at": "2026-09-19T03:10:08+09:00"
+    },
+    {
+      "title": "Coding Agents Keep Shipping Silent Failures — Here Is How to Catch Them",
+      "link": "https://towardsdatascience.com/coding-agents-keep-shipping-silent-failures-here-is-how-to-catch-them/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "How to verify your app aligns with your intent without ever reading a line of generated code. The post Coding Agents Keep Shipping Silent Failures — Here Is How to Catch Them appeared first on Towards Data Science .",
+      "ts": 1789745401,
+      "published": "2026-09-18T15:30:01+00:00",
+      "collected_at": "2026-09-19T03:10:08+09:00"
+    },
     {
       "title": "The Creative Spirit of Who Framed Roger Rabbit",
       "link": "https://simonwillison.net/2026/Sep/18/the-creative-spirit-of-who-framed-roger-rabbit/",
@@ -9931,56 +9951,6 @@
       "ts": 1787163300,
       "published": "2026-08-19T18:15:00+00:00",
       "collected_at": "2026-08-20T03:39:48+09:00"
-    },
-    {
-      "title": "langgraph-sdk==0.4.3",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.3",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since sdk==0.4.2 release(sdk-py): 0.4.3 ( #8657 ) feat(sdk-py): add decrypt replacement result ( #8598 ) release(langgraph): 1.2.11 ( #8595 ) chore(deps): bump the minor-and-patch group across 1 directory with 5…",
-      "ts": 1787162732,
-      "published": "2026-08-19T18:05:32+00:00",
-      "collected_at": "2026-08-20T03:39:48+09:00"
-    },
-    {
-      "title": "How to Scale an Integration Pipeline Without Breaking Correctness",
-      "link": "https://towardsdatascience.com/scaling-an-integration-pipeline-without-breaking-correctness/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A production account of scaling an enterprise integration pipeline from 500 to 8,000 events per second, and the two correctness guarantees the throughput work was never allowed to trade away. The post How to Scale an In…",
-      "ts": 1787162400,
-      "published": "2026-08-19T18:00:00+00:00",
-      "collected_at": "2026-08-20T03:39:48+09:00"
-    },
-    {
-      "title": "Kimi K3’s 1M Token Context Window vs. RAG: Cost, Latency and Answer Quality",
-      "link": "https://towardsdatascience.com/kimi-k3s-1m-token-context-window-vs-rag-cost-latency-and-answer-quality/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A controlled comparison of a top-5 RAG pipeline and a full 127,000 token prompt on the same 12 questions, same system prompt and same model. Graded blind on correctness, completeness and grounding. The post Kimi K3’s 1M…",
-      "ts": 1787157000,
-      "published": "2026-08-19T16:30:00+00:00",
-      "collected_at": "2026-08-20T01:35:03+09:00"
-    },
-    {
-      "title": "Signatures, be true: domain errors and functional handling in Kotlin",
-      "link": "https://blog.jetbrains.com/kotlin/2026/08/signatures-be-true-domain-errors-and-functional-handling-in-kotlin/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Here’s a function that signs a document: In Kotlin, Unit means the function completes without returning a meaningful value – roughly equivalent to void in Java. Got it? Now, tell me what could go wrong. You can’t. Yet,…",
-      "ts": 1787154725,
-      "published": "2026-08-19T15:52:05+00:00",
-      "collected_at": "2026-08-20T01:35:03+09:00"
-    },
-    {
-      "title": "Understanding Anti-AI Public Opinion",
-      "link": "https://towardsdatascience.com/understanding-anti-ai-public-opinion/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "People can accept tradeoffs when they see value — but if they don’t, what happens? The post Understanding Anti-AI Public Opinion appeared first on Towards Data Science .",
-      "ts": 1787151600,
-      "published": "2026-08-19T15:00:00+00:00",
-      "collected_at": "2026-08-20T00:34:36+09:00"
     }
   ]
 }
