@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-18T06:58:42+09:00",
-  "count": 990,
+  "updated": "2026-09-18T09:05:48+09:00",
+  "count": 996,
   "items": [
+    {
+      "title": "Be alert: targeted attacks on prominent Rustaceans",
+      "link": "https://simonwillison.net/2026/Sep/17/targeted-attacks-on-rustaceans/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Be alert: targeted attacks on prominent Rustaceans Important warning from Adam Harvey and the crates security team: We believe that there is an ongoing campaign targeting rust-lang members and owners of popular crates t…",
+      "ts": 1789689559,
+      "published": "2026-09-17T23:59:19+00:00",
+      "collected_at": "2026-09-18T09:05:27+09:00"
+    },
+    {
+      "title": "How To Write With An LLM",
+      "link": "https://simonwillison.net/2026/Sep/17/how-to-write-with-an-llm/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "How To Write With An LLM Thomas Ptacek on using LLMs as copyeditors, not as writing assistants: Rule Number One: You may not use a single word an LLM suggests to you. [...] I think that as a form of intellectual persona…",
+      "ts": 1789688247,
+      "published": "2026-09-17T23:37:27+00:00",
+      "collected_at": "2026-09-18T09:05:27+09:00"
+    },
+    {
+      "title": "v0.22.3",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.3",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "What's Changed fix(core): align conditional approvals with validated tool arguments by @seratch in #5066 fix(core): deliver tool-not-found output on server-managed resume by @hyeonsang010716 in #4947 fix(sandbox): keep…",
+      "ts": 1789683545,
+      "published": "2026-09-17T22:19:05+00:00",
+      "collected_at": "2026-09-18T09:05:27+09:00"
+    },
     {
       "title": "pandas 3.0.6",
       "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.0.6",
@@ -33,6 +63,16 @@
       "collected_at": "2026-09-18T06:58:36+09:00"
     },
     {
+      "title": "What’s Actually Inside 24,723 Tokens of a Search Result? We Broke It Down, Field by Field",
+      "link": "https://www.kdnuggets.com/2026/09/prnews.io/whats-actually-inside-24723-tokens-of-a-search-result-we-broke-it-down-field-by-field",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "See how SerpApi’s Markdown output can cut search-result token usage by up to 74%, reducing AI agent costs and context-window overhead.",
+      "ts": 1789665901,
+      "published": "2026-09-17T17:25:01+00:00",
+      "collected_at": "2026-09-18T09:05:27+09:00"
+    },
+    {
       "title": "Building a Data Lakehouse with DuckDB and DuckLake",
       "link": "https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-and-ducklake/",
       "source": "Towards Data Science",
@@ -41,6 +81,16 @@
       "ts": 1789659002,
       "published": "2026-09-17T15:30:02+00:00",
       "collected_at": "2026-09-18T03:01:22+09:00"
+    },
+    {
+      "title": "What’s So Good About ChatGPT Work? Here’s What I Found",
+      "link": "https://www.kdnuggets.com/whats-so-good-about-chatgpt-work-heres-what-i-found",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "This article walks through how ChatGPT Work specifically earns its reputation, where the underlying models genuinely hold up against the competition, and where the honest limits are.",
+      "ts": 1789653632,
+      "published": "2026-09-17T14:00:32+00:00",
+      "collected_at": "2026-09-18T09:05:27+09:00"
     },
     {
       "title": "How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA)",
@@ -93,6 +143,16 @@
       "collected_at": "2026-09-17T22:12:25+09:00"
     },
     {
+      "title": "5 Free Zoomcamps From Data Pipelines to AI Agents",
+      "link": "https://www.kdnuggets.com/5-free-zoomcamps-from-data-pipelines-to-ai-agents",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Explore five free hands-on workshops covering data engineering, machine learning, MLOps, LLMs, AI agents, and AI development through practical lessons, homework, projects, and community-based learning.",
+      "ts": 1789646414,
+      "published": "2026-09-17T12:00:14+00:00",
+      "collected_at": "2026-09-18T09:05:27+09:00"
+    },
+    {
       "title": "Quiz: HTML and CSS Foundations for Python Developers",
       "link": "https://realpython.com/quizzes/html-css-foundations/",
       "source": "Real Python",
@@ -101,6 +161,16 @@
       "ts": 1789646400,
       "published": "2026-09-17T12:00:00+00:00",
       "collected_at": "2026-09-17T22:12:25+09:00"
+    },
+    {
+      "title": "How Cooley is accelerating IPO work with ChatGPT",
+      "link": "https://openai.com/index/cooley-gopublic",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.",
+      "ts": 1789646400,
+      "published": "2026-09-17T12:00:00+00:00",
+      "collected_at": "2026-09-18T09:05:27+09:00"
     },
     {
       "title": "When Does Graph RAG Actually Add Value? A Hands-On Experiment",
@@ -9891,16 +9961,6 @@
       "ts": 1787104891,
       "published": "2026-08-19T02:01:31+00:00",
       "collected_at": "2026-08-19T12:00:27+09:00"
-    },
-    {
-      "title": "ChatGPT Ads expands across Europe",
-      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "ts": 1787090400,
-      "published": "2026-08-18T22:00:00+00:00",
-      "collected_at": "2026-08-19T15:50:04+09:00"
     }
   ]
 }
