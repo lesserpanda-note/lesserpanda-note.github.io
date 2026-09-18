@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-18T14:39:34+09:00",
+  "updated": "2026-09-18T19:51:12+09:00",
   "count": 996,
   "items": [
+    {
+      "title": "python-1.19.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.19.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.19.0] - 2026-09-18 Added agent-framework , agent-framework-core : Add generic vector-store provider protocols, instrumentation message-event controls, and per-tool AgentModeProvider exposure controls ( #8421 , #8451…",
+      "ts": 1789722896,
+      "published": "2026-09-18T09:14:56+00:00",
+      "collected_at": "2026-09-18T19:51:07+09:00"
+    },
+    {
+      "title": "Article: Architecting Secure and Scalable Facial Verification Systems",
+      "link": "https://www.infoq.com/articles/secure-scalable-facial-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "When three thousand employees verify at once, synchronous API calls collapse. This article presents a four-layer architecture for high-volume face verification: client-side filtering that cut cloud costs 30%, decoupled…",
+      "ts": 1789722000,
+      "published": "2026-09-18T09:00:00+00:00",
+      "collected_at": "2026-09-18T19:51:07+09:00"
+    },
+    {
+      "title": "Article: Architecting Secure and Scalable Facial Verification Systems",
+      "link": "https://www.infoq.com/articles/secure-scalable-facial-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "When three thousand employees verify at once, synchronous API calls collapse. This article presents a four-layer architecture for high-volume face verification: client-side filtering that cut cloud costs 30%, decoupled…",
+      "ts": 1789722000,
+      "published": "2026-09-18T09:00:00+00:00",
+      "collected_at": "2026-09-18T19:51:07+09:00"
+    },
+    {
+      "title": "Recursive Self-Improvement: The Last AI Built by Humans",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/recursive-self-improvement/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "RSI or Recursive Self-improvement has been the talk of the town lately. The term came into surface when it was emphasized as the next step in the LLM evolution cycle by pioneers of the field like Sam Altman, Dario Amode…",
+      "ts": 1789721042,
+      "published": "2026-09-18T08:44:02+00:00",
+      "collected_at": "2026-09-18T19:51:07+09:00"
+    },
+    {
+      "title": "[AINews] not much happened today",
+      "link": "https://www.latent.space/p/ainews-not-much-happened-today-612",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day",
+      "ts": 1789712923,
+      "published": "2026-09-18T06:28:43+00:00",
+      "collected_at": "2026-09-18T19:51:07+09:00"
+    },
     {
       "title": "OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment",
       "link": "https://www.infoq.com/news/2026/09/openai-misalignment-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -9911,56 +9961,6 @@
       "ts": 1787137200,
       "published": "2026-08-19T11:00:00+00:00",
       "collected_at": "2026-08-19T20:28:33+09:00"
-    },
-    {
-      "title": "Patch release: v5.15.1",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.15.1",
-      "source": "Transformers",
-      "category": "AI",
-      "summary": "Patch release v5.15.1 This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter. It co…",
-      "ts": 1787136647,
-      "published": "2026-08-19T10:50:47+00:00",
-      "collected_at": "2026-08-19T20:28:33+09:00"
-    },
-    {
-      "title": "dotnet-1.18.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.18.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "What's Changed .NET: [Experimental] Extend A2A task store with isolation key scoping by SergeyMenshykh in #7504 .NET: Add CodeQL suppression for DevUI proxy validation by SergeyMenshykh in #7505 .NET: Bound the tool-app…",
-      "ts": 1787134584,
-      "published": "2026-08-19T10:16:24+00:00",
-      "collected_at": "2026-09-18T06:58:36+09:00"
-    },
-    {
-      "title": "[AINews] Memory prices up 500% in 12 months",
-      "link": "https://www.latent.space/p/ainews-memory-prices-up-500-in-12",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "the Memory crunch continues - Moore’s Law reversed to 2007 levels",
-      "ts": 1787129092,
-      "published": "2026-08-19T08:44:52+00:00",
-      "collected_at": "2026-08-19T18:37:22+09:00"
-    },
-    {
-      "title": "Replit expands access to software creation with GPT-5.6 Luna",
-      "link": "https://openai.com/index/replit",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
-      "ts": 1787122800,
-      "published": "2026-08-19T07:00:00+00:00",
-      "collected_at": "2026-08-20T00:34:36+09:00"
-    },
-    {
-      "title": "How to Remove Claude Watermarks from Text, Code, and Files",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/how-to-remove-claude-watermarks/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Claude now marks AI-generated content. But it does not mark everything the same way. Anthropic currently uses embedded watermarks for text and signed C2PA provenance metadata for supported files. Code sits somewhere in…",
-      "ts": 1787118775,
-      "published": "2026-08-19T05:52:55+00:00",
-      "collected_at": "2026-08-19T15:50:04+09:00"
     }
   ]
 }
