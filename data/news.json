@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-19T22:47:10+09:00",
-  "count": 894,
+  "updated": "2026-09-20T02:04:55+09:00",
+  "count": 891,
   "items": [
+    {
+      "title": "California Sea Lion, Brandt's Cormorant",
+      "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife",
+      "ts": 1789837808,
+      "published": "2026-09-19T17:10:08+00:00",
+      "collected_at": "2026-09-20T02:04:50+09:00"
+    },
+    {
+      "title": "One Vendor, Four Spellings: How Deterministic Stages Beat Similarity Scores",
+      "link": "https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Deduplicating a 10,000-row supplier list in Python, where the hard part is deciding what a similarity score of 91 means The post One Vendor, Four Spellings: How Deterministic Stages Beat Similarity Scores appeared first…",
+      "ts": 1789830001,
+      "published": "2026-09-19T15:00:01+00:00",
+      "collected_at": "2026-09-20T02:04:50+09:00"
+    },
+    {
+      "title": "Python Statistics Fundamentals: How to Describe Your Data",
+      "link": "https://realpython.com/python-statistics/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this step-by-step tutorial, you'll learn the fundamentals of descriptive statistics and how to calculate them in Python. You'll find out how to describe, summarize, and represent your data visually using NumPy, SciPy…",
+      "ts": 1789826400,
+      "published": "2026-09-19T14:00:00+00:00",
+      "collected_at": "2026-09-20T02:04:50+09:00"
+    },
     {
       "title": "The Immigration and Nationality Act of 1952",
       "link": "https://statmodeling.stat.columbia.edu/2026/09/19/the-immigration-and-nationality-act-of-1952/",
@@ -8881,66 +8911,6 @@
       "ts": 1787248800,
       "published": "2026-08-20T18:00:00+00:00",
       "collected_at": "2026-08-21T03:43:41+09:00"
-    },
-    {
-      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1787244777,
-      "published": "2026-08-20T16:52:57+00:00",
-      "collected_at": "2026-08-21T02:33:02+09:00"
-    },
-    {
-      "title": "The LLM Judge That Kept Agreeing With Itself",
-      "link": "https://towardsdatascience.com/the-llm-judge-that-kept-agreeing-with-itself/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "What a production incident taught me about trusting a model to judge another model's work The post The LLM Judge That Kept Agreeing With Itself appeared first on Towards Data Science .",
-      "ts": 1787243400,
-      "published": "2026-08-20T16:30:00+00:00",
-      "collected_at": "2026-08-21T01:38:39+09:00"
-    },
-    {
-      "title": "Debates over AI consciousness are a trap",
-      "link": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "“Runaway” AI, “rogue” agents, and “autonomous” actors—the current rhetoric would have you believe that AI agents are not only awake and aware, but angry at their creators. Prominent tech leaders such as Demis Hassabis,…",
-      "ts": 1787240559,
-      "published": "2026-08-20T15:42:39+00:00",
-      "collected_at": "2026-08-21T01:38:39+09:00"
-    },
-    {
-      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-      "link": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust re…",
-      "ts": 1787240220,
-      "published": "2026-08-20T15:37:00+00:00",
-      "collected_at": "2026-08-21T08:28:15+09:00"
-    },
-    {
-      "title": "Three Kinds of RAG Corpus, and What It Costs to Build for the Wrong One",
-      "link": "https://towardsdatascience.com/three-kinds-of-rag-corpus-and-what-it-costs-to-build-for-the-wrong-one/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #14A] - Three questions tell you which shape a document collection has, and each shape wants a different architecture The post Three Kinds of RAG Corpus, and What It Costs to Buil…",
-      "ts": 1787238000,
-      "published": "2026-08-20T15:00:00+00:00",
-      "collected_at": "2026-08-21T00:36:56+09:00"
-    },
-    {
-      "title": "How to Build a Career in AI: 3 Distinct Pathways",
-      "link": "https://www.kdnuggets.com/how-to-build-a-career-in-ai-3-distinct-pathways",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Three orientations, three different skill maps, and how to find the one that fits where you actually stand.",
-      "ts": 1787234459,
-      "published": "2026-08-20T14:00:59+00:00",
-      "collected_at": "2026-08-20T23:39:53+09:00"
     }
   ]
 }
