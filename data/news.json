@@ -1,7 +1,67 @@
 {
-  "updated": "2026-09-19T18:17:14+09:00",
-  "count": 897,
+  "updated": "2026-09-19T22:47:10+09:00",
+  "count": 894,
   "items": [
+    {
+      "title": "The Immigration and Nationality Act of 1952",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/19/the-immigration-and-nationality-act-of-1952/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I was reading the London Review of Books and came across this article by Jameel Jaffer stating that, in 1952, Congress overrode the presidential veto and passed the McCarran-Walter Act with a two-thirds majority in the…",
+      "ts": 1789824068,
+      "published": "2026-09-19T13:21:08+00:00",
+      "collected_at": "2026-09-19T22:46:49+09:00"
+    },
+    {
+      "title": "AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job.",
+      "link": "https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "One near miss, four months of running agents, and the question almost nobody is asking: what are you supposed to do while the AI writes the code? The post AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job. appear…",
+      "ts": 1789822801,
+      "published": "2026-09-19T13:00:01+00:00",
+      "collected_at": "2026-09-19T22:46:49+09:00"
+    },
+    {
+      "title": "Quiz: Thinking Recursively in Python",
+      "link": "https://realpython.com/quizzes/python-thinking-recursively/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of recursive thinking in Python, including base cases, recursive data structures, maintaining state, and caching results.",
+      "ts": 1789819200,
+      "published": "2026-09-19T12:00:00+00:00",
+      "collected_at": "2026-09-19T22:46:49+09:00"
+    },
+    {
+      "title": "Presentation: Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP",
+      "link": "https://www.infoq.com/presentations/linkedin-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Ajay Prakash discusses how LinkedIn overcomes AI agent limitations in large codebases. He explains Contextual Agent Playbooks and Tools - built on Model Context Protocol (MCP) - which serves procedural memory, code sear…",
+      "ts": 1789815600,
+      "published": "2026-09-19T11:00:00+00:00",
+      "collected_at": "2026-09-19T22:46:49+09:00"
+    },
+    {
+      "title": "Presentation: Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP",
+      "link": "https://www.infoq.com/presentations/linkedin-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Ajay Prakash discusses how LinkedIn overcomes AI agent limitations in large codebases. He explains Contextual Agent Playbooks and Tools - built on Model Context Protocol (MCP) - which serves procedural memory, code sear…",
+      "ts": 1789815600,
+      "published": "2026-09-19T11:00:00+00:00",
+      "collected_at": "2026-09-19T22:46:49+09:00"
+    },
+    {
+      "title": "AWS Lambda Pushes Serverless Toward Long-Running Workloads",
+      "link": "https://www.infoq.com/news/2026/09/lambda-90-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS Lambda now allows functions running on Lambda Managed Instances to run for up to 90 minutes, six times longer than the previous 15-minute limit, further blurring the line between a Lambda invocation and a traditiona…",
+      "ts": 1789809060,
+      "published": "2026-09-19T09:11:00+00:00",
+      "collected_at": "2026-09-19T22:46:49+09:00"
+    },
     {
       "title": "[AINews] Here are 6 Clones of Jev in 2 days",
       "link": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
@@ -8881,96 +8941,6 @@
       "ts": 1787234459,
       "published": "2026-08-20T14:00:59+00:00",
       "collected_at": "2026-08-20T23:39:53+09:00"
-    },
-    {
-      "title": "How to Fine-Tune an LLM: An End-to-End Guide",
-      "link": "https://towardsdatascience.com/how-to-fine-tune-an-llm-an-end-to-end-guide/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "A hands-on guide to fine-tuning LLMs for the real world The post How to Fine-Tune an LLM: An End-to-End Guide appeared first on Towards Data Science .",
-      "ts": 1787232600,
-      "published": "2026-08-20T13:30:00+00:00",
-      "collected_at": "2026-08-20T22:50:33+09:00"
-    },
-    {
-      "title": "One night in Uzbekistan: Why was this one data point so influential, and what should these researchers had done ahead of time to see this?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/20/we-couldnt-reproduce-their-findings-and-realized-that-it-was-all-driven-by-weird-data-from-uzbekistan/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Sol Hsiang writes: We have a comment coming out in Nature next week that is going to cause the retraction of a high-profile paper by Kotz et al. from last year (the second most cited climate paper in the news … Continue…",
-      "ts": 1787232030,
-      "published": "2026-08-20T13:20:30+00:00",
-      "collected_at": "2026-08-20T22:50:33+09:00"
-    },
-    {
-      "title": "Presentation: Why Fetch When You Can Sync? Building Local-First Apps on a Sync Engine Architecture",
-      "link": "https://www.infoq.com/presentations/local-first-sync-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "James Arthur shares why sync is the next frontier in frontend architecture. He explains how extending reactivity to the server with Electric and TanStack DB replaces imperative fetching with declarative data bindings. L…",
-      "ts": 1787231940,
-      "published": "2026-08-20T13:19:00+00:00",
-      "collected_at": "2026-08-20T22:50:33+09:00"
-    },
-    {
-      "title": "Top 10 Open-Source Benchmarks for AI Coding Agents in 2026",
-      "link": "https://www.kdnuggets.com/top-10-open-source-benchmarks-for-ai-coding-agents-in-2026",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "SWE-bench, Terminal-Bench, SlopCodeBench, ProgramBench, and more. Explore the top 10 open-source benchmarks for evaluating AI coding agents.",
-      "ts": 1787227238,
-      "published": "2026-08-20T12:00:38+00:00",
-      "collected_at": "2026-08-20T21:55:38+09:00"
-    },
-    {
-      "title": "How to Build a Robust RAG System with Minimal Resources",
-      "link": "https://machinelearningmastery.com/how-to-build-a-robust-rag-system-with-minimal-resources/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how to design, assemble, and tune a retrieval-augmented generation system that runs entirely on a standard laptop, without cloud...",
-      "ts": 1787227221,
-      "published": "2026-08-20T12:00:21+00:00",
-      "collected_at": "2026-08-20T22:50:33+09:00"
-    },
-    {
-      "title": "InfoQ Opens Enrollment for New AI-Assisted Engineering Online Certification Program",
-      "link": "https://www.infoq.com/news/2026/08/ai-assisted-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "InfoQ has opened enrollment for the InfoQ Certified AI-Assisted Engineering Program, a five-week online certification program for senior engineers and architects who already run a coding agent against production code da…",
-      "ts": 1787227200,
-      "published": "2026-08-20T12:00:00+00:00",
-      "collected_at": "2026-08-20T21:55:38+09:00"
-    },
-    {
-      "title": "Quiz: Your Guide to the CPython Source Code",
-      "link": "https://realpython.com/quizzes/cpython-source-code-guide/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your grasp of the CPython source code, from bytecode and memory management to frames and generators. Based on the CPython 3.8 walkthrough.",
-      "ts": 1787227200,
-      "published": "2026-08-20T12:00:00+00:00",
-      "collected_at": "2026-08-20T21:55:38+09:00"
-    },
-    {
-      "title": "Making the Knowledge Layer a Graph You Actually Traverse",
-      "link": "https://towardsdatascience.com/making-the-knowledge-layer-a-graph-you-actually-traverse/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Why retrieval quality should be a property of the system, not of the question's wording? Rebuilding knowledge layer with graph traversal on every query, bitemporal edges, and two-threshold entity resolution. The post Ma…",
-      "ts": 1787227200,
-      "published": "2026-08-20T12:00:00+00:00",
-      "collected_at": "2026-08-20T21:55:38+09:00"
-    },
-    {
-      "title": "Unlocking hidden revenue streams with market models",
-      "link": "https://www.technologyreview.com/2026/08/20/1142070/unlocking-hidden-revenue-streams-with-market-models/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Each day, an airline transports tens of thousands of passengers on hundreds of flights. Often these are not straightforward point-to-point routes, with passengers requiring multiple connections. The airline can consider…",
-      "ts": 1787219242,
-      "published": "2026-08-20T09:47:22+00:00",
-      "collected_at": "2026-08-20T19:34:33+09:00"
     }
   ]
 }
