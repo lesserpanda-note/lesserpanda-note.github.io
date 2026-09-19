@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-20T05:17:45+09:00",
+  "updated": "2026-09-20T07:46:19+09:00",
   "count": 890,
   "items": [
+    {
+      "title": "datasette-auth-github 1.0",
+      "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting coo…",
+      "ts": 1789847522,
+      "published": "2026-09-19T19:52:02+00:00",
+      "collected_at": "2026-09-20T07:45:58+09:00"
+    },
     {
       "title": "California Sea Lion, Brandt's Cormorant",
       "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
@@ -8891,16 +8901,6 @@
       "ts": 1787270252,
       "published": "2026-08-20T23:57:32+00:00",
       "collected_at": "2026-08-21T09:16:56+09:00"
-    },
-    {
-      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-      "link": "https://www.latent.space/p/wayfinder-skill",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-      "ts": 1787259549,
-      "published": "2026-08-20T20:59:09+00:00",
-      "collected_at": "2026-08-21T06:31:33+09:00"
     }
   ]
 }
