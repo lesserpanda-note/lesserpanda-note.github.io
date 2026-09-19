@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-19T09:00:25+09:00",
-  "count": 902,
+  "updated": "2026-09-19T13:29:15+09:00",
+  "count": 901,
   "items": [
+    {
+      "title": "v2.46.0 (2026-09-18)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.46.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Let TypeSafeModel fill a tool's arguments when Jev can express them by @DouweM in #8501 Add RealtimeSession.wait_for_playback() and let the docs examples finish the reply before closing by @Dou…",
+      "ts": 1789789900,
+      "published": "2026-09-19T03:51:40+00:00",
+      "collected_at": "2026-09-19T13:29:09+09:00"
+    },
     {
       "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
       "link": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
@@ -9001,26 +9011,6 @@
       "ts": 1787202300,
       "published": "2026-08-20T05:05:00+00:00",
       "collected_at": "2026-08-20T14:34:04+09:00"
-    },
-    {
-      "title": "v2.32.1 (2026-08-19)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.32.1",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🐛 Bug Fixes Reject Agent.run_sync() from synchronous callbacks inside agent runs by @dsfaccini in #7277 Don't send Anthropic thinking blocks with an empty signature by @mpfaffenberger in #7601 Accept any…",
-      "ts": 1787191865,
-      "published": "2026-08-20T02:11:05+00:00",
-      "collected_at": "2026-08-20T12:00:14+09:00"
-    },
-    {
-      "title": "1.15.17",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.17",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add declarative conversational flows documentation Synthesize built-in conversational methods for declarations Enable declarations to drive conversational mode Make conversational opt-in unmistak…",
-      "ts": 1787185643,
-      "published": "2026-08-20T00:27:23+00:00",
-      "collected_at": "2026-08-20T10:24:53+09:00"
     }
   ]
 }
