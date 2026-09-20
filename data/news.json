@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-20T14:54:02+09:00",
-  "count": 881,
+  "updated": "2026-09-20T19:57:13+09:00",
+  "count": 879,
   "items": [
+    {
+      "title": "Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI",
+      "link": "https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google has released the Agent Development Kit (ADK) for Kotlin 1.0, a production-ready framework for building AI agents across Kotlin, Android, and JVM/server applications. It brings Kotlin to feature parity with Google…",
+      "ts": 1789898400,
+      "published": "2026-09-20T10:00:00+00:00",
+      "collected_at": "2026-09-20T19:57:04+09:00"
+    },
+    {
+      "title": "Cloudflare Measures Origin TLS Preferences, Cutting Handshake Retries from 52% to 3.7%",
+      "link": "https://www.infoq.com/news/2026/09/cloudflare-automatic-key-exchang/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare has replaced its static X25519 guess for origin TLS handshakes with per-origin measurement. HelloRetryRequests on scanned origins fell from roughly 52% to 3.7%, removing over 150 ms from p90 latency. Post-qua…",
+      "ts": 1789892100,
+      "published": "2026-09-20T08:15:00+00:00",
+      "collected_at": "2026-09-20T19:57:04+09:00"
+    },
     {
       "title": "datasette-auth-github 1.0",
       "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
@@ -11,6 +31,16 @@
       "ts": 1789847522,
       "published": "2026-09-19T19:52:02+00:00",
       "collected_at": "2026-09-20T07:45:58+09:00"
+    },
+    {
+      "title": "Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown",
+      "link": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b Comments URL: https://news.ycombinator.com/item?id=49769050 Points: 51 # Comments:…",
+      "ts": 1789843004,
+      "published": "2026-09-19T18:36:44+00:00",
+      "collected_at": "2026-09-20T19:57:04+09:00"
     },
     {
       "title": "California Sea Lion, Brandt's Cormorant",
@@ -8761,56 +8791,6 @@
       "ts": 1787310000,
       "published": "2026-08-21T11:00:00+00:00",
       "collected_at": "2026-08-21T20:29:35+09:00"
-    },
-    {
-      "title": "PagedAttention vs. RadixAttention: Optimizing LLM KV Cache Management",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/pagedattention-radixattention-llm-kv-cache/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Modern LLMs rely on quantization, pruning, distillation, and faster attention kernels, but production performance often depends most on KV cache management. As context windows grow, the cache consumes significant GPU me…",
-      "ts": 1787308923,
-      "published": "2026-08-21T10:42:03+00:00",
-      "collected_at": "2026-08-21T20:29:35+09:00"
-    },
-    {
-      "title": "Azure DevOps Remote MCP Server Reaches GA, Without Support for Claude, ChatGPT, or Cursor",
-      "link": "https://www.infoq.com/news/2026/08/azure-devops-remote-mcp-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Microsoft has made the Azure DevOps Remote MCP Server generally available, offering a hosted endpoint into work items, repos, and pipelines with nothing to install. Claude Desktop, Claude Code, ChatGPT, and Cursor canno…",
-      "ts": 1787306100,
-      "published": "2026-08-21T09:55:00+00:00",
-      "collected_at": "2026-08-21T19:33:56+09:00"
-    },
-    {
-      "title": "Azure DevOps Remote MCP Server Reaches GA, Without Support for Claude, ChatGPT, or Cursor",
-      "link": "https://www.infoq.com/news/2026/08/azure-devops-remote-mcp-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft has made the Azure DevOps Remote MCP Server generally available, offering a hosted endpoint into work items, repos, and pipelines with nothing to install. Claude Desktop, Claude Code, ChatGPT, and Cursor canno…",
-      "ts": 1787306100,
-      "published": "2026-08-21T09:55:00+00:00",
-      "collected_at": "2026-08-21T19:33:56+09:00"
-    },
-    {
-      "title": "S3 Compatibility Doesn't Guarantee S3-Level Security",
-      "link": "https://www.infoq.com/news/2026/08/s3-clone-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Security researchers at Wiz recently examined S3-compatible object storage services across six popular neoclouds, revealing significant security gaps compared to Amazon S3. While S3 has become the de facto standard for…",
-      "ts": 1787301660,
-      "published": "2026-08-21T08:41:00+00:00",
-      "collected_at": "2026-08-21T18:40:20+09:00"
-    },
-    {
-      "title": "Azul August 2026 Release: Java’s First Monthly CSPU",
-      "link": "https://foojay.io/today/azul-august-2026-release-javas-first-monthly-cspu/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "If someone discloses a critical Java vulnerability the day after a quarterly update, you could wait up to three months for a patched build. That gap is closed now. The August 2026 release is the first monthly Critical S…",
-      "ts": 1787298526,
-      "published": "2026-08-21T07:48:46+00:00",
-      "collected_at": "2026-08-21T17:44:43+09:00"
     }
   ]
 }
