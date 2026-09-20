@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-20T19:57:13+09:00",
-  "count": 879,
+  "updated": "2026-09-20T23:38:57+09:00",
+  "count": 869,
   "items": [
+    {
+      "title": "CBAM Paper Walkthrough: The Double-Attention Mechanism",
+      "link": "https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Understanding and implementing CBAM (Convolutional Block Attention Module) from scratch with PyTorch The post CBAM Paper Walkthrough: The Double-Attention Mechanism appeared first on Towards Data Science .",
+      "ts": 1789909201,
+      "published": "2026-09-20T13:00:01+00:00",
+      "collected_at": "2026-09-20T23:38:52+09:00"
+    },
+    {
+      "title": "How did it go, this prediction from ten years ago about Chinese fertility in 2026?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/20/how-did-it-go-this-prediction-from-ten-years-ago-about-chinese-fertility-in-2026/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "From 2017: Gaurav Sood points us to this post, “Why did so many Japanese families avoid having children in 1966?”, by Randy Olson, which includes the excellent graph above and the following explanation: The Japanese use…",
+      "ts": 1789907652,
+      "published": "2026-09-20T12:34:12+00:00",
+      "collected_at": "2026-09-20T23:38:52+09:00"
+    },
+    {
+      "title": "Quiz: Null in Python: Understanding Python's NoneType Object",
+      "link": "https://realpython.com/quizzes/null-in-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how None works as the null in Python, when to use it as a default parameter, how to test for it, and what NoneType means in your traceback.",
+      "ts": 1789905600,
+      "published": "2026-09-20T12:00:00+00:00",
+      "collected_at": "2026-09-20T23:38:52+09:00"
+    },
+    {
+      "title": "Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review",
+      "link": "https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Alibaba recently open-sourced OpenCodeReview, an AI-powered code review CLI that combines deterministic pipelines for file selection, bundling, and rule matching with an LLM agent for dynamic code analysis. It supports…",
+      "ts": 1789905420,
+      "published": "2026-09-20T11:57:00+00:00",
+      "collected_at": "2026-09-20T23:38:52+09:00"
+    },
+    {
+      "title": "Alibaba Open Sources OpenCodeReview for AI-Assisted Code Review",
+      "link": "https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Alibaba recently open-sourced OpenCodeReview, an AI-powered code review CLI that combines deterministic pipelines for file selection, bundling, and rule matching with an LLM agent for dynamic code analysis. It supports…",
+      "ts": 1789905420,
+      "published": "2026-09-20T11:57:00+00:00",
+      "collected_at": "2026-09-20T23:38:52+09:00"
+    },
     {
       "title": "Google Agent Development Kit for Kotlin Reaches Feature Parity with Python, Supports On-Device AI",
       "link": "https://www.infoq.com/news/2026/09/google-adk-1-0-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -8641,156 +8691,6 @@
       "ts": 1787324400,
       "published": "2026-08-21T15:00:00+00:00",
       "collected_at": "2026-08-22T00:36:43+09:00"
-    },
-    {
-      "title": "Cloudflare Cuts Astro Github Issues by 85% with AI Agents",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-astro-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare, Astro, AI agents, GitHub Actions, issue triage, agentic AI, software architecture, open source, developer tools, AI automation, automated testing, human in the loop, agent workflows, GitHub, software enginee…",
-      "ts": 1787321340,
-      "published": "2026-08-21T14:09:00+00:00",
-      "collected_at": "2026-08-21T23:38:48+09:00"
-    },
-    {
-      "title": "Cloudflare Cuts Astro Github Issues by 85% with AI Agents",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-astro-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare, Astro, AI agents, GitHub Actions, issue triage, agentic AI, software architecture, open source, developer tools, AI automation, automated testing, human in the loop, agent workflows, GitHub, software enginee…",
-      "ts": 1787321340,
-      "published": "2026-08-21T14:09:00+00:00",
-      "collected_at": "2026-08-21T23:38:48+09:00"
-    },
-    {
-      "title": "Run Muse Glimmer for Local Vibe Coding with llama.cpp, DFlash, and Pi",
-      "link": "https://www.kdnuggets.com/run-muse-glimmer-for-local-vibe-coding-with-llama-cpp-dflash-and-pi",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Run Muse Glimmer locally on an RTX 3090 GPU using llama.cpp, DFlash speculative decoding, and Pi for fast, private, agentic AI coding.",
-      "ts": 1787320858,
-      "published": "2026-08-21T14:00:58+00:00",
-      "collected_at": "2026-08-21T23:38:48+09:00"
-    },
-    {
-      "title": "Bayesian Guardrails for AI Decisions: Measuring Uncertainty Before Automating Decisions",
-      "link": "https://towardsdatascience.com/bayesian-guardrails-for-ai-decisions-measuring-uncertainty-before-automating-decisions/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "AI systems should not automate a decision simply because they can provide a prediction. A decision system should consider how uncertain the prediction is and defer if a mistake would be costly. The post Bayesian Guardra…",
-      "ts": 1787319000,
-      "published": "2026-08-21T13:30:00+00:00",
-      "collected_at": "2026-08-21T22:49:16+09:00"
-    },
-    {
-      "title": "Here are the talks from StanCon 2026!",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/21/here-are-the-talks-from-stancon-2026/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "StanCon 2026 just happened! And here are the talks: Matthew Kay Adrian Seyboldt Paul-Christian Bürkner Charles Margossian Javier Enrique Aguilar Sean Pinkney Nikolas Siccha Anna Dreber Kaitlyn Johnson Jonas Wallin Prana…",
-      "ts": 1787318735,
-      "published": "2026-08-21T13:25:35+00:00",
-      "collected_at": "2026-08-21T22:49:16+09:00"
-    },
-    {
-      "title": "5 Real-World Use Cases for AI Agents Transforming Industries",
-      "link": "https://www.kdnuggets.com/5-real-world-use-cases-for-ai-agents-transforming-industries",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "See how AI agents are autonomously handling support, coding, supply chains, healthcare, and fraud detection today.",
-      "ts": 1787313641,
-      "published": "2026-08-21T12:00:41+00:00",
-      "collected_at": "2026-08-21T21:54:20+09:00"
-    },
-    {
-      "title": "Cloudflare Turns Engineering Standards Into an AI-Enforced Control System",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-ai-enforcement/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare has recently detailed how it is using AI to transform internal engineering standards from passive documentation into an actively enforced control system across the software development lifecycle. By Craig Risi",
-      "ts": 1787313600,
-      "published": "2026-08-21T12:00:00+00:00",
-      "collected_at": "2026-08-21T21:54:20+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #308: Navigating Silent Failures in AI: Strategies for Effective Oversight",
-      "link": "https://realpython.com/podcasts/rpp/308/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Why do AI systems silently fail? How can you set up a system that produces results while also reviewing and validating the work? This week on the show, Calvin Hendryx-Parker returns to discuss his recent talk \"Orchestra…",
-      "ts": 1787313600,
-      "published": "2026-08-21T12:00:00+00:00",
-      "collected_at": "2026-08-21T21:54:20+09:00"
-    },
-    {
-      "title": "Quiz: Introduction to Git and GitHub for Python Developers",
-      "link": "https://realpython.com/quizzes/python-git-github-intro/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Git basics for Python projects, including commits, the staging area, branches, merges, and working with remote repos.",
-      "ts": 1787313600,
-      "published": "2026-08-21T12:00:00+00:00",
-      "collected_at": "2026-08-21T21:54:20+09:00"
-    },
-    {
-      "title": "How Benders Decomposition Works, Part II: Feasibility Cuts",
-      "link": "https://towardsdatascience.com/how-benders-decomposition-works-part-ii-feasibility-cuts/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Learning about Farkas' lemma and how it can inform Benders decomposition to learn from infeasibility, applied to the capacitated facility location problem. The post How Benders Decomposition Works, Part II: Feasibility…",
-      "ts": 1787313600,
-      "published": "2026-08-21T12:00:00+00:00",
-      "collected_at": "2026-08-21T21:54:20+09:00"
-    },
-    {
-      "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
-      "link": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
-      "ts": 1787313588,
-      "published": "2026-08-21T11:59:48+00:00",
-      "collected_at": "2026-08-21T21:54:20+09:00"
-    },
-    {
-      "title": "Mini book: Architecture as a Socio-Technical Craft",
-      "link": "https://www.infoq.com/minibooks/architect-sociotechnical-craft/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Architecture is not a fixed choice made once; fitness is a moving target driven by changing regulations, tech, and markets. Even a sound design can silently stop fitting over time without bad calls. Spanning seven artic…",
-      "ts": 1787311800,
-      "published": "2026-08-21T11:30:00+00:00",
-      "collected_at": "2026-08-21T21:54:20+09:00"
-    },
-    {
-      "title": "Mini book: Architecture as a Socio-Technical Craft",
-      "link": "https://www.infoq.com/minibooks/architect-sociotechnical-craft/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Architecture is not a fixed choice made once; fitness is a moving target driven by changing regulations, tech, and markets. Even a sound design can silently stop fitting over time without bad calls. Spanning seven artic…",
-      "ts": 1787311800,
-      "published": "2026-08-21T11:30:00+00:00",
-      "collected_at": "2026-08-21T21:54:20+09:00"
-    },
-    {
-      "title": "Presentation: Enchant Your AI and APIs with eBPF Magic 🪄",
-      "link": "https://www.infoq.com/presentations/ebpf-ai-gateway-kubernetes-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Dan Finneran discusses the risks of unowned AI-generated code in production and demonstrates how eBPF can intercept and control AI API traffic in Kubernetes. He explains how kernel-level socket hooks enable transparent…",
-      "ts": 1787310000,
-      "published": "2026-08-21T11:00:00+00:00",
-      "collected_at": "2026-08-21T20:29:35+09:00"
-    },
-    {
-      "title": "Presentation: Enchant Your AI and APIs with eBPF Magic 🪄",
-      "link": "https://www.infoq.com/presentations/ebpf-ai-gateway-kubernetes-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Dan Finneran discusses the risks of unowned AI-generated code in production and demonstrates how eBPF can intercept and control AI API traffic in Kubernetes. He explains how kernel-level socket hooks enable transparent…",
-      "ts": 1787310000,
-      "published": "2026-08-21T11:00:00+00:00",
-      "collected_at": "2026-08-21T20:29:35+09:00"
     }
   ]
 }
