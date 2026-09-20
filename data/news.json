@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-20T23:38:57+09:00",
-  "count": 869,
+  "updated": "2026-09-21T03:07:16+09:00",
+  "count": 863,
   "items": [
+    {
+      "title": "GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "link": "https://towardsdatascience.com/graphrag-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Beyond basic graph retrieval: six production-oriented architectures for combining semantic search, knowledge graphs, and LLM reasoning. The post GraphRAG: A Practitioner's Guide to 6 Advanced Architectural Patterns appe…",
+      "ts": 1789916401,
+      "published": "2026-09-20T15:00:01+00:00",
+      "collected_at": "2026-09-21T03:06:52+09:00"
+    },
     {
       "title": "CBAM Paper Walkthrough: The Double-Attention Mechanism",
       "link": "https://towardsdatascience.com/cbam-paper-walkthrough-the-double-attention-mechanism/",
@@ -71,6 +81,26 @@
       "ts": 1789892100,
       "published": "2026-09-20T08:15:00+00:00",
       "collected_at": "2026-09-20T19:57:04+09:00"
+    },
+    {
+      "title": "Orchestrating Claude Code Agents: The Chief of Staff Pattern",
+      "link": "https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/ Comments URL: https://news.ycombinator.com/item?id=49772806 Points: 24 # Comments: 21",
+      "ts": 1789883179,
+      "published": "2026-09-20T05:46:19+00:00",
+      "collected_at": "2026-09-21T03:06:52+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 401: Value Objects (Preview)",
+      "link": "https://inside.java/2026/09/20/jep401-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 401: Value Objects (Preview)",
+      "ts": 1789862400,
+      "published": "2026-09-20T00:00:00+00:00",
+      "collected_at": "2026-09-21T03:06:52+09:00"
     },
     {
       "title": "datasette-auth-github 1.0",
@@ -8601,96 +8631,6 @@
       "ts": 1787353764,
       "published": "2026-08-21T23:09:24+00:00",
       "collected_at": "2026-08-22T08:27:32+09:00"
-    },
-    {
-      "title": "Running Codex as a Headless Agent",
-      "link": "https://towardsdatascience.com/running-codex-as-a-headless-agent/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Turning Codex from an interactive assistant into a programmable automation component The post Running Codex as a Headless Agent appeared first on Towards Data Science .",
-      "ts": 1787335200,
-      "published": "2026-08-21T18:00:00+00:00",
-      "collected_at": "2026-08-22T03:40:51+09:00"
-    },
-    {
-      "title": "llm 0.32.1",
-      "link": "https://simonwillison.net/2026/Aug/21/llm/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm 0.32.1 Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of httpx , and it turned out LLM depended on that library but only installed it via a transitiv…",
-      "ts": 1787332573,
-      "published": "2026-08-21T17:16:13+00:00",
-      "collected_at": "2026-08-22T06:27:57+09:00"
-    },
-    {
-      "title": "Estimating from No Data: Deriving a Continuous Score from Categories",
-      "link": "https://towardsdatascience.com/estimating-from-no-data-deriving-a-continuous-score-from-categories-2/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A walkthrough of and the maths behind using low-capacity networks to acquire fine-grained scoring when only categorical labelling is available for training The post Estimating from No Data: Deriving a Continuous Score f…",
-      "ts": 1787332194,
-      "published": "2026-08-21T17:09:54+00:00",
-      "collected_at": "2026-08-22T02:31:47+09:00"
-    },
-    {
-      "title": "llm-openrouter 0.7",
-      "link": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-openrouter 0.7 Now that this plugin is compatible with LLM 0.32 it works much better with reasoning LLMs available through OpenRouter. Updated for compatibility with LLM 0.32 . Models now use OpenRouter's i…",
-      "ts": 1787331499,
-      "published": "2026-08-21T16:58:19+00:00",
-      "collected_at": "2026-08-22T06:27:57+09:00"
-    },
-    {
-      "title": "Retrieve One Row from a Table, Not the Whole Table: Row-Level Chunks for RAG",
-      "link": "https://towardsdatascience.com/retrieve-one-row-from-a-table-not-the-whole-table-row-level-chunks-for-rag/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #7sexies] - The unit of retrieval doesn’t have to be a page or a paragraph. When the corpus carries tables, each body row with its column headers is a chunk in its own right, and…",
-      "ts": 1787329800,
-      "published": "2026-08-21T16:30:00+00:00",
-      "collected_at": "2026-08-22T01:38:18+09:00"
-    },
-    {
-      "title": "Stop Making TUIs",
-      "link": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Stop Making TUIs Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to alm…",
-      "ts": 1787328452,
-      "published": "2026-08-21T16:07:32+00:00",
-      "collected_at": "2026-08-22T01:38:18+09:00"
-    },
-    {
-      "title": "Aggregation Optimization in MongoDB: Optimizing Many-to-Many Relationships (Part 3)",
-      "link": "https://foojay.io/today/aggregation-optimization-in-mongodb-optimizing-many-to-many-relationships-part-3/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "And why MongoDB might be a better relational database than you ever realized. Design reviews are one-on-one meetings where MongoDB experts deliver advice on data modeling best practices and application design challenges…",
-      "ts": 1787328040,
-      "published": "2026-08-21T16:00:40+00:00",
-      "collected_at": "2026-08-22T01:38:18+09:00"
-    },
-    {
-      "title": "Quoting Matt Webb",
-      "link": "https://simonwillison.net/2026/Aug/21/matt-webb/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was abl…",
-      "ts": 1787324786,
-      "published": "2026-08-21T15:06:26+00:00",
-      "collected_at": "2026-08-22T00:36:43+09:00"
-    },
-    {
-      "title": "The Types of Dimensions in a Star Schema, and How to Use Them",
-      "link": "https://towardsdatascience.com/what-are-the-types-of-dimensions-in-a-star-schema-and-how-to-use-them/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Dimensions are one of the two main object types in dimensional modelling. But what are the different types of dimensions? And how can you use them? The post The Types of Dimensions in a Star Schema, and How to Use Them…",
-      "ts": 1787324400,
-      "published": "2026-08-21T15:00:00+00:00",
-      "collected_at": "2026-08-22T00:36:43+09:00"
     }
   ]
 }
