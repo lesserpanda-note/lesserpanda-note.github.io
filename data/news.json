@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-21T13:44:31+09:00",
-  "count": 864,
+  "updated": "2026-09-21T19:30:34+09:00",
+  "count": 860,
   "items": [
+    {
+      "title": "AWS Cannot Restore Data Held Only in Damaged Middle East Availability Zones",
+      "link": "https://www.infoq.com/news/2026/09/aws-middle-east-data-loss/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS has told customers it cannot restore resources and data hosted exclusively in the mec1-az2 availability zone in the UAE, or exclusively in the Bahrain region, after damage during the conflict with Iran. The company…",
+      "ts": 1789980180,
+      "published": "2026-09-21T08:43:00+00:00",
+      "collected_at": "2026-09-21T19:30:28+09:00"
+    },
     {
       "title": "Kubernetes 1.37 Released: Stable Metrics API and Rootless Kubelet in Beta",
       "link": "https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -8591,56 +8601,6 @@
       "ts": 1787396400,
       "published": "2026-08-22T11:00:00+00:00",
       "collected_at": "2026-08-22T20:23:13+09:00"
-    },
-    {
-      "title": "AI Code Review at Scale: LinkedIn's Multi-Agent Approach",
-      "link": "https://www.infoq.com/news/2026/08/linkedin-ai-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "At LinkedIn's scale, relying solely on human reviewers or simply putting an off-the-shelf AI reviewer in front of GitHub is not an effective way to manage PRs. To address this, LinkedIn engineers built a multi-agent AI…",
-      "ts": 1787389200,
-      "published": "2026-08-22T09:00:00+00:00",
-      "collected_at": "2026-08-22T18:30:29+09:00"
-    },
-    {
-      "title": "Offline Crypto Address Validation in Java",
-      "link": "https://foojay.io/today/offline-crypto-address-validation-in-java/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Backend validation often starts with simple questions. Is the input empty? Does it have the expected shape? Can it be parsed? Does it belong to the selected domain? Crypto wallet addresses are no different, except the f…",
-      "ts": 1787388184,
-      "published": "2026-08-22T08:43:04+00:00",
-      "collected_at": "2026-08-22T18:30:29+09:00"
-    },
-    {
-      "title": "AWS Releases Aws-Bench to Evaluate Agents on Cloud Tasks",
-      "link": "https://www.infoq.com/news/2026/08/aws-bench-agent-evaluation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS has released aws-bench, an open-source benchmark for evaluating AI agents on real AWS tasks such as misconfigurations and infrastructure provisioning. Unlike traditional benchmarks, it uses real resources in disposa…",
-      "ts": 1787385600,
-      "published": "2026-08-22T08:00:00+00:00",
-      "collected_at": "2026-08-22T17:33:52+09:00"
-    },
-    {
-      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-      "link": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Did you think RSI stopped at model training?",
-      "ts": 1787384160,
-      "published": "2026-08-22T07:36:00+00:00",
-      "collected_at": "2026-08-22T17:33:52+09:00"
-    },
-    {
-      "title": "The Evolution of the Agent Harness",
-      "link": "https://www.latent.space/p/attention-interface",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model.",
-      "ts": 1787383852,
-      "published": "2026-08-22T07:30:52+00:00",
-      "collected_at": "2026-08-22T16:34:16+09:00"
     }
   ]
 }
