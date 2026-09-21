@@ -1,7 +1,277 @@
 {
-  "updated": "2026-09-21T19:30:34+09:00",
-  "count": 860,
+  "updated": "2026-09-22T01:52:52+09:00",
+  "count": 880,
   "items": [
+    {
+      "title": "v0.14.25",
+      "link": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25",
+      "source": "LlamaIndex",
+      "category": "Agents",
+      "summary": "Release Notes [2026-09-21] llama-index-agent-agentmesh [0.3.0] fix: resolve a ton of security alerts ( #22855 ) llama-index-agent-azure [0.4.0] fix: resolve a ton of security alerts ( #22855 ) llama-index-callbacks-argi…",
+      "ts": 1790007747,
+      "published": "2026-09-21T16:22:27+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "What Everyone Is Getting Wrong About TypeSafe AI’s Jev",
+      "link": "https://www.kdnuggets.com/what-everyone-is-getting-wrong-about-typesafe-ais-jev",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "A closer look at TypeSafe AI’s Jev, what it actually does, what is genuinely new, and where the hype goes too far.",
+      "ts": 1790006443,
+      "published": "2026-09-21T16:00:43+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Grok 4.7",
+      "link": "https://x.ai/news/grok-4-7",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://x.ai/news/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49788838 Points: 104 # Comments: 50",
+      "ts": 1790005815,
+      "published": "2026-09-21T15:50:15+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "A New Kind of Model for AI Decision-Making?",
+      "link": "https://towardsdatascience.com/a-new-kind-of-model-for-ai-decision-making/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Exploring TypeSafe's Jev and comparing it with OpenAI on intent classification The post A New Kind of Model for AI Decision-Making? appeared first on Towards Data Science .",
+      "ts": 1790004602,
+      "published": "2026-09-21T15:30:02+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "langgraph==1.2.12",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.12",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.11 release(langgraph): 1.2.12 ( #8987 ) chore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/langgraph ( #8958 ) feat(langgraph): add response_schema to interrupt() ( #8886 ) fix(langgraph): type und…",
+      "ts": 1790001820,
+      "published": "2026-09-21T14:43:40+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.5",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.5",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.4 release(sdk-py): 0.4.5 ( #8988 ) release(langgraph): 1.2.12 ( #8987 ) chore(deps): bump anyio from 4.14.2 to 4.15.1 in /libs/sdk-py ( #8997 ) chore(deps): bump anyio from 4.13.0 to 4.14.2 in /li…",
+      "ts": 1790001789,
+      "published": "2026-09-21T14:43:09+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Uber Redesigns M3DB Sharding with Subclusters to Limit Failure Impact",
+      "link": "https://www.infoq.com/news/2026/09/uber-m3db-subcluster-sharding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Uber has redesigned shard placement in M3DB with fixed size subclusters to limit the impact of node failures, maintenance, and cluster scaling. The approach bounds shard dependencies, preserves replica isolation, and us…",
+      "ts": 1790001420,
+      "published": "2026-09-21T14:37:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "How to Turn a Python Script Into an AI Agent",
+      "link": "https://www.kdnuggets.com/how-to-turn-a-python-script-into-an-ai-agent",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Learn how to build a Python AI agent with the OpenAI Agents SDK, using tool calling and function tools to automate multi-step workflows.",
+      "ts": 1789999207,
+      "published": "2026-09-21T14:00:07+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level",
+      "link": "https://towardsdatascience.com/gpt-6-astra-just-hit-openais-highest-cybersecurity-risk-level/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Why this matters less for what Astra can do and more for what every other model hasn't been tested for The post GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level appeared first on Towards Data Science .",
+      "ts": 1789999201,
+      "published": "2026-09-21T14:00:01+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Python 3.15 Preview: frozendict",
+      "link": "https://realpython.com/python315-frozendict/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Preview Python 3.15's frozendict: build immutable mappings you can hash, cache, and share across threads, and learn where the freeze stops.",
+      "ts": 1789999200,
+      "published": "2026-09-21T14:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1789998274,
+      "published": "2026-09-21T13:44:34+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "OpenAI Model Misalignment Explained Through Six Real Incidents",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/openai-model-misalignment/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "What would an AI agent do when a required file is missing or an API refuses access? The expected response is to explain the limitation… essentially, coming out with it. OpenAI’s latest disclosures shed light in another…",
+      "ts": 1789997238,
+      "published": "2026-09-21T13:27:18+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Do high school students have to work harder nowadays?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/21/do-high-school-students-have-to-work-harder-nowadays/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I happened to come across this old comment thread where Richard Serlin wrote: Starting early is huge. If you’re a super-workaholic, with great endurance and energy, since kindergarten you’re going to achieve far more by…",
+      "ts": 1789996234,
+      "published": "2026-09-21T13:10:34+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Google Offered $10M for a Dying Airline's Data. How Can You Value Yours?",
+      "link": "https://towardsdatascience.com/google-offered-10m-for-a-dying-airlines-data-how-can-you-value-yours/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How to put a dollar value on your organization's operational data The post Google Offered $10M for a Dying Airline's Data. How Can You Value Yours? appeared first on Towards Data Science .",
+      "ts": 1789993802,
+      "published": "2026-09-21T12:30:02+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "The Roadmap to Mastering LLM Inference Optimization",
+      "link": "https://machinelearningmastery.com/the-roadmap-to-mastering-llm-inference-optimization/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how LLM inference optimization works and which techniques to apply to make language models faster, cheaper, and more reliable...",
+      "ts": 1789992043,
+      "published": "2026-09-21T12:00:43+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "3 Polars Tricks for High-Performance Data Manipulation",
+      "link": "https://www.kdnuggets.com/3-polars-tricks-for-high-performance-data-manipulation",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Almost every slow Polars script lacks in terms of one of these two: its expression engine written and executing in Rust across every core at its disposal, and its query optimizer that rewrites your work before any of it…",
+      "ts": 1789992024,
+      "published": "2026-09-21T12:00:24+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
+      "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This…",
+      "ts": 1789992000,
+      "published": "2026-09-21T12:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
+      "link": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of pe…",
+      "ts": 1789992000,
+      "published": "2026-09-21T12:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
+      "link": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses. As he walked through t…",
+      "ts": 1789992000,
+      "published": "2026-09-21T12:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "She died at the San Diego border. A surveillance camera was in plain sight",
+      "link": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "She had only walked for a couple of hours, and already she was lost. It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern…",
+      "ts": 1789992000,
+      "published": "2026-09-21T12:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Quiz: Python 3.15 Preview: frozendict",
+      "link": "https://realpython.com/quizzes/python315-frozendict/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of Python 3.15's frozendict: build immutable mappings, hash them, and use them as dictionary keys.",
+      "ts": 1789992000,
+      "published": "2026-09-21T12:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Quiz: Python Constants: Improve Your Code's Maintainability",
+      "link": "https://realpython.com/quizzes/python-constants/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python constants. Check how you name them, where you define them, and which ones Python actually enforces.",
+      "ts": 1789992000,
+      "published": "2026-09-21T12:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Your AI Assistant Wrote the Code. Who Checked the Defaults?",
+      "link": "https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Five scikit-learn defaults that deserve a closer look before your next model reaches production The post Your AI Assistant Wrote the Code. Who Checked the Defaults? appeared first on Towards Data Science .",
+      "ts": 1789988402,
+      "published": "2026-09-21T11:00:02+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Podcast: Securing AI Agents: Identity, Authorization, and the DPACT Framework",
+      "link": "https://www.infoq.com/podcasts/securing-ai-agents-identity-authorization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In this episode, Sahil Agarwal talks about the critical challenges of identity, authorisation, and security in the age of AI agents. Sahil introduces the DPACT framework (Delegation, Policy, Auditability, Context, and T…",
+      "ts": 1789988400,
+      "published": "2026-09-21T11:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Presentation: The Agent Harness: Control Planes, Invariants, and Approval Boundaries for Production AI Agents",
+      "link": "https://www.infoq.com/presentations/ai-agent-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "OpenAI’s Vinoth Govindarajan discusses why production AI agents fail beyond model hallucination. Using real-world case studies like OpenClaw, he explains the key principles of reliable agent harnesses: establishing expl…",
+      "ts": 1789988400,
+      "published": "2026-09-21T11:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Article: Beyond Relevance: A Governance-First Architecture for Enterprise Personalization",
+      "link": "https://www.infoq.com/articles/architecture-enterprise-personalization-relevance-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This article examines the limitations of conventional personalization systems and highlights the need for a governance-first architecture. It emphasizes separating relevance from governance to ensure recommendations are…",
+      "ts": 1789988400,
+      "published": "2026-09-21T11:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Presentation: The Agent Harness: Control Planes, Invariants, and Approval Boundaries for Production AI Agents",
+      "link": "https://www.infoq.com/presentations/ai-agent-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "OpenAI’s Vinoth Govindarajan discusses why production AI agents fail beyond model hallucination. Using real-world case studies like OpenClaw, he explains the key principles of reliable agent harnesses: establishing expl…",
+      "ts": 1789988400,
+      "published": "2026-09-21T11:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
     {
       "title": "AWS Cannot Restore Data Held Only in Damaged Middle East Availability Zones",
       "link": "https://www.infoq.com/news/2026/09/aws-middle-east-data-loss/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -21,6 +291,46 @@
       "ts": 1789952400,
       "published": "2026-09-21T01:00:00+00:00",
       "collected_at": "2026-09-21T13:44:12+09:00"
+    },
+    {
+      "title": "Just-In-Time Compilation for Java Performance: Recent and Ongoing Improvements",
+      "link": "https://inside.java/2026/09/21/jit-for-java-performance/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Just-in-time (JIT) compilation within the JVM is essential to Java's performance and plays a central role in ongoing OpenJDK projects such as Valhalla, Leyden, and Panama. JIT compilation is constantly evolving to suppo…",
+      "ts": 1789948800,
+      "published": "2026-09-21T00:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "Spring AI and TypeSafe Jev: Fast, Cheap, Structured Decisions",
+      "link": "https://spring.io/blog/2026/09/21/spring-ai-typesafe-structured-judgment",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Reference documentation and GitHub repository We often need quick decision-making components in our AI applications: to pick the next step in a multi-agent system, to evaluate the inputs and outputs of a complex reasoni…",
+      "ts": 1789948800,
+      "published": "2026-09-21T00:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "How V7 gives AI agents institutional memory",
+      "link": "https://openai.com/index/v7",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
+      "ts": 1789948800,
+      "published": "2026-09-21T00:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
+    },
+    {
+      "title": "tokenizers v1: encode, decode and scaling, measured",
+      "link": "https://huggingface.co/blog/tokenizers-v1",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1789948800,
+      "published": "2026-09-21T00:00:00+00:00",
+      "collected_at": "2026-09-22T01:52:32+09:00"
     },
     {
       "title": "Quoting voxium",
@@ -8491,116 +8801,6 @@
       "ts": 1787417929,
       "published": "2026-08-22T16:58:49+00:00",
       "collected_at": "2026-08-23T03:35:14+09:00"
-    },
-    {
-      "title": "More than just code review",
-      "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Somet…",
-      "ts": 1787414214,
-      "published": "2026-08-22T15:56:54+00:00",
-      "collected_at": "2026-08-23T01:28:13+09:00"
-    },
-    {
-      "title": "Cloudflare Announces Kitesurf, a Browser Engine for Agents",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-kitesurf-browser/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare recently introduced Kitesurf, a lightweight browser built for automated workloads. Kitesurf runs browser components in isolated WebAssembly/Rust environments on Cloudflare Workers and supports the Chrome DevT…",
-      "ts": 1787410860,
-      "published": "2026-08-22T15:01:00+00:00",
-      "collected_at": "2026-08-23T00:24:44+09:00"
-    },
-    {
-      "title": "Multi-Document RAG: A Folder of Unrelated PDFs Is One Long Document with a Nested Outline",
-      "link": "https://towardsdatascience.com/multi-document-rag-a-folder-of-unrelated-pdfs-is-one-long-document-with-a-nested-outline/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #14B] - No shared fields means no index to build. One summary line per file plus each file’s own table of contents, and retrieval routes down two levels The post Multi-Document RA…",
-      "ts": 1787410800,
-      "published": "2026-08-22T15:00:00+00:00",
-      "collected_at": "2026-08-23T00:24:44+09:00"
-    },
-    {
-      "title": "This is one of the worst scientific papers I’ve ever seen.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/22/this-is-one-of-the-worst-scientific-papers-ive-ever-seen/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "A frequent commenter pointed me to this paper, “Sport and longevity: an observational study of international athletes.” All I can say is . . . Wow! This paper is an absolute clinic in bad quantitative social science res…",
-      "ts": 1787405562,
-      "published": "2026-08-22T13:32:42+00:00",
-      "collected_at": "2026-08-22T22:34:01+09:00"
-    },
-    {
-      "title": "The New MCP Roadmap",
-      "link": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://blog.modelcontextprotocol.io/posts/mcp-roadmap/ Comments URL: https://news.ycombinator.com/item?id=49399591 Points: 48 # Comments: 32",
-      "ts": 1787405494,
-      "published": "2026-08-22T13:31:34+00:00",
-      "collected_at": "2026-08-23T00:24:44+09:00"
-    },
-    {
-      "title": "Why We Fine-Tuned SigLip (And Why That’s Not Always the Right Call)",
-      "link": "https://towardsdatascience.com/why-we-fine-tuned-siglip-and-why-thats-not-always-the-right-call/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "LoRA fine-tuning solved our under-labeling problem. Whether it makes sense for you depends on three questions. The post Why We Fine-Tuned SigLip (And Why That’s Not Always the Right Call) appeared first on Towards Data…",
-      "ts": 1787403600,
-      "published": "2026-08-22T13:00:00+00:00",
-      "collected_at": "2026-08-22T22:34:01+09:00"
-    },
-    {
-      "title": "dotnet-1.19.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.19.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "What's Changed .NET: Add session-persisted chat client routing by westey (@westey-m) in #7641 .NET: Fix snake_case argument names in Harness file tool descriptions by westey (@westey-m) with @Copilot in #7731 .NET: Pass…",
-      "ts": 1787402880,
-      "published": "2026-08-22T12:48:00+00:00",
-      "collected_at": "2026-08-22T22:34:01+09:00"
-    },
-    {
-      "title": "How Claude Watermarks AI-Generated Text",
-      "link": "https://magazine.sebastianraschka.com/p/claude-watermarking",
-      "source": "Ahead of AI",
-      "category": "AI",
-      "summary": "A 48-minute video walkthrough of token sampling, watermark detection, and removal",
-      "ts": 1787397099,
-      "published": "2026-08-22T11:11:39+00:00",
-      "collected_at": "2026-08-22T20:23:13+09:00"
-    },
-    {
-      "title": "Top 5 Agentic AI Research Papers of 2026",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/top-agentic-ai-research-papers/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "Agentic AI research in 2026 has moved past the basic question of whether a model can be called a tool. The harder questions are whether an agent can finish long workflows, survive live websites, verify its own work, rec…",
-      "ts": 1787397068,
-      "published": "2026-08-22T11:11:08+00:00",
-      "collected_at": "2026-08-22T20:23:13+09:00"
-    },
-    {
-      "title": "Presentation: SafeChat: Building AI-Powered Safety Systems at Scale in a Real-Time Marketplace",
-      "link": "https://www.infoq.com/presentations/doordash-llm-ai-moderation-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Bruna Pereira explains how DoorDash built a content-agnostic AI moderation platform. She covers replacing costly LLM-only pipelines with a hybrid pattern: using fast internal models to filter obvious cases, LLM multi-ax…",
-      "ts": 1787396400,
-      "published": "2026-08-22T11:00:00+00:00",
-      "collected_at": "2026-08-22T20:23:13+09:00"
-    },
-    {
-      "title": "Presentation: SafeChat: Building AI-Powered Safety Systems at Scale in a Real-Time Marketplace",
-      "link": "https://www.infoq.com/presentations/doordash-llm-ai-moderation-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Bruna Pereira explains how DoorDash built a content-agnostic AI moderation platform. She covers replacing costly LLM-only pipelines with a hybrid pattern: using fast internal models to filter obvious cases, LLM multi-ax…",
-      "ts": 1787396400,
-      "published": "2026-08-22T11:00:00+00:00",
-      "collected_at": "2026-08-22T20:23:13+09:00"
     }
   ]
 }
