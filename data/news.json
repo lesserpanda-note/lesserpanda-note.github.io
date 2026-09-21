@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-22T05:53:10+09:00",
-  "count": 899,
+  "updated": "2026-09-22T08:55:58+09:00",
+  "count": 901,
   "items": [
+    {
+      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+      "link": "https://simonwillison.net/2026/Sep/21/jev/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an i…",
+      "ts": 1790032160,
+      "published": "2026-09-21T23:09:20+00:00",
+      "collected_at": "2026-09-22T08:55:49+09:00"
+    },
+    {
+      "title": "Cloudflare Python Workers are now generally available",
+      "link": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Cloudflare Python Workers are now generally available After a two year preview, Cloudflare's support for running Python code in their server-side Workers platform is now stable: \"Python is now a first-class, fully suppo…",
+      "ts": 1790029544,
+      "published": "2026-09-21T22:25:44+00:00",
+      "collected_at": "2026-09-22T08:55:49+09:00"
+    },
+    {
+      "title": "Jev: System One models for Prod, not God — with Diogo Almeida, CEO, TypeSafe AI",
+      "link": "https://www.latent.space/p/jev",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "The definitive Jev podcast with its lead creator.",
+      "ts": 1790028829,
+      "published": "2026-09-21T22:13:49+00:00",
+      "collected_at": "2026-09-22T08:55:49+09:00"
+    },
     {
       "title": "Java News Roundup: JDK 27, Open J Proxy, A2A Jakarta, Azul Payara, BoxLang, Netflix ja",
       "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
@@ -8981,16 +9011,6 @@
       "ts": 1787474580,
       "published": "2026-08-23T08:43:00+00:00",
       "collected_at": "2026-08-23T18:30:58+09:00"
-    },
-    {
-      "title": "Quoting Linus Torvalds",
-      "link": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable a…",
-      "ts": 1787432666,
-      "published": "2026-08-22T21:04:26+00:00",
-      "collected_at": "2026-08-23T06:25:14+09:00"
     }
   ]
 }
