@@ -1,6 +1,54 @@
 {
   "digests": [
     {
+      "date": "2026-09-20",
+      "summary": "오늘은 LinkedIn의 MCP 기반 AI 에이전트 컨텍스트 레이어 구축 사례와 Pydantic AI v2.46.0 출시, AWS Lambda의 90분 실행 시간 확장 소식이 주목됩니다. 공급업체 데이터 중복 제거를 위한 결정론적 단계 방법론과 Python 기술통계 튜토리얼도 실무에 유용한 자료로 선정되었습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "Presentation: Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP",
+          "link": "https://www.infoq.com/presentations/linkedin-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "LinkedIn이 MCP(Model Context Protocol) 기반으로 AI 에이전트를 위한 조직 수준의 컨텍스트 레이어를 구축한 방법과 기술적 설계를 소개합니다.",
+          "detail": "LinkedIn의 Ajay Prakash가 대규모 코드베이스에서 AI 에이전트가 직면하는 컨텍스트 부족 문제를 해결하기 위해 'Contextual Agent Playbooks and Tools'를 개발한 과정을 발표합니다.\n- 핵심 문제: 대규모 엔터프라이즈 코드베이스에서 AI 에이전트는 관련 컨텍스트를 찾기 어려워 정확한 작업 수행에 한계가 있음\n- 해결책: MCP(Model Context Protocol) 위에 조직 수준의 컨텍스트 레이어를 구축하여 절차적 메모리와 코드 검색 기능 제공\n- Contextual Agent Playbooks: 에이전트가 수행해야 할 작업 절차를 구조화된 형태로 제공하는 컴포넌트\n- Tools 통합: 코드 검색, 문서 참조 등 에이전트가 활용할 수 있는 도구들을 MCP를 통해 일관된 인터페이스로 제공\n- 성과: 에이전트가 LinkedIn의 복잡한 코드베이스를 효과적으로 탐색하고 조직 특화된 작업을 수행할 수 있게 됨\n- 시사점: MCP가 단순한 모델-도구 연결을 넘어 조직 지식 관리 레이어로 활용될 수 있음을 보여주는 실제 사례"
+        },
+        {
+          "category": "Agents",
+          "title": "v2.46.0 (2026-09-18)",
+          "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.46.0",
+          "summary": "Pydantic AI v2.46.0이 출시되어 TypeSafeModel 도구 인수 자동 처리, 실시간 세션 개선, 새로운 Choices 헬퍼 등 다양한 기능이 추가되었습니다.",
+          "detail": "Pydantic AI v2.46.0이 2026년 9월 18일 출시되었습니다. 브레이킹 체인지 없이 다양한 기능이 추가되었습니다.\n- TypeSafeModel 강화: 모델이 표현 가능할 때 도구 인수를 자동으로 채우는 기능 추가, 유니온 출력 타입에서 적합한 타입을 우선 선택하는 로직 개선\n- 실시간 세션: `wait_for_playback()` 메서드 추가로 연결 종료 전 응답 완료를 대기 가능\n- ModelProfile 업데이트: `supports_text_output` 필드 추가로 텍스트 미지원 모델에서도 LLMJudge와 GEval 실행 가능\n- `typesafe_boolean_threshold` 파라미터로 예/아니오 응답의 신뢰도 임계값 설정 지원\n- `UseEnumMemberDocstrings`로 Enum 멤버 docstring을 옵션 설명으로 활용 가능\n- 런타임 `Choices` 헬퍼로 동적 옵션 세트 생성\n- TemporalDurability에 `event_stream_topic` 추가로 에이전트 이벤트 스트리밍 지원\n- 버그 수정: 도구 호출 디스패칭, 실시간 입력 처리, 비용 계산 오류 수정"
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+          "link": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+          "summary": "AI 에이전트 커뮤니티에서 'Jev'가 공개된 지 2일 만에 6개의 클론이 등장한 현상을 Latent Space 뉴스레터가 다루며, 오픈소스 AI 에이전트 분야의 급속한 모방 경쟁을 조명합니다.",
+          "detail": "Latent Space AI 뉴스레터에서 'Jev'라 불리는 AI 에이전트 또는 모델이 공개된 후 불과 2일 만에 6개의 클론 프로젝트가 등장했다고 보도합니다. '모방은 최고의 칭찬(Imitation is the sincerest form of Flattery)'이라는 표현을 제목에 인용하며, 이 현상이 원본 작업의 영향력과 AI 오픈소스 커뮤니티의 역동성을 반증한다고 분석합니다. 이는 현재 AI 에이전트 분야에서 유망한 접근 방식이 공개되면 커뮤니티가 즉각적으로 이를 채택·변형·확장하는 빠른 혁신 사이클을 보여주는 사례입니다. 원문에서 구체적인 Jev의 기술 사양 및 각 클론의 특징에 대한 상세 정보를 확인할 수 있습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "AWS Lambda Pushes Serverless Toward Long-Running Workloads",
+          "link": "https://www.infoq.com/news/2026/09/lambda-90-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "AWS Lambda가 Lambda Managed Instances에서의 최대 실행 시간을 15분에서 90분으로 대폭 확장하여, 서버리스가 장시간 실행 워크로드까지 커버할 수 있게 되었습니다.",
+          "detail": "AWS Lambda가 Lambda Managed Instances에서 실행되는 함수의 최대 실행 시간을 기존 15분에서 90분으로 확장했습니다. 이는 6배의 증가로 서버리스 아키텍처의 적용 가능 범위를 크게 넓히는 변화입니다.\n- 변경 사항: Lambda Managed Instances 기반 함수에 한해 최대 90분 실행 허용 (기존 Lambda 표준 한도는 15분 유지)\n- 적용 대상 워크로드: 데이터 처리 파이프라인, 배치 작업, AI/ML 모델 추론, 장시간 실행이 필요한 통합 작업\n- 아키텍처적 의미: Lambda 실행 시간 한계로 인해 EC2나 컨테이너를 사용했던 워크로드를 서버리스로 전환 가능\n- 서버리스 경계 희석: Lambda와 전통적 서버의 경계가 더욱 흐려지며, 서버리스 패러다임이 장기 실행 작업 영역으로 확장\n- 비용 및 운영: 관리 오버헤드 없이 장시간 작업 처리 가능하나, 90분 실행에 따른 비용 최적화 전략 재검토 필요"
+        },
+        {
+          "category": "DataScience",
+          "title": "One Vendor, Four Spellings: How Deterministic Stages Beat Similarity Scores",
+          "link": "https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/",
+          "summary": "10,000행 공급업체 데이터의 중복 제거에서 퍼지 매칭 유사도 점수 대신 결정론적 단계(Deterministic Stages)를 활용하는 방법이 더 명확하고 설명 가능한 결과를 낳는다는 것을 Python 실습을 통해 보여줍니다.",
+          "detail": "동일 공급업체가 'IBM', 'I.B.M.', 'IBM Corp', 'International Business Machines' 등으로 다르게 기록된 10,000행 데이터의 중복 제거 문제를 다룹니다.\n- 핵심 문제: 퍼지 매칭의 유사도 점수(예: 91%)는 임계값 설정이 임의적이고, 비즈니스 로직을 직접 반영하기 어려움\n- 결정론적 단계 방법론:\n  1) 정규화: 대소문자 통일, 특수문자·구두점 제거, 공백 표준화\n  2) 약어 전개: 'Corp' → 'Corporation', 'Intl' → 'International'\n  3) 토큰 기반 비교: 단어 순서에 무관한 일치 여부 판단\n  4) 단계적 매칭: 각 단계를 순차적으로 적용하여 일치 여부 결정\n- 장점: 각 단계가 명확한 비즈니스 규칙을 반영하므로 결과를 설명·감사·디버깅하기 용이\n- 실험 결과: 10,000행 실제 공급업체 데이터에서 유사도 점수 방식 대비 높은 정밀도와 설명 가능성 달성\n- 실무 적용: 데이터 품질 관리, 공급업체 마스터 데이터 통합 등에 직접 활용 가능한 Python 코드 제공"
+        },
+        {
+          "category": "Python",
+          "title": "Python Statistics Fundamentals: How to Describe Your Data",
+          "link": "https://realpython.com/python-statistics/",
+          "summary": "NumPy, SciPy, pandas, matplotlib을 활용하여 Python으로 기술통계 기초를 계산하고 데이터를 시각화하는 방법을 단계별로 학습하는 Real Python 튜토리얼입니다.",
+          "detail": "Real Python의 이 튜토리얼은 Python을 활용한 기술통계(Descriptive Statistics)의 핵심 개념과 실습 방법을 다룹니다.\n- 중심 경향 측정: 평균(mean), 가중 평균(weighted mean), 기하 평균, 중앙값(median), 최빈값(mode) 계산\n- 산포도 측정: 분산(variance), 표준편차(standard deviation), 범위(range), 사분위수(quartile), IQR 계산\n- 상관 관계: 피어슨 상관계수(Pearson correlation coefficient), 공분산(covariance) 계산\n- 활용 라이브러리: Python 내장 `statistics` 모듈, NumPy, SciPy의 `stats` 모듈, pandas DataFrame 메서드\n- 시각화: matplotlib을 이용한 히스토그램, 박스플롯(box plot), 산점도 등\n- 실용 예제: 실제 데이터셋을 사용하여 각 통계값의 의미와 계산 결과를 직관적으로 이해\n- 대상 독자: Python 기초 지식이 있으며 데이터 분석 입문을 원하는 개발자 및 데이터 분석가"
+        }
+      ]
+    },
+    {
       "date": "2026-09-19",
       "summary": "오늘은 AI 에이전트 보안 분야에서 큰 주목을 받은 Gemini의 실제 기업 침투 사례와 함께, OpenAI의 모델 오정렬 트리아지 프레임워크 공개, WSO2의 에이전트 관리 플랫폼 출시 등 기업 AI 거버넌스 관련 소식이 핵심이었습니다. 아키텍처 분야에서는 DoorDash의 멀티 에이전트 LLM을 활용한 6만 개 피처 플래그 정리 사례가 눈에 띄었으며, DataScience 분야에서는 SLM KV 캐시 최적화와 모델 버전 관리의 숨겨진 비용에 대한 실용적인 인사이트가 제공되었습니다.",
       "highlights": [
