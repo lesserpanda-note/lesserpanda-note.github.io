@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-22T23:30:19+09:00",
-  "count": 918,
+  "updated": "2026-09-23T03:37:36+09:00",
+  "count": 922,
   "items": [
+    {
+      "title": "Quoting @therealcornpop",
+      "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird br…",
+      "ts": 1790100201,
+      "published": "2026-09-22T18:03:21+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
+    },
+    {
+      "title": "Jev Explained: The AI Model That Never Generates a Word of Text",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/jev-explained/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "If you follow trends in the AI world, chances are you have already come across Jev, a new AI model by TypeSafe AI. It is trending on X, and once you understand the reason behind it, you will want to try it out for yours…",
+      "ts": 1790096876,
+      "published": "2026-09-22T17:07:56+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
+    },
+    {
+      "title": "Grok bot is now in Tesla",
+      "link": "https://twitter.com/elonmusk/status/2102439262507725294",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/elonmusk/status/2102439262507725294 Comments URL: https://news.ycombinator.com/item?id=49804539 Points: 11 # Comments: 4",
+      "ts": 1790096723,
+      "published": "2026-09-22T17:05:23+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
+    },
+    {
+      "title": "llm-typesafe 0.1a0",
+      "link": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move…",
+      "ts": 1790092456,
+      "published": "2026-09-22T15:54:16+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
+    },
+    {
+      "title": "Break Your Own RAG Pipeline Before Users Do",
+      "link": "https://towardsdatascience.com/break-your-own-rag-pipeline-before-users-do/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A small adversarial test set that catches the retrieval failures your evaluation set never will The post Break Your Own RAG Pipeline Before Users Do appeared first on Towards Data Science .",
+      "ts": 1790091001,
+      "published": "2026-09-22T15:30:01+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
+    },
     {
       "title": "Google Open-Sources AX a Kubernetes Style Orchestrator for Autonomous AI Agents",
       "link": "https://www.infoq.com/news/2026/09/google-ax-orchestrator/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -71,6 +121,16 @@
       "ts": 1790080201,
       "published": "2026-09-22T12:30:01+00:00",
       "collected_at": "2026-09-22T23:29:53+09:00"
+    },
+    {
+      "title": "Monitoring Embedding Drift in Production Scikit-LLM Pipelines",
+      "link": "https://machinelearningmastery.com/monitoring-embedding-drift-in-production-scikit-llm-pipelines/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn what embedding drift is, why it matters for production large language models, and how to implement two practical techniques...",
+      "ts": 1790078435,
+      "published": "2026-09-22T12:00:35+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
     },
     {
       "title": "7 Open-Source Alternatives to ChatGPT You Can Run Locally",
@@ -201,6 +261,46 @@
       "ts": 1790035200,
       "published": "2026-09-22T00:00:00+00:00",
       "collected_at": "2026-09-22T23:29:53+09:00"
+    },
+    {
+      "title": "This Week in Spring - September 22nd, 2026",
+      "link": "https://spring.io/blog/2026/09/22/this-week-in-spring-september-22-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring ! How're you? What're you building these days? I'm sitting here enjoying a cup of coffee and a mooncake. I had a customer call at 6 am this morning.…",
+      "ts": 1790035200,
+      "published": "2026-09-22T00:00:00+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
+    },
+    {
+      "title": "Priorities and principles for effective third party assessments",
+      "link": "https://openai.com/index/priorities-principles-third-party-assessments",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
+      "ts": 1790035200,
+      "published": "2026-09-22T00:00:00+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
+    },
+    {
+      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
+      "link": "https://huggingface.co/blog/evaleval-aisi",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790035200,
+      "published": "2026-09-22T00:00:00+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
+    },
+    {
+      "title": "Introducing Claude Opus 5.5",
+      "link": "https://www.anthropic.com/claude-opus-5-5",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Introducing Claude Opus 5.5",
+      "ts": 1790035200,
+      "published": "2026-09-22T00:00:00+00:00",
+      "collected_at": "2026-09-23T03:37:31+09:00"
     },
     {
       "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
@@ -9121,66 +9221,6 @@
       "ts": 1787514930,
       "published": "2026-08-23T19:55:30+00:00",
       "collected_at": "2026-08-24T05:26:49+09:00"
-    },
-    {
-      "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
-      "link": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245 Comments URL: https://news.ycombinator.com/item?id=49411102 Points: 760 # Comments: 665",
-      "ts": 1787508997,
-      "published": "2026-08-23T18:16:37+00:00",
-      "collected_at": "2026-08-25T08:25:05+09:00"
-    },
-    {
-      "title": "Google's HEIR Aims to Make Homomorphic-Encrypted Inference a One-Click Capability",
-      "link": "https://www.infoq.com/news/2026/08/google-heir-homomorphic-llm/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google is introducing HEIR (Homomorphic Encryption Intermediate Representation), an open-source compiler and development toolchain designed to make encrypted computation easier to deploy. In particular, HEIR can compile…",
-      "ts": 1787508000,
-      "published": "2026-08-23T18:00:00+00:00",
-      "collected_at": "2026-08-24T03:34:09+09:00"
-    },
-    {
-      "title": "We must not grant AI agents legal personhood",
-      "link": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473 Comments URL: https://news.ycombinator.com/item?id=49410628 Points: 62 # Comments: 108",
-      "ts": 1787505903,
-      "published": "2026-08-23T17:25:03+00:00",
-      "collected_at": "2026-08-25T04:32:38+09:00"
-    },
-    {
-      "title": "Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly Guide",
-      "link": "https://towardsdatascience.com/a-first-look-at-survival-analysis-and-the-cox-model/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "From Kaplan-Meier curves to hazard ratios with runnable Python Code throughout The post Survival Analysis and the Cox Proportional Hazards Model: A Beginner-Friendly Guide appeared first on Towards Data Science .",
-      "ts": 1787504400,
-      "published": "2026-08-23T17:00:00+00:00",
-      "collected_at": "2026-08-24T02:23:25+09:00"
-    },
-    {
-      "title": "GLM-5.3 (open-weight) beat Anthropic/OpenAI models – for 1/5 the cost",
-      "link": "https://reinvently.co.uk/tools/ed-o-meter/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://reinvently.co.uk/tools/ed-o-meter/ Comments URL: https://news.ycombinator.com/item?id=49410097 Points: 238 # Comments: 110",
-      "ts": 1787502261,
-      "published": "2026-08-23T16:24:21+00:00",
-      "collected_at": "2026-08-25T08:25:05+09:00"
-    },
-    {
-      "title": "Parse the Folder, Not Just the PDFs: The Relational Tables RAG Needs on a Case File",
-      "link": "https://towardsdatascience.com/parse-the-folder-not-just-the-pdfs-the-relational-tables-rag-needs-on-a-case-file/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #14D] - The index lists what the case type demands before any folder is opened, and the two questions worth building for are not retrieval questions at all The post Parse the Fold…",
-      "ts": 1787497200,
-      "published": "2026-08-23T15:00:00+00:00",
-      "collected_at": "2026-08-24T00:26:04+09:00"
     }
   ]
 }
