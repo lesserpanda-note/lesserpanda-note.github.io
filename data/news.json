@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-22T08:55:58+09:00",
-  "count": 901,
+  "updated": "2026-09-22T13:16:55+09:00",
+  "count": 903,
   "items": [
+    {
+      "title": "v2.47.0 (2026-09-21)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.47.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Name a None output route None rather than NoneType by @DouweM in #8590 Raise when UserPromptPart.content is not a str or a sequence, instead of silently sending a dict 's keys by @D…",
+      "ts": 1790049572,
+      "published": "2026-09-22T03:59:32+00:00",
+      "collected_at": "2026-09-22T13:16:48+09:00"
+    },
     {
       "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
       "link": "https://simonwillison.net/2026/Sep/21/jev/",
@@ -441,6 +451,16 @@
       "ts": 1789948800,
       "published": "2026-09-21T00:00:00+00:00",
       "collected_at": "2026-09-22T05:53:05+09:00"
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E24 - Jev, Java and Spring",
+      "link": "https://spring.io/blog/2026/09/21/spring-office-hours-podcast-S5E24",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Jev is a new model from TypeSafe that answers typed questions about your content. You send it some text and the decisions you need. It returns a probability, a choice, or a score instead of a paragraph. That makes it a…",
+      "ts": 1789948800,
+      "published": "2026-09-21T00:00:00+00:00",
+      "collected_at": "2026-09-22T13:16:48+09:00"
     },
     {
       "title": "Quoting voxium",
