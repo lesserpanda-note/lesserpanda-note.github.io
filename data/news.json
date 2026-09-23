@@ -1,7 +1,227 @@
 {
-  "updated": "2026-09-23T20:06:08+09:00",
-  "count": 925,
+  "updated": "2026-09-24T01:27:52+09:00",
+  "count": 933,
   "items": [
+    {
+      "title": "Advancing Private AI Compute with secure, server-side memory",
+      "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "ts": 1790179257,
+      "published": "2026-09-23T16:00:57+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Two years of OpenAI Academy",
+      "link": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+      "ts": 1790179200,
+      "published": "2026-09-23T16:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "I Trained a Tiny Network to Compress Data. It Drew a Pentagon.",
+      "link": "https://towardsdatascience.com/i-trained-a-tiny-network-to-compress-data-it-drew-a-pentagon/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Reproducing Anthropic's \"Toy Models of Superposition\" from scratch in NumPy, with hand-derived gradients and no borrowed numbers. The post I Trained a Tiny Network to Compress Data. It Drew a Pentagon. appeared first on…",
+      "ts": 1790177401,
+      "published": "2026-09-23T15:30:01+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Gemini 3.8 text-to-speech says hello",
+      "link": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790177114,
+      "published": "2026-09-23T15:25:14+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Everything Claude Opus 5.5 Actually Ships With",
+      "link": "https://www.kdnuggets.com/everything-claude-opus-5-5-actually-ships-with",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "This article pulls together every verifiable number and detail from Anthropic's announcement, the platform documentation, the system card, and independent coverage, so you have one place to check the facts.",
+      "ts": 1790175647,
+      "published": "2026-09-23T15:00:47+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Graphify: Unifying Codebase Context to Streamline Agentic Software Engineering",
+      "link": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Graphify is an open-source tool designed to convert codebases and unstructured data into queryable knowledge graphs. Launched in April 2026, it addresses challenges of multi-file reasoning for AI coding assistants. Rece…",
+      "ts": 1790172840,
+      "published": "2026-09-23T14:14:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Graphify: Unifying Codebase Context to Streamline Agentic Software Engineering",
+      "link": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Graphify is an open-source tool designed to convert codebases and unstructured data into queryable knowledge graphs. Launched in April 2026, it addresses challenges of multi-file reasoning for AI coding assistants. Rece…",
+      "ts": 1790172840,
+      "published": "2026-09-23T14:14:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Why Most Data Science Notebooks Die After Day One: How to Build Ones That Survive",
+      "link": "https://www.kdnuggets.com/why-most-data-science-notebooks-die-after-day-one-how-to-build-ones-that-survive",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Six habits that keep a notebook runnable after you close the laptop.",
+      "ts": 1790172006,
+      "published": "2026-09-23T14:00:06+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "From Words to Vectors: What Happens in Between?",
+      "link": "https://towardsdatascience.com/from-words-to-vectors-what-happens-in-between/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A Journey through TF-IDF, vector space, and text classification The post From Words to Vectors: What Happens in Between? appeared first on Towards Data Science .",
+      "ts": 1790172001,
+      "published": "2026-09-23T14:00:01+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Beyond Kubernetes at Modal: How to Scale 1 Million Concurrent Sandboxes in Seconds",
+      "link": "https://www.infoq.com/news/2026/09/modal-scaling-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In a recent article, Colin Weld and Connor Adams, staff engineers at Modal, describe how they rebuilt their sandbox infrastructure from the ground up to support millions of concurrent sandboxes and tens of thousands of…",
+      "ts": 1790172000,
+      "published": "2026-09-23T14:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Beyond Kubernetes at Modal: How to Scale 1 Million Concurrent Sandboxes in Seconds",
+      "link": "https://www.infoq.com/news/2026/09/modal-scaling-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In a recent article, Colin Weld and Connor Adams, staff engineers at Modal, describe how they rebuilt their sandbox infrastructure from the ground up to support millions of concurrent sandboxes and tens of thousands of…",
+      "ts": 1790172000,
+      "published": "2026-09-23T14:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Cursor vs Copilot: Which AI Editor Is Better for Python?",
+      "link": "https://realpython.com/cursor-vs-copilot/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Compare Cursor vs GitHub Copilot by building a Python project, testing agent workflows, debugging code, and evaluating AI-assisted development.",
+      "ts": 1790172000,
+      "published": "2026-09-23T14:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
+      "link": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
+      "ts": 1790170038,
+      "published": "2026-09-23T13:27:18+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Cloudflare Cuts 100 TB of Memory from 1.1.1.1 DNS Cache",
+      "link": "https://www.infoq.com/news/2026/09/cloudflare-dns-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare redesigned the in-memory representation of its Big Pineapple DNS cache, reducing the per-entry footprint by 56% and freeing roughly 100 TB of working-set memory across its fleet. The Rust-based changes also i…",
+      "ts": 1790169720,
+      "published": "2026-09-23T13:22:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-diarization",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790169421,
+      "published": "2026-09-23T13:17:01+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Here’s a causal inference problem: where did the estimate of $64 million come from in “Blake Lively Says She Suffered $64 Million Financial Fallout From Justin Baldoni Conflict . . .”?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/23/heres-a-causal-inference-problem-where-did-the-estimate-of-64-million-come-from-in-blake-lively-says-she-suffered-64-million-financial-fallout-from-justin-baldoni-conflict/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "OK, here’s a causal inference problem for ya: Blake Lively Says She Suffered $64 Million Financial Fallout From Justin Baldoni Conflict . . . In Lively’s memorandum in opposition to Wayfarer Studios’ motion in limine fi…",
+      "ts": 1790169416,
+      "published": "2026-09-23T13:16:56+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "ts": 1790168400,
+      "published": "2026-09-23T13:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "How GRPO Trains Small Language Models with Verifiable Rewards",
+      "link": "https://towardsdatascience.com/how-grpo-trains-small-language-models-with-verifiable-rewards/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "The mechanics behind local reasoning experiments with Unsloth and why the reward function matters as much as the model. The post How GRPO Trains Small Language Models with Verifiable Rewards appeared first on Towards Da…",
+      "ts": 1790166601,
+      "published": "2026-09-23T12:30:01+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "RAG vs. Fine-Tuning for Domain Adaptation: When to Use Which",
+      "link": "https://machinelearningmastery.com/rag-vs-fine-tuning-for-domain-adaptation-when-to-use-which/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn the mechanical difference between retrieval-augmented generation and fine-tuning, when each technique is the right tool, and how to decide...",
+      "ts": 1790164823,
+      "published": "2026-09-23T12:00:23+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "High-Performance Data Processing with Polars: A KDnuggets Cheat Sheet",
+      "link": "https://www.kdnuggets.com/high-performance-data-processing-with-polars-a-cheat-sheet",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Polars is a DataFrame library written in Rust on the Apache Arrow memory format, and the speed comes less from the language than from the model. The model? Describe your work as expressions, and the Polars query engine…",
+      "ts": 1790164819,
+      "published": "2026-09-23T12:00:19+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Quiz: Cursor vs Copilot: Which AI Editor Is Better for Python?",
+      "link": "https://realpython.com/quizzes/cursor-vs-copilot/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of how Cursor and GitHub Copilot compare for Python across agent modes, code review, and project conventions.",
+      "ts": 1790164800,
+      "published": "2026-09-23T12:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Quiz: Sorting Algorithms in Python",
+      "link": "https://realpython.com/quizzes/sorting-algorithms-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of bubble sort, insertion sort, merge sort, Quicksort, and Timsort, and how Big O notation compares their efficiency.",
+      "ts": 1790164800,
+      "published": "2026-09-23T12:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
     {
       "title": "How to Make Your First World Model from Scratch",
       "link": "https://towardsdatascience.com/how-to-make-your-first-world-model-from-scratch/",
@@ -101,6 +321,36 @@
       "ts": 1790121600,
       "published": "2026-09-23T00:00:00+00:00",
       "collected_at": "2026-09-23T20:05:59+09:00"
+    },
+    {
+      "title": "Quality Outreach Heads-up - JDK 28: Rich JavaDoc Notes",
+      "link": "https://inside.java/2026/09/23/quality-heads-up/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "This Heads-Up is part of the regular communication sent to the projects involved; it covers a new JavaDoc tag `@note` to highlight the presence of additional information in API documentation.",
+      "ts": 1790121600,
+      "published": "2026-09-23T00:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "link": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.",
+      "ts": 1790121600,
+      "published": "2026-09-23T00:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "The Python documentation is now available in Persian",
+      "link": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "",
+      "ts": 1790121600,
+      "published": "2026-09-23T00:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
     },
     {
       "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
@@ -491,6 +741,16 @@
       "ts": 1790035200,
       "published": "2026-09-22T00:00:00+00:00",
       "collected_at": "2026-09-23T03:37:31+09:00"
+    },
+    {
+      "title": "The Situation Report",
+      "link": "https://www.anthropic.com/features/ebola-response",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "The Situation Report",
+      "ts": 1790035200,
+      "published": "2026-09-22T00:00:00+00:00",
+      "collected_at": "2026-09-24T01:27:29+09:00"
     },
     {
       "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
@@ -9071,186 +9331,6 @@
       "ts": 1787589000,
       "published": "2026-08-24T16:30:00+00:00",
       "collected_at": "2026-08-25T02:33:37+09:00"
-    },
-    {
-      "title": "llm-anthropic 0.27",
-      "link": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the sa…",
-      "ts": 1787588824,
-      "published": "2026-08-24T16:27:04+00:00",
-      "collected_at": "2026-08-25T05:34:10+09:00"
-    },
-    {
-      "title": "What’s New In The August 2026 Azul Payara Release?",
-      "link": "https://foojay.io/today/whats-new-in-the-august-2026-azul-payara-release/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "The August 2026 release brings Azul Payara Server and Micro 7.3.0, Azul Payara Community 7.2026.8, Azul Payara Server and Micro 6.41.0, Azul Payara Server and Micro 5.90.0, and Azul Payara Server and Micro 4.1.2.191.58.…",
-      "ts": 1787585788,
-      "published": "2026-08-24T15:36:28+00:00",
-      "collected_at": "2026-08-25T00:41:55+09:00"
-    },
-    {
-      "title": "Fragments: August 24",
-      "link": "https://martinfowler.com/fragments/2026-08-24.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "I was listening to Ezra Klein’s interview with Helen Toner about the recent OpenAI hack of Hugging Face and the subsequent discovery that there were swarms of agents inside OpenAI doing unsanctioned activities. One of t…",
-      "ts": 1787585340,
-      "published": "2026-08-24T15:29:00+00:00",
-      "collected_at": "2026-08-25T00:41:55+09:00"
-    },
-    {
-      "title": "Can an LLM Forget the Right Things?",
-      "link": "https://towardsdatascience.com/can-an-llm-forget-the-right-things/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "Most LLM inference runtimes have no idea a physical deadline exists. This one refuses admission rather than miss a 33ms robot control cycle, evicts KV cache by meaning instead of age, and is written entirely in hand-wri…",
-      "ts": 1787583600,
-      "published": "2026-08-24T15:00:00+00:00",
-      "collected_at": "2026-08-25T02:33:37+09:00"
-    },
-    {
-      "title": "How to encourage smarter AI use in the classroom",
-      "link": "https://www.technologyreview.com/2026/08/24/1142630/ai-school-classroom-policies/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This article is from Making AI Work, MIT Technology Review’s limited-run newsletter examining how to apply LLMs across industries. To receive it in your inbox, sign up here. Chatbots took many schools by surprise upon t…",
-      "ts": 1787581219,
-      "published": "2026-08-24T14:20:19+00:00",
-      "collected_at": "2026-08-24T23:48:52+09:00"
-    },
-    {
-      "title": "How to Leverage Local Small Language Models for Your Projects",
-      "link": "https://www.kdnuggets.com/how-to-leverage-local-small-language-models-for-your-projects",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "A practical guide to running compact, privacy-preserving language models on your own hardware for faster, cheaper, and more controllable AI-powered applications.",
-      "ts": 1787580013,
-      "published": "2026-08-24T14:00:13+00:00",
-      "collected_at": "2026-08-24T23:48:52+09:00"
-    },
-    {
-      "title": "How to Write an AGENTS.md File for a Python Project",
-      "link": "https://realpython.com/agents-md/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to write an AGENTS.md file so your AI coding agent produces idiomatic Python code that fits your project on the first try.",
-      "ts": 1787580000,
-      "published": "2026-08-24T14:00:00+00:00",
-      "collected_at": "2026-08-24T23:48:52+09:00"
-    },
-    {
-      "title": "Microsoft Moves AI Governance From Policy to Runtime Enforcement",
-      "link": "https://www.infoq.com/news/2026/08/microsoft-ai-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Microsoft has outlined an AI governance architecture spanning nine governance domains and four functions: policy, control, visibility, and proof. The approach connects policies with runtime enforcement, continuous evalu…",
-      "ts": 1787579340,
-      "published": "2026-08-24T13:49:00+00:00",
-      "collected_at": "2026-08-24T23:48:52+09:00"
-    },
-    {
-      "title": "Microsoft Moves AI Governance From Policy to Runtime Enforcement",
-      "link": "https://www.infoq.com/news/2026/08/microsoft-ai-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft has outlined an AI governance architecture spanning nine governance domains and four functions: policy, control, visibility, and proof. The approach connects policies with runtime enforcement, continuous evalu…",
-      "ts": 1787579340,
-      "published": "2026-08-24T13:49:00+00:00",
-      "collected_at": "2026-08-24T23:48:52+09:00"
-    },
-    {
-      "title": "What contributions can academic statisticians make to sports analytics? (a discussion related to the launch of the new open-access Journal of Statistics and Data Science in Sports)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/24/journal-of-statistics-and-data-science-in-sports/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Related to our recent post on the absurdity of open access fees, somebody recently informed me that a group of statisticians that work in sports decided they were sick and tired of this with the Journal of Quantitative…",
-      "ts": 1787578819,
-      "published": "2026-08-24T13:40:19+00:00",
-      "collected_at": "2026-08-24T22:56:13+09:00"
-    },
-    {
-      "title": "Speculative Decoding on CPUs: Nearly 4x Faster Token Generation with DFlash",
-      "link": "https://towardsdatascience.com/speculative-decoding-on-cpus-nearly-4x-faster-token-generation-with-dflash/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Speculative decoding can turn underused CPU compute into faster token generation, without changing the model's output. In our vLLM tests, DFlash delivered 3.92x the autoregressive throughput with Qwen3.5-9B on Intel Xeo…",
-      "ts": 1787578200,
-      "published": "2026-08-24T13:30:00+00:00",
-      "collected_at": "2026-08-24T22:56:13+09:00"
-    },
-    {
-      "title": "How to Use Kimi K3: Moonshot AI’s 2.8T Open-Weight Model",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/kimi-k3-explained/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Moonshot AI’s Kimi K3 is a 2.8-trillion-parameter open-weight model built with a Mixture-of-Experts architecture. It activates only a small fraction of its parameters per token, helping reduce inference costs while deli…",
-      "ts": 1787574177,
-      "published": "2026-08-24T12:22:57+00:00",
-      "collected_at": "2026-08-24T21:56:56+09:00"
-    },
-    {
-      "title": "Integrating Agentic AI with Existing Machine Learning Pipelines",
-      "link": "https://machinelearningmastery.com/integrating-agentic-ai-with-existing-machine-learning-pipelines/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how to combine a classical machine learning pipeline with an agentic AI system to build a hybrid, autonomous customer...",
-      "ts": 1787572848,
-      "published": "2026-08-24T12:00:48+00:00",
-      "collected_at": "2026-08-24T22:56:13+09:00"
-    },
-    {
-      "title": "Build an End-to-End Data Science Project with Grok Build and Grok 4.6",
-      "link": "https://www.kdnuggets.com/build-an-end-to-end-data-science-project-with-grok-build-and-grok-4-6",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Use Grok Build to create a production-ready data science workflow with EDA, scikit-learn, model training, FastAPI, API testing, and cloud deployment.",
-      "ts": 1787572806,
-      "published": "2026-08-24T12:00:06+00:00",
-      "collected_at": "2026-08-24T21:56:56+09:00"
-    },
-    {
-      "title": "Quiz: How to Write an AGENTS.md File for a Python Project",
-      "link": "https://realpython.com/quizzes/agents-md/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of how an AGENTS.md file gives your AI coding agent the project context it needs to write code that fits your project.",
-      "ts": 1787572800,
-      "published": "2026-08-24T12:00:00+00:00",
-      "collected_at": "2026-08-24T21:56:56+09:00"
-    },
-    {
-      "title": "AI Agents Don’t Need More Context — They Need Typed Context",
-      "link": "https://towardsdatascience.com/ai-agents-dont-need-more-context-they-need-typed-context/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "AI agents don’t just have a context problem—they have a context typing problem. When instructions, memory, retrieved evidence, and tool outputs are flattened into one string, their semantic boundaries can disappear. I b…",
-      "ts": 1787572800,
-      "published": "2026-08-24T12:00:00+00:00",
-      "collected_at": "2026-08-24T21:56:56+09:00"
-    },
-    {
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "link": "https://openai.com/index/gpt-5-6-in-kiro",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance.",
-      "ts": 1787572800,
-      "published": "2026-08-24T12:00:00+00:00",
-      "collected_at": "2026-08-25T05:34:10+09:00"
-    },
-    {
-      "title": "Your executable is a SQLite database",
-      "link": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte app…",
-      "ts": 1787571495,
-      "published": "2026-08-24T11:38:15+00:00",
-      "collected_at": "2026-08-24T21:56:56+09:00"
     }
   ]
 }
