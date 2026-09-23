@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-23T06:53:02+09:00",
-  "count": 924,
+  "updated": "2026-09-23T09:08:15+09:00",
+  "count": 923,
   "items": [
+    {
+      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
+      "link": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to…",
+      "ts": 1790120801,
+      "published": "2026-09-22T23:46:41+00:00",
+      "collected_at": "2026-09-23T09:07:52+09:00"
+    },
     {
       "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
       "link": "https://www.latent.space/p/john-platt",
@@ -43,6 +53,16 @@
       "collected_at": "2026-09-23T06:52:50+09:00"
     },
     {
+      "title": "llm 0.36",
+      "link": "https://simonwillison.net/2026/Sep/22/llm/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises…",
+      "ts": 1790102917,
+      "published": "2026-09-22T18:48:37+00:00",
+      "collected_at": "2026-09-23T09:07:52+09:00"
+    },
+    {
       "title": "Quoting @therealcornpop",
       "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
       "source": "Simon Willison",
@@ -61,6 +81,16 @@
       "ts": 1790100000,
       "published": "2026-09-22T18:00:00+00:00",
       "collected_at": "2026-09-23T06:52:50+09:00"
+    },
+    {
+      "title": "llm-anthropic 0.29",
+      "link": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
+      "ts": 1790097295,
+      "published": "2026-09-22T17:14:55+00:00",
+      "collected_at": "2026-09-23T09:07:52+09:00"
     },
     {
       "title": "Jev Explained: The AI Model That Never Generates a Word of Text",
@@ -221,6 +251,16 @@
       "ts": 1790078400,
       "published": "2026-09-22T12:00:00+00:00",
       "collected_at": "2026-09-22T23:29:53+09:00"
+    },
+    {
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "link": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "ts": 1790078400,
+      "published": "2026-09-22T12:00:00+00:00",
+      "collected_at": "2026-09-23T09:07:52+09:00"
     },
     {
       "title": "Don’t be fooled by this summer of AI hype",
@@ -9191,56 +9231,6 @@
       "ts": 1787538600,
       "published": "2026-08-24T02:30:00+00:00",
       "collected_at": "2026-08-24T12:06:46+09:00"
-    },
-    {
-      "title": "Value Classes Still Need Compiler Sympathy",
-      "link": "https://inside.java/2026/08/24/value-classes-compiler-sympathy/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Declaring a value class is first and foremost a semantic decision. It tells our fellow programmers that its instances are defined entirely by their state and do not need identity. That clearer model is valuable in itsel…",
-      "ts": 1787529600,
-      "published": "2026-08-24T00:00:00+00:00",
-      "collected_at": "2026-08-25T02:33:37+09:00"
-    },
-    {
-      "title": "RISC-V is now officially supported by CPython!",
-      "link": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "I’m happy to announce that RISC-V platforms are now officially supported by CPython. 🎉 🚀",
-      "ts": 1787529600,
-      "published": "2026-08-24T00:00:00+00:00",
-      "collected_at": "2026-08-25T04:32:38+09:00"
-    },
-    {
-      "title": "Cloudflare OS: Cloudflare's Open-Source Corporate AI Platform Built on a Capability-Based Model",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare recently open-sourced Cloudflare OS. It allows enterprise teams to output work artifacts grounded in enterprise knowledge, know-how, and provisioned connectors, automate repetitive workflows with optimized to…",
-      "ts": 1787525400,
-      "published": "2026-08-23T22:50:00+00:00",
-      "collected_at": "2026-08-24T08:24:40+09:00"
-    },
-    {
-      "title": "Cloudflare OS: Cloudflare's Open-Source Corporate AI Platform Built on a Capability-Based Model",
-      "link": "https://www.infoq.com/news/2026/08/cloudflare-os-ai-platform-secure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare recently open-sourced Cloudflare OS. It allows enterprise teams to output work artifacts grounded in enterprise knowledge, know-how, and provisioned connectors, automate repetitive workflows with optimized to…",
-      "ts": 1787525400,
-      "published": "2026-08-23T22:50:00+00:00",
-      "collected_at": "2026-08-24T08:24:40+09:00"
-    },
-    {
-      "title": "Head to head on 125 St: The Jamaican beef patty battle!",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/23/head-to-head-on-125-st-the-jamaican-beef-patty-battle/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "My new posts here have a one-year waiting list, but I’m bumping this one up because it’s important. OK, we went on over and did a head-to-head Jamaican beef patty taste-off. As the above wrappers indicate, we compared t…",
-      "ts": 1787523589,
-      "published": "2026-08-23T22:19:49+00:00",
-      "collected_at": "2026-08-24T07:25:42+09:00"
     }
   ]
 }
