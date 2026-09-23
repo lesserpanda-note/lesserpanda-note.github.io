@@ -1,6 +1,82 @@
 {
   "digests": [
     {
+      "date": "2026-09-22",
+      "summary": "오늘은 xAI의 Grok 4.7 공개와 GPT-6 Astra의 최고 사이버보안 위험 등급 획득이 AI 분야를 주도했습니다. 인프라 측면에서는 이란 분쟁으로 인한 AWS 중동 데이터 영구 손실 사태와 Cloudflare Python Workers의 2년 프리뷰 끝 정식 출시, 그리고 Kubernetes 1.37 출시가 큰 이슈였습니다. JDK 27이 GA 출시되었고, Python 3.15의 frozendict 예고, Polars 고성능 패턴 등 실용적인 개발자 콘텐츠도 다수 등장했습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java News Roundup: JDK 27, Open J Proxy, A2A Jakarta, Azul Payara, BoxLang, Netflix ja",
+          "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "JDK 27이 정식(GA) 출시되었으며, LibericaJDK 27, Open J Proxy 1.0, A2A Jakarta 1.0도 함께 공개되었습니다. 2026년 9월 14일 주 Java 생태계 주요 릴리스를 정리한 주간 뉴스입니다.",
+          "detail": "2026년 9월 14일 주간 Java 뉴스 요약입니다.\n주요 내용:\n- JDK 27 GA 정식 출시\n- LibericaJDK 27 출시 (Bellsoft의 OpenJDK 배포판)\n- Open J Proxy 1.0 GA 출시\n- A2A Jakarta 1.0 GA 출시\n- Azul Payara, JHipster, JetBrains Ktor 등 포인트 릴리스\n- BoxLang 및 Netflix 관련 업데이트 포함\nJDK 27은 단기 지원(non-LTS) 버전이지만, Java 생태계 전반에 걸친 활발한 릴리스 활동이 지속되고 있습니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+        },
+        {
+          "category": "AI",
+          "title": "Grok 4.7",
+          "link": "https://x.ai/news/grok-4-7",
+          "summary": "xAI가 Grok 4.7을 공개했습니다. Hacker News에서 104 포인트와 50개의 댓글을 기록하며 AI 커뮤니티의 큰 주목을 받은 새로운 모델 업데이트입니다.",
+          "detail": "xAI가 Grok 4.7을 발표했습니다.\n- Grok 4의 업데이트 버전으로, Hacker News에서 104 포인트와 50개의 댓글로 AI 커뮤니티의 큰 관심을 받았습니다.\n- 공식 발표는 x.ai 뉴스 블로그를 통해 이루어졌습니다.\n- 이전 Grok 4 대비 성능 및 기능 개선이 포함된 것으로 알려집니다.\n(페이지 접근 제한으로 원문 전체 내용을 확인하지 못했습니다.)"
+        },
+        {
+          "category": "AI",
+          "title": "GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level",
+          "link": "https://towardsdatascience.com/gpt-6-astra-just-hit-openais-highest-cybersecurity-risk-level/",
+          "summary": "GPT-6 Astra가 OpenAI의 Preparedness Framework에서 사이버보안 분야 최고 위험 등급을 획득했습니다. 저자는 이것이 Astra의 역량보다 다른 모델들의 미평가 문제를 드러낸다고 주장합니다.",
+          "detail": "GPT-6 Astra가 OpenAI의 Preparedness Framework에서 사이버보안 부문 최고 위험 등급을 받았습니다.\n- 저자는 이 사실이 Astra 자체의 역량보다, 다른 모델들이 아직 같은 수준으로 평가받지 않았다는 점에서 더 중요하다고 주장합니다.\n- 최강 AI 모델에 대한 사이버보안 위험이 공식 인정된 이 사례는 AI 모델 평가 기준의 투명성과 일관성 문제를 제기합니다.\n- 동일한 기준을 업계 전체 모델에 적용했을 때 어떤 결과가 나올지 묻는 글입니다.\n(페이지 접근 제한으로 원문 전체 기반 요약이 아닙니다.)"
+        },
+        {
+          "category": "Agents",
+          "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+          "link": "https://simonwillison.net/2026/Sep/21/jev/",
+          "summary": "TypeSafe AI가 'System One 모델'이라 부르는 새로운 카테고리의 LLM인 Jev를 공개했습니다. Simon Willison은 'Decision Models'가 더 적절한 이름이라고 평가했습니다.",
+          "detail": "TypeSafe AI가 발표한 Jev는 'System One 모델' 또는 'Decision Models'라 불리는 새로운 카테고리의 언어 모델입니다.\n- Simon Willison과 Maggie Appleton은 'decision models'라는 명칭이 더 적절하다고 동의합니다.\n- System One이라는 명칭은 인간 인지의 빠른 직관적 사고(System 1)에서 따온 것으로, 깊은 추론보다 신속한 의사결정에 최적화된 구조를 의미합니다.\n- 기존의 추론 중심(System Two) 모델과 달리 프로덕션 에이전트 파이프라인에서 실시간 판단이 필요한 상황을 위해 설계되었습니다.\n- TypeSafe AI CEO Diogo Almeida가 주도한 새로운 AI 모델 아키텍처 방향입니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+        },
+        {
+          "category": "Agents",
+          "title": "Cloudflare Python Workers are now generally available",
+          "link": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
+          "summary": "약 2년간의 프리뷰를 거쳐 Cloudflare Python Workers가 정식 출시(GA)되었습니다. Python이 Cloudflare Workers 플랫폼의 완전 지원 1급 언어로 공식 인정받았습니다.",
+          "detail": "약 2년간의 프리뷰를 거쳐 Cloudflare Python Workers가 정식 출시(GA)되었습니다.\n- Python은 이제 Cloudflare Workers 서버사이드 플랫폼에서 '완전 지원(fully supported) 1급 언어'로 공식 인정되었습니다.\n- Workers는 엣지(edge) 서버에서 코드를 실행하는 Cloudflare의 서버리스 런타임으로, 기존에는 JavaScript/TypeScript가 주력이었습니다.\n- 2년에 걸친 프리뷰를 통해 안정성이 검증되어 프로덕션 사용이 권장되는 수준에 도달했습니다.\n- Python 개발자들도 이제 Cloudflare의 글로벌 엣지 네트워크에서 직접 서버리스 함수를 작성하고 배포할 수 있게 됩니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+        },
+        {
+          "category": "Architecture",
+          "title": "AWS Cannot Restore Data Held Only in Damaged Middle East Availability Zones",
+          "link": "https://www.infoq.com/news/2026/09/aws-middle-east-data-loss/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "AWS가 이란과의 분쟁으로 손상된 UAE 및 바레인 가용 영역에만 저장된 데이터를 복구할 수 없다고 고객들에게 통보했습니다. 단일 가용 영역 의존의 위험성을 다시 일깨운 심각한 사건입니다.",
+          "detail": "AWS가 중동 지역 인프라 피해로 인한 데이터 복구 불가 사실을 고객들에게 공식 통보했습니다.\n주요 내용:\n- 피해 지역: UAE의 mec1-az2 가용 영역 및 바레인 리전\n- 원인: 이란과의 무력 분쟁 중 발생한 물리적 인프라 손상\n- AWS는 해당 가용 영역에만(exclusively) 데이터를 보관한 고객의 데이터 및 리소스를 복구할 수 없다고 발표\n- 멀티 AZ 또는 멀티 리전 구성을 사용한 고객은 영향 없음\n이 사건은 단일 가용 영역 의존의 위험성을 다시 한번 상기시키며, 재해복구(DR) 설계와 다중 리전 백업의 중요성을 강조합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Kubernetes 1.37 Released: Stable Metrics API and Rootless Kubelet in Beta",
+          "link": "https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "CNCF가 Kubernetes 1.37 'Garhwal'을 출시했습니다. 안정성·보안 강화 및 AI/ML 워크로드 최적화에 초점을 맞추었으며, Metrics API가 Stable로 승격되고 Rootless Kubelet이 Beta로 진입했습니다.",
+          "detail": "CNCF가 Kubernetes 1.37 'Garhwal'을 공식 출시했습니다.\n주요 내용:\n- Stable 승격: Metrics API가 안정(Stable) 버전으로 승격되어 클러스터 리소스 모니터링의 표준화가 강화됩니다.\n- Beta 신규 진입: Rootless Kubelet — 노드 에이전트를 루트 권한 없이 실행하는 기능으로 보안이 크게 향상됩니다.\n- AI/ML 워크로드 최적화: GPU 및 가속기 기반 워크로드 지원 강화\n- 전반적인 안정성 및 보안 개선에 집중\n쿠버네티스 1.37은 엔터프라이즈 운영 환경에서 보안 강화와 AI 인프라 지원을 동시에 추구하는 방향을 보여줍니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+        },
+        {
+          "category": "Python",
+          "title": "Python 3.15 Preview: frozendict",
+          "link": "https://realpython.com/python315-frozendict/",
+          "summary": "Python 3.15에서 도입 예정인 불변(immutable) 딕셔너리 타입 frozendict를 미리 살펴봅니다. 해시 가능하고 스레드 안전하게 캐싱할 수 있는 딕셔너리를 만드는 방법을 안내합니다.",
+          "detail": "Python 3.15에서 새롭게 도입되는 frozendict에 대한 미리보기 글입니다.\n주요 특징:\n- 불변(immutable) 매핑 타입: 생성 후 내용 변경 불가\n- 해시 가능(hashable): frozendict 인스턴스를 딕셔너리의 키로 사용 가능\n- 스레드 안전: 변경이 불가하므로 멀티스레드 환경에서 안전하게 공유 가능\n- 캐싱 용도에 최적: functools.lru_cache 등과 함께 불변 설정 객체로 활용 가능\n- 'freeze stops' 경계: 중첩된 가변 객체는 freeze되지 않는다는 주의사항 포함\n기존 frozenset과 유사한 개념을 딕셔너리에 적용하여 Python 타입 시스템을 더 풍부하게 만들어줍니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "3 Polars Tricks for High-Performance Data Manipulation",
+          "link": "https://www.kdnuggets.com/3-polars-tricks-for-high-performance-data-manipulation",
+          "summary": "느린 Polars 스크립트의 공통 원인과 이를 해결하는 3가지 핵심 기법을 소개합니다. Rust 기반 표현식 엔진과 쿼리 옵티마이저를 제대로 활용하는 방법에 집중합니다.",
+          "detail": "느린 Polars 코드의 대부분은 두 가지 핵심 기능을 충분히 활용하지 못하기 때문입니다: Rust로 작성되어 모든 코어에서 병렬 실행되는 표현식 엔진, 그리고 실행 전 코드를 재작성하는 쿼리 옵티마이저.\n주요 트릭:\n1. 표현식 기반 API 활용: Pandas 스타일의 루프 대신 Polars 표현식을 사용하여 Rust 레벨의 병렬 실행 이점을 극대화\n2. 지연 평가(Lazy evaluation) 활용: collect() 호출 전까지 연산을 쌓아 쿼리 옵티마이저가 최적화할 기회를 부여\n3. 불필요한 컬럼 조기 제거: 연산 초반에 필요한 컬럼만 선택하여 메모리와 연산 비용 절감\n고성능 데이터 처리가 필요한 Polars 사용자에게 실용적인 팁을 제공합니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+        },
+        {
+          "category": "DataScience",
+          "title": "Your AI Assistant Wrote the Code. Who Checked the Defaults?",
+          "link": "https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/",
+          "summary": "AI 코딩 어시스턴트가 생성한 scikit-learn 코드에서 놓치기 쉬운 기본값 5가지를 점검합니다. 프로덕션 모델 배포 전 반드시 확인해야 할 사항들입니다.",
+          "detail": "AI 코딩 어시스턴트가 생성한 scikit-learn 코드의 기본값이 프로덕션 환경에서 문제를 일으킬 수 있다고 경고하는 글입니다.\n주요 내용:\n- AI가 코드를 작성해도 scikit-learn의 기본 파라미터가 모든 데이터셋에 적합하지 않을 수 있습니다.\n- 프로덕션 배포 전 반드시 검토해야 할 기본값 5가지가 소개됩니다.\n- 훈련/테스트 분할, 교차 검증 설정, 결측값 처리 방식 등이 기본 설정으로 배포되면 성능 저하나 데이터 누수(data leakage)로 이어질 수 있습니다.\n- AI 생성 코드를 검증 없이 신뢰하지 말고 ML 엔지니어가 파라미터를 직접 검토해야 한다는 점을 강조합니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+        }
+      ]
+    },
+    {
       "date": "2026-09-21",
       "summary": "오늘은 알리바바의 AI 코드 리뷰 도구 OpenCodeReview 오픈소스 공개와 구글의 Kotlin ADK 1.0 출시가 AI 생태계 확장을 알렸습니다. 에이전트 분야에서는 MCP 설계에 대한 날카로운 비평과 Claude Code 에이전트 조율 패턴이 주목받았으며, 클라우드플레어의 TLS 최적화로 p90 레이턴시 150ms 이상 절감이라는 인상적인 성과도 공유되었습니다. DataScience 영역에서는 CNN 어텐션 모듈 CBAM 구현 가이드와 중국 출산율 장기 예측의 검증 사례가 소개되었습니다.",
       "highlights": [

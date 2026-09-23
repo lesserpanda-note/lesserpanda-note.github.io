@@ -1,76 +1,55 @@
 {
-  "updated": "2026-09-22T00:12:26Z",
-  "summary": "오늘은 xAI의 Grok 4.7 공개와 GPT-6 Astra의 최고 사이버보안 위험 등급 획득이 AI 분야를 주도했습니다. 인프라 측면에서는 이란 분쟁으로 인한 AWS 중동 데이터 영구 손실 사태와 Cloudflare Python Workers의 2년 프리뷰 끝 정식 출시, 그리고 Kubernetes 1.37 출시가 큰 이슈였습니다. JDK 27이 GA 출시되었고, Python 3.15의 frozendict 예고, Polars 고성능 패턴 등 실용적인 개발자 콘텐츠도 다수 등장했습니다.",
+  "updated": "2026-09-23T00:06:15Z",
+  "summary": "오늘은 OpenAI의 GPT-6 Sol·Luna 듀얼 모델 출시와 GitLab Duo의 Microsoft Foundry 통합 등 엔터프라이즈 AI 생태계의 주요 움직임이 이어졌습니다. 에이전트·RAG 분야에서는 샤오미의 저비용 고성능 오픈 웨이트 모델 MiMo-V2.6-Pro가 주목받았고, 적대적 RAG 테스트 방법론도 소개되었습니다. 통계 블로그에서는 설문 통계의 보조 정보 활용과 파닉스 교육 효과에 대한 통계적 분석이 공개되었으며, Real Python은 파이썬에서 Claude API를 활용하는 강의를 제공했습니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "Java News Roundup: JDK 27, Open J Proxy, A2A Jakarta, Azul Payara, BoxLang, Netflix ja",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "JDK 27이 정식(GA) 출시되었으며, LibericaJDK 27, Open J Proxy 1.0, A2A Jakarta 1.0도 함께 공개되었습니다. 2026년 9월 14일 주 Java 생태계 주요 릴리스를 정리한 주간 뉴스입니다.",
-      "detail": "2026년 9월 14일 주간 Java 뉴스 요약입니다.\n주요 내용:\n- JDK 27 GA 정식 출시\n- LibericaJDK 27 출시 (Bellsoft의 OpenJDK 배포판)\n- Open J Proxy 1.0 GA 출시\n- A2A Jakarta 1.0 GA 출시\n- Azul Payara, JHipster, JetBrains Ktor 등 포인트 릴리스\n- BoxLang 및 Netflix 관련 업데이트 포함\nJDK 27은 단기 지원(non-LTS) 버전이지만, Java 생태계 전반에 걸친 활발한 릴리스 활동이 지속되고 있습니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+      "category": "AI",
+      "title": "Introducing GPT-6 Sol and Luna",
+      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+      "summary": "OpenAI가 GPT-6 제품군의 두 신규 모델 Sol과 Luna를 공개했습니다. 두 모델은 능력과 비용 균형을 서로 다르게 조율하여 다양한 사용 목적에 맞도록 설계되었습니다.",
+      "detail": "OpenAI가 일상 업무를 위한 프론티어 AI 모델 두 종류를 새롭게 출시했습니다. GPT-6 Sol과 GPT-6 Luna는 동일한 GPT-6 기반 위에서 성능과 비용의 균형을 서로 다르게 조율한 모델입니다. Sol은 더 높은 추론 능력과 고급 작업에 초점을 맞추고, Luna는 비용 효율성과 빠른 응답 속도를 강조하는 것으로 소개되었습니다. 이번 출시로 OpenAI는 단일 모델 대신 목적에 따라 선택할 수 있는 모델 라인업을 확장하는 전략을 이어가고 있습니다. 기업 고객부터 개인 개발자까지 사용 사례에 맞게 최적 모델을 선택할 수 있는 유연성이 높아질 것으로 기대됩니다."
     },
     {
       "category": "AI",
-      "title": "Grok 4.7",
-      "link": "https://x.ai/news/grok-4-7",
-      "summary": "xAI가 Grok 4.7을 공개했습니다. Hacker News에서 104 포인트와 50개의 댓글을 기록하며 AI 커뮤니티의 큰 주목을 받은 새로운 모델 업데이트입니다.",
-      "detail": "xAI가 Grok 4.7을 발표했습니다.\n- Grok 4의 업데이트 버전으로, Hacker News에서 104 포인트와 50개의 댓글로 AI 커뮤니티의 큰 관심을 받았습니다.\n- 공식 발표는 x.ai 뉴스 블로그를 통해 이루어졌습니다.\n- 이전 Grok 4 대비 성능 및 기능 개선이 포함된 것으로 알려집니다.\n(페이지 접근 제한으로 원문 전체 내용을 확인하지 못했습니다.)"
-    },
-    {
-      "category": "AI",
-      "title": "GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level",
-      "link": "https://towardsdatascience.com/gpt-6-astra-just-hit-openais-highest-cybersecurity-risk-level/",
-      "summary": "GPT-6 Astra가 OpenAI의 Preparedness Framework에서 사이버보안 분야 최고 위험 등급을 획득했습니다. 저자는 이것이 Astra의 역량보다 다른 모델들의 미평가 문제를 드러낸다고 주장합니다.",
-      "detail": "GPT-6 Astra가 OpenAI의 Preparedness Framework에서 사이버보안 부문 최고 위험 등급을 받았습니다.\n- 저자는 이 사실이 Astra 자체의 역량보다, 다른 모델들이 아직 같은 수준으로 평가받지 않았다는 점에서 더 중요하다고 주장합니다.\n- 최강 AI 모델에 대한 사이버보안 위험이 공식 인정된 이 사례는 AI 모델 평가 기준의 투명성과 일관성 문제를 제기합니다.\n- 동일한 기준을 업계 전체 모델에 적용했을 때 어떤 결과가 나올지 묻는 글입니다.\n(페이지 접근 제한으로 원문 전체 기반 요약이 아닙니다.)"
+      "title": "GitLab Duo Expands Self-Hosted AI Options Through Microsoft Foundry",
+      "link": "https://www.infoq.com/news/2026/09/gitlab-microsoft-foundry/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "GitLab Duo Self-Hosted가 Microsoft Azure Foundry를 통해 배포된 모델을 지원하도록 확장되었습니다. 기업은 자체 Azure 환경에서 GitLab의 AI 개발 기능을 운영할 수 있게 됩니다.",
+      "detail": "GitLab이 엔터프라이즈 AI 코딩 어시스턴트인 GitLab Duo Self-Hosted의 기능을 확장하여 Microsoft Foundry를 통해 배포된 모델을 지원하도록 했습니다. 이번 업데이트를 통해 조직은 자신이 선택한 Azure 환경에서 GitLab의 AI 개발 기능을 운영할 수 있게 됩니다. 이는 특히 데이터 주권(data sovereignty)과 규정 준수가 중요한 대규모 엔터프라이즈 환경에서 AI 도구 도입의 유연성을 높여주는 조치입니다. Microsoft Azure에 이미 투자한 기업들이 GitLab Duo를 보다 쉽게 통합할 수 있게 되어, 자체 인프라 안에서 AI 기반 개발 자동화를 실현하는 경로가 넓어졌습니다."
     },
     {
       "category": "Agents",
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "link": "https://simonwillison.net/2026/Sep/21/jev/",
-      "summary": "TypeSafe AI가 'System One 모델'이라 부르는 새로운 카테고리의 LLM인 Jev를 공개했습니다. Simon Willison은 'Decision Models'가 더 적절한 이름이라고 평가했습니다.",
-      "detail": "TypeSafe AI가 발표한 Jev는 'System One 모델' 또는 'Decision Models'라 불리는 새로운 카테고리의 언어 모델입니다.\n- Simon Willison과 Maggie Appleton은 'decision models'라는 명칭이 더 적절하다고 동의합니다.\n- System One이라는 명칭은 인간 인지의 빠른 직관적 사고(System 1)에서 따온 것으로, 깊은 추론보다 신속한 의사결정에 최적화된 구조를 의미합니다.\n- 기존의 추론 중심(System Two) 모델과 달리 프로덕션 에이전트 파이프라인에서 실시간 판단이 필요한 상황을 위해 설계되었습니다.\n- TypeSafe AI CEO Diogo Almeida가 주도한 새로운 AI 모델 아키텍처 방향입니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "link": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+      "summary": "샤오미의 MiMo-V2.6-Pro가 약 300만 달러의 훈련 비용으로 오픈 웨이트 모델 중 최고 성능을 달성하며 중국 AI 연구소의 새로운 경쟁력을 입증했습니다.",
+      "detail": "샤오미가 공개한 MiMo-V2.6-Pro 1T-A42B는 총 1조 개 파라미터 규모에 활성화 파라미터 약 420억 개의 Mixture-of-Experts(MoE) 아키텍처를 채택한 오픈 웨이트 모델입니다. 훈련 비용 약 300만 달러라는 비교적 낮은 투자로 오픈 웨이트 부문 최상위 성능을 기록해 주목받고 있습니다. Latent Space의 AINews는 이 결과를 통해 중국 AI 생태계가 비용 효율성 측면에서 빠르게 경쟁력을 키우고 있음을 강조했습니다. 모델 가중치와 기술 보고서가 공개되어 연구자와 개발자가 직접 활용할 수 있으며, 중국 프론티어 AI 랩의 새 강자로 자리매김하고 있습니다."
     },
     {
       "category": "Agents",
-      "title": "Cloudflare Python Workers are now generally available",
-      "link": "https://simonwillison.net/2026/Sep/21/cloudflare-python-worker/",
-      "summary": "약 2년간의 프리뷰를 거쳐 Cloudflare Python Workers가 정식 출시(GA)되었습니다. Python이 Cloudflare Workers 플랫폼의 완전 지원 1급 언어로 공식 인정받았습니다.",
-      "detail": "약 2년간의 프리뷰를 거쳐 Cloudflare Python Workers가 정식 출시(GA)되었습니다.\n- Python은 이제 Cloudflare Workers 서버사이드 플랫폼에서 '완전 지원(fully supported) 1급 언어'로 공식 인정되었습니다.\n- Workers는 엣지(edge) 서버에서 코드를 실행하는 Cloudflare의 서버리스 런타임으로, 기존에는 JavaScript/TypeScript가 주력이었습니다.\n- 2년에 걸친 프리뷰를 통해 안정성이 검증되어 프로덕션 사용이 권장되는 수준에 도달했습니다.\n- Python 개발자들도 이제 Cloudflare의 글로벌 엣지 네트워크에서 직접 서버리스 함수를 작성하고 배포할 수 있게 됩니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+      "title": "Break Your Own RAG Pipeline Before Users Do",
+      "link": "https://towardsdatascience.com/break-your-own-rag-pipeline-before-users-do/",
+      "summary": "RAG 파이프라인을 사용자보다 먼저 적대적으로 테스트하여 일반 평가 데이터셋이 놓치는 검색 실패를 사전에 발견하는 실용적인 방법론을 소개합니다.",
+      "detail": "RAG(Retrieval-Augmented Generation) 파이프라인의 품질을 높이려면 일반적인 평가 데이터셋만으로는 발견하기 어려운 엣지 케이스가 존재합니다. 이 글은 소규모 적대적 테스트 세트(adversarial test set)를 구성하여 검색 단계에서 발생하는 실패를 사전에 탐지하는 방법을 제안합니다. 의미론적 유사도는 높지만 답변에 실제로 도움이 되지 않는 '교란 문서', 답변이 여러 청크에 걸쳐 분산된 경우, 부정 질문 시나리오 등을 체계적으로 테스트할 것을 권장합니다. 프로덕션 환경 배포 이전에 이러한 실패 모드를 직접 찾아내는 것이 서비스 품질과 사용자 신뢰를 확보하는 데 효과적인 접근입니다."
     },
     {
-      "category": "Architecture",
-      "title": "AWS Cannot Restore Data Held Only in Damaged Middle East Availability Zones",
-      "link": "https://www.infoq.com/news/2026/09/aws-middle-east-data-loss/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "AWS가 이란과의 분쟁으로 손상된 UAE 및 바레인 가용 영역에만 저장된 데이터를 복구할 수 없다고 고객들에게 통보했습니다. 단일 가용 영역 의존의 위험성을 다시 일깨운 심각한 사건입니다.",
-      "detail": "AWS가 중동 지역 인프라 피해로 인한 데이터 복구 불가 사실을 고객들에게 공식 통보했습니다.\n주요 내용:\n- 피해 지역: UAE의 mec1-az2 가용 영역 및 바레인 리전\n- 원인: 이란과의 무력 분쟁 중 발생한 물리적 인프라 손상\n- AWS는 해당 가용 영역에만(exclusively) 데이터를 보관한 고객의 데이터 및 리소스를 복구할 수 없다고 발표\n- 멀티 AZ 또는 멀티 리전 구성을 사용한 고객은 영향 없음\n이 사건은 단일 가용 영역 의존의 위험성을 다시 한번 상기시키며, 재해복구(DR) 설계와 다중 리전 백업의 중요성을 강조합니다."
+      "category": "DataScience",
+      "title": "Survey Statistics: Fat Bear Week 2026",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/22/survey-statistics-fat-bear-week-2026/",
+      "summary": "Andrew Gelman이 Fat Bear Week를 소재로 설문 통계에서 보조 정보(auxiliary information)의 활용과 Basu의 코끼리 역설을 통해 표본 추출의 핵심 개념을 설명합니다.",
+      "detail": "앤드루 겔만(Andrew Gelman)이 매년 열리는 Fat Bear Week(알래스카 캐트마이 국립공원 곰 체중 증가 콘테스트)를 설문 통계 교육 소재로 활용했습니다. 1971년 통계학자 Basu가 고안한 '코끼리 예시'를 응용하여, 표본 추출 시 보조 변수(auxiliary variable) 활용의 중요성과 Horvitz-Thompson 추정량의 직관적 이해를 설명합니다. 곰의 체중 추정이라는 친근한 맥락을 통해 층화 표본 추출(stratified sampling)과 비율 추정(ratio estimation)의 개념을 소개하며, 보조 정보를 적절히 활용할 때 추정 효율이 어떻게 향상되는지 논의합니다. 통계 교육에서 실생활 사례의 중요성도 함께 강조합니다."
     },
     {
-      "category": "Architecture",
-      "title": "Kubernetes 1.37 Released: Stable Metrics API and Rootless Kubelet in Beta",
-      "link": "https://www.infoq.com/news/2026/09/kubernetes-1-37/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "CNCF가 Kubernetes 1.37 'Garhwal'을 출시했습니다. 안정성·보안 강화 및 AI/ML 워크로드 최적화에 초점을 맞추었으며, Metrics API가 Stable로 승격되고 Rootless Kubelet이 Beta로 진입했습니다.",
-      "detail": "CNCF가 Kubernetes 1.37 'Garhwal'을 공식 출시했습니다.\n주요 내용:\n- Stable 승격: Metrics API가 안정(Stable) 버전으로 승격되어 클러스터 리소스 모니터링의 표준화가 강화됩니다.\n- Beta 신규 진입: Rootless Kubelet — 노드 에이전트를 루트 권한 없이 실행하는 기능으로 보안이 크게 향상됩니다.\n- AI/ML 워크로드 최적화: GPU 및 가속기 기반 워크로드 지원 강화\n- 전반적인 안정성 및 보안 개선에 집중\n쿠버네티스 1.37은 엔터프라이즈 운영 환경에서 보안 강화와 AI 인프라 지원을 동시에 추구하는 방향을 보여줍니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+      "category": "DataScience",
+      "title": "\"Phonics is a fad, but it's also good, so we should do it anyway, even though it will probably disappoint people\"",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/22/phonics-is-a-fad-but-its-also-good-so-we-should-do-it-anyway-even-though-it-will-probably-disappoint-people/",
+      "summary": "파닉스 교수법이 교육 유행이면서도 실증적으로 효과적이라는 연구를 통해, 교육 정책에서 증거 기반 판단의 복잡성과 효과 크기 해석의 중요성을 통계적으로 분석합니다.",
+      "detail": "Tyler Watts와 Drew Bailey의 연구를 소개하는 이 글은 파닉스(phonics, 음운 인식 읽기 교수법)가 교육 유행처럼 반복되면서도 실증적으로 효과가 있다는 이중적 성격을 다룹니다. 무작위 대조 시험(RCT) 및 메타 분석 연구들이 파닉스의 단기 읽기 성과 향상을 지지하지만, 장기적 효과는 제한적일 수 있다는 점도 지적합니다. 교육 정책에서 '유행'과 '증거 기반'의 경계가 모호한 이유를 정책 사이클, 측정의 어려움, 기대 효과 과장 경향 등 통계적 관점에서 분석합니다. 효과 크기(effect size)와 실용적 유의미성(practical significance)의 차이를 이해하는 것이 교육 연구 해석에 중요함을 강조하며, 증거가 있어도 실망을 부를 수 있다는 현실적 전망도 제시합니다."
     },
     {
       "category": "Python",
-      "title": "Python 3.15 Preview: frozendict",
-      "link": "https://realpython.com/python315-frozendict/",
-      "summary": "Python 3.15에서 도입 예정인 불변(immutable) 딕셔너리 타입 frozendict를 미리 살펴봅니다. 해시 가능하고 스레드 안전하게 캐싱할 수 있는 딕셔너리를 만드는 방법을 안내합니다.",
-      "detail": "Python 3.15에서 새롭게 도입되는 frozendict에 대한 미리보기 글입니다.\n주요 특징:\n- 불변(immutable) 매핑 타입: 생성 후 내용 변경 불가\n- 해시 가능(hashable): frozendict 인스턴스를 딕셔너리의 키로 사용 가능\n- 스레드 안전: 변경이 불가하므로 멀티스레드 환경에서 안전하게 공유 가능\n- 캐싱 용도에 최적: functools.lru_cache 등과 함께 불변 설정 객체로 활용 가능\n- 'freeze stops' 경계: 중첩된 가변 객체는 freeze되지 않는다는 주의사항 포함\n기존 frozenset과 유사한 개념을 딕셔너리에 적용하여 Python 타입 시스템을 더 풍부하게 만들어줍니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "3 Polars Tricks for High-Performance Data Manipulation",
-      "link": "https://www.kdnuggets.com/3-polars-tricks-for-high-performance-data-manipulation",
-      "summary": "느린 Polars 스크립트의 공통 원인과 이를 해결하는 3가지 핵심 기법을 소개합니다. Rust 기반 표현식 엔진과 쿼리 옵티마이저를 제대로 활용하는 방법에 집중합니다.",
-      "detail": "느린 Polars 코드의 대부분은 두 가지 핵심 기능을 충분히 활용하지 못하기 때문입니다: Rust로 작성되어 모든 코어에서 병렬 실행되는 표현식 엔진, 그리고 실행 전 코드를 재작성하는 쿼리 옵티마이저.\n주요 트릭:\n1. 표현식 기반 API 활용: Pandas 스타일의 루프 대신 Polars 표현식을 사용하여 Rust 레벨의 병렬 실행 이점을 극대화\n2. 지연 평가(Lazy evaluation) 활용: collect() 호출 전까지 연산을 쌓아 쿼리 옵티마이저가 최적화할 기회를 부여\n3. 불필요한 컬럼 조기 제거: 연산 초반에 필요한 컬럼만 선택하여 메모리와 연산 비용 절감\n고성능 데이터 처리가 필요한 Polars 사용자에게 실용적인 팁을 제공합니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
-    },
-    {
-      "category": "DataScience",
-      "title": "Your AI Assistant Wrote the Code. Who Checked the Defaults?",
-      "link": "https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/",
-      "summary": "AI 코딩 어시스턴트가 생성한 scikit-learn 코드에서 놓치기 쉬운 기본값 5가지를 점검합니다. 프로덕션 모델 배포 전 반드시 확인해야 할 사항들입니다.",
-      "detail": "AI 코딩 어시스턴트가 생성한 scikit-learn 코드의 기본값이 프로덕션 환경에서 문제를 일으킬 수 있다고 경고하는 글입니다.\n주요 내용:\n- AI가 코드를 작성해도 scikit-learn의 기본 파라미터가 모든 데이터셋에 적합하지 않을 수 있습니다.\n- 프로덕션 배포 전 반드시 검토해야 할 기본값 5가지가 소개됩니다.\n- 훈련/테스트 분할, 교차 검증 설정, 결측값 처리 방식 등이 기본 설정으로 배포되면 성능 저하나 데이터 누수(data leakage)로 이어질 수 있습니다.\n- AI 생성 코드를 검증 없이 신뢰하지 말고 ML 엔지니어가 파라미터를 직접 검토해야 한다는 점을 강조합니다.\n(피드 요약 기반으로 작성, 원문 전체 기반 요약이 아닙니다.)"
+      "title": "Using the Claude API in Python",
+      "link": "https://realpython.com/courses/using-claude-api-python/",
+      "summary": "Real Python의 Claude API 파이썬 활용 강의로, 프롬프트 전송부터 시스템 인스트럭션 설정, 구조화된 출력 추출까지 단계별로 학습할 수 있습니다.",
+      "detail": "Real Python에서 공개한 강의로, Anthropic의 Claude AI API를 파이썬으로 활용하는 방법을 체계적으로 다룹니다. anthropic SDK를 사용하여 기본 메시지를 전송하고, 시스템 프롬프트로 응답 스타일을 제어하며, JSON 스키마 기반 구조화된 출력을 받는 실습을 포함합니다. model, max_tokens, temperature 등 Claude API의 핵심 파라미터를 설명하고, 실제 애플리케이션에 AI 기능을 통합하는 방법을 안내합니다. 파이썬 개발자가 LLM 기반 기능을 자신의 프로젝트에 추가하고자 할 때 실용적인 시작점이 됩니다."
     }
   ]
 }
