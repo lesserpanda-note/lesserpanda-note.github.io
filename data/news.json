@@ -1,7 +1,77 @@
 {
-  "updated": "2026-09-23T14:39:49+09:00",
-  "count": 922,
+  "updated": "2026-09-23T20:06:08+09:00",
+  "count": 925,
   "items": [
+    {
+      "title": "How to Make Your First World Model from Scratch",
+      "link": "https://towardsdatascience.com/how-to-make-your-first-world-model-from-scratch/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A beginner-friendly guide to building a world model in Python, letting it daydream its way through CartPole, and accurately measuring when the illusion collapses. The post How to Make Your First World Model from Scratch…",
+      "ts": 1790161202,
+      "published": "2026-09-23T11:00:02+00:00",
+      "collected_at": "2026-09-23T20:05:59+09:00"
+    },
+    {
+      "title": "Presentation: APIs for Agents: Rethinking API Programs in the MCP Era",
+      "link": "https://www.infoq.com/presentations/mcp-calm-api-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Jim Gough and Andreea Niculcea explain how Morgan Stanley uses Architecture as Code with CALM to modernize its API program. They demonstrate integrating Model Context Protocol (MCP) and Agent-to-Agent (A2A) communicatio…",
+      "ts": 1790161200,
+      "published": "2026-09-23T11:00:00+00:00",
+      "collected_at": "2026-09-23T20:05:59+09:00"
+    },
+    {
+      "title": "Presentation: APIs for Agents: Rethinking API Programs in the MCP Era",
+      "link": "https://www.infoq.com/presentations/mcp-calm-api-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Jim Gough and Andreea Niculcea explain how Morgan Stanley uses Architecture as Code with CALM to modernize its API program. They demonstrate integrating Model Context Protocol (MCP) and Agent-to-Agent (A2A) communicatio…",
+      "ts": 1790161200,
+      "published": "2026-09-23T11:00:00+00:00",
+      "collected_at": "2026-09-23T20:05:59+09:00"
+    },
+    {
+      "title": "Google Adds Cycle-Level Kernel Profiling to XProf",
+      "link": "https://www.infoq.com/news/2026/09/google-tpu-xprof/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google has added a Kernel Profiling suite to XProf. This is its open-source profiler for TPU workloads. Now, developers can see cycle-level details in custom Pallas kernels. Before, these kernels appeared as single opaq…",
+      "ts": 1790157600,
+      "published": "2026-09-23T10:00:00+00:00",
+      "collected_at": "2026-09-23T20:05:59+09:00"
+    },
+    {
+      "title": "Article: Modular Edge Computing at Multi-Tenant SaaS Scale on Cloudflare Workers",
+      "link": "https://www.infoq.com/articles/modular-edge-computing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "At multi-tenant SaaS scale, a monolithic edge worker creates deployment coupling and broad blast radius. The article presents a modular Cloudflare Workers architecture using service bindings, with image optimization as…",
+      "ts": 1790154000,
+      "published": "2026-09-23T09:00:00+00:00",
+      "collected_at": "2026-09-23T20:05:59+09:00"
+    },
+    {
+      "title": "Elastic Beanstalk Adds Cluster Mode, Running Applications on Shared EKS Clusters",
+      "link": "https://www.infoq.com/news/2026/09/elastic-beanstalk-cluster-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS has added Cluster Mode to Elastic Beanstalk, running applications on EKS clusters the service creates and operates. Clusters are assigned by subnet set and cannot be changed afterward, direct cluster access is servi…",
+      "ts": 1790145840,
+      "published": "2026-09-23T06:44:00+00:00",
+      "collected_at": "2026-09-23T20:05:59+09:00"
+    },
+    {
+      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
+      "link": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "overshadowing more efficient GPT6 models from OpenAI",
+      "ts": 1790145701,
+      "published": "2026-09-23T06:41:41+00:00",
+      "collected_at": "2026-09-23T20:05:59+09:00"
+    },
     {
       "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
       "link": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
@@ -21,6 +91,16 @@
       "ts": 1790131300,
       "published": "2026-09-23T02:41:40+00:00",
       "collected_at": "2026-09-23T14:39:37+09:00"
+    },
+    {
+      "title": "AsciiDoc Support on the new Foojay",
+      "link": "https://foojay.io/today/asciidoc-support-on-foojay/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Foojay articles can now be written in AsciiDoc as well as Markdown. Named blocks, real tables, source callouts and admonitions — the things Markdown has no syntax for.",
+      "ts": 1790121600,
+      "published": "2026-09-23T00:00:00+00:00",
+      "collected_at": "2026-09-23T20:05:59+09:00"
     },
     {
       "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
@@ -9171,56 +9251,6 @@
       "ts": 1787571495,
       "published": "2026-08-24T11:38:15+00:00",
       "collected_at": "2026-08-24T21:56:56+09:00"
-    },
-    {
-      "title": "Podcast: The Human Edge: Why Brownfield Codebases Need Mob Programming, Not Just AI Vibes",
-      "link": "https://www.infoq.com/podcasts/brownfield-codebases-mob-programming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Asgaut Mjølne Söderbom and Ola Hast discuss the evolution of their software engineering practices past continuous deployment and pair engineering. The conversation continues where it left off in the previous episode and…",
-      "ts": 1787569200,
-      "published": "2026-08-24T11:00:00+00:00",
-      "collected_at": "2026-08-24T20:32:19+09:00"
-    },
-    {
-      "title": "Presentation: Prompt to Prod: Engineering an Autonomous SDLC at Scale",
-      "link": "https://www.infoq.com/presentations/autonomous-ai-software-development-roblox/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Andrew Swerdlow shares how Roblox scales autonomous software development from prompt to production. He discusses building robust security sandboxes, extracting institutional knowledge via code review exemplars, updating…",
-      "ts": 1787569200,
-      "published": "2026-08-24T11:00:00+00:00",
-      "collected_at": "2026-08-24T20:32:19+09:00"
-    },
-    {
-      "title": "Presentation: Prompt to Prod: Engineering an Autonomous SDLC at Scale",
-      "link": "https://www.infoq.com/presentations/autonomous-ai-software-development-roblox/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Andrew Swerdlow shares how Roblox scales autonomous software development from prompt to production. He discusses building robust security sandboxes, extracting institutional knowledge via code review exemplars, updating…",
-      "ts": 1787569200,
-      "published": "2026-08-24T11:00:00+00:00",
-      "collected_at": "2026-08-24T20:32:19+09:00"
-    },
-    {
-      "title": "Kids outlearn AI—and we still don’t know why",
-      "link": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "People have been talking to each other for at least 100,000 years, as best we can tell. And in all that time, there has been only one thing in the world that could learn a human language to perfect fluency: a human chil…",
-      "ts": 1787562000,
-      "published": "2026-08-24T09:00:00+00:00",
-      "collected_at": "2026-08-24T18:51:52+09:00"
-    },
-    {
-      "title": "Anthropic Claude and API service outages",
-      "link": "https://status.claude.com/uptime",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://status.claude.com/uptime Comments URL: https://news.ycombinator.com/item?id=49415907 Points: 75 # Comments: 60",
-      "ts": 1787553148,
-      "published": "2026-08-24T06:32:28+00:00",
-      "collected_at": "2026-08-25T08:25:05+09:00"
     }
   ]
 }
