@@ -1,7 +1,47 @@
 {
-  "updated": "2026-09-24T01:27:52+09:00",
-  "count": 933,
+  "updated": "2026-09-24T05:01:45+09:00",
+  "count": 939,
   "items": [
+    {
+      "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "link": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790188900,
+      "published": "2026-09-23T18:41:40+00:00",
+      "collected_at": "2026-09-24T05:01:24+09:00"
+    },
+    {
+      "title": "langgraph-cli==0.4.32",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.31 feat(cli): place self-hosted deployments on a listener ( #9056 ) feat(cli): clarify agent flags and support env defaults ( #9063 ) feat(cli): Update langgraph deploy command to use agent_id and…",
+      "ts": 1790186566,
+      "published": "2026-09-23T18:02:46+00:00",
+      "collected_at": "2026-09-24T05:01:24+09:00"
+    },
+    {
+      "title": "Google Beam expands with new regions, partners, and customers",
+      "link": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Google Beam promotional animation",
+      "ts": 1790186400,
+      "published": "2026-09-23T18:00:00+00:00",
+      "collected_at": "2026-09-24T05:01:24+09:00"
+    },
+    {
+      "title": "Shadow roots, explained with live examples",
+      "link": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css",
+      "ts": 1790181438,
+      "published": "2026-09-23T16:37:18+00:00",
+      "collected_at": "2026-09-24T05:01:24+09:00"
+    },
     {
       "title": "Advancing Private AI Compute with secure, server-side memory",
       "link": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
@@ -223,6 +263,36 @@
       "collected_at": "2026-09-24T01:27:29+09:00"
     },
     {
+      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "ts": 1790164800,
+      "published": "2026-09-23T12:00:00+00:00",
+      "collected_at": "2026-09-24T05:01:24+09:00"
+    },
+    {
+      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "ts": 1790164800,
+      "published": "2026-09-23T12:00:00+00:00",
+      "collected_at": "2026-09-24T05:01:24+09:00"
+    },
+    {
+      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "link": "https://openai.com/index/ringg",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+      "ts": 1790164800,
+      "published": "2026-09-23T12:00:00+00:00",
+      "collected_at": "2026-09-24T05:01:24+09:00"
+    },
+    {
       "title": "How to Make Your First World Model from Scratch",
       "link": "https://towardsdatascience.com/how-to-make-your-first-world-model-from-scratch/",
       "source": "Towards Data Science",
@@ -263,6 +333,16 @@
       "collected_at": "2026-09-23T20:05:59+09:00"
     },
     {
+      "title": "Introducing MentalHealthBench",
+      "link": "https://openai.com/index/introducing-mentalhealthbench",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+      "ts": 1790157600,
+      "published": "2026-09-23T10:00:00+00:00",
+      "collected_at": "2026-09-24T05:01:24+09:00"
+    },
+    {
       "title": "Article: Modular Edge Computing at Multi-Tenant SaaS Scale on Cloudflare Workers",
       "link": "https://www.infoq.com/articles/modular-edge-computing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
       "source": "InfoQ Architecture",
@@ -271,6 +351,16 @@
       "ts": 1790154000,
       "published": "2026-09-23T09:00:00+00:00",
       "collected_at": "2026-09-23T20:05:59+09:00"
+    },
+    {
+      "title": "The AI Hype Index: AI loves cheating",
+      "link": "https://www.technologyreview.com/2026/09/23/1144940/ai-hype-index-ai-loves-cheating/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Brace yourself: It turns out AI is being optimized for cheating. OpenAI’s agents hacked into Hugging Face to get the answers to a cybersecurity test. Next, they solved a prestigious math problem (or just stole from two…",
+      "ts": 1790154000,
+      "published": "2026-09-23T09:00:00+00:00",
+      "collected_at": "2026-09-24T05:01:24+09:00"
     },
     {
       "title": "Elastic Beanstalk Adds Cluster Mode, Running Applications on Shared EKS Clusters",
@@ -9301,36 +9391,6 @@
       "ts": 1787616000,
       "published": "2026-08-25T00:00:00+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
-      "link": "https://github.com/l3a0/claude-plugins",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/l3a0/claude-plugins Comments URL: https://news.ycombinator.com/item?id=49424758 Points: 43 # Comments: 11",
-      "ts": 1787599938,
-      "published": "2026-08-24T19:32:18+00:00",
-      "collected_at": "2026-08-25T08:25:05+09:00"
-    },
-    {
-      "title": "Put Your Own Logic Inside the Codex Agentic Loop",
-      "link": "https://towardsdatascience.com/put-your-own-logic-inside-the-codex-agentic-loop/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Understanding Codex hooks The post Put Your Own Logic Inside the Codex Agentic Loop appeared first on Towards Data Science .",
-      "ts": 1787594400,
-      "published": "2026-08-24T18:00:00+00:00",
-      "collected_at": "2026-08-25T03:45:31+09:00"
-    },
-    {
-      "title": "10 Positions for Enterprise RAG That Mainstream Tutorials Get Wrong",
-      "link": "https://towardsdatascience.com/10-positions-for-enterprise-rag-that-mainstream-tutorials-get-wrong/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #M3] - The ten positions the series argues from, and the map of every article that argues them The post 10 Positions for Enterprise RAG That Mainstream Tutorials Get Wrong appeare…",
-      "ts": 1787589000,
-      "published": "2026-08-24T16:30:00+00:00",
-      "collected_at": "2026-08-25T02:33:37+09:00"
     }
   ]
 }
