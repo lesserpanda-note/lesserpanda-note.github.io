@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-24T08:28:41+09:00",
-  "count": 944,
+  "updated": "2026-09-24T09:09:08+09:00",
+  "count": 939,
   "items": [
+    {
+      "title": "Diagrams as Code: Mermaid Support on the new Foojay",
+      "link": "https://foojay.io/today/diagrams-as-code-mermaid-support-on-foojay/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Foojay articles now render Mermaid diagrams from a fenced code block. Write the diagram in Markdown, get a real diagram, and keep it reviewable in the pull request.",
+      "ts": 1790208000,
+      "published": "2026-09-24T00:00:00+00:00",
+      "collected_at": "2026-09-24T09:08:45+09:00"
+    },
     {
       "title": "langgraph-cli==0.4.32.dev0",
       "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
@@ -241,6 +251,16 @@
       "ts": 1790166601,
       "published": "2026-09-23T12:30:01+00:00",
       "collected_at": "2026-09-24T01:27:29+09:00"
+    },
+    {
+      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
+      "link": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/ Comments URL: https://news.ycombinator.com/item?id=49814947 Points: 439 # Comments: 250",
+      "ts": 1790165733,
+      "published": "2026-09-23T12:15:33+00:00",
+      "collected_at": "2026-09-24T09:08:45+09:00"
     },
     {
       "title": "RAG vs. Fine-Tuning for Domain Adaptation: When to Use Which",
@@ -9370,76 +9390,6 @@
       "summary": "An industry legend starts covering the inevitable!",
       "ts": 1787626257,
       "published": "2026-08-25T02:50:57+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Announcing Oracle Jipher 10.37: FIPS 140-3 Cryptography for Java",
-      "link": "https://inside.java/2026/08/25/jipher-cryptography-for-java/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Oracle Jipher 10 packages a FIPS 140-3 validated OpenSSL cryptographic module, making cryptographic services available through the standard Java Cryptography Architecture (JCA) framework.",
-      "ts": 1787616000,
-      "published": "2026-08-25T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "This Week in Spring - August 25th, 2026",
-      "link": "https://spring.io/blog/2026/08/25/this-week-in-spring-august-25",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! Welcome back to another installment of This Week in Spring . It’s a big week ahead: I’m about to head out on a packed tour through Europe—Wrocław for a friend’s wedding, Oslo for JavaZone, Paris for a S…",
-      "ts": 1787616000,
-      "published": "2026-08-25T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West.",
-      "ts": 1787616000,
-      "published": "2026-08-25T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "link": "https://openai.com/index/introducing-admin-plugin",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests.",
-      "ts": 1787616000,
-      "published": "2026-08-25T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Wire It, Run It, Deploy It: AI Workflows in Gradio",
-      "link": "https://huggingface.co/blog/gradio-workflow-guide",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1787616000,
-      "published": "2026-08-25T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Funding better evaluations of AI’s impact on wellbeing",
-      "link": "https://www.anthropic.com/news/wellbeing-research-grants",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Funding better evaluations of AI’s impact on wellbeing",
-      "ts": 1787616000,
-      "published": "2026-08-25T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Claude Desktop support with Ollama",
-      "link": "https://ollama.com/blog/claude-desktop",
-      "source": "Ollama",
-      "category": "AI",
-      "summary": "Claude Desktop can now be configured to work with Ollama as a third-party gateway provider, making it possible to use open models in Claude.",
-      "ts": 1787616000,
-      "published": "2026-08-25T00:00:00+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
