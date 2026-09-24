@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-24T09:09:08+09:00",
-  "count": 939,
+  "updated": "2026-09-24T12:56:53+09:00",
+  "count": 940,
   "items": [
+    {
+      "title": "v2.49.0 (2026-09-23)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.49.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🚀 Features Add GitHubCopilotOAuthFlow for device authorization by @Kludex in #8618 Add BoolCriteria to say what a bool field's yes and no mean, and let a True / False Enum do the same by @DouweM in #8586…",
+      "ts": 1790219393,
+      "published": "2026-09-24T03:09:53+00:00",
+      "collected_at": "2026-09-24T12:56:49+09:00"
+    },
     {
       "title": "Diagrams as Code: Mermaid Support on the new Foojay",
       "link": "https://foojay.io/today/diagrams-as-code-mermaid-support-on-foojay/",
@@ -451,6 +461,16 @@
       "ts": 1790131300,
       "published": "2026-09-23T02:41:40+00:00",
       "collected_at": "2026-09-23T14:39:37+09:00"
+    },
+    {
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "link": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "ts": 1790128800,
+      "published": "2026-09-23T02:00:00+00:00",
+      "collected_at": "2026-09-24T12:56:49+09:00"
     },
     {
       "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
@@ -9380,16 +9400,6 @@
       "summary": "DuckDB Labs has previewed DuckDB v2.0, codenamed \"Cyanoptera.\" This release includes over 10000 commits and introduces a client/server mode, enabling network connections. Improvements also encompass extension portabilit…",
       "ts": 1787637960,
       "published": "2026-08-25T06:06:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "[AINews] Andrew Ng gets into AI Engineering",
-      "link": "https://www.latent.space/p/ainews-andrew-ng-gets-into-ai-engineering",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "An industry legend starts covering the inevitable!",
-      "ts": 1787626257,
-      "published": "2026-08-25T02:50:57+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
