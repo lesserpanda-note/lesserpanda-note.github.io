@@ -1,7 +1,137 @@
 {
-  "updated": "2026-09-24T18:13:09+09:00",
-  "count": 937,
+  "updated": "2026-09-24T23:44:14+09:00",
+  "count": 943,
   "items": [
+    {
+      "title": "Un-Mused: How a Single Debug Setting Bypassed macOS Security in Meta’s AI Client",
+      "link": "https://www.infoq.com/news/2026/09/meta-muse-zeroday/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Security researcher Patrick Wardle revealed an unpatched zero-day vulnerability in Meta's Muse desktop client for macOS. This flaw lets unprivileged software manipulate the assistant's extensive permissions, compromisin…",
+      "ts": 1790259240,
+      "published": "2026-09-24T14:14:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Healthy Feedback",
+      "link": "https://martinfowler.com/articles/healthy-peer-feedback.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Human collaboration, like most things, improves with feedback. But it's not obvious how to make feedback effective. Anuja Karnik and Sumeet Gayathri Moghe pass on a bevy of tips for healthy feedback, based on the princi…",
+      "ts": 1790259000,
+      "published": "2026-09-24T14:10:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790258937,
+      "published": "2026-09-24T14:08:57+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Beyond RAGs: Building Actually Truthful AI Harnesses",
+      "link": "https://towardsdatascience.com/beyond-rags-building-actually-truthful-ai-harnesses/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Retrieval is not evidence. How to build AI that proves its own claims. The post Beyond RAGs: Building Actually Truthful AI Harnesses appeared first on Towards Data Science .",
+      "ts": 1790258401,
+      "published": "2026-09-24T14:00:01+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "How to Get Started With Jev in Python",
+      "link": "https://realpython.com/jev-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Connect a Python script to the Jev model with the TypeSafe SDK and OpenRouter, then replace brittle input checks with Noul, Score, and Choice answers.",
+      "ts": 1790258400,
+      "published": "2026-09-24T14:00:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "It’s fine to use computer-generated survey responses—if you don’t care about the data anyway!",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/24/junk-polls-and-junk-survey-research-they-go-together-so-well/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Think about it like this: a survey organization uses a method M to get data D to give population estimates E which are used by clients to make actions A. The method M is crucial in determining data D, which … Continue r…",
+      "ts": 1790255957,
+      "published": "2026-09-24T13:19:17+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "GPT-6 Sol and Luna: Near-Astra Performance at Half the Price?",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/gpt-6-sol-and-luna/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "What happens when a frontier model’s abilities get packed into cheaper, faster versions? That’s what OpenAI did with GPT-6 Sol and GPT-6 Luna, two new models built with methods similar to GPT-6 Astra. OpenAI is cutting…",
+      "ts": 1790253292,
+      "published": "2026-09-24T12:34:52+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Towards Spec-Driven Test Automation: Part 1",
+      "link": "https://towardsdatascience.com/towards-spec-driven-test-automation-part-1/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Why a green test suite can mean nothing The post Towards Spec-Driven Test Automation: Part 1 appeared first on Towards Data Science .",
+      "ts": 1790253002,
+      "published": "2026-09-24T12:30:02+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Agent or Workflow? A Practical Test for Knowing When You Actually Need an AI Agent",
+      "link": "https://machinelearningmastery.com/agent-or-workflow-a-practical-test-for-knowing-when-you-actually-need-an-ai-agent/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn the key differences between AI workflows and agents, and how to decide which approach is right for your use...",
+      "ts": 1790251202,
+      "published": "2026-09-24T12:00:02+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Quiz: The Terminal: First Steps and Useful Commands for Python Developers",
+      "link": "https://realpython.com/quizzes/terminal-commands/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of terminal basics. Navigate your file system, create files, use virtual environments, install packages, and track code with Git.",
+      "ts": 1790251200,
+      "published": "2026-09-24T12:00:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Quiz: How to Get Started With Jev in Python",
+      "link": "https://realpython.com/quizzes/jev-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of the Jev AI model in Python, from OpenRouter setup and Noul cutoffs to Choice and Score answers.",
+      "ts": 1790251200,
+      "published": "2026-09-24T12:00:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "When the Correct Answer Is Nothing, What Does Your Pipeline Return?",
+      "link": "https://towardsdatascience.com/when-the-correct-answer-is-nothing-what-does-your-pipeline-return/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The reliability mechanisms we add to LLM pipelines are often the ones that make them confidently wrong. The post When the Correct Answer Is Nothing, What Does Your Pipeline Return? appeared first on Towards Data Science…",
+      "ts": 1790247601,
+      "published": "2026-09-24T11:00:01+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Presentation: Designing Fast, Delightful UX With LLMs for Mobile Frontends",
+      "link": "https://www.infoq.com/presentations/llm-mobile-frontend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Balakrishnan Ramdoss discusses how to architect production-grade, AI-powered conversational apps at scale. He explains how to overcome model latency, leverage server-driven UI and Backend-for-Frontend patterns to dynami…",
+      "ts": 1790241840,
+      "published": "2026-09-24T09:24:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
     {
       "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
       "link": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
@@ -51,6 +181,36 @@
       "ts": 1790208000,
       "published": "2026-09-24T00:00:00+00:00",
       "collected_at": "2026-09-24T09:08:45+09:00"
+    },
+    {
+      "title": "Episode 71 “Security in Java” [AtA]",
+      "link": "https://inside.java/2026/09/24/podcast-071/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Given how prevalent Java is on web servers throughout the internet, security in Java is of critical importance - there's the JDK itself, of course, but also the algorithms and features it offers to applications",
+      "ts": 1790208000,
+      "published": "2026-09-24T00:00:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Spring Batch 6.1.0-M2 is out!",
+      "link": "https://spring.io/blog/2026/09/24/spring-batch-6",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 6.1.0-M2 is available now from Maven Central! This second milestone brings a number of new features, enhancements and a few breaking…",
+      "ts": 1790208000,
+      "published": "2026-09-24T00:00:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
+    },
+    {
+      "title": "Spring Web Services 5.1.0-M1 available now",
+      "link": "https://spring.io/blog/2026/09/24/spring-ws-5-1-0-M1-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Web Services 5.1.0-M1 has been released and is now available from Maven Central. This release includes 13 enhancements, dependenc…",
+      "ts": 1790208000,
+      "published": "2026-09-24T00:00:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
     },
     {
       "title": "langgraph-cli==0.4.32.dev0",
@@ -561,6 +721,16 @@
       "ts": 1790121600,
       "published": "2026-09-23T00:00:00+00:00",
       "collected_at": "2026-09-24T08:28:36+09:00"
+    },
+    {
+      "title": "Spring Data 2026.1.0-M2 released",
+      "link": "https://spring.io/blog/2026/09/23/spring-data-2026-1-0-M2-released",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I'm pleased to announce the second milestone of the 2026.1.0 release train. This milestone includes the following highlights: Initial JPA 4.0 compatibility (using…",
+      "ts": 1790121600,
+      "published": "2026-09-23T00:00:00+00:00",
+      "collected_at": "2026-09-24T23:43:57+09:00"
     },
     {
       "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
@@ -9260,116 +9430,6 @@
       "summary": "",
       "ts": 1787670854,
       "published": "2026-08-25T15:14:14+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Anthropic tells staff to work from home due to possible security team strike",
-      "link": "https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.businessinsider.com/anthropic-san-francisco-staff-work-remote-office-security-strike-2026-8 Comments URL: https://news.ycombinator.com/item?id=49434291 Points: 123 # Comments: 131",
-      "ts": 1787666427,
-      "published": "2026-08-25T14:00:27+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Python Data Classes Beyond the Boilerplate",
-      "link": "https://www.kdnuggets.com/python-dataclasses-beyond-the-boilerplate",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn how Python dataclasses go beyond reducing boilerplate with custom fields, validation, computed attributes, immutability, and memory optimization techniques.",
-      "ts": 1787666408,
-      "published": "2026-08-25T14:00:08+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "The Python print() Function: Go Beyond the Basics",
-      "link": "https://realpython.com/courses/python-print/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn about Python's print() function, discover its lesser-known features, avoid common mistakes, and know when to use a better alternative.",
-      "ts": 1787666400,
-      "published": "2026-08-25T14:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "BoxLang 1.16.0 Released!",
-      "link": "https://foojay.io/today/boxlang-1-16-0-released/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "BoxLang 1.16.0 is here, closing 50 issues across new features, improvements, and bug fixes. The theme running through this release is control: control over how HTTP clients are created and reused, control over what happ…",
-      "ts": 1787666267,
-      "published": "2026-08-25T13:57:47+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Bayesian Workflow free pdf!",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/25/bayesian-workflow-free-pdf/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Our wonderful new Bayesian Workflow book is now available as a free pdf! Just go the link—it’s right there! I recommend getting the hard copy too because you’ll want to be able to read it while working on the computer,…",
-      "ts": 1787662856,
-      "published": "2026-08-25T13:00:56+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "I Tried Kimi Agent and Here’s What I Found",
-      "link": "https://www.kdnuggets.com/i-tried-kimi-agent-and-heres-what-i-found",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Kimi Agent is a name that's come to cover a sprawling family, and untangling it matters before judging any piece of it.",
-      "ts": 1787659247,
-      "published": "2026-08-25T12:00:47+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Comparing Local Tool Calling: Gemma 4 vs. Llama 3 vs. Mistral",
-      "link": "https://machinelearningmastery.com/comparing-local-tool-calling-gemma-4-vs-llama-3-vs-mistral/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how Gemma 4, Llama 3, and Mistral implement tool calling locally, and what trade-offs each model family presents for...",
-      "ts": 1787659221,
-      "published": "2026-08-25T12:00:21+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Quiz: Python 3.12 Preview: Static Typing Improvements",
-      "link": "https://realpython.com/quizzes/python312-typing/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your grasp of Python 3.12 static typing. Practice the new type variable syntax, the @override decorator, and typed dictionaries.",
-      "ts": 1787659200,
-      "published": "2026-08-25T12:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Quiz: The Python print() Function: Go Beyond the Basics",
-      "link": "https://realpython.com/quizzes/python-print-course/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check what you know about Python's print() function, including string formatting, escape sequences, file streams, and when to reach for logging instead.",
-      "ts": 1787659200,
-      "published": "2026-08-25T12:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1787657964,
-      "published": "2026-08-25T11:39:24+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "What is a Forward Deployed Engineer? Role, Skills & Salary",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/what-is-a-forward-deployed-engineer/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "A forward deployed engineer (FDE) is a software engineer who embeds directly inside a customer’s team and infrastructure to build, integrate, and run production systems, instead of building a generic product from headqu…",
-      "ts": 1787649867,
-      "published": "2026-08-25T09:24:27+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
