@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-25T03:53:54+09:00",
-  "count": 945,
+  "updated": "2026-09-25T07:08:19+09:00",
+  "count": 946,
   "items": [
+    {
+      "title": "commit-rewriter 0.2",
+      "link": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git",
+      "ts": 1790280413,
+      "published": "2026-09-24T20:06:53+00:00",
+      "collected_at": "2026-09-25T07:07:54+09:00"
+    },
+    {
+      "title": "datasette 1.0a41",
+      "link": "https://simonwillison.net/2026/Sep/24/datasette/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plug…",
+      "ts": 1790277323,
+      "published": "2026-09-24T19:15:23+00:00",
+      "collected_at": "2026-09-25T07:07:54+09:00"
+    },
     {
       "title": "Introducing Gemini 3.8 Live with Live Avatar",
       "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
@@ -9440,16 +9460,6 @@
       "summary": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, an…",
       "ts": 1787698770,
       "published": "2026-08-25T22:59:30+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Survey Statistics: more on SynthMargins and Bayes-Raking",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/25/survey-statistics-more-on-synthmargins-and-bayes-raking/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Last week we discussed SynthMargins, a method from the poster Modeling Complex Contingency Tables that uses partial information (margins) about poststratification variables. On theme for this series (“it is the people”)…",
-      "ts": 1787688009,
-      "published": "2026-08-25T20:00:09+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
