@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-25T10:16:03+09:00",
-  "count": 944,
+  "updated": "2026-09-25T16:22:03+09:00",
+  "count": 942,
   "items": [
+    {
+      "title": "[AINews] The Future of Latent Space",
+      "link": "https://www.latent.space/p/ainews-the-future-of-latent-space",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day lets us discuss the work behind the scenes - now open for business!",
+      "ts": 1790314620,
+      "published": "2026-09-25T05:37:00+00:00",
+      "collected_at": "2026-09-25T16:21:59+09:00"
+    },
+    {
+      "title": "v2.50.0 (2026-09-24)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.50.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Ask a DecisionModel which route to take by name, with one label per route by @DouweM in #8733 Make ModelSelectionContext.messages end with the request being routed, and add ModelSel…",
+      "ts": 1790311635,
+      "published": "2026-09-25T04:47:15+00:00",
+      "collected_at": "2026-09-25T16:21:59+09:00"
+    },
+    {
+      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
+      "link": "https://www.latent.space/p/runway",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
+      "ts": 1790299857,
+      "published": "2026-09-25T01:30:57+00:00",
+      "collected_at": "2026-09-25T16:21:59+09:00"
+    },
     {
       "title": "VoIP, VPN, and the Build System Behind Them",
       "link": "https://foojay.io/today/voip-vpn-builders/",
@@ -21,6 +51,16 @@
       "ts": 1790294400,
       "published": "2026-09-25T00:00:00+00:00",
       "collected_at": "2026-09-25T10:15:44+09:00"
+    },
+    {
+      "title": "The Limitations of Running a Workload Generator In the Same JVM as the System-Under-Test",
+      "link": "https://inside.java/2026/09/25/limitations-of-running-a-workload-generator-in-the-same-jvm/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "When you evaluate a system with a garbage collector and want to understand its tail latency, you often see SPECjbb2015 or DaCapo used. While both offer corrective measures for coordinated omission, only SPECjbb2015 can…",
+      "ts": 1790294400,
+      "published": "2026-09-25T00:00:00+00:00",
+      "collected_at": "2026-09-25T16:21:59+09:00"
     },
     {
       "title": "commit-rewriter 0.2",
@@ -9380,66 +9420,6 @@
       "summary": "Bagging hits a wall no amount of trees can break — here's the equation that explains why, and the experiment that proves it The post Why Random Forest Needs to Be This Random appeared first on Towards Data Science .",
       "ts": 1787729402,
       "published": "2026-08-26T07:30:02+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Bill Gates says we’ve passed AI’s danger thresholds. Now what?",
-      "link": "https://www.technologyreview.com/2026/08/26/1142946/bill-gates-ai-danger-threshold/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "It’s a glorious day in Kirkland, Washington, an affluent Seattle suburb on the eastern shore of Lake Washington. The temperature is in the mid-80s, and the sky is incapable of being any more blue. The view from the Gate…",
-      "ts": 1787727660,
-      "published": "2026-08-26T07:01:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Diagrid Catalyst 2.0 Adds Durable and Verifiable Execution for AI Agents",
-      "link": "https://www.infoq.com/news/2026/08/diagrid-catalyst-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Diagrid Catalyst 2.0 applies Dapr-based recovery, signed workflow history and execution attestation across several agent frameworks. Architects should compare it with framework-native durability and established workflow…",
-      "ts": 1787727600,
-      "published": "2026-08-26T07:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "I miss the old Claude Code",
-      "link": "https://alexkras.com/focus-is-the-main-feature-why-i-miss-the-old-claude-code/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://alexkras.com/focus-is-the-main-feature-why-i-miss-the-old-claude-code/ Comments URL: https://news.ycombinator.com/item?id=49444863 Points: 38 # Comments: 23",
-      "ts": 1787726075,
-      "published": "2026-08-26T06:34:35+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Is Agentic AI Just Automation?",
-      "link": "https://towardsdatascience.com/is-agentic-ai-just-automation/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Why most agents are just flowcharts in disguise, and what to build instead. The post Is Agentic AI Just Automation? appeared first on Towards Data Science .",
-      "ts": 1787724002,
-      "published": "2026-08-26T06:00:02+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "v2.35.0 (2026-08-25)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.35.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Deprecate RunContext.capability_loaded and available_capability_ids in favor of capability_active and active_capability_ids by @DouweM in #7454 Make inclusive integer maximum reacha…",
-      "ts": 1787713803,
-      "published": "2026-08-26T03:10:03+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "v2.34.0 (2026-08-24)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.34.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add a LangChain migration skill by @adtyavrdhn in #7679 Add GLM-5.3 support to ZaiModel by @aisk in #7600 🐛 Bug Fixes Fix TestModel generation for equal inclusive bounds by @pydanty in #7642 Re…",
-      "ts": 1787713803,
-      "published": "2026-08-26T03:10:03+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
