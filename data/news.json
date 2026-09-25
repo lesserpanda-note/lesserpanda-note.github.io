@@ -1,7 +1,167 @@
 {
-  "updated": "2026-09-25T16:22:03+09:00",
-  "count": 942,
+  "updated": "2026-09-25T22:25:43+09:00",
+  "count": 945,
   "items": [
+    {
+      "title": "They were trying to convince everybody to have 3 kids",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/25/53011/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "We were just here–pretty unusual to see a museum exposition devoted to a census, can’t get much more up my alley than that! It was good. The above photo gives a sense of the charm of the exhibits, and they … Continue re…",
+      "ts": 1790341359,
+      "published": "2026-09-25T13:02:39+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Stateless MCP Removes Session Affinity Requirements for AWS Server Deployments",
+      "link": "https://www.infoq.com/news/2026/09/aws-stateless-mcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AWS details how the latest Model Context Protocol specification removes protocol-level sessions, sticky-session requirements, and session storage for remote MCP servers. The change enables independent request routing an…",
+      "ts": 1790341080,
+      "published": "2026-09-25T12:58:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Stateless MCP Removes Session Affinity Requirements for AWS Server Deployments",
+      "link": "https://www.infoq.com/news/2026/09/aws-stateless-mcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS details how the latest Model Context Protocol specification removes protocol-level sessions, sticky-session requirements, and session storage for remote MCP servers. The change enables independent request routing an…",
+      "ts": 1790341080,
+      "published": "2026-09-25T12:58:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "RAG Isn't an Agent — I Built the Layer Between Retrieval and Action",
+      "link": "https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "RAG retrieves. Agents act. I built both separately, connected them explicitly, and ran the same nine tasks through all three systems. The post RAG Isn't an Agent — I Built the Layer Between Retrieval and Action appeared…",
+      "ts": 1790339401,
+      "published": "2026-09-25T12:30:01+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Tool Calling vs. Code Execution for AI Agents: Choosing the Right Action Primitive",
+      "link": "https://machinelearningmastery.com/tool-calling-vs-code-execution-for-ai-agents-choosing-the-right-action-primitive/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "Theory is easier to trust once it's running against a real API, so both examples in this article use the same tool — a get_weather function backed by <a href=\"https://open-meteo.",
+      "ts": 1790337637,
+      "published": "2026-09-25T12:00:37+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "7 Advanced Python Tricks to Level Up Your Coding Skills",
+      "link": "https://www.kdnuggets.com/7-advanced-python-tricks-to-level-up-your-coding-skills",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Leveling up rarely means new syntax. It means learning what the language already promised you.",
+      "ts": 1790337622,
+      "published": "2026-09-25T12:00:22+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #312: Navigating AI in Open Source: Insights From Wagtail",
+      "link": "https://realpython.com/podcasts/rpp/312/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How should you manage AI contributions to an open-source project? How do you measure the impact of using AI tools for development, and what generative features do end users want from a content management system? This we…",
+      "ts": 1790337600,
+      "published": "2026-09-25T12:00:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Quiz: Jupyter Notebook: An Introduction",
+      "link": "https://realpython.com/quizzes/jupyter-notebook-introduction/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Jupyter Notebook, from starting the server and running cells to exporting your work and adding extensions.",
+      "ts": 1790337600,
+      "published": "2026-09-25T12:00:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Jev vs. LLMs: When AI moves from Generation to Decision-making",
+      "link": "https://towardsdatascience.com/jev-vs-llms-when-ai-moves-from-generation-to-decision-making/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "I tested TypeSafe AI’s Jev on 3,080 classification tasks to see how its accuracy, latency, calibration, and confidence compare with LLMs — and whether it works as a practical decision layer for AI systems. The post Jev…",
+      "ts": 1790334001,
+      "published": "2026-09-25T11:00:01+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "From Agent Authorization to AI Production Evaluation: QCon AI New York 2026",
+      "link": "https://www.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "QCon AI New York has confirmed 23 sessions covering agent authorization, production guardrails, shared inference infrastructure, and the evaluation of AI systems after deployment. By Artenisa Chatziou",
+      "ts": 1790334000,
+      "published": "2026-09-25T11:00:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Podcast: The Future of AI: From Enterprise Adoption to Open Source Sovereignty",
+      "link": "https://www.infoq.com/podcasts/enterprise-adoption-open-source-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In this episode, Meryem Arik, Clara Higuera Cabañes, and Jeff Smith, demystify the current state of AI in the enterprise. The discussion navigates the \"industrial revolution\" moment in AI adoption, exploring why compani…",
+      "ts": 1790334000,
+      "published": "2026-09-25T11:00:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "From Agent Authorization to AI Production Evaluation: QCon AI New York 2026",
+      "link": "https://www.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "QCon AI New York has confirmed 23 sessions covering agent authorization, production guardrails, shared inference infrastructure, and the evaluation of AI systems after deployment. By Artenisa Chatziou",
+      "ts": 1790334000,
+      "published": "2026-09-25T11:00:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Presentation: Spritely: Infrastructure for the Future of the Internet",
+      "link": "https://www.infoq.com/presentations/spritely-decentralized-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Christine Lemmer-Webber and David Thompson explain how Spritely's architecture solves core decentralization challenges. They share insights on capability-based access control with Goblins, actor-model communication via…",
+      "ts": 1790334000,
+      "published": "2026-09-25T11:00:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will fo…",
+      "ts": 1790327785,
+      "published": "2026-09-25T09:16:25+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Article: The Agent Harness: What It Is and Two Ways to Build One",
+      "link": "https://www.infoq.com/articles/agent-harness-build-one/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "This article explains the development and operational layers of an agent harness through two implementations of a finance assistant: AWS AgentCore Harness and LangChain with Envoy AI Gateway. It compares how each handle…",
+      "ts": 1790326800,
+      "published": "2026-09-25T09:00:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "10 Solved Generative AI Projects to Boost your Profile",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/solved-generative-ai-projects/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Projects are the bridge between learning and becoming a professional. While theory builds fundamentals, recruiters value candidates who can solve real problems. A strong, diverse portfolio showcases practical skills, te…",
+      "ts": 1790323079,
+      "published": "2026-09-25T07:57:59+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
     {
       "title": "[AINews] The Future of Latent Space",
       "link": "https://www.latent.space/p/ainews-the-future-of-latent-space",
@@ -61,6 +221,26 @@
       "ts": 1790294400,
       "published": "2026-09-25T00:00:00+00:00",
       "collected_at": "2026-09-25T16:21:59+09:00"
+    },
+    {
+      "title": "Spring AI 2.1.0-M1 Available Now",
+      "link": "https://spring.io/blog/2026/09/25/spring-ai-2-1-0-M1-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the Spring AI team and everyone who has contributed, I'm happy to announce that Spring AI 2.1.0-M1 has been released and is now available from Maven Central! Release notes | Upgrade notes | Reference docume…",
+      "ts": 1790294400,
+      "published": "2026-09-25T00:00:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Spring Boot 4.2.0-M2 available now",
+      "link": "https://spring.io/blog/2026/09/25/spring-boot-4-2-0-M2-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 4.2.0-M2 has been released and is now available from Maven Central. This release includes 141 enhancements, documentation im…",
+      "ts": 1790294400,
+      "published": "2026-09-25T00:00:00+00:00",
+      "collected_at": "2026-09-25T22:25:31+09:00"
     },
     {
       "title": "commit-rewriter 0.2",
@@ -9270,156 +9450,6 @@
       "summary": "Compose Multiplatform 1.12.0 is out! This version brings new tooling for AI assistants, improvements to web resource management, and finer control over desktop window states. Here are the highlights of this release: For…",
       "ts": 1787750921,
       "published": "2026-08-26T13:28:41+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Mastering the AI Project Cycle: From Concept to Production",
-      "link": "https://www.analyticsvidhya.com/blog/2026/08/ai-project-cycle-guide/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "In fact, AI projects are not built by simply choosing a model and feeding it data. Furthermore, a successful AI system goes through multiple stages, starting with identifying the right problem and ending with deployment…",
-      "ts": 1787747992,
-      "published": "2026-08-26T12:39:52+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "10 Rules for Getting Better Results from AI Coding Agents",
-      "link": "https://www.kdnuggets.com/10-rules-for-getting-better-results-from-ai-coding-agents",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Everyone's using AI coding agents. Here's how to make yours actually useful.",
-      "ts": 1787745650,
-      "published": "2026-08-26T12:00:50+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Learn Vectorized Thinking in Python Through Examples",
-      "link": "https://machinelearningmastery.com/learn-vectorized-thinking-in-python-through-examples/",
-      "source": "ML Mastery",
-      "category": "DataScience",
-      "summary": "In this article, you will learn how to think in terms of vectorized operations using NumPy, replacing slow Python loops with efficient array-level computations. Topics...",
-      "ts": 1787745616,
-      "published": "2026-08-26T12:00:16+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Quiz: Python 3.15 Preview: Sampling Profiler",
-      "link": "https://realpython.com/quizzes/python315-sampling-profiler/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python 3.15's new sampling profiler, from CPU and GIL modes to flame graphs, heatmaps, and attaching to a live process.",
-      "ts": 1787745600,
-      "published": "2026-08-26T12:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Presentation: Can Claude Fix Itself? Using LLMs for Incident Response",
-      "link": "https://www.infoq.com/presentations/claude-sre-incidents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Anthropic reliability engineer Alex Palcuie shares practical lessons on using LLMs for real-world incident response. He explains where AI acts as a superhuman for observing logs and traces, why it still struggles with c…",
-      "ts": 1787742000,
-      "published": "2026-08-26T11:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Presentation: Can Claude Fix Itself? Using LLMs for Incident Response",
-      "link": "https://www.infoq.com/presentations/claude-sre-incidents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Anthropic reliability engineer Alex Palcuie shares practical lessons on using LLMs for real-world incident response. He explains where AI acts as a superhuman for observing logs and traces, why it still struggles with c…",
-      "ts": 1787742000,
-      "published": "2026-08-26T11:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "How Does a RAG Reranker Really Work?",
-      "link": "https://towardsdatascience.com/how-does-a-rag-reranker-really-work-the-honest-answer-most-data-scientists-wont-give-you/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #2D] - What data scientists say when asked, what the model actually does under the hood, and why the honest answer changes your architecture decisions in enterprise RAG The post H…",
-      "ts": 1787740201,
-      "published": "2026-08-26T10:30:01+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Learning never stops: How AI makes learning continuous",
-      "link": "https://openai.com/index/learning-never-stops",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "ts": 1787738400,
-      "published": "2026-08-26T10:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "ts": 1787738400,
-      "published": "2026-08-26T10:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "How to Effectively Solve 100+ Tasks with Claude Code",
-      "link": "https://towardsdatascience.com/how-to-effectively-solve-100-tasks-with-claude-code/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Work more effectively with your coding agents The post How to Effectively Solve 100+ Tasks with Claude Code appeared first on Towards Data Science .",
-      "ts": 1787734802,
-      "published": "2026-08-26T09:00:02+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Raised on AI",
-      "link": "https://www.technologyreview.com/2026/08/26/1141949/editors-letter-september-2026/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "When my oldest child was born, I immediately set up Gmail and Twitter accounts in her name. I broadly announced her birth online and proceeded to plaster her photo across all sorts of platforms. In short, I began creati…",
-      "ts": 1787734800,
-      "published": "2026-08-26T09:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "AI models flub these intelligence tests. Can you fare any better?",
-      "link": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming…",
-      "ts": 1787734800,
-      "published": "2026-08-26T09:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Article: Beyond Offset Lag: Computing Time in Queue for Apache Hudi Data Lake Pipelines at Petabyte Scale",
-      "link": "https://www.infoq.com/articles/beyond-offset-lag-kafka-apache-hudi/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "In this article, author Srikanth Mamidala discusses the data lake architecture used for analytics, reporting, and machine learning and shows how to manage the consumer lag metrics when using Kafka and Apache Hudi. By Sr…",
-      "ts": 1787734800,
-      "published": "2026-08-26T09:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Quoting Paul Dix",
-      "link": "https://simonwillison.net/2026/Aug/26/paul-dix/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowi…",
-      "ts": 1787731675,
-      "published": "2026-08-26T08:07:55+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Why Random Forest Needs to Be This Random",
-      "link": "https://towardsdatascience.com/why-random-forest-needs-to-be-this-random/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Bagging hits a wall no amount of trees can break — here's the equation that explains why, and the experiment that proves it The post Why Random Forest Needs to Be This Random appeared first on Towards Data Science .",
-      "ts": 1787729402,
-      "published": "2026-08-26T07:30:02+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
