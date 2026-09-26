@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-26T07:05:31+09:00",
-  "count": 944,
+  "updated": "2026-09-26T09:08:24+09:00",
+  "count": 941,
   "items": [
+    {
+      "title": "v2.51.0 (2026-09-25)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.51.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Match dated gemini-3.8-live ids, reject google_affective_dialog on Gemini 3.1 Flash Live and 3.8 Live at connect, and raise RealtimeError for Gemini Live close codes by @DouweM in #…",
+      "ts": 1790378344,
+      "published": "2026-09-25T23:19:04+00:00",
+      "collected_at": "2026-09-26T09:08:19+09:00"
+    },
+    {
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "link": "https://www.latent.space/p/openrouter",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
+      "ts": 1790378081,
+      "published": "2026-09-25T23:14:41+00:00",
+      "collected_at": "2026-09-26T09:08:19+09:00"
+    },
     {
       "title": "Postdoc hiring season at Flatiron",
       "link": "https://statmodeling.stat.columbia.edu/2026/09/25/postdoc-hiring-season-at-flatiron/",
@@ -9390,56 +9410,6 @@
       "summary": "The conference with hot chips and even hotter companies",
       "ts": 1787794282,
       "published": "2026-08-27T01:31:22+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Episode 68 “Operator Overloading with Type Classes” [AtA]",
-      "link": "https://inside.java/2026/08/27/podcast-068/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "How OpenJDK's Project Valhalla is improving Java's support for custom numerical types.",
-      "ts": 1787788800,
-      "published": "2026-08-27T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: Joe Grandja on Spring Authorization Server, OAuth, and so much more",
-      "link": "https://spring.io/blog/2026/08/27/a-bootiful-podcast-joe-grandja",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! In this episode, I talk Spring Security’s Joe Grandja about Spring Authorization Server’s graduation into Spring Security 7, and the new security heavyweights DPoP and PAR.",
-      "ts": 1787788800,
-      "published": "2026-08-27T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Expanding our support for scientists",
-      "link": "https://www.anthropic.com/news/expanding-support-for-scientists",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Expanding our support for scientists",
-      "ts": 1787788800,
-      "published": "2026-08-27T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Previewing the Model Hardware Standard",
-      "link": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Previewing the Model Hardware Standard",
-      "ts": 1787788800,
-      "published": "2026-08-27T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Qwen3.8-Flash-Next",
-      "link": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active whic…",
-      "ts": 1787788378,
-      "published": "2026-08-26T23:52:58+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
