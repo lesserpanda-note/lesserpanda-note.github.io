@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-26T21:49:04+09:00",
-  "count": 939,
+  "updated": "2026-09-27T01:57:36+09:00",
+  "count": 933,
   "items": [
+    {
+      "title": "AI Slop Is in Your Training Dataset Now. I Tested Three Ways to Spot It.",
+      "link": "https://towardsdatascience.com/ai-slop-is-now-in-your-training-dataset-i-tested-three-ways-to-spot-it/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "My AI detectors flagged many genuine reviews, and filtering them made the sentiment model less accurate. The post AI Slop Is in Your Training Dataset Now. I Tested Three Ways to Spot It. appeared first on Towards Data S…",
+      "ts": 1790434802,
+      "published": "2026-09-26T15:00:02+00:00",
+      "collected_at": "2026-09-27T01:57:14+09:00"
+    },
+    {
+      "title": "Agentic Context Engineering (ACE): Self-Improving Language Models",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/agentic-context-engineering/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "Agentic Context Learning or ACE is a learning paradigm that lets an AI agent improve across tasks by editing the context it reads, while leaving model weights unchanged. The paper outlining the techniques show why full…",
+      "ts": 1790432861,
+      "published": "2026-09-26T14:27:41+00:00",
+      "collected_at": "2026-09-27T01:57:14+09:00"
+    },
+    {
+      "title": "Object-Oriented Programming (OOP) in Python",
+      "link": "https://realpython.com/python3-object-oriented-programming/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn object-oriented programming in Python: the OOP paradigm, classes and inheritance, and how to instantiate objects from a class.",
+      "ts": 1790431200,
+      "published": "2026-09-26T14:00:00+00:00",
+      "collected_at": "2026-09-27T01:57:14+09:00"
+    },
+    {
+      "title": "Python Inner Functions: What Are They Good For?",
+      "link": "https://realpython.com/inner-functions-what-are-they-good-for/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn what a Python inner function is good for: accessing nonlocal names, building stateful closures, and writing your own decorators.",
+      "ts": 1790431200,
+      "published": "2026-09-26T14:00:00+00:00",
+      "collected_at": "2026-09-27T01:57:14+09:00"
+    },
+    {
+      "title": "As a society, we are pretty good at transferring money to political pundits, but we’re not very good at nurturing the human capital they would need to correct their own mistakes.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/26/as-a-society-we-are-pretty-good-at-transferring-money-to-political-pundits-but-were-not-very-good-at-nurturing-the-human-capital-they-would-need-to-correct-their-own-mistakes/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Paul Alper points us to this from New York Times columnist David Brooks: As a society, we are pretty good at transferring money to the poor, but we’re not very good at nurturing the human capital they would need to … Co…",
+      "ts": 1790428731,
+      "published": "2026-09-26T13:18:51+00:00",
+      "collected_at": "2026-09-27T01:57:14+09:00"
+    },
     {
       "title": "Your LLM Has a Curved Space of Paragraphs",
       "link": "https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/",
@@ -9280,116 +9330,6 @@
       "summary": "AI agents are everywhere right now. You hear terms like tool calling, agent loops, MCP, guardrails thrown around as if its common language… it isn’t! But that is about to change. Agentic AI isn’t nearly as complicated a…",
       "ts": 1787849920,
       "published": "2026-08-27T16:58:40+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Grok Bot for Linux: Unofficial port of the official app (open source)",
-      "link": "https://github.com/jakob-bu/grok-bot-linux-unofficial",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://github.com/jakob-bu/grok-bot-linux-unofficial Comments URL: https://news.ycombinator.com/item?id=49467702 Points: 32 # Comments: 9",
-      "ts": 1787849387,
-      "published": "2026-08-27T16:49:47+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "link": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1787847092,
-      "published": "2026-08-27T16:11:32+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "3 new ways to plan and book travel in Search",
-      "link": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Graphic depicting new travel features for AI Mode in Search",
-      "ts": 1787846400,
-      "published": "2026-08-27T16:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Spring News Roundup: First Milestone Releases for Boot, Framework, Data, Security, Modulith, Batch",
-      "link": "https://www.infoq.com/news/2026/08/spring-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "After a 10-week hiatus since the last batch of Spring ecosystem releases, there was a flurry of activity during the week of August 17th, 2026, highlighting first milestone releases of: Spring Boot, Spring Framework, Spr…",
-      "ts": 1787845800,
-      "published": "2026-08-27T15:50:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Spring News Roundup: First Milestone Releases for Boot, Framework, Data, Security, Modulith, Batch",
-      "link": "https://www.infoq.com/news/2026/08/spring-news-roundup-aug17-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "After a 10-week hiatus since the last batch of Spring ecosystem releases, there was a flurry of activity during the week of August 17th, 2026, highlighting first milestone releases of: Spring Boot, Spring Framework, Spr…",
-      "ts": 1787845800,
-      "published": "2026-08-27T15:50:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Agentic AI Is Rewriting The Analytics Stack But There's One Skill It Still Can't Touch",
-      "link": "https://towardsdatascience.com/agentic-ai-is-rewriting-the-analytics-stack-but-theres-one-skill-it-still-cant-touch/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "As AI handles more of the execution, what work should belong to agents vs humans and why does that distinction matter? The post Agentic AI Is Rewriting The Analytics Stack But There's One Skill It Still Can't Touch appe…",
-      "ts": 1787844602,
-      "published": "2026-08-27T15:30:02+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "What We Can Learn From Google Engineers’ Indispensible Prompts",
-      "link": "https://www.kdnuggets.com/what-we-can-learn-from-google-engineers-indispensible-prompts",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Hey, Google Engineers: What prompt do you personally refuse to work without, and why?",
-      "ts": 1787839224,
-      "published": "2026-08-27T14:00:24+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "How to Work with AI Coding Agents",
-      "link": "https://towardsdatascience.com/how-to-work-with-ai-coding-agents/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A practical guide to getting better code, not just more code The post How to Work with AI Coding Agents appeared first on Towards Data Science .",
-      "ts": 1787839201,
-      "published": "2026-08-27T14:00:01+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Making Your Data Ready for Agentic AI",
-      "link": "https://martinfowler.com/articles/making-data-ready-for-agentic-ai.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Lots of organizations are excited about what AI can do to streamline their processes, save money, and juice margins. But AI's capabilities are founded on the data that AI accesses, and for many organizations that founda…",
-      "ts": 1787836260,
-      "published": "2026-08-27T13:11:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "This University of Chicago business school professor has authored 258 academic papers in 2026 (so far).",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/27/258/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Jeremy Horpedahl tells the story: Nicholas Polson has, by my count using his SSRN page, already written 258 working papers in 2026 alone. He’s already written (or at least published to SSRN), six papers today, August 26…",
-      "ts": 1787835947,
-      "published": "2026-08-27T13:05:47+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "link": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "Piloting the world's first double-blind AI evaluations",
-      "ts": 1787835556,
-      "published": "2026-08-27T12:59:16+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
