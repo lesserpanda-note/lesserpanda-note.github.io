@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-26T16:18:10+09:00",
-  "count": 938,
+  "updated": "2026-09-26T21:49:04+09:00",
+  "count": 939,
   "items": [
+    {
+      "title": "Your LLM Has a Curved Space of Paragraphs",
+      "link": "https://towardsdatascience.com/your-llm-has-a-curved-space-of-paragraphs/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Inside a transformer, token index is a coordinate. Paragraph structure is what turns it into a metric. The post Your LLM Has a Curved Space of Paragraphs appeared first on Towards Data Science .",
+      "ts": 1790424001,
+      "published": "2026-09-26T12:00:01+00:00",
+      "collected_at": "2026-09-26T21:48:43+09:00"
+    },
+    {
+      "title": "Quiz: When Do You Use an Ellipsis in Python?",
+      "link": "https://realpython.com/quizzes/python-ellipsis/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python's Ellipsis. Practice using three dots as a placeholder, in type hints, and in NumPy slicing.",
+      "ts": 1790424000,
+      "published": "2026-09-26T12:00:00+00:00",
+      "collected_at": "2026-09-26T21:48:43+09:00"
+    },
+    {
+      "title": "Presentation: Adaptive Recommenders in the Real World: Inference, Evals, and System Design",
+      "link": "https://www.infoq.com/presentations/adaptive-recommendation-systems-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Mallika Rao explains that the true complexity of adaptive recommendation systems lies outside model architecture. She discusses how real-time feedback loops, retrieval freshness, multi-stage orchestration, and end-to-en…",
+      "ts": 1790420400,
+      "published": "2026-09-26T11:00:00+00:00",
+      "collected_at": "2026-09-26T21:48:43+09:00"
+    },
+    {
+      "title": "Presentation: Adaptive Recommenders in the Real World: Inference, Evals, and System Design",
+      "link": "https://www.infoq.com/presentations/adaptive-recommendation-systems-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Mallika Rao explains that the true complexity of adaptive recommendation systems lies outside model architecture. She discusses how real-time feedback loops, retrieval freshness, multi-stage orchestration, and end-to-en…",
+      "ts": 1790420400,
+      "published": "2026-09-26T11:00:00+00:00",
+      "collected_at": "2026-09-26T21:48:43+09:00"
+    },
+    {
+      "title": "Cloudflare Details Its Migration from WordPress to EmDash",
+      "link": "https://www.infoq.com/news/2026/09/cloudflare-emdash-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare recently documented the migration of its main blog from WordPress to EmDash, the open source content management system developed internally. The new platform is designed to improve performance and caching, an…",
+      "ts": 1790415480,
+      "published": "2026-09-26T09:38:00+00:00",
+      "collected_at": "2026-09-26T21:48:43+09:00"
+    },
     {
       "title": "One Database, Two Models: Building AI-Friendly Java Applications with MySQL JSON Duality Views",
       "link": "https://foojay.io/today/one-database-two-models-mysql-json-duality-views-java/",
@@ -11,6 +61,16 @@
       "ts": 1790380800,
       "published": "2026-09-26T00:00:00+00:00",
       "collected_at": "2026-09-26T10:18:03+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 539: Strict Field Initialization in the JVM (Preview)",
+      "link": "https://inside.java/2026/09/26/jep539-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 539: Strict Field Initialization in the JVM (Preview)",
+      "ts": 1790380800,
+      "published": "2026-09-26T00:00:00+00:00",
+      "collected_at": "2026-09-26T21:48:43+09:00"
     },
     {
       "title": "v2.51.0 (2026-09-25)",
@@ -9330,56 +9390,6 @@
       "summary": "Piloting the world's first double-blind AI evaluations",
       "ts": 1787835556,
       "published": "2026-08-27T12:59:16+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Stop Giving Your AI Agent a Search Box and Start Giving It Typed Tools, Hard Bounds, and a Gate It Cannot Talk Past",
-      "link": "https://towardsdatascience.com/stop-giving-your-ai-agent-a-search-box-and-start-giving-it-typed-tools-hard-bounds-and-a-gate-it-cannot-talk-past/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "What happens when you stop feeding a model context and let it go find its own, walking a knowledge graph within strict limits, and what four models and one wrong prediction revealed about whether that is worth doing. Th…",
-      "ts": 1787834101,
-      "published": "2026-08-27T12:35:01+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Quiz: Getting Started With Claude Code",
-      "link": "https://realpython.com/quizzes/getting-started-claude-code/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your Claude Code basics: install it, set it up, work with CLAUDE.md, and use Git to stay in control of your changes.",
-      "ts": 1787832000,
-      "published": "2026-08-27T12:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Cloudflare Wallets Arrives Late to x402, and the Spending Controls Stop at the Payment",
-      "link": "https://www.infoq.com/news/2026/08/agent-payment-rails-x402/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare announced Wallets, giving agents a stablecoin balance and spending controls, though only handle claiming is live and squatting complaints have already surfaced. Payments run on x402, now hosted by the Linux F…",
-      "ts": 1787821440,
-      "published": "2026-08-27T09:04:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "link": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "ts": 1787821200,
-      "published": "2026-08-27T09:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Postdoc and doctoral student positions in Bayesian workflow at Aalto, Finland",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/27/postdoc-and-doctoral-student-positions-in-bayesian-workflow-at-aalto-finland/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This job ad is by Aki I’m looking for postdocs and doctoral students to work on Bayesian workflow. The candidates need to have knowledge of Bayesian inference and some experience with building models (for real applicati…",
-      "ts": 1787817538,
-      "published": "2026-08-27T07:58:58+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
