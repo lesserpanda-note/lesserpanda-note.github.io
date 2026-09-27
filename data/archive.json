@@ -1,6 +1,61 @@
 {
   "digests": [
     {
+      "date": "2026-09-26",
+      "summary": "오늘은 Perplexity의 자체 DB 개발을 통한 성능 혁신, Anthropic에 대한 공급망 위험 판결 등 AI 인프라와 규제 분야 주요 소식이 돋보였습니다. 에이전트 설계에서는 RAG와 에이전트를 명확히 분리하는 접근법과 행동 프리미티브 선택 기준이 주목받았으며, MCP의 무상태화로 AI 서버 아키텍처도 진화하고 있습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "Home Made CobbleDB Replaces DynamoDB at Perplexity to Cut Query Latency 5x and Reduce Cloud Storage",
+          "link": "https://www.infoq.com/news/2026/09/cobbledb-perplexity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Perplexity가 자체 개발한 Rust 기반 키-값 저장소 CobbleDB로 Amazon DynamoDB를 대체해 쿼리 지연 시간을 5배 단축하고 클라우드 스토리지 비용을 절감했습니다.",
+          "detail": "Perplexity는 검색 인프라에서 Amazon DynamoDB를 내부 개발한 CobbleDB로 전환했습니다. CobbleDB는 Rust로 작성된 키-값 저장소로, 대용량 문서 배치 처리 시 발생하는 지연 시간과 비용 문제를 해결하기 위해 설계되었습니다. 이번 전환을 통해 쿼리 지연 시간이 5배 감소하였으며, 클라우드 스토리지 비용도 크게 절감되었습니다. 자체 개발 데이터베이스를 사용함으로써 Perplexity는 특정 워크로드에 최적화된 성능을 얻을 수 있었으며, 대규모 AI 검색 서비스 운영에 적합한 인프라 구조를 확립했습니다."
+        },
+        {
+          "category": "AI",
+          "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+          "link": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+          "summary": "미국 항소법원이 Pentagon의 Anthropic AI 공급망 위험 지정 결정을 지지했습니다. AI 기업에 대한 정부의 국가안보 우려가 법적으로 인정된 중요한 판결입니다.",
+          "detail": "미국 항소법원은 Pentagon(미 국방부)이 Anthropic을 공급망 위험으로 지정한 결정이 합법적이라고 판시했습니다. Anthropic은 자사가 AI 기술 공급망 위협으로 분류된 것에 이의를 제기했으나 항소심에서도 패소했습니다. 이 소식은 Hacker News에서 207포인트, 291개 댓글을 기록하며 큰 주목을 받았습니다. 이 판결은 AI 기업들이 미국 정부의 국가안보 규정 준수를 요구받는 법적 프레임워크가 공고해졌음을 의미하며, AI 산업 전반에 공급망 규제 강화 가능성을 시사합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "RAG Isn't an Agent — I Built the Layer Between Retrieval and Action",
+          "link": "https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/",
+          "summary": "저자가 RAG와 에이전트를 별도로 구현하고 그 사이를 연결하는 중간 레이어를 직접 구축해 9가지 작업에서 세 시스템을 비교 평가했습니다.",
+          "detail": "RAG(검색 증강 생성)는 검색을 담당하고 에이전트는 행동을 담당하지만, 두 개념은 종종 혼동됩니다. 저자는 순수 RAG, 완전한 에이전트, 그리고 검색과 행동 사이를 명시적으로 연결하는 중간 레이어 세 가지 시스템을 각각 별도로 구현했습니다. 동일한 9가지 작업으로 성능을 비교한 결과, 중간 레이어 방식이 단순 RAG의 한계(검색만 하고 행동하지 못함)와 완전한 에이전트의 과도한 복잡성 사이에서 실용적인 대안을 제시함을 확인했습니다. 검색과 행동을 명확히 분리하고 연결 지점을 명시적으로 설계하는 것이 핵심 교훈입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Tool Calling vs. Code Execution for AI Agents: Choosing the Right Action Primitive",
+          "link": "https://machinelearningmastery.com/tool-calling-vs-code-execution-for-ai-agents-choosing-the-right-action-primitive/",
+          "summary": "AI 에이전트의 두 가지 핵심 행동 프리미티브인 도구 호출과 코드 실행의 차이점과 각 방식의 적합한 사용 사례를 실제 API 예제로 설명합니다.",
+          "detail": "AI 에이전트는 외부 세계와 상호작용하기 위해 도구 호출(Tool Calling) 또는 코드 실행(Code Execution) 방식을 선택해야 합니다. 도구 호출은 사전 정의된 함수나 API를 통해 구조화된 방식으로 작업을 수행하며 예측 가능성이 높습니다. 코드 실행은 동적으로 생성된 코드를 직접 실행하는 방식으로 유연성이 뛰어나지만 보안 위험이 따릅니다. 이 글은 동일한 날씨 API(get_weather 함수)를 활용한 실제 예제를 통해 두 방식의 trade-off를 비교하며, 작업의 복잡도와 예측 가능성 요구에 따라 적합한 방식을 선택하는 기준을 제시합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Stateless MCP Removes Session Affinity Requirements for AWS Server Deployments",
+          "link": "https://www.infoq.com/news/2026/09/aws-stateless-mcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "AWS가 최신 MCP 명세에서 프로토콜 수준의 세션을 제거해 원격 MCP 서버 배포 시 세션 어피니티 요구사항이 없어졌다고 밝혔습니다.",
+          "detail": "최신 MCP(Model Context Protocol) 명세는 프로토콜 수준의 세션, 스티키 세션(sticky session) 요건, 세션 스토리지를 제거함으로써 완전한 무상태(stateless) 운영을 가능하게 했습니다. AWS는 이 변경으로 원격 MCP 서버 배포 시 개별 요청을 독립적으로 라우팅할 수 있게 되며, 로드 밸런서 설정이 단순화되고 수평 확장이 용이해진다고 설명했습니다. 세션 상태를 관리할 필요가 없어지므로 장애 발생 시 복구도 쉬워집니다. 이는 AI 에이전트 인프라를 표준 클라우드 서비스와 동일한 방식으로 운영할 수 있게 해주는 중요한 아키텍처 개선입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "From Agent Authorization to AI Production Evaluation: QCon AI New York 2026",
+          "link": "https://www.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "QCon AI New York 2026에서 에이전트 인가, 프로덕션 가드레일, 공유 추론 인프라, AI 시스템 배포 후 평가를 주제로 23개 세션이 확정됩니다.",
+          "detail": "QCon AI New York 2026은 AI 시스템의 프로덕션 운영에 초점을 맞춘 23개 세션을 공개했습니다. 주요 주제로는 에이전트 인가(Agent Authorization), 프로덕션 가드레일(Production Guardrails), 공유 추론 인프라(Shared Inference Infrastructure), 그리고 배포 후 AI 시스템 평가(Production Evaluation)가 포함됩니다. 이 컨퍼런스는 AI를 단순히 구현하는 단계를 넘어 안전하고 신뢰할 수 있는 방식으로 대규모 운영하는 방법에 대한 업계의 관심이 높아지고 있음을 반영하며, AI 엔지니어링 분야의 현재 과제들을 집약적으로 보여줍니다."
+        },
+        {
+          "category": "Python",
+          "title": "The Real Python Podcast – Episode #312: Navigating AI in Open Source: Insights From Wagtail",
+          "link": "https://realpython.com/podcasts/rpp/312/",
+          "summary": "Wagtail CMS 프로젝트를 통해 오픈소스에서 AI 기여를 관리하는 방법과 AI 도구가 개발에 미치는 영향, 사용자들이 원하는 생성형 AI 기능에 대해 논의합니다.",
+          "detail": "Real Python Podcast 312회에서는 Django 기반 오픈소스 CMS인 Wagtail 프로젝트를 중심으로 AI와 오픈소스의 교차점을 탐구합니다. 오픈소스 프로젝트에서 AI 기여를 어떻게 관리할 것인지, AI 도구 사용이 개발 생산성에 미치는 영향을 어떻게 측정할 수 있는지, 그리고 CMS 사용자들이 원하는 생성형 AI 기능은 무엇인지에 대해 다룹니다. 오픈소스 메인테이너 관점에서 AI 도구 도입의 실질적인 이점과 과제를 직접 경험한 인사이트를 제공합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-09-25",
       "summary": "오늘은 구글 Gemini 3.8 Live Avatar 출시와 Meta Muse macOS 제로데이 취약점 공개 등 AI 업계의 굵직한 소식이 이어졌습니다. Meta Connect 2026에서 AI 스마트 안경과 Charm 모델이 공개되며 에이전트 하드웨어 시대의 도래를 알렸고, Apple의 Reference Image 아키텍처와 Martin Fowler의 피드백 문화 가이드 등 아키텍처·팀 운영 분야의 깊이 있는 글도 주목을 받았습니다.",
       "highlights": [
