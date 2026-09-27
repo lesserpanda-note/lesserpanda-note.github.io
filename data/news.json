@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-27T07:31:57+09:00",
-  "count": 930,
+  "updated": "2026-09-27T09:09:05+09:00",
+  "count": 928,
   "items": [
+    {
+      "title": "Kākāpō Party",
+      "link": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we ha…",
+      "ts": 1790465946,
+      "published": "2026-09-26T23:39:06+00:00",
+      "collected_at": "2026-09-27T09:08:45+09:00"
+    },
     {
       "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction Across Laptop and Cloud",
       "link": "https://www.infoq.com/news/2026/09/docker-cloud-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -9270,36 +9280,6 @@
       "summary": "What's Changed 🐛 Bug Fixes Route Heroku GLM models through zai_model_profile by @LHMQ878 in #6837 Scope safe_download cookies to original hostnames by @Diwak4r in #7077 Fix DeferredToolRequests.remaining resolving cross…",
       "ts": 1787877569,
       "published": "2026-08-28T00:39:29+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Terminal-Bench-Science: Evaluating AI agents on scientific research workflows",
-      "link": "https://www.terminal-bench-science.ai/announcement",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.terminal-bench-science.ai/announcement Comments URL: https://news.ycombinator.com/item?id=49472820 Points: 117 # Comments: 36",
-      "ts": 1787875611,
-      "published": "2026-08-28T00:06:51+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "link": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1787875200,
-      "published": "2026-08-28T00:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "link": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default…",
-      "ts": 1787871025,
-      "published": "2026-08-27T22:50:25+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
