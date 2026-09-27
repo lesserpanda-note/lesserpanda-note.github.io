@@ -1,7 +1,47 @@
 {
-  "updated": "2026-09-27T22:41:22+09:00",
-  "count": 918,
+  "updated": "2026-09-28T03:08:54+09:00",
+  "count": 915,
   "items": [
+    {
+      "title": "I guess this is what they mean when they talk about “reactionary centrism”: Corruption of government facilitated by enablers in intellectual society",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/27/corruption-of-government-facilitated-by-enablers-in-intellectual-society/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Sometimes left-wing writers use the term “reactionary centrist,” and it always irritates me. Someone’s a centrist, but you’re calling him a “reactionary” just because he doesn’t agree with you on every issue? I get it t…",
+      "ts": 1790524017,
+      "published": "2026-09-27T15:46:57+00:00",
+      "collected_at": "2026-09-28T03:08:36+09:00"
+    },
+    {
+      "title": "GraphRAG with TypeSafe Jev: A System One Approach to Scalable Knowledge Graphs",
+      "link": "https://towardsdatascience.com/graphrag-with-typesafe-jev-a-system-one-approach-to-scalable-knowledge-graphs/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How calibrated decision models can handle high-frequency graph decisions while LLMs remain focused on reasoning, synthesis, and open-ended generation. The post GraphRAG with TypeSafe Jev: A System One Approach to Scalab…",
+      "ts": 1790521201,
+      "published": "2026-09-27T15:00:01+00:00",
+      "collected_at": "2026-09-28T03:08:36+09:00"
+    },
+    {
+      "title": "How to Copy Objects in Python: Shallow vs Deep Copy Explained",
+      "link": "https://realpython.com/python-copy/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Understand the difference between shallow and deep copies in Python. Learn how to duplicate objects safely using the copy module and other techniques.",
+      "ts": 1790517600,
+      "published": "2026-09-27T14:00:00+00:00",
+      "collected_at": "2026-09-28T03:08:36+09:00"
+    },
+    {
+      "title": "Pipenv: A Guide to the Python Packaging Tool",
+      "link": "https://realpython.com/pipenv-guide/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Pipenv replaces pip, virtualenv, and requirements.txt with a single tool. See what it solves and how to manage dependencies with it.",
+      "ts": 1790517600,
+      "published": "2026-09-27T14:00:00+00:00",
+      "collected_at": "2026-09-28T03:08:36+09:00"
+    },
     {
       "title": "Good Architecture Deletes the Signals Your Agent Depends On",
       "link": "https://towardsdatascience.com/good-architecture-deletes-the-signals-your-agent-depends-on/",
@@ -9110,76 +9150,6 @@
       "summary": "How we stopped reviewing every agent action and started routing human attention where it actually mattered The post Human-in-the-Loop Without Killing Throughput appeared first on Towards Data Science .",
       "ts": 1787941801,
       "published": "2026-08-28T18:30:01+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "From One Agent to a Team: Understanding Codex Subagents",
-      "link": "https://towardsdatascience.com/from-one-agent-to-a-team-understanding-codex-subagents/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A hands-on guide to defining specialist agents and coordinating their work in the Codex CLI The post From One Agent to a Team: Understanding Codex Subagents appeared first on Towards Data Science .",
-      "ts": 1787936401,
-      "published": "2026-08-28T17:00:01+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "What stories should we tell about science now?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/28/what-stories-should-we-tell-about-science-now/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This is Jessica. Like many academics, I am concerned about what sort of new steady state U.S. universities will find themselves in after the dust settles on recent transitions. Namely, the last few years have brought fu…",
-      "ts": 1787933475,
-      "published": "2026-08-28T16:11:15+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Connecting My LangGraph AI Agent to Postgres",
-      "link": "https://towardsdatascience.com/connecting-my-langgraph-ai-agent-to-postgres/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "How to run the backend locally with Docker or in the cloud The post Connecting My LangGraph AI Agent to Postgres appeared first on Towards Data Science .",
-      "ts": 1787931002,
-      "published": "2026-08-28T15:30:02+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Uber Builds GitFarm to Run Git Operations as a Service for Large-Scale Monorepos",
-      "link": "https://www.infoq.com/news/2026/08/uber-gitfarm-git-as-a-service/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Uber’s GitFarm provides Git operations as a centralized service, eliminating local repository clones across large scale monorepo workloads. The platform uses prewarmed checkouts, ephemeral sandboxes, repository synchron…",
-      "ts": 1787927400,
-      "published": "2026-08-28T14:30:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "The Local AI Stack for Productive SLMs",
-      "link": "https://www.kdnuggets.com/the-local-ai-stack-for-productive-slms",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "A practical framework for choosing the right tools at each layer of your local AI setup, from model serving to context retrieval.",
-      "ts": 1787925654,
-      "published": "2026-08-28T14:00:54+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Why Claude Code Time Estimates Are Poor",
-      "link": "https://towardsdatascience.com/why-claude-code-time-estimates-are-poor/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Be a better communicator with LLM programming The post Why Claude Code Time Estimates Are Poor appeared first on Towards Data Science .",
-      "ts": 1787925601,
-      "published": "2026-08-28T14:00:01+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Where’s the Evel Knievel blockbuster biopic?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/28/wheres-the-evel-knievel-blockbuster-biopic/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "A few years ago we discussed Objects of the class Jacques Cousteau: people who are world famous (or at least world famous in the U.S.) but of a category for which there’s only one famous person. Some examples: • Coustea…",
-      "ts": 1787925073,
-      "published": "2026-08-28T13:51:13+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
