@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-27T16:49:27+09:00",
-  "count": 924,
+  "updated": "2026-09-27T22:41:22+09:00",
+  "count": 918,
   "items": [
+    {
+      "title": "Good Architecture Deletes the Signals Your Agent Depends On",
+      "link": "https://towardsdatascience.com/good-architecture-deletes-the-signals-your-agent-depends-on/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Every boundary you draw removes a signal your tooling was relying on. That is a structure problem, not a search problem. The post Good Architecture Deletes the Signals Your Agent Depends On appeared first on Towards Dat…",
+      "ts": 1790510402,
+      "published": "2026-09-27T12:00:02+00:00",
+      "collected_at": "2026-09-27T22:41:01+09:00"
+    },
+    {
+      "title": "Quiz: Enhance Your Flask Web Project With a Database",
+      "link": "https://realpython.com/quizzes/flask-database/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Flask databases, environment variables, blueprints, SQLite schemas, and storing posts from a form.",
+      "ts": 1790510400,
+      "published": "2026-09-27T12:00:00+00:00",
+      "collected_at": "2026-09-27T22:41:01+09:00"
+    },
     {
       "title": "GKE Pod Snapshots Cut Model Load Times, and Move the Work to Snapshot Lifecycle Management",
       "link": "https://www.infoq.com/news/2026/09/gke-pod-snapshots-benchmarks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -41,6 +61,16 @@
       "ts": 1790465946,
       "published": "2026-09-26T23:39:06+00:00",
       "collected_at": "2026-09-27T09:08:45+09:00"
+    },
+    {
+      "title": "42x faster prompt lookup drafting in llama.cpp",
+      "link": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/ Comments URL: https://news.ycombinator.com/item?id=49859982 Points: 11 # Comments: 2",
+      "ts": 1790452644,
+      "published": "2026-09-26T19:57:24+00:00",
+      "collected_at": "2026-09-27T22:41:01+09:00"
     },
     {
       "title": "Docker Cloud Sandboxes Provide a Consistent Sandbox Abstraction Across Laptop and Cloud",
@@ -9150,96 +9180,6 @@
       "summary": "A few years ago we discussed Objects of the class Jacques Cousteau: people who are world famous (or at least world famous in the U.S.) but of a category for which there’s only one famous person. Some examples: • Coustea…",
       "ts": 1787925073,
       "published": "2026-08-28T13:51:13+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Quantization and Pruning Methods to Make Your LLM Leaner",
-      "link": "https://www.kdnuggets.com/quantization-and-pruning-methods-to-make-your-llm-leaner",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "This article walks through what each technique actually does, why skipping them costs real money and real latency, and then gets hands-on with five specific methods people are running in production right now.",
-      "ts": 1787918455,
-      "published": "2026-08-28T12:00:55+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Interpretable Text Classification: Probing Scikit-LLM Embedding Spaces",
-      "link": "https://machinelearningmastery.com/interpretable-text-classification-probing-scikit-llm-embedding-spaces/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how to use probing classifiers, UMAP visualization, and SHAP values to interpret and analyze the quality of text embeddings...",
-      "ts": 1787918450,
-      "published": "2026-08-28T12:00:50+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #309: Exploring Complex Systems & Maintainable Data Science Pipelines",
-      "link": "https://realpython.com/podcasts/rpp/309/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "What are the key characteristics of complex systems, and what are practical patterns for tackling complex coding problems? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly article…",
-      "ts": 1787918400,
-      "published": "2026-08-28T12:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Quiz: Rock, Paper, Scissors With Python: A Command Line Game",
-      "link": "https://realpython.com/quizzes/python-rock-paper-scissors-game/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of building a command line rock paper scissors game in Python, from player input and loops to enums and dictionary rules.",
-      "ts": 1787918400,
-      "published": "2026-08-28T12:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Pentagon's blacklisting of Anthropic was unlawful, US judge rules",
-      "link": "https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.reuters.com/legal/government/us-judge-blocks-pentagons-anthropic-blacklisting-2026-08-28/ Comments URL: https://news.ycombinator.com/item?id=49477055 Points: 325 # Comments: 3",
-      "ts": 1787916330,
-      "published": "2026-08-28T11:25:30+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Presentation: From DVDs to Global Streaming: How Netflix’s Commerce Architecture Actually Evolved",
-      "link": "https://www.infoq.com/presentations/netflix-commerce-architecture-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Kasia Trapszo discusses how Netflix evolved its commerce platform from a U.S. DVD service into global infrastructure. She explains navigating international payment realities, adapting to strict regulatory mandates, deco…",
-      "ts": 1787914800,
-      "published": "2026-08-28T11:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Article: Post-Quantum Cryptography in Spring Boot: Four Patterns You Can Ship This Sprint",
-      "link": "https://www.infoq.com/articles/pqc-in-spring-boot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "There are four patterns that bring PQC into a Spring Boot fleet: encrypting payloads between services, locking down database fields, signing documents that need to hold up for decades, and moving service tokens off RS25…",
-      "ts": 1787907600,
-      "published": "2026-08-28T09:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Article: Post-Quantum Cryptography in Spring Boot: Four Patterns You Can Ship This Sprint",
-      "link": "https://www.infoq.com/articles/pqc-in-spring-boot/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "There are four patterns that bring PQC into a Spring Boot fleet: encrypting payloads between services, locking down database fields, signing documents that need to hold up for decades, and moving service tokens off RS25…",
-      "ts": 1787907600,
-      "published": "2026-08-28T09:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Elon Musk's xAI used child porn to train Grok models, lawsuit says",
-      "link": "https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://arstechnica.com/tech-policy/2026/08/elon-musks-xai-used-child-porn-to-train-grok-models-lawsuit-says/ Comments URL: https://news.ycombinator.com/item?id=49475883 Points: 22 # Comments: 6",
-      "ts": 1787905241,
-      "published": "2026-08-28T08:20:41+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
