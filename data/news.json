@@ -1,7 +1,37 @@
 {
-  "updated": "2026-09-28T06:55:07+09:00",
-  "count": 916,
+  "updated": "2026-09-28T09:17:32+09:00",
+  "count": 919,
   "items": [
+    {
+      "title": "Testing Kafka Consumer Recovery Contracts With Testcontainers and JUnit",
+      "link": "https://foojay.io/today/testing-kafka-consumer-recovery-contracts-with-testcontainers-and-junit/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Use Testcontainers and JUnit to test Kafka consumer recovery contracts for duplicate delivery, malformed records, and offset-boundary failures.",
+      "ts": 1790553600,
+      "published": "2026-09-28T00:00:00+00:00",
+      "collected_at": "2026-09-28T09:17:09+09:00"
+    },
+    {
+      "title": "How much will post-quantum migration cost your Java codebase?",
+      "link": "https://foojay.io/today/how-much-will-post-quantum-migration-cost-your-java-codebase/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A static auditor that estimates what a post-quantum migration will cost a Java codebase, run across 27 popular Java projects to show where the cost hides.",
+      "ts": 1790553600,
+      "published": "2026-09-28T00:00:00+00:00",
+      "collected_at": "2026-09-28T09:17:09+09:00"
+    },
+    {
+      "title": "2026 in LLMs (so far)",
+      "link": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 202…",
+      "ts": 1790553255,
+      "published": "2026-09-27T23:54:15+00:00",
+      "collected_at": "2026-09-28T09:17:09+09:00"
+    },
     {
       "title": "Survey of academic bureaucracy",
       "link": "https://statmodeling.stat.columbia.edu/2026/09/27/survey-of-academic-bureaucracy/",
@@ -11,6 +41,16 @@
       "ts": 1790543626,
       "published": "2026-09-27T21:13:46+00:00",
       "collected_at": "2026-09-28T06:54:49+09:00"
+    },
+    {
+      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
+      "link": "https://www.youtube.com/watch?v=-Nvne3LzBls",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.youtube.com/watch?v=-Nvne3LzBls Comments URL: https://news.ycombinator.com/item?id=49868831 Points: 175 # Comments: 88",
+      "ts": 1790530322,
+      "published": "2026-09-27T17:32:02+00:00",
+      "collected_at": "2026-09-28T09:17:09+09:00"
     },
     {
       "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
@@ -9150,16 +9190,6 @@
       "summary": "Article URL: https://gizmodo.com/grok-not-only-generates-child-porn-but-was-also-trained-on-it-new-lawsuit-claims-2000804488 Comments URL: https://news.ycombinator.com/item?id=49485776 Points: 14 # Comments: 0",
       "ts": 1787963593,
       "published": "2026-08-29T00:33:13+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Just a rumour of a bug is enough to find a security exploit these days",
-      "link": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he rep…",
-      "ts": 1787955122,
-      "published": "2026-08-28T22:12:02+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
