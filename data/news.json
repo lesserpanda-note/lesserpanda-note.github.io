@@ -1,7 +1,57 @@
 {
-  "updated": "2026-09-28T09:17:32+09:00",
-  "count": 919,
+  "updated": "2026-09-28T15:29:00+09:00",
+  "count": 923,
   "items": [
+    {
+      "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
+      "link": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions.…",
+      "ts": 1790571240,
+      "published": "2026-09-28T04:54:00+00:00",
+      "collected_at": "2026-09-28T15:28:55+09:00"
+    },
+    {
+      "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
+      "link": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions.…",
+      "ts": 1790571240,
+      "published": "2026-09-28T04:54:00+00:00",
+      "collected_at": "2026-09-28T15:28:55+09:00"
+    },
+    {
+      "title": "Quoting Muse AI Agent",
+      "link": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told…",
+      "ts": 1790568090,
+      "published": "2026-09-28T04:01:30+00:00",
+      "collected_at": "2026-09-28T15:28:55+09:00"
+    },
+    {
+      "title": "Java News Roundup: TornadoVM 7.0, Groovy 6.0, GraalVM, Hibernate, Quarkus, Gradle, Maven",
+      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for September 21st, 2026, features news highlighting: GA releases of TornadoVM 7.0 and Groovy 6.0; point releases of GraalVM and Gradle; maintenance releases of Quarkus and GDK for Micronaut; th…",
+      "ts": 1790562600,
+      "published": "2026-09-28T02:30:00+00:00",
+      "collected_at": "2026-09-28T15:28:55+09:00"
+    },
+    {
+      "title": "Java News Roundup: TornadoVM 7.0, Groovy 6.0, GraalVM, Hibernate, Quarkus, Gradle, Maven",
+      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for September 21st, 2026, features news highlighting: GA releases of TornadoVM 7.0 and Groovy 6.0; point releases of GraalVM and Gradle; maintenance releases of Quarkus and GDK for Micronaut; th…",
+      "ts": 1790562600,
+      "published": "2026-09-28T02:30:00+00:00",
+      "collected_at": "2026-09-28T15:28:55+09:00"
+    },
     {
       "title": "Testing Kafka Consumer Recovery Contracts With Testcontainers and JUnit",
       "link": "https://foojay.io/today/testing-kafka-consumer-recovery-contracts-with-testcontainers-and-junit/",
@@ -33,6 +83,16 @@
       "collected_at": "2026-09-28T09:17:09+09:00"
     },
     {
+      "title": "S3 Is the Future, S3 Is the Past",
+      "link": "https://simonwillison.net/2026/Sep/27/hn-49871741/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My comment on S3 Is the Future, S3 Is the Past — Hacker News. One thing I find notable about S3 today is that, while it used to drop in price reasonably often, there hasn't been a price drop in a full decade : 2006-03-1…",
+      "ts": 1790550559,
+      "published": "2026-09-27T23:09:19+00:00",
+      "collected_at": "2026-09-28T15:28:55+09:00"
+    },
+    {
       "title": "Survey of academic bureaucracy",
       "link": "https://statmodeling.stat.columbia.edu/2026/09/27/survey-of-academic-bureaucracy/",
       "source": "Statistical Modeling",
@@ -41,6 +101,16 @@
       "ts": 1790543626,
       "published": "2026-09-27T21:13:46+00:00",
       "collected_at": "2026-09-28T06:54:49+09:00"
+    },
+    {
+      "title": "Bluesky reply bot checker",
+      "link": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automa…",
+      "ts": 1790534504,
+      "published": "2026-09-27T18:41:44+00:00",
+      "collected_at": "2026-09-28T15:28:55+09:00"
     },
     {
       "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
@@ -1041,6 +1111,16 @@
       "ts": 1790206011,
       "published": "2026-09-23T23:26:51+00:00",
       "collected_at": "2026-09-24T08:28:36+09:00"
+    },
+    {
+      "title": "We just shipped support for the ugliest part of HTTP: Vary",
+      "link": "https://simonwillison.net/2026/Sep/23/hn-49823961/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My comment on We just shipped support for the ugliest part of HTTP: Vary — Hacker News. I've been wanting this from Cloudflare for years . The classic problem here is if you do that thing where user agents that send \"ac…",
+      "ts": 1790205297,
+      "published": "2026-09-23T23:14:57+00:00",
+      "collected_at": "2026-09-28T15:28:55+09:00"
     },
     {
       "title": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
@@ -9150,46 +9230,6 @@
       "summary": "Cloudflare Workers can now accept inbound TCP connections through a new connect(socket) handler routed via Spectrum, ending an eight-year restriction to HTTP. Containers get full-duplex gRPC in any language, while Worke…",
       "ts": 1787997300,
       "published": "2026-08-29T09:55:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "[AINews] OpenAI shuts off Cursor",
-      "link": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Elon v Altman has a real consequence.",
-      "ts": 1787980312,
-      "published": "2026-08-29T05:11:52+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "FreeToken Unlocks Frontier MoE Inference on Consumer Hardware via Dynamic Co-Execution",
-      "link": "https://www.infoq.com/news/2026/08/freetoken-local-inference/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Researchers from UC Berkeley and MIT have developed FreeToken, an open-source inference engine that enhances the utility of Mixture-of-Experts models on consumer hardware. By implementing a dynamic scheduling policy and…",
-      "ts": 1787979900,
-      "published": "2026-08-29T05:05:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "v2.36.0 (2026-08-28)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.36.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Add --mcp-config support and tool-call streaming to clai by @Kludex in #1374 🚀 Features Add @durable_operation for capabilities and a public backend API for third-party durable exec…",
-      "ts": 1787966708,
-      "published": "2026-08-29T01:25:08+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Lawsuit: Grok Not Only Generates Child Porn but Was Also Trained on It",
-      "link": "https://gizmodo.com/grok-not-only-generates-child-porn-but-was-also-trained-on-it-new-lawsuit-claims-2000804488",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://gizmodo.com/grok-not-only-generates-child-porn-but-was-also-trained-on-it-new-lawsuit-claims-2000804488 Comments URL: https://news.ycombinator.com/item?id=49485776 Points: 14 # Comments: 0",
-      "ts": 1787963593,
-      "published": "2026-08-29T00:33:13+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
