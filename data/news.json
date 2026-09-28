@@ -1,7 +1,167 @@
 {
-  "updated": "2026-09-28T15:29:00+09:00",
-  "count": 923,
+  "updated": "2026-09-29T00:07:54+09:00",
+  "count": 934,
   "items": [
+    {
+      "title": "Gemini 3.5 Transcribe vs OpenAI’s GPT-Transcribe",
+      "link": "https://www.kdnuggets.com/gemini-3-5-transcribe-vs-openais-gpt-transcribe",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Here's how each got to where it is, a real use case and working code for both, and a side-by-side on the numbers that actually matter.",
+      "ts": 1790604006,
+      "published": "2026-09-28T14:00:06+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "How to Make Your Own JEV Model from an Open LLM",
+      "link": "https://towardsdatascience.com/how-to-make-your-own-jev-model-from-an-open-llm/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Turn a small open-source Qwen LLM into a fast, single-pass text classifier by swapping its language-modeling head The post How to Make Your Own JEV Model from an Open LLM appeared first on Towards Data Science .",
+      "ts": 1790604001,
+      "published": "2026-09-28T14:00:01+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Python 3.15 Preview: Sentinel Values",
+      "link": "https://realpython.com/python315-sentinel-values/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to create a Python sentinel value with the new built-in in Python 3.15 and get readable signatures, type hints, and safe copying and pickling.",
+      "ts": 1790604000,
+      "published": "2026-09-28T14:00:00+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Meta’s ZGateway Cuts ZippyDB Connections 19x While Handling 1B+ Operations per Second",
+      "link": "https://www.infoq.com/news/2026/09/meta-zgateway-zippydb-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Meta has introduced ZGateway, a stateless proxy for ZippyDB that centralizes connection management, traffic routing, caching, load balancing, and admission control. The gateway handles more than 1 billion operations per…",
+      "ts": 1790603700,
+      "published": "2026-09-28T13:55:00+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "The AI That Learned to Understand Long After It Stopped Trying",
+      "link": "https://towardsdatascience.com/the-ai-that-learned-to-understand-long-after-it-stopped-trying/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A small, strange discovery in machine learning called grokking The post The AI That Learned to Understand Long After It Stopped Trying appeared first on Towards Data Science .",
+      "ts": 1790598601,
+      "published": "2026-09-28T12:30:01+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "3 Numba Tricks for Python Runtime Optimization",
+      "link": "https://www.kdnuggets.com/3-numba-tricks-for-python-runtime-optimization",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "When Numba code disappoints, it's nearly never the compiler, and usually ends up being the boundary around the compiled code: not crossing it, not making it wide enough, or crossing it during every run.",
+      "ts": 1790596843,
+      "published": "2026-09-28T12:00:43+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Local Agentic AI Workflows with Hermes + Ollama",
+      "link": "https://machinelearningmastery.com/local-agentic-ai-workflows-with-hermes-ollama/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how to build a fully local, zero-cost agentic AI workflow using Hermes Agent and Ollama, so that your files,...",
+      "ts": 1790596825,
+      "published": "2026-09-28T12:00:25+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Quiz: Build a Python Turtle Game: Space Invaders Clone",
+      "link": "https://realpython.com/quizzes/build-python-turtle-game-space-invaders-clone/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice building a game with Python's turtle module: draw sprites, run a game loop, handle key presses, detect collisions, and set the frame rate.",
+      "ts": 1790596800,
+      "published": "2026-09-28T12:00:00+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "How to Catch Data Drift When Every Feature Looks Normal",
+      "link": "https://towardsdatascience.com/how-to-catch-data-drift-when-every-feature-looks-normal/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Detect hidden shifts in feature relationships with adversarial validation and scikit-learn The post How to Catch Data Drift When Every Feature Looks Normal appeared first on Towards Data Science .",
+      "ts": 1790593201,
+      "published": "2026-09-28T11:00:01+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Presentation: From Consumers to Builders: Turning 200 of our Team into Agent Creators in 2 Weeks",
+      "link": "https://www.infoq.com/presentations/building-internal-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Ben Maraney shares how Forter demystified AI agent creation for technical and non-technical staff. He discusses leveraging custom MCP servers, combining no-code and code-based platforms, sidestepping complex RAG setups,…",
+      "ts": 1790593200,
+      "published": "2026-09-28T11:00:00+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Article: Five Ways To Use AI Coding Agents to Improve Your Software Architecture",
+      "link": "https://www.infoq.com/articles/ai-agents-improve-software-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Modern architectures often use legacy services for specific tasks, but these services may lack accurate documentation and using them can be risky if you don't understand them well. AI coding agents can help close that k…",
+      "ts": 1790593200,
+      "published": "2026-09-28T11:00:00+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Podcast: The AI Revolution Fails Without Psychological Safety For Developers: A Conversation with Erin Doyle",
+      "link": "https://www.infoq.com/podcasts/ai-revolution-psychological-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In this podcast, Michael Stiefel spoke to Erin Doyle about how artificial intelligence tools are transforming the software development process, and how they are affecting software engineers. Architecture skills are now…",
+      "ts": 1790593200,
+      "published": "2026-09-28T11:00:00+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Presentation: From Consumers to Builders: Turning 200 of our Team into Agent Creators in 2 Weeks",
+      "link": "https://www.infoq.com/presentations/building-internal-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Ben Maraney shares how Forter demystified AI agent creation for technical and non-technical staff. He discusses leveraging custom MCP servers, combining no-code and code-based platforms, sidestepping complex RAG setups,…",
+      "ts": 1790593200,
+      "published": "2026-09-28T11:00:00+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Holo4: powering generalist computer-use agents",
+      "link": "https://huggingface.co/blog/Hcompany/holo4",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790588645,
+      "published": "2026-09-28T09:44:05+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "A More Reliable Compilation Scheme for Kotlin Multiplatform Modules",
+      "link": "https://blog.jetbrains.com/kotlin/2026/09/a-more-reliable-compilation-scheme-for-kotlin-multiplatform-modules/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "The current compilation approach to Kotlin Multiplatform projects works, but sometimes can lead to unexpected or hard-to-predict behavior. For example: With Kotlin 2.5.0-Beta1, we introduced an optional “separate compil…",
+      "ts": 1790588306,
+      "published": "2026-09-28T09:38:26+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Who’s liable when AI agents go rogue?",
+      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of c…",
+      "ts": 1790582782,
+      "published": "2026-09-28T08:06:22+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
+    },
     {
       "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
       "link": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -71,6 +231,16 @@
       "ts": 1790553600,
       "published": "2026-09-28T00:00:00+00:00",
       "collected_at": "2026-09-28T09:17:09+09:00"
+    },
+    {
+      "title": "Performance Improvements in JDK 27",
+      "link": "https://inside.java/2026/09/28/performance-update-jdk27/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Notable performance improvements in JDK27",
+      "ts": 1790553600,
+      "published": "2026-09-28T00:00:00+00:00",
+      "collected_at": "2026-09-29T00:07:25+09:00"
     },
     {
       "title": "2026 in LLMs (so far)",
@@ -9170,66 +9340,6 @@
       "summary": "Codename One now runs the same tested SQLite contract across Android, iOS, JavaScript, Windows, Linux, watchOS, tvOS, and the simulator, with passphrase, managed-key, and raw-key encryption. The post SQLite Across Every…",
       "ts": 1788019890,
       "published": "2026-08-29T16:11:30+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "When to Use Claude Code and When to Use Codex",
-      "link": "https://towardsdatascience.com/when-to-use-claude-code-and-when-to-use-codex/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Learn where which coding agent is best The post When to Use Claude Code and When to Use Codex appeared first on Towards Data Science .",
-      "ts": 1788015601,
-      "published": "2026-08-29T15:00:01+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "“Why did ANOVA fall out of fashion?”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/29/why-did-anova-fall-out-of-fashion/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "A student asks the above question. My response: Anova is still important; it’s just been subsumed by hierarchical models. The link is to my 2005 paper, Analysis of variance: Why it is more important than ever, which beg…",
-      "ts": 1788008870,
-      "published": "2026-08-29T13:07:50+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "RAG Is Not the Whole Toolkit: The NLP Techniques Real Problems Still Need",
-      "link": "https://towardsdatascience.com/rag-is-not-the-whole-toolkit-the-nlp-techniques-real-problems-still-need/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #B00] - Retrieval answers one kind of question. Classifying a request, matching free text to a reference list, reading a table, cleaning OCR noise: each has a cheaper method that…",
-      "ts": 1788008401,
-      "published": "2026-08-29T13:00:01+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Presentation: Architecting the Data Layer for AI Agents: from Transactional Systems to MCP and Semantic Models",
-      "link": "https://www.infoq.com/presentations/enterprise-data-architecture-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Fabiane Nardon shares how TOTVS prepares enterprise data for token-hungry AI agents. She discusses balancing deterministic logic and non-deterministic LLMs across precision, security, and cost. Nardon details using data…",
-      "ts": 1788001200,
-      "published": "2026-08-29T11:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Presentation: Architecting the Data Layer for AI Agents: from Transactional Systems to MCP and Semantic Models",
-      "link": "https://www.infoq.com/presentations/enterprise-data-architecture-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Fabiane Nardon shares how TOTVS prepares enterprise data for token-hungry AI agents. She discusses balancing deterministic logic and non-deterministic LLMs across precision, security, and cost. Nardon details using data…",
-      "ts": 1788001200,
-      "published": "2026-08-29T11:00:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Cloudflare Workers Accept Inbound TCP, with gRPC the First Protocol on Top",
-      "link": "https://www.infoq.com/news/2026/08/workers-inbound-tcp-grpc/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare Workers can now accept inbound TCP connections through a new connect(socket) handler routed via Spectrum, ending an eight-year restriction to HTTP. Containers get full-duplex gRPC in any language, while Worke…",
-      "ts": 1787997300,
-      "published": "2026-08-29T09:55:00+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
