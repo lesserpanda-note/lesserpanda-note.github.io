@@ -1,7 +1,27 @@
 {
-  "updated": "2026-09-29T06:41:52+09:00",
-  "count": 940,
+  "updated": "2026-09-29T09:10:43+09:00",
+  "count": 942,
   "items": [
+    {
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border cros…",
+      "ts": 1790633827,
+      "published": "2026-09-28T22:17:07+00:00",
+      "collected_at": "2026-09-29T09:10:36+09:00"
+    },
+    {
+      "title": "Claude Sonnet 5.5",
+      "link": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be…",
+      "ts": 1790633258,
+      "published": "2026-09-28T22:07:38+00:00",
+      "collected_at": "2026-09-29T09:10:36+09:00"
+    },
     {
       "title": "1.15.23",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23",
@@ -351,6 +371,16 @@
       "ts": 1790553600,
       "published": "2026-09-28T00:00:00+00:00",
       "collected_at": "2026-09-29T06:41:29+09:00"
+    },
+    {
+      "title": "Introducing Claude Sonnet 5.5",
+      "link": "https://www.anthropic.com/claude-sonnet-5-5",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Introducing Claude Sonnet 5.5",
+      "ts": 1790553600,
+      "published": "2026-09-28T00:00:00+00:00",
+      "collected_at": "2026-09-29T09:10:36+09:00"
     },
     {
       "title": "2026 in LLMs (so far)",
@@ -9390,16 +9420,6 @@
       "summary": "Amazon recently announced Kiro Crew, an open-source system for running multiple Kiro coding agents across sessions, tools, and tasks. The new workspace lets developers assign asynchronous coding tasks to AI agents, allo…",
       "ts": 1788078180,
       "published": "2026-08-30T08:23:00+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Introducing Hy4 Preview",
-      "link": "https://simonwillison.net/2026/Aug/29/hy4/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size i…",
-      "ts": 1788047593,
-      "published": "2026-08-29T23:53:13+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
