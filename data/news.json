@@ -1,7 +1,47 @@
 {
-  "updated": "2026-09-29T10:37:00+09:00",
-  "count": 946,
+  "updated": "2026-09-29T17:07:14+09:00",
+  "count": 952,
   "items": [
+    {
+      "title": "Python Workers Reach GA on Cloudflare, with Questions About Cold Starts and Upstream Maintenance",
+      "link": "https://www.infoq.com/news/2026/09/cloudflare-python-workers-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare has made Python Workers generally available, built on PEP 783 and on socket syscalls implemented over the Workers connect API. The announcement carries no performance figures. A urllib3 maintainer questioned…",
+      "ts": 1790663580,
+      "published": "2026-09-29T06:33:00+00:00",
+      "collected_at": "2026-09-29T17:07:09+09:00"
+    },
+    {
+      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
+      "link": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Congrats team!",
+      "ts": 1790650527,
+      "published": "2026-09-29T02:55:27+00:00",
+      "collected_at": "2026-09-29T17:07:09+09:00"
+    },
+    {
+      "title": "[AINews] Opus 5.5 is good at explainer videos",
+      "link": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a rare feature of a capability",
+      "ts": 1790649869,
+      "published": "2026-09-29T02:44:29+00:00",
+      "collected_at": "2026-09-29T17:07:09+09:00"
+    },
+    {
+      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+      "link": "https://www.latent.space/p/thariq",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+      "ts": 1790646498,
+      "published": "2026-09-29T01:48:18+00:00",
+      "collected_at": "2026-09-29T17:07:09+09:00"
+    },
     {
       "title": "How we will do better for Australia",
       "link": "https://openai.com/index/how-we-will-do-better-for-australia",
@@ -21,6 +61,16 @@
       "ts": 1790640000,
       "published": "2026-09-29T00:00:00+00:00",
       "collected_at": "2026-09-29T10:36:38+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 541: Deprecate the macOS/x64 Port for Removal",
+      "link": "https://inside.java/2026/09/29/jep541-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 541: Deprecate the macOS/x64 Port for Removal",
+      "ts": 1790640000,
+      "published": "2026-09-29T00:00:00+00:00",
+      "collected_at": "2026-09-29T17:07:09+09:00"
     },
     {
       "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
@@ -81,6 +131,16 @@
       "ts": 1790622000,
       "published": "2026-09-28T19:00:00+00:00",
       "collected_at": "2026-09-29T06:41:29+09:00"
+    },
+    {
+      "title": "Towards safety cases for frontier AI training",
+      "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
+      "ts": 1790622000,
+      "published": "2026-09-28T19:00:00+00:00",
+      "collected_at": "2026-09-29T17:07:09+09:00"
     },
     {
       "title": "A nonlinear effect plus measurement error in x becomes close to linear: A simulation study",
