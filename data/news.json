@@ -1,7 +1,257 @@
 {
-  "updated": "2026-09-29T17:07:14+09:00",
-  "count": 952,
+  "updated": "2026-09-30T00:31:16+09:00",
+  "count": 973,
   "items": [
+    {
+      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+      "link": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790695838,
+      "published": "2026-09-29T15:30:38+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "I Compacted 1,000 Apache Iceberg Files Into 6. Here’s What Happened to Query Performance.",
+      "link": "https://towardsdatascience.com/i-compacted-1000-apache-iceberg-files-into-6-heres-what-happened-to-query-performance/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Benchmarking the impact of fewer, larger files across three SQL workloads The post I Compacted 1,000 Apache Iceberg Files Into 6. Here’s What Happened to Query Performance. appeared first on Towards Data Science .",
+      "ts": 1790695801,
+      "published": "2026-09-29T15:30:01+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "AI Made Data Scientists Faster. Now It’s Expanding the Job.",
+      "link": "https://towardsdatascience.com/ai-made-data-scientists-faster-now-its-expanding-the-job/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The real shift is bigger than productivity: AI is reshaping ownership, judgment, and the career path of data scientists. The post AI Made Data Scientists Faster. Now It’s Expanding the Job. appeared first on Towards Dat…",
+      "ts": 1790690401,
+      "published": "2026-09-29T14:00:01+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "When All You Have Are Decoders, Every Decision Looks Like Generation",
+      "link": "https://towardsdatascience.com/when-all-you-have-are-decoders-every-decision-looks-like-generation/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Not every decision needs a decoder, generation Is not always a decision The post When All You Have Are Decoders, Every Decision Looks Like Generation appeared first on Towards Data Science .",
+      "ts": 1790690401,
+      "published": "2026-09-29T14:00:01+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "What's New in Python 3.15",
+      "link": "https://realpython.com/courses/whats-new-in-python-315/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore the new features in Python 3.15, including lazy imports, frozendict, sentinel values, a sampling profiler, and a faster JIT.",
+      "ts": 1790690400,
+      "published": "2026-09-29T14:00:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "SuperWhisper s1-mini: The 600M Parameter Model Built Just for Transcription",
+      "link": "https://www.kdnuggets.com/superwhisper-s1-mini-the-600m-parameter-model-built-just-for-transcription",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "This is a summary of, and insights into, what I found digging into the recently-released Superwhisper S1 family of voice-to-text models.",
+      "ts": 1790690400,
+      "published": "2026-09-29T14:00:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Bliki: Sensible Default",
+      "link": "https://martinfowler.com/bliki/SensibleDefault.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "A Sensible Default is a practice that, absent some overriding context, should be used when carrying out a certain kind of task. In software development such sensible defaults might include things like “use version contr…",
+      "ts": 1790689380,
+      "published": "2026-09-29T13:43:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Is it true that “AI Chooses Nuclear Option in 95% of War Simulations”?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/29/ai-chooses-nuclear-option-in-95-of-war-simulations/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In a message entitled, “AI Hype Goes Nuclear: Debunking a Headline-Making Preprint,” Geoff Holtzman writes: On the last day of February, I [Holtzman] met some friends for dinner. Earlier that day, the U.S. had struck Ir…",
+      "ts": 1790687693,
+      "published": "2026-09-29T13:14:53+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790687220,
+      "published": "2026-09-29T13:07:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Fragments: September 29",
+      "link": "https://martinfowler.com/fragments/2026-09-29.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Simon Willison: The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder We can do amazing things with them, but unlocking their full potential requires e…",
+      "ts": 1790685660,
+      "published": "2026-09-29T12:41:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "The State of Kotlin in 2026 Report",
+      "link": "https://blog.jetbrains.com/kotlin/2026/09/state-of-kotlin-2026-report/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "In 2026, Kotlin turned fifteen. Over those fifteen years, Kotlin has built a mature ecosystem, been adopted by companies around the world, and established a large and active developer community. Fifteen years is long en…",
+      "ts": 1790685509,
+      "published": "2026-09-29T12:38:29+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "How to Design Architectural Guardrails Around AI Agents",
+      "link": "https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Agent design patterns every data engineer must know The post How to Design Architectural Guardrails Around AI Agents appeared first on Towards Data Science .",
+      "ts": 1790685002,
+      "published": "2026-09-29T12:30:02+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "dotnet-1.23.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.23.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "dotnet-1.23.0",
+      "ts": 1790684791,
+      "published": "2026-09-29T12:26:31+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "5 Free Courses to Learn AI Engineering",
+      "link": "https://www.kdnuggets.com/5-free-courses-to-learn-ai-engineering",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn LLM fundamentals, AI engineering, RAG, MLOps, fine-tuning, and deployment with five practical courses designed to help you become a stronger AI and machine learning engineer.",
+      "ts": 1790683236,
+      "published": "2026-09-29T12:00:36+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Automating Knowledge Graph Population: Extracting Entities and Triples from Unstructured Text with an LLM",
+      "link": "https://machinelearningmastery.com/automating-knowledge-graph-population-extracting-entities-and-triples-from-unstructured-text-with-an-llm/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how to automatically extract structured knowledge from raw text and populate a knowledge graph with SPOC quads using a...",
+      "ts": 1790683220,
+      "published": "2026-09-29T12:00:20+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
+      "link": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "There was a flurry of activity during the week of September 21st, 2026, highlighting: second milestone releases of: Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framew…",
+      "ts": 1790683200,
+      "published": "2026-09-29T12:00:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
+      "link": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "There was a flurry of activity during the week of September 21st, 2026, highlighting: second milestone releases of: Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framew…",
+      "ts": 1790683200,
+      "published": "2026-09-29T12:00:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Quiz: How to Use Python: Taking Your First Steps",
+      "link": "https://realpython.com/quizzes/first-steps-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your Python foundations. Review syntax, variables, data types, indentation, functions, errors, and the tools you write Python with.",
+      "ts": 1790683200,
+      "published": "2026-09-29T12:00:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Quiz: LLM Application Development With Python",
+      "link": "https://realpython.com/quizzes/llm-application-development-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of building LLM apps in Python, from calling model APIs and prompting to RAG, AI agents, and MCP.",
+      "ts": 1790683200,
+      "published": "2026-09-29T12:00:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Quiz: What's New in Python 3.15",
+      "link": "https://realpython.com/quizzes/whats-new-in-python-315/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your knowledge of Python 3.15, from lazy imports and frozendict to sentinels, friendlier errors, and UTF-8 by default.",
+      "ts": 1790683200,
+      "published": "2026-09-29T12:00:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Claude Sonnet 5.5 Review: Faster Agentic Coding & Visual QA",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/claude-sonnet-5-5-review/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "A practical guide to what changed, the benchmarks that matter, the cost controls developers should not miss, and one hands-on demo worth building. Anthropic has just released Claude Sonnet 5.5. It is the middle child of…",
+      "ts": 1790680931,
+      "published": "2026-09-29T11:22:11+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Building Fair Evaluation Sets Is a Combinatorial Problem",
+      "link": "https://towardsdatascience.com/building-fair-evaluation-sets-is-a-combinatorial-problem/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Here’s how to solve it exactly. The post Building Fair Evaluation Sets Is a Combinatorial Problem appeared first on Towards Data Science .",
+      "ts": 1790679602,
+      "published": "2026-09-29T11:00:02+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+      "link": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "source": "Ahead of AI",
+      "category": "AI",
+      "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
+      "ts": 1790679025,
+      "published": "2026-09-29T10:50:25+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "Making AI an asset, not an expense",
+      "link": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. B…",
+      "ts": 1790678625,
+      "published": "2026-09-29T10:43:45+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
+    {
+      "title": "7 Open-Source Memory GitHub Projects on AI Memory",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/github-projects-on-ai-memory/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "AI agents can handle large context windows, yet still forget what happened after a session ends. Memory systems close that gap by preserving useful facts, preferences, relationships, and task state, giving agents contin…",
+      "ts": 1790671714,
+      "published": "2026-09-29T08:48:34+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
+    },
     {
       "title": "Python Workers Reach GA on Cloudflare, with Questions About Cold Starts and Upstream Maintenance",
       "link": "https://www.infoq.com/news/2026/09/cloudflare-python-workers-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -281,6 +531,16 @@
       "ts": 1790596800,
       "published": "2026-09-28T12:00:00+00:00",
       "collected_at": "2026-09-29T00:07:25+09:00"
+    },
+    {
+      "title": "Quiz: Python 3.15 Preview: Sentinel Values",
+      "link": "https://realpython.com/quizzes/python315-sentinel-values/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of Python 3.15's new sentinel built-in, from readable signatures and type hints to safe copying, pickling, and when to use one.",
+      "ts": 1790596800,
+      "published": "2026-09-28T12:00:00+00:00",
+      "collected_at": "2026-09-30T00:31:10+09:00"
     },
     {
       "title": "How to Catch Data Drift When Every Feature Looks Normal",
@@ -9470,56 +9730,6 @@
       "summary": "Quick and simple tips to help you write better agent instructions The post 8 Tips for Writing Effective Agent Instructions appeared first on Towards Data Science .",
       "ts": 1788109202,
       "published": "2026-08-30T17:00:02+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Coyote vs. Acme (also, for free, my take on The Odyssey)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/30/coyote-vs-acme-also-for-free-my-take-on-the-odyssey/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "First, let’s get this one out of the way: my take on The Odyssey movie. It was brilliant, and I especially like how they handled the gods. It was clear that the gods were real—that storm after they kill the … Continue r…",
-      "ts": 1788103803,
-      "published": "2026-08-30T15:30:03+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Context Engineering Is Changing. Here’s What It Means for Data Scientists",
-      "link": "https://towardsdatascience.com/context-engineering-is-changing-heres-what-it-means-for-data-scientists/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "How to apply the latest context engineering guidelines to your day-to-day data science work The post Context Engineering Is Changing. Here’s What It Means for Data Scientists appeared first on Towards Data Science .",
-      "ts": 1788102002,
-      "published": "2026-08-30T15:00:02+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "Noisy Text in RAG: Typos, OCR, and the Gap Classical Spell-Check Leaves",
-      "link": "https://towardsdatascience.com/noisy-text-in-rag-typos-ocr-and-the-gap-classical-spell-check-leaves/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #B1] - Three sources of one problem. User typos, fast-typing transcription noise, OCR character errors. Classical spell-check handles one of them. Embeddings carry the rest The po…",
-      "ts": 1788094802,
-      "published": "2026-08-30T13:00:02+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "NetBeans DataWrangler: Query, Convert, and Edit Data Analytics Files",
-      "link": "https://foojay.io/today/netbeans-datawrangler-query-convert-and-edit-data-analytics-files/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Apache NetBeans DataWrangler brings the file formats of data analytics into Apache NetBeans 31: CSV, Apache Parquet, JSON and Excel, the formats exchanged with pandas, Spark, R, dbt, Power BI and Excel itself. You can q…",
-      "ts": 1788085543,
-      "published": "2026-08-30T10:25:43+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
-    },
-    {
-      "title": "AWS Open Sources Kiro Crew for Asynchronous Coding Agents",
-      "link": "https://www.infoq.com/news/2026/08/kiro-crew-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Amazon recently announced Kiro Crew, an open-source system for running multiple Kiro coding agents across sessions, tools, and tasks. The new workspace lets developers assign asynchronous coding tasks to AI agents, allo…",
-      "ts": 1788078180,
-      "published": "2026-08-30T08:23:00+00:00",
       "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
