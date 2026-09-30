@@ -1,83 +1,83 @@
 {
-  "updated": "2026-09-29T00:09:47Z",
-  "summary": "오늘 다이제스트에서는 Kotlin Multiplatform의 컴파일 개선부터 AI 에이전트의 법적 책임 문제, Meta의 초대규모 데이터베이스 프록시 아키텍처까지 다양한 주제를 다룹니다. AI가 과학적 발견을 할 수 있는지에 대한 철학적 논쟁과 함께, 로컬 에이전트 구축 실습 가이드 및 Python 3.15 sentinel 값 기능 미리보기도 포함되어 있습니다. 데이터 과학 분야에서는 측정 오차와 비선형성의 통계적 함의, 그리고 데이터 드리프트 탐지 기법이 소개됩니다.",
+  "updated": "2026-09-30T00:20:19Z",
+  "summary": "오늘은 Kotlin 15주년 현황 보고서와 Spring 생태계 M2 릴리스 소식이 Java 진영을 장식했으며, OpenAI DevDay 2026 라이브 블로그와 AI 에이전트 가드레일 설계 패턴이 에이전트 분야의 주목을 끌었습니다. AWS의 CloudWatch Omni가 에이전트 모니터링의 새 기준을 제시했고, Python 3.15 신기능 소개와 Apache Iceberg 파일 압축 벤치마킹도 인상적인 결과를 담고 있습니다.",
   "highlights": [
     {
       "category": "Java",
-      "title": "A More Reliable Compilation Scheme for Kotlin Multiplatform Modules",
-      "link": "https://blog.jetbrains.com/kotlin/2026/09/a-more-reliable-compilation-scheme-for-kotlin-multiplatform-modules/",
-      "summary": "Kotlin 2.5.0-Beta1에서 도입된 선택적 '분리 컴파일' 방식이 Kotlin Multiplatform 모듈에 더 안정적이고 예측 가능한 컴파일 경험을 제공합니다.",
-      "detail": "Kotlin Multiplatform 프로젝트의 기존 컴파일 방식은 기능적으로 작동하지만, 예측하기 어려운 동작을 초래하는 경우가 있었습니다. JetBrains는 Kotlin 2.5.0-Beta1에서 선택적 '분리 컴파일(separate compilation)' 방식을 도입했으며, 이 방식을 통해 멀티플랫폼 모듈이 더 신뢰성 있게 컴파일됩니다.\n분리 컴파일 방식은 각 플랫폼 타겟에 대해 독립적으로 컴파일하여 의존성 관리와 빌드 예측 가능성을 향상시킵니다. 기존 방식에서는 공통 소스셋과 플랫폼별 소스셋 간의 상호작용이 복잡한 컴파일 순서 문제를 일으킬 수 있었습니다.\n이 변경사항은 향후 기본 컴파일 방식으로 전환될 가능성이 있으며, 멀티플랫폼 라이브러리 개발자와 팀에게 빌드 안정성 측면에서 중요한 개선 사항입니다."
+      "title": "The State of Kotlin in 2026 Report",
+      "link": "https://blog.jetbrains.com/kotlin/2026/09/state-of-kotlin-2026-report/",
+      "summary": "JetBrains가 Kotlin 15주년을 맞아 발표한 2026 현황 보고서로, 언어의 생태계 성숙도와 글로벌 개발자 커뮤니티 현황을 종합적으로 분석합니다.",
+      "detail": "2026년 Kotlin이 탄생 15년을 맞이했습니다. JetBrains가 발표한 이번 연례 보고서는 Kotlin이 그간 쌓아온 성과를 조망합니다. 15년에 걸쳐 Kotlin은 성숙한 생태계를 구축했으며, 전 세계 기업에서 채택되었고, 크고 활발한 개발자 커뮤니티를 형성했습니다. 보고서는 서버 사이드, Android, 멀티플랫폼 등 주요 사용 영역별 채택 현황과 언어 사용 트렌드, 도구 환경, 커뮤니티 규모에 대한 데이터를 담고 있습니다."
     },
     {
       "category": "Java",
-      "title": "Java News Roundup: TornadoVM 7.0, Groovy 6.0, GraalVM, Hibernate, Quarkus, Gradle, Maven",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "2026년 9월 21일 자 Java 생태계 주간 뉴스에서 TornadoVM 7.0과 Groovy 6.0의 GA 릴리스, GraalVM 및 Gradle 포인트 릴리스 등 중요한 업데이트가 발표되었습니다.",
-      "detail": "이번 주 Java 생태계에서는 여러 중요한 릴리스가 있었습니다. TornadoVM 7.0이 GA로 출시되어 GPU, FPGA 등 이기종 하드웨어 기반의 Java 코드 가속화를 강화했습니다. Groovy 6.0도 GA 릴리스가 되어 Groovy 언어의 새로운 메이저 버전이 공식화되었습니다.\nGraalVM과 Gradle은 포인트 릴리스를 통해 안정성과 성능을 개선했으며, Quarkus와 GDK for Micronaut는 유지보수 릴리스를 발행했습니다. Hibernate, Maven 등 Java 생태계의 핵심 프레임워크들도 꾸준히 업데이트되고 있습니다.\n각 릴리스는 성능 향상, 버그 수정, 새로운 기능을 포함하며, Java 플랫폼 생태계의 활발한 발전을 보여줍니다."
+      "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
+      "link": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "2026년 9월 21일 주간에 Spring Boot, Spring Framework, Spring Data, Spring Security, Spring Integration 등의 두 번째 마일스톤(M2) 릴리스가 동시에 공개되었습니다.",
+      "detail": "Spring 생태계에서 활발한 릴리스가 이어졌습니다. 해당 주간에 Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framework의 M2(두 번째 마일스톤) 버전이 일제히 공개되었습니다. 마일스톤 릴리스는 정식 출시 전 새로운 기능과 변경 사항을 검증하는 단계로, 개발팀이 피드백을 수집하고 안정성을 높이는 데 중요한 역할을 합니다. 이번 M2 릴리스는 Spring 생태계 전반에 걸쳐 다음 메이저 버전을 향한 준비가 본격화되고 있음을 보여줍니다."
     },
     {
       "category": "AI",
-      "title": "When can we say AI made a scientific discovery?",
-      "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
-      "summary": "Anthropic이 AI를 통한 과학적 발견을 발표하면서, AI가 진정한 과학적 발견을 했다고 말할 수 있는 기준이 무엇인지에 대한 논의가 활발해졌습니다.",
-      "detail": "MIT Technology Review가 AI의 과학적 발견에 관한 근본적인 질문을 다루고 있습니다. Anthropic이 올해 초 AI를 활용한 분자생물학 분야의 새로운 발견을 발표하면서, '언제 AI가 과학적 발견을 했다고 말할 수 있는가'라는 철학적·과학적 논쟁이 부각되었습니다.\n과학적 발견의 요건으로는 단순한 패턴 인식을 넘어 인과관계 이해, 반증 가능한 가설 수립, 독립적 검증 가능성 등이 논의됩니다. AI 시스템이 방대한 데이터에서 새로운 상관관계를 찾는 것은 가능하지만, 이것이 진정한 '이해'나 '발견'인지에 대해서는 연구자들 사이에서 의견이 갈립니다.\nAI의 역할을 인간 연구자의 도구로 볼 것인지, 아니면 독립적인 연구 주체로 볼 것인지의 문제는 앞으로 과학 연구의 공로 인정(attribution) 방식에 큰 영향을 미칠 전망입니다."
+      "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+      "link": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+      "summary": "RNN, CNN, Transformer를 거쳐 최신 분류 모델까지, 텍스트 분류의 역사를 시각적으로 정리하고 정확도·효율성 실험 결과를 함께 제공하는 종합 가이드입니다.",
+      "detail": "Sebastian Raschka의 Ahead of AI 뉴스레터에 게재된 이 글은 텍스트 분류 모델의 역사를 Bag-of-Words부터 최신 아키텍처까지 체계적으로 살펴봅니다. RNN, CNN, Transformer 등 주요 모델 유형을 시각적 가이드 형태로 비교하며, 각 접근법의 정확도와 효율성에 대한 실제 실험 결과도 포함되어 있습니다. 캘리브레이션(Calibration) 개념을 다루어 모델 신뢰도 평가 방법도 안내합니다. 분류 문제에서 어떤 아키텍처를 선택할지 판단하는 데 실용적인 기준을 제공하는 참고 자료입니다."
     },
     {
       "category": "AI",
-      "title": "Who’s liable when AI agents go rogue?",
-      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-      "summary": "AI 에이전트가 예상치 못한 피해를 유발했을 때 누가 법적 책임을 지는지에 대한 복잡한 법적·정책적 쟁점을 MIT Technology Review가 분석했습니다.",
-      "detail": "AI 에이전트가 점점 더 자율적으로 행동하게 되면서, 이들이 잘못된 결정을 내리거나 피해를 유발했을 때의 책임 소재가 불명확한 문제가 제기되고 있습니다. 최근 수 개월간 다수의 AI 에이전트 관련 사고가 연달아 발생하면서 이 문제가 더욱 시급해졌습니다.\n책임의 주체로는 AI 에이전트를 개발한 회사, 에이전트를 배포·운용한 기업, 그리고 에이전트를 사용하도록 지시한 개인 등이 거론됩니다. 현행 법체계는 에이전트 소프트웨어의 자율적 의사결정에 따른 피해를 명확히 처리하지 못하고 있으며, 제조물 책임법, 과실 책임, 계약법 등 다양한 법적 프레임워크가 적용 가능성을 두고 논쟁 중입니다.\n규제 당국과 법학자들은 AI 에이전트에 특화된 새로운 법적 개념 도입을 논의하고 있으며, 이 문제의 해결 방향은 AI 산업의 미래 발전에 큰 영향을 미칠 전망입니다."
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+      "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "summary": "MCP 에이전트가 올바른 사실뿐 아니라 올바른 출처에서 정보를 가져오는지 검증하는 소스 인식 기반 검증 방법론을 소개합니다.",
+      "detail": "Hugging Face 블로그에 게재된 이 연구는 MCP(Model Context Protocol) 에이전트의 정보 검증에서 사실의 정확성만큼이나 출처의 신뢰성이 중요하다는 점을 강조합니다. 소스 인식 검증(Source-Aware Verification) 기법을 통해 에이전트가 권위 있고 적절한 출처에서 정보를 인용하고 있는지 확인하는 방법을 다룹니다. 이는 AI 에이전트의 신뢰성과 감사 가능성(auditability)을 높이는 데 기여합니다. 특히 사실 관계가 중요한 도메인에서 에이전트 출력물의 품질을 검증하는 실용적인 접근법을 제시합니다."
     },
     {
       "category": "Agents",
-      "title": "Local Agentic AI Workflows with Hermes + Ollama",
-      "link": "https://machinelearningmastery.com/local-agentic-ai-workflows-with-hermes-ollama/",
-      "summary": "Hermes Agent와 Ollama를 조합해 인터넷 연결 없이 로컬에서 완전 무료로 에이전틱 AI 워크플로우를 구축하는 방법을 안내합니다.",
-      "detail": "이 튜토리얼은 Hermes Agent와 Ollama를 활용해 완전히 로컬 환경에서 에이전틱 AI 워크플로우를 구축하는 방법을 단계별로 설명합니다. Ollama는 로컬에서 대규모 언어 모델을 실행하기 위한 오픈소스 프레임워크이고, Hermes Agent는 이를 기반으로 에이전트 기능을 구현합니다.\n이 조합을 사용하면 클라우드 API 비용 없이, 인터넷 연결 없이, 그리고 개인 데이터를 외부로 노출하지 않고 에이전틱 AI를 활용할 수 있습니다. 로컬 파일 처리, 도구 호출, 멀티 스텝 추론 등의 기능을 구현할 수 있으며, 프라이버시가 중요한 기업 환경이나 오프라인 환경에서 특히 유용합니다.\nPython 환경에서 비교적 쉽게 시작할 수 있으며, 완전한 제어권을 유지하면서 에이전트 AI를 실험하려는 개발자에게 적합한 접근 방식입니다."
+      "title": "OpenAI DevDay 2026 live blog",
+      "link": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+      "summary": "Simon Willison이 샌프란시스코 Fort Mason에서 열린 OpenAI DevDay 2026 현장을 실시간으로 기록한 라이브 블로그입니다.",
+      "detail": "Simon Willison이 직접 참석해 OpenAI DevDay 2026의 키노트와 주요 발표를 현장에서 실시간으로 정리했습니다. DevDay는 OpenAI의 연례 개발자 컨퍼런스로, 새로운 API 기능, 모델 업데이트, 에이전트 관련 발표가 이루어지는 행사입니다. Simon Willison은 AI 업계에서 신뢰받는 기술 해설자로, 그의 라이브 블로그는 DevDay의 핵심 발표 내용을 빠르게 파악하는 데 유용한 자료입니다."
     },
     {
       "category": "Agents",
-      "title": "1.15.23",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23",
-      "summary": "crewAI 1.15.23이 출시되어 네이티브 Gemini 3.8 Flash 지원과 AMP를 통한 에이전트 실행 평가 기능이 추가되었습니다.",
-      "detail": "crewAI가 버전 1.15.23을 출시했습니다. 이번 릴리스의 주요 변경사항으로는 Google의 Gemini 3.8 Flash 모델에 대한 네이티브 지원이 추가되어, 더 빠르고 비용 효율적인 LLM을 crewAI 에이전트에서 활용할 수 있게 되었습니다.\n'crewai eval' 명령을 통해 마지막으로 추적된 실행(last traced run)을 AMP(Agent Management Platform)를 통해 평가할 수 있는 기능도 구현되었습니다. 기존에는 평가 결과가 콘솔에 단순 출력되었지만, 이제는 실행 내역이 기록되어 체계적인 에이전트 성능 평가가 가능합니다.\n플랫폼 전반의 안정성 개선도 포함되어 있어 프로덕션 환경에서의 신뢰성이 향상되었습니다."
+      "title": "How to Design Architectural Guardrails Around AI Agents",
+      "link": "https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/",
+      "summary": "AI 에이전트 주변에 아키텍처적 가드레일을 설계하는 방법을 안내하는 실용 가이드로, 데이터 엔지니어가 알아야 할 에이전트 설계 패턴을 다룹니다.",
+      "detail": "AI 에이전트가 점점 더 자율적으로 동작하면서 이를 안전하게 제어하기 위한 아키텍처적 장치가 중요해졌습니다. 이 글은 에이전트의 행동을 적절히 제한하고 감시하기 위한 가드레일 설계 원칙을 소개합니다. 도구 접근 제한, 실행 경계 설정, 인간 개입 지점 정의 등 에이전트 설계 패턴을 구체적으로 다루며, 데이터 엔지니어와 ML 엔지니어가 안전하고 신뢰할 수 있는 에이전트 시스템을 구축하는 데 필요한 실용적 기준을 제공합니다."
     },
     {
       "category": "Architecture",
-      "title": "Meta’s ZGateway Cuts ZippyDB Connections 19x While Handling 1B+ Operations per Second",
-      "link": "https://www.infoq.com/news/2026/09/meta-zgateway-zippydb-proxy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Meta가 ZippyDB를 위한 스테이트리스 프록시 ZGateway를 공개했으며, 연결 수를 19분의 1로 줄이면서 초당 10억 건 이상의 작업을 처리하고 있습니다.",
-      "detail": "Meta는 내부 분산 키-값 스토어인 ZippyDB를 위한 스테이트리스 프록시 ZGateway를 도입했습니다. ZGateway는 연결 관리, 트래픽 라우팅, 캐싱, 로드 밸런싱, 어드미션 컨트롤을 중앙화하는 역할을 합니다.\n이 프록시를 통해 ZippyDB의 클라이언트 연결 수를 기존 대비 19분의 1로 감소시켰으며, 초당 10억 건 이상의 작업을 안정적으로 처리하고 있습니다. ZGateway의 스테이트리스 설계는 수평 확장을 용이하게 하고 장애 시 빠른 복구를 가능하게 합니다.\n어드미션 컨트롤 기능은 데이터베이스 과부하를 방지하며, 캐싱 레이어는 반복적인 읽기 요청에 대한 응답 지연을 줄입니다. 이 아키텍처는 수십억 개의 연결을 관리하는 하이퍼스케일 시스템에서 데이터베이스 연결 과부하 문제를 해결하는 효과적인 패턴을 보여줍니다."
+      "title": "Amazon CloudWatch Omni Extends CloudWatch into the Agent Era",
+      "link": "https://www.infoq.com/news/2026/09/aws-cloudwatchomni-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "AWS가 AI 에이전트 시대에 맞게 설계한 AI 퍼스트 관측 플랫폼 Amazon CloudWatch Omni를 출시했습니다. 앱과 자율 AI 에이전트를 통합 환경에서 모니터링합니다.",
+      "detail": "Amazon CloudWatch Omni는 AWS의 신규 AI 퍼스트 관측성(Observability) 플랫폼으로, 기존 CloudWatch를 AI 에이전트 시대에 맞게 확장한 서비스입니다. 일반 애플리케이션과 자율 AI 에이전트를 단일 통합 환경에서 모니터링, 평가, 문제 해결할 수 있도록 설계되었습니다. AI 에이전트의 행동과 성능을 실시간으로 추적하고, 이상 탐지, 로그 분석, 알림 등 기존 CloudWatch 기능을 AI 워크로드에 특화된 형태로 강화합니다. 에이전트 기반 시스템의 운영 복잡성이 증가하는 가운데 CloudWatch Omni는 관측 인프라의 현대화를 이끄는 서비스입니다."
     },
     {
       "category": "Architecture",
-      "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
-      "link": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "AWS Aurora DSQL이 외래 키 제약 조건을 지원하기 시작해, 분산 서버리스 SQL 데이터베이스에서도 참조 무결성을 데이터베이스 수준에서 직접 강제할 수 있게 되었습니다.",
-      "detail": "AWS는 Aurora DSQL(분산 서버리스 SQL 데이터베이스)에 외래 키 제약 조건 지원을 추가했습니다. 이를 통해 애플리케이션은 CASCADE, SET NULL 등 표준 참조 무결성 작업을 데이터베이스 수준에서 직접 강제할 수 있게 됩니다.\n기존에는 분산 데이터베이스 환경에서 외래 키 제약을 구현하는 것이 분산 트랜잭션의 복잡성으로 인해 성능과 일관성 측면에서 어렵다고 여겨졌습니다. Aurora DSQL은 다중 리전 분산 환경에서도 이를 지원함으로써, 기존 관계형 데이터베이스에서 마이그레이션하는 팀들의 부담을 크게 줄여줍니다.\n이 기능은 데이터 모델의 무결성을 유지하면서도 Aurora DSQL의 자동 확장, 고가용성, 서버리스 특성을 함께 활용할 수 있게 하며, 관계형 데이터 모델을 그대로 유지하면서 분산 데이터베이스로 전환하는 경로를 더욱 매력적으로 만듭니다."
+      "title": "Bliki: Sensible Default",
+      "link": "https://martinfowler.com/bliki/SensibleDefault.html",
+      "summary": "Martin Fowler가 소프트웨어 개발에서 합리적 기본값(Sensible Default)의 개념을 정의하고 그 중요성과 적용 기준을 설명합니다.",
+      "detail": "Martin Fowler의 Bliki에 게재된 이 글은 합리적 기본값(Sensible Default)이라는 개념을 소개합니다. 합리적 기본값이란 특정 유형의 작업을 수행할 때 재정의할 만한 특별한 이유가 없는 한 따라야 할 관행을 의미합니다. 소프트웨어 개발에서 버전 관리 사용, 자동화된 테스트 작성 등이 그 예입니다. 이 개념은 팀이 매번 명시적으로 논의하지 않아도 일관된 품질의 실천을 유지하는 데 도움이 됩니다. 기본값을 언제, 왜 재정의해야 하는지 판단하는 기준도 함께 다룹니다."
     },
     {
       "category": "Python",
-      "title": "Python 3.15 Preview: Sentinel Values",
-      "link": "https://realpython.com/python315-sentinel-values/",
-      "summary": "Python 3.15에 추가될 내장 sentinel 값 생성 기능이 미리보기로 공개되어, 더 명확한 함수 시그니처와 타입 힌트를 제공합니다.",
-      "detail": "Python 3.15에서는 sentinel 값을 생성하기 위한 새로운 내장 기능이 도입됩니다. Sentinel 값은 함수의 선택적 파라미터에서 '값이 전달되지 않았음'을 나타내는 특수 마커로, 기존에는 관용적으로 None을 사용하거나 커스텀 singleton을 직접 정의해야 했습니다.\n새로운 내장 sentinel API를 사용하면 함수 시그니처가 더 읽기 쉬워지고, 타입 힌트와의 호환성이 향상됩니다. 또한 새 방식으로 생성된 sentinel은 복사(copying)와 피클링(pickling)을 안전하게 지원하여, 멀티프로세싱이나 직렬화 시나리오에서 발생하는 문제를 예방합니다.\n이 개선사항은 Python 표준 라이브러리와 인기 있는 서드파티 라이브러리들이 sentinel을 더 일관되게 사용할 수 있도록 기반을 마련하며, 코드의 의도를 더 명확하게 표현할 수 있게 합니다."
+      "title": "What's New in Python 3.15",
+      "link": "https://realpython.com/courses/whats-new-in-python-315/",
+      "summary": "Python 3.15의 주요 신기능인 지연 임포트, frozendict, 센티넬 값, 샘플링 프로파일러, 더 빠른 JIT를 소개하는 Real Python 강의입니다.",
+      "detail": "Real Python이 제공하는 이 강의는 Python 3.15에서 도입된 주요 신기능들을 다룹니다. 지연 임포트(Lazy imports)는 모듈을 실제로 사용할 때까지 로드를 미루어 스타트업 시간을 단축시킵니다. frozendict는 불변 딕셔너리 타입으로 함수형 프로그래밍 패턴에 유용합니다. 센티넬(Sentinel) 값은 None과 구별되는 기본값 표현에 활용됩니다. 샘플링 프로파일러는 성능 분석을 더 쉽게 만들어주며, 개선된 JIT 컴파일러는 실행 속도를 높입니다. Python 3.15 업그레이드를 고려하는 개발자에게 유용한 학습 자료입니다."
     },
     {
       "category": "DataScience",
-      "title": "A nonlinear effect plus measurement error in x becomes close to linear: A simulation study",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/28/a-nonlinear-effect-plus-measurement-error-in-x-becomes-close-to-linear-a-simulation-study/",
-      "summary": "통계 시뮬레이션을 통해 x 변수에 측정 오차가 있을 때 비선형 효과가 선형에 가깝게 보이는 현상을 시연하고 그 통계적 함의를 설명합니다.",
-      "detail": "Columbia 대학의 통계 블로그에서 시뮬레이션을 이용해 중요한 통계적 원리를 설명합니다. 핵심 발견은 x 변수에 측정 오차(measurement error)가 있을 때, 실제로는 비선형 관계가 선형처럼 보일 수 있다는 것입니다.\n이 현상은 회귀 분석에서 중요한 함의를 가집니다. 단순히 선형 모델이 데이터에 잘 맞는다고 해서 실제 관계가 선형임을 의미하지 않습니다. 측정 오차가 비선형성을 마스킹하여 더 단순한 모델이 더 잘 맞는 것처럼 보이게 만들 수 있습니다.\n이는 특히 설문 조사 응답, 자기 보고 데이터, 간접적으로 측정된 변수들을 다루는 연구에서 중요한 편향의 형태입니다. 시뮬레이션을 통한 직관적인 설명 방식이 복잡한 통계적 현상을 이해하는 데 효과적입니다."
+      "title": "Survey Statistics: ANOVA follow-up",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/29/survey-statistics-anova-follow-up/",
+      "summary": "ANOVA와 다수준 모델의 실용성 비교에 관한 독자 댓글을 발판으로 Andrew Gelman 블로그에서 이어지는 통계 실무 논의입니다.",
+      "detail": "Statistical Modeling 블로그의 이 글은 이전 ANOVA 관련 포스트에 달린 Rodney Sparapani의 댓글을 발단으로 시작됩니다. Sparapani는 다수준 모델(multilevel models)의 어려움을 언급하며 ANOVA가 더 직관적이라고 주장했습니다. 이에 대해 블로그 저자는 다수준 모델이 어렵다는 데는 동의하지만 ANOVA가 반드시 더 쉽다고 느끼지는 않는다고 응답합니다. 이 포스트는 통계 실무에서 ANOVA와 혼합효과 모델의 상대적 장단점에 대한 전문가들의 실용적 관점을 보여주는 유익한 사례입니다."
     },
     {
       "category": "DataScience",
-      "title": "How to Catch Data Drift When Every Feature Looks Normal",
-      "link": "https://towardsdatascience.com/how-to-catch-data-drift-when-every-feature-looks-normal/",
-      "summary": "개별 피처가 정상으로 보일 때도 피처 간 관계의 변화를 탐지하는 적대적 검증(adversarial validation) 기법을 scikit-learn으로 구현하는 방법을 소개합니다.",
-      "detail": "데이터 드리프트는 모델 성능 저하의 주요 원인이지만, 개별 피처의 분포 통계만으로는 발견하기 어려울 때가 많습니다. 이 글은 피처 간 관계 변화(multivariate drift)를 탐지하는 '적대적 검증(adversarial validation)' 기법을 소개합니다.\n적대적 검증은 훈련 데이터와 현재 프로덕션 데이터를 구분하는 이진 분류기를 학습시킨 뒤, 해당 분류기의 성능이 높을수록 데이터 드리프트가 심하다고 판단하는 방식입니다. scikit-learn을 사용해 이를 구현하는 실용적인 코드와 함께, 어떤 피처가 드리프트에 가장 많이 기여하는지 분석하는 방법도 설명됩니다.\n이 접근법은 단변량(univariate) 통계 테스트로는 잡기 어려운 숨겨진 관계 변화를 효과적으로 탐지하며, ML 시스템의 프로덕션 모니터링에 실용적으로 적용할 수 있습니다."
+      "title": "I Compacted 1,000 Apache Iceberg Files Into 6. Here's What Happened to Query Performance.",
+      "link": "https://towardsdatascience.com/i-compacted-1000-apache-iceberg-files-into-6-heres-what-happened-to-query-performance/",
+      "summary": "Apache Iceberg 테이블의 파일 1,000개를 6개로 압축했을 때 세 가지 SQL 워크로드에서 쿼리 성능이 어떻게 변화하는지 벤치마킹한 결과를 공유합니다.",
+      "detail": "Apache Iceberg는 대규모 분석 데이터 레이크에서 널리 쓰이는 오픈 테이블 포맷입니다. 이 글은 1,000개의 작은 파일로 구성된 Iceberg 테이블을 6개의 대형 파일로 압축(compaction)하는 실험을 수행하고, 그 전후의 쿼리 성능을 세 가지 SQL 워크로드에 걸쳐 측정합니다. 파일 수가 줄어들면 파일 메타데이터 오버헤드가 감소하고 스캔 효율이 올라가는 것이 일반적인 이론입니다. 이 글은 실제 벤치마크 수치를 통해 워크로드 유형별 성능 개선 폭이 얼마나 다른지 분석하여, 데이터 엔지니어에게 파일 압축의 실질적 효과를 이해하는 데 도움을 줍니다."
     }
   ]
 }
