@@ -1,7 +1,97 @@
 {
-  "updated": "2026-09-30T09:09:56+09:00",
-  "count": 974,
+  "updated": "2026-09-30T15:26:06+09:00",
+  "count": 981,
   "items": [
+    {
+      "title": "Agents Refactor 300K Lines in Three Weeks, and Practitioners Ask What It Proves",
+      "link": "https://www.infoq.com/news/2026/09/agentic-refactoring-case-study/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "CodeScene has published a case study in which coding agents refactored 300,000 lines of C over three weeks for roughly $4,000 in tokens, verified by a frame-by-frame replay harness. The agents built a playbook of codeba…",
+      "ts": 1790748960,
+      "published": "2026-09-30T06:16:00+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
+    },
+    {
+      "title": "Agents Refactor 300K Lines in Three Weeks, and Practitioners Ask What It Proves",
+      "link": "https://www.infoq.com/news/2026/09/agentic-refactoring-case-study/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "CodeScene has published a case study in which coding agents refactored 300,000 lines of C over three weeks for roughly $4,000 in tokens, verified by a frame-by-frame replay harness. The agents built a playbook of codeba…",
+      "ts": 1790748960,
+      "published": "2026-09-30T06:16:00+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
+    },
+    {
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "link": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "the most confident DevDay yet.",
+      "ts": 1790747590,
+      "published": "2026-09-30T05:53:10+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
+    },
+    {
+      "title": "v1.107.7 (2026-09-29)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🛡️ Security A maintenance release for the v1 line, carrying the v1 backport of the security fix released in 2.52.0 . See the advisory for full details and affected versions. GHSA-v36g-jcw9-x7cw (moderate): converting at…",
+      "ts": 1790729661,
+      "published": "2026-09-30T00:54:21+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
+    },
+    {
+      "title": "v2.52.0 (2026-09-29)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.52.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🛡️ Security This release fixes one security issue in web_fetch . See the advisory for full details and affected versions. GHSA-v36g-jcw9-x7cw (moderate): converting attacker-controlled HTML with deeply nested elements i…",
+      "ts": 1790729660,
+      "published": "2026-09-30T00:54:20+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
+    },
+    {
+      "title": "My love-hate relationship with Java formatters",
+      "link": "https://foojay.io/today/my-love-hate-relationship-with-java-formatters/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Learning to love google-java-format, why AI agents make formatters matter even more, and why palantir-java-format now has a fork: open-java-format.",
+      "ts": 1790726400,
+      "published": "2026-09-30T00:00:00+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
+    },
+    {
+      "title": "Lies, Damn Lies and Benchmarks",
+      "link": "https://foojay.io/today/performance-work-between-benchmarks/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Codename One tackles GC, maps, startup, and JavaScript overhead, and adds native drag and drop plus cross-device continuity. Javadoc joins website search...",
+      "ts": 1790726400,
+      "published": "2026-09-30T00:00:00+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
+    },
+    {
+      "title": "JavaFX Links of September 2026",
+      "link": "https://foojay.io/today/javafx-links-of-september-2026/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Here are the JavaFX LinksOfTheMonth of September 2026. This was a big month with the release of JavaFX 27!",
+      "ts": 1790726400,
+      "published": "2026-09-30T00:00:00+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
+    },
+    {
+      "title": "Durable Execution Is a Property, Not a Product",
+      "link": "https://foojay.io/today/durable-execution-is-a-property-not-a-product/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Durable execution is a property your existing database can provide, not a product you must buy. Measured, with receipts you can run yourself.",
+      "ts": 1790726400,
+      "published": "2026-09-30T00:00:00+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
+    },
     {
       "title": "Quoting Anthropic Frontier Red Team",
       "link": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
@@ -31,6 +121,16 @@
       "ts": 1790708400,
       "published": "2026-09-29T19:00:00+00:00",
       "collected_at": "2026-09-30T05:33:07+09:00"
+    },
+    {
+      "title": "GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price",
+      "link": "https://simonwillison.net/2026/Sep/29/hn-49898129/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My comment on GPT 6.1 Sol: Near-Astra intelligence for a fifth of the price — Hacker News. I'm a bit late with the pelicans because I was live-blogging the keynote: https://simonwillison.net/2026/Sep/29/openai-devday-20…",
+      "ts": 1790706468,
+      "published": "2026-09-29T18:27:48+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
     },
     {
       "title": "How to Turn Excel Data Into PowerPoint Presentations With AI",
@@ -421,6 +521,16 @@
       "ts": 1790640000,
       "published": "2026-09-29T00:00:00+00:00",
       "collected_at": "2026-09-30T05:33:07+09:00"
+    },
+    {
+      "title": "Ollama now supports Jev-style decision models",
+      "link": "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "Ollama now supports decision models, based on TypeSafe's Jev API for fast, typed decisions. Decision models can now be run at no cost with low latency. Based on text, decision models answer yes-or-no questions, choices…",
+      "ts": 1790640000,
+      "published": "2026-09-29T00:00:00+00:00",
+      "collected_at": "2026-09-30T15:26:01+09:00"
     },
     {
       "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
@@ -9701,46 +9811,6 @@
       "ts": 1788159600,
       "published": "2026-08-31T07:00:00+00:00",
       "collected_at": "2026-09-01T16:30:35+09:00"
-    },
-    {
-      "title": "Metadata requests no longer tracked in PyPI download counts",
-      "link": "https://blog.pypi.org/posts/2026-08-31-download-counts/",
-      "source": "PyPI Blog",
-      "category": "Python",
-      "summary": "On 2026-08-24 I shipped a change to the configuration that emits PyPI's download logs so that only requests for actual distribution artifacts are counted. A request has to end in .whl , .tar.gz , or .zip to produce a do…",
-      "ts": 1788156540,
-      "published": "2026-08-31T06:09:00+00:00",
-      "collected_at": "2026-09-01T09:17:37+09:00"
-    },
-    {
-      "title": "AI-assisted genealogy",
-      "link": "https://foojay.io/today/ai-assisted-genealogy/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "My son recently came to me to brag about using AI to find our ancestors. While the results were correct, I didn't learn anything new, as it stopped at my…",
-      "ts": 1788155508,
-      "published": "2026-08-31T05:51:48+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "A milestone in expanding access to AI",
-      "link": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "ts": 1788148800,
-      "published": "2026-08-31T04:00:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "FlexGanttFX is Open Source",
-      "link": "https://www.infoq.com/news/2026/08/flexgantfx/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Dirk Lemmerman has released FlexGanttFX as an open-source resource-scheduling framework under the AGPL license. This JavaFX library enables Gantt chart creation for various industries, optimizing performance with a Canv…",
-      "ts": 1788148080,
-      "published": "2026-08-31T03:48:00+00:00",
-      "collected_at": "2026-08-31T17:22:33+09:00"
     }
   ]
 }
