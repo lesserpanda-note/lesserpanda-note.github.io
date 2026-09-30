@@ -1,7 +1,257 @@
 {
-  "updated": "2026-09-30T15:26:06+09:00",
-  "count": 981,
+  "updated": "2026-09-30T22:27:20+09:00",
+  "count": 988,
   "items": [
+    {
+      "title": "v3.2.0.dev0",
+      "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.2.0.dev0",
+      "source": "pandas",
+      "category": "DataScience",
+      "summary": "DEV: Start 3.2.0 dev",
+      "ts": 1790774724,
+      "published": "2026-09-30T13:25:24+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "v3.1.0rc0",
+      "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.1.0rc0",
+      "source": "pandas",
+      "category": "DataScience",
+      "summary": "Version 3.1.0rc0",
+      "ts": 1790774567,
+      "published": "2026-09-30T13:22:47+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "How to Solve Issues When You Nest Measures While Overwriting the Same Filter",
+      "link": "https://towardsdatascience.com/how-to-solve-issues-when-you-nest-measures-while-overwriting-the-same-filter/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "In DAX, we reuse existing measures all the time when writing new measures. What happens when we write a measure based on another measure and try to change a filter already set in the nested measure? The post How to Solv…",
+      "ts": 1790771402,
+      "published": "2026-09-30T12:30:02+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Ollama for Managing Local Language Models: A KDnuggets Cheat Sheet",
+      "link": "https://www.kdnuggets.com/ollama-for-managing-local-language-models-a-kdnuggets-cheat-sheet",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Ollama pulls model weights, keeps an HTTP server on port 11434, and hands any client an OpenAI-shaped endpoint pointed at your own machine. Learn how to manage, configure, and optimize using Ollama right here.",
+      "ts": 1790769618,
+      "published": "2026-09-30T12:00:18+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Python Language Summit 2026",
+      "link": "https://blog.python.org/2026/09/language-summit-2026/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "The 2026 Python Language Summit was hosted in Kraków, Poland as part of EuroPython 2026. There were 15 talks covering free-threading, Rust, garbage collection, type annotations, and more.",
+      "ts": 1790769611,
+      "published": "2026-09-30T12:00:11+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Lightning Talks (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-lightning-talks/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Lightning talks on a one-time ABI break, safer interruptions, EktuPy (Scratch but Python), an AGENTS.md file for CPython, and a call to read PEP 836.",
+      "ts": 1790769610,
+      "published": "2026-09-30T12:00:10+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "PEP 827: Type Manipulation (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Michael J. Sullivan presents PEP 827 and discusses a key design decision: how to store type annotations?",
+      "ts": 1790769609,
+      "published": "2026-09-30T12:00:09+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Free-Threaded Python Post-Era (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Tobias Wrigstad, Fridtjof Stoldt, and Donghee Na propose a safe and performant, high-level concurrency model for free-threaded Python",
+      "ts": 1790769608,
+      "published": "2026-09-30T12:00:08+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Developer-in-Residence Update & Future (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Petr Viktorin gives an update on the Developer-in-Residence role and asks Python core developers for projects to prioritize",
+      "ts": 1790769607,
+      "published": "2026-09-30T12:00:07+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Spicycrab (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-spicycrab/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Kushal Das shows off Spicycrab, a Python-to-Rust transpiler for Python users who need performance without learning Rust or leaving Python",
+      "ts": 1790769606,
+      "published": "2026-09-30T12:00:06+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Rust for CPython (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "David Hewitt shares a status update, first module, and potential acceptance criteria for the Rust for CPython project",
+      "ts": 1790769605,
+      "published": "2026-09-30T12:00:05+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Memory Snapshots for CPython (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-memory-snapshots/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Hood Chatham proposes memory snapshots and an initialization phase for speedier Python startups",
+      "ts": 1790769604,
+      "published": "2026-09-30T12:00:04+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Memory Buffer Protocol (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-memory-buffer-protocol/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Nathan Goldbaum proposes safe concurrent access through buffer leases and custom data types for the Python Buffer Protocol.",
+      "ts": 1790769603,
+      "published": "2026-09-30T12:00:03+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Garbage Collection: Generational? Incremental? Both! (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-garbage-collection-generational-incremental-both/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Mark Shannon proposes a future garbage collection strategy for Python following the revert of the incremental garbage collector in Python 3.14",
+      "ts": 1790769602,
+      "published": "2026-09-30T12:00:02+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "macOS and Python (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-macos-python/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Ned Deily weighs whether Python should continue shipping macOS installers",
+      "ts": 1790769601,
+      "published": "2026-09-30T12:00:01+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Quiz: Python 3.15: Cool New Features for You to Try",
+      "link": "https://realpython.com/quizzes/python315-new-features/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your knowledge of Python 3.15's new features, from lazy imports, frozendict, and sentinels to TypeForm, Tachyon, and UTF-8 by default.",
+      "ts": 1790769600,
+      "published": "2026-09-30T12:00:00+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Quiz: Python Web Applications: Deploy Your Script as a Flask App",
+      "link": "https://realpython.com/quizzes/python-web-applications/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Flask web apps: routes, request data, escaping user input, and deploying a Python script to Google App Engine.",
+      "ts": 1790769600,
+      "published": "2026-09-30T12:00:00+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "One namespace to namespace them all (Python Language Summit 2026)",
+      "link": "https://blog.python.org/2026/09/language-summit-2026-namespaces/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Pablo Galindo Salgado proposes a top-level `std` namespace for the Python standard library to prevent module shadowing and free up module names.",
+      "ts": 1790769600,
+      "published": "2026-09-30T12:00:00+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "OpenAI Dot: How to Access & Automate Work with OpenAI’s Agent",
+      "link": "https://www.analyticsvidhya.com/blog/2026/09/chatgpt-dot-access-setup-hands-on/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "That is a slightly awkward introduction to OpenAI Dot, but a useful one. In this article I’ll be discussing what this autonomous 24/7 agent (which consumes no usage) can do, what it is, how you can access it (along with…",
+      "ts": 1790768422,
+      "published": "2026-09-30T11:40:22+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Towards Spec-Driven Test Automation: Part 2",
+      "link": "https://towardsdatascience.com/towards-spec-driven-test-automation-part-2/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "One run, and what it actually proves The post Towards Spec-Driven Test Automation: Part 2 appeared first on Towards Data Science .",
+      "ts": 1790766001,
+      "published": "2026-09-30T11:00:01+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Presentation: Context Is the New Code",
+      "link": "https://www.infoq.com/presentations/context-as-code-devops-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Patrick Debois discusses how to manage, evaluate, distribute, and observe context using proven software engineering practices. He shares how treating context like code - complete with testing, CI/CD, package managers, a…",
+      "ts": 1790766000,
+      "published": "2026-09-30T11:00:00+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Presentation: Context Is the New Code",
+      "link": "https://www.infoq.com/presentations/context-as-code-devops-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Patrick Debois discusses how to manage, evaluate, distribute, and observe context using proven software engineering practices. He shares how treating context like code - complete with testing, CI/CD, package managers, a…",
+      "ts": 1790766000,
+      "published": "2026-09-30T11:00:00+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures a…",
+      "ts": 1790764830,
+      "published": "2026-09-30T10:40:30+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "The Companions to Come",
+      "link": "https://blog.jetbrains.com/kotlin/2026/09/the-companions-to-come/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "We are working on extensions to our companions mechanism to unlock new code patterns and improve interoperability across different platforms. This post outlines these new features and provides preliminary guidance on mi…",
+      "ts": 1790764383,
+      "published": "2026-09-30T10:33:03+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
+    {
+      "title": "Pi.dev: You Said No MCP",
+      "link": "https://earendil.com/posts/you-said-no-mcp/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://earendil.com/posts/you-said-no-mcp/ Comments URL: https://news.ycombinator.com/item?id=49906637 Points: 236 # Comments: 105",
+      "ts": 1790762123,
+      "published": "2026-09-30T09:55:23+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
+    },
     {
       "title": "Agents Refactor 300K Lines in Three Weeks, and Practitioners Ask What It Proves",
       "link": "https://www.infoq.com/news/2026/09/agentic-refactoring-case-study/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -91,6 +341,16 @@
       "ts": 1790726400,
       "published": "2026-09-30T00:00:00+00:00",
       "collected_at": "2026-09-30T15:26:01+09:00"
+    },
+    {
+      "title": "Faster Post-Quantum Cryptography with JDK Intrinsics",
+      "link": "https://inside.java/2026/09/30/faster-post-quantum-cryptography-with-jdk-intrinsics/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Find out about the improved Curve25519 field performance in JDK 27 and JDK 28.",
+      "ts": 1790726400,
+      "published": "2026-09-30T00:00:00+00:00",
+      "collected_at": "2026-09-30T22:26:59+09:00"
     },
     {
       "title": "Quoting Anthropic Frontier Red Team",
@@ -9621,196 +9881,6 @@
       "ts": 1788184454,
       "published": "2026-08-31T13:54:14+00:00",
       "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "JavaFX Links of August 2026",
-      "link": "https://foojay.io/today/javafx-links-of-august-2026/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Here are the JavaFX LinksOfTheMonth of August 2026. We took a summer break, so there was only one \"Links Of The Week\" this month, and it covers all of August. We hope you had a great summer and are ready ... The post Ja…",
-      "ts": 1788181082,
-      "published": "2026-08-31T12:58:02+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Why RAG Complexity Should Be Earned",
-      "link": "https://towardsdatascience.com/why-rag-complexity-should-be-earned/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A framework for building RAG pipelines that introduces complexity in response to observed failure modes, from lexical and hybrid search to reranking and agentic information seeking The post Why RAG Complexity Should Be…",
-      "ts": 1788179401,
-      "published": "2026-08-31T12:30:01+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "7 Python Mistakes Beginners Make (And What to Do Instead)",
-      "link": "https://www.kdnuggets.com/7-python-mistakes-beginners-make-and-what-to-do-instead",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "It's about the mistakes that make a running program wrong. Below are seven of them. For each one you get the hidden cause, plus the first thing worth checking.",
-      "ts": 1788177634,
-      "published": "2026-08-31T12:00:34+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Combining LLM Embeddings with Tabular Features in a Unified Scikit-learn Pipeline",
-      "link": "https://machinelearningmastery.com/combining-llm-embeddings-with-tabular-features-in-a-unified-scikit-learn-pipeline/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how to build a unified scikit-learn pipeline that combines text embeddings generated by a lightweight open-source language model with...",
-      "ts": 1788177618,
-      "published": "2026-08-31T12:00:18+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Quiz: Async Programming in Python: From Generators to asyncio",
-      "link": "https://realpython.com/quizzes/python-async-features/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of async features in Python, including async and await, blocking versus non-blocking code, and the event loop.",
-      "ts": 1788177600,
-      "published": "2026-08-31T12:00:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere",
-      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug24-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for August 24th, 2026, features news highlighting: the GA release of Atmosphere 4.0; point releases of GraalVM, Azul Payara and Quarkus; a maintenance release of WildFly 41; milestone releases o…",
-      "ts": 1788175800,
-      "published": "2026-08-31T11:30:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Java News Roundup: GraalVM, Jakarta Data, JNoSQL, Azul Payara, WildFly, Quarkus, Atmosphere",
-      "link": "https://www.infoq.com/news/2026/08/java-news-roundup-aug24-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for August 24th, 2026, features news highlighting: the GA release of Atmosphere 4.0; point releases of GraalVM, Azul Payara and Quarkus; a maintenance release of WildFly 41; milestone releases o…",
-      "ts": 1788175800,
-      "published": "2026-08-31T11:30:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production",
-      "link": "https://towardsdatascience.com/agentops-is-not-mlops-what-breaks-in-your-monitoring-stack-when-agents-go-to-production/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "The five MLOps monitoring assumptions agents break, and which inherited signals now pass failed runs as healthy. The post AgentOps Is Not MLOps: What Breaks in Your Monitoring Stack When Agents Go to Production appeared…",
-      "ts": 1788174001,
-      "published": "2026-08-31T11:00:01+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Podcast: Scott Jenson on Evolving Desktop OS, Local-First, & Agentic UX",
-      "link": "https://www.infoq.com/podcasts/evolving-desktop-agentic-ux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "In this episode, Scott Jenson, a veteran UX designer known for his work on the Macintosh, Google Maps, and Chrome examines the long-term stagnation of desktop operating systems and the limitations of current mobile and…",
-      "ts": 1788174000,
-      "published": "2026-08-31T11:00:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser",
-      "link": "https://www.infoq.com/presentations/local-ai-browser-inference-privacy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "James Hall discusses the strategic and technical imperative of moving AI workloads from cloud providers to local edge devices. He shares practical approaches using WebGPU, Transformers.js, and DuckDB to achieve near-nat…",
-      "ts": 1788174000,
-      "published": "2026-08-31T11:00:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Article: Eliminating Long-Lived Credentials in GCP with Workload Identity Federation",
-      "link": "https://www.infoq.com/articles/gcp-wif-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Long-lived GCP service account keys are secrets that must be managed forever, are hard to rotate, and are easy to leak. Scaling Workload Identity Federation to 120+ production projects shows why it changes how machine i…",
-      "ts": 1788174000,
-      "published": "2026-08-31T11:00:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Podcast: Scott Jenson on Evolving Desktop OS, Local-First, & Agentic UX",
-      "link": "https://www.infoq.com/podcasts/evolving-desktop-agentic-ux/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "In this episode, Scott Jenson, a veteran UX designer known for his work on the Macintosh, Google Maps, and Chrome examines the long-term stagnation of desktop operating systems and the limitations of current mobile and…",
-      "ts": 1788174000,
-      "published": "2026-08-31T11:00:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Presentation: Running AI at the Edge: Running Real Workloads Directly in the Browser",
-      "link": "https://www.infoq.com/presentations/local-ai-browser-inference-privacy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "James Hall discusses the strategic and technical imperative of moving AI workloads from cloud providers to local edge devices. He shares practical approaches using WebGPU, Transformers.js, and DuckDB to achieve near-nat…",
-      "ts": 1788174000,
-      "published": "2026-08-31T11:00:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Foundry Model Router Expands from Two Regions to 28, Refreshing Its Model Pool",
-      "link": "https://www.infoq.com/news/2026/08/foundry-model-router-regions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Microsoft expanded Foundry's model router from two regions to 28 for global standard and 21 for data zone deployments, while adding Claude Opus 4.8 and GPT-5.6 and removing four deprecated models. Default deployments re…",
-      "ts": 1788171480,
-      "published": "2026-08-31T10:18:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Foundry Model Router Expands from Two Regions to 28, Refreshing Its Model Pool",
-      "link": "https://www.infoq.com/news/2026/08/foundry-model-router-regions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft expanded Foundry's model router from two regions to 28 for global standard and 21 for data zone deployments, while adding Claude Opus 4.8 and GPT-5.6 and removing four deprecated models. Default deployments re…",
-      "ts": 1788171480,
-      "published": "2026-08-31T10:18:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "link": "https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://embracethered.com/blog/posts/2026/breaking-claude-code-opus-5-and-automode/ Comments URL: https://news.ycombinator.com/item?id=49506819 Points: 284 # Comments: 91",
-      "ts": 1788162558,
-      "published": "2026-08-31T07:49:18+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Claude Code reduces it's weekly limit by 17% – compared to today",
-      "link": "https://twitter.com/ClaudeDevs/status/2093742322525810912",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://twitter.com/ClaudeDevs/status/2093742322525810912 Comments URL: https://news.ycombinator.com/item?id=49506519 Points: 61 # Comments: 38",
-      "ts": 1788159725,
-      "published": "2026-08-31T07:02:05+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "link": "https://openai.com/index/polimill",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "ts": 1788159600,
-      "published": "2026-08-31T07:00:00+00:00",
-      "collected_at": "2026-09-01T09:17:37+09:00"
-    },
-    {
-      "title": "OpenAI supports California’s bill to advance youth AI safety",
-      "link": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "ts": 1788159600,
-      "published": "2026-08-31T07:00:00+00:00",
-      "collected_at": "2026-09-01T16:30:35+09:00"
     }
   ]
 }
