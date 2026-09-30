@@ -1,7 +1,17 @@
 {
-  "updated": "2026-09-30T05:33:31+09:00",
-  "count": 977,
+  "updated": "2026-09-30T09:09:56+09:00",
+  "count": 974,
   "items": [
+    {
+      "title": "Quoting Anthropic Frontier Red Team",
+      "link": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so…",
+      "ts": 1790720428,
+      "published": "2026-09-29T22:20:28+00:00",
+      "collected_at": "2026-09-30T09:09:29+09:00"
+    },
     {
       "title": "Survey Statistics: ANOVA follow-up",
       "link": "https://statmodeling.stat.columbia.edu/2026/09/29/survey-statistics-anova-follow-up/",
@@ -9731,46 +9741,6 @@
       "ts": 1788148080,
       "published": "2026-08-31T03:48:00+00:00",
       "collected_at": "2026-08-31T17:22:33+09:00"
-    },
-    {
-      "title": "Ollama's transparent pricing",
-      "link": "https://ollama.com/blog/transparent-pricing",
-      "source": "Ollama",
-      "category": "AI",
-      "summary": "Ollama's Pro, Max, and Team plans now use industry-standard per-token pricing with usage included on every plan.",
-      "ts": 1788134400,
-      "published": "2026-08-31T00:00:00+00:00",
-      "collected_at": "2026-09-01T10:05:57+09:00"
-    },
-    {
-      "title": "Improving our alignment and security efforts",
-      "link": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Improving our alignment and security efforts",
-      "ts": 1788134400,
-      "published": "2026-08-31T00:00:00+00:00",
-      "collected_at": "2026-09-01T16:30:35+09:00"
-    },
-    {
-      "title": "Spring Office Hours Podcast: S5E21 - Pro Spring Boot 4 with Felipe Gutierrez",
-      "link": "https://spring.io/blog/2026/08/31/spring-office-hours-podcast-S5E21",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun are joined by returning guest Felipe Gutierrez, co-author with DaShaun of the new book \"Pro Spring Boot…",
-      "ts": 1788134400,
-      "published": "2026-08-31T00:00:00+00:00",
-      "collected_at": "2026-09-01T22:16:53+09:00"
-    },
-    {
-      "title": "Understanding ChatGPT Work",
-      "link": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is…",
-      "ts": 1788134387,
-      "published": "2026-08-30T23:59:47+00:00",
-      "collected_at": "2026-08-31T09:12:46+09:00"
     }
   ]
 }
