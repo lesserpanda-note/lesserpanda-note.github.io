@@ -1,7 +1,107 @@
 {
-  "updated": "2026-09-30T22:27:20+09:00",
-  "count": 988,
+  "updated": "2026-10-01T03:56:21+09:00",
+  "count": 992,
   "items": [
+    {
+      "title": "InfoQ Online Cohorts Address AI Security and Coding Agent Verification",
+      "link": "https://www.infoq.com/news/2026/09/onlinecohorts-ai-certifications/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "A look at two InfoQ online certification cohorts covering security and privacy decisions in production AI systems and the verification needed when coding agents work in existing codebases. By Artenisa Chatziou",
+      "ts": 1790787600,
+      "published": "2026-09-30T17:00:00+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Release 5.18.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.18.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "New Model additions Nemotron 3 Diarization Nemotron 3 Diarization is an open-weight streaming speaker diarization model designed to determine \"who spoke when\" in real-world audio. It supports both streaming and offline…",
+      "ts": 1790786787,
+      "published": "2026-09-30T16:46:27+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "How Many Stories Can Your Data Tell?",
+      "link": "https://towardsdatascience.com/how-many-stories-can-your-data-tell/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How the way we represent data can change what we think the data is saying The post How Many Stories Can Your Data Tell? appeared first on Towards Data Science .",
+      "ts": 1790782202,
+      "published": "2026-09-30T15:30:02+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Introducing SynthID Bio",
+      "link": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
+      "ts": 1790780587,
+      "published": "2026-09-30T15:03:07+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Principles for effective slides",
+      "link": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Not every presentation needs slides, but when they earn their place, they work as a visual channel that complements the speaker rather than replacing them. Sumeet Gayathri Moghe sets out the principles that follow from…",
+      "ts": 1790777640,
+      "published": "2026-09-30T14:14:00+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Did AI Just Solve One of Mathematics’ Biggest Problems?",
+      "link": "https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "OpenAI’s agents reached a proposed solution in 88 hours. But the human research that came before, and the controversy that followed, raise a harder question: what actually counts as an AI discovery?",
+      "ts": 1790776826,
+      "published": "2026-09-30T14:00:26+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Insight Is Still the Currency of Data Science",
+      "link": "https://towardsdatascience.com/insight-is-still-the-currency-of-data-science/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Coding agents give us more time for discovery and our review practices should follow the analysis The post Insight Is Still the Currency of Data Science appeared first on Towards Data Science .",
+      "ts": 1790776802,
+      "published": "2026-09-30T14:00:02+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Python 3.15: Cool New Features for You to Try",
+      "link": "https://realpython.com/python315-new-features/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn what's new in Python 3.15, from lazy imports, frozendict, and sentinels to a sampling profiler and friendlier error messages.",
+      "ts": 1790776800,
+      "published": "2026-09-30T14:00:00+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Cursor Uses S3 WAL to Scale Git Storage to More than 300 Pushes per Second",
+      "link": "https://www.infoq.com/news/2026/09/cursor-continuity-git-storage/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cursor has introduced Continuity, a Git storage architecture that uses an S3 backed write ahead log as the source of truth. The design turns local NVMe repositories into warm caches and separates replica coordination fr…",
+      "ts": 1790776020,
+      "published": "2026-09-30T13:47:00+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Prior distributions, partial pooling, and reference sets (Bayesians are frequentists)",
+      "link": "https://statmodeling.stat.columbia.edu/2026/09/30/prior-distributions-partial-pooling-and-reference-sets-bayesians-are-frequentists/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Sudip Paul writes: I’ve written a blog post arguing that the philosophical reference class problem — which comparison group is “right” for assigning a probability to an individual case — is, once the grouping structure…",
+      "ts": 1790775700,
+      "published": "2026-09-30T13:41:40+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
     {
       "title": "v3.2.0.dev0",
       "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.2.0.dev0",
@@ -243,6 +343,26 @@
       "collected_at": "2026-09-30T22:26:59+09:00"
     },
     {
+      "title": "Disrupting a coordinated model-distillation campaign",
+      "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
+      "ts": 1790764200,
+      "published": "2026-09-30T10:30:00+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Helping small businesses put AI to work",
+      "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
+      "ts": 1790762400,
+      "published": "2026-09-30T10:00:00+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
       "title": "Pi.dev: You Said No MCP",
       "link": "https://earendil.com/posts/you-said-no-mcp/",
       "source": "Hacker News",
@@ -353,6 +473,16 @@
       "collected_at": "2026-09-30T22:26:59+09:00"
     },
     {
+      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
+      "link": "https://huggingface.co/blog/open-tts-leaderboard",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790726400,
+      "published": "2026-09-30T00:00:00+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
       "title": "Quoting Anthropic Frontier Red Team",
       "link": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
       "source": "Simon Willison",
@@ -401,6 +531,16 @@
       "ts": 1790701240,
       "published": "2026-09-29T17:00:40+00:00",
       "collected_at": "2026-09-30T05:33:07+09:00"
+    },
+    {
+      "title": "Photo Scrubber — local face blur & metadata removal",
+      "link": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build thi…",
+      "ts": 1790700327,
+      "published": "2026-09-29T16:45:27+00:00",
+      "collected_at": "2026-10-01T03:56:15+09:00"
     },
     {
       "title": "OpenAI DevDay 2026 live blog",
@@ -9781,106 +9921,6 @@
       "ts": 1788203737,
       "published": "2026-08-31T19:15:37+00:00",
       "collected_at": "2026-09-01T06:48:40+09:00"
-    },
-    {
-      "title": "dotnet-1.20.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.20.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "What's Changed .NET: Bump AWSSDK.Extensions.Bedrock.MEAI from 4.0.6.10 to 4.0.101.8 by Dependabot (@dependabot) [bot] in #7829 .NET: Stabilize Foundry recovery tests by Roger Barreto (@rogerbarreto) in #7817 .NET: fix:…",
-      "ts": 1788202399,
-      "published": "2026-08-31T18:53:19+00:00",
-      "collected_at": "2026-09-01T06:48:40+09:00"
-    },
-    {
-      "title": "Hugging Face hack could indicate cultural issues at OpenAI",
-      "link": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. By now you’ve probably heard about last month’s major AI security incident, in wh…",
-      "ts": 1788199200,
-      "published": "2026-08-31T18:00:00+00:00",
-      "collected_at": "2026-09-01T06:48:40+09:00"
-    },
-    {
-      "title": "Your LLM Can Return Perfect JSON and Still Be Wrong",
-      "link": "https://towardsdatascience.com/your-llm-can-return-perfect-json-and-still-be-wrong/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "What I learned after thinking more carefully about Structured Outputs on messy, incomplete data The post Your LLM Can Return Perfect JSON and Still Be Wrong appeared first on Towards Data Science .",
-      "ts": 1788190201,
-      "published": "2026-08-31T15:30:01+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Aggregation Optimization in MongoDB: Data Duplication to Improve Read Performance (Part 4)",
-      "link": "https://foojay.io/today/aggregation-optimization-in-mongodb-data-duplication-to-improve-read-performance-part-4/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "And why MongoDB might be a better relational database than you ever realized. Design reviews are one-on-one meetings where MongoDB experts deliver advice on data modeling best practices and application design challenges…",
-      "ts": 1788187504,
-      "published": "2026-08-31T14:45:04+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "DoorDash’s Flux Runs 130,000 Engineering Tasks Through Cloud-Based Agents",
-      "link": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "DoorDash has moved engineering agent workloads from developer laptops to its Flux cloud platform. The platform automated 130,000 engineering tasks in one month and supports more than 25,000 automated code reviews weekly…",
-      "ts": 1788186480,
-      "published": "2026-08-31T14:28:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "DoorDash’s Flux Runs 130,000 Engineering Tasks Through Cloud-Based Agents",
-      "link": "https://www.infoq.com/news/2026/08/doordash-flux-cloud-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "DoorDash has moved engineering agent workloads from developer laptops to its Flux cloud platform. The platform automated 130,000 engineering tasks in one month and supports more than 25,000 automated code reviews weekly…",
-      "ts": 1788186480,
-      "published": "2026-08-31T14:28:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "FAQ as RAG: When You Get to Design the Corpus",
-      "link": "https://towardsdatascience.com/faq-as-rag-when-you-get-to-design-the-corpus/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #B2] - The FAQ inverts every brick of the standard RAG pipeline. Parsing is trivial, retrieval doubles as a cache, and few-shot prompting becomes a retrieval problem too The post…",
-      "ts": 1788184802,
-      "published": "2026-08-31T14:00:02+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Async Programming in Python: From Generators to asyncio",
-      "link": "https://realpython.com/python-async-features/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how Python async programming works. Write async functions with async and await, and run slow I/O operations concurrently with asyncio.",
-      "ts": 1788184800,
-      "published": "2026-08-31T14:00:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Speed Up LLM Inference with DSpark Speculative Decoding",
-      "link": "https://www.kdnuggets.com/speed-up-llm-inference-with-dspark-speculative-decoding",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Learn how DSpark speculative decoding can improve local LLM generation speed using the same GPU, with Qwen3-8B, llama.cpp, and CUDA.",
-      "ts": 1788184800,
-      "published": "2026-08-31T14:00:00+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
-    },
-    {
-      "title": "Do children grow continuously or do they grow in fits and starts?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/08/31/fits-and-starts/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "There’s some literature on saltatory growth in children. From 1992: Saltation and Stasis: A Model of Human Growth, by Lampl, Veldhuis, and Johnson: From 1993: A case study of daily growth during adolescence: a single sp…",
-      "ts": 1788184454,
-      "published": "2026-08-31T13:54:14+00:00",
-      "collected_at": "2026-09-01T01:52:56+09:00"
     }
   ]
 }
