@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-01T09:11:43+09:00",
-  "count": 986,
+  "updated": "2026-10-01T10:54:05+09:00",
+  "count": 987,
   "items": [
+    {
+      "title": "Lathe: A Java Language Server That Works Straight From Your Maven Build",
+      "link": "https://foojay.io/today/lathe-a-java-language-server-from-your-maven-build/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "No project import, no classpath setup — Lathe takes its whole model from your Maven build, so the editor never drifts from what actually compiles.",
+      "ts": 1790812800,
+      "published": "2026-10-01T00:00:00+00:00",
+      "collected_at": "2026-10-01T10:53:40+09:00"
+    },
+    {
+      "title": "Announcing 'Skinning JavaFX Applications'",
+      "link": "https://foojay.io/today/announcing-skinning-javafx-applications/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A practical, code-first book on building modern, visually distinctive JavaFX interfaces — from theming to custom dashboard controls built from scratch.",
+      "ts": 1790812800,
+      "published": "2026-10-01T00:00:00+00:00",
+      "collected_at": "2026-10-01T10:53:40+09:00"
+    },
     {
       "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
       "link": "https://www.latent.space/p/devday-2026",
@@ -21,6 +41,16 @@
       "ts": 1790805259,
       "published": "2026-09-30T21:54:19+00:00",
       "collected_at": "2026-10-01T07:53:54+09:00"
+    },
+    {
+      "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
+      "link": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus Comments URL: https://news.ycombinator.com/item?id=49914149 Points: 50 # Comments: 23",
+      "ts": 1790801059,
+      "published": "2026-09-30T20:44:19+00:00",
+      "collected_at": "2026-10-01T10:53:40+09:00"
     },
     {
       "title": "Gemini 4 Argon: our next era of frontier intelligence",
@@ -9841,26 +9871,6 @@
       "ts": 1788231375,
       "published": "2026-09-01T02:56:15+00:00",
       "collected_at": "2026-09-01T16:30:35+09:00"
-    },
-    {
-      "title": "v2.37.0 (2026-08-31)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.37.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add glm-5.3-flash and rework the Z.AI test suite onto cassettes by @dsfaccini in #7887 🐛 Bug Fixes fix: preserve all conditions in pruned span queries by @mikemikimike in #7499 Accept and map Z…",
-      "ts": 1788227308,
-      "published": "2026-09-01T01:48:28+00:00",
-      "collected_at": "2026-09-01T16:30:35+09:00"
-    },
-    {
-      "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "link": "https://openai.com/index/gilbert-tobin",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "ts": 1788224400,
-      "published": "2026-09-01T01:00:00+00:00",
-      "collected_at": "2026-09-02T12:42:59+09:00"
     }
   ]
 }
