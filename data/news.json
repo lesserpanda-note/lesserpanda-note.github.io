@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-01T10:54:05+09:00",
-  "count": 987,
+  "updated": "2026-10-01T17:34:33+09:00",
+  "count": 992,
   "items": [
+    {
+      "title": "TypeSafe AI Releases Jev: A Decision-Only Model That Returns Typed Probabilities Instead of Text",
+      "link": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, has introduced Jev, a decision-making model that generates typed outputs rather than text. It evaluates inputs in parallel, providing results with probabil…",
+      "ts": 1790837220,
+      "published": "2026-10-01T06:47:00+00:00",
+      "collected_at": "2026-10-01T17:34:27+09:00"
+    },
+    {
+      "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
+      "link": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
+      "ts": 1790837105,
+      "published": "2026-10-01T06:45:05+00:00",
+      "collected_at": "2026-10-01T17:34:27+09:00"
+    },
+    {
+      "title": "Container Apps Express Reaches GA on a Newly Generally Available Sandbox Layer",
+      "link": "https://www.infoq.com/news/2026/10/container-apps-express-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Microsoft has made Azure Container Apps Express generally available alongside Container Apps Sandboxes, the microVM compute layer it runs on. Express skips environment provisioning and scales to zero, with subsecond sta…",
+      "ts": 1790836260,
+      "published": "2026-10-01T06:31:00+00:00",
+      "collected_at": "2026-10-01T17:34:27+09:00"
+    },
+    {
+      "title": "Container Apps Express Reaches GA on a Newly Generally Available Sandbox Layer",
+      "link": "https://www.infoq.com/news/2026/10/container-apps-express-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Microsoft has made Azure Container Apps Express generally available alongside Container Apps Sandboxes, the microVM compute layer it runs on. Express skips environment provisioning and scales to zero, with subsecond sta…",
+      "ts": 1790836260,
+      "published": "2026-10-01T06:31:00+00:00",
+      "collected_at": "2026-10-01T17:34:27+09:00"
+    },
+    {
+      "title": "Quoting Matthew Green",
+      "link": "https://simonwillison.net/2026/Oct/1/matthew-green/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered tha…",
+      "ts": 1790836141,
+      "published": "2026-10-01T06:29:01+00:00",
+      "collected_at": "2026-10-01T17:34:27+09:00"
+    },
     {
       "title": "Lathe: A Java Language Server That Works Straight From Your Maven Build",
       "link": "https://foojay.io/today/lathe-a-java-language-server-from-your-maven-build/",
@@ -21,6 +71,26 @@
       "ts": 1790812800,
       "published": "2026-10-01T00:00:00+00:00",
       "collected_at": "2026-10-01T10:53:40+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: JReleaser creator and fellow Java Champion Andres Almiray",
+      "link": "https://spring.io/blog/2026/10/01/a-bootiful-podcast-andres-almiray",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! What if the JVM could feel as frictionless as the modern dev tools people rave about on other platforms? In this wide-ranging, high-energy conversation, you’ll hear two longtime friends (Andres Almiray…",
+      "ts": 1790812800,
+      "published": "2026-10-01T00:00:00+00:00",
+      "collected_at": "2026-10-01T17:34:27+09:00"
+    },
+    {
+      "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
+      "link": "https://blog.python.org/2026/10/python-31022-31117/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
+      "ts": 1790812800,
+      "published": "2026-10-01T00:00:00+00:00",
+      "collected_at": "2026-10-01T17:34:27+09:00"
     },
     {
       "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
@@ -9851,26 +9921,6 @@
       "ts": 1788255482,
       "published": "2026-09-01T09:38:02+00:00",
       "collected_at": "2026-09-01T22:16:53+09:00"
-    },
-    {
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "link": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
-      "ts": 1788237414,
-      "published": "2026-09-01T04:36:54+00:00",
-      "collected_at": "2026-09-01T16:30:35+09:00"
-    },
-    {
-      "title": "Is MCP Good Yet?",
-      "link": "https://ismcpgoodyet.com",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://ismcpgoodyet.com Comments URL: https://news.ycombinator.com/item?id=49517483 Points: 23 # Comments: 1",
-      "ts": 1788231375,
-      "published": "2026-09-01T02:56:15+00:00",
-      "collected_at": "2026-09-01T16:30:35+09:00"
     }
   ]
 }
