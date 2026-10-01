@@ -1,6 +1,89 @@
 {
   "digests": [
     {
+      "date": "2026-09-30",
+      "summary": "오늘은 Kotlin 15주년 현황 보고서와 Spring 생태계 M2 릴리스 소식이 Java 진영을 장식했으며, OpenAI DevDay 2026 라이브 블로그와 AI 에이전트 가드레일 설계 패턴이 에이전트 분야의 주목을 끌었습니다. AWS의 CloudWatch Omni가 에이전트 모니터링의 새 기준을 제시했고, Python 3.15 신기능 소개와 Apache Iceberg 파일 압축 벤치마킹도 인상적인 결과를 담고 있습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "The State of Kotlin in 2026 Report",
+          "link": "https://blog.jetbrains.com/kotlin/2026/09/state-of-kotlin-2026-report/",
+          "summary": "JetBrains가 Kotlin 15주년을 맞아 발표한 2026 현황 보고서로, 언어의 생태계 성숙도와 글로벌 개발자 커뮤니티 현황을 종합적으로 분석합니다.",
+          "detail": "2026년 Kotlin이 탄생 15년을 맞이했습니다. JetBrains가 발표한 이번 연례 보고서는 Kotlin이 그간 쌓아온 성과를 조망합니다. 15년에 걸쳐 Kotlin은 성숙한 생태계를 구축했으며, 전 세계 기업에서 채택되었고, 크고 활발한 개발자 커뮤니티를 형성했습니다. 보고서는 서버 사이드, Android, 멀티플랫폼 등 주요 사용 영역별 채택 현황과 언어 사용 트렌드, 도구 환경, 커뮤니티 규모에 대한 데이터를 담고 있습니다."
+        },
+        {
+          "category": "Java",
+          "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
+          "link": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+          "summary": "2026년 9월 21일 주간에 Spring Boot, Spring Framework, Spring Data, Spring Security, Spring Integration 등의 두 번째 마일스톤(M2) 릴리스가 동시에 공개되었습니다.",
+          "detail": "Spring 생태계에서 활발한 릴리스가 이어졌습니다. 해당 주간에 Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framework의 M2(두 번째 마일스톤) 버전이 일제히 공개되었습니다. 마일스톤 릴리스는 정식 출시 전 새로운 기능과 변경 사항을 검증하는 단계로, 개발팀이 피드백을 수집하고 안정성을 높이는 데 중요한 역할을 합니다. 이번 M2 릴리스는 Spring 생태계 전반에 걸쳐 다음 메이저 버전을 향한 준비가 본격화되고 있음을 보여줍니다."
+        },
+        {
+          "category": "AI",
+          "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
+          "link": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
+          "summary": "RNN, CNN, Transformer를 거쳐 최신 분류 모델까지, 텍스트 분류의 역사를 시각적으로 정리하고 정확도·효율성 실험 결과를 함께 제공하는 종합 가이드입니다.",
+          "detail": "Sebastian Raschka의 Ahead of AI 뉴스레터에 게재된 이 글은 텍스트 분류 모델의 역사를 Bag-of-Words부터 최신 아키텍처까지 체계적으로 살펴봅니다. RNN, CNN, Transformer 등 주요 모델 유형을 시각적 가이드 형태로 비교하며, 각 접근법의 정확도와 효율성에 대한 실제 실험 결과도 포함되어 있습니다. 캘리브레이션(Calibration) 개념을 다루어 모델 신뢰도 평가 방법도 안내합니다. 분류 문제에서 어떤 아키텍처를 선택할지 판단하는 데 실용적인 기준을 제공하는 참고 자료입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
+          "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "summary": "MCP 에이전트가 올바른 사실뿐 아니라 올바른 출처에서 정보를 가져오는지 검증하는 소스 인식 기반 검증 방법론을 소개합니다.",
+          "detail": "Hugging Face 블로그에 게재된 이 연구는 MCP(Model Context Protocol) 에이전트의 정보 검증에서 사실의 정확성만큼이나 출처의 신뢰성이 중요하다는 점을 강조합니다. 소스 인식 검증(Source-Aware Verification) 기법을 통해 에이전트가 권위 있고 적절한 출처에서 정보를 인용하고 있는지 확인하는 방법을 다룹니다. 이는 AI 에이전트의 신뢰성과 감사 가능성(auditability)을 높이는 데 기여합니다. 특히 사실 관계가 중요한 도메인에서 에이전트 출력물의 품질을 검증하는 실용적인 접근법을 제시합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "OpenAI DevDay 2026 live blog",
+          "link": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
+          "summary": "Simon Willison이 샌프란시스코 Fort Mason에서 열린 OpenAI DevDay 2026 현장을 실시간으로 기록한 라이브 블로그입니다.",
+          "detail": "Simon Willison이 직접 참석해 OpenAI DevDay 2026의 키노트와 주요 발표를 현장에서 실시간으로 정리했습니다. DevDay는 OpenAI의 연례 개발자 컨퍼런스로, 새로운 API 기능, 모델 업데이트, 에이전트 관련 발표가 이루어지는 행사입니다. Simon Willison은 AI 업계에서 신뢰받는 기술 해설자로, 그의 라이브 블로그는 DevDay의 핵심 발표 내용을 빠르게 파악하는 데 유용한 자료입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "How to Design Architectural Guardrails Around AI Agents",
+          "link": "https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/",
+          "summary": "AI 에이전트 주변에 아키텍처적 가드레일을 설계하는 방법을 안내하는 실용 가이드로, 데이터 엔지니어가 알아야 할 에이전트 설계 패턴을 다룹니다.",
+          "detail": "AI 에이전트가 점점 더 자율적으로 동작하면서 이를 안전하게 제어하기 위한 아키텍처적 장치가 중요해졌습니다. 이 글은 에이전트의 행동을 적절히 제한하고 감시하기 위한 가드레일 설계 원칙을 소개합니다. 도구 접근 제한, 실행 경계 설정, 인간 개입 지점 정의 등 에이전트 설계 패턴을 구체적으로 다루며, 데이터 엔지니어와 ML 엔지니어가 안전하고 신뢰할 수 있는 에이전트 시스템을 구축하는 데 필요한 실용적 기준을 제공합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Amazon CloudWatch Omni Extends CloudWatch into the Agent Era",
+          "link": "https://www.infoq.com/news/2026/09/aws-cloudwatchomni-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "AWS가 AI 에이전트 시대에 맞게 설계한 AI 퍼스트 관측 플랫폼 Amazon CloudWatch Omni를 출시했습니다. 앱과 자율 AI 에이전트를 통합 환경에서 모니터링합니다.",
+          "detail": "Amazon CloudWatch Omni는 AWS의 신규 AI 퍼스트 관측성(Observability) 플랫폼으로, 기존 CloudWatch를 AI 에이전트 시대에 맞게 확장한 서비스입니다. 일반 애플리케이션과 자율 AI 에이전트를 단일 통합 환경에서 모니터링, 평가, 문제 해결할 수 있도록 설계되었습니다. AI 에이전트의 행동과 성능을 실시간으로 추적하고, 이상 탐지, 로그 분석, 알림 등 기존 CloudWatch 기능을 AI 워크로드에 특화된 형태로 강화합니다. 에이전트 기반 시스템의 운영 복잡성이 증가하는 가운데 CloudWatch Omni는 관측 인프라의 현대화를 이끄는 서비스입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Bliki: Sensible Default",
+          "link": "https://martinfowler.com/bliki/SensibleDefault.html",
+          "summary": "Martin Fowler가 소프트웨어 개발에서 합리적 기본값(Sensible Default)의 개념을 정의하고 그 중요성과 적용 기준을 설명합니다.",
+          "detail": "Martin Fowler의 Bliki에 게재된 이 글은 합리적 기본값(Sensible Default)이라는 개념을 소개합니다. 합리적 기본값이란 특정 유형의 작업을 수행할 때 재정의할 만한 특별한 이유가 없는 한 따라야 할 관행을 의미합니다. 소프트웨어 개발에서 버전 관리 사용, 자동화된 테스트 작성 등이 그 예입니다. 이 개념은 팀이 매번 명시적으로 논의하지 않아도 일관된 품질의 실천을 유지하는 데 도움이 됩니다. 기본값을 언제, 왜 재정의해야 하는지 판단하는 기준도 함께 다룹니다."
+        },
+        {
+          "category": "Python",
+          "title": "What's New in Python 3.15",
+          "link": "https://realpython.com/courses/whats-new-in-python-315/",
+          "summary": "Python 3.15의 주요 신기능인 지연 임포트, frozendict, 센티넬 값, 샘플링 프로파일러, 더 빠른 JIT를 소개하는 Real Python 강의입니다.",
+          "detail": "Real Python이 제공하는 이 강의는 Python 3.15에서 도입된 주요 신기능들을 다룹니다. 지연 임포트(Lazy imports)는 모듈을 실제로 사용할 때까지 로드를 미루어 스타트업 시간을 단축시킵니다. frozendict는 불변 딕셔너리 타입으로 함수형 프로그래밍 패턴에 유용합니다. 센티넬(Sentinel) 값은 None과 구별되는 기본값 표현에 활용됩니다. 샘플링 프로파일러는 성능 분석을 더 쉽게 만들어주며, 개선된 JIT 컴파일러는 실행 속도를 높입니다. Python 3.15 업그레이드를 고려하는 개발자에게 유용한 학습 자료입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Survey Statistics: ANOVA follow-up",
+          "link": "https://statmodeling.stat.columbia.edu/2026/09/29/survey-statistics-anova-follow-up/",
+          "summary": "ANOVA와 다수준 모델의 실용성 비교에 관한 독자 댓글을 발판으로 Andrew Gelman 블로그에서 이어지는 통계 실무 논의입니다.",
+          "detail": "Statistical Modeling 블로그의 이 글은 이전 ANOVA 관련 포스트에 달린 Rodney Sparapani의 댓글을 발단으로 시작됩니다. Sparapani는 다수준 모델(multilevel models)의 어려움을 언급하며 ANOVA가 더 직관적이라고 주장했습니다. 이에 대해 블로그 저자는 다수준 모델이 어렵다는 데는 동의하지만 ANOVA가 반드시 더 쉽다고 느끼지는 않는다고 응답합니다. 이 포스트는 통계 실무에서 ANOVA와 혼합효과 모델의 상대적 장단점에 대한 전문가들의 실용적 관점을 보여주는 유익한 사례입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "I Compacted 1,000 Apache Iceberg Files Into 6. Here's What Happened to Query Performance.",
+          "link": "https://towardsdatascience.com/i-compacted-1000-apache-iceberg-files-into-6-heres-what-happened-to-query-performance/",
+          "summary": "Apache Iceberg 테이블의 파일 1,000개를 6개로 압축했을 때 세 가지 SQL 워크로드에서 쿼리 성능이 어떻게 변화하는지 벤치마킹한 결과를 공유합니다.",
+          "detail": "Apache Iceberg는 대규모 분석 데이터 레이크에서 널리 쓰이는 오픈 테이블 포맷입니다. 이 글은 1,000개의 작은 파일로 구성된 Iceberg 테이블을 6개의 대형 파일로 압축(compaction)하는 실험을 수행하고, 그 전후의 쿼리 성능을 세 가지 SQL 워크로드에 걸쳐 측정합니다. 파일 수가 줄어들면 파일 메타데이터 오버헤드가 감소하고 스캔 효율이 올라가는 것이 일반적인 이론입니다. 이 글은 실제 벤치마크 수치를 통해 워크로드 유형별 성능 개선 폭이 얼마나 다른지 분석하여, 데이터 엔지니어에게 파일 압축의 실질적 효과를 이해하는 데 도움을 줍니다."
+        }
+      ]
+    },
+    {
       "date": "2026-09-29",
       "summary": "오늘 다이제스트에서는 Kotlin Multiplatform의 컴파일 개선부터 AI 에이전트의 법적 책임 문제, Meta의 초대규모 데이터베이스 프록시 아키텍처까지 다양한 주제를 다룹니다. AI가 과학적 발견을 할 수 있는지에 대한 철학적 논쟁과 함께, 로컬 에이전트 구축 실습 가이드 및 Python 3.15 sentinel 값 기능 미리보기도 포함되어 있습니다. 데이터 과학 분야에서는 측정 오차와 비선형성의 통계적 함의, 그리고 데이터 드리프트 탐지 기법이 소개됩니다.",
       "highlights": [
