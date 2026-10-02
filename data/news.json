@@ -1,7 +1,247 @@
 {
-  "updated": "2026-10-02T17:10:10+09:00",
-  "count": 988,
+  "updated": "2026-10-03T00:34:23+09:00",
+  "count": 986,
   "items": [
+    {
+      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
+      "link": "https://huggingface.co/blog/allenai/astabrief",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790954390,
+      "published": "2026-10-02T15:19:50+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "v0.23.1",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.1",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "0.23.1 (2026-10-02) Bug Fixes restore release tests and refresh required readiness check ( #5278 ) ( 730deb4 )",
+      "ts": 1790954369,
+      "published": "2026-10-02T15:19:29+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "The latest AI news we announced in September 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "A video showing the September AI updates",
+      "ts": 1790953200,
+      "published": "2026-10-02T15:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "python-1.20.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.20.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.20.0] - 2026-10-02 Added agent-framework-foundry-hosting : Host native workflows over Foundry Responses and Foundry Invocations ( #8947 , #8966 ) agent-framework-duckdb , agent-framework-sql-server , agent-framework-…",
+      "ts": 1790952896,
+      "published": "2026-10-02T14:54:56+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Uber Eats Rebuilds Search Pipeline to Cut End-to-End Latency by 50%",
+      "link": "https://www.infoq.com/news/2026/10/uber-eats-search-latency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Uber has rebuilt major parts of the Uber Eats search pipeline, reporting a 50% reduction in end-to-end latency. Changes include Above-the-Fold measurement, reduced retrieval work, parallel hydration, advertising data re…",
+      "ts": 1790950920,
+      "published": "2026-10-02T14:22:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Uber Eats Rebuilds Search Pipeline to Cut End-to-End Latency by 50%",
+      "link": "https://www.infoq.com/news/2026/10/uber-eats-search-latency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Uber has rebuilt major parts of the Uber Eats search pipeline, reporting a 50% reduction in end-to-end latency. Changes include Above-the-Fold measurement, reduced retrieval work, parallel hydration, advertising data re…",
+      "ts": 1790950920,
+      "published": "2026-10-02T14:22:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
+      "link": "https://www.latent.space/p/airbnb",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
+      "ts": 1790949889,
+      "published": "2026-10-02T14:04:49+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Python Foundations for Engineering: A KDnuggets Cheat Sheet",
+      "link": "https://www.kdnuggets.com/python-foundations-for-engineering-a-cheat-sheet",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "This is the Python material that does not get left behind. Almost none of it is replaced by a framework later. Learn it, and keep this cheat sheet close by as a handy reference.",
+      "ts": 1790949617,
+      "published": "2026-10-02T14:00:17+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Forward Deployed Engineer: AI’s Hottest New Career, or Consulting With a Better Title?",
+      "link": "https://www.kdnuggets.com/forward-deployed-engineer-ais-hottest-new-career-or-consulting-with-a-better-title",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "The forward deployed engineer: is this the hot new AI career, or has the hype cycle rebranded?",
+      "ts": 1790949604,
+      "published": "2026-10-02T14:00:04+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Nicholas Goddamn Roerich",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/02/nicholas-goddamn-roerich/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "When Witold was in town the other day, he told me he wanted to see this museum in my neighborhood–the Nicholas Roerich Museum. Not only had I never heard of the museum, I’d never heard of the artist. Roerich had … Conti…",
+      "ts": 1790946866,
+      "published": "2026-10-02T13:14:26+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Where the Agent Development Lifecycle Fits",
+      "link": "https://towardsdatascience.com/where-the-agent-development-lifecycle-fits/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Coordinating agent capability development with the application it powers The post Where the Agent Development Lifecycle Fits appeared first on Towards Data Science .",
+      "ts": 1790946000,
+      "published": "2026-10-02T13:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #313: Python 3.15: Exploring the New Features",
+      "link": "https://realpython.com/podcasts/rpp/313/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Python 3.15 is (almost*) here! Christopher Trudeau and Bartosz Zaczyński return to discuss the new version. Bartosz coordinated the series of preview articles with members of the Real Python team and wrote the showcase…",
+      "ts": 1790942400,
+      "published": "2026-10-02T12:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Quiz: The Beginner's Guide to Python Turtle",
+      "link": "https://realpython.com/quizzes/beginners-guide-python-turtle/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice the Python turtle library: move the pen, draw and fill shapes, set colors, and repeat moves with loops. Check what you know in 10 questions.",
+      "ts": 1790942400,
+      "published": "2026-10-02T12:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "5 Proven Techniques for Token Compression and Prompt Optimization",
+      "link": "https://www.kdnuggets.com/5-proven-techniques-for-token-compression-and-prompt-optimization",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Reduce costs, improve response quality, and build leaner AI applications with these prompt engineering strategies.",
+      "ts": 1790942400,
+      "published": "2026-10-02T12:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Presentation: Managing Asynchronous APIs at Scale",
+      "link": "https://www.infoq.com/presentations/managing-async-apis/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Ian Cooper discusses managing asynchronous APIs in event-driven architectures at scale. He explains the \"ABCs\" of messaging (Address, Binding, Contract) and shares how to tackle discovery, governance, and provisioning u…",
+      "ts": 1790938800,
+      "published": "2026-10-02T11:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "How to Build a Control Plane for AI Agents",
+      "link": "https://towardsdatascience.com/how-to-build-a-control-plane-for-ai-agents/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Giving an LLM permission to act, in 9 steps The post How to Build a Control Plane for AI Agents appeared first on Towards Data Science .",
+      "ts": 1790938800,
+      "published": "2026-10-02T11:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "OpenAI DevDay 2026 Recap for Developers",
+      "link": "https://www.infoq.com/news/2026/10/openai-devday-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "OpenAI announced a series of product and developer updates at DevDay 2026, including GPT-6.1 Sol, computer use for the Agents API, cloud-based Codex environments, a Decisions API, and new plugin capabilities for ChatGPT…",
+      "ts": 1790937540,
+      "published": "2026-10-02T10:39:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Engineering Production Systems for an Agentic Era: QCon San Francisco 2026",
+      "link": "https://www.infoq.com/news/2026/10/qconsf-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "QCon San Francisco 2026 will bring together practitioners from Airbnb, OpenAI, Netflix, Honeycomb, and other engineering organizations to share how they are building, operating, and evolving production systems as AI age…",
+      "ts": 1790935200,
+      "published": "2026-10-02T10:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Engineering Production Systems for an Agentic Era: QCon San Francisco 2026",
+      "link": "https://www.infoq.com/news/2026/10/qconsf-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "QCon San Francisco 2026 will bring together practitioners from Airbnb, OpenAI, Netflix, Honeycomb, and other engineering organizations to share how they are building, operating, and evolving production systems as AI age…",
+      "ts": 1790935200,
+      "published": "2026-10-02T10:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Docker Sandbox Kit Spec: Packaging AI Agent Permissions as OCI Images",
+      "link": "https://www.infoq.com/news/2026/10/docker-sandbox-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Docker has announced that it is bringing the Sandbox Kit Specification to the CNCF, aiming to make what an AI agent may access as portable as the agent itself. By Claudio Masolo",
+      "ts": 1790931600,
+      "published": "2026-10-02T09:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "DigitalOcean Managed Agents Brings Managed Cloud Infrastructure to AI Agents",
+      "link": "https://www.infoq.com/news/2026/10/digitalocean-managed-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DigitalOcean recently launched DigitalOcean Managed Agents in public preview, offering a managed cloud infrastructure layer for AI agents with isolated microVM runtimes, governed tool access, and serverless AI inference…",
+      "ts": 1790931600,
+      "published": "2026-10-02T09:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Article: From Reusable to Regeneratable: Rethinking the Shared UI Component Library",
+      "link": "https://www.infoq.com/articles/regeneratable-ui-component-library/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Regeneration has changed reuse economics. A model pointed at a solid design system can produce most standard UI on demand, so paying to keep a canonical component package alive is much harder to justify than it used to…",
+      "ts": 1790931600,
+      "published": "2026-10-02T09:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "DigitalOcean Managed Agents Brings Managed Cloud Infrastructure to AI Agents",
+      "link": "https://www.infoq.com/news/2026/10/digitalocean-managed-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "DigitalOcean recently launched DigitalOcean Managed Agents in public preview, offering a managed cloud infrastructure layer for AI agents with isolated microVM runtimes, governed tool access, and serverless AI inference…",
+      "ts": 1790931600,
+      "published": "2026-10-02T09:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Don’t be fooled—LLMs don’t reason",
+      "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked…",
+      "ts": 1790928000,
+      "published": "2026-10-02T08:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
+    },
     {
       "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
       "link": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
@@ -71,6 +311,16 @@
       "ts": 1790899200,
       "published": "2026-10-02T00:00:00+00:00",
       "collected_at": "2026-10-02T17:09:55+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 540: Simple JSON API (Incubator)",
+      "link": "https://inside.java/2026/10/02/jep549-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 540: Simple JSON API (Incubator)",
+      "ts": 1790899200,
+      "published": "2026-10-02T00:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
     },
     {
       "title": "When are Causal Inference Methods Needed to Answer Causal Questions?",
@@ -541,6 +791,16 @@
       "ts": 1790776800,
       "published": "2026-09-30T14:00:00+00:00",
       "collected_at": "2026-10-01T03:56:15+09:00"
+    },
+    {
+      "title": "Community Videos",
+      "link": "https://realpython.com/courses/community-videos/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Watch Real Python's YouTube videos right here on the site, with the resources mentioned in each video and a full transcript.",
+      "ts": 1790776800,
+      "published": "2026-09-30T14:00:00+00:00",
+      "collected_at": "2026-10-03T00:34:17+09:00"
     },
     {
       "title": "Cursor Uses S3 WAL to Scale Git Storage to More than 300 Pushes per Second",
@@ -9601,286 +9861,6 @@
       "ts": 1788363600,
       "published": "2026-09-02T15:40:00+00:00",
       "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Avoiding Entity Key Drift in a Data Lake: Step 2, When Fuzzy Matching Stops Working",
-      "link": "https://towardsdatascience.com/avoiding-entity-key-drift-in-a-data-lake-step-2-when-fuzzy-matching-stops-working/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "I built a matcher meant to finish the cleanup that normalization left behind. Testing it against real data showed that no version of it could be made safe. What follows is the architecture that was left once the matcher…",
-      "ts": 1788363002,
-      "published": "2026-09-02T15:30:02+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "An Accidental Blackboard",
-      "link": "https://martinfowler.com/articles/exploring-gen-ai/an-accidental-blackboard.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Giles Edwards-Alexander reports that during an experiment to see how productive a team could be using fully agentic engineering practices, the team accidentally prompted the agents into creating a blackboard coordinatio…",
-      "ts": 1788360300,
-      "published": "2026-09-02T14:45:00+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
-      "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just th…",
-      "ts": 1788358602,
-      "published": "2026-09-02T14:16:42+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "This Python Library Can Run Pandas Workloads Up to 20x Faster",
-      "link": "https://www.kdnuggets.com/this-python-library-can-run-pandas-workloads-up-to-20x-faster",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Discover how FireDucks can speed up pandas workloads with lazy execution, compiler optimization, and multithreaded processing, delivering up to 20x faster DataFrame performance in our benchmark.",
-      "ts": 1788357611,
-      "published": "2026-09-02T14:00:11+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "A RAG That Says “Not in This Document” Has to Show Four Kinds of Evidence",
-      "link": "https://towardsdatascience.com/a-rag-that-says-not-in-this-document-has-to-show-four-kinds-of-evidence/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #B3] - A confident wrong answer is a bug. A bare “no answer” with no justification is almost as bad. Each of the four bricks has one piece of evidence to show The post A RAG That…",
-      "ts": 1788357602,
-      "published": "2026-09-02T14:00:02+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Facilitating AI integration with simplicity at scale",
-      "link": "https://www.technologyreview.com/2026/09/02/1142879/facilitating-ai-integration-with-simplicity-at-scale/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "As companies scale, the technology supporting operations can become a liability just as quickly as it becomes an asset. Disconnected systems, site-specific tools, spreadsheets, and manual workarounds can create data sil…",
-      "ts": 1788357600,
-      "published": "2026-09-02T14:00:00+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Python 3.15 Preview: UTF-8 by Default",
-      "link": "https://realpython.com/python315-utf8-default/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Preview the Python 3.15 UTF-8 default: see what changes, try it on a pre-release, and keep your file I/O portable across every platform.",
-      "ts": 1788357600,
-      "published": "2026-09-02T14:00:00+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Yale med school prof tells his postdocs: Work extra hours at my command or you’re no better than “the guy who charges me by the hour to cut my lawn.”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/02/yale-med-school-prof-tells-his-postdocs-work-extra-hours-at-my-command-or-youre-no-better-than-the-guy-who-charges-me-by-the-hour-to-cut-my-lawn/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I came across this opinion piece, “Postdocs Aren’t Burger Flippers: Why Unionization Is a Bad Idea,” by Yale medical school professor Evan Morris, who writes: Unfortunately, in 2026, postdoc unions are proliferating. An…",
-      "ts": 1788357507,
-      "published": "2026-09-02T13:58:27+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Swiggy Uses 350+ Features and Multi-Task MLP to Predict Customer Lifetime Value",
-      "link": "https://www.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Swiggy developed an in house predicted lifetime value model using more than 350 pre order features and a multi task MLP for Food and Instamart. Adding order count as an auxiliary task reduced model parameters by 63% whi…",
-      "ts": 1788357300,
-      "published": "2026-09-02T13:55:00+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Swiggy Uses 350+ Features and Multi-Task MLP to Predict Customer Lifetime Value",
-      "link": "https://www.infoq.com/news/2026/09/swiggy-pltv-multitask-mlp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Swiggy developed an in house predicted lifetime value model using more than 350 pre order features and a multi task MLP for Food and Instamart. Adding order count as an auxiliary task reduced model parameters by 63% whi…",
-      "ts": 1788357300,
-      "published": "2026-09-02T13:55:00+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Real-Time Intelligence with IBM Time Series Models on Confluent",
-      "link": "https://huggingface.co/blog/ibm-research/real-time-intelligence",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788356954,
-      "published": "2026-09-02T13:49:14+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Six curl CVEs after OpenAI and Anthropic came back with zero",
-      "link": "https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://aisle.com/blog/aisle-discovered-six-curl-cves-after-openai-and-anthropic-found-zero Comments URL: https://news.ycombinator.com/item?id=49536114 Points: 116 # Comments: 37",
-      "ts": 1788356594,
-      "published": "2026-09-02T13:43:14+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Maybe We Shouldn't Be Reviewing All This Code",
-      "link": "https://martinfowler.com/rachels-ramblings/code-review.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "TL;DR Or, perhaps the problem isn't that AI has broken code review, maybe it’s that we've been using code review to solve the wrong problems I was on a panel recently with Brian Houck from DX at Code Remix, hosted by Mo…",
-      "ts": 1788355920,
-      "published": "2026-09-02T13:32:00+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Graph Neural Networks: GCN, MPNN, and GAT, Explained Simply",
-      "link": "https://towardsdatascience.com/graph-neural-networks-gcn-mpnn-and-gat-explained-simply/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A visual guide to how graph neural networks work under the hood The post Graph Neural Networks: GCN, MPNN, and GAT, Explained Simply appeared first on Towards Data Science .",
-      "ts": 1788352202,
-      "published": "2026-09-02T12:30:02+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "OpenAI Details GPT-Live’s Architecture for Continuous Stateful Voice Interaction",
-      "link": "https://www.infoq.com/news/2026/09/openai-gpt-live/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "OpenAI recently published an engineering account of GPT-Live. It described how they designed the system to maintain continuous voice interaction while separating latency-sensitive media processing from broader applicati…",
-      "ts": 1788351600,
-      "published": "2026-09-02T12:20:00+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "5 Real-World Applications of Agentic AI in Enterprise Automation",
-      "link": "https://www.kdnuggets.com/5-real-world-applications-of-agentic-ai-in-enterprise-automation",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Deploy agentic AI across SRE, finance, legal, migration, and security with deterministic safety constraints.",
-      "ts": 1788350439,
-      "published": "2026-09-02T12:00:39+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "Quiz: Python Project Structure: How to Choose the Right Layout",
-      "link": "https://realpython.com/quizzes/python-application-layouts/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python project structure, from flat and src layouts to organizing packages for CLI, web, and GUI applications.",
-      "ts": 1788350400,
-      "published": "2026-09-02T12:00:00+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "Quiz: Python 3.15 Preview: UTF-8 by Default",
-      "link": "https://realpython.com/quizzes/python315-utf8-default/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python 3.15's UTF-8 default, from the origins of the old locale-based encoding to passing explicit encodings in your code.",
-      "ts": 1788350400,
-      "published": "2026-09-02T12:00:00+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
-      "link": "https://openai.com/index/atv-big-air-tour",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "ts": 1788350400,
-      "published": "2026-09-02T12:00:00+00:00",
-      "collected_at": "2026-09-03T09:16:20+09:00"
-    },
-    {
-      "title": "AI Agent Memory Design: What Works and What Doesn’t",
-      "link": "https://machinelearningmastery.com/ai-agent-memory-design-what-works-and-what-doesnt/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how to design reliable memory systems for AI agents, covering both the patterns that work and the common architectural...",
-      "ts": 1788349776,
-      "published": "2026-09-02T11:49:36+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "A Complete Guide to Decoding LLM Model Names",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/decoding-llm-model-names/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "If you have ever tried downloading a local LLM, you have probably seen model names that look like this: Qwen3.8-27B-A3B-It-2507-gguf-q2ks-mixed-AutoRound At first, it looks like meaningless technical shorthand. It isn’t…",
-      "ts": 1788349403,
-      "published": "2026-09-02T11:43:23+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "A Practical Introduction to PySpark Window Functions",
-      "link": "https://towardsdatascience.com/a-practical-introduction-to-pyspark-window-functions/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Why the standard groupBy function isn’t enough The post A Practical Introduction to PySpark Window Functions appeared first on Towards Data Science .",
-      "ts": 1788346802,
-      "published": "2026-09-02T11:00:02+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "Presentation: Beyond Prompting: Context Engineering for Production-Grade AI",
-      "link": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Ricardo Ferreira discusses moving beyond simple prompt engineering to build production-grade AI applications. He shares practical architectural strategies for integrating long-term and short-term memory using Redis, man…",
-      "ts": 1788346800,
-      "published": "2026-09-02T11:00:00+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "Presentation: Beyond Prompting: Context Engineering for Production-Grade AI",
-      "link": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Ricardo Ferreira discusses moving beyond simple prompt engineering to build production-grade AI applications. He shares practical architectural strategies for integrating long-term and short-term memory using Redis, man…",
-      "ts": 1788346800,
-      "published": "2026-09-02T11:00:00+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "Presentation: Beyond Prompting: Context Engineering for Production-Grade AI",
-      "link": "https://www.infoq.com/presentations/context-engineering-redis-llm-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Ricardo Ferreira discusses moving beyond simple prompt engineering to build production-grade AI applications. He shares practical architectural strategies for integrating long-term and short-term memory using Redis, man…",
-      "ts": 1788346800,
-      "published": "2026-09-02T11:00:00+00:00",
-      "collected_at": "2026-09-07T12:44:35+09:00"
-    },
-    {
-      "title": "MongoDB Search Server, improved!",
-      "link": "https://foojay.io/today/mongodb-search-server-improved/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "In this article, we’re going to revisit and improve the MongoDB Search Server originally described in the article How to Build a Search Service in Java with MongoDB. First, let’s remind ourselves why an intermediate sea…",
-      "ts": 1788343200,
-      "published": "2026-09-02T10:00:00+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline",
-      "link": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare has added optional OAuth scopes, letting client owners mark which permissions users may deselect at consent. The company names MCP servers as the motivating case, since agents request the union of everything…",
-      "ts": 1788340020,
-      "published": "2026-09-02T09:07:00+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "Cloudflare Adds Optional OAuth Scopes, Letting Developers Mark What Users May Decline",
-      "link": "https://www.infoq.com/news/2026/09/cloudflare-optional-oauth-scopes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has added optional OAuth scopes, letting client owners mark which permissions users may deselect at consent. The company names MCP servers as the motivating case, since agents request the union of everything…",
-      "ts": 1788340020,
-      "published": "2026-09-02T09:07:00+00:00",
-      "collected_at": "2026-09-02T22:25:13+09:00"
     }
   ]
 }
