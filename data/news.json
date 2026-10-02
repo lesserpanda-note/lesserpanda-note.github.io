@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-03T00:34:23+09:00",
-  "count": 986,
+  "updated": "2026-10-03T05:30:15+09:00",
+  "count": 978,
   "items": [
+    {
+      "title": "A model guide for the GPT-6 family",
+      "link": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
+      "ts": 1790957700,
+      "published": "2026-10-02T16:15:00+00:00",
+      "collected_at": "2026-10-03T05:30:08+09:00"
+    },
+    {
+      "title": "Redefining enterprise intelligence with autonomous AI",
+      "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI i…",
+      "ts": 1790956144,
+      "published": "2026-10-02T15:49:04+00:00",
+      "collected_at": "2026-10-03T05:30:08+09:00"
+    },
     {
       "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
       "link": "https://huggingface.co/blog/allenai/astabrief",
@@ -321,6 +341,16 @@
       "ts": 1790899200,
       "published": "2026-10-02T00:00:00+00:00",
       "collected_at": "2026-10-03T00:34:17+09:00"
+    },
+    {
+      "title": "Chatham scales its capital markets expertise with OpenAI",
+      "link": "https://openai.com/index/chatham-financial",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
+      "ts": 1790899200,
+      "published": "2026-10-02T00:00:00+00:00",
+      "collected_at": "2026-10-03T05:30:08+09:00"
     },
     {
       "title": "When are Causal Inference Methods Needed to Answer Causal Questions?",
@@ -9751,116 +9781,6 @@
       "ts": 1788386580,
       "published": "2026-09-02T22:03:00+00:00",
       "collected_at": "2026-09-03T08:08:07+09:00"
-    },
-    {
-      "title": "llm-openrouter 0.7.1",
-      "link": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter",
-      "ts": 1788380606,
-      "published": "2026-09-02T20:23:26+00:00",
-      "collected_at": "2026-09-08T09:17:31+09:00"
-    },
-    {
-      "title": "AI Agents and the Refactoring That Never Happens",
-      "link": "https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.rosenfeld.page/articles/programming/2026_09_02_ai_agents_and_the_refactoring_that_never_happens/ Comments URL: https://news.ycombinator.com/item?id=49541496 Points: 50 # Comments: 65",
-      "ts": 1788378699,
-      "published": "2026-09-02T19:51:39+00:00",
-      "collected_at": "2026-09-06T08:38:42+09:00"
-    },
-    {
-      "title": "llm 0.34",
-      "link": "https://simonwillison.net/2026/Sep/2/llm/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus seve…",
-      "ts": 1788377032,
-      "published": "2026-09-02T19:23:52+00:00",
-      "collected_at": "2026-09-08T09:17:31+09:00"
-    },
-    {
-      "title": "Confirmation bias in software testing, Walnutpie edition",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/02/confirmation-bias-in-software-testing-walnutpie-edition/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "So, those exciting results I presented at StanCon about Walnutpie? Let’s pull back the curtain. Confirmation bias in testing Those stellar results were the result of a bug in the way we calculated R-hat and effective sa…",
-      "ts": 1788375634,
-      "published": "2026-09-02T19:00:34+00:00",
-      "collected_at": "2026-09-03T05:47:03+09:00"
-    },
-    {
-      "title": "Metascience corner: What can we learn from 12 million empirical research results?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/02/metascience-corner-what-can-we-learn-from-12-million-empirical-research-results/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This is Witold and today we are building a bear. In our recent paper with Erik van Zwet and Andrew, A statistical case for qualified scientific optimism, we fit metascientific models that use hundreds of thousands of z-…",
-      "ts": 1788372261,
-      "published": "2026-09-02T18:04:21+00:00",
-      "collected_at": "2026-09-03T05:47:03+09:00"
-    },
-    {
-      "title": "llm-anthropic 0.28",
-      "link": "https://simonwillison.net/2026/Sep/2/llm-anthropic/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-anthropic 0.28 Claude Fable 5.1 , reasoning traces are now displayed by default for models that support them, plus a new llm_anthropic.ClaudeRefusal exception for when Claude throws a refusal. Tags: llm , a…",
-      "ts": 1788371972,
-      "published": "2026-09-02T17:59:32+00:00",
-      "collected_at": "2026-09-08T09:17:31+09:00"
-    },
-    {
-      "title": "llm-gemini 0.34",
-      "link": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan .…",
-      "ts": 1788367178,
-      "published": "2026-09-02T16:39:38+00:00",
-      "collected_at": "2026-09-03T05:47:03+09:00"
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "link": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788366264,
-      "published": "2026-09-02T16:24:24+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "link": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788365911,
-      "published": "2026-09-02T16:18:31+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Quantifying User Behavior Patterns to Build Better Predictive Features",
-      "link": "https://www.kdnuggets.com/quantifying-user-behavior-patterns-to-build-better-predictive-features",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Simply knowing that a 35-year-old male in Seattle clicked 12 times last month tells you almost nothing about his intent.",
-      "ts": 1788364827,
-      "published": "2026-09-02T16:00:27+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
-    },
-    {
-      "title": "Proactive cyber defense for governments and enterprises",
-      "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Introducing Fairwind Program",
-      "ts": 1788363600,
-      "published": "2026-09-02T15:40:00+00:00",
-      "collected_at": "2026-09-03T02:44:35+09:00"
     }
   ]
 }
