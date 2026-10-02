@@ -1,83 +1,62 @@
 {
-  "updated": "2026-09-30T00:20:19Z",
-  "summary": "오늘은 Kotlin 15주년 현황 보고서와 Spring 생태계 M2 릴리스 소식이 Java 진영을 장식했으며, OpenAI DevDay 2026 라이브 블로그와 AI 에이전트 가드레일 설계 패턴이 에이전트 분야의 주목을 끌었습니다. AWS의 CloudWatch Omni가 에이전트 모니터링의 새 기준을 제시했고, Python 3.15 신기능 소개와 Apache Iceberg 파일 압축 벤치마킹도 인상적인 결과를 담고 있습니다.",
+  "updated": "2026-10-02T00:09:30Z",
+  "summary": "FTC의 AI 기업 조사와 TypeSafe AI의 혁신적인 Jev 모델 출시가 오늘의 주요 AI 뉴스입니다. Google DeepMind의 Gemini 4 Argon 발표와 Figma의 MCP 접근 제한 조치는 에이전트 생태계의 빠른 변화를 보여줍니다. 아키텍처 측면에서는 고가용성과 진정한 복원력의 차이를 강조하는 심층 분석이 주목할 만하며, 데이터사이언스에서는 인과 추론 방법론의 적용 경계와 오토인코더 대비 PCA의 실용적 우위에 관한 연구가 흥미롭습니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "The State of Kotlin in 2026 Report",
-      "link": "https://blog.jetbrains.com/kotlin/2026/09/state-of-kotlin-2026-report/",
-      "summary": "JetBrains가 Kotlin 15주년을 맞아 발표한 2026 현황 보고서로, 언어의 생태계 성숙도와 글로벌 개발자 커뮤니티 현황을 종합적으로 분석합니다.",
-      "detail": "2026년 Kotlin이 탄생 15년을 맞이했습니다. JetBrains가 발표한 이번 연례 보고서는 Kotlin이 그간 쌓아온 성과를 조망합니다. 15년에 걸쳐 Kotlin은 성숙한 생태계를 구축했으며, 전 세계 기업에서 채택되었고, 크고 활발한 개발자 커뮤니티를 형성했습니다. 보고서는 서버 사이드, Android, 멀티플랫폼 등 주요 사용 영역별 채택 현황과 언어 사용 트렌드, 도구 환경, 커뮤니티 규모에 대한 데이터를 담고 있습니다."
-    },
-    {
-      "category": "Java",
-      "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
-      "link": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "2026년 9월 21일 주간에 Spring Boot, Spring Framework, Spring Data, Spring Security, Spring Integration 등의 두 번째 마일스톤(M2) 릴리스가 동시에 공개되었습니다.",
-      "detail": "Spring 생태계에서 활발한 릴리스가 이어졌습니다. 해당 주간에 Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framework의 M2(두 번째 마일스톤) 버전이 일제히 공개되었습니다. 마일스톤 릴리스는 정식 출시 전 새로운 기능과 변경 사항을 검증하는 단계로, 개발팀이 피드백을 수집하고 안정성을 높이는 데 중요한 역할을 합니다. 이번 M2 릴리스는 Spring 생태계 전반에 걸쳐 다음 메이저 버전을 향한 준비가 본격화되고 있음을 보여줍니다."
+      "category": "AI",
+      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+      "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "summary": "미국 연방거래위원회(FTC)가 OpenAI, Anthropic 등 주요 AI 기업들의 제품 위험성에 관한 조사를 개시했습니다. 이는 AI 산업에 대한 규제 당국의 감독이 본격화되는 신호로 해석됩니다.",
+      "detail": "미국 연방거래위원회(FTC)가 OpenAI, Anthropic을 비롯한 여러 AI 기업들에 대해 제품 위험성 관련 조사를 착수했다고 CNBC가 보도했습니다. 이번 조사는 AI 제품들이 소비자와 사회에 미칠 수 있는 잠재적 위험에 초점을 맞추고 있으며, 규제 당국이 AI 산업에 대한 실질적인 감독에 나서겠다는 의지를 보여줍니다. 하커뉴스에서 115개의 추천과 67개의 댓글로 활발한 논의가 이루어졌으며, AI 규제의 방향성과 기업들의 책임 문제에 관한 광범위한 관심을 반영합니다."
     },
     {
       "category": "AI",
-      "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
-      "link": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
-      "summary": "RNN, CNN, Transformer를 거쳐 최신 분류 모델까지, 텍스트 분류의 역사를 시각적으로 정리하고 정확도·효율성 실험 결과를 함께 제공하는 종합 가이드입니다.",
-      "detail": "Sebastian Raschka의 Ahead of AI 뉴스레터에 게재된 이 글은 텍스트 분류 모델의 역사를 Bag-of-Words부터 최신 아키텍처까지 체계적으로 살펴봅니다. RNN, CNN, Transformer 등 주요 모델 유형을 시각적 가이드 형태로 비교하며, 각 접근법의 정확도와 효율성에 대한 실제 실험 결과도 포함되어 있습니다. 캘리브레이션(Calibration) 개념을 다루어 모델 신뢰도 평가 방법도 안내합니다. 분류 문제에서 어떤 아키텍처를 선택할지 판단하는 데 실용적인 기준을 제공하는 참고 자료입니다."
-    },
-    {
-      "category": "AI",
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "summary": "MCP 에이전트가 올바른 사실뿐 아니라 올바른 출처에서 정보를 가져오는지 검증하는 소스 인식 기반 검증 방법론을 소개합니다.",
-      "detail": "Hugging Face 블로그에 게재된 이 연구는 MCP(Model Context Protocol) 에이전트의 정보 검증에서 사실의 정확성만큼이나 출처의 신뢰성이 중요하다는 점을 강조합니다. 소스 인식 검증(Source-Aware Verification) 기법을 통해 에이전트가 권위 있고 적절한 출처에서 정보를 인용하고 있는지 확인하는 방법을 다룹니다. 이는 AI 에이전트의 신뢰성과 감사 가능성(auditability)을 높이는 데 기여합니다. 특히 사실 관계가 중요한 도메인에서 에이전트 출력물의 품질을 검증하는 실용적인 접근법을 제시합니다."
+      "title": "TypeSafe AI Releases Jev: A Decision-Only Model That Returns Typed Probabilities Instead of Text",
+      "link": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "TypeSafe AI가 텍스트 생성 대신 타입이 지정된 확률값을 반환하는 의사결정 전용 모델 Jev를 발표했습니다. 전직 OpenAI 연구원이 설립한 회사의 혁신적인 접근법입니다.",
+      "detail": "전직 OpenAI 연구원 Diogo Almeida가 설립한 TypeSafe AI가 Jev를 발표했습니다. Jev는 기존 LLM과 달리 텍스트를 생성하지 않고, 의사결정에 특화된 타입 지정 확률 출력을 반환하는 모델입니다. 입력을 병렬로 평가하여 구조화된 결과를 제공하며, 분류·라우팅·위험 평가 등 결정이 필요한 태스크에 최적화되어 있습니다. 이 접근 방식은 AI 추론의 신뢰성과 감사 가능성을 높이고, 기존 텍스트 생성 모델 대비 더 예측 가능한 출력을 통해 프로덕션 환경에서의 안정성을 강화하는 데 기여할 것으로 기대됩니다."
     },
     {
       "category": "Agents",
-      "title": "OpenAI DevDay 2026 live blog",
-      "link": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "summary": "Simon Willison이 샌프란시스코 Fort Mason에서 열린 OpenAI DevDay 2026 현장을 실시간으로 기록한 라이브 블로그입니다.",
-      "detail": "Simon Willison이 직접 참석해 OpenAI DevDay 2026의 키노트와 주요 발표를 현장에서 실시간으로 정리했습니다. DevDay는 OpenAI의 연례 개발자 컨퍼런스로, 새로운 API 기능, 모델 업데이트, 에이전트 관련 발표가 이루어지는 행사입니다. Simon Willison은 AI 업계에서 신뢰받는 기술 해설자로, 그의 라이브 블로그는 DevDay의 핵심 발표 내용을 빠르게 파악하는 데 유용한 자료입니다."
+      "title": "[AINews] Gemini 4 Argon: GDM's answer to Astra/Fable, with 1M output",
+      "link": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+      "summary": "Google DeepMind가 100만 토큰 출력을 지원하는 Gemini 4 Argon을 공개했습니다. 현재는 Fairwind 프로그램 참여자에게만 제한적으로 제공됩니다.",
+      "detail": "Google DeepMind가 Gemini 4 Argon을 발표했습니다. 이 모델은 100만 토큰(1M output)의 대규모 출력을 지원하며 OpenAI의 Astra/Fable에 대한 GDM의 직접적인 대응으로 평가받고 있습니다. 현재 접근은 정부 사용자 및 Fairwind 프로그램에 참여하는 신뢰받는 사이버 방어자로 제한되어 있어 일반 공개는 아직 이루어지지 않았습니다. 대규모 컨텍스트 처리 능력과 에이전트 활용에 초점을 맞춘 설계가 특징이며, AI 에이전트의 장기 작업 수행 능력을 크게 확장하는 모델로 주목받고 있습니다."
     },
     {
       "category": "Agents",
-      "title": "How to Design Architectural Guardrails Around AI Agents",
-      "link": "https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/",
-      "summary": "AI 에이전트 주변에 아키텍처적 가드레일을 설계하는 방법을 안내하는 실용 가이드로, 데이터 엔지니어가 알아야 할 에이전트 설계 패턴을 다룹니다.",
-      "detail": "AI 에이전트가 점점 더 자율적으로 동작하면서 이를 안전하게 제어하기 위한 아키텍처적 장치가 중요해졌습니다. 이 글은 에이전트의 행동을 적절히 제한하고 감시하기 위한 가드레일 설계 원칙을 소개합니다. 도구 접근 제한, 실행 경계 설정, 인간 개입 지점 정의 등 에이전트 설계 패턴을 구체적으로 다루며, 데이터 엔지니어와 ML 엔지니어가 안전하고 신뢰할 수 있는 에이전트 시스템을 구축하는 데 필요한 실용적 기준을 제공합니다."
+      "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+      "link": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+      "summary": "Figma가 MCP(Model Context Protocol) 접근을 화이트리스트 클라이언트만 허용하도록 정책을 변경하여 Pi 등 일부 서드파티 클라이언트가 제외되었습니다.",
+      "detail": "Figma가 Model Context Protocol(MCP) 접근 정책을 변경하여 사전 승인된 클라이언트만 허용하는 화이트리스트 방식을 채택했습니다. 이 조치로 Pi를 비롯한 여러 서드파티 MCP 클라이언트가 Figma에 대한 접근 권한을 잃었습니다. MCP 생태계가 성장하면서 플랫폼들이 보안 및 서비스 품질 관리 목적으로 클라이언트 접근을 선별적으로 제한하는 추세를 보여주는 사례입니다. 하커뉴스에서 46개 추천과 22개 댓글로 MCP 생태계의 개방성 및 거버넌스에 대한 논의가 이루어졌습니다."
     },
     {
       "category": "Architecture",
-      "title": "Amazon CloudWatch Omni Extends CloudWatch into the Agent Era",
-      "link": "https://www.infoq.com/news/2026/09/aws-cloudwatchomni-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "AWS가 AI 에이전트 시대에 맞게 설계한 AI 퍼스트 관측 플랫폼 Amazon CloudWatch Omni를 출시했습니다. 앱과 자율 AI 에이전트를 통합 환경에서 모니터링합니다.",
-      "detail": "Amazon CloudWatch Omni는 AWS의 신규 AI 퍼스트 관측성(Observability) 플랫폼으로, 기존 CloudWatch를 AI 에이전트 시대에 맞게 확장한 서비스입니다. 일반 애플리케이션과 자율 AI 에이전트를 단일 통합 환경에서 모니터링, 평가, 문제 해결할 수 있도록 설계되었습니다. AI 에이전트의 행동과 성능을 실시간으로 추적하고, 이상 탐지, 로그 분석, 알림 등 기존 CloudWatch 기능을 AI 워크로드에 특화된 형태로 강화합니다. 에이전트 기반 시스템의 운영 복잡성이 증가하는 가운데 CloudWatch Omni는 관측 인프라의 현대화를 이끄는 서비스입니다."
+      "title": "Article: High Availability Is Not Resilience: Why Cloud Systems Fail When It Matters Most",
+      "link": "https://www.infoq.com/articles/high-availability-not-resilience-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "고가용성(HA)이 곧 복원력(Resilience)을 의미하지 않음을 실제 클라우드 장애 사례를 통해 분석합니다. SLA 지표와 실제 장애 대응 사이의 격차를 다룹니다.",
+      "detail": "일반적인 TLS 1.3 업그레이드가 Route 53 헬스 체크를 무음으로 중단시켜, 내부 대시보드는 정상으로 표시되는 동안 CDN이 정상 리전으로의 트래픽 라우팅을 멈춘 실제 사례를 소개합니다. 이 글은 고가용성(HA)이 왜 실제 장애 상황에서 충분하지 않은지를 설명하며, SLA 지표와 실제 복원력 사이의 격차를 분석합니다. 관측 가능성의 맹점, 고장 탐지 지연, 그리고 복잡한 의존성 체인이 어떻게 클라우드 시스템의 취약성을 만드는지 구체적인 예시를 통해 다루며, 진정한 복원력을 위해 필요한 아키텍처 원칙과 운영 방식을 제안합니다."
     },
     {
       "category": "Architecture",
-      "title": "Bliki: Sensible Default",
-      "link": "https://martinfowler.com/bliki/SensibleDefault.html",
-      "summary": "Martin Fowler가 소프트웨어 개발에서 합리적 기본값(Sensible Default)의 개념을 정의하고 그 중요성과 적용 기준을 설명합니다.",
-      "detail": "Martin Fowler의 Bliki에 게재된 이 글은 합리적 기본값(Sensible Default)이라는 개념을 소개합니다. 합리적 기본값이란 특정 유형의 작업을 수행할 때 재정의할 만한 특별한 이유가 없는 한 따라야 할 관행을 의미합니다. 소프트웨어 개발에서 버전 관리 사용, 자동화된 테스트 작성 등이 그 예입니다. 이 개념은 팀이 매번 명시적으로 논의하지 않아도 일관된 품질의 실천을 유지하는 데 도움이 됩니다. 기본값을 언제, 왜 재정의해야 하는지 판단하는 기준도 함께 다룹니다."
-    },
-    {
-      "category": "Python",
-      "title": "What's New in Python 3.15",
-      "link": "https://realpython.com/courses/whats-new-in-python-315/",
-      "summary": "Python 3.15의 주요 신기능인 지연 임포트, frozendict, 센티넬 값, 샘플링 프로파일러, 더 빠른 JIT를 소개하는 Real Python 강의입니다.",
-      "detail": "Real Python이 제공하는 이 강의는 Python 3.15에서 도입된 주요 신기능들을 다룹니다. 지연 임포트(Lazy imports)는 모듈을 실제로 사용할 때까지 로드를 미루어 스타트업 시간을 단축시킵니다. frozendict는 불변 딕셔너리 타입으로 함수형 프로그래밍 패턴에 유용합니다. 센티넬(Sentinel) 값은 None과 구별되는 기본값 표현에 활용됩니다. 샘플링 프로파일러는 성능 분석을 더 쉽게 만들어주며, 개선된 JIT 컴파일러는 실행 속도를 높입니다. Python 3.15 업그레이드를 고려하는 개발자에게 유용한 학습 자료입니다."
+      "title": "Presentation: Beyond Observability: Evolving Production Operations in the Age of AI",
+      "link": "https://www.infoq.com/presentations/ai-production-operations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "AI 시대에 프로덕션 운영이 단순 관찰 가능성을 넘어 어떻게 진화하고 있는지 다루는 패널 토론 발표입니다. 운영 데이터를 인시던트 대응의 실행 가능한 인사이트로 전환하는 방법을 논의합니다.",
+      "detail": "패널리스트들이 AI를 활용해 프로덕션 운영이 어떻게 진화하는지 논의하며, 운영 데이터를 인시던트 대응을 위한 실행 가능한 인사이트로 전환하는 방법을 설명합니다. 자동화와 새로운 아키텍처 관행이 전통적인 관찰 가능성의 한계를 극복하는 방식과 함께, AI 기반 이상 탐지, 자동 근본 원인 분석, 예측적 운영 인텔리전스 등의 주제를 다룹니다. 프로덕션 운영팀이 AI를 도구로 활용해 더 빠르고 정확한 의사결정을 내리는 방향으로 전환하는 실제 사례와 함께, 인간의 판단과 자동화의 적절한 균형을 모색하는 방향을 제시합니다."
     },
     {
       "category": "DataScience",
-      "title": "Survey Statistics: ANOVA follow-up",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/29/survey-statistics-anova-follow-up/",
-      "summary": "ANOVA와 다수준 모델의 실용성 비교에 관한 독자 댓글을 발판으로 Andrew Gelman 블로그에서 이어지는 통계 실무 논의입니다.",
-      "detail": "Statistical Modeling 블로그의 이 글은 이전 ANOVA 관련 포스트에 달린 Rodney Sparapani의 댓글을 발단으로 시작됩니다. Sparapani는 다수준 모델(multilevel models)의 어려움을 언급하며 ANOVA가 더 직관적이라고 주장했습니다. 이에 대해 블로그 저자는 다수준 모델이 어렵다는 데는 동의하지만 ANOVA가 반드시 더 쉽다고 느끼지는 않는다고 응답합니다. 이 포스트는 통계 실무에서 ANOVA와 혼합효과 모델의 상대적 장단점에 대한 전문가들의 실용적 관점을 보여주는 유익한 사례입니다."
+      "title": "When are Causal Inference Methods Needed to Answer Causal Questions?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/01/when-are-causal-inference-methods-needed-to-answer-causal-questions/",
+      "summary": "인과적 질문에 답하기 위해 공식적인 인과 추론 방법론이 언제 실제로 필요한지를 탐구합니다. Donna Spiegelman의 역학 연구 관점을 다룹니다.",
+      "detail": "컬럼비아대학교 통계 모델링 블로그에서 인과 추론 방법론(Causal Inference Methods)이 실제로 필요한 상황을 분석합니다. Donna Spiegelman의 SUTVA(Stable Unit Treatment Value Assumption) 재고찰 및 인과 식별에 관한 연구를 바탕으로, 역학자의 관점에서 어떤 경우에 정식 인과 추론 기법이 필요하고 어떤 경우에는 더 단순한 통계 접근으로 충분한지를 논의합니다. 인과 추론 방법론의 적용 경계와 그 한계에 대한 심도 있는 학문적 논의를 제공하며, 2026년 10월 12일 후속 온라인 강연이 예정되어 있어 관련 연구자들에게 유용한 자료입니다."
     },
     {
       "category": "DataScience",
-      "title": "I Compacted 1,000 Apache Iceberg Files Into 6. Here's What Happened to Query Performance.",
-      "link": "https://towardsdatascience.com/i-compacted-1000-apache-iceberg-files-into-6-heres-what-happened-to-query-performance/",
-      "summary": "Apache Iceberg 테이블의 파일 1,000개를 6개로 압축했을 때 세 가지 SQL 워크로드에서 쿼리 성능이 어떻게 변화하는지 벤치마킹한 결과를 공유합니다.",
-      "detail": "Apache Iceberg는 대규모 분석 데이터 레이크에서 널리 쓰이는 오픈 테이블 포맷입니다. 이 글은 1,000개의 작은 파일로 구성된 Iceberg 테이블을 6개의 대형 파일로 압축(compaction)하는 실험을 수행하고, 그 전후의 쿼리 성능을 세 가지 SQL 워크로드에 걸쳐 측정합니다. 파일 수가 줄어들면 파일 메타데이터 오버헤드가 감소하고 스캔 효율이 올라가는 것이 일반적인 이론입니다. 이 글은 실제 벤치마크 수치를 통해 워크로드 유형별 성능 개선 폭이 얼마나 다른지 분석하여, 데이터 엔지니어에게 파일 압축의 실질적 효과를 이해하는 데 도움을 줍니다."
+      "title": "Autoencoders vs. PCA: I Rigged the Test and PCA Still Won",
+      "link": "https://towardsdatascience.com/autoencoders-vs-pca-i-rigged-the-test-and-pca-still-won/",
+      "summary": "오토인코더에 유리하게 실험을 설계했음에도 실제 벤치마크에서 PCA가 더 우수한 결과를 보인 실험을 공유합니다. 이론적 우위가 실제 데이터에서 항상 재현되지 않음을 보여줍니다.",
+      "detail": "저자가 오토인코더에 유리하게 실험을 설계했음에도 불구하고, 실제 벤치마크에서는 PCA(주성분 분석)가 더 좋은 성능을 보인 결과를 공유합니다. 오토인코더는 비선형 차원 축소에서 이론적 우위를 가지지만, 실제 데이터셋에서는 PCA의 단순성과 효율성이 복잡한 신경망 기반 방법보다 더 실용적임을 실험으로 입증했습니다. 이 결과는 ML 실무에서 복잡한 딥러닝 방법이 항상 전통적인 통계 기법보다 우월하지 않음을 시사하며, 모델 선택 시 이론적 우위보다 실증적 검증의 중요성과 단순성의 가치를 강조합니다."
     }
   ]
 }
