@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-02T10:25:55+09:00",
-  "count": 986,
+  "updated": "2026-10-02T17:10:10+09:00",
+  "count": 988,
   "items": [
+    {
+      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
+      "link": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "the minimalist harness goes stable... and TypeScript!",
+      "ts": 1790923253,
+      "published": "2026-10-02T06:40:53+00:00",
+      "collected_at": "2026-10-02T17:09:55+09:00"
+    },
+    {
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
+      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1790913691,
+      "published": "2026-10-02T04:01:31+00:00",
+      "collected_at": "2026-10-02T17:09:55+09:00"
+    },
+    {
+      "title": "v2.53.0 (2026-10-01)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.53.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "🛡️ Security This release fixes one security issue in ConcurrencyLimitedModel . See the advisory for full details and affected versions. GHSA-6fqq-452j-qhrp (high): a streamed request through ConcurrencyLimitedModel or l…",
+      "ts": 1790909588,
+      "published": "2026-10-02T02:53:08+00:00",
+      "collected_at": "2026-10-02T17:09:55+09:00"
+    },
     {
       "title": "v0.23.0",
       "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.0",
@@ -31,6 +61,16 @@
       "ts": 1790899200,
       "published": "2026-10-02T00:00:00+00:00",
       "collected_at": "2026-10-02T10:25:33+09:00"
+    },
+    {
+      "title": "Spring AI Modular RAG and TypeSafe Jev: Retrieve More, Keep Only What Answers",
+      "link": "https://spring.io/blog/2026/10/02/spring-ai-modular-rag-typesafe-jev",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Spring AI: RAG Doc | Jev Doc | Demo In the previous article we introduced Spring AI TypeSafe and its Jev model: typed questions in, calibrated numbers out, in a few hundred milliseconds. One row in that article's SPI ta…",
+      "ts": 1790899200,
+      "published": "2026-10-02T00:00:00+00:00",
+      "collected_at": "2026-10-02T17:09:55+09:00"
     },
     {
       "title": "When are Causal Inference Methods Needed to Answer Causal Questions?",
@@ -9841,26 +9881,6 @@
       "ts": 1788340020,
       "published": "2026-09-02T09:07:00+00:00",
       "collected_at": "2026-09-02T22:25:13+09:00"
-    },
-    {
-      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
-      "link": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Queue the usual rush of model launches...",
-      "ts": 1788335168,
-      "published": "2026-09-02T07:46:08+00:00",
-      "collected_at": "2026-09-02T17:36:06+09:00"
-    },
-    {
-      "title": "Quoting Rick Brewster",
-      "link": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now ha…",
-      "ts": 1788328257,
-      "published": "2026-09-02T05:50:57+00:00",
-      "collected_at": "2026-09-02T17:36:06+09:00"
     }
   ]
 }
