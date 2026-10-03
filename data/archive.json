@@ -1,6 +1,68 @@
 {
   "digests": [
     {
+      "date": "2026-10-02",
+      "summary": "FTC의 AI 기업 조사와 TypeSafe AI의 혁신적인 Jev 모델 출시가 오늘의 주요 AI 뉴스입니다. Google DeepMind의 Gemini 4 Argon 발표와 Figma의 MCP 접근 제한 조치는 에이전트 생태계의 빠른 변화를 보여줍니다. 아키텍처 측면에서는 고가용성과 진정한 복원력의 차이를 강조하는 심층 분석이 주목할 만하며, 데이터사이언스에서는 인과 추론 방법론의 적용 경계와 오토인코더 대비 PCA의 실용적 우위에 관한 연구가 흥미롭습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
+          "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+          "summary": "미국 연방거래위원회(FTC)가 OpenAI, Anthropic 등 주요 AI 기업들의 제품 위험성에 관한 조사를 개시했습니다. 이는 AI 산업에 대한 규제 당국의 감독이 본격화되는 신호로 해석됩니다.",
+          "detail": "미국 연방거래위원회(FTC)가 OpenAI, Anthropic을 비롯한 여러 AI 기업들에 대해 제품 위험성 관련 조사를 착수했다고 CNBC가 보도했습니다. 이번 조사는 AI 제품들이 소비자와 사회에 미칠 수 있는 잠재적 위험에 초점을 맞추고 있으며, 규제 당국이 AI 산업에 대한 실질적인 감독에 나서겠다는 의지를 보여줍니다. 하커뉴스에서 115개의 추천과 67개의 댓글로 활발한 논의가 이루어졌으며, AI 규제의 방향성과 기업들의 책임 문제에 관한 광범위한 관심을 반영합니다."
+        },
+        {
+          "category": "AI",
+          "title": "TypeSafe AI Releases Jev: A Decision-Only Model That Returns Typed Probabilities Instead of Text",
+          "link": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "TypeSafe AI가 텍스트 생성 대신 타입이 지정된 확률값을 반환하는 의사결정 전용 모델 Jev를 발표했습니다. 전직 OpenAI 연구원이 설립한 회사의 혁신적인 접근법입니다.",
+          "detail": "전직 OpenAI 연구원 Diogo Almeida가 설립한 TypeSafe AI가 Jev를 발표했습니다. Jev는 기존 LLM과 달리 텍스트를 생성하지 않고, 의사결정에 특화된 타입 지정 확률 출력을 반환하는 모델입니다. 입력을 병렬로 평가하여 구조화된 결과를 제공하며, 분류·라우팅·위험 평가 등 결정이 필요한 태스크에 최적화되어 있습니다. 이 접근 방식은 AI 추론의 신뢰성과 감사 가능성을 높이고, 기존 텍스트 생성 모델 대비 더 예측 가능한 출력을 통해 프로덕션 환경에서의 안정성을 강화하는 데 기여할 것으로 기대됩니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] Gemini 4 Argon: GDM's answer to Astra/Fable, with 1M output",
+          "link": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
+          "summary": "Google DeepMind가 100만 토큰 출력을 지원하는 Gemini 4 Argon을 공개했습니다. 현재는 Fairwind 프로그램 참여자에게만 제한적으로 제공됩니다.",
+          "detail": "Google DeepMind가 Gemini 4 Argon을 발표했습니다. 이 모델은 100만 토큰(1M output)의 대규모 출력을 지원하며 OpenAI의 Astra/Fable에 대한 GDM의 직접적인 대응으로 평가받고 있습니다. 현재 접근은 정부 사용자 및 Fairwind 프로그램에 참여하는 신뢰받는 사이버 방어자로 제한되어 있어 일반 공개는 아직 이루어지지 않았습니다. 대규모 컨텍스트 처리 능력과 에이전트 활용에 초점을 맞춘 설계가 특징이며, AI 에이전트의 장기 작업 수행 능력을 크게 확장하는 모델로 주목받고 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Figma restricts MCP access to whitelisted clients, excluding Pi",
+          "link": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+          "summary": "Figma가 MCP(Model Context Protocol) 접근을 화이트리스트 클라이언트만 허용하도록 정책을 변경하여 Pi 등 일부 서드파티 클라이언트가 제외되었습니다.",
+          "detail": "Figma가 Model Context Protocol(MCP) 접근 정책을 변경하여 사전 승인된 클라이언트만 허용하는 화이트리스트 방식을 채택했습니다. 이 조치로 Pi를 비롯한 여러 서드파티 MCP 클라이언트가 Figma에 대한 접근 권한을 잃었습니다. MCP 생태계가 성장하면서 플랫폼들이 보안 및 서비스 품질 관리 목적으로 클라이언트 접근을 선별적으로 제한하는 추세를 보여주는 사례입니다. 하커뉴스에서 46개 추천과 22개 댓글로 MCP 생태계의 개방성 및 거버넌스에 대한 논의가 이루어졌습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Article: High Availability Is Not Resilience: Why Cloud Systems Fail When It Matters Most",
+          "link": "https://www.infoq.com/articles/high-availability-not-resilience-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "고가용성(HA)이 곧 복원력(Resilience)을 의미하지 않음을 실제 클라우드 장애 사례를 통해 분석합니다. SLA 지표와 실제 장애 대응 사이의 격차를 다룹니다.",
+          "detail": "일반적인 TLS 1.3 업그레이드가 Route 53 헬스 체크를 무음으로 중단시켜, 내부 대시보드는 정상으로 표시되는 동안 CDN이 정상 리전으로의 트래픽 라우팅을 멈춘 실제 사례를 소개합니다. 이 글은 고가용성(HA)이 왜 실제 장애 상황에서 충분하지 않은지를 설명하며, SLA 지표와 실제 복원력 사이의 격차를 분석합니다. 관측 가능성의 맹점, 고장 탐지 지연, 그리고 복잡한 의존성 체인이 어떻게 클라우드 시스템의 취약성을 만드는지 구체적인 예시를 통해 다루며, 진정한 복원력을 위해 필요한 아키텍처 원칙과 운영 방식을 제안합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Presentation: Beyond Observability: Evolving Production Operations in the Age of AI",
+          "link": "https://www.infoq.com/presentations/ai-production-operations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "AI 시대에 프로덕션 운영이 단순 관찰 가능성을 넘어 어떻게 진화하고 있는지 다루는 패널 토론 발표입니다. 운영 데이터를 인시던트 대응의 실행 가능한 인사이트로 전환하는 방법을 논의합니다.",
+          "detail": "패널리스트들이 AI를 활용해 프로덕션 운영이 어떻게 진화하는지 논의하며, 운영 데이터를 인시던트 대응을 위한 실행 가능한 인사이트로 전환하는 방법을 설명합니다. 자동화와 새로운 아키텍처 관행이 전통적인 관찰 가능성의 한계를 극복하는 방식과 함께, AI 기반 이상 탐지, 자동 근본 원인 분석, 예측적 운영 인텔리전스 등의 주제를 다룹니다. 프로덕션 운영팀이 AI를 도구로 활용해 더 빠르고 정확한 의사결정을 내리는 방향으로 전환하는 실제 사례와 함께, 인간의 판단과 자동화의 적절한 균형을 모색하는 방향을 제시합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "When are Causal Inference Methods Needed to Answer Causal Questions?",
+          "link": "https://statmodeling.stat.columbia.edu/2026/10/01/when-are-causal-inference-methods-needed-to-answer-causal-questions/",
+          "summary": "인과적 질문에 답하기 위해 공식적인 인과 추론 방법론이 언제 실제로 필요한지를 탐구합니다. Donna Spiegelman의 역학 연구 관점을 다룹니다.",
+          "detail": "컬럼비아대학교 통계 모델링 블로그에서 인과 추론 방법론(Causal Inference Methods)이 실제로 필요한 상황을 분석합니다. Donna Spiegelman의 SUTVA(Stable Unit Treatment Value Assumption) 재고찰 및 인과 식별에 관한 연구를 바탕으로, 역학자의 관점에서 어떤 경우에 정식 인과 추론 기법이 필요하고 어떤 경우에는 더 단순한 통계 접근으로 충분한지를 논의합니다. 인과 추론 방법론의 적용 경계와 그 한계에 대한 심도 있는 학문적 논의를 제공하며, 2026년 10월 12일 후속 온라인 강연이 예정되어 있어 관련 연구자들에게 유용한 자료입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Autoencoders vs. PCA: I Rigged the Test and PCA Still Won",
+          "link": "https://towardsdatascience.com/autoencoders-vs-pca-i-rigged-the-test-and-pca-still-won/",
+          "summary": "오토인코더에 유리하게 실험을 설계했음에도 실제 벤치마크에서 PCA가 더 우수한 결과를 보인 실험을 공유합니다. 이론적 우위가 실제 데이터에서 항상 재현되지 않음을 보여줍니다.",
+          "detail": "저자가 오토인코더에 유리하게 실험을 설계했음에도 불구하고, 실제 벤치마크에서는 PCA(주성분 분석)가 더 좋은 성능을 보인 결과를 공유합니다. 오토인코더는 비선형 차원 축소에서 이론적 우위를 가지지만, 실제 데이터셋에서는 PCA의 단순성과 효율성이 복잡한 신경망 기반 방법보다 더 실용적임을 실험으로 입증했습니다. 이 결과는 ML 실무에서 복잡한 딥러닝 방법이 항상 전통적인 통계 기법보다 우월하지 않음을 시사하며, 모델 선택 시 이론적 우위보다 실증적 검증의 중요성과 단순성의 가치를 강조합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-10-01",
       "summary": "오늘은 Google DeepMind의 Gemini 4 Argon 프론티어 모델 출시와 OpenAI DevDay 2026의 다양한 발표가 AI/에이전트 분야를 주도했습니다. Python 진영에서는 언어 서밋과 Python 3.15 신기능 소개가 눈에 띄었으며, 아키텍처 분야에서는 Cursor의 S3 WAL 기반 Git 저장소 확장 사례와 에이전트 기반 대규모 코드 리팩토링 사례 연구가 실무자들의 관심을 끌었습니다. 통계 모델링과 데이터 해석에 관한 깊이 있는 글들도 눈에 띕니다.",
       "highlights": [
