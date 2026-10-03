@@ -1,7 +1,77 @@
 {
-  "updated": "2026-10-03T15:13:08+09:00",
-  "count": 972,
+  "updated": "2026-10-03T21:20:55+09:00",
+  "count": 967,
   "items": [
+    {
+      "title": "Quiz: Operator and Function Overloading in Custom Python Classes",
+      "link": "https://realpython.com/quizzes/operator-function-overloading/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of operator and function overloading in Python. Practice the dunder methods that make your classes work with built-ins.",
+      "ts": 1791028800,
+      "published": "2026-10-03T12:00:00+00:00",
+      "collected_at": "2026-10-03T21:20:31+09:00"
+    },
+    {
+      "title": "How to Use a PINN for a Navier-Stokes Inverse Problem",
+      "link": "https://towardsdatascience.com/how-to-use-a-pinn-for-a-navier-stokes-inverse-problem/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A from-scratch PyTorch build that recovers blood flow, viscosity, and wall shear stress in a narrowed artery from 40 noisy velocity readings The post How to Use a PINN for a Navier-Stokes Inverse Problem appeared first…",
+      "ts": 1791028800,
+      "published": "2026-10-03T12:00:00+00:00",
+      "collected_at": "2026-10-03T21:20:31+09:00"
+    },
+    {
+      "title": "Presentation: Building GenAI Platform at DoorDash",
+      "link": "https://www.infoq.com/presentations/doordash-genai-platform-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Swaroop Chitlur and Sidd Kodwani share DoorDash’s journey building an internal GenAI platform. They discuss core architectural bets, transitioning from vendor-first setups to open-weights models, navigating LLM and agen…",
+      "ts": 1791025200,
+      "published": "2026-10-03T11:00:00+00:00",
+      "collected_at": "2026-10-03T21:20:31+09:00"
+    },
+    {
+      "title": "Presentation: Building GenAI Platform at DoorDash",
+      "link": "https://www.infoq.com/presentations/doordash-genai-platform-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Swaroop Chitlur and Sidd Kodwani share DoorDash’s journey building an internal GenAI platform. They discuss core architectural bets, transitioning from vendor-first setups to open-weights models, navigating LLM and agen…",
+      "ts": 1791025200,
+      "published": "2026-10-03T11:00:00+00:00",
+      "collected_at": "2026-10-03T21:20:31+09:00"
+    },
+    {
+      "title": "[AINews] not much happened today",
+      "link": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day.",
+      "ts": 1791017115,
+      "published": "2026-10-03T08:45:15+00:00",
+      "collected_at": "2026-10-03T21:20:31+09:00"
+    },
+    {
+      "title": "Istio 1.31 Adds Agentgateway Waypoints and Moves Release Artifacts off Google Cloud",
+      "link": "https://www.infoq.com/news/2026/10/istio-1-31-agentgateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Istio 1.31 adds agentgateway waypoints in ambient mode, with a canary configuration fix included in 1.31.1. It also ends the publication of images and Helm charts to Google Cloud, requiring repository migration ahead of…",
+      "ts": 1791016200,
+      "published": "2026-10-03T08:30:00+00:00",
+      "collected_at": "2026-10-03T21:20:31+09:00"
+    },
+    {
+      "title": "AI Agents Are Disrupting Open Source Security Disclosure",
+      "link": "https://www.infoq.com/news/2026/10/open-source-ai-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "A recent article by Anil Madhavapeddy argues that AI agents can turn publicly available clues about software vulnerabilities into working exploits, reducing the effectiveness of traditional disclosure embargoes in open…",
+      "ts": 1791009960,
+      "published": "2026-10-03T06:46:00+00:00",
+      "collected_at": "2026-10-03T21:20:31+09:00"
+    },
     {
       "title": "v2.54.0 (2026-10-02)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.54.0",
@@ -9601,126 +9671,6 @@
       "ts": 1788438601,
       "published": "2026-09-03T12:30:01+00:00",
       "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "Single-Agent vs. Multi-Agent Systems: When the Complexity Is Worth It",
-      "link": "https://machinelearningmastery.com/single-agent-vs-multi-agent-systems-when-the-complexity-is-worth-it/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn the key differences between single-agent and multi-agent AI systems, and how to decide which architecture fits your problem. Topics...",
-      "ts": 1788436846,
-      "published": "2026-09-03T12:00:46+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "5 Free Courses to Go From LLM Beginner to Practitioner",
-      "link": "https://www.kdnuggets.com/5-free-courses-to-go-from-llm-beginner-to-practitioner",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "A curated, linear pipeline of high-signal free resources that takes you from backpropagation basics to deploying production-grade LLM applications.",
-      "ts": 1788436827,
-      "published": "2026-09-03T12:00:27+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "Quiz: Python AI: How to Build a Neural Network & Make Predictions",
-      "link": "https://realpython.com/quizzes/python-ai-neural-network/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your grasp of how neural networks make predictions in Python, from dot products and activation functions to gradient descent and backpropagation.",
-      "ts": 1788436800,
-      "published": "2026-09-03T12:00:00+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
-      "link": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "ts": 1788436800,
-      "published": "2026-09-03T12:00:00+00:00",
-      "collected_at": "2026-09-04T08:05:25+09:00"
-    },
-    {
-      "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
-      "link": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "ts": 1788436800,
-      "published": "2026-09-03T12:00:00+00:00",
-      "collected_at": "2026-09-04T08:05:25+09:00"
-    },
-    {
-      "title": "OpenCode Explained: The Open-Source AI Coding Agent",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/opencode-ai-explained/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "OpenCode is open source and works with any model, but those are no longer its most interesting features. Model choice is table stakes. What sets OpenCode apart is its architecture, and the trade-offs that come with it,…",
-      "ts": 1788436162,
-      "published": "2026-09-03T11:49:22+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "Ask HN: Who is using MCP in production?",
-      "link": "https://news.ycombinator.com/item?id=49548600",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "I’ve been following MCP since it first came out. It got a lot of attention early on, but I haven’t come across many people using it in production. I may simply have missed them. If you’re using MCP in production, what a…",
-      "ts": 1788434478,
-      "published": "2026-09-03T11:21:18+00:00",
-      "collected_at": "2026-09-04T12:43:05+09:00"
-    },
-    {
-      "title": "How to Solve the Right Problem in the Age of Agentic AI",
-      "link": "https://towardsdatascience.com/how-to-solve-the-right-problem-in-the-age-of-agentic-ai/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A practical framework for reducing uncertainty before agents accelerate implementation The post How to Solve the Right Problem in the Age of Agentic AI appeared first on Towards Data Science .",
-      "ts": 1788433201,
-      "published": "2026-09-03T11:00:01+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "link": "https://openai.com/index/gpt-6-astra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
-      "ts": 1788433200,
-      "published": "2026-09-03T11:00:00+00:00",
-      "collected_at": "2026-09-05T14:24:30+09:00"
-    },
-    {
-      "title": "Kotlin Toolchain 0.12: Multiplatform Library Publishing, Wasm Apps, and More",
-      "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-toolchain-0-12-multiplatform-library-publishing-wasm-apps-and-more/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "Kotlin Toolchain 0.12.0 is out. This release brings some long-awaited features: multiplatform libraries publication, a preview of Wasm application support, Compose Hot Reload from the command line, and more. Read on for…",
-      "ts": 1788432005,
-      "published": "2026-09-03T10:40:05+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "python-1.17.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.17.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.17.0] - 2026-09-03 Added samples : Add an end-to-end Foundry-hosted Telegram agent sample ( #7883 ) agent-framework-foundry-hosting : Add explicit Agent Server or agent-owned model history selection while preventing…",
-      "ts": 1788429021,
-      "published": "2026-09-03T09:50:21+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "No Database Operations Found: What Writing a Spring Boot Analyzer Taught Me About Spring",
-      "link": "https://foojay.io/today/no-database-operations-found-what-writing-a-spring-boot-analyzer-taught-me-about-spring/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "I spent months building a static analyzer that answers one question about a Spring Boot codebase: if I change this endpoint, what does the change reach? Every serious bug I found in it had the same shape. Not a wrong ..…",
-      "ts": 1788416760,
-      "published": "2026-09-03T06:26:00+00:00",
-      "collected_at": "2026-09-03T17:44:20+09:00"
     }
   ]
 }
