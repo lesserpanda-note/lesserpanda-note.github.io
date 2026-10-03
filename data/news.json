@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-03T09:10:38+09:00",
-  "count": 974,
+  "updated": "2026-10-03T15:13:08+09:00",
+  "count": 972,
   "items": [
+    {
+      "title": "v2.54.0 (2026-10-02)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.54.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Handle draft-7 list-form items in JsonSchemaTransformer , TestModel and Mistral streamed output, and make TestModel accept boolean subschemas and cap prefixItems at maxItems by @dsf…",
+      "ts": 1790997688,
+      "published": "2026-10-03T03:21:28+00:00",
+      "collected_at": "2026-10-03T15:12:45+09:00"
+    },
     {
       "title": "If you were planning to send me a chatbot-written email or post a chatbot-written comment, just send or post your prompt. That’s enough. You can keep the slop to yourself.",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/02/if-you-were-planning-to-send-me-a-chatbot-written-email-or-post-a-chatbot-written-comment-just-send-or-post-your-prompt/",
@@ -9711,36 +9721,6 @@
       "ts": 1788416760,
       "published": "2026-09-03T06:26:00+00:00",
       "collected_at": "2026-09-03T17:44:20+09:00"
-    },
-    {
-      "title": "Cohere’s Parse 5 Promises Efficient Multi-Modal Information Extraction From Complex Documents",
-      "link": "https://www.infoq.com/news/2026/09/cohere-multimodal-parse/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cohere has launched Parse 5, a multimodal foundation model designed to extract structured data from complex enterprise documents. The 2.3-billion-parameter system converts visually rich PDFs into Markdown while providin…",
-      "ts": 1788415560,
-      "published": "2026-09-03T06:06:00+00:00",
-      "collected_at": "2026-09-03T17:44:20+09:00"
-    },
-    {
-      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
-      "link": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "an epic comeback story for Meta",
-      "ts": 1788410313,
-      "published": "2026-09-03T04:38:33+00:00",
-      "collected_at": "2026-09-03T17:44:20+09:00"
-    },
-    {
-      "title": "v2.38.0 (2026-09-02)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.38.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add context_window to ModelProfile and context_window_used to RunContext by @adtyavrdhn in #4611 Add profile flag to reject streams without finish_reason by @jonashaag in #7096 Add gemini-3.8-f…",
-      "ts": 1788406178,
-      "published": "2026-09-03T03:29:38+00:00",
-      "collected_at": "2026-09-03T12:41:43+09:00"
     }
   ]
 }
