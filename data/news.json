@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-03T05:30:15+09:00",
-  "count": 978,
+  "updated": "2026-10-03T09:10:38+09:00",
+  "count": 974,
   "items": [
+    {
+      "title": "If you were planning to send me a chatbot-written email or post a chatbot-written comment, just send or post your prompt. That’s enough. You can keep the slop to yourself.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/02/if-you-were-planning-to-send-me-a-chatbot-written-email-or-post-a-chatbot-written-comment-just-send-or-post-your-prompt/",
+      "source": "Statistical Modeling",
+      "category": "AI",
+      "summary": "Just a reminder. Again. I’m not anti-chatbot—I have many colleagues who use chatbots to clean their code. Aki used a chatbot to find 100 typos in Bayesian Workflow (which we’ve since fixed). And, hey, maybe your grandpa…",
+      "ts": 1790981012,
+      "published": "2026-10-02T22:43:32+00:00",
+      "collected_at": "2026-10-03T09:10:33+09:00"
+    },
     {
       "title": "A model guide for the GPT-6 family",
       "link": "https://openai.com/index/practical-guide-building-gpt-6",
@@ -351,6 +361,26 @@
       "ts": 1790899200,
       "published": "2026-10-02T00:00:00+00:00",
       "collected_at": "2026-10-03T05:30:08+09:00"
+    },
+    {
+      "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "link": "https://www.anthropic.com/news/claude-frontier-academy",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+      "ts": 1790899200,
+      "published": "2026-10-02T00:00:00+00:00",
+      "collected_at": "2026-10-03T09:10:33+09:00"
+    },
+    {
+      "title": "Python 3.15.0 candidate 3 is here!",
+      "link": "https://blog.python.org/2026/10/python-3150-rc3/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Following tradition, a surprise rc3!",
+      "ts": 1790899200,
+      "published": "2026-10-02T00:00:00+00:00",
+      "collected_at": "2026-10-03T09:10:33+09:00"
     },
     {
       "title": "When are Causal Inference Methods Needed to Answer Causal Questions?",
@@ -9711,76 +9741,6 @@
       "ts": 1788406178,
       "published": "2026-09-03T03:29:38+00:00",
       "collected_at": "2026-09-03T12:41:43+09:00"
-    },
-    {
-      "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-      "link": "https://huggingface.co/blog/train-to-paint-with-code",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788393600,
-      "published": "2026-09-03T00:00:00+00:00",
-      "collected_at": "2026-09-03T17:44:20+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: BellSoft's Catherine Edelveis on hardened runtime images, container security, and more",
-      "link": "https://spring.io/blog/2026/09/03/a-bootiful-podcast-catherine-edelvais",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! I chat with BellSoft’s Catherine Edelweiss about using buildpacks and hardened images to ship Spring Boot apps with stronger security, cleaner defaults, and far less Dockerfile pain. #BellSoft #Docker #…",
-      "ts": 1788393600,
-      "published": "2026-09-03T00:00:00+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps",
-      "link": "https://huggingface.co/blog/grpo-with-trl-ifstruct",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788393600,
-      "published": "2026-09-03T00:00:00+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "Give Your Coding Agents a Memory You Own",
-      "link": "https://huggingface.co/blog/funes",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788393600,
-      "published": "2026-09-03T00:00:00+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "Safety overview: GPT-6 Astra",
-      "link": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "ts": 1788393600,
-      "published": "2026-09-03T00:00:00+00:00",
-      "collected_at": "2026-09-04T08:05:25+09:00"
-    },
-    {
-      "title": "Acceleration of Curve25519 Field Operations with Java Software and Intrinsics",
-      "link": "https://inside.java/2026/09/03/java-acceleration-curve25519-field-operations/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Find out about the improved Curve25519 field performance in JDK 27 and JDK 28.",
-      "ts": 1788393600,
-      "published": "2026-09-03T00:00:00+00:00",
-      "collected_at": "2026-09-04T09:17:04+09:00"
-    },
-    {
-      "title": "Bliki: Paracelsus Maxim",
-      "link": "https://martinfowler.com/bliki/ParacelsusMaxim.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "The difference between a medicine and a poison is dosage. Often we talk about certain habits, in programming or life, are good or bad. But few things are simple binaries. Some vary with context: reading a book is a good…",
-      "ts": 1788386580,
-      "published": "2026-09-02T22:03:00+00:00",
-      "collected_at": "2026-09-03T08:08:07+09:00"
     }
   ]
 }
