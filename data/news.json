@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-03T21:20:55+09:00",
-  "count": 967,
+  "updated": "2026-10-04T02:05:55+09:00",
+  "count": 955,
   "items": [
+    {
+      "title": "Basic Data Types in Python: A Quick Exploration",
+      "link": "https://realpython.com/python-data-types/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore the Python basic data types built into the language: numbers, strings, bytes, and Booleans, and how each one behaves.",
+      "ts": 1791036000,
+      "published": "2026-10-03T14:00:00+00:00",
+      "collected_at": "2026-10-04T02:05:34+09:00"
+    },
+    {
+      "title": "11 Beginner Tips for Learning Python Programming",
+      "link": "https://realpython.com/python-beginner-tips/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Python tips for beginners: the learning strategies and habits that take you from your first script to code you're proud of.",
+      "ts": 1791036000,
+      "published": "2026-10-03T14:00:00+00:00",
+      "collected_at": "2026-10-04T02:05:34+09:00"
+    },
+    {
+      "title": "Measuring the Creativity Potential of LLM Agents",
+      "link": "https://towardsdatascience.com/measuring-the-creativity-potential-of-llm-agents/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Trying to answer the question of \"Can LLM agents discover?\" through the lens of creativity The post Measuring the Creativity Potential of LLM Agents appeared first on Towards Data Science .",
+      "ts": 1791036000,
+      "published": "2026-10-03T14:00:00+00:00",
+      "collected_at": "2026-10-04T02:05:34+09:00"
+    },
+    {
+      "title": "Using the computer to p-hack . . . I’d rather use it to fit multilevel models.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/03/using-the-computer-to-p-hack-id-rather-use-it-to-fit-multilevel-models/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Brian Stone writes: Cognitive psychologist and long time reader of the blog here. I thought you and your audience might appreciate this recent post from Andy Hall: AI is about to write thousands of papers. Will it p-hac…",
+      "ts": 1791033029,
+      "published": "2026-10-03T13:10:29+00:00",
+      "collected_at": "2026-10-04T02:05:34+09:00"
+    },
     {
       "title": "Quiz: Operator and Function Overloading in Custom Python Classes",
       "link": "https://realpython.com/quizzes/operator-function-overloading/",
@@ -9511,166 +9551,6 @@
       "ts": 1788465600,
       "published": "2026-09-03T20:00:00+00:00",
       "collected_at": "2026-09-04T05:44:23+09:00"
-    },
-    {
-      "title": "Building an Agentic Warehouse Management System — Part 3: Tools, Decisions, and Actions",
-      "link": "https://foojay.io/today/building-an-agentic-warehouse-management-system-part-3-tools-decisions-and-actions/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Building an Agentic Warehouse Management System — Part 3: Tools, Decisions, and Actions If you haven’t read the first two parts yet, I recommend starting with Part 1: Where AI Agents Add Value and Part 2: Designing and…",
-      "ts": 1788454236,
-      "published": "2026-09-03T16:50:36+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "Building an Agentic Warehouse Management System — Part 2: Java and Spring AI",
-      "link": "https://foojay.io/today/building-an-agentic-warehouse-management-system-part-2-java-and-spring-ai/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Building an Agentic Warehouse Management System — Part 2: Java and Spring AI If you arrived here without reading the first part, I recommend starting with Agentic WMS — Part 1: Where AI Agents Add Value. There, we intro…",
-      "ts": 1788453599,
-      "published": "2026-09-03T16:39:59+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "Building an Agentic Warehouse Management System — Part 1: Where AI Agents Add Value",
-      "link": "https://foojay.io/today/building-an-agentic-warehouse-management-system-part-1-where-ai-agents-add-value/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "I spent a large part of my career working in banking and logistics. In logistics, I spent more than eight years working across different stages of logistics systems, from development to implementation and production sup…",
-      "ts": 1788452594,
-      "published": "2026-09-03T16:23:14+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "ChatGPT, Claude, and Grok Are Down",
-      "link": "https://www.macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.macrumors.com/2026/09/03/chatgpt-claude-and-grok-are-down/ Comments URL: https://news.ycombinator.com/item?id=49551658 Points: 74 # Comments: 27",
-      "ts": 1788449410,
-      "published": "2026-09-03T15:30:10+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "My Model Worked Perfectly. Then I Tried to Make It Useful.",
-      "link": "https://towardsdatascience.com/my-model-worked-perfectly-then-i-tried-to-make-it-useful/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Turning a trained churn classifier into a FastAPI service that other software can actually call. The post My Model Worked Perfectly. Then I Tried to Make It Useful. appeared first on Towards Data Science .",
-      "ts": 1788449401,
-      "published": "2026-09-03T15:30:01+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "Grok outage",
-      "link": "https://status.x.ai/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://status.x.ai/ Comments URL: https://news.ycombinator.com/item?id=49551589 Points: 143 # Comments: 127",
-      "ts": 1788449161,
-      "published": "2026-09-03T15:26:01+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "Ask HN: Why are OpenAI, Claude, and Grok simultaneously down? Coincidence?",
-      "link": "https://news.ycombinator.com/item?id=49551096",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "https://status.openai.com https://status.claude.com https://status.x.ai Comments URL: https://news.ycombinator.com/item?id=49551096 Points: 149 # Comments: 119",
-      "ts": 1788448021,
-      "published": "2026-09-03T15:07:01+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "link": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788447728,
-      "published": "2026-09-03T15:02:08+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "I Asked ChatGPT to Analyze 3 Datasets. It Made the Same Mistakes Every Time",
-      "link": "https://www.kdnuggets.com/i-asked-chatgpt-to-analyze-3-datasets-it-made-the-same-mistakes-every-time",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "The review pass fixed a row count and approved two wrong conclusions.",
-      "ts": 1788444005,
-      "published": "2026-09-03T14:00:05+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "Tables in PDFs for RAG: Don’t Flatten the Grid",
-      "link": "https://towardsdatascience.com/tables-in-pdfs-for-rag-dont-flatten-the-grid/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Enterprise Document Intelligence [Vol.1 #B4] - A diagnostic and five composable operations, not a decision tree The post Tables in PDFs for RAG: Don’t Flatten the Grid appeared first on Towards Data Science .",
-      "ts": 1788444001,
-      "published": "2026-09-03T14:00:01+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "Claude Fable 5.1 Draws a Python Reading a Book",
-      "link": "https://realpython.com/ai-benchmark-claude-fable-5-1/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Claude Fable 5.1 takes Real Python's vibe check for AI models: a turtle drawing of a python reading a book, a Python vintage, a tiny edit, and a made-up function.",
-      "ts": 1788444000,
-      "published": "2026-09-03T14:00:00+00:00",
-      "collected_at": "2026-09-05T07:52:45+09:00"
-    },
-    {
-      "title": "Updike and statistical writing; more on honesty and precision",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/03/updike-and-statistical-writing-more-on-honesty-and-precision/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "So, yeah, I’ve been reading more of these Updike stories. They’re really good, and there’s something extra you get from reading a lot of them at once. The different stories have a sameness of themes, settings, and tone,…",
-      "ts": 1788443949,
-      "published": "2026-09-03T13:59:09+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "Did Your AI Agent Run the Debugger? One JVM Bug, Two Agent Runs",
-      "link": "https://foojay.io/today/did-your-ai-agent-run-the-debugger-one-jvm-bug-two-agent-runs/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Java developers reach for the debugger without thinking about it. Set a breakpoint, run the failing test, look at the variables, then decide what to change. Most AI coding agents I have watched skip that step. They read…",
-      "ts": 1788443312,
-      "published": "2026-09-03T13:48:32+00:00",
-      "collected_at": "2026-09-04T02:40:32+09:00"
-    },
-    {
-      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
-      "link": "https://openai.com/index/daybreak-for-frontline-defenders",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-      "ts": 1788441300,
-      "published": "2026-09-03T13:15:00+00:00",
-      "collected_at": "2026-09-04T08:05:25+09:00"
-    },
-    {
-      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
-      "link": "https://huggingface.co/blog/Hcompany/neomme",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788441228,
-      "published": "2026-09-03T13:13:48+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
-    },
-    {
-      "title": "Changing One Prompt Can Affect 50 Others — I Built a Prompt Dependency Graph to Find What Needs Retesting",
-      "link": "https://towardsdatascience.com/changing-one-prompt-can-affect-50-others-i-built-a-prompt-dependency-graph-to-find-what-needs-retesting/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "I built a prompt dependency graph that separates everything a component can reach from the smaller set that actually needs targeted evaluation. The post Changing One Prompt Can Affect 50 Others — I Built a Prompt Depend…",
-      "ts": 1788438601,
-      "published": "2026-09-03T12:30:01+00:00",
-      "collected_at": "2026-09-03T22:23:37+09:00"
     }
   ]
 }
