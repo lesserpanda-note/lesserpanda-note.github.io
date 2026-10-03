@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-04T02:05:55+09:00",
-  "count": 955,
+  "updated": "2026-10-04T05:48:58+09:00",
+  "count": 953,
   "items": [
+    {
+      "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
+      "link": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://claude.dev/blog/getting-the-most-out-of-opus-5-5/ Comments URL: https://news.ycombinator.com/item?id=49946567 Points: 31 # Comments: 3",
+      "ts": 1791052170,
+      "published": "2026-10-03T18:29:30+00:00",
+      "collected_at": "2026-10-04T05:48:37+09:00"
+    },
     {
       "title": "Basic Data Types in Python: A Quick Exploration",
       "link": "https://realpython.com/python-data-types/",
@@ -121,6 +131,16 @@
       "ts": 1790997688,
       "published": "2026-10-03T03:21:28+00:00",
       "collected_at": "2026-10-03T15:12:45+09:00"
+    },
+    {
+      "title": "Rex's Dino Store",
+      "link": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density o…",
+      "ts": 1790981858,
+      "published": "2026-10-02T22:57:38+00:00",
+      "collected_at": "2026-10-04T05:48:37+09:00"
     },
     {
       "title": "If you were planning to send me a chatbot-written email or post a chatbot-written comment, just send or post your prompt. That’s enough. You can keep the slop to yourself.",
@@ -9511,46 +9531,6 @@
       "ts": 1788469781,
       "published": "2026-09-03T21:09:41+00:00",
       "collected_at": "2026-09-04T08:05:25+09:00"
-    },
-    {
-      "title": "GPT‑6 Astra",
-      "link": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API…",
-      "ts": 1788466721,
-      "published": "2026-09-03T20:18:41+00:00",
-      "collected_at": "2026-09-04T05:44:23+09:00"
-    },
-    {
-      "title": "Update on “I don’t understand this paper claiming election fraud in 2024 in Pennsylvania”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/03/update-on-i-dont-understand-this-paper-claiming-election-fraud-in-2024-in-pennsylvania/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Last year we briefly discussed a hard-to-follow paper by political scientist Walter Mebane discussing possible “malevolent distortions of electors’ intentions.” Carter Walker and Jessica Huseman at the election news sit…",
-      "ts": 1788466281,
-      "published": "2026-09-03T20:11:21+00:00",
-      "collected_at": "2026-09-04T05:44:23+09:00"
-    },
-    {
-      "title": "Shopify Introduces Gisting: Compressing LLM System Prompts into Learned Tokens",
-      "link": "https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Shopify's engineering introduced gisting, a novel technique for compressing long LLM prompts into a smaller set of learned \"gist\" tokens, improving throughput and reducing inference cost. By Sergio De Simone",
-      "ts": 1788465600,
-      "published": "2026-09-03T20:00:00+00:00",
-      "collected_at": "2026-09-04T05:44:23+09:00"
-    },
-    {
-      "title": "Shopify Introduces Gisting: Compressing LLM System Prompts into Learned Tokens",
-      "link": "https://www.infoq.com/news/2026/09/spotify-gisting-llm-performance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Shopify's engineering introduced gisting, a novel technique for compressing long LLM prompts into a smaller set of learned \"gist\" tokens, improving throughput and reducing inference cost. By Sergio De Simone",
-      "ts": 1788465600,
-      "published": "2026-09-03T20:00:00+00:00",
-      "collected_at": "2026-09-04T05:44:23+09:00"
     }
   ]
 }
