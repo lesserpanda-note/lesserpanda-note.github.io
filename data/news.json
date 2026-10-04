@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-04T21:01:16+09:00",
-  "count": 944,
+  "updated": "2026-10-05T02:21:31+09:00",
+  "count": 939,
   "items": [
+    {
+      "title": "Strings and Character Data in Python",
+      "link": "https://realpython.com/python-strings/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Work with Python strings using a rich set of operators and functions: string literals, the str() function, and the methods you'll use most.",
+      "ts": 1791122400,
+      "published": "2026-10-04T14:00:00+00:00",
+      "collected_at": "2026-10-05T02:21:18+09:00"
+    },
+    {
+      "title": "How to Install Python on Your System: A Guide",
+      "link": "https://realpython.com/installing-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to install Python on Windows, macOS, and Linux, check your version, and pick the best installation method for your system.",
+      "ts": 1791122400,
+      "published": "2026-10-04T14:00:00+00:00",
+      "collected_at": "2026-10-05T02:21:18+09:00"
+    },
+    {
+      "title": "How to Govern AI Agents",
+      "link": "https://towardsdatascience.com/how-to-govern-ai-agents/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "From guarding one agent to steering a fleet The post How to Govern AI Agents appeared first on Towards Data Science .",
+      "ts": 1791122400,
+      "published": "2026-10-04T14:00:00+00:00",
+      "collected_at": "2026-10-05T02:21:18+09:00"
+    },
+    {
+      "title": "A plan to replicate the Loftus and Palmer (1974) experiment on false memories",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/04/a-plan-to-replicate-the-loftus-and-palmer-1974-on-false-memories/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Rolf Zwaan writes: Suppose you and a friend witness a car crash. After a while, the police arrive. One officer turns to you and asks, “How fast were the cars going when they smashed into each other?” Another officer spe…",
+      "ts": 1791119707,
+      "published": "2026-10-04T13:15:07+00:00",
+      "collected_at": "2026-10-05T02:21:18+09:00"
+    },
     {
       "title": "Quiz: Python's collections: A Buffet of Specialized Data Types",
       "link": "https://realpython.com/quizzes/python-collections-module/",
@@ -9351,96 +9391,6 @@
       "ts": 1788542962,
       "published": "2026-09-04T17:29:22+00:00",
       "collected_at": "2026-09-05T07:52:45+09:00"
-    },
-    {
-      "title": "Georgi Gerganov on llama.cpp/ggml future after Nvidia acquisition of HuggingFace",
-      "link": "https://twitter.com/ggerganov/status/2095897173376618881",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://twitter.com/ggerganov/status/2095897173376618881 Comments URL: https://news.ycombinator.com/item?id=49567357 Points: 66 # Comments: 21",
-      "ts": 1788541942,
-      "published": "2026-09-04T17:12:22+00:00",
-      "collected_at": "2026-09-05T07:52:45+09:00"
-    },
-    {
-      "title": "Optimal Traffic Allocation Under Heterogeneous Variant Cost",
-      "link": "https://towardsdatascience.com/optimal-traffic-allocation-under-heterogeneous-variant-cost/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Why the default 50/50 split is the wrong move when your treatment is more expensive than your control, and how cost-based sampling weights fix it The post Optimal Traffic Allocation Under Heterogeneous Variant Cost appe…",
-      "ts": 1788535802,
-      "published": "2026-09-04T15:30:02+00:00",
-      "collected_at": "2026-09-05T02:28:21+09:00"
-    },
-    {
-      "title": "Airbnb Cuts Authentication Code by 60% with Server Driven Architecture",
-      "link": "https://www.infoq.com/news/2026/09/airbnb-server-driven-login/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Airbnb redesigned its authentication architecture around server driven flows and policy based challenge selection. The new Flexible Authentication system reduced authentication related code by 60%, cut the web client bu…",
-      "ts": 1788532200,
-      "published": "2026-09-04T14:30:00+00:00",
-      "collected_at": "2026-09-05T02:28:21+09:00"
-    },
-    {
-      "title": "Switchyard: NVIDIA’s Open Source Routing Library",
-      "link": "https://www.kdnuggets.com/switchyard-nvidias-open-source-routing-library",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Stop sending every AI request to your most expensive model. See how intelligent routing can cut cost and latency without sacrificing much quality.",
-      "ts": 1788530407,
-      "published": "2026-09-04T14:00:07+00:00",
-      "collected_at": "2026-09-05T02:28:21+09:00"
-    },
-    {
-      "title": "Disaggregation Is a Thousand-GPU Problem",
-      "link": "https://towardsdatascience.com/disaggregation-is-a-thousand-gpu-problem/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Three conditions that must hold before splitting prefill from decode pays off, and why chunked prefill is the right default below that threshold. The post Disaggregation Is a Thousand-GPU Problem appeared first on Towar…",
-      "ts": 1788530402,
-      "published": "2026-09-04T14:00:02+00:00",
-      "collected_at": "2026-09-05T02:28:21+09:00"
-    },
-    {
-      "title": "GPT-6 Astra Draws a Python Reading a Book",
-      "link": "https://realpython.com/ai-benchmark-gpt-6-astra/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "GPT-6 Astra takes Real Python's vibe check for AI models: a turtle drawing of a python reading a book, a Python vintage, a tiny edit, and a made-up function.",
-      "ts": 1788530400,
-      "published": "2026-09-04T14:00:00+00:00",
-      "collected_at": "2026-09-05T07:52:45+09:00"
-    },
-    {
-      "title": "Update on U.S. government’s Soviet-style push for “gold standard science”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/04/update-on-u-s-governments-push-for-gold-standard-science/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "We had a discussion last year: I got this email the other day from a journalist at a major news organization: I’m a science reporter from **, wondering if you’d have some time to talk/reflect on the Trump administration…",
-      "ts": 1788529427,
-      "published": "2026-09-04T13:43:47+00:00",
-      "collected_at": "2026-09-05T02:28:21+09:00"
-    },
-    {
-      "title": "1.15.20",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.20",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Fix legacy platform tool alias discovery Documentation Update snapshot and changelog for v1.15.19 Contributors @joaomdmoura , @vinibrsl",
-      "ts": 1788525741,
-      "published": "2026-09-04T12:42:21+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "The Power BI Developer's Survival Guide to Microsoft Fabric",
-      "link": "https://towardsdatascience.com/the-power-bi-developers-survival-guide-to-microsoft-fabric/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Power BI Premium is gone. Microsoft Fabric took its place. Here's what actually changed for you, what didn't, and where to start — without the panic. The post The Power BI Developer's Survival Guide to Microsoft Fabric…",
-      "ts": 1788525002,
-      "published": "2026-09-04T12:30:02+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
     }
   ]
 }
