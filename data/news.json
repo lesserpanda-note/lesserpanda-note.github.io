@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-04T08:37:09+09:00",
-  "count": 955,
+  "updated": "2026-10-04T09:21:11+09:00",
+  "count": 957,
   "items": [
+    {
+      "title": "New Archestra's OpenAPPA Saturates Two Major Security Benchmarks with a 0% Attack Success Rate",
+      "link": "https://www.infoq.com/news/2026/10/open-APPA-zero-security-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Archestra released OpenAPPA, an open-source security engine designed to stop data exfiltration caused by prompt injection or model hallucination. The team reports zero successful attacks when running security benchmarks…",
+      "ts": 1791070860,
+      "published": "2026-10-03T23:41:00+00:00",
+      "collected_at": "2026-10-04T09:20:52+09:00"
+    },
     {
       "title": "We're going to need default hard budget caps on pretty much everything",
       "link": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
@@ -133,6 +143,16 @@
       "collected_at": "2026-10-03T21:20:31+09:00"
     },
     {
+      "title": "U.S. may have overthrown Venezuela due to chat with Grok",
+      "link": "https://www.thedailybeast.com/jaw-dropping-way-trump-80-got-talked-into-a-war-is-leaked/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.thedailybeast.com/jaw-dropping-way-trump-80-got-talked-into-a-war-is-leaked/ Comments URL: https://news.ycombinator.com/item?id=49942437 Points: 43 # Comments: 8",
+      "ts": 1791016838,
+      "published": "2026-10-03T08:40:38+00:00",
+      "collected_at": "2026-10-04T09:20:52+09:00"
+    },
+    {
       "title": "Istio 1.31 Adds Agentgateway Waypoints and Moves Release Artifacts off Google Cloud",
       "link": "https://www.infoq.com/news/2026/10/istio-1-31-agentgateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
       "source": "InfoQ Architecture",
@@ -181,6 +201,16 @@
       "ts": 1790981012,
       "published": "2026-10-02T22:43:32+00:00",
       "collected_at": "2026-10-03T09:10:33+09:00"
+    },
+    {
+      "title": "Musk's AI chatbot Grok encouraged Trump to capture Venezuela's president",
+      "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/ Comments URL: https://news.ycombinator.com/item?id=49935794 Points: 10 # Comments: 0",
+      "ts": 1790960193,
+      "published": "2026-10-02T16:56:33+00:00",
+      "collected_at": "2026-10-04T09:20:52+09:00"
     },
     {
       "title": "A model guide for the GPT-6 family",
@@ -9541,16 +9571,6 @@
       "ts": 1788495532,
       "published": "2026-09-04T04:18:52+00:00",
       "collected_at": "2026-09-04T17:39:48+09:00"
-    },
-    {
-      "title": "Principles of Memory Management in Java",
-      "link": "https://inside.java/2026/09/04/memory-management-principles-java/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "In this talk, we’ll explore why the JDK’s garbage collectors work the way they do and how Java memory management affects application performance. We’ll look at the sometimes non-obvious relationship between RAM and CPU,…",
-      "ts": 1788480000,
-      "published": "2026-09-04T00:00:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
     }
   ]
 }
