@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-04T14:04:50+09:00",
-  "count": 957,
+  "updated": "2026-10-04T21:01:16+09:00",
+  "count": 944,
   "items": [
+    {
+      "title": "Quiz: Python's collections: A Buffet of Specialized Data Types",
+      "link": "https://realpython.com/quizzes/python-collections-module/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of Python's collections module and the specialized container data types it provides, from namedtuple to ChainMap.",
+      "ts": 1791115200,
+      "published": "2026-10-04T12:00:00+00:00",
+      "collected_at": "2026-10-04T21:00:53+09:00"
+    },
+    {
+      "title": "The Reversal Curse: Why a Language Model That Knows “A Is B” Can’t Tell You “B Is A”",
+      "link": "https://towardsdatascience.com/the-reversal-curse-why-a-language-model-that-knows-a-is-b-cant-tell-you-b-is-a/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "A model can recall a fact in the direction it learned it and fail in the other. Here's a toy version of why The post The Reversal Curse: Why a Language Model That Knows “A Is B” Can’t Tell You “B Is A” appeared first on…",
+      "ts": 1791115200,
+      "published": "2026-10-04T12:00:00+00:00",
+      "collected_at": "2026-10-04T21:00:53+09:00"
+    },
+    {
+      "title": "Pizza Bot: Open-Source Inbox for Background AI Agents",
+      "link": "https://www.infoq.com/news/2026/10/pizza-bot-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "A team of developers working at AWS recently open-sourced Pizza Bot, a self-hosted application designed to let AI agents run tasks in the background and return results through an inbox-style interface. Agents can perfor…",
+      "ts": 1791095640,
+      "published": "2026-10-04T06:34:00+00:00",
+      "collected_at": "2026-10-04T21:00:53+09:00"
+    },
     {
       "title": "Religious scholars met with Anthropic",
       "link": "https://www.nytimes.com/2026/09/29/us/anthropic-claude-morals-ai.html",
@@ -51,6 +81,16 @@
       "ts": 1791064831,
       "published": "2026-10-03T22:00:31+00:00",
       "collected_at": "2026-10-04T08:36:47+09:00"
+    },
+    {
+      "title": "Anthropic tried to persuade Pope that AI could be conscious being",
+      "link": "https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.telegraph.co.uk/business/2026/10/02/anthropic-lobbied-pope-to-argue-ai-conscious-being/ Comments URL: https://news.ycombinator.com/item?id=49947050 Points: 55 # Comments: 84",
+      "ts": 1791055990,
+      "published": "2026-10-03T19:33:10+00:00",
+      "collected_at": "2026-10-04T21:00:53+09:00"
     },
     {
       "title": "Getting the most out of Opus 5.5 in Claude and Claude Code",
@@ -9401,176 +9441,6 @@
       "ts": 1788525002,
       "published": "2026-09-04T12:30:02+00:00",
       "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Dataclasses for Structured Application Data",
-      "link": "https://machinelearningmastery.com/dataclasses-for-structured-application-data/",
-      "source": "ML Mastery",
-      "category": "DataScience",
-      "summary": "Scalar defaults work the way you'd expect, and batch_size: int = 500 is all you need.",
-      "ts": 1788523244,
-      "published": "2026-09-04T12:00:44+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "5 Free LLM API Providers You Can Use in 2026",
-      "link": "https://www.kdnuggets.com/5-free-llm-api-providers-you-can-use-in-2026",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Explore five free AI API providers for accessing large language models, fast inference, multimodal AI, and agentic applications without paying for API usage.",
-      "ts": 1788523238,
-      "published": "2026-09-04T12:00:38+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #310: Performance Engineering: Profiling and Making Apps Fast by Default",
-      "link": "https://realpython.com/podcasts/rpp/310/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "How do you plan for the performance of your Python applications? What does a performance budget entail, and where should you spend your resources? This week on the show, we speak with Den Odell about his new book \"Fast…",
-      "ts": 1788523200,
-      "published": "2026-09-04T12:00:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Quiz: Common Python Data Structures (Guide)",
-      "link": "https://realpython.com/quizzes/common-python-data-structures/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your grasp of Python's built-in data structures. Work through dictionaries, arrays, records, sets, stacks, queues, and priority queues.",
-      "ts": 1788523200,
-      "published": "2026-09-04T12:00:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "1.15.19",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.19",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add Clipper integrations client Add now() to the CEL expression environment Record how a crew run ended for every user Report machine size as a coarse band, not a core count Add injectable client…",
-      "ts": 1788521312,
-      "published": "2026-09-04T11:28:32+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "How to Run 10+ Claude Code Sessions Without a Powerful Computer",
-      "link": "https://towardsdatascience.com/how-to-run-10-claude-code-sessions-without-a-powerful-computer/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Learn how to run a lot of parallel coding agents without expensive, powerful hardware at home The post How to Run 10+ Claude Code Sessions Without a Powerful Computer appeared first on Towards Data Science .",
-      "ts": 1788519602,
-      "published": "2026-09-04T11:00:02+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Mini book: Next-Gen Architecture Playbook: Insights and Patterns for the AI Era",
-      "link": "https://www.infoq.com/minibooks/next-gen-architecture-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "This eMag examines how architects can lead with clarity in a rapidly evolving engineering world, distilling industry insights into field-tested practices for teams. Together, these stories reveal a core theme: the techn…",
-      "ts": 1788519600,
-      "published": "2026-09-04T11:00:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Presentation: From S3 to GPU in One Copy: Rethinking Data Loading for ML Training",
-      "link": "https://www.infoq.com/presentations/vortex-columnar-file-format-gpu-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Onur Satici explains how Vortex, an open-source columnar file format under the Linux Foundation, revolutionizes high-throughput data loading. He details how cascading lightweight encodings, layout-based segment pruning,…",
-      "ts": 1788519600,
-      "published": "2026-09-04T11:00:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Mini book: Next-Gen Architecture Playbook: Insights and Patterns for the AI Era",
-      "link": "https://www.infoq.com/minibooks/next-gen-architecture-ai-era/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This eMag examines how architects can lead with clarity in a rapidly evolving engineering world, distilling industry insights into field-tested practices for teams. Together, these stories reveal a core theme: the techn…",
-      "ts": 1788519600,
-      "published": "2026-09-04T11:00:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Presentation: From S3 to GPU in One Copy: Rethinking Data Loading for ML Training",
-      "link": "https://www.infoq.com/presentations/vortex-columnar-file-format-gpu-streaming/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Onur Satici explains how Vortex, an open-source columnar file format under the Linux Foundation, revolutionizes high-throughput data loading. He details how cascading lightweight encodings, layout-based segment pruning,…",
-      "ts": 1788519600,
-      "published": "2026-09-04T11:00:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Top 10 GitHub Repositories Trending in August 2026 (AI, Agents & Dev Tooling Edition)",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/top-github-repositories-august-2026/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "If you spent any time on GitHub Trending in August, you probably noticed the centre of gravity had shifted again. Models took a back seat to the machinery around them: agent harnesses, skills, memory layers, gateways, a…",
-      "ts": 1788519300,
-      "published": "2026-09-04T10:55:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Copilot Code Review Reaches Azure Repos, Billed Per Review with Reporting Two Days Behind",
-      "link": "https://www.infoq.com/news/2026/09/copilot-code-review-azure-repos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Microsoft opened GitHub Copilot code review for Azure Repos to all Azure DevOps customers, after acknowledging that many are not ready to migrate to GitHub. Reviews bill per use through the linked Azure subscription and…",
-      "ts": 1788516060,
-      "published": "2026-09-04T10:01:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Copilot Code Review Reaches Azure Repos, Billed Per Review with Reporting Two Days Behind",
-      "link": "https://www.infoq.com/news/2026/09/copilot-code-review-azure-repos/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft opened GitHub Copilot code review for Azure Repos to all Azure DevOps customers, after acknowledging that many are not ready to migrate to GitHub. Reviews bill per use through the linked Azure subscription and…",
-      "ts": 1788516060,
-      "published": "2026-09-04T10:01:00+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
-      "link": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. Th…",
-      "ts": 1788513919,
-      "published": "2026-09-04T09:25:19+00:00",
-      "collected_at": "2026-09-04T22:18:05+09:00"
-    },
-    {
-      "title": "August newsletter is out",
-      "link": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One…",
-      "ts": 1788501280,
-      "published": "2026-09-04T05:54:40+00:00",
-      "collected_at": "2026-09-04T17:39:48+09:00"
-    },
-    {
-      "title": "From Spec-Driven Development to Living Specifications in Java Projects",
-      "link": "https://foojay.io/today/from-spec-driven-development-to-living-specifications-in-java-projects/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "From Spec-Driven Development to Living Specifications in Java Projects Coding agents have changed the speed at which we can produce software. But producing code faster does not automatically mean producing better softwa…",
-      "ts": 1788501105,
-      "published": "2026-09-04T05:51:45+00:00",
-      "collected_at": "2026-09-04T17:39:48+09:00"
-    },
-    {
-      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "link": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class.",
-      "ts": 1788499091,
-      "published": "2026-09-04T05:18:11+00:00",
-      "collected_at": "2026-09-04T17:39:48+09:00"
     }
   ]
 }
