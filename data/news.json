@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-06T00:41:36+09:00",
-  "count": 944,
+  "updated": "2026-10-06T07:23:24+09:00",
+  "count": 953,
   "items": [
+    {
+      "title": "langgraph==1.2.13",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.12 fix(langgraph): fork before replaying an update checkpoint the thread moved past ( #9170 ) fix(langgraph): keep an update_state on an older checkpoint out of its other branches ( #9165 ) fix(langgra…",
+      "ts": 1791222692,
+      "published": "2026-10-05T17:51:32+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
+    },
+    {
+      "title": "Java News Roundup: JobRunr 9, OpenXava 8, Quarkus, LangChain4j, JNoSQL, Introducing Lathe",
+      "link": "https://www.infoq.com/news/2026/10/java-news-roundup-sep28-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for September 28th, 2026, features news highlighting: the GA releases of JobRunr 9.0 and OpenXava 8.0; point releases for Quarkus, Micronaut, LangChain4j, Eclipse JNoSQL; ADK for Java and ADK fo…",
+      "ts": 1791219600,
+      "published": "2026-10-05T17:00:00+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
+    },
+    {
+      "title": "Java News Roundup: JobRunr 9, OpenXava 8, Quarkus, LangChain4j, JNoSQL, Introducing Lathe",
+      "link": "https://www.infoq.com/news/2026/10/java-news-roundup-sep28-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for September 28th, 2026, features news highlighting: the GA releases of JobRunr 9.0 and OpenXava 8.0; point releases for Quarkus, Micronaut, LangChain4j, Eclipse JNoSQL; ADK for Java and ADK fo…",
+      "ts": 1791219600,
+      "published": "2026-10-05T17:00:00+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
+    },
+    {
+      "title": "Connecting AI agents to enterprise knowledge",
+      "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in…",
+      "ts": 1791215272,
+      "published": "2026-10-05T15:47:52+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
+    },
     {
       "title": "Our approach to EU text provenance rules",
       "link": "https://openai.com/index/eu-text-provenance",
@@ -233,6 +273,16 @@
       "collected_at": "2026-10-05T15:39:47+09:00"
     },
     {
+      "title": "EmTech Future 2026: When AI Meets Everything",
+      "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fie…",
+      "ts": 1791172800,
+      "published": "2026-10-05T04:00:00+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
+    },
+    {
       "title": "Making Arena.ofConfined() Even Cheaper in JDK 28",
       "link": "https://inside.java/2026/10/05/confined-pools/",
       "source": "Inside Java",
@@ -251,6 +301,26 @@
       "ts": 1791158400,
       "published": "2026-10-05T00:00:00+00:00",
       "collected_at": "2026-10-06T00:41:31+09:00"
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E25 - Future of Software Development with Josh Long",
+      "link": "https://spring.io/blog/2026/10/05/spring-office-hours-podcast-S5E25",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun are joined by the legendary Josh Long. In this episode, we will look into the future of software develo…",
+      "ts": 1791158400,
+      "published": "2026-10-05T00:00:00+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
+    },
+    {
+      "title": "Qwen3.8 27B addition in words",
+      "link": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increas…",
+      "ts": 1791156840,
+      "published": "2026-10-04T23:34:00+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
     },
     {
       "title": "Strings and Character Data in Python",
@@ -941,6 +1011,16 @@
       "ts": 1790876533,
       "published": "2026-10-01T17:42:13+00:00",
       "collected_at": "2026-10-02T09:14:16+09:00"
+    },
+    {
+      "title": "pwasm 0.2a0",
+      "link": "https://simonwillison.net/2026/Oct/1/pwasm/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided t…",
+      "ts": 1790874631,
+      "published": "2026-10-01T17:10:31+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
     },
     {
       "title": "The eternal complement",
@@ -2263,6 +2343,16 @@
       "collected_at": "2026-09-29T10:36:38+09:00"
     },
     {
+      "title": "llm-anthropic 0.30",
+      "link": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push…",
+      "ts": 1790636781,
+      "published": "2026-09-28T23:06:21+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
+    },
+    {
       "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
       "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
       "source": "MIT Tech Review",
@@ -3381,6 +3471,16 @@
       "ts": 1790294400,
       "published": "2026-09-25T00:00:00+00:00",
       "collected_at": "2026-09-25T22:25:31+09:00"
+    },
+    {
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "link": "https://openai.com/index/wayfair",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
+      "ts": 1790294400,
+      "published": "2026-09-25T00:00:00+00:00",
+      "collected_at": "2026-10-06T07:23:01+09:00"
     },
     {
       "title": "Note on 24th September 2026",
@@ -9431,16 +9531,6 @@
       "ts": 1788650868,
       "published": "2026-09-05T23:27:48+00:00",
       "collected_at": "2026-09-06T08:38:42+09:00"
-    },
-    {
-      "title": "Using Blender with coding agents on macOS",
-      "link": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.o…",
-      "ts": 1788623469,
-      "published": "2026-09-05T15:51:09+00:00",
-      "collected_at": "2026-09-06T01:39:08+09:00"
     }
   ]
 }
