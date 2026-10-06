@@ -1,7 +1,67 @@
 {
-  "updated": "2026-10-07T01:35:02+09:00",
-  "count": 969,
+  "updated": "2026-10-07T06:29:07+09:00",
+  "count": 977,
   "items": [
+    {
+      "title": "EmbeddingGemma 2",
+      "link": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My comment on EmbeddingGemma 2 — Hacker News. I really appreciate that EmbeddingGemma 2 is under the Apache 2.0 license. For embedding models in particular, I don't think it makes sense to use a closed, proprietary, hos…",
+      "ts": 1791319073,
+      "published": "2026-10-06T20:37:53+00:00",
+      "collected_at": "2026-10-07T06:28:49+09:00"
+    },
+    {
+      "title": "Introducing Mistral Large 4: Le chonk",
+      "link": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Introducing Mistral Large 4: Le chonk Mistral are back in the game. Today they're releasing a preview of Mistral Large 4, a 1 trillion parameter, 49 billion active parameter model trained on their own cluster of 3,800 N…",
+      "ts": 1791317899,
+      "published": "2026-10-06T20:18:19+00:00",
+      "collected_at": "2026-10-07T06:28:49+09:00"
+    },
+    {
+      "title": "Survey Statistics: 2 different uses of simulated data",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/06/survey-statistics-2-different-uses-of-simulated-data/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Last month Andrew wrote: I use simulated data to understand how a model works; it can be viewed as a form of mathematical analysis, a way of working out the implications of a set of assumptions. I don’t use simulated ……",
+      "ts": 1791316830,
+      "published": "2026-10-06T20:00:30+00:00",
+      "collected_at": "2026-10-07T06:28:49+09:00"
+    },
+    {
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791316624,
+      "published": "2026-10-06T19:57:04+00:00",
+      "collected_at": "2026-10-07T06:28:49+09:00"
+    },
+    {
+      "title": "Using Parseable with Datasette for OpenTelemetry traces",
+      "link": "https://simonwillison.net/2026/Oct/6/datasette-parseable-opentelemetry/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "TIL: Using Parseable with Datasette for OpenTelemetry traces I saw Parseable in a Show HN today - it's a new observability platform with both an open source (AGPL) Rust implementation (a single ~180MB binary), an \"Enter…",
+      "ts": 1791313651,
+      "published": "2026-10-06T19:07:31+00:00",
+      "collected_at": "2026-10-07T06:28:49+09:00"
+    },
+    {
+      "title": "Mistral Large 4",
+      "link": "https://simonwillison.net/2026/Oct/6/hn-49982139/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My comment on Mistral Large 4 — Hacker News. wren6991 : The benchmark is saturated. Frontier models are tested with an armadillo in fishnet tights jaywalking on Mars. OK well I couldn't resist this one: llm -m claude-op…",
+      "ts": 1791310858,
+      "published": "2026-10-06T18:20:58+00:00",
+      "collected_at": "2026-10-07T06:28:49+09:00"
+    },
     {
       "title": "v5.19.0",
       "link": "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
@@ -11,6 +71,16 @@
       "ts": 1791303750,
       "published": "2026-10-06T16:22:30+00:00",
       "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "link": "https://openai.com/index/atlassian-partnership",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work.",
+      "ts": 1791302400,
+      "published": "2026-10-06T16:00:00+00:00",
+      "collected_at": "2026-10-07T06:28:49+09:00"
     },
     {
       "title": "How I Use AI to Learn New Topics Faster: An AI-Assisted Learning Framework",
@@ -181,6 +251,16 @@
       "ts": 1791280800,
       "published": "2026-10-06T10:00:00+00:00",
       "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Advancing computer use with Ironclad",
+      "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how OpenAI and Ironclad are training and evaluating AI agents on complex contracting workflows to advance computer use for professional work.",
+      "ts": 1791280800,
+      "published": "2026-10-06T10:00:00+00:00",
+      "collected_at": "2026-10-07T06:28:49+09:00"
     },
     {
       "title": "Presentation: Building Resilient Platforms: Insights from 20+ Years in Mission-Critical Infrastructure",
