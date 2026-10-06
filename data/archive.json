@@ -1,6 +1,54 @@
 {
   "digests": [
     {
+      "date": "2026-10-05",
+      "summary": "오늘은 AI 언어 모델의 '역전 저주' 현상이라는 근본적 한계와 백그라운드 AI 에이전트를 위한 오픈소스 이메일 수신함 도구 Pizza Bot이 주목을 받았습니다. 에이전트 거버넌스 분야에서는 단일 에이전트부터 대규모 플릿 관리까지 아우르는 통제 방법론이 다뤄졌으며, Python 문자열 처리 및 설치 가이드가 실용적 참고 자료로 등장했습니다. 통계 분야에서는 Loftus & Palmer(1974) 허위 기억 실험의 재현 계획이 소개되었습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "The Reversal Curse: Why a Language Model That Knows \"A Is B\" Can't Tell You \"B Is A\"",
+          "link": "https://towardsdatascience.com/the-reversal-curse-why-a-language-model-that-knows-a-is-b-cant-tell-you-b-is-a/",
+          "summary": "언어 모델이 'A는 B이다'를 학습했어도 'B는 A이다'를 대답하지 못하는 역전 저주(Reversal Curse) 현상을 탐구한 글입니다.",
+          "detail": "언어 모델은 학습 시 접한 방향과 동일한 방식으로는 사실을 잘 기억하지만, 반대 방향의 질문에는 실패하는 경향이 있습니다. 이를 '역전 저주(Reversal Curse)'라 부릅니다. 예를 들어, 'A의 어머니는 B이다'를 학습한 모델이 'B의 자녀는 누구인가?'라는 역방향 질문에는 답하지 못할 수 있습니다. 이는 모델이 사실을 대칭적 지식으로 저장하는 것이 아니라, 학습 데이터에 등장한 순서에 민감한 패턴으로 습득하기 때문입니다. 이 현상은 LLM의 추론 능력에 근본적인 한계가 있음을 시사하며, 지식 검색·추론 파이프라인 설계 및 평가 방식에 중요한 시사점을 제공합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Pizza Bot: Open-Source Inbox for Background AI Agents",
+          "link": "https://www.infoq.com/news/2026/10/pizza-bot-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "AWS 개발자들이 오픈소스로 공개한 Pizza Bot은 백그라운드에서 실행되는 AI 에이전트를 위한 자체 호스팅 이메일 수신함 솔루션입니다.",
+          "detail": "AWS 팀 개발자들이 오픈소스로 공개한 Pizza Bot은 AI 에이전트가 백그라운드에서 비동기 작업을 처리하는 동안 이메일 기반 인터랙션 채널을 제공하는 자체 호스팅 애플리케이션입니다. 에이전트가 장시간 실행되는 작업을 수행할 때 사용자가 실시간으로 연결되어 있지 않아도 이메일을 통해 작업 진행 상황을 받아보고 에이전트와 상호작용할 수 있습니다. 자체 호스팅을 지원하여 데이터 프라이버시와 시스템 제어권을 유지할 수 있으며, 백그라운드 에이전트 워크플로우를 실무에 적용하려는 개발자들에게 유용한 오픈소스 기반 인프라를 제공합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "How to Govern AI Agents",
+          "link": "https://towardsdatascience.com/how-to-govern-ai-agents/",
+          "summary": "단일 에이전트 관리부터 대규모 에이전트 플릿 운영까지 AI 에이전트를 효과적으로 거버넌스하는 방법론을 다룬 글입니다.",
+          "detail": "AI 에이전트의 자율성이 높아짐에 따라 이를 안전하고 효과적으로 제어하는 거버넌스 체계의 중요성이 커지고 있습니다. 이 글은 단일 에이전트를 감독하는 기본 접근법부터 다수의 에이전트로 구성된 플릿(fleet) 전체를 통제하는 전략까지 폭넓게 다룹니다. 에이전트의 행동 범위를 제한하는 가드레일 설계, 에이전트 간 통신 프로토콜 관리, 감사 및 모니터링 체계 구축 등의 핵심 요소를 설명합니다. 멀티에이전트 시스템이 복잡해질수록 명확한 권한 경계와 관찰 가능성(observability) 확보가 필수적임을 강조하며, 실무 적용 가능한 거버넌스 프레임워크를 제시합니다."
+        },
+        {
+          "category": "Python",
+          "title": "Strings and Character Data in Python",
+          "link": "https://realpython.com/python-strings/",
+          "summary": "Python에서 문자열 데이터를 다루는 연산자, 함수, 메서드를 포괄적으로 정리한 Real Python의 심화 가이드입니다.",
+          "detail": "Real Python이 제공하는 이 가이드는 Python 문자열의 기초부터 실무 활용까지를 체계적으로 설명합니다. 문자열 리터럴 정의, str() 함수 사용법, 연결(concatenation), 인덱싱, 슬라이싱 등의 기본 연산을 다루며, split(), join(), strip(), replace(), find() 등 자주 사용하는 내장 메서드도 상세히 소개합니다. f-string과 format() 메서드를 활용한 문자열 포맷팅, 유니코드 지원 및 인코딩 처리 방법도 포함합니다. Python 문자열이 불변(immutable) 시퀀스 타입임을 이해하고, 효율적인 문자열 처리 패턴을 익히는 데 도움이 되는 실용적인 참고 자료입니다."
+        },
+        {
+          "category": "Python",
+          "title": "How to Install Python on Your System: A Guide",
+          "link": "https://realpython.com/installing-python/",
+          "summary": "Windows, macOS, Linux 등 주요 운영체제에서 Python을 설치하는 방법과 버전 확인, 최적 설치 방법 선택 기준을 안내합니다.",
+          "detail": "Real Python이 제공하는 이 설치 가이드는 다양한 운영체제에서 Python을 올바르게 설치하는 방법을 상세히 설명합니다. Windows에서는 공식 인스톨러와 Microsoft Store 설치 방식의 차이를 비교하고, macOS에서는 Homebrew를 이용한 설치 방법을 권장합니다. Linux에서는 apt, yum 등 패키지 관리자를 통한 설치와 소스 컴파일 옵션도 다룹니다. 설치 후 버전 확인 방법, PATH 환경변수 설정, 가상환경(venv) 기초 개념까지 포함하여 Python 개발 환경을 처음 구성하는 모든 개발자에게 유용한 출발점을 제공합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "A plan to replicate the Loftus and Palmer (1974) experiment on false memories",
+          "link": "https://statmodeling.stat.columbia.edu/2026/10/04/a-plan-to-replicate-the-loftus-and-palmer-1974-on-false-memories/",
+          "summary": "Loftus & Palmer(1974) 허위 기억 실험을 재현하기 위한 통계적 실험 설계 계획을 소개하는 Statistical Modeling 블로그 글입니다.",
+          "detail": "Andrew Gelman의 Statistical Modeling 블로그에서 Rolf Zwaan이 소개한 Loftus & Palmer(1974) 실험 재현 계획을 다룹니다. 원 실험은 교통사고 목격자가 사용한 동사에 따라 기억된 속도 추정치가 달라진다는 것을 보여준 고전적 연구입니다. 재현 계획은 현대적 통계 방법론을 적용하여 원 실험 결과의 재현 가능성을 검증하는 것을 목표로 하며, 충분한 통계 검정력을 확보하기 위한 표본 크기 계산, 사전 등록(pre-registration), 실험 조건 통제 등 재현 연구의 핵심 방법론을 논의합니다. 연구 재현성과 통계적 신뢰도에 관심 있는 데이터 과학자에게 유용한 사례 연구입니다."
+        }
+      ]
+    },
+    {
       "date": "2026-10-04",
       "summary": "오늘은 AI 에이전트 신뢰성과 예산 관리, 오픈소스 보안 공개 방식의 변화 등 에이전트 확산에 따른 실질적 과제들이 주요 주제로 다뤄졌습니다. 아키텍처 분야에서는 Istio 1.31의 agentgateway waypoint 통합과 AI 에이전트가 불러온 보안 취약점 공개 절차의 위기가 부각되었고, 데이터과학 분야에서는 PINN을 활용한 역문제 풀이와 AI 기반 p-해킹 위험에 대한 통계적 논의가 이어졌습니다. DoorDash의 GenAI 플랫폼 구축 사례와 Real Python의 Python 기초 콘텐츠도 실용적 인사이트를 제공합니다.",
       "highlights": [

@@ -1,48 +1,83 @@
 {
-  "updated": "2026-10-05T00:06:26Z",
-  "summary": "오늘은 AI 언어 모델의 '역전 저주' 현상이라는 근본적 한계와 백그라운드 AI 에이전트를 위한 오픈소스 이메일 수신함 도구 Pizza Bot이 주목을 받았습니다. 에이전트 거버넌스 분야에서는 단일 에이전트부터 대규모 플릿 관리까지 아우르는 통제 방법론이 다뤄졌으며, Python 문자열 처리 및 설치 가이드가 실용적 참고 자료로 등장했습니다. 통계 분야에서는 Loftus & Palmer(1974) 허위 기억 실험의 재현 계획이 소개되었습니다.",
+  "updated": "2026-10-06T00:11:02Z",
+  "summary": "오늘은 Java 생태계의 주요 릴리스와 KMP 플러그인 변경 사항, Akka의 사양 기반 AI 전달 실험 결과 및 프로덕션 LLM 플랫폼 엔지니어링 실전 가이드, LangGraph 1.2.13 버그 수정과 엔터프라이즈 AI 에이전트 구축 사례, Cloudflare 컨테이너 보안 취약점 수정과 AI 에이전트 평가 프레임워크 설계, 그리고 Python 3.15 RC3 및 베이지안 워크플로우 코드 공개 등 다양한 소식을 다룹니다. Java와 AI/에이전트 생태계 모두에서 실용적이고 중요한 업데이트들이 쏟아진 하루였습니다. 데이터 사이언스 분야에서도 statsmodels 시계열 기법과 베이지안 실습 자료가 공개되어 실무자들에게 유용한 리소스가 추가되었습니다.",
   "highlights": [
     {
-      "category": "AI",
-      "title": "The Reversal Curse: Why a Language Model That Knows \"A Is B\" Can't Tell You \"B Is A\"",
-      "link": "https://towardsdatascience.com/the-reversal-curse-why-a-language-model-that-knows-a-is-b-cant-tell-you-b-is-a/",
-      "summary": "언어 모델이 'A는 B이다'를 학습했어도 'B는 A이다'를 대답하지 못하는 역전 저주(Reversal Curse) 현상을 탐구한 글입니다.",
-      "detail": "언어 모델은 학습 시 접한 방향과 동일한 방식으로는 사실을 잘 기억하지만, 반대 방향의 질문에는 실패하는 경향이 있습니다. 이를 '역전 저주(Reversal Curse)'라 부릅니다. 예를 들어, 'A의 어머니는 B이다'를 학습한 모델이 'B의 자녀는 누구인가?'라는 역방향 질문에는 답하지 못할 수 있습니다. 이는 모델이 사실을 대칭적 지식으로 저장하는 것이 아니라, 학습 데이터에 등장한 순서에 민감한 패턴으로 습득하기 때문입니다. 이 현상은 LLM의 추론 능력에 근본적인 한계가 있음을 시사하며, 지식 검색·추론 파이프라인 설계 및 평가 방식에 중요한 시사점을 제공합니다."
+      "category": "Java",
+      "title": "Java News Roundup: JobRunr 9, OpenXava 8, Quarkus, LangChain4j, JNoSQL, Introducing Lathe",
+      "link": "https://www.infoq.com/news/2026/10/java-news-roundup-sep28-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "2026년 9월 28일자 Java 뉴스 라운드업으로, JobRunr 9.0과 OpenXava 8.0의 GA 릴리스를 비롯해 Quarkus, Micronaut, LangChain4j, Eclipse JNoSQL의 포인트 릴리스 등 주요 소식이 담겼습니다.",
+      "detail": "JobRunr 9.0은 Java 기반 비동기 백그라운드 작업 처리 라이브러리의 새 메이저 버전으로, 성능 개선과 새 기능이 포함되었습니다. OpenXava 8.0은 Java 로우코드 플랫폼의 주요 업데이트입니다. Quarkus와 Micronaut도 포인트 릴리스로 안정성을 높였으며, LangChain4j와 Eclipse JNoSQL도 업데이트되었습니다. ADK(Agent Development Kit) for Java가 공개되었고, 새로운 프레임워크 Lathe도 소개되었습니다. Java AI 통합 생태계가 빠르게 성숙하고 있음을 보여주는 라운드업입니다."
+    },
+    {
+      "category": "Java",
+      "title": "Discontinuing Swift Language IDE Support in the Kotlin Multiplatform Plugin",
+      "link": "https://blog.jetbrains.com/kotlin/2026/10/discontinuing-swift-language-ide-support-in-the-kotlin-multiplatform-plugin/",
+      "summary": "JetBrains가 IntelliJ IDEA 2026.3 및 Android Studio Rabbit 2부터 Kotlin Multiplatform 플러그인의 Swift 언어 IDE 지원을 종료한다고 발표했습니다.",
+      "detail": "IntelliJ IDEA 2026.3 및 Android Studio Rabbit 2 | 2026.2.2부터 KMP 플러그인에서 Swift 언어 편집, 구문 강조, 탐색 등 IDE 기능이 제거됩니다. Swift 지원의 복잡성 대비 실제 사용률이 낮고 유지 관리 비용이 높다는 것이 주된 이유입니다. Swift 코드 작성은 계속 Xcode를 통해 이루어지며, KMP 프로젝트에서 iOS 개발 시 Swift 소스는 Xcode에서 관리하는 방식이 권장됩니다. 이 변경은 JetBrains가 KMP 핵심 기능 개발에 집중하기 위한 전략적 결정으로 해석됩니다."
     },
     {
       "category": "AI",
-      "title": "Pizza Bot: Open-Source Inbox for Background AI Agents",
-      "link": "https://www.infoq.com/news/2026/10/pizza-bot-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "AWS 개발자들이 오픈소스로 공개한 Pizza Bot은 백그라운드에서 실행되는 AI 에이전트를 위한 자체 호스팅 이메일 수신함 솔루션입니다.",
-      "detail": "AWS 팀 개발자들이 오픈소스로 공개한 Pizza Bot은 AI 에이전트가 백그라운드에서 비동기 작업을 처리하는 동안 이메일 기반 인터랙션 채널을 제공하는 자체 호스팅 애플리케이션입니다. 에이전트가 장시간 실행되는 작업을 수행할 때 사용자가 실시간으로 연결되어 있지 않아도 이메일을 통해 작업 진행 상황을 받아보고 에이전트와 상호작용할 수 있습니다. 자체 호스팅을 지원하여 데이터 프라이버시와 시스템 제어권을 유지할 수 있으며, 백그라운드 에이전트 워크플로우를 실무에 적용하려는 개발자들에게 유용한 오픈소스 기반 인프라를 제공합니다."
+      "title": "Akka Tests Spec-Driven AI Delivery Across 65 Open Source Projects",
+      "link": "https://www.infoq.com/news/2026/10/ai-spec-driven-delivery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Akka가 65개 오픈소스 프로젝트를 대상으로 사양 기반 AI 소프트웨어 전달 방식을 실험하여, 사양 구조와 컨텍스트·모델 선택·자동화 검증이 AI 지원 마이그레이션 품질에 미치는 영향을 정량적으로 측정했습니다.",
+      "detail": "이 실험은 AI를 활용한 코드 포팅 작업에서 사양(specification) 문서의 구조가 결과물 품질에 얼마나 중요한지를 검증했습니다. 65개 오픈소스 프로젝트를 통해 시간, 토큰 사용량, 성공률을 측정했으며, 잘 구조화된 사양, 충분한 컨텍스트 제공, 적절한 모델 선택, 자동화된 검증 단계가 AI 지원 개발의 품질을 결정짓는 핵심 요소임을 확인했습니다. 특히 guardrail 설정과 반복적 검증 루프가 AI 생성 코드의 정확도를 높이는 데 중요한 역할을 했으며, 이 연구는 엔터프라이즈 AI 도입 전략 수립에 실증적 근거를 제공합니다."
+    },
+    {
+      "category": "AI",
+      "title": "Article: The Platform Engineering Playbook for Production LLMs",
+      "link": "https://www.infoq.com/articles/platform-engineering-playbook-production-llms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "AI 에이전트 할루시네이션 문제를 플랫폼 엔지니어링 관점에서 해결한 경험을 바탕으로, 프로덕션 LLM 운영을 위한 실전 플레이북을 제시합니다.",
+      "detail": "저자는 재고 추천 시스템에서 AI 에이전트 할루시네이션을 경험한 후, LLM 스택을 단순 API 호출이 아닌 플랫폼 인프라 차원에서 관리해야 한다는 결론에 도달했습니다. 프로덕션 LLM 플레이북의 핵심 요소로는 모델 라우팅 레이어, 프롬프트 버전 관리, 출력 검증 파이프라인, 관찰 가능성(observability) 통합이 제시됩니다. 플랫폼 팀이 LLM 인프라를 표준화함으로써 개발팀이 비즈니스 로직에 집중할 수 있는 환경을 만드는 것이 핵심이며, 이는 ML 플랫폼 성숙도 모델의 LLM 버전으로 볼 수 있습니다."
     },
     {
       "category": "Agents",
-      "title": "How to Govern AI Agents",
-      "link": "https://towardsdatascience.com/how-to-govern-ai-agents/",
-      "summary": "단일 에이전트 관리부터 대규모 에이전트 플릿 운영까지 AI 에이전트를 효과적으로 거버넌스하는 방법론을 다룬 글입니다.",
-      "detail": "AI 에이전트의 자율성이 높아짐에 따라 이를 안전하고 효과적으로 제어하는 거버넌스 체계의 중요성이 커지고 있습니다. 이 글은 단일 에이전트를 감독하는 기본 접근법부터 다수의 에이전트로 구성된 플릿(fleet) 전체를 통제하는 전략까지 폭넓게 다룹니다. 에이전트의 행동 범위를 제한하는 가드레일 설계, 에이전트 간 통신 프로토콜 관리, 감사 및 모니터링 체계 구축 등의 핵심 요소를 설명합니다. 멀티에이전트 시스템이 복잡해질수록 명확한 권한 경계와 관찰 가능성(observability) 확보가 필수적임을 강조하며, 실무 적용 가능한 거버넌스 프레임워크를 제시합니다."
+      "title": "Building an Enterprise AI Customer Support Platform with Claude Fable 5.1 and Claude Code",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/build-enterprise-ai-agent-claude-fable-5-1/",
+      "summary": "Claude Fable 5.1과 Claude Code를 활용하여 불만 조사, 지식베이스 검색, 자동 에스컬레이션 기능을 갖춘 엔터프라이즈 고객 지원 플랫폼을 구축하는 방법을 단계별로 소개합니다.",
+      "detail": "일반적인 챗봇 수준을 넘어, 실제 기업 환경에서 요구되는 복잡한 AI 에이전트 시스템을 Claude Fable 5.1로 구현하는 과정을 다룹니다. 고객 불만 접수 및 우선순위 자동 분류, 내부 지식베이스 연동을 통한 답변 생성, 복잡한 케이스 자동 에스컬레이션, 처리 이력 추적 기능을 포함합니다. Claude Code를 활용해 개발 속도를 높이고 엔터프라이즈 수준의 감사 추적(audit trail)과 안전성을 갖춘 시스템을 설계하는 아키텍처 패턴을 중심으로 프로덕션 배포 준비가 된 구현을 목표로 합니다."
+    },
+    {
+      "category": "Agents",
+      "title": "langgraph==1.2.13",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
+      "summary": "LangGraph 1.2.13이 출시되어 체크포인트 관리, 브랜치 격리, 델타 채널 처리 관련 여러 버그가 수정되었습니다.",
+      "detail": "이번 릴리스(1.2.12 대비)는 순수 버그 수정에 집중했습니다. 주요 수정 사항: (1) 스레드가 지나친 업데이트 체크포인트 재생 전 포크(fork) 처리 수정 (#9170), (2) 구버전 체크포인트에서 update_state 시 다른 브랜치로의 상태 누출 방지 (#9165), (3) 모든 update_state 경로에서 델타 채널 카운터 유지, (4) 한 번도 쓰이지 않은 DeltaChannel의 불필요한 히스토리 탐색 제거, (5) 포기된 브랜치가 DeltaChannel 포크로 잘못 재생되는 오류 수정, (6) 서브그래프 델타 채널 하이드레이션 개선, (7) get_state에서 응답된 인터럽트가 잘못 보고되던 문제 수정. notebook, tornado, PyJWT, urllib3 보안 의존성도 업데이트되었습니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "Presentation: Building Reusable Evaluation Frameworks for Agentic AI Products",
+      "link": "https://www.infoq.com/presentations/elastic-ai-agent-evaluations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Elastic의 Susan Chang이 AI 에이전트 평가를 임시방편적 접근에서 재사용 가능한 프로덕션급 통합 프레임워크로 전환한 경험을 공유했습니다.",
+      "detail": "Elastic은 팀마다 별도로 운영되던 AI 에이전트 평가 방식을 하나의 통합 프레임워크로 전환했습니다. LLM-as-a-judge 방식과 결정론적 규칙의 균형을 맞추는 방법, Python 데이터 사이언스와 프로덕션 시스템 간의 격차를 해소하는 방법을 중점적으로 다룹니다. 재사용 가능한 평가 컴포넌트를 설계하여 여러 팀이 동일한 인프라를 사용할 수 있게 함으로써 에이전트 품질에 대한 조직 전반의 일관된 기준을 수립했습니다. 에이전트 AI 시스템의 신뢰성을 확보하기 위한 실용적인 아키텍처 접근법을 제시합니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "Cloudflare Fixes Cross-Tenant Data Exposure in Containers",
+      "link": "https://www.infoq.com/news/2026/10/cloudflare-cross-tenant-exposure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Cloudflare가 컨테이너 및 샌드박스 서비스에서 씬 프로비저닝된 스토리지가 블록 재사용 시 제로화를 생략해 발생한 테넌트 간 데이터 노출 취약점을 공개하고 수정했습니다.",
+      "detail": "Cloudflare 컨테이너 및 샌드박스 서비스에서 씬 프로비저닝된 스토리지 풀이 재사용 블록을 제로화하지 않도록 구성된 취약점이 발견되었습니다. 이를 통해 연구자들은 이전 테넌트의 디렉터리 구조와 파일 일부를 복구할 수 있었습니다. Cloudflare는 즉시 이 문제를 공개하고 모든 재사용 블록에 대한 제로화를 적용하는 방식으로 수정했습니다. 이 사례는 멀티 테넌트 클라우드 환경에서 스토리지 격리와 블록 재사용 정책의 중요성을 상기시켜 주며, 컨테이너 보안 설계 시 스토리지 레이어까지 검토해야 함을 보여줍니다."
     },
     {
       "category": "Python",
-      "title": "Strings and Character Data in Python",
-      "link": "https://realpython.com/python-strings/",
-      "summary": "Python에서 문자열 데이터를 다루는 연산자, 함수, 메서드를 포괄적으로 정리한 Real Python의 심화 가이드입니다.",
-      "detail": "Real Python이 제공하는 이 가이드는 Python 문자열의 기초부터 실무 활용까지를 체계적으로 설명합니다. 문자열 리터럴 정의, str() 함수 사용법, 연결(concatenation), 인덱싱, 슬라이싱 등의 기본 연산을 다루며, split(), join(), strip(), replace(), find() 등 자주 사용하는 내장 메서드도 상세히 소개합니다. f-string과 format() 메서드를 활용한 문자열 포맷팅, 유니코드 지원 및 인코딩 처리 방법도 포함합니다. Python 문자열이 불변(immutable) 시퀀스 타입임을 이해하고, 효율적인 문자열 처리 패턴을 익히는 데 도움이 되는 실용적인 참고 자료입니다."
-    },
-    {
-      "category": "Python",
-      "title": "How to Install Python on Your System: A Guide",
-      "link": "https://realpython.com/installing-python/",
-      "summary": "Windows, macOS, Linux 등 주요 운영체제에서 Python을 설치하는 방법과 버전 확인, 최적 설치 방법 선택 기준을 안내합니다.",
-      "detail": "Real Python이 제공하는 이 설치 가이드는 다양한 운영체제에서 Python을 올바르게 설치하는 방법을 상세히 설명합니다. Windows에서는 공식 인스톨러와 Microsoft Store 설치 방식의 차이를 비교하고, macOS에서는 Homebrew를 이용한 설치 방법을 권장합니다. Linux에서는 apt, yum 등 패키지 관리자를 통한 설치와 소스 컴파일 옵션도 다룹니다. 설치 후 버전 확인 방법, PATH 환경변수 설정, 가상환경(venv) 기초 개념까지 포함하여 Python 개발 환경을 처음 구성하는 모든 개발자에게 유용한 출발점을 제공합니다."
+      "title": "Python 3.15 Gets a Surprise RC3 and Other Python News for October 2026",
+      "link": "https://realpython.com/python-news-october-2026/",
+      "summary": "Python 3.15가 예상치 못한 세 번째 릴리스 후보(RC3)를 배포했으며, 최초의 패키징 위원회 선출, Polars 2.0과 SQLAlchemy 2.1 출시 등 굵직한 소식이 이어졌습니다.",
+      "detail": "Python 3.15가 RC3을 배포하며 정식 출시가 임박했음을 알렸습니다. 파이썬 패키징 거버넌스 강화를 위한 최초의 패키징 위원회가 공식 출범했습니다. 고성능 데이터프레임 라이브러리 Polars 2.0과 ORM 라이브러리 SQLAlchemy 2.1이 각각 새 메이저 버전을 출시했습니다. AI API 변경으로 기존 Python 코드가 깨지는 이슈도 주목받았습니다. 파이썬 생태계 전반에 걸쳐 버전 업그레이드와 거버넌스 강화가 동시에 진행되고 있음을 보여주는 월간 요약입니다."
     },
     {
       "category": "DataScience",
-      "title": "A plan to replicate the Loftus and Palmer (1974) experiment on false memories",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/04/a-plan-to-replicate-the-loftus-and-palmer-1974-on-false-memories/",
-      "summary": "Loftus & Palmer(1974) 허위 기억 실험을 재현하기 위한 통계적 실험 설계 계획을 소개하는 Statistical Modeling 블로그 글입니다.",
-      "detail": "Andrew Gelman의 Statistical Modeling 블로그에서 Rolf Zwaan이 소개한 Loftus & Palmer(1974) 실험 재현 계획을 다룹니다. 원 실험은 교통사고 목격자가 사용한 동사에 따라 기억된 속도 추정치가 달라진다는 것을 보여준 고전적 연구입니다. 재현 계획은 현대적 통계 방법론을 적용하여 원 실험 결과의 재현 가능성을 검증하는 것을 목표로 하며, 충분한 통계 검정력을 확보하기 위한 표본 크기 계산, 사전 등록(pre-registration), 실험 조건 통제 등 재현 연구의 핵심 방법론을 논의합니다. 연구 재현성과 통계적 신뢰도에 관심 있는 데이터 과학자에게 유용한 사례 연구입니다."
+      "title": "Bayesian Workflow code is at the Bayesian Workflow website!",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/05/bayesian-workflow-code-is-at-the-bayesian-workflow-website/",
+      "summary": "베이지안 워크플로 교재의 실행 가능한 코드 예제들이 공식 웹사이트에 공개되어, 책의 각 예제를 직접 실행·실험해볼 수 있는 생태계가 갖추어졌습니다.",
+      "detail": "무료 PDF로 제공되던 'Bayesian Workflow' 교재의 실제 동작 코드 예제들이 공식 웹사이트에 공개되었습니다. 교재는 각 분석 예제를 신중하고 세밀하게 다루며, 독자들이 단순히 읽는 것을 넘어 베이지안 통계 모델링의 실제 구현을 단계별로 실행하고 실험할 수 있게 되었습니다. Stan, PyMC 등 베이지안 도구를 활용한 완전한 워크플로 예제들이 포함되어 있어, 통계 모델링을 배우거나 실무에 적용하려는 데이터 과학자들에게 특히 유용한 리소스입니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "3 Statsmodels Tricks for Time Series Analysis & Forecasting",
+      "link": "https://www.kdnuggets.com/3-statsmodels-tricks-for-time-series-analysis-forecasting",
+      "summary": "statsmodels 피팅 모델 객체에서 단순 예측값 이상의 다양한 정보를 시계열 분석과 예측에 활용하는 세 가지 실용적 기법을 소개합니다.",
+      "detail": "statsmodels의 피팅된 모델 객체에는 단순 예측값 외에도 통계 검정 결과, 잔차 진단, 신뢰 구간 등 풍부한 정보가 담겨 있습니다. 이 글은 시계열 분석에서 일반적으로 간과되는 이 정보들을 최대한 활용하는 세 가지 실용 기법을 다룹니다. 기본 예측을 넘어 모델 진단, 이상치 탐지, 불확실성 정량화 등 더 풍부한 시계열 인사이트를 얻는 방법을 코드 예제와 함께 설명하며, 실무 데이터 과학자가 statsmodels를 더 효과적으로 활용할 수 있도록 안내합니다."
     }
   ]
 }
