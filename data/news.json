@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-06T11:46:21+09:00",
-  "count": 955,
+  "updated": "2026-10-06T18:54:12+09:00",
+  "count": 956,
   "items": [
+    {
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "link": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791269079,
+      "published": "2026-10-06T06:44:39+00:00",
+      "collected_at": "2026-10-06T18:54:00+09:00"
+    },
+    {
+      "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+      "link": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "A small win for US open source",
+      "ts": 1791268123,
+      "published": "2026-10-06T06:28:43+00:00",
+      "collected_at": "2026-10-06T18:54:00+09:00"
+    },
     {
       "title": "CLAI2 bleeding",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/clai2-bleeding",
@@ -11,6 +31,46 @@
       "ts": 1791253747,
       "published": "2026-10-06T02:29:07+00:00",
       "collected_at": "2026-10-06T11:45:56+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects",
+      "link": "https://inside.java/2026/10/06/jep542-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects",
+      "ts": 1791244800,
+      "published": "2026-10-06T00:00:00+00:00",
+      "collected_at": "2026-10-06T18:54:00+09:00"
+    },
+    {
+      "title": "Run Java in the Browser with TeaVM",
+      "link": "https://foojay.io/today/java-in-the-browser-with-teavm/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Build an editable Java example with TeaVM, React, and Vite, then explore the environment available to Java in the browser.",
+      "ts": 1791244800,
+      "published": "2026-10-06T00:00:00+00:00",
+      "collected_at": "2026-10-06T18:54:00+09:00"
+    },
+    {
+      "title": "Featured Foojay Authors for October 2026: Bazlur Rahman and Nicolas Fränkel",
+      "link": "https://foojay.io/today/featured-foojay-authors-for-october-2026/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Our Featured Authors for October are Bazlur Rahman and Nicolas Fränkel. Here is what they write about, and where to start reading.",
+      "ts": 1791244800,
+      "published": "2026-10-06T00:00:00+00:00",
+      "collected_at": "2026-10-06T18:54:00+09:00"
+    },
+    {
+      "title": "Building a Code Editor Control in JavaFX",
+      "link": "https://foojay.io/today/building-a-javafx-code-editor-control/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A look inside a custom JavaFX Control/Skin implementation of a code-editor component: virtualized line numbers, keyword highlighting, bracket matching, multi-cursor editing, undo/redo, and autocomplete.",
+      "ts": 1791244800,
+      "published": "2026-10-06T00:00:00+00:00",
+      "collected_at": "2026-10-06T18:54:00+09:00"
     },
     {
       "title": "Quoting Felix Rieseberg",
@@ -9501,56 +9561,6 @@
       "ts": 1788696000,
       "published": "2026-09-06T12:00:00+00:00",
       "collected_at": "2026-09-06T21:42:42+09:00"
-    },
-    {
-      "title": "There's No Limit to How Bad Code Can Get",
-      "link": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "My comment on There's No Limit to How Bad Code Can Get — Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to…",
-      "ts": 1788685686,
-      "published": "2026-09-06T09:08:06+00:00",
-      "collected_at": "2026-09-07T06:11:05+09:00"
-    },
-    {
-      "title": "An Alien Mind",
-      "link": "https://openai.com/index/an-alien-mind",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.",
-      "ts": 1788685200,
-      "published": "2026-09-06T09:00:00+00:00",
-      "collected_at": "2026-09-07T03:56:24+09:00"
-    },
-    {
-      "title": "Quoting Zach Kehs",
-      "link": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in perform…",
-      "ts": 1788684169,
-      "published": "2026-09-06T08:42:49+00:00",
-      "collected_at": "2026-09-06T21:42:42+09:00"
-    },
-    {
-      "title": "Research acceleration: The view inside OpenAI",
-      "link": "https://openai.com/index/research-acceleration-view-inside-openai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.",
-      "ts": 1788681600,
-      "published": "2026-09-06T08:00:00+00:00",
-      "collected_at": "2026-09-07T01:02:36+09:00"
-    },
-    {
-      "title": "How Figma Uses AI Agents for Security",
-      "link": "https://www.infoq.com/news/2026/09/figma-security-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The engineering team at software company Figma recently documented how they built AI agents to help their security team investigate alerts, search past incidents, check company systems, and even prepare code fixes. The…",
-      "ts": 1788677940,
-      "published": "2026-09-06T06:59:00+00:00",
-      "collected_at": "2026-09-06T17:29:37+09:00"
     }
   ]
 }
