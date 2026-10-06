@@ -1,7 +1,207 @@
 {
-  "updated": "2026-10-06T18:54:12+09:00",
-  "count": 956,
+  "updated": "2026-10-07T01:35:02+09:00",
+  "count": 969,
   "items": [
+    {
+      "title": "v5.19.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.19.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Add tag v5.19.0",
+      "ts": 1791303750,
+      "published": "2026-10-06T16:22:30+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "How I Use AI to Learn New Topics Faster: An AI-Assisted Learning Framework",
+      "link": "https://towardsdatascience.com/how-i-use-ai-to-learn-new-topics-faster-an-ai-assisted-learning-framework/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A practical framework for turning AI into a thinking partner The post How I Use AI to Learn New Topics Faster: An AI-Assisted Learning Framework appeared first on Towards Data Science .",
+      "ts": 1791300600,
+      "published": "2026-10-06T15:30:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Scrimshaw Jukebox",
+      "link": "https://simonwillison.net/2026/Oct/6/scrimshaw-jukebox/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Scrimshaw Jukebox I wanted to see if Claude Opus 5.5 could compose music, so I tried this : I want you to write some computer game music for me. First design simple text based format for the music and build an art…",
+      "ts": 1791299859,
+      "published": "2026-10-06T15:17:39+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "langgraph==1.2.14",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.14",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.13 release(langgraph): 1.2.14 ( #9215 )",
+      "ts": 1791297697,
+      "published": "2026-10-06T14:41:37+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.6",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.6",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.5 release(sdk-py): 0.4.6 ( #9214 ) fix(sdk-py): percent-encode thread_id and assistant_id in thread stream requests ( #9213 ) release(langgraph): 1.2.13 ( #9205 ) chore(deps): bump the minor-and-p…",
+      "ts": 1791296288,
+      "published": "2026-10-06T14:18:08+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "JEV vs LLM as a Judge: The AI Evaluation Comparison",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/jev-vs-llm-as-a-judge-evals/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Many teams now use LLM-as-a-Judge to check AI answers, especially when exact-match tests fail for long or open-ended responses. But every judgement adds cost, delay, and possible bias, making this hard to scale. Jev, a…",
+      "ts": 1791296129,
+      "published": "2026-10-06T14:15:29+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Hey—we’re hiring two postdocs!",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/06/hey-were-hiring-two-postdocs/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I’ll post more formal ads soon, but, very briefly: One project is on generalization for causal inference with a focus on education research, following up on MRPW: Regression, poststratification, and small-area estimatio…",
+      "ts": 1791295671,
+      "published": "2026-10-06T14:07:51+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Who Pays for AI Data Centers?",
+      "link": "https://www.kdnuggets.com/who-pays-for-ai-data-centers",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "The fight is usually framed as whether data centers get built. The harder question underneath it is \"who pays and who decides?\" The costs are intertwined.",
+      "ts": 1791295220,
+      "published": "2026-10-06T14:00:20+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Exploring the MVC Pattern in Python",
+      "link": "https://realpython.com/courses/exploring-mvc-pattern-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how the Model-View-Controller pattern organizes Python web apps, then build a small Flask app using models, views, and controllers.",
+      "ts": 1791295200,
+      "published": "2026-10-06T14:00:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "A Google Team Measured Half of My Argument, and Left the Other Half Open",
+      "link": "https://towardsdatascience.com/a-google-team-measured-half-of-my-argument-and-left-the-other-half-open/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Towards Spec-Driven Test Automation: Part 3 The post A Google Team Measured Half of My Argument, and Left the Other Half Open appeared first on Towards Data Science .",
+      "ts": 1791295200,
+      "published": "2026-10-06T14:00:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "How to Make a Cloud Read a Drone's Mind (and Cut Data Usage by 94%)",
+      "link": "https://towardsdatascience.com/how-to-make-a-cloud-read-a-drones-mind-and-cut-data-usage-by-94/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Two copies of one small AI model keep a remote machine in sync with the cloud, with no constant streaming. A beginner-friendly world model tutorial in PyTorch. The post How to Make a Cloud Read a Drone's Mind (and Cut D…",
+      "ts": 1791289800,
+      "published": "2026-10-06T12:30:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Quiz: Exploring the MVC Pattern in Python",
+      "link": "https://realpython.com/quizzes/exploring-mvc-pattern-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of the Model-View-Controller pattern and how models, views, and controllers work together in a small Flask app.",
+      "ts": 1791288000,
+      "published": "2026-10-06T12:00:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Quiz: Using pandas and Python to Explore Your Dataset",
+      "link": "https://realpython.com/quizzes/pandas-python-explore-dataset/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore a dataset with pandas: load a CSV, select rows and columns, query and group your data, handle missing values, and plot what you find.",
+      "ts": 1791288000,
+      "published": "2026-10-06T12:00:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "5 Best Practices for Building Robust Python AI Libraries",
+      "link": "https://www.kdnuggets.com/5-best-practices-for-building-robust-python-ai-libraries",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "This article covers building robust Python AI libraries specifically, Python AI SDK best practices, and what separates a production-ready AI package from one that only survives in its own demo.",
+      "ts": 1791288000,
+      "published": "2026-10-06T12:00:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Synchronous vs. Asynchronous Agent Execution: Architecture Patterns for Production",
+      "link": "https://machinelearningmastery.com/synchronous-vs-asynchronous-agent-execution-architecture-patterns-for-production/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how synchronous and asynchronous execution patterns differ architecturally, and how to choose between them when deploying LLM-based agents to...",
+      "ts": 1791284455,
+      "published": "2026-10-06T11:00:55+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "I Hid Four Traps in a Forecasting Task. Here Is What Four AI Assistants Did.",
+      "link": "https://towardsdatascience.com/i-hid-four-traps-in-a-forecasting-task-here-is-what-four-ai-assistants-did/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A controlled test of Gemini, DeepSeek, ChatGPT, and Claude on leakage, reporting delays, promotion effects, and structural breaks. The post I Hid Four Traps in a Forecasting Task. Here Is What Four AI Assistants Did. ap…",
+      "ts": 1791284400,
+      "published": "2026-10-06T11:00:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "QCon London 2027 Announces 15 Tracks on Production AI, Architecture, and Engineering at Scale",
+      "link": "https://www.infoq.com/news/2026/10/qconlondon-2027-track/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "A preview of the 15-track QCon London 2027 program, covering agent evaluation and guardrails, AI-era architecture, distributed-system debugging, modern data platforms, high-performance engineering, and Staff+ leadership…",
+      "ts": 1791280800,
+      "published": "2026-10-06T10:00:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "QCon London 2027 Announces 15 Tracks on Production AI, Architecture, and Engineering at Scale",
+      "link": "https://www.infoq.com/news/2026/10/qconlondon-2027-track/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "A preview of the 15-track QCon London 2027 program, covering agent evaluation and guardrails, AI-era architecture, distributed-system debugging, modern data platforms, high-performance engineering, and Staff+ leadership…",
+      "ts": 1791280800,
+      "published": "2026-10-06T10:00:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Presentation: Building Resilient Platforms: Insights from 20+ Years in Mission-Critical Infrastructure",
+      "link": "https://www.infoq.com/presentations/infrastructure-financial-services-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Matthew Liste explains the 12 core principles of building scalable, reliable platforms for enterprise tech teams. From avoiding technical debt and managing deprecation to building a strong engineering culture, Liste dis…",
+      "ts": 1791280740,
+      "published": "2026-10-06T09:59:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Anthropic Subscriptions Offer 5x+ More Value Than OpenAI",
+      "link": "https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x Comments URL: https://news.ycombinator.com/item?id=49975345 Points: 75 # Comments: 85",
+      "ts": 1791271790,
+      "published": "2026-10-06T07:29:50+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
+    },
     {
       "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
       "link": "https://huggingface.co/blog/tiiuae/falcon-emirati",
@@ -71,6 +271,16 @@
       "ts": 1791244800,
       "published": "2026-10-06T00:00:00+00:00",
       "collected_at": "2026-10-06T18:54:00+09:00"
+    },
+    {
+      "title": "This Week in Spring - October 6th, 2026",
+      "link": "https://spring.io/blog/2026/10/06/this-week-in-spring-october-6th-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! It's another exciting week in the wonderful community, and this week I'm writing from awesome Antwerp, Belgium, site of the legendary Devoxx Belgium show. I've been coming here for most years since 2010…",
+      "ts": 1791244800,
+      "published": "2026-10-06T00:00:00+00:00",
+      "collected_at": "2026-10-07T01:34:56+09:00"
     },
     {
       "title": "Quoting Felix Rieseberg",
@@ -9481,86 +9691,6 @@
       "ts": 1788739060,
       "published": "2026-09-06T23:57:40+00:00",
       "collected_at": "2026-09-07T09:16:02+09:00"
-    },
-    {
-      "title": "v2.5.3",
-      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.3",
-      "source": "NumPy",
-      "category": "DataScience",
-      "summary": "NumPy 2.5.3 release",
-      "ts": 1788707006,
-      "published": "2026-09-06T15:03:26+00:00",
-      "collected_at": "2026-09-07T01:02:36+09:00"
-    },
-    {
-      "title": "The purpose of DNS is to spread scams",
-      "link": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingl…",
-      "ts": 1788705607,
-      "published": "2026-09-06T14:40:07+00:00",
-      "collected_at": "2026-09-07T01:02:36+09:00"
-    },
-    {
-      "title": "Text Watermarking in Python: Catch Whoever Copies Your Writing",
-      "link": "https://towardsdatascience.com/text-watermarking-in-python-catch-whoever-copies-your-writing/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "AI companies quietly watermark billions of words a day. Here’s how to apply the same three families of techniques to your own writing—and what real experiments reveal about which watermarks survive copy-paste, editing,…",
-      "ts": 1788703201,
-      "published": "2026-09-06T14:00:01+00:00",
-      "collected_at": "2026-09-07T01:02:36+09:00"
-    },
-    {
-      "title": "Does anyone have a lower Jordan3 number than Evans Boney? (And what about the Ariely-Armstrong-Enron number?)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/06/does-anyone-have-lower-jordan3-number-than-evans-boney/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "From last year’s post, What’s your Jordan3 number?: In the discussion of our post, Who has the lowest Erdos-Bacon-Epstein number? (the winner appears to be the mathematician Daniel Kleitman, my freshman-year academic ad…",
-      "ts": 1788701051,
-      "published": "2026-09-06T13:24:11+00:00",
-      "collected_at": "2026-09-07T01:02:36+09:00"
-    },
-    {
-      "title": "Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset",
-      "link": "https://towardsdatascience.com/linear-discriminant-analysis-lda-in-real-life-dimensionality-reduction-in-a-real-estate-dataset/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Using LDA for dimensionality reduction in classification problems The post Linear Discriminant Analysis (LDA) in Real-Life: Dimensionality Reduction in a Real-Estate Dataset appeared first on Towards Data Science .",
-      "ts": 1788696002,
-      "published": "2026-09-06T12:00:02+00:00",
-      "collected_at": "2026-09-06T21:42:42+09:00"
-    },
-    {
-      "title": "Google Mantis: An Agentic Vulnerability Scanning Harness for Reducing False Positives",
-      "link": "https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google has open-sourced Mantis, an AI-agent framework designed to automate the software vulnerability lifecycle, from identifying and validating vulnerabilities to reproducing and fixing them. Google says it developed M…",
-      "ts": 1788696000,
-      "published": "2026-09-06T12:00:00+00:00",
-      "collected_at": "2026-09-06T21:42:42+09:00"
-    },
-    {
-      "title": "Google Mantis: An Agentic Vulnerability Scanning Harness for Reducing False Positives",
-      "link": "https://www.infoq.com/news/2026/09/google-mantis-vulnerability-scan/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Google has open-sourced Mantis, an AI-agent framework designed to automate the software vulnerability lifecycle, from identifying and validating vulnerabilities to reproducing and fixing them. Google says it developed M…",
-      "ts": 1788696000,
-      "published": "2026-09-06T12:00:00+00:00",
-      "collected_at": "2026-09-06T21:42:42+09:00"
-    },
-    {
-      "title": "Quiz: Understanding the Python Traceback",
-      "link": "https://realpython.com/quizzes/python-traceback/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of Python tracebacks. Practice reading the error message line, recognizing common exceptions, and logging a traceback.",
-      "ts": 1788696000,
-      "published": "2026-09-06T12:00:00+00:00",
-      "collected_at": "2026-09-06T21:42:42+09:00"
     }
   ]
 }
