@@ -1,7 +1,67 @@
 {
-  "updated": "2026-10-07T10:16:25+09:00",
-  "count": 986,
+  "updated": "2026-10-07T17:19:56+09:00",
+  "count": 988,
   "items": [
+    {
+      "title": "Cloudflare Uses an AI Harness to Probe and Harden Its WAF",
+      "link": "https://www.infoq.com/news/2026/10/cloudflare-sec-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare placed frontier AI models inside a controlled testing harness to probe its Web Application Firewall (WAF), using blocked attacks as starting points for models to generate and refine new variations. By Matt Fo…",
+      "ts": 1791357660,
+      "published": "2026-10-07T07:21:00+00:00",
+      "collected_at": "2026-10-07T17:19:44+09:00"
+    },
+    {
+      "title": "Cloudflare Uses an AI Harness to Probe and Harden Its WAF",
+      "link": "https://www.infoq.com/news/2026/10/cloudflare-sec-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare placed frontier AI models inside a controlled testing harness to probe its Web Application Firewall (WAF), using blocked attacks as starting points for models to generate and refine new variations. By Matt Fo…",
+      "ts": 1791357660,
+      "published": "2026-10-07T07:21:00+00:00",
+      "collected_at": "2026-10-07T17:19:44+09:00"
+    },
+    {
+      "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
+      "link": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Our head hurts.",
+      "ts": 1791348944,
+      "published": "2026-10-07T04:55:44+00:00",
+      "collected_at": "2026-10-07T17:19:44+09:00"
+    },
+    {
+      "title": "Quoting Jake Boggan",
+      "link": "https://simonwillison.net/2026/Oct/7/jake-boggan/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I was a graph theory junkie long ago and even moved to Budapest for awhile to study among the greats. While I was there I started working on Barnette's Conjecture which came to occupy my thoughts over the next 24 years…",
+      "ts": 1791348475,
+      "published": "2026-10-07T04:47:55+00:00",
+      "collected_at": "2026-10-07T17:19:44+09:00"
+    },
+    {
+      "title": "Spanner Omni Reaches GA, Replacing Google's Atomic Clocks and File System with Software",
+      "link": "https://www.infoq.com/news/2026/10/spanner-omni-deploy-anywhere-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google has made Spanner Omni generally available, running its distributed SQL database on-premises, across clouds or on a laptop. Doing so meant replacing Colossus with a Colossus-like abstraction layer and TrueTime wit…",
+      "ts": 1791348180,
+      "published": "2026-10-07T04:43:00+00:00",
+      "collected_at": "2026-10-07T17:19:44+09:00"
+    },
+    {
+      "title": "Spanner Omni Reaches GA, Replacing Google's Atomic Clocks and File System with Software",
+      "link": "https://www.infoq.com/news/2026/10/spanner-omni-deploy-anywhere-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google has made Spanner Omni generally available, running its distributed SQL database on-premises, across clouds or on a laptop. Doing so meant replacing Colossus with a Colossus-like abstraction layer and TrueTime wit…",
+      "ts": 1791348180,
+      "published": "2026-10-07T04:43:00+00:00",
+      "collected_at": "2026-10-07T17:19:44+09:00"
+    },
     {
       "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
       "link": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
@@ -51,6 +111,16 @@
       "ts": 1791331136,
       "published": "2026-10-06T23:58:56+00:00",
       "collected_at": "2026-10-07T10:16:20+09:00"
+    },
+    {
+      "title": "South Korea says AI agents appear to have been used to hack the country's banks",
+      "link": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/ Comments URL: https://news.ycombinator.com/item?id=49985861 Points: 73 # Comments: 16",
+      "ts": 1791330633,
+      "published": "2026-10-06T23:50:33+00:00",
+      "collected_at": "2026-10-07T17:19:44+09:00"
     },
     {
       "title": "llm-openai-decisions 0.1a0",
@@ -9811,56 +9881,6 @@
       "ts": 1788770336,
       "published": "2026-09-07T08:38:56+00:00",
       "collected_at": "2026-09-07T18:07:23+09:00"
-    },
-    {
-      "title": "Bringing Raspberry Pico to Quarkus with Firmata",
-      "link": "https://foojay.io/today/bringing-raspberry-pico-to-quarkus-with-firmata/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Java applications are usually associated with APIs, databases, messaging systems, and cloud infrastructure. But Java can also interact with the physical world—reading sensors, controlling LEDs, driving motors, and commu…",
-      "ts": 1788761202,
-      "published": "2026-09-07T06:06:42+00:00",
-      "collected_at": "2026-09-07T18:07:23+09:00"
-    },
-    {
-      "title": "Build an AI Agent (From Scratch)",
-      "link": "https://foojay.io/today/build-an-ai-agent-from-scratch/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "This review is about Build an AI Agent (From Scratch) by Jungjun Hur and Younghee Song from Manning. Facts 10 chapters $29.29 (at the time of this…",
-      "ts": 1788760333,
-      "published": "2026-09-07T05:52:13+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "Coop – Isolated VM Environments for Running Claude Code and Codex",
-      "link": "https://github.com/trailofbits/coop",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/trailofbits/coop Comments URL: https://news.ycombinator.com/item?id=49593842 Points: 21 # Comments: 5",
-      "ts": 1788754708,
-      "published": "2026-09-07T04:18:28+00:00",
-      "collected_at": "2026-09-07T18:07:23+09:00"
-    },
-    {
-      "title": "Java News Roundup: TornadoVM 6, JReleaser, LangChain4j, Java Operator SDK, JHipster, Yupiik Fusion",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-aug31-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for August 31st, 2026, features news highlighting: the GA release of TornadoVM 6.0; point releases of JReleaser, LangChain4j, Java Operator SDK, JHipster, Kotlin Toolchain and Yupiik Fusion; and…",
-      "ts": 1788748200,
-      "published": "2026-09-07T02:30:00+00:00",
-      "collected_at": "2026-09-07T12:44:35+09:00"
-    },
-    {
-      "title": "Java News Roundup: TornadoVM 6, JReleaser, LangChain4j, Java Operator SDK, JHipster, Yupiik Fusion",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-aug31-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for August 31st, 2026, features news highlighting: the GA release of TornadoVM 6.0; point releases of JReleaser, LangChain4j, Java Operator SDK, JHipster, Kotlin Toolchain and Yupiik Fusion; and…",
-      "ts": 1788748200,
-      "published": "2026-09-07T02:30:00+00:00",
-      "collected_at": "2026-09-07T12:44:35+09:00"
     }
   ]
 }
