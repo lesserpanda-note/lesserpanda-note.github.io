@@ -1,7 +1,67 @@
 {
-  "updated": "2026-10-07T09:09:39+09:00",
-  "count": 981,
+  "updated": "2026-10-07T10:16:25+09:00",
+  "count": 986,
   "items": [
+    {
+      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
+      "link": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: T…",
+      "ts": 1791332205,
+      "published": "2026-10-07T00:16:45+00:00",
+      "collected_at": "2026-10-07T10:16:20+09:00"
+    },
+    {
+      "title": "Real-Time Fraud Detection in Java with Kafka Streams and Vector Similarity",
+      "link": "https://foojay.io/today/real-time-fraud-detection-kafka-vector-similarity/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "How Java, Kafka Streams, and MongoDB vector search combine to catch fraud in real time, from rule-based guardrails to behavioral similarity scoring.",
+      "ts": 1791331200,
+      "published": "2026-10-07T00:00:00+00:00",
+      "collected_at": "2026-10-07T10:16:20+09:00"
+    },
+    {
+      "title": "Green Build, Wrong Task: A Working Agreement for Java Teams Using AI Coding Agents",
+      "link": "https://foojay.io/today/green-build-wrong-task-a-working-agreement-for-java-teams-using-ai-coding-agents/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Three ways AI coding agents waste a Java team's afternoon, and the spec, locked tests and capped review loop that stop it. Webinar notes, agent-agnostic.",
+      "ts": 1791331200,
+      "published": "2026-10-07T00:00:00+00:00",
+      "collected_at": "2026-10-07T10:16:20+09:00"
+    },
+    {
+      "title": "Adding RAG to a Jakarta EE 11 App With Only the JDK and Jakarta Specs",
+      "link": "https://foojay.io/today/adding-rag-to-jakarta-ee-11-app/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Build a RAG pipeline in a Jakarta EE 11 app with only the JDK HTTP client, Jakarta specs and MicroProfile Config: no vector database, no Python.",
+      "ts": 1791331200,
+      "published": "2026-10-07T00:00:00+00:00",
+      "collected_at": "2026-10-07T10:16:20+09:00"
+    },
+    {
+      "title": "Quoting Victoria Kim",
+      "link": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon…",
+      "ts": 1791331136,
+      "published": "2026-10-06T23:58:56+00:00",
+      "collected_at": "2026-10-07T10:16:20+09:00"
+    },
+    {
+      "title": "llm-openai-decisions 0.1a0",
+      "link": "https://simonwillison.net/2026/Oct/6/llm-openai-decisions/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-openai-decisions 0.1a0 OpenAI released their new Jev-style Decisions API , as previously announced at last week's DevDay. Since I already have an llm-typesafe plugin for talking to Jev, I had GPT-6 Astra re…",
+      "ts": 1791327853,
+      "published": "2026-10-06T23:04:13+00:00",
+      "collected_at": "2026-10-07T10:16:20+09:00"
+    },
     {
       "title": "llm-mistral 0.16",
       "link": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
@@ -9801,16 +9861,6 @@
       "ts": 1788748200,
       "published": "2026-09-07T02:30:00+00:00",
       "collected_at": "2026-09-07T12:44:35+09:00"
-    },
-    {
-      "title": "MathKernel: An evidence-aware multi-engine mathematics kernel and MCP server",
-      "link": "https://github.com/Staatsgeheim/MathKernel",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/Staatsgeheim/MathKernel Comments URL: https://news.ycombinator.com/item?id=49592366 Points: 30 # Comments: 5",
-      "ts": 1788740461,
-      "published": "2026-09-07T00:21:01+00:00",
-      "collected_at": "2026-09-07T18:07:23+09:00"
     }
   ]
 }
