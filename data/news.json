@@ -1,7 +1,257 @@
 {
-  "updated": "2026-10-07T17:19:56+09:00",
-  "count": 988,
+  "updated": "2026-10-08T01:11:51+09:00",
+  "count": 1002,
   "items": [
+    {
+      "title": "OpenAI Dots: The Data Scientist’s Reality Check",
+      "link": "https://www.kdnuggets.com/openai-dots-the-data-scientists-reality-check",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Dots promises a lot. Before you hand it the keys to your workflow, here's what practitioners need to know.",
+      "ts": 1791388800,
+      "published": "2026-10-07T16:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "How Wrong Is Your Marketing Mix Model (MMM)?",
+      "link": "https://towardsdatascience.com/how-wrong-is-your-marketing-mix-model-mmm/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A well-built MMM can still be wrong, because the spend it learns from never held the information it needs. This article tests whether changing when you spend, not how much, can fix that. The post How Wrong Is Your Marke…",
+      "ts": 1791387000,
+      "published": "2026-10-07T15:30:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Anti-Patterns in Software Blogging",
+      "link": "https://simonwillison.net/2026/Oct/7/anti-patterns-in-software-blogging/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Anti-Patterns in Software Blogging Some excellent writing advice from Michael Lynch. Michael warns against \"meandering intros\", misjudging your reader's existing knowledge, assuming they'll read your previous posts, and…",
+      "ts": 1791384831,
+      "published": "2026-10-07T14:53:51+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Grab Redesigns Counter Service Storage for 50% Lower P99 Latency",
+      "link": "https://www.infoq.com/news/2026/10/grab-counter-aerospike-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Grab migrated its high-volume Counter Service from a wide column database to Aerospike using storage abstraction, shadow traffic, data parity validation, and gradual traffic migration. The redesigned data model consolid…",
+      "ts": 1791383400,
+      "published": "2026-10-07T14:30:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
+      "link": "https://www.latent.space/p/stacklok",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Kubernetes co-creators Craig McLuckie and Joe Beda aim to bring agent harnesses fully into the cloud.",
+      "ts": 1791382245,
+      "published": "2026-10-07T14:10:45+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "AI in Production: What Breaks, What Works, and Who Approves It? | InfoQ Webinar",
+      "link": "https://www.infoq.com/news/2026/10/infoq-ai-webinar/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "On October 14, InfoQ hosts a free 60-minute panel with five practitioners on running AI in production. They'll discuss agent autonomy and human approval, how to verify AI-generated changes, sensitive-data exposure, and…",
+      "ts": 1791381600,
+      "published": "2026-10-07T14:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "The Best IDEs and Code Editors for Python (Guide)",
+      "link": "https://realpython.com/python-ides-code-editors-guide/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Compare the best Python IDEs and code editors side by side, with free picks for beginners and pro tools for data science and AI-assisted coding.",
+      "ts": 1791381600,
+      "published": "2026-10-07T14:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "ML Engineer, AI Engineer, or LLM Engineer: Which Role Actually Builds What in 2026?",
+      "link": "https://www.kdnuggets.com/ml-engineer-ai-engineer-or-llm-engineer-which-role-actually-builds-what-in-2026",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Same job postings, different titles. Here's what each role actually builds.",
+      "ts": 1791381600,
+      "published": "2026-10-07T14:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Introduction to Reinforcement Learning: Multi-Armed Bandit Simulation in Python",
+      "link": "https://towardsdatascience.com/introduction-to-reinforcement-learning-multi-armed-bandit-simulation-in-python/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "When machines learn by themselves The post Introduction to Reinforcement Learning: Multi-Armed Bandit Simulation in Python appeared first on Towards Data Science .",
+      "ts": 1791381600,
+      "published": "2026-10-07T14:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "langgraph-cli==0.4.33",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.32 release(cli): 0.4.33 ( #9227 ) feat(cli): add --image-uri to deploy an already-pushed image ( #9222 ) feat(cli): add 'langgraph deploy listeners list' ( #9221 ) chore(deps): bump virtualenv fro…",
+      "ts": 1791380326,
+      "published": "2026-10-07T13:38:46+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "dotnet-1.24.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.24.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "Changes: 245d428 .NET: Restore source-only release solution filter ( #9140 ) [ #8537 ] d0ccaa6 .NET: Preserve explicit null session state across roundtrips ( #9012 ) 279d97f .NET: Honor disabled recent search memory ( #…",
+      "ts": 1791380028,
+      "published": "2026-10-07T13:33:48+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Our continuing struggles with the Monster model",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/07/our-unending-struggles-with-the-monster-model/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "tl;dr. We’re still stuck. It was 30 years ago that Frédéric Bois, Jiming Jiang, and I published our paper on hierarchical modeling for toxicology. It was a successful paper–it’s been cited over 400 times! It won a major…",
+      "ts": 1791379446,
+      "published": "2026-10-07T13:24:06+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791377131,
+      "published": "2026-10-07T12:45:31+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "The Consistency Quadrant: A Visual Guide to LLM Reliability",
+      "link": "https://towardsdatascience.com/the-consistency-quadrant-a-visual-guide-to-llm-reliability/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Mapping structural variance against execution outputs to estimate coding agent reliability without ground truth. The post The Consistency Quadrant: A Visual Guide to LLM Reliability appeared first on Towards Data Scienc…",
+      "ts": 1791376200,
+      "published": "2026-10-07T12:30:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "10 Jev Projects on GitHub You Should Check Out",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/jev-projects-on-github/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Agents make dozens of small decisions before producing useful output: which source to trust, which tool to call, what context to keep and when to stop. Jev brings those hidden choices into the open by turning them into…",
+      "ts": 1791375564,
+      "published": "2026-10-07T12:19:24+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Introducing Playground: Create and play custom games",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Overview of Playground",
+      "ts": 1791374400,
+      "published": "2026-10-07T12:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Helping teens learn, plan, and shape the future of AI",
+      "link": "https://openai.com/index/teens-learn-and-plan",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
+      "ts": 1791374400,
+      "published": "2026-10-07T12:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Quiz: The Best IDEs and Code Editors for Python (Guide)",
+      "link": "https://realpython.com/quizzes/python-ides-code-editors-guide/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of Python IDEs and code editors, from beginner-friendly tools to notebooks, AI-first editors, and cloud workspaces.",
+      "ts": 1791374400,
+      "published": "2026-10-07T12:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Choosing the Right Agentic AI Framework for 2026: A Decision-Tree Approach",
+      "link": "https://machinelearningmastery.com/choosing-the-right-agentic-ai-framework-for-2026-a-decision-tree-approach/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how to choose the right agentic AI framework for your production system by working through a structured decision-tree based...",
+      "ts": 1791374400,
+      "published": "2026-10-07T12:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "I Tested 5 AI Coding Assistants for a Month: Here’s What I Actually Found",
+      "link": "https://www.kdnuggets.com/i-tested-5-ai-coding-assistants-for-a-month-heres-what-i-actually-found",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Compare five AI coding assistants across real tasks to find which tool fits your workflow.",
+      "ts": 1791374400,
+      "published": "2026-10-07T12:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Presentation: The Reinvention of the Dev Team",
+      "link": "https://www.infoq.com/presentations/agentic-dev-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Hannah Foxwell shares how the surge of agentic coding forces engineering leaders to rethink team dynamics. She discusses three key anchors for navigating AI-driven velocity: building software worth building, prioritizin…",
+      "ts": 1791370800,
+      "published": "2026-10-07T11:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "When Do PINNs Beat Classical Numerical Methods? A 1D vs 5D Experiment",
+      "link": "https://towardsdatascience.com/when-do-pinns-beat-classical-numerical-methods-a-1d-vs-5d-experiment/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "I put a physics-informed neural network up against a plain finite-difference solver twice: once in 1D and once in 5D. The winner changed. The post When Do PINNs Beat Classical Numerical Methods? A 1D vs 5D Experiment ap…",
+      "ts": 1791370800,
+      "published": "2026-10-07T11:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Start Your Next KMP App With Kotlin Toolchain 0.13",
+      "link": "https://blog.jetbrains.com/kotlin/2026/10/start-your-next-kmp-app-with-kotlin-toolchain-0-13/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "The Kotlin Toolchain is a unified entry point into Kotlin. It lets you build JVM, Android, iOS, multiplatform, and server-side applications with a simple declarative configuration. With the release of v0.13, we now reco…",
+      "ts": 1791368506,
+      "published": "2026-10-07T10:21:46+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Article: Building a Session-Ordered Kafka Pipeline in Go",
+      "link": "https://www.infoq.com/articles/apache-kafka-golang-session-ordered-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "The article describes a custom implementation that provides a session-level ordering on top of Apache Kafka partitions, supporting strict message ordering across 1000s of independent channels. The solution required appl…",
+      "ts": 1791363600,
+      "published": "2026-10-07T09:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
+    {
+      "title": "Article: Building a Session-Ordered Kafka Pipeline in Go",
+      "link": "https://www.infoq.com/articles/apache-kafka-golang-session-ordered-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The article describes a custom implementation that provides a session-level ordering on top of Apache Kafka partitions, supporting strict message ordering across 1000s of independent channels. The solution required appl…",
+      "ts": 1791363600,
+      "published": "2026-10-07T09:00:00+00:00",
+      "collected_at": "2026-10-08T01:11:28+09:00"
+    },
     {
       "title": "Cloudflare Uses an AI Harness to Probe and Harden Its WAF",
       "link": "https://www.infoq.com/news/2026/10/cloudflare-sec-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -9771,116 +10021,6 @@
       "ts": 1788798256,
       "published": "2026-09-07T16:24:16+00:00",
       "collected_at": "2026-09-08T07:38:26+09:00"
-    },
-    {
-      "title": "Netflix Moves Toward Open Source Flink Autoscaler for 30,000+ Streaming Jobs",
-      "link": "https://www.infoq.com/news/2026/09/netflix-flink-autoscaler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Netflix is moving toward the open-source Apache Flink Autoscaler for more than 30,000 streaming jobs across multiple AWS regions. The operator-level approach addresses limitations of Netflix’s cluster level autoscaler f…",
-      "ts": 1788789960,
-      "published": "2026-09-07T14:06:00+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "I Vibe-Coded an App in Just Two Hours (And Regretted It the Next Day)",
-      "link": "https://towardsdatascience.com/i-vibe-coded-an-app-in-just-two-hours-and-regretted-it-the-next-day/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "I saved my day with a mere $52 bill. But you don't have to repeat my mistake. The post I Vibe-Coded an App in Just Two Hours (And Regretted It the Next Day) appeared first on Towards Data Science .",
-      "ts": 1788789601,
-      "published": "2026-09-07T14:00:01+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "Async Generators Get yield from and Other Python News for September 2026",
-      "link": "https://realpython.com/python-news-september-2026/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "PEP 828 brings yield from to async generators, Python 3.15 freezes its ABI, and four AI libraries ship breaking releases in ten days.",
-      "ts": 1788789600,
-      "published": "2026-09-07T14:00:00+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "“In the Weights”—an exclusive invitation just for you!",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/07/hey-heres-an-exclusive-invitation-for-you/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "We’re usually posting on a one-year delay, but I bumped this one up because this private invitation is “unique to you, not forwardable, and expires in seven days.” So hop to it! This is your chance to join a forum … Con…",
-      "ts": 1788787063,
-      "published": "2026-09-07T13:17:43+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "Why Most Multi-Agent Systems Fail Even When Evaluation Passes",
-      "link": "https://towardsdatascience.com/why-most-multi-agent-systems-fail-even-when-evaluation-passes/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "How to catch a payload that looks correct but isn't, using a watchdog pattern with working Python. The post Why Most Multi-Agent Systems Fail Even When Evaluation Passes appeared first on Towards Data Science .",
-      "ts": 1788782401,
-      "published": "2026-09-07T12:00:01+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "Quiz: Python Statistics Fundamentals: How to Describe Your Data",
-      "link": "https://realpython.com/quizzes/python-statistics/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of descriptive statistics in Python, from means and spread to correlation, summaries, and plots that reveal your data.",
-      "ts": 1788782400,
-      "published": "2026-09-07T12:00:00+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "Kotlin 2.4.20 Released",
-      "link": "https://blog.jetbrains.com/kotlin/2026/09/kotlin-2-4-20-released/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "The Kotlin 2.4.20 release is out! Here are the main highlights: For the complete list of changes, see What’s new in Kotlin 2.4.20 or the release notes on GitHub. How to install Kotlin 2.4.20 The latest version of Kotlin…",
-      "ts": 1788780657,
-      "published": "2026-09-07T11:30:57+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "Presentation: From AI Agent Demo to Production: Automated Testing and Evaluation",
-      "link": "https://www.infoq.com/presentations/ai-agent-testing-evaluation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Zhou Yu discusses why AI agents stall in demo phase and shares how simulation-driven testing solves compliance and reliability bottlenecks. Learn how Columbia and Arklex AI use synthetic user personas, trajectory entrop…",
-      "ts": 1788778800,
-      "published": "2026-09-07T11:00:00+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "Presentation: From AI Agent Demo to Production: Automated Testing and Evaluation",
-      "link": "https://www.infoq.com/presentations/ai-agent-testing-evaluation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Zhou Yu discusses why AI agents stall in demo phase and shares how simulation-driven testing solves compliance and reliability bottlenecks. Learn how Columbia and Arklex AI use synthetic user personas, trajectory entrop…",
-      "ts": 1788778800,
-      "published": "2026-09-07T11:00:00+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "Zone Redundancy Comes to API Management Standard v2",
-      "link": "https://www.infoq.com/news/2026/09/apim-standard-v2-zone-redundancy/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft has enabled zone redundancy on the Standard v2 tier of Azure API Management, following its arrival on Premium v2 in December. Standard v2 starts at $700 per month against $2,801 for Premium v2, but carries a 9…",
-      "ts": 1788775740,
-      "published": "2026-09-07T10:09:00+00:00",
-      "collected_at": "2026-09-08T00:37:23+09:00"
-    },
-    {
-      "title": "Featured Foojay Authors for September 2026: Marit van Dijk and Graeme Robinson",
-      "link": "https://foojay.io/today/featured-foojay-authors-for-september-2026/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Foojay wouldn't exist without the many contributions from its community, whether it's a single post or an ongoing stream of knowledge sharing. That's why we highlight two of them each month as Featured Authors. After Ig…",
-      "ts": 1788770336,
-      "published": "2026-09-07T08:38:56+00:00",
-      "collected_at": "2026-09-07T18:07:23+09:00"
     }
   ]
 }
