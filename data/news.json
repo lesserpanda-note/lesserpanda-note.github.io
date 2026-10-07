@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-08T01:11:51+09:00",
-  "count": 1002,
+  "updated": "2026-10-08T06:49:02+09:00",
+  "count": 1004,
   "items": [
+    {
+      "title": "Claude Haiku 5.5",
+      "link": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "As previously promised , here's Anthropic's new fast, low cost model: Introducing Claude Haiku 5.5 . The previous Haiku, 4.5, was very much showing its age. It came out almost a year ago , and was priced at $1/million i…",
+      "ts": 1791406581,
+      "published": "2026-10-07T20:56:21+00:00",
+      "collected_at": "2026-10-08T06:48:56+09:00"
+    },
+    {
+      "title": "Survey Finds AI-Generated Code Increases Debugging and Failure Rates and Creates a Comprehension Gap",
+      "link": "https://www.infoq.com/news/2026/10/survey-complex-codebases-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "A survey conducted by independent research firm Coleman Parkes on behalf of Undo, a company focused on scaling AI-powered root-cause analysis, found that while AI coding agents have accelerated code generation, they hav…",
+      "ts": 1791396000,
+      "published": "2026-10-07T18:00:00+00:00",
+      "collected_at": "2026-10-08T06:48:56+09:00"
+    },
+    {
+      "title": "1.15.24",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.24",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add crewai eval to print a markdown brief when run by an agent Queue relevant background replies Add experimental turn and reply identities Add Oracle Integrations Add experimental job lifecycle…",
+      "ts": 1791394787,
+      "published": "2026-10-07T17:39:47+00:00",
+      "collected_at": "2026-10-08T06:48:56+09:00"
+    },
+    {
+      "title": "Multimodal open d1 decision models for the edge",
+      "link": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791392073,
+      "published": "2026-10-07T16:54:33+00:00",
+      "collected_at": "2026-10-08T06:48:56+09:00"
+    },
     {
       "title": "OpenAI Dots: The Data Scientist’s Reality Check",
       "link": "https://www.kdnuggets.com/openai-dots-the-data-scientists-reality-check",
@@ -273,6 +313,16 @@
       "collected_at": "2026-10-07T17:19:44+09:00"
     },
     {
+      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "link": "https://openai.com/index/radisson",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
+      "ts": 1791356400,
+      "published": "2026-10-07T07:00:00+00:00",
+      "collected_at": "2026-10-08T06:48:56+09:00"
+    },
+    {
       "title": "[AINews] Quasi-Riemann-Hypothesis: OpenAI publishes 722 math papers solving 90 of the top 500 open math problems; “the most significant moment” in >100 years of mathematics",
       "link": "https://www.latent.space/p/ainews-quasi-riemann-hypothesis-openai",
       "source": "Latent Space",
@@ -351,6 +401,16 @@
       "ts": 1791331200,
       "published": "2026-10-07T00:00:00+00:00",
       "collected_at": "2026-10-07T10:16:20+09:00"
+    },
+    {
+      "title": "GPT-6 and Intelligent UI for everyone",
+      "link": "https://openai.com/index/gpt-6-for-everyone",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
+      "ts": 1791331200,
+      "published": "2026-10-07T00:00:00+00:00",
+      "collected_at": "2026-10-08T06:48:56+09:00"
     },
     {
       "title": "Quoting Victoria Kim",
@@ -9980,46 +10040,6 @@
       "summary": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secu…",
       "ts": 1788819985,
       "published": "2026-09-07T22:26:25+00:00",
-      "collected_at": "2026-09-08T07:38:26+09:00"
-    },
-    {
-      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
-      "link": "https://www.latent.space/p/aeo",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.",
-      "ts": 1788816757,
-      "published": "2026-09-07T21:32:37+00:00",
-      "collected_at": "2026-09-08T07:38:26+09:00"
-    },
-    {
-      "title": "Getting Started with Grok Bot",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/grok-bot-automation-tutorial/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Last week, a GitHub notification arrived while I was asleep: a bug had been reproduced in staging, documented with screenshots, and assigned to the right engineer. A bot I set up four days earlier did the work overnight…",
-      "ts": 1788809657,
-      "published": "2026-09-07T19:34:17+00:00",
-      "collected_at": "2026-09-08T04:42:13+09:00"
-    },
-    {
-      "title": "Video compressor",
-      "link": "https://simonwillison.net/2026/Sep/7/video-compressor/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code f…",
-      "ts": 1788805747,
-      "published": "2026-09-07T18:29:07+00:00",
-      "collected_at": "2026-09-08T07:38:26+09:00"
-    },
-    {
-      "title": "Mercator ↔ Equal Earth",
-      "link": "https://simonwillison.net/2026/Sep/7/equal-earth/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and E…",
-      "ts": 1788798256,
-      "published": "2026-09-07T16:24:16+00:00",
       "collected_at": "2026-09-08T07:38:26+09:00"
     }
   ]
