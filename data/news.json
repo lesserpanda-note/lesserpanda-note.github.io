@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-07T06:29:07+09:00",
-  "count": 977,
+  "updated": "2026-10-07T09:09:39+09:00",
+  "count": 981,
   "items": [
+    {
+      "title": "llm-mistral 0.16",
+      "link": "https://simonwillison.net/2026/Oct/6/llm-mistral/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-mistral 0.16 Adds support for reasoning models, such as the newly released Mistral Large 4 . Tags: llm , mistral , llm-reasoning",
+      "ts": 1791322354,
+      "published": "2026-10-06T21:32:34+00:00",
+      "collected_at": "2026-10-07T09:09:17+09:00"
+    },
     {
       "title": "EmbeddingGemma 2",
       "link": "https://simonwillison.net/2026/Oct/6/hn-49983751/",
@@ -61,6 +71,26 @@
       "ts": 1791310858,
       "published": "2026-10-06T18:20:58+00:00",
       "collected_at": "2026-10-07T06:28:49+09:00"
+    },
+    {
+      "title": "Claude Code’s suggested message feature: I think the real customer is the model",
+      "link": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.zohaib.cc/blog/smartest-claude-code-feature Comments URL: https://news.ycombinator.com/item?id=49981905 Points: 72 # Comments: 39",
+      "ts": 1791309634,
+      "published": "2026-10-06T18:00:34+00:00",
+      "collected_at": "2026-10-07T09:09:17+09:00"
+    },
+    {
+      "title": "datasette-atom 0.11a0",
+      "link": "https://simonwillison.net/2026/Oct/6/datasette-atom/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-atom 0.11a0 A minor fix for compatibility with the latest Datasette alphas. This meant we could upgrade the datasette.io site to Datasette 1.0a41. Tags: atom , datasette",
+      "ts": 1791308139,
+      "published": "2026-10-06T17:35:39+00:00",
+      "collected_at": "2026-10-07T09:09:17+09:00"
     },
     {
       "title": "v5.19.0",
@@ -213,6 +243,26 @@
       "collected_at": "2026-10-07T01:34:56+09:00"
     },
     {
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "link": "https://openai.com/index/jump-trading",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review.",
+      "ts": 1791288000,
+      "published": "2026-10-06T12:00:00+00:00",
+      "collected_at": "2026-10-07T09:09:17+09:00"
+    },
+    {
+      "title": "Sharing AI progress in mathematics",
+      "link": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub.",
+      "ts": 1791288000,
+      "published": "2026-10-06T12:00:00+00:00",
+      "collected_at": "2026-10-07T09:09:17+09:00"
+    },
+    {
       "title": "Synchronous vs. Asynchronous Agent Execution: Architecture Patterns for Production",
       "link": "https://machinelearningmastery.com/synchronous-vs-asynchronous-agent-execution-architecture-patterns-for-production/",
       "source": "ML Mastery",
@@ -361,6 +411,16 @@
       "ts": 1791244800,
       "published": "2026-10-06T00:00:00+00:00",
       "collected_at": "2026-10-07T01:34:56+09:00"
+    },
+    {
+      "title": "Expanding the Cyber Verification Program",
+      "link": "https://www.anthropic.com/news/cyber-verification-program",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Expanding the Cyber Verification Program",
+      "ts": 1791244800,
+      "published": "2026-10-06T00:00:00+00:00",
+      "collected_at": "2026-10-07T09:09:17+09:00"
     },
     {
       "title": "Quoting Felix Rieseberg",
@@ -9751,26 +9811,6 @@
       "ts": 1788740461,
       "published": "2026-09-07T00:21:01+00:00",
       "collected_at": "2026-09-07T18:07:23+09:00"
-    },
-    {
-      "title": "Supporting independent journalism in Ukraine",
-      "link": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.",
-      "ts": 1788739200,
-      "published": "2026-09-07T00:00:00+00:00",
-      "collected_at": "2026-09-07T18:07:23+09:00"
-    },
-    {
-      "title": "Research acceleration: The view inside OpenAI",
-      "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the essay An Alien Mind (by Chief Scientist Jakub Pac…",
-      "ts": 1788739060,
-      "published": "2026-09-06T23:57:40+00:00",
-      "collected_at": "2026-09-07T09:16:02+09:00"
     }
   ]
 }
