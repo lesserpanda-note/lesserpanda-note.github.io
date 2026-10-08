@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-09T01:13:02+09:00",
-  "count": 998,
+  "updated": "2026-10-09T06:52:09+09:00",
+  "count": 999,
   "items": [
+    {
+      "title": "1.15.26",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.26",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix ownership retention of rwlock when acquisition is interrupted. Resolve issue with documentation site source URLs not being preserved. Fix task output display in log-tasks-outputs to show act…",
+      "ts": 1791495938,
+      "published": "2026-10-08T21:45:38+00:00",
+      "collected_at": "2026-10-09T06:52:04+09:00"
+    },
+    {
+      "title": "Quoting Carson Gross",
+      "link": "https://simonwillison.net/2026/Oct/8/carson-gross/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve prob…",
+      "ts": 1791493544,
+      "published": "2026-10-08T21:05:44+00:00",
+      "collected_at": "2026-10-09T06:52:04+09:00"
+    },
+    {
+      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+      "link": "https://www.latent.space/p/periodic",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
+      "ts": 1791476874,
+      "published": "2026-10-08T16:27:54+00:00",
+      "collected_at": "2026-10-09T06:52:04+09:00"
+    },
     {
       "title": "Bridging Algorithmic Design and Regulatory Standards in Enterprise AI",
       "link": "https://www.kdnuggets.com/bridging-algorithmic-design-and-regulatory-standards-in-enterprise-ai",
@@ -11,6 +41,16 @@
       "ts": 1791475200,
       "published": "2026-10-08T16:00:00+00:00",
       "collected_at": "2026-10-09T01:12:56+09:00"
+    },
+    {
+      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "link": "https://openai.com/index/oracle",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+      "ts": 1791475200,
+      "published": "2026-10-08T16:00:00+00:00",
+      "collected_at": "2026-10-09T06:52:04+09:00"
     },
     {
       "title": "Everyone Is Selling AI at You — Here’s How to Keep Your Judgement",
@@ -101,6 +141,16 @@
       "ts": 1791460800,
       "published": "2026-10-08T12:00:00+00:00",
       "collected_at": "2026-10-09T01:12:56+09:00"
+    },
+    {
+      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "link": "https://openai.com/index/pollo-ai",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "ts": 1791460800,
+      "published": "2026-10-08T12:00:00+00:00",
+      "collected_at": "2026-10-09T06:52:04+09:00"
     },
     {
       "title": "Presentation: Multi-Agent Patterns from Spotify’s AI Powered Advertising Platform",
@@ -261,6 +311,16 @@
       "ts": 1791417600,
       "published": "2026-10-08T00:00:00+00:00",
       "collected_at": "2026-10-09T01:12:56+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: legendary Java developer Kohsuke Kawaguchi",
+      "link": "https://spring.io/blog/2026/10/08/a-bootiful-podcast-kohsuke-kawaguchi",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! In this episode, we catch up with one of the most influential engineers in modern Java history - Kohsuke Kawaguchi - for a wide-ranging conversation that’s equal parts tech retrospective, career reflect…",
+      "ts": 1791417600,
+      "published": "2026-10-08T00:00:00+00:00",
+      "collected_at": "2026-10-09T06:52:04+09:00"
     },
     {
       "title": "1.15.25",
@@ -9931,56 +9991,6 @@
       "ts": 1788907593,
       "published": "2026-09-08T22:46:33+00:00",
       "collected_at": "2026-09-09T08:15:25+09:00"
-    },
-    {
-      "title": "Survey Statistics: Pew Research finds “No Easy Fix for Bogus Respondents in Online Opt-In Polls”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/08/survey-statistics-pew-research-finds-no-easy-fix-for-bogus-respondents-in-online-opt-in-polls/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I just read the Pew Research Center’s new report “No Easy Fix for Bogus Respondents in Online Opt-In Polls”. It begins: One of the most urgent problems in online opt-in polling is bogus (or fraudulent) respondents. Thes…",
-      "ts": 1788897631,
-      "published": "2026-09-08T20:00:31+00:00",
-      "collected_at": "2026-09-09T05:54:08+09:00"
-    },
-    {
-      "title": "How to Maximize GPT-6 Astra",
-      "link": "https://towardsdatascience.com/how-to-maximize-gpt-6-astra/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "My first impressions of OpenAI's new frontier model The post How to Maximize GPT-6 Astra appeared first on Towards Data Science .",
-      "ts": 1788890435,
-      "published": "2026-09-08T18:00:35+00:00",
-      "collected_at": "2026-09-09T05:54:08+09:00"
-    },
-    {
-      "title": "The Model Validation Playbook for GenAI: Lessons from Banking",
-      "link": "https://towardsdatascience.com/the-model-validation-playbook-for-genai-lessons-from-banking/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "How model validation standards are changing for LLM-based systems: what breaks, what carries over, and how to test output quality The post The Model Validation Playbook for GenAI: Lessons from Banking appeared first on…",
-      "ts": 1788888877,
-      "published": "2026-09-08T17:34:37+00:00",
-      "collected_at": "2026-09-09T05:54:08+09:00"
-    },
-    {
-      "title": "A Beginner’s Guide to World Models",
-      "link": "https://towardsdatascience.com/a-beginners-guide-to-world-models/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Learn how to simulate reality with Python The post A Beginner’s Guide to World Models appeared first on Towards Data Science .",
-      "ts": 1788888462,
-      "published": "2026-09-08T17:27:42+00:00",
-      "collected_at": "2026-09-09T05:54:08+09:00"
-    },
-    {
-      "title": "How GPT-5.6 Sol helps run quantum computing experiments",
-      "link": "https://openai.com/index/codex-quantum-computing-experiments",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.",
-      "ts": 1788886800,
-      "published": "2026-09-08T17:00:00+00:00",
-      "collected_at": "2026-09-09T05:54:08+09:00"
     }
   ]
 }
