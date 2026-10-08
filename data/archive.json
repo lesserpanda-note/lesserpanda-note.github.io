@@ -1,6 +1,75 @@
 {
   "digests": [
     {
+      "date": "2026-10-07",
+      "summary": "오늘은 Google DeepMind의 오픈 멀티모달 임베딩 모델 EmbeddingGemma 2 공개와 Mistral Large 4의 1조 파라미터 모델 프리뷰가 AI/Agents 분야의 주요 소식입니다. 아키텍처 분야에서는 QCon London 2027의 15개 트랙 라인업과 금융 서비스 인프라 20년 경험에서 나온 탄력적 플랫폼 구축 원칙이 소개되었습니다. 데이터사이언스에서는 시뮬레이션 데이터의 두 가지 통계적 활용법과 AI 어시스턴트의 예측 모델링 함정 탐지 능력 비교 실험이 눈길을 끕니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+          "link": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+          "summary": "Google DeepMind가 Apache 2.0 라이선스로 오픈 멀티모달 임베딩 모델 EmbeddingGemma 2를 공개했습니다.",
+          "detail": "Google DeepMind가 경량 오픈 멀티모달 임베딩 모델인 EmbeddingGemma 2를 공개했습니다. Apache 2.0 라이선스로 배포되어 상업적 활용이 자유롭습니다. 멀티모달 임베딩 모델로서 텍스트와 이미지 등 다양한 모달리티를 지원하며, 경량 설계로 실용적인 배포가 용이합니다. 오픈 소스로 공개된 점이 특히 주목받고 있습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Advancing computer use with Ironclad",
+          "link": "https://openai.com/index/advancing-computer-use-with-ironclad",
+          "summary": "OpenAI와 계약 관리 플랫폼 Ironclad가 복잡한 계약 워크플로우에서 AI 에이전트를 훈련·평가하는 협력을 진행합니다.",
+          "detail": "OpenAI와 계약 관리 소프트웨어 기업 Ironclad가 파트너십을 통해 복잡한 기업 계약 워크플로우에서 컴퓨터 사용(computer use) AI 에이전트를 훈련하고 평가하는 작업을 진행하고 있습니다. 이는 전문적인 업무 환경에서 AI 에이전트의 컴퓨터 사용 능력을 발전시키기 위한 실증 사례로, 계약 검토·작성·관리 등 법무 업무 자동화를 목표로 합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Introducing Mistral Large 4: Le chonk",
+          "link": "https://simonwillison.net/2026/Oct/6/le-chonk/",
+          "summary": "Mistral이 1조 파라미터, 활성 파라미터 490억의 대형 모델 Mistral Large 4 프리뷰를 공개했습니다.",
+          "detail": "Mistral이 Mistral Large 4의 프리뷰를 공개했습니다. 총 1조(1 trillion) 파라미터, 활성 파라미터 490억(49B)의 대규모 MoE(Mixture of Experts) 모델로, 자체 3,800대 GPU 클러스터에서 훈련되었습니다. Simon Willison은 이 모델이 Mistral의 복귀를 알리는 신호탄이라고 평가했습니다. 벤치마크 포화 문제와 실제 성능 차이에 대한 논의도 함께 소개되었습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] Reflection Beam - 501B-A23B American Open Model",
+          "link": "https://www.latent.space/p/ainews-reflection-beam-501b-a23b",
+          "summary": "미국産 오픈 소스 대형 언어 모델 Reflection Beam(501B-A23B)이 공개되어 오픈 소스 AI 진영의 작은 승리로 평가받고 있습니다.",
+          "detail": "Latent Space AINews에 따르면 미국 오픈 소스 AI 생태계에서 501B 파라미터, A23B 활성 파라미터를 가진 대형 모델 Reflection Beam이 공개되었습니다. 미국산 오픈 모델로서 오픈 소스 AI 커뮤니티의 주목을 받고 있으며, 대규모 오픈 언어 모델 경쟁에서 의미 있는 성과로 평가됩니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "QCon London 2027 Announces 15 Tracks on Production AI, Architecture, and Engineering at Scale",
+          "link": "https://www.infoq.com/news/2026/10/qconlondon-2027-track/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "QCon London 2027이 프로덕션 AI, 에이전트 평가, AI 시대 아키텍처, 분산 시스템 디버깅 등 15개 트랙을 발표했습니다.",
+          "detail": "QCon London 2027의 15개 트랙 프로그램이 공개되었습니다. 주요 주제로는 에이전트 평가 및 가드레일, AI 시대의 아키텍처, 분산 시스템 디버깅, 현대적 데이터 플랫폼, 고성능 엔지니어링, Staff+ 리더십 등이 포함됩니다. 프로덕션 환경에서의 AI 운영과 스케일링에 초점을 맞춘 실무 중심의 콘텐츠로 구성되었습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Presentation: Building Resilient Platforms: Insights from 20+ Years in Mission-Critical Infrastructure",
+          "link": "https://www.infoq.com/presentations/infrastructure-financial-services-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Matthew Liste가 금융 서비스 등 미션 크리티컬 인프라 20년 경험을 바탕으로 확장 가능하고 신뢰할 수 있는 플랫폼 구축을 위한 12가지 핵심 원칙을 설명합니다.",
+          "detail": "Matthew Liste는 금융 서비스 미션 크리티컬 인프라에서의 20년 이상 경험을 바탕으로 엔터프라이즈 기술 팀을 위한 12가지 플랫폼 구축 원칙을 제시합니다. 기술 부채 회피, 감가상각 관리, 강력한 엔지니어링 문화 구축 등의 주제를 다루며, 대규모 분산 시스템에서 신뢰성과 확장성을 확보하는 실전 인사이트를 공유합니다."
+        },
+        {
+          "category": "Python",
+          "title": "Exploring the MVC Pattern in Python",
+          "link": "https://realpython.com/courses/exploring-mvc-pattern-python/",
+          "summary": "MVC(Model-View-Controller) 패턴이 Python 웹 앱을 어떻게 구조화하는지 배우고, Flask로 소규모 앱을 직접 구현하는 Real Python 강의입니다.",
+          "detail": "Real Python의 이 강의는 Python 웹 애플리케이션에서 MVC(Model-View-Controller) 패턴의 역할을 설명합니다. 모델, 뷰, 컨트롤러가 각각 어떤 역할을 담당하는지 학습하고, Flask 프레임워크를 활용해 소규모 웹 앱을 직접 구현합니다. 코드 구조화와 관심사 분리 원칙을 이해하는 데 도움이 됩니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Survey Statistics: 2 different uses of simulated data",
+          "link": "https://statmodeling.stat.columbia.edu/2026/10/06/survey-statistics-2-different-uses-of-simulated-data/",
+          "summary": "Andrew Gelman의 블로그에서 통계 모델링에서 시뮬레이션 데이터를 활용하는 두 가지 목적, 즉 모델 이해와 추정값 검증을 구분하여 설명합니다.",
+          "detail": "Statistical Modeling 블로그에서 설문 통계 맥락의 시뮬레이션 데이터 활용에 대한 두 가지 관점을 논의합니다. 첫 번째는 Andrew Gelman의 관점으로, 시뮬레이션 데이터를 모델의 작동 방식을 이해하는 수학적 분석 도구로 활용하는 것입니다. 두 번째는 추정값의 불확실성이나 편향을 검증하는 실증적 도구로의 활용입니다. 두 가지 사용 목적을 명확히 구분하는 것이 통계적 추론의 정확성을 높이는 데 중요합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "I Hid Four Traps in a Forecasting Task. Here Is What Four AI Assistants Did.",
+          "link": "https://towardsdatascience.com/i-hid-four-traps-in-a-forecasting-task-here-is-what-four-ai-assistants-did/",
+          "summary": "예측 태스크에 데이터 누수, 보고 지연, 프로모션 효과, 구조적 변화 등 4가지 함정을 숨기고 Gemini, DeepSeek, ChatGPT, Claude의 탐지 능력을 비교 실험했습니다.",
+          "detail": "저자는 예측 모델링 태스크에 4가지 고전적 함정을 의도적으로 숨겼습니다: ① 데이터 누수(leakage), ② 보고 지연(reporting delays), ③ 프로모션 효과(promotion effects), ④ 구조적 변화(structural breaks). 이 함정이 포함된 데이터를 Gemini, DeepSeek, ChatGPT, Claude 네 가지 AI 어시스턴트에게 제공하고 각각의 탐지 및 처리 능력을 비교했습니다. 시계열 예측에서 흔히 발생하는 데이터 품질 문제에 대한 AI 모델들의 강점과 한계를 실증적으로 분석한 실험입니다."
+        }
+      ]
+    },
+    {
       "date": "2026-10-06",
       "summary": "오늘은 Java 생태계의 주요 릴리스와 KMP 플러그인 변경 사항, Akka의 사양 기반 AI 전달 실험 결과 및 프로덕션 LLM 플랫폼 엔지니어링 실전 가이드, LangGraph 1.2.13 버그 수정과 엔터프라이즈 AI 에이전트 구축 사례, Cloudflare 컨테이너 보안 취약점 수정과 AI 에이전트 평가 프레임워크 설계, 그리고 Python 3.15 RC3 및 베이지안 워크플로우 코드 공개 등 다양한 소식을 다룹니다. Java와 AI/에이전트 생태계 모두에서 실용적이고 중요한 업데이트들이 쏟아진 하루였습니다. 데이터 사이언스 분야에서도 statsmodels 시계열 기법과 베이지안 실습 자료가 공개되어 실무자들에게 유용한 리소스가 추가되었습니다.",
       "highlights": [
