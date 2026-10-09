@@ -1,76 +1,62 @@
 {
-  "updated": "2026-10-08T00:08:28Z",
-  "summary": "오늘 하이라이트에서는 AI 생성 코드의 디버깅 부담 증가를 경고하는 대규모 설문 결과와 Anthropic의 새로운 빠르고 저비용 모델 Claude Haiku 5.5 출시가 주목됩니다. 아키텍처 분야에서는 Grab의 Aerospike 마이그레이션을 통한 P99 레이턴시 50% 절감 사례와 Google Spanner Omni의 GA 출시가 중요한 이정표를 제시했습니다. 데이터 사이언스에서는 마케팅 믹스 모델(MMM)의 인과 추론 한계와 30년 묵은 계층 베이즈 모델의 수렴 문제가 통계적 모델링의 어려움을 상기시켜 줍니다.",
+  "updated": "2026-10-09T00:07:50Z",
+  "summary": "오늘은 Cloudflare의 AI 에이전트용 결정 모델 오픈소스 공개와 AI 에이전트가 PyTorch보다 빠른 CUDA 커널을 작성하는 실험 결과가 주목받았습니다. Spotify의 프로덕션 멀티 에이전트 아키텍처와 시계열 확산 예측 모델의 방법론적 한계 분석도 실무자에게 유용한 내용입니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "Start Your Next KMP App With Kotlin Toolchain 0.13",
-      "link": "https://blog.jetbrains.com/kotlin/2026/10/start-your-next-kmp-app-with-kotlin-toolchain-0-13/",
-      "summary": "Kotlin Toolchain v0.13이 출시되어 KMP(Kotlin Multiplatform) 앱 개발을 위한 통합 진입점을 제공합니다. JVM, Android, iOS, 멀티플랫폼 및 서버 사이드 앱을 단일 선언적 설정으로 빌드할 수 있습니다.",
-      "detail": "Kotlin Toolchain은 Kotlin 생태계의 통합 진입점으로, v0.13 릴리스에서는 KMP 앱 시작의 공식 권장 방식으로 자리잡았습니다.\n단일 선언적 설정으로 JVM, Android, iOS, 멀티플랫폼 및 서버 사이드 애플리케이션을 모두 빌드할 수 있어 멀티플랫폼 개발 경험을 크게 단순화합니다.\nKMP 생태계의 성숙도를 높이는 중요한 이정표로, 프로젝트 설정의 복잡성을 줄이는 것이 이번 릴리스의 핵심 목표입니다."
+      "category": "AI",
+      "title": "Cloudflare Open Sources Decision Models for AI Agents",
+      "link": "https://www.infoq.com/news/2026/10/clef-decision-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Cloudflare가 AI 에이전트를 위한 결정 모델 세트인 Clef를 오픈소스로 공개했습니다. 텍스트 생성이 아닌 사전 정의된 선택지 중 최적을 고르는 특화 모델로, 9B와 27B 파라미터 버전이 제공됩니다.",
+      "detail": "Cloudflare는 최근 'Birthday Week' 이벤트를 통해 Clef를 발표했습니다. Clef는 텍스트를 생성하는 일반 LLM과 달리, AI 에이전트가 워크플로우에서 사전 정의된 선택지 중 하나를 선택하도록 특화된 경량 결정 모델(decision model)입니다.\n9B 및 27B 파라미터 오픈웨이트(open-weight) 모델이 공개되었으며, 에이전트 파이프라인 내에서 라우팅, 분기 결정, 작업 분배 등의 용도로 활용할 수 있습니다.\nClef는 Workers AI 플랫폼을 통해 무료로 이용 가능하며 Apache 2.0 라이선스로 배포됩니다. 기존 범용 LLM 대비 결정 작업에서 높은 정확도와 낮은 레이턴시를 목표로 설계되었으며, AI 에이전트의 자율성과 통제력을 균형 있게 유지하는 데 기여할 것으로 기대됩니다."
     },
     {
       "category": "AI",
-      "title": "Survey Finds AI-Generated Code Increases Debugging and Failure Rates and Creates a Comprehension Gap",
-      "link": "https://www.infoq.com/news/2026/10/survey-complex-codebases-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Coleman Parkes 독립 조사에 따르면 AI 코딩 에이전트가 코드 생성 속도를 높이지만, 디버깅 부담과 실패율 증가, 코드 이해도 격차(Comprehension Gap) 문제가 함께 발생하는 것으로 나타났습니다.",
-      "detail": "AI 코딩 도구 전문 기업 Undo의 의뢰로 Coleman Parkes가 수행한 독립 설문 조사 결과가 공개되었습니다.\nAI 코딩 에이전트는 코드 생성 속도를 가속화하는 반면, 복잡한 코드베이스에서 디버깅 시간과 실패율이 오히려 증가하는 부작용이 확인되었습니다.\n특히 AI가 생성한 코드를 개발자가 충분히 이해하지 못하는 \"이해도 격차(Comprehension Gap)\" 현상이 두드러졌습니다.\n이는 AI 지원 코딩이 단기 생산성은 향상시키지만, 코드 품질 저하와 장기적 유지 보수 비용 증가로 이어질 수 있음을 시사하는 중요한 연구 결과입니다."
-    },
-    {
-      "category": "AI",
-      "title": "Multimodal open d1 decision models for the edge",
-      "link": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "summary": "LiquidAI가 엣지 환경에서 실행 가능한 멀티모달 오픈 소스 결정 모델 d1 시리즈를 Hugging Face를 통해 공개했습니다.",
-      "detail": "LiquidAI가 엣지 디바이스를 위한 멀티모달 오픈 소스 결정 모델 d1 시리즈를 발표하고 Hugging Face를 통해 공개했습니다.\n이 모델은 클라우드가 아닌 엣지 환경에서 의사결정 작업을 수행할 수 있도록 설계되어, 저전력·저지연이 요구되는 임베디드 및 로봇 애플리케이션에 적합합니다.\n오픈 소스로 공개됨에 따라 커뮤니티가 다양한 엣지 시나리오에서 모델을 활용하고 개선할 수 있을 것으로 기대됩니다."
+      "title": "AI breakthroughs in robotics won't change your life any time soon",
+      "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
+      "summary": "MIT 테크놀로지 리뷰가 AI 로보틱스의 최근 성과에도 불구하고 실생활에 미치는 영향은 여전히 제한적일 것이라고 분석했습니다. 인상적인 연구실 시연과 현실 배포 사이의 간극이 여전히 크다는 점을 강조합니다.",
+      "detail": "MIT 테크놀로지 리뷰와 비영리 연구재단 Aventine이 공동으로 발표한 이 분석 기사는 AI 로보틱스 분야의 눈부신 기술 발전에도 불구하고 실제 삶에 변화를 가져오기까지는 상당한 시간이 걸릴 것이라고 주장합니다.\n주요 근거로는 신뢰성과 안전성 문제, 높은 가격 장벽, 복잡한 현실 환경에의 적응 어려움, 제조·공급망 확장의 현실적 한계가 꼽힙니다.\n연구실에서는 인간형 로봇이 복잡한 동작을 수행하는 영상이 화제가 되지만, 그 성능을 병원·물류창고·가정 등 예측 불가능한 실환경에서 안정적으로 구현하는 것은 전혀 다른 문제입니다.\n기사는 AI 로보틱스를 낙관적으로 전망하는 투자자와 기업들의 주장을 비판적으로 검토하며, 기술 발전의 속도와 사회적 수용 사이의 균형 있는 시각을 촉구합니다."
     },
     {
       "category": "Agents",
-      "title": "Claude Haiku 5.5",
-      "link": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/",
-      "summary": "Anthropic이 새로운 빠르고 저비용 모델인 Claude Haiku 5.5를 출시했습니다. 약 1년 만에 업데이트된 Haiku 시리즈의 최신 버전으로, 이전 Haiku 4.5 대비 대폭 향상된 성능을 제공합니다.",
-      "detail": "Anthropic이 Haiku 시리즈의 최신 버전인 Claude Haiku 5.5를 정식 출시했습니다.\n이전 버전인 Haiku 4.5는 약 1년 전 출시되어 /백만 토큰으로 책정되었으며, 시간이 지나면서 경쟁 모델 대비 성능 격차가 벌어지고 있었습니다.\nHaiku 5.5는 Haiku 시리즈 특유의 빠른 응답 속도와 낮은 비용을 유지하면서도 성능을 크게 개선하여, 프로덕션 에이전트 파이프라인과 고속 처리가 필요한 워크플로우에 최적화된 모델로 소개되고 있습니다.\nSimon Willison의 분석에 따르면 이번 출시는 Anthropic이 이전에 약속했던 모델 업데이트 일정을 이행한 것입니다."
+      "title": "AI Agents Beat PyTorch: Writing Faster CUDA Kernels",
+      "link": "https://towardsdatascience.com/ai-agents-beat-pytorch-writing-faster-cuda-kernels/",
+      "summary": "AI 에이전트가 PyTorch보다 빠른 CUDA 커널을 작성할 수 있다는 실험 결과가 발표되었습니다. 단, 성능 향상이 실제인지 검증하는 벤치마크 설계가 더 중요한 과제임을 강조합니다.",
+      "detail": "이 기사는 AI 에이전트가 NVIDIA DGX Spark 장비에서 PyTorch 내장 연산보다 빠른 커스텀 CUDA 커널을 생성할 수 있다는 실험 결과를 다룹니다.\n저자는 CUDA 커널 코드를 AI 에이전트로 생성하고 여러 조건에서 성능을 측정한 결과, 일부 연산에서 PyTorch 대비 유의미한 속도 향상을 확인했습니다.\n그러나 핵심 메시지는 벤치마크 설계의 중요성입니다. 메모리 정렬, 배치 크기, 데이터 타입 등 미세한 조건 차이가 결과를 크게 왜곡할 수 있어, 성능 향상이 실제인지 확인하려면 철저한 방법론적 검증이 필수입니다.\nAI 에이전트 기반 고성능 컴퓨팅 코드 생성의 가능성과 한계를 균형 있게 분석한 기사로, GPU 최적화에 관심 있는 개발자에게 실용적인 인사이트를 제공합니다."
     },
     {
       "category": "Agents",
-      "title": "Can a Cloud-Native Harness Make Agents Reliable Beyond the Desktop?",
-      "link": "https://www.latent.space/p/stacklok",
-      "summary": "Kubernetes 공동 창립자 Craig McLuckie와 Joe Beda가 설립한 Stacklok이 AI 에이전트를 클라우드 환경에서 안정적으로 운용하기 위한 클라우드 네이티브 하네스 구축을 목표로 합니다.",
-      "detail": "Kubernetes의 공동 창립자인 Craig McLuckie와 Joe Beda가 Stacklok을 통해 AI 에이전트를 데스크톱을 넘어 클라우드 환경에서 신뢰성 있게 운용할 수 있는 하네스 개발에 나섰습니다.\n현재 대부분의 AI 에이전트는 로컬 환경에서만 안정적으로 동작하며, 클라우드 환경으로 확장 시 안정성과 관찰 가능성 문제가 발생합니다.\nStacklok은 Kubernetes 생태계에서 쌓은 컨테이너 오케스트레이션 경험을 바탕으로 에이전트 신뢰성 문제를 해결하는 클라우드 네이티브 접근 방식을 제시하고 있습니다.\n이는 AI 에이전트의 엔터프라이즈 프로덕션 배포를 위한 중요한 인프라 레이어가 될 것으로 주목받고 있습니다."
+      "title": "Building AI Agents with Docker Agent",
+      "link": "https://www.kdnuggets.com/building-ai-agents-with-docker-agent",
+      "summary": "Docker Engineering이 개발한 오픈소스 CLI 플러그인 Docker Agent가 공개되었습니다. 'AI 에이전트를 컨테이너처럼 실행한다'는 목표로, docker agent 명령어로 설치 및 실행할 수 있습니다.",
+      "detail": "Docker Agent는 Docker Engineering이 직접 개발한 Apache 2.0 라이선스 오픈소스 CLI 플러그인으로, 'AI 에이전트를 컨테이너처럼 실행한다'는 목표를 내세우고 있습니다.\n기존 docker CLI와 동일한 방식으로 설치하며(docker agent), 친숙한 Docker 워크플로우로 AI 에이전트를 정의·배포·관리할 수 있습니다.\nDocker의 컨테이너화 철학을 AI 에이전트에 적용해 실행 환경 격리, 재현 가능성, 오케스트레이션 등을 지원합니다. 이미 Docker에 익숙한 개발자들이 별도의 새로운 도구 없이 AI 에이전트를 구축하고 운영할 수 있다는 점에서 실용적 가치가 높습니다.\n프로덕션 환경에서 AI 에이전트를 표준화된 방식으로 관리하는 인프라 도구로서 Docker 생태계의 확장을 의미하는 중요한 발표입니다."
     },
     {
       "category": "Architecture",
-      "title": "Grab Redesigns Counter Service Storage for 50% Lower P99 Latency",
-      "link": "https://www.infoq.com/news/2026/10/grab-counter-aerospike-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Grab이 대용량 카운터 서비스를 와이드 컬럼 DB에서 Aerospike로 마이그레이션하여 P99 레이턴시를 50% 절감했습니다. 스토리지 추상화, 섀도우 트래픽, 점진적 이전 방식으로 안전하게 마이그레이션을 완료했습니다.",
-      "detail": "Grab은 높은 트래픽을 처리하는 카운터 서비스의 스토리지를 와이드 컬럼 데이터베이스에서 Aerospike로 전환하는 작업을 성공적으로 완료했습니다.\n마이그레이션 전략으로는 ① 스토리지 추상화 레이어 도입, ② 섀도우 트래픽을 통한 병렬 검증, ③ 데이터 패리티 검증, ④ 점진적 트래픽 이전 방식을 채택했습니다.\n리디자인된 데이터 모델은 데이터를 효율적으로 압축하여 저장 비용을 절감하면서도 P99 레이턴시를 50% 낮추는 성과를 달성했습니다.\n이는 대규모 실시간 카운터 시스템의 스토리지 선택과 무중단 마이그레이션 패턴에 대한 귀중한 실전 사례입니다."
+      "title": "Presentation: Multi-Agent Patterns from Spotify's AI Powered Advertising Platform",
+      "link": "https://www.infoq.com/presentations/spotify-multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Spotify Ads Manager가 Google ADK Java를 활용해 프로덕션 규모의 멀티 에이전트 시스템을 운영하는 아키텍처를 InfoQ 발표를 통해 소개합니다. 도메인 소유권 모델, 결정론적 가드레일, 분산 추적 등 핵심 패턴을 공유합니다.",
+      "detail": "Pratik Rasam이 InfoQ 발표에서 Spotify Ads Manager의 AI 기반 광고 플랫폼 아키텍처를 상세히 설명합니다.\nSpotify는 Google ADK(Agent Development Kit) Java를 사용해 프로덕션 규모의 멀티 에이전트 시스템을 구축했으며, 광고 타겟팅·최적화·자동화 등 복잡한 작업을 여러 전문 에이전트가 협력해 처리합니다.\n핵심 아키텍처 패턴으로는 도메인별 소유권 모델(각 팀이 담당 에이전트를 소유·운영), 결정론적 가드레일(에이전트의 예측 불가능한 행동 제한), 그리고 분산 에이전트 간 추적 및 관찰 가능성 확보가 소개됩니다.\n실제 프로덕션 시스템에서 얻은 교훈과 확장 과정에서 겪은 문제들도 공유되어, 기업 환경에서 멀티 에이전트 AI를 도입하려는 팀에 실질적인 참고 자료가 됩니다."
     },
     {
       "category": "Architecture",
-      "title": "Spanner Omni Reaches GA, Replacing Google's Atomic Clocks and File System with Software",
-      "link": "https://www.infoq.com/news/2026/10/spanner-omni-deploy-anywhere-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Google의 Spanner Omni가 정식 출시(GA)되어 온프레미스, 멀티클라우드, 로컬 환경에서 분산 SQL DB를 운용할 수 있게 되었습니다. Colossus와 원자 시계 기반 TrueTime을 소프트웨어로 대체한 것이 핵심입니다.",
-      "detail": "Google의 분산 SQL 데이터베이스 Spanner의 어디서나 배포 가능한 버전인 Spanner Omni가 GA(일반 가용성) 상태에 도달했습니다.\n온프레미스, 다양한 클라우드 환경, 심지어 노트북에서도 실행 가능하도록 하기 위해 두 가지 핵심 의존성을 소프트웨어로 대체했습니다: Google 내부 파일 시스템인 Colossus를 추상화 레이어로, 원자 시계 기반의 TrueTime을 소프트웨어 기반 구현으로 교체했습니다.\n이를 통해 Spanner 고유의 강력한 외부 일관성(External Consistency) 보장을 클라우드 외부 환경에서도 제공할 수 있게 되었습니다.\n이는 Spanner의 범용화를 향한 Google의 중요한 전략적 이정표입니다."
-    },
-    {
-      "category": "Python",
-      "title": "The Best IDEs and Code Editors for Python (Guide)",
-      "link": "https://realpython.com/python-ides-code-editors-guide/",
-      "summary": "Real Python이 Python 개발에 최적화된 IDE 및 코드 에디터를 종합 비교한 가이드를 업데이트했습니다. 초보자용 무료 도구부터 데이터 과학, AI 보조 코딩용 전문 도구까지 폭넓게 다룹니다.",
-      "detail": "Real Python이 Python 개발 환경 선택을 돕는 종합 IDE 및 코드 에디터 가이드를 업데이트했습니다.\n초보자를 위한 무료 도구부터 데이터 과학과 AI 보조 코딩에 특화된 전문 도구까지 주요 Python 개발 환경을 나란히 비교합니다.\n각 도구의 특징, 장단점 및 적합한 사용 사례를 명확하게 제시하여 개발자가 자신의 워크플로우에 맞는 최적의 환경을 선택할 수 있도록 돕습니다."
+      "title": "Technological Sovereignty Requires Choice, Skills, and Support, Panelists Say During OSS EU",
+      "link": "https://www.infoq.com/news/2026/10/technological-sovereignity-panel/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "OSS EU 패널 토론에서 유럽 조직들이 기술 주권을 강화하려면 전 세계 공급업체를 완전히 배제하기보다 신뢰할 수 있는 대안 개발, 내부 역량 습득, 그리고 생태계 지원이 필요하다고 강조했습니다.",
+      "detail": "InfoQ가 OSS EU(유럽 오픈소스 서밋) 패널 토론 내용을 보도했습니다. 패널리스트들은 유럽 기업과 공공 기관이 기술 주권을 확보하는 방법을 논의했습니다.\n핵심 주장은 세 가지입니다: 첫째, 글로벌 공급업체에 대한 완전한 의존 탈피보다 경쟁력 있는 대안을 개발하고 선택지를 넓혀야 한다는 것. 둘째, 내부 기술 역량과 전문 인력을 충분히 갖추어야 한다는 것. 셋째, 공급업체 독립적 생태계를 지원하는 정책과 커뮤니티 지원이 필요하다는 것입니다.\n미국 빅테크 및 클라우드 공급업체에 대한 의존도가 높아지는 가운데, 데이터 주권과 공급망 위험 관리 관점에서 오픈소스 소프트웨어와 유럽산 대안 플랫폼의 역할이 더욱 중요해지고 있다는 점을 강조합니다."
     },
     {
       "category": "DataScience",
-      "title": "How Wrong Is Your Marketing Mix Model (MMM)?",
-      "link": "https://towardsdatascience.com/how-wrong-is-your-marketing-mix-model-mmm/",
-      "summary": "잘 구축된 마케팅 믹스 모델(MMM)도 학습 데이터의 지출 패턴이 인과 추론에 필요한 변동성을 갖추지 못하면 오류가 발생할 수 있다는 점을 실험적으로 분석한 글입니다.",
-      "detail": "마케팅 믹스 모델(MMM)은 광고 채널별 기여도를 측정하는 인과 추론 도구로 널리 활용됩니다.\n이 글은 모델 설계가 아무리 훌륭해도, 학습 데이터의 지출 패턴 자체가 인과 식별에 필요한 정보를 담고 있지 않으면 예측이 근본적으로 틀릴 수밖에 없다는 핵심 문제를 제기합니다.\n저자는 지출 금액이 아닌 지출 시점을 변경하는 방식이 모델의 정보 한계를 개선할 수 있는지 실험적으로 검증하여, 인과 식별 가능성(Causal Identifiability)의 관점에서 MMM의 근본적 한계를 논의합니다.\nMMM 실무자와 마케팅 데이터 분석가에게 중요한 방법론적 시사점을 제공합니다."
+      "title": "Your Model's MSE Is Lying to You III: Time Series Diffusion",
+      "link": "https://towardsdatascience.com/your-models-mse-is-lying-to-you-iii-time-series-diffusion/",
+      "summary": "시계열 예측에서 평균(MSE)과 분산이 모두 정확하더라도 실제로는 일어나지 않을 미래를 예측하는 문제가 발생할 수 있으며, 확산 헤드(diffusion head)를 활용한 확률적 예측으로 이를 해결하는 방법을 제시합니다.",
+      "detail": "이 기사는 시계열 예측 모델이 MSE 기준으로는 우수해 보이지만 현실에서 나타나지 않는 패턴을 예측하는 근본적 문제를 다룹니다.\n'MSE Is Lying to You' 시리즈 3편으로, 이번에는 확산 모델(diffusion model)을 시계열 예측 헤드로 활용하는 방법을 탐구합니다.\n핵심 문제는 모델이 평균(mean)과 분산(variance)을 모두 올바르게 학습해도, 예측 분포가 실제 시계열의 시간적 의존성(temporal dependency)과 구조를 반영하지 못하면 물리적으로 불가능한 경로를 생성할 수 있다는 점입니다.\n확산 헤드는 이러한 한계를 극복해 더 현실적이고 구조화된 예측 경로를 생성하며, 리스크 관리와 의사결정에 직접 활용 가능한 고품질 예측 분포를 제공합니다. 시계열 예측에 확률론적 접근법을 도입하려는 실무자에게 유용한 기사입니다."
     },
     {
       "category": "DataScience",
-      "title": "Our continuing struggles with the Monster model",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/07/our-unending-struggles-with-the-monster-model/",
-      "summary": "Andrew Gelman이 30년 전 독성학 계층 모델링 연구에서 비롯된 \"몬스터 모델\"의 수렴 문제가 아직도 해결되지 않았다고 토로합니다.",
-      "detail": "Andrew Gelman(Columbia 대학교) 등이 1990년대에 발표한 독성학 계층 모델(Bois, Jiang, Gelman 공저)은 400회 이상 인용된 성공적인 연구이지만, 모델의 수렴 문제는 30년이 넘도록 미해결 상태입니다.\n이 \"몬스터 모델\"은 복잡한 계층적 베이즈 모델로, 실제 독성 데이터에 적용 시 MCMC 샘플러가 제대로 수렴하지 않는 근본적인 어려움을 안고 있습니다.\n이 포스트는 최첨단 통계 모델링에서도 복잡한 계층 구조와 비선형 관계가 얽힌 모델의 수렴 문제가 얼마나 까다로운지를 솔직하게 보여주는 사례입니다.\n고차원 계층 베이즈 모델링 실무자들에게 중요한 인식론적 참고 사례가 됩니다."
+      "title": "What's the deal with the RMET (\"the Reading the Mind in the Eyes test\")?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/08/whats-the-deal-with-the-rmet-the-reading-the-mind-in-the-eyes-test/",
+      "summary": "RMET(눈을 통해 마음을 읽는 테스트)의 통계적 신뢰성과 타당성에 관한 심층 분석으로, 이 테스트가 실제로 무엇을 측정하는지에 대한 방법론적 의문이 제기됩니다.",
+      "detail": "Statistical Modeling, Causal Inference, and Social Science 블로그(앤드루 겔만 운영)가 RMET(Reading the Mind in the Eyes Test)를 검토합니다. RMET는 피험자가 눈 사진만 보고 감정 상태를 추론하는 테스트로, 사회적 인지 능력 및 공감 능력 측정에 널리 사용되어 왔습니다.\n이 포스트는 테스트의 통계적 구성과 방법론적 타당성에 의문을 제기합니다. 선택지 설계의 편향 가능성, 문화적·언어적 맥락에 따른 결과 차이, 그리고 테스트가 측정한다고 주장하는 '마음 이론(theory of mind)' 능력과 실제 측정값 사이의 간극이 논의됩니다.\n사회과학 연구에서 널리 인용되는 측정 도구의 방법론적 허점을 비판적으로 검토하는 사례 연구로, 통계적 측정의 타당성에 관심 있는 실무자에게 가치 있는 글입니다."
     }
   ]
 }
