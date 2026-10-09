@@ -1,7 +1,267 @@
 {
-  "updated": "2026-10-09T17:41:18+09:00",
-  "count": 1005,
+  "updated": "2026-10-10T00:57:12+09:00",
+  "count": 1010,
   "items": [
+    {
+      "title": "Can TypeSafe's Jev Make AI Agents Safer Without Another LLM?",
+      "link": "https://towardsdatascience.com/can-typesafes-jev-make-ai-agents-safer-without-another-llm/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "How a decision-first model can catch risky tool calls before they turn into real-world actions The post Can TypeSafe's Jev Make AI Agents Safer Without Another LLM? appeared first on Towards Data Science .",
+      "ts": 1791559800,
+      "published": "2026-10-09T15:30:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Digital twins version 2.0: The skeptics speak up",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/09/digital-twins-version-2-0-the-skeptics-speak-up/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This is Jessica. Several years since the earliest research papers on the topic came out, the idea of using LLMs to simulate human behavior like survey responses or experiment outcomes (“silicon sampling”) is hitting mai…",
+      "ts": 1791559359,
+      "published": "2026-10-09T15:22:39+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Impactful scheduling for GPU clusters",
+      "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791559229,
+      "published": "2026-10-09T15:20:29+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Quoting Matthew Green",
+      "link": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidenc…",
+      "ts": 1791558149,
+      "published": "2026-10-09T15:02:29+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite",
+      "link": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "GitHub migrated more than 800,000 lines of Copilot runtime code from TypeScript and Node.js to Rust in about 14.5 weeks using AI-assisted development. The incremental migration used N-API interoperability, automated tes…",
+      "ts": 1791556140,
+      "published": "2026-10-09T14:29:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite",
+      "link": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "GitHub migrated more than 800,000 lines of Copilot runtime code from TypeScript and Node.js to Rust in about 14.5 weeks using AI-assisted development. The incremental migration used N-API interoperability, automated tes…",
+      "ts": 1791556140,
+      "published": "2026-10-09T14:29:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Generate Images in Python With OpenAI's GPT Image API",
+      "link": "https://realpython.com/generate-images-openai/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to generate images from text prompts with OpenAI's GPT Image API in Python, tune their size and quality, and edit them with a follow-up prompt.",
+      "ts": 1791554400,
+      "published": "2026-10-09T14:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Modern Web Automation With Python and Selenium",
+      "link": "https://realpython.com/modern-web-automation-with-python-and-selenium/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Automate the browser with Python and Selenium: headless browsing, interacting with web elements, and the Page Object Model pattern.",
+      "ts": 1791554400,
+      "published": "2026-10-09T14:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Hugging Face Transformers: Leverage Open-Source AI in Python",
+      "link": "https://realpython.com/huggingface-transformers/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Get hands-on with Hugging Face Transformers in Python. Download, run, and inspect pretrained open-source AI models, and speed up inference on GPUs.",
+      "ts": 1791554400,
+      "published": "2026-10-09T14:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Build Your First MCP Server in Python (Stateless Spec Edition)",
+      "link": "https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "MCP just got simpler. Learn how to build a stateless MCP server in Python and expose tools, resources, and prompts over HTTP.",
+      "ts": 1791554400,
+      "published": "2026-10-09T14:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Where Does the Money Go Across Long-Running Coding Agents?",
+      "link": "https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "The cost of control The post Where Does the Money Go Across Long-Running Coding Agents? appeared first on Towards Data Science .",
+      "ts": 1791554400,
+      "published": "2026-10-09T14:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Thinking more seriously about the design of exploratory studies: A manifesto",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/09/thinking-more-seriously-about-the-design-of-exploratory-studies-a-manifesto/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I came across this post from 2016 which I still think is important. The idea is that there should be some guidelines for experimental design, not just for “confirmatory” studies that produce estimates, standard errors,…",
+      "ts": 1791553994,
+      "published": "2026-10-09T13:53:14+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "EmbeddingGemma 2: Text, Code, Images, Video and Audio in One Vector Space",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/embeddinggemma-2-multimodal-embeddings-guide/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "EmbeddingGemma 2 launched on October 6, 2026 under Apache 2.0. It is a sub-1B model built on Gemma 4 that maps text, code, images, video and audio into one 768-dimensional space. This article covers the architecture, th…",
+      "ts": 1791552199,
+      "published": "2026-10-09T13:23:19+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "A new feature for my blog, built using my voice",
+      "link": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almo…",
+      "ts": 1791550446,
+      "published": "2026-10-09T12:54:06+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Build Your First AI Agent with One Tool Call",
+      "link": "https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "AI Agents for Beginners, Part 1 The post Build Your First AI Agent with One Tool Call appeared first on Towards Data Science .",
+      "ts": 1791549000,
+      "published": "2026-10-09T12:30:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #314: Codemoo: Demonstrating How Coding Agents Work",
+      "link": "https://realpython.com/podcasts/rpp/314/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How do you assemble the core pieces of a coding agent? How are developers defining projects through conversation and introspection? This week on the show, Geir Arne Hjelle returns to talk about his recent project to dem…",
+      "ts": 1791547200,
+      "published": "2026-10-09T12:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Quiz: Generate Images in Python With OpenAI's GPT Image API",
+      "link": "https://realpython.com/quizzes/generate-images-openai/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of generating images in Python with OpenAI's GPT Image models, from text prompts and Base64 decoding to size, quality, and edits.",
+      "ts": 1791547200,
+      "published": "2026-10-09T12:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Quiz: Python Basics Exercises: Strings and String Methods",
+      "link": "https://realpython.com/quizzes/python-exercises-string-methods/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice Python string methods. Slice strings, change their case, strip whitespace, and format text for printing in this quiz for beginners.",
+      "ts": 1791547200,
+      "published": "2026-10-09T12:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "10 Free AI Tools That Replace Expensive Software for Data Scientists",
+      "link": "https://www.kdnuggets.com/10-free-ai-tools-that-replace-expensive-software-for-data-scientists",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Build a production-grade data science toolkit without spending a dollar, using open-source AI tools that match, and sometimes exceed, their paid alternatives.",
+      "ts": 1791547200,
+      "published": "2026-10-09T12:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
+      "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/franzenzenhofer/big-arrow-on-the-screen Comments URL: https://news.ycombinator.com/item?id=50018817 Points: 235 # Comments: 94",
+      "ts": 1791543828,
+      "published": "2026-10-09T11:03:48+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Presentation: Ontology‐Driven Observability: Building the E2E Knowledge Graph at Netflix Scale",
+      "link": "https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Prasanna Vijayanathan and Renzo Sanchez-Silva share how Netflix tackles observability across 38M events/sec. They discuss replacing reactive monitoring with an AI-driven operational ontology and agentic workflows using…",
+      "ts": 1791543600,
+      "published": "2026-10-09T11:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Presentation: Ontology‐Driven Observability: Building the E2E Knowledge Graph at Netflix Scale",
+      "link": "https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Prasanna Vijayanathan and Renzo Sanchez-Silva share how Netflix tackles observability across 38M events/sec. They discuss replacing reactive monitoring with an AI-driven operational ontology and agentic workflows using…",
+      "ts": 1791543600,
+      "published": "2026-10-09T11:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "How to Fine-Tune Llama 3 for Custom Tool Calling with Unsloth in Python",
+      "link": "https://machinelearningmastery.com/how-to-fine-tune-llama-3-for-custom-tool-calling-with-unsloth-in-python/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "Llama 3 is a capable generalist, but that's exactly the problem when you need an agent that reliably outputs structured JSON for a specific API.",
+      "ts": 1791543600,
+      "published": "2026-10-09T11:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Stop Using AI. Start Hiring It.",
+      "link": "https://towardsdatascience.com/stop-using-ai-start-hiring-it/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "AI agents can now write more code than any of us can read. That changed how I think about AI. The post Stop Using AI. Start Hiring It. appeared first on Towards Data Science .",
+      "ts": 1791543600,
+      "published": "2026-10-09T11:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "We’re putting too much faith in AI’s ability to say no",
+      "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of ro…",
+      "ts": 1791536400,
+      "published": "2026-10-09T09:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
+    {
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "link": "https://openai.com/index/sophos",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "ts": 1791529200,
+      "published": "2026-10-09T07:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
+    },
     {
       "title": "Cloudflare K2 Builds Event Streams on R2 Object Storage, at a Second of Produce Latency",
       "link": "https://www.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -71,6 +331,16 @@
       "ts": 1791504000,
       "published": "2026-10-09T00:00:00+00:00",
       "collected_at": "2026-10-09T10:50:28+09:00"
+    },
+    {
+      "title": "Python 3.15.0 (final) is here!",
+      "link": "https://blog.python.org/2026/10/python-3150-final-is-here/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "A brand new Python here for you to enjoy!",
+      "ts": 1791504000,
+      "published": "2026-10-09T00:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
     },
     {
       "title": "ttok 0.4",
@@ -481,6 +751,16 @@
       "ts": 1791417600,
       "published": "2026-10-08T00:00:00+00:00",
       "collected_at": "2026-10-09T09:10:24+09:00"
+    },
+    {
+      "title": "Oracle Java Platform Extension for Visual Studio Code - Version 27.0.0 Is Now Available",
+      "link": "https://inside.java/2026/10/08/java-vscode-extension-update/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "New release of the Java Platform Extension for VS Code",
+      "ts": 1791417600,
+      "published": "2026-10-08T00:00:00+00:00",
+      "collected_at": "2026-10-10T00:56:55+09:00"
     },
     {
       "title": "1.15.25",
@@ -9821,236 +10101,6 @@
       "ts": 1788969600,
       "published": "2026-09-09T16:00:00+00:00",
       "collected_at": "2026-09-10T02:41:41+09:00"
-    },
-    {
-      "title": "Release 5.17.0",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.17.0",
-      "source": "Transformers",
-      "category": "AI",
-      "summary": "Release v5.17.0 New Model additions HYV4 Hy4-Preview is a 780B-parameter mixture-of-experts language model that activates 49B parameters per token. Each MoE layer holds 256 routed experts plus one always-active shared e…",
-      "ts": 1788968565,
-      "published": "2026-09-09T15:42:45+00:00",
-      "collected_at": "2026-09-10T02:41:41+09:00"
-    },
-    {
-      "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
-      "link": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788968184,
-      "published": "2026-09-09T15:36:24+00:00",
-      "collected_at": "2026-09-10T02:41:41+09:00"
-    },
-    {
-      "title": "Getting started with dbt",
-      "link": "https://towardsdatascience.com/getting-started-with-dbt/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A practical guide to building, testing, and documenting SQL transformations The post Getting started with dbt appeared first on Towards Data Science .",
-      "ts": 1788967801,
-      "published": "2026-09-09T15:30:01+00:00",
-      "collected_at": "2026-09-10T02:41:41+09:00"
-    },
-    {
-      "title": "Build an AI Data Analyst That Thinks Like a Senior Analyst",
-      "link": "https://www.kdnuggets.com/build-an-ai-data-analyst-that-thinks-like-a-senior-analyst",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "A six-stage pipeline that checks its numbers before calling anything an answer.",
-      "ts": 1788962450,
-      "published": "2026-09-09T14:00:50+00:00",
-      "collected_at": "2026-09-10T02:41:41+09:00"
-    },
-    {
-      "title": "The Symmetry That Breaks Neural Network Averaging",
-      "link": "https://towardsdatascience.com/the-symmetry-that-breaks-neural-network-averaging/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Understanding permutation symmetry in deep learning, and what it means for weight averaging and model merging The post The Symmetry That Breaks Neural Network Averaging appeared first on Towards Data Science .",
-      "ts": 1788962402,
-      "published": "2026-09-09T14:00:02+00:00",
-      "collected_at": "2026-09-10T02:41:41+09:00"
-    },
-    {
-      "title": "Python 3.15 Preview: Lazy Imports",
-      "link": "https://realpython.com/python315-lazy-imports/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how Python 3.15 lazy imports work, how deferring heavy modules cuts your app's startup time, and which imports still have to stay eager.",
-      "ts": 1788962400,
-      "published": "2026-09-09T14:00:00+00:00",
-      "collected_at": "2026-09-10T02:41:41+09:00"
-    },
-    {
-      "title": "An Effective Python Development Environment",
-      "link": "https://realpython.com/effective-python-environment/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Choose a Python development environment that helps you get coding. Find tutorials and courses on editors, uv, virtual environments, and useful tools.",
-      "ts": 1788962400,
-      "published": "2026-09-09T14:00:00+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "Living on the Edge: Aggressive mediocrity at the summit of America’s intellectual culture",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/09/living-on-the-edge-aggressive-mediocrity-at-the-summit-of-americas-intellectual-culture/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "So much good stuff here at the Edge Foundation and Jeffrey Epstein webpage: – The connection to Ted talks. I had no idea! But it fits. Money and bullshit go together like liver and onions. – “Bill Gates and his … Contin…",
-      "ts": 1788961460,
-      "published": "2026-09-09T13:44:20+00:00",
-      "collected_at": "2026-09-10T02:41:41+09:00"
-    },
-    {
-      "title": "The AI policy window is open. We need to act.",
-      "link": "https://openai.com/index/ai-policy-window",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.",
-      "ts": 1788958800,
-      "published": "2026-09-09T13:00:00+00:00",
-      "collected_at": "2026-09-10T09:16:10+09:00"
-    },
-    {
-      "title": "v0.22.2",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.22.2",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "What's Changed feat: support current image generation tool options by @seratch in #4932 fix(sandbox): prevent UnixLocal file API symlink races by @seratch in #4931 fix(sessions): reset compaction response chain after po…",
-      "ts": 1788957370,
-      "published": "2026-09-09T12:36:10+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "When One Process Becomes Too Much: Splitting a Pipeline into MCP Services",
-      "link": "https://towardsdatascience.com/when-one-process-becomes-too-much-splitting-a-pipeline-into-mcp-services/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "How we split a tightly coupled Python pipeline into independently deployable services The post When One Process Becomes Too Much: Splitting a Pipeline into MCP Services appeared first on Towards Data Science .",
-      "ts": 1788957002,
-      "published": "2026-09-09T12:30:02+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "7 Approaches to Efficient LLM Training on Limited Hardware",
-      "link": "https://www.kdnuggets.com/7-approaches-to-efficient-llm-training-on-limited-hardware",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Learn seven engineering techniques to train large language models on consumer GPUs without running out of memory.",
-      "ts": 1788955250,
-      "published": "2026-09-09T12:00:50+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "Versioning and Tracking Scikit-LLM Experiments",
-      "link": "https://machinelearningmastery.com/versioning-and-tracking-scikit-llm-experiments/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how to build, track, compare, and register scikit-learn pipelines that integrate large language models using Scikit-LLM and MLflow. Topics...",
-      "ts": 1788955231,
-      "published": "2026-09-09T12:00:31+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "Quiz: Starting With Python IDLE",
-      "link": "https://realpython.com/quizzes/starting-python-idle/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your grasp of Python IDLE. Run code in the shell, edit and run files, debug with breakpoints, and make the editor look the way you like.",
-      "ts": 1788955200,
-      "published": "2026-09-09T12:00:00+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "Quiz: Python 3.15 Preview: Lazy Imports",
-      "link": "https://realpython.com/quizzes/python315-lazy-imports/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python 3.15 lazy imports, from the lazy keyword and __lazy_modules__ to the imports that have to stay eager.",
-      "ts": 1788955200,
-      "published": "2026-09-09T12:00:00+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
-      "link": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
-      "source": "Ahead of AI",
-      "category": "AI",
-      "summary": "A Look at Recurrent Depth, Hidden Chains of Thought, and Recent Research on Looping Transformer Blocks",
-      "ts": 1788952465,
-      "published": "2026-09-09T11:14:25+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "10 Statistical Traps We Often Overlook",
-      "link": "https://towardsdatascience.com/10-statistical-traps-we-often-overlook/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Statistical thinking beyond formulas The post 10 Statistical Traps We Often Overlook appeared first on Towards Data Science .",
-      "ts": 1788951602,
-      "published": "2026-09-09T11:00:02+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "Presentation: Fixing the AI Infra Scale Problem by Stuffing 1M Sandboxes in a Single Server",
-      "link": "https://www.infoq.com/presentations/unikraft-microvm-sandboxes-cloud-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Felipe Huici explains how Unikraft achieves millisecond cold boots, stateful scale-to-zero, and extreme density for sandboxing AI workloads. He discusses isolation primitives, Linux kernel optimizations, and snapshottin…",
-      "ts": 1788951600,
-      "published": "2026-09-09T11:00:00+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "Presentation: Fixing the AI Infra Scale Problem by Stuffing 1M Sandboxes in a Single Server",
-      "link": "https://www.infoq.com/presentations/unikraft-microvm-sandboxes-cloud-scaling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Felipe Huici explains how Unikraft achieves millisecond cold boots, stateful scale-to-zero, and extreme density for sandboxing AI workloads. He discusses isolation primitives, Linux kernel optimizations, and snapshottin…",
-      "ts": 1788951600,
-      "published": "2026-09-09T11:00:00+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "GPT-6 Astra: The next generation in intelligence for work",
-      "link": "https://openai.com/index/gpt-6-astra-next-generation-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.",
-      "ts": 1788951600,
-      "published": "2026-09-09T11:00:00+00:00",
-      "collected_at": "2026-09-10T08:03:32+09:00"
-    },
-    {
-      "title": "I resigned from Anthropic today (Jacob Coxon)",
-      "link": "https://xcancel.com/hilbertspaess/status/2097476196791709843?s=20",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://xcancel.com/hilbertspaess/status/2097476196791709843?s=20 Comments URL: https://news.ycombinator.com/item?id=49624157 Points: 55 # Comments: 21",
-      "ts": 1788949503,
-      "published": "2026-09-09T10:25:03+00:00",
-      "collected_at": "2026-09-10T12:53:11+09:00"
-    },
-    {
-      "title": "Azure Virtual Desktop Hybrid Reaches GA with Licensing Details Unpublished",
-      "link": "https://www.infoq.com/news/2026/09/avd-hybrid-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft has made Azure Virtual Desktop Hybrid generally available. Session hosts run on customer hardware through Azure Arc while brokering stays in Azure. The Hybrid service license is unpriced, Windows Server suppor…",
-      "ts": 1788944040,
-      "published": "2026-09-09T08:54:00+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
-    },
-    {
-      "title": "Gambling with our lives: AI researcher quits Anthropic with warning about safety",
-      "link": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans/ Comments URL: https://news.ycombinator.com/item?id=49623306 Points: 70 # Comments: 93",
-      "ts": 1788943407,
-      "published": "2026-09-09T08:43:27+00:00",
-      "collected_at": "2026-09-09T22:34:30+09:00"
     }
   ]
 }
