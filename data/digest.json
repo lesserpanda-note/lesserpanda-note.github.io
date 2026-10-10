@@ -1,62 +1,76 @@
 {
-  "updated": "2026-10-09T00:07:50Z",
-  "summary": "오늘은 Cloudflare의 AI 에이전트용 결정 모델 오픈소스 공개와 AI 에이전트가 PyTorch보다 빠른 CUDA 커널을 작성하는 실험 결과가 주목받았습니다. Spotify의 프로덕션 멀티 에이전트 아키텍처와 시계열 확산 예측 모델의 방법론적 한계 분석도 실무자에게 유용한 내용입니다.",
+  "updated": "2026-10-10T00:08:04Z",
+  "summary": "오늘은 GitHub의 Copilot 런타임 80만 줄을 Rust로 마이그레이션한 사례와 Cloudflare의 새로운 서버리스 스트리밍 서비스 K2가 주목받았습니다. AI 분야에서는 Google의 Android Bench 2.0 출시와 Sophos의 AI 기반 위협 조사 시간 96% 단축이 인상적입니다. 에이전트 안전성과 비용 구조 분석, Python 실용 튜토리얼, 통계 방법론 및 멀티모달 임베딩 모델까지 다양한 분야의 최신 동향을 담았습니다.",
   "highlights": [
     {
       "category": "AI",
-      "title": "Cloudflare Open Sources Decision Models for AI Agents",
-      "link": "https://www.infoq.com/news/2026/10/clef-decision-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Cloudflare가 AI 에이전트를 위한 결정 모델 세트인 Clef를 오픈소스로 공개했습니다. 텍스트 생성이 아닌 사전 정의된 선택지 중 최적을 고르는 특화 모델로, 9B와 27B 파라미터 버전이 제공됩니다.",
-      "detail": "Cloudflare는 최근 'Birthday Week' 이벤트를 통해 Clef를 발표했습니다. Clef는 텍스트를 생성하는 일반 LLM과 달리, AI 에이전트가 워크플로우에서 사전 정의된 선택지 중 하나를 선택하도록 특화된 경량 결정 모델(decision model)입니다.\n9B 및 27B 파라미터 오픈웨이트(open-weight) 모델이 공개되었으며, 에이전트 파이프라인 내에서 라우팅, 분기 결정, 작업 분배 등의 용도로 활용할 수 있습니다.\nClef는 Workers AI 플랫폼을 통해 무료로 이용 가능하며 Apache 2.0 라이선스로 배포됩니다. 기존 범용 LLM 대비 결정 작업에서 높은 정확도와 낮은 레이턴시를 목표로 설계되었으며, AI 에이전트의 자율성과 통제력을 균형 있게 유지하는 데 기여할 것으로 기대됩니다."
+      "title": "Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring",
+      "link": "https://www.infoq.com/news/2026/10/android-bench-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Google이 AI 모델·에이전트의 Android 개발 작업 평가를 위한 Android Bench 2.0을 출시했습니다. 장기 작업(LHTs), 에이전트 기반 평가, 연속 점수 시스템이 새롭게 추가되었습니다.",
+      "detail": "Android Bench 2.0은 Google이 출시한 AI 모델·에이전트 평가 프레임워크의 주요 업데이트입니다. 이번 버전에서는 장기 수평 작업(Long-Horizon Tasks, LHTs) 지원이 추가되어 복잡한 멀티스텝 작업 평가가 가능해졌습니다. 에이전트 기반 평가 기능을 통해 AI 에이전트가 실제 Android 환경에서 작업을 수행하는 능력을 측정할 수 있으며, 연속 점수(Continuous Scoring) 시스템으로 이진 Pass/Fail 방식이 아닌 세밀한 성능 측정이 가능합니다. 이 업데이트는 점점 복잡해지는 AI 에이전트의 실세계 능력을 더 정확하게 평가하기 위한 방향으로 설계되었습니다."
     },
     {
       "category": "AI",
-      "title": "AI breakthroughs in robotics won't change your life any time soon",
-      "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-      "summary": "MIT 테크놀로지 리뷰가 AI 로보틱스의 최근 성과에도 불구하고 실생활에 미치는 영향은 여전히 제한적일 것이라고 분석했습니다. 인상적인 연구실 시연과 현실 배포 사이의 간극이 여전히 크다는 점을 강조합니다.",
-      "detail": "MIT 테크놀로지 리뷰와 비영리 연구재단 Aventine이 공동으로 발표한 이 분석 기사는 AI 로보틱스 분야의 눈부신 기술 발전에도 불구하고 실제 삶에 변화를 가져오기까지는 상당한 시간이 걸릴 것이라고 주장합니다.\n주요 근거로는 신뢰성과 안전성 문제, 높은 가격 장벽, 복잡한 현실 환경에의 적응 어려움, 제조·공급망 확장의 현실적 한계가 꼽힙니다.\n연구실에서는 인간형 로봇이 복잡한 동작을 수행하는 영상이 화제가 되지만, 그 성능을 병원·물류창고·가정 등 예측 불가능한 실환경에서 안정적으로 구현하는 것은 전혀 다른 문제입니다.\n기사는 AI 로보틱스를 낙관적으로 전망하는 투자자와 기업들의 주장을 비판적으로 검토하며, 기술 발전의 속도와 사회적 수용 사이의 균형 있는 시각을 촉구합니다."
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "link": "https://openai.com/index/sophos",
+      "summary": "Sophos가 OpenAI의 Daybreak를 활용해 사이버 위협 조사 시간을 96% 단축하고 MDR 케이스의 52%를 자동화했습니다.",
+      "detail": "보안 기업 Sophos는 OpenAI의 Daybreak를 MDR(Managed Detection and Response) 서비스에 통합하여 뛰어난 효율성 향상을 달성했습니다. 위협 조사 시간이 기존 대비 96% 단축되었으며, 전체 MDR 케이스 중 52%가 인간 개입 없이 자동으로 처리됩니다. AI가 대용량 보안 이벤트 데이터를 신속히 분석하여 위협의 우선순위를 결정하는 동시에, 인간 보안 분석가가 최종 결정을 내리는 인간 감독 구조를 유지합니다. 이는 사이버보안 분야에서 AI가 속도와 정확성을 동시에 개선할 수 있음을 보여주는 대표적인 사례입니다."
     },
     {
       "category": "Agents",
-      "title": "AI Agents Beat PyTorch: Writing Faster CUDA Kernels",
-      "link": "https://towardsdatascience.com/ai-agents-beat-pytorch-writing-faster-cuda-kernels/",
-      "summary": "AI 에이전트가 PyTorch보다 빠른 CUDA 커널을 작성할 수 있다는 실험 결과가 발표되었습니다. 단, 성능 향상이 실제인지 검증하는 벤치마크 설계가 더 중요한 과제임을 강조합니다.",
-      "detail": "이 기사는 AI 에이전트가 NVIDIA DGX Spark 장비에서 PyTorch 내장 연산보다 빠른 커스텀 CUDA 커널을 생성할 수 있다는 실험 결과를 다룹니다.\n저자는 CUDA 커널 코드를 AI 에이전트로 생성하고 여러 조건에서 성능을 측정한 결과, 일부 연산에서 PyTorch 대비 유의미한 속도 향상을 확인했습니다.\n그러나 핵심 메시지는 벤치마크 설계의 중요성입니다. 메모리 정렬, 배치 크기, 데이터 타입 등 미세한 조건 차이가 결과를 크게 왜곡할 수 있어, 성능 향상이 실제인지 확인하려면 철저한 방법론적 검증이 필수입니다.\nAI 에이전트 기반 고성능 컴퓨팅 코드 생성의 가능성과 한계를 균형 있게 분석한 기사로, GPU 최적화에 관심 있는 개발자에게 실용적인 인사이트를 제공합니다."
+      "title": "Can TypeSafe's Jev Make AI Agents Safer Without Another LLM?",
+      "link": "https://towardsdatascience.com/can-typesafes-jev-make-ai-agents-safer-without-another-llm/",
+      "summary": "TypeSafe의 Jev는 추가 LLM 없이 의사결정 우선 모델로 AI 에이전트의 위험한 도구 호출을 사전에 차단하는 경량 안전 레이어입니다.",
+      "detail": "TypeSafe의 Jev는 AI 에이전트가 실행하는 도구 호출(tool call)의 안전성을 별도의 LLM 없이 검증하는 새로운 접근 방식입니다. 의사결정 우선(decision-first) 모델을 기반으로, 에이전트가 실제 세계에 영향을 미치는 위험한 동작(파일 삭제, 외부 API 호출 등)을 수행하기 전에 사전 검증 단계를 거칩니다. 기존의 LLM 기반 가드레일에 비해 추론 비용이 낮고 결정론적 동작이 가능하다는 장점이 있습니다. 에이전트 안전성 문제가 점점 부각되는 시점에서 Jev는 경량화된 안전 계층을 제공하는 실용적인 솔루션으로 주목받고 있습니다."
     },
     {
       "category": "Agents",
-      "title": "Building AI Agents with Docker Agent",
-      "link": "https://www.kdnuggets.com/building-ai-agents-with-docker-agent",
-      "summary": "Docker Engineering이 개발한 오픈소스 CLI 플러그인 Docker Agent가 공개되었습니다. 'AI 에이전트를 컨테이너처럼 실행한다'는 목표로, docker agent 명령어로 설치 및 실행할 수 있습니다.",
-      "detail": "Docker Agent는 Docker Engineering이 직접 개발한 Apache 2.0 라이선스 오픈소스 CLI 플러그인으로, 'AI 에이전트를 컨테이너처럼 실행한다'는 목표를 내세우고 있습니다.\n기존 docker CLI와 동일한 방식으로 설치하며(docker agent), 친숙한 Docker 워크플로우로 AI 에이전트를 정의·배포·관리할 수 있습니다.\nDocker의 컨테이너화 철학을 AI 에이전트에 적용해 실행 환경 격리, 재현 가능성, 오케스트레이션 등을 지원합니다. 이미 Docker에 익숙한 개발자들이 별도의 새로운 도구 없이 AI 에이전트를 구축하고 운영할 수 있다는 점에서 실용적 가치가 높습니다.\n프로덕션 환경에서 AI 에이전트를 표준화된 방식으로 관리하는 인프라 도구로서 Docker 생태계의 확장을 의미하는 중요한 발표입니다."
+      "title": "Where Does the Money Go Across Long-Running Coding Agents?",
+      "link": "https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/",
+      "summary": "장기 실행 코딩 에이전트에서 발생하는 비용 구조를 분석한 결과, 실제 코드 생성보다 에이전트 제어 메커니즘에 훨씬 큰 비용이 소요되는 것으로 나타났습니다.",
+      "detail": "이 분석은 장기 실행 코딩 에이전트에서 발생하는 비용 구조를 심층적으로 살펴봅니다. 도구 호출, 컨텍스트 관리, 반복 계획 수립 등 '제어(control)' 관련 비용이 실제 코드 생성 비용을 크게 상회한다는 점이 핵심 발견입니다. 에이전트가 오래 실행될수록 컨텍스트 창 비용, 재시도 루프, 검증 단계 등에 소요되는 토큰이 기하급수적으로 증가합니다. 이는 에이전트 설계 시 단순한 모델 선택보다 제어 흐름 최적화가 비용 효율성에 더 큰 영향을 미침을 시사하는 중요한 인사이트입니다."
     },
     {
       "category": "Architecture",
-      "title": "Presentation: Multi-Agent Patterns from Spotify's AI Powered Advertising Platform",
-      "link": "https://www.infoq.com/presentations/spotify-multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Spotify Ads Manager가 Google ADK Java를 활용해 프로덕션 규모의 멀티 에이전트 시스템을 운영하는 아키텍처를 InfoQ 발표를 통해 소개합니다. 도메인 소유권 모델, 결정론적 가드레일, 분산 추적 등 핵심 패턴을 공유합니다.",
-      "detail": "Pratik Rasam이 InfoQ 발표에서 Spotify Ads Manager의 AI 기반 광고 플랫폼 아키텍처를 상세히 설명합니다.\nSpotify는 Google ADK(Agent Development Kit) Java를 사용해 프로덕션 규모의 멀티 에이전트 시스템을 구축했으며, 광고 타겟팅·최적화·자동화 등 복잡한 작업을 여러 전문 에이전트가 협력해 처리합니다.\n핵심 아키텍처 패턴으로는 도메인별 소유권 모델(각 팀이 담당 에이전트를 소유·운영), 결정론적 가드레일(에이전트의 예측 불가능한 행동 제한), 그리고 분산 에이전트 간 추적 및 관찰 가능성 확보가 소개됩니다.\n실제 프로덕션 시스템에서 얻은 교훈과 확장 과정에서 겪은 문제들도 공유되어, 기업 환경에서 멀티 에이전트 AI를 도입하려는 팀에 실질적인 참고 자료가 됩니다."
+      "title": "Cloudflare K2 Builds Event Streams on R2 Object Storage, at a Second of Produce Latency",
+      "link": "https://www.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Cloudflare가 R2 오브젝트 스토리지 위에 구축한 서버리스 이벤트 스트리밍 서비스 K2를 공개 베타로 출시했습니다. p99 프로듀스 지연이 약 1초입니다.",
+      "detail": "Cloudflare K2는 R2 오브젝트 스토리지에 내구성 있는 로그를 구현한 서버리스 이벤트 스트리밍 서비스입니다. 공개 베타로 출시되었으며, 프로듀스 지연(produce latency)은 p99 기준 약 1초로 Kafka 등 기존 스트리밍 시스템과 다른 트레이드오프를 보입니다. Cloudflare의 글로벌 네트워크와 R2의 저렴한 스토리지 비용을 결합하여 별도의 인프라 운영 없이 이벤트 스트리밍을 제공하는 것이 목표입니다. 엄격한 실시간 스트리밍보다는 배치성 이벤트 처리나 로그 집계 등의 사용 사례에 적합한 솔루션으로 평가됩니다."
     },
     {
       "category": "Architecture",
-      "title": "Technological Sovereignty Requires Choice, Skills, and Support, Panelists Say During OSS EU",
-      "link": "https://www.infoq.com/news/2026/10/technological-sovereignity-panel/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "OSS EU 패널 토론에서 유럽 조직들이 기술 주권을 강화하려면 전 세계 공급업체를 완전히 배제하기보다 신뢰할 수 있는 대안 개발, 내부 역량 습득, 그리고 생태계 지원이 필요하다고 강조했습니다.",
-      "detail": "InfoQ가 OSS EU(유럽 오픈소스 서밋) 패널 토론 내용을 보도했습니다. 패널리스트들은 유럽 기업과 공공 기관이 기술 주권을 확보하는 방법을 논의했습니다.\n핵심 주장은 세 가지입니다: 첫째, 글로벌 공급업체에 대한 완전한 의존 탈피보다 경쟁력 있는 대안을 개발하고 선택지를 넓혀야 한다는 것. 둘째, 내부 기술 역량과 전문 인력을 충분히 갖추어야 한다는 것. 셋째, 공급업체 독립적 생태계를 지원하는 정책과 커뮤니티 지원이 필요하다는 것입니다.\n미국 빅테크 및 클라우드 공급업체에 대한 의존도가 높아지는 가운데, 데이터 주권과 공급망 위험 관리 관점에서 오픈소스 소프트웨어와 유럽산 대안 플랫폼의 역할이 더욱 중요해지고 있다는 점을 강조합니다."
+      "title": "Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite",
+      "link": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "GitHub이 AI 보조 개발을 활용해 Copilot 런타임 80만 줄 이상을 TypeScript에서 Rust로 약 14.5주 만에 마이그레이션했습니다.",
+      "detail": "GitHub은 Copilot 런타임 코드베이스 80만 줄 이상을 TypeScript/Node.js에서 Rust로 전환하는 대규모 마이그레이션을 완료했습니다. AI 보조 개발 도구를 활용한 점진적 마이그레이션 방식을 채택했으며, N-API 상호 운용성을 통해 TypeScript와 Rust 코드가 공존하는 단계적 전환을 진행했습니다. 자동화된 테스트와 지속적 검증을 통해 14.5주라는 단기간에 완료했으며, Rust 전환으로 메모리 안전성 향상, 성능 개선, 런타임 오버헤드 감소를 달성했습니다. AI 도구가 대규모 코드 마이그레이션의 실행 가능성을 획기적으로 높였음을 보여주는 사례입니다."
+    },
+    {
+      "category": "Python",
+      "title": "Generate Images in Python With OpenAI's GPT Image API",
+      "link": "https://realpython.com/generate-images-openai/",
+      "summary": "Python에서 OpenAI의 GPT Image API를 사용해 텍스트 프롬프트로 이미지를 생성하고, 크기·품질 조정 및 후속 프롬프트로 편집하는 방법을 다룬 실용 튜토리얼입니다.",
+      "detail": "이 Real Python 튜토리얼은 OpenAI의 GPT Image API를 Python에서 활용하는 실용적인 가이드입니다. 텍스트 프롬프트에서 이미지를 생성하는 기본 방법부터 이미지 크기와 품질(standard/hd) 설정 방법을 설명합니다. 생성된 이미지를 후속 프롬프트로 편집하는 인페인팅 기능, Base64 디코딩을 통한 이미지 파일 저장, 그리고 비동기 처리를 통한 배치 생성 방법도 포함됩니다. OpenAI Python SDK를 활용한 실용적인 코드 예제와 함께 API 비용 최적화 팁도 제공하며, 이미지 생성 AI를 Python 프로젝트에 통합하려는 개발자에게 유용합니다."
+    },
+    {
+      "category": "Python",
+      "title": "Hugging Face Transformers: Leverage Open-Source AI in Python",
+      "link": "https://realpython.com/huggingface-transformers/",
+      "summary": "Hugging Face Transformers 라이브러리로 사전 훈련된 오픈소스 AI 모델을 다운로드·실행·검사하고 GPU 추론을 가속화하는 방법을 소개하는 튜토리얼입니다.",
+      "detail": "이 Real Python 튜토리얼은 Hugging Face Transformers 라이브러리의 실용적 활용법을 다룹니다. Hub에서 사전 훈련된 모델을 다운로드하고 pipeline API로 즉시 사용하는 방법, 텍스트 분류·생성·번역 등 다양한 NLP 작업에 적용하는 방법을 설명합니다. 모델 내부 구조를 검사하고 레이어별 출력을 분석하는 방법과 GPU를 활용한 추론 가속화 기법도 포함됩니다. 유료 API 없이 오픈소스 모델로 강력한 AI 기능을 Python 애플리케이션에 통합하는 데 초점을 맞추며, 입문자부터 실무자까지 활용 가능한 포괄적인 내용을 담고 있습니다."
     },
     {
       "category": "DataScience",
-      "title": "Your Model's MSE Is Lying to You III: Time Series Diffusion",
-      "link": "https://towardsdatascience.com/your-models-mse-is-lying-to-you-iii-time-series-diffusion/",
-      "summary": "시계열 예측에서 평균(MSE)과 분산이 모두 정확하더라도 실제로는 일어나지 않을 미래를 예측하는 문제가 발생할 수 있으며, 확산 헤드(diffusion head)를 활용한 확률적 예측으로 이를 해결하는 방법을 제시합니다.",
-      "detail": "이 기사는 시계열 예측 모델이 MSE 기준으로는 우수해 보이지만 현실에서 나타나지 않는 패턴을 예측하는 근본적 문제를 다룹니다.\n'MSE Is Lying to You' 시리즈 3편으로, 이번에는 확산 모델(diffusion model)을 시계열 예측 헤드로 활용하는 방법을 탐구합니다.\n핵심 문제는 모델이 평균(mean)과 분산(variance)을 모두 올바르게 학습해도, 예측 분포가 실제 시계열의 시간적 의존성(temporal dependency)과 구조를 반영하지 못하면 물리적으로 불가능한 경로를 생성할 수 있다는 점입니다.\n확산 헤드는 이러한 한계를 극복해 더 현실적이고 구조화된 예측 경로를 생성하며, 리스크 관리와 의사결정에 직접 활용 가능한 고품질 예측 분포를 제공합니다. 시계열 예측에 확률론적 접근법을 도입하려는 실무자에게 유용한 기사입니다."
+      "title": "Thinking more seriously about the design of exploratory studies: A manifesto",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/09/thinking-more-seriously-about-the-design-of-exploratory-studies-a-manifesto/",
+      "summary": "Andrew Gelman이 탐색적 연구 설계에 관한 방법론적 매니페스토를 재조명하며, 확인적 연구와 구별되는 탐색적 연구 고유의 설계 원칙 정립을 촉구합니다.",
+      "detail": "이 포스트는 통계학자 Andrew Gelman이 2016년 작성한 탐색적 연구 설계에 관한 방법론적 매니페스토를 재조명합니다. 핵심 주장은 탐색적 연구(exploratory study)가 단순히 확인적 연구(confirmatory study)의 전 단계가 아니라, 고유한 설계 원칙이 필요한 독립적인 연구 유형이라는 것입니다. 표준 오차나 p-값 생성에 치중하지 않는 탐색적 연구에서도 체계적인 설계 가이드라인이 필요하며, 이를 통해 연구의 재현 가능성과 신뢰성을 높일 수 있다고 주장합니다. 재현성 위기가 지속되는 과학계에서 탐색적 연구 방법론의 체계적 정립을 촉구하는 내용입니다."
     },
     {
       "category": "DataScience",
-      "title": "What's the deal with the RMET (\"the Reading the Mind in the Eyes test\")?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/08/whats-the-deal-with-the-rmet-the-reading-the-mind-in-the-eyes-test/",
-      "summary": "RMET(눈을 통해 마음을 읽는 테스트)의 통계적 신뢰성과 타당성에 관한 심층 분석으로, 이 테스트가 실제로 무엇을 측정하는지에 대한 방법론적 의문이 제기됩니다.",
-      "detail": "Statistical Modeling, Causal Inference, and Social Science 블로그(앤드루 겔만 운영)가 RMET(Reading the Mind in the Eyes Test)를 검토합니다. RMET는 피험자가 눈 사진만 보고 감정 상태를 추론하는 테스트로, 사회적 인지 능력 및 공감 능력 측정에 널리 사용되어 왔습니다.\n이 포스트는 테스트의 통계적 구성과 방법론적 타당성에 의문을 제기합니다. 선택지 설계의 편향 가능성, 문화적·언어적 맥락에 따른 결과 차이, 그리고 테스트가 측정한다고 주장하는 '마음 이론(theory of mind)' 능력과 실제 측정값 사이의 간극이 논의됩니다.\n사회과학 연구에서 널리 인용되는 측정 도구의 방법론적 허점을 비판적으로 검토하는 사례 연구로, 통계적 측정의 타당성에 관심 있는 실무자에게 가치 있는 글입니다."
+      "title": "EmbeddingGemma 2: Text, Code, Images, Video and Audio in One Vector Space",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/embeddinggemma-2-multimodal-embeddings-guide/",
+      "summary": "Google이 아파치 2.0으로 출시한 EmbeddingGemma 2는 텍스트, 코드, 이미지, 동영상, 오디오를 하나의 768차원 벡터 공간에 임베딩하는 10억 개 미만의 멀티모달 모델입니다.",
+      "detail": "EmbeddingGemma 2는 2026년 10월 6일 아파치 2.0 라이선스로 출시된 Google의 멀티모달 임베딩 모델입니다. Gemma 4를 기반으로 구축된 10억 개 미만 파라미터의 경량 모델로, 텍스트·코드·이미지·동영상·오디오 5가지 모달리티를 단일 768차원 벡터 공간에 매핑합니다. 이를 통해 서로 다른 모달리티 간의 시맨틱 유사성 비교와 크로스 모달 검색이 가능해집니다. 오픈소스 라이선스로 제공되어 상업적 활용도 자유로우며, 멀티모달 RAG 시스템 구축이나 다양한 콘텐츠 유형을 통합 검색하는 시스템에 특히 유용합니다."
     }
   ]
 }
