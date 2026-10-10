@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-10T15:49:31+09:00",
-  "count": 1003,
+  "updated": "2026-10-10T22:25:19+09:00",
+  "count": 995,
   "items": [
+    {
+      "title": "The problem is noise, not N: why increasing the sample size isn’t all that.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/10/the-problem-is-noise-not-n-why-increasing-the-sample-size-isnt-all-that/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Someone was talking with me about the problem with lots of published social science research that’s based on small sample sizes. And I agree that this is a problem! But I think the real problem is noise, not N. Noise ……",
+      "ts": 1791637875,
+      "published": "2026-10-10T13:11:15+00:00",
+      "collected_at": "2026-10-10T22:24:55+09:00"
+    },
+    {
+      "title": "Quiz: How to Get a List of All Files in a Directory With Python",
+      "link": "https://realpython.com/quizzes/get-all-files-in-directory-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Revisit how to list files and folders in Python with pathlib. Check your grasp of .iterdir(), glob patterns, .rglob(), and skipping junk directories.",
+      "ts": 1791633600,
+      "published": "2026-10-10T12:00:00+00:00",
+      "collected_at": "2026-10-10T22:24:55+09:00"
+    },
+    {
+      "title": "Why Temperature 0 Isn't Deterministic",
+      "link": "https://towardsdatascience.com/why-temperature-0-isnt-deterministic/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A one-line formula for how often an LLM's top token flips, and why identical completions fall apart after about a hundred tokens The post Why Temperature 0 Isn't Deterministic appeared first on Towards Data Science .",
+      "ts": 1791633600,
+      "published": "2026-10-10T12:00:00+00:00",
+      "collected_at": "2026-10-10T22:24:55+09:00"
+    },
+    {
+      "title": "Cloudflare Traces Turns the Proxy Layer into OpenTelemetry Spans, with New Volume-Based Pricing",
+      "link": "https://www.infoq.com/news/2026/10/cloudflare-traces-open-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare has put Traces into open beta, extending automatic tracing from Workers to security rules, transformations, cache, routing and origin handling as OpenTelemetry spans. Traces accept and forward W3C traceparent…",
+      "ts": 1791616320,
+      "published": "2026-10-10T07:12:00+00:00",
+      "collected_at": "2026-10-10T22:24:55+09:00"
+    },
+    {
+      "title": "Cloudflare Traces Turns the Proxy Layer into OpenTelemetry Spans, with New Volume-Based Pricing",
+      "link": "https://www.infoq.com/news/2026/10/cloudflare-traces-open-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare has put Traces into open beta, extending automatic tracing from Workers to security rules, transformations, cache, routing and origin handling as OpenTelemetry spans. Traces accept and forward W3C traceparent…",
+      "ts": 1791616320,
+      "published": "2026-10-10T07:12:00+00:00",
+      "collected_at": "2026-10-10T22:24:55+09:00"
+    },
     {
       "title": "[AINews] TypeSafe/Jev at >$100M ARR, $7.5B valuation 3 weeks after launch",
       "link": "https://www.latent.space/p/ainews-typesafejev-at-100m-arr-75b",
@@ -9901,136 +9951,6 @@
       "ts": 1789047359,
       "published": "2026-09-10T13:35:59+00:00",
       "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "Optimizing LLM Inference Costs in Multi-Agent Systems with Adaptive Model Routing",
-      "link": "https://towardsdatascience.com/optimizing-llm-inference-costs-in-multi-agent-systems-with-adaptive-model-routing/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Moving from static model assignment to intelligent, task-level LLM selection. The post Optimizing LLM Inference Costs in Multi-Agent Systems with Adaptive Model Routing appeared first on Towards Data Science .",
-      "ts": 1789043401,
-      "published": "2026-09-10T12:30:01+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "Release 5.17.0",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.17.0",
-      "source": "Transformers",
-      "category": "AI",
-      "summary": "Release v5.17.0 New Model additions HYV4 Hy4-Preview is a 780B-parameter mixture-of-experts language model that activates 49B parameters per token. Each MoE layer holds 256 routed experts plus one always-active shared e…",
-      "ts": 1789041798,
-      "published": "2026-09-10T12:03:18+00:00",
-      "collected_at": "2026-10-10T05:45:21+09:00"
-    },
-    {
-      "title": "5 Useful Python Scripts to Automate CSV Processing",
-      "link": "https://www.kdnuggets.com/5-useful-python-scripts-to-automate-csv-processing",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Automate common CSV tasks with these 5 Python scripts for cleaning, validating, transforming, and processing CSV files using the standard library.",
-      "ts": 1789041650,
-      "published": "2026-09-10T12:00:50+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "How to Combine Traditional Machine Learning with Agentic Reasoning",
-      "link": "https://machinelearningmastery.com/how-to-combine-traditional-machine-learning-with-agentic-reasoning/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn where traditional machine learning reaches its limits, what agentic reasoning adds, and how combining the two produces AI systems...",
-      "ts": 1789041620,
-      "published": "2026-09-10T12:00:20+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "Quiz: An Effective Python Environment: Making Yourself at Home",
-      "link": "https://realpython.com/quizzes/effective-python-environment/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python environments, including shells, terminals, pyenv, virtual environments, and package managers like pip and poetry.",
-      "ts": 1789041600,
-      "published": "2026-09-10T12:00:00+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "Who Questions What Works: When Should We Retest Our Assumptions?",
-      "link": "https://towardsdatascience.com/who-questions-what-works-when-should-we-retest-our-assumptions/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A model is only as reliable as the assumptions behind it The post Who Questions What Works: When Should We Retest Our Assumptions? appeared first on Towards Data Science .",
-      "ts": 1789038001,
-      "published": "2026-09-10T11:00:01+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "Powering AI is an architecture problem",
-      "link": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world’s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds. And it wasn’t the first time. Two year…",
-      "ts": 1789038000,
-      "published": "2026-09-10T11:00:00+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "python-1.18.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.18.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.18.0] - 2026-09-10 Added samples : Add Magentic custom-manager prompts and MLflow observability examples ( #7876 , #8085 ) agent-framework-core : Add shared vector-store abstractions, portable filters, and an in-memo…",
-      "ts": 1789032306,
-      "published": "2026-09-10T09:25:06+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "Article: When Spec-Driven Development Pays Off",
-      "link": "https://www.infoq.com/articles/when-spec-driven-development-pays-off/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "AI coding assistants have become a core part of software development. AI-generated code has shown productivity gains, but it's also contributing to security weaknesses and familiar bug patterns. In this article, author…",
-      "ts": 1789030800,
-      "published": "2026-09-10T09:00:00+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "link": "https://openai.com/index/expanding-ai-access-us-government",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "ts": 1789023600,
-      "published": "2026-09-10T07:00:00+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "Introducing ChatGPT for Financial Services",
-      "link": "https://openai.com/index/introducing-chatgpt-financial-services",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "ts": 1789023600,
-      "published": "2026-09-10T07:00:00+00:00",
-      "collected_at": "2026-09-11T05:37:30+09:00"
-    },
-    {
-      "title": "Reflection-Free Serialization on the JVM: Four Formats In, Avro Out",
-      "link": "https://foojay.io/today/reflection-free-serialization-on-the-jvm-four-formats-in-avro-out/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "I run a model layer that accepts the same business data in JSON, XML, YAML, and TOML and converts it all to Avro. The project was greenfield, so the…",
-      "ts": 1789023360,
-      "published": "2026-09-10T06:56:00+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "Bodhan AI Releases Four Indic Models for OCR, Translation and Speech",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/bodhan-ai-indic-models/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "A Hindi lesson can mix English terms (loan words), scanned tables and handwritten equations. Making that content searchable, translating it and reading it aloud requires several kinds of AI. Bodhan AI and AI4Bharat’s fo…",
-      "ts": 1789023243,
-      "published": "2026-09-10T06:54:03+00:00",
-      "collected_at": "2026-09-10T17:49:13+09:00"
     }
   ]
 }
