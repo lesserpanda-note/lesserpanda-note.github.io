@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-10T05:45:48+09:00",
-  "count": 1007,
+  "updated": "2026-10-10T09:10:21+09:00",
+  "count": 1000,
   "items": [
+    {
+      "title": "Deno is joining Cloudflare",
+      "link": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno…",
+      "ts": 1791586117,
+      "published": "2026-10-09T22:48:37+00:00",
+      "collected_at": "2026-10-10T09:10:16+09:00"
+    },
+    {
+      "title": "1.15.27",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.27",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add XPU to OpenCLIP provider device options Add deepinfra as an OpenAI-compatible provider Record why an evaluation stopped before its verdict Record what the run app's Deploy met before an attem…",
+      "ts": 1791585224,
+      "published": "2026-10-09T22:33:44+00:00",
+      "collected_at": "2026-10-10T09:10:16+09:00"
+    },
     {
       "title": "v2.55.0 (2026-10-09)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.55.0",
@@ -9981,96 +10001,6 @@
       "ts": 1789001801,
       "published": "2026-09-10T00:56:41+00:00",
       "collected_at": "2026-09-10T12:53:11+09:00"
-    },
-    {
-      "title": "Episode 69 “Declassifying Java 27” [IJN]",
-      "link": "https://inside.java/2026/09/10/podcast-069/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Java 27 is set to be released on September 15th, let's review what's coming!",
-      "ts": 1788998400,
-      "published": "2026-09-10T00:00:00+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
-      "link": "https://huggingface.co/blog/gradio-workflow-1111",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788998400,
-      "published": "2026-09-10T00:00:00+00:00",
-      "collected_at": "2026-09-10T22:26:08+09:00"
-    },
-    {
-      "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "link": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "ts": 1788998400,
-      "published": "2026-09-10T00:00:00+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: Netflix's Paul Bakker",
-      "link": "https://spring.io/blog/2026/09/10/a-bootiful-podcast-paul-bakker",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! This week’s interview is a must-watch if you care about where Java is headed next. This week, I talk to Netflix's Paull Bakker! We dig into Netflix’s real-world playbook for scaling Java, cutting costs…",
-      "ts": 1788998400,
-      "published": "2026-09-10T00:00:00+00:00",
-      "collected_at": "2026-09-11T05:37:30+09:00"
-    },
-    {
-      "title": "Introducing the Agents API",
-      "link": "https://openai.com/index/introducing-the-agents-api",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "ts": 1788998400,
-      "published": "2026-09-10T00:00:00+00:00",
-      "collected_at": "2026-09-11T05:37:30+09:00"
-    },
-    {
-      "title": "Detecting and countering misuse of AI: September 2026",
-      "link": "https://www.anthropic.com/threat-intelligence-report-september-2026",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Detecting and countering misuse of AI: September 2026",
-      "ts": 1788998400,
-      "published": "2026-09-10T00:00:00+00:00",
-      "collected_at": "2026-09-11T05:37:30+09:00"
-    },
-    {
-      "title": "Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL",
-      "link": "https://huggingface.co/blog/asyncgrpo-lora-hfjobs",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1788998400,
-      "published": "2026-09-10T00:00:00+00:00",
-      "collected_at": "2026-09-14T19:24:57+09:00"
-    },
-    {
-      "title": ".blend URL Viewer",
-      "link": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: .blend URL Viewer I'm continuing to have a lot of fun with GPT-6 Astra and Blender (see my TIL ). As a big fan of the Imperial Fabergé Easter eggs , I've always thought it would be fun to make some new ones that c…",
-      "ts": 1788998312,
-      "published": "2026-09-09T23:58:32+00:00",
-      "collected_at": "2026-09-10T12:53:11+09:00"
-    },
-    {
-      "title": "1.15.21",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.21",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add telemetry to track checkpoint runtime and CLI usage. Bug Fixes Fix gateway errors reported inside an HTTP 200 response. Keep deploy push on the AMP create source. Report scrape failures inste…",
-      "ts": 1788994459,
-      "published": "2026-09-09T22:54:19+00:00",
-      "collected_at": "2026-09-10T08:03:32+09:00"
     }
   ]
 }
