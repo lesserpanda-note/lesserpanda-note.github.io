@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-10T22:25:19+09:00",
-  "count": 995,
+  "updated": "2026-10-11T03:19:29+09:00",
+  "count": 988,
   "items": [
+    {
+      "title": "v2.5.4",
+      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.4",
+      "source": "NumPy",
+      "category": "DataScience",
+      "summary": "NumPy 2.5.4 release",
+      "ts": 1791655498,
+      "published": "2026-10-10T18:04:58+00:00",
+      "collected_at": "2026-10-11T03:19:13+09:00"
+    },
+    {
+      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
+      "link": "https://www.latent.space/p/standard-bots",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Inside Standard Bots’ AI stack, pretrained models learn factory tasks from demonstrations and improve through corrections from real deployments.",
+      "ts": 1791641051,
+      "published": "2026-10-10T14:04:11+00:00",
+      "collected_at": "2026-10-11T03:19:13+09:00"
+    },
+    {
+      "title": "Namespaces in Python",
+      "link": "https://realpython.com/python-namespace/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Python namespaces store and organize the symbolic names in your program. Learn when they're created, how they work, and how scope follows.",
+      "ts": 1791640800,
+      "published": "2026-10-10T14:00:00+00:00",
+      "collected_at": "2026-10-11T03:19:13+09:00"
+    },
+    {
+      "title": "Python for Loops: The Pythonic Way",
+      "link": "https://realpython.com/python-for-loop/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Python for loops to iterate over lists, tuples, strings, and dictionaries with Pythonic looping techniques.",
+      "ts": 1791640800,
+      "published": "2026-10-10T14:00:00+00:00",
+      "collected_at": "2026-10-11T03:19:13+09:00"
+    },
+    {
+      "title": "How Can AI Agents Read Untrusted Sources Safely?",
+      "link": "https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Add architectural guardrails around how agents read untrusted sources and use them in the workflow. The post How Can AI Agents Read Untrusted Sources Safely? appeared first on Towards Data Science .",
+      "ts": 1791640800,
+      "published": "2026-10-10T14:00:00+00:00",
+      "collected_at": "2026-10-11T03:19:13+09:00"
+    },
     {
       "title": "The problem is noise, not N: why increasing the sample size isn’t all that.",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/10/the-problem-is-noise-not-n-why-increasing-the-sample-size-isnt-all-that/",
@@ -9831,126 +9881,6 @@
       "ts": 1789074675,
       "published": "2026-09-10T21:11:15+00:00",
       "collected_at": "2026-09-11T08:00:02+09:00"
-    },
-    {
-      "title": "OpenAI Releases GPT-6 Astra for Coding and Computer Use",
-      "link": "https://www.infoq.com/news/2026/09/openai-gpt6-astra/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "OpenAI has released GPT-6 Astra, a new model focused on coding, computer use, long-running agentic tasks, and cybersecurity, with availability across ChatGPT, Codex, and the OpenAI API. By Daniel Dominguez",
-      "ts": 1789062540,
-      "published": "2026-09-10T17:49:00+00:00",
-      "collected_at": "2026-09-11T05:37:30+09:00"
-    },
-    {
-      "title": "Anthropic Says It Blocked Possible Efforts to Build Biological Weapons",
-      "link": "https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.nytimes.com/2026/09/10/us/politics/anthropic-ai-biological-weapons.html Comments URL: https://news.ycombinator.com/item?id=49646988 Points: 51 # Comments: 86",
-      "ts": 1789059874,
-      "published": "2026-09-10T17:04:34+00:00",
-      "collected_at": "2026-09-11T05:37:30+09:00"
-    },
-    {
-      "title": "A Candid Abacus AI Review: The All-in-One AI Platform for Professionals & Enterprises",
-      "link": "https://www.kdnuggets.com/2026/09/abacus/abacus-ai-candid-review/",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "If you’re paying for ChatGPT, Claude, and another AI tool simultaneously, this review is for you. It covers what an AI platform like Abacus AI actually includes, how the credit system works in practice, and whether it g…",
-      "ts": 1789059630,
-      "published": "2026-09-10T17:00:30+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "Feature Engineering in Scikit-Learn: A KDnuggets Cheat Sheet",
-      "link": "https://www.kdnuggets.com/feature-engineering-in-scikit-learn-a-kdnuggets-cheat-sheet",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Once feature engineering lives inside a Pipeline , each step is fitted on training data only, and the model is scored what it actually earned. And that is the idea behind this new cheat sheet.",
-      "ts": 1789056873,
-      "published": "2026-09-10T16:14:33+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "3 ways to prep for your next big race with Search",
-      "link": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Illustration on a blue background of technicolor runners with a magnifying glass and Gemini spark overlaid",
-      "ts": 1789056000,
-      "published": "2026-09-10T16:00:00+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-      "ts": 1789056000,
-      "published": "2026-09-10T16:00:00+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "How to 5x Your Communication Effectiveness with Claude Code",
-      "link": "https://towardsdatascience.com/how-to-5x-your-communication-effectiveness-with-claude-code/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Better understand the intent of your coding agents The post How to 5x Your Communication Effectiveness with Claude Code appeared first on Towards Data Science .",
-      "ts": 1789054201,
-      "published": "2026-09-10T15:30:01+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "When journals are slow to implement or enforce policies to manage sloppy, majority AI-authored papers, reviewers can and should push back",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/10/when-journals-are-slow-to-implement-or-enforce-policies-to-manage-sloppy-majority-ai-authored-papers-reviewers-can-and-should-push-back/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This is Jessica. If you’ve ever reviewed a heavily AI-generated paper, you know how unrewarding it can be. For example, last week I spent a morning reviewing a paper for a well-respected general science journal, which s…",
-      "ts": 1789053990,
-      "published": "2026-09-10T15:26:30+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "Now everyone can put data to work",
-      "link": "https://openai.com/index/put-data-to-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "ts": 1789052400,
-      "published": "2026-09-10T15:00:00+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "7 Steps to Become a Forward Deployed Engineer in 2026",
-      "link": "https://www.kdnuggets.com/7-steps-to-become-a-forward-deployed-engineer-in-2026",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "FDEs are becoming some of the most in-demand engineers in AI. Here’s the 7-step roadmap to becoming one in 2026.",
-      "ts": 1789048810,
-      "published": "2026-09-10T14:00:10+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "What SHAP Can't Explain About Agentic AI Fraud",
-      "link": "https://towardsdatascience.com/what-shap-cant-explain-about-agentic-ai-fraud/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Why autonomous agents expose a new explainability problem in fraud detection The post What SHAP Can't Explain About Agentic AI Fraud appeared first on Towards Data Science .",
-      "ts": 1789048801,
-      "published": "2026-09-10T14:00:01+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
-    },
-    {
-      "title": "Why I still like Orwell’s “Politics and the English Language” essay (even though he gets some of the linguistics wrong)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/10/why-i-still-like-orwells-politics-and-the-english-language-essay-even-though-he-gets-some-of-the-linguistics-wrong/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Brett Reynolds writes: I liked the two-column move in your Orwell post. It seems genuinely useful. I wondered, though, about the choice of Orwell as patron saint for the argument. The central point in your post seems st…",
-      "ts": 1789047359,
-      "published": "2026-09-10T13:35:59+00:00",
-      "collected_at": "2026-09-11T02:34:35+09:00"
     }
   ]
 }
