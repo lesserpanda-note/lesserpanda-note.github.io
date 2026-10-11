@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-11T10:41:05+09:00",
-  "count": 987,
+  "updated": "2026-10-11T17:30:28+09:00",
+  "count": 988,
   "items": [
+    {
+      "title": "AWS Introduces Enhanced Custom Event Buses for EventBridge",
+      "link": "https://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS recently announced enhanced custom event buses for Amazon EventBridge, allowing organizations to share a centralized bus across accounts with ordered delivery, simplified subscriber management, event replay, content…",
+      "ts": 1791700500,
+      "published": "2026-10-11T06:35:00+00:00",
+      "collected_at": "2026-10-11T17:30:07+09:00"
+    },
+    {
+      "title": "How to Design Human-in-the-Loop Checkpoints for Autonomous AI Agents",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/human-in-the-loop-ai-agent-langgraph/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "Autonomous AI agents can read requests, retrieve data, reason through options, and trigger actions in seconds. That speed is useful, but it also creates risk when the next step affects money, customer records, or extern…",
+      "ts": 1791697261,
+      "published": "2026-10-11T05:41:01+00:00",
+      "collected_at": "2026-10-11T17:30:07+09:00"
+    },
+    {
+      "title": "v1.0.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 1.0.0 npm published @modelcontextprotocol/server-filesystem 1.0.0 npm published @modelcontextprotocol/server-memory 1.0.0 npm pub…",
+      "ts": 1791687926,
+      "published": "2026-10-11T03:05:26+00:00",
+      "collected_at": "2026-10-11T17:30:07+09:00"
+    },
     {
       "title": "Dwarf Fortress uses version control now",
       "link": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
@@ -13,6 +43,16 @@
       "collected_at": "2026-10-11T10:40:58+09:00"
     },
     {
+      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
+      "link": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6 Comments URL: https://news.ycombinator.com/item?id=50038383 Points: 61 # Comments: 120",
+      "ts": 1791677311,
+      "published": "2026-10-11T00:08:31+00:00",
+      "collected_at": "2026-10-11T17:30:07+09:00"
+    },
+    {
       "title": "Media Partner for OCX27 and jChampions Conference 2027",
       "link": "https://foojay.io/today/media-partner-for-ocx27-and-jchampions-conference/",
       "source": "Foojay",
@@ -21,6 +61,16 @@
       "ts": 1791676800,
       "published": "2026-10-11T00:00:00+00:00",
       "collected_at": "2026-10-11T10:40:58+09:00"
+    },
+    {
+      "title": "Java - The Year of the Runtime!",
+      "link": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynite/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "As AI coding agents make language syntax less central, runtime performance and operability become increasingly important. This keynote explores why Java’s JVM and standard library are well suited to this shift: newer JD…",
+      "ts": 1791676800,
+      "published": "2026-10-11T00:00:00+00:00",
+      "collected_at": "2026-10-11T17:30:07+09:00"
     },
     {
       "title": "Python 3.15.0 added to actions/python-versions",
@@ -9831,46 +9881,6 @@
       "ts": 1789119226,
       "published": "2026-09-11T09:33:46+00:00",
       "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "Session Traces and Cost Controls Help Diagnose AI Agent Failures",
-      "link": "https://www.infoq.com/news/2026/09/observability-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Session traces and cost controls are emerging as key observability techniques for diagnosing AI agent failures, helping teams spot tool-call loops and runaway spend while preserving enough execution context for post-inc…",
-      "ts": 1789114440,
-      "published": "2026-09-11T08:14:00+00:00",
-      "collected_at": "2026-09-11T19:54:07+09:00"
-    },
-    {
-      "title": "Reverse-Engineering Claude Web's MicroVM: Uncovering Anthropic's Hidden Antspace",
-      "link": "https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://aprilnea.me/en/blog/reverse-engineering-claude-code-antspace Comments URL: https://news.ycombinator.com/item?id=49653311 Points: 69 # Comments: 16",
-      "ts": 1789098342,
-      "published": "2026-09-11T03:45:42+00:00",
-      "collected_at": "2026-09-14T13:42:14+09:00"
-    },
-    {
-      "title": "Datasette 1.0a39 and 0.65.4 security releases",
-      "link": "https://simonwillison.net/2026/Sep/11/datasette-security/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Datasette 1.0a39 and 0.65.4 security releases Today we're releasing two new security patch versions of Datasette: 1.0a39 and 0.65.4 - one for the current alpha series and one for the stable 0.65.x family. These are secu…",
-      "ts": 1789097236,
-      "published": "2026-09-11T03:27:16+00:00",
-      "collected_at": "2026-09-11T14:49:51+09:00"
-    },
-    {
-      "title": "datasette-publish-fly 1.4",
-      "link": "https://simonwillison.net/2026/Sep/11/datasette-publish-fly/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette-publish-fly 1.4 Sets force_https=true in fly.toml . #31 Fix for Volume could not be found bug. #32 Compatible with app-scoped deploy tokens. #34 Tags: datasette , fly",
-      "ts": 1789095532,
-      "published": "2026-09-11T02:58:52+00:00",
-      "collected_at": "2026-09-12T08:59:08+09:00"
     }
   ]
 }
