@@ -1,55 +1,55 @@
 {
-  "updated": "2026-10-11T00:06:11Z",
-  "summary": "오늘 다이제스트는 AI 에이전트의 신뢰할 수 없는 소스 처리 및 산업용 로봇공학 AI 적용 사례, Cloudflare Traces 오픈 베타의 OpenTelemetry 통합, Python 네임스페이스와 for 루프 심화 학습, 그리고 표본 크기에 관한 통계적 통찰과 NumPy 2.5.4 패치 릴리스를 다룹니다. 에이전트 안전성과 아키텍처 관측가능성 분야에서 중요한 업데이트가 있었으며, Python 개발자에게 유익한 핵심 개념 자료도 포함되었습니다.",
+  "updated": "2026-10-12T00:07:36Z",
+  "summary": "오늘 다이제스트는 Meta·MIT·워싱턴 대학교가 공동 연구한 컨텍스트 언어 모델(CLM), OpenAI의 새로운 Decisions API, MCP 서버 v1.0.0 정식 출시, AWS EventBridge 커스텀 버스 개선 등 AI 인프라 전반에 걸친 중요한 업데이트를 담고 있습니다. Python 함수형 프로그래밍 실용 가이드와 Python 활용 분야 종합 안내도 포함되어 개발자들에게 실질적인 정보를 제공합니다.",
   "highlights": [
     {
-      "category": "Agents",
-      "title": "Building AI for Reliable Execution: Lessons From Industrial Robotics",
-      "link": "https://www.latent.space/p/standard-bots",
-      "summary": "Standard Bots의 산업용 로봇 AI 스택을 소개하며, 사전 학습 모델이 시연 학습으로 공장 작업을 습득하고 실제 배포 피드백으로 지속 개선되는 방식을 다룹니다.",
-      "detail": "Standard Bots는 신뢰할 수 있는 실행을 위한 AI 시스템 구축에서 산업용 로봇공학 경험을 공유합니다. 핵심 접근 방식은 사전 학습된 모델을 기반으로 시연 학습(learning from demonstrations)을 적용해 공장 특화 작업을 습득하는 것입니다. 실제 배포 환경에서 발생하는 오류와 수정 피드백이 모델을 지속적으로 개선시키며, 이는 시뮬레이션만으로는 얻기 어려운 강건성을 제공합니다. AI 에이전트가 실세계의 불확실성과 예외 상황에 신뢰성 있게 대응하려면 실제 하드웨어 환경에서의 반복 학습과 인간 교정 루프가 필수적임을 구체적 사례로 보여줍니다. 이 접근법은 제조업 자동화뿐 아니라 신뢰성이 요구되는 다양한 에이전트 시스템 설계에 적용 가능한 교훈을 제공합니다."
+      "category": "AI",
+      "title": "Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs",
+      "link": "https://www.infoq.com/news/2026/10/context-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Meta, MIT, 워싱턴 대학교 연구진이 언어 모델 스스로 컨텍스트를 동적으로 관리·편집하는 '컨텍스트 언어 모델(CLM)'을 소개합니다. 성능을 유지하면서 컴퓨팅 비용을 줄이는 것이 핵심 목표입니다.",
+      "detail": "Meta, MIT, 워싱턴 대학교 공동 연구팀이 제안한 컨텍스트 언어 모델(CLM)은 기존 언어 모델이 사전 정의된 메커니즘에 의존하던 방식에서 벗어나, 모델 스스로 컨텍스트를 동적으로 관리하고 편집하는 능력을 갖춥니다.\n기존 모델들은 긴 컨텍스트 처리 시 성능 저하와 높은 컴퓨팅 비용 문제가 있었으나, CLM은 중요한 정보를 선택적으로 유지하고 불필요한 내용을 제거하며 컨텍스트를 압축하는 방식으로 작동합니다.\n이를 통해 성능은 유지하면서도 컴퓨팅 비용을 크게 줄일 수 있다고 연구팀은 밝혔습니다.\n특히 긴 대화 맥락을 다루는 에이전트 시스템에 높은 응용 가능성이 있으며, 대규모 언어 모델의 효율성 개선에 기여할 중요한 연구 성과로 평가됩니다."
+    },
+    {
+      "category": "AI",
+      "title": "A Practical Guide to OpenAI's New Decisions API",
+      "link": "https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/",
+      "summary": "OpenAI가 새롭게 출시한 Decisions API는 분류·라우팅·점수 산정 등 구조화된 의사결정 작업을 위한 전용 엔드포인트입니다. 출력 토큰 없이 입력 토큰만 과금하며 기존 완성 API보다 약 10배 빠릅니다.",
+      "detail": "OpenAI의 Decisions API(POST /v1/decisions)는 오픈 엔드 텍스트 생성이 아닌 구조화된 질문에 대한 타입이 있는 답변을 위해 설계된 전용 엔드포인트로, 2026년 10월 공개 베타로 출시되었습니다(모델: gpt-6-luna).\n요청 본문은 model, input(텍스트·이미지), questions 배열로 구성되며, 응답은 질문 이름을 키로 한 answers 객체를 반환합니다.\n세 가지 답변 유형이 있습니다: ① Predicate(조건 성립 확률 0–1 반환), ② Choice(고정 목록 중 하나 선택 및 옵션별 확률 반환), ③ Score(순서형 레벨별 가중 평균 점수 반환).\n가격은 입력 토큰 100만 개당 $0.10이며, 동일 작업 대비 Responses API보다 약 10배 빠릅니다.\n콘텐츠 모더레이션, 에이전트 라우팅, 평가 파이프라인 등에 활용 가능하며, 구조화된 분류·점수화 작업을 저렴하고 빠르게 처리하려는 개발자에게 유용합니다."
     },
     {
       "category": "Agents",
-      "title": "How Can AI Agents Read Untrusted Sources Safely?",
-      "link": "https://towardsdatascience.com/how-can-ai-agents-read-untrusted-sources-safely/",
-      "summary": "AI 에이전트가 신뢰할 수 없는 외부 소스를 읽을 때 발생할 수 있는 보안 위협과 이를 방어하는 아키텍처적 가드레일 구현 방법을 다룹니다.",
-      "detail": "AI 에이전트가 외부 웹 페이지, 이메일, 문서 등 신뢰할 수 없는 소스에서 콘텐츠를 읽을 때 프롬프트 인젝션(prompt injection) 공격, 악의적 지시 삽입, 데이터 유출 시도 등의 위협이 발생할 수 있습니다. 이를 방어하기 위해 샌드박스 격리, 콘텐츠 필터링, 도구 호출 범위 제한, 워크플로 내 신뢰 경계(trust boundary) 명시적 설정 등 다층적 방어 계층을 구성하는 방법을 소개합니다. 에이전트 워크플로에서 신뢰할 수 없는 입력을 처리하는 단계를 명확히 격리하고, 각 단계에서 허용되는 작업을 최소화하는 최소 권한 원칙(principle of least privilege)을 적용하는 것이 핵심입니다. 외부 소스 읽기를 에이전트 내부 상태와 분리하는 아키텍처 패턴을 통해 신뢰할 수 없는 콘텐츠가 에이전트의 판단과 행동에 직접 영향을 미치는 것을 방지할 수 있습니다."
+      "title": "Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "link": "https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "summary": "기본적인 ReAct 루프를 넘어 프로덕션 환경에서 자율적이고 신뢰할 수 있는 LLM 에이전트를 구축하기 위한 6가지 고급 아키텍처 패턴을 소개합니다.",
+      "detail": "실제 프로덕션 환경에서 LLM 에이전트를 운용하는 실무자를 위한 종합 가이드입니다.\n단순한 ReAct 루프를 넘어서는 6가지 고급 아키텍처 패턴을 다루며, 자율성·신뢰성·확장성을 갖춘 에이전트 시스템을 설계하는 방법을 상세히 설명합니다.\n각 패턴은 병렬 처리, 오류 복구, 상태 관리, 인간 감독 등 프로덕션 환경에서 자주 맞닥뜨리는 구체적인 문제를 해결하기 위해 고안되었습니다.\n실제 구현에 바로 적용할 수 있는 예제와 함께, 에이전트 시스템의 아키텍처 선택 기준과 트레이드오프도 함께 다룹니다.\n에이전트 시스템을 기획하거나 운영 중인 개발자 및 MLOps 엔지니어에게 실질적인 참고 자료가 됩니다."
+    },
+    {
+      "category": "Agents",
+      "title": "v1.0.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "summary": "Model Context Protocol(MCP) 공식 참조 서버 구현체들이 v1.0.0으로 정식 출시되었습니다. TypeScript 4개, Python 3개 등 총 7개 패키지가 npm과 PyPI에 배포되었습니다.",
+      "detail": "Anthropic이 주도하는 Model Context Protocol(MCP)의 공식 참조 서버들이 v1.0.0으로 정식 출시되었습니다(2026년 10월 11일).\nTypeScript(npm) 패키지: server-everything(전체 MCP 기능 데모), server-filesystem(파일 시스템 접근), server-memory(지식 그래프 메모리), server-sequential-thinking(단계별 추론).\nPython(PyPI) 패키지: mcp-server-fetch(HTTP 요청), mcp-server-git(Git 저장소 조작), mcp-server-time(시간대 유틸리티), 모두 CalVer 2026.10.10으로 배포.\n보안 강화: fetch 서버는 기본값으로 사설·루프백·메타데이터 주소 차단, memory 서버는 프로세스 간 파일 잠금 및 검증 강화.\nCI에 파일별 90% 테스트 커버리지 게이트와 Windows 런너가 추가되었으며, 45명 이상의 기여자가 참여한 이번 릴리스는 MCP 에코시스템의 첫 안정 버전을 알리는 중요한 이정표입니다."
     },
     {
       "category": "Architecture",
-      "title": "Cloudflare Traces Turns the Proxy Layer into OpenTelemetry Spans, with New Volume-Based Pricing",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-traces-open-beta/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Cloudflare Traces가 오픈 베타에 진입하며 Workers 외 보안 규칙·캐시·라우팅 등 프록시 레이어 전체를 OpenTelemetry 스팬으로 자동 추적하고, 볼륨 기반 새 가격 정책을 도입했습니다.",
-      "detail": "Cloudflare Traces는 Workers뿐 아니라 보안 규칙, 변환(transformations), 캐시, 라우팅, 오리진 처리 등 Cloudflare 네트워크 레이어 전반에 걸친 자동 추적을 OpenTelemetry 스팬으로 제공합니다. W3C traceparent 헤더를 수락·전달하여 기존 분산 추적 시스템과의 상호운용성을 지원하며, 별도 코드 변경 없이 엣지 요청 경로 전체를 가시화할 수 있습니다. 볼륨 기반 가격 정책으로 전환되어 소규모 워크로드는 무료 티어 내에서 활용 가능합니다. 개발자는 이를 통해 Cloudflare 엣지에서 발생하는 지연·오류·캐시 히트·보안 규칙 발동 등을 기존 APM 도구(Datadog, Grafana 등)와 통합해 엔드투엔드로 모니터링할 수 있게 됩니다. 관측가능성(observability) 확보가 어려웠던 프록시 레이어에 표준 트레이싱을 도입했다는 점에서 의미가 큽니다."
+      "title": "AWS Introduces Enhanced Custom Event Buses for EventBridge",
+      "link": "https://www.infoq.com/news/2026/10/aws-enhanced-eventbridge-buses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "AWS가 Amazon EventBridge의 커스텀 이벤트 버스에 계정 간 공유, 순서 보장 전달, 이벤트 재생(replay), 콘텐츠 기반 필터링 등을 추가한 주요 기능 업데이트를 발표했습니다.",
+      "detail": "AWS가 Amazon EventBridge 커스텀 이벤트 버스의 기능을 대폭 강화하는 업데이트를 발표했습니다.\n가장 주목할 변화는 여러 AWS 계정에 걸쳐 중앙화된 이벤트 버스를 공유할 수 있는 기능으로, 대규모 멀티 계정 아키텍처에서 이벤트 기반 통합을 크게 단순화합니다.\n순서 보장 전달(ordered delivery)은 이벤트 처리 순서가 중요한 워크플로우의 신뢰성을 높이고, 이벤트 재생(event replay) 기능은 장애 복구 시나리오에서 유연성을 제공합니다.\n구독자 관리 간소화와 콘텐츠 기반 필터링으로 복잡한 이벤트 라우팅 로직 구현도 한결 쉬워졌습니다.\n이벤트 기반 아키텍처(EDA)를 AWS 위에서 운영 중인 팀에게 실질적인 운영 복잡성을 줄여줄 유용한 업데이트입니다."
     },
     {
       "category": "Python",
-      "title": "Namespaces in Python",
-      "link": "https://realpython.com/python-namespace/",
-      "summary": "Python 네임스페이스의 개념과 생성 시점, LEGB 스코프 규칙을 실제 예제와 함께 체계적으로 설명하는 Real Python 튜토리얼입니다.",
-      "detail": "Python에서 네임스페이스는 이름(심볼)과 객체를 매핑하는 딕셔너리 구조입니다. 빌트인(built-in), 전역(global), 인클로징(enclosing), 로컬(local)의 네 가지 네임스페이스가 LEGB 규칙에 따라 이름 조회 순서를 결정합니다. 각 네임스페이스는 모듈 임포트, 함수 정의, 클래스 정의 시점에 생성되며, 함수가 반환되면 로컬 네임스페이스는 소멸됩니다. `global`·`nonlocal` 키워드를 사용해 외부 스코프의 변수를 수정할 수 있으며, `__dict__` 속성으로 네임스페이스 내용을 직접 검사할 수 있습니다. 이름 충돌, 섀도잉(shadowing), 스코프 버그를 이해하고 방지하는 데 필수적인 개념으로, Python 코드의 동작 원리를 깊이 이해하는 데 도움이 됩니다."
+      "title": "Functional Programming in Python: When and How to Use It",
+      "link": "https://realpython.com/python-functional-programming/",
+      "summary": "Python에서 함수형 프로그래밍을 언제, 어떻게 사용해야 하는지를 실용적인 관점에서 설명합니다. 순수 함수, map/filter/reduce, functools 모듈 등 핵심 도구를 다룹니다.",
+      "detail": "함수형 프로그래밍은 부수 효과를 최소화하고 순수 함수와 불변 데이터를 중심으로 코드를 구성하는 패러다임입니다.\nPython은 멀티 패러다임 언어로 map(), filter(), reduce() 같은 내장 함수, functools 모듈, 람다 표현식, 제너레이터, itertools 등을 통해 함수형 스타일을 지원합니다.\n이 글은 언제 함수형 기법이 적절한지—예컨대 복잡한 데이터 처리 파이프라인, 사이드 이펙트를 최소화해야 하는 코드, 테스트 용이성이 중요한 부분—를 명확히 안내합니다.\n리스트 컴프리헨션 대비 함수형 접근법의 차이와 이터레이터 체인 구성 방법, partial 함수 적용 등 실용적인 패턴도 함께 다룹니다.\n함수형 프로그래밍의 장점을 취하되 Python다운 코드를 유지하는 균형 잡힌 접근법을 배울 수 있습니다."
     },
     {
       "category": "Python",
-      "title": "Python for Loops: The Pythonic Way",
-      "link": "https://realpython.com/python-for-loop/",
-      "summary": "Python for 루프의 내부 이터레이터 프로토콜과 enumerate, zip, reversed 등 Pythonic 이터레이션 패턴을 설명하는 Real Python 가이드입니다.",
-      "detail": "Python for 루프는 이터레이터 프로토콜(`__iter__`/`__next__`)을 기반으로 동작하며, 리스트·튜플·문자열·딕셔너리·제너레이터 등 모든 이터러블에 적용됩니다. `enumerate()`로 인덱스와 값을 함께 순회하고, `zip()`으로 여러 시퀀스를 병렬 순회하며, `reversed()`·`sorted()`·`range()`를 활용하는 Pythonic 패턴을 소개합니다. `break`·`continue`·`else` 절의 정확한 의미와 활용법, 리스트 컴프리헨션과의 관계도 다룹니다. C 스타일의 인덱스 기반 루프 대신 이터레이터 기반 루프를 사용하면 가독성이 높아지고 off-by-one 오류를 방지할 수 있습니다. 커스텀 이터러블 클래스를 구현하는 방법도 포함되어 Python 이터레이션 모델에 대한 이해를 심화시킵니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "The problem is noise, not N: why increasing the sample size isn't all that.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/10/the-problem-is-noise-not-n-why-increasing-the-sample-size-isnt-all-that/",
-      "summary": "표본 크기(N)를 늘리는 것만으로는 연구 신뢰성 문제가 해결되지 않으며, 진짜 문제는 측정 오차와 효과 크기 변동성이라는 노이즈임을 주장하는 통계 칼럼입니다.",
-      "detail": "Andrew Gelman은 소규모 표본 기반 사회과학 연구의 문제점에 동의하면서도, 핵심 문제는 N이 아닌 노이즈(noise)라고 주장합니다. 표본 크기를 늘려도 측정 오차가 크거나 처치 효과가 대상 집단마다 크게 달라진다면 추정의 불확실성은 실질적으로 줄지 않습니다. 검정력(statistical power) 계산은 효과 크기가 일정하다는 가정 하에 이루어지지만, 실제로는 효과 자체가 상당한 변동성(노이즈)을 포함합니다. 따라서 연구 설계 단계에서 노이즈 원천을 식별하고 측정 도구의 신뢰도(reliability)와 타당도(validity)를 높이는 것이 단순히 N을 늘리는 것보다 훨씬 중요합니다. 대규모 표본도 노이즈가 많은 측정을 사용한다면 편향되고 재현 불가능한 결과를 낼 수 있다는 점이 핵심 논지입니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "v2.5.4",
-      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.4",
-      "summary": "NumPy 2.5.4는 선형대수 함수의 무한값 처리 오류, StringDType 해싱 버그, 메모리 누수 등 다수의 버그를 수정한 패치 릴리스입니다.",
-      "detail": "2026년 10월 10일 출시된 NumPy 2.5.4는 Python 3.12~3.15를 지원하는 버그 수정 릴리스입니다. 주요 수정 사항: ① `numpy.linalg.svd`와 `numpy.linalg.lstsq`가 무한값(inf) 포함 입력 시 의미 없는 결과를 반환하거나 행업(hang)하는 문제를 수정해 이제 명시적으로 오류를 발생시킵니다. ② StringDType의 부동소수점 NaN 센티널 해싱이 동등한 NaN에 대해 동일한 해시를 생성하도록 수정되어 딕셔너리 조회·집합 중복 제거가 정상 동작합니다. ③ `np.strings.replace`가 입력 폭으로 인자를 잘라내던 버그, `ufunc.accumulate`의 크래시 2건, 레거시 ArrayMethod 래퍼의 메모리 누수, `as_arrays()`의 세그폴트가 수정되었습니다. ④ MaskedArray의 fill_value 동작 변경: 새 dtype으로 표현 불가한 값은 dtype 기본값으로 재설정됩니다. MSVC 19.51 빌드 버그 우회책도 포함됩니다."
+      "title": "What Can I Do With Python?",
+      "link": "https://realpython.com/what-can-i-do-with-python/",
+      "summary": "Python으로 무엇을 만들 수 있는지 웹 개발, AI·ML, 자동화, 데이터 과학, 임베디드 시스템 등 다양한 분야와 주요 도구를 소개합니다.",
+      "detail": "Python은 광범위한 적용 분야로 유명하며, 이 글은 Python으로 실제 무엇을 만들 수 있는지를 체계적으로 안내합니다.\n웹 개발(Django, Flask, FastAPI), 데이터 과학 및 분석(pandas, NumPy, matplotlib), AI·머신러닝(TensorFlow, PyTorch, scikit-learn), 업무 자동화 스크립팅, 시스템 관리, 임베디드·로봇공학(MicroPython, Raspberry Pi) 등 폭넓은 영역을 커버합니다.\n각 분야별로 학습을 시작하기 위한 추천 도구와 프로젝트 아이디어도 제공되어, Python을 처음 배우는 입문자부터 새 분야에 도전하는 중급자까지 유용한 로드맵을 제시합니다.\nPython의 방대한 생태계와 커뮤니티가 어느 분야에서든 진입 장벽을 낮춰준다는 점도 함께 강조합니다."
     }
   ]
 }
