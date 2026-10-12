@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-12T09:09:49+09:00",
-  "count": 968,
+  "updated": "2026-10-12T16:05:45+09:00",
+  "count": 969,
   "items": [
+    {
+      "title": "LLM Batching Explained: Static vs Dynamic vs Continuous Batching",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/llm-batching/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Imagine four people booking a ride to the same destination. If each person takes a separate taxi, four vehicles make the same trip. But if they travel together in a bus, everyone reaches the destination in a single trip…",
+      "ts": 1791785954,
+      "published": "2026-10-12T06:19:14+00:00",
+      "collected_at": "2026-10-12T16:05:24+09:00"
+    },
+    {
+      "title": "Structured Concurrency Looms",
+      "link": "https://inside.java/2026/10/12/devoxxbelgium-structured-concurrency/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Structured Concurrency is the next major feature from Project Loom. In this session, we will explain the motivation and design of structured concurrency, show how to use it effectively, and discuss the lessons learned a…",
+      "ts": 1791763200,
+      "published": "2026-10-12T00:00:00+00:00",
+      "collected_at": "2026-10-12T16:05:24+09:00"
+    },
+    {
+      "title": "Your agents don't need an LLM to negotiate",
+      "link": "https://foojay.io/today/your-agents-dont-need-an-llm-to-negotiate/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A manager hands a job to one of three workers, and nothing in the program calls a model. It explains the protocol, and what doesn't survive a restart.",
+      "ts": 1791763200,
+      "published": "2026-10-12T00:00:00+00:00",
+      "collected_at": "2026-10-12T16:05:24+09:00"
+    },
     {
       "title": "Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs",
       "link": "https://www.infoq.com/news/2026/10/context-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -171,6 +201,16 @@
       "ts": 1791676800,
       "published": "2026-10-11T00:00:00+00:00",
       "collected_at": "2026-10-11T17:30:07+09:00"
+    },
+    {
+      "title": "Java - The Year of the Runtime!",
+      "link": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynote/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "As AI coding agents make language syntax less central, runtime performance and operability become increasingly important. This keynote explores why Java’s JVM and standard library are well suited to this shift: newer JD…",
+      "ts": 1791676800,
+      "published": "2026-10-11T00:00:00+00:00",
+      "collected_at": "2026-10-12T16:05:24+09:00"
     },
     {
       "title": "Python 3.15.0 added to actions/python-versions",
@@ -9651,36 +9691,6 @@
       "ts": 1789207740,
       "published": "2026-09-12T10:09:00+00:00",
       "collected_at": "2026-09-12T22:26:42+09:00"
-    },
-    {
-      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
-      "link": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "We agree with Sebastian: this should have been DeepSeek v5",
-      "ts": 1789192565,
-      "published": "2026-09-12T05:56:05+00:00",
-      "collected_at": "2026-09-12T18:06:39+09:00"
-    },
-    {
-      "title": "v2.43.0 (2026-09-11)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.43.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add a first-run banner describing the run, and open clai sessions with it by @DouweM in #7447 🐛 Bug Fixes Preserve text part boundaries after tool calls in OpenAIChatModel by @KaranJayakumar in…",
-      "ts": 1789174482,
-      "published": "2026-09-12T00:54:42+00:00",
-      "collected_at": "2026-09-12T13:24:26+09:00"
-    },
-    {
-      "title": "OpenAI agents attacked RubyGems back in May",
-      "link": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis…",
-      "ts": 1789173745,
-      "published": "2026-09-12T00:42:25+00:00",
-      "collected_at": "2026-09-12T13:24:26+09:00"
     }
   ]
 }
