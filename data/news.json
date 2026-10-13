@@ -1,7 +1,87 @@
 {
-  "updated": "2026-10-14T00:43:36+09:00",
-  "count": 999,
+  "updated": "2026-10-14T06:04:10+09:00",
+  "count": 1011,
   "items": [
+    {
+      "title": "Survey Statistics: favorite textbooks ?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/13/survey-statistics-favorite-textbooks/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This series has used a few survey statistics textbooks, see my list below. Which of your favorites am I missing ? Kish 1965: Särndal, Swensson, Wretman 1992: Groves et al. 2009: Lumley 2010: Lohr 2022:",
+      "ts": 1791921636,
+      "published": "2026-10-13T20:00:36+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791920587,
+      "published": "2026-10-13T19:43:07+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "Your Agent Doesn't Need More Freedom",
+      "link": "https://towardsdatascience.com/your-agent-doesnt-need-more-freedom/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Agents got good. The hard part now is everything around them. The post Your Agent Doesn't Need More Freedom appeared first on Towards Data Science .",
+      "ts": 1791916089,
+      "published": "2026-10-13T18:28:09+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791911148,
+      "published": "2026-10-13T17:05:48+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "Gemini 4 Argon for Robotics",
+      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791907318,
+      "published": "2026-10-13T16:01:58+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791907312,
+      "published": "2026-10-13T16:01:52+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "TBD",
+      "ts": 1791907200,
+      "published": "2026-10-13T16:00:00+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "Redesigning source control at Anthropic",
+      "link": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 330 # Comments: 310",
+      "ts": 1791906596,
+      "published": "2026-10-13T15:49:56+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
     {
       "title": "The Craft of Practitioner Voice",
       "link": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
@@ -31,6 +111,16 @@
       "ts": 1791900000,
       "published": "2026-10-13T14:00:00+00:00",
       "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "The Roadmap to Mastering Agentic AI Systems in 2026",
+      "link": "https://www.kdnuggets.com/the-roadmap-to-mastering-agentic-ai-systems-in-2026",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "A four-level technical roadmap for building agentic AI systems, from single cognitive loops and stateful memory through multi-agent swarms and production observability.",
+      "ts": 1791900000,
+      "published": "2026-10-13T14:00:00+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
     },
     {
       "title": "Are Harnesses Worth the Cost?",
@@ -101,6 +191,26 @@
       "ts": 1791892800,
       "published": "2026-10-13T12:00:00+00:00",
       "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "ts": 1791892800,
+      "published": "2026-10-13T12:00:00+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "5 AutoHotkey Scripts for Data Scientists",
+      "link": "https://www.kdnuggets.com/5-autohotkey-scripts-for-data-scientists",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Five AutoHotkey v2 scripts that handle repetitive Windows desktop work around data analysis: launching a project workspace, converting clipboard IDs to Python or SQL lists, fixing file paths, and snapping windows into p…",
+      "ts": 1791892800,
+      "published": "2026-10-13T12:00:00+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
     },
     {
       "title": "Presentation: How Eve Online Leverages Head Based Sampling to Observe \"Fun\"",
@@ -201,6 +311,26 @@
       "ts": 1791849600,
       "published": "2026-10-13T00:00:00+00:00",
       "collected_at": "2026-10-13T16:29:48+09:00"
+    },
+    {
+      "title": "Run AI agents safely with Ollama and Fly.io",
+      "link": "https://ollama.com/blog/fly-io-sprites",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.",
+      "ts": 1791849600,
+      "published": "2026-10-13T00:00:00+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "Python 3.16.0 alpha 1 is now available",
+      "link": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "The first developer preview of Python 3.16 is ready for testing.",
+      "ts": 1791849600,
+      "published": "2026-10-13T00:00:00+00:00",
+      "collected_at": "2026-10-14T06:04:00+09:00"
     },
     {
       "title": "langgraph-checkpoint-postgres==3.1.3",
@@ -9981,16 +10111,6 @@
       "ts": 1789343894,
       "published": "2026-09-13T23:58:14+00:00",
       "collected_at": "2026-09-14T13:42:14+09:00"
-    },
-    {
-      "title": "David Sacks: OpenAI and Anthropic Don't Need Regulations to Pace Frontier Models",
-      "link": "https://twitter.com/DavidSacks/status/2098973625252708460",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://twitter.com/DavidSacks/status/2098973625252708460 Comments URL: https://news.ycombinator.com/item?id=49685991 Points: 184 # Comments: 140",
-      "ts": 1789318353,
-      "published": "2026-09-13T16:52:33+00:00",
-      "collected_at": "2026-09-14T06:17:13+09:00"
     }
   ]
 }
