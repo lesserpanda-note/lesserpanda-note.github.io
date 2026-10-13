@@ -1,7 +1,87 @@
 {
-  "updated": "2026-10-13T02:34:01+09:00",
-  "count": 982,
+  "updated": "2026-10-13T09:09:36+09:00",
+  "count": 988,
   "items": [
+    {
+      "title": "langgraph-checkpoint-postgres==3.1.3",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.3",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since checkpointpostgres==3.1.2 release(checkpoint-postgres): 3.1.3 ( #9287 ) fix(checkpoint-postgres,checkpoint-sqlite): treat an empty checkpoint_id as the latest in delta history ( #9262 ) perf(checkpoint-pos…",
+      "ts": 1791846331,
+      "published": "2026-10-12T23:05:31+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
+    },
+    {
+      "title": "langgraph-checkpoint-sqlite==3.1.2",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.2",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since checkpointsqlite==3.1.1 release(checkpoint-sqlite): 3.1.2 ( #9288 ) fix(checkpoint-postgres,checkpoint-sqlite): treat an empty checkpoint_id as the latest in delta history ( #9262 ) fix(checkpoint,checkpoi…",
+      "ts": 1791845687,
+      "published": "2026-10-12T22:54:47+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.7",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.7",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.6 release(sdk-py): 0.4.7 ( #9289 ) release(langgraph): 1.2.15 ( #9283 ) fix(sdk-py): end a thread stream's run only on a root lifecycle event ( #9228 ) fix: order delta channel replay by task path…",
+      "ts": 1791845659,
+      "published": "2026-10-12T22:54:19+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
+    },
+    {
+      "title": "langgraph==1.2.15",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.15",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.14 release(langgraph): 1.2.15 ( #9283 ) fix(langgraph): give every message written to a messages DeltaChannel an id ( #9275 ) fix(langgraph): save a cached node's writes like a node that ran ( #9259 )…",
+      "ts": 1791844706,
+      "published": "2026-10-12T22:38:26+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
+    },
+    {
+      "title": "langgraph-checkpoint==4.3.0",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.0",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since checkpoint==4.2.0 fix(checkpoint): default InMemorySaver delta history to the latest checkpoint ( #9257 ) test(checkpoint): run the delta conformance suite against InMemorySaver in CI ( #9261 ) fix(checkpo…",
+      "ts": 1791844001,
+      "published": "2026-10-12T22:26:41+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
+    },
+    {
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "link": "https://www.latent.space/p/claude-dynamic-workflows",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
+      "ts": 1791829097,
+      "published": "2026-10-12T18:18:17+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
+    },
+    {
+      "title": "Just say no to OpenAI and Anthropic",
+      "link": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://micahflee.com/just-say-no-to-openai-and-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50060500 Points: 153 # Comments: 142",
+      "ts": 1791829049,
+      "published": "2026-10-12T18:17:29+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
+    },
+    {
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "link": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported…",
+      "ts": 1791828938,
+      "published": "2026-10-12T18:15:38+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
+    },
     {
       "title": "The Rise of AI Software Clones: Why REA and ArtCraft Are Going Viral",
       "link": "https://www.kdnuggets.com/the-rise-of-ai-software-clones-why-rea-and-artcraft-are-going-viral",
@@ -211,6 +291,26 @@
       "ts": 1791781427,
       "published": "2026-10-12T05:03:47+00:00",
       "collected_at": "2026-10-13T02:33:56+09:00"
+    },
+    {
+      "title": "datasette-ports 0.4",
+      "link": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier t…",
+      "ts": 1791781027,
+      "published": "2026-10-12T04:57:07+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
+    },
+    {
+      "title": "Linus Torvalds Working on a Hefty Linux Kernel Improvement with Claude Code",
+      "link": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.phoronix.com/news/Linus-Torvalds-Claude-Code Comments URL: https://news.ycombinator.com/item?id=50050367 Points: 27 # Comments: 1",
+      "ts": 1791770220,
+      "published": "2026-10-12T01:57:00+00:00",
+      "collected_at": "2026-10-13T09:09:32+09:00"
     },
     {
       "title": "Structured Concurrency Looms",
@@ -9781,46 +9881,6 @@
       "ts": 1789262551,
       "published": "2026-09-13T01:22:31+00:00",
       "collected_at": "2026-09-13T20:22:51+09:00"
-    },
-    {
-      "title": "Java 27 Technically Within 2 Minutes",
-      "link": "https://inside.java/2026/09/13/jdk-27-in-2-min/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Let's review in about 2 minutes the 9 JEPs (JDK Enhancement Proposals) that were included in the JDK 27 release!",
-      "ts": 1789257600,
-      "published": "2026-09-13T00:00:00+00:00",
-      "collected_at": "2026-09-13T20:22:51+09:00"
-    },
-    {
-      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "link": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at <my address>. Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and pro…",
-      "ts": 1789257402,
-      "published": "2026-09-12T23:56:42+00:00",
-      "collected_at": "2026-09-13T09:13:23+09:00"
-    },
-    {
-      "title": "California Brown Pelican",
-      "link": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelic…",
-      "ts": 1789247769,
-      "published": "2026-09-12T21:16:09+00:00",
-      "collected_at": "2026-09-13T09:13:23+09:00"
-    },
-    {
-      "title": "Quoting Paul Ford",
-      "link": "https://simonwillison.net/2026/Sep/12/paul-ford/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still…",
-      "ts": 1789236021,
-      "published": "2026-09-12T18:00:21+00:00",
-      "collected_at": "2026-09-13T04:02:47+09:00"
     }
   ]
 }
