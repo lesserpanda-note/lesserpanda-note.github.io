@@ -1,7 +1,167 @@
 {
-  "updated": "2026-10-13T16:30:10+09:00",
-  "count": 990,
+  "updated": "2026-10-14T00:43:36+09:00",
+  "count": 999,
   "items": [
+    {
+      "title": "The Craft of Practitioner Voice",
+      "link": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "A couple of months ago Jim Highsmith explained how practitioners writing for each other forms a distinct style of writing. He now adds a section to the article with more detail on the craft of how we write in this style…",
+      "ts": 1791900360,
+      "published": "2026-10-13T14:06:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "How to Use Python: Taking Your First Steps",
+      "link": "https://realpython.com/courses/python-first-steps/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Take your first steps with Python. Install it, run your first program, and work with variables, data types, loops, functions, and errors.",
+      "ts": 1791900000,
+      "published": "2026-10-13T14:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling",
+      "link": "https://towardsdatascience.com/three-samplers-one-posterior-nuts-vs-emcee-vs-nested-sampling/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Benchmarking NumPyro, affine-invariant MCMC, and dynesty against exact ground truth and watching them fail. The post Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling appeared first on Towards Data Scien…",
+      "ts": 1791900000,
+      "published": "2026-10-13T14:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Are Harnesses Worth the Cost?",
+      "link": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Naresh Jain compares coding agents building the same API service with and without a behavioral harness. A frontier model, GPT-6 Sol, passed every external evaluation either way. But a cost-optimized model, GPT-6 Luna, s…",
+      "ts": 1791898500,
+      "published": "2026-10-13T13:35:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Quoting Geoffrey Huntley",
+      "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to obser…",
+      "ts": 1791898320,
+      "published": "2026-10-13T13:32:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "The head and the heart",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/13/the-head-and-the-heart/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Jackson Lears writes: Characterising Carter’s views on the nuclear arms race, Luce resorts to a familiar – and misleading – antithesis: the president’s ‘heart’ hated nuclear weapons, while his ‘head’ feared vulnerabilit…",
+      "ts": 1791897535,
+      "published": "2026-10-13T13:18:55+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Coding Agents Can Solve the Task — But How Much Work Did They Waste?",
+      "link": "https://towardsdatascience.com/coding-agents-can-solve-the-task-but-how-much-work-did-they-waste/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Real repositories, seeded agent decisions: what 50,400 runs show about wasted turns, patch churn, and which harness rules help The post Coding Agents Can Solve the Task — But How Much Work Did They Waste? appeared first…",
+      "ts": 1791894600,
+      "published": "2026-10-13T12:30:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026",
+      "link": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (December 15-16) has con…",
+      "ts": 1791892800,
+      "published": "2026-10-13T12:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026",
+      "link": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (December 15-16) has con…",
+      "ts": 1791892800,
+      "published": "2026-10-13T12:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Quiz: Python's len() Function",
+      "link": "https://realpython.com/quizzes/pythons-len-function/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python's len() function, from built-in containers to NumPy arrays, DataFrames, and your own classes.",
+      "ts": 1791892800,
+      "published": "2026-10-13T12:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Presentation: How Eve Online Leverages Head Based Sampling to Observe \"Fun\"",
+      "link": "https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based, dynamic exponential moving average (EMA), and deterministic…",
+      "ts": 1791889200,
+      "published": "2026-10-13T11:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Building a RAG Pipeline with LLM Embeddings and Scikit-learn",
+      "link": "https://machinelearningmastery.com/building-a-rag-pipeline-with-llm-embeddings-and-scikit-learn/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how to build a lightweight, end-to-end RAG pipeline using scikit-learn for vector retrieval and open-source models for embeddings and...",
+      "ts": 1791889200,
+      "published": "2026-10-13T11:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "How to Leverage NLP for Product Data Science",
+      "link": "https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A practical guide to strengthening churn, CLV, and other traditional models with text The post How to Leverage NLP for Product Data Science appeared first on Towards Data Science .",
+      "ts": 1791889200,
+      "published": "2026-10-13T11:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic r…",
+      "ts": 1791885600,
+      "published": "2026-10-13T10:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
+      "link": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "MSL’s emergence as a frontier lab is finally complete.",
+      "ts": 1791884224,
+      "published": "2026-10-13T09:37:04+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "AI labs are buying data from dead startups to train their models",
+      "link": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives…",
+      "ts": 1791882000,
+      "published": "2026-10-13T09:00:00+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
+    },
     {
       "title": "Cloudflare’s OHTTP Gateway Refuses to Decrypt Requests That Arrive Through Cloudflare",
       "link": "https://www.infoq.com/news/2026/10/cloudflare-ohttp-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -21,6 +181,16 @@
       "ts": 1791851940,
       "published": "2026-10-13T00:39:00+00:00",
       "collected_at": "2026-10-13T16:29:48+09:00"
+    },
+    {
+      "title": "SpaceXSI: Unified plans across Grok, Cursor, and X Premium",
+      "link": "https://x.ai/pricing",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://x.ai/pricing Comments URL: https://news.ycombinator.com/item?id=50064808 Points: 11 # Comments: 2",
+      "ts": 1791850066,
+      "published": "2026-10-13T00:07:46+00:00",
+      "collected_at": "2026-10-14T00:43:12+09:00"
     },
     {
       "title": "Introduction to Error Prone: How to Catch Bugs at Compile Time",
@@ -9821,86 +9991,6 @@
       "ts": 1789318353,
       "published": "2026-09-13T16:52:33+00:00",
       "collected_at": "2026-09-14T06:17:13+09:00"
-    },
-    {
-      "title": "Your Model Isn't Done Until Someone Else Can Call It",
-      "link": "https://towardsdatascience.com/your-model-isnt-done-until-someone-else-can-call-it/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Building a FastAPI endpoint for churn prediction, and everything that broke between \"it runs\" and \"it's live The post Your Model Isn't Done Until Someone Else Can Call It appeared first on Towards Data Science .",
-      "ts": 1789311601,
-      "published": "2026-09-13T15:00:01+00:00",
-      "collected_at": "2026-09-14T00:52:40+09:00"
-    },
-    {
-      "title": "Houthis Used Claude Code to Develop Missile Guidance Software: Anthropic",
-      "link": "https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://clashreport.com/world/articles/houthis-used-claude-code-to-develop-missile-guidance-software-anthropic-s52mnx4pwpo Comments URL: https://news.ycombinator.com/item?id=49684266 Points: 43 # Comments:…",
-      "ts": 1789308940,
-      "published": "2026-09-13T14:15:40+00:00",
-      "collected_at": "2026-09-14T00:52:40+09:00"
-    },
-    {
-      "title": "Primer on Jinja Templating",
-      "link": "https://realpython.com/primer-on-jinja-templating/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "With Jinja, you can build rich templates that power the front end of your web applications. But you can use Jinja without a web framework running in the background. Anytime you want to create text files with programmati…",
-      "ts": 1789308000,
-      "published": "2026-09-13T14:00:00+00:00",
-      "collected_at": "2026-09-14T00:52:40+09:00"
-    },
-    {
-      "title": "Python Practice Problems: Parsing CSV Files",
-      "link": "https://realpython.com/python-interview-problem-parsing-csv-files/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "In this tutorial, you'll prepare for future interviews by working through a set of Python practice problems that involve CSV files. You'll work through the problems yourself and then compare your results with solutions…",
-      "ts": 1789308000,
-      "published": "2026-09-13T14:00:00+00:00",
-      "collected_at": "2026-09-14T00:52:40+09:00"
-    },
-    {
-      "title": "What’s happening with the models of the Atlantic Meridional Overturning Circulation?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/13/whats-happening-with-the-models-of-the-atlantic-meridional-overturning-circulation/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "John “not Towering Inferno” Williams points to this new research article by Valentin Portmann et al., which states: Climate models show considerable discrepancies in their future projections around the Atlantic, mainly…",
-      "ts": 1789306904,
-      "published": "2026-09-13T13:41:44+00:00",
-      "collected_at": "2026-09-14T00:52:40+09:00"
-    },
-    {
-      "title": "Your AI Adoption Lift Is a Selection Effect",
-      "link": "https://towardsdatascience.com/your-ai-adoption-lift-is-a-selection-effect/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A practitioner's guide to estimating what an opt-in AI feature actually did, when nobody randomized it. The post Your AI Adoption Lift Is a Selection Effect appeared first on Towards Data Science .",
-      "ts": 1789300802,
-      "published": "2026-09-13T12:00:02+00:00",
-      "collected_at": "2026-09-14T00:52:40+09:00"
-    },
-    {
-      "title": "Quiz: Traditional Face Detection With Python",
-      "link": "https://realpython.com/quizzes/traditional-face-detection-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of face detection with Python. Review Haar-like features, integral images, AdaBoost, and cascading classifiers.",
-      "ts": 1789300800,
-      "published": "2026-09-13T12:00:00+00:00",
-      "collected_at": "2026-09-14T00:52:40+09:00"
-    },
-    {
-      "title": "Cloudflare Tests Cache Transcoding to Reduce Storage Requirements",
-      "link": "https://www.infoq.com/news/2026/09/cloudflare-cache-transcoding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare recently described a prototype called Cache Transcoding that compresses eligible cache content, mainly uncompressed text such as HTML, JSON, CSS, and JavaScript, using Zstandard before storing it on disk. The…",
-      "ts": 1789295700,
-      "published": "2026-09-13T10:35:00+00:00",
-      "collected_at": "2026-09-13T20:22:51+09:00"
     }
   ]
 }
