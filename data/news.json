@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-14T09:58:51+09:00",
-  "count": 1020,
+  "updated": "2026-10-14T15:01:42+09:00",
+  "count": 1026,
   "items": [
+    {
+      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
+      "link": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
+      "ts": 1791956428,
+      "published": "2026-10-14T05:40:28+00:00",
+      "collected_at": "2026-10-14T15:01:21+09:00"
+    },
+    {
+      "title": "1.15.28",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add crewai eval command to report where a stopped model broke. Use LiteLLM catalog for context windows. Bug Fixes Fix flow to learn from resumed human feedback and preserve reviewed output types.…",
+      "ts": 1791953220,
+      "published": "2026-10-14T04:47:00+00:00",
+      "collected_at": "2026-10-14T15:01:21+09:00"
+    },
+    {
+      "title": "Gemini 4 Argon Hands-On Review: Capabilities and Performance",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/gemini-4-argon-review/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Google’s Gemini 4 Argon promises stronger capabilities across creative, analytical, and document-heavy tasks. But how well does it perform in practice? From generating videos and building websites to analyzing data and…",
+      "ts": 1791951170,
+      "published": "2026-10-14T04:12:50+00:00",
+      "collected_at": "2026-10-14T15:01:21+09:00"
+    },
+    {
+      "title": "OK, here’s a new scam. But I can’t figure out how it’s supposed to work.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/13/ok-heres-a-new-scam-but-i-cant-figure-out-how-its-supposed-to-work/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "The following arrived in my inbox: Dear Prof. Andrew Gelman Good day. We are writing with a special academic invitation for Hong Kong this December. We are an independent academic coordination team based in Japan, and w…",
+      "ts": 1791949128,
+      "published": "2026-10-14T03:38:48+00:00",
+      "collected_at": "2026-10-14T15:01:21+09:00"
+    },
+    {
+      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
+      "ts": 1791943214,
+      "published": "2026-10-14T02:00:14+00:00",
+      "collected_at": "2026-10-14T15:01:21+09:00"
+    },
     {
       "title": "What I Learned Building an AI Code Reviewer with Java and Spring Boot",
       "link": "https://foojay.io/today/what-i-learned-building-an-ai-code-reviewer-with-java-spring-boot/",
@@ -421,6 +471,16 @@
       "ts": 1791849600,
       "published": "2026-10-13T00:00:00+00:00",
       "collected_at": "2026-10-14T06:04:00+09:00"
+    },
+    {
+      "title": "This Week in Spring - October 13th, 2026",
+      "link": "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! Welcome to another rip-roarin' installment of This Week in Spring ! This one I am writing from beautiful Carmel-by-the-Sea in sunny California's Bay Area, overlooking the Pacific Ocean. As I sit here, I…",
+      "ts": 1791849600,
+      "published": "2026-10-13T00:00:00+00:00",
+      "collected_at": "2026-10-14T15:01:21+09:00"
     },
     {
       "title": "llm-meta-ai 0.2",
