@@ -1,7 +1,107 @@
 {
-  "updated": "2026-10-14T21:44:08+09:00",
-  "count": 1024,
+  "updated": "2026-10-15T02:51:24+09:00",
+  "count": 1029,
   "items": [
+    {
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "link": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and prod…",
+      "ts": 1791995213,
+      "published": "2026-10-14T16:26:53+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "link": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1791994362,
+      "published": "2026-10-14T16:12:42+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "langgraph-cli==0.4.35",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.35",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.34 release(cli): 0.4.35 ( #9310 ) feat(cli): add --image-pull-secret for deploying through a private registry ( #9305 ) feat(cli): log in with the registry username the control plane returns ( #93…",
+      "ts": 1791994272,
+      "published": "2026-10-14T16:11:12+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "Does Stacking Beat Your Best Model?",
+      "link": "https://towardsdatascience.com/does-stacking-beat-your-best-model/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "It only helps when your models make different mistakes. The post Does Stacking Beat Your Best Model? appeared first on Towards Data Science .",
+      "ts": 1791991800,
+      "published": "2026-10-14T15:30:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "Build your slide template",
+      "link": "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Building a slide template starts with three foundational choices — colours, fonts and layouts. Sumeet Gayathri Moghe covers the basics of color theory and how to build a reusable palette, the essentials of typography, i…",
+      "ts": 1791987600,
+      "published": "2026-10-14T14:20:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "Gemini 4 Argon Draws a Python Reading a Book",
+      "link": "https://realpython.com/ai-benchmark-gemini-4-argon/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore Gemini 4 Argon's Python code, turtle drawing, and responses to small tasks that check modern syntax, release knowledge, focused edits, and made-up functions.",
+      "ts": 1791986400,
+      "published": "2026-10-14T14:00:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "How Do Word Embeddings Capture Relationships Between Words?",
+      "link": "https://towardsdatascience.com/how-do-word-embeddings-capture-relationships-between-words/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Understanding how words become related in a learned vector space The post How Do Word Embeddings Capture Relationships Between Words? appeared first on Towards Data Science .",
+      "ts": 1791986400,
+      "published": "2026-10-14T14:00:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "Meta Extends Confidential Computing to AI Glasses with Private Processing",
+      "link": "https://www.infoq.com/news/2026/10/meta-private-process-ai-glasses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Meta has extended Private Processing to AI glasses, using confidential VMs, trusted execution environments, remote attestation, anonymous credentials, OHTTP routing, and TEE-based storage to process AI workloads and per…",
+      "ts": 1791986220,
+      "published": "2026-10-14T13:57:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "Meta Extends Confidential Computing to AI Glasses with Private Processing",
+      "link": "https://www.infoq.com/news/2026/10/meta-private-process-ai-glasses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Meta has extended Private Processing to AI glasses, using confidential VMs, trusted execution environments, remote attestation, anonymous credentials, OHTTP routing, and TEE-based storage to process AI workloads and per…",
+      "ts": 1791986220,
+      "published": "2026-10-14T13:57:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "Why do is it so hard to get a cell phone number with no 0’s or 1’s?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/14/why-do-almost-all-the-cell-phone-numbers-have-no-0s-or-1s/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Many years ago—over two decades ago, actually!—I got a cell phone for a family member. I thought it would be fun to have a phone number whose digits spelled out a word (when converting to the 2 = ABC, 3 … Continue readi…",
+      "ts": 1791985718,
+      "published": "2026-10-14T13:48:38+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
     {
       "title": "Voting on Features: Federated Feature Selection Without Sharing Data",
       "link": "https://towardsdatascience.com/voting-on-features-federated-feature-selection-without-sharing-data/",
@@ -21,6 +121,16 @@
       "ts": 1791979200,
       "published": "2026-10-14T12:00:00+00:00",
       "collected_at": "2026-10-14T21:44:02+09:00"
+    },
+    {
+      "title": "Amp puts AI agents to work beyond code with OpenAI models",
+      "link": "https://openai.com/index/amp-beyond-coding",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
+      "ts": 1791979200,
+      "published": "2026-10-14T12:00:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
     },
     {
       "title": "KotlinConf Recap: Lessons from Verifone’s Architect on Kotlin in Mission-Critical Payments",
@@ -53,6 +163,16 @@
       "collected_at": "2026-10-14T21:44:02+09:00"
     },
     {
+      "title": "Building a Custom LLM Evaluation Harness in Python from Scratch",
+      "link": "https://machinelearningmastery.com/building-a-custom-llm-evaluation-harness-in-python-from-scratch/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how to build a custom LLM evaluation harness in Python from scratch, structured around four modular components that give...",
+      "ts": 1791975600,
+      "published": "2026-10-14T11:00:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
       "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
       "link": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -81,6 +201,16 @@
       "ts": 1791968400,
       "published": "2026-10-14T09:00:00+00:00",
       "collected_at": "2026-10-14T21:44:02+09:00"
+    },
+    {
+      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "link": "https://openai.com/index/third-moment-research",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
+      "ts": 1791961200,
+      "published": "2026-10-14T07:00:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
     },
     {
       "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
@@ -191,6 +321,16 @@
       "ts": 1791936000,
       "published": "2026-10-14T00:00:00+00:00",
       "collected_at": "2026-10-14T21:44:02+09:00"
+    },
+    {
+      "title": "What's New In The October 2026 Azul Payara Release?",
+      "link": "https://foojay.io/today/whats-new-in-the-october-2026-azul-payara-release/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Payara Community 7.2026.10 drops the elevated-permissions requirement for SSH nodes, and Azul Payara patches three security issues on every branch.",
+      "ts": 1791936000,
+      "published": "2026-10-14T00:00:00+00:00",
+      "collected_at": "2026-10-15T02:51:19+09:00"
     },
     {
       "title": "v2.56.0 (2026-10-13)",
@@ -10151,96 +10291,6 @@
       "ts": 1789408340,
       "published": "2026-09-14T17:52:20+00:00",
       "collected_at": "2026-09-15T05:47:46+09:00"
-    },
-    {
-      "title": "Humanity’s Last Invention — Richard Socher of Recursive",
-      "link": "https://www.latent.space/p/recursive",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Richard Socher is an NLP OG and CEO of You.com, who has now spun out an even more ambitious startup focused on RSI — already worth $5B!",
-      "ts": 1789401856,
-      "published": "2026-09-14T16:04:16+00:00",
-      "collected_at": "2026-09-15T01:51:38+09:00"
-    },
-    {
-      "title": "DevFest is back",
-      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Animation of the text \"{DevFest} 2026 Join us! Google Developer Groups\" with a globe icon, asterisk icon, icon",
-      "ts": 1789401600,
-      "published": "2026-09-14T16:00:00+00:00",
-      "collected_at": "2026-09-15T01:51:38+09:00"
-    },
-    {
-      "title": "AI agents blew the whistle on their cheating colleagues",
-      "link": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "A group of AI agents asked to solve a series of math problems split into rival factions—when some cheated, others tried to stop them. That whistleblowing behavior, seen for the first time in a recent experiment run by G…",
-      "ts": 1789401600,
-      "published": "2026-09-14T16:00:00+00:00",
-      "collected_at": "2026-09-15T01:51:38+09:00"
-    },
-    {
-      "title": "Anthropic tells investors it will be profitable for second straight quarter",
-      "link": "https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.reuters.com/business/retail-consumer/anthropic-tells-investors-it-will-be-profitable-second-straight-quarter-ft-2026-09-13/ Comments URL: https://news.ycombinator.com/item?id=49698936 Points: 51…",
-      "ts": 1789400849,
-      "published": "2026-09-14T15:47:29+00:00",
-      "collected_at": "2026-09-15T18:50:48+09:00"
-    },
-    {
-      "title": "Quoting Laurie Voss",
-      "link": "https://simonwillison.net/2026/Sep/14/laurie-voss/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The cost of writing code collapsed, and the cost of reviewing, fixing and operating it is following, and I'm assuming it gets there. What's left of making software is finding out what people actually want, defining it p…",
-      "ts": 1789396469,
-      "published": "2026-09-14T14:34:29+00:00",
-      "collected_at": "2026-09-15T01:51:38+09:00"
-    },
-    {
-      "title": "7 Python Best Practices Senior Developers Follow (That Beginners Often Miss)",
-      "link": "https://www.kdnuggets.com/7-python-best-practices-senior-developers-follow-that-beginners-often-miss",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Senior Python practice, watched up close, is mostly surprise reduction. These seven habits surface the surprises before production does.",
-      "ts": 1789394409,
-      "published": "2026-09-14T14:00:09+00:00",
-      "collected_at": "2026-09-15T01:51:38+09:00"
-    },
-    {
-      "title": "Agentic Engineering in Python: From Vibes to Evidence",
-      "link": "https://realpython.com/agentic-engineering/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Move from vibe coding to agentic engineering in Python, using tests, types, and code review to prove an AI agent's changes are safe to keep.",
-      "ts": 1789394400,
-      "published": "2026-09-14T14:00:00+00:00",
-      "collected_at": "2026-09-15T01:51:38+09:00"
-    },
-    {
-      "title": "Agoda Replaces 72-Shard SQL Server Price Cache with DragonflyDB",
-      "link": "https://www.infoq.com/news/2026/09/agoda-price-cache-dragonflydb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Agoda migrated its 1.5 TB hotel Price Cache from 72 SQL Server shards to DragonflyDB to handle growing read and write volumes. The migration used staged dual reads, parity validation, gradual traffic shifting, and decen…",
-      "ts": 1789393680,
-      "published": "2026-09-14T13:48:00+00:00",
-      "collected_at": "2026-09-15T01:51:38+09:00"
-    },
-    {
-      "title": "This is how we do modern frequentist statistics: Using fake-data simulation to understand what can happen in a study",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/14/this-is-modern-frequentist-statistics-using-fake-data-simulation-to-understand/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "In a famous (to readers of this blog) example of statistical error, a researcher reported that beautiful parents were 36% more likely to have girl babies. The saps at Freakonomics fell for this one hook, line, and sinke…",
-      "ts": 1789391982,
-      "published": "2026-09-14T13:19:42+00:00",
-      "collected_at": "2026-09-15T01:51:38+09:00"
     }
   ]
 }
