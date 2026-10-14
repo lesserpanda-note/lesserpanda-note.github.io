@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-14T09:10:14+09:00",
-  "count": 1017,
+  "updated": "2026-10-14T09:58:51+09:00",
+  "count": 1020,
   "items": [
+    {
+      "title": "What I Learned Building an AI Code Reviewer with Java and Spring Boot",
+      "link": "https://foojay.io/today/what-i-learned-building-an-ai-code-reviewer-with-java-spring-boot/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "What I learned building an AI code-review workflow around GitHub Pull Requests, Spring Boot, and multiple AI providers.",
+      "ts": 1791936000,
+      "published": "2026-10-14T00:00:00+00:00",
+      "collected_at": "2026-10-14T09:58:30+09:00"
+    },
+    {
+      "title": "One Embedding per Job, or Two? Measuring Semantic Search in a Spring Boot Job Portal",
+      "link": "https://foojay.io/today/embedding-strategies-job-search/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "I stored two embeddings for every job in my Spring Boot job portal and measured which one finds the right jobs. One of them barely mattered, and my similarity threshold turned out to mean much less than I thought.",
+      "ts": 1791936000,
+      "published": "2026-10-14T00:00:00+00:00",
+      "collected_at": "2026-10-14T09:58:30+09:00"
+    },
     {
       "title": "v2.56.0 (2026-10-13)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.56.0",
@@ -353,6 +373,16 @@
       "collected_at": "2026-10-13T16:29:48+09:00"
     },
     {
+      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
+      "link": "https://github.com/bherbruck/solidcraft",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/bherbruck/solidcraft Comments URL: https://news.ycombinator.com/item?id=50064840 Points: 133 # Comments: 45",
+      "ts": 1791850264,
+      "published": "2026-10-13T00:11:04+00:00",
+      "collected_at": "2026-10-14T09:58:30+09:00"
+    },
+    {
       "title": "SpaceXSI: Unified plans across Grok, Cursor, and X Premium",
       "link": "https://x.ai/pricing",
       "source": "Hacker News",
@@ -401,6 +431,16 @@
       "ts": 1791849526,
       "published": "2026-10-12T23:58:46+00:00",
       "collected_at": "2026-10-14T09:09:49+09:00"
+    },
+    {
+      "title": "Show HN: An experimental pattern-first DAW that supports MCP",
+      "link": "https://github.com/andrewfader/blokkily",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/andrewfader/blokkily Comments URL: https://news.ycombinator.com/item?id=50064438 Points: 83 # Comments: 35",
+      "ts": 1791847272,
+      "published": "2026-10-12T23:21:12+00:00",
+      "collected_at": "2026-10-14T09:58:30+09:00"
     },
     {
       "title": "langgraph-checkpoint-postgres==3.1.3",
@@ -10161,16 +10201,6 @@
       "ts": 1789366302,
       "published": "2026-09-14T06:11:42+00:00",
       "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "commit-rewriter 0.1",
-      "link": "https://simonwillison.net/2026/Sep/14/commit-rewriter/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: commit-rewriter 0.1 I built this little web app the other day to help edit the commit messages for the Datasette security releases . The initial commits were full of coding agent cruft and references to issue I…",
-      "ts": 1789345690,
-      "published": "2026-09-14T00:28:10+00:00",
-      "collected_at": "2026-09-14T13:42:14+09:00"
     }
   ]
 }
