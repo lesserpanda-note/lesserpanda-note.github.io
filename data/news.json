@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-15T02:51:24+09:00",
-  "count": 1029,
+  "updated": "2026-10-15T06:24:47+09:00",
+  "count": 1028,
   "items": [
+    {
+      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
+      "link": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
+      "ts": 1792010109,
+      "published": "2026-10-14T20:35:09+00:00",
+      "collected_at": "2026-10-15T06:24:36+09:00"
+    },
+    {
+      "title": "Anthropic's Scion is heavily inspired by Mononoke",
+      "link": "https://sunshowers.io/posts/anthropic-mononoke/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 83 # Comments: 12",
+      "ts": 1792009854,
+      "published": "2026-10-14T20:30:54+00:00",
+      "collected_at": "2026-10-15T06:24:36+09:00"
+    },
+    {
+      "title": "langgraph-checkpoint-postgres==3.2.0",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.0",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since checkpointpostgres==3.1.3 release(checkpoint-postgres): 3.2.0 ( #9313 ) feat(checkpoint-postgres): add prune to PostgresSaver and AsyncPostgresSaver ( #9290 )",
+      "ts": 1792007697,
+      "published": "2026-10-14T19:54:57+00:00",
+      "collected_at": "2026-10-15T06:24:36+09:00"
+    },
+    {
+      "title": "dotnet-1.25.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.25.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "Changes: 1ab3430 .NET: Dotnet: Add approval reuse considerations ( #9389 ) 563eb3a .NET: terminate chat completions SSE stream with data: [DONE] ( #8532 ) [ #8526 ] 4964bdd .NET: Update version for 1.25.0 release ( #938…",
+      "ts": 1792005540,
+      "published": "2026-10-14T19:19:00+00:00",
+      "collected_at": "2026-10-15T06:24:36+09:00"
+    },
+    {
+      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+      "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 765 # Comments: 363",
+      "ts": 1791999923,
+      "published": "2026-10-14T17:45:23+00:00",
+      "collected_at": "2026-10-15T06:24:36+09:00"
+    },
     {
       "title": "AI is mass decompiling games. That's both awesome and scary.",
       "link": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
@@ -73,6 +123,16 @@
       "collected_at": "2026-10-15T02:51:19+09:00"
     },
     {
+      "title": "Few-Shot Text Classification with Scikit-LLM",
+      "link": "https://www.kdnuggets.com/few-shot-text-classification-with-scikit-llm",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Leveraging Scikit-LLM for one of the simplest yet most practical text classification tasks utilized in the modern AI landscape: few-shot classification.",
+      "ts": 1791986400,
+      "published": "2026-10-14T14:00:00+00:00",
+      "collected_at": "2026-10-15T06:24:36+09:00"
+    },
+    {
       "title": "Meta Extends Confidential Computing to AI Glasses with Private Processing",
       "link": "https://www.infoq.com/news/2026/10/meta-private-process-ai-glasses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -131,6 +191,26 @@
       "ts": 1791979200,
       "published": "2026-10-14T12:00:00+00:00",
       "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "SentinelOne cuts malware analysis from weeks to hours",
+      "link": "https://openai.com/index/sentinelone",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
+      "ts": 1791979200,
+      "published": "2026-10-14T12:00:00+00:00",
+      "collected_at": "2026-10-15T06:24:36+09:00"
+    },
+    {
+      "title": "5 Fun Projects for LLM Inference Engineering",
+      "link": "https://www.kdnuggets.com/5-fun-projects-for-llm-inference-engineering",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Want to understand what makes LLMs fast? Build the systems yourself.",
+      "ts": 1791979200,
+      "published": "2026-10-14T12:00:00+00:00",
+      "collected_at": "2026-10-15T06:24:36+09:00"
     },
     {
       "title": "KotlinConf Recap: Lessons from Verifone’s Architect on Kotlin in Mission-Critical Payments",
@@ -331,6 +411,16 @@
       "ts": 1791936000,
       "published": "2026-10-14T00:00:00+00:00",
       "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "Preparing for the 2026 US midterms",
+      "link": "https://www.anthropic.com/news/2026-us-midterms",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Preparing for the 2026 US midterms",
+      "ts": 1791936000,
+      "published": "2026-10-14T00:00:00+00:00",
+      "collected_at": "2026-10-15T06:24:36+09:00"
     },
     {
       "title": "v2.56.0 (2026-10-13)",
@@ -10191,106 +10281,6 @@
       "ts": 1789428226,
       "published": "2026-09-14T23:23:46+00:00",
       "collected_at": "2026-09-15T18:50:48+09:00"
-    },
-    {
-      "title": "The contagion of fear",
-      "link": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The contagion of fear Bryan Cantrill responds to the tweet by former Anthropic employee Jacob Coxon confirming that many Anthropic researchers believe AI \"could kill us all by the end of the decade\". Bryan shares a stor…",
-      "ts": 1789420693,
-      "published": "2026-09-14T21:18:13+00:00",
-      "collected_at": "2026-09-15T08:44:42+09:00"
-    },
-    {
-      "title": "A single firm is behind OpenAI, Anthropic, and Meta hacking scandals",
-      "link": "https://www.effort.news/irregular",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.effort.news/irregular Comments URL: https://news.ycombinator.com/item?id=49704132 Points: 90 # Comments: 34",
-      "ts": 1789420501,
-      "published": "2026-09-14T21:15:01+00:00",
-      "collected_at": "2026-09-15T08:44:42+09:00"
-    },
-    {
-      "title": "What blog posts influenced your thinking the most?",
-      "link": "https://simonwillison.net/2026/Sep/14/influences/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "My comment on What blog posts influenced your thinking the most? — Lobste.rs. An early Joel Spolsky one for me was The Law of Leaky Abstractions . I read that near the start of my career and it's encouraged me to always…",
-      "ts": 1789417308,
-      "published": "2026-09-14T20:21:48+00:00",
-      "collected_at": "2026-09-15T05:47:46+09:00"
-    },
-    {
-      "title": "Java News Roundup: New OpenJDK JEPs, CDI 5.0, Spring, Open Liberty, RefactorFirst, ADK for Kotlin",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep07-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for September 7th, 2026, features news highlighting: new JEPs for ahead-of-time compilation and structured concurrency; GA releases of Jakarta CDI 5.0 and ADK for Kotlin 1.0; the September 2026…",
-      "ts": 1789416900,
-      "published": "2026-09-14T20:15:00+00:00",
-      "collected_at": "2026-09-15T05:47:46+09:00"
-    },
-    {
-      "title": "Java News Roundup: New OpenJDK JEPs, CDI 5.0, Spring, Open Liberty, RefactorFirst, ADK for Kotlin",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep07-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for September 7th, 2026, features news highlighting: new JEPs for ahead-of-time compilation and structured concurrency; GA releases of Jakarta CDI 5.0 and ADK for Kotlin 1.0; the September 2026…",
-      "ts": 1789416900,
-      "published": "2026-09-14T20:15:00+00:00",
-      "collected_at": "2026-09-15T05:47:46+09:00"
-    },
-    {
-      "title": "Your Model’s MSE Is Lying to You",
-      "link": "https://towardsdatascience.com/your-models-mse-is-lying-to-you/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "First in a series on probabilistic forecasting for physical signals. Next: what happens when you roll the forecast forward more than one step. The post Your Model’s MSE Is Lying to You appeared first on Towards Data Sci…",
-      "ts": 1789414201,
-      "published": "2026-09-14T19:30:01+00:00",
-      "collected_at": "2026-09-15T05:47:46+09:00"
-    },
-    {
-      "title": "New York City Psychometrics Group",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/14/new-york-city-psychometrics-group/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Betsy McCoach and her colleagues and students at Fordham University do a great job at organizing talks, socials, and conferences around psychometrics, extending more generally to sociometric and econometrics. They organ…",
-      "ts": 1789412459,
-      "published": "2026-09-14T19:00:59+00:00",
-      "collected_at": "2026-09-15T05:47:46+09:00"
-    },
-    {
-      "title": "Watch astronaut Christina Koch and Google’s James Manyika discuss space, technology, and discovery.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-christina-koch/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Christina Koch sits down with James Manyika, Google’s Senior Vice President of Research, Labs, Technology & Society.",
-      "ts": 1789412400,
-      "published": "2026-09-14T19:00:00+00:00",
-      "collected_at": "2026-09-15T05:47:46+09:00"
-    },
-    {
-      "title": "The AI industry has taken a doomer turn. What now?",
-      "link": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. This weekend, Dario Amodei, CEO of Anthropic, posted an essay calling for a brake on the pac…",
-      "ts": 1789408462,
-      "published": "2026-09-14T17:54:22+00:00",
-      "collected_at": "2026-09-15T05:47:46+09:00"
-    },
-    {
-      "title": "When to Use One Model and When to Use a Team of Agents",
-      "link": "https://towardsdatascience.com/when-to-use-one-model-and-when-to-use-a-team-of-agents/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "When Codex is the right shape for the problem, when Claude Code is, and how I split 5 specialist agents between them on dense AI capacity work. The post When to Use One Model and When to Use a Team of Agents appeared fi…",
-      "ts": 1789408340,
-      "published": "2026-09-14T17:52:20+00:00",
-      "collected_at": "2026-09-15T05:47:46+09:00"
     }
   ]
 }
