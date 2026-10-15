@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-16T01:36:13+09:00",
-  "count": 1031,
+  "updated": "2026-10-16T05:12:44+09:00",
+  "count": 1032,
   "items": [
+    {
+      "title": "Chirp Pong",
+      "link": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Chirp Pong Another game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It see…",
+      "ts": 1792093672,
+      "published": "2026-10-15T19:47:52+00:00",
+      "collected_at": "2026-10-16T05:12:22+09:00"
+    },
+    {
+      "title": "Release v5.20.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.20.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.20.0 New Model additions Muse Spark Open Muse Spark Open is a multimodal mixture-of-experts model from Meta that takes text, images, audio, and video as input and generates text. It has 816B total parameters…",
+      "ts": 1792087536,
+      "published": "2026-10-15T18:05:36+00:00",
+      "collected_at": "2026-10-16T05:12:22+09:00"
+    },
+    {
+      "title": "More on Anthropic's Scion ripping off Mononoke",
+      "link": "https://sunshowers.io/posts/anthropic-mononoke-2/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Redesigning source control at Anthropic - https://news.ycombinator.com/item?id=50073633 (996 comments) Anthropic's Scion is heavily inspired by Mononoke - https://news.ycombinator.com/item?id=50094694 (149 comments) Com…",
+      "ts": 1792083919,
+      "published": "2026-10-15T17:05:19+00:00",
+      "collected_at": "2026-10-16T05:12:22+09:00"
+    },
+    {
+      "title": "Abacus AI Honest Review: Key Criticisms, Facts & What Users Should Know",
+      "link": "https://www.kdnuggets.com/2026/10/abacus/abacus-ai-review-criticisms-facts-what-users-should-know",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "This review highlights the main critiques of Abacus AI, its price, user reviews, reliability of workflows, and real-life use cases to assist you in evaluating its advantages and disadvantages.",
+      "ts": 1792083659,
+      "published": "2026-10-15T17:00:59+00:00",
+      "collected_at": "2026-10-16T05:12:22+09:00"
+    },
     {
       "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
       "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
@@ -41,6 +81,16 @@
       "ts": 1792072800,
       "published": "2026-10-15T14:00:00+00:00",
       "collected_at": "2026-10-16T01:36:07+09:00"
+    },
+    {
+      "title": "Building AI Applications with OGX, the Open-Source Agentic API Server",
+      "link": "https://www.kdnuggets.com/building-ai-applications-with-open-source-agentic-api-server-ogx",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "OGX is an open-source agentic API server for building OpenAI-compatible AI applications, using any model and any infrastructure.",
+      "ts": 1792072800,
+      "published": "2026-10-15T14:00:00+00:00",
+      "collected_at": "2026-10-16T05:12:22+09:00"
     },
     {
       "title": "When Software Meets Hardware",
@@ -91,6 +141,16 @@
       "ts": 1792067400,
       "published": "2026-10-15T12:30:00+00:00",
       "collected_at": "2026-10-16T01:36:07+09:00"
+    },
+    {
+      "title": "7 Open-Source AI Tools That Can Replace Paid Subscriptions",
+      "link": "https://www.kdnuggets.com/7-open-source-ai-tools-that-can-replace-paid-subscriptions",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Find open-source alternatives to OpenAI API, Midjourney, Claude Code, Notion, Wispr Flow, Grammarly, and NotebookLM that you can run locally or self-host for more privacy, control, and lower cost.",
+      "ts": 1792065634,
+      "published": "2026-10-15T12:00:34+00:00",
+      "collected_at": "2026-10-16T05:12:22+09:00"
     },
     {
       "title": "Quiz: PyQt Layouts: Create Professional-Looking GUI Applications",
@@ -271,6 +331,16 @@
       "ts": 1792022400,
       "published": "2026-10-15T00:00:00+00:00",
       "collected_at": "2026-10-16T01:36:07+09:00"
+    },
+    {
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "link": "https://huggingface.co/blog/meta-muse-spark-open",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792022400,
+      "published": "2026-10-15T00:00:00+00:00",
+      "collected_at": "2026-10-16T05:12:22+09:00"
     },
     {
       "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
@@ -10251,66 +10321,6 @@
       "ts": 1789512427,
       "published": "2026-09-15T22:47:07+00:00",
       "collected_at": "2026-09-16T09:09:34+09:00"
-    },
-    {
-      "title": "Can Skills Learned in Games Transfer to Real-World Work?",
-      "link": "https://www.latent.space/p/good-start-labs",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Good Start Labs trained an AI on a railroad game — and one version improved at financial research. The difference was the training design.",
-      "ts": 1789503114,
-      "published": "2026-09-15T20:11:54+00:00",
-      "collected_at": "2026-09-16T06:58:52+09:00"
-    },
-    {
-      "title": "Survey Statistics: ANOVA",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/15/survey-statistics-anova/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Andrew recently answered “Why did ANOVA fall out of fashion?”: Anova is still important; it’s just been subsumed by hierarchical models. The link is to my 2005 paper, Analysis of variance: Why it is more important than…",
-      "ts": 1789502454,
-      "published": "2026-09-15T20:00:54+00:00",
-      "collected_at": "2026-09-16T06:58:52+09:00"
-    },
-    {
-      "title": "Roundtables: Could AI really kill us all?",
-      "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Listen to the session or watch below Employees at the world’s leading AI labs are saying there’s a real possibility that advanced AI could destroy humanity. Are they right? Or is this more scaremongering and hype? Watch…",
-      "ts": 1789494471,
-      "published": "2026-09-15T17:47:51+00:00",
-      "collected_at": "2026-09-16T03:46:55+09:00"
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
-      "link": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1789491957,
-      "published": "2026-09-15T17:05:57+00:00",
-      "collected_at": "2026-09-16T03:46:55+09:00"
-    },
-    {
-      "title": "Orchestration and Execution: How JONI Approaches the Agent Layer",
-      "link": "https://www.kdnuggets.com/2026/09/finpr/orchestration-and-execution-how-joni-approaches-the-agent-layer",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Explore how JONI approaches AI agent orchestration with persistent runtimes, multi-model routing, execution capabilities, and reliability beyond simple content generation.",
-      "ts": 1789491624,
-      "published": "2026-09-15T17:00:24+00:00",
-      "collected_at": "2026-09-16T03:46:55+09:00"
-    },
-    {
-      "title": "There's a 100% Chance AI Agents Are Ruining the Internet",
-      "link": "https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.404media.co/theres-a-100-chance-ai-agents-are-already-ruining-the-internet/ Comments URL: https://news.ycombinator.com/item?id=49715113 Points: 170 # Comments: 114",
-      "ts": 1789490325,
-      "published": "2026-09-15T16:38:45+00:00",
-      "collected_at": "2026-09-16T03:46:55+09:00"
     }
   ]
 }
