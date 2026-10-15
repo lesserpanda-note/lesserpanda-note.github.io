@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-15T06:24:47+09:00",
-  "count": 1028,
+  "updated": "2026-10-15T09:21:09+09:00",
+  "count": 1030,
   "items": [
+    {
+      "title": "Scraping websites and bot-protection",
+      "link": "https://foojay.io/today/bypass-bot-protection/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "The levels of bot protection I met while scraping genealogy sites, from a bare curl to shell-launched Chrome, and how to get past each one.",
+      "ts": 1792022400,
+      "published": "2026-10-15T00:00:00+00:00",
+      "collected_at": "2026-10-15T09:20:49+09:00"
+    },
+    {
+      "title": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana",
+      "link": "https://foojay.io/today/lightweight-spring-boot-monitoring/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Monitor Spring Boot applications on a small VPS using Actuator and StatLite, without operating a full Prometheus and Grafana stack.",
+      "ts": 1792022400,
+      "published": "2026-10-15T00:00:00+00:00",
+      "collected_at": "2026-10-15T09:20:49+09:00"
+    },
+    {
+      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
+      "link": "https://www.latent.space/p/crossing-the-threshold",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
+      "ts": 1792014052,
+      "published": "2026-10-14T21:40:52+00:00",
+      "collected_at": "2026-10-15T09:20:49+09:00"
+    },
+    {
+      "title": "Tree Appreciator",
+      "link": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree app…",
+      "ts": 1792012981,
+      "published": "2026-10-14T21:23:01+00:00",
+      "collected_at": "2026-10-15T09:20:49+09:00"
+    },
     {
       "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
       "link": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
@@ -291,6 +331,16 @@
       "ts": 1791961200,
       "published": "2026-10-14T07:00:00+00:00",
       "collected_at": "2026-10-15T02:51:19+09:00"
+    },
+    {
+      "title": "How Block is building AI-powered security with OpenAI technology",
+      "link": "https://openai.com/index/block-ai-powered-security",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
+      "ts": 1791961200,
+      "published": "2026-10-14T07:00:00+00:00",
+      "collected_at": "2026-10-15T09:20:49+09:00"
     },
     {
       "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
@@ -10251,36 +10301,6 @@
       "ts": 1789437935,
       "published": "2026-09-15T02:05:35+00:00",
       "collected_at": "2026-09-16T03:46:55+09:00"
-    },
-    {
-      "title": "The Arrival of Java 27!",
-      "link": "https://inside.java/2026/09/15/jdk-27-available/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "JDK 27 is now available! Oracle is proud to announce the general availability of JDK 27 for developers, enterprises, and end-users.",
-      "ts": 1789430400,
-      "published": "2026-09-15T00:00:00+00:00",
-      "collected_at": "2026-09-16T03:46:55+09:00"
-    },
-    {
-      "title": "This Week in Spring - September 15th, 2026",
-      "link": "https://spring.io/blog/2026/09/15/this-week-in-spring-september-15th-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! Welcome to another rip-roarin' installment of This Week in Spring ! I'm writing this to you from sun-kissed San Francisco, CA, sipping some coffee and watching the bay from my breakfast nook. What a won…",
-      "ts": 1789430400,
-      "published": "2026-09-15T00:00:00+00:00",
-      "collected_at": "2026-09-16T06:58:52+09:00"
-    },
-    {
-      "title": "Anthropic is in regulatory-capture financial loop",
-      "link": "https://twitter.com/kevinnbass/status/2099626156660043891",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://twitter.com/kevinnbass/status/2099626156660043891 Comments URL: https://news.ycombinator.com/item?id=49705630 Points: 65 # Comments: 14",
-      "ts": 1789428226,
-      "published": "2026-09-14T23:23:46+00:00",
-      "collected_at": "2026-09-15T18:50:48+09:00"
     }
   ]
 }
