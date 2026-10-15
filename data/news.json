@@ -1,7 +1,67 @@
 {
-  "updated": "2026-10-15T14:41:03+09:00",
-  "count": 1028,
+  "updated": "2026-10-15T20:05:52+09:00",
+  "count": 1032,
   "items": [
+    {
+      "title": "I Tested Four Ways to Give an AI Assistant a Memory. The Obvious One Was the Worst Value.",
+      "link": "https://towardsdatascience.com/i-tested-four-ways-to-give-an-ai-assistant-a-memory-the-obvious-one-was-the-worst-value/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Pasting in the whole chat history cost 20 to 31 times more than looking up notes, and it did no better on the tasks. The post I Tested Four Ways to Give an AI Assistant a Memory. The Obvious One Was the Worst Value. app…",
+      "ts": 1792062000,
+      "published": "2026-10-15T11:00:00+00:00",
+      "collected_at": "2026-10-15T20:05:29+09:00"
+    },
+    {
+      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
+      "link": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Sandboxes are all you need.",
+      "ts": 1792058888,
+      "published": "2026-10-15T10:08:08+00:00",
+      "collected_at": "2026-10-15T20:05:29+09:00"
+    },
+    {
+      "title": "python-1.22.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.22.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.22.0] - 2026-10-15 Important Python 3.15 support: The core framework and root agent-framework package now support Python 3.15, but not every package, optional extra, or feature supports it yet because of upstream dep…",
+      "ts": 1792058056,
+      "published": "2026-10-15T09:54:16+00:00",
+      "collected_at": "2026-10-15T20:05:29+09:00"
+    },
+    {
+      "title": "Article: Server-Side DPoP and Token Exchange in Spring Security 7",
+      "link": "https://www.infoq.com/articles/spring-security-7-server-side-dpop-token-exchange/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Spring Authorization Server now lives inside Spring Security 7 under the same Maven coordinates, so the upgrade is a version bump. This server-side guide covers enabling DPoP and RFC 8693 Token Exchange, explains why 7.…",
+      "ts": 1792054800,
+      "published": "2026-10-15T09:00:00+00:00",
+      "collected_at": "2026-10-15T20:05:29+09:00"
+    },
+    {
+      "title": "Article: Server-Side DPoP and Token Exchange in Spring Security 7",
+      "link": "https://www.infoq.com/articles/spring-security-7-server-side-dpop-token-exchange/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Spring Authorization Server now lives inside Spring Security 7 under the same Maven coordinates, so the upgrade is a version bump. This server-side guide covers enabling DPoP and RFC 8693 Token Exchange, explains why 7.…",
+      "ts": 1792054800,
+      "published": "2026-10-15T09:00:00+00:00",
+      "collected_at": "2026-10-15T20:05:29+09:00"
+    },
+    {
+      "title": "How to Use Jev AI: A Hands-On Guide to TypeSafe’s System One Model",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/typesafe-ai-jev-tutorial/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Most AI models are built to generate text. But not every application needs a long response. Sometimes, you just need an AI model to classify an input, score it, or answer a yes-or-no question. Jev, TypeSafe AI’s System…",
+      "ts": 1792048462,
+      "published": "2026-10-15T07:14:22+00:00",
+      "collected_at": "2026-10-15T20:05:29+09:00"
+    },
     {
       "title": "langgraph-prebuilt==1.1.1",
       "link": "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1",
@@ -423,6 +483,16 @@
       "collected_at": "2026-10-14T15:01:21+09:00"
     },
     {
+      "title": "Creating a Garmin \"MCP\"",
+      "link": "https://jackantico.io/garmin-mcp",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://jackantico.io/garmin-mcp Comments URL: https://news.ycombinator.com/item?id=50081045 Points: 40 # Comments: 45",
+      "ts": 1791939145,
+      "published": "2026-10-14T00:52:25+00:00",
+      "collected_at": "2026-10-15T20:05:29+09:00"
+    },
+    {
       "title": "What I Learned Building an AI Code Reviewer with Java and Spring Boot",
       "link": "https://foojay.io/today/what-i-learned-building-an-ai-code-reviewer-with-java-spring-boot/",
       "source": "Foojay",
@@ -781,6 +851,16 @@
       "ts": 1791889200,
       "published": "2026-10-13T11:00:00+00:00",
       "collected_at": "2026-10-14T00:43:12+09:00"
+    },
+    {
+      "title": "Presentation: How Eve Online Leverages Head Based Sampling to Observe \"Fun\"",
+      "link": "https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based, dynamic exponential moving average (EMA), and deterministic…",
+      "ts": 1791889200,
+      "published": "2026-10-13T11:00:00+00:00",
+      "collected_at": "2026-10-15T20:05:29+09:00"
     },
     {
       "title": "Open models have real benefits. Do they outweigh the risks?",
@@ -1281,6 +1361,16 @@
       "ts": 1791763200,
       "published": "2026-10-12T00:00:00+00:00",
       "collected_at": "2026-10-13T02:33:56+09:00"
+    },
+    {
+      "title": "How I manage persistent Claude Code loops: Spool",
+      "link": "https://github.com/enes-alatas/spool",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/enes-alatas/spool Comments URL: https://news.ycombinator.com/item?id=50048193 Points: 22 # Comments: 7",
+      "ts": 1791755414,
+      "published": "2026-10-11T21:50:14+00:00",
+      "collected_at": "2026-10-15T20:05:29+09:00"
     },
     {
       "title": "Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs",
@@ -10231,56 +10321,6 @@
       "ts": 1789473077,
       "published": "2026-09-15T11:51:17+00:00",
       "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "How Many Labeled Examples Does a Text Classifier Actually Need? I Measured It.",
-      "link": "https://towardsdatascience.com/how-many-labeled-examples-does-a-text-classifier-actually-need-i-measured-it/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Before reaching for an LLM API on every classification problem, it's worth knowing what a decades-old baseline can already do with the labeled data you have — and exactly how much more data buys you. The post How Many L…",
-      "ts": 1789470001,
-      "published": "2026-09-15T11:00:01+00:00",
-      "collected_at": "2026-09-15T23:43:28+09:00"
-    },
-    {
-      "title": "What’s at stake in AI’s trillion-dollar gamble",
-      "link": "https://www.technologyreview.com/2026/09/15/1144028/ai-infrastructure-boom-investment-bubble-risk/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "When Jessica Wachter, a finance professor at the University of Pennsylvania’s Wharton School, wanted to assess AI’s impact on the economy over the next few years, she faced a long list of business and technical uncertai…",
-      "ts": 1789466400,
-      "published": "2026-09-15T10:00:00+00:00",
-      "collected_at": "2026-09-15T23:43:28+09:00"
-    },
-    {
-      "title": "Grab's Agent Framework LLM-Kit Accelerates AI Agent Production Deployment",
-      "link": "https://www.infoq.com/news/2026/09/grab-agent-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Grab has implemented LLM-Kit, a framework that standardizes over 500 internal agent services. This system enhances service integration, evaluation, and secret handling, reducing the time to deploy new AI agents from two…",
-      "ts": 1789462800,
-      "published": "2026-09-15T09:00:00+00:00",
-      "collected_at": "2026-09-15T18:50:48+09:00"
-    },
-    {
-      "title": "Hello Java 27! Have You Been Working Out?",
-      "link": "https://foojay.io/today/hello-java-27-have-you-been-working-out/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Java 27 is like that friend that you haven't seen all summer, and when you finally see them again it's clear that they spent a lot of time in the gym. Bringing numerous improvements to performance and security, this ver…",
-      "ts": 1789459200,
-      "published": "2026-09-15T08:00:00+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "How Solaris' Turnstile Influenced the Modern System Designs of Web Browsers and Language Runtimes",
-      "link": "https://www.infoq.com/news/2026/09/turnstile-system-design/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Sun's Solaris influenced modern systems engineering, with key innovations like the Slab Allocator for efficient memory management, OpenZFS for advanced storage, and DTrace for observability. Its turnstile mechanism addr…",
-      "ts": 1789452360,
-      "published": "2026-09-15T06:06:00+00:00",
-      "collected_at": "2026-09-15T18:50:48+09:00"
     }
   ]
 }
