@@ -1,7 +1,77 @@
 {
-  "updated": "2026-10-17T02:52:51+09:00",
-  "count": 1040,
+  "updated": "2026-10-17T05:43:13+09:00",
+  "count": 1045,
   "items": [
+    {
+      "title": "How the Claude Code team does code review",
+      "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 77 # Comments: 69",
+      "ts": 1792177487,
+      "published": "2026-10-16T19:04:47+00:00",
+      "collected_at": "2026-10-17T05:42:52+09:00"
+    },
+    {
+      "title": "Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments",
+      "link": "https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google researchers open sourced EnvHarness, a framework that dynamically adapts agent-training environments to an agent's weaknesses without modifying the agent, environment, or evaluation system. According to the resea…",
+      "ts": 1792177200,
+      "published": "2026-10-16T19:00:00+00:00",
+      "collected_at": "2026-10-17T05:42:52+09:00"
+    },
+    {
+      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
+      "link": "https://github.com/cobanov/PS5LM",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 78 # Comments: 25",
+      "ts": 1792175555,
+      "published": "2026-10-16T18:32:35+00:00",
+      "collected_at": "2026-10-17T05:42:52+09:00"
+    },
+    {
+      "title": "Anthropic assigned highest junk credit rating in June",
+      "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d Comments URL: https://news.ycombinator.com/item?id=50122112 Points: 116 # Comments: 33",
+      "ts": 1792174302,
+      "published": "2026-10-16T18:11:42+00:00",
+      "collected_at": "2026-10-17T05:42:52+09:00"
+    },
+    {
+      "title": "Seeking to interview social scientists experimenting with LLM simulations of opinions or behavior",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/16/seeking-to-interview-social-scientists-experimenting-with-llm-simulations-of-opinions-or-behavior/",
+      "source": "Statistical Modeling",
+      "category": "AI",
+      "summary": "This is Jessica. As part of our interest in how social scientists are using LLM simulations of human behavior, some collaborators and I are seeking interview participants. We are thinking about tools to support rigorous…",
+      "ts": 1792174272,
+      "published": "2026-10-16T18:11:12+00:00",
+      "collected_at": "2026-10-17T05:42:52+09:00"
+    },
+    {
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints…",
+      "ts": 1792173600,
+      "published": "2026-10-16T18:00:00+00:00",
+      "collected_at": "2026-10-17T05:42:52+09:00"
+    },
+    {
+      "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
+      "link": "https://news.ycombinator.com/item?id=50121562",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "I am a LegalTech Attorney leading a developer team from Costa Rica. While trying to load credits onto my Anthropic API account (claude.com), I experienced a critical internationalization (i18n) and UX failure that has p…",
+      "ts": 1792171902,
+      "published": "2026-10-16T17:31:42+00:00",
+      "collected_at": "2026-10-17T05:42:52+09:00"
+    },
     {
       "title": "langgraph-cli==0.4.36",
       "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36",
@@ -381,6 +451,16 @@
       "ts": 1792108800,
       "published": "2026-10-16T00:00:00+00:00",
       "collected_at": "2026-10-16T22:49:34+09:00"
+    },
+    {
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "ts": 1792108800,
+      "published": "2026-10-16T00:00:00+00:00",
+      "collected_at": "2026-10-17T05:42:52+09:00"
     },
     {
       "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
@@ -10371,36 +10451,6 @@
       "ts": 1789596598,
       "published": "2026-09-16T22:09:58+00:00",
       "collected_at": "2026-09-17T07:45:16+09:00"
-    },
-    {
-      "title": "Fragments: September 16",
-      "link": "https://martinfowler.com/fragments/2026-09-16.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Reports of agentic hacking continue, in this case it happened back in May and it seems OpenAI did not disclose that they were responsible. Simon Willison sees two options: After the Hugging Face and Wiki attacks OpenAI…",
-      "ts": 1789589100,
-      "published": "2026-09-16T20:05:00+00:00",
-      "collected_at": "2026-09-17T07:45:16+09:00"
-    },
-    {
-      "title": "Claude Cowork and chat are now one Claude",
-      "link": "https://simonwillison.net/2026/Sep/16/one-claude/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Claude Cowork and chat are now one Claude In hopefully good news for anyone who, like me, was increasingly confused at Cowork v.s. Claude v.s. Claude Code: Starting today, Claude Cowork and chat are merging into one Cla…",
-      "ts": 1789582189,
-      "published": "2026-09-16T18:09:49+00:00",
-      "collected_at": "2026-09-17T04:53:53+09:00"
-    },
-    {
-      "title": "Underwriting Superintelligence: Backing Agents you can Sue — Rune Kvist, AIUC",
-      "link": "https://www.latent.space/p/aiuc",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "We sit down with AIUC’s CEO on their Series A!",
-      "ts": 1789582065,
-      "published": "2026-09-16T18:07:45+00:00",
-      "collected_at": "2026-09-17T04:53:53+09:00"
     }
   ]
 }
