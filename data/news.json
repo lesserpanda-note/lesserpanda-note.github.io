@@ -1,7 +1,97 @@
 {
-  "updated": "2026-10-16T22:49:56+09:00",
-  "count": 1041,
+  "updated": "2026-10-17T02:52:51+09:00",
+  "count": 1040,
   "items": [
+    {
+      "title": "langgraph-cli==0.4.36",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.35 release(cli): 0.4.36 ( #9330 ) fix(cli): accept serverless and dedicated deployment aliases ( #9325 ) fix(cli): push through the active Docker context in langgraph deploy ( #9321 )",
+      "ts": 1792168754,
+      "published": "2026-10-16T16:39:14+00:00",
+      "collected_at": "2026-10-17T02:52:27+09:00"
+    },
+    {
+      "title": "Do You Still Own the Code Your AI Wrote? I Built CodeOwnership to Measure It",
+      "link": "https://towardsdatascience.com/do-you-still-own-the-code-your-ai-wrote-i-built-codeownership-to-measure-it/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "I rated my confidence 4 out of 5, then couldn’t find a planted bug in 8 minutes. Here is the tool, the run, and its limits. The post Do You Still Own the Code Your AI Wrote? I Built CodeOwnership to Measure It appeared…",
+      "ts": 1792164600,
+      "published": "2026-10-16T15:30:00+00:00",
+      "collected_at": "2026-10-17T02:52:27+09:00"
+    },
+    {
+      "title": "Uber Automates Dependency Analysis Across Its Service Mesh",
+      "link": "https://www.infoq.com/news/2026/10/uber-automated-dependency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Uber has developed an automated dependency analysis system that uses RPC middleware and production metrics to correlate caller and downstream failures. The approach classifies dependencies as fail-close, fail-open, or u…",
+      "ts": 1792161540,
+      "published": "2026-10-16T14:39:00+00:00",
+      "collected_at": "2026-10-17T02:52:27+09:00"
+    },
+    {
+      "title": "AI in Production: Panellists Highlight Silent Failures, Harness Engineering, and Agent Governance",
+      "link": "https://www.infoq.com/news/2026/10/ai-systems-production/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "A recent InfoQ webinar examined operational challenges in deploying agentic systems. Key points included issues like semantic and embedding drift, which can lead to significant errors. Experts discussed the need for aut…",
+      "ts": 1792160040,
+      "published": "2026-10-16T14:14:00+00:00",
+      "collected_at": "2026-10-17T02:52:27+09:00"
+    },
+    {
+      "title": "How to Run Your Python Scripts and Code",
+      "link": "https://realpython.com/run-python-scripts/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to run Python scripts from the command line, REPL, IDEs, and file managers on Windows, Linux, and macOS. Master all execution approaches.",
+      "ts": 1792159200,
+      "published": "2026-10-16T14:00:00+00:00",
+      "collected_at": "2026-10-17T02:52:27+09:00"
+    },
+    {
+      "title": "Python Exceptions: An Introduction",
+      "link": "https://realpython.com/python-exceptions/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn what Python exceptions are, how to raise them, how to handle them with try, except, else, and finally, and how to create custom ones.",
+      "ts": 1792159200,
+      "published": "2026-10-16T14:00:00+00:00",
+      "collected_at": "2026-10-17T02:52:27+09:00"
+    },
+    {
+      "title": "Agentic RAG vs. Naive RAG: When Your Retrieval System Should Think for Itself",
+      "link": "https://www.kdnuggets.com/agentic-rag-vs-naive-rag-when-your-retrieval-system-should-think-for-itself",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "From static retrieval pipelines to autonomous reasoning engines: a complete breakdown of how these two architectures work, where each falls short, and how to choose the right one for your use case.",
+      "ts": 1792159200,
+      "published": "2026-10-16T14:00:00+00:00",
+      "collected_at": "2026-10-17T02:52:27+09:00"
+    },
+    {
+      "title": "I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim.",
+      "link": "https://towardsdatascience.com/i-built-a-claim-checker-for-writing-with-codex-it-passed-a-wrong-claim/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The tool found the right passage but missed the mismatch, and the audit shows where rule-based checks break down. The post I Built a Claim-Checker for Writing With Codex. It Passed a Wrong Claim. appeared first on Towar…",
+      "ts": 1792159200,
+      "published": "2026-10-16T14:00:00+00:00",
+      "collected_at": "2026-10-17T02:52:27+09:00"
+    },
+    {
+      "title": "How surprising is it that LeBron averaged 27 points, 7 rebounds, and 7 assists in his career but never had one game where he had 27 points, 7 rebounds, and 7 assists?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/16/how-surprising-is-it-that-lebron-averaged-27-points-7-rebounds-and-7-assists-in-his-career-but-never-had-one-game-where-he-had-27-points-7-rebounds-and-7-assists/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Joshua Brooks writes: Listening to a Bill Simmons podcast and the stat came up (not confirmed) that over sixteen years Lebron averaged 27 points, 7 rebounds, 7 assists but never had one game where he had 27 points, 7 re…",
+      "ts": 1792158683,
+      "published": "2026-10-16T13:51:23+00:00",
+      "collected_at": "2026-10-17T02:52:27+09:00"
+    },
     {
       "title": "Release v5.20.1",
       "link": "https://github.com/huggingface/transformers/releases/tag/v5.20.1",
@@ -10311,106 +10401,6 @@
       "ts": 1789582065,
       "published": "2026-09-16T18:07:45+00:00",
       "collected_at": "2026-09-17T04:53:53+09:00"
-    },
-    {
-      "title": "Our framework for reporting model misalignment",
-      "link": "https://openai.com/index/model-misalignment-reporting-framework",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
-      "ts": 1789578000,
-      "published": "2026-09-16T17:00:00+00:00",
-      "collected_at": "2026-09-17T07:45:16+09:00"
-    },
-    {
-      "title": "What's New In The September 2026 Azul Payara Release?",
-      "link": "https://foojay.io/today/whats-new-in-the-september-2026-azul-payara-release/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "MicroProfile 7.1 lands on the commercial lines, OpenTracing is removed, and Jakarta Agentic AI reaches Payara Micro in the September Azul Payara release.",
-      "ts": 1789577214,
-      "published": "2026-09-16T16:46:54+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "Quoting Mustafa Suleyman",
-      "link": "https://simonwillison.net/2026/Sep/16/mustafa-suleyman/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "We should not treat models as though they have feelings, preferences, rights, or any entitlement to our welfare. Consciousness is the foundation of our ethical, legal, and political systems. To invite another entity to…",
-      "ts": 1789574454,
-      "published": "2026-09-16T16:00:54+00:00",
-      "collected_at": "2026-09-17T01:28:48+09:00"
-    },
-    {
-      "title": "Helping older adults use AI in everyday life",
-      "link": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
-      "ts": 1789574400,
-      "published": "2026-09-16T16:00:00+00:00",
-      "collected_at": "2026-09-17T01:28:48+09:00"
-    },
-    {
-      "title": "How to Make Linear Regression Survive Outliers",
-      "link": "https://towardsdatascience.com/how-to-make-linear-regression-survive-outliers/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Robust Estimation Series: comparing classical and modern robust estimators through theory, code, and experiments The post How to Make Linear Regression Survive Outliers appeared first on Towards Data Science .",
-      "ts": 1789572601,
-      "published": "2026-09-16T15:30:01+00:00",
-      "collected_at": "2026-09-17T01:28:48+09:00"
-    },
-    {
-      "title": "Dropbox Evolves Riviera Content Processing Platform to Support AI Workloads",
-      "link": "https://www.infoq.com/news/2026/09/dropbox-riviera-ai-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Dropbox has evolved Riviera from a file preview service into a universal content processing platform supporting more than 300 file formats and over 100 transformation capabilities. Processing hundreds of thousands of tr…",
-      "ts": 1789569720,
-      "published": "2026-09-16T14:42:00+00:00",
-      "collected_at": "2026-09-17T01:28:48+09:00"
-    },
-    {
-      "title": "Dropbox Evolves Riviera Content Processing Platform to Support AI Workloads",
-      "link": "https://www.infoq.com/news/2026/09/dropbox-riviera-ai-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Dropbox has evolved Riviera from a file preview service into a universal content processing platform supporting more than 300 file formats and over 100 transformation capabilities. Processing hundreds of thousands of tr…",
-      "ts": 1789569720,
-      "published": "2026-09-16T14:42:00+00:00",
-      "collected_at": "2026-09-17T01:28:48+09:00"
-    },
-    {
-      "title": "Silent Broadcasting Can Ruin Your Model",
-      "link": "https://towardsdatascience.com/silent-broadcasting-can-ruin-your-model/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "PyTorch and TensorFlow tensor broadcasting: how silent shape errors cause difficult-to-debug machine learning bugs The post Silent Broadcasting Can Ruin Your Model appeared first on Towards Data Science .",
-      "ts": 1789567201,
-      "published": "2026-09-16T14:00:01+00:00",
-      "collected_at": "2026-09-17T01:28:48+09:00"
-    },
-    {
-      "title": "How to Review AI-Generated Python Code Efficiently",
-      "link": "https://realpython.com/review-ai-generated-code/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn an efficient workflow to review AI-generated code in Python: run ruff, mypy, bandit, and pytest, then catch the bugs agents get wrong.",
-      "ts": 1789567200,
-      "published": "2026-09-16T14:00:00+00:00",
-      "collected_at": "2026-09-17T01:28:48+09:00"
-    },
-    {
-      "title": "Estimators in Scikit-LLM: A KDnuggets Cheat Sheet",
-      "link": "https://www.kdnuggets.com/estimators-in-scikit-llm-a-kdnuggets-cheat-sheet",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Scikit-LLM wraps language models in the scikit-learn estimator API, so it drops into a Pipeline or a cross-validation loop natively.",
-      "ts": 1789567099,
-      "published": "2026-09-16T13:58:19+00:00",
-      "collected_at": "2026-09-17T07:45:16+09:00"
     }
   ]
 }
