@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-16T12:50:51+09:00",
-  "count": 1034,
+  "updated": "2026-10-16T17:52:28+09:00",
+  "count": 1040,
   "items": [
+    {
+      "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
+      "link": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto one Ethernet fabric a…",
+      "ts": 1792130520,
+      "published": "2026-10-16T06:02:00+00:00",
+      "collected_at": "2026-10-16T17:52:04+09:00"
+    },
+    {
+      "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
+      "link": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto one Ethernet fabric a…",
+      "ts": 1792130520,
+      "published": "2026-10-16T06:02:00+00:00",
+      "collected_at": "2026-10-16T17:52:04+09:00"
+    },
+    {
+      "title": "JEV as a Hallucination Filter: Let the LLM Write, Let JEV Check",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/rag-hallucination-filter-using-jev/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "The majority of hallucination checks begin following the initial writing of an answer by the LLM. We then hold someone up to a second standard of judgment, or we hand over dangerous cases to a person. That works but tha…",
+      "ts": 1792130288,
+      "published": "2026-10-16T05:58:08+00:00",
+      "collected_at": "2026-10-16T17:52:04+09:00"
+    },
+    {
+      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
+      "link": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Nick Cammarata out of nowhere with some major claims!",
+      "ts": 1792124205,
+      "published": "2026-10-16T04:16:45+00:00",
+      "collected_at": "2026-10-16T17:52:04+09:00"
+    },
     {
       "title": "v2.57.0 (2026-10-15)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.57.0",
@@ -21,6 +61,46 @@
       "ts": 1792115087,
       "published": "2026-10-16T01:44:47+00:00",
       "collected_at": "2026-10-16T12:50:31+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 545: Faster Startup and Warmup with ZGC",
+      "link": "https://inside.java/2026/10/16/jep545-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 545: Faster Startup and Warmup with ZGC",
+      "ts": 1792108800,
+      "published": "2026-10-16T00:00:00+00:00",
+      "collected_at": "2026-10-16T17:52:04+09:00"
+    },
+    {
+      "title": "Build Your First SaaS with MongoDB Ephemeral Clusters",
+      "link": "https://foojay.io/today/build-your-first-saas-with-mongodb-ephemeral-clusters/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Provision a MongoDB Atlas Ephemeral Cluster with one API call, then have an AI coding agent build a full-stack Spring Boot and React job tracker on it.",
+      "ts": 1792108800,
+      "published": "2026-10-16T00:00:00+00:00",
+      "collected_at": "2026-10-16T17:52:04+09:00"
+    },
+    {
+      "title": "Apple Shouldn't Dictate Your App's Redesign Schedule",
+      "link": "https://foojay.io/today/who-decides-your-app-redesign/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Adopt Xcode 27 without moving your redesign schedule. This week: Liquid Glass, JPA inspired ORM, OpenTelemetry, WebSockets, push callbacks, and native...",
+      "ts": 1792108800,
+      "published": "2026-10-16T00:00:00+00:00",
+      "collected_at": "2026-10-16T17:52:04+09:00"
+    },
+    {
+      "title": "A Smaller, Faster Java Server with a Spring-Style API",
+      "link": "https://foojay.io/today/java-server-work-before-startup/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Build a smaller native Java service with Spring-style transactions and dependency injection. Inspect the generated code and compare local Linux startup,...",
+      "ts": 1792108800,
+      "published": "2026-10-16T00:00:00+00:00",
+      "collected_at": "2026-10-16T17:52:04+09:00"
     },
     {
       "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
@@ -10321,26 +10401,6 @@
       "ts": 1789549200,
       "published": "2026-09-16T09:00:00+00:00",
       "collected_at": "2026-09-17T04:53:53+09:00"
-    },
-    {
-      "title": "Dropbox Outlines How Focusing on Existing Infrastructure Efficiency Can Create Headroom for AI",
-      "link": "https://www.infoq.com/news/2026/09/dropbox-datacenter/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Dropbox has outlined how a decade of infrastructure optimization is helping it absorb growing demand from AI without treating new data-center capacity as the only answer. Its work spans forecasting, fleet utilization, s…",
-      "ts": 1789542900,
-      "published": "2026-09-16T07:15:00+00:00",
-      "collected_at": "2026-09-16T20:08:49+09:00"
-    },
-    {
-      "title": "From Memory-Hungry HNSW to Quantized SPANN: The Technical Evolution of Pinterest's Manas Platform",
-      "link": "https://www.infoq.com/news/2026/09/pinterest-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Pinterest Engineering has enhanced its Manas search platform to manage vast data, improving efficiency in search and discovery functions. By applying Scalar and Product Quantization, memory usage decreased significantly…",
-      "ts": 1789538760,
-      "published": "2026-09-16T06:06:00+00:00",
-      "collected_at": "2026-09-16T20:08:49+09:00"
     }
   ]
 }
