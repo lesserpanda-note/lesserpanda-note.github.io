@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-16T08:35:25+09:00",
+  "updated": "2026-10-16T12:50:51+09:00",
   "count": 1034,
   "items": [
+    {
+      "title": "v2.57.0 (2026-10-15)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.57.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Attach namespaced origin and tool_call_id metadata to BackgroundTools completions by @michaeldunn9 in #10196 Take GPT-Live realtime history, usage, and reply waits from the session…",
+      "ts": 1792121735,
+      "published": "2026-10-16T03:35:35+00:00",
+      "collected_at": "2026-10-16T12:50:31+09:00"
+    },
+    {
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792115087,
+      "published": "2026-10-16T01:44:47+00:00",
+      "collected_at": "2026-10-16T12:50:31+09:00"
+    },
     {
       "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
       "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
@@ -371,6 +391,26 @@
       "ts": 1792022400,
       "published": "2026-10-15T00:00:00+00:00",
       "collected_at": "2026-10-16T08:35:02+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: Can Java be more performant than Rust? Andrew Lombardi has the numbers",
+      "link": "https://spring.io/blog/2026/10/15/a-bootiful-podcast-andrew-lombardi",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! What happens when a longtime Kotlin and JVM fan - my friend Andrew Lombardi - decides to take on the latest “rewrite everything in Rust” hype with AI in the driver’s seat? In this episode, Josh sits dow…",
+      "ts": 1792022400,
+      "published": "2026-10-15T00:00:00+00:00",
+      "collected_at": "2026-10-16T12:50:31+09:00"
+    },
+    {
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "link": "https://openai.com/index/sullivan-cromwell",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "ts": 1792022400,
+      "published": "2026-10-15T00:00:00+00:00",
+      "collected_at": "2026-10-16T12:50:31+09:00"
     },
     {
       "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
@@ -10301,46 +10341,6 @@
       "ts": 1789538760,
       "published": "2026-09-16T06:06:00+00:00",
       "collected_at": "2026-09-16T20:08:49+09:00"
-    },
-    {
-      "title": "Charting the Agentic Garden of Forking Paths",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/15/charting-the-agentic-garden-of-forking-paths/",
-      "source": "Statistical Modeling",
-      "category": "Agents",
-      "summary": "Arjun Balaji, Batuhan Duru Yeltekin, and Tian Zheng write: Even with a fixed dataset and research question, data analysis involves many defensible decisions. Understanding how these choices influence the results is scie…",
-      "ts": 1789525457,
-      "published": "2026-09-16T02:24:17+00:00",
-      "collected_at": "2026-09-16T14:46:42+09:00"
-    },
-    {
-      "title": "JDK 27 Security Enhancements",
-      "link": "https://inside.java/2026/09/16/jdk27-security-enhancements/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "JDK 27 was released on September 15, 2026! As with my previous blogs, I have compiled a list of what I think are the most interesting and useful security enhancements in this release. I have also grouped them into appro…",
-      "ts": 1789516800,
-      "published": "2026-09-16T00:00:00+00:00",
-      "collected_at": "2026-09-16T20:08:49+09:00"
-    },
-    {
-      "title": "Java 27 Launch Stream",
-      "link": "https://inside.java/2026/09/16/java-27-launch/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "On September 15 we celebrated the release of Java 27! We covered what’s coming in JDK 27—from key enhancements and platform changes to the latest developments at the intersection of Java and AI.",
-      "ts": 1789516800,
-      "published": "2026-09-16T00:00:00+00:00",
-      "collected_at": "2026-09-17T01:28:48+09:00"
-    },
-    {
-      "title": "Spring Office Hours Podcast: S5E23 - Java 27 Release Party with Billy Korando",
-      "link": "https://spring.io/blog/2026/09/16/spring-office-hours-podcast-S5E23",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun are joined by Kansas City JUG organizer and Java Developer Advocate, Billy Korando. In this episode, we…",
-      "ts": 1789516800,
-      "published": "2026-09-16T00:00:00+00:00",
-      "collected_at": "2026-09-17T07:45:16+09:00"
     }
   ]
 }
