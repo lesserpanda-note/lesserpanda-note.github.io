@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-17T08:20:37+09:00",
-  "count": 1048,
+  "updated": "2026-10-17T12:40:57+09:00",
+  "count": 1042,
   "items": [
     {
       "title": "langgraph==1.2.16",
@@ -51,6 +51,16 @@
       "ts": 1792177200,
       "published": "2026-10-16T19:00:00+00:00",
       "collected_at": "2026-10-17T05:42:52+09:00"
+    },
+    {
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "link": "https://openai.com/index/itau-generative-ai",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "ts": 1792177200,
+      "published": "2026-10-16T19:00:00+00:00",
+      "collected_at": "2026-10-17T12:40:34+09:00"
     },
     {
       "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
@@ -131,6 +141,16 @@
       "ts": 1792161540,
       "published": "2026-10-16T14:39:00+00:00",
       "collected_at": "2026-10-17T02:52:27+09:00"
+    },
+    {
+      "title": "Show HN: rStation – A shared research lab for your AI agents",
+      "link": "https://rstation.ai/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://rstation.ai/ Comments URL: https://news.ycombinator.com/item?id=50118876 Points: 50 # Comments: 19",
+      "ts": 1792161343,
+      "published": "2026-10-16T14:35:43+00:00",
+      "collected_at": "2026-10-17T12:40:34+09:00"
     },
     {
       "title": "AI in Production: Panellists Highlight Silent Failures, Harness Engineering, and Agent Governance",
@@ -10401,86 +10421,6 @@
       "ts": 1789617832,
       "published": "2026-09-17T04:03:52+00:00",
       "collected_at": "2026-09-17T16:23:00+09:00"
-    },
-    {
-      "title": "v1.107.6 (2026-09-16)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.6",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "🛡️ Security A maintenance release for the v1 line, carrying the v1 backports of the four security fixes released in 2.44.0 . See each advisory for full details and affected versions. GHSA-vmxc-h2x2-jmf3 (moderate): clou…",
-      "ts": 1789615851,
-      "published": "2026-09-17T03:30:51+00:00",
-      "collected_at": "2026-09-17T16:23:00+09:00"
-    },
-    {
-      "title": "Episode 70 “AOT Caching - Netflix' Practice vs OpenJDK's Theory” [I/O]",
-      "link": "https://inside.java/2026/09/17/podcast-070/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "From time scales to checkpointing, from managing to inspecting cache files, there are a number of details to consider when creating AOT caches for faster Java application launches.",
-      "ts": 1789603200,
-      "published": "2026-09-17T00:00:00+00:00",
-      "collected_at": "2026-09-17T22:12:25+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: Spring Tools lead Martin Lippert",
-      "link": "https://spring.io/blog/2026/09/17/a-bootiful-podcast-martin-lippert",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! In this conversation, Spring Tools lead Martin Lippert joins us for a fascinating look at how developer tooling has evolved from Eclipse to VS Code and beyond. We dig into the architecture behind Spring…",
-      "ts": 1789603200,
-      "published": "2026-09-17T00:00:00+00:00",
-      "collected_at": "2026-09-18T06:58:36+09:00"
-    },
-    {
-      "title": "Introducing Astra for Law",
-      "link": "https://openai.com/index/astra-for-law",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.",
-      "ts": 1789603200,
-      "published": "2026-09-17T00:00:00+00:00",
-      "collected_at": "2026-09-18T06:58:36+09:00"
-    },
-    {
-      "title": "Introducing the Life Sciences Verification Program",
-      "link": "https://www.anthropic.com/news/life-sciences-verification-program",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Introducing the Life Sciences Verification Program",
-      "ts": 1789603200,
-      "published": "2026-09-17T00:00:00+00:00",
-      "collected_at": "2026-09-18T06:58:36+09:00"
-    },
-    {
-      "title": "Measurements for understanding the pace of AI development inside frontier labs",
-      "link": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Measurements for understanding the pace of AI development inside frontier labs",
-      "ts": 1789603200,
-      "published": "2026-09-17T00:00:00+00:00",
-      "collected_at": "2026-09-18T06:58:36+09:00"
-    },
-    {
-      "title": "datasette 1.0a40",
-      "link": "https://simonwillison.net/2026/Sep/16/datasette/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette 1.0a40 Same security fix as 0.65.5 , plus some neat new features and bug fixes: Plugins can now launch and manage background tasks using the new datasette.add_background_task() method. Thanks, Alex Ga…",
-      "ts": 1789602703,
-      "published": "2026-09-16T23:51:43+00:00",
-      "collected_at": "2026-09-17T10:11:27+09:00"
-    },
-    {
-      "title": "datasette 0.65.5",
-      "link": "https://simonwillison.net/2026/Sep/16/datasette-2/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette 0.65.5 Security fix for an issue where a trailing newline in a requested table name could bypass table permissions and expose private rows, reported by dpfkdlemtp in GHSA-h547-rmjf-5m2m . Tags: securi…",
-      "ts": 1789602668,
-      "published": "2026-09-16T23:51:08+00:00",
-      "collected_at": "2026-09-17T10:11:27+09:00"
     }
   ]
 }
