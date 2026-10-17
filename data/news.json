@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-17T12:40:57+09:00",
-  "count": 1042,
+  "updated": "2026-10-17T17:22:44+09:00",
+  "count": 1043,
   "items": [
+    {
+      "title": "[AINews] High Taste Testers Ep. 1",
+      "link": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "a quiet day lets us pilot a new show",
+      "ts": 1792223258,
+      "published": "2026-10-17T07:47:38+00:00",
+      "collected_at": "2026-10-17T17:22:39+09:00"
+    },
+    {
+      "title": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis",
+      "link": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and IDA. The project lets…",
+      "ts": 1792218480,
+      "published": "2026-10-17T06:28:00+00:00",
+      "collected_at": "2026-10-17T17:22:39+09:00"
+    },
+    {
+      "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
+      "link": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development…",
+      "ts": 1792216800,
+      "published": "2026-10-17T06:00:00+00:00",
+      "collected_at": "2026-10-17T17:22:39+09:00"
+    },
+    {
+      "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
+      "link": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development…",
+      "ts": 1792216800,
+      "published": "2026-10-17T06:00:00+00:00",
+      "collected_at": "2026-10-17T17:22:39+09:00"
+    },
+    {
+      "title": "Pi4J V5.0.0: Work in Progress",
+      "link": "https://foojay.io/today/pi4j-v5-work-in-progress/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "What is changing towards Pi4J V5.0.0: a big API cleanup, a simpler Context, parallel ports, RISC-V support, better board detection, and a new release flow.",
+      "ts": 1792195200,
+      "published": "2026-10-17T00:00:00+00:00",
+      "collected_at": "2026-10-17T17:22:39+09:00"
+    },
     {
       "title": "langgraph==1.2.16",
       "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
@@ -511,6 +561,16 @@
       "ts": 1792108800,
       "published": "2026-10-16T00:00:00+00:00",
       "collected_at": "2026-10-17T05:42:52+09:00"
+    },
+    {
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "link": "https://openai.com/index/benefit-street-partners",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "ts": 1792108800,
+      "published": "2026-10-16T00:00:00+00:00",
+      "collected_at": "2026-10-17T17:22:39+09:00"
     },
     {
       "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
@@ -10371,56 +10431,6 @@
       "ts": 1789642802,
       "published": "2026-09-17T11:00:02+00:00",
       "collected_at": "2026-09-17T22:12:25+09:00"
-    },
-    {
-      "title": "[AINews] Reality Checks on AI News (Yegge shuts down Gas Town, Databricks’ +60% Astra cost)",
-      "link": "https://www.latent.space/p/ainews-reality-checks-on-ai-news",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "A dash of cold water keeps the foomers away.",
-      "ts": 1789630105,
-      "published": "2026-09-17T07:28:25+00:00",
-      "collected_at": "2026-09-17T22:12:25+09:00"
-    },
-    {
-      "title": "LLMOps vs MLOps vs AgentOps: What Changes When You’re Operating Language Models at Scale",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/mlops-vs-llmops-vs-agentops/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Putting AI into production now takes more than deploying a model and tracking accuracy. MLOps made traditional ML manageable, while LLMOps added concerns around prompts, retrieval, evaluation, latency, and cost. AgentOp…",
-      "ts": 1789626816,
-      "published": "2026-09-17T06:33:36+00:00",
-      "collected_at": "2026-09-17T16:23:00+09:00"
-    },
-    {
-      "title": "GPT-6 Astra Is the First Model OpenAI Classifies as Critical for Cybersecurity",
-      "link": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "OpenAI has classified GPT-6 Astra at the Critical cybersecurity threshold under its Preparedness Framework, a first. In expert-led testing the model found previously unknown vulnerabilities in a browser and an OS kernel…",
-      "ts": 1789621140,
-      "published": "2026-09-17T04:59:00+00:00",
-      "collected_at": "2026-09-17T16:23:00+09:00"
-    },
-    {
-      "title": "GPT-6 Astra Is the First Model OpenAI Classifies as Critical for Cybersecurity",
-      "link": "https://www.infoq.com/news/2026/09/gpt-6-astra-critical-cyber/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "OpenAI has classified GPT-6 Astra at the Critical cybersecurity threshold under its Preparedness Framework, a first. In expert-led testing the model found previously unknown vulnerabilities in a browser and an OS kernel…",
-      "ts": 1789621140,
-      "published": "2026-09-17T04:59:00+00:00",
-      "collected_at": "2026-09-17T16:23:00+09:00"
-    },
-    {
-      "title": "v2.44.0 (2026-09-16)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.44.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "🛡️ Security This release fixes four security issues, all of them reached through web_fetch_tool or OpenTelemetry instrumentation. See each advisory for full details and affected versions. GHSA-vmxc-h2x2-jmf3 (moderate):…",
-      "ts": 1789617832,
-      "published": "2026-09-17T04:03:52+00:00",
-      "collected_at": "2026-09-17T16:23:00+09:00"
     }
   ]
 }
