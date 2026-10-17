@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-17T21:47:15+09:00",
-  "count": 1039,
+  "updated": "2026-10-18T01:13:01+09:00",
+  "count": 1040,
   "items": [
+    {
+      "title": "Python's Instance, Class, and Static Methods Demystified",
+      "link": "https://realpython.com/instance-class-and-static-methods-demystified/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Compare instance methods vs class methods vs static methods in Python, and learn when each one earns its place in your code.",
+      "ts": 1792245600,
+      "published": "2026-10-17T14:00:00+00:00",
+      "collected_at": "2026-10-18T01:12:40+09:00"
+    },
+    {
+      "title": "How to Create a Django Project",
+      "link": "https://realpython.com/django-setup/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to create a Django project and app in clear, guided steps. Use it as a reference for any future Django project and tutorial you'll work on.",
+      "ts": 1792245600,
+      "published": "2026-10-17T14:00:00+00:00",
+      "collected_at": "2026-10-18T01:12:40+09:00"
+    },
+    {
+      "title": "Python Histogram Plotting: NumPy, Matplotlib, pandas & Seaborn",
+      "link": "https://realpython.com/python-histograms/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this tutorial, you'll be equipped to make production-quality, presentation-ready Python histogram plots with a range of choices and features.",
+      "ts": 1792245600,
+      "published": "2026-10-17T14:00:00+00:00",
+      "collected_at": "2026-10-18T01:12:40+09:00"
+    },
+    {
+      "title": "The Number Your Quantization Gate Doesn't Have",
+      "link": "https://towardsdatascience.com/the-number-your-quantization-gate-doesnt-have/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Ten quantization guides, and not one threshold-dependent metric between them — what that gap hides, and the two numbers that close it. The post The Number Your Quantization Gate Doesn't Have appeared first on Towards Da…",
+      "ts": 1792245600,
+      "published": "2026-10-17T14:00:00+00:00",
+      "collected_at": "2026-10-18T01:12:40+09:00"
+    },
+    {
+      "title": "Why do we like wind chimes?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/17/why-do-we-like-wind-chimes/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Dmitri Tymoczko writes: You know your question, “why do we like to listen to music over and over again?” I think the question reveals that our relation to music is sensory and pleasure-based rather than cognitive and in…",
+      "ts": 1792242150,
+      "published": "2026-10-17T13:02:30+00:00",
+      "collected_at": "2026-10-18T01:12:40+09:00"
+    },
     {
       "title": "Quiz: Python's .__call__() Method: Creating Callable Instances",
       "link": "https://realpython.com/quizzes/python-callable-instances/",
@@ -71,6 +121,16 @@
       "ts": 1792195200,
       "published": "2026-10-17T00:00:00+00:00",
       "collected_at": "2026-10-17T17:22:39+09:00"
+    },
+    {
+      "title": "Episode 72 “OpenJDK Bug Fixing, JavaOne, and JDK 28” [IJN]",
+      "link": "https://inside.java/2026/10/17/podcast-072/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "A critical bug in JDK 27 and how it was fixed, some conference news, and how JDK 28 is shaping up",
+      "ts": 1792195200,
+      "published": "2026-10-17T00:00:00+00:00",
+      "collected_at": "2026-10-18T01:12:40+09:00"
     },
     {
       "title": "langgraph==1.2.16",
@@ -10341,56 +10401,6 @@
       "ts": 1789665901,
       "published": "2026-09-17T17:25:01+00:00",
       "collected_at": "2026-09-18T09:05:27+09:00"
-    },
-    {
-      "title": "Building a Data Lakehouse with DuckDB and DuckLake",
-      "link": "https://towardsdatascience.com/building-a-data-lakehouse-with-duckdb-and-ducklake/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Starting with a local Parquet file, then joining it to data stored in the cloud The post Building a Data Lakehouse with DuckDB and DuckLake appeared first on Towards Data Science .",
-      "ts": 1789659002,
-      "published": "2026-09-17T15:30:02+00:00",
-      "collected_at": "2026-09-18T03:01:22+09:00"
-    },
-    {
-      "title": "What’s So Good About ChatGPT Work? Here’s What I Found",
-      "link": "https://www.kdnuggets.com/whats-so-good-about-chatgpt-work-heres-what-i-found",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "This article walks through how ChatGPT Work specifically earns its reputation, where the underlying models genuinely hold up against the competition, and where the honest limits are.",
-      "ts": 1789653632,
-      "published": "2026-09-17T14:00:32+00:00",
-      "collected_at": "2026-09-18T09:05:27+09:00"
-    },
-    {
-      "title": "How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA)",
-      "link": "https://towardsdatascience.com/how-i-built-a-multi-agent-system-for-interrupted-time-series-analysis-itsa/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "What it takes to turn counterfactual analysis into an AI product The post How I Built a Multi-Agent System for Interrupted Time Series Analysis (ITSA) appeared first on Towards Data Science .",
-      "ts": 1789653601,
-      "published": "2026-09-17T14:00:01+00:00",
-      "collected_at": "2026-09-18T03:01:22+09:00"
-    },
-    {
-      "title": "I don't like LLMs",
-      "link": "https://martinfowler.com/articles/2026-dont-like-llms.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "I have a lot of mixed feelings about AI and LLM technology. I’m fascinated by its effect on our profession, excited by the potential gains in productivity - and thus the products we could rapidly build. On the other han…",
-      "ts": 1789653000,
-      "published": "2026-09-17T13:50:00+00:00",
-      "collected_at": "2026-09-18T03:01:22+09:00"
-    },
-    {
-      "title": "Scientific citations as an overwhelmed communication channel",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/17/scientific-citations-as-an-overwhelmed-communication-channel/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Peter Dorman writes: This looks like it’s up your alley. I find it interesting, but I’m not convinced by what he says about innovation. Of course, the issue is empirical, but I suspect it may be different for different…",
-      "ts": 1789652624,
-      "published": "2026-09-17T13:43:44+00:00",
-      "collected_at": "2026-09-18T03:01:22+09:00"
     }
   ]
 }
