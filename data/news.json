@@ -1,7 +1,107 @@
 {
-  "updated": "2026-10-18T19:38:56+09:00",
-  "count": 1026,
+  "updated": "2026-10-18T23:22:08+09:00",
+  "count": 1020,
   "items": [
+    {
+      "title": "How to Round Numbers in Python",
+      "link": "https://realpython.com/python-rounding/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how Python's round() works, why it rounds 2.5 to 2, and how you can manage rounding errors with decimal, NumPy, and pandas.",
+      "ts": 1792332000,
+      "published": "2026-10-18T14:00:00+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
+    {
+      "title": "Digging Deeper Into Django Migrations",
+      "link": "https://realpython.com/digging-deeper-into-migrations/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Go beyond the basics of Django migrations: how they work under the hood, what the Django migrations table tracks, and what's inside migration files.",
+      "ts": 1792332000,
+      "published": "2026-10-18T14:00:00+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
+    {
+      "title": "Asynchronous Tasks With Django and Celery",
+      "link": "https://realpython.com/asynchronous-tasks-with-django-and-celery/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Integrate Django and Celery with Redis as a message broker, and move slow work like sending email out of the request cycle.",
+      "ts": 1792332000,
+      "published": "2026-10-18T14:00:00+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
+    {
+      "title": "Django Migrations: A Primer",
+      "link": "https://realpython.com/django-migrations-a-primer/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Get comfortable with Django migrations: create database tables without writing SQL, and keep your database in step as your models change.",
+      "ts": 1792332000,
+      "published": "2026-10-18T14:00:00+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
+    {
+      "title": "Python's Mutable vs Immutable Types: What's the Difference?",
+      "link": "https://realpython.com/python-mutable-vs-immutable-types/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how Python mutable and immutable data types work internally and how you can use mutability or immutability to power your code.",
+      "ts": 1792332000,
+      "published": "2026-10-18T14:00:00+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
+    {
+      "title": "Inferring the Host: A Bayesian Look at the Monty Hall Problem",
+      "link": "https://towardsdatascience.com/inferring-the-host-a-bayesian-look-at-the-monty-hall-problem/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "\"Always switch\" is true for one particular host. Watch a few episodes and you can work out which host you've got. The post Inferring the Host: A Bayesian Look at the Monty Hall Problem appeared first on Towards Data Sci…",
+      "ts": 1792332000,
+      "published": "2026-10-18T14:00:00+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
+    {
+      "title": "“I write to seek your help and advice regarding a published article that my group and I believe is invalid and should be corrected or retracted.”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/18/53664/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "David Allison writes: I write to seek your help and advice regarding a published article that my group and I believe is invalid and should be corrected or retracted. Despite our concerns, the editor seems to be unwillin…",
+      "ts": 1792329285,
+      "published": "2026-10-18T13:14:45+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
+    {
+      "title": "Quiz: Writing Comments in Python (Guide)",
+      "link": "https://realpython.com/quizzes/python-comments-guide/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of how to write clean, useful Python comments, from basic syntax and docstrings to the comment types you should avoid.",
+      "ts": 1792324800,
+      "published": "2026-10-18T12:00:00+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
+    {
+      "title": "Both Charts Are Right. So Why Do They Disagree?",
+      "link": "https://towardsdatascience.com/both-charts-are-right-so-why-do-they-disagree/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The statistical paradox that shows how combining data can reverse the story. The post Both Charts Are Right. So Why Do They Disagree? appeared first on Towards Data Science .",
+      "ts": 1792324800,
+      "published": "2026-10-18T12:00:00+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
+    {
+      "title": "How employment is changing at Anthropic",
+      "link": "https://www.anthropic.com/research/employment-at-anthropic",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.anthropic.com/research/employment-at-anthropic Comments URL: https://news.ycombinator.com/item?id=50139873 Points: 81 # Comments: 158",
+      "ts": 1792320566,
+      "published": "2026-10-18T10:49:26+00:00",
+      "collected_at": "2026-10-18T23:22:02+09:00"
+    },
     {
       "title": "Reverse Engineer Anything (REA): Can AI Really Crack Closed Code?",
       "link": "https://www.analyticsvidhya.com/blog/2026/10/rea-ai-agent-reverse-engineer-anything/",
@@ -10100,166 +10200,6 @@
       "summary": "The Creative Spirit of Who Framed Roger Rabbit I love Who Framed Roger Rabbit , the 1988 movie by Robert Zemeckis. I haven't watched it in quite a few years, and Cypress Frankenfeld just pointed out this sequence from e…",
       "ts": 1789742201,
       "published": "2026-09-18T14:36:41+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "Reusing the Prompt Prefix with a Key-Value Cache for SLM Optimization",
-      "link": "https://www.kdnuggets.com/reusing-the-prompt-prefix-with-a-key-value-cache-for-slm-optimization",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "In this second article in our short series on SLM optimization techniques we focus on the reuse of the prompt prefix with a key-value cache.",
-      "ts": 1789740034,
-      "published": "2026-09-18T14:00:34+00:00",
-      "collected_at": "2026-09-19T06:30:55+09:00"
-    },
-    {
-      "title": "We Pinned Our Model Version to Stay Safe. The Provider Deprecated It Anyway.",
-      "link": "https://towardsdatascience.com/we-pinned-our-model-version-to-stay-safe-the-provider-deprecated-it-anyway/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The recurring cost of production AI is not inference. It is re-qualification: the eval reruns, prompt retuning, and regression testing you owe every time a model changes under you. Here is what that tax actually covers,…",
-      "ts": 1789740002,
-      "published": "2026-09-18T14:00:02+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "New experts join Google’s AI & Economy team",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Text \"AI & Economy Research Program\" all over a green grid background, with the Google G logo in the bottom right corner",
-      "ts": 1789740000,
-      "published": "2026-09-18T14:00:00+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "DoorDash Uses Multi Agent LLMs to Clean up 60,000 Feature Flags",
-      "link": "https://www.infoq.com/news/2026/09/doordash-feature-flag-cleanup/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "DoorDash built a multi-agent LLM system to automate stale feature flag cleanup across more than 60,000 flags and 623 repositories. The workflow combines live experimentation data through MCP, engineer approval, isolated…",
-      "ts": 1789739400,
-      "published": "2026-09-18T13:50:00+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "DoorDash Uses Multi Agent LLMs to Clean up 60,000 Feature Flags",
-      "link": "https://www.infoq.com/news/2026/09/doordash-feature-flag-cleanup/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "DoorDash built a multi-agent LLM system to automate stale feature flag cleanup across more than 60,000 flags and 623 repositories. The workflow combines live experimentation data through MCP, engineer approval, isolated…",
-      "ts": 1789739400,
-      "published": "2026-09-18T13:50:00+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "Meritocracy to-morrow and meritocracy yesterday – but never meritocracy to-day",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/18/meritocracy-to-morrow-and-meritocracy-yesterday-but-never-meritocracy-to-day/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Alice couldn’t help laughing, as she said, “I don’t want you to hire me – and I don’t care for jam.” “It’s very good jam,” said the Queen. “Well, I don’t want any to-day, at any rate.” “You couldn’t have … Continue read…",
-      "ts": 1789736971,
-      "published": "2026-09-18T13:09:31+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "Co-creating the future of fashion with Google",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Jane Wade and Sergio Hudson",
-      "ts": 1789736400,
-      "published": "2026-09-18T13:00:00+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "Starting a Career in Data Science in the Age of AI",
-      "link": "https://towardsdatascience.com/starting-a-career-in-data-science-in-the-age-of-ai/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "How do you set yourself up for a career that will stand the test of time when things are changing so fast? The post Starting a Career in Data Science in the Age of AI appeared first on Towards Data Science .",
-      "ts": 1789734601,
-      "published": "2026-09-18T12:30:01+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "5 Prompt Optimization Strategies That Actually Improve LLM Output",
-      "link": "https://www.kdnuggets.com/5-prompt-optimization-strategies-that-actually-improve-llm-output",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "This article covers five prompt optimization strategies such as: prompt optimization, prompt engineering, LLM output quality, few-shot prompting, chain-of-thought, structured outputs.",
-      "ts": 1789732822,
-      "published": "2026-09-18T12:00:22+00:00",
-      "collected_at": "2026-09-19T06:30:55+09:00"
-    },
-    {
-      "title": "Build And Understand a Vector Database From Scratch in 10 Easy Steps",
-      "link": "https://machinelearningmastery.com/build-and-understand-a-vector-database-from-scratch-in-10-easy-steps/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how a vector database works under the hood by building one from scratch in ten incremental steps using Python...",
-      "ts": 1789732803,
-      "published": "2026-09-18T12:00:03+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "WSO2 Releases Agent Manager as Enterprises Look to Control Growing AI Agent Sprawl",
-      "link": "https://www.infoq.com/news/2026/09/ws02-agent-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "WSO2 has announced the general availability of WSO2 Agent Manager, an open-source platform designed to provide centralized governance, identity management, security controls, and operational oversight for AI agents runn…",
-      "ts": 1789732800,
-      "published": "2026-09-18T12:00:00+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "Quiz: Introduction to pandas",
-      "link": "https://realpython.com/quizzes/introduction-pandas/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your pandas basics: read tables from the web, save data to CSV, explore a DataFrame, and calculate averages in this interactive quiz.",
-      "ts": 1789732800,
-      "published": "2026-09-18T12:00:00+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "link": "https://openai.com/index/australian-youth-safety-blueprint",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "ts": 1789732800,
-      "published": "2026-09-18T12:00:00+00:00",
-      "collected_at": "2026-09-19T18:17:08+09:00"
-    },
-    {
-      "title": "Could AI really kill us all? Your questions, answered.",
-      "link": "https://www.technologyreview.com/2026/09/18/1144435/could-ai-really-kill-us-all-your-questions-answered/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "On Wednesday, MIT Technology Review hosted a live Roundtables event for subscribers that asked the question everyone’s asking right now: Could AI really kill us all? But attendees had so many more questions than we had…",
-      "ts": 1789730962,
-      "published": "2026-09-18T11:29:22+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "Multi-Agent Coding Isn’t Enough — Agents Need a Commitment Layer",
-      "link": "https://towardsdatascience.com/multi-agent-coding-isnt-enough-agents-need-a-commitment-layer/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Multi-agent coding systems don't necessarily fail because agents can't communicate. They can fail because important commitments made in conversation have nowhere to live afterward. The post Multi-Agent Coding Isn’t Enou…",
-      "ts": 1789729201,
-      "published": "2026-09-18T11:00:01+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "Presentation: Complexity and Creativity in Software Engineering",
-      "link": "https://www.infoq.com/presentations/ai-software-engineering-complexity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Phillip Mortimer discusses the shift toward write-only software driven by AI code generation. He explains why traditional pull requests are broken and shares how engineering leaders can manage complexity by decoupling i…",
-      "ts": 1789729200,
-      "published": "2026-09-18T11:00:00+00:00",
       "collected_at": "2026-09-18T23:50:39+09:00"
     }
   ]
