@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-18T09:43:40+09:00",
-  "count": 1030,
+  "updated": "2026-10-18T14:33:32+09:00",
+  "count": 1029,
   "items": [
+    {
+      "title": "Inline rendering with document​.currentScript",
+      "link": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself…",
+      "ts": 1792271472,
+      "published": "2026-10-17T21:11:12+00:00",
+      "collected_at": "2026-10-18T14:33:27+09:00"
+    },
     {
       "title": "Python's Instance, Class, and Static Methods Demystified",
       "link": "https://realpython.com/instance-class-and-static-methods-demystified/",
@@ -41,6 +51,16 @@
       "ts": 1792245600,
       "published": "2026-10-17T14:00:00+00:00",
       "collected_at": "2026-10-18T01:12:40+09:00"
+    },
+    {
+      "title": "web-edit 0.1a2",
+      "link": "https://simonwillison.net/2026/Oct/17/web-edit/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: web-edit 0.1a2 web-edit ( previously ) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale. I added a \"copy to clipboard\" optio…",
+      "ts": 1792243009,
+      "published": "2026-10-17T13:16:49+00:00",
+      "collected_at": "2026-10-18T14:33:27+09:00"
     },
     {
       "title": "Why do we like wind chimes?",
@@ -10271,36 +10291,6 @@
       "ts": 1789712923,
       "published": "2026-09-18T06:28:43+00:00",
       "collected_at": "2026-09-18T19:51:07+09:00"
-    },
-    {
-      "title": "OpenAI Introduces Triage Framework and Case Studies to Report Model Misalignment",
-      "link": "https://www.infoq.com/news/2026/09/openai-misalignment-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "OpenAI has released a disclosure framework for model misalignment during its lifecycle. Employees can flag potential issues, prompting technical staff to label incidents. The initial case studies outline unexpected mode…",
-      "ts": 1789707900,
-      "published": "2026-09-18T05:05:00+00:00",
-      "collected_at": "2026-09-18T14:39:26+09:00"
-    },
-    {
-      "title": "v2.45.0 (2026-09-17)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.45.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add TypeSafeModel for TypeSafe's Jev by @adtyavrdhn in #8450 🐛 Bug Fixes Pass xhigh effort through on Bedrock when the model profile supports it by @willfrey in #8392 Allow gpt-5.6-sol , gpt-5.…",
-      "ts": 1789705872,
-      "published": "2026-09-18T04:31:12+00:00",
-      "collected_at": "2026-09-18T14:39:26+09:00"
-    },
-    {
-      "title": "Claude Code from Source",
-      "link": "https://claude-code-from-source.com/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://claude-code-from-source.com/ Comments URL: https://news.ycombinator.com/item?id=49749019 Points: 20 # Comments: 5",
-      "ts": 1789694044,
-      "published": "2026-09-18T01:14:04+00:00",
-      "collected_at": "2026-09-19T08:59:56+09:00"
     }
   ]
 }
