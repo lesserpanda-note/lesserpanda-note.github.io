@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-18T14:33:32+09:00",
-  "count": 1029,
+  "updated": "2026-10-18T19:38:56+09:00",
+  "count": 1026,
   "items": [
+    {
+      "title": "Reverse Engineer Anything (REA): Can AI Really Crack Closed Code?",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/rea-ai-agent-reverse-engineer-anything/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Every developer hits this wall eventually. A feature behaves in a way you can’t explain, and the code behind it is locked away. No source. No docs. Just a compiled binary or a wall of minified JavaScript. Figuring it ou…",
+      "ts": 1792314848,
+      "published": "2026-10-18T09:14:08+00:00",
+      "collected_at": "2026-10-18T19:38:48+09:00"
+    },
+    {
+      "title": "AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours",
+      "link": "https://www.infoq.com/news/2026/10/aws-sovereign-cloud-exercise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "On October 24, AWS will operate its European Sovereign Cloud without a connection to the AWS Global Network backbone, with a team of EU residents and the region’s own hardware and software. AWS says neither of the two s…",
+      "ts": 1792301400,
+      "published": "2026-10-18T05:30:00+00:00",
+      "collected_at": "2026-10-18T19:38:48+09:00"
+    },
+    {
+      "title": "Lottie4J 1.2.7: A Performance Release",
+      "link": "https://foojay.io/today/lottie4j-1-2-7-a-performance-release/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Lottie4J 1.2.7 focuses on performance: image assets are decoded once and cached, track mattes reuse their buffers between frames, and GC pauses drop by two thirds.",
+      "ts": 1792281600,
+      "published": "2026-10-18T00:00:00+00:00",
+      "collected_at": "2026-10-18T19:38:48+09:00"
+    },
     {
       "title": "Inline rendering with document​.currentScript",
       "link": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
@@ -10231,66 +10261,6 @@
       "ts": 1789729200,
       "published": "2026-09-18T11:00:00+00:00",
       "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "What’s Actually Inside 24,723 Tokens of a Search Result? We Broke It Down, Field by Field",
-      "link": "https://machinelearningmastery.com/2026-09-prnews-io-whats-actually-inside-24723-tokens-of-a-search-result-we-broke-it-down-field-by-field/",
-      "source": "ML Mastery",
-      "category": "DataScience",
-      "summary": "Sponsored Content It's no secret that AI agents burn massive amounts of tokens on search results and file retrievals. They pull in...",
-      "ts": 1789727868,
-      "published": "2026-09-18T10:37:48+00:00",
-      "collected_at": "2026-09-18T23:50:39+09:00"
-    },
-    {
-      "title": "python-1.19.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.19.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.19.0] - 2026-09-18 Added agent-framework , agent-framework-core : Add generic vector-store provider protocols, instrumentation message-event controls, and per-tool AgentModeProvider exposure controls ( #8421 , #8451…",
-      "ts": 1789722896,
-      "published": "2026-09-18T09:14:56+00:00",
-      "collected_at": "2026-09-18T19:51:07+09:00"
-    },
-    {
-      "title": "Article: Architecting Secure and Scalable Facial Verification Systems",
-      "link": "https://www.infoq.com/articles/secure-scalable-facial-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "When three thousand employees verify at once, synchronous API calls collapse. This article presents a four-layer architecture for high-volume face verification: client-side filtering that cut cloud costs 30%, decoupled…",
-      "ts": 1789722000,
-      "published": "2026-09-18T09:00:00+00:00",
-      "collected_at": "2026-09-18T19:51:07+09:00"
-    },
-    {
-      "title": "Article: Architecting Secure and Scalable Facial Verification Systems",
-      "link": "https://www.infoq.com/articles/secure-scalable-facial-verification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "When three thousand employees verify at once, synchronous API calls collapse. This article presents a four-layer architecture for high-volume face verification: client-side filtering that cut cloud costs 30%, decoupled…",
-      "ts": 1789722000,
-      "published": "2026-09-18T09:00:00+00:00",
-      "collected_at": "2026-09-18T19:51:07+09:00"
-    },
-    {
-      "title": "Recursive Self-Improvement: The Last AI Built by Humans",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/recursive-self-improvement/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "RSI or Recursive Self-improvement has been the talk of the town lately. The term came into surface when it was emphasized as the next step in the LLM evolution cycle by pioneers of the field like Sam Altman, Dario Amode…",
-      "ts": 1789721042,
-      "published": "2026-09-18T08:44:02+00:00",
-      "collected_at": "2026-09-18T19:51:07+09:00"
-    },
-    {
-      "title": "[AINews] not much happened today",
-      "link": "https://www.latent.space/p/ainews-not-much-happened-today-612",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day",
-      "ts": 1789712923,
-      "published": "2026-09-18T06:28:43+00:00",
-      "collected_at": "2026-09-18T19:51:07+09:00"
     }
   ]
 }
