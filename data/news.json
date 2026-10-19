@@ -1,7 +1,127 @@
 {
-  "updated": "2026-10-19T14:58:19+09:00",
-  "count": 1016,
+  "updated": "2026-10-19T21:55:29+09:00",
+  "count": 1026,
   "items": [
+    {
+      "title": "How Many EEG Channels Do You Actually Need?",
+      "link": "https://towardsdatascience.com/how-many-eeg-channels-do-you-actually-need/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Testing sensor reduction, feature ranking, and generalization to unseen participants The post How Many EEG Channels Do You Actually Need? appeared first on Towards Data Science .",
+      "ts": 1792413000,
+      "published": "2026-10-19T12:30:00+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "7 Checks to Run Before Trusting AI-Generated Code",
+      "link": "https://www.kdnuggets.com/7-checks-to-run-before-trusting-ai-generated-code",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "AI makes writing code cheap. Verifying it is still your job.",
+      "ts": 1792411243,
+      "published": "2026-10-19T12:00:43+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "Quiz: How to Automate Your Workflow With Claude Code Hooks",
+      "link": "https://realpython.com/quizzes/claude-code-hooks/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Claude Code hooks, including the Stop, PreToolUse, and PostToolUse events and the exit codes that block an action.",
+      "ts": 1792411200,
+      "published": "2026-10-19T12:00:00+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "Descriptors and Controlled Attributes in Python",
+      "link": "https://machinelearningmastery.com/descriptors-and-controlled-attributes/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn what Python descriptors are and how to use them to build three types of controlled attributes: validated, computed, and...",
+      "ts": 1792407615,
+      "published": "2026-10-19T11:00:15+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
+      "link": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision decomposition. This shi…",
+      "ts": 1792407600,
+      "published": "2026-10-19T11:00:00+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
+      "link": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can deliver privacy-foc…",
+      "ts": 1792407600,
+      "published": "2026-10-19T11:00:00+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
+      "link": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision decomposition. This shi…",
+      "ts": 1792407600,
+      "published": "2026-10-19T11:00:00+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "AI Harms and Their Technical Causes",
+      "link": "https://towardsdatascience.com/ai-harms-and-their-technical-causes/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How technical choices can lead to safety failures, and what to do differently The post AI Harms and Their Technical Causes appeared first on Towards Data Science .",
+      "ts": 1792407600,
+      "published": "2026-10-19T11:00:00+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "EmbeddingGemma 2 Expands Beyond Text to Support Code, Images, Video, and Audio",
+      "link": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented generation (RAG) more…",
+      "ts": 1792404000,
+      "published": "2026-10-19T10:00:00+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies…",
+      "ts": 1792400885,
+      "published": "2026-10-19T09:08:05+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "v2.0.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package Version Registry In this release @modelconte…",
+      "ts": 1792392469,
+      "published": "2026-10-19T06:47:49+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "A Practical Guide to Harness Engineering: Building the System Around the Model",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/agent-harness-engineering-guide/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "An AI coding agent can write a function in seconds. But a working feature takes more than generated code. The agent needs to understand the project, find the right files, use tools safely, and check whether its changes…",
+      "ts": 1792390700,
+      "published": "2026-10-19T06:18:20+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
     {
       "title": "“Death and Taxes: Taking Causal Inference into the Real World”",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/18/death-and-taxes-taking-causal-inference-into-the-real-world/",
@@ -11,6 +131,26 @@
       "ts": 1792369483,
       "published": "2026-10-19T00:24:43+00:00",
       "collected_at": "2026-10-19T09:56:57+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 546: Adaptive Heap Sizing for ZGC",
+      "link": "https://inside.java/2026/10/19/jep546-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 546: Adaptive Heap Sizing for ZGC",
+      "ts": 1792368000,
+      "published": "2026-10-19T00:00:00+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "Foojay Podcast #103: Killing Reflection at Build Time with Dmitry Moskalyuk and Shai Almog",
+      "link": "https://foojay.io/today/foojay-podcast-103/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A backend data layer and a cross-platform UI framework both moved reflection to build time. Dmitry Moskalyuk and Shai Almog explain why, and what it costs.",
+      "ts": 1792368000,
+      "published": "2026-10-19T00:00:00+00:00",
+      "collected_at": "2026-10-19T21:55:05+09:00"
     },
     {
       "title": "llm-tools-datasette 0.1.1",
@@ -10120,46 +10260,6 @@
       "summary": "One near miss, four months of running agents, and the question almost nobody is asking: what are you supposed to do while the AI writes the code? The post AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job. appear…",
       "ts": 1789822801,
       "published": "2026-09-19T13:00:01+00:00",
-      "collected_at": "2026-09-19T22:46:49+09:00"
-    },
-    {
-      "title": "Quiz: Thinking Recursively in Python",
-      "link": "https://realpython.com/quizzes/python-thinking-recursively/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of recursive thinking in Python, including base cases, recursive data structures, maintaining state, and caching results.",
-      "ts": 1789819200,
-      "published": "2026-09-19T12:00:00+00:00",
-      "collected_at": "2026-09-19T22:46:49+09:00"
-    },
-    {
-      "title": "Presentation: Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP",
-      "link": "https://www.infoq.com/presentations/linkedin-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Ajay Prakash discusses how LinkedIn overcomes AI agent limitations in large codebases. He explains Contextual Agent Playbooks and Tools - built on Model Context Protocol (MCP) - which serves procedural memory, code sear…",
-      "ts": 1789815600,
-      "published": "2026-09-19T11:00:00+00:00",
-      "collected_at": "2026-09-19T22:46:49+09:00"
-    },
-    {
-      "title": "Presentation: Context Engineering at LinkedIn: How We Built an Organizational Context Layer for AI Agents with MCP",
-      "link": "https://www.infoq.com/presentations/linkedin-context-engineering/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Ajay Prakash discusses how LinkedIn overcomes AI agent limitations in large codebases. He explains Contextual Agent Playbooks and Tools - built on Model Context Protocol (MCP) - which serves procedural memory, code sear…",
-      "ts": 1789815600,
-      "published": "2026-09-19T11:00:00+00:00",
-      "collected_at": "2026-09-19T22:46:49+09:00"
-    },
-    {
-      "title": "AWS Lambda Pushes Serverless Toward Long-Running Workloads",
-      "link": "https://www.infoq.com/news/2026/09/lambda-90-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS Lambda now allows functions running on Lambda Managed Instances to run for up to 90 minutes, six times longer than the previous 15-minute limit, further blurring the line between a Lambda invocation and a traditiona…",
-      "ts": 1789809060,
-      "published": "2026-09-19T09:11:00+00:00",
       "collected_at": "2026-09-19T22:46:49+09:00"
     }
   ]
