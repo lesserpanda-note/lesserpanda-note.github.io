@@ -1,7 +1,127 @@
 {
-  "updated": "2026-10-19T21:55:29+09:00",
-  "count": 1026,
+  "updated": "2026-10-20T04:09:16+09:00",
+  "count": 1034,
   "items": [
+    {
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots an…",
+      "ts": 1792434167,
+      "published": "2026-10-19T18:22:47+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI wo…",
+      "ts": 1792431955,
+      "published": "2026-10-19T17:45:55+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "Patch release v5.20.2",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside prepare_inputs_for_generation in generate , leading to problems with multimodal models. It also fixes so…",
+      "ts": 1792431937,
+      "published": "2026-10-19T17:45:37+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "Claude Haiku 5.5: What’s New and How to Use It for Fast, Cheap AI Workflows",
+      "link": "https://www.kdnuggets.com/claude-haiku-5-5-whats-new-and-how-to-use-it-for-fast-cheap-ai-workflows",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Claude Haiku 5.5 cuts list prices by 90% and adds adaptive thinking and a 1M token context window. Learn what broke from Haiku 4.5, and build classification, extraction, and sub-agent workflows in Python using the new A…",
+      "ts": 1792425600,
+      "published": "2026-10-19T16:00:00+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "Welcome to Google Gemini 4 Argon",
+      "link": "https://towardsdatascience.com/welcome-to-google-gemini-4-argon/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "A million-token output window changes what you can hand a model in one go, and the benchmarks and the bill show who it actually suits. The post Welcome to Google Gemini 4 Argon appeared first on Towards Data Science .",
+      "ts": 1792423800,
+      "published": "2026-10-19T15:30:00+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "Pinterest Uses Event Time Watermarks to Finalize Petabyte Scale Data Partitions",
+      "link": "https://www.infoq.com/news/2026/10/pinterest-event-time-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Pinterest has introduced event time-based partition finalization for its database ingestion framework. The mechanism uses Apache Flink to track event time and Apache Iceberg metadata to publish a non-regressing watermar…",
+      "ts": 1792420620,
+      "published": "2026-10-19T14:37:00+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "JEP 543 Finalizes Structured Concurrency in JDK 28, Ending Seven Preview Rounds",
+      "link": "https://www.infoq.com/news/2026/10/jep-543-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "JDK 28 finalizes structured concurrency through JEP 543, with no API changes from JDK 27. Teams on JDK 27 only need to drop --enable-preview and recompile. Code written for JDK 25 or 26 must adapt to the R_X exception t…",
+      "ts": 1792420200,
+      "published": "2026-10-19T14:30:00+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "langgraph-cli==0.4.37",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.36 release(cli): 0.4.37 ( #9351 ) fix(cli): stop printing subprocess stdin in verbose output ( #9350 ) Merge PR #9349 fix(cli): default deploy to serverless ( #9333 ) chore(deps): bump the minor-a…",
+      "ts": 1792418782,
+      "published": "2026-10-19T14:06:22+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "How to Automate Your Workflow With Claude Code Hooks",
+      "link": "https://realpython.com/claude-code-hooks/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Claude Code hooks that auto-format your Python code after every edit, enforce your chosen tools, and ping you when a task finishes.",
+      "ts": 1792418400,
+      "published": "2026-10-19T14:00:00+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "LangChain vs. LlamaIndex vs. Building From Scratch: Here’s What I Suggest",
+      "link": "https://www.kdnuggets.com/langchain-vs-llamaindex-vs-building-from-scratch-heres-what-i-suggest",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Choosing the right framework for your large language model application comes down to one question: what are you actually optimizing for?",
+      "ts": 1792418400,
+      "published": "2026-10-19T14:00:00+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "Can Conformal Prediction Take You from Accurate to Reliable Machine Learning?",
+      "link": "https://towardsdatascience.com/can-conformal-prediction-take-you-from-accurate-to-reliable-machine-learning/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "ML model adoption doesn't stop with acceptance of accuracy; it starts there. The post Can Conformal Prediction Take You from Accurate to Reliable Machine Learning? appeared first on Towards Data Science .",
+      "ts": 1792418400,
+      "published": "2026-10-19T14:00:00+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "“If you decide to write about this paper in your blog, please don’t mention my name. It is important to me to remain anonymous. . . . exposure might harm me or my students.”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/19/the-paper-creates-the-impression-that-a-certain-intervention-is-effective-while-in-fact-the-evidence-suggests-otherwise/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "So, this came in the email one day: I am a social psychologist, and I was asked to review a PNAS paper . . . I don’t consider myself an expert in statistics, but I could easily detect three types … Continue reading →",
+      "ts": 1792417355,
+      "published": "2026-10-19T13:42:35+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
+    },
     {
       "title": "How Many EEG Channels Do You Actually Need?",
       "link": "https://towardsdatascience.com/how-many-eeg-channels-do-you-actually-need/",
@@ -11,6 +131,16 @@
       "ts": 1792413000,
       "published": "2026-10-19T12:30:00+00:00",
       "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "The obscure trust looming over Anthropic's IPO",
+      "link": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink Comments URL: https://news.ycombinator.com/item?id=50151376 Points: 58 # Comments: 16",
+      "ts": 1792411563,
+      "published": "2026-10-19T12:06:03+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
     },
     {
       "title": "7 Checks to Run Before Trusting AI-Generated Code",
@@ -151,6 +281,16 @@
       "ts": 1792368000,
       "published": "2026-10-19T00:00:00+00:00",
       "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "link": "https://huggingface.co/blog/hf-torchneuron",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792368000,
+      "published": "2026-10-19T00:00:00+00:00",
+      "collected_at": "2026-10-20T04:09:10+09:00"
     },
     {
       "title": "llm-tools-datasette 0.1.1",
@@ -10201,66 +10341,6 @@
       "ts": 1789847522,
       "published": "2026-09-19T19:52:02+00:00",
       "collected_at": "2026-09-20T07:45:58+09:00"
-    },
-    {
-      "title": "Lawsuit says Anthropic, OpenAI and others made illegal agreement on AI slowdown",
-      "link": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b Comments URL: https://news.ycombinator.com/item?id=49769050 Points: 51 # Comments:…",
-      "ts": 1789843004,
-      "published": "2026-09-19T18:36:44+00:00",
-      "collected_at": "2026-09-20T19:57:04+09:00"
-    },
-    {
-      "title": "California Sea Lion, Brandt's Cormorant",
-      "link": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife",
-      "ts": 1789837808,
-      "published": "2026-09-19T17:10:08+00:00",
-      "collected_at": "2026-09-20T02:04:50+09:00"
-    },
-    {
-      "title": "One Vendor, Four Spellings: How Deterministic Stages Beat Similarity Scores",
-      "link": "https://towardsdatascience.com/one-vendor-four-spellings-how-deterministic-stages-beat-similarity-scores/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Deduplicating a 10,000-row supplier list in Python, where the hard part is deciding what a similarity score of 91 means The post One Vendor, Four Spellings: How Deterministic Stages Beat Similarity Scores appeared first…",
-      "ts": 1789830001,
-      "published": "2026-09-19T15:00:01+00:00",
-      "collected_at": "2026-09-20T02:04:50+09:00"
-    },
-    {
-      "title": "Python Statistics Fundamentals: How to Describe Your Data",
-      "link": "https://realpython.com/python-statistics/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "In this step-by-step tutorial, you'll learn the fundamentals of descriptive statistics and how to calculate them in Python. You'll find out how to describe, summarize, and represent your data visually using NumPy, SciPy…",
-      "ts": 1789826400,
-      "published": "2026-09-19T14:00:00+00:00",
-      "collected_at": "2026-09-20T02:04:50+09:00"
-    },
-    {
-      "title": "The Immigration and Nationality Act of 1952",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/19/the-immigration-and-nationality-act-of-1952/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I was reading the London Review of Books and came across this article by Jameel Jaffer stating that, in 1952, Congress overrode the presidential veto and passed the McCarran-Walter Act with a two-thirds majority in the…",
-      "ts": 1789824068,
-      "published": "2026-09-19T13:21:08+00:00",
-      "collected_at": "2026-09-19T22:46:49+09:00"
-    },
-    {
-      "title": "AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job.",
-      "link": "https://towardsdatascience.com/ai-made-me-5x-faster-it-also-made-me-5x-worse-at-my-job/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "One near miss, four months of running agents, and the question almost nobody is asking: what are you supposed to do while the AI writes the code? The post AI Made Me 5x Faster. It Also Made Me 5x Worse at My Job. appear…",
-      "ts": 1789822801,
-      "published": "2026-09-19T13:00:01+00:00",
-      "collected_at": "2026-09-19T22:46:49+09:00"
     }
   ]
 }
