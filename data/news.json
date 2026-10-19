@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-19T07:53:16+09:00",
-  "count": 1015,
+  "updated": "2026-10-19T09:57:38+09:00",
+  "count": 1018,
   "items": [
+    {
+      "title": "“Death and Taxes: Taking Causal Inference into the Real World”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/18/death-and-taxes-taking-causal-inference-into-the-real-world/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Nandita Mitra is giving a webinar this Tuesday at noon with the above title and the following abstract: Statisticians develop methods with the hope that they will ultimately inform decisions and improve the world around…",
+      "ts": 1792369483,
+      "published": "2026-10-19T00:24:43+00:00",
+      "collected_at": "2026-10-19T09:56:57+09:00"
+    },
+    {
+      "title": "llm-tools-datasette 0.1.1",
+      "link": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-tools-datasette 0.1.1 When I switched LLM over to httpx2 in LLM 0.33 I forget that this would break any plugins which used httpx without directly depending on it. llm-tools-datasette was one of those plugin…",
+      "ts": 1792366989,
+      "published": "2026-10-18T23:43:09+00:00",
+      "collected_at": "2026-10-19T09:56:57+09:00"
+    },
+    {
+      "title": "llm-echo 0.5",
+      "link": "https://simonwillison.net/2026/Oct/18/llm-echo/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-echo 0.5 I'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the…",
+      "ts": 1792365376,
+      "published": "2026-10-18T23:16:16+00:00",
+      "collected_at": "2026-10-19T09:56:57+09:00"
+    },
+    {
+      "title": "Show HN: WhatsApp MCP running free on Cloudflare",
+      "link": "https://github.com/finereli/whatsapp-mcp",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "I wanted my humble Claude on mobile to access my WhatsApp messages but the only options I could find either required WhatsApp Business or an actual server to run Baileys on. I wanted to run it for free on ClaudeFlare an…",
+      "ts": 1792359370,
+      "published": "2026-10-18T21:36:10+00:00",
+      "collected_at": "2026-10-19T09:56:57+09:00"
+    },
     {
       "title": "Websites are closing their doors to AI agents",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
@@ -10141,16 +10181,6 @@
       "ts": 1789789900,
       "published": "2026-09-19T03:51:40+00:00",
       "collected_at": "2026-09-19T13:29:09+09:00"
-    },
-    {
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "link": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! Tags: security , ai , generative-ai , llms , gemini , accidental-cyberattacks",
-      "ts": 1789775877,
-      "published": "2026-09-18T23:57:57+00:00",
-      "collected_at": "2026-09-19T08:59:56+09:00"
     }
   ]
 }
