@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-20T04:09:16+09:00",
-  "count": 1034,
+  "updated": "2026-10-20T08:28:09+09:00",
+  "count": 1038,
   "items": [
+    {
+      "title": "Java News Roundup: JEPs for JDK 28, Azul Payara, Gatherers4j, Google ADK, Yupiik, Apache Camel CVEs",
+      "link": "https://www.infoq.com/news/2026/10/java-news-roundup-oct12-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for October 12th, 2026, features news highlighting: three OpenJDK JEPs targeted for JDK 28; the October 2026 edition of Azul Payara; point releases of Gatherers4j, Yupiik Fusion, Google ADK for…",
+      "ts": 1792440000,
+      "published": "2026-10-19T20:00:00+00:00",
+      "collected_at": "2026-10-20T08:27:42+09:00"
+    },
+    {
+      "title": "Java News Roundup: JEPs for JDK 28, Azul Payara, Gatherers4j, Google ADK, Yupiik, Apache Camel CVEs",
+      "link": "https://www.infoq.com/news/2026/10/java-news-roundup-oct12-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for October 12th, 2026, features news highlighting: three OpenJDK JEPs targeted for JDK 28; the October 2026 edition of Azul Payara; point releases of Gatherers4j, Yupiik Fusion, Google ADK for…",
+      "ts": 1792440000,
+      "published": "2026-10-19T20:00:00+00:00",
+      "collected_at": "2026-10-20T08:27:42+09:00"
+    },
     {
       "title": "Making the internet better for AI agents might make it worse for everyone else",
       "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
@@ -71,6 +91,16 @@
       "ts": 1792420200,
       "published": "2026-10-19T14:30:00+00:00",
       "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins Comments URL: https://news.ycombinator.com/item?id=50152877 Points: 59 # Comments: 3",
+      "ts": 1792419797,
+      "published": "2026-10-19T14:23:17+00:00",
+      "collected_at": "2026-10-20T08:27:42+09:00"
     },
     {
       "title": "langgraph-cli==0.4.37",
@@ -163,6 +193,16 @@
       "collected_at": "2026-10-19T21:55:05+09:00"
     },
     {
+      "title": "Advancing Coding in Low-Resource Programming Languages",
+      "link": "https://openai.com/index/low-resource-programming-languages",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "ts": 1792411200,
+      "published": "2026-10-19T12:00:00+00:00",
+      "collected_at": "2026-10-20T08:27:42+09:00"
+    },
+    {
       "title": "Descriptors and Controlled Attributes in Python",
       "link": "https://machinelearningmastery.com/descriptors-and-controlled-attributes/",
       "source": "ML Mastery",
@@ -251,6 +291,16 @@
       "ts": 1792390700,
       "published": "2026-10-19T06:18:20+00:00",
       "collected_at": "2026-10-19T21:55:05+09:00"
+    },
+    {
+      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
+      "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://crystl.dev/guides/tmux-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=50148855 Points: 146 # Comments: 111",
+      "ts": 1792389331,
+      "published": "2026-10-19T05:55:31+00:00",
+      "collected_at": "2026-10-20T08:27:42+09:00"
     },
     {
       "title": "“Death and Taxes: Taking Causal Inference into the Real World”",
@@ -10331,16 +10381,6 @@
       "ts": 1789862400,
       "published": "2026-09-20T00:00:00+00:00",
       "collected_at": "2026-09-21T03:06:52+09:00"
-    },
-    {
-      "title": "datasette-auth-github 1.0",
-      "link": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting coo…",
-      "ts": 1789847522,
-      "published": "2026-09-19T19:52:02+00:00",
-      "collected_at": "2026-09-20T07:45:58+09:00"
     }
   ]
 }
