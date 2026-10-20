@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-20T08:28:09+09:00",
-  "count": 1038,
+  "updated": "2026-10-20T13:09:08+09:00",
+  "count": 1040,
   "items": [
+    {
+      "title": "“In the belly of the whale: Portraits from a fractured Israel”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/19/in-the-belly-of-the-whale-portraits-from-a-fractured-israel/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "The above-titled book, by the journalist Ruth Margalit, is a collection of profiles of political and cultural figures published between 2015 and 2026. It’s interesting and I learned a lot about these people and their di…",
+      "ts": 1792465467,
+      "published": "2026-10-20T03:04:27+00:00",
+      "collected_at": "2026-10-20T13:09:04+09:00"
+    },
+    {
+      "title": "Upgrading from Java 21 to 25: What Actually Breaks",
+      "link": "https://foojay.io/today/upgrading-java-21-to-25-what-actually-breaks/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Seven changes between Java 21 and 25 that break builds, startup or behaviour, each reproduced on both JDKs, and how to find them before you upgrade.",
+      "ts": 1792454400,
+      "published": "2026-10-20T00:00:00+00:00",
+      "collected_at": "2026-10-20T13:09:04+09:00"
+    },
+    {
+      "title": "My obituary for programming",
+      "link": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you c…",
+      "ts": 1792454305,
+      "published": "2026-10-19T23:58:25+00:00",
+      "collected_at": "2026-10-20T13:09:04+09:00"
+    },
     {
       "title": "Java News Roundup: JEPs for JDK 28, Azul Payara, Gatherers4j, Google ADK, Yupiik, Apache Camel CVEs",
       "link": "https://www.infoq.com/news/2026/10/java-news-roundup-oct12-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
@@ -341,6 +371,16 @@
       "ts": 1792368000,
       "published": "2026-10-19T00:00:00+00:00",
       "collected_at": "2026-10-20T04:09:10+09:00"
+    },
+    {
+      "title": "Clef is available on Ollama's cloud",
+      "link": "https://ollama.com/blog/clef",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "Clef, a 27B multimodal decision model from Cloudflare, is now available on Ollama. Run it locally or on Ollama's cloud.",
+      "ts": 1792368000,
+      "published": "2026-10-19T00:00:00+00:00",
+      "collected_at": "2026-10-20T13:09:04+09:00"
     },
     {
       "title": "llm-tools-datasette 0.1.1",
@@ -10360,26 +10400,6 @@
       "summary": "Article URL: https://asyncdot.com/blog/chief-of-staff-pattern-orchestrating-claude-code-sessions/ Comments URL: https://news.ycombinator.com/item?id=49772806 Points: 24 # Comments: 21",
       "ts": 1789883179,
       "published": "2026-09-20T05:46:19+00:00",
-      "collected_at": "2026-09-21T03:06:52+09:00"
-    },
-    {
-      "title": "datasette-explain 0.2.2",
-      "link": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags:…",
-      "ts": 1789863724,
-      "published": "2026-09-20T00:22:04+00:00",
-      "collected_at": "2026-09-21T08:58:10+09:00"
-    },
-    {
-      "title": "JEP targeted to JDK 28: 401: Value Objects (Preview)",
-      "link": "https://inside.java/2026/09/20/jep401-target-jdk28/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The following JEP is targeted to JDK 28: 401: Value Objects (Preview)",
-      "ts": 1789862400,
-      "published": "2026-09-20T00:00:00+00:00",
       "collected_at": "2026-09-21T03:06:52+09:00"
     }
   ]
