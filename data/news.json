@@ -1,7 +1,77 @@
 {
-  "updated": "2026-10-21T12:57:54+09:00",
-  "count": 1069,
+  "updated": "2026-10-21T18:17:24+09:00",
+  "count": 1075,
   "items": [
+    {
+      "title": "Article: Distributed Spring Batch Without a Message Broker",
+      "link": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the live node count, a…",
+      "ts": 1792573200,
+      "published": "2026-10-21T09:00:00+00:00",
+      "collected_at": "2026-10-21T18:17:05+09:00"
+    },
+    {
+      "title": "Article: Distributed Spring Batch Without a Message Broker",
+      "link": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the live node count, a…",
+      "ts": 1792573200,
+      "published": "2026-10-21T09:00:00+00:00",
+      "collected_at": "2026-10-21T18:17:05+09:00"
+    },
+    {
+      "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
+      "link": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "An open source “bomb” drops from China",
+      "ts": 1792565649,
+      "published": "2026-10-21T06:54:09+00:00",
+      "collected_at": "2026-10-21T18:17:05+09:00"
+    },
+    {
+      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
+      "link": "https://www.latent.space/p/tenex",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
+      "ts": 1792558886,
+      "published": "2026-10-21T05:01:26+00:00",
+      "collected_at": "2026-10-21T18:17:05+09:00"
+    },
+    {
+      "title": "v1.107.9 (2026-10-20)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.9",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "This comment was posted by Codex Desktop using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security High — HTML conversion in web_fetch : GHSA-4whf-38hw-pxxh . When web_fetch_tool fetched attacker-controlled HTML…",
+      "ts": 1792557411,
+      "published": "2026-10-21T04:36:51+00:00",
+      "collected_at": "2026-10-21T18:17:05+09:00"
+    },
+    {
+      "title": "v2.59.0 (2026-10-20)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.59.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "This comment was posted by Codex Desktop using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security High — HTML conversion in web_fetch : GHSA-4whf-38hw-pxxh . When web_fetch_tool fetched attacker-controlled HTML…",
+      "ts": 1792557373,
+      "published": "2026-10-21T04:36:13+00:00",
+      "collected_at": "2026-10-21T18:17:05+09:00"
+    },
+    {
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing…",
+      "ts": 1792555200,
+      "published": "2026-10-21T04:00:00+00:00",
+      "collected_at": "2026-10-21T18:17:05+09:00"
+    },
     {
       "title": "TornadoVM 7 Enables GPU-Native Workloads From Java Applications",
       "link": "https://www.infoq.com/news/2026/10/tornadovm-7-gpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
@@ -71,6 +141,16 @@
       "ts": 1792540800,
       "published": "2026-10-21T00:00:00+00:00",
       "collected_at": "2026-10-21T12:57:28+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 543: Structured Concurrency",
+      "link": "https://inside.java/2026/10/21/jep543-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 543: Structured Concurrency",
+      "ts": 1792540800,
+      "published": "2026-10-21T00:00:00+00:00",
+      "collected_at": "2026-10-21T18:17:05+09:00"
     },
     {
       "title": "eMudhra Intermediate CA Compromise",
@@ -10670,26 +10750,6 @@
       "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
       "ts": 1789984800,
       "published": "2026-09-21T10:00:00+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "AWS Cannot Restore Data Held Only in Damaged Middle East Availability Zones",
-      "link": "https://www.infoq.com/news/2026/09/aws-middle-east-data-loss/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS has told customers it cannot restore resources and data hosted exclusively in the mec1-az2 availability zone in the UAE, or exclusively in the Bahrain region, after damage during the conflict with Iran. The company…",
-      "ts": 1789980180,
-      "published": "2026-09-21T08:43:00+00:00",
-      "collected_at": "2026-09-21T19:30:28+09:00"
-    },
-    {
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "link": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "ts": 1789974000,
-      "published": "2026-09-21T07:00:00+00:00",
       "collected_at": "2026-09-22T05:53:05+09:00"
     }
   ]
