@@ -1,7 +1,217 @@
 {
-  "updated": "2026-10-21T18:17:24+09:00",
-  "count": 1075,
+  "updated": "2026-10-21T23:57:06+09:00",
+  "count": 1072,
   "items": [
+    {
+      "title": "Python Performance Optimization: A Practical Guide",
+      "link": "https://realpython.com/python-performance-optimization-guide/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn practical Python performance optimization techniques, from confirming a bottleneck with timeit to picking the fix that makes your program faster.",
+      "ts": 1792591200,
+      "published": "2026-10-21T14:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Python itertools By Example",
+      "link": "https://realpython.com/courses/python-itertools-by-example/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Combine Python's itertools functions into memory-efficient pipelines as you deal cards, analyze stock data, and pick relay teams.",
+      "ts": 1792591200,
+      "published": "2026-10-21T14:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Named Entity Recognition Using Scikit-LLM",
+      "link": "https://www.kdnuggets.com/named-entity-recognition-using-scikit-llm",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Build standardized custom NER pipelines in a few simple steps, powered by the reasoning capabilities of LLMs.",
+      "ts": 1792591200,
+      "published": "2026-10-21T14:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "How to Turn Long-Running Python Simulations Into a Self-Service Platform",
+      "link": "https://towardsdatascience.com/how-to-turn-long-running-python-simulations-into-a-self-service-platform/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "What I learned about queues, failure recovery, and reproducibility while building asynchronous workloads on AWS The post How to Turn Long-Running Python Simulations Into a Self-Service Platform appeared first on Towards…",
+      "ts": 1792591200,
+      "published": "2026-10-21T14:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Netflix Bridges AWS IAM and Internal Identity with Workload Attestation",
+      "link": "https://www.infoq.com/news/2026/10/netflix-workload-attestation-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Netflix has developed a workload attestation mechanism for Apache Spark jobs running on Amazon EMR. The design combines AWS IAM identity with signed claims from Netflix’s control plane before issuing short-lived interna…",
+      "ts": 1792590300,
+      "published": "2026-10-21T13:45:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "10 Free Open Source Alternatives to Paid Software",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/open-source-alternatives-paid-software/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Tired of juggling multiple software subscriptions for editing images, managing projects, signing documents, and more? Open-source alternatives offer a refreshing way to get things done without piling up recurring bills.…",
+      "ts": 1792589377,
+      "published": "2026-10-21T13:29:37+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Claude Mods: Flipping the Harness Inside Out",
+      "link": "https://www.latent.space/p/claude-mods",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
+      "ts": 1792587859,
+      "published": "2026-10-21T13:04:19+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "My exchange with Yann LeCun about killer robots",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/21/from-2022-my-exchange-with-yann-lecun-about-killer-robots/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This was from 2022. Yann LeCun: People being scared to death of technological progress is nothing new either. There is a very long list of retrospectively-hilarious fears of every new technological or cultural progress.…",
+      "ts": 1792587615,
+      "published": "2026-10-21T13:00:15+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "ts": 1792587600,
+      "published": "2026-10-21T13:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "NVIDIA Kumo Forecast Combines Pretrained Time-Series Representations with Historical Pattern Retrieval and Interpretability",
+      "link": "https://huggingface.co/blog/nvidia/kumo-forecast",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792587084,
+      "published": "2026-10-21T12:51:24+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Spatial Reasoning in AI Models, Taken Apart",
+      "link": "https://towardsdatascience.com/spatial-reasoning-in-ai-models-taken-apart/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Grid puzzles that people solve almost perfectly show where language and vision models still break The post Spatial Reasoning in AI Models, Taken Apart appeared first on Towards Data Science .",
+      "ts": 1792585800,
+      "published": "2026-10-21T12:30:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "OpenAI models are coming to Google Cloud",
+      "link": "https://openai.com/index/openai-models-google-cloud",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "ts": 1792584000,
+      "published": "2026-10-21T12:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Quiz: Generating Random Data in Python (Guide)",
+      "link": "https://realpython.com/quizzes/python-random/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of random data in Python, from seeding the random module to generating secure tokens with secrets and uuid.",
+      "ts": 1792584000,
+      "published": "2026-10-21T12:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Quiz: Python Performance Optimization: A Practical Guide",
+      "link": "https://realpython.com/quizzes/python-performance-optimization-guide/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of Python performance optimization, from confirming a bottleneck with timeit to picking fixes like sets, built-ins, and caching.",
+      "ts": 1792584000,
+      "published": "2026-10-21T12:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "5 Best GitHub Repositories for AI Agent Skills",
+      "link": "https://www.kdnuggets.com/5-best-github-repositories-for-ai-agent-skills",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Explore five popular AI agent skill collections that help coding agents plan, test, debug, review, and build better software.",
+      "ts": 1792584000,
+      "published": "2026-10-21T12:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Article Series: Agentic AI Architecture",
+      "link": "https://www.infoq.com/articles/agentic-ai-architecture-article-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In this article series, we try to establish agentic AI architecture as a new type of software architecture that will likely dominate the industry for years to come. The articles, written by industry experts, cover vario…",
+      "ts": 1792582200,
+      "published": "2026-10-21T11:30:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Article Series: Agentic AI Architecture",
+      "link": "https://www.infoq.com/articles/agentic-ai-architecture-article-series/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In this article series, we try to establish agentic AI architecture as a new type of software architecture that will likely dominate the industry for years to come. The articles, written by industry experts, cover vario…",
+      "ts": 1792582200,
+      "published": "2026-10-21T11:30:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "How to Build a Multi-Modal RAG Pipeline for Images and Documents in Python",
+      "link": "https://machinelearningmastery.com/how-to-build-a-multi-modal-rag-pipeline-for-images-and-documents-in-python/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn how to build a multi-modal RAG pipeline in Python that retrieves and reasons over both text and images extracted...",
+      "ts": 1792580400,
+      "published": "2026-10-21T11:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "I Built a Pipeline to Track the Job Market I'm Trying to Break Into.",
+      "link": "https://towardsdatascience.com/i-built-a-pipeline-to-track-the-job-market-im-trying-to-break-into/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Building an incremental pipeline with dbt snapshots, and the API that quietly lied to me along the way. The post I Built a Pipeline to Track the Job Market I'm Trying to Break Into. appeared first on Towards Data Scienc…",
+      "ts": 1792580400,
+      "published": "2026-10-21T11:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Fragments: October 21",
+      "link": "https://martinfowler.com/fragments/2026-10-21.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Gergely Orosz is frustrated at those that entered his explicitly “No AI” essay competition and used AI. He goes on to say: When I start to suspect some part is AI about someone I don’t know: how can I tell how much of i…",
+      "ts": 1792579860,
+      "published": "2026-10-21T10:51:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Google SynthID Detector Simplifies Watermark Detection and Expands Support to Other AI Providers",
+      "link": "https://www.infoq.com/news/2026/10/synthid-watermarking-detector/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google DeepMind announced the global availability of SynthID Detector, a tool designed to help identify AI-generated content, including media created using AI tools from SynthID partners such as OpenAI, NVIDIA, and Kaka…",
+      "ts": 1792576800,
+      "published": "2026-10-21T10:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
     {
       "title": "Article: Distributed Spring Batch Without a Message Broker",
       "link": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
@@ -23,6 +233,16 @@
       "collected_at": "2026-10-21T18:17:05+09:00"
     },
     {
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "link": "https://openai.com/index/building-chatgpt-ad-stack",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "ts": 1792566000,
+      "published": "2026-10-21T07:00:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
       "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
       "link": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
       "source": "Latent Space",
@@ -41,6 +261,16 @@
       "ts": 1792558886,
       "published": "2026-10-21T05:01:26+00:00",
       "collected_at": "2026-10-21T18:17:05+09:00"
+    },
+    {
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "ts": 1792558200,
+      "published": "2026-10-21T04:50:00+00:00",
+      "collected_at": "2026-10-21T23:57:00+09:00"
     },
     {
       "title": "v1.107.9 (2026-10-20)",
@@ -10491,266 +10721,6 @@
       "ts": 1790004602,
       "published": "2026-09-21T15:30:02+00:00",
       "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "langgraph==1.2.12",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.12",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.11 release(langgraph): 1.2.12 ( #8987 ) chore(deps): bump soupsieve from 2.8.4 to 2.9 in /libs/langgraph ( #8958 ) feat(langgraph): add response_schema to interrupt() ( #8886 ) fix(langgraph): type und…",
-      "ts": 1790001820,
-      "published": "2026-09-21T14:43:40+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "langgraph-sdk==0.4.5",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.5",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since sdk==0.4.4 release(sdk-py): 0.4.5 ( #8988 ) release(langgraph): 1.2.12 ( #8987 ) chore(deps): bump anyio from 4.14.2 to 4.15.1 in /libs/sdk-py ( #8997 ) chore(deps): bump anyio from 4.13.0 to 4.14.2 in /li…",
-      "ts": 1790001789,
-      "published": "2026-09-21T14:43:09+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Uber Redesigns M3DB Sharding with Subclusters to Limit Failure Impact",
-      "link": "https://www.infoq.com/news/2026/09/uber-m3db-subcluster-sharding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Uber has redesigned shard placement in M3DB with fixed size subclusters to limit the impact of node failures, maintenance, and cluster scaling. The approach bounds shard dependencies, preserves replica isolation, and us…",
-      "ts": 1790001420,
-      "published": "2026-09-21T14:37:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "How to Turn a Python Script Into an AI Agent",
-      "link": "https://www.kdnuggets.com/how-to-turn-a-python-script-into-an-ai-agent",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Learn how to build a Python AI agent with the OpenAI Agents SDK, using tool calling and function tools to automate multi-step workflows.",
-      "ts": 1789999207,
-      "published": "2026-09-21T14:00:07+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level",
-      "link": "https://towardsdatascience.com/gpt-6-astra-just-hit-openais-highest-cybersecurity-risk-level/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "Why this matters less for what Astra can do and more for what every other model hasn't been tested for The post GPT-6 Astra Just Hit OpenAI's Highest Cybersecurity Risk Level appeared first on Towards Data Science .",
-      "ts": 1789999201,
-      "published": "2026-09-21T14:00:01+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Python 3.15 Preview: frozendict",
-      "link": "https://realpython.com/python315-frozendict/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Preview Python 3.15's frozendict: build immutable mappings you can hash, cache, and share across threads, and learn where the freeze stops.",
-      "ts": 1789999200,
-      "published": "2026-09-21T14:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1789998274,
-      "published": "2026-09-21T13:44:34+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "OpenAI Model Misalignment Explained Through Six Real Incidents",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/openai-model-misalignment/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "What would an AI agent do when a required file is missing or an API refuses access? The expected response is to explain the limitation… essentially, coming out with it. OpenAI’s latest disclosures shed light in another…",
-      "ts": 1789997238,
-      "published": "2026-09-21T13:27:18+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Do high school students have to work harder nowadays?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/21/do-high-school-students-have-to-work-harder-nowadays/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I happened to come across this old comment thread where Richard Serlin wrote: Starting early is huge. If you’re a super-workaholic, with great endurance and energy, since kindergarten you’re going to achieve far more by…",
-      "ts": 1789996234,
-      "published": "2026-09-21T13:10:34+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Google Offered $10M for a Dying Airline's Data. How Can You Value Yours?",
-      "link": "https://towardsdatascience.com/google-offered-10m-for-a-dying-airlines-data-how-can-you-value-yours/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "How to put a dollar value on your organization's operational data The post Google Offered $10M for a Dying Airline's Data. How Can You Value Yours? appeared first on Towards Data Science .",
-      "ts": 1789993802,
-      "published": "2026-09-21T12:30:02+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "The Roadmap to Mastering LLM Inference Optimization",
-      "link": "https://machinelearningmastery.com/the-roadmap-to-mastering-llm-inference-optimization/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how LLM inference optimization works and which techniques to apply to make language models faster, cheaper, and more reliable...",
-      "ts": 1789992043,
-      "published": "2026-09-21T12:00:43+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "3 Polars Tricks for High-Performance Data Manipulation",
-      "link": "https://www.kdnuggets.com/3-polars-tricks-for-high-performance-data-manipulation",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Almost every slow Polars script lacks in terms of one of these two: its expression engine written and executing in Rust across every core at its disposal, and its query optimizer that rewrites your work before any of it…",
-      "ts": 1789992024,
-      "published": "2026-09-21T12:00:24+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "How we made the first comprehensive map of deaths along the US border’s “virtual wall”",
-      "link": "https://www.technologyreview.com/2026/09/21/1144161/border-towers-surveillance-methodology/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Our 15-month investigation into death and surveillance along the US-Mexico border began with a simple question: Why did so many people die near government surveillance towers meant to help track and apprehend them? This…",
-      "ts": 1789992000,
-      "published": "2026-09-21T12:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "4 ways to address the failures we found along the US border’s “virtual wall”",
-      "link": "https://www.technologyreview.com/2026/09/21/1144164/border-towers-surveillance-policy-recommendations/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "MIT Technology Review today published our investigation into how many people have died near the “virtual wall” of surveillance towers that the US government has installed along the US-Mexico border. We found cases of pe…",
-      "ts": 1789992000,
-      "published": "2026-09-21T12:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "The US spent billions on border surveillance. Why can’t it catch people before they die?",
-      "link": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "When José Morales Bernal crossed the border into the United States on April 8, 2024, the day before his 32nd birthday, it should have triggered a chain of technological alerts and human responses. As he walked through t…",
-      "ts": 1789992000,
-      "published": "2026-09-21T12:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "She died at the San Diego border. A surveillance camera was in plain sight",
-      "link": "https://www.technologyreview.com/2026/09/21/1144170/border-towers-surveillance-feature/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "She had only walked for a couple of hours, and already she was lost. It was early afternoon on Sept. 14, 2025, when 30-year-old Graciela Gómez Hernández crossed the border from the eastern edge of Tijuana into Southern…",
-      "ts": 1789992000,
-      "published": "2026-09-21T12:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Quiz: Python 3.15 Preview: frozendict",
-      "link": "https://realpython.com/quizzes/python315-frozendict/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your grasp of Python 3.15's frozendict: build immutable mappings, hash them, and use them as dictionary keys.",
-      "ts": 1789992000,
-      "published": "2026-09-21T12:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Quiz: Python Constants: Improve Your Code's Maintainability",
-      "link": "https://realpython.com/quizzes/python-constants/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python constants. Check how you name them, where you define them, and which ones Python actually enforces.",
-      "ts": 1789992000,
-      "published": "2026-09-21T12:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Advisory Group on Mathematics and Artificial Intelligence",
-      "link": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.",
-      "ts": 1789992000,
-      "published": "2026-09-21T12:00:00+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "link": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.",
-      "ts": 1789992000,
-      "published": "2026-09-21T12:00:00+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "Your AI Assistant Wrote the Code. Who Checked the Defaults?",
-      "link": "https://towardsdatascience.com/your-ai-assistant-wrote-the-code-who-checked-the-defaults/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Five scikit-learn defaults that deserve a closer look before your next model reaches production The post Your AI Assistant Wrote the Code. Who Checked the Defaults? appeared first on Towards Data Science .",
-      "ts": 1789988402,
-      "published": "2026-09-21T11:00:02+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Podcast: Securing AI Agents: Identity, Authorization, and the DPACT Framework",
-      "link": "https://www.infoq.com/podcasts/securing-ai-agents-identity-authorization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "In this episode, Sahil Agarwal talks about the critical challenges of identity, authorisation, and security in the age of AI agents. Sahil introduces the DPACT framework (Delegation, Policy, Auditability, Context, and T…",
-      "ts": 1789988400,
-      "published": "2026-09-21T11:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Presentation: The Agent Harness: Control Planes, Invariants, and Approval Boundaries for Production AI Agents",
-      "link": "https://www.infoq.com/presentations/ai-agent-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "OpenAI’s Vinoth Govindarajan discusses why production AI agents fail beyond model hallucination. Using real-world case studies like OpenClaw, he explains the key principles of reliable agent harnesses: establishing expl…",
-      "ts": 1789988400,
-      "published": "2026-09-21T11:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Article: Beyond Relevance: A Governance-First Architecture for Enterprise Personalization",
-      "link": "https://www.infoq.com/articles/architecture-enterprise-personalization-relevance-governance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This article examines the limitations of conventional personalization systems and highlights the need for a governance-first architecture. It emphasizes separating relevance from governance to ensure recommendations are…",
-      "ts": 1789988400,
-      "published": "2026-09-21T11:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Presentation: The Agent Harness: Control Planes, Invariants, and Approval Boundaries for Production AI Agents",
-      "link": "https://www.infoq.com/presentations/ai-agent-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "OpenAI’s Vinoth Govindarajan discusses why production AI agents fail beyond model hallucination. Using real-world case studies like OpenClaw, he explains the key principles of reliable agent harnesses: establishing expl…",
-      "ts": 1789988400,
-      "published": "2026-09-21T11:00:00+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Building standards for the next phase of AI",
-      "link": "https://openai.com/index/building-standards-next-phase-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.",
-      "ts": 1789984800,
-      "published": "2026-09-21T10:00:00+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
     }
   ]
 }
