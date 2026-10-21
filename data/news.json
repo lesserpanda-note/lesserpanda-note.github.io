@@ -1,7 +1,87 @@
 {
-  "updated": "2026-10-22T00:30:14+09:00",
-  "count": 1074,
+  "updated": "2026-10-22T04:12:32+09:00",
+  "count": 1079,
   "items": [
+    {
+      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
+      "link": "https://simonwillison.net/2026/Oct/21/php-security-release/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes,…",
+      "ts": 1792608113,
+      "published": "2026-10-21T18:41:53+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
+    },
+    {
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
+      "link": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792607190,
+      "published": "2026-10-21T18:26:30+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
+    },
+    {
+      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
+      "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792604136,
+      "published": "2026-10-21T17:35:36+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
+    },
+    {
+      "title": "eMudhra Intermediate CA Compromise",
+      "link": "https://www.infoq.com/news/2026/10/emudhra-ca-compromise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Private keys for eight eMudhra intermediate CA certificates have been compromised, allowing attackers to forge certificates for any site. The keys were revealed due to low entropy, not through a known breach. Browsers b…",
+      "ts": 1792603800,
+      "published": "2026-10-21T17:30:00+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
+    },
+    {
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "link": "https://openai.com/index/att-legal",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
+      "ts": 1792602000,
+      "published": "2026-10-21T17:00:00+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
+    },
+    {
+      "title": "Panache — RTS Belle Époque pour mobile",
+      "link": "https://simonwillison.net/2026/Oct/21/panache/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk…",
+      "ts": 1792599916,
+      "published": "2026-10-21T16:25:16+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
+    },
+    {
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
+      "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792598683,
+      "published": "2026-10-21T16:04:43+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
+    },
+    {
+      "title": "Decision Models in Action: Build a Hybrid LLM Workflow",
+      "link": "https://towardsdatascience.com/decision-models-in-action-build-a-hybrid-llm-workflow/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "A hands-on guide to building browser automation by combining decision models with LLMs. The post Decision Models in Action: Build a Hybrid LLM Workflow appeared first on Towards Data Science .",
+      "ts": 1792596600,
+      "published": "2026-10-21T15:30:00+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
+    },
     {
       "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
       "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
@@ -61,6 +141,16 @@
       "ts": 1792590300,
       "published": "2026-10-21T13:45:00+00:00",
       "collected_at": "2026-10-21T23:57:00+09:00"
+    },
+    {
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://openai.com/index/scaling-ai-research-for-complex-biological-data/ Comments URL: https://news.ycombinator.com/item?id=50180752 Points: 95 # Comments: 45",
+      "ts": 1792589820,
+      "published": "2026-10-21T13:37:00+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
     },
     {
       "title": "10 Free Open Source Alternatives to Paid Software",
@@ -401,6 +491,16 @@
       "ts": 1792540800,
       "published": "2026-10-21T00:00:00+00:00",
       "collected_at": "2026-10-21T18:17:05+09:00"
+    },
+    {
+      "title": "Python 3.15.1, 3.14.9 and 3.13.17 are out",
+      "link": "https://blog.python.org/2026/10/python-3151-3149-31317/",
+      "source": "Python Insider",
+      "category": "Python",
+      "summary": "Three certified security releases for 3.15, 3.14 and 3.13.",
+      "ts": 1792540800,
+      "published": "2026-10-21T00:00:00+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
     },
     {
       "title": "eMudhra Intermediate CA Compromise",
@@ -771,6 +871,16 @@
       "ts": 1792465467,
       "published": "2026-10-20T03:04:27+00:00",
       "collected_at": "2026-10-20T13:09:04+09:00"
+    },
+    {
+      "title": "Show HN: Lights-on software factory boilerplate for Claude Code",
+      "link": "https://github.com/gojko/lights-on-software-factory",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "A starting point for running a lights-on software factory with Claude Code. Based on the setup developed for Votito, where the orchestrator reduced token cost compared to bare-bones Claude workflow execution by around 8…",
+      "ts": 1792459320,
+      "published": "2026-10-20T01:22:00+00:00",
+      "collected_at": "2026-10-22T04:12:21+09:00"
     },
     {
       "title": "Upgrading from Java 21 to 25: What Actually Breaks",
@@ -10681,66 +10791,6 @@
       "ts": 1790028829,
       "published": "2026-09-21T22:13:49+00:00",
       "collected_at": "2026-09-22T08:55:49+09:00"
-    },
-    {
-      "title": "Java News Roundup: JDK 27, Open J Proxy, A2A Jakarta, Azul Payara, BoxLang, Netflix ja",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for September 14th, 2026, features news highlighting: the GA release of JDK 27, LibericaJDK 27, Open J Proxy 1.0 and A2A Jakarta 1.0; point releases of Azul Payara, JHipster, JetBrains Ktor and…",
-      "ts": 1790010000,
-      "published": "2026-09-21T17:00:00+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "Java News Roundup: JDK 27, Open J Proxy, A2A Jakarta, Azul Payara, BoxLang, Netflix ja",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep14-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for September 14th, 2026, features news highlighting: the GA release of JDK 27, LibericaJDK 27, Open J Proxy 1.0 and A2A Jakarta 1.0; point releases of Azul Payara, JHipster, JetBrains Ktor and…",
-      "ts": 1790010000,
-      "published": "2026-09-21T17:00:00+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "Grok 4.7 Intelligence, Performance and Price Analysis",
-      "link": "https://artificialanalysis.ai/models/grok-4-7",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://artificialanalysis.ai/models/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49789558 Points: 11 # Comments: 1",
-      "ts": 1790008560,
-      "published": "2026-09-21T16:36:00+00:00",
-      "collected_at": "2026-09-22T05:53:05+09:00"
-    },
-    {
-      "title": "v0.14.25",
-      "link": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25",
-      "source": "LlamaIndex",
-      "category": "Agents",
-      "summary": "Release Notes [2026-09-21] llama-index-agent-agentmesh [0.3.0] fix: resolve a ton of security alerts ( #22855 ) llama-index-agent-azure [0.4.0] fix: resolve a ton of security alerts ( #22855 ) llama-index-callbacks-argi…",
-      "ts": 1790007747,
-      "published": "2026-09-21T16:22:27+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "What Everyone Is Getting Wrong About TypeSafe AI’s Jev",
-      "link": "https://www.kdnuggets.com/what-everyone-is-getting-wrong-about-typesafe-ais-jev",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "A closer look at TypeSafe AI’s Jev, what it actually does, what is genuinely new, and where the hype goes too far.",
-      "ts": 1790006443,
-      "published": "2026-09-21T16:00:43+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
-    },
-    {
-      "title": "Grok 4.7",
-      "link": "https://x.ai/news/grok-4-7",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://x.ai/news/grok-4-7 Comments URL: https://news.ycombinator.com/item?id=49788838 Points: 104 # Comments: 50",
-      "ts": 1790005815,
-      "published": "2026-09-21T15:50:15+00:00",
-      "collected_at": "2026-09-22T01:52:32+09:00"
     }
   ]
 }
