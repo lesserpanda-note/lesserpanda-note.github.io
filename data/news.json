@@ -1,7 +1,77 @@
 {
-  "updated": "2026-10-22T23:57:19+09:00",
-  "count": 1090,
+  "updated": "2026-10-23T04:07:58+09:00",
+  "count": 1094,
   "items": [
+    {
+      "title": "The Foundations of Scalable AI",
+      "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores…",
+      "ts": 1792694884,
+      "published": "2026-10-22T18:48:04+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Fou…",
+      "ts": 1792692596,
+      "published": "2026-10-22T18:09:56+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
+      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
+      "link": "https://www.latent.space/p/modal-d",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
+      "ts": 1792690857,
+      "published": "2026-10-22T17:40:57+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
+      "title": "python-1.23.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.23.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.23.0] - 2026-10-22 Added agent-framework-a2a : Add allowlisted forwarding of function-invocation and client arguments from A2A request metadata ( #9193 ) agent-framework-core , agent-framework-orchestrations : Add an…",
+      "ts": 1792688777,
+      "published": "2026-10-22T17:06:17+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792685491,
+      "published": "2026-10-22T16:11:31+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
+      "title": "Quoting Armin Ronacher",
+      "link": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , ll…",
+      "ts": 1792683253,
+      "published": "2026-10-22T15:34:13+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
+      "title": "Does Agentic RAG Actually Retrieve Better Evidence? I Tested It on 298 Questions",
+      "link": "https://towardsdatascience.com/does-agentic-rag-actually-retrieve-better-evidence-i-tested-it-on-298-questions/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "I let an AI agent search again whenever it chose. It found some papers plain search had missed, lost some plain search had found, and gained too little to trust. The post Does Agentic RAG Actually Retrieve Better Eviden…",
+      "ts": 1792683000,
+      "published": "2026-10-22T15:30:00+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
+    },
     {
       "title": "Beyond tree cover: mapping the world’s forest types",
       "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
@@ -21,6 +91,16 @@
       "ts": 1792677820,
       "published": "2026-10-22T14:03:40+00:00",
       "collected_at": "2026-10-22T23:56:58+09:00"
+    },
+    {
+      "title": "You are the Team — Anekha Sokhal, Moshi",
+      "link": "https://www.latent.space/p/moshi",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
+      "ts": 1792677820,
+      "published": "2026-10-22T14:03:40+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
     },
     {
       "title": "Study Finds AI-generated Code Fails to Boost Productivity Due to Downstream Bottlenecks",
@@ -163,6 +243,16 @@
       "collected_at": "2026-10-22T23:56:58+09:00"
     },
     {
+      "title": "Supply Chain Security for the Age of AI-Speed Exploits",
+      "link": "https://realpython.com/python-supply-chain-security/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn Python supply chain security as AI speeds up attacks: what the LiteLLM backdoor teaches, how to check your setup, and habits that last.",
+      "ts": 1792677600,
+      "published": "2026-10-22T14:00:00+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
       "title": "Build AI Employees in Python That Work While You Sleep",
       "link": "https://www.analyticsvidhya.com/blog/2026/10/build-an-ai-employee-in-python/",
       "source": "Analytics Vidhya",
@@ -221,6 +311,16 @@
       "ts": 1792670400,
       "published": "2026-10-22T12:00:00+00:00",
       "collected_at": "2026-10-22T23:56:58+09:00"
+    },
+    {
+      "title": "Quiz: Supply Chain Security for the Age of AI-Speed Exploits",
+      "link": "https://realpython.com/quizzes/python-supply-chain-security/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of Python supply chain security, from startup hooks and lock files to dependency cooldowns, agent installs, and short-lived tokens.",
+      "ts": 1792670400,
+      "published": "2026-10-22T12:00:00+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
     },
     {
       "title": "Presentation: Actors for Agents: Patterns for Production AI",
@@ -371,6 +471,26 @@
       "ts": 1792627200,
       "published": "2026-10-22T00:00:00+00:00",
       "collected_at": "2026-10-22T12:58:03+09:00"
+    },
+    {
+      "title": "What's Going Wrong with My JVM?! A Guide to First-Time Failure Diagnosis",
+      "link": "https://inside.java/2026/10/22/jvm-diagnosis/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "It's 2 AM Friday night when you get alerts your primary business application stopped responding and user tickets are piling up. For situations like these, you need to have already captured the data that can help you qui…",
+      "ts": 1792627200,
+      "published": "2026-10-22T00:00:00+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "ts": 1792627200,
+      "published": "2026-10-22T00:00:00+00:00",
+      "collected_at": "2026-10-23T04:07:50+09:00"
     },
     {
       "title": "Broad access through consistent standards",
@@ -10821,86 +10941,6 @@
       "ts": 1790105705,
       "published": "2026-09-22T19:35:05+00:00",
       "collected_at": "2026-09-23T06:52:50+09:00"
-    },
-    {
-      "title": "llm 0.36",
-      "link": "https://simonwillison.net/2026/Sep/22/llm/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises…",
-      "ts": 1790102917,
-      "published": "2026-09-22T18:48:37+00:00",
-      "collected_at": "2026-09-23T09:07:52+09:00"
-    },
-    {
-      "title": "Quoting @therealcornpop",
-      "link": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird br…",
-      "ts": 1790100201,
-      "published": "2026-09-22T18:03:21+00:00",
-      "collected_at": "2026-09-23T03:37:31+09:00"
-    },
-    {
-      "title": "Introducing GPT-6 Sol and Luna",
-      "link": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.",
-      "ts": 1790100000,
-      "published": "2026-09-22T18:00:00+00:00",
-      "collected_at": "2026-09-23T06:52:50+09:00"
-    },
-    {
-      "title": "llm-anthropic 0.29",
-      "link": "https://simonwillison.net/2026/Sep/22/llm-anthropic/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-anthropic 0.29 Adds support for Claude Opus 5.5 : llm -m claude-opus-5.5 \"prompt goes here\" Tags: llm , anthropic",
-      "ts": 1790097295,
-      "published": "2026-09-22T17:14:55+00:00",
-      "collected_at": "2026-09-23T09:07:52+09:00"
-    },
-    {
-      "title": "Jev Explained: The AI Model That Never Generates a Word of Text",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/jev-explained/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "If you follow trends in the AI world, chances are you have already come across Jev, a new AI model by TypeSafe AI. It is trending on X, and once you understand the reason behind it, you will want to try it out for yours…",
-      "ts": 1790096876,
-      "published": "2026-09-22T17:07:56+00:00",
-      "collected_at": "2026-09-23T03:37:31+09:00"
-    },
-    {
-      "title": "Grok bot is now in Tesla",
-      "link": "https://twitter.com/elonmusk/status/2102439262507725294",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://twitter.com/elonmusk/status/2102439262507725294 Comments URL: https://news.ycombinator.com/item?id=49804539 Points: 11 # Comments: 4",
-      "ts": 1790096723,
-      "published": "2026-09-22T17:05:23+00:00",
-      "collected_at": "2026-09-23T03:37:31+09:00"
-    },
-    {
-      "title": "llm-typesafe 0.1a0",
-      "link": "https://simonwillison.net/2026/Sep/22/llm-typesafe/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-typesafe 0.1a0 I built this new plugin for LLM to add support for TypeSafe AI's new Jev model . Install it like this: llm install llm-typesafe Then set an API key ( get one here , the waitlist seems to move…",
-      "ts": 1790092456,
-      "published": "2026-09-22T15:54:16+00:00",
-      "collected_at": "2026-09-23T03:37:31+09:00"
-    },
-    {
-      "title": "Break Your Own RAG Pipeline Before Users Do",
-      "link": "https://towardsdatascience.com/break-your-own-rag-pipeline-before-users-do/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A small adversarial test set that catches the retrieval failures your evaluation set never will The post Break Your Own RAG Pipeline Before Users Do appeared first on Towards Data Science .",
-      "ts": 1790091001,
-      "published": "2026-09-22T15:30:01+00:00",
-      "collected_at": "2026-09-23T03:37:31+09:00"
     }
   ]
 }
