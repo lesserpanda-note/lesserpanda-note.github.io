@@ -1,7 +1,77 @@
 {
-  "updated": "2026-10-22T12:58:12+09:00",
-  "count": 1073,
+  "updated": "2026-10-22T18:20:29+09:00",
+  "count": 1077,
   "items": [
+    {
+      "title": "Article: AI Changes the Data Interface, Not the Query Engine",
+      "link": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the results. It explains t…",
+      "ts": 1792659600,
+      "published": "2026-10-22T09:00:00+00:00",
+      "collected_at": "2026-10-22T18:20:04+09:00"
+    },
+    {
+      "title": "Article: AI Changes the Data Interface, Not the Query Engine",
+      "link": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the results. It explains t…",
+      "ts": 1792659600,
+      "published": "2026-10-22T09:00:00+00:00",
+      "collected_at": "2026-10-22T18:20:04+09:00"
+    },
+    {
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens…",
+      "ts": 1792658478,
+      "published": "2026-10-22T08:41:18+00:00",
+      "collected_at": "2026-10-22T18:20:04+09:00"
+    },
+    {
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "link": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792655491,
+      "published": "2026-10-22T07:51:31+00:00",
+      "collected_at": "2026-10-22T18:20:04+09:00"
+    },
+    {
+      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
+      "link": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "The Big Hardening begins",
+      "ts": 1792654964,
+      "published": "2026-10-22T07:42:44+00:00",
+      "collected_at": "2026-10-22T18:20:04+09:00"
+    },
+    {
+      "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
+      "link": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker News the project was…",
+      "ts": 1792654860,
+      "published": "2026-10-22T07:41:00+00:00",
+      "collected_at": "2026-10-22T18:20:04+09:00"
+    },
+    {
+      "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
+      "link": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker News the project was…",
+      "ts": 1792654860,
+      "published": "2026-10-22T07:41:00+00:00",
+      "collected_at": "2026-10-22T18:20:04+09:00"
+    },
     {
       "title": "Exact Prices in Java: Decimal Strings and BigDecimal Traps",
       "link": "https://foojay.io/today/exact-prices-in-java/",
@@ -10701,36 +10771,6 @@
       "ts": 1790074801,
       "published": "2026-09-22T11:00:01+00:00",
       "collected_at": "2026-09-22T23:29:53+09:00"
-    },
-    {
-      "title": "Tell HN: Claude Code just accepted and signed a contract for me. Without asking",
-      "link": "https://news.ycombinator.com/item?id=49798257",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "I told it to push a project further. It has an outside dependency where the (unread by me) contract was in my Gmail. It downloaded the PDF contract. Found a saved signature PNG on my computer, placed it at the right spo…",
-      "ts": 1790066953,
-      "published": "2026-09-22T08:49:13+00:00",
-      "collected_at": "2026-09-22T18:42:10+09:00"
-    },
-    {
-      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
-      "link": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "crowning a new Chinese frontier lab",
-      "ts": 1790058656,
-      "published": "2026-09-22T06:30:56+00:00",
-      "collected_at": "2026-09-22T18:42:10+09:00"
-    },
-    {
-      "title": "v2.47.0 (2026-09-21)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.47.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Name a None output route None rather than NoneType by @DouweM in #8590 Raise when UserPromptPart.content is not a str or a sequence, instead of silently sending a dict 's keys by @D…",
-      "ts": 1790049572,
-      "published": "2026-09-22T03:59:32+00:00",
-      "collected_at": "2026-09-22T13:16:48+09:00"
     }
   ]
 }
