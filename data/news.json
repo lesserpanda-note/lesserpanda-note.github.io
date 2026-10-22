@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-23T04:07:58+09:00",
-  "count": 1094,
+  "updated": "2026-10-23T08:04:45+09:00",
+  "count": 1097,
   "items": [
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792707874,
+      "published": "2026-10-22T22:24:34+00:00",
+      "collected_at": "2026-10-23T08:04:24+09:00"
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has cente…",
+      "ts": 1792703849,
+      "published": "2026-10-22T21:17:29+00:00",
+      "collected_at": "2026-10-23T08:04:24+09:00"
+    },
+    {
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "link": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Lea…",
+      "ts": 1792698146,
+      "published": "2026-10-22T19:42:26+00:00",
+      "collected_at": "2026-10-23T08:04:24+09:00"
+    },
+    {
+      "title": "Build more responsive apps with the Decisions API",
+      "link": "https://openai.com/index/decisions-api",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Fast, focused, low-cost decisions for any application.",
+      "ts": 1792695600,
+      "published": "2026-10-22T19:00:00+00:00",
+      "collected_at": "2026-10-23T08:04:24+09:00"
+    },
     {
       "title": "The Foundations of Scalable AI",
       "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
@@ -21,6 +61,26 @@
       "ts": 1792692596,
       "published": "2026-10-22T18:09:56+00:00",
       "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
+      "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
+      "link": "https://github.com/rbartoli/agent-usage-guard",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/rbartoli/agent-usage-guard Comments URL: https://news.ycombinator.com/item?id=50198936 Points: 20 # Comments: 7",
+      "ts": 1792692158,
+      "published": "2026-10-22T18:02:38+00:00",
+      "collected_at": "2026-10-23T08:04:24+09:00"
+    },
+    {
+      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
+      "link": "https://github.com/NVIDIA/OpenShell",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 252 # Comments: 130",
+      "ts": 1792691046,
+      "published": "2026-10-22T17:44:06+00:00",
+      "collected_at": "2026-10-23T08:04:24+09:00"
     },
     {
       "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
@@ -491,6 +551,16 @@
       "ts": 1792627200,
       "published": "2026-10-22T00:00:00+00:00",
       "collected_at": "2026-10-23T04:07:50+09:00"
+    },
+    {
+      "title": "Spring Batch 6.1.0-RC1 and 6.0.6 available now!",
+      "link": "https://spring.io/blog/2026/10/22/spring-batch-6",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 6.1.0-RC1 and 6.0.6 are available now from Maven Central! These releases bring a number of new features, enhancements and bug fixes.…",
+      "ts": 1792627200,
+      "published": "2026-10-22T00:00:00+00:00",
+      "collected_at": "2026-10-23T08:04:24+09:00"
     },
     {
       "title": "Broad access through consistent standards",
@@ -10901,46 +10971,6 @@
       "ts": 1790120801,
       "published": "2026-09-22T23:46:41+00:00",
       "collected_at": "2026-09-23T09:07:52+09:00"
-    },
-    {
-      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
-      "link": "https://www.latent.space/p/john-platt",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI",
-      "ts": 1790111259,
-      "published": "2026-09-22T21:07:39+00:00",
-      "collected_at": "2026-09-23T06:52:50+09:00"
-    },
-    {
-      "title": "Better prompt caching for GPT-6",
-      "link": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.",
-      "ts": 1790110800,
-      "published": "2026-09-22T21:00:00+00:00",
-      "collected_at": "2026-09-23T06:52:50+09:00"
-    },
-    {
-      "title": "Survey Statistics: Fat Bear Week 2026",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/22/survey-statistics-fat-bear-week-2026/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Happy Fat Bear Week to all who celebrate. In 2024 I made a cartoon called Basu’s Bears, adapted from Basu’s (1971) elephants example, a lesson on the use of auxiliary information in survey statistics. For Fat Bear Week…",
-      "ts": 1790107259,
-      "published": "2026-09-22T20:00:59+00:00",
-      "collected_at": "2026-09-23T06:52:50+09:00"
-    },
-    {
-      "title": "Claude Opus 5.5 Tested: What’s New and How Good is it?",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/claude-opus-5-5-tested/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "What happens when an AI model gets better at reasoning, faster at responding, and cheaper to run at the same time? That is the promise behind Claude Opus 5.5, Anthropic’s latest flagship model and the first release in t…",
-      "ts": 1790105705,
-      "published": "2026-09-22T19:35:05+00:00",
-      "collected_at": "2026-09-23T06:52:50+09:00"
     }
   ]
 }
