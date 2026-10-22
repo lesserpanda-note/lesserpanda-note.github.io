@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-22T08:05:31+09:00",
-  "count": 1080,
+  "updated": "2026-10-22T12:58:12+09:00",
+  "count": 1073,
   "items": [
+    {
+      "title": "Exact Prices in Java: Decimal Strings and BigDecimal Traps",
+      "link": "https://foojay.io/today/exact-prices-in-java/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Why double breaks prices, why APIs send them as strings, and the BigDecimal and Jackson traps to avoid when you read, compute and display them.",
+      "ts": 1792627200,
+      "published": "2026-10-22T00:00:00+00:00",
+      "collected_at": "2026-10-22T12:58:03+09:00"
+    },
+    {
+      "title": "Android on iOS, Web & Desktop Efficiently and for Free",
+      "link": "https://foojay.io/today/android-apps-beyond-android/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Compile Android apps for iOS, web and desktop with a free, open-source compatibility layer. Try the browser demo, see the iOS binary size and migrate one...",
+      "ts": 1792627200,
+      "published": "2026-10-22T00:00:00+00:00",
+      "collected_at": "2026-10-22T12:58:03+09:00"
+    },
     {
       "title": "Broad access through consistent standards",
       "link": "https://openai.com/index/broad-access-through-consistent-standards",
@@ -521,6 +541,16 @@
       "ts": 1792540800,
       "published": "2026-10-21T00:00:00+00:00",
       "collected_at": "2026-10-22T08:05:26+09:00"
+    },
+    {
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "link": "https://openai.com/index/cloudflare-cyber",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "ts": 1792540800,
+      "published": "2026-10-21T00:00:00+00:00",
+      "collected_at": "2026-10-22T12:58:03+09:00"
     },
     {
       "title": "eMudhra Intermediate CA Compromise",
@@ -10701,106 +10731,6 @@
       "ts": 1790049572,
       "published": "2026-09-22T03:59:32+00:00",
       "collected_at": "2026-09-22T13:16:48+09:00"
-    },
-    {
-      "title": "Helidon 27 Released",
-      "link": "https://inside.java/2026/09/22/helidon27-release/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The Helidon team is pleased to announce Helidon 27, the first release under the Tip-and-Tail model used by OpenJDK.",
-      "ts": 1790035200,
-      "published": "2026-09-22T00:00:00+00:00",
-      "collected_at": "2026-09-22T18:42:10+09:00"
-    },
-    {
-      "title": "Announcing The New Foojay",
-      "link": "https://foojay.io/today/announcing-the-new-foojay/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Foojay has a new home: a static, open-source site where publishing an article is a pull request. Same URLs, same archive, much faster, and new features.",
-      "ts": 1790035200,
-      "published": "2026-09-22T00:00:00+00:00",
-      "collected_at": "2026-09-22T18:42:10+09:00"
-    },
-    {
-      "title": "Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community",
-      "link": "https://huggingface.co/blog/omlx",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790035200,
-      "published": "2026-09-22T00:00:00+00:00",
-      "collected_at": "2026-09-22T18:42:10+09:00"
-    },
-    {
-      "title": "Transformers now runs llama.cpp quants",
-      "link": "https://huggingface.co/blog/transformers-llama-cpp-quants",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790035200,
-      "published": "2026-09-22T00:00:00+00:00",
-      "collected_at": "2026-09-22T23:29:53+09:00"
-    },
-    {
-      "title": "This Week in Spring - September 22nd, 2026",
-      "link": "https://spring.io/blog/2026/09/22/this-week-in-spring-september-22-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring ! How're you? What're you building these days? I'm sitting here enjoying a cup of coffee and a mooncake. I had a customer call at 6 am this morning.…",
-      "ts": 1790035200,
-      "published": "2026-09-22T00:00:00+00:00",
-      "collected_at": "2026-09-23T03:37:31+09:00"
-    },
-    {
-      "title": "Priorities and principles for effective third party assessments",
-      "link": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.",
-      "ts": 1790035200,
-      "published": "2026-09-22T00:00:00+00:00",
-      "collected_at": "2026-09-23T03:37:31+09:00"
-    },
-    {
-      "title": "How UK AISI and EvalEval Are Making Benchmark Results Reproducible",
-      "link": "https://huggingface.co/blog/evaleval-aisi",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790035200,
-      "published": "2026-09-22T00:00:00+00:00",
-      "collected_at": "2026-09-23T03:37:31+09:00"
-    },
-    {
-      "title": "Introducing Claude Opus 5.5",
-      "link": "https://www.anthropic.com/claude-opus-5-5",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Introducing Claude Opus 5.5",
-      "ts": 1790035200,
-      "published": "2026-09-22T00:00:00+00:00",
-      "collected_at": "2026-09-23T03:37:31+09:00"
-    },
-    {
-      "title": "The Situation Report",
-      "link": "https://www.anthropic.com/features/ebola-response",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "The Situation Report",
-      "ts": 1790035200,
-      "published": "2026-09-22T00:00:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
-      "link": "https://simonwillison.net/2026/Sep/21/jev/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Last week TypeSafe AI unveiled Jev , their first example of a new category of model that they are calling \"System One models\" (I'm with Maggie Appleton, I think \"decision models\" is a better name for these). Jev is an i…",
-      "ts": 1790032160,
-      "published": "2026-09-21T23:09:20+00:00",
-      "collected_at": "2026-09-22T08:55:49+09:00"
     }
   ]
 }
