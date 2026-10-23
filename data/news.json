@@ -1,7 +1,287 @@
 {
-  "updated": "2026-10-23T18:48:00+09:00",
-  "count": 1112,
+  "updated": "2026-10-23T23:45:56+09:00",
+  "count": 1115,
   "items": [
+    {
+      "title": "dotnet-1.26.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.26.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "Changes: 9c8a351 Update package versions for release ( #9650 ) c3b9f22 Add ACGS to the Python community projects ( #9618 ) 71cf48c Python: Honor allow_multiple_tool_calls in AnthropicClient when tool_choice is unset ( #…",
+      "ts": 1792765933,
+      "published": "2026-10-23T14:32:13+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "CSIRO Uses Serverless Architecture to Query 100x More Genomic Variants on AWS",
+      "link": "https://www.infoq.com/news/2026/10/csiro-serverless-genomic-variant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "CSIRO has developed Serverless Beacon, a serverless architecture for querying genomic variants without copying VCF files into a central database. The system combines Amazon S3, Lambda, Athena and DynamoDB, using metadat…",
+      "ts": 1792765800,
+      "published": "2026-10-23T14:30:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "langgraph-cli==0.4.38",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.38",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since cli==0.4.37 release(cli): 0.4.38 ( #9411 ) feat(cli): add the priority section to langgraph.json ( #9393 ) chore(deps): bump uv from 0.11.15 to 0.13.4 in /libs/cli ( #9366 ) chore(deps): bump certifi from…",
+      "ts": 1792765349,
+      "published": "2026-10-23T14:22:29+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.9",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.8 release(sdk-py): 0.4.9 ( #9398 ) feat(sdk-py): add Priority for thread priority settings ( #9392 ) chore(deps): remove precautionary third-party upper bounds ( #9390 ) chore(deps): bump certifi…",
+      "ts": 1792765164,
+      "published": "2026-10-23T14:19:24+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "NumPy Tutorial: Your First Steps Into Data Science in Python",
+      "link": "https://realpython.com/numpy-tutorial/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Follow this NumPy tutorial to learn how to create and manipulate arrays in Python and take your first steps into data science.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Sending Emails With Python",
+      "link": "https://realpython.com/python-send-email/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to send emails with Python using SMTP, attach files, format HTML messages, and personalize bulk emails for your contact list.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Python's property(): Add Managed Attributes to Your Classes",
+      "link": "https://realpython.com/python-property/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Use Python's property() to add managed attributes to your classes, with validation, computed values, and caching, without breaking your API.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Building Serverless Python Apps Using AWS Chalice",
+      "link": "https://realpython.com/aws-chalice-serverless-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build and deploy a serverless Python app with AWS Chalice, a microframework that ships your code to AWS Lambda and scales it for you.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Python's F-String for String Interpolation and Formatting",
+      "link": "https://realpython.com/python-f-strings/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Python f-strings give you a readable, concise way to interpolate and format strings, and they beat .format() and the % operator on speed.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Get Started With Django: Build a Portfolio App",
+      "link": "https://realpython.com/get-started-with-django-1/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build a Django example project step by step. You'll create a portfolio app and learn about models, views, templates, and the admin.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Sets in Python",
+      "link": "https://realpython.com/python-sets/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn to work effectively with Python sets: define set objects, explore the supported operations, and know when sets fit your code.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "What Is the Python Global Interpreter Lock (GIL)?",
+      "link": "https://realpython.com/python-gil/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "The Python GIL is a mutex that lets only one thread control the interpreter at a time. Learn how it shapes your program's performance.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Python Metaclasses",
+      "link": "https://realpython.com/python-metaclasses/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How Python's metaclasses work as an OOP concept, what they are good for—and why you might want to avoid them in your own programs.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Python Web Applications: Deploy Your Script as a Flask App",
+      "link": "https://realpython.com/python-web-applications/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this tutorial, you'll learn how to go from a local Python script to a fully deployed Flask web application that you can share with the world.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "What Companies Actually Mean When They Say They Want “AI Experience”",
+      "link": "https://www.kdnuggets.com/what-companies-actually-mean-when-they-say-they-want-ai-experience",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "What employers actually mean when job postings list \"AI experience\" as a requirement.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Skewness and Kurtosis: From Moments to Machine Learning",
+      "link": "https://towardsdatascience.com/skewness-and-kurtosis-from-moments-to-machine-learning/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The mathematics, intuition, interpretation, and practical use of higher-order moments. The post Skewness and Kurtosis: From Moments to Machine Learning appeared first on Towards Data Science .",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "A big problem with conventional experimentation or A/B testing is that the treatment effect can vary over time and it can depend on the entire history of the treatment. Usual comparisons miss this po…",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/23/a-big-problem-with-conventional-experimentation-or-a-b-testing-is-that-the-treatment-effect-can-vary-over-time-and-it-can-depend-on-the-entire-history-of-the-treatment-usual-comparisons-miss-this-po/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Andrea Bronzini points to this article and writes: I’m working on experimentation tooling and wrote a brief note about a failure mode I keep seeing: “winning” A/B tests often lose uplift after rollout. My claim is that…",
+      "ts": 1792763026,
+      "published": "2026-10-23T13:43:46+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "AWS Introduces Lambda Web Functions for Node.js Applications",
+      "link": "https://www.infoq.com/news/2026/10/aws-lambda-web-functions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS recently introduced Lambda Web Functions, allowing developers to run Node.js web applications using frameworks such as Express and Hono directly on Lambda, with support for concurrent requests and response streaming…",
+      "ts": 1792759740,
+      "published": "2026-10-23T12:49:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Why Parameter Count Is Not Model Complexity: An Introduction to Effective Dimension",
+      "link": "https://towardsdatascience.com/why-parameter-count-is-not-model-complexity-an-introduction-to-effective-dimension/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "What does effective dimension reveal about redundancy, generalization, and trainability that parameter count, loss, and accuracy do not? The post Why Parameter Count Is Not Model Complexity: An Introduction to Effective…",
+      "ts": 1792758600,
+      "published": "2026-10-23T12:30:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #316: The Future of Python Security: Trends, Challenges, and Solutions",
+      "link": "https://realpython.com/podcasts/rpp/316/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How is the Python ecosystem adapting to the modern landscape of software security and supply chain defense? This week on the show, we sit down with Seth Larson, the Python Software Foundation's Security Developer in Res…",
+      "ts": 1792756800,
+      "published": "2026-10-23T12:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Quiz: Using Pydantic to Simplify Python Data Validation",
+      "link": "https://realpython.com/quizzes/python-pydantic-video/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Pydantic models, fields, validators, and settings management, and see how well you can validate data in Python.",
+      "ts": 1792756800,
+      "published": "2026-10-23T12:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Quiz: Get Started With Django: Build a Portfolio App",
+      "link": "https://realpython.com/quizzes/get-started-with-django/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this quiz, you'll test your understanding of Django, a fully featured Python web framework. By working through this quiz, you'll revisit the steps to create a fully functioning web application and learn about some of…",
+      "ts": 1792756800,
+      "published": "2026-10-23T12:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Quiz: Sending Emails With Python",
+      "link": "https://realpython.com/quizzes/python-send-email-update/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Use Python's standard library to send email through secure SMTP connections, attach files, include HTML content, and route replies.",
+      "ts": 1792756800,
+      "published": "2026-10-23T12:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "5 Free AI Coding Agents You Should Try in 2026",
+      "link": "https://www.kdnuggets.com/5-free-ai-coding-agents-you-should-try-in-2026",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Access powerful open-source and proprietary models through OpenCode Zen, Gemini’s free quota, Kilo Gateway, Cline Provider, and Charm Hyper without paying for API access upfront.",
+      "ts": 1792756800,
+      "published": "2026-10-23T12:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Article: Multi-Cloud FinOps: An Engineering Framework for Cross-Cloud Cost Optimization",
+      "link": "https://www.infoq.com/articles/multi-cloud-finops-cost-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Multi-cloud flexibility comes with hidden egress costs driven by service placement and communication patterns. This article applies Backend FinOps to cross-cloud architecture, covering cost visibility through FOCUS, wor…",
+      "ts": 1792753200,
+      "published": "2026-10-23T11:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Presentation: Move Fast, Don’t Break Trust: Shipping Constantly with Humans and Beyond",
+      "link": "https://www.infoq.com/presentations/monzo-microservices-devex/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Suhail Patel discusses how Monzo structures its software engineering organization and technical stack to ship safely hundreds of times a day. He shares insights into opinionated microservice abstractions, tenancy-based…",
+      "ts": 1792753200,
+      "published": "2026-10-23T11:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Your Six AI Models Are Really Two: The Math of Correlated Mistakes",
+      "link": "https://towardsdatascience.com/your-six-ai-models-are-really-two-the-math-of-correlated-mistakes/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Ask several models the same question, take a vote, and you get fewer independent opinions than you paid for. One formula says how many, and I checked it on six open models and 1,500 exam questions. The post Your Six AI…",
+      "ts": 1792753200,
+      "published": "2026-10-23T11:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "[AINews] Black October",
+      "link": "https://latent.space/p/ainews-black-october/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "the Cyber onslaught continues.",
+      "ts": 1792750169,
+      "published": "2026-10-23T10:09:29+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
     {
       "title": "Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects",
       "link": "https://www.infoq.com/news/2026/10/anthropic-oss-security-scanner/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -101,6 +381,26 @@
       "ts": 1792713600,
       "published": "2026-10-23T00:00:00+00:00",
       "collected_at": "2026-10-23T18:47:51+09:00"
+    },
+    {
+      "title": "Azul Zulu October 2026 Quarterly Update: 53 CVEs, Then a Zero-Day One Day Later",
+      "link": "https://foojay.io/today/azul-zulu-october-2026-quarterly-update-and-out-of-cycle-release/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A record 53 CVEs fixed in the October 2026 quarterly update for Azul Zulu, overtaken within a day by a zero-day: compromised eMudhra CA keys and an out-of-cycle release.",
+      "ts": 1792713600,
+      "published": "2026-10-23T00:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "link": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1792713600,
+      "published": "2026-10-23T00:00:00+00:00",
+      "collected_at": "2026-10-23T23:45:33+09:00"
     },
     {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
@@ -10851,276 +11151,6 @@
       "ts": 1790175647,
       "published": "2026-09-23T15:00:47+00:00",
       "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Graphify: Unifying Codebase Context to Streamline Agentic Software Engineering",
-      "link": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Graphify is an open-source tool designed to convert codebases and unstructured data into queryable knowledge graphs. Launched in April 2026, it addresses challenges of multi-file reasoning for AI coding assistants. Rece…",
-      "ts": 1790172840,
-      "published": "2026-09-23T14:14:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Graphify: Unifying Codebase Context to Streamline Agentic Software Engineering",
-      "link": "https://www.infoq.com/news/2026/09/graphify-codebase-exploration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Graphify is an open-source tool designed to convert codebases and unstructured data into queryable knowledge graphs. Launched in April 2026, it addresses challenges of multi-file reasoning for AI coding assistants. Rece…",
-      "ts": 1790172840,
-      "published": "2026-09-23T14:14:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Why Most Data Science Notebooks Die After Day One: How to Build Ones That Survive",
-      "link": "https://www.kdnuggets.com/why-most-data-science-notebooks-die-after-day-one-how-to-build-ones-that-survive",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Six habits that keep a notebook runnable after you close the laptop.",
-      "ts": 1790172006,
-      "published": "2026-09-23T14:00:06+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "From Words to Vectors: What Happens in Between?",
-      "link": "https://towardsdatascience.com/from-words-to-vectors-what-happens-in-between/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A Journey through TF-IDF, vector space, and text classification The post From Words to Vectors: What Happens in Between? appeared first on Towards Data Science .",
-      "ts": 1790172001,
-      "published": "2026-09-23T14:00:01+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Beyond Kubernetes at Modal: How to Scale 1 Million Concurrent Sandboxes in Seconds",
-      "link": "https://www.infoq.com/news/2026/09/modal-scaling-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "In a recent article, Colin Weld and Connor Adams, staff engineers at Modal, describe how they rebuilt their sandbox infrastructure from the ground up to support millions of concurrent sandboxes and tens of thousands of…",
-      "ts": 1790172000,
-      "published": "2026-09-23T14:00:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Beyond Kubernetes at Modal: How to Scale 1 Million Concurrent Sandboxes in Seconds",
-      "link": "https://www.infoq.com/news/2026/09/modal-scaling-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "In a recent article, Colin Weld and Connor Adams, staff engineers at Modal, describe how they rebuilt their sandbox infrastructure from the ground up to support millions of concurrent sandboxes and tens of thousands of…",
-      "ts": 1790172000,
-      "published": "2026-09-23T14:00:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Cursor vs Copilot: Which AI Editor Is Better for Python?",
-      "link": "https://realpython.com/cursor-vs-copilot/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Compare Cursor vs GitHub Copilot by building a Python project, testing agent workflows, debugging code, and evaluating AI-assisted development.",
-      "ts": 1790172000,
-      "published": "2026-09-23T14:00:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-      "link": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself.",
-      "ts": 1790170038,
-      "published": "2026-09-23T13:27:18+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Cloudflare Cuts 100 TB of Memory from 1.1.1.1 DNS Cache",
-      "link": "https://www.infoq.com/news/2026/09/cloudflare-dns-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare redesigned the in-memory representation of its Big Pineapple DNS cache, reducing the per-entry footprint by 56% and freeing roughly 100 TB of working-set memory across its fleet. The Rust-based changes also i…",
-      "ts": 1790169720,
-      "published": "2026-09-23T13:22:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "**Know Who Spoke When: Build Real-Time, Multi-Speaker AI with NVIDIA Nemotron 3 Diarization**",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-diarization",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790169421,
-      "published": "2026-09-23T13:17:01+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Here’s a causal inference problem: where did the estimate of $64 million come from in “Blake Lively Says She Suffered $64 Million Financial Fallout From Justin Baldoni Conflict . . .”?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/23/heres-a-causal-inference-problem-where-did-the-estimate-of-64-million-come-from-in-blake-lively-says-she-suffered-64-million-financial-fallout-from-justin-baldoni-conflict/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "OK, here’s a causal inference problem for ya: Blake Lively Says She Suffered $64 Million Financial Fallout From Justin Baldoni Conflict . . . In Lively’s memorandum in opposition to Wayfarer Studios’ motion in limine fi…",
-      "ts": 1790169416,
-      "published": "2026-09-23T13:16:56+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "link": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "ts": 1790168400,
-      "published": "2026-09-23T13:00:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "How GRPO Trains Small Language Models with Verifiable Rewards",
-      "link": "https://towardsdatascience.com/how-grpo-trains-small-language-models-with-verifiable-rewards/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "The mechanics behind local reasoning experiments with Unsloth and why the reward function matters as much as the model. The post How GRPO Trains Small Language Models with Verifiable Rewards appeared first on Towards Da…",
-      "ts": 1790166601,
-      "published": "2026-09-23T12:30:01+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Claude Code reads AGENTS.md only when telemetry is on [fixed]",
-      "link": "https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://blog.szypowi.cz/p/claude-code-reads-agents.md-only-when-telemetry-is-on/ Comments URL: https://news.ycombinator.com/item?id=49814947 Points: 439 # Comments: 250",
-      "ts": 1790165733,
-      "published": "2026-09-23T12:15:33+00:00",
-      "collected_at": "2026-09-24T09:08:45+09:00"
-    },
-    {
-      "title": "RAG vs. Fine-Tuning for Domain Adaptation: When to Use Which",
-      "link": "https://machinelearningmastery.com/rag-vs-fine-tuning-for-domain-adaptation-when-to-use-which/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn the mechanical difference between retrieval-augmented generation and fine-tuning, when each technique is the right tool, and how to decide...",
-      "ts": 1790164823,
-      "published": "2026-09-23T12:00:23+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "High-Performance Data Processing with Polars: A KDnuggets Cheat Sheet",
-      "link": "https://www.kdnuggets.com/high-performance-data-processing-with-polars-a-cheat-sheet",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Polars is a DataFrame library written in Rust on the Apache Arrow memory format, and the speed comes less from the language than from the model. The model? Describe your work as expressions, and the Polars query engine…",
-      "ts": 1790164819,
-      "published": "2026-09-23T12:00:19+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Quiz: Cursor vs Copilot: Which AI Editor Is Better for Python?",
-      "link": "https://realpython.com/quizzes/cursor-vs-copilot/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of how Cursor and GitHub Copilot compare for Python across agent modes, code review, and project conventions.",
-      "ts": 1790164800,
-      "published": "2026-09-23T12:00:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Quiz: Sorting Algorithms in Python",
-      "link": "https://realpython.com/quizzes/sorting-algorithms-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of bubble sort, insertion sort, merge sort, Quicksort, and Timsort, and how Big O notation compares their efficiency.",
-      "ts": 1790164800,
-      "published": "2026-09-23T12:00:00+00:00",
-      "collected_at": "2026-09-24T01:27:29+09:00"
-    },
-    {
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "link": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "ts": 1790164800,
-      "published": "2026-09-23T12:00:00+00:00",
-      "collected_at": "2026-09-24T05:01:24+09:00"
-    },
-    {
-      "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
-      "ts": 1790164800,
-      "published": "2026-09-23T12:00:00+00:00",
-      "collected_at": "2026-09-24T05:01:24+09:00"
-    },
-    {
-      "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "link": "https://openai.com/index/ringg",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-      "ts": 1790164800,
-      "published": "2026-09-23T12:00:00+00:00",
-      "collected_at": "2026-09-24T05:01:24+09:00"
-    },
-    {
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "ts": 1790164800,
-      "published": "2026-09-23T12:00:00+00:00",
-      "collected_at": "2026-09-24T08:28:36+09:00"
-    },
-    {
-      "title": "How to Make Your First World Model from Scratch",
-      "link": "https://towardsdatascience.com/how-to-make-your-first-world-model-from-scratch/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A beginner-friendly guide to building a world model in Python, letting it daydream its way through CartPole, and accurately measuring when the illusion collapses. The post How to Make Your First World Model from Scratch…",
-      "ts": 1790161202,
-      "published": "2026-09-23T11:00:02+00:00",
-      "collected_at": "2026-09-23T20:05:59+09:00"
-    },
-    {
-      "title": "Presentation: APIs for Agents: Rethinking API Programs in the MCP Era",
-      "link": "https://www.infoq.com/presentations/mcp-calm-api-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Jim Gough and Andreea Niculcea explain how Morgan Stanley uses Architecture as Code with CALM to modernize its API program. They demonstrate integrating Model Context Protocol (MCP) and Agent-to-Agent (A2A) communicatio…",
-      "ts": 1790161200,
-      "published": "2026-09-23T11:00:00+00:00",
-      "collected_at": "2026-09-23T20:05:59+09:00"
-    },
-    {
-      "title": "Presentation: APIs for Agents: Rethinking API Programs in the MCP Era",
-      "link": "https://www.infoq.com/presentations/mcp-calm-api-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Jim Gough and Andreea Niculcea explain how Morgan Stanley uses Architecture as Code with CALM to modernize its API program. They demonstrate integrating Model Context Protocol (MCP) and Agent-to-Agent (A2A) communicatio…",
-      "ts": 1790161200,
-      "published": "2026-09-23T11:00:00+00:00",
-      "collected_at": "2026-09-23T20:05:59+09:00"
-    },
-    {
-      "title": "Google Adds Cycle-Level Kernel Profiling to XProf",
-      "link": "https://www.infoq.com/news/2026/09/google-tpu-xprof/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google has added a Kernel Profiling suite to XProf. This is its open-source profiler for TPU workloads. Now, developers can see cycle-level details in custom Pallas kernels. Before, these kernels appeared as single opaq…",
-      "ts": 1790157600,
-      "published": "2026-09-23T10:00:00+00:00",
-      "collected_at": "2026-09-23T20:05:59+09:00"
-    },
-    {
-      "title": "Introducing MentalHealthBench",
-      "link": "https://openai.com/index/introducing-mentalhealthbench",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
-      "ts": 1790157600,
-      "published": "2026-09-23T10:00:00+00:00",
-      "collected_at": "2026-09-24T05:01:24+09:00"
     }
   ]
 }
