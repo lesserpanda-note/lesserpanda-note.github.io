@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-24T03:56:36+09:00",
-  "count": 1114,
+  "updated": "2026-10-24T06:57:50+09:00",
+  "count": 1117,
   "items": [
+    {
+      "title": "Introducing Kimi K3.1 Pro",
+      "link": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Introducing Kimi K3.1 Pro Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\". They're also offering a \"Highspeed\" version th…",
+      "ts": 1792784454,
+      "published": "2026-10-23T19:40:54+00:00",
+      "collected_at": "2026-10-24T06:57:43+09:00"
+    },
     {
       "title": "1.15.29",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
@@ -223,6 +233,16 @@
       "collected_at": "2026-10-23T23:45:33+09:00"
     },
     {
+      "title": "A Python AI Tool Was Just Booby-Trapped With Key-Stealing Malware",
+      "link": "https://realpython.com/ai-news-weekly-2026-10-23/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Real Python's weekly AI news for October 17–23, 2026, explained in plain language: Poisoned AI Tool, PHP Security Fix, and PyTorch on TPUs.",
+      "ts": 1792764000,
+      "published": "2026-10-23T14:00:00+00:00",
+      "collected_at": "2026-10-24T06:57:43+09:00"
+    },
+    {
       "title": "A big problem with conventional experimentation or A/B testing is that the treatment effect can vary over time and it can depend on the entire history of the treatment. Usual comparisons miss this po…",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/23/a-big-problem-with-conventional-experimentation-or-a-b-testing-is-that-the-treatment-effect-can-vary-over-time-and-it-can-depend-on-the-entire-history-of-the-treatment-usual-comparisons-miss-this-po/",
       "source": "Statistical Modeling",
@@ -351,6 +371,16 @@
       "ts": 1792750169,
       "published": "2026-10-23T10:09:29+00:00",
       "collected_at": "2026-10-23T23:45:33+09:00"
+    },
+    {
+      "title": "Securing our frontier model training environment",
+      "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+      "ts": 1792749600,
+      "published": "2026-10-23T10:00:00+00:00",
+      "collected_at": "2026-10-24T06:57:43+09:00"
     },
     {
       "title": "Anthropic Adds Opt-In Security Scanning for Critical Open-Source Projects",
