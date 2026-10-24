@@ -1,7 +1,157 @@
 {
-  "updated": "2026-10-24T19:34:55+09:00",
-  "count": 1114,
+  "updated": "2026-10-24T23:21:24+09:00",
+  "count": 1116,
   "items": [
+    {
+      "title": "An Intro to Threading in Python",
+      "link": "https://realpython.com/intro-to-python-threading/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Python threading to run tasks concurrently, synchronize threads with locks and queues, and avoid race conditions and deadlocks.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Three Ways of Storing and Accessing Lots of Images in Python",
+      "link": "https://realpython.com/storing-images-in-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Compare three ways of storing images in Python, as PNG files on disk, in LMDB, and in HDF5, with timings for reading and writing lots of images.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Dictionaries in Python",
+      "link": "https://realpython.com/python-dicts/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how dictionaries in Python work: create and modify key-value pairs using dict literals, the dict() constructor, built-in methods, and operators.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Python String Formatting: Available Tools and Their Features",
+      "link": "https://realpython.com/python-string-formatting/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how Python string formatting works with f-strings, the .format() method, and the modulo operator, plus the strengths of each tool.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "A Guide to Modern Python String Formatting Tools",
+      "link": "https://realpython.com/python-formatted-output/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore Python's modern string formatting tools, and learn to harness f-strings and the .format() method for interpolation and formatting.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Alexa Python Development: Build and Deploy an Alexa Skill",
+      "link": "https://realpython.com/alexa-python-skill/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Become an Alexa Python developer by building and deploying your own Alexa skill, a joke bot that responds to voice commands on Amazon Alexa devices.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "How to Add Guardrails to a Local LLM Agent",
+      "link": "https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A hands-on guide with Gemma 4, Ollama, and the OpenAI Agents SDK The post How to Add Guardrails to a Local LLM Agent appeared first on Towards Data Science .",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Ideological bias in “Ideological bias in the production of research findings”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/24/ideological-bias-in-ideological-bias-in-the-production-of-research-findings/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "John Nielsen-Gammon points to a recent article, “Ideological bias in the production of research findings,” by George J. Borjas and Nate Breznau, which states: Our study exploits an opportunity to observe 158 researchers…",
+      "ts": 1792847341,
+      "published": "2026-10-24T13:09:01+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Quiz: Python Threading",
+      "link": "https://realpython.com/quizzes/python-threading/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "This is a quiz that will review topics covered in our An Intro To Threading tutorial.",
+      "ts": 1792843200,
+      "published": "2026-10-24T12:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Quiz: Working With JSON Data in Python",
+      "link": "https://realpython.com/quizzes/python-json/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this quiz, you'll test your understanding of working with JSON in Python. By working through this quiz, you'll revisit key concepts related to JSON data manipulation and handling in Python.",
+      "ts": 1792843200,
+      "published": "2026-10-24T12:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Quiz: How to Run a Python Script",
+      "link": "https://realpython.com/quizzes/running-python-scripts/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of how the Python interpreter works and how to run scripts from the command line, interactive mode, file managers, and IDEs.",
+      "ts": 1792843200,
+      "published": "2026-10-24T12:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Quiz: Defining Your Own Python Function",
+      "link": "https://realpython.com/quizzes/python-function/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this quiz, you'll test your understanding of defining and calling Python functions. You'll revisit the def keyword, parameters, arguments, and more.",
+      "ts": 1792843200,
+      "published": "2026-10-24T12:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Quiz: A Guide to Modern Python String Formatting Tools",
+      "link": "https://realpython.com/quizzes/python-formatted-output/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "You can take this quiz to test your understanding of modern tools for string formatting in Python. These tools include f-strings and the .format() method.",
+      "ts": 1792843200,
+      "published": "2026-10-24T12:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Python 3.15 Has a New Profiler",
+      "link": "https://towardsdatascience.com/python-315-has-a-new-profiler/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Here's what it finds that cProfile misses The post Python 3.15 Has a New Profiler appeared first on Towards Data Science .",
+      "ts": 1792843200,
+      "published": "2026-10-24T12:00:00+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Build Your Own Reasoning Model: A Full Video Course",
+      "link": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "source": "Ahead of AI",
+      "category": "AI",
+      "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
+      "ts": 1792840472,
+      "published": "2026-10-24T11:14:32+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
+    },
     {
       "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
       "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -41,6 +191,16 @@
       "ts": 1792826309,
       "published": "2026-10-24T07:18:29+00:00",
       "collected_at": "2026-10-24T19:34:49+09:00"
+    },
+    {
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "link": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: battledrones v14: Compass Rose, a four player map I added four player online mode to Battledrones - previous maps were limited to two. Here's the initial prompt I used: Add a new map for a four player battle -…",
+      "ts": 1792814397,
+      "published": "2026-10-24T03:59:57+00:00",
+      "collected_at": "2026-10-24T23:21:03+09:00"
     },
     {
       "title": "v2.61.0 (2026-10-23)",
@@ -11001,146 +11161,6 @@
       "ts": 1790262000,
       "published": "2026-09-24T15:00:00+00:00",
       "collected_at": "2026-09-25T03:53:29+09:00"
-    },
-    {
-      "title": "Un-Mused: How a Single Debug Setting Bypassed macOS Security in Meta’s AI Client",
-      "link": "https://www.infoq.com/news/2026/09/meta-muse-zeroday/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Security researcher Patrick Wardle revealed an unpatched zero-day vulnerability in Meta's Muse desktop client for macOS. This flaw lets unprivileged software manipulate the assistant's extensive permissions, compromisin…",
-      "ts": 1790259240,
-      "published": "2026-09-24T14:14:00+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "Healthy Feedback",
-      "link": "https://martinfowler.com/articles/healthy-peer-feedback.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Human collaboration, like most things, improves with feedback. But it's not obvious how to make feedback effective. Anuja Karnik and Sumeet Gayathri Moghe pass on a bevy of tips for healthy feedback, based on the princi…",
-      "ts": 1790259000,
-      "published": "2026-09-24T14:10:00+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790258937,
-      "published": "2026-09-24T14:08:57+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "MCP Explained in 5 Minutes",
-      "link": "https://www.kdnuggets.com/mcp-explained-in-5-minutes",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "A visual guide to MCP that explains how it works, how to use it with Claude Code, Tavily, GitHub, and Playwright, and what is new through simple diagrams that make the whole concept easy for anyone to understand.",
-      "ts": 1790258451,
-      "published": "2026-09-24T14:00:51+00:00",
-      "collected_at": "2026-09-25T03:53:29+09:00"
-    },
-    {
-      "title": "Beyond RAGs: Building Actually Truthful AI Harnesses",
-      "link": "https://towardsdatascience.com/beyond-rags-building-actually-truthful-ai-harnesses/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Retrieval is not evidence. How to build AI that proves its own claims. The post Beyond RAGs: Building Actually Truthful AI Harnesses appeared first on Towards Data Science .",
-      "ts": 1790258401,
-      "published": "2026-09-24T14:00:01+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "How to Get Started With Jev in Python",
-      "link": "https://realpython.com/jev-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Connect a Python script to the Jev model with the TypeSafe SDK and OpenRouter, then replace brittle input checks with Noul, Score, and Choice answers.",
-      "ts": 1790258400,
-      "published": "2026-09-24T14:00:00+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "It’s fine to use computer-generated survey responses—if you don’t care about the data anyway!",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/24/junk-polls-and-junk-survey-research-they-go-together-so-well/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Think about it like this: a survey organization uses a method M to get data D to give population estimates E which are used by clients to make actions A. The method M is crucial in determining data D, which … Continue r…",
-      "ts": 1790255957,
-      "published": "2026-09-24T13:19:17+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "GPT-6 Sol and Luna: Near-Astra Performance at Half the Price?",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/gpt-6-sol-and-luna/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "What happens when a frontier model’s abilities get packed into cheaper, faster versions? That’s what OpenAI did with GPT-6 Sol and GPT-6 Luna, two new models built with methods similar to GPT-6 Astra. OpenAI is cutting…",
-      "ts": 1790253292,
-      "published": "2026-09-24T12:34:52+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "Towards Spec-Driven Test Automation: Part 1",
-      "link": "https://towardsdatascience.com/towards-spec-driven-test-automation-part-1/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Why a green test suite can mean nothing The post Towards Spec-Driven Test Automation: Part 1 appeared first on Towards Data Science .",
-      "ts": 1790253002,
-      "published": "2026-09-24T12:30:02+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "What I’ve Learned About DeepSeek Harness",
-      "link": "https://www.kdnuggets.com/what-ive-learned-about-deepseek-harness",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "KDnuggets team member Shittu Olumide tested out DeepSeek Harness. Here's what he found.",
-      "ts": 1790251231,
-      "published": "2026-09-24T12:00:31+00:00",
-      "collected_at": "2026-09-25T03:53:29+09:00"
-    },
-    {
-      "title": "Agent or Workflow? A Practical Test for Knowing When You Actually Need an AI Agent",
-      "link": "https://machinelearningmastery.com/agent-or-workflow-a-practical-test-for-knowing-when-you-actually-need-an-ai-agent/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn the key differences between AI workflows and agents, and how to decide which approach is right for your use...",
-      "ts": 1790251202,
-      "published": "2026-09-24T12:00:02+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "Quiz: The Terminal: First Steps and Useful Commands for Python Developers",
-      "link": "https://realpython.com/quizzes/terminal-commands/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your grasp of terminal basics. Navigate your file system, create files, use virtual environments, install packages, and track code with Git.",
-      "ts": 1790251200,
-      "published": "2026-09-24T12:00:00+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "Quiz: How to Get Started With Jev in Python",
-      "link": "https://realpython.com/quizzes/jev-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check your understanding of the Jev AI model in Python, from OpenRouter setup and Noul cutoffs to Choice and Score answers.",
-      "ts": 1790251200,
-      "published": "2026-09-24T12:00:00+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "When the Correct Answer Is Nothing, What Does Your Pipeline Return?",
-      "link": "https://towardsdatascience.com/when-the-correct-answer-is-nothing-what-does-your-pipeline-return/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The reliability mechanisms we add to LLM pipelines are often the ones that make them confidently wrong. The post When the Correct Answer Is Nothing, What Does Your Pipeline Return? appeared first on Towards Data Science…",
-      "ts": 1790247601,
-      "published": "2026-09-24T11:00:01+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
     }
   ]
 }
