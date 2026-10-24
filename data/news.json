@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-24T23:21:24+09:00",
-  "count": 1116,
+  "updated": "2026-10-25T02:58:06+09:00",
+  "count": 1113,
   "items": [
+    {
+      "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
+      "link": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google explained how an 11-hour unattended run of Gemini 4 Argon produced two accepted optimizations for Google Agent Development Kit's codebase, reducing in-memory session-preparation overhead by about 40% in long sess…",
+      "ts": 1792857600,
+      "published": "2026-10-24T16:00:00+00:00",
+      "collected_at": "2026-10-25T02:58:00+09:00"
+    },
     {
       "title": "An Intro to Threading in Python",
       "link": "https://realpython.com/intro-to-python-threading/",
@@ -651,6 +661,16 @@
       "ts": 1792746000,
       "published": "2026-10-23T09:00:00+00:00",
       "collected_at": "2026-10-23T18:47:51+09:00"
+    },
+    {
+      "title": "PyPI now limits versions to 128 characters",
+      "link": "https://blog.pypi.org/posts/2026-10-23-version-length-limit/",
+      "source": "PyPI Blog",
+      "category": "Python",
+      "summary": "PyPI now rejects new uploads whose version is longer than 128 characters . This affects almost no one: across the roughly 9.9 million releases on PyPI, only 2 have a version that long. Releases that are already on PyPI…",
+      "ts": 1792735740,
+      "published": "2026-10-23T06:09:00+00:00",
+      "collected_at": "2026-10-25T02:58:00+09:00"
     },
     {
       "title": "v2.60.0 (2026-10-22)",
@@ -11111,56 +11131,6 @@
       "ts": 1790277323,
       "published": "2026-09-24T19:15:23+00:00",
       "collected_at": "2026-09-25T07:07:54+09:00"
-    },
-    {
-      "title": "Introducing Gemini 3.8 Live with Live Avatar",
-      "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790266839,
-      "published": "2026-09-24T16:20:39+00:00",
-      "collected_at": "2026-09-25T03:53:29+09:00"
-    },
-    {
-      "title": "Fragments: September 24",
-      "link": "https://martinfowler.com/fragments/2026-09-24.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Rob Bowley is “flipping tables in his head” with anger at the current media coverage of the danger of AI killing us all The risk I’m worried about isn’t a future machine deciding to wipe us out. It’s today’s AI, being w…",
-      "ts": 1790264100,
-      "published": "2026-09-24T15:35:00+00:00",
-      "collected_at": "2026-09-25T03:53:29+09:00"
-    },
-    {
-      "title": "How to Maximize Your Coding Agent Subscriptions",
-      "link": "https://towardsdatascience.com/how-to-maximize-your-coding-agent-subscriptions/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Get more out of your coding agent subscriptions The post How to Maximize Your Coding Agent Subscriptions appeared first on Towards Data Science .",
-      "ts": 1790263801,
-      "published": "2026-09-24T15:30:01+00:00",
-      "collected_at": "2026-09-25T03:53:29+09:00"
-    },
-    {
-      "title": "Foundries vs Navigators: Lowering the Cost of Science",
-      "link": "https://www.latent.space/p/foundries-vs-navigators-lowering",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously.",
-      "ts": 1790262196,
-      "published": "2026-09-24T15:03:16+00:00",
-      "collected_at": "2026-09-25T03:53:29+09:00"
-    },
-    {
-      "title": "InfoQ Launches High-Performing Teams Certification Program",
-      "link": "https://www.infoq.com/news/2026/09/high-performing-teams-program/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "InfoQ has opened enrollment for a new five-week certification program covering engineering team design, delivery flow, AI-enabled work, and metrics, facilitated by InfoQ editor and podcast co-host Olimpiu Pop. By Arteni…",
-      "ts": 1790262000,
-      "published": "2026-09-24T15:00:00+00:00",
-      "collected_at": "2026-09-25T03:53:29+09:00"
     }
   ]
 }
