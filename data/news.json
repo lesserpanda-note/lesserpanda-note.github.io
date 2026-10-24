@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-24T06:57:50+09:00",
-  "count": 1117,
+  "updated": "2026-10-24T09:28:31+09:00",
+  "count": 1110,
   "items": [
+    {
+      "title": "Quick Study",
+      "link": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Quick Study Prompt to Claude Opus 5.5 High : Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush See also my pr…",
+      "ts": 1792791313,
+      "published": "2026-10-23T21:35:13+00:00",
+      "collected_at": "2026-10-24T09:28:10+09:00"
+    },
     {
       "title": "Introducing Kimi K3.1 Pro",
       "link": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
@@ -11091,86 +11101,6 @@
       "ts": 1790219393,
       "published": "2026-09-24T03:09:53+00:00",
       "collected_at": "2026-09-24T12:56:49+09:00"
-    },
-    {
-      "title": "Diagrams as Code: Mermaid Support on the new Foojay",
-      "link": "https://foojay.io/today/diagrams-as-code-mermaid-support-on-foojay/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Foojay articles now render Mermaid diagrams from a fenced code block. Write the diagram in Markdown, get a real diagram, and keep it reviewable in the pull request.",
-      "ts": 1790208000,
-      "published": "2026-09-24T00:00:00+00:00",
-      "collected_at": "2026-09-24T09:08:45+09:00"
-    },
-    {
-      "title": "Episode 71 “Security in Java” [AtA]",
-      "link": "https://inside.java/2026/09/24/podcast-071/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Given how prevalent Java is on web servers throughout the internet, security in Java is of critical importance - there's the JDK itself, of course, but also the algorithms and features it offers to applications",
-      "ts": 1790208000,
-      "published": "2026-09-24T00:00:00+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "Spring Batch 6.1.0-M2 is out!",
-      "link": "https://spring.io/blog/2026/09/24/spring-batch-6",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 6.1.0-M2 is available now from Maven Central! This second milestone brings a number of new features, enhancements and a few breaking…",
-      "ts": 1790208000,
-      "published": "2026-09-24T00:00:00+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "Spring Web Services 5.1.0-M1 available now",
-      "link": "https://spring.io/blog/2026/09/24/spring-ws-5-1-0-M1-available-now",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Web Services 5.1.0-M1 has been released and is now available from Maven Central. This release includes 13 enhancements, dependenc…",
-      "ts": 1790208000,
-      "published": "2026-09-24T00:00:00+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "Spring Cloud 2026.0.0-M1 (aka Paddington) Has Been Released",
-      "link": "https://spring.io/blog/2026/09/24/spring-cloud-2026-0-0-M1-has-been-released",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the community, I am pleased to announce that the Milestone 1 (M1) of the Spring Cloud 2026.0.0-M1 Release Train is available today. The release can be found in the Spring milestone repository . You can chec…",
-      "ts": 1790208000,
-      "published": "2026-09-24T00:00:00+00:00",
-      "collected_at": "2026-09-25T10:15:44+09:00"
-    },
-    {
-      "title": "Spring Security 7.2.0-M2 available now",
-      "link": "https://spring.io/blog/2026/09/24/spring-security-7-2-0-M2-available-now",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and everyone who has contributed, I am pleased to announce the release of Spring Security 7.2.0-M2 . Please see the Spring Security 7.2.0-M2 release notes for more details. Project Page | GitHub |…",
-      "ts": 1790208000,
-      "published": "2026-09-24T00:00:00+00:00",
-      "collected_at": "2026-09-25T10:15:44+09:00"
-    },
-    {
-      "title": "langgraph-cli==0.4.32.dev0",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.32.dev0",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.32",
-      "ts": 1790206011,
-      "published": "2026-09-23T23:26:51+00:00",
-      "collected_at": "2026-09-24T08:28:36+09:00"
-    },
-    {
-      "title": "We just shipped support for the ugliest part of HTTP: Vary",
-      "link": "https://simonwillison.net/2026/Sep/23/hn-49823961/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "My comment on We just shipped support for the ugliest part of HTTP: Vary — Hacker News. I've been wanting this from Cloudflare for years . The classic problem here is if you do that thing where user agents that send \"ac…",
-      "ts": 1790205297,
-      "published": "2026-09-23T23:14:57+00:00",
-      "collected_at": "2026-09-28T15:28:55+09:00"
     }
   ]
 }
