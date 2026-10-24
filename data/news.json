@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-24T14:32:46+09:00",
-  "count": 1112,
+  "updated": "2026-10-24T19:34:55+09:00",
+  "count": 1114,
   "items": [
+    {
+      "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+      "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and…",
+      "ts": 1792830840,
+      "published": "2026-10-24T08:34:00+00:00",
+      "collected_at": "2026-10-24T19:34:49+09:00"
+    },
+    {
+      "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
+      "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and…",
+      "ts": 1792830840,
+      "published": "2026-10-24T08:34:00+00:00",
+      "collected_at": "2026-10-24T19:34:49+09:00"
+    },
+    {
+      "title": "Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing",
+      "link": "https://www.infoq.com/news/2026/10/cloudflare-hashing-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare recently documented how it reduced the memory footprint of its internal load-balancing service by more than 100 TB by optimizing the Rust implementation of consistent hashing in pingora-ketama. The changes co…",
+      "ts": 1792829400,
+      "published": "2026-10-24T08:10:00+00:00",
+      "collected_at": "2026-10-24T19:34:49+09:00"
+    },
+    {
+      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
+      "link": "https://latent.space/p/ainews-kimi-31/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "We have Fable at home... or so we are being told by paid shills",
+      "ts": 1792826309,
+      "published": "2026-10-24T07:18:29+00:00",
+      "collected_at": "2026-10-24T19:34:49+09:00"
+    },
     {
       "title": "v2.61.0 (2026-10-23)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.61.0",
@@ -31,6 +71,26 @@
       "ts": 1792804085,
       "published": "2026-10-24T01:08:05+00:00",
       "collected_at": "2026-10-24T14:32:24+09:00"
+    },
+    {
+      "title": "JCast Roundup: AI Agents, Clean Code, Cloud and Quarkus (Summer 2026)",
+      "link": "https://foojay.io/today/jcast-roundup-summer-2026/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Six new JCast episodes from June to October 2026: AI hype and agents, clean code, cloud costs, Quarkus with Kevin Dubois, and meeting-heavy days.",
+      "ts": 1792800000,
+      "published": "2026-10-24T00:00:00+00:00",
+      "collected_at": "2026-10-24T19:34:49+09:00"
+    },
+    {
+      "title": "Create an Uber Clone in 1 Minute",
+      "link": "https://foojay.io/today/create-an-uber-clone-in-1-minute/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Own a full-stack Java ride-hailing application: rider, driver and admin apps, payments, live tracking and push.",
+      "ts": 1792800000,
+      "published": "2026-10-24T00:00:00+00:00",
+      "collected_at": "2026-10-24T19:34:49+09:00"
     },
     {
       "title": "Quick Study",
@@ -11081,46 +11141,6 @@
       "ts": 1790247601,
       "published": "2026-09-24T11:00:01+00:00",
       "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "Presentation: Designing Fast, Delightful UX With LLMs for Mobile Frontends",
-      "link": "https://www.infoq.com/presentations/llm-mobile-frontend/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Balakrishnan Ramdoss discusses how to architect production-grade, AI-powered conversational apps at scale. He explains how to overcome model latency, leverage server-driven UI and Backend-for-Frontend patterns to dynami…",
-      "ts": 1790241840,
-      "published": "2026-09-24T09:24:00+00:00",
-      "collected_at": "2026-09-24T23:43:57+09:00"
-    },
-    {
-      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
-      "link": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Team Zuck is absolutely on fire.",
-      "ts": 1790237579,
-      "published": "2026-09-24T08:12:59+00:00",
-      "collected_at": "2026-09-24T18:12:44+09:00"
-    },
-    {
-      "title": "Apple Reference Image Signs Photos at the Sensor, Moving Provenance Trust Away from C2PA",
-      "link": "https://www.infoq.com/news/2026/09/apple-reference-image-provenance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Apple has published the design of Reference Image, an iPhone 18 Pro camera mode that signs pixel data at the sensor and develops it in Private Cloud Compute under an Apple signature. Developers on Hacker News and Reddit…",
-      "ts": 1790229000,
-      "published": "2026-09-24T05:50:00+00:00",
-      "collected_at": "2026-09-24T18:12:44+09:00"
-    },
-    {
-      "title": "Apple Reference Image Signs Photos at the Sensor, Moving Provenance Trust Away from C2PA",
-      "link": "https://www.infoq.com/news/2026/09/apple-reference-image-provenance/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Apple has published the design of Reference Image, an iPhone 18 Pro camera mode that signs pixel data at the sensor and develops it in Private Cloud Compute under an Apple signature. Developers on Hacker News and Reddit…",
-      "ts": 1790229000,
-      "published": "2026-09-24T05:50:00+00:00",
-      "collected_at": "2026-09-24T18:12:44+09:00"
     }
   ]
 }
