@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-24T09:28:31+09:00",
-  "count": 1110,
+  "updated": "2026-10-24T14:32:46+09:00",
+  "count": 1112,
   "items": [
+    {
+      "title": "v2.61.0 (2026-10-23)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.61.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Warn when a provider-specific thinking setting from a broader scope overrides thinking by @dsfaccini in #10231 Send the least thinking a model accepts for thinking=False on models t…",
+      "ts": 1792811620,
+      "published": "2026-10-24T03:13:40+00:00",
+      "collected_at": "2026-10-24T14:32:24+09:00"
+    },
+    {
+      "title": "1.15.30",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.30",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix AGENTS.md to start the login process while evaluating and stop after three rounds. Documentation Update snapshot and changelog for v1.15.29. Contributors @joaomdmoura",
+      "ts": 1792806964,
+      "published": "2026-10-24T01:56:04+00:00",
+      "collected_at": "2026-10-24T14:32:24+09:00"
+    },
+    {
+      "title": "langgraph==1.2.17",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.16 release(langgraph): 1.2.17 ( #9418 ) fix(langgraph): apply an explicit recursion_limit equal to the default ( #9417 ) fix(langgraph): keep the caller's namespace in RemoteGraph.stream(subgraphs=True…",
+      "ts": 1792804085,
+      "published": "2026-10-24T01:08:05+00:00",
+      "collected_at": "2026-10-24T14:32:24+09:00"
+    },
     {
       "title": "Quick Study",
       "link": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
@@ -11091,16 +11121,6 @@
       "ts": 1790229000,
       "published": "2026-09-24T05:50:00+00:00",
       "collected_at": "2026-09-24T18:12:44+09:00"
-    },
-    {
-      "title": "v2.49.0 (2026-09-23)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.49.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed 🚀 Features Add GitHubCopilotOAuthFlow for device authorization by @Kludex in #8618 Add BoolCriteria to say what a bool field's yes and no mean, and let a True / False Enum do the same by @DouweM in #8586…",
-      "ts": 1790219393,
-      "published": "2026-09-24T03:09:53+00:00",
-      "collected_at": "2026-09-24T12:56:49+09:00"
     }
   ]
 }
