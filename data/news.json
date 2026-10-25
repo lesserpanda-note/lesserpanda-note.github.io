@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-25T05:38:12+09:00",
-  "count": 1111,
+  "updated": "2026-10-25T10:01:46+09:00",
+  "count": 1105,
   "items": [
+    {
+      "title": "v2.1.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Security fixes v2.1.0 fixes eight vulnerabilities in three servers. Upgrade @modelcontextprotocol/server-filesystem and @modelcontextprotocol/server-everything to 2.0.1, and mcp-server-fetch to 2026.10.24. Package Affec…",
+      "ts": 1792886600,
+      "published": "2026-10-25T00:03:20+00:00",
+      "collected_at": "2026-10-25T10:01:39+09:00"
+    },
     {
       "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
       "link": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -11041,76 +11051,6 @@
       "ts": 1790299857,
       "published": "2026-09-25T01:30:57+00:00",
       "collected_at": "2026-09-25T16:21:59+09:00"
-    },
-    {
-      "title": "VoIP, VPN, and the Build System Behind Them",
-      "link": "https://foojay.io/today/voip-vpn-builders/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Codename One adds native call management and VPN APIs, while its builders generate the platform services, frameworks, permissions, and extension plumbing...",
-      "ts": 1790294400,
-      "published": "2026-09-25T00:00:00+00:00",
-      "collected_at": "2026-09-25T10:15:44+09:00"
-    },
-    {
-      "title": "BoxLang AI 3.4.0: Gateways, Human-in-the-Loop, and a Full Security Stack",
-      "link": "https://foojay.io/today/boxlang-ai-340-gateways-hitl-security/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "BoxLang AI 3.4.0 introduces gateways, durable human approvals, layered AI security, normalized reasoning, run control, and improvements across providers.",
-      "ts": 1790294400,
-      "published": "2026-09-25T00:00:00+00:00",
-      "collected_at": "2026-09-25T10:15:44+09:00"
-    },
-    {
-      "title": "The Limitations of Running a Workload Generator In the Same JVM as the System-Under-Test",
-      "link": "https://inside.java/2026/09/25/limitations-of-running-a-workload-generator-in-the-same-jvm/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "When you evaluate a system with a garbage collector and want to understand its tail latency, you often see SPECjbb2015 or DaCapo used. While both offer corrective measures for coordinated omission, only SPECjbb2015 can…",
-      "ts": 1790294400,
-      "published": "2026-09-25T00:00:00+00:00",
-      "collected_at": "2026-09-25T16:21:59+09:00"
-    },
-    {
-      "title": "Spring AI 2.1.0-M1 Available Now",
-      "link": "https://spring.io/blog/2026/09/25/spring-ai-2-1-0-M1-available-now",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the Spring AI team and everyone who has contributed, I'm happy to announce that Spring AI 2.1.0-M1 has been released and is now available from Maven Central! Release notes | Upgrade notes | Reference docume…",
-      "ts": 1790294400,
-      "published": "2026-09-25T00:00:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Spring Boot 4.2.0-M2 available now",
-      "link": "https://spring.io/blog/2026/09/25/spring-boot-4-2-0-M2-available-now",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 4.2.0-M2 has been released and is now available from Maven Central. This release includes 141 enhancements, documentation im…",
-      "ts": 1790294400,
-      "published": "2026-09-25T00:00:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "link": "https://openai.com/index/wayfair",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale.",
-      "ts": 1790294400,
-      "published": "2026-09-25T00:00:00+00:00",
-      "collected_at": "2026-10-06T07:23:01+09:00"
-    },
-    {
-      "title": "Note on 24th September 2026",
-      "link": "https://simonwillison.net/2026/Sep/24/harder/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary di…",
-      "ts": 1790292668,
-      "published": "2026-09-24T23:31:08+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
     }
   ]
 }
