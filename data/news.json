@@ -1,7 +1,97 @@
 {
-  "updated": "2026-10-25T22:03:36+09:00",
-  "count": 1099,
+  "updated": "2026-10-26T02:30:36+09:00",
+  "count": 1101,
   "items": [
+    {
+      "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
+      "link": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardwar…",
+      "ts": 1792947600,
+      "published": "2026-10-25T17:00:00+00:00",
+      "collected_at": "2026-10-26T02:30:08+09:00"
+    },
+    {
+      "title": "Logging in Python",
+      "link": "https://realpython.com/python-logging/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Go beyond print() with Python logging. Create your first logs, set levels and formats, and add handlers that grow with your projects.",
+      "ts": 1792936800,
+      "published": "2026-10-25T14:00:00+00:00",
+      "collected_at": "2026-10-26T02:30:08+09:00"
+    },
+    {
+      "title": "Python Modules and Packages – An Introduction",
+      "link": "https://realpython.com/python-modules-packages/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore Python modules and packages, the two mechanisms that make modular programming possible, and learn how imports find your code.",
+      "ts": 1792936800,
+      "published": "2026-10-25T14:00:00+00:00",
+      "collected_at": "2026-10-26T02:30:08+09:00"
+    },
+    {
+      "title": "Python REST APIs With Flask, Connexion, and SQLAlchemy – Part 3",
+      "link": "https://realpython.com/flask-connexion-rest-api-part-3/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Extend your Flask REST API with a SQLAlchemy one-to-many relationship that adds notes to people, and serve them through new API endpoints.",
+      "ts": 1792936800,
+      "published": "2026-10-25T14:00:00+00:00",
+      "collected_at": "2026-10-26T02:30:08+09:00"
+    },
+    {
+      "title": "Python's with Statement: Manage External Resources Safely",
+      "link": "https://realpython.com/python-with-statement/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Understand Python's with statement and context managers to streamline the setup and teardown phases in resource management. Start writing safer code today!",
+      "ts": 1792936800,
+      "published": "2026-10-25T14:00:00+00:00",
+      "collected_at": "2026-10-26T02:30:08+09:00"
+    },
+    {
+      "title": "Python Code Quality: Best Practices and Tools",
+      "link": "https://realpython.com/python-code-quality/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Python best practices for code quality: what makes code good, and the tools and strategies that keep it that way as a project grows.",
+      "ts": 1792936800,
+      "published": "2026-10-25T14:00:00+00:00",
+      "collected_at": "2026-10-26T02:30:08+09:00"
+    },
+    {
+      "title": "Python REST APIs With Flask, Connexion, and SQLAlchemy – Part 2",
+      "link": "https://realpython.com/flask-connexion-rest-api-part-2/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build a Flask REST API backed by a SQLite database. In part two of this series, you'll use SQLAlchemy and Marshmallow to persist and serialize data.",
+      "ts": 1792936800,
+      "published": "2026-10-25T14:00:00+00:00",
+      "collected_at": "2026-10-26T02:30:08+09:00"
+    },
+    {
+      "title": "Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail",
+      "link": "https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "When a tool breaks, an agent can keep going and write a confident answer from nothing while the dashboard stays green. The post Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail appeared firs…",
+      "ts": 1792936800,
+      "published": "2026-10-25T14:00:00+00:00",
+      "collected_at": "2026-10-26T02:30:08+09:00"
+    },
+    {
+      "title": "World’s dumbest AI spam just dropped",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/25/worlds-dumbest-spam-just-dropped/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I’ve seen some incompetent email scams before, but this is the worst so far: From: ** Subject: Availability inquiry: statistical-design review for FormalismBench Date: October 23, 2026 at 04:01:24 EDT To: gelman@stat.co…",
+      "ts": 1792934403,
+      "published": "2026-10-25T13:20:03+00:00",
+      "collected_at": "2026-10-26T02:30:08+09:00"
+    },
     {
       "title": "Quiz: Build a URL Shortener With FastAPI and Python",
       "link": "https://realpython.com/quizzes/build-a-python-url-shortener-with-fastapi/",
@@ -10920,76 +11010,6 @@
       "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
       "ts": 1790362800,
       "published": "2026-09-25T19:00:00+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
-    },
-    {
-      "title": "Quoting John Gruber",
-      "link": "https://simonwillison.net/2026/Sep/25/john-gruber/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-in…",
-      "ts": 1790356921,
-      "published": "2026-09-25T17:22:01+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
-    },
-    {
-      "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
-      "link": "https://github.com/Avinash-jetwani/jevmem",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/Avinash-jetwani/jevmem Comments URL: https://news.ycombinator.com/item?id=49846391 Points: 49 # Comments: 36",
-      "ts": 1790352244,
-      "published": "2026-09-25T16:04:04+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
-    },
-    {
-      "title": "10 Things I’m Learning Beyond AI to Become More Technologically Fluent",
-      "link": "https://towardsdatascience.com/10-things-im-learning-beyond-ai-to-become-more-technologically-fluent/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Part 1: Understanding the technologies shaping our future The post 10 Things I’m Learning Beyond AI to Become More Technologically Fluent appeared first on Towards Data Science .",
-      "ts": 1790350201,
-      "published": "2026-09-25T15:30:01+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
-    },
-    {
-      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
-      "link": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html Comments URL: https://news.ycombinator.com/item?id=49845977 Points: 207 # Comments: 291",
-      "ts": 1790350165,
-      "published": "2026-09-25T15:29:25+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
-    },
-    {
-      "title": "Home Made CobbleDB Replaces DynamoDB at Perplexity to Cut Query Latency 5x and Reduce Cloud Storage",
-      "link": "https://www.infoq.com/news/2026/09/cobbledb-perplexity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Perplexity has migrated its search infrastructure from Amazon DynamoDB to CobbleDB, an internally developed key-value store in Rust. This change reduced latency and costs associated with handling large document batches.…",
-      "ts": 1790345640,
-      "published": "2026-09-25T14:14:00+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
-    },
-    {
-      "title": "Batching by Length Instead of Looping Item by Item for SLM Optimization",
-      "link": "https://www.kdnuggets.com/batching-by-length-instead-of-looping-item-by-item-for-slm-optimization",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "We finish off our short series on SLM optimization with the third entry, focused on batching by length instead of looping item by item.",
-      "ts": 1790344807,
-      "published": "2026-09-25T14:00:07+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
-    },
-    {
-      "title": "Your Model's MSE Is Lying to You: Part II",
-      "link": "https://towardsdatascience.com/your-models-mse-is-lying-to-you-part-ii/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Autoregressive rollout and uncertainty propagation. Second in a series on probabilistic forecasting for physical signals. The post Your Model's MSE Is Lying to You: Part II appeared first on Towards Data Science .",
-      "ts": 1790344802,
-      "published": "2026-09-25T14:00:02+00:00",
       "collected_at": "2026-09-26T03:20:45+09:00"
     }
   ]
