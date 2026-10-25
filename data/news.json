@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-25T16:25:21+09:00",
-  "count": 1104,
+  "updated": "2026-10-25T22:03:36+09:00",
+  "count": 1099,
   "items": [
+    {
+      "title": "Quiz: Build a URL Shortener With FastAPI and Python",
+      "link": "https://realpython.com/quizzes/build-a-python-url-shortener-with-fastapi/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of building a URL shortener with FastAPI, from endpoints and pydantic schemas to SQLAlchemy models and redirects.",
+      "ts": 1792929600,
+      "published": "2026-10-25T12:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
+    },
+    {
+      "title": "Quiz: Python Debugging With Pdb",
+      "link": "https://realpython.com/quizzes/python-debugging-pdb/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice using pdb, Python's built-in debugger. Check variables, step through code, set conditional breakpoints, and read a stack trace.",
+      "ts": 1792929600,
+      "published": "2026-10-25T12:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
+    },
+    {
+      "title": "Quiz: Python's pathlib Module: Taming the File System",
+      "link": "https://realpython.com/quizzes/python-pathlib/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Revisit Python's pathlib module for handling file and folder paths consistently across operating systems. Write modern, object-oriented code.",
+      "ts": 1792929600,
+      "published": "2026-10-25T12:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
+    },
+    {
+      "title": "Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "link": "https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Beyond naive chunk-and-embed: Six production architectures for turning enterprise lakehouses into governed AI platforms. The post Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns appea…",
+      "ts": 1792929600,
+      "published": "2026-10-25T12:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
+    },
     {
       "title": "PingCAP Breach Exposes Customer Records and Source Code",
       "link": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -31,6 +71,36 @@
       "ts": 1792886600,
       "published": "2026-10-25T00:03:20+00:00",
       "collected_at": "2026-10-25T10:01:39+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 544: Ahead-of-Time Code Compilation",
+      "link": "https://inside.java/2026/10/25/jep544-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 544: Ahead-of-Time Code Compilation",
+      "ts": 1792886400,
+      "published": "2026-10-25T00:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
+    },
+    {
+      "title": "Sheetmusic4J 0.0.5: LilyPond Import and Export",
+      "link": "https://foojay.io/today/sheetmusic4j-0-0-5-lilypond-import-and-export/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Sheetmusic4J 0.0.5 can read and write LilyPond files through the ScoreFile facade, and brings engraving improvements like tuplet placement and octave clefs.",
+      "ts": 1792886400,
+      "published": "2026-10-25T00:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
+    },
+    {
+      "title": "Pi4J Drivers V1.2.0: ePaper, DAC/ADC, Motors, and LoRa",
+      "link": "https://foojay.io/today/pi4j-drivers-v1-2-0-epaper-dac-adc-motors-and-lora/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Pi4J Drivers V1.2.0 adds ePaper displays with partial updates, new DAC and ADC drivers, motor and servo controllers, and a LoRa transceiver driver for Java on the Raspberry Pi.",
+      "ts": 1792886400,
+      "published": "2026-10-25T00:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
     },
     {
       "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
@@ -111,6 +181,46 @@
       "ts": 1792850400,
       "published": "2026-10-24T14:00:00+00:00",
       "collected_at": "2026-10-24T23:21:03+09:00"
+    },
+    {
+      "title": "Python while Loops: Repeating Tasks Conditionally",
+      "link": "https://realpython.com/python-while-loop/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Master indefinite iteration with Python while loops: build simple and complex loops, use break and continue, and handle infinite loops.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
+    },
+    {
+      "title": "Working With JSON Data in Python",
+      "link": "https://realpython.com/python-json/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Use the Python json module to convert, read, write, and validate JSON data for APIs, config files, and on-disk storage.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
+    },
+    {
+      "title": "Python's asyncio: A Hands-On Walkthrough",
+      "link": "https://realpython.com/async-io-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore how Python asyncio works and when to use it. Follow hands-on examples to build efficient programs with coroutines and awaitable tasks.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
+    },
+    {
+      "title": "Defining Your Own Python Function",
+      "link": "https://realpython.com/defining-your-own-python-function/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to define your own Python function, pass data into it, and return results to write clean, reusable code in your programs.",
+      "ts": 1792850400,
+      "published": "2026-10-24T14:00:00+00:00",
+      "collected_at": "2026-10-25T22:03:27+09:00"
     },
     {
       "title": "Ideological bias in “Ideological bias in the production of research findings”",
@@ -10881,166 +10991,6 @@
       "ts": 1790344802,
       "published": "2026-09-25T14:00:02+00:00",
       "collected_at": "2026-09-26T03:20:45+09:00"
-    },
-    {
-      "title": "They were trying to convince everybody to have 3 kids",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/25/53011/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "We were just here–pretty unusual to see a museum exposition devoted to a census, can’t get much more up my alley than that! It was good. The above photo gives a sense of the charm of the exhibits, and they … Continue re…",
-      "ts": 1790341359,
-      "published": "2026-09-25T13:02:39+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Stateless MCP Removes Session Affinity Requirements for AWS Server Deployments",
-      "link": "https://www.infoq.com/news/2026/09/aws-stateless-mcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "AWS details how the latest Model Context Protocol specification removes protocol-level sessions, sticky-session requirements, and session storage for remote MCP servers. The change enables independent request routing an…",
-      "ts": 1790341080,
-      "published": "2026-09-25T12:58:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Stateless MCP Removes Session Affinity Requirements for AWS Server Deployments",
-      "link": "https://www.infoq.com/news/2026/09/aws-stateless-mcp/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS details how the latest Model Context Protocol specification removes protocol-level sessions, sticky-session requirements, and session storage for remote MCP servers. The change enables independent request routing an…",
-      "ts": 1790341080,
-      "published": "2026-09-25T12:58:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "RAG Isn't an Agent — I Built the Layer Between Retrieval and Action",
-      "link": "https://towardsdatascience.com/rag-isnt-an-agent-i-built-the-layer-between-retrieval-and-action/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "RAG retrieves. Agents act. I built both separately, connected them explicitly, and ran the same nine tasks through all three systems. The post RAG Isn't an Agent — I Built the Layer Between Retrieval and Action appeared…",
-      "ts": 1790339401,
-      "published": "2026-09-25T12:30:01+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Tool Calling vs. Code Execution for AI Agents: Choosing the Right Action Primitive",
-      "link": "https://machinelearningmastery.com/tool-calling-vs-code-execution-for-ai-agents-choosing-the-right-action-primitive/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "Theory is easier to trust once it's running against a real API, so both examples in this article use the same tool — a get_weather function backed by <a href=\"https://open-meteo.",
-      "ts": 1790337637,
-      "published": "2026-09-25T12:00:37+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "7 Advanced Python Tricks to Level Up Your Coding Skills",
-      "link": "https://www.kdnuggets.com/7-advanced-python-tricks-to-level-up-your-coding-skills",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Leveling up rarely means new syntax. It means learning what the language already promised you.",
-      "ts": 1790337622,
-      "published": "2026-09-25T12:00:22+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #312: Navigating AI in Open Source: Insights From Wagtail",
-      "link": "https://realpython.com/podcasts/rpp/312/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "How should you manage AI contributions to an open-source project? How do you measure the impact of using AI tools for development, and what generative features do end users want from a content management system? This we…",
-      "ts": 1790337600,
-      "published": "2026-09-25T12:00:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Quiz: Jupyter Notebook: An Introduction",
-      "link": "https://realpython.com/quizzes/jupyter-notebook-introduction/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Jupyter Notebook, from starting the server and running cells to exporting your work and adding extensions.",
-      "ts": 1790337600,
-      "published": "2026-09-25T12:00:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Jev vs. LLMs: When AI moves from Generation to Decision-making",
-      "link": "https://towardsdatascience.com/jev-vs-llms-when-ai-moves-from-generation-to-decision-making/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "I tested TypeSafe AI’s Jev on 3,080 classification tasks to see how its accuracy, latency, calibration, and confidence compare with LLMs — and whether it works as a practical decision layer for AI systems. The post Jev…",
-      "ts": 1790334001,
-      "published": "2026-09-25T11:00:01+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "From Agent Authorization to AI Production Evaluation: QCon AI New York 2026",
-      "link": "https://www.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "QCon AI New York has confirmed 23 sessions covering agent authorization, production guardrails, shared inference infrastructure, and the evaluation of AI systems after deployment. By Artenisa Chatziou",
-      "ts": 1790334000,
-      "published": "2026-09-25T11:00:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Podcast: The Future of AI: From Enterprise Adoption to Open Source Sovereignty",
-      "link": "https://www.infoq.com/podcasts/enterprise-adoption-open-source-sovereignty/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "In this episode, Meryem Arik, Clara Higuera Cabañes, and Jeff Smith, demystify the current state of AI in the enterprise. The discussion navigates the \"industrial revolution\" moment in AI adoption, exploring why compani…",
-      "ts": 1790334000,
-      "published": "2026-09-25T11:00:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "From Agent Authorization to AI Production Evaluation: QCon AI New York 2026",
-      "link": "https://www.infoq.com/news/2026/09/qcon-ai-newyork-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "QCon AI New York has confirmed 23 sessions covering agent authorization, production guardrails, shared inference infrastructure, and the evaluation of AI systems after deployment. By Artenisa Chatziou",
-      "ts": 1790334000,
-      "published": "2026-09-25T11:00:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Presentation: Spritely: Infrastructure for the Future of the Internet",
-      "link": "https://www.infoq.com/presentations/spritely-decentralized-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Christine Lemmer-Webber and David Thompson explain how Spritely's architecture solves core decentralization challenges. They share insights on capability-based access control with Goblins, actor-model communication via…",
-      "ts": 1790334000,
-      "published": "2026-09-25T11:00:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will fo…",
-      "ts": 1790327785,
-      "published": "2026-09-25T09:16:25+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Article: The Agent Harness: What It Is and Two Ways to Build One",
-      "link": "https://www.infoq.com/articles/agent-harness-build-one/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "This article explains the development and operational layers of an agent harness through two implementations of a finance assistant: AWS AgentCore Harness and LangChain with Envoy AI Gateway. It compares how each handle…",
-      "ts": 1790326800,
-      "published": "2026-09-25T09:00:00+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "10 Solved Generative AI Projects to Boost your Profile",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/solved-generative-ai-projects/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Projects are the bridge between learning and becoming a professional. While theory builds fundamentals, recruiters value candidates who can solve real problems. A strong, diverse portfolio showcases practical skills, te…",
-      "ts": 1790323079,
-      "published": "2026-09-25T07:57:59+00:00",
-      "collected_at": "2026-09-25T22:25:31+09:00"
     }
   ]
 }
