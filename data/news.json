@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-25T10:01:46+09:00",
-  "count": 1105,
+  "updated": "2026-10-25T16:25:21+09:00",
+  "count": 1104,
   "items": [
+    {
+      "title": "PingCAP Breach Exposes Customer Records and Source Code",
+      "link": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group FulcrumSec, claimed to have stolen 10.6 TB of data, incl…",
+      "ts": 1792909620,
+      "published": "2026-10-25T06:27:00+00:00",
+      "collected_at": "2026-10-25T16:25:16+09:00"
+    },
+    {
+      "title": "Kimi K3.1 Pro Review: Near-Opus Quality at 1/5th the Cost",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/kimi-k3-1-pro-review/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Claude Opus 5.5 and GPT-6 Astra are strong performers in coding and complex reasoning. But how does Kimi K3.1 Pro compare? Moonshot AI’s latest model delivers competitive coding-agent benchmark results, a 1-million-toke…",
+      "ts": 1792900983,
+      "published": "2026-10-25T04:03:03+00:00",
+      "collected_at": "2026-10-25T16:25:16+09:00"
+    },
     {
       "title": "v2.1.0",
       "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
@@ -173,6 +193,16 @@
       "collected_at": "2026-10-24T23:21:03+09:00"
     },
     {
+      "title": "Claude Code slyly adding users' emails to outbound HTTP",
+      "link": "https://twitter.com/chrislakin/status/2113358733548081528",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://twitter.com/chrislakin/status/2113358733548081528 Comments URL: https://news.ycombinator.com/item?id=50219875 Points: 21 # Comments: 4",
+      "ts": 1792837590,
+      "published": "2026-10-24T10:26:30+00:00",
+      "collected_at": "2026-10-25T16:25:16+09:00"
+    },
+    {
       "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
       "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -271,6 +301,16 @@
       "ts": 1792800000,
       "published": "2026-10-24T00:00:00+00:00",
       "collected_at": "2026-10-24T19:34:49+09:00"
+    },
+    {
+      "title": "Speech models in Ollama",
+      "link": "https://ollama.com/blog/speech-models",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "Ollama now supports speech models, starting with Phonon from Gradium. Read text aloud in five languages and dozens of voices, streamed as it is generated, over 100 times faster than real time on Apple Silicon.",
+      "ts": 1792800000,
+      "published": "2026-10-24T00:00:00+00:00",
+      "collected_at": "2026-10-25T16:25:16+09:00"
     },
     {
       "title": "Quick Study",
@@ -11001,56 +11041,6 @@
       "ts": 1790323079,
       "published": "2026-09-25T07:57:59+00:00",
       "collected_at": "2026-09-25T22:25:31+09:00"
-    },
-    {
-      "title": "Lowe’s answers millions of home improvement questions with OpenAI",
-      "link": "https://openai.com/index/lowes",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Lowe’s uses OpenAI models to power Mylow and Mylow Companion, helping customers and associates answer 25M+ questions and move home improvement projects forward.",
-      "ts": 1790319600,
-      "published": "2026-09-25T07:00:00+00:00",
-      "collected_at": "2026-10-10T05:45:21+09:00"
-    },
-    {
-      "title": "[AINews] The Future of Latent Space",
-      "link": "https://www.latent.space/p/ainews-the-future-of-latent-space",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us discuss the work behind the scenes - now open for business!",
-      "ts": 1790314620,
-      "published": "2026-09-25T05:37:00+00:00",
-      "collected_at": "2026-09-25T16:21:59+09:00"
-    },
-    {
-      "title": "v2.50.0 (2026-09-24)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.50.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Ask a DecisionModel which route to take by name, with one label per route by @DouweM in #8733 Make ModelSelectionContext.messages end with the request being routed, and add ModelSel…",
-      "ts": 1790311635,
-      "published": "2026-09-25T04:47:15+00:00",
-      "collected_at": "2026-09-25T16:21:59+09:00"
-    },
-    {
-      "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
-      "link": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that…",
-      "ts": 1790302024,
-      "published": "2026-09-25T02:07:04+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
-    },
-    {
-      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
-      "link": "https://www.latent.space/p/runway",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
-      "ts": 1790299857,
-      "published": "2026-09-25T01:30:57+00:00",
-      "collected_at": "2026-09-25T16:21:59+09:00"
     }
   ]
 }
