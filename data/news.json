@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-26T02:30:36+09:00",
-  "count": 1101,
+  "updated": "2026-10-26T05:36:03+09:00",
+  "count": 1102,
   "items": [
+    {
+      "title": "PHP Patches Two Critical RCE Flaws That Were Already Under Attack",
+      "link": "https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attempt four days before the patches shipped, and opera…",
+      "ts": 1792951620,
+      "published": "2026-10-25T18:07:00+00:00",
+      "collected_at": "2026-10-26T05:35:58+09:00"
+    },
+    {
+      "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
+      "link": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuro…",
+      "ts": 1792951200,
+      "published": "2026-10-25T18:00:00+00:00",
+      "collected_at": "2026-10-26T05:35:58+09:00"
+    },
     {
       "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
       "link": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -11001,16 +11021,6 @@
       "ts": 1790369454,
       "published": "2026-09-25T20:50:54+00:00",
       "collected_at": "2026-09-26T07:05:22+09:00"
-    },
-    {
-      "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "link": "https://openai.com/index/proaction",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
-      "ts": 1790362800,
-      "published": "2026-09-25T19:00:00+00:00",
-      "collected_at": "2026-09-26T03:20:45+09:00"
     }
   ]
 }
