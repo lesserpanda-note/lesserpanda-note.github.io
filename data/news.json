@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-26T08:05:33+09:00",
-  "count": 1102,
+  "updated": "2026-10-26T12:59:22+09:00",
+  "count": 1098,
   "items": [
+    {
+      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
+      "link": "https://minimaxir.com/2026/10/cheap-llms/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://minimaxir.com/2026/10/cheap-llms/ Comments URL: https://news.ycombinator.com/item?id=50236102 Points: 204 # Comments: 231",
+      "ts": 1792962691,
+      "published": "2026-10-25T21:11:31+00:00",
+      "collected_at": "2026-10-26T12:59:10+09:00"
+    },
     {
       "title": "The State of Context Engineering",
       "link": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
@@ -10971,56 +10981,6 @@
       "ts": 1790415480,
       "published": "2026-09-26T09:38:00+00:00",
       "collected_at": "2026-09-26T21:48:43+09:00"
-    },
-    {
-      "title": "One Database, Two Models: Building AI-Friendly Java Applications with MySQL JSON Duality Views",
-      "link": "https://foojay.io/today/one-database-two-models-mysql-json-duality-views-java/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Explore MySQL JSON Duality Views in Java: simpler reads, safe document writes, ORM comparisons, and read-only tools for a local AI assistant.",
-      "ts": 1790380800,
-      "published": "2026-09-26T00:00:00+00:00",
-      "collected_at": "2026-09-26T10:18:03+09:00"
-    },
-    {
-      "title": "JEP targeted to JDK 28: 539: Strict Field Initialization in the JVM (Preview)",
-      "link": "https://inside.java/2026/09/26/jep539-target-jdk28/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The following JEP is targeted to JDK 28: 539: Strict Field Initialization in the JVM (Preview)",
-      "ts": 1790380800,
-      "published": "2026-09-26T00:00:00+00:00",
-      "collected_at": "2026-09-26T21:48:43+09:00"
-    },
-    {
-      "title": "The Python documentation is now available in German",
-      "link": "https://blog.python.org/2026/09/python-docs-in-german/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "You can now read the Python documentation online in German!",
-      "ts": 1790380800,
-      "published": "2026-09-26T00:00:00+00:00",
-      "collected_at": "2026-09-27T04:41:06+09:00"
-    },
-    {
-      "title": "v2.51.0 (2026-09-25)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.51.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Match dated gemini-3.8-live ids, reject google_affective_dialog on Gemini 3.1 Flash Live and 3.8 Live at connect, and raise RealtimeError for Gemini Live close codes by @DouweM in #…",
-      "ts": 1790378344,
-      "published": "2026-09-25T23:19:04+00:00",
-      "collected_at": "2026-09-26T09:08:19+09:00"
-    },
-    {
-      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-      "link": "https://www.latent.space/p/openrouter",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B.",
-      "ts": 1790378081,
-      "published": "2026-09-25T23:14:41+00:00",
-      "collected_at": "2026-09-26T09:08:19+09:00"
     }
   ]
 }
