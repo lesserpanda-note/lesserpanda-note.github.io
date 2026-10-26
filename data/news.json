@@ -1,7 +1,107 @@
 {
-  "updated": "2026-10-27T02:10:28+09:00",
-  "count": 1130,
+  "updated": "2026-10-27T07:26:46+09:00",
+  "count": 1146,
   "items": [
+    {
+      "title": "One-year election analytics fellowship at the New York Times",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/26/one-year-election-analytics-fellowship-at-the-new-york-times/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Will Davis writes: We ended up hiring somebody who had seen the job posting through your blog, and he is fantastic. I also wanted to let you know that we have a fellowship slot open. This is a one-year, full-time … Cont…",
+      "ts": 1793053304,
+      "published": "2026-10-26T22:21:44+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "AGNTCon + MCPCon 2026: Agentic AI Foundation Adds Four Projects as MCP Turns to Security",
+      "link": "https://www.infoq.com/news/2026/10/agntcon-mcpcon-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "At AGNTCon + MCPCon North America 2026, the Agentic AI Foundation added OpenSandbox, Open Responses, Agent Skills, and OpenEnv, reaching ten projects in its first year. Keynotes from Anthropic, OpenAI, Google, and UC Be…",
+      "ts": 1793052000,
+      "published": "2026-10-26T22:00:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "OpenTofu 1.13 Lets Module Authors Reduce Unknown Values at Plan Time",
+      "link": "https://www.infoq.com/news/2026/10/opentofu-1-13-unknown-values/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "OpenTofu 1.13 adds convert and assume... functions that let module authors give the planner type and value hints for unknown values, so more expressions resolve during tofu plan. If a value unknown during planning later…",
+      "ts": 1793049960,
+      "published": "2026-10-26T21:26:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "langgraph==1.2.18",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.17 release(checkpoint): 4.3.1 ( #9447 ) release(langgraph): 1.2.18 ( #9445 ) fix(langgraph): let error_handler recover on every path and stream failed task results ( #9408 ) feat(langgraph): default de…",
+      "ts": 1793045116,
+      "published": "2026-10-26T20:05:16+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.10",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.9 release(checkpoint): 4.3.1 ( #9447 ) release(langgraph): 1.2.18 ( #9445 ) release(sdk-py): 0.4.10 ( #9446 ) fix(sdk-py): retry runs.wait with a bodyless GET and raise run errors in sync wait ( #…",
+      "ts": 1793044796,
+      "published": "2026-10-26T19:59:56+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "langgraph-checkpoint==4.3.1",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.1",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since checkpoint==4.3.0 release(checkpoint): 4.3.1 ( #9447 ) fix(checkpoint): reject NUL bytes in namespace labels ( #9383 ) chore(deps): bump certifi from 2026.1.4 to 2026.10.19 in /libs/checkpoint ( #9372 )",
+      "ts": 1793044661,
+      "published": "2026-10-26T19:57:41+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "Quoting Jason Koebler",
+      "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasi…",
+      "ts": 1793041225,
+      "published": "2026-10-26T19:00:25+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "Release: v5.21.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.21",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.21.0 New Model additions MiniCPM-OCR MiniCPM-OCR is a document-understanding model from OpenBMB's MiniCPM-V family. It keeps the MiniCPM-V 4.6 architecture, which pairs a SigLIP vision encoder and a window-at…",
+      "ts": 1793038890,
+      "published": "2026-10-26T18:21:30+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "DigitalOcean Launches Learning and Data Services to Enable Self-Improving AI Agents",
+      "link": "https://www.infoq.com/news/2026/10/digitalocean-self-improving-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DigitalOcean has announced the public preview of Learning Services and Agent Data Services, enabling developers to build, evaluate, and continuously improve AI agents within a unified, AI-native, cloud platform. By Serg…",
+      "ts": 1793037600,
+      "published": "2026-10-26T18:00:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "Will the real Anthropic please stand up",
+      "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The…",
+      "ts": 1793036743,
+      "published": "2026-10-26T17:45:43+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
     {
       "title": "langgraph-cli==0.4.40",
       "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.40",
@@ -223,6 +323,16 @@
       "collected_at": "2026-10-27T02:10:22+09:00"
     },
     {
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "ts": 1793022300,
+      "published": "2026-10-26T13:45:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
       "title": "Anthropic S-1",
       "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
       "source": "Hacker News",
@@ -353,6 +463,16 @@
       "collected_at": "2026-10-27T02:10:22+09:00"
     },
     {
+      "title": "ChatGPT’s expanding world of work",
+      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "ts": 1793008800,
+      "published": "2026-10-26T10:00:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
       "title": "GPT-6 Astra vs Gemini 4 Argon vs Claude Opus 5.5: Full Comparsion",
       "link": "https://www.analyticsvidhya.com/blog/2026/10/astra-vs-argon-vs-opus/",
       "source": "Analytics Vidhya",
@@ -381,6 +501,16 @@
       "ts": 1792998000,
       "published": "2026-10-26T07:00:00+00:00",
       "collected_at": "2026-10-27T02:10:22+09:00"
+    },
+    {
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "link": "https://openai.com/index/openai-cut-incident-investigation",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "ts": 1792998000,
+      "published": "2026-10-26T07:00:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
     },
     {
       "title": "Higher limits for organization projects",
@@ -421,6 +551,36 @@
       "ts": 1792972800,
       "published": "2026-10-26T00:00:00+00:00",
       "collected_at": "2026-10-26T19:00:33+09:00"
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E27 - Hugging Face for Java Developers with Pratik Patel",
+      "link": "https://spring.io/blog/2026/10/26/spring-office-hours-podcast-S5E27",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun are joined by Java Champion Pratik Patel to talk about Hugging Face for Java developers. Hugging Face h…",
+      "ts": 1792972800,
+      "published": "2026-10-26T00:00:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "Working with academic communities to build scientific understanding",
+      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "ts": 1792972800,
+      "published": "2026-10-26T00:00:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "Introducing GPT-6.1 Terra",
+      "link": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Bringing fast and capable computer use to everyone",
+      "ts": 1792972800,
+      "published": "2026-10-26T00:00:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
     },
     {
       "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
@@ -1531,6 +1691,16 @@
       "ts": 1792713600,
       "published": "2026-10-23T00:00:00+00:00",
       "collected_at": "2026-10-24T03:56:30+09:00"
+    },
+    {
+      "title": "Spring LDAP 4.2.0-RC1 Available Now",
+      "link": "https://spring.io/blog/2026/10/23/spring-ldap-4",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring LDAP 4.2.0-RC1 is available now from Maven Central. Make sure to checkout the What's New section of the documentation. Release No…",
+      "ts": 1792713600,
+      "published": "2026-10-23T00:00:00+00:00",
+      "collected_at": "2026-10-27T07:26:40+09:00"
     },
     {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
@@ -11291,16 +11461,6 @@
       "ts": 1790465946,
       "published": "2026-09-26T23:39:06+00:00",
       "collected_at": "2026-09-27T09:08:45+09:00"
-    },
-    {
-      "title": "42x faster prompt lookup drafting in llama.cpp",
-      "link": "https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://jadidbourbaki.github.io/blog/prompt-lookup-llama-cpp/ Comments URL: https://news.ycombinator.com/item?id=49859982 Points: 11 # Comments: 2",
-      "ts": 1790452644,
-      "published": "2026-09-26T19:57:24+00:00",
-      "collected_at": "2026-09-27T22:41:01+09:00"
     }
   ]
 }
