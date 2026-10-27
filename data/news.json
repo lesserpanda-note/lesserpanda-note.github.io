@@ -1,7 +1,97 @@
 {
-  "updated": "2026-10-27T23:11:17+09:00",
-  "count": 1173,
+  "updated": "2026-10-28T04:55:54+09:00",
+  "count": 1179,
   "items": [
+    {
+      "title": "Game Boy Color on My Conference Badge",
+      "link": "https://simonwillison.net/2026/Oct/27/game-boy-color-on-my-conference-badge/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Game Boy Color on My Conference Badge I'm at GitHub Universe this week and, similar to last year , the conference badge is a full-blown color screen computer. I've been hacking around with it again, and then I ran into…",
+      "ts": 1793129658,
+      "published": "2026-10-27T19:34:18+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
+      "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+      "link": "https://latent.space/p/opus55/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Katelyn Lesse and Angela Jiang on Opus 5.5, the Claude Platform, and the engineering behind AI agents.",
+      "ts": 1793127190,
+      "published": "2026-10-27T18:53:10+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
+      "title": "How Anthropic ships the #1 LLM in the World safely: Separating the Brain from the Hands",
+      "link": "https://latent.space/p/how_anthropic_ships_the_1_llm_in_the_world_safely_separating_the_brain_from_the_hands/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Katelyn Lesse and Angela Jiang join Latent Space to explain the engineering behind the Claude Platform: launching Opus 5.5, separating the model’s “brain” from the agent’s “hands,” scaling APIs, and building reliable ma…",
+      "ts": 1793126419,
+      "published": "2026-10-27T18:40:19+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3",
+      "link": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793121412,
+      "published": "2026-10-27T17:16:52+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "link": "https://huggingface.co/blog/allenai/novelty-bench",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793117562,
+      "published": "2026-10-27T16:12:42+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
+      "title": "Genie 4: A new generation of world simulation",
+      "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
+      "ts": 1793116898,
+      "published": "2026-10-27T16:01:38+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
+      "title": "I Broke a Browser Agent on Purpose. Spotting the Fault Was Not the Same as Fixing It",
+      "link": "https://towardsdatascience.com/i-broke-a-browser-agent-on-purpose-spotting-the-fault-was-not-the-same-as-fixing-it/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "I replayed correct model decisions through four broken browser actions. A simple page check missed half of the wrong clicks, and raised a false alarm on every click that worked inside an embedded page. The post I Broke…",
+      "ts": 1793115000,
+      "published": "2026-10-27T15:30:00+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
+      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+      "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 261 # Comments: 146",
+      "ts": 1793114906,
+      "published": "2026-10-27T15:28:26+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
+      "title": "Coding From the Himalayas With an Offline AI Agent",
+      "link": "https://latent.space/p/offline-coding/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
+      "ts": 1793112085,
+      "published": "2026-10-27T14:41:25+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
     {
       "title": "Python Circular Imports: Why They Happen and How to Fix Them",
       "link": "https://realpython.com/python-circular-imports/",
@@ -233,6 +323,16 @@
       "collected_at": "2026-10-27T16:31:22+09:00"
     },
     {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "link": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "ts": 1793084400,
+      "published": "2026-10-27T07:00:00+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
       "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
       "link": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -301,6 +401,26 @@
       "ts": 1793059200,
       "published": "2026-10-27T00:00:00+00:00",
       "collected_at": "2026-10-27T20:20:11+09:00"
+    },
+    {
+      "title": "This Week in Spring - October 27th, 2026",
+      "link": "https://spring.io/blog/2026/10/27/this-week-in-spring-october-27th-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring , which I write from the paradise-like environs Barcelona, Spain, where I was lucky enough to be a part of the amazing Vaadin Create event today and…",
+      "ts": 1793059200,
+      "published": "2026-10-27T00:00:00+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
+    },
+    {
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "link": "https://openai.com/index/check-point-daybreak",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "ts": 1793059200,
+      "published": "2026-10-27T00:00:00+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
     },
     {
       "title": "GPT-6.1 Terra",
@@ -2051,6 +2171,16 @@
       "ts": 1792713600,
       "published": "2026-10-23T00:00:00+00:00",
       "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
+      "link": "https://openai.com/index/anima",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
+      "ts": 1792713600,
+      "published": "2026-10-23T00:00:00+00:00",
+      "collected_at": "2026-10-28T04:55:49+09:00"
     },
     {
       "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
@@ -11661,76 +11791,6 @@
       "ts": 1790543626,
       "published": "2026-09-27T21:13:46+00:00",
       "collected_at": "2026-09-28T06:54:49+09:00"
-    },
-    {
-      "title": "Bluesky reply bot checker",
-      "link": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: Bluesky reply bot checker Automated reply bots on Twitter are a scourge - as someone with a decent number of followers I attract a swarm of these, such that anything I post there attracts dozens of mindless automa…",
-      "ts": 1790534504,
-      "published": "2026-09-27T18:41:44+00:00",
-      "collected_at": "2026-09-28T15:28:55+09:00"
-    },
-    {
-      "title": "SNL Weekend Update: Anthropic CEO Dario Amodei on A.I.'S Threat to Humanity [video]",
-      "link": "https://www.youtube.com/watch?v=-Nvne3LzBls",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.youtube.com/watch?v=-Nvne3LzBls Comments URL: https://news.ycombinator.com/item?id=49868831 Points: 175 # Comments: 88",
-      "ts": 1790530322,
-      "published": "2026-09-27T17:32:02+00:00",
-      "collected_at": "2026-09-28T09:17:09+09:00"
-    },
-    {
-      "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue",
-      "link": "https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue Comments URL: https://news.ycombinator.com/item?id=49868202 Points: 51 # C…",
-      "ts": 1790526578,
-      "published": "2026-09-27T16:29:38+00:00",
-      "collected_at": "2026-09-28T06:54:49+09:00"
-    },
-    {
-      "title": "There are no \"rogue\" AI agents",
-      "link": "https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents Comments URL: https://news.ycombinator.com/item?id=49868083 Points: 306 # Comments: 232",
-      "ts": 1790525986,
-      "published": "2026-09-27T16:19:46+00:00",
-      "collected_at": "2026-09-28T06:54:49+09:00"
-    },
-    {
-      "title": "Show HN: TinyAIArena watch AI agents battle it out",
-      "link": "https://tinyaiarena.com/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Did you ever click on an “AI Arena” expecting glorious battle and instead get a boring benchmark? If so, this project is for you: proper life-or-death fights between four models on a picturesque 8×8 grid. May the most i…",
-      "ts": 1790524288,
-      "published": "2026-09-27T15:51:28+00:00",
-      "collected_at": "2026-09-28T06:54:49+09:00"
-    },
-    {
-      "title": "I guess this is what they mean when they talk about “reactionary centrism”: Corruption of government facilitated by enablers in intellectual society",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/27/corruption-of-government-facilitated-by-enablers-in-intellectual-society/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Sometimes left-wing writers use the term “reactionary centrist,” and it always irritates me. Someone’s a centrist, but you’re calling him a “reactionary” just because he doesn’t agree with you on every issue? I get it t…",
-      "ts": 1790524017,
-      "published": "2026-09-27T15:46:57+00:00",
-      "collected_at": "2026-09-28T03:08:36+09:00"
-    },
-    {
-      "title": "GraphRAG with TypeSafe Jev: A System One Approach to Scalable Knowledge Graphs",
-      "link": "https://towardsdatascience.com/graphrag-with-typesafe-jev-a-system-one-approach-to-scalable-knowledge-graphs/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "How calibrated decision models can handle high-frequency graph decisions while LLMs remain focused on reasoning, synthesis, and open-ended generation. The post GraphRAG with TypeSafe Jev: A System One Approach to Scalab…",
-      "ts": 1790521201,
-      "published": "2026-09-27T15:00:01+00:00",
-      "collected_at": "2026-09-28T03:08:36+09:00"
     }
   ]
 }
