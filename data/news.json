@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-27T10:53:39+09:00",
-  "count": 1151,
+  "updated": "2026-10-27T16:31:27+09:00",
+  "count": 1153,
   "items": [
+    {
+      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
+      "link": "https://latent.space/p/ainews-anthropic-s1/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "The S-1, the numbers, and the reactions.",
+      "ts": 1793085899,
+      "published": "2026-10-27T07:24:59+00:00",
+      "collected_at": "2026-10-27T16:31:22+09:00"
+    },
+    {
+      "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
+      "link": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less friction than before AI.…",
+      "ts": 1793076300,
+      "published": "2026-10-27T04:45:00+00:00",
+      "collected_at": "2026-10-27T16:31:22+09:00"
+    },
+    {
+      "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
+      "link": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less friction than before AI.…",
+      "ts": 1793076300,
+      "published": "2026-10-27T04:45:00+00:00",
+      "collected_at": "2026-10-27T16:31:22+09:00"
+    },
+    {
+      "title": "v2.62.0 (2026-10-26)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.62.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Change thinking effort mid-conversation via OpenAI configuration_update and Anthropic per-message output_config , recorded as ModelSettingsDeltaPart by @DouweM in #11111 Add ModelRe…",
+      "ts": 1793068723,
+      "published": "2026-10-27T02:38:43+00:00",
+      "collected_at": "2026-10-27T16:31:22+09:00"
+    },
     {
       "title": "What jstack Misses When Your Java Service Uses Virtual Threads",
       "link": "https://foojay.io/today/what-jstack-misses-when-your-java-service-uses-virtual-threads/",
@@ -11491,26 +11531,6 @@
       "ts": 1790510400,
       "published": "2026-09-27T12:00:00+00:00",
       "collected_at": "2026-09-27T22:41:01+09:00"
-    },
-    {
-      "title": "GKE Pod Snapshots Cut Model Load Times, and Move the Work to Snapshot Lifecycle Management",
-      "link": "https://www.infoq.com/news/2026/09/gke-pod-snapshots-benchmarks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google has published benchmarks for GKE Pod snapshots, reporting up to 89% lower startup latency and a 70B model loading in 37 seconds. The feature checkpoints CPU and GPU memory through gVisor into Cloud Storage. Pract…",
-      "ts": 1790491560,
-      "published": "2026-09-27T06:46:00+00:00",
-      "collected_at": "2026-09-27T16:49:21+09:00"
-    },
-    {
-      "title": "GKE Pod Snapshots Cut Model Load Times, and Move the Work to Snapshot Lifecycle Management",
-      "link": "https://www.infoq.com/news/2026/09/gke-pod-snapshots-benchmarks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Google has published benchmarks for GKE Pod snapshots, reporting up to 89% lower startup latency and a 70B model loading in 37 seconds. The feature checkpoints CPU and GPU memory through gVisor into Cloud Storage. Pract…",
-      "ts": 1790491560,
-      "published": "2026-09-27T06:46:00+00:00",
-      "collected_at": "2026-09-27T16:49:21+09:00"
     }
   ]
 }
