@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-27T07:26:46+09:00",
-  "count": 1146,
+  "updated": "2026-10-27T10:53:39+09:00",
+  "count": 1151,
   "items": [
+    {
+      "title": "What jstack Misses When Your Java Service Uses Virtual Threads",
+      "link": "https://foojay.io/today/what-jstack-misses-when-your-java-service-uses-virtual-threads/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A service with virtual threads can have thousands of requests waiting while jstack shows idle carriers. How to read Thread.dump_to_file instead, JDK 21 to 25.",
+      "ts": 1793059200,
+      "published": "2026-10-27T00:00:00+00:00",
+      "collected_at": "2026-10-27T10:53:14+09:00"
+    },
+    {
+      "title": "New Java Features Are Not Just for Interviews. Two Real-World Use Cases from Axelix",
+      "link": "https://foojay.io/today/java-new-features-in-production/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "See how Axelix uses Java ScopedValue to propagate security context and sealed interfaces to protect domain invariants in real-world production code.",
+      "ts": 1793059200,
+      "published": "2026-10-27T00:00:00+00:00",
+      "collected_at": "2026-10-27T10:53:14+09:00"
+    },
+    {
+      "title": "DuckDB 2.0 Is Here",
+      "link": "https://foojay.io/today/duckdb-2-0-is-here/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "DuckDB 2.0.0 LTS - Cinnamon Teal - is the project's biggest release yet, with a server mode, async I/O, first-class VARIANT support and a new parser.",
+      "ts": 1793059200,
+      "published": "2026-10-27T00:00:00+00:00",
+      "collected_at": "2026-10-27T10:53:14+09:00"
+    },
+    {
+      "title": "GPT-6.1 Terra",
+      "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing…",
+      "ts": 1793058787,
+      "published": "2026-10-26T23:53:07+00:00",
+      "collected_at": "2026-10-27T10:53:14+09:00"
+    },
+    {
+      "title": "MRP at NYT",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/26/mrp-at-nyt/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Coincidentally, or maybe not, on the same day that our New York Times contact informed me about their new job opening, Yair points us to this new feature at the NYT website, “Times Voter Trends” at the NYT. Yair writes:…",
+      "ts": 1793054370,
+      "published": "2026-10-26T22:39:30+00:00",
+      "collected_at": "2026-10-27T10:53:14+09:00"
+    },
     {
       "title": "One-year election analytics fellowship at the New York Times",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/26/one-year-election-analytics-fellowship-at-the-new-york-times/",
@@ -21,6 +71,16 @@
       "ts": 1793052000,
       "published": "2026-10-26T22:00:00+00:00",
       "collected_at": "2026-10-27T07:26:40+09:00"
+    },
+    {
+      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "link": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
+      "ts": 1793052000,
+      "published": "2026-10-26T22:00:00+00:00",
+      "collected_at": "2026-10-27T10:53:14+09:00"
     },
     {
       "title": "OpenTofu 1.13 Lets Module Authors Reduce Unknown Values at Plan Time",
@@ -111,6 +171,16 @@
       "ts": 1793033154,
       "published": "2026-10-26T16:45:54+00:00",
       "collected_at": "2026-10-27T02:10:22+09:00"
+    },
+    {
+      "title": "webframe: evaluated as a scraper and a sandbox",
+      "link": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden…",
+      "ts": 1793031300,
+      "published": "2026-10-26T16:15:00+00:00",
+      "collected_at": "2026-10-27T10:53:14+09:00"
     },
     {
       "title": "Our newest AI Quest: Mapping the human brain",
@@ -11441,26 +11511,6 @@
       "ts": 1790491560,
       "published": "2026-09-27T06:46:00+00:00",
       "collected_at": "2026-09-27T16:49:21+09:00"
-    },
-    {
-      "title": "AI-assisted genealogy, a follow-up",
-      "link": "https://foojay.io/today/ai-assisted-genealogy-follow-up/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "A follow-up on AI-assisted genealogy: source quality with GEDCOM QUAY, per-site browsing skills, Playwright sessions, transcriptions, and hiccups along the way.",
-      "ts": 1790467200,
-      "published": "2026-09-27T00:00:00+00:00",
-      "collected_at": "2026-09-27T16:49:21+09:00"
-    },
-    {
-      "title": "Kākāpō Party",
-      "link": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: Kākāpō Party I gave presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we ha…",
-      "ts": 1790465946,
-      "published": "2026-09-26T23:39:06+00:00",
-      "collected_at": "2026-09-27T09:08:45+09:00"
     }
   ]
 }
