@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-28T08:39:16+09:00",
-  "count": 1185,
+  "updated": "2026-10-28T13:51:56+09:00",
+  "count": 1178,
   "items": [
+    {
+      "title": "v2.63.0 (2026-10-27)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.63.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Default CodeMode to dynamic_catalog=True , so a revealed tool is appended instead of rewriting the cached prompt by @DouweM in #11358 Pass the Gemini Live reconnect replay to Google…",
+      "ts": 1793148947,
+      "published": "2026-10-28T00:55:47+00:00",
+      "collected_at": "2026-10-28T13:50:53+09:00"
+    },
+    {
+      "title": "JVM on Unikernel Nanos — GC trade-offs and heap uncommit",
+      "link": "https://foojay.io/today/jvm-on-unikernel-nanos-gc-trade-offs-and-heap-uncommit/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Testing five HotSpot garbage collectors and heap uncommit on Nanos, revisiting the Akamas study with Eclipse Temurin 25 and Renaissance.",
+      "ts": 1793145600,
+      "published": "2026-10-28T00:00:00+00:00",
+      "collected_at": "2026-10-28T13:50:53+09:00"
+    },
+    {
+      "title": "Free Java, Real Risk: Why Unsupported OpenJDK Is Now a Security Gamble",
+      "link": "https://foojay.io/today/free-java-real-risk-why-unsupported-openjdk-is-now-a-security-gamble/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Learn why unsupported OpenJDK is a security risk in the age of AI.",
+      "ts": 1793145600,
+      "published": "2026-10-28T00:00:00+00:00",
+      "collected_at": "2026-10-28T13:50:53+09:00"
+    },
+    {
+      "title": "Announcing Vitra – A Modern UI Library for JavaFX",
+      "link": "https://foojay.io/today/announcing-vitra-modern-ui-library-for-javafx/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Vitra is a carefully crafted UI library that brings modern controls, Fluent-inspired materials and professional surfaces to JavaFX applications.",
+      "ts": 1793145600,
+      "published": "2026-10-28T00:00:00+00:00",
+      "collected_at": "2026-10-28T13:50:53+09:00"
+    },
     {
       "title": "1.15.32",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.32",
@@ -11741,116 +11781,6 @@
       "ts": 1790571240,
       "published": "2026-09-28T04:54:00+00:00",
       "collected_at": "2026-09-28T15:28:55+09:00"
-    },
-    {
-      "title": "Quoting Muse AI Agent",
-      "link": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told…",
-      "ts": 1790568090,
-      "published": "2026-09-28T04:01:30+00:00",
-      "collected_at": "2026-09-28T15:28:55+09:00"
-    },
-    {
-      "title": "Java News Roundup: TornadoVM 7.0, Groovy 6.0, GraalVM, Hibernate, Quarkus, Gradle, Maven",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for September 21st, 2026, features news highlighting: GA releases of TornadoVM 7.0 and Groovy 6.0; point releases of GraalVM and Gradle; maintenance releases of Quarkus and GDK for Micronaut; th…",
-      "ts": 1790562600,
-      "published": "2026-09-28T02:30:00+00:00",
-      "collected_at": "2026-09-28T15:28:55+09:00"
-    },
-    {
-      "title": "Java News Roundup: TornadoVM 7.0, Groovy 6.0, GraalVM, Hibernate, Quarkus, Gradle, Maven",
-      "link": "https://www.infoq.com/news/2026/09/java-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for September 21st, 2026, features news highlighting: GA releases of TornadoVM 7.0 and Groovy 6.0; point releases of GraalVM and Gradle; maintenance releases of Quarkus and GDK for Micronaut; th…",
-      "ts": 1790562600,
-      "published": "2026-09-28T02:30:00+00:00",
-      "collected_at": "2026-09-28T15:28:55+09:00"
-    },
-    {
-      "title": "Testing Kafka Consumer Recovery Contracts With Testcontainers and JUnit",
-      "link": "https://foojay.io/today/testing-kafka-consumer-recovery-contracts-with-testcontainers-and-junit/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Use Testcontainers and JUnit to test Kafka consumer recovery contracts for duplicate delivery, malformed records, and offset-boundary failures.",
-      "ts": 1790553600,
-      "published": "2026-09-28T00:00:00+00:00",
-      "collected_at": "2026-09-28T09:17:09+09:00"
-    },
-    {
-      "title": "How much will post-quantum migration cost your Java codebase?",
-      "link": "https://foojay.io/today/how-much-will-post-quantum-migration-cost-your-java-codebase/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "A static auditor that estimates what a post-quantum migration will cost a Java codebase, run across 27 popular Java projects to show where the cost hides.",
-      "ts": 1790553600,
-      "published": "2026-09-28T00:00:00+00:00",
-      "collected_at": "2026-09-28T09:17:09+09:00"
-    },
-    {
-      "title": "Performance Improvements in JDK 27",
-      "link": "https://inside.java/2026/09/28/performance-update-jdk27/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Notable performance improvements in JDK27",
-      "ts": 1790553600,
-      "published": "2026-09-28T00:00:00+00:00",
-      "collected_at": "2026-09-29T00:07:25+09:00"
-    },
-    {
-      "title": "Are you a Codex Original?",
-      "link": "https://openai.com/form/codex-originals",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "We’re collecting real stories of builders, tinkerers, researchers, and creators who are using Codex to do incredible things. If you want to be a part of the next chapter of the Codex Originals program, tell us more abou…",
-      "ts": 1790553600,
-      "published": "2026-09-28T00:00:00+00:00",
-      "collected_at": "2026-09-29T06:41:29+09:00"
-    },
-    {
-      "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "link": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-6 Astra completed a 50-tab tax workbook twice as fast as GPT-5.6 Sol, and its stronger understanding of user intent gives Basis more confidence in real-world use.",
-      "ts": 1790553600,
-      "published": "2026-09-28T00:00:00+00:00",
-      "collected_at": "2026-09-29T06:41:29+09:00"
-    },
-    {
-      "title": "Introducing Claude Sonnet 5.5",
-      "link": "https://www.anthropic.com/claude-sonnet-5-5",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Introducing Claude Sonnet 5.5",
-      "ts": 1790553600,
-      "published": "2026-09-28T00:00:00+00:00",
-      "collected_at": "2026-09-29T09:10:36+09:00"
-    },
-    {
-      "title": "Welcome RL Environments to the hub",
-      "link": "https://huggingface.co/blog/rl-environments",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790553600,
-      "published": "2026-09-28T00:00:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "2026 in LLMs (so far)",
-      "link": "https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "On Friday I gave the closing keynote at the WeAreDevelopers World Congress North America in San Jose. I tied together the key trends from the past year into a chronological exploration of everything that happened in 202…",
-      "ts": 1790553255,
-      "published": "2026-09-27T23:54:15+00:00",
-      "collected_at": "2026-09-28T09:17:09+09:00"
     }
   ]
 }
