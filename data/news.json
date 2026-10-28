@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-29T03:06:58+09:00",
+  "updated": "2026-10-29T08:00:18+09:00",
   "count": 1181,
   "items": [
+    {
+      "title": "Claude Code found 145K photos I deleted from my iPhone sitting in a hidden cache",
+      "link": "https://twitter.com/coolerwave/status/2114088769112477849",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://twitter.com/coolerwave/status/2114088769112477849 Comments URL: https://news.ycombinator.com/item?id=50281902 Points: 21 # Comments: 0",
+      "ts": 1793226870,
+      "published": "2026-10-28T22:34:30+00:00",
+      "collected_at": "2026-10-29T07:59:55+09:00"
+    },
+    {
+      "title": "v2.2.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Security: Node.js runtime and CA certificate updates (October 2026) On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates could be recovered from the public certifica…",
+      "ts": 1793221033,
+      "published": "2026-10-28T20:57:13+00:00",
+      "collected_at": "2026-10-29T07:59:55+09:00"
+    },
+    {
+      "title": "Creating AI value with enterprise context",
+      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one…",
+      "ts": 1793219522,
+      "published": "2026-10-28T20:32:02+00:00",
+      "collected_at": "2026-10-29T07:59:55+09:00"
+    },
+    {
+      "title": "Bou-Rabee’s breakthrough paper, “Persistence Pays: Square-root condition-number dependence for Metropolis-adjusted kinetic Langevin Monte Carlo …”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/28/bou-rabee-square-root-condition-number-dependence/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This post is from Bob This one’s a big deal. Bou-Rabee, Nawaf. 2026. Persistence Pays: Square-root condition-number dependence for Metropolis-adjusted kinetic Langevin Monte Carlo with a non-reversibly updated accept/re…",
+      "ts": 1793217608,
+      "published": "2026-10-28T20:00:08+00:00",
+      "collected_at": "2026-10-29T07:59:55+09:00"
+    },
+    {
+      "title": "Why Agents Love Supabase",
+      "link": "https://latent.space/p/supabase/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
+      "ts": 1793216885,
+      "published": "2026-10-28T19:48:05+00:00",
+      "collected_at": "2026-10-29T07:59:55+09:00"
+    },
     {
       "title": "Gemini 4 Carbon: Our next frontier model",
       "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
@@ -101,6 +151,16 @@
       "ts": 1793195580,
       "published": "2026-10-28T13:53:00+00:00",
       "collected_at": "2026-10-29T03:06:53+09:00"
+    },
+    {
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
+      "ts": 1793193300,
+      "published": "2026-10-28T13:15:00+00:00",
+      "collected_at": "2026-10-29T07:59:55+09:00"
     },
     {
       "title": "Tension vs. excitement during NBA games",
@@ -11751,66 +11811,6 @@
       "ts": 1790636781,
       "published": "2026-09-28T23:06:21+00:00",
       "collected_at": "2026-10-06T07:23:01+09:00"
-    },
-    {
-      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-      "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border cros…",
-      "ts": 1790633827,
-      "published": "2026-09-28T22:17:07+00:00",
-      "collected_at": "2026-09-29T09:10:36+09:00"
-    },
-    {
-      "title": "Claude Sonnet 5.5",
-      "link": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be…",
-      "ts": 1790633258,
-      "published": "2026-09-28T22:07:38+00:00",
-      "collected_at": "2026-09-29T09:10:36+09:00"
-    },
-    {
-      "title": "1.15.23",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.23",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add support for native Gemini 3.8 Flash Implement evaluation of the last traced run through AMP in crewai eval Record the last traced run for crewai eval instead of printing it Improve platform i…",
-      "ts": 1790630072,
-      "published": "2026-09-28T21:14:32+00:00",
-      "collected_at": "2026-09-29T06:41:29+09:00"
-    },
-    {
-      "title": "Quoting @joedaroo",
-      "link": "https://simonwillison.net/2026/Sep/28/joedaroo/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Securi…",
-      "ts": 1790622702,
-      "published": "2026-09-28T19:11:42+00:00",
-      "collected_at": "2026-09-29T06:41:29+09:00"
-    },
-    {
-      "title": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "ts": 1790622000,
-      "published": "2026-09-28T19:00:00+00:00",
-      "collected_at": "2026-09-29T06:41:29+09:00"
-    },
-    {
-      "title": "Towards safety cases for frontier AI training",
-      "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents",
-      "ts": 1790622000,
-      "published": "2026-09-28T19:00:00+00:00",
-      "collected_at": "2026-09-29T17:07:09+09:00"
     }
   ]
 }
