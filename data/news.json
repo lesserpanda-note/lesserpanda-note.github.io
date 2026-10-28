@@ -1,7 +1,77 @@
 {
-  "updated": "2026-10-28T13:51:56+09:00",
-  "count": 1178,
+  "updated": "2026-10-28T20:07:48+09:00",
+  "count": 1175,
   "items": [
+    {
+      "title": "Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability",
+      "link": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using open-source tooling…",
+      "ts": 1793185200,
+      "published": "2026-10-28T11:00:00+00:00",
+      "collected_at": "2026-10-28T20:07:30+09:00"
+    },
+    {
+      "title": "Your RAG Pipeline Is Missing a 1994 Algorithm",
+      "link": "https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Embeddings know that \"broken\" means \"defective\". They may not notice that ZX-4821 is not ZX-4812. The post Your RAG Pipeline Is Missing a 1994 Algorithm appeared first on Towards Data Science .",
+      "ts": 1793185200,
+      "published": "2026-10-28T11:00:00+00:00",
+      "collected_at": "2026-10-28T20:07:30+09:00"
+    },
+    {
+      "title": "Microsoft's October Security Update Fixes 1,400+ Vulnerabilities, One Exploited in the Wild",
+      "link": "https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as critical. Affected…",
+      "ts": 1793183400,
+      "published": "2026-10-28T10:30:00+00:00",
+      "collected_at": "2026-10-28T20:07:30+09:00"
+    },
+    {
+      "title": "Quoting Terk Terkowitz",
+      "link": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can exp…",
+      "ts": 1793182147,
+      "published": "2026-10-28T10:09:07+00:00",
+      "collected_at": "2026-10-28T20:07:30+09:00"
+    },
+    {
+      "title": "Legora is building the agentic operating system for legal work",
+      "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
+      "ts": 1793179800,
+      "published": "2026-10-28T09:30:00+00:00",
+      "collected_at": "2026-10-28T20:07:30+09:00"
+    },
+    {
+      "title": "Cloudflare Opens Quicksilver to Customers as Workers KV Instant, Inside a 1 MB Envelope",
+      "link": "https://www.infoq.com/news/2026/10/workers-kv-instant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare has put Quicksilver, the internal key-value store behind nearly every request it serves, into private beta as a Workers KV mode. Reads resolve in 1.62 ms at p99 against 287 ms for classic KV. The constraints…",
+      "ts": 1793177820,
+      "published": "2026-10-28T08:57:00+00:00",
+      "collected_at": "2026-10-28T20:07:30+09:00"
+    },
+    {
+      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
+      "link": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Since coding is solved, why code for the job?",
+      "ts": 1793177430,
+      "published": "2026-10-28T08:50:30+00:00",
+      "collected_at": "2026-10-28T20:07:30+09:00"
+    },
     {
       "title": "v2.63.0 (2026-10-27)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.63.0",
@@ -41,6 +111,16 @@
       "ts": 1793145600,
       "published": "2026-10-28T00:00:00+00:00",
       "collected_at": "2026-10-28T13:50:53+09:00"
+    },
+    {
+      "title": "Java Secure Coding Guidelines",
+      "link": "https://inside.java/2026/10/28/java-secure-coding-guidelines/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Get an overview of the Secure Coding Guidelines for Java and best practices. Examples will be provided to show insecure practices that may lead to security vulnerabilities. Learn how to avoid issues by applying the guid…",
+      "ts": 1793145600,
+      "published": "2026-10-28T00:00:00+00:00",
+      "collected_at": "2026-10-28T20:07:30+09:00"
     },
     {
       "title": "1.15.32",
@@ -11671,116 +11751,6 @@
       "ts": 1790596800,
       "published": "2026-09-28T12:00:00+00:00",
       "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "How to Catch Data Drift When Every Feature Looks Normal",
-      "link": "https://towardsdatascience.com/how-to-catch-data-drift-when-every-feature-looks-normal/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Detect hidden shifts in feature relationships with adversarial validation and scikit-learn The post How to Catch Data Drift When Every Feature Looks Normal appeared first on Towards Data Science .",
-      "ts": 1790593201,
-      "published": "2026-09-28T11:00:01+00:00",
-      "collected_at": "2026-09-29T00:07:25+09:00"
-    },
-    {
-      "title": "Presentation: From Consumers to Builders: Turning 200 of our Team into Agent Creators in 2 Weeks",
-      "link": "https://www.infoq.com/presentations/building-internal-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Ben Maraney shares how Forter demystified AI agent creation for technical and non-technical staff. He discusses leveraging custom MCP servers, combining no-code and code-based platforms, sidestepping complex RAG setups,…",
-      "ts": 1790593200,
-      "published": "2026-09-28T11:00:00+00:00",
-      "collected_at": "2026-09-29T00:07:25+09:00"
-    },
-    {
-      "title": "Article: Five Ways To Use AI Coding Agents to Improve Your Software Architecture",
-      "link": "https://www.infoq.com/articles/ai-agents-improve-software-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Modern architectures often use legacy services for specific tasks, but these services may lack accurate documentation and using them can be risky if you don't understand them well. AI coding agents can help close that k…",
-      "ts": 1790593200,
-      "published": "2026-09-28T11:00:00+00:00",
-      "collected_at": "2026-09-29T00:07:25+09:00"
-    },
-    {
-      "title": "Podcast: The AI Revolution Fails Without Psychological Safety For Developers: A Conversation with Erin Doyle",
-      "link": "https://www.infoq.com/podcasts/ai-revolution-psychological-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "In this podcast, Michael Stiefel spoke to Erin Doyle about how artificial intelligence tools are transforming the software development process, and how they are affecting software engineers. Architecture skills are now…",
-      "ts": 1790593200,
-      "published": "2026-09-28T11:00:00+00:00",
-      "collected_at": "2026-09-29T00:07:25+09:00"
-    },
-    {
-      "title": "Presentation: From Consumers to Builders: Turning 200 of our Team into Agent Creators in 2 Weeks",
-      "link": "https://www.infoq.com/presentations/building-internal-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Ben Maraney shares how Forter demystified AI agent creation for technical and non-technical staff. He discusses leveraging custom MCP servers, combining no-code and code-based platforms, sidestepping complex RAG setups,…",
-      "ts": 1790593200,
-      "published": "2026-09-28T11:00:00+00:00",
-      "collected_at": "2026-09-29T00:07:25+09:00"
-    },
-    {
-      "title": "Holo4: powering generalist computer-use agents",
-      "link": "https://huggingface.co/blog/Hcompany/holo4",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790588645,
-      "published": "2026-09-28T09:44:05+00:00",
-      "collected_at": "2026-09-29T00:07:25+09:00"
-    },
-    {
-      "title": "A More Reliable Compilation Scheme for Kotlin Multiplatform Modules",
-      "link": "https://blog.jetbrains.com/kotlin/2026/09/a-more-reliable-compilation-scheme-for-kotlin-multiplatform-modules/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "The current compilation approach to Kotlin Multiplatform projects works, but sometimes can lead to unexpected or hard-to-predict behavior. For example: With Kotlin 2.5.0-Beta1, we introduced an optional “separate compil…",
-      "ts": 1790588306,
-      "published": "2026-09-28T09:38:26+00:00",
-      "collected_at": "2026-09-29T00:07:25+09:00"
-    },
-    {
-      "title": "Who’s liable when AI agents go rogue?",
-      "link": "https://www.technologyreview.com/2026/09/28/1145197/whos-liable-when-ai-agents-go-rogue/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. Over the past few months, a cascade of c…",
-      "ts": 1790582782,
-      "published": "2026-09-28T08:06:22+00:00",
-      "collected_at": "2026-09-29T00:07:25+09:00"
-    },
-    {
-      "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "link": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is expanding the Lenfest AI Collaborative and Fellowship Program with $5 million in funding and up to $5 million in software credits and engineering support.",
-      "ts": 1790578800,
-      "published": "2026-09-28T07:00:00+00:00",
-      "collected_at": "2026-09-29T06:41:29+09:00"
-    },
-    {
-      "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
-      "link": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions.…",
-      "ts": 1790571240,
-      "published": "2026-09-28T04:54:00+00:00",
-      "collected_at": "2026-09-28T15:28:55+09:00"
-    },
-    {
-      "title": "AWS Introduces Foreign Key Constraints in Aurora DSQL",
-      "link": "https://www.infoq.com/news/2026/09/aurora-dsql-foreign-keys/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS recently announced that Aurora DSQL now supports foreign key constraints, allowing applications to enforce referential integrity directly in the database, including CASCADE, SET NULL, and other referential actions.…",
-      "ts": 1790571240,
-      "published": "2026-09-28T04:54:00+00:00",
-      "collected_at": "2026-09-28T15:28:55+09:00"
     }
   ]
 }
