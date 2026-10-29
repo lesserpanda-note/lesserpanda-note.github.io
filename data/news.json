@@ -1,7 +1,57 @@
 {
-  "updated": "2026-10-29T11:20:52+09:00",
-  "count": 1177,
+  "updated": "2026-10-29T18:38:28+09:00",
+  "count": 1179,
   "items": [
+    {
+      "title": "Patch release v5.21.1",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.21.1",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Patch release v5.21.1 ** Fix rope_scaling setter for configs that assign it during init ( #50080 ) We broke remote code loading in vllm, this fixes it sorry everyone!",
+      "ts": 1793262902,
+      "published": "2026-10-29T08:35:02+00:00",
+      "collected_at": "2026-10-29T18:38:22+09:00"
+    },
+    {
+      "title": "1.15.33",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.33",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add crewai skill search to list the organization's skills Pass crewai run --inputs to a Python flow Add deploy create --zip and print the commit a zip is built from Bug Fixes Report token usage f…",
+      "ts": 1793259384,
+      "published": "2026-10-29T07:36:24+00:00",
+      "collected_at": "2026-10-29T18:38:22+09:00"
+    },
+    {
+      "title": "Cloudflare Introduces Web Search API for AI Applications",
+      "link": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports bring-your-own-provi…",
+      "ts": 1793258040,
+      "published": "2026-10-29T07:14:00+00:00",
+      "collected_at": "2026-10-29T18:38:22+09:00"
+    },
+    {
+      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
+      "link": "https://latent.space/p/ainews-gemini-4-carbon/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
+      "ts": 1793253319,
+      "published": "2026-10-29T05:55:19+00:00",
+      "collected_at": "2026-10-29T18:38:22+09:00"
+    },
+    {
+      "title": "Claude Code regularly sends each background agent’s transcript to its model",
+      "link": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce Comments URL: https://news.ycombinator.com/item?id=50284255 Points: 355 # Comments: 115",
+      "ts": 1793244822,
+      "published": "2026-10-29T03:33:42+00:00",
+      "collected_at": "2026-10-29T18:38:22+09:00"
+    },
     {
       "title": "The Maven Build Cache in Practice",
       "link": "https://foojay.io/today/maven-build-cache-in-practice/",
@@ -21,6 +71,16 @@
       "ts": 1793232000,
       "published": "2026-10-29T00:00:00+00:00",
       "collected_at": "2026-10-29T11:20:46+09:00"
+    },
+    {
+      "title": "Episode 73 “Immutable Data Beyond Value Classes” [AtA]",
+      "link": "https://inside.java/2026/10/29/podcast-073/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Recent and upcoming Java features (e.g. value classes, withers, and lazy constants) make it easier to define, construct, copy, and access immutable data",
+      "ts": 1793232000,
+      "published": "2026-10-29T00:00:00+00:00",
+      "collected_at": "2026-10-29T18:38:22+09:00"
     },
     {
       "title": "Quoting Ted Sanders",
@@ -2121,6 +2181,16 @@
       "ts": 1792800000,
       "published": "2026-10-24T00:00:00+00:00",
       "collected_at": "2026-10-25T16:25:16+09:00"
+    },
+    {
+      "title": "Compromised Certificates and OpenJDK Java Runtimes",
+      "link": "https://inside.java/2026/10/24/openjdk-emudhra/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "As has been widely reported, the private keys of eight eMudhra intermediate CA certificates have been compromised. This page summarizes how to check whether your runtime is at risk and mitigation actions.",
+      "ts": 1792800000,
+      "published": "2026-10-24T00:00:00+00:00",
+      "collected_at": "2026-10-29T18:38:22+09:00"
     },
     {
       "title": "Quick Study",
@@ -11721,56 +11791,6 @@
       "ts": 1790676000,
       "published": "2026-09-29T10:00:00+00:00",
       "collected_at": "2026-09-30T05:33:07+09:00"
-    },
-    {
-      "title": "A Privacy Analysis of Web and Mobile Conversational AI Agents [pdf]",
-      "link": "https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://jorgegarciaherrero.com/wp-content/interactivos/20260916-Prompt-like-a-butterfly-sting-like-a-tracker-(clean).pdf Comments URL: https://news.ycombinator.com/item?id=49890226 Points: 392 # Comments: 1…",
-      "ts": 1790672621,
-      "published": "2026-09-29T09:03:41+00:00",
-      "collected_at": "2026-09-30T05:33:07+09:00"
-    },
-    {
-      "title": "7 Open-Source Memory GitHub Projects on AI Memory",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/github-projects-on-ai-memory/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "AI agents can handle large context windows, yet still forget what happened after a session ends. Memory systems close that gap by preserving useful facts, preferences, relationships, and task state, giving agents contin…",
-      "ts": 1790671714,
-      "published": "2026-09-29T08:48:34+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Python Workers Reach GA on Cloudflare, with Questions About Cold Starts and Upstream Maintenance",
-      "link": "https://www.infoq.com/news/2026/09/cloudflare-python-workers-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has made Python Workers generally available, built on PEP 783 and on socket syscalls implemented over the Workers connect API. The announcement carries no performance figures. A urllib3 maintainer questioned…",
-      "ts": 1790663580,
-      "published": "2026-09-29T06:33:00+00:00",
-      "collected_at": "2026-09-29T17:07:09+09:00"
-    },
-    {
-      "title": "[AINews] AMD buys World Labs for $8.2B, as Atlas solves sparse reconstruction problem for robotics, design and more",
-      "link": "https://www.latent.space/p/ainews-amd-buys-world-labs-for-82b",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Congrats team!",
-      "ts": 1790650527,
-      "published": "2026-09-29T02:55:27+00:00",
-      "collected_at": "2026-09-29T17:07:09+09:00"
-    },
-    {
-      "title": "[AINews] Opus 5.5 is good at explainer videos",
-      "link": "https://www.latent.space/p/ainews-opus-55-is-good-at-explainer",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a rare feature of a capability",
-      "ts": 1790649869,
-      "published": "2026-09-29T02:44:29+00:00",
-      "collected_at": "2026-09-29T17:07:09+09:00"
     }
   ]
 }
