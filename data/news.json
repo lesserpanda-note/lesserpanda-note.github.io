@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-29T08:00:18+09:00",
-  "count": 1181,
+  "updated": "2026-10-29T09:11:10+09:00",
+  "count": 1176,
   "items": [
+    {
+      "title": "Quoting Ted Sanders",
+      "link": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the vari…",
+      "ts": 1793229801,
+      "published": "2026-10-28T23:23:21+00:00",
+      "collected_at": "2026-10-29T09:11:01+09:00"
+    },
     {
       "title": "Claude Code found 145K photos I deleted from my iPhone sitting in a hidden cache",
       "link": "https://twitter.com/coolerwave/status/2114088769112477849",
@@ -71,6 +81,16 @@
       "ts": 1793205923,
       "published": "2026-10-28T16:45:23+00:00",
       "collected_at": "2026-10-29T03:06:53+09:00"
+    },
+    {
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "link": "https://surgehq.ai/blog/dayjob-tax",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://surgehq.ai/blog/dayjob-tax Comments URL: https://news.ycombinator.com/item?id=50275626 Points: 191 # Comments: 117",
+      "ts": 1793202390,
+      "published": "2026-10-28T15:46:30+00:00",
+      "collected_at": "2026-10-29T09:11:01+09:00"
     },
     {
       "title": "How to Make AI Work for End-to-End Business Processes",
@@ -11741,76 +11761,6 @@
       "ts": 1790643600,
       "published": "2026-09-29T01:00:00+00:00",
       "collected_at": "2026-09-29T10:36:38+09:00"
-    },
-    {
-      "title": "The Java 21 Doomsday Clock Countdown",
-      "link": "https://foojay.io/today/the-java-21-doomsday-clock-countdown/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Oracle's free NFTC license for Java 21 has expired, and the October 2026 quarterly update is the first one enterprises have to pay for. Here are the three options left, and why the timeline is short!",
-      "ts": 1790640000,
-      "published": "2026-09-29T00:00:00+00:00",
-      "collected_at": "2026-09-29T10:36:38+09:00"
-    },
-    {
-      "title": "JEP targeted to JDK 28: 541: Deprecate the macOS/x64 Port for Removal",
-      "link": "https://inside.java/2026/09/29/jep541-target-jdk28/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The following JEP is targeted to JDK 28: 541: Deprecate the macOS/x64 Port for Removal",
-      "ts": 1790640000,
-      "published": "2026-09-29T00:00:00+00:00",
-      "collected_at": "2026-09-29T17:07:09+09:00"
-    },
-    {
-      "title": "This Week in Spring - September 29th, 2026",
-      "link": "https://spring.io/blog/2026/09/29/this-week-in-spring-september-29th-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! Welcome to another rip-roarin' and exciting installment of This Week in Spring! We've got a ton of cool stuff to look at this week, so let's dive right into it! an important update on Spring's release p…",
-      "ts": 1790640000,
-      "published": "2026-09-29T00:00:00+00:00",
-      "collected_at": "2026-09-30T05:33:07+09:00"
-    },
-    {
-      "title": "Introducing dots",
-      "link": "https://openai.com/index/introducing-dots",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Dots by OpenAI are a proactive assistant that can keep working across complex projects and everyday tasks. Learn how dots help you stay in control while work moves forward.",
-      "ts": 1790640000,
-      "published": "2026-09-29T00:00:00+00:00",
-      "collected_at": "2026-09-30T05:33:07+09:00"
-    },
-    {
-      "title": "Ollama now supports Jev-style decision models",
-      "link": "https://ollama.com/blog/ollama-now-supports-jev-style-decision-models",
-      "source": "Ollama",
-      "category": "AI",
-      "summary": "Ollama now supports decision models, based on TypeSafe's Jev API for fast, typed decisions. Decision models can now be run at no cost with low latency. Based on text, decision models answer yes-or-no questions, choices…",
-      "ts": 1790640000,
-      "published": "2026-09-29T00:00:00+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "Anthropic's IPO prospectus shows AI vision, surging costs",
-      "link": "https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.reuters.com/business/finance/anthropics-ipo-prospectus-shows-sweeping-ai-vision-surging-costs-2026-09-28/ Comments URL: https://news.ycombinator.com/item?id=49886005 Points: 66 # Comments: 61",
-      "ts": 1790638859,
-      "published": "2026-09-28T23:40:59+00:00",
-      "collected_at": "2026-09-29T10:36:38+09:00"
-    },
-    {
-      "title": "llm-anthropic 0.30",
-      "link": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push…",
-      "ts": 1790636781,
-      "published": "2026-09-28T23:06:21+00:00",
-      "collected_at": "2026-10-06T07:23:01+09:00"
     }
   ]
 }
