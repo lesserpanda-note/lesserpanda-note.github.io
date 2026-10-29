@@ -1,7 +1,237 @@
 {
-  "updated": "2026-10-29T18:38:28+09:00",
-  "count": 1179,
+  "updated": "2026-10-30T01:45:54+09:00",
+  "count": 1178,
   "items": [
+    {
+      "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
+      "link": "https://latent.space/p/elorian/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "A new decoy counting benchmark exposes a gap between seeing and reasoning. Elorian’s Glimpse tries to bridge it by thinking with images.",
+      "ts": 1793289600,
+      "published": "2026-10-29T16:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "When Labels Say No, But Embeddings Say Yes",
+      "link": "https://towardsdatascience.com/when-labels-say-no-but-embeddings-say-yes/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Why traditional retrieval metrics miss meaningful similarities The post When Labels Say No, But Embeddings Say Yes appeared first on Towards Data Science .",
+      "ts": 1793287800,
+      "published": "2026-10-29T15:30:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Bug0 Releases QA Agent to Automate Regression Testing With Cached Playwright Replays",
+      "link": "https://www.infoq.com/news/2026/10/bug0-agent-testing-cached-replay/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "QA Agent is a new source-available Playwright library for agentic browser regression testing. The agent associates test instructions expressed in natural language to actions on the user interface, caches those when appr…",
+      "ts": 1793287020,
+      "published": "2026-10-29T15:17:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Bliki: LLM Voice",
+      "link": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Sometimes when I read a post, I get the growing feeling that I'm reading the output of an LLM. I can't necessarily define why, although there are the common tells (it's not the em-dashes, it's the load-bearing tapestrie…",
+      "ts": 1793284080,
+      "published": "2026-10-29T14:28:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "v5.22.0: Mistral Large 4 (Le Chonk)",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.22.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "New Models Mistral Large 4 (Le Chonk) Mistral Large 4 is Mistral's largest and most capable model to date: a 1 trillion-parameter natively multimodal Mixture-of-Experts model with 49 billion active parameters per token…",
+      "ts": 1793283418,
+      "published": "2026-10-29T14:16:58+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Quoting Ben Hylak",
+      "link": "https://simonwillison.net/2026/Oct/29/ben-hylak/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "every product i use should just be a headless mcp, that feeds into an agent, where i never have to think about anything underneath. except for our product, of course. in our product, customers love the ui and love us ve…",
+      "ts": 1793282787,
+      "published": "2026-10-29T14:06:27+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Learn With Mentor AI: A Guided Journey Through Async Python",
+      "link": "https://realpython.com/learn-with-mentor-ai-async-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Experience a new way of learning on Real Python by working through async Python in conversation with Mentor AI, one well-placed question at a time.",
+      "ts": 1793282400,
+      "published": "2026-10-29T14:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "The AI Skills That Actually Show Up in Job Postings Right Now",
+      "link": "https://www.kdnuggets.com/the-ai-skills-that-actually-show-up-in-job-postings-right-now",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Which AI skills appear most often in job postings right now, and what do they mean for your career?",
+      "ts": 1793282400,
+      "published": "2026-10-29T14:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Difference-in-Differences vs Lagged-Outcome Regression",
+      "link": "https://towardsdatascience.com/difference-in-differences-vs-lagged-outcome-regression/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A simulation study and a pre-period check for choosing the right design for self-selected treatments in product analytics. The post Difference-in-Differences vs Lagged-Outcome Regression appeared first on Towards Data S…",
+      "ts": 1793282400,
+      "published": "2026-10-29T14:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Why are good developers so wary of agentic development?",
+      "link": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "TL;DR Good developers’ caution about agentic development comes from knowing that built isn’t the same as working in production. I’ve been surprised by how many excellent developers have been hesitant to go all in on cod…",
+      "ts": 1793281800,
+      "published": "2026-10-29T13:50:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793281027,
+      "published": "2026-10-29T13:37:07+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "“In the run-up to the trial, the brothers conducted an elaborate public relations campaign . . . also arranged for payments to influencers and podcasters who made sympathetic social media posts about…",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/29/in-the-run-up-to-the-trial-the-brothers-conducted-an-elaborate-public-relations-campaign-also-arranged-for-payments-to-influencers-and-podcasters-who-made-sympathetic-social-media-posts-about/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "From a news article about some recently-convicted rapists: Three brothers who ran a yearslong conspiracy to traffic women and girls for sex were sentenced to 30 years each in prison on Tuesday . . . The brothers, more a…",
+      "ts": 1793280336,
+      "published": "2026-10-29T13:25:36+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Is the #1 AI Model Really #1?",
+      "link": "https://towardsdatascience.com/is-the-1-ai-model-really-1/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "On a 2,000-question test, my top two models couldn't be told apart at the usual 5% level. On a 200-question version, a different model would have taken first place about three times in ten. The post Is the #1 AI Model R…",
+      "ts": 1793277000,
+      "published": "2026-10-29T12:30:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "FDE vs AI Engineer: Roles, Skills, and Career Paths Explained",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/fde-vs-ai-engineer-roles-skills/",
+      "source": "Analytics Vidhya",
+      "category": "DataScience",
+      "summary": "Python, APIs, cloud deployment. You’ll find these skills in both forward deployed engineer and AI engineer job descriptions. Yet the two jobs can lead to very different working days. An FDE might spend the morning traci…",
+      "ts": 1793275794,
+      "published": "2026-10-29T12:09:54+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Quiz: Learn With Mentor AI: A Guided Journey Through Async Python",
+      "link": "https://realpython.com/quizzes/learn-with-mentor-ai-async-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice learning async Python with Mentor AI. Check how coroutines, await, and the event loop work, and how to steer your mentor.",
+      "ts": 1793275200,
+      "published": "2026-10-29T12:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Quiz: Dictionaries and Arrays: Selecting the Ideal Data Structure",
+      "link": "https://realpython.com/quizzes/dicts-arrays-ideal-data-structure/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python dictionaries and arrays, from dict, defaultdict, and ChainMap to lists, typed arrays, and bytearray.",
+      "ts": 1793275200,
+      "published": "2026-10-29T12:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "5 Docker Containers You Need for a Home AI Lab",
+      "link": "https://www.kdnuggets.com/5-docker-containers-you-need-for-a-home-ai-lab",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Learn which five Docker containers make a reliable home AI lab, from Ollama and Open WebUI to Qdrant, n8n and Portainer CE, what job each one does, and the first mistake to avoid with each.",
+      "ts": 1793275200,
+      "published": "2026-10-29T12:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "How to Make Artificial Intelligence More Environmentally Sustainable",
+      "link": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-level architectural con…",
+      "ts": 1793274060,
+      "published": "2026-10-29T11:41:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "QCon AI New York 2026 Program Committee Picks: Agent Identity, Context Costs, and Open-Source Infere",
+      "link": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-source inference, ag…",
+      "ts": 1793271600,
+      "published": "2026-10-29T11:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "What Is Harness Engineering? A Hands-On Introduction",
+      "link": "https://towardsdatascience.com/what-is-harness-engineering-a-hands-on-introduction/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Learn three essential primitives of harness engineering to future-proof your career The post What Is Harness Engineering? A Hands-On Introduction appeared first on Towards Data Science .",
+      "ts": 1793271600,
+      "published": "2026-10-29T11:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "We urgently need to monitor AI agents’ actions in real time",
+      "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be grad…",
+      "ts": 1793268672,
+      "published": "2026-10-29T10:11:12+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
+      "link": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents a pull request that…",
+      "ts": 1793267880,
+      "published": "2026-10-29T09:58:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
+      "link": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents a pull request that…",
+      "ts": 1793267880,
+      "published": "2026-10-29T09:58:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
     {
       "title": "Patch release v5.21.1",
       "link": "https://github.com/huggingface/transformers/releases/tag/v5.21.1",
@@ -81,6 +311,46 @@
       "ts": 1793232000,
       "published": "2026-10-29T00:00:00+00:00",
       "collected_at": "2026-10-29T18:38:22+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: 'Data Geekery' with JOOQ creator Lukas Eder",
+      "link": "https://spring.io/blog/2026/10/29/a-bootiful-podcast-lukas-eder",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! In this conversation, Josh Long explores how JOOQ turns SQL into a type-safe, fluent Java language—making complex database work safer, cleaner, and far more expressive. They cover everything from dynami…",
+      "ts": 1793232000,
+      "published": "2026-10-29T00:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "link": "https://huggingface.co/blog/announcing-project-protostar",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793232000,
+      "published": "2026-10-29T00:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "link": "https://huggingface.co/blog/mistral-large4",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793232000,
+      "published": "2026-10-29T00:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "link": "https://huggingface.co/blog/anydecisionmodel",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793232000,
+      "published": "2026-10-29T00:00:00+00:00",
+      "collected_at": "2026-10-30T01:45:32+09:00"
     },
     {
       "title": "Quoting Ted Sanders",
@@ -11510,286 +11780,6 @@
       "summary": "Learn how to use Julius AI to analyze Excel data, verify key findings, and turn them into an editable PowerPoint presentation.",
       "ts": 1790701240,
       "published": "2026-09-29T17:00:40+00:00",
-      "collected_at": "2026-09-30T05:33:07+09:00"
-    },
-    {
-      "title": "Photo Scrubber — local face blur & metadata removal",
-      "link": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build thi…",
-      "ts": 1790700327,
-      "published": "2026-09-29T16:45:27+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "OpenAI DevDay 2026 live blog",
-      "link": "https://simonwillison.net/2026/Sep/29/openai-devday-2026-live-blog/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I'm at OpenAI DevDay today, in Fort Mason, San Francisco. Same as last year I'll be live blogging the keynote and some other notes during the day. OpenAI gave me a free ticket and a seat in the \"creator\" area for the ke…",
-      "ts": 1790697313,
-      "published": "2026-09-29T15:55:13+00:00",
-      "collected_at": "2026-09-30T05:33:07+09:00"
-    },
-    {
-      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-      "link": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790695838,
-      "published": "2026-09-29T15:30:38+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "I Compacted 1,000 Apache Iceberg Files Into 6. Here’s What Happened to Query Performance.",
-      "link": "https://towardsdatascience.com/i-compacted-1000-apache-iceberg-files-into-6-heres-what-happened-to-query-performance/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Benchmarking the impact of fewer, larger files across three SQL workloads The post I Compacted 1,000 Apache Iceberg Files Into 6. Here’s What Happened to Query Performance. appeared first on Towards Data Science .",
-      "ts": 1790695801,
-      "published": "2026-09-29T15:30:01+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "AI Made Data Scientists Faster. Now It’s Expanding the Job.",
-      "link": "https://towardsdatascience.com/ai-made-data-scientists-faster-now-its-expanding-the-job/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The real shift is bigger than productivity: AI is reshaping ownership, judgment, and the career path of data scientists. The post AI Made Data Scientists Faster. Now It’s Expanding the Job. appeared first on Towards Dat…",
-      "ts": 1790690401,
-      "published": "2026-09-29T14:00:01+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "When All You Have Are Decoders, Every Decision Looks Like Generation",
-      "link": "https://towardsdatascience.com/when-all-you-have-are-decoders-every-decision-looks-like-generation/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Not every decision needs a decoder, generation Is not always a decision The post When All You Have Are Decoders, Every Decision Looks Like Generation appeared first on Towards Data Science .",
-      "ts": 1790690401,
-      "published": "2026-09-29T14:00:01+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "What's New in Python 3.15",
-      "link": "https://realpython.com/courses/whats-new-in-python-315/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Explore the new features in Python 3.15, including lazy imports, frozendict, sentinel values, a sampling profiler, and a faster JIT.",
-      "ts": 1790690400,
-      "published": "2026-09-29T14:00:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "SuperWhisper s1-mini: The 600M Parameter Model Built Just for Transcription",
-      "link": "https://www.kdnuggets.com/superwhisper-s1-mini-the-600m-parameter-model-built-just-for-transcription",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "This is a summary of, and insights into, what I found digging into the recently-released Superwhisper S1 family of voice-to-text models.",
-      "ts": 1790690400,
-      "published": "2026-09-29T14:00:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Bliki: Sensible Default",
-      "link": "https://martinfowler.com/bliki/SensibleDefault.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "A Sensible Default is a practice that, absent some overriding context, should be used when carrying out a certain kind of task. In software development such sensible defaults might include things like “use version contr…",
-      "ts": 1790689380,
-      "published": "2026-09-29T13:43:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Is it true that “AI Chooses Nuclear Option in 95% of War Simulations”?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/29/ai-chooses-nuclear-option-in-95-of-war-simulations/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "In a message entitled, “AI Hype Goes Nuclear: Debunking a Headline-Making Preprint,” Geoff Holtzman writes: On the last day of February, I [Holtzman] met some friends for dinner. Earlier that day, the U.S. had struck Ir…",
-      "ts": 1790687693,
-      "published": "2026-09-29T13:14:53+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents",
-      "link": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790687220,
-      "published": "2026-09-29T13:07:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Fragments: September 29",
-      "link": "https://martinfowler.com/fragments/2026-09-29.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Simon Willison: The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder We can do amazing things with them, but unlocking their full potential requires e…",
-      "ts": 1790685660,
-      "published": "2026-09-29T12:41:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "The State of Kotlin in 2026 Report",
-      "link": "https://blog.jetbrains.com/kotlin/2026/09/state-of-kotlin-2026-report/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "In 2026, Kotlin turned fifteen. Over those fifteen years, Kotlin has built a mature ecosystem, been adopted by companies around the world, and established a large and active developer community. Fifteen years is long en…",
-      "ts": 1790685509,
-      "published": "2026-09-29T12:38:29+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "How to Design Architectural Guardrails Around AI Agents",
-      "link": "https://towardsdatascience.com/how-to-design-architectural-guardrails-around-ai-agents/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Agent design patterns every data engineer must know The post How to Design Architectural Guardrails Around AI Agents appeared first on Towards Data Science .",
-      "ts": 1790685002,
-      "published": "2026-09-29T12:30:02+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "dotnet-1.23.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.23.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "dotnet-1.23.0",
-      "ts": 1790684791,
-      "published": "2026-09-29T12:26:31+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "5 Free Courses to Learn AI Engineering",
-      "link": "https://www.kdnuggets.com/5-free-courses-to-learn-ai-engineering",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn LLM fundamentals, AI engineering, RAG, MLOps, fine-tuning, and deployment with five practical courses designed to help you become a stronger AI and machine learning engineer.",
-      "ts": 1790683236,
-      "published": "2026-09-29T12:00:36+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Automating Knowledge Graph Population: Extracting Entities and Triples from Unstructured Text with an LLM",
-      "link": "https://machinelearningmastery.com/automating-knowledge-graph-population-extracting-entities-and-triples-from-unstructured-text-with-an-llm/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how to automatically extract structured knowledge from raw text and populate a knowledge graph with SPOC quads using a...",
-      "ts": 1790683220,
-      "published": "2026-09-29T12:00:20+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
-      "link": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "There was a flurry of activity during the week of September 21st, 2026, highlighting: second milestone releases of: Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framew…",
-      "ts": 1790683200,
-      "published": "2026-09-29T12:00:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Spring News Roundup: Second Milestone Releases of Boot, Framework, Data, Security, Integration",
-      "link": "https://www.infoq.com/news/2026/09/spring-news-roundup-sep21-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "There was a flurry of activity during the week of September 21st, 2026, highlighting: second milestone releases of: Spring Boot, Spring Batch, Spring Security, Spring AMQP, Spring Integration, Spring Data, Spring Framew…",
-      "ts": 1790683200,
-      "published": "2026-09-29T12:00:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Quiz: How to Use Python: Taking Your First Steps",
-      "link": "https://realpython.com/quizzes/first-steps-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your Python foundations. Review syntax, variables, data types, indentation, functions, errors, and the tools you write Python with.",
-      "ts": 1790683200,
-      "published": "2026-09-29T12:00:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Quiz: LLM Application Development With Python",
-      "link": "https://realpython.com/quizzes/llm-application-development-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your grasp of building LLM apps in Python, from calling model APIs and prompting to RAG, AI agents, and MCP.",
-      "ts": 1790683200,
-      "published": "2026-09-29T12:00:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Quiz: What's New in Python 3.15",
-      "link": "https://realpython.com/quizzes/whats-new-in-python-315/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your knowledge of Python 3.15, from lazy imports and frozendict to sentinels, friendlier errors, and UTF-8 by default.",
-      "ts": 1790683200,
-      "published": "2026-09-29T12:00:00+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Claude Sonnet 5.5 Review: Faster Agentic Coding & Visual QA",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/claude-sonnet-5-5-review/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "A practical guide to what changed, the benchmarks that matter, the cost controls developers should not miss, and one hands-on demo worth building. Anthropic has just released Claude Sonnet 5.5. It is the middle child of…",
-      "ts": 1790680931,
-      "published": "2026-09-29T11:22:11+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Building Fair Evaluation Sets Is a Combinatorial Problem",
-      "link": "https://towardsdatascience.com/building-fair-evaluation-sets-is-a-combinatorial-problem/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Here’s how to solve it exactly. The post Building Fair Evaluation Sets Is a Combinatorial Problem appeared first on Towards Data Science .",
-      "ts": 1790679602,
-      "published": "2026-09-29T11:00:02+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Language Models for Text Classification: From Bag-of-Words to Jev",
-      "link": "https://magazine.sebastianraschka.com/p/classifier-history-and-jev",
-      "source": "Ahead of AI",
-      "category": "AI",
-      "summary": "A Visual Guide to RNNs, CNNs, Transformers, and Calibration, with Hands-On Experiments on Accuracy and Efficiency",
-      "ts": 1790679025,
-      "published": "2026-09-29T10:50:25+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "Making AI an asset, not an expense",
-      "link": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. B…",
-      "ts": 1790678625,
-      "published": "2026-09-29T10:43:45+00:00",
-      "collected_at": "2026-09-30T00:31:10+09:00"
-    },
-    {
-      "title": "DevDay 2026 Recap",
-      "link": "https://openai.com/index/devday-2026-recap",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore more than 20 announcements from OpenAI DevDay 2026, including GPT-6 Astra, ChatGPT, Codex, APIs, security, and new tools for builders.",
-      "ts": 1790676000,
-      "published": "2026-09-29T10:00:00+00:00",
-      "collected_at": "2026-09-30T05:33:07+09:00"
-    },
-    {
-      "title": "Introducing GPT-6.1 Sol",
-      "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-      "ts": 1790676000,
-      "published": "2026-09-29T10:00:00+00:00",
       "collected_at": "2026-09-30T05:33:07+09:00"
     }
   ]
