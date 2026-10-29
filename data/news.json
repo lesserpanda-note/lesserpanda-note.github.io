@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-29T09:11:10+09:00",
-  "count": 1176,
+  "updated": "2026-10-29T11:20:52+09:00",
+  "count": 1177,
   "items": [
+    {
+      "title": "The Maven Build Cache in Practice",
+      "link": "https://foojay.io/today/maven-build-cache-in-practice/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "The Maven Build Cache significantly reduces build times in enterprise projects. Learn how we introduced it in Azure DevOps pipelines, the issues we encountered, and the valuable lessons we learned along the way.",
+      "ts": 1793232000,
+      "published": "2026-10-29T00:00:00+00:00",
+      "collected_at": "2026-10-29T11:20:46+09:00"
+    },
+    {
+      "title": "How We Share Foojay Posts on Social Media",
+      "link": "https://foojay.io/today/how-we-share-foojay-posts-on-social-media/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Every new Foojay article is announced on Mastodon, Bluesky and LinkedIn by one small JBang script. How it works and which problems we had to solve.",
+      "ts": 1793232000,
+      "published": "2026-10-29T00:00:00+00:00",
+      "collected_at": "2026-10-29T11:20:46+09:00"
+    },
     {
       "title": "Quoting Ted Sanders",
       "link": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
@@ -411,6 +431,16 @@
       "ts": 1793145600,
       "published": "2026-10-28T00:00:00+00:00",
       "collected_at": "2026-10-29T03:06:53+09:00"
+    },
+    {
+      "title": "Using Your Own Embeddings in Spring AI 2.1",
+      "link": "https://spring.io/blog/2026/10/28/spring-ai-upsert-own-embeddings",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "VectorStore.add() takes text documents, generates embeddings with the store's configured model, and saves both. Spring AI 2.1 adds upsert for applications that already have embeddings or generate them from images, video…",
+      "ts": 1793145600,
+      "published": "2026-10-28T00:00:00+00:00",
+      "collected_at": "2026-10-29T11:20:46+09:00"
     },
     {
       "title": "1.15.32",
@@ -11741,26 +11771,6 @@
       "ts": 1790649869,
       "published": "2026-09-29T02:44:29+00:00",
       "collected_at": "2026-09-29T17:07:09+09:00"
-    },
-    {
-      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
-      "link": "https://www.latent.space/p/thariq",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
-      "ts": 1790646498,
-      "published": "2026-09-29T01:48:18+00:00",
-      "collected_at": "2026-09-29T17:07:09+09:00"
-    },
-    {
-      "title": "How we will do better for Australia",
-      "link": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI apologizes for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-      "ts": 1790643600,
-      "published": "2026-09-29T01:00:00+00:00",
-      "collected_at": "2026-09-29T10:36:38+09:00"
     }
   ]
 }
