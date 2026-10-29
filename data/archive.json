@@ -1,6 +1,68 @@
 {
   "digests": [
     {
+      "date": "2026-10-28",
+      "summary": "Anthropic이 Opus 5.5를 어떻게 출시하고 Managed Agents에서 에이전트의 \"두뇌\"와 실행 샌드박스를 왜 떼어 놓았는지, 그리고 하루 3만 건 병합을 버티려고 모노레포를 Git에서 서버 중심 Scion으로 옮긴 설계가 함께 공개됐습니다. Google DeepMind는 오디오와 대화까지 실시간으로 생성하는 월드 모델 Genie 4를 내놓았고, Bartz 합의 밖에서 스탠퍼드 교수들이 Anthropic을 상대로 별도 저작권 소송을 이어 가고 있습니다. 브라우저 에이전트 실험은 결함을 진단하는 것과 복구하는 것이 다른 문제임을 수치로 보여 주고, Python 쪽은 Pyrefly 타입 검사와 MCP 대 직접 API 호출의 선택 기준을, 통계 쪽은 병원 품질 비교의 직접 표준화를 다룹니다.",
+      "highlights": [
+        {
+          "category": "Agents",
+          "title": "How Anthropic ships Claude with Claude: Separating the Brain from the Hands",
+          "link": "https://latent.space/p/opus55/",
+          "summary": "Latent Space가 Anthropic 플랫폼 엔지니어링·제품 책임자 Katelyn Lesse, Angela Jiang과 Opus 5.5 출시와 Managed Agents의 \"두뇌와 손 분리\" 설계를 이야기했습니다.",
+          "detail": "핵심은 Managed Agents가 **세션 로그·하네스(두뇌)**와 **코드를 실행하는 샌드박스(손)**를 떼어 놓았다는 점입니다. 예전에는 코딩 에이전트 전체를 샌드박스에 넣고 API 뒤에 두었는데, 환경과 에이전트를 띄우느라 첫 응답 전 작업이 늘었고 샌드박스가 죽으면 실행 중인 에이전트도 함께 사라졌습니다. 분리 후에는 하네스가 살아남고 실행 환경은 필요할 때 만들어, 지연과 안정성을 함께 개선했습니다. 보안 측면에서는 생성된 코드가 도는 샌드박스에 서비스 자격 증명이 아예 없고, 자격 증명은 프록시를 통해 붙이며 샌드박스의 네트워크 목적지도 제한합니다. 메모리 기능 \"dreaming\"은 한 에이전트가 다른 에이전트의 이전 작업을 살펴 기억을 써 넣는 방식으로, 같은 managed-agent 원시 기능 위에 만들었습니다. 출시 쪽으로는 Opus 5.5가 이전 모델보다 운영 비용이 낮고(절감 폭은 워크로드·캐시 사용에 따라 다름), 증류 목적의 추론 추출을 막기 위해 턴 사이에 thinking 블록을 보존하도록 한 변경이 기존 고객 하네스를 깨뜨릴 수 있다는 점도 다룹니다. 에피소드 첫머리에는 S-1 기준 직원 1인당 매출 660만 달러(1년 전 140만 달러), 첫 GAAP 흑자 분기(19%) 같은 수치도 소개됩니다. 설계자에게 남는 질문은 \"무엇이 살아남아야 하고, 무엇이 신뢰할 수 없는 작업을 실행하며, 어떤 비밀이 실제로 코드 옆에 있어야 하는가\"입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "I Broke a Browser Agent on Purpose. Spotting the Fault Was Not the Same as Fixing It",
+          "link": "https://towardsdatascience.com/i-broke-a-browser-agent-on-purpose-spotting-the-fault-was-not-the-same-as-fixing-it/",
+          "summary": "브라우저 에이전트의 파서·실행기·피드백·관찰 단계에 고의로 결함을 넣어 보니, 결과 중심 검사는 결함을 모두 잡았지만 잡았다고 에이전트가 과제를 끝내지는 못했습니다.",
+          "detail": "출발점은 WebFovea 논문입니다. 서비스가 1920×1080 스크린샷을 약 1440×810으로 줄여 모델에 넘기는데 코드가 그 좌표를 원래 화면 좌표로 써서 모든 클릭이 의도 위치의 3/4 지점에 떨어졌고, 이런 결함을 고치자 같은 모델의 점수가 31.0에서 57.0으로 올랐습니다. 저자는 Claude Haiku 5.5의 올바른 결정 80개를 저장한 뒤 네 가지 결함(검색어 끝에 `[im_end]` 덧붙이기, 이미지 좌표를 그대로 브라우저 좌표로 쓰기, iframe 클릭 성공 뒤 \"No detectable change\" 보고, 툴팁이 뜨기 전 캡처)을 넣어 재생했습니다. 레이아웃 40개씩 측정한 결과 URL·페이지 상태를 보는 Generic 검사는 잘못된 클릭 20/40을 놓치고 정상 iframe 클릭 40/40에 오경보를 냈고, 픽셀 비교는 손상된 검색어를 3/40만 잡으면서 정상 검색 40/40에 경보를 냈습니다. 요청한 결과 자체를 확인하는 Outcome check는 모든 결함을 잡고 오경보가 0이었습니다. 하지만 720회 에피소드에서 검색어·클릭 결함은 어떤 정책에서도 0/60이었습니다 — 고장 난 파서·실행기를 다시 거치기 때문이고, 올바른 브라우저 좌표를 알려 줘도 모델은 지시대로 이미지 좌표를 반복했습니다. 차이가 난 것은 툴팁 과제(56/60 → 60/60)뿐이고 그 개선도 부트스트랩 95% 구간이 0~15%p라 확정적이지 않습니다. 결론은 진단과 복구는 다른 문제이며, 좌표 변환 같은 버그는 실행기 코드에서 고쳐야 한다는 것입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Genie 4: A new generation of world simulation",
+          "link": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+          "summary": "Google DeepMind가 오디오·대화를 함께 생성하는 실시간 월드 모델 Genie 4를 신뢰 테스터 대상 연구 프리뷰로 공개했습니다.",
+          "detail": "Genie 4는 세계와 함께 음악·환경음·대화를 동시에 생성하는 네이티브 멀티모달 월드 모델로, Gemini 계열 위에 만들었습니다. Gemini Omni가 실제 세계의 외형과 동작을 붙잡고, 다른 Gemini 모델이 시뮬레이션의 일관성을 위한 추론을 맡습니다. DeepMind가 꼽은 네 가지 진전은 (1) 날씨 변경·카메라 이동·인물 추가 같은 자연어 지시를 실시간으로 반영하고 입력 사이에도 Gemini가 장면을 감시·조정하는 것, (2) 공기역학·충돌 같은 물리와 자연스럽게 움직이고 반응하는 사람의 시뮬레이션, (3) 처음으로 오디오를 네이티브 생성하고 입력에 맞춰 즉석에서 바뀌는 대화, (4) **Gemini 3.8 Flash가 루프 안의 안내 에이전트**로서 프레임을 계속 관찰하며 목표를 단계로 쪼개고 각 단계 성공을 검증해 다단계 사건을 모델링하는 것입니다. DeepMind는 이를 로봇·에이전트 학습 환경과 새로운 인터랙티브 경험의 기반으로 보고 있습니다. 공개 방식은 신뢰 테스터 대상 연구 프리뷰이며, 이후 Project Genie의 Google AI Ultra 구독자와 Gemini API·Google AI Studio 얼리 액세스 파트너부터 열 계획입니다. 사용자는 표준 키보드로 이동·카메라를 조작하고 텍스트로 장면을 조종합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
+          "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
+          "summary": "Anthropic이 해적판으로 학습에 쓴 책의 저자 가운데 스탠퍼드 교수 10여 명이 포함됐고, 일부는 Bartz 합의에서 빠져나와 별도 소송을 냈습니다.",
+          "detail": "Bartz v. Anthropic에서 William Alsup 판사는 합법적으로 구한 책으로 LLM을 학습하는 것은 공정 이용이라고 보면서도, 해적판을 내려받아 영구적인 중앙 라이브러리를 만드는 것은 허용하지 않았습니다. 합의금 15억 달러는 등록 저작물 약 50만 건의 저자·출판사에게 돌아갔고, 저작물당 약 3,000달러 수준입니다. Stanford Daily에 따르면 Tobias Wolff, Abraham Verghese, Chang-Rae Lee 등 스탠퍼드 교수들의 책도 LibGen·PiLiMi 같은 \"섀도 라이브러리\"에서 내려받아 쓰였습니다. 저작물 10편이 쓰인 Wolff와 Chang-rae Lee는 합의에서 빠져 2026년 5월 비집단 소송 Cruz v. Anthropic을 냈고, 배심 재판으로 저작물당 최대 15만 달러의 법정 손해배상과 자기 작품의 학습 사용 금지를 구하고 있습니다. 집단소송 원고 측인 스탠퍼드 법대 Paul Goldstein은 학습 한 번에 수백만 건이 복제돼 건별 라이선스가 사실상 불가능하다는 \"거래 비용\" 문제를 짚었습니다. AI 기업을 상대로 한 저작권 소송은 70건이 넘고, Authors Guild는 OpenAI·Microsoft 소송과 함께 라이선스를 의무화하는 연방 입법을 의회와 추진 중입니다. 해적판에 대한 규칙은 Bartz로 정해졌지만 대량 스크래핑 학습의 법적 지위는 여전히 불확실합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "How Anthropic Redesigned Source Control for AI-Driven Development",
+          "link": "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Anthropic이 에이전트·CI 부하를 감당하려고 모노레포를 Git에서 서버 중심 소스 관리 시스템 Scion으로 옮긴 설계를 InfoQ가 정리했습니다.",
+          "detail": "하루 병합 변경은 5월 약 2,500건에서 9월 30,000건 이상으로 늘었고, CI는 하루 약 2,500만 번 체크아웃합니다. 메인 브랜치 이력은 약 100GB, 압축된 작업 사본은 25GB가 넘습니다. 얕은 클론·스파스 체크아웃·promisor remote·스냅샷·수백 개의 Git 미러로 버티다 운영이 한계에 이르렀습니다. Scion은 커밋·병합·리베이스·이력·blame을 서버에서 처리하고, 클라이언트는 크기가 제한된 객체 캐시와 파일을 필요할 때 실체화하는 가상 체크아웃만 둡니다. 체크아웃 없이 API로 diff 조회와 일부 쓰기가 가능합니다. 체인지셋은 첫 부모 대비 바뀐 파일과 블롭 저장소의 콘텐츠 주소 포인터만 기록하고, 체인지셋 생성과 참조 갱신을 분리해 서버 간 조율 없이 받아들입니다. 이력·blame용 \"derived data\"는 부모 체인지셋에서 재귀적으로 계산합니다. 체크아웃은 노드 로컬 데몬 → 지역 캐시 → Spanner·클라우드 스토리지 기반 권위 서버의 계층을 거치며, 계층 순서를 강제해 지역 캐시 장애가 권위 서버로 번지지 않게 합니다. 회사 발표 수치로 계층별 캐시 적중률 99% 이상, 이전 Git 미러 대비 CPU·메모리 200분의 1, CI·연구 작업 체크아웃 속도 두 자릿수 배 향상입니다. Anthropic은 Mononoke의 Bonsai 데이터 모델에 공을 돌리며, 자체 코드 리뷰·검색·CI가 필요하므로 범용 Git 대체재는 아니라고 밝혔습니다. 대신 서버 측 API와 개선된 fetch 프로토콜을 기존 Git 플랫폼에 들이라고 권합니다."
+        },
+        {
+          "category": "Python",
+          "title": "Pyrefly: A Fast Static Type Checker for Python Projects",
+          "link": "https://realpython.com/pyrefly-python/",
+          "summary": "Meta의 정적 타입 검사기 Pyrefly로 타입 오류 검출, 타입 힌트 자동 생성, 타입 커버리지 측정까지 하는 방법을 Real Python이 정리했습니다.",
+          "detail": "튜토리얼은 pyrefly 1.2.0 기준입니다. `pyrefly snippet`으로 파일 없이 코드 한 줄을 검사하고, `pyrefly init`이 `pyrefly.toml`(기본 `**/*.py*`, `**/*.ipynb`)을 만든 뒤 `pyrefly check`가 실행 없이 오류를 한꺼번에 보고합니다. mypy·Pyright에 없는 기능이 두 가지입니다. `pyrefly infer`는 사용 흐름에서 타입을 추론해 소스에 힌트를 직접 써 넣고(예: `numbers: list[float | int]) -> float`), `pyrefly coverage check --fail-under 80 --strict`는 커버리지가 기준 미달이면 실패시켜 CI에 쓸 수 있습니다. `--strict`에서는 `Any`를 미지정으로 세므로 예제 파일의 커버리지가 57.14%에서 42.86%(7개 중 3개)로 떨어집니다. 커버리지는 추론 결과가 아니라 실제로 써 둔 힌트만 셉니다. `pyrefly coverage report`는 함수별 n_typable·n_typed·n_any를 JSON으로 냅니다. Pyrefly 저장소의 벤치마크 스크립트로 requests·flask·django를 검사하면 평균 시간이 mypy 5.0초, Pyright 8.4초, Pyrefly 0.5초로 각각 약 10배·17배 빠릅니다. 다만 Pyrefly 자체 벤치마크라 독립 비교는 아닙니다. 기존 mypy·Pyright 설정에서 옮기는 비용과 생태계 호환성이 한계로, 새 프로젝트나 타입 도입 중인 코드베이스에 권하고 이미 잘 돌아가는 팀에는 시험 사용 정도를 권합니다."
+        },
+        {
+          "category": "Python",
+          "title": "MCP vs API Calls: Which Should You Use for Python LLM Apps?",
+          "link": "https://realpython.com/mcp-vs-api/",
+          "summary": "같은 PyPI 조회 도구를 직접 API 호출과 MCP 서버 두 방식으로 연결해 보고, 언제 어느 쪽을 고를지 정리한 튜토리얼입니다.",
+          "detail": "예제는 Python 3.14, anthropic 1.4.0, mcp 2.1.1을 씁니다. `get_package_info()`가 PyPI JSON 엔드포인트에서 이름·버전·요약을 가져오는 도구이고, 두 앱 모두 모델이 `tool_use` 블록을 보내면 `tool_result`를 돌려주는 같은 루프를 돕니다. 직접 API 호출에서는 도구가 앱 안의 함수이고 JSON 스키마를 손으로 씁니다. MCP에서는 도구가 별도 서버 프로세스로 옮겨 가고 한 줄 등록만 하면 서버가 타입 힌트와 docstring에서 스키마를 만들어, 클라이언트가 `list_tools()`로 찾고 `call_tool()`로 실행합니다. 그래서 힌트와 docstring이 곧 모델이 보는 도구 설명이 됩니다. MCP가 API를 대체하는 것은 아닙니다 — MCP 서버도 백엔드에는 평범한 HTTP 요청을 보내며, MCP는 그 위에 층을 하나 더합니다. MCP의 비용은 의존성·서버·등록으로 한 번 치르지만 프로세스가 하나 더 늘고, 실패 원인이 도구·서버·stdio 전송 중 어디인지 따져야 합니다. 직접 호출의 비용은 작지만 도구가 필요한 앱마다 반복됩니다. 결정 기준은 재사용입니다: 여러 앱·클라이언트·모델 공급자에서 같은 도구를 쓰거나 런타임 도구 탐색이 필요하면 MCP, 앱 하나·최소 의존성·빠른 프로토타입이면 직접 호출입니다. 둘 다 해당하면 직접 호출로 시작해 두 번째 앱이 도구를 필요로 할 때 MCP 서버로 옮기라고 권합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Survey Statistics: how to measure hospital quality ?",
+          "link": "https://statmodeling.stat.columbia.edu/2026/10/27/survey-statistics-how-to-measure-hospital-quality/",
+          "summary": "환자 구성(casemix)이 다른 병원끼리 품질을 비교할 때 쓰는 직접 표준화를 잠재 결과 표기로 설명하고, 이것이 설문통계의 사후층화와 같다는 점을 짚은 글입니다.",
+          "detail": "Y를 합병증, X를 환자의 중증도, R을 병원(A 또는 B)으로 두고 Y(A)·Y(B)를 각 병원에서 치료받았을 때의 잠재 결과로 정의합니다. 한 환자에게서는 둘 중 하나만 관측되므로 개인 수준 비교는 불가능하고, 평균을 비교합니다. 즉 E(E(Y(A) | X, R=A))와 E(E(Y(B) | X, R=B))를 비교하는데, 바깥 기대값은 어떤 **표준 환자 구성**의 X 분포에 대해 취합니다. 직접 표준화는 안쪽 기대값을 X 층별 평균으로 추정합니다. Zaslavsky(2001)가 지적하듯 어떤 층에 환자가 없거나 X가 연속형이면 이 방식은 그대로 쓸 수 없고, 그때는 안쪽 기대값을 회귀모형으로 추정합니다. 글은 Lumley(2010)를 인용해 직접 표준화가 수학적으로 사후층화(poststratification)와 같다는 점으로 마무리합니다 — 병원 비교의 표준 환자 구성이 설문 가중의 모집단 분포 역할을 하는 셈입니다. 짧은 글이지만 병원 성과 지표의 casemix 보정을 인과추론 표기와 설문통계로 연결해 보여 줍니다."
+        }
+      ]
+    },
+    {
       "date": "2026-10-27",
       "summary": "Anthropic이 335쪽짜리 IPO 투자설명서를 제출하면서, 이 회사의 서사 자체를 따져 보는 글이 나왔습니다. Atlassian 조사에서는 AI로 주 10시간 이상 아낀다는 개발자 비율이 1년 만에 68%에서 26%로 떨어졌습니다 — 도입은 95%로 보편화됐는데도 그렇습니다. 에이전트 하네스는 체인에서 그래프를 거쳐 코드로 진화 중이고, 가상 스레드를 쓰는 자바 서비스에서 jstack이 무엇을 놓치는지, dtype 기반 전처리 파이프라인이 어떻게 교차검증을 속이는지도 함께 봅니다.",
       "highlights": [
