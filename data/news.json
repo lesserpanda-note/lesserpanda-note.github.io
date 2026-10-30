@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-30T06:40:12+09:00",
-  "count": 1182,
+  "updated": "2026-10-30T10:05:01+09:00",
+  "count": 1174,
   "items": [
+    {
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "link": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equival…",
+      "ts": 1793314109,
+      "published": "2026-10-29T22:48:29+00:00",
+      "collected_at": "2026-10-30T10:04:55+09:00"
+    },
     {
       "title": "R-hat, August 1990",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/29/r-hat-august-1990/",
@@ -11731,96 +11741,6 @@
       "ts": 1790747590,
       "published": "2026-09-30T05:53:10+00:00",
       "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "v1.107.7 (2026-09-29)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.7",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "🛡️ Security A maintenance release for the v1 line, carrying the v1 backport of the security fix released in 2.52.0 . See the advisory for full details and affected versions. GHSA-v36g-jcw9-x7cw (moderate): converting at…",
-      "ts": 1790729661,
-      "published": "2026-09-30T00:54:21+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "v2.52.0 (2026-09-29)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.52.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "🛡️ Security This release fixes one security issue in web_fetch . See the advisory for full details and affected versions. GHSA-v36g-jcw9-x7cw (moderate): converting attacker-controlled HTML with deeply nested elements i…",
-      "ts": 1790729660,
-      "published": "2026-09-30T00:54:20+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "My love-hate relationship with Java formatters",
-      "link": "https://foojay.io/today/my-love-hate-relationship-with-java-formatters/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Learning to love google-java-format, why AI agents make formatters matter even more, and why palantir-java-format now has a fork: open-java-format.",
-      "ts": 1790726400,
-      "published": "2026-09-30T00:00:00+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "Lies, Damn Lies and Benchmarks",
-      "link": "https://foojay.io/today/performance-work-between-benchmarks/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Codename One tackles GC, maps, startup, and JavaScript overhead, and adds native drag and drop plus cross-device continuity. Javadoc joins website search...",
-      "ts": 1790726400,
-      "published": "2026-09-30T00:00:00+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "JavaFX Links of September 2026",
-      "link": "https://foojay.io/today/javafx-links-of-september-2026/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Here are the JavaFX LinksOfTheMonth of September 2026. This was a big month with the release of JavaFX 27!",
-      "ts": 1790726400,
-      "published": "2026-09-30T00:00:00+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "Durable Execution Is a Property, Not a Product",
-      "link": "https://foojay.io/today/durable-execution-is-a-property-not-a-product/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Durable execution is a property your existing database can provide, not a product you must buy. Measured, with receipts you can run yourself.",
-      "ts": 1790726400,
-      "published": "2026-09-30T00:00:00+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "Faster Post-Quantum Cryptography with JDK Intrinsics",
-      "link": "https://inside.java/2026/09/30/faster-post-quantum-cryptography-with-jdk-intrinsics/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Find out about the improved Curve25519 field performance in JDK 27 and JDK 28.",
-      "ts": 1790726400,
-      "published": "2026-09-30T00:00:00+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
-      "link": "https://huggingface.co/blog/open-tts-leaderboard",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790726400,
-      "published": "2026-09-30T00:00:00+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Quoting Anthropic Frontier Red Team",
-      "link": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "We evaluate several models on 100 tasks from the [internal Binary Exploitation benchmark] (selected at random), and find that GLM-5.3 develops full control flow hijacks in 4% of the trials; Claude Mythos Preview did so…",
-      "ts": 1790720428,
-      "published": "2026-09-29T22:20:28+00:00",
-      "collected_at": "2026-09-30T09:09:29+09:00"
     }
   ]
 }
