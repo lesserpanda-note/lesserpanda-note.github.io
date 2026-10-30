@@ -1,7 +1,37 @@
 {
-  "updated": "2026-10-31T00:43:10+09:00",
-  "count": 1169,
+  "updated": "2026-10-31T05:33:52+09:00",
+  "count": 1172,
   "items": [
+    {
+      "title": "dotnet-1.27.0",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.27.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "[1.27.0] - 2026-10-30 Added skills: Add a .NET consumer skill for building with Agent Framework ( #9651 by westey (@westey-m) ). .NET, CI: Add a script to bump the .NET release version ( #9894 by Vincent Biret (@baywet)…",
+      "ts": 1793387523,
+      "published": "2026-10-30T19:12:03+00:00",
+      "collected_at": "2026-10-31T05:33:46+09:00"
+    },
+    {
+      "title": "nemotron-halloween",
+      "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793383044,
+      "published": "2026-10-30T17:57:24+00:00",
+      "collected_at": "2026-10-31T05:33:46+09:00"
+    },
+    {
+      "title": "Anthropic may not secure investment-grade rating after IPO, Blackstone says",
+      "link": "https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.ft.com/content/59383c7f-8d82-493f-bf01-d2e862a1018f Comments URL: https://news.ycombinator.com/item?id=50307219 Points: 169 # Comments: 111",
+      "ts": 1793381245,
+      "published": "2026-10-30T17:27:25+00:00",
+      "collected_at": "2026-10-31T05:33:46+09:00"
+    },
     {
       "title": "Pick a Number Between 1 and 10",
       "link": "https://towardsdatascience.com/pick-a-number-between-1-and-10/",
@@ -233,6 +263,16 @@
       "collected_at": "2026-10-31T00:42:52+09:00"
     },
     {
+      "title": "Making it easier for websites to express AI training preferences",
+      "link": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "ts": 1793352600,
+      "published": "2026-10-30T09:30:00+00:00",
+      "collected_at": "2026-10-31T05:33:46+09:00"
+    },
+    {
       "title": "Article: InfoQ AI, ML and Data Engineering Trends Report - 2026",
       "link": "https://www.infoq.com/articles/ai-ml-data-engineering-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -251,6 +291,16 @@
       "ts": 1793350800,
       "published": "2026-10-30T09:00:00+00:00",
       "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Community safety report and new protections for teens",
+      "link": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
+      "ts": 1793350800,
+      "published": "2026-10-30T09:00:00+00:00",
+      "collected_at": "2026-10-31T05:33:46+09:00"
     },
     {
       "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
@@ -771,6 +821,16 @@
       "ts": 1793232000,
       "published": "2026-10-29T00:00:00+00:00",
       "collected_at": "2026-10-30T01:45:32+09:00"
+    },
+    {
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "link": "https://openai.com/index/credit-saison",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+      "ts": 1793232000,
+      "published": "2026-10-29T00:00:00+00:00",
+      "collected_at": "2026-10-31T05:33:46+09:00"
     },
     {
       "title": "Quoting Ted Sanders",
@@ -11661,36 +11721,6 @@
       "ts": 1790801059,
       "published": "2026-09-30T20:44:19+00:00",
       "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Gemini 4 Argon: our next era of frontier intelligence",
-      "link": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790798505,
-      "published": "2026-09-30T20:01:45+00:00",
-      "collected_at": "2026-10-01T07:53:54+09:00"
-    },
-    {
-      "title": "InfoQ Online Cohorts Address AI Security and Coding Agent Verification",
-      "link": "https://www.infoq.com/news/2026/09/onlinecohorts-ai-certifications/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "A look at two InfoQ online certification cohorts covering security and privacy decisions in production AI systems and the verification needed when coding agents work in existing codebases. By Artenisa Chatziou",
-      "ts": 1790787600,
-      "published": "2026-09-30T17:00:00+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Release 5.18.0",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.18.0",
-      "source": "Transformers",
-      "category": "AI",
-      "summary": "New Model additions Nemotron 3 Diarization Nemotron 3 Diarization is an open-weight streaming speaker diarization model designed to determine \"who spoke when\" in real-world audio. It supports both streaming and offline…",
-      "ts": 1790786787,
-      "published": "2026-09-30T16:46:27+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
     }
   ]
 }
