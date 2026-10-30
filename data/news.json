@@ -1,7 +1,17 @@
 {
-  "updated": "2026-10-30T10:43:42+09:00",
+  "updated": "2026-10-30T17:19:54+09:00",
   "count": 1177,
   "items": [
+    {
+      "title": "v5.22.1",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.22.1",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "v5.22.1",
+      "ts": 1793344808,
+      "published": "2026-10-30T07:20:08+00:00",
+      "collected_at": "2026-10-30T17:19:39+09:00"
+    },
     {
       "title": "OpenID Federation with pac4j and CAS",
       "link": "https://foojay.io/today/openid-federation-with-pac4j-and-cas/",
@@ -21,6 +31,26 @@
       "ts": 1793318400,
       "published": "2026-10-30T00:00:00+00:00",
       "collected_at": "2026-10-30T10:43:36+09:00"
+    },
+    {
+      "title": "JDK 27 G1/Parallel/Serial GC changes",
+      "link": "https://inside.java/2026/10/30/jdk27-gc-changes/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Now that the JDK 27 has been released, I thought it would be time to discuss interesting changes in OpenJDK’s stop-the-world collectors in the HotSpot VM once more.",
+      "ts": 1793318400,
+      "published": "2026-10-30T00:00:00+00:00",
+      "collected_at": "2026-10-30T17:19:39+09:00"
+    },
+    {
+      "title": "Rewrite Everything in Java: Not Rust",
+      "link": "https://foojay.io/today/rewrite-everything-in-java-not-rust/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A Java word processor built with Codename One beats its Rust twin on startup, typing latency, memory, binary size, code size and CI time, and also runs on iPhone, Android and the web.",
+      "ts": 1793318400,
+      "published": "2026-10-30T00:00:00+00:00",
+      "collected_at": "2026-10-30T17:19:39+09:00"
     },
     {
       "title": "API credits benefit for eligible ChatGPT subscriptions",
@@ -11741,36 +11771,6 @@
       "ts": 1790762123,
       "published": "2026-09-30T09:55:23+00:00",
       "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Agents Refactor 300K Lines in Three Weeks, and Practitioners Ask What It Proves",
-      "link": "https://www.infoq.com/news/2026/09/agentic-refactoring-case-study/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "CodeScene has published a case study in which coding agents refactored 300,000 lines of C over three weeks for roughly $4,000 in tokens, verified by a frame-by-frame replay harness. The agents built a playbook of codeba…",
-      "ts": 1790748960,
-      "published": "2026-09-30T06:16:00+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "Agents Refactor 300K Lines in Three Weeks, and Practitioners Ask What It Proves",
-      "link": "https://www.infoq.com/news/2026/09/agentic-refactoring-case-study/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "CodeScene has published a case study in which coding agents refactored 300,000 lines of C over three weeks for roughly $4,000 in tokens, verified by a frame-by-frame replay harness. The agents built a playbook of codeba…",
-      "ts": 1790748960,
-      "published": "2026-09-30T06:16:00+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
-    },
-    {
-      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
-      "link": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "the most confident DevDay yet.",
-      "ts": 1790747590,
-      "published": "2026-09-30T05:53:10+00:00",
-      "collected_at": "2026-09-30T15:26:01+09:00"
     }
   ]
 }
