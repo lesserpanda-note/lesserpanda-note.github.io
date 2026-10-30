@@ -1,7 +1,277 @@
 {
-  "updated": "2026-10-30T17:19:54+09:00",
-  "count": 1177,
+  "updated": "2026-10-31T00:43:10+09:00",
+  "count": 1169,
   "items": [
+    {
+      "title": "Pick a Number Between 1 and 10",
+      "link": "https://towardsdatascience.com/pick-a-number-between-1-and-10/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A viral tweet says LLMs pick 7 because of gradient descent. The math says it’s more interesting than that. The post Pick a Number Between 1 and 10 appeared first on Towards Data Science .",
+      "ts": 1793374200,
+      "published": "2026-10-30T15:30:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Anthropic Cracking Down on Video Game Rewrites",
+      "link": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968 Comments URL: https://news.ycombinator.com/item?id=50304358 Points: 52 # Comments: 50",
+      "ts": 1793370172,
+      "published": "2026-10-30T14:22:52+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "GPT-6.1 Terra Draws a Python Reading a Book",
+      "link": "https://realpython.com/ai-benchmark-gpt-6-1-terra/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore GPT-6.1 Terra's Python code, turtle drawing, and responses to small tasks that check modern syntax, release knowledge, focused edits, and made-up functions.",
+      "ts": 1793368800,
+      "published": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant",
+      "link": "https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Vibe coding is a workflow where you describe what you want in natural language and let an AI agent handle code generation, execution, and iteration rather than typing every line yourself.",
+      "ts": 1793368800,
+      "published": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Binning or Feature Selection: Which One Won Us an Insurance Hackathon?",
+      "link": "https://towardsdatascience.com/binning-or-feature-selection-which-one-won-us-an-insurance-hackathon/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "For a year, we believed that supervised binning carried our winning entry to an insurance competition. After four seeds per arm and one shared feature set, the credit belongs elsewhere. The post Binning or Feature Selec…",
+      "ts": 1793368800,
+      "published": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents",
+      "link": "https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DoorDash reduced grocery reorder latency from 16 to 2 seconds by precomputing recurring purchase needs using batch LLM inference and deterministic validation. Live catalog resolution keeps product selections current, wh…",
+      "ts": 1793367060,
+      "published": "2026-10-30T13:31:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents",
+      "link": "https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "DoorDash reduced grocery reorder latency from 16 to 2 seconds by precomputing recurring purchase needs using batch LLM inference and deterministic validation. Live catalog resolution keeps product selections current, wh…",
+      "ts": 1793367060,
+      "published": "2026-10-30T13:31:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Stochastic potential outcomes: A discussion with Ang Yu and Jonas Mikhaeil",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/30/stochastic-potential-outcomes-a-discussion-with-ang-yu-and-jonas-mikhaeil/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Ang Yu read the Russian Roulette paper (by Jonas Mikhaeil and me) and wrote: I was wondering whether it might be useful to alternatively frame the problem in terms of stochastic versus deterministic interventions as opp…",
+      "ts": 1793366205,
+      "published": "2026-10-30T13:16:45+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Your Agent’s Tools Can Make Decisions, Too",
+      "link": "https://towardsdatascience.com/your-agents-tools-can-make-decisions-too/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Decision models as tools: a hands-on guide The post Your Agent’s Tools Can Make Decisions, Too appeared first on Towards Data Science .",
+      "ts": 1793363400,
+      "published": "2026-10-30T12:30:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Kodee’s Kotlin Roundup: Shipaton 2026 Winners, Kotlin 2.5.0-Beta2, and KotlinConf 2027",
+      "link": "https://blog.jetbrains.com/kotlin/2026/10/kodee-s-kotlin-roundup-shipaton-2026-winners-kotlin-2-5-0-beta2-and-kotlinconf-2027/",
+      "source": "Kotlin",
+      "category": "Java",
+      "summary": "Hi everyone! It’s been a busy few weeks since my last roundup: the Shipaton 2026 winners are in, and three Kotlin Multiplatform apps took the Ship Kotlin Everywhere Award. In other news, Kotlin 2.5.0 is taking shape wit…",
+      "ts": 1793361753,
+      "published": "2026-10-30T12:02:33+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Netflix Treats GPU Reliability as a Distributed Systems Problem",
+      "link": "https://www.infoq.com/news/2026/10/netflix-gpu-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Netflix has detailed how it is building a reliability platform for large-scale GPU training and inference, using layered health checks, automated remediation, and fault-tolerant training to keep jobs running despite har…",
+      "ts": 1793361600,
+      "published": "2026-10-30T12:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #317: Demystifying Python Memory Management & Choosing a Project Layout",
+      "link": "https://realpython.com/podcasts/rpp/317/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "How does Python manage memory behind the scenes? What are the common ways to lay out a Python project? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles and projects.",
+      "ts": 1793361600,
+      "published": "2026-10-30T12:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Quiz: Python's Mutable vs Immutable Types: What's the Difference?",
+      "link": "https://realpython.com/quizzes/python-mutable-vs-immutable-types/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Find out how Python's mutable and immutable types behave, and see how mutability shapes lists, tuples, dictionaries, and your own classes.",
+      "ts": 1793361600,
+      "published": "2026-10-30T12:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Quiz: Inheritance and Composition: A Python OOP Guide",
+      "link": "https://realpython.com/quizzes/inheritance-composition-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this quiz, you'll test your understanding of inheritance and composition in Python. These are two major concepts in object-oriented programming that help model the relationship between two classes. By working through…",
+      "ts": 1793361600,
+      "published": "2026-10-30T12:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Silent Data Errors That Survive Every Cleaning Pipeline",
+      "link": "https://www.kdnuggets.com/silent-data-errors-that-survive-every-cleaning-pipeline",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "4 bugs that pass every null check, duplicate check, and schema test.",
+      "ts": 1793361600,
+      "published": "2026-10-30T12:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Harness²: Improving AI Agent Performance Without Model Upgrades",
+      "link": "https://www.analyticsvidhya.com/blog/2026/10/harness2-improving-ai-agent-performance/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "When an AI agent fails to complete a task, upgrading the model can seem like the obvious next step. Yet an agent’s performance also depends on how it receives instructions, uses tools, and manages its work. Understandin…",
+      "ts": 1793361324,
+      "published": "2026-10-30T11:55:24+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "python-1.24.0: Python: prepare 1.24.0 release for October 30 (#9847)",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.24.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "Prepare Python 1.24.0 release for October 30 Prepare changes through 85f3fc6 (python-1.23.0..main) without tagging or publishing. Refresh this preparation after tomorrow's intended merges. Select 43 packages from the ch…",
+      "ts": 1793359514,
+      "published": "2026-10-30T11:25:14+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Backdoors in official Claude Code extensions",
+      "link": "https://cyberplace.social/@GossiTheDog/117528831681803563",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://cyberplace.social/@GossiTheDog/117528831681803563 Comments URL: https://news.ycombinator.com/item?id=50302334 Points: 641 # Comments: 17",
+      "ts": 1793358353,
+      "published": "2026-10-30T11:05:53+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Presentation: The Ladder Is Missing Rungs: Engineering Progression When AI Ate the Middle",
+      "link": "https://www.infoq.com/presentations/ai-software-engineering-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Alasdair Allan discusses empirical research from METR and Anthropic on AI coding adoption. He explains the \"supervision paradox,\" where reliance on AI tools disrupts junior skill development, risks institutional context…",
+      "ts": 1793358000,
+      "published": "2026-10-30T11:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Presentation: The Ladder Is Missing Rungs: Engineering Progression When AI Ate the Middle",
+      "link": "https://www.infoq.com/presentations/ai-software-engineering-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Alasdair Allan discusses empirical research from METR and Anthropic on AI coding adoption. He explains the \"supervision paradox,\" where reliance on AI tools disrupts junior skill development, risks institutional context…",
+      "ts": 1793358000,
+      "published": "2026-10-30T11:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "7 Ways Your AI Agent Is Wasting Tokens (And What to Do Instead)",
+      "link": "https://machinelearningmastery.com/7-ways-your-ai-agent-is-wasting-tokens-and-what-to-do-instead/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "In this article, you will learn seven common token-waste patterns in production AI agent systems, and the architectural fixes that address each one. Topics we...",
+      "ts": 1793358000,
+      "published": "2026-10-30T11:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Claude Code Mods: Custom Hooks to Fix My Biggest AI Coding Frustrations",
+      "link": "https://towardsdatascience.com/claude-code-mods-custom-hooks-to-fix-my-biggest-ai-coding-frustrations/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "How I built four Claude Code mods to protect API keys, track plan progress, catch untested code, and monitor context usage — with 135 passing tests and up to 100× less overhead than traditional hooks — and why they can…",
+      "ts": 1793358000,
+      "published": "2026-10-30T11:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
+      "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2 Comments URL: https://news.ycombinator.com/item?id=50301983 Points: 393 # Comment…",
+      "ts": 1793355771,
+      "published": "2026-10-30T10:22:51+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Article: InfoQ AI, ML and Data Engineering Trends Report - 2026",
+      "link": "https://www.infoq.com/articles/ai-ml-data-engineering-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "This InfoQ Trends Report offers readers a comprehensive overview of emerging trends and technologies in the areas of AI, ML, and Data Engineering. This report summarizes the InfoQ editorial team’s and external guests' v…",
+      "ts": 1793350800,
+      "published": "2026-10-30T09:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Podcast: AI, ML, and Data Engineering InfoQ Trends Report 2026",
+      "link": "https://www.infoq.com/podcasts/ai-ml-data-engineering-trends-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In this episode, members of the InfoQ AI and ML editorial staff and friends of InfoQ discuss the current trends in the domain of AI, ML and Data Engineering. One of the regular features of InfoQ are the trends reports,…",
+      "ts": 1793350800,
+      "published": "2026-10-30T09:00:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
+      "link": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
+      "ts": 1793348669,
+      "published": "2026-10-30T08:24:29+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Microsoft Retires Azure Deployment Environments with No Replacement Product",
+      "link": "https://www.infoq.com/news/2026/10/ade-dev-box-retirement/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Azure Deployment Environments retires on February 22, 2027 and Microsoft names no successor, telling teams to use Bicep or ARM templates directly. Microsoft Dev Box follows on September 18, 2028, pointed at Windows 365,…",
+      "ts": 1793347980,
+      "published": "2026-10-30T08:13:00+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
+    },
     {
       "title": "v5.22.1",
       "link": "https://github.com/huggingface/transformers/releases/tag/v5.22.1",
@@ -11,6 +281,16 @@
       "ts": 1793344808,
       "published": "2026-10-30T07:20:08+00:00",
       "collected_at": "2026-10-30T17:19:39+09:00"
+    },
+    {
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "link": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "https://cursor.com/blog/claude-code-extension-security-notic... https://cyberplace.social/@GossiTheDog/117528831681803563 https://doublepulsar.com/anthropic-hacked-to-deliver-remote-... Comments URL: https://news.ycombi…",
+      "ts": 1793344152,
+      "published": "2026-10-30T07:09:12+00:00",
+      "collected_at": "2026-10-31T00:42:52+09:00"
     },
     {
       "title": "OpenID Federation with pac4j and CAS",
@@ -11411,366 +11691,6 @@
       "ts": 1790786787,
       "published": "2026-09-30T16:46:27+00:00",
       "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "How Many Stories Can Your Data Tell?",
-      "link": "https://towardsdatascience.com/how-many-stories-can-your-data-tell/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "How the way we represent data can change what we think the data is saying The post How Many Stories Can Your Data Tell? appeared first on Towards Data Science .",
-      "ts": 1790782202,
-      "published": "2026-09-30T15:30:02+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Introducing SynthID Bio",
-      "link": "https://deepmind.google/blog/introducing-synthid-bio/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "Proof of concept for watermarking AI-generated proteins while preserving biological function.",
-      "ts": 1790780587,
-      "published": "2026-09-30T15:03:07+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Principles for effective slides",
-      "link": "https://martinfowler.com/articles/never-send-slides/slide-principles.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Not every presentation needs slides, but when they earn their place, they work as a visual channel that complements the speaker rather than replacing them. Sumeet Gayathri Moghe sets out the principles that follow from…",
-      "ts": 1790777640,
-      "published": "2026-09-30T14:14:00+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Did AI Just Solve One of Mathematics’ Biggest Problems?",
-      "link": "https://www.kdnuggets.com/did-ai-just-solve-one-of-mathematics-biggest-problems",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "OpenAI’s agents reached a proposed solution in 88 hours. But the human research that came before, and the controversy that followed, raise a harder question: what actually counts as an AI discovery?",
-      "ts": 1790776826,
-      "published": "2026-09-30T14:00:26+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Insight Is Still the Currency of Data Science",
-      "link": "https://towardsdatascience.com/insight-is-still-the-currency-of-data-science/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Coding agents give us more time for discovery and our review practices should follow the analysis The post Insight Is Still the Currency of Data Science appeared first on Towards Data Science .",
-      "ts": 1790776802,
-      "published": "2026-09-30T14:00:02+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Python 3.15: Cool New Features for You to Try",
-      "link": "https://realpython.com/python315-new-features/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn what's new in Python 3.15, from lazy imports, frozendict, and sentinels to a sampling profiler and friendlier error messages.",
-      "ts": 1790776800,
-      "published": "2026-09-30T14:00:00+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Community Videos",
-      "link": "https://realpython.com/courses/community-videos/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Watch Real Python's YouTube videos right here on the site, with the resources mentioned in each video and a full transcript.",
-      "ts": 1790776800,
-      "published": "2026-09-30T14:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Cursor Uses S3 WAL to Scale Git Storage to More than 300 Pushes per Second",
-      "link": "https://www.infoq.com/news/2026/09/cursor-continuity-git-storage/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cursor has introduced Continuity, a Git storage architecture that uses an S3 backed write ahead log as the source of truth. The design turns local NVMe repositories into warm caches and separates replica coordination fr…",
-      "ts": 1790776020,
-      "published": "2026-09-30T13:47:00+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Prior distributions, partial pooling, and reference sets (Bayesians are frequentists)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/09/30/prior-distributions-partial-pooling-and-reference-sets-bayesians-are-frequentists/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Sudip Paul writes: I’ve written a blog post arguing that the philosophical reference class problem — which comparison group is “right” for assigning a probability to an individual case — is, once the grouping structure…",
-      "ts": 1790775700,
-      "published": "2026-09-30T13:41:40+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "v3.2.0.dev0",
-      "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.2.0.dev0",
-      "source": "pandas",
-      "category": "DataScience",
-      "summary": "DEV: Start 3.2.0 dev",
-      "ts": 1790774724,
-      "published": "2026-09-30T13:25:24+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "v3.1.0rc0",
-      "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.1.0rc0",
-      "source": "pandas",
-      "category": "DataScience",
-      "summary": "Version 3.1.0rc0",
-      "ts": 1790774567,
-      "published": "2026-09-30T13:22:47+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "How to Solve Issues When You Nest Measures While Overwriting the Same Filter",
-      "link": "https://towardsdatascience.com/how-to-solve-issues-when-you-nest-measures-while-overwriting-the-same-filter/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "In DAX, we reuse existing measures all the time when writing new measures. What happens when we write a measure based on another measure and try to change a filter already set in the nested measure? The post How to Solv…",
-      "ts": 1790771402,
-      "published": "2026-09-30T12:30:02+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Ollama for Managing Local Language Models: A KDnuggets Cheat Sheet",
-      "link": "https://www.kdnuggets.com/ollama-for-managing-local-language-models-a-kdnuggets-cheat-sheet",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Ollama pulls model weights, keeps an HTTP server on port 11434, and hands any client an OpenAI-shaped endpoint pointed at your own machine. Learn how to manage, configure, and optimize using Ollama right here.",
-      "ts": 1790769618,
-      "published": "2026-09-30T12:00:18+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Python Language Summit 2026",
-      "link": "https://blog.python.org/2026/09/language-summit-2026/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "The 2026 Python Language Summit was hosted in Kraków, Poland as part of EuroPython 2026. There were 15 talks covering free-threading, Rust, garbage collection, type annotations, and more.",
-      "ts": 1790769611,
-      "published": "2026-09-30T12:00:11+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Lightning Talks (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-lightning-talks/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Lightning talks on a one-time ABI break, safer interruptions, EktuPy (Scratch but Python), an AGENTS.md file for CPython, and a call to read PEP 836.",
-      "ts": 1790769610,
-      "published": "2026-09-30T12:00:10+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "PEP 827: Type Manipulation (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-pep-827-type-manipulation/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Michael J. Sullivan presents PEP 827 and discusses a key design decision: how to store type annotations?",
-      "ts": 1790769609,
-      "published": "2026-09-30T12:00:09+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Free-Threaded Python Post-Era (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-free-threading-post-era/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Tobias Wrigstad, Fridtjof Stoldt, and Donghee Na propose a safe and performant, high-level concurrency model for free-threaded Python",
-      "ts": 1790769608,
-      "published": "2026-09-30T12:00:08+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Developer-in-Residence Update & Future (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-developer-in-residence-update-and-future/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Petr Viktorin gives an update on the Developer-in-Residence role and asks Python core developers for projects to prioritize",
-      "ts": 1790769607,
-      "published": "2026-09-30T12:00:07+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Spicycrab (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-spicycrab/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Kushal Das shows off Spicycrab, a Python-to-Rust transpiler for Python users who need performance without learning Rust or leaving Python",
-      "ts": 1790769606,
-      "published": "2026-09-30T12:00:06+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Rust for CPython (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-rust-for-cpython/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "David Hewitt shares a status update, first module, and potential acceptance criteria for the Rust for CPython project",
-      "ts": 1790769605,
-      "published": "2026-09-30T12:00:05+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Memory Snapshots for CPython (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-memory-snapshots/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Hood Chatham proposes memory snapshots and an initialization phase for speedier Python startups",
-      "ts": 1790769604,
-      "published": "2026-09-30T12:00:04+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Memory Buffer Protocol (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-memory-buffer-protocol/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Nathan Goldbaum proposes safe concurrent access through buffer leases and custom data types for the Python Buffer Protocol.",
-      "ts": 1790769603,
-      "published": "2026-09-30T12:00:03+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Garbage Collection: Generational? Incremental? Both! (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-garbage-collection-generational-incremental-both/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Mark Shannon proposes a future garbage collection strategy for Python following the revert of the incremental garbage collector in Python 3.14",
-      "ts": 1790769602,
-      "published": "2026-09-30T12:00:02+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "macOS and Python (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-macos-python/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Ned Deily weighs whether Python should continue shipping macOS installers",
-      "ts": 1790769601,
-      "published": "2026-09-30T12:00:01+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Quiz: Python 3.15: Cool New Features for You to Try",
-      "link": "https://realpython.com/quizzes/python315-new-features/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your knowledge of Python 3.15's new features, from lazy imports, frozendict, and sentinels to TypeForm, Tachyon, and UTF-8 by default.",
-      "ts": 1790769600,
-      "published": "2026-09-30T12:00:00+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Quiz: Python Web Applications: Deploy Your Script as a Flask App",
-      "link": "https://realpython.com/quizzes/python-web-applications/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Flask web apps: routes, request data, escaping user input, and deploying a Python script to Google App Engine.",
-      "ts": 1790769600,
-      "published": "2026-09-30T12:00:00+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "One namespace to namespace them all (Python Language Summit 2026)",
-      "link": "https://blog.python.org/2026/09/language-summit-2026-namespaces/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Pablo Galindo Salgado proposes a top-level `std` namespace for the Python standard library to prevent module shadowing and free up module names.",
-      "ts": 1790769600,
-      "published": "2026-09-30T12:00:00+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "OpenAI Dot: How to Access & Automate Work with OpenAI’s Agent",
-      "link": "https://www.analyticsvidhya.com/blog/2026/09/chatgpt-dot-access-setup-hands-on/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "That is a slightly awkward introduction to OpenAI Dot, but a useful one. In this article I’ll be discussing what this autonomous 24/7 agent (which consumes no usage) can do, what it is, how you can access it (along with…",
-      "ts": 1790768422,
-      "published": "2026-09-30T11:40:22+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Towards Spec-Driven Test Automation: Part 2",
-      "link": "https://towardsdatascience.com/towards-spec-driven-test-automation-part-2/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "One run, and what it actually proves The post Towards Spec-Driven Test Automation: Part 2 appeared first on Towards Data Science .",
-      "ts": 1790766001,
-      "published": "2026-09-30T11:00:01+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Presentation: Context Is the New Code",
-      "link": "https://www.infoq.com/presentations/context-as-code-devops-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Patrick Debois discusses how to manage, evaluate, distribute, and observe context using proven software engineering practices. He shares how treating context like code - complete with testing, CI/CD, package managers, a…",
-      "ts": 1790766000,
-      "published": "2026-09-30T11:00:00+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Presentation: Context Is the New Code",
-      "link": "https://www.infoq.com/presentations/context-as-code-devops-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Patrick Debois discusses how to manage, evaluate, distribute, and observe context using proven software engineering practices. He shares how treating context like code - complete with testing, CI/CD, package managers, a…",
-      "ts": 1790766000,
-      "published": "2026-09-30T11:00:00+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
-      "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face, OpenAI is still putting out fires. A steady drip of disclosures a…",
-      "ts": 1790764830,
-      "published": "2026-09-30T10:40:30+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "The Companions to Come",
-      "link": "https://blog.jetbrains.com/kotlin/2026/09/the-companions-to-come/",
-      "source": "Kotlin",
-      "category": "Java",
-      "summary": "We are working on extensions to our companions mechanism to unlock new code patterns and improve interoperability across different platforms. This post outlines these new features and provides preliminary guidance on mi…",
-      "ts": 1790764383,
-      "published": "2026-09-30T10:33:03+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
-    },
-    {
-      "title": "Disrupting a coordinated model-distillation campaign",
-      "link": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how OpenAI disrupted a campaign to extract protected model reasoning and is strengthening defenses against adversarial distillation.",
-      "ts": 1790764200,
-      "published": "2026-09-30T10:30:00+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Helping small businesses put AI to work",
-      "link": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is partnering with America’s SBDC to expand hands-on AI training and local support for small businesses, alongside a new report on how small teams are using AI.",
-      "ts": 1790762400,
-      "published": "2026-09-30T10:00:00+00:00",
-      "collected_at": "2026-10-01T03:56:15+09:00"
-    },
-    {
-      "title": "Pi.dev: You Said No MCP",
-      "link": "https://earendil.com/posts/you-said-no-mcp/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://earendil.com/posts/you-said-no-mcp/ Comments URL: https://news.ycombinator.com/item?id=49906637 Points: 236 # Comments: 105",
-      "ts": 1790762123,
-      "published": "2026-09-30T09:55:23+00:00",
-      "collected_at": "2026-09-30T22:26:59+09:00"
     }
   ]
 }
