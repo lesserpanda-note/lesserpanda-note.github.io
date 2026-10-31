@@ -1,7 +1,17 @@
 {
-  "updated": "2026-11-01T03:21:59+09:00",
+  "updated": "2026-11-01T07:21:27+09:00",
   "count": 1162,
   "items": [
+    {
+      "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
+      "link": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare has moved a post-quantum rebuild of GeoKey Manager into closed beta, guarding geo-fenced keys with hybrid ML-KEM-768 and X25519 instead of the attribute-based encryption used since 2022. Keys live only in ker…",
+      "ts": 1793476560,
+      "published": "2026-10-31T19:56:00+00:00",
+      "collected_at": "2026-11-01T07:21:02+09:00"
+    },
     {
       "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
       "link": "https://latent.space/p/arca/",
@@ -11611,16 +11621,6 @@
       "ts": 1790899200,
       "published": "2026-10-02T00:00:00+00:00",
       "collected_at": "2026-10-03T09:10:33+09:00"
-    },
-    {
-      "title": "When are Causal Inference Methods Needed to Answer Causal Questions?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/01/when-are-causal-inference-methods-needed-to-answer-causal-questions/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Earlier this year we discussed Donna Spiegelman’s talk, “Rethinking SUTVA and Causal Identification: An Epidemiologist’s Perspective,” which she summarized as follows: She’s giving a followup talk online on Mon 12 Oct,…",
-      "ts": 1790888355,
-      "published": "2026-10-01T20:59:15+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
     }
   ]
 }
