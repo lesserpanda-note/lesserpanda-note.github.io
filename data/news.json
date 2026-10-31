@@ -1,7 +1,67 @@
 {
-  "updated": "2026-10-31T05:33:52+09:00",
-  "count": 1172,
+  "updated": "2026-10-31T09:33:40+09:00",
+  "count": 1168,
   "items": [
+    {
+      "title": "This guy has a transformer-based election forecasting model",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/30/this-guy-has-a-transformer-based-election-forecasting-model/",
+      "source": "Statistical Modeling",
+      "category": "AI",
+      "summary": "Harvey Olden writes: I’ve developed an election prediction model based on a transformer architecture; I thought you might find it interesting. The model will update its information automatically in the run-up to the mid…",
+      "ts": 1793406541,
+      "published": "2026-10-31T00:29:01+00:00",
+      "collected_at": "2026-10-31T09:33:34+09:00"
+    },
+    {
+      "title": "v2.64.0 (2026-10-30)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.64.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Raise an error status a retrying transport gave up on as ModelHTTPError , so fallback moves on by @DouweM in #11934 Send stored response, item, conversation and container IDs back o…",
+      "ts": 1793402844,
+      "published": "2026-10-30T23:27:24+00:00",
+      "collected_at": "2026-10-31T09:33:34+09:00"
+    },
+    {
+      "title": "langgraph==1.2.19",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since 1.2.18 release(langgraph): 1.2.19 ( #9504 ) release(checkpoint-sqlite): 3.1.3 ( #9505 ) fix(langgraph): keep trace_policy from rewriting streamed node payloads ( #9486 ) fix(langgraph): give messages and t…",
+      "ts": 1793399023,
+      "published": "2026-10-30T22:23:43+00:00",
+      "collected_at": "2026-10-31T09:33:34+09:00"
+    },
+    {
+      "title": "langgraph-checkpoint-sqlite==3.1.3",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.3",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since checkpointsqlite==3.1.2 release(checkpoint-sqlite): 3.1.3 ( #9505 ) release(checkpoint): 4.3.1 ( #9447 ) fix(checkpoint): reject NUL bytes in namespace labels ( #9383 ) chore(deps): bump certifi from 2026.…",
+      "ts": 1793398734,
+      "published": "2026-10-30T22:18:54+00:00",
+      "collected_at": "2026-10-31T09:33:34+09:00"
+    },
+    {
+      "title": "langgraph-sdk==0.4.11",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.10 release(langgraph): 1.2.19 ( #9504 ) release(sdk-py): 0.4.11 ( #9503 ) test(sdk-py): check that a reconnect loop resumes after the newest event ( #9483 ) fix(sdk-py): retry runs.wait, join and…",
+      "ts": 1793398679,
+      "published": "2026-10-30T22:17:59+00:00",
+      "collected_at": "2026-10-31T09:33:34+09:00"
+    },
+    {
+      "title": "dbreunig/nesformer",
+      "link": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "dbreunig/nesformer Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Ma…",
+      "ts": 1793397562,
+      "published": "2026-10-30T21:59:22+00:00",
+      "collected_at": "2026-10-31T09:33:34+09:00"
+    },
     {
       "title": "dotnet-1.27.0",
       "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.27.0",
@@ -381,6 +441,16 @@
       "ts": 1793318400,
       "published": "2026-10-30T00:00:00+00:00",
       "collected_at": "2026-10-30T17:19:39+09:00"
+    },
+    {
+      "title": "Fair use benefits everyone",
+      "link": "https://openai.com/index/fair-use-benefits-everyone",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "ts": 1793318400,
+      "published": "2026-10-30T00:00:00+00:00",
+      "collected_at": "2026-10-31T09:33:34+09:00"
     },
     {
       "title": "API credits benefit for eligible ChatGPT subscriptions",
@@ -11610,116 +11680,6 @@
       "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered tha…",
       "ts": 1790836141,
       "published": "2026-10-01T06:29:01+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Agent Helidon: License to Scale",
-      "link": "https://inside.java/2026/10/01/agent-helidon-scale/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "While AI agents are rapidly advancing, the performance and scalability of the agents and their underlying services have received too little attention. This session showcases Helidon powering scalable services via Virtua…",
-      "ts": 1790812800,
-      "published": "2026-10-01T00:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Why Every JVM In Your Fleet Warms Up Alone",
-      "link": "https://foojay.io/today/why-every-jvm-in-your-fleet-warms-up-alone/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Why you can't just copy a JIT-compiled method from one JVM to another: compiled code is a bet on one specific JVM's state. Identity, validity, and profitability all have to be checked before it's safe to reuse.",
-      "ts": 1790812800,
-      "published": "2026-10-01T00:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Lathe: A Java Language Server That Works Straight From Your Maven Build",
-      "link": "https://foojay.io/today/lathe-a-java-language-server-from-your-maven-build/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "No project import, no classpath setup — Lathe takes its whole model from your Maven build, so the editor never drifts from what actually compiles.",
-      "ts": 1790812800,
-      "published": "2026-10-01T00:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Announcing 'Skinning JavaFX Applications'",
-      "link": "https://foojay.io/today/announcing-skinning-javafx-applications/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "A practical, code-first book on building modern, visually distinctive JavaFX interfaces — from theming to custom dashboard controls built from scratch.",
-      "ts": 1790812800,
-      "published": "2026-10-01T00:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: JReleaser creator and fellow Java Champion Andres Almiray",
-      "link": "https://spring.io/blog/2026/10/01/a-bootiful-podcast-andres-almiray",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! What if the JVM could feel as frictionless as the modern dev tools people rave about on other platforms? In this wide-ranging, high-energy conversation, you’ll hear two longtime friends (Andres Almiray…",
-      "ts": 1790812800,
-      "published": "2026-10-01T00:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "The Den frees up 10-15 hours a week to grow with ChatGPT Work",
-      "link": "https://openai.com/index/the-den-family-social",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "As it opens a new location, the social club prepares grant applications in 2 hours instead of 3 days and liquor-license materials in 3 hours instead of 4 days.",
-      "ts": 1790812800,
-      "published": "2026-10-01T00:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Barclays scales Claude to upgrade operations and improve client experience",
-      "link": "https://www.anthropic.com/news/barclays-scales-claude",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Barclays scales Claude to upgrade operations and improve client experience",
-      "ts": 1790812800,
-      "published": "2026-10-01T00:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
-      "link": "https://blog.python.org/2026/10/python-31022-31117/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Security updates across Python 3.10–3.14, the final maintenance release of 3.13, and a farewell to Python 3.10.",
-      "ts": 1790812800,
-      "published": "2026-10-01T00:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Why Dwarkesh is Wrong about Computer Use + How OpenAI shipped its Jev competitor in 1 Week",
-      "link": "https://www.latent.space/p/devday-2026",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Our DevDay coverage - the first pod on the DevDay lineup - dives in with the leaders of OpenAI’s CUA team and API platform.",
-      "ts": 1790807020,
-      "published": "2026-09-30T22:23:40+00:00",
-      "collected_at": "2026-10-01T07:53:54+09:00"
-    },
-    {
-      "title": "He Built This City",
-      "link": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I visited the Museum of the City of New York today and got to see He Built This City: Joe Macken’s Model , the 50 x27 feet model of the city built over a 21 year period from balsa wood and cardboard. It exceeded my alre…",
-      "ts": 1790805259,
-      "published": "2026-09-30T21:54:19+00:00",
-      "collected_at": "2026-10-01T07:53:54+09:00"
-    },
-    {
-      "title": "Anthropic's IPO Prospectus Is a Fucking Doozy",
-      "link": "https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://daringfireball.net/linked/2026/09/30/reuters-anthropic-ipo-prospectus Comments URL: https://news.ycombinator.com/item?id=49914149 Points: 69 # Comments: 32",
-      "ts": 1790801059,
-      "published": "2026-09-30T20:44:19+00:00",
       "collected_at": "2026-10-02T09:14:16+09:00"
     }
   ]
