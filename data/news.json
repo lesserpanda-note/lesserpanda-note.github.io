@@ -1,7 +1,47 @@
 {
-  "updated": "2026-10-31T15:47:59+09:00",
-  "count": 1169,
+  "updated": "2026-10-31T22:27:35+09:00",
+  "count": 1166,
   "items": [
+    {
+      "title": "Problems with the “Do no harm” principle in the presence of uncertainty",
+      "link": "https://statmodeling.stat.columbia.edu/2026/10/31/problems-with-the-do-no-harm-principle-in-the-presence-of-uncertainty/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In a paper entitled, Counterfactual Harm: A Counter-argument, Amit Sawant and Mats Stensrud write: A core principle in medicine is non-maleficence, often equated with “do no harm.” A formal definition of harm based on c…",
+      "ts": 1793451821,
+      "published": "2026-10-31T13:03:41+00:00",
+      "collected_at": "2026-10-31T22:27:29+09:00"
+    },
+    {
+      "title": "Quiz: Socket Programming in Python",
+      "link": "https://realpython.com/quizzes/socket-programming-in-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this quiz, you'll test your understanding of Python sockets. With this knowledge, you'll be able to create your own client-server applications, handle multiple connections simultaneously, and send messages and data b…",
+      "ts": 1793448000,
+      "published": "2026-10-31T12:00:00+00:00",
+      "collected_at": "2026-10-31T22:27:29+09:00"
+    },
+    {
+      "title": "I Told an AI Agent That Its Wrong Answers Were Right. One Model Believed Me.",
+      "link": "https://towardsdatascience.com/i-told-an-ai-agent-that-its-wrong-answers-were-right-one-model-believed-me/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A research paper claims reward labels barely change how agents learn. I tested that on three models, and one of them did exactly what the wrong labels told it to. The post I Told an AI Agent That Its Wrong Answers Were…",
+      "ts": 1793448000,
+      "published": "2026-10-31T12:00:00+00:00",
+      "collected_at": "2026-10-31T22:27:29+09:00"
+    },
+    {
+      "title": "Kubernetes Confidential Containers Get Fortanix Attestation and Key Management",
+      "link": "https://www.infoq.com/news/2026/10/k8s-confidential-containers/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Fortanix's CoCo integration connects workload attestation to decryption-key release for Kubernetes AI workloads. GPU-verification settings affect protection, while upstream Trustee and Azure Secure Key Release offer alt…",
+      "ts": 1793434680,
+      "published": "2026-10-31T08:18:00+00:00",
+      "collected_at": "2026-10-31T22:27:29+09:00"
+    },
     {
       "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
       "link": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -201,6 +241,56 @@
       "ts": 1793368800,
       "published": "2026-10-30T14:00:00+00:00",
       "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Python's Requests Library (Guide)",
+      "link": "https://realpython.com/python-requests/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "The Requests library is the go-to tool for making HTTP requests in Python. Learn how to use its intuitive API to send requests and interact with the web.",
+      "ts": 1793368800,
+      "published": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-31T22:27:29+09:00"
+    },
+    {
+      "title": "How to Write Beautiful Python Code With PEP 8",
+      "link": "https://realpython.com/python-pep8/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to write readable, high-quality Python code by following the PEP 8 style guide and using linters and autoformatters to enforce it.",
+      "ts": 1793368800,
+      "published": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-31T22:27:29+09:00"
+    },
+    {
+      "title": "Inheritance and Composition: A Python OOP Guide",
+      "link": "https://realpython.com/inheritance-composition-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how inheritance and composition in Python model is-a and has-a relationships, and when to use each to design flexible object-oriented code.",
+      "ts": 1793368800,
+      "published": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-31T22:27:29+09:00"
+    },
+    {
+      "title": "Python range(): Represent Numerical Ranges",
+      "link": "https://realpython.com/python-range/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Master the Python range() function, see how it works under the hood, and learn when enumerate() or zip() beat ranges in your loops.",
+      "ts": 1793368800,
+      "published": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-31T22:27:29+09:00"
+    },
+    {
+      "title": "Getters and Setters: Manage Attributes in Python",
+      "link": "https://realpython.com/python-getter-setter/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn what Python getter and setter methods are, why properties are usually the better choice, and when getters and setters still make sense.",
+      "ts": 1793368800,
+      "published": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-10-31T22:27:29+09:00"
     },
     {
       "title": "DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents",
@@ -11570,126 +11660,6 @@
       "summary": "Aleks points us to this document, “Preliminary Evaluation of SRI/SAIC Anomalous Mental Phenomenon Program.” It’s from 1995, but even then the topic was a bit out of fashion. In 2023 I posted Changes since the 1970s (ESP…",
       "ts": 1790861396,
       "published": "2026-10-01T13:29:56+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "FTC is investigating OpenAI, Anthropic and other AI companies over product risks",
-      "link": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html Comments URL: https://news.ycombinator.com/item?id=49921050 Points: 198 # Comments: 145",
-      "ts": 1790859655,
-      "published": "2026-10-01T13:00:55+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "What the ReLU Revolution Revealed About Biological Plausibility",
-      "link": "https://towardsdatascience.com/what-the-relu-revolution-revealed-about-biological-plausibility/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The activation function was never a fixed biological commitment but a working hypothesis revised under empirical pressure. The post What the ReLU Revolution Revealed About Biological Plausibility appeared first on Towar…",
-      "ts": 1790857801,
-      "published": "2026-10-01T12:30:01+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Presentation: Beyond Observability: Evolving Production Operations in the Age of AI",
-      "link": "https://www.infoq.com/presentations/ai-production-operations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The panelists discuss how production operations are evolving with AI, turning operational data into actionable insights for incident response. They explain how automation and new architectural practices help engineering…",
-      "ts": 1790857800,
-      "published": "2026-10-01T12:30:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Presentation: Beyond Observability: Evolving Production Operations in the Age of AI",
-      "link": "https://www.infoq.com/presentations/ai-production-operations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "The panelists discuss how production operations are evolving with AI, turning operational data into actionable insights for incident response. They explain how automation and new architectural practices help engineering…",
-      "ts": 1790857800,
-      "published": "2026-10-01T12:30:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "10 Python One-Liners That Will Make Your Code Cleaner and Faster",
-      "link": "https://www.kdnuggets.com/10-python-one-liners-that-will-make-your-code-cleaner-and-faster",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Get work done, and have seconds added back to your life since you won't be writing second, third or — *gasp!* — fourth line follow-ups to your impeccable typed line numero uno.",
-      "ts": 1790856014,
-      "published": "2026-10-01T12:00:14+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Quiz: Pygame: A Primer on Game Programming in Python",
-      "link": "https://realpython.com/quizzes/pygame-a-primer/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Pygame by working through questions on surfaces, the game loop, sprite groups, collision detection, and frame rate.",
-      "ts": 1790856000,
-      "published": "2026-10-01T12:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Adding Temporal Reasoning to Graph-RAG: Tracking Fact Freshness and Staleness",
-      "link": "https://machinelearningmastery.com/adding-temporal-reasoning-to-graph-rag-tracking-fact-freshness-and-staleness/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how to add a lightweight temporal reasoning layer to a Graph-RAG system so that it can distinguish fresh facts...",
-      "ts": 1790856000,
-      "published": "2026-10-01T12:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "AI Agent Observability: Logging, Tracing, and Debugging Explained",
-      "link": "https://machinelearningmastery.com/ai-agent-observability-logging-tracing-and-debugging-explained/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "Chain Visualization: Reading the Trace Waterfall The spans from the last section don't mean much as a raw list.",
-      "ts": 1790856000,
-      "published": "2026-10-01T12:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "dotnet-1.23.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.23.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "Changes: be01dec .NET: Add origin pinning to Foundry toolbox MCP client ( #8721 ) 0d6d2bb .NET: fix: declarative workflow http variables ( #8797 ) 2024d4d .NET: Fix workflow topology edge multiplicity comparison ( #8656…",
-      "ts": 1790852552,
-      "published": "2026-10-01T11:02:32+00:00",
-      "collected_at": "2026-10-30T04:26:20+09:00"
-    },
-    {
-      "title": "Your AI Bill Is a Toll Booth. Stop Paying Twice.",
-      "link": "https://towardsdatascience.com/your-ai-bill-is-a-toll-booth-stop-paying-twice/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The budget nobody saw coming The post Your AI Bill Is a Toll Booth. Stop Paying Twice. appeared first on Towards Data Science .",
-      "ts": 1790852401,
-      "published": "2026-10-01T11:00:01+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Article: High Availability Is Not Resilience: Why Cloud Systems Fail When It Matters Most",
-      "link": "https://www.infoq.com/articles/high-availability-not-resilience-cloud/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "A routine TLS 1.3 upgrade silently broke Route 53 health checks, causing a CDN to stop routing traffic to a healthy region while internal dashboards showed nothing wrong. This article examines why HA and resilience are…",
-      "ts": 1790845200,
-      "published": "2026-10-01T09:00:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Claude Code Custom Commands & Skills: Automate Your Workflow",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/claude-code-custom-commands-skills-automate-your-workflow/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "Every dev team has repeatable setup tasks: spinning up a new project, running a deployment checklist, generating a file structure, or typing the same instructions into Claude again and again. Claude Code helps reduce th…",
-      "ts": 1790844423,
-      "published": "2026-10-01T08:47:03+00:00",
       "collected_at": "2026-10-02T09:14:16+09:00"
     }
   ]
