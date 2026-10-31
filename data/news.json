@@ -1,7 +1,27 @@
 {
-  "updated": "2026-10-31T12:38:25+09:00",
-  "count": 1172,
+  "updated": "2026-10-31T15:47:59+09:00",
+  "count": 1169,
   "items": [
+    {
+      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+      "link": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "According to a paper published by Google, its AI-powered security agent has uncovered more than 500 XSS vulnerabilities across its web applications since entering full operation in January. PageBreak uses Gemini models…",
+      "ts": 1793427600,
+      "published": "2026-10-31T06:20:00+00:00",
+      "collected_at": "2026-10-31T15:47:52+09:00"
+    },
+    {
+      "title": "[AINews] Google admits AI Mode hurts Search revenue; -15% $500B drop worst since 2004 IPO. AI Bear Market coming?",
+      "link": "https://latent.space/p/ainews-google-admits-ai-mode-hurts-search-revenue-15-500b-drop-worst-since-2004-ipo-ai-bear-market-c/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "It turns out you cannot have your cake AND eat it",
+      "ts": 1793422848,
+      "published": "2026-10-31T05:00:48+00:00",
+      "collected_at": "2026-10-31T15:47:52+09:00"
+    },
     {
       "title": "GELU Activation Function Explained: How It Works and Why Transformers Use It",
       "link": "https://www.analyticsvidhya.com/blog/2026/10/gelu-activation-function-explained/",
@@ -11670,56 +11690,6 @@
       "summary": "Every dev team has repeatable setup tasks: spinning up a new project, running a deployment checklist, generating a file structure, or typing the same instructions into Claude again and again. Claude Code helps reduce th…",
       "ts": 1790844423,
       "published": "2026-10-01T08:47:03+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "TypeSafe AI Releases Jev: A Decision-Only Model That Returns Typed Probabilities Instead of Text",
-      "link": "https://www.infoq.com/news/2026/10/typesafe-ai-jev-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "TypeSafe AI, founded by former OpenAI researcher Diogo Almeida, has introduced Jev, a decision-making model that generates typed outputs rather than text. It evaluates inputs in parallel, providing results with probabil…",
-      "ts": 1790837220,
-      "published": "2026-10-01T06:47:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "[AINews] Gemini 4 Argon: GDM’s answer to Astra/Fable, with 1M output",
-      "link": "https://www.latent.space/p/ainews-gemini-4-argon-gdms-answer",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "... but you can’t try it yet unless you are “government users and trusted cyber defenders in the Fairwind Program”",
-      "ts": 1790837105,
-      "published": "2026-10-01T06:45:05+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Container Apps Express Reaches GA on a Newly Generally Available Sandbox Layer",
-      "link": "https://www.infoq.com/news/2026/10/container-apps-express-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Microsoft has made Azure Container Apps Express generally available alongside Container Apps Sandboxes, the microVM compute layer it runs on. Express skips environment provisioning and scales to zero, with subsecond sta…",
-      "ts": 1790836260,
-      "published": "2026-10-01T06:31:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Container Apps Express Reaches GA on a Newly Generally Available Sandbox Layer",
-      "link": "https://www.infoq.com/news/2026/10/container-apps-express-sandboxes/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft has made Azure Container Apps Express generally available alongside Container Apps Sandboxes, the microVM compute layer it runs on. Express skips environment provisioning and scales to zero, with subsecond sta…",
-      "ts": 1790836260,
-      "published": "2026-10-01T06:31:00+00:00",
-      "collected_at": "2026-10-02T09:14:16+09:00"
-    },
-    {
-      "title": "Quoting Matthew Green",
-      "link": "https://simonwillison.net/2026/Oct/1/matthew-green/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "[...] Put these pieces together and you have the two halves of a worm: a payload that hijacks the agent, and an agent that will carry the payload to the next agent. Agents in separately-isolated sandboxes discovered tha…",
-      "ts": 1790836141,
-      "published": "2026-10-01T06:29:01+00:00",
       "collected_at": "2026-10-02T09:14:16+09:00"
     }
   ]
