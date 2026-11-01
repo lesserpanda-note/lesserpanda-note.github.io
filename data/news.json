@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-01T07:21:27+09:00",
+  "updated": "2026-11-01T10:59:36+09:00",
   "count": 1162,
   "items": [
+    {
+      "title": "Batch Processing with MongoDB and Jakarta EE: From Customer Segmentation to Scalable Workflows",
+      "link": "https://foojay.io/today/batch-processing-mongodb-jakarta-ee-customer-segmentation/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Build a Jakarta Batch job that reclassifies e-commerce customers into tiers on MongoDB, with a Jakarta Faces preview flow before execution.",
+      "ts": 1793491200,
+      "published": "2026-11-01T00:00:00+00:00",
+      "collected_at": "2026-11-01T10:59:25+09:00"
+    },
+    {
+      "title": "How We Took Over ChatGPT Accounts",
+      "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "How We Took Over ChatGPT Accounts Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is calle…",
+      "ts": 1793488522,
+      "published": "2026-10-31T23:15:22+00:00",
+      "collected_at": "2026-11-01T10:59:25+09:00"
+    },
+    {
+      "title": "datasette-llm 0.1a9",
+      "link": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-llm 0.1a9 I have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. It now picks up the default…",
+      "ts": 1793484601,
+      "published": "2026-10-31T22:10:01+00:00",
+      "collected_at": "2026-11-01T10:59:25+09:00"
+    },
+    {
+      "title": "Anthropic takes steps to block Claude from reverse-engineering video games",
+      "link": "https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://mashable.com/tech/anthropic-takes-steps-to-block-video-game-cloning-and-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50320255 Points: 98 # Comments: 66",
+      "ts": 1793480878,
+      "published": "2026-10-31T21:07:58+00:00",
+      "collected_at": "2026-11-01T10:59:25+09:00"
+    },
     {
       "title": "Cloudflare’s Post-Quantum GeoKey Manager Enters Closed Beta Without Attribute-Based Encryption",
       "link": "https://www.infoq.com/news/2026/10/cf-pq-geokey-manager/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -11,6 +51,16 @@
       "ts": 1793476560,
       "published": "2026-10-31T19:56:00+00:00",
       "collected_at": "2026-11-01T07:21:02+09:00"
+    },
+    {
+      "title": "Anthropic blocks users for anything touching training larger models",
+      "link": "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/jiahaoshao1/status/2116475922190922088 Comments URL: https://news.ycombinator.com/item?id=50319358 Points: 199 # Comments: 116",
+      "ts": 1793475559,
+      "published": "2026-10-31T19:39:19+00:00",
+      "collected_at": "2026-11-01T10:59:25+09:00"
     },
     {
       "title": "Agents Prompt People: Using Agents for Long-Horizon Financial Work",
@@ -73,6 +123,26 @@
       "collected_at": "2026-11-01T03:21:54+09:00"
     },
     {
+      "title": "AI startup hacks Anthropic, gains access to employee details, internal messages",
+      "link": "https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.indiatoday.in/technology/news/story/ai-startup-hacks-anthropic-in-12-hours-gains-access-to-employee-details-and-internal-messages-3025452-2026-10-26 Comments URL: https://news.ycombinator.com/it…",
+      "ts": 1793453110,
+      "published": "2026-10-31T13:25:10+00:00",
+      "collected_at": "2026-11-01T10:59:25+09:00"
+    },
+    {
+      "title": "Anthropic's Claude AI blocks video game cloning and reverse-engineering",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineering-tasks-are-blocked",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ai-model-is-now-blocking-attempts-at-video-game-recreation-and-cloning-users-also-claim-non-malicious-generic-reverse-engineerin…",
+      "ts": 1793453100,
+      "published": "2026-10-31T13:25:00+00:00",
+      "collected_at": "2026-11-01T10:59:25+09:00"
+    },
+    {
       "title": "Problems with the “Do no harm” principle in the presence of uncertainty",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/31/problems-with-the-do-no-harm-principle-in-the-presence-of-uncertainty/",
       "source": "Statistical Modeling",
@@ -81,6 +151,16 @@
       "ts": 1793451821,
       "published": "2026-10-31T13:03:41+00:00",
       "collected_at": "2026-10-31T22:27:29+09:00"
+    },
+    {
+      "title": "Why Anthropic's filing crushed tech stocks",
+      "link": "https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.thebignewsletter.com/p/why-anthropics-filing-crushed-tech Comments URL: https://news.ycombinator.com/item?id=50315574 Points: 50 # Comments: 75",
+      "ts": 1793449930,
+      "published": "2026-10-31T12:32:10+00:00",
+      "collected_at": "2026-11-01T10:59:25+09:00"
     },
     {
       "title": "Quiz: Socket Programming in Python",
@@ -11541,86 +11621,6 @@
       "ts": 1790909588,
       "published": "2026-10-02T02:53:08+00:00",
       "collected_at": "2026-10-02T17:09:55+09:00"
-    },
-    {
-      "title": "v0.23.0",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.0",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "0.23.0 (2026-10-01) Features mcp: add configurable MCP listing page limits ( #5133 ) ( 9a21ab1 ) sandbox: add opt-in Docker removal protection ( #5116 ) ( ae5803f ) sandbox: allow configuring memory consolidation turns…",
-      "ts": 1790903303,
-      "published": "2026-10-02T01:08:23+00:00",
-      "collected_at": "2026-10-02T10:25:33+09:00"
-    },
-    {
-      "title": "Academia is for Ambition — Alex Zhang, MIT",
-      "link": "https://www.latent.space/p/rlm",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
-      "ts": 1790900884,
-      "published": "2026-10-02T00:28:04+00:00",
-      "collected_at": "2026-10-02T10:25:33+09:00"
-    },
-    {
-      "title": "Changes Included in Release 26.08 of Azul Zing Builds of OpenJDK",
-      "link": "https://foojay.io/today/changes-included-in-release-26-08-of-azul-zing-builds-of-openjdk/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Azul Zing Builds of OpenJDK, the optimized Java runtime within Azul Platform Prime, has reached the release of the 26.08 Stable Release line.",
-      "ts": 1790899200,
-      "published": "2026-10-02T00:00:00+00:00",
-      "collected_at": "2026-10-02T10:25:33+09:00"
-    },
-    {
-      "title": "Spring AI Modular RAG and TypeSafe Jev: Retrieve More, Keep Only What Answers",
-      "link": "https://spring.io/blog/2026/10/02/spring-ai-modular-rag-typesafe-jev",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Spring AI: RAG Doc | Jev Doc | Demo In the previous article we introduced Spring AI TypeSafe and its Jev model: typed questions in, calibrated numbers out, in a few hundred milliseconds. One row in that article's SPI ta…",
-      "ts": 1790899200,
-      "published": "2026-10-02T00:00:00+00:00",
-      "collected_at": "2026-10-02T17:09:55+09:00"
-    },
-    {
-      "title": "JEP targeted to JDK 28: 540: Simple JSON API (Incubator)",
-      "link": "https://inside.java/2026/10/02/jep549-target-jdk28/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The following JEP is targeted to JDK 28: 540: Simple JSON API (Incubator)",
-      "ts": 1790899200,
-      "published": "2026-10-02T00:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Chatham scales its capital markets expertise with OpenAI",
-      "link": "https://openai.com/index/chatham-financial",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Chatham Financial uses Codex and GPT-5.6 to build technology and redesign workflows, cutting trade validation from 30 minutes to under 4.",
-      "ts": 1790899200,
-      "published": "2026-10-02T00:00:00+00:00",
-      "collected_at": "2026-10-03T05:30:08+09:00"
-    },
-    {
-      "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-      "link": "https://www.anthropic.com/news/claude-frontier-academy",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
-      "ts": 1790899200,
-      "published": "2026-10-02T00:00:00+00:00",
-      "collected_at": "2026-10-03T09:10:33+09:00"
-    },
-    {
-      "title": "Python 3.15.0 candidate 3 is here!",
-      "link": "https://blog.python.org/2026/10/python-3150-rc3/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Following tradition, a surprise rc3!",
-      "ts": 1790899200,
-      "published": "2026-10-02T00:00:00+00:00",
-      "collected_at": "2026-10-03T09:10:33+09:00"
     }
   ]
 }
