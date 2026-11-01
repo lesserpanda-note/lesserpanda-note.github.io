@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-01T12:38:09+09:00",
-  "count": 1161,
+  "updated": "2026-11-01T18:05:47+09:00",
+  "count": 1156,
   "items": [
+    {
+      "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+      "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC2 and Bedrock. Prac…",
+      "ts": 1793520180,
+      "published": "2026-11-01T08:03:00+00:00",
+      "collected_at": "2026-11-01T18:05:26+09:00"
+    },
+    {
+      "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+      "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Amazon CEO Andy Jassy says AWS’s large committed cloud capacity is largely sold out through 2027, with part of 2028 already allocated, while the company continues to reserve headroom for On Demand, EC2 and Bedrock. Prac…",
+      "ts": 1793520180,
+      "published": "2026-11-01T08:03:00+00:00",
+      "collected_at": "2026-11-01T18:05:26+09:00"
+    },
     {
       "title": "Batch Processing with MongoDB and Jakarta EE: From Customer Segmentation to Scalable Workflows",
       "link": "https://foojay.io/today/batch-processing-mongodb-jakarta-ee-customer-segmentation/",
@@ -11541,76 +11561,6 @@
       "ts": 1790935200,
       "published": "2026-10-02T10:00:00+00:00",
       "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Docker Sandbox Kit Spec: Packaging AI Agent Permissions as OCI Images",
-      "link": "https://www.infoq.com/news/2026/10/docker-sandbox-ai-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Docker has announced that it is bringing the Sandbox Kit Specification to the CNCF, aiming to make what an AI agent may access as portable as the agent itself. By Claudio Masolo",
-      "ts": 1790931600,
-      "published": "2026-10-02T09:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "DigitalOcean Managed Agents Brings Managed Cloud Infrastructure to AI Agents",
-      "link": "https://www.infoq.com/news/2026/10/digitalocean-managed-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "DigitalOcean recently launched DigitalOcean Managed Agents in public preview, offering a managed cloud infrastructure layer for AI agents with isolated microVM runtimes, governed tool access, and serverless AI inference…",
-      "ts": 1790931600,
-      "published": "2026-10-02T09:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Article: From Reusable to Regeneratable: Rethinking the Shared UI Component Library",
-      "link": "https://www.infoq.com/articles/regeneratable-ui-component-library/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Regeneration has changed reuse economics. A model pointed at a solid design system can produce most standard UI on demand, so paying to keep a canonical component package alive is much harder to justify than it used to…",
-      "ts": 1790931600,
-      "published": "2026-10-02T09:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "DigitalOcean Managed Agents Brings Managed Cloud Infrastructure to AI Agents",
-      "link": "https://www.infoq.com/news/2026/10/digitalocean-managed-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "DigitalOcean recently launched DigitalOcean Managed Agents in public preview, offering a managed cloud infrastructure layer for AI agents with isolated microVM runtimes, governed tool access, and serverless AI inference…",
-      "ts": 1790931600,
-      "published": "2026-10-02T09:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Don’t be fooled—LLMs don’t reason",
-      "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked…",
-      "ts": 1790928000,
-      "published": "2026-10-02T08:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-      "link": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "the minimalist harness goes stable... and TypeScript!",
-      "ts": 1790923253,
-      "published": "2026-10-02T06:40:53+00:00",
-      "collected_at": "2026-10-02T17:09:55+09:00"
-    },
-    {
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents",
-      "link": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790913691,
-      "published": "2026-10-02T04:01:31+00:00",
-      "collected_at": "2026-10-02T17:09:55+09:00"
     }
   ]
 }
