@@ -1,7 +1,87 @@
 {
-  "updated": "2026-11-01T18:05:47+09:00",
-  "count": 1156,
+  "updated": "2026-11-02T01:39:56+09:00",
+  "count": 1148,
   "items": [
+    {
+      "title": "The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns",
+      "link": "https://towardsdatascience.com/the-enterprise-context-layer-a-practitioners-guide-to-6-advanced-architectural-patterns/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Beyond RAG: How modern architectures engineer precise, cost-efficient context for enterprise AI agents. The post The Enterprise Context Layer: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared first o…",
+      "ts": 1793548800,
+      "published": "2026-11-01T16:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "“Evolutionary psychology hypotheses are testable and falsifiable.”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/01/evolutionary-psychology-hypotheses-are-testable-and-falsifiable/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Eric Charnov points to this recent article by William Costello et al., which begins: The field of evolutionary psychology has often been the target of allegations that its hypotheses are unfalsifiable. . . . We . . . pr…",
+      "ts": 1793542886,
+      "published": "2026-11-01T14:21:26+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "Operator and Function Overloading in Custom Python Classes",
+      "link": "https://realpython.com/operator-function-overloading/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Use Python operator overloading to make built-in functions and operators work with your own classes, and write more Pythonic code.",
+      "ts": 1793541600,
+      "published": "2026-11-01T14:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "Documenting Python Code: A Complete Guide",
+      "link": "https://realpython.com/documenting-python-code/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "A complete guide to documenting Python code. Whether you're documenting a small script or a large project, this guide covers what you need to know.",
+      "ts": 1793541600,
+      "published": "2026-11-01T14:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "Recursion in Python: An Introduction",
+      "link": "https://realpython.com/python-recursion/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Get to grips with Python recursion: what it is, how it works, when to reach for it, and how recursive and iterative solutions compare.",
+      "ts": 1793541600,
+      "published": "2026-11-01T14:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "Fix the Image, Not the Prompt",
+      "link": "https://towardsdatascience.com/fix-the-image-not-the-prompt/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Vision models often fail before they even start reasoning. A few well-placed labels on the image fix more than any prompt tweak. The post Fix the Image, Not the Prompt appeared first on Towards Data Science .",
+      "ts": 1793541600,
+      "published": "2026-11-01T14:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "Quiz: Documenting Python Code: A Complete Guide",
+      "link": "https://realpython.com/quizzes/documenting-python-code/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "In this quiz, you'll test your understanding of documenting Python code. With this knowledge, you'll be able to effectively document your Python scripts and projects, making them more understandable and maintainable.",
+      "ts": 1793534400,
+      "published": "2026-11-01T12:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "A Neural Network Learned to Read Digits From Pure Noise",
+      "link": "https://towardsdatascience.com/a-neural-network-learned-to-read-digits-from-pure-noise/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A small NumPy reproduction of subliminal learning, and a short argument for why it works The post A Neural Network Learned to Read Digits From Pure Noise appeared first on Towards Data Science .",
+      "ts": 1793534400,
+      "published": "2026-11-01T12:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
     {
       "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
       "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -121,6 +201,56 @@
       "ts": 1793455200,
       "published": "2026-10-31T14:00:00+00:00",
       "collected_at": "2026-11-01T03:21:54+09:00"
+    },
+    {
+      "title": "Using the Python zip() Function for Parallel Iteration",
+      "link": "https://realpython.com/python-zip-function/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use the Python zip() function to iterate over multiple iterables in parallel, unzip sequences, and build dictionaries with less code.",
+      "ts": 1793455200,
+      "published": "2026-10-31T14:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "Object-Oriented Programming in Python vs Java",
+      "link": "https://realpython.com/oop-in-python-vs-java/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Compare Python vs Java for object-oriented programming and learn how to apply your Java knowledge of classes and objects to Python in a Pythonic way.",
+      "ts": 1793455200,
+      "published": "2026-10-31T14:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "Generating Random Data in Python (Guide)",
+      "link": "https://realpython.com/python-random/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Compare the Python random module with its alternatives for generating random data, on security, versatility, purpose, and speed.",
+      "ts": 1793455200,
+      "published": "2026-10-31T14:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "Socket Programming in Python (Guide)",
+      "link": "https://realpython.com/python-sockets/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build a Python socket server and client from scratch, then extend it to handle multiple connections at once without blocking.",
+      "ts": 1793455200,
+      "published": "2026-10-31T14:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
+    },
+    {
+      "title": "How to Build a Python GUI Application With wxPython",
+      "link": "https://realpython.com/python-gui-with-wxpython/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build a cross-platform Python GUI with wxPython in this tutorial, from buttons and sizers to a working MP3 tag editor application.",
+      "ts": 1793455200,
+      "published": "2026-10-31T14:00:00+00:00",
+      "collected_at": "2026-11-02T01:39:37+09:00"
     },
     {
       "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
@@ -11351,216 +11481,6 @@
       "ts": 1790960193,
       "published": "2026-10-02T16:56:33+00:00",
       "collected_at": "2026-10-04T09:20:52+09:00"
-    },
-    {
-      "title": "A model guide for the GPT-6 family",
-      "link": "https://openai.com/index/practical-guide-building-gpt-6",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how startups can choose GPT-6 models, tune reasoning effort, improve prompts and skills, coordinate tools, and prepare workflows for production.",
-      "ts": 1790957700,
-      "published": "2026-10-02T16:15:00+00:00",
-      "collected_at": "2026-10-03T05:30:08+09:00"
-    },
-    {
-      "title": "Redefining enterprise intelligence with autonomous AI",
-      "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI i…",
-      "ts": 1790956144,
-      "published": "2026-10-02T15:49:04+00:00",
-      "collected_at": "2026-10-03T05:30:08+09:00"
-    },
-    {
-      "title": "Open-sourcing AstaBrief, the fast report-generation model in Asta",
-      "link": "https://huggingface.co/blog/allenai/astabrief",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1790954390,
-      "published": "2026-10-02T15:19:50+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "v0.23.1",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.23.1",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "0.23.1 (2026-10-02) Bug Fixes restore release tests and refresh required readiness check ( #5278 ) ( 730deb4 )",
-      "ts": 1790954369,
-      "published": "2026-10-02T15:19:29+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "The latest AI news we announced in September 2026",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "A video showing the September AI updates",
-      "ts": 1790953200,
-      "published": "2026-10-02T15:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "python-1.20.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.20.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.20.0] - 2026-10-02 Added agent-framework-foundry-hosting : Host native workflows over Foundry Responses and Foundry Invocations ( #8947 , #8966 ) agent-framework-duckdb , agent-framework-sql-server , agent-framework-…",
-      "ts": 1790952896,
-      "published": "2026-10-02T14:54:56+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Uber Eats Rebuilds Search Pipeline to Cut End-to-End Latency by 50%",
-      "link": "https://www.infoq.com/news/2026/10/uber-eats-search-latency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Uber has rebuilt major parts of the Uber Eats search pipeline, reporting a 50% reduction in end-to-end latency. Changes include Above-the-Fold measurement, reduced retrieval work, parallel hydration, advertising data re…",
-      "ts": 1790950920,
-      "published": "2026-10-02T14:22:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Uber Eats Rebuilds Search Pipeline to Cut End-to-End Latency by 50%",
-      "link": "https://www.infoq.com/news/2026/10/uber-eats-search-latency/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Uber has rebuilt major parts of the Uber Eats search pipeline, reporting a 50% reduction in end-to-end latency. Changes include Above-the-Fold measurement, reduced retrieval work, parallel hydration, advertising data re…",
-      "ts": 1790950920,
-      "published": "2026-10-02T14:22:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
-      "link": "https://www.latent.space/p/airbnb",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests.",
-      "ts": 1790949889,
-      "published": "2026-10-02T14:04:49+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Python Foundations for Engineering: A KDnuggets Cheat Sheet",
-      "link": "https://www.kdnuggets.com/python-foundations-for-engineering-a-cheat-sheet",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "This is the Python material that does not get left behind. Almost none of it is replaced by a framework later. Learn it, and keep this cheat sheet close by as a handy reference.",
-      "ts": 1790949617,
-      "published": "2026-10-02T14:00:17+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Forward Deployed Engineer: AI’s Hottest New Career, or Consulting With a Better Title?",
-      "link": "https://www.kdnuggets.com/forward-deployed-engineer-ais-hottest-new-career-or-consulting-with-a-better-title",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "The forward deployed engineer: is this the hot new AI career, or has the hype cycle rebranded?",
-      "ts": 1790949604,
-      "published": "2026-10-02T14:00:04+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Nicholas Goddamn Roerich",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/02/nicholas-goddamn-roerich/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "When Witold was in town the other day, he told me he wanted to see this museum in my neighborhood–the Nicholas Roerich Museum. Not only had I never heard of the museum, I’d never heard of the artist. Roerich had … Conti…",
-      "ts": 1790946866,
-      "published": "2026-10-02T13:14:26+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Where the Agent Development Lifecycle Fits",
-      "link": "https://towardsdatascience.com/where-the-agent-development-lifecycle-fits/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Coordinating agent capability development with the application it powers The post Where the Agent Development Lifecycle Fits appeared first on Towards Data Science .",
-      "ts": 1790946000,
-      "published": "2026-10-02T13:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #313: Python 3.15: Exploring the New Features",
-      "link": "https://realpython.com/podcasts/rpp/313/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Python 3.15 is (almost*) here! Christopher Trudeau and Bartosz Zaczyński return to discuss the new version. Bartosz coordinated the series of preview articles with members of the Real Python team and wrote the showcase…",
-      "ts": 1790942400,
-      "published": "2026-10-02T12:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Quiz: The Beginner's Guide to Python Turtle",
-      "link": "https://realpython.com/quizzes/beginners-guide-python-turtle/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Practice the Python turtle library: move the pen, draw and fill shapes, set colors, and repeat moves with loops. Check what you know in 10 questions.",
-      "ts": 1790942400,
-      "published": "2026-10-02T12:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "5 Proven Techniques for Token Compression and Prompt Optimization",
-      "link": "https://www.kdnuggets.com/5-proven-techniques-for-token-compression-and-prompt-optimization",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Reduce costs, improve response quality, and build leaner AI applications with these prompt engineering strategies.",
-      "ts": 1790942400,
-      "published": "2026-10-02T12:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Presentation: Managing Asynchronous APIs at Scale",
-      "link": "https://www.infoq.com/presentations/managing-async-apis/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Ian Cooper discusses managing asynchronous APIs in event-driven architectures at scale. He explains the \"ABCs\" of messaging (Address, Binding, Contract) and shares how to tackle discovery, governance, and provisioning u…",
-      "ts": 1790938800,
-      "published": "2026-10-02T11:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "How to Build a Control Plane for AI Agents",
-      "link": "https://towardsdatascience.com/how-to-build-a-control-plane-for-ai-agents/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Giving an LLM permission to act, in 9 steps The post How to Build a Control Plane for AI Agents appeared first on Towards Data Science .",
-      "ts": 1790938800,
-      "published": "2026-10-02T11:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "OpenAI DevDay 2026 Recap for Developers",
-      "link": "https://www.infoq.com/news/2026/10/openai-devday-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "OpenAI announced a series of product and developer updates at DevDay 2026, including GPT-6.1 Sol, computer use for the Agents API, cloud-based Codex environments, a Decisions API, and new plugin capabilities for ChatGPT…",
-      "ts": 1790937540,
-      "published": "2026-10-02T10:39:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Engineering Production Systems for an Agentic Era: QCon San Francisco 2026",
-      "link": "https://www.infoq.com/news/2026/10/qconsf-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "QCon San Francisco 2026 will bring together practitioners from Airbnb, OpenAI, Netflix, Honeycomb, and other engineering organizations to share how they are building, operating, and evolving production systems as AI age…",
-      "ts": 1790935200,
-      "published": "2026-10-02T10:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
-    },
-    {
-      "title": "Engineering Production Systems for an Agentic Era: QCon San Francisco 2026",
-      "link": "https://www.infoq.com/news/2026/10/qconsf-2026-sessions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "QCon San Francisco 2026 will bring together practitioners from Airbnb, OpenAI, Netflix, Honeycomb, and other engineering organizations to share how they are building, operating, and evolving production systems as AI age…",
-      "ts": 1790935200,
-      "published": "2026-10-02T10:00:00+00:00",
-      "collected_at": "2026-10-03T00:34:17+09:00"
     }
   ]
 }
