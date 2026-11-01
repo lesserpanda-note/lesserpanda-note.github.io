@@ -1,48 +1,27 @@
 {
-  "updated": "2026-10-31T03:37:49Z",
-  "summary": "이번 묶음의 핵심은 Cursor 마켓플레이스에 배포된 Claude Code VS Code 확장 백도어 보고로, 에이전트 도구 공급망 보안을 다시 점검할 필요가 있다. 아키텍처에서는 DoorDash가 배치 분석과 실시간 매칭을 분리해 재주문 지연을 16초에서 2초로 줄였고, Netflix는 GPU 학습 인프라를 분산 시스템으로 다뤄 작업 성공률을 99.5% 이상으로 올렸다. Kotlin 2.5.0은 Beta2에 도달했고, 데이터사이언스에서는 피처 엔지니어링 효과 검증과 인과추론 논의가 올라왔다.",
+  "updated": "2026-11-01T03:37:35Z",
+  "summary": "오늘은 Spring 5종이 동시에 첫 릴리스 후보에 들어가 Boot 4.2와 Framework 7.1 준비를 시작해야 할 시점임을 알렸다. AI 쪽에서는 ChatGPT HTML 미리보기 계정 탈취 체인이 LLM 생성 HTML 렌더링의 샌드박스 경계를 되짚게 했고, Google PageBreak은 결정론적 검증기로 에이전트 환각을 걸러내는 설계를 보여줬다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "Kodee’s Kotlin Roundup: Shipaton 2026 Winners, Kotlin 2.5.0-Beta2, and KotlinConf 2027",
-      "link": "https://blog.jetbrains.com/kotlin/2026/10/kodee-s-kotlin-roundup-shipaton-2026-winners-kotlin-2-5-0-beta2-and-kotlinconf-2027/",
-      "summary": "Kotlin 2.5.0이 Beta2 단계에 들어갔고, Shipaton 2026 수상작과 KotlinConf 2027 소식이 함께 정리됐다.",
-      "detail": "JetBrains의 Kotlin 격주 소식 정리로, Kotlin 2.5.0이 Beta2까지 진행되어 정식 릴리스가 가시권에 들어왔다는 것이 핵심이다. Shipaton 2026에서는 Kotlin Multiplatform 앱 세 개가 Ship Kotlin Everywhere Award를 받았다. 본문은 403으로 읽지 못해 RSS 요약에 있는 범위만 반영했으며, 2.5.0의 세부 변경점은 확인하지 못했다."
+      "category": "Spring",
+      "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
+      "link": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "summary": "Spring Boot 4.2.0-RC1, Framework 7.1.0-RC1, Data 2026.1.0-RC1, Security 7.2.0-RC1, Modulith 2.2.0-RC1이 같은 주에 첫 릴리스 후보로 나왔다.",
+      "detail": "Boot 4.2.0-RC1은 빌더 이미지를 Ubuntu Resolute로 옮겼고 중첩 jar에서 클래스·리소스를 직접 조회해 Uber-Jar 성능을 개선했다. Framework 7.1.0-RC1은 RetryListener에 onRetrySuccess()/onRetryFailure()를 추가해 RetryState를 확인할 수 있게 했고 deprecated API를 제거했다. Security 7.2.0-RC1에서는 HttpMethod.valueOf() 변경에 맞춰 StrictServerWebExchangeFirewall이 HTTP 메서드 대소문자를 정규화하고, 불투명 토큰 인트로스펙터가 Content-Type을 application/x-www-form-urlencoded로 설정한다. Modulith 2.2.0-RC1은 EventPublication.Status에 ABANDONED·RESUBMITTED를 추가했고, 이벤트 발행 완료를 리스너 트랜잭션 안의 TransactionSynchronization으로 처리한다. Data Redis는 SubscriptionListener 구현 시 구독 알림을 어노테이션 리스너로 전달한다. 기사에는 CVE나 보안 권고가 없다."
     },
     {
       "category": "Agents",
-      "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
-      "link": "https://doublepulsar.com/anthropic-hacked-to-deliver-remote-access-trojan-to-claude-developer-laptops-worldwide-1148a92baae2",
-      "summary": "Claude Code VS Code 확장에 백도어가 심긴 버전이 Cursor 마켓플레이스에 배포된 사건이 보고됐고 Cursor가 보안 공지를 냈다.",
-      "detail": "Hacker News에서 600점 이상을 받은 보안 이슈다. 보고에 따르면 공식 Claude Code VS Code 확장이 Cursor 마켓플레이스에서 백도어가 포함된 상태로 배포됐고, 원격 접속 트로이목마(RAT) 전달 경로로 쓰였다는 주장이 제기됐다. Cursor는 별도의 보안 공지 블로그를 게시했다. 원문과 공지에 접근할 수 없어(네트워크 차단) 영향 버전, 악성 코드의 정확한 동작, 조치 방법은 확인하지 못했다. 해당 확장을 설치한 개발자는 Cursor 공지와 원문을 직접 확인하고 설치 이력을 점검해야 한다."
+      "title": "How We Took Over ChatGPT Accounts",
+      "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "summary": "Parameter Labs가 ChatGPT HTML 미리보기의 취약점 연쇄로, 악성 공유 링크만 열어도 로그인한 사용자의 계정을 탈취할 수 있음을 보였다.",
+      "detail": "HTML 미리보기는 샌드박스 iframe에서 실행되지만, 그래프에 쓰는 MathLive의 가상 키보드가 샌드박스 프레임에서도 postMessage()로 호출될 수 있었다. 부모 페이지의 메시지 핸들러는 innerHTML을 쓰면서 호출 프레임을 제한하지 않아, 샌드박스 없는 새 iframe을 주입할 수 있었다. CSP는 인라인 스크립트를 막았지만 YouTube를 포함한 일부 도메인의 스크립트를 허용했고, YouTube oEmbed 엔드포인트가 자바스크립트를 반사해 chatgpt.com에서 스크립트가 실행됐다. 이후 내부 API의 개인 데이터를 읽어 이미지 참조로 유출하거나 피해자 대신 동작할 수 있었다. OpenAI는 수정했고 5,000달러 버그 바운티를 지급했으며, Simon Willison은 심각도에 비해 낮다고 평했다. LLM이 생성한 HTML을 앱 안에서 렌더링하는 설계의 샌드박스·CSP 경계를 점검할 사례다."
     },
     {
       "category": "AI",
-      "title": "Netflix Treats GPU Reliability as a Distributed Systems Problem",
-      "link": "https://www.infoq.com/news/2026/10/netflix-gpu-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Netflix가 GPU 신뢰성을 분산 시스템 문제로 다뤄 노드 가용성 99.95% 이상, 작업 성공률 98%→99.5% 이상을 달성했다.",
-      "detail": "대규모 학습 작업은 수백 GPU가 몇 주간 동기 실행되어 GPU 하나, 네트워크 어댑터 하나, 느린 머신 하나가 전체를 멈춘다. Netflix는 Kubernetes 위에서 NVIDIA DCGM으로 GPU 오류·메모리·인터커넥트·온도를, EFA 인터페이스 상태와 개수로 네트워크를 점검하고, 노드 에이전트가 결과를 노드 컨디션으로 바꿔 컨트롤러가 처리한다. 진단이 멈추면 비정상으로 판정하는 fail-closed 설계이며, 일시 장애는 신규 스케줄만 막고 지속 장애는 드레인·이전, 이후 리셋·재부팅·교체로 단계적으로 대응한다. Karpenter 노드 자동 복구와 체크포인트·엘라스틱 워커로 재개하고, 인프라 실패와 애플리케이션 실패를 분류해 재시작 루프를 막는다. 느린 rank 탐지, MIG 공유, Kubernetes DRA 전환도 언급된다."
-    },
-    {
-      "category": "Architecture",
-      "title": "DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents",
-      "link": "https://www.infoq.com/news/2026/10/doordash-ai-grocery-reorder/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "DoorDash가 과거 분석은 오프라인 배치로, 실시간 상품 매칭은 서빙 시점에 분리해 재주문 지연을 16초에서 2초로 줄였다.",
-      "detail": "90일 구매 이력과 프로필 신호를 배치 LLM 작업으로 분석해 반복 구매 후보를 미리 만들고, 결정론적 검증을 거쳐 저장한다. 서빙 시에는 원래 매장 상품, 카탈로그 상품 ID, 검색어 순으로 현재 카탈로그에 매칭한다. 에이전트는 더 저렴한 대체품 탐색처럼 추론이 필요할 때만 호출하고 수량 변경 같은 단순 편집은 LLM 없이 처리한다. 쇼핑 리스트는 사용자와 에이전트가 함께 바꾸는 구조화된 공유 상태이며 사용자의 직접 편집이 우선한다. 결과는 지연 약 16초→2초, 리스트 조회 2배, 주문율 약 34% 상승이다. 공통 에이전트 플랫폼 덕에 Reservations 에이전트 추가가 일주일 걸려 초기 대비 약 10배 빨라졌다."
-    },
-    {
-      "category": "DataScience",
-      "title": "Binning or Feature Selection: Which One Won Us an Insurance Hackathon?",
-      "link": "https://towardsdatascience.com/binning-or-feature-selection-which-one-won-us-an-insurance-hackathon/",
-      "summary": "보험 해커톤 우승의 공을 supervised binning에 돌렸으나, 시드 4개와 동일 피처셋으로 재검증하니 다른 요인이 원인이었다는 회고다.",
-      "detail": "1년간 지도형 binning이 우승 모델을 이끌었다고 믿었지만, 팔(arm)당 시드 4개와 공유 피처셋으로 다시 비교한 결과 공은 다른 곳에 있었다는 내용이다. 본문은 403으로 읽지 못해 RSS 요약의 범위만 반영했다. 피처 엔지니어링 효과를 시드 반복과 통제된 비교로 검증해야 한다는 교훈을 준다."
-    },
-    {
-      "category": "DataScience",
-      "title": "Stochastic potential outcomes: A discussion with Ang Yu and Jonas Mikhaeil",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/30/stochastic-potential-outcomes-a-discussion-with-ang-yu-and-jonas-mikhaeil/",
-      "summary": "Russian Roulette 논문을 두고 확률적 개입과 결정론적 개입이라는 틀로 잠재결과를 다시 보자는 논의가 올라왔다.",
-      "detail": "Ang Yu가 Jonas Mikhaeil과 Gelman의 Russian Roulette 논문을 읽고, 문제를 확률적(stochastic) 개입 대 결정론적 개입의 틀로 바꿔 보면 유용하지 않겠느냐고 제안한 것에서 시작하는 인과추론 토론이다. 본문은 403으로 읽지 못해 RSS 요약에 있는 범위만 반영했다."
+      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
+      "link": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Google이 Gemini 기반 보안 에이전트 PageBreak을 공개했다. 올해 1월 본격 운영 이후 500건 넘는 XSS 취약점을 찾았다고 한다.",
+      "detail": "PageBreak은 취약점 가설을 세우되, 실행 중인 애플리케이션에서 결정론적 검증기가 익스플로잇을 재현한 경우에만 보고한다. 검증 방식은 XSS는 자바스크립트 실행, 경로 순회는 world-readable 위치에 쓰기, RCE는 외부 DNS 호출 유발 등 취약점 유형별로 다르다. 검증기는 모델이 아니라 보안 엔지니어가 작성한 일반 코드이며 에이전트 루프 밖에 있다. 검증되지 않은 발견은 내부에 두고 이후 스캔의 시드와 검증기 개선에 쓴다. 모노레포 전체 코드 가시성과 트래픽-소스 연결 신호가 기반이고, 자동 수정 에이전트 CodeMender와 통합해 제품팀이 AI가 만든 수정만 검토하게 하는 것이 목표다. 한계는 검증기가 커버하지 못하는 유형의 거짓 음성과, 500건 이상·거의 0에 가까운 오탐률 주장에 대한 독립 검증이 없다는 점이다."
     }
   ]
 }
