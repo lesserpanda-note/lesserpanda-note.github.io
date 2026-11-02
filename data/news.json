@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02T10:22:21+09:00",
-  "count": 1148,
+  "updated": "2026-11-02T12:37:16+09:00",
+  "count": 1147,
   "items": [
     {
       "title": "If in doubt, delete the uv.lock file",
@@ -11471,16 +11471,6 @@
       "ts": 1791009960,
       "published": "2026-10-03T06:46:00+00:00",
       "collected_at": "2026-10-03T21:20:31+09:00"
-    },
-    {
-      "title": "v2.54.0 (2026-10-02)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.54.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Handle draft-7 list-form items in JsonSchemaTransformer , TestModel and Mistral streamed output, and make TestModel accept boolean subschemas and cap prefixItems at maxItems by @dsf…",
-      "ts": 1790997688,
-      "published": "2026-10-03T03:21:28+00:00",
-      "collected_at": "2026-10-03T15:12:45+09:00"
     }
   ]
 }
