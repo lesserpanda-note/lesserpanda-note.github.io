@@ -1,7 +1,21 @@
 {
   "updated": "2026-11-02T03:36:57Z",
-  "summary": "오늘은 AI 인프라 소식 한 건이 증분의 전부입니다. AWS가 대규모 약정 컴퓨트 용량이 2027년까지 대부분 팔렸다고 밝혀, GPU와 희소 인스턴스를 전제로 한 용량 계획이 중요해졌습니다. 나머지 카테고리에는 기준을 넘는 새 소식이 없어 비웠습니다.",
+  "summary": "오늘 증분은 Java 두 건과 AI 인프라 한 건입니다. Foojay의 나노초 최적화 분석은 프로파일러가 29.2초를 쓴다고 지목한 검사를 걷어내도 24.3초만 돌아오는 이유를 CPU 캐시에서 찾습니다. 보안 쪽은 분기 CVE가 평균 7.6건에서 53건으로 뛰고 비정규 릴리스가 두 번 이어진 배경을 OpenJDK Vulnerability Group 멤버가 설명합니다. AWS는 대규모 약정 컴퓨트 용량이 2027년까지 대부분 팔렸다고 밝혀, GPU와 희소 인스턴스를 전제로 한 용량 계획이 중요해졌습니다. 나머지 카테고리에는 기준을 넘는 새 소식이 없어 비웠습니다.",
   "highlights": [
+    {
+      "category": "Java",
+      "title": "Optimizing nanosecond operations: when the CPU cache matters",
+      "link": "https://foojay.io/today/optimizing-nanosecond-operations-when-the-cpu-cache-matters/",
+      "summary": "프로파일러가 29.2초를 쓴다고 지목한 검사를 걷어냈더니 실제로는 24.3초만 빨라지고, 손대지 않은 조회가 86% 느려졌습니다. 한 번에 200나노초가 걸리는 핫 루프에서는 CPU 캐시가 비용을 결정합니다.",
+      "detail": "Maven Central 그래프(릴리스 1,620만 개·엣지 1억 3,600만 개)를 메모리에 올리고 org.apache.* 루트 30,889개 × 3개 스코프의 클래스패스를 푸는 과제입니다. 프로파일은 릴리스 존재 검사 onCentral이 5억 6,923만 회 호출에 호출당 205나노초, 합계 29.2초를 쓴다고 지목했습니다. 이 검사의 답은 엣지만으로 정해져 워크마다 되풀이할 필요가 없으므로, 존재하지 않는 릴리스로 가는 엣지(전체의 4.2%)를 미리 걷어내는 쪽으로 옮겼습니다. 결과는 82.4초에서 58.1초로 24.3초 단축이었습니다(각 4회 실행, 95% 신뢰구간 ±1.3%). 예상보다 4.9초 모자란 이유는 손대지 않은 의존성 목록 조회에 있었습니다. 호출 수는 2억 2,218만 회로 같은데 호출당 104나노초에서 194나노초로 86% 느려졌습니다. 제거한 검사가 같은 1,600만 엔트리 맵을 먼저 들여다보며 주 메모리 왕복을 대신 치르고 있었고, 검사만 다시 넣어 보니 조회가 185나노초에서 99.9나노초로 돌아와 가설이 확인됐습니다. 최적화 뒤에는 싸진 것만 보지 말고 비싸진 것을 봐야 합니다. 호출 수가 같은데 호출당 시간이 늘었다면 그 줄이 남의 비용을 떠안은 것입니다."
+    },
+    {
+      "category": "Java",
+      "title": "Foojay Podcast #104: 53 CVEs, Two Emergency Releases: Why Java Security Holds Up with Simon Ritter",
+      "link": "https://foojay.io/today/foojay-podcast-104/",
+      "summary": "분기 업데이트 한 번에 CVE 53건이 나오고 며칠 뒤 비정규 릴리스가 두 번 이어진 배경을 Azul 부CTO Simon Ritter가 설명합니다. 분기 평균 7.6건에서 53건으로 뛴 이유와 월간 보안 업데이트로 옮겨 가는 흐름이 요점입니다.",
+      "detail": "OpenJDK Vulnerability Group 멤버이자 Azul 부CTO인 Simon Ritter가 지난 몇 주를 정리하는 인터뷰입니다. 분기 평균 7.6건이던 CVE 수정이 53건으로 뛴 가장 큰 이유로 AI 도구가 Java 코드를 분석하기 시작한 것을 꼽습니다. 취약점은 신고부터 패치까지 암호화된 비공개 그룹에서 처리되고, 릴리스 주기는 월간 보안 업데이트 쪽으로 옮겨 가고 있습니다. 비정규 릴리스 두 건의 원인은 eMudhra 중간 CA 인증서 문제이고, 그 뒤에는 지원 대상 전 버전으로 백포트하는 작업이 따라옵니다. 보안만 담은 CPU와 패치까지 포함하는 PSU·CSPU의 구분, 무료 OpenJDK 빌드와 유료 지원 빌드의 차이, Java 6·7·8의 앞날도 다룹니다. 결론은 지금 쓰는 Java 버전을 확인하고 언제든 업데이트할 준비를 해 두라는 것입니다."
+    },
     {
       "category": "AI",
       "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
