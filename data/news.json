@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-02T06:00:40+09:00",
+  "updated": "2026-11-02T10:22:21+09:00",
   "count": 1148,
   "items": [
+    {
+      "title": "If in doubt, delete the uv.lock file",
+      "link": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is: If in doubt, delete the uv.lock file Most of my projects are libraries which…",
+      "ts": 1793575462,
+      "published": "2026-11-01T23:24:22+00:00",
+      "collected_at": "2026-11-02T10:22:00+09:00"
+    },
+    {
+      "title": "1.15.34",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add standalone LiteLLM catalog PR before version bump Record where crewai run stops before kickoff Add crewai skill search to list the organization's skills Pass crewai run --inputs to a Python f…",
+      "ts": 1793568116,
+      "published": "2026-11-01T21:21:56+00:00",
+      "collected_at": "2026-11-02T10:22:00+09:00"
+    },
     {
       "title": "Quoting Kyle Kingsbury",
       "link": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
@@ -11461,26 +11481,6 @@
       "ts": 1790997688,
       "published": "2026-10-03T03:21:28+00:00",
       "collected_at": "2026-10-03T15:12:45+09:00"
-    },
-    {
-      "title": "Rex's Dino Store",
-      "link": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density o…",
-      "ts": 1790981858,
-      "published": "2026-10-02T22:57:38+00:00",
-      "collected_at": "2026-10-04T05:48:37+09:00"
-    },
-    {
-      "title": "If you were planning to send me a chatbot-written email or post a chatbot-written comment, just send or post your prompt. That’s enough. You can keep the slop to yourself.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/02/if-you-were-planning-to-send-me-a-chatbot-written-email-or-post-a-chatbot-written-comment-just-send-or-post-your-prompt/",
-      "source": "Statistical Modeling",
-      "category": "AI",
-      "summary": "Just a reminder. Again. I’m not anti-chatbot—I have many colleagues who use chatbots to clean their code. Aki used a chatbot to find 100 typos in Bayesian Workflow (which we’ve since fixed). And, hey, maybe your grandpa…",
-      "ts": 1790981012,
-      "published": "2026-10-02T22:43:32+00:00",
-      "collected_at": "2026-10-03T09:10:33+09:00"
     }
   ]
 }
