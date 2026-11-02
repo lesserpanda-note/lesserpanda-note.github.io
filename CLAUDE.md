@@ -13,3 +13,14 @@ Steps 6–11 of the digest routine (archive, write digest.json, write archive.js
 - **Duplicate stories**: If the same announcement appears from multiple sources (e.g., company blog + press coverage), pick one source only.
 - **How many per category**: two is the baseline, not a ceiling. Take up to five when a category genuinely has that many that matter. Judge importance the way a backend engineer, an AI-agent developer and a senior engineer or software CTO would: releases and version news that change what you build on, security advisories, language and API changes, architecture decisions backed by real numbers, and shifts in tooling. A third, fourth or fifth item must clear the same bar as the first two — never pad a category to reach five. Keep the whole digest under about twenty items.
 - **An empty category is a valid result**: the digest is a daily increment, so a category with no news worth carrying that day stays empty. Never substitute a weaker article, and never reach further back in time, just to avoid a gap.
+
+## Writing Style
+
+The Korean text in `data/digest.json` and `data/archive.json` — every `summary`,
+every `detail`, and the day's overall `summary` — is written in 합쇼체: each
+sentence ends in `~습니다`, `~합니다` or `~입니다`. The plain declarative
+(`~다`, `~한다`, `~했다`, `~이다`) is not used. Article titles and quoted source
+text stay verbatim and are never restyled.
+
+This holds for both digest paths (the local 09:39 KST routine and the cloud
+backup) and for anything written back into `archive.json`.
