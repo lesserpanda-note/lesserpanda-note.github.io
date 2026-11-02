@@ -1,27 +1,13 @@
 {
-  "updated": "2026-11-01T03:37:35Z",
-  "summary": "오늘은 Spring 5종이 동시에 첫 릴리스 후보에 들어가 Boot 4.2와 Framework 7.1 준비를 시작해야 할 시점임을 알렸다. AI 쪽에서는 ChatGPT HTML 미리보기 계정 탈취 체인이 LLM 생성 HTML 렌더링의 샌드박스 경계를 되짚게 했고, Google PageBreak은 결정론적 검증기로 에이전트 환각을 걸러내는 설계를 보여줬다.",
+  "updated": "2026-11-02T03:36:57Z",
+  "summary": "오늘은 AI 인프라 소식 한 건이 증분의 전부다. AWS가 대규모 약정 컴퓨트 용량이 2027년까지 대부분 팔렸다고 밝혀, GPU와 희소 인스턴스를 전제로 한 용량 계획이 중요해졌다. 나머지 카테고리에는 기준을 넘는 새 소식이 없어 비웠다.",
   "highlights": [
     {
-      "category": "Spring",
-      "title": "Spring News Roundup: First Release Candidates of Boot, Framework, Data, Security, Modulith, AI",
-      "link": "https://www.infoq.com/news/2026/10/spring-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "summary": "Spring Boot 4.2.0-RC1, Framework 7.1.0-RC1, Data 2026.1.0-RC1, Security 7.2.0-RC1, Modulith 2.2.0-RC1이 같은 주에 첫 릴리스 후보로 나왔다.",
-      "detail": "Boot 4.2.0-RC1은 빌더 이미지를 Ubuntu Resolute로 옮겼고 중첩 jar에서 클래스·리소스를 직접 조회해 Uber-Jar 성능을 개선했다. Framework 7.1.0-RC1은 RetryListener에 onRetrySuccess()/onRetryFailure()를 추가해 RetryState를 확인할 수 있게 했고 deprecated API를 제거했다. Security 7.2.0-RC1에서는 HttpMethod.valueOf() 변경에 맞춰 StrictServerWebExchangeFirewall이 HTTP 메서드 대소문자를 정규화하고, 불투명 토큰 인트로스펙터가 Content-Type을 application/x-www-form-urlencoded로 설정한다. Modulith 2.2.0-RC1은 EventPublication.Status에 ABANDONED·RESUBMITTED를 추가했고, 이벤트 발행 완료를 리스너 트랜잭션 안의 TransactionSynchronization으로 처리한다. Data Redis는 SubscriptionListener 구현 시 구독 알림을 어노테이션 리스너로 전달한다. 기사에는 CVE나 보안 권고가 없다."
-    },
-    {
-      "category": "Agents",
-      "title": "How We Took Over ChatGPT Accounts",
-      "link": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
-      "summary": "Parameter Labs가 ChatGPT HTML 미리보기의 취약점 연쇄로, 악성 공유 링크만 열어도 로그인한 사용자의 계정을 탈취할 수 있음을 보였다.",
-      "detail": "HTML 미리보기는 샌드박스 iframe에서 실행되지만, 그래프에 쓰는 MathLive의 가상 키보드가 샌드박스 프레임에서도 postMessage()로 호출될 수 있었다. 부모 페이지의 메시지 핸들러는 innerHTML을 쓰면서 호출 프레임을 제한하지 않아, 샌드박스 없는 새 iframe을 주입할 수 있었다. CSP는 인라인 스크립트를 막았지만 YouTube를 포함한 일부 도메인의 스크립트를 허용했고, YouTube oEmbed 엔드포인트가 자바스크립트를 반사해 chatgpt.com에서 스크립트가 실행됐다. 이후 내부 API의 개인 데이터를 읽어 이미지 참조로 유출하거나 피해자 대신 동작할 수 있었다. OpenAI는 수정했고 5,000달러 버그 바운티를 지급했으며, Simon Willison은 심각도에 비해 낮다고 평했다. LLM이 생성한 HTML을 앱 안에서 렌더링하는 설계의 샌드박스·CSP 경계를 점검할 사례다."
-    },
-    {
       "category": "AI",
-      "title": "Google Discloses PageBreak AI Security Agent That Found 500+ XSS Bugs",
-      "link": "https://www.infoq.com/news/2026/10/google-pagebreak-security-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Google이 Gemini 기반 보안 에이전트 PageBreak을 공개했다. 올해 1월 본격 운영 이후 500건 넘는 XSS 취약점을 찾았다고 한다.",
-      "detail": "PageBreak은 취약점 가설을 세우되, 실행 중인 애플리케이션에서 결정론적 검증기가 익스플로잇을 재현한 경우에만 보고한다. 검증 방식은 XSS는 자바스크립트 실행, 경로 순회는 world-readable 위치에 쓰기, RCE는 외부 DNS 호출 유발 등 취약점 유형별로 다르다. 검증기는 모델이 아니라 보안 엔지니어가 작성한 일반 코드이며 에이전트 루프 밖에 있다. 검증되지 않은 발견은 내부에 두고 이후 스캔의 시드와 검증기 개선에 쓴다. 모노레포 전체 코드 가시성과 트래픽-소스 연결 신호가 기반이고, 자동 수정 에이전트 CodeMender와 통합해 제품팀이 AI가 만든 수정만 검토하게 하는 것이 목표다. 한계는 검증기가 커버하지 못하는 유형의 거짓 음성과, 500건 이상·거의 0에 가까운 오탐률 주장에 대한 독립 검증이 없다는 점이다."
+      "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
+      "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "앤디 재시 아마존 CEO가 AWS의 대규모 약정 용량이 2027년까지 대부분 매진됐고 2028년 일부도 이미 배정됐다고 밝혔다. 온디맨드·EC2·Bedrock용 여유분은 별도로 확보해 둔다는 설명이다.",
+      "detail": "재시 CEO는 a16z 팟캐스트(로이터 10월 23일 보도)에서 AWS의 대규모 약정 용량이 2027년까지 \"대부분 매진\"이며 2028년 \"상당 부분\"이 이미 배정됐다고 말했다. 2026년 용량은 이미 소진됐고 올해 총 설비투자는 약 2,200억 달러(AI 전용 아님)다. 1월에는 ML용 Capacity Blocks 요금을 P5en·P5e·P5·P4d·Trn2·Trn1 전 리전에서 약 15% 인상했다. 다만 AWS는 온디맨드·EC2·Bedrock용 여유를 항상 남겨 두며, 매진은 사전 약정 물량 얘기라는 입장이다. 분석가 린티컴은 헤드라인이 과장됐다고 지적했고, 일부 개발자는 최근 한 달간 일반 EC2 온디맨드와 프로덕션 쿠버네티스 클러스터에서 용량 부족을 겪었다고 보고했다. 실무 시사점: GPU·희소 인스턴스를 탄력적으로 쓸 수 있다고 가정하지 말고 Capacity Blocks/예약으로 리드타임을 확보하며, 멀티 AZ·리전으로 분산하고, 유휴 예약 비용도 EC2 Capacity Manager로 점검해야 한다."
     }
   ]
 }
