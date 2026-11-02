@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-02T03:36:57Z",
-  "summary": "오늘 증분은 Java 두 건과 AI 인프라 한 건입니다. Foojay의 나노초 최적화 분석은 프로파일러가 29.2초를 쓴다고 지목한 검사를 걷어내도 24.3초만 돌아오는 이유를 CPU 캐시에서 찾습니다. 보안 쪽은 분기 CVE가 평균 7.6건에서 53건으로 뛰고 비정규 릴리스가 두 번 이어진 배경을 OpenJDK Vulnerability Group 멤버가 설명합니다. AWS는 대규모 약정 컴퓨트 용량이 2027년까지 대부분 팔렸다고 밝혀, GPU와 희소 인스턴스를 전제로 한 용량 계획이 중요해졌습니다. 나머지 카테고리에는 기준을 넘는 새 소식이 없어 비웠습니다.",
+  "summary": "오늘 증분은 Java 두 건과 인프라 한 건입니다. Foojay의 나노초 최적화 분석은 프로파일러가 29.2초를 쓴다고 지목한 검사를 걷어내도 24.3초만 돌아오는 이유를 CPU 캐시에서 찾습니다. 보안 쪽은 분기 CVE가 평균 7.6건에서 53건으로 뛰고 비정규 릴리스가 두 번 이어진 배경을 OpenJDK Vulnerability Group 멤버가 설명합니다. AWS는 대규모 약정 컴퓨트 용량이 2027년까지 대부분 팔렸다고 밝혀, GPU와 희소 인스턴스를 전제로 한 용량 계획이 중요해졌습니다. 나머지 카테고리에는 기준을 넘는 새 소식이 없어 비웠습니다.",
   "highlights": [
     {
       "category": "Java",
@@ -17,7 +17,7 @@
       "detail": "OpenJDK Vulnerability Group 멤버이자 Azul 부CTO인 Simon Ritter가 지난 몇 주를 정리하는 인터뷰입니다. 분기 평균 7.6건이던 CVE 수정이 53건으로 뛴 가장 큰 이유로 AI 도구가 Java 코드를 분석하기 시작한 것을 꼽습니다. 취약점은 신고부터 패치까지 암호화된 비공개 그룹에서 처리되고, 릴리스 주기는 월간 보안 업데이트 쪽으로 옮겨 가고 있습니다. 비정규 릴리스 두 건의 원인은 eMudhra 중간 CA 인증서 문제이고, 그 뒤에는 지원 대상 전 버전으로 백포트하는 작업이 따라옵니다. 보안만 담은 CPU와 패치까지 포함하는 PSU·CSPU의 구분, 무료 OpenJDK 빌드와 유료 지원 빌드의 차이, Java 6·7·8의 앞날도 다룹니다. 결론은 지금 쓰는 Java 버전을 확인하고 언제든 업데이트할 준비를 해 두라는 것입니다."
     },
     {
-      "category": "AI",
+      "category": "Architecture",
       "title": "AWS Capacity Largely Sold Out Through 2027, With On Demand Headroom Reserved",
       "link": "https://www.infoq.com/news/2026/11/aws-capacity-sold-out/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "summary": "앤디 재시 아마존 CEO가 AWS의 대규모 약정 용량이 2027년까지 대부분 매진됐고 2028년 일부도 이미 배정됐다고 밝혔습니다. 온디맨드·EC2·Bedrock용 여유분은 별도로 확보해 둔다는 설명입니다.",
