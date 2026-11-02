@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-02T18:04:16+09:00",
-  "count": 1146,
+  "updated": "2026-11-02T19:20:36+09:00",
+  "count": 1150,
   "items": [
+    {
+      "title": "Amazon ECS Gateway Arrives with Generated Hostnames and No Custom Domain Support",
+      "link": "https://www.infoq.com/news/2026/11/introducing-amazon-ecs-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS has released Amazon ECS Gateway, an account-level ingress resource letting platform teams define networking once and application teams opt services in with a connector. Each service gets a generated hostname and rou…",
+      "ts": 1793612940,
+      "published": "2026-11-02T09:49:00+00:00",
+      "collected_at": "2026-11-02T19:20:12+09:00"
+    },
+    {
+      "title": "The agentic web is here",
+      "link": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "In 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in which he outlined what he ca…",
+      "ts": 1793612119,
+      "published": "2026-11-02T09:35:19+00:00",
+      "collected_at": "2026-11-02T19:20:12+09:00"
+    },
     {
       "title": "Optimizing nanosecond operations: when the CPU cache matters",
       "link": "https://foojay.io/today/optimizing-nanosecond-operations-when-the-cpu-cache-matters/",
@@ -31,6 +51,16 @@
       "ts": 1793577600,
       "published": "2026-11-02T00:00:00+00:00",
       "collected_at": "2026-11-02T18:04:08+09:00"
+    },
+    {
+      "title": "Featured Foojay Authors for November 2026: Geertjan Wielenga and Ricardo Mello",
+      "link": "https://foojay.io/today/featured-foojay-authors-for-november-2026/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Our Featured Authors for November are Geertjan Wielenga and Ricardo Mello. Here is what they write about, and where to start reading.",
+      "ts": 1793577600,
+      "published": "2026-11-02T00:00:00+00:00",
+      "collected_at": "2026-11-02T19:20:12+09:00"
     },
     {
       "title": "If in doubt, delete the uv.lock file",
@@ -571,6 +601,16 @@
       "ts": 1793370172,
       "published": "2026-10-30T14:22:52+00:00",
       "collected_at": "2026-10-31T00:42:52+09:00"
+    },
+    {
+      "title": "Speeding up planning decisions with AI",
+      "link": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "ts": 1793369910,
+      "published": "2026-10-30T14:18:30+00:00",
+      "collected_at": "2026-11-02T19:20:12+09:00"
     },
     {
       "title": "GPT-6.1 Terra Draws a Python Reading a Book",
