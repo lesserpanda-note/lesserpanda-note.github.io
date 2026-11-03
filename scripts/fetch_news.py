@@ -96,12 +96,18 @@ FEEDS = [
     ("https://hnrss.org/newest?q=context+engineering&points=10", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=MCP&points=20", "Hacker News", "Agents"),
     # Agent frameworks — GitHub release feeds (version tracking; big releases surface).
+    # LangGraph, CrewAI, LlamaIndex and the OpenAI Agents SDK came out on 2026-11-04. Across
+    # 125 digests their only picks were patch bumps, which the item-selection rules now
+    # exclude, and the 43 items they held in the pool were patch-level without exception.
+    # LangGraph was the worst of it: it tags sub-packages too (langgraph-sdk, -cli,
+    # -checkpoint), so 22 of its 29 items were not even the framework. LlamaIndex ships
+    # roughly monthly on an 0.14.x line, so nothing of its feed ever survived the 30-day
+    # window — 0 items pooled, 0 picks ever. A real 2.0 from any of them still reaches us:
+    # the HN agent queries carry one at 50 points, and openai.com/news covers the SDK. What
+    # stays earns a version line — MCP servers shipped v1.0.0 and the v2.x line, and Pydantic
+    # AI bumps minor rather than patch, which is why 11 of its releases ran as highlights.
     ("https://github.com/modelcontextprotocol/servers/releases.atom", "MCP servers", "Agents"),
-    ("https://github.com/langchain-ai/langgraph/releases.atom", "LangGraph", "Agents"),
     ("https://github.com/pydantic/pydantic-ai/releases.atom", "Pydantic AI", "Agents"),
-    ("https://github.com/openai/openai-agents-python/releases.atom", "OpenAI Agents SDK", "Agents"),
-    ("https://github.com/run-llama/llama_index/releases.atom", "LlamaIndex", "Agents"),
-    ("https://github.com/crewAIInc/crewAI/releases.atom", "CrewAI", "Agents"),
     ("https://github.com/microsoft/agent-framework/releases.atom", "Agent Framework", "Agents"),
     # Architecture — system design & engineering practice (fits Java/Spring backend)
     ("https://feed.infoq.com/architecture-design/", "InfoQ Architecture", "Architecture"),
