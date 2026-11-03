@@ -1,7 +1,87 @@
 {
-  "updated": "2026-11-03T23:40:24+09:00",
-  "count": 1239,
+  "updated": "2026-11-04T03:16:55+09:00",
+  "count": 1248,
   "items": [
+    {
+      "title": "langgraph-sdk==0.4.12",
+      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.12",
+      "source": "LangGraph",
+      "category": "Agents",
+      "summary": "Changes since sdk==0.4.11 release(sdk-py): 0.4.12 ( #9569 ) feat(sdk-py): remove fairness_weight from PrioritySettings ( #9441 ) fix(sdk-py): rejoin a run stream that closes before the run ends ( #9554 )",
+      "ts": 1793729430,
+      "published": "2026-11-03T18:10:30+00:00",
+      "collected_at": "2026-11-04T03:16:31+09:00"
+    },
+    {
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "link": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793726121,
+      "published": "2026-11-03T17:15:21+00:00",
+      "collected_at": "2026-11-04T03:16:31+09:00"
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "link": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "ts": 1793725309,
+      "published": "2026-11-03T17:01:49+00:00",
+      "collected_at": "2026-11-04T03:16:31+09:00"
+    },
+    {
+      "title": "Agents SDK v0.24.0-alpha.6",
+      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6",
+      "source": "OpenAI Agents SDK",
+      "category": "Agents",
+      "summary": "Install the preview Use standard CPython 3.10–3.14 in a virtual environment. These wheels include the native runtime; no Rust toolchain or source build is needed. This preview is distributed through GitHub Releases, not…",
+      "ts": 1793724500,
+      "published": "2026-11-03T16:48:20+00:00",
+      "collected_at": "2026-11-04T03:16:31+09:00"
+    },
+    {
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793723736,
+      "published": "2026-11-03T16:35:36+00:00",
+      "collected_at": "2026-11-04T03:16:31+09:00"
+    },
+    {
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "link": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found that frontier models, in p…",
+      "ts": 1793723388,
+      "published": "2026-11-03T16:29:48+00:00",
+      "collected_at": "2026-11-04T03:16:31+09:00"
+    },
+    {
+      "title": "AI Will Do Your Job. That Should Be Good News.",
+      "link": "https://towardsdatascience.com/ai-will-do-your-job-that-should-be-good-news/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "The case for paying people to play when machines do the work The post AI Will Do Your Job. That Should Be Good News. appeared first on Towards Data Science .",
+      "ts": 1793719800,
+      "published": "2026-11-03T15:30:00+00:00",
+      "collected_at": "2026-11-04T03:16:31+09:00"
+    },
+    {
+      "title": "Using LLM Summarization in Your Scikit-Learn Pipelines with Scikit-LLM",
+      "link": "https://www.kdnuggets.com/using-llm-summarization-in-your-scikit-learn-pipelines-with-scikit-llm",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Learn how to build an architecture that blends Scikit-LLM estimators for text summarization with traditional scikit-learn methods into a single, unified pipeline for summarizing and classifying raw, messy text.",
+      "ts": 1793718000,
+      "published": "2026-11-03T15:00:00+00:00",
+      "collected_at": "2026-11-04T03:16:31+09:00"
+    },
     {
       "title": "Election Day special: Why it can be rational to vote",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/03/why-it-can-be-rational-to-vote-4/",
@@ -291,6 +371,16 @@
       "ts": 1793664000,
       "published": "2026-11-03T00:00:00+00:00",
       "collected_at": "2026-11-03T23:40:15+09:00"
+    },
+    {
+      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "link": "https://huggingface.co/blog/cwe-bench",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793664000,
+      "published": "2026-11-03T00:00:00+00:00",
+      "collected_at": "2026-11-04T03:16:31+09:00"
     },
     {
       "title": "llm 0.37",
