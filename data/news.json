@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04T06:50:08+09:00",
-  "count": 1202,
+  "updated": "2026-11-04T07:15:04+09:00",
+  "count": 1212,
   "items": [
     {
       "title": "Survey Statistics: Times/Siena Polls and Times Voter Trends",
@@ -21,6 +21,16 @@
       "ts": 1793732400,
       "published": "2026-11-03T19:00:00+00:00",
       "collected_at": "2026-11-04T06:42:10+09:00"
+    },
+    {
+      "title": "1.15.35",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.35",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Documentation Update litellm model catalog for v1.15.35 Add snapshot and changelog for v1.15.34 Contributors @github-actions[bot], João Moura (@joaomdmoura) , Lorenze Jay (@lorenzejay)",
+      "ts": 1793730315,
+      "published": "2026-11-03T18:25:15+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
     },
     {
       "title": "StateBench: Testing how language models track state changes over long documents",
@@ -881,6 +891,16 @@
       "ts": 1793575462,
       "published": "2026-11-01T23:24:22+00:00",
       "collected_at": "2026-11-02T10:22:00+09:00"
+    },
+    {
+      "title": "1.15.34",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add standalone LiteLLM catalog PR before version bump Record where crewai run stops before kickoff Add crewai skill search to list the organization's skills Pass crewai run --inputs to a Python f…",
+      "ts": 1793568116,
+      "published": "2026-11-01T21:21:56+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
     },
     {
       "title": "Quoting Kyle Kingsbury",
@@ -2093,6 +2113,16 @@
       "collected_at": "2026-10-29T18:38:22+09:00"
     },
     {
+      "title": "1.15.33",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.33",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add crewai skill search to list the organization's skills Pass crewai run --inputs to a Python flow Add deploy create --zip and print the commit a zip is built from Bug Fixes Report token usage f…",
+      "ts": 1793259384,
+      "published": "2026-10-29T07:36:24+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
+    },
+    {
       "title": "Cloudflare Introduces Web Search API for AI Applications",
       "link": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -2693,6 +2723,16 @@
       "collected_at": "2026-11-03T23:40:15+09:00"
     },
     {
+      "title": "1.15.32",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.32",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix failing flaky tests Documentation Update snapshot and changelog for v1.15.31 Contributors @lorenzejay",
+      "ts": 1793142245,
+      "published": "2026-10-27T23:04:05+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
+    },
+    {
       "title": "We interrupt our usual programming to inform you that I was never hired by Facebook to do a hit job on Jonathan Haidt.",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/27/we-interrupt-our-usual-programming-to-inform-you-that-i-was-never-hired-by-facebook-to-do-a-hit-job-on-jonathan-haidt/",
       "source": "Statistical Modeling",
@@ -2701,6 +2741,16 @@
       "ts": 1793142145,
       "published": "2026-10-27T23:02:25+00:00",
       "collected_at": "2026-10-28T08:39:07+09:00"
+    },
+    {
+      "title": "1.15.31",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Support conversational flow context compaction. Bug Fixes Update vulnerable audit dependencies. Stop sending 'stop' to GPT-6 and newer models. Run the provider listing off the loop in acleanup_pr…",
+      "ts": 1793136989,
+      "published": "2026-10-27T21:36:29+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
     },
     {
       "title": "Survey Statistics: how to measure hospital quality ?",
@@ -4343,6 +4393,16 @@
       "collected_at": "2026-10-24T14:32:24+09:00"
     },
     {
+      "title": "1.15.30",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.30",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix AGENTS.md to start the login process while evaluating and stop after three rounds. Documentation Update snapshot and changelog for v1.15.29. Contributors @joaomdmoura",
+      "ts": 1792806964,
+      "published": "2026-10-24T01:56:04+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
+    },
+    {
       "title": "JCast Roundup: AI Agents, Clean Code, Cloud and Quarkus (Summer 2026)",
       "link": "https://foojay.io/today/jcast-roundup-summer-2026/",
       "source": "Foojay",
@@ -4401,6 +4461,16 @@
       "ts": 1792784454,
       "published": "2026-10-23T19:40:54+00:00",
       "collected_at": "2026-10-24T06:57:43+09:00"
+    },
+    {
+      "title": "1.15.29",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add support for LiteLLM-compatible kwargs. Implement platform application search in CLI. Highlight action picker search in CLI. Trace conversation routes and public replies in flow. Select organi…",
+      "ts": 1792776929,
+      "published": "2026-10-23T17:35:29+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
     },
     {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
@@ -8683,6 +8753,16 @@
       "collected_at": "2026-10-23T18:47:51+09:00"
     },
     {
+      "title": "1.15.28",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add crewai eval command to report where a stopped model broke. Use LiteLLM catalog for context windows. Bug Fixes Fix flow to learn from resumed human feedback and preserve reviewed output types.…",
+      "ts": 1791953220,
+      "published": "2026-10-14T04:47:00+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
+    },
+    {
       "title": "Gemini 4 Argon Hands-On Review: Capabilities and Performance",
       "link": "https://www.analyticsvidhya.com/blog/2026/10/gemini-4-argon-review/",
       "source": "Analytics Vidhya",
@@ -9983,6 +10063,16 @@
       "collected_at": "2026-10-10T09:10:16+09:00"
     },
     {
+      "title": "1.15.27",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.27",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add XPU to OpenCLIP provider device options Add deepinfra as an OpenAI-compatible provider Record why an evaluation stopped before its verdict Record what the run app's Deploy met before an attem…",
+      "ts": 1791585224,
+      "published": "2026-10-09T22:33:44+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
+    },
+    {
       "title": "Anthropic AI model submits false tip on unsolved Philly murder",
       "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "source": "Hacker News",
@@ -10401,6 +10491,16 @@
       "ts": 1791500609,
       "published": "2026-10-08T23:03:29+00:00",
       "collected_at": "2026-10-09T09:10:24+09:00"
+    },
+    {
+      "title": "1.15.26",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.26",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix ownership retention of rwlock when acquisition is interrupted. Resolve issue with documentation site source URLs not being preserved. Fix task output display in log-tasks-outputs to show act…",
+      "ts": 1791495938,
+      "published": "2026-10-08T21:45:38+00:00",
+      "collected_at": "2026-11-04T07:14:58+09:00"
     },
     {
       "title": "Quoting Carson Gross",
