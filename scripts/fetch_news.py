@@ -96,18 +96,25 @@ FEEDS = [
     ("https://hnrss.org/newest?q=context+engineering&points=10", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=MCP&points=20", "Hacker News", "Agents"),
     # Agent frameworks — GitHub release feeds (version tracking; big releases surface).
-    # LangGraph, CrewAI, LlamaIndex and the OpenAI Agents SDK came out on 2026-11-04. Across
-    # 125 digests their only picks were patch bumps, which the item-selection rules now
-    # exclude, and the 43 items they held in the pool were patch-level without exception.
-    # LangGraph was the worst of it: it tags sub-packages too (langgraph-sdk, -cli,
-    # -checkpoint), so 22 of its 29 items were not even the framework. LlamaIndex ships
-    # roughly monthly on an 0.14.x line, so nothing of its feed ever survived the 30-day
-    # window — 0 items pooled, 0 picks ever. A real 2.0 from any of them still reaches us:
-    # the HN agent queries carry one at 50 points, and openai.com/news covers the SDK. What
-    # stays earns a version line — MCP servers shipped v1.0.0 and the v2.x line, and Pydantic
-    # AI bumps minor rather than patch, which is why 11 of its releases ran as highlights.
+    # These feeds are the only path to these projects: LangChain serves HTML at
+    # blog.langchain.com/rss/, llamaindex.ai has no feed, blog.crewai.com stopped in June
+    # 2026, and the HN agent queries have never once mentioned one of them (0 of 76 pooled
+    # HN items) — a "CrewAI 2.0" headline carries none of the phrases those queries search.
+    # So a feed is worth what its release notes carry, not what it has had picked: the
+    # patch-bump exclusion only reached the selection rules on 2026-11-03, so every pick
+    # before that was made under rules that allowed it. Over each project's last 100
+    # releases, counting security wording that falls inside SUMMARY_CHARS, which is all the
+    # digest ever reads: Pydantic AI 24, MCP servers 3 of 32, CrewAI 4, LlamaIndex 2, Agent
+    # Framework 2, LangGraph 1, OpenAI Agents SDK 0. Those releases are patch-level (CrewAI
+    # bumped pypdf and torch for CVEs, LlamaIndex fixed CWE-502 in v0.14.16), so filtering
+    # on version shape would drop precisely the items that qualify. LangGraph and the OpenAI
+    # SDK went on 2026-11-04: LangGraph pools 29 items a month of which 22 are sub-package
+    # tags (langgraph-sdk, -cli, -checkpoint) rather than the framework, and the SDK's own
+    # announcements arrive through openai.com/news.
     ("https://github.com/modelcontextprotocol/servers/releases.atom", "MCP servers", "Agents"),
     ("https://github.com/pydantic/pydantic-ai/releases.atom", "Pydantic AI", "Agents"),
+    ("https://github.com/run-llama/llama_index/releases.atom", "LlamaIndex", "Agents"),
+    ("https://github.com/crewAIInc/crewAI/releases.atom", "CrewAI", "Agents"),
     ("https://github.com/microsoft/agent-framework/releases.atom", "Agent Framework", "Agents"),
     # Architecture — system design & engineering practice (fits Java/Spring backend)
     ("https://feed.infoq.com/architecture-design/", "InfoQ Architecture", "Architecture"),
