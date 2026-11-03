@@ -8,7 +8,7 @@ Steps 6–11 of the digest routine (archive, write digest.json, write archive.js
 
 ## Categories
 
-Ten, and every one of them is reviewed on its own each day. This list is the source of
+Twelve, and every one of them is reviewed on its own each day. This list is the source of
 truth; the two routine prompts repeat it, so a change here has to be carried into both.
 
 | Category | Scope |
@@ -18,14 +18,17 @@ truth; the two routine prompts repeat it, so a change here has to be carried int
 | Spring | Framework and Boot releases, Spring portfolio security advisories. |
 | Node | The runtime, npm, release lines, security releases. |
 | Go | The language, the toolchain, release notes, security responses. |
+| Rust | The language, the toolchain, release notes, security responses. |
+| TypeScript | The language and its compiler. The runtime it targets is Node. |
 | AI | Frontier models, LLM research, model releases, the shape of the AI industry. |
 | Agents | Claude Code, agent frameworks, MCP, context engineering, LLM app engineering. |
 | Architecture | System design and engineering practice, in a backend context. |
 | Python | Python as the agent-development stack: language, packaging, performance, PyPI security. |
 | DataScience | Applied predictive modeling. Frontier LLM research belongs in AI, not here. |
 
-Kotlin, Go and the Spring security feed are low-volume by design — a handful of items a
-month each. They are empty most days, and that is the correct result, not a gap to fill.
+Kotlin, Go, Rust, TypeScript and the Spring security feed are low-volume by design — a
+handful of items a month each. They are empty most days, and that is the correct result,
+not a gap to fill.
 
 ## Item Selection Rules
 

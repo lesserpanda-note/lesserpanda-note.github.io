@@ -22,9 +22,9 @@ from urllib.parse import urlparse
 import feedparser
 
 # (feed url, source label, category) — category drives grouping/filtering on the page.
-# Categories: Java (JVM), Kotlin, Spring, Node, Go, AI (incl. models/LLM), Agents,
-# Architecture, Python, DataScience (applied predictive modeling — scikit-learn/
-# XGBoost/tabular, feature engineering; not frontier LLM research, that's AI).
+# Categories: Java (JVM), Kotlin, Spring, Node, Go, Rust, TypeScript, AI (incl.
+# models/LLM), Agents, Architecture, Python, DataScience (applied predictive modeling —
+# scikit-learn/XGBoost/tabular, feature engineering; not frontier LLM research, that's AI).
 FEEDS = [
     ("https://inside.java/feed.xml", "Inside Java", "Java"),
     ("https://feed.infoq.com/java/", "InfoQ Java", "Java"),
@@ -48,6 +48,17 @@ FEEDS = [
     # go.dev/security/feed.atom is not a feed (301 to a doc page, re-checked 2026-11-03).
     ("https://go.dev/blog/feed.atom", "Go Blog", "Go"),
     ("https://github.com/golang/go/releases.atom", "Go Releases", "Go"),
+    # Rust — the official blog plus the release tags, same split as Go. Two feeds are
+    # deliberately absent: this-week-in-rust is a links-only weekly, and rustsec.org is
+    # the ecosystem advisory DB — unlike Spring Security and the Node one it covers every
+    # crate in the index, and a trial run put 25 of 32 Rust items there, 9 on one day,
+    # mostly for crates nobody here uses. Product advisories yes, index-wide ones no.
+    ("https://blog.rust-lang.org/feed.xml", "Rust Blog", "Rust"),
+    ("https://github.com/rust-lang/rust/releases.atom", "Rust Releases", "Rust"),
+    # TypeScript — the language itself. The runtime it targets is Node above; the blog
+    # announces the named releases and the tags catch the point releases in between.
+    ("https://devblogs.microsoft.com/typescript/feed/", "TypeScript Blog", "TypeScript"),
+    ("https://github.com/microsoft/TypeScript/releases.atom", "TypeScript Releases", "TypeScript"),
     ("https://blog.google/technology/ai/rss/", "Google AI", "AI"),
     ("https://openai.com/news/rss.xml", "OpenAI", "AI"),
     ("https://deepmind.google/blog/rss.xml", "DeepMind", "AI"),
@@ -292,9 +303,10 @@ def main() -> int:
     source_categories: dict[str, set[str]] = {}
     for _, source, category in FEEDS:
         source_categories.setdefault(source, set()).add(category)
+    on_disk = load_existing()
     existing = [
         it
-        for it in load_existing()
+        for it in on_disk
         if any(
             reclassify(c, it.get("title", "")) == it.get("category")
             for c in source_categories.get(it.get("source"), ())
@@ -331,8 +343,15 @@ def main() -> int:
         # over), so the fix also reaches items collected before this rule existed.
         it["category"] = reclassify(it.get("category", ""), it.get("title", ""))
 
-    # Nothing added or aged out -> leave the file (and its commit) untouched.
-    if [it.get("link") for it in result] == [it.get("link") for it in existing]:
+    # Nothing added, aged out, purged or re-filed -> leave the file (and its commit)
+    # untouched. The comparison is against what is on disk, not against `existing`,
+    # which already has the purged items dropped — otherwise a run whose only effect is
+    # a purge compares equal and never writes it out. It carries the category too, so a
+    # feed moving to another category counts as a change even though the links match.
+    def shape(items: list[dict]) -> list[tuple]:
+        return [(it.get("link"), it.get("category")) for it in items]
+
+    if shape(result) == shape(on_disk):
         print(f"no change ({len(result)} items)")
         return 0
 

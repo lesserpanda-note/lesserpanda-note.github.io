@@ -18,6 +18,10 @@
   --kotlin: #6a2ee8;
   --node: #3d7a2f;
   --go: #0098bd;
+  /* TypeScript's #3178c6 is all but --python, so this one is deeper and more
+     saturated; Rust's brick red is the one hue nothing else here uses. */
+  --rust: #c0392b;
+  --ts: #1d4ed8;
   --radius: 12px;
   --max: 880px;
 }
@@ -193,6 +197,8 @@ main {
 .cat-Kotlin { background: var(--kotlin); }
 .cat-Node { background: var(--node); }
 .cat-Go { background: var(--go); }
+.cat-Rust { background: var(--rust); }
+.cat-TypeScript { background: var(--ts); }
 .src { font-weight: 600; }
 
 /* digest */

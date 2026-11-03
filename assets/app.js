@@ -57,6 +57,8 @@ const SYNONYMS = [
   // No bare "go": matching is substring-based, so it would expand google / django /
   // mongodb / algorithm into Go queries.
   ["고랭", "golang"],
+  ["러스트", "rust", "cargo", "crate", "crates"],
+  ["타입스크립트", "typescript", "ts", "tsc", "타입"],
   ["파이썬", "python"],
   ["아키텍처", "architecture", "설계", "design"],
   ["보안", "security", "취약점", "vulnerability", "cve"],
