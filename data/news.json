@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-04T06:42:16+09:00",
-  "count": 1244,
+  "updated": "2026-11-04T06:50:08+09:00",
+  "count": 1202,
   "items": [
     {
       "title": "Survey Statistics: Times/Siena Polls and Times Voter Trends",
@@ -23,26 +23,6 @@
       "collected_at": "2026-11-04T06:42:10+09:00"
     },
     {
-      "title": "1.15.35",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.35",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Documentation Update litellm model catalog for v1.15.35 Add snapshot and changelog for v1.15.34 Contributors @github-actions[bot], João Moura (@joaomdmoura) , Lorenze Jay (@lorenzejay)",
-      "ts": 1793730315,
-      "published": "2026-11-03T18:25:15+00:00",
-      "collected_at": "2026-11-04T06:42:10+09:00"
-    },
-    {
-      "title": "langgraph-sdk==0.4.12",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.12",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since sdk==0.4.11 release(sdk-py): 0.4.12 ( #9569 ) feat(sdk-py): remove fairness_weight from PrioritySettings ( #9441 ) fix(sdk-py): rejoin a run stream that closes before the run ends ( #9554 )",
-      "ts": 1793729430,
-      "published": "2026-11-03T18:10:30+00:00",
-      "collected_at": "2026-11-04T03:16:31+09:00"
-    },
-    {
       "title": "StateBench: Testing how language models track state changes over long documents",
       "link": "https://huggingface.co/blog/allenai/statebench",
       "source": "Hugging Face",
@@ -60,16 +40,6 @@
       "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
       "ts": 1793725309,
       "published": "2026-11-03T17:01:49+00:00",
-      "collected_at": "2026-11-04T03:16:31+09:00"
-    },
-    {
-      "title": "Agents SDK v0.24.0-alpha.6",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0-alpha.6",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "Install the preview Use standard CPython 3.10–3.14 in a virtual environment. These wheels include the native runtime; no Rust toolchain or source build is needed. This preview is distributed through GitHub Releases, not…",
-      "ts": 1793724500,
-      "published": "2026-11-03T16:48:20+00:00",
       "collected_at": "2026-11-04T03:16:31+09:00"
     },
     {
@@ -913,16 +883,6 @@
       "collected_at": "2026-11-02T10:22:00+09:00"
     },
     {
-      "title": "1.15.34",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.34",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add standalone LiteLLM catalog PR before version bump Record where crewai run stops before kickoff Add crewai skill search to list the organization's skills Pass crewai run --inputs to a Python f…",
-      "ts": 1793568116,
-      "published": "2026-11-01T21:21:56+00:00",
-      "collected_at": "2026-11-02T10:22:00+09:00"
-    },
-    {
       "title": "Quoting Kyle Kingsbury",
       "link": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
       "source": "Simon Willison",
@@ -1351,36 +1311,6 @@
       "ts": 1793401692,
       "published": "2026-10-30T23:08:12+00:00",
       "collected_at": "2026-10-31T12:38:00+09:00"
-    },
-    {
-      "title": "langgraph==1.2.19",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.19",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.18 release(langgraph): 1.2.19 ( #9504 ) release(checkpoint-sqlite): 3.1.3 ( #9505 ) fix(langgraph): keep trace_policy from rewriting streamed node payloads ( #9486 ) fix(langgraph): give messages and t…",
-      "ts": 1793399023,
-      "published": "2026-10-30T22:23:43+00:00",
-      "collected_at": "2026-10-31T09:33:34+09:00"
-    },
-    {
-      "title": "langgraph-checkpoint-sqlite==3.1.3",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.3",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since checkpointsqlite==3.1.2 release(checkpoint-sqlite): 3.1.3 ( #9505 ) release(checkpoint): 4.3.1 ( #9447 ) fix(checkpoint): reject NUL bytes in namespace labels ( #9383 ) chore(deps): bump certifi from 2026.…",
-      "ts": 1793398734,
-      "published": "2026-10-30T22:18:54+00:00",
-      "collected_at": "2026-10-31T09:33:34+09:00"
-    },
-    {
-      "title": "langgraph-sdk==0.4.11",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.11",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since sdk==0.4.10 release(langgraph): 1.2.19 ( #9504 ) release(sdk-py): 0.4.11 ( #9503 ) test(sdk-py): check that a reconnect loop resumes after the newest event ( #9483 ) fix(sdk-py): retry runs.wait, join and…",
-      "ts": 1793398679,
-      "published": "2026-10-30T22:17:59+00:00",
-      "collected_at": "2026-10-31T09:33:34+09:00"
     },
     {
       "title": "dbreunig/nesformer",
@@ -2163,16 +2093,6 @@
       "collected_at": "2026-10-29T18:38:22+09:00"
     },
     {
-      "title": "1.15.33",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.33",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add crewai skill search to list the organization's skills Pass crewai run --inputs to a Python flow Add deploy create --zip and print the commit a zip is built from Bug Fixes Report token usage f…",
-      "ts": 1793259384,
-      "published": "2026-10-29T07:36:24+00:00",
-      "collected_at": "2026-10-29T18:38:22+09:00"
-    },
-    {
       "title": "Cloudflare Introduces Web Search API for AI Applications",
       "link": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -2361,6 +2281,16 @@
       "ts": 1793216885,
       "published": "2026-10-28T19:48:05+00:00",
       "collected_at": "2026-10-29T07:59:55+09:00"
+    },
+    {
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "link": "https://openai.com/ads/customers/evernote",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+      "ts": 1793216449,
+      "published": "2026-10-28T19:40:49+00:00",
+      "collected_at": "2026-11-04T06:49:42+09:00"
     },
     {
       "title": "Node.js 24.22.2 (LTS)",
@@ -2763,16 +2693,6 @@
       "collected_at": "2026-11-03T23:40:15+09:00"
     },
     {
-      "title": "1.15.32",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.32",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Fix failing flaky tests Documentation Update snapshot and changelog for v1.15.31 Contributors @lorenzejay",
-      "ts": 1793142245,
-      "published": "2026-10-27T23:04:05+00:00",
-      "collected_at": "2026-10-28T08:39:07+09:00"
-    },
-    {
       "title": "We interrupt our usual programming to inform you that I was never hired by Facebook to do a hit job on Jonathan Haidt.",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/27/we-interrupt-our-usual-programming-to-inform-you-that-i-was-never-hired-by-facebook-to-do-a-hit-job-on-jonathan-haidt/",
       "source": "Statistical Modeling",
@@ -2781,16 +2701,6 @@
       "ts": 1793142145,
       "published": "2026-10-27T23:02:25+00:00",
       "collected_at": "2026-10-28T08:39:07+09:00"
-    },
-    {
-      "title": "1.15.31",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Support conversational flow context compaction. Bug Fixes Update vulnerable audit dependencies. Stop sending 'stop' to GPT-6 and newer models. Run the provider listing off the loop in acleanup_pr…",
-      "ts": 1793136989,
-      "published": "2026-10-27T21:36:29+00:00",
-      "collected_at": "2026-10-28T06:53:35+09:00"
     },
     {
       "title": "Survey Statistics: how to measure hospital quality ?",
@@ -3313,36 +3223,6 @@
       "collected_at": "2026-10-27T07:26:40+09:00"
     },
     {
-      "title": "langgraph==1.2.18",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.18",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.17 release(checkpoint): 4.3.1 ( #9447 ) release(langgraph): 1.2.18 ( #9445 ) fix(langgraph): let error_handler recover on every path and stream failed task results ( #9408 ) feat(langgraph): default de…",
-      "ts": 1793045116,
-      "published": "2026-10-26T20:05:16+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "langgraph-sdk==0.4.10",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.10",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since sdk==0.4.9 release(checkpoint): 4.3.1 ( #9447 ) release(langgraph): 1.2.18 ( #9445 ) release(sdk-py): 0.4.10 ( #9446 ) fix(sdk-py): retry runs.wait with a bodyless GET and raise run errors in sync wait ( #…",
-      "ts": 1793044796,
-      "published": "2026-10-26T19:59:56+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "langgraph-checkpoint==4.3.1",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.1",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since checkpoint==4.3.0 release(checkpoint): 4.3.1 ( #9447 ) fix(checkpoint): reject NUL bytes in namespace labels ( #9383 ) chore(deps): bump certifi from 2026.1.4 to 2026.10.19 in /libs/checkpoint ( #9372 )",
-      "ts": 1793044661,
-      "published": "2026-10-26T19:57:41+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
       "title": "Quoting Jason Koebler",
       "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
       "source": "Simon Willison",
@@ -3381,16 +3261,6 @@
       "ts": 1793036743,
       "published": "2026-10-26T17:45:43+00:00",
       "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "langgraph-cli==0.4.40",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.40",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.39 release(cli): 0.4.40 ( #9443 ) feat(cli): send the upload headers the control plane returns ( #9396 )",
-      "ts": 1793033154,
-      "published": "2026-10-26T16:45:54+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
     },
     {
       "title": "webframe: evaluated as a scraper and a sandbox",
@@ -3460,16 +3330,6 @@
       "summary": "This week's Java roundup for October 19th, 2026, features news highlighting: the proposed release schedule for JDK 28; the eMudhra Intermediate CA certificates breach; the October 2026 Critical Patch Update; Azul and Be…",
       "ts": 1793025300,
       "published": "2026-10-26T14:35:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "langgraph-cli==0.4.39",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.39",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.38 release(cli): 0.4.39 ( #9442 ) feat(cli): add --json to deploy list ( #9395 ) chore(deps): bump zod from 4.3.6 to 4.6.7 in /libs/cli/js-examples ( #9432 ) chore(deps): bump langgraph-checkpoint…",
-      "ts": 1793024213,
-      "published": "2026-10-26T14:16:53+00:00",
       "collected_at": "2026-10-27T02:10:22+09:00"
     },
     {
@@ -4483,26 +4343,6 @@
       "collected_at": "2026-10-24T14:32:24+09:00"
     },
     {
-      "title": "1.15.30",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.30",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Fix AGENTS.md to start the login process while evaluating and stop after three rounds. Documentation Update snapshot and changelog for v1.15.29. Contributors @joaomdmoura",
-      "ts": 1792806964,
-      "published": "2026-10-24T01:56:04+00:00",
-      "collected_at": "2026-10-24T14:32:24+09:00"
-    },
-    {
-      "title": "langgraph==1.2.17",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.17",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.16 release(langgraph): 1.2.17 ( #9418 ) fix(langgraph): apply an explicit recursion_limit equal to the default ( #9417 ) fix(langgraph): keep the caller's namespace in RemoteGraph.stream(subgraphs=True…",
-      "ts": 1792804085,
-      "published": "2026-10-24T01:08:05+00:00",
-      "collected_at": "2026-10-24T14:32:24+09:00"
-    },
-    {
       "title": "JCast Roundup: AI Agents, Clean Code, Cloud and Quarkus (Summer 2026)",
       "link": "https://foojay.io/today/jcast-roundup-summer-2026/",
       "source": "Foojay",
@@ -4561,16 +4401,6 @@
       "ts": 1792784454,
       "published": "2026-10-23T19:40:54+00:00",
       "collected_at": "2026-10-24T06:57:43+09:00"
-    },
-    {
-      "title": "1.15.29",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add support for LiteLLM-compatible kwargs. Implement platform application search in CLI. Highlight action picker search in CLI. Trace conversation routes and public replies in flow. Select organi…",
-      "ts": 1792776929,
-      "published": "2026-10-23T17:35:29+00:00",
-      "collected_at": "2026-10-24T03:56:30+09:00"
     },
     {
       "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
@@ -4640,26 +4470,6 @@
       "summary": "CSIRO has developed Serverless Beacon, a serverless architecture for querying genomic variants without copying VCF files into a central database. The system combines Amazon S3, Lambda, Athena and DynamoDB, using metadat…",
       "ts": 1792765800,
       "published": "2026-10-23T14:30:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "langgraph-cli==0.4.38",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.38",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.37 release(cli): 0.4.38 ( #9411 ) feat(cli): add the priority section to langgraph.json ( #9393 ) chore(deps): bump uv from 0.11.15 to 0.13.4 in /libs/cli ( #9366 ) chore(deps): bump certifi from…",
-      "ts": 1792765349,
-      "published": "2026-10-23T14:22:29+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "langgraph-sdk==0.4.9",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.9",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since sdk==0.4.8 release(sdk-py): 0.4.9 ( #9398 ) feat(sdk-py): add Priority for thread priority settings ( #9392 ) chore(deps): remove precautionary third-party upper bounds ( #9390 ) chore(deps): bump certifi…",
-      "ts": 1792765164,
-      "published": "2026-10-23T14:19:24+00:00",
       "collected_at": "2026-10-23T23:45:33+09:00"
     },
     {
@@ -6933,16 +6743,6 @@
       "collected_at": "2026-10-20T08:27:42+09:00"
     },
     {
-      "title": "langgraph-cli==0.4.37",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.37",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.36 release(cli): 0.4.37 ( #9351 ) fix(cli): stop printing subprocess stdin in verbose output ( #9350 ) Merge PR #9349 fix(cli): default deploy to serverless ( #9333 ) chore(deps): bump the minor-a…",
-      "ts": 1792418782,
-      "published": "2026-10-19T14:06:22+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
       "title": "How to Automate Your Workflow With Claude Code Hooks",
       "link": "https://realpython.com/claude-code-hooks/",
       "source": "Real Python",
@@ -7563,26 +7363,6 @@
       "collected_at": "2026-10-18T01:12:40+09:00"
     },
     {
-      "title": "langgraph==1.2.16",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.16",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.15 release(langgraph): 1.2.16 ( #9334 ) fix(langgraph): let other tasks finish when a resume value is invalid ( #9265 ) fix(langgraph): apply a resumed Command's update once ( #9322 ) fix(langgraph): s…",
-      "ts": 1792188688,
-      "published": "2026-10-16T22:11:28+00:00",
-      "collected_at": "2026-10-17T08:20:18+09:00"
-    },
-    {
-      "title": "langgraph-sdk==0.4.8",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.8",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since sdk==0.4.7 release(langgraph): 1.2.16 ( #9334 ) release(sdk-py): 0.4.8 ( #9335 ) fix(sdk-py): surface thread stream errors and stop retrying a rejected stream ( #9317 ) release(prebuilt): 1.1.1 ( #9316 )",
-      "ts": 1792188541,
-      "published": "2026-10-16T22:09:01+00:00",
-      "collected_at": "2026-10-17T08:20:18+09:00"
-    },
-    {
       "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
       "link": "https://simonwillison.net/2026/Oct/16/code-review/",
       "source": "Simon Willison",
@@ -7671,16 +7451,6 @@
       "ts": 1792171902,
       "published": "2026-10-16T17:31:42+00:00",
       "collected_at": "2026-10-17T05:42:52+09:00"
-    },
-    {
-      "title": "langgraph-cli==0.4.36",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.36",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.35 release(cli): 0.4.36 ( #9330 ) fix(cli): accept serverless and dedicated deployment aliases ( #9325 ) fix(cli): push through the active Docker context in langgraph deploy ( #9321 )",
-      "ts": 1792168754,
-      "published": "2026-10-16T16:39:14+00:00",
-      "collected_at": "2026-10-17T02:52:27+09:00"
     },
     {
       "title": "Do You Still Own the Code Your AI Wrote? I Built CodeOwnership to Measure It",
@@ -8423,26 +8193,6 @@
       "collected_at": "2026-10-15T20:05:29+09:00"
     },
     {
-      "title": "langgraph-prebuilt==1.1.1",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/prebuilt%3D%3D1.1.1",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since prebuilt==1.1.0 release(prebuilt): 1.1.1 ( #9316 ) release(checkpoint-postgres): 3.2.0 ( #9313 ) release(checkpoint-postgres): 3.1.3 ( #9287 ) release(checkpoint-sqlite): 3.1.2 ( #9288 ) release(langgraph)…",
-      "ts": 1792038760,
-      "published": "2026-10-15T04:32:40+00:00",
-      "collected_at": "2026-10-15T14:40:54+09:00"
-    },
-    {
-      "title": "v0.24.0",
-      "link": "https://github.com/openai/openai-agents-python/releases/tag/v0.24.0",
-      "source": "OpenAI Agents SDK",
-      "category": "Agents",
-      "summary": "0.24.0 (2026-10-15) Features expose MCP annotations on converted tools ( #5356 ) ( 75813f8 ) support run-wide tool exception formatting ( #5326 ) ( 8fd9a7c ) Bug Fixes batch OpenAI conversation session writes within the…",
-      "ts": 1792031863,
-      "published": "2026-10-15T02:37:43+00:00",
-      "collected_at": "2026-10-15T14:40:54+09:00"
-    },
-    {
       "title": "LaTeX renderer",
       "link": "https://simonwillison.net/2026/Oct/15/latex/",
       "source": "Simon Willison",
@@ -8603,16 +8353,6 @@
       "collected_at": "2026-10-15T06:24:36+09:00"
     },
     {
-      "title": "langgraph-checkpoint-postgres==3.2.0",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.2.0",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since checkpointpostgres==3.1.3 release(checkpoint-postgres): 3.2.0 ( #9313 ) feat(checkpoint-postgres): add prune to PostgresSaver and AsyncPostgresSaver ( #9290 )",
-      "ts": 1792007697,
-      "published": "2026-10-14T19:54:57+00:00",
-      "collected_at": "2026-10-15T06:24:36+09:00"
-    },
-    {
       "title": "dotnet-1.25.0",
       "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.25.0",
       "source": "Agent Framework",
@@ -8650,16 +8390,6 @@
       "summary": "",
       "ts": 1791994362,
       "published": "2026-10-14T16:12:42+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "langgraph-cli==0.4.35",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.35",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.34 release(cli): 0.4.35 ( #9310 ) feat(cli): add --image-pull-secret for deploying through a private registry ( #9305 ) feat(cli): log in with the registry username the control plane returns ( #93…",
-      "ts": 1791994272,
-      "published": "2026-10-14T16:11:12+00:00",
       "collected_at": "2026-10-15T02:51:19+09:00"
     },
     {
@@ -8953,16 +8683,6 @@
       "collected_at": "2026-10-23T18:47:51+09:00"
     },
     {
-      "title": "1.15.28",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add crewai eval command to report where a stopped model broke. Use LiteLLM catalog for context windows. Bug Fixes Fix flow to learn from resumed human feedback and preserve reviewed output types.…",
-      "ts": 1791953220,
-      "published": "2026-10-14T04:47:00+00:00",
-      "collected_at": "2026-10-14T15:01:21+09:00"
-    },
-    {
       "title": "Gemini 4 Argon Hands-On Review: Capabilities and Performance",
       "link": "https://www.analyticsvidhya.com/blog/2026/10/gemini-4-argon-review/",
       "source": "Analytics Vidhya",
@@ -9131,16 +8851,6 @@
       "ts": 1791930355,
       "published": "2026-10-13T22:25:55+00:00",
       "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "langgraph-cli==0.4.34",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.34",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.33 release(cli): 0.4.34 ( #9300 ) feat(cli): add --json to deploy listeners list ( #9243 )",
-      "ts": 1791926290,
-      "published": "2026-10-13T21:18:10+00:00",
-      "collected_at": "2026-10-14T09:09:49+09:00"
     },
     {
       "title": "Survey Statistics: favorite textbooks ?",
@@ -9541,56 +9251,6 @@
       "ts": 1791847272,
       "published": "2026-10-12T23:21:12+00:00",
       "collected_at": "2026-10-14T09:58:30+09:00"
-    },
-    {
-      "title": "langgraph-checkpoint-postgres==3.1.3",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointpostgres%3D%3D3.1.3",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since checkpointpostgres==3.1.2 release(checkpoint-postgres): 3.1.3 ( #9287 ) fix(checkpoint-postgres,checkpoint-sqlite): treat an empty checkpoint_id as the latest in delta history ( #9262 ) perf(checkpoint-pos…",
-      "ts": 1791846331,
-      "published": "2026-10-12T23:05:31+00:00",
-      "collected_at": "2026-10-13T09:09:32+09:00"
-    },
-    {
-      "title": "langgraph-checkpoint-sqlite==3.1.2",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpointsqlite%3D%3D3.1.2",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since checkpointsqlite==3.1.1 release(checkpoint-sqlite): 3.1.2 ( #9288 ) fix(checkpoint-postgres,checkpoint-sqlite): treat an empty checkpoint_id as the latest in delta history ( #9262 ) fix(checkpoint,checkpoi…",
-      "ts": 1791845687,
-      "published": "2026-10-12T22:54:47+00:00",
-      "collected_at": "2026-10-13T09:09:32+09:00"
-    },
-    {
-      "title": "langgraph-sdk==0.4.7",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.7",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since sdk==0.4.6 release(sdk-py): 0.4.7 ( #9289 ) release(langgraph): 1.2.15 ( #9283 ) fix(sdk-py): end a thread stream's run only on a root lifecycle event ( #9228 ) fix: order delta channel replay by task path…",
-      "ts": 1791845659,
-      "published": "2026-10-12T22:54:19+00:00",
-      "collected_at": "2026-10-13T09:09:32+09:00"
-    },
-    {
-      "title": "langgraph==1.2.15",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.15",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.14 release(langgraph): 1.2.15 ( #9283 ) fix(langgraph): give every message written to a messages DeltaChannel an id ( #9275 ) fix(langgraph): save a cached node's writes like a node that ran ( #9259 )…",
-      "ts": 1791844706,
-      "published": "2026-10-12T22:38:26+00:00",
-      "collected_at": "2026-10-13T09:09:32+09:00"
-    },
-    {
-      "title": "langgraph-checkpoint==4.3.0",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/checkpoint%3D%3D4.3.0",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since checkpoint==4.2.0 fix(checkpoint): default InMemorySaver delta history to the latest checkpoint ( #9257 ) test(checkpoint): run the delta conformance suite against InMemorySaver in CI ( #9261 ) fix(checkpo…",
-      "ts": 1791844001,
-      "published": "2026-10-12T22:26:41+00:00",
-      "collected_at": "2026-10-13T09:09:32+09:00"
     },
     {
       "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
@@ -10323,16 +9983,6 @@
       "collected_at": "2026-10-10T09:10:16+09:00"
     },
     {
-      "title": "1.15.27",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.27",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add XPU to OpenCLIP provider device options Add deepinfra as an OpenAI-compatible provider Record why an evaluation stopped before its verdict Record what the run app's Deploy met before an attem…",
-      "ts": 1791585224,
-      "published": "2026-10-09T22:33:44+00:00",
-      "collected_at": "2026-10-10T09:10:16+09:00"
-    },
-    {
       "title": "Anthropic AI model submits false tip on unsolved Philly murder",
       "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
       "source": "Hacker News",
@@ -10751,16 +10401,6 @@
       "ts": 1791500609,
       "published": "2026-10-08T23:03:29+00:00",
       "collected_at": "2026-10-09T09:10:24+09:00"
-    },
-    {
-      "title": "1.15.26",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.26",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Fix ownership retention of rwlock when acquisition is interrupted. Resolve issue with documentation site source URLs not being preserved. Fix task output display in log-tasks-outputs to show act…",
-      "ts": 1791495938,
-      "published": "2026-10-08T21:45:38+00:00",
-      "collected_at": "2026-10-09T06:52:04+09:00"
     },
     {
       "title": "Quoting Carson Gross",
@@ -11183,16 +10823,6 @@
       "collected_at": "2026-11-03T22:16:51+09:00"
     },
     {
-      "title": "1.15.25",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.25",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Documentation Snapshot and changelog for v1.15.24 Contributors @lorenzejay",
-      "ts": 1791417133,
-      "published": "2026-10-07T23:52:13+00:00",
-      "collected_at": "2026-10-08T09:09:29+09:00"
-    },
-    {
       "title": "Quoting Ben Affleck",
       "link": "https://simonwillison.net/2026/Oct/7/ben-affleck/",
       "source": "Simon Willison",
@@ -11220,16 +10850,6 @@
       "summary": "A survey conducted by independent research firm Coleman Parkes on behalf of Undo, a company focused on scaling AI-powered root-cause analysis, found that while AI coding agents have accelerated code generation, they hav…",
       "ts": 1791396000,
       "published": "2026-10-07T18:00:00+00:00",
-      "collected_at": "2026-10-08T06:48:56+09:00"
-    },
-    {
-      "title": "1.15.24",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.24",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add crewai eval to print a markdown brief when run by an agent Queue relevant background replies Add experimental turn and reply identities Add Oracle Integrations Add experimental job lifecycle…",
-      "ts": 1791394787,
-      "published": "2026-10-07T17:39:47+00:00",
       "collected_at": "2026-10-08T06:48:56+09:00"
     },
     {
@@ -11360,16 +10980,6 @@
       "summary": "When machines learn by themselves The post Introduction to Reinforcement Learning: Multi-Armed Bandit Simulation in Python appeared first on Towards Data Science .",
       "ts": 1791381600,
       "published": "2026-10-07T14:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "langgraph-cli==0.4.33",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/cli%3D%3D0.4.33",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since cli==0.4.32 release(cli): 0.4.33 ( #9227 ) feat(cli): add --image-uri to deploy an already-pushed image ( #9222 ) feat(cli): add 'langgraph deploy listeners list' ( #9221 ) chore(deps): bump virtualenv fro…",
-      "ts": 1791380326,
-      "published": "2026-10-07T13:38:46+00:00",
       "collected_at": "2026-10-08T01:11:28+09:00"
     },
     {
@@ -11813,26 +11423,6 @@
       "collected_at": "2026-10-07T01:34:56+09:00"
     },
     {
-      "title": "langgraph==1.2.14",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.14",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.13 release(langgraph): 1.2.14 ( #9215 )",
-      "ts": 1791297697,
-      "published": "2026-10-06T14:41:37+00:00",
-      "collected_at": "2026-10-07T01:34:56+09:00"
-    },
-    {
-      "title": "langgraph-sdk==0.4.6",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.6",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since sdk==0.4.5 release(sdk-py): 0.4.6 ( #9214 ) fix(sdk-py): percent-encode thread_id and assistant_id in thread stream requests ( #9213 ) release(langgraph): 1.2.13 ( #9205 ) chore(deps): bump the minor-and-p…",
-      "ts": 1791296288,
-      "published": "2026-10-06T14:18:08+00:00",
-      "collected_at": "2026-10-07T01:34:56+09:00"
-    },
-    {
       "title": "JEV vs LLM as a Judge: The AI Evaluation Comparison",
       "link": "https://www.analyticsvidhya.com/blog/2026/10/jev-vs-llm-as-a-judge-evals/",
       "source": "Analytics Vidhya",
@@ -12111,16 +11701,6 @@
       "ts": 1791237695,
       "published": "2026-10-05T22:01:35+00:00",
       "collected_at": "2026-10-06T11:45:56+09:00"
-    },
-    {
-      "title": "langgraph==1.2.13",
-      "link": "https://github.com/langchain-ai/langgraph/releases/tag/1.2.13",
-      "source": "LangGraph",
-      "category": "Agents",
-      "summary": "Changes since 1.2.12 fix(langgraph): fork before replaying an update checkpoint the thread moved past ( #9170 ) fix(langgraph): keep an update_state on an older checkpoint out of its other branches ( #9165 ) fix(langgra…",
-      "ts": 1791222692,
-      "published": "2026-10-05T17:51:32+00:00",
-      "collected_at": "2026-10-06T07:23:01+09:00"
     },
     {
       "title": "Java News Roundup: JobRunr 9, OpenXava 8, Quarkus, LangChain4j, JNoSQL, Introducing Lathe",
