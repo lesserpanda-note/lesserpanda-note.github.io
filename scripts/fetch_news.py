@@ -22,18 +22,32 @@ from urllib.parse import urlparse
 import feedparser
 
 # (feed url, source label, category) — category drives grouping/filtering on the page.
-# Categories: Java (incl. Kotlin/JVM), Spring, AI (incl. models/LLM), Agents,
+# Categories: Java (JVM), Kotlin, Spring, Node, Go, AI (incl. models/LLM), Agents,
 # Architecture, Python, DataScience (applied predictive modeling — scikit-learn/
 # XGBoost/tabular, feature engineering; not frontier LLM research, that's AI).
 FEEDS = [
     ("https://inside.java/feed.xml", "Inside Java", "Java"),
     ("https://feed.infoq.com/java/", "InfoQ Java", "Java"),
     ("https://foojay.io/feed/", "Foojay", "Java"),
-    ("https://blog.jetbrains.com/kotlin/feed/", "Kotlin", "Java"),
+    # Kotlin stands on its own instead of being folded into Java: under Java it never
+    # got reviewed as a bucket, so it reached the digest only when a Java roundup
+    # happened to mention it. Supply is low (~6 items/month), so this category is empty
+    # most days — a valid result, not a gap to fill.
+    ("https://blog.jetbrains.com/kotlin/feed/", "Kotlin", "Kotlin"),
     ("https://spring.io/blog.atom", "Spring Blog", "Spring"),
     # Spring portfolio CVE advisories — sporadic, so it contributes nothing most days and
     # everything on the day one lands. That is the point: it is the security tripwire.
     ("https://spring.io/security.atom", "Spring Security", "Spring"),
+    # Node — the other backend runtime. The blog feed carries release announcements
+    # (alphas and nightlies included, so the patch-bump rule does the filtering) and
+    # the vulnerability feed is the security tripwire, like Spring Security above.
+    ("https://nodejs.org/en/feed/blog.xml", "Node.js Blog", "Node"),
+    ("https://nodejs.org/en/feed/vulnerability.xml", "Node.js Security", "Node"),
+    # Go — the official blog carries design notes and security responses; the release
+    # tags are a separate feed because the blog does not announce every point release.
+    # go.dev/security/feed.atom is not a feed (301 to a doc page, re-checked 2026-11-03).
+    ("https://go.dev/blog/feed.atom", "Go Blog", "Go"),
+    ("https://github.com/golang/go/releases.atom", "Go Releases", "Go"),
     ("https://blog.google/technology/ai/rss/", "Google AI", "AI"),
     ("https://openai.com/news/rss.xml", "OpenAI", "AI"),
     ("https://deepmind.google/blog/rss.xml", "DeepMind", "AI"),
@@ -266,14 +280,25 @@ def main() -> int:
     write_sources()
 
     # Drop accumulated items whose feed was removed or recategorized, so retiring a
-    # source (or merging a category) actually purges its old items instead of letting
-    # them linger for the full retention window.
-    active_sources = {source for _, source, _ in FEEDS}
-    active_categories = {category for _, _, category in FEEDS}
+    # source (or moving a feed to another category) actually purges its old items
+    # instead of letting them linger for the full retention window. The test is on the
+    # (source, category) pair, not on the two independently: when a feed moves to a new
+    # category both the old and the new one are still live, so independent checks keep
+    # the stale copies — and the merge below prefers the copy already on file, so the
+    # feed can never re-file them. Moving the Kotlin feed out of Java hit exactly that.
+    # A source can sit in more than one category (Hacker News is both AI and Agents),
+    # and reclassify() files some items under a pair FEEDS does not contain, so the
+    # feed's own category goes through it before the comparison.
+    source_categories: dict[str, set[str]] = {}
+    for _, source, category in FEEDS:
+        source_categories.setdefault(source, set()).add(category)
     existing = [
         it
         for it in load_existing()
-        if it.get("source") in active_sources and it.get("category") in active_categories
+        if any(
+            reclassify(c, it.get("title", "")) == it.get("category")
+            for c in source_categories.get(it.get("source"), ())
+        )
     ]
     # Accumulate: start from what we already have, fold in fresh entries by link.
     merged: dict[str, dict] = {it["link"]: it for it in existing if it.get("link")}

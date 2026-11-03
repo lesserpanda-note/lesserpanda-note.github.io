@@ -13,6 +13,11 @@
   --architecture: #475569;
   --python: #3776ab;
   --ds: #06b6d4;
+  /* Brand colours, nudged off the neighbours they would otherwise collide with:
+     Kotlin's #7f52ff sits on top of --ai, Go's #00add8 on top of --ds. */
+  --kotlin: #6a2ee8;
+  --node: #3d7a2f;
+  --go: #0098bd;
   --radius: 12px;
   --max: 880px;
 }
@@ -185,6 +190,9 @@ main {
 .cat-Architecture { background: var(--architecture); }
 .cat-Python { background: var(--python); }
 .cat-DataScience { background: var(--ds); }
+.cat-Kotlin { background: var(--kotlin); }
+.cat-Node { background: var(--node); }
+.cat-Go { background: var(--go); }
 .src { font-weight: 600; }
 
 /* digest */

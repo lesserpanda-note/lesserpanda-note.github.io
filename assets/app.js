@@ -52,6 +52,11 @@ const SYNONYMS = [
   ["특성", "피처", "특성공학", "feature", "features", "feature-engineering"],
   ["자바", "java", "jvm", "코틀린", "kotlin"],
   ["스프링", "spring", "springboot", "부트", "boot"],
+  ["코틀린", "kotlin", "kmp", "multiplatform"],
+  ["노드", "nodejs", "node.js", "node", "npm"],
+  // No bare "go": matching is substring-based, so it would expand google / django /
+  // mongodb / algorithm into Go queries.
+  ["고랭", "golang"],
   ["파이썬", "python"],
   ["아키텍처", "architecture", "설계", "design"],
   ["보안", "security", "취약점", "vulnerability", "cve"],
