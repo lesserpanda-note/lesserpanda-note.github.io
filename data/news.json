@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-04T03:16:55+09:00",
-  "count": 1248,
+  "updated": "2026-11-04T06:42:16+09:00",
+  "count": 1244,
   "items": [
+    {
+      "title": "Survey Statistics: Times/Siena Polls and Times Voter Trends",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/03/survey-statistics-times-siena-polls-and-times-voter-trends/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Yesterday Andrew wrote about Alan Zaslavsky, who recently passed. This is typical of his work in that it was innovative, with applied importance, and understated. As Fan Li quoted, Alan was “the best applied statisticia…",
+      "ts": 1793739621,
+      "published": "2026-11-03T21:00:21+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
+    },
+    {
+      "title": "Google Launches LiteRT Tensor API for Building, Customizing, and Optimizing ML Models for On-Device",
+      "link": "https://www.infoq.com/news/2026/11/litert-tensor-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google has introduced the LiteRT Tensor API, a lightweight C++ API that allows developers to build, customize, and optimize machine learning models directly for on-device execution. According to Google, it combines the…",
+      "ts": 1793732400,
+      "published": "2026-11-03T19:00:00+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
+    },
+    {
+      "title": "1.15.35",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.35",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Documentation Update litellm model catalog for v1.15.35 Add snapshot and changelog for v1.15.34 Contributors @github-actions[bot], João Moura (@joaomdmoura) , Lorenze Jay (@lorenzejay)",
+      "ts": 1793730315,
+      "published": "2026-11-03T18:25:15+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
+    },
     {
       "title": "langgraph-sdk==0.4.12",
       "link": "https://github.com/langchain-ai/langgraph/releases/tag/sdk%3D%3D0.4.12",
@@ -136,11 +166,11 @@
       "title": "Top 5 Local AI Models and How to Get Them",
       "link": "https://www.analyticsvidhya.com/blog/2026/11/local-ai-models/",
       "source": "Analytics Vidhya",
-      "category": "DataScience",
+      "category": "AI",
       "summary": "Proprietary models are amazing! But sometimes what is of importance is configurability rather than raw power. This has led to the emergence of locally hosted models. Running AI locally gives users more control over thei…",
       "ts": 1793707575,
       "published": "2026-11-03T12:06:15+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
+      "collected_at": "2026-11-04T06:42:10+09:00"
     },
     {
       "title": "Quiz: How to Use Claude Code Skills for Better Python Docstrings",
@@ -161,6 +191,16 @@
       "ts": 1793707200,
       "published": "2026-11-03T12:00:00+00:00",
       "collected_at": "2026-11-03T22:16:51+09:00"
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "link": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "ts": 1793707200,
+      "published": "2026-11-03T12:00:00+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
     },
     {
       "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
@@ -231,6 +271,16 @@
       "ts": 1793692800,
       "published": "2026-11-03T08:00:00+00:00",
       "collected_at": "2026-11-03T19:35:23+09:00"
+    },
+    {
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "link": "https://openai.com/index/cisco-cyber",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "ts": 1793692800,
+      "published": "2026-11-03T08:00:00+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
     },
     {
       "title": "[AINews] LLMs can read & write neural network weights: \"Weight Space Programming\" cuts Autoresearch out of the RSI loop",
@@ -381,6 +431,16 @@
       "ts": 1793664000,
       "published": "2026-11-03T00:00:00+00:00",
       "collected_at": "2026-11-04T03:16:31+09:00"
+    },
+    {
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "link": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "ts": 1793664000,
+      "published": "2026-11-03T00:00:00+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
     },
     {
       "title": "llm 0.37",
@@ -613,16 +673,6 @@
       "collected_at": "2026-11-03T05:05:41+09:00"
     },
     {
-      "title": "Reflection's Beam Is the New Open-Weight Model Everyone Is Talking About",
-      "link": "https://towardsdatascience.com/reflections-beam-is-the-new-open-weight-model-everyone-is-talking-about/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A 501B model that only activates 23B parameters per token sounds like a bargain, until you look at what it takes to host. The post Reflection's Beam Is the New Open-Weight Model Everyone Is Talking About appeared first…",
-      "ts": 1793628000,
-      "published": "2026-11-02T14:00:00+00:00",
-      "collected_at": "2026-11-03T05:05:41+09:00"
-    },
-    {
       "title": "SimPy: Simulating Real-World Processes With Python",
       "link": "https://realpython.com/simpy-simulating-with-python/",
       "source": "Real Python",
@@ -631,6 +681,16 @@
       "ts": 1793628000,
       "published": "2026-11-02T14:00:00+00:00",
       "collected_at": "2026-11-03T22:16:51+09:00"
+    },
+    {
+      "title": "Reflection's Beam Is the New Open-Weight Model Everyone Is Talking About",
+      "link": "https://towardsdatascience.com/reflections-beam-is-the-new-open-weight-model-everyone-is-talking-about/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "A 501B model that only activates 23B parameters per token sounds like a bargain, until you look at what it takes to host. The post Reflection's Beam Is the New Open-Weight Model Everyone Is Talking About appeared first…",
+      "ts": 1793628000,
+      "published": "2026-11-02T14:00:00+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
     },
     {
       "title": "Uber Builds MCP Gateway to Govern Access to 800+ Servers and 5,000+ AI Agent Tools",
@@ -1403,16 +1463,6 @@
       "collected_at": "2026-10-31T00:42:52+09:00"
     },
     {
-      "title": "Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant",
-      "link": "https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Vibe coding is a workflow where you describe what you want in natural language and let an AI agent handle code generation, execution, and iteration rather than typing every line yourself.",
-      "ts": 1793368800,
-      "published": "2026-10-30T14:00:00+00:00",
-      "collected_at": "2026-10-31T00:42:52+09:00"
-    },
-    {
       "title": "Binning or Feature Selection: Which One Won Us an Insurance Hackathon?",
       "link": "https://towardsdatascience.com/binning-or-feature-selection-which-one-won-us-an-insurance-hackathon/",
       "source": "Towards Data Science",
@@ -1471,6 +1521,16 @@
       "ts": 1793368800,
       "published": "2026-10-30T14:00:00+00:00",
       "collected_at": "2026-10-31T22:27:29+09:00"
+    },
+    {
+      "title": "Vibe Coding a Classic Game: Building Breakout Step by Step with an AI Assistant",
+      "link": "https://www.kdnuggets.com/vibe-coding-a-classic-game-building-breakout-step-by-step-with-an-ai-assistant",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Vibe coding is a workflow where you describe what you want in natural language and let an AI agent handle code generation, execution, and iteration rather than typing every line yourself.",
+      "ts": 1793368800,
+      "published": "2026-10-30T14:00:00+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
     },
     {
       "title": "DoorDash Cuts Grocery Reorder Latency from 16 to 2 Seconds with AI Agents",
@@ -1973,16 +2033,6 @@
       "collected_at": "2026-10-30T01:45:32+09:00"
     },
     {
-      "title": "Is the #1 AI Model Really #1?",
-      "link": "https://towardsdatascience.com/is-the-1-ai-model-really-1/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "On a 2,000-question test, my top two models couldn't be told apart at the usual 5% level. On a 200-question version, a different model would have taken first place about three times in ten. The post Is the #1 AI Model R…",
-      "ts": 1793277000,
-      "published": "2026-10-29T12:30:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
       "title": "FDE vs AI Engineer: Roles, Skills, and Career Paths Explained",
       "link": "https://www.analyticsvidhya.com/blog/2026/10/fde-vs-ai-engineer-roles-skills/",
       "source": "Analytics Vidhya",
@@ -2393,16 +2443,6 @@
       "collected_at": "2026-10-29T03:06:53+09:00"
     },
     {
-      "title": "Access Multiple AI Models in Your Python Apps Using OpenRouter",
-      "link": "https://www.kdnuggets.com/access-multiple-ai-models-in-your-python-apps-using-openrouter",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn how to get started with the OpenRouter API to call multiple AI models through one API, compare responses, switch models, and set up automatic fallbacks.",
-      "ts": 1793196000,
-      "published": "2026-10-28T14:00:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
       "title": "Where a Cell Sits Matters More Than How Many There Are",
       "link": "https://towardsdatascience.com/where-a-cell-sits-matters-more-than-how-many-there-are/",
       "source": "Towards Data Science",
@@ -2411,6 +2451,16 @@
       "ts": 1793196000,
       "published": "2026-10-28T14:00:00+00:00",
       "collected_at": "2026-10-29T03:06:53+09:00"
+    },
+    {
+      "title": "How to Access Multiple AI Models in Your Python Apps Using OpenRouter",
+      "link": "https://www.kdnuggets.com/access-multiple-ai-models-in-your-python-apps-using-openrouter",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Learn how to get started with the OpenRouter API to call multiple AI models through one API, compare responses, switch models, and set up automatic fallbacks.",
+      "ts": 1793196000,
+      "published": "2026-10-28T14:00:00+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
     },
     {
       "title": "The October inflection point for vibe game development",
@@ -4843,16 +4893,6 @@
       "collected_at": "2026-10-23T23:45:33+09:00"
     },
     {
-      "title": "Your Six AI Models Are Really Two: The Math of Correlated Mistakes",
-      "link": "https://towardsdatascience.com/your-six-ai-models-are-really-two-the-math-of-correlated-mistakes/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Ask several models the same question, take a vote, and you get fewer independent opinions than you paid for. One formula says how many, and I checked it on six open models and 1,500 exam questions. The post Your Six AI…",
-      "ts": 1792753200,
-      "published": "2026-10-23T11:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
       "title": "Speculative Decoding Explained: How to Get 3× Faster Inference from Any LLM",
       "link": "https://machinelearningmastery.com/speculative-decoding-explained-how-to-get-3x-faster-inference-from-any-llm/",
       "source": "ML Mastery",
@@ -5413,16 +5453,6 @@
       "collected_at": "2026-10-22T23:56:58+09:00"
     },
     {
-      "title": "Same Answer, Different Reason: What a Reasoning Model Says When It Follows a Planted Hint",
-      "link": "https://towardsdatascience.com/same-answer-different-reason-what-a-reasoning-model-says-when-it-follows-a-planted-hint/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "I put wrong answers in front of 200 exam questions and read what a small model’s reasoning said when it fell for them. The post Same Answer, Different Reason: What a Reasoning Model Says When It Follows a Planted Hint a…",
-      "ts": 1792672200,
-      "published": "2026-10-22T12:30:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
       "title": "Quiz: Pipenv: A Guide to the Python Packaging Tool",
       "link": "https://realpython.com/quizzes/pipenv-guide/",
       "source": "Real Python",
@@ -5468,16 +5498,6 @@
       "source": "InfoQ Architecture",
       "category": "Architecture",
       "summary": "Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, write-through state…",
-      "ts": 1792666800,
-      "published": "2026-10-22T11:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Could On-Policy Self-Distillation Revolutionize Post-Training?",
-      "link": "https://towardsdatascience.com/could-on-policy-self-distillation-revolutionize-post-training/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Teaching foundation models new skills without breaking them is hard. A new reinforcement learning-based approach might have the power to change that. The post Could On-Policy Self-Distillation Revolutionize Post-Trainin…",
       "ts": 1792666800,
       "published": "2026-10-22T11:00:00+00:00",
       "collected_at": "2026-10-22T23:56:58+09:00"
@@ -5890,16 +5910,6 @@
       "summary": "",
       "ts": 1792587084,
       "published": "2026-10-21T12:51:24+00:00",
-      "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "Spatial Reasoning in AI Models, Taken Apart",
-      "link": "https://towardsdatascience.com/spatial-reasoning-in-ai-models-taken-apart/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Grid puzzles that people solve almost perfectly show where language and vision models still break The post Spatial Reasoning in AI Models, Taken Apart appeared first on Towards Data Science .",
-      "ts": 1792585800,
-      "published": "2026-10-21T12:30:00+00:00",
       "collected_at": "2026-10-21T23:57:00+09:00"
     },
     {
@@ -6603,16 +6613,6 @@
       "collected_at": "2026-10-20T23:49:57+09:00"
     },
     {
-      "title": "pgvector vs. Dedicated Vector Databases: A Production Benchmark",
-      "link": "https://machinelearningmastery.com/pgvector-vs-dedicated-vector-databases-a-production-benchmark/",
-      "source": "ML Mastery",
-      "category": "DataScience",
-      "summary": "Run this on a typical laptop and both systems will report latencies in the low single-digit to tens of milliseconds range, with the exact numbers depending heavily on your CPU, available RAM, and whatever else is runnin…",
-      "ts": 1792494000,
-      "published": "2026-10-20T11:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
       "title": "What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones",
       "link": "https://towardsdatascience.com/whats-in-the-box-distinguishing-acceptable-traces-from-unacceptable-ones/",
       "source": "Towards Data Science",
@@ -6621,6 +6621,16 @@
       "ts": 1792494000,
       "published": "2026-10-20T11:00:00+00:00",
       "collected_at": "2026-10-20T23:49:57+09:00"
+    },
+    {
+      "title": "pgvector vs. Dedicated Vector Databases: A Production Benchmark",
+      "link": "https://machinelearningmastery.com/pgvector-vs-dedicated-vector-databases-a-production-benchmark/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "Run this on a typical laptop and both systems will report latencies in the low single-digit to tens of milliseconds range, with the exact numbers depending heavily on your CPU, available RAM, and whatever else is runnin…",
+      "ts": 1792494000,
+      "published": "2026-10-20T11:00:00+00:00",
+      "collected_at": "2026-11-04T06:42:10+09:00"
     },
     {
       "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
@@ -7813,16 +7823,6 @@
       "collected_at": "2026-10-16T22:49:34+09:00"
     },
     {
-      "title": "5 Best Resources to Learn About World Models in 2026",
-      "link": "https://www.kdnuggets.com/5-best-resources-to-learn-about-world-models-in-2026",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "World models could be the next big shift in AI. Learn more right now.",
-      "ts": 1792152000,
-      "published": "2026-10-16T12:00:00+00:00",
-      "collected_at": "2026-10-16T22:49:34+09:00"
-    },
-    {
       "title": "Mini book: Evolutionary Architecture in Practice",
       "link": "https://www.infoq.com/minibooks/evolutionary-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -8311,16 +8311,6 @@
       "ts": 1792065600,
       "published": "2026-10-15T12:00:00+00:00",
       "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "I Tested Four Ways to Give an AI Assistant a Memory. The Obvious One Was the Worst Value.",
-      "link": "https://towardsdatascience.com/i-tested-four-ways-to-give-an-ai-assistant-a-memory-the-obvious-one-was-the-worst-value/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Pasting in the whole chat history cost 20 to 31 times more than looking up notes, and it did no better on the tasks. The post I Tested Four Ways to Give an AI Assistant a Memory. The Obvious One Was the Worst Value. app…",
-      "ts": 1792062000,
-      "published": "2026-10-15T11:00:00+00:00",
-      "collected_at": "2026-10-15T20:05:29+09:00"
     },
     {
       "title": "Presentation: What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents",
@@ -10503,16 +10493,6 @@
       "collected_at": "2026-10-10T00:56:55+09:00"
     },
     {
-      "title": "EmbeddingGemma 2: Text, Code, Images, Video and Audio in One Vector Space",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/embeddinggemma-2-multimodal-embeddings-guide/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "EmbeddingGemma 2 launched on October 6, 2026 under Apache 2.0. It is a sub-1B model built on Gemma 4 that maps text, code, images, video and audio into one 768-dimensional space. This article covers the architecture, th…",
-      "ts": 1791552199,
-      "published": "2026-10-09T13:23:19+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
       "title": "A new feature for my blog, built using my voice",
       "link": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
       "source": "Simon Willison",
@@ -11493,16 +11473,6 @@
       "collected_at": "2026-10-08T01:11:28+09:00"
     },
     {
-      "title": "I Tested 5 AI Coding Assistants for a Month: Here’s What I Actually Found",
-      "link": "https://www.kdnuggets.com/i-tested-5-ai-coding-assistants-for-a-month-heres-what-i-actually-found",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Compare five AI coding assistants across real tasks to find which tool fits your workflow.",
-      "ts": 1791374400,
-      "published": "2026-10-07T12:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
       "title": "Presentation: The Reinvention of the Dev Team",
       "link": "https://www.infoq.com/presentations/agentic-dev-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
       "source": "InfoQ Architecture",
@@ -11980,16 +11950,6 @@
       "summary": "In this article, you will learn how synchronous and asynchronous execution patterns differ architecturally, and how to choose between them when deploying LLM-based agents to...",
       "ts": 1791284455,
       "published": "2026-10-06T11:00:55+00:00",
-      "collected_at": "2026-10-07T01:34:56+09:00"
-    },
-    {
-      "title": "I Hid Four Traps in a Forecasting Task. Here Is What Four AI Assistants Did.",
-      "link": "https://towardsdatascience.com/i-hid-four-traps-in-a-forecasting-task-here-is-what-four-ai-assistants-did/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A controlled test of Gemini, DeepSeek, ChatGPT, and Claude on leakage, reporting delays, promotion effects, and structural breaks. The post I Hid Four Traps in a Forecasting Task. Here Is What Four AI Assistants Did. ap…",
-      "ts": 1791284400,
-      "published": "2026-10-06T11:00:00+00:00",
       "collected_at": "2026-10-07T01:34:56+09:00"
     },
     {
