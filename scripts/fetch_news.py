@@ -151,24 +151,34 @@ _WS_RE = re.compile(r"\s+")
 # mentions are framework context, so those buckets keep their items. Keyword heuristic, so
 # it is deliberately conservative: it under-moves ambiguous items rather than mis-move real
 # stats/ML posts (regression, survival analysis, feature engineering all stay put).
+# Vendor model names go stale every few months — Kimi, Reflection and Meta Muse all arrived
+# after this list was written — so the durable half of the vocabulary is the generic phrasing
+# release and eval posts use whoever built the model: "AI model", "reasoning model",
+# "open-weight", "world model", "AI assistant". The names that are listed also match glued to
+# a prefix (EmbeddingGemma, CodeLlama); requiring a word boundary in front of them missed
+# "EmbeddingGemma 2", which then ran as a DataScience highlight on 2026-10-10.
 _AGENTS_RE = re.compile(
     r"""(?ix) \b(
         mcp | model\s+context\s+protocol | rag | agentic | agents? | subagents?
         | claude\s+code | langchain | langgraph | llama[-_ ]?index | crew\s?ai
         | context\s+engineering | context\s+windows?
         | prompt(-|\s+)?(engineering|pruning|caching|injection)
-        | tool[-\s]?(calling|selection) | vector\s+(db|database|search|store)
+        | tool[-\s]?(calling|selection) | vector\s+(dbs?|databases?|searches?|stores?)
+        | ai\s+(coding\s+)?assistants?
         | retrieval[-\s]?augmented | react\s+loop
     )\b """
 )
 _AI_RE = re.compile(
     r"""(?ix) \b(
-        llms? | (small|large)?\s*language\s+models? | gpt(-\w+)? | chatgpt
-        | gemini | gemma | grok | claude | llama | ollama | qwen | deepseek | phi-\d
+        llms? | slms? | (small|large)?\s*language\s+models? | chatgpt
+        | \w*(gpt(-\w+)?|gemini|gemma|grok|claude|llama|qwen|deepseek)
+        | ollama | mistral | phi-\d
         | fine[-\s]?tun\w+ | pretrained\s+models? | generative\s+ai | gen\s?ai
         | foundation\s+models? | diffusion\s+models? | multimodal
-        | transformers? | chatbots? | hugging\s?face | openai | anthropic | mistral
-        | frontier\s+(models?|ai) | text[-\s]?to[-\s]?(image|video|speech)
+        | transformers? | chatbots? | hugging\s?face | openai | anthropic
+        | frontier\s+(models?|ai) | ai\s+models? | reasoning\s+models?
+        | world\s+models? | open[-\s]?weight | post[-\s]?training
+        | text[-\s]?to[-\s]?(image|video|speech)
     )\b """
 )
 
