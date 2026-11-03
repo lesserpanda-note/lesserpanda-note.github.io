@@ -65,12 +65,19 @@ FEEDS = [
     ("https://huggingface.co/blog/feed.xml", "Hugging Face", "AI"),
     ("https://www.technologyreview.com/topic/artificial-intelligence/feed", "MIT Tech Review", "AI"),
     ("https://feed.infoq.com/ai-ml-data-eng/", "InfoQ AI/ML", "AI"),
-    # Anthropic still publishes no official RSS (re-checked 2026-07-15: /rss.xml, /feed.xml,
-    # /news/rss.xml, /engineering/rss.xml all 404, and anthropic.com/news carries no feed
-    # link). This community mirror is the only direct path, which makes it a single point of
-    # failure for a source we care about — so the HN query below is an independent second
-    # path: if the mirror stops updating, Anthropic news still surfaces instead of going dark.
-    ("https://raw.githubusercontent.com/taobojlen/anthropic-rss-feed/main/anthropic_news_rss.xml", "Anthropic", "AI"),
+    # Anthropic still publishes no official RSS (re-checked 2026-11-03: /rss.xml, /feed.xml,
+    # /news/rss.xml, /engineering/rss.xml all 404), so a community mirror is the only direct
+    # path. This one replaces taobojlen's, which stopped updating on 2026-10-20 and went
+    # unnoticed for two weeks, taking the S-1 filing and six other posts with it — it kept
+    # answering 200 with 14 stale entries, so nothing in the run looked broken. The HN query
+    # below does not cover that gap, contrary to what this comment used to claim: it carries
+    # commentary *about* Anthropic, not Anthropic's own announcements, which is precisely what
+    # went dark. A second mirror would be the obvious insurance, and the link-keyed merge would
+    # dedupe it for free (every mirror emits canonical anthropic.com links), but the two other
+    # live ones each inject junk: lingnik.com turns the site's category pages into items
+    # ("Models", "Policy", ...), and alan-turing-institute files real headlines under the
+    # /news/ index link, which is the worse of the two because the title looks legitimate.
+    ("https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml", "Anthropic", "AI"),
     ("https://hnrss.org/newest?q=Anthropic&points=50", "Hacker News", "AI"),
     # Models / LLM trends folded into AI (weekly newsletters + local-LLM releases).
     ("https://ollama.com/blog/rss.xml", "Ollama", "AI"),
