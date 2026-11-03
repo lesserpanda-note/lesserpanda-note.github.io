@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-03T22:16:55+09:00",
-  "count": 1220,
+  "updated": "2026-11-03T22:46:26+09:00",
+  "count": 1230,
   "items": [
     {
       "title": "8 LLM Inference Frameworks You Should Try in 2026",
@@ -51,6 +51,16 @@
       "ts": 1793707200,
       "published": "2026-11-03T12:00:00+00:00",
       "collected_at": "2026-11-03T22:16:51+09:00"
+    },
+    {
+      "title": "Anthropic IPO filing: $1.7B quarterly payroll, about $107K per employee monthly",
+      "link": "https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.techspot.com/news/114428-anthropic-ipo-filing-reveals-17-billion-quarterly-personnel.html Comments URL: https://news.ycombinator.com/item?id=50350560 Points: 50 # Comments: 45",
+      "ts": 1793704567,
+      "published": "2026-11-03T11:16:07+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
     },
     {
       "title": "Presentation: Beyond the Harness: Canvas for AI Agents",
@@ -3693,6 +3703,16 @@
       "collected_at": "2026-11-03T22:16:51+09:00"
     },
     {
+      "title": "How to fund Rust contributors",
+      "link": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
+      "source": "Rust Blog",
+      "category": "Rust",
+      "summary": "TLDR: To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team To fund specific features and improvements, sponsor fundable Rust Project Goals To fund individual…",
+      "ts": 1792972800,
+      "published": "2026-10-26T00:00:00+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
+    },
+    {
       "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
       "link": "https://minimaxir.com/2026/10/cheap-llms/",
       "source": "Hacker News",
@@ -3941,6 +3961,36 @@
       "ts": 1792886400,
       "published": "2026-10-25T00:00:00+00:00",
       "collected_at": "2026-10-25T22:03:27+09:00"
+    },
+    {
+      "title": "Rust 1.95.0",
+      "link": "https://github.com/rust-lang/rust/releases/tag/1.95.0",
+      "source": "Rust Releases",
+      "category": "Rust",
+      "summary": "Language Stabilize if let guards on match arms irrefutable_let_patterns lint no longer lints on let chains Support importing path-segment keywords with renaming Stabilize inline assembly for PowerPC and PowerPC64 const-…",
+      "ts": 1792873287,
+      "published": "2026-10-24T20:21:27+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
+    },
+    {
+      "title": "Rust 1.99.0",
+      "link": "https://github.com/rust-lang/rust/releases/tag/1.99.0",
+      "source": "Rust Releases",
+      "category": "Rust",
+      "summary": "Language Add allow-by-default raw_borrows_via_references lint that checks for references that decay immediately into raw borrows Extend unconditional_panic lint to function calls that panic when the chunks/windows size…",
+      "ts": 1792873285,
+      "published": "2026-10-24T20:21:25+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
+    },
+    {
+      "title": "Rust 1.98.0",
+      "link": "https://github.com/rust-lang/rust/releases/tag/1.98.0",
+      "source": "Rust Releases",
+      "category": "Rust",
+      "summary": "Language Allow shortening lifetime of &mut when unsize-coercing, even in an invariant position. For example, you can now coerce a Cell<&'long mut i32> to a Cell<&'short mut dyn Send> . Such shortenings were already prev…",
+      "ts": 1792873284,
+      "published": "2026-10-24T20:21:24+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
     },
     {
       "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
@@ -6103,6 +6153,26 @@
       "collected_at": "2026-10-21T04:03:04+09:00"
     },
     {
+      "title": "TypeScript 7.1 Beta",
+      "link": "https://github.com/microsoft/TypeScript/releases/tag/v7.1-beta",
+      "source": "TypeScript Releases",
+      "category": "TypeScript",
+      "summary": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/ Downloads are available on npm .",
+      "ts": 1792519218,
+      "published": "2026-10-20T18:00:18+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
+    },
+    {
+      "title": "Announcing TypeScript 7.1 Beta",
+      "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
+      "source": "TypeScript Blog",
+      "category": "TypeScript",
+      "summary": "Today we’re excited to announce the beta release of TypeScript 7.1! npm install -D typescript@beta Let’s take a look at what’s new in TypeScript 7.1! Support for Import Attributes in Ambient Modules Import attributes ar…",
+      "ts": 1792518786,
+      "published": "2026-10-20T17:53:06+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
+    },
+    {
       "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
       "link": "https://research.poh.org/bot-benchmarking-2026/",
       "source": "Hacker News",
@@ -6531,6 +6601,16 @@
       "ts": 1792454400,
       "published": "2026-10-20T00:00:00+00:00",
       "collected_at": "2026-10-21T04:03:04+09:00"
+    },
+    {
+      "title": "Announcing rustup 1.29.2",
+      "link": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
+      "source": "Rust Blog",
+      "category": "Rust",
+      "summary": "The rustup team is happy to announce the release of rustup version 1.29.2. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's…",
+      "ts": 1792454400,
+      "published": "2026-10-20T00:00:00+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
     },
     {
       "title": "My obituary for programming",
@@ -7683,6 +7763,16 @@
       "collected_at": "2026-10-16T17:52:04+09:00"
     },
     {
+      "title": "Rust 1.99.1",
+      "link": "https://github.com/rust-lang/rust/releases/tag/1.99.1",
+      "source": "Rust Releases",
+      "category": "Rust",
+      "summary": "library: fix missing symbol wcslen on UEFI and embedded targets rustc: fix miscompilation of FFI bool return values on x86_64 rust-lld: add the rpath for libLLVM on macOS",
+      "ts": 1792126064,
+      "published": "2026-10-16T04:47:44+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
+    },
+    {
       "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
       "link": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
       "source": "Latent Space",
@@ -8251,6 +8341,16 @@
       "ts": 1792022400,
       "published": "2026-10-15T00:00:00+00:00",
       "collected_at": "2026-10-16T12:50:31+09:00"
+    },
+    {
+      "title": "Announcing Rust 1.99.1",
+      "link": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
+      "source": "Rust Blog",
+      "category": "Rust",
+      "summary": "The Rust team has published a new point release of Rust, 1.99.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via…",
+      "ts": 1792022400,
+      "published": "2026-10-15T00:00:00+00:00",
+      "collected_at": "2026-11-03T22:46:05+09:00"
     },
     {
       "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
