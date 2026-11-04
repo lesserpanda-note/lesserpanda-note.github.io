@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-04T09:42:52+09:00",
-  "count": 1208,
+  "updated": "2026-11-04T12:37:26+09:00",
+  "count": 1211,
   "items": [
+    {
+      "title": "Spring Boot's Hidden Secret for Configuration: EnvironmentPostProcessor",
+      "link": "https://foojay.io/today/environment-post-processor/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "How to ship default configuration from a shared Spring Boot starter so services can still override it.",
+      "ts": 1793750400,
+      "published": "2026-11-04T00:00:00+00:00",
+      "collected_at": "2026-11-04T12:37:22+09:00"
+    },
+    {
+      "title": "From Google Drive to Syncthing over Tailscale",
+      "link": "https://foojay.io/today/google-drive-syncthing-tailscale/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Why my KeePass database left Google Drive, and how Syncthing over a Tailscale mesh syncs it between a Synology NAS, a Mac, an iPhone, and an iPad.",
+      "ts": 1793750400,
+      "published": "2026-11-04T00:00:00+00:00",
+      "collected_at": "2026-11-04T12:37:22+09:00"
+    },
+    {
+      "title": "dukehoff-decide: Typed, Calibrated Decisions from Small Language Models",
+      "link": "https://foojay.io/today/dukehoff-decide-calibrated-decisions/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Many LLM calls in Java apps are multiple choice. dukehoff-decide answers them with a small local model and returns a typed value with calibrated probabilities.",
+      "ts": 1793750400,
+      "published": "2026-11-04T00:00:00+00:00",
+      "collected_at": "2026-11-04T12:37:22+09:00"
+    },
     {
       "title": "Survey Statistics: Times/Siena Polls and Times Voter Trends",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/03/survey-statistics-times-siena-polls-and-times-voter-trends/",
