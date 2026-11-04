@@ -1,7 +1,107 @@
 {
-  "updated": "2026-11-04T14:32:04+09:00",
-  "count": 1210,
+  "updated": "2026-11-04T22:59:45+09:00",
+  "count": 1203,
   "items": [
+    {
+      "title": "Securing the agentic enterprise with data lineage",
+      "link": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "A sales representative asks an AI agent for customer pricing, and the agent pulls data from multiple sources: restricted pricing systems, internal communications, and archived quotes. The output looks accurate to the ag…",
+      "ts": 1793797200,
+      "published": "2026-11-04T13:00:00+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "7 Small Specialist Models That Beat Giant LLMs at One Job",
+      "link": "https://www.kdnuggets.com/7-small-specialist-models-that-beat-giant-llms-at-one-job",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Meet seven open specialist models under 10 billion parameters that rival much bigger systems at one job each, from transcription and OCR to routing and speech.",
+      "ts": 1793797200,
+      "published": "2026-11-04T13:00:00+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "Let Decision Models Guide Your Voice Assistant",
+      "link": "https://towardsdatascience.com/let-decision-models-guide-your-voice-assistant/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "GPT-Live does the talking. A decision model tracks what’s confirmed and picks what to ask next. The post Let Decision Models Guide Your Voice Assistant appeared first on Towards Data Science .",
+      "ts": 1793795400,
+      "published": "2026-11-04T12:30:00+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "7 Best AI Agent Collaboration Platforms in 2026",
+      "link": "https://www.analyticsvidhya.com/blog/2026/11/best-ai-agent-collaboration-platforms/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "Building an AI agent is one thing. Making it available to an entire team is another. Shared access, permissions, integrations, and reusable workflows determine whether an agent becomes a reliable team resource or anothe…",
+      "ts": 1793795058,
+      "published": "2026-11-04T12:24:18+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "Quiz: Positron IDE: A Hands-on Python Tutorial",
+      "link": "https://realpython.com/quizzes/positron-ide/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your understanding of Positron IDE for Python data analysis, from exploring raw data to cleaning it in scripts and notebooks.",
+      "ts": 1793793600,
+      "published": "2026-11-04T12:00:00+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "v1.107.10 (2026-11-04)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.10",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security GHSA-m5vj-8mcw-82qx (high): web_fetch_tool and the WebFetch capability's local fallback re-indented a JSON response on the event loop before applying the returned-content limit, so a deeply ne…",
+      "ts": 1793793108,
+      "published": "2026-11-04T11:51:48+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "v2.66.0 (2026-11-04)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.66.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security GHSA-m5vj-8mcw-82qx (high): web_fetch_tool and the WebFetch capability's local fallback re-indented a JSON response on the event loop before applying the returned-content limit, so a deeply ne…",
+      "ts": 1793793106,
+      "published": "2026-11-04T11:51:46+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "Presentation: Panel: Who Builds the Frontend Now? (And What Breaks When They Do)",
+      "link": "https://www.infoq.com/presentations/panel-ai-frontend-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The panelists explain how AI tools and vibe coding reshape frontend and mobile engineering. They share insights on evolving junior developer roles, managing AI-generated code review fatigue, designing systems for autono…",
+      "ts": 1793790000,
+      "published": "2026-11-04T11:00:00+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "How to Train Your own Decision Model like Jev using Unsloth",
+      "link": "https://machinelearningmastery.com/how-to-train-your-own-decision-model-like-jev-using-unsloth/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn how to turn an open-weight language model into a decision model that classifies user intent, by fine-tuning Qwen3.5-4B on...",
+      "ts": 1793790000,
+      "published": "2026-11-04T11:00:00+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "Beyond Classical: A Quantum Approach to Time-Series Prediction",
+      "link": "https://towardsdatascience.com/beyond-classical-a-quantum-approach-to-time-series-prediction/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Introducing CoQS-LSTM, a Coherent Quantum Long Short-Term Memory Architecture The post Beyond Classical: A Quantum Approach to Time-Series Prediction appeared first on Towards Data Science .",
+      "ts": 1793790000,
+      "published": "2026-11-04T11:00:00+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
     {
       "title": "Analysis of tonight’s election results (and why I don’t need to do it anymore)",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/03/discussion-of-tonights-election-results/",
@@ -41,6 +141,26 @@
       "ts": 1793750400,
       "published": "2026-11-04T00:00:00+00:00",
       "collected_at": "2026-11-04T12:37:22+09:00"
+    },
+    {
+      "title": "Project Detroit: From Foreign Libraries to Foreign Language Runtimes",
+      "link": "https://inside.java/2026/11/04/devoxxbelgium-project-detroit/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Interacting with foreign libraries from Java has never been easier, thanks to the Foreign Function & Memory (FFM) API. But interacting with entire foreign language runtimes, like JavaScript or Python, remains hard. Proj…",
+      "ts": 1793750400,
+      "published": "2026-11-04T00:00:00+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
+    },
+    {
+      "title": "Wednesday, November 11, 2026 Security Releases",
+      "link": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+      "source": "Node.js Blog",
+      "category": "Node",
+      "summary": "",
+      "ts": 1793746800,
+      "published": "2026-11-03T23:00:00+00:00",
+      "collected_at": "2026-11-04T22:59:34+09:00"
     },
     {
       "title": "Survey Statistics: Times/Siena Polls and Times Voter Trends",
@@ -11910,196 +12030,6 @@
       "summary": "Meta has entered the AI agent race in a big way.",
       "ts": 1791208800,
       "published": "2026-10-05T14:00:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Akka Tests Spec-Driven AI Delivery Across 65 Open Source Projects",
-      "link": "https://www.infoq.com/news/2026/10/ai-spec-driven-delivery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Akka used 65 open-source projects to examine how specification structure, context, model selection, automated validation, and delivery guardrails affect AI assisted software porting. The experiment measured time, token…",
-      "ts": 1791208680,
-      "published": "2026-10-05T13:58:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Akka Tests Spec-Driven AI Delivery Across 65 Open Source Projects",
-      "link": "https://www.infoq.com/news/2026/10/ai-spec-driven-delivery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Akka used 65 open-source projects to examine how specification structure, context, model selection, automated validation, and delivery guardrails affect AI assisted software porting. The experiment measured time, token…",
-      "ts": 1791208680,
-      "published": "2026-10-05T13:58:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Bayesian Workflow code is at the Bayesian Workflow website!",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/05/bayesian-workflow-code-is-at-the-bayesian-workflow-website/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Bayesian Workflow isn’t just a free pdf, it’s also an ecosystem of worked examples with code. Over and over in the book we go through examples really carefully—God is in every leaf of every tree—it’s amazing how much we…",
-      "ts": 1791208667,
-      "published": "2026-10-05T13:57:47+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "OK, this is just weird (from Alaska Airlines)",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/05/ok-this-is-just-weird-from-alaska-airlines/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I was checking into my flight and they gave me the option to choose a seat. I have some sort of supersaver ticket (I’m not actually paying—it’s for my flight to this talk on what to do when your estimate … Continue read…",
-      "ts": 1791207455,
-      "published": "2026-10-05T13:37:35+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Bringing predictive analytics to the agentic AI era",
-      "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own…",
-      "ts": 1791206972,
-      "published": "2026-10-05T13:29:32+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Building an Enterprise AI Customer Support Platform with Claude Fable 5.1 and Claude Code",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/build-enterprise-ai-agent-claude-fable-5-1/",
-      "source": "Analytics Vidhya",
-      "category": "Agents",
-      "summary": "Most AI coding demos stop at task managers, weather apps, or simple chatbots. For this project, we take on something more demanding: building an enterprise customer-support platform that can investigate complaints, retr…",
-      "ts": 1791204302,
-      "published": "2026-10-05T12:45:02+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
-      "link": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google",
-      "source": "Import AI",
-      "category": "AI",
-      "summary": "Who chooses what AI gets to do?",
-      "ts": 1791203550,
-      "published": "2026-10-05T12:32:30+00:00",
-      "collected_at": "2026-11-03T12:37:22+09:00"
-    },
-    {
-      "title": "3 Statsmodels Tricks for Time Series Analysis & Forecasting",
-      "link": "https://www.kdnuggets.com/3-statsmodels-tricks-for-time-series-analysis-forecasting",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "A fitted statsmodels model computes a more than just the array of numbers most code pulls out of it.",
-      "ts": 1791201637,
-      "published": "2026-10-05T12:00:37+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Quiz: How to Launch an HTTP Server in One Line of Python Code",
-      "link": "https://realpython.com/quizzes/python-http-server/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python's http.server module. Serve files with one command, run CGI scripts, and encrypt the connection with HTTPS.",
-      "ts": 1791201600,
-      "published": "2026-10-05T12:00:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "How (and Why) to Build an AI Agent from Scratch in Python",
-      "link": "https://machinelearningmastery.com/how-and-why-to-build-an-ai-agent-from-scratch-in-python/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn what an AI agent is and how to build one from scratch in plain Python using the Anthropic API,...",
-      "ts": 1791201600,
-      "published": "2026-10-05T12:00:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Presentation: Building Reusable Evaluation Frameworks for Agentic AI Products",
-      "link": "https://www.infoq.com/presentations/elastic-ai-agent-evaluations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Susan Chang explains how Elastic transitioned from siloed, ad-hoc AI agent evaluations to a unified, production-grade framework. She discusses balancing LLM-as-a-judge with deterministic rules, bridging Python data scie…",
-      "ts": 1791199140,
-      "published": "2026-10-05T11:19:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Presentation: Building Reusable Evaluation Frameworks for Agentic AI Products",
-      "link": "https://www.infoq.com/presentations/elastic-ai-agent-evaluations/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Susan Chang explains how Elastic transitioned from siloed, ad-hoc AI agent evaluations to a unified, production-grade framework. She discusses balancing LLM-as-a-judge with deterministic rules, bridging Python data scie…",
-      "ts": 1791199140,
-      "published": "2026-10-05T11:19:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Article: The Platform Engineering Playbook for Production LLMs",
-      "link": "https://www.infoq.com/articles/platform-engineering-playbook-production-llms/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "In this article, author discusses his experience with AI agent hallucinations in an inventory recommendation system and how this problem was solved by treating the LLM stack as a platform infrastructure concern instead…",
-      "ts": 1791198000,
-      "published": "2026-10-05T11:00:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "How to Build a Cheap, Yet Reliable Model Router With Jev",
-      "link": "https://towardsdatascience.com/how-to-build-a-cheap-yet-reliable-model-router-with-jev/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Model routing can finally be a design choice rather than a system enhancement The post How to Build a Cheap, Yet Reliable Model Router With Jev appeared first on Towards Data Science .",
-      "ts": 1791198000,
-      "published": "2026-10-05T11:00:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Discontinuing Swift Language IDE Support in the Kotlin Multiplatform Plugin",
-      "link": "https://blog.jetbrains.com/kotlin/2026/10/discontinuing-swift-language-ide-support-in-the-kotlin-multiplatform-plugin/",
-      "source": "Kotlin",
-      "category": "Kotlin",
-      "summary": "Starting with IntelliJ IDEA 2026.3 and Android Studio Rabbit 2 | 2026.2.2, we’re discontinuing Swift language IDE features in the Kotlin Multiplatform (KMP) plugin. This includes editing, syntax highlighting, and naviga…",
-      "ts": 1791197179,
-      "published": "2026-10-05T10:46:19+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Building advertising for the way people use AI",
-      "link": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
-      "ts": 1791194400,
-      "published": "2026-10-05T10:00:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Cloudflare Fixes Cross-Tenant Data Exposure in Containers",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-cross-tenant-exposure/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has disclosed a cross-tenant data exposure vulnerability in Containers and Sandboxes, caused by thin-provisioned storage pools configured to skip zeroing reused blocks. Researchers recovered directory structu…",
-      "ts": 1791190080,
-      "published": "2026-10-05T08:48:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "People really hate AI, so why can’t they get enough?",
-      "link": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that…",
-      "ts": 1791187200,
-      "published": "2026-10-05T08:00:00+00:00",
-      "collected_at": "2026-10-06T00:41:31+09:00"
-    },
-    {
-      "title": "Anthropic reported diary entry to police, woman faces felony charge",
-      "link": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html Comments URL: https://news.ycombinator.com/item?id=49961057 Points: 87 # Comments: 69",
-      "ts": 1791178660,
-      "published": "2026-10-05T05:37:40+00:00",
       "collected_at": "2026-10-06T00:41:31+09:00"
     }
   ]
