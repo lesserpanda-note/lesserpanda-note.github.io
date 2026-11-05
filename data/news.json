@@ -1,7 +1,17 @@
 {
-  "updated": "2026-11-05T05:45:31+09:00",
-  "count": 1213,
+  "updated": "2026-11-05T09:42:22+09:00",
+  "count": 1209,
   "items": [
+    {
+      "title": "v2.3.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.2.1 npm published @modelcontextprotocol/server-filesystem 2.2.0 npm published @modelcontextprotocol/server-memory 2.1.0 npm pub…",
+      "ts": 1793827721,
+      "published": "2026-11-04T21:28:41+00:00",
+      "collected_at": "2026-11-05T09:42:16+09:00"
+    },
     {
       "title": "[AINews] Behind Latent Space: Kill My SaaS, Jev & AI in 2026 | AIEi Shanghai",
       "link": "https://latent.space/p/ainews-behind-latent-space-kill-my-saas-jev-ai-in-2026-aiei-shanghai/",
@@ -223,6 +233,16 @@
       "collected_at": "2026-11-04T22:59:34+09:00"
     },
     {
+      "title": "A thousand fewer paths to root",
+      "link": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "ts": 1793779200,
+      "published": "2026-11-04T08:00:00+00:00",
+      "collected_at": "2026-11-05T09:42:16+09:00"
+    },
+    {
       "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
       "link": "https://openai.com/index/daybreak-red-aws-govcloud",
       "source": "OpenAI",
@@ -301,6 +321,26 @@
       "ts": 1793750400,
       "published": "2026-11-04T00:00:00+00:00",
       "collected_at": "2026-11-05T05:45:18+09:00"
+    },
+    {
+      "title": "Introducing Images 2.6",
+      "link": "https://openai.com/index/introducing-images-2-6",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "ts": 1793750400,
+      "published": "2026-11-04T00:00:00+00:00",
+      "collected_at": "2026-11-05T09:42:16+09:00"
+    },
+    {
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "link": "https://openai.com/index/devrev-enterprise-self-service",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "ts": 1793750400,
+      "published": "2026-11-04T00:00:00+00:00",
+      "collected_at": "2026-11-05T09:42:16+09:00"
     },
     {
       "title": "datasette-agent 0.5a0",
@@ -12050,86 +12090,6 @@
       "summary": "Sdists rebuilt from main for /update on the CLAI bleeding channel. Not a release.",
       "ts": 1791253747,
       "published": "2026-10-06T02:29:07+00:00",
-      "collected_at": "2026-10-06T11:45:56+09:00"
-    },
-    {
-      "title": "JEP targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects",
-      "link": "https://inside.java/2026/10/06/jep542-target-jdk28/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The following JEP is targeted to JDK 28: 542: PEM Encodings of Cryptographic Objects",
-      "ts": 1791244800,
-      "published": "2026-10-06T00:00:00+00:00",
-      "collected_at": "2026-10-06T18:54:00+09:00"
-    },
-    {
-      "title": "Run Java in the Browser with TeaVM",
-      "link": "https://foojay.io/today/java-in-the-browser-with-teavm/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Build an editable Java example with TeaVM, React, and Vite, then explore the environment available to Java in the browser.",
-      "ts": 1791244800,
-      "published": "2026-10-06T00:00:00+00:00",
-      "collected_at": "2026-10-06T18:54:00+09:00"
-    },
-    {
-      "title": "Featured Foojay Authors for October 2026: Bazlur Rahman and Nicolas Fränkel",
-      "link": "https://foojay.io/today/featured-foojay-authors-for-october-2026/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Our Featured Authors for October are Bazlur Rahman and Nicolas Fränkel. Here is what they write about, and where to start reading.",
-      "ts": 1791244800,
-      "published": "2026-10-06T00:00:00+00:00",
-      "collected_at": "2026-10-06T18:54:00+09:00"
-    },
-    {
-      "title": "Building a Code Editor Control in JavaFX",
-      "link": "https://foojay.io/today/building-a-javafx-code-editor-control/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "A look inside a custom JavaFX Control/Skin implementation of a code-editor component: virtualized line numbers, keyword highlighting, bracket matching, multi-cursor editing, undo/redo, and autocomplete.",
-      "ts": 1791244800,
-      "published": "2026-10-06T00:00:00+00:00",
-      "collected_at": "2026-10-06T18:54:00+09:00"
-    },
-    {
-      "title": "This Week in Spring - October 6th, 2026",
-      "link": "https://spring.io/blog/2026/10/06/this-week-in-spring-october-6th-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! It's another exciting week in the wonderful community, and this week I'm writing from awesome Antwerp, Belgium, site of the legendary Devoxx Belgium show. I've been coming here for most years since 2010…",
-      "ts": 1791244800,
-      "published": "2026-10-06T00:00:00+00:00",
-      "collected_at": "2026-10-07T01:34:56+09:00"
-    },
-    {
-      "title": "Expanding the Cyber Verification Program",
-      "link": "https://www.anthropic.com/news/cyber-verification-program",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Expanding the Cyber Verification Program",
-      "ts": 1791244800,
-      "published": "2026-10-06T00:00:00+00:00",
-      "collected_at": "2026-10-07T09:09:17+09:00"
-    },
-    {
-      "title": "Quoting Felix Rieseberg",
-      "link": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just…",
-      "ts": 1791244607,
-      "published": "2026-10-05T23:56:47+00:00",
-      "collected_at": "2026-10-06T09:12:35+09:00"
-    },
-    {
-      "title": "Engineer says Claude Code has made his job \"soul-sucking\"",
-      "link": "https://www.techspot.com/news/113937-engineer-claude-code-has-made-job-soul-sucking.html",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.techspot.com/news/113937-engineer-claude-code-has-made-job-soul-sucking.html Comments URL: https://news.ycombinator.com/item?id=49971473 Points: 35 # Comments: 25",
-      "ts": 1791237695,
-      "published": "2026-10-05T22:01:35+00:00",
       "collected_at": "2026-10-06T11:45:56+09:00"
     }
   ]
