@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-05T10:22:42+09:00",
-  "count": 1212,
+  "updated": "2026-11-05T12:36:59+09:00",
+  "count": 1214,
   "items": [
+    {
+      "title": "Streaming Large File Uploads in Java Without Killing Your Server",
+      "link": "https://foojay.io/today/streaming-large-file-uploads/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Spring's @RequestPart cannot stream multipart uploads — not even FilePart. The API that actually does, and the tests that prove it.",
+      "ts": 1793836800,
+      "published": "2026-11-05T00:00:00+00:00",
+      "collected_at": "2026-11-05T12:36:53+09:00"
+    },
+    {
+      "title": "Spring AI or LangChain4j? One App, Three Stacks, One Test",
+      "link": "https://foojay.io/today/spring-ai-langchain4j-three-stacks-one-test/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "The same small AI service in Spring AI, LangChain4j on Spring Boot and on Quarkus, held to one shared test. Where they differ, and where they do not.",
+      "ts": 1793836800,
+      "published": "2026-11-05T00:00:00+00:00",
+      "collected_at": "2026-11-05T12:36:53+09:00"
+    },
+    {
+      "title": "Java Patching at Incident Speed: Lessons from the eMudhra CA Compromise",
+      "link": "https://foojay.io/today/java-patching-at-incident-speed-lessons-from-the-emudhra-ca-compromise/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Browsers blocked the compromised eMudhra CA keys in hours. Learn why Java estates lag, and how security-only Java patching cuts testing and response time.",
+      "ts": 1793836800,
+      "published": "2026-11-05T00:00:00+00:00",
+      "collected_at": "2026-11-05T12:36:53+09:00"
+    },
     {
       "title": "v2.3.0",
       "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
@@ -12111,16 +12141,6 @@
       "ts": 1791268123,
       "published": "2026-10-06T06:28:43+00:00",
       "collected_at": "2026-10-06T18:54:00+09:00"
-    },
-    {
-      "title": "CLAI2 bleeding",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/clai2-bleeding",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "Sdists rebuilt from main for /update on the CLAI bleeding channel. Not a release.",
-      "ts": 1791253747,
-      "published": "2026-10-06T02:29:07+00:00",
-      "collected_at": "2026-10-06T11:45:56+09:00"
     }
   ]
 }
