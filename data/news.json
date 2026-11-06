@@ -1,7 +1,147 @@
 {
-  "updated": "2026-11-06T14:48:30+09:00",
+  "updated": "2026-11-06T22:57:33+09:00",
   "count": 1216,
   "items": [
+    {
+      "title": "Build Your First Multi-Tool AI Agent with Ollama and Python",
+      "link": "https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "AI Agents for Beginners, Part 2: The agent picks between three database tools, uses each result to choose its next call, and stops at an eight-turn circuit-breaker if it gets stuck. The post Build Your First Multi-Tool…",
+      "ts": 1793971800,
+      "published": "2026-11-06T13:30:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "Top 7 Python Libraries for Time Series Analysis and Modeling",
+      "link": "https://www.kdnuggets.com/top-7-python-libraries-for-time-series-analysis-and-modeling",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Working with time series data? These Python libraries cover everything from classical forecasting to deep learning and anomaly detection.",
+      "ts": 1793970000,
+      "published": "2026-11-06T13:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
+      "link": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "GitLab 19.5, released on October 15, puts agentic software development and governance at the centre of the platform, making its GitLab MCP server generally available while expanding how external AI agents can interact w…",
+      "ts": 1793966400,
+      "published": "2026-11-06T12:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #318: Free-Threaded Python: Why Python Devs Should Know About the ABI",
+      "link": "https://realpython.com/podcasts/rpp/318/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Why should every Python developer know about the CPython ABI? This week on the show, we speak with Nathan Goldbaum about free-threaded Python and the changes to the Python Application Binary Interface.",
+      "ts": 1793966400,
+      "published": "2026-11-06T12:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "Quiz: LBYL vs EAFP: Preventing or Handling Errors in Python",
+      "link": "https://realpython.com/quizzes/python-lbyl-vs-eafp/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your grasp of Python's LBYL and EAFP coding styles, and learn when to prevent errors and when to handle them in your code.",
+      "ts": 1793966400,
+      "published": "2026-11-06T12:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "Give Your Python AI Agent Persistent Memory with One JSON File",
+      "link": "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Three Python classes, an OpenRouter key, and gpt-4.1-mini give the agent a calculator, a stub web search, and conversation recall that survives restarts. The post Give Your Python AI Agent Persistent Memory with One JSO…",
+      "ts": 1793966400,
+      "published": "2026-11-06T12:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "Presentation: The Socio-Technical Staff+ Engineer: Architecture, Culture and Organisational Change",
+      "link": "https://www.infoq.com/presentations/sociotechnical-staff-engineer-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Vanessa Formicola shares how technical leaders can move beyond \"wishful architecture\" by practicing holistic socio-technical engineering. She discusses why engineering leaders must account for organizational maturity, r…",
+      "ts": 1793962800,
+      "published": "2026-11-06T11:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "DiffusionGemma: Hands-On with Google’s Text Model That Writes All at Once",
+      "link": "https://machinelearningmastery.com/diffusiongemma-hands-on-with-googles-text-model-that-writes-all-at-once/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn what DiffusionGemma is, how its diffusion-based text generation differs from standard autoregressive language models, and how to run it...",
+      "ts": 1793962800,
+      "published": "2026-11-06T11:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
+      "link": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 5, 2026 — Inside Inkling 2 Small’s training run and METR’s study of AI research at Anthropic.",
+      "ts": 1793961321,
+      "published": "2026-11-06T10:35:21+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-…",
+      "ts": 1793959200,
+      "published": "2026-11-06T10:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "AWS Ships Continuum for Code Vulnerabilities",
+      "link": "https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as pull requests. Published pricing charges p…",
+      "ts": 1793959200,
+      "published": "2026-11-06T10:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "AWS Ships Continuum for Code Vulnerabilities",
+      "link": "https://www.infoq.com/news/2026/11/aws-continuum-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS has made Continuum for code vulnerabilities generally available in two regions. The service proves exploitability by running real exploits in a sandbox, then opens fixes as pull requests. Published pricing charges p…",
+      "ts": 1793959200,
+      "published": "2026-11-06T10:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "Article: Identity as an Architectural Concern: Enterprise IAM Beyond Authentication",
+      "link": "https://www.infoq.com/articles/identity-as-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "The way you design your identities will drive your data models, your service scope, and your revocation policies; enterprise identity management is thus an architectural problem, not an afterthought. Based on our experi…",
+      "ts": 1793955600,
+      "published": "2026-11-06T09:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "Article: Identity as an Architectural Concern: Enterprise IAM Beyond Authentication",
+      "link": "https://www.infoq.com/articles/identity-as-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The way you design your identities will drive your data models, your service scope, and your revocation policies; enterprise identity management is thus an architectural problem, not an afterthought. Based on our experi…",
+      "ts": 1793955600,
+      "published": "2026-11-06T09:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
     {
       "title": "1.15.36",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.36",
@@ -51,6 +191,26 @@
       "ts": 1793923200,
       "published": "2026-11-06T00:00:00+00:00",
       "collected_at": "2026-11-06T12:37:24+09:00"
+    },
+    {
+      "title": "Spring Boot 4.2.0-RC2 available now",
+      "link": "https://spring.io/blog/2026/11/06/spring-boot-4-2-0-RC2-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 4.2.0-RC2 has been released and is now available from Maven Central. This release includes 99 enhancements, documentation im…",
+      "ts": 1793923200,
+      "published": "2026-11-06T00:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "link": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1793923200,
+      "published": "2026-11-06T00:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
     },
     {
       "title": "vscode-typescript/v1.0.2",
@@ -231,6 +391,26 @@
       "ts": 1793887200,
       "published": "2026-11-05T14:00:00+00:00",
       "collected_at": "2026-11-06T02:54:34+09:00"
+    },
+    {
+      "title": "Beautiful Soup: Build a Web Scraper With Python",
+      "link": "https://realpython.com/beautiful-soup-web-scraper-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build a Python web scraper with Requests and Beautiful Soup. Learn to fetch a page's HTML and extract the specific data you're interested in.",
+      "ts": 1793887200,
+      "published": "2026-11-05T14:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
+    },
+    {
+      "title": "Polars vs pandas: What's the Difference?",
+      "link": "https://realpython.com/polars-vs-pandas/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Discover the key differences in Polars vs pandas to help you choose the right Python library for faster, more efficient data analysis.",
+      "ts": 1793887200,
+      "published": "2026-11-05T14:00:00+00:00",
+      "collected_at": "2026-11-06T22:57:28+09:00"
     },
     {
       "title": "How GEO, WebMCP, and Bot Paywalls Are Building the AI-Native Internet",
@@ -11981,186 +12161,6 @@
       "ts": 1791381600,
       "published": "2026-10-07T14:00:00+00:00",
       "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "dotnet-1.24.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.24.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "Changes: 245d428 .NET: Restore source-only release solution filter ( #9140 ) [ #8537 ] d0ccaa6 .NET: Preserve explicit null session state across roundtrips ( #9012 ) 279d97f .NET: Honor disabled recent search memory ( #…",
-      "ts": 1791380028,
-      "published": "2026-10-07T13:33:48+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Our continuing struggles with the Monster model",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/07/our-unending-struggles-with-the-monster-model/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "tl;dr. We’re still stuck. It was 30 years ago that Frédéric Bois, Jiming Jiang, and I published our paper on hierarchical modeling for toxicology. It was a successful paper–it’s been cited over 400 times! It won a major…",
-      "ts": 1791379446,
-      "published": "2026-10-07T13:24:06+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Introducing Falcon ASR",
-      "link": "https://huggingface.co/blog/tiiuae/falcon-asr",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1791379263,
-      "published": "2026-10-07T13:21:03+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1791377131,
-      "published": "2026-10-07T12:45:31+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "The Consistency Quadrant: A Visual Guide to LLM Reliability",
-      "link": "https://towardsdatascience.com/the-consistency-quadrant-a-visual-guide-to-llm-reliability/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "Mapping structural variance against execution outputs to estimate coding agent reliability without ground truth. The post The Consistency Quadrant: A Visual Guide to LLM Reliability appeared first on Towards Data Scienc…",
-      "ts": 1791376200,
-      "published": "2026-10-07T12:30:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "10 Jev Projects on GitHub You Should Check Out",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/jev-projects-on-github/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Agents make dozens of small decisions before producing useful output: which source to trust, which tool to call, what context to keep and when to stop. Jev brings those hidden choices into the open by turning them into…",
-      "ts": 1791375564,
-      "published": "2026-10-07T12:19:24+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Introducing Playground: Create and play custom games",
-      "link": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Overview of Playground",
-      "ts": 1791374400,
-      "published": "2026-10-07T12:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Helping teens learn, plan, and shape the future of AI",
-      "link": "https://openai.com/index/teens-learn-and-plan",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "College Planner is coming to ChatGPT for Teens to help students manage college applications, alongside new flashcards, quizzes, and a teen AI council.",
-      "ts": 1791374400,
-      "published": "2026-10-07T12:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Quiz: The Best IDEs and Code Editors for Python (Guide)",
-      "link": "https://realpython.com/quizzes/python-ides-code-editors-guide/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your grasp of Python IDEs and code editors, from beginner-friendly tools to notebooks, AI-first editors, and cloud workspaces.",
-      "ts": 1791374400,
-      "published": "2026-10-07T12:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Choosing the Right Agentic AI Framework for 2026: A Decision-Tree Approach",
-      "link": "https://machinelearningmastery.com/choosing-the-right-agentic-ai-framework-for-2026-a-decision-tree-approach/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how to choose the right agentic AI framework for your production system by working through a structured decision-tree based...",
-      "ts": 1791374400,
-      "published": "2026-10-07T12:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Presentation: The Reinvention of the Dev Team",
-      "link": "https://www.infoq.com/presentations/agentic-dev-teams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Hannah Foxwell shares how the surge of agentic coding forces engineering leaders to rethink team dynamics. She discusses three key anchors for navigating AI-driven velocity: building software worth building, prioritizin…",
-      "ts": 1791370800,
-      "published": "2026-10-07T11:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "When Do PINNs Beat Classical Numerical Methods? A 1D vs 5D Experiment",
-      "link": "https://towardsdatascience.com/when-do-pinns-beat-classical-numerical-methods-a-1d-vs-5d-experiment/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "I put a physics-informed neural network up against a plain finite-difference solver twice: once in 1D and once in 5D. The winner changed. The post When Do PINNs Beat Classical Numerical Methods? A 1D vs 5D Experiment ap…",
-      "ts": 1791370800,
-      "published": "2026-10-07T11:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Start Your Next KMP App With Kotlin Toolchain 0.13",
-      "link": "https://blog.jetbrains.com/kotlin/2026/10/start-your-next-kmp-app-with-kotlin-toolchain-0-13/",
-      "source": "Kotlin",
-      "category": "Kotlin",
-      "summary": "The Kotlin Toolchain is a unified entry point into Kotlin. It lets you build JVM, Android, iOS, multiplatform, and server-side applications with a simple declarative configuration. With the release of v0.13, we now reco…",
-      "ts": 1791368506,
-      "published": "2026-10-07T10:21:46+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Article: Building a Session-Ordered Kafka Pipeline in Go",
-      "link": "https://www.infoq.com/articles/apache-kafka-golang-session-ordered-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The article describes a custom implementation that provides a session-level ordering on top of Apache Kafka partitions, supporting strict message ordering across 1000s of independent channels. The solution required appl…",
-      "ts": 1791363600,
-      "published": "2026-10-07T09:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Article: Building a Session-Ordered Kafka Pipeline in Go",
-      "link": "https://www.infoq.com/articles/apache-kafka-golang-session-ordered-pipeline/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "The article describes a custom implementation that provides a session-level ordering on top of Apache Kafka partitions, supporting strict message ordering across 1000s of independent channels. The solution required appl…",
-      "ts": 1791363600,
-      "published": "2026-10-07T09:00:00+00:00",
-      "collected_at": "2026-10-08T01:11:28+09:00"
-    },
-    {
-      "title": "Cloudflare Uses an AI Harness to Probe and Harden Its WAF",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-sec-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare placed frontier AI models inside a controlled testing harness to probe its Web Application Firewall (WAF), using blocked attacks as starting points for models to generate and refine new variations. By Matt Fo…",
-      "ts": 1791357660,
-      "published": "2026-10-07T07:21:00+00:00",
-      "collected_at": "2026-10-07T17:19:44+09:00"
-    },
-    {
-      "title": "Cloudflare Uses an AI Harness to Probe and Harden Its WAF",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-sec-harness/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare placed frontier AI models inside a controlled testing harness to probe its Web Application Firewall (WAF), using blocked attacks as starting points for models to generate and refine new variations. By Matt Fo…",
-      "ts": 1791357660,
-      "published": "2026-10-07T07:21:00+00:00",
-      "collected_at": "2026-10-07T17:19:44+09:00"
-    },
-    {
-      "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
-      "link": "https://openai.com/index/radisson",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Radisson partnered with Accenture to build a ChatGPT plugin using OpenAI technology, helping travelers find, compare, and book hotels while planning their trips.",
-      "ts": 1791356400,
-      "published": "2026-10-07T07:00:00+00:00",
-      "collected_at": "2026-10-08T06:48:56+09:00"
     }
   ]
 }
