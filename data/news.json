@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-06T08:27:33+09:00",
-  "count": 1214,
+  "updated": "2026-11-06T09:42:56+09:00",
+  "count": 1208,
   "items": [
     {
       "title": "vscode-typescript/v1.0.2",
@@ -11,6 +11,16 @@
       "ts": 1793919917,
       "published": "2026-11-05T23:05:17+00:00",
       "collected_at": "2026-11-06T08:27:13+09:00"
+    },
+    {
+      "title": "The Kotlin Multiplatform Contest Is Open: Win a Trip to KotlinConf",
+      "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-multiplatform-contest-2027/",
+      "source": "Kotlin",
+      "category": "Kotlin",
+      "summary": "The Kotlin Multiplatform Contest is back! Students and recent graduates, turn your idea into a cross-platform project with Kotlin Multiplatform (KMP). The authors of the top three projects will each win a trip to Kotlin…",
+      "ts": 1793916321,
+      "published": "2026-11-05T22:05:21+00:00",
+      "collected_at": "2026-11-06T09:42:34+09:00"
     },
     {
       "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
@@ -301,6 +311,16 @@
       "ts": 1793843202,
       "published": "2026-11-05T01:46:42+00:00",
       "collected_at": "2026-11-05T18:11:24+09:00"
+    },
+    {
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "link": "https://openai.com/ads/customers/flipsnack",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "ts": 1793839515,
+      "published": "2026-11-05T00:45:15+00:00",
+      "collected_at": "2026-11-06T09:42:34+09:00"
     },
     {
       "title": "Streaming Large File Uploads in Java Without Killing Your Server",
@@ -12060,86 +12080,6 @@
       "summary": "Google has made Spanner Omni generally available, running its distributed SQL database on-premises, across clouds or on a laptop. Doing so meant replacing Colossus with a Colossus-like abstraction layer and TrueTime wit…",
       "ts": 1791348180,
       "published": "2026-10-07T04:43:00+00:00",
-      "collected_at": "2026-10-07T17:19:44+09:00"
-    },
-    {
-      "title": "OpenAI “rogue” agent activities found on Wikimedia projects",
-      "link": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "OpenAI “rogue” agent activities found on Wikimedia projects Given how tempting a target wikis are for rogue agent swarms, it's not a huge surprise that Wikipedia found evidence of that activity once they went looking: T…",
-      "ts": 1791332205,
-      "published": "2026-10-07T00:16:45+00:00",
-      "collected_at": "2026-10-07T10:16:20+09:00"
-    },
-    {
-      "title": "Real-Time Fraud Detection in Java with Kafka Streams and Vector Similarity",
-      "link": "https://foojay.io/today/real-time-fraud-detection-kafka-vector-similarity/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "How Java, Kafka Streams, and MongoDB vector search combine to catch fraud in real time, from rule-based guardrails to behavioral similarity scoring.",
-      "ts": 1791331200,
-      "published": "2026-10-07T00:00:00+00:00",
-      "collected_at": "2026-10-07T10:16:20+09:00"
-    },
-    {
-      "title": "Green Build, Wrong Task: A Working Agreement for Java Teams Using AI Coding Agents",
-      "link": "https://foojay.io/today/green-build-wrong-task-a-working-agreement-for-java-teams-using-ai-coding-agents/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Three ways AI coding agents waste a Java team's afternoon, and the spec, locked tests and capped review loop that stop it. Webinar notes, agent-agnostic.",
-      "ts": 1791331200,
-      "published": "2026-10-07T00:00:00+00:00",
-      "collected_at": "2026-10-07T10:16:20+09:00"
-    },
-    {
-      "title": "Adding RAG to a Jakarta EE 11 App With Only the JDK and Jakarta Specs",
-      "link": "https://foojay.io/today/adding-rag-to-jakarta-ee-11-app/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Build a RAG pipeline in a Jakarta EE 11 app with only the JDK HTTP client, Jakarta specs and MicroProfile Config: no vector database, no Python.",
-      "ts": 1791331200,
-      "published": "2026-10-07T00:00:00+00:00",
-      "collected_at": "2026-10-07T10:16:20+09:00"
-    },
-    {
-      "title": "GPT-6 and Intelligent UI for everyone",
-      "link": "https://openai.com/index/gpt-6-for-everyone",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT‑6 is rolling out globally in ChatGPT with Intelligent UI, delivering faster responses with visuals and interactive experiences you can explore and use directly.",
-      "ts": 1791331200,
-      "published": "2026-10-07T00:00:00+00:00",
-      "collected_at": "2026-10-08T06:48:56+09:00"
-    },
-    {
-      "title": "Introducing Claude Haiku 5.5",
-      "link": "https://www.anthropic.com/claude-haiku-5-5",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Introducing Claude Haiku 5.5",
-      "ts": 1791331200,
-      "published": "2026-10-07T00:00:00+00:00",
-      "collected_at": "2026-10-08T09:09:29+09:00"
-    },
-    {
-      "title": "Quoting Victoria Kim",
-      "link": "https://simonwillison.net/2026/Oct/6/victoria-kim/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Since the Medicare breach, OpenAI has put in place additional monitoring to allow “immediate intervention” by staff to stop training if the company’s models access the internet in ways they’re not supposed to, Mr. Kwon…",
-      "ts": 1791331136,
-      "published": "2026-10-06T23:58:56+00:00",
-      "collected_at": "2026-10-07T10:16:20+09:00"
-    },
-    {
-      "title": "South Korea says AI agents appear to have been used to hack the country's banks",
-      "link": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/ Comments URL: https://news.ycombinator.com/item?id=49985861 Points: 73 # Comments: 16",
-      "ts": 1791330633,
-      "published": "2026-10-06T23:50:33+00:00",
       "collected_at": "2026-10-07T17:19:44+09:00"
     }
   ]
