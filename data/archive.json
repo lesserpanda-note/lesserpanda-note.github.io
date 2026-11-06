@@ -1,6 +1,54 @@
 {
   "digests": [
     {
+      "date": "2026-11-05",
+      "summary": "이날은 코딩 에이전트를 둘러싼 인프라가 중심이었습니다. OpenAI는 Codex의 소스 관리·코드 리뷰 도구를 강화하려고 Pierre를 인수하기로 했고, Inkitt는 결정과 부수효과를 분리한 재개 가능한 오케스트레이터로 PR 자동 생성 시스템을 운영하고 있습니다. 에이전트 프레임워크 쪽에서는 Pydantic AI가 이벤트 루프 마비와 자격 증명 노출을 막는 보안 권고 10건을 한 번에 수정해, 클라이언트 입력을 받는 어댑터 사용자는 즉시 업그레이드가 필요합니다. AI 인프라는 텍사스 선거 결과로 대형 데이터센터 건설에 정치 리스크가 더해졌고, Python에서는 데이터 과학 IDE Positron 실습, DataScience에서는 양자 LSTM 시계열 예측 실험이 나왔습니다. Java·Spring·Node·Go·Rust·Kotlin·TypeScript는 새 소식이 없었습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+          "link": "https://openai.com/index/openai-to-acquire-pierre",
+          "summary": "OpenAI가 Codex 앱의 파일 탐색·변경 검토에 쓰이는 Trees·Diffs 라이브러리와 Code Storage를 만든 Pierre Computer Company를 인수한다고 발표했습니다.",
+          "detail": "OpenAI는 11월 4일 Pierre Computer Company 인수 계획을 발표했습니다. Pierre는 앱이 Git으로 코드를 저장하고 변경 이력을 추적하게 해 주는 서비스 Code Storage와 여러 오픈소스 개발자 도구를 만든 소규모 팀입니다. Codex 앱의 파일 트리 탐색(Trees)과 변경 사항 검토(Diffs)가 이미 Pierre 라이브러리로 구현돼 있고, Diffs에는 검토자가 문제 줄을 그 자리에서 고치는 편집 모드가 있습니다. 최근에는 사람이 타이핑하거나 에이전트가 코드를 스트리밍하는 즉시 구문 강조를 갱신하는 Highlights도 내놓았습니다. OpenAI는 같은 주 초 엔지니어와 에이전트용으로 자체 개발한 소스 관리 백엔드 Pando로 사내 Git을 확장한 경험을 공개했는데, 병렬 작업이 늘수록 Git을 둘러싼 시스템도 바뀌어야 한다는 문제의식이 이번 인수로 이어진 것입니다. 목표는 에이전트가 첫 브랜치를 만드는 순간부터 배포까지의 워크플로를 Codex 안으로 모으는 것이라고 밝혔습니다. Pierre의 오픈소스 프로젝트는 계속 오픈소스로 유지되고, Code Storage 고객은 기능이 Codex로 통합되는 동안에도 서비스를 계속 쓸 수 있습니다. 인수는 규제 승인 등 통상적인 종결 조건을 거쳐야 하며 그때까지 두 회사는 독립적으로 운영됩니다. 코딩 에이전트 경쟁이 모델 성능에서 소스 관리·코드 리뷰 인프라로 옮겨 가고 있음을 보여 주는 사례입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+          "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+          "summary": "미국 최대 AI 데이터센터 건설지인 텍사스에서 데이터센터를 쟁점으로 내건 민주당 후보들이 상원·주지사를 차지하면서 대형 AI 인프라 프로젝트가 지연되거나 중단될 수 있다고 MIT Technology Review가 분석했습니다.",
+          "detail": "중간선거에서 텍사스 상원 의석은 James Talarico, 주지사는 Gina Hinojosa가 가져갔고 민주당은 24년 만에 주 하원도 장악했습니다. 두 사람은 유세 내내 데이터센터를 핵심 쟁점으로 삼았고, Hinojosa는 2023년에는 데이터센터 세제 혜택을 지지했지만 이번 선거에서는 전면 모라토리엄을 주장했습니다. 업계는 이미 9월부터 분위기 변화를 감지했습니다. 공화당 현직 Abbott 주지사가 9월 21일 핵심 주 규제기관에 데이터센터 허가 중단을 지시했고, 개발사들은 주지사실이 이메일에 답하지 않는다고 전했습니다. 걸린 규모는 큽니다. Shackelford 카운티의 Stargate Frontier는 1,820MW로 미국 최대인 SpaceX Colossus 2와 비슷하고, 주로 Anthropic을 위한 Nexus Hubbard는 계획 용량 6,400MW로 Meta의 Hyperion에 이어 미국에서 두 번째로 큰 건설 중 데이터센터입니다. 대출 기관이 이미 프로젝트를 까다롭게 고르는 상황에서 정치 리스크까지 더해지면 AI 인프라 투자 둔화가 경제 전반에 파급될 수 있다는 우려가 나옵니다. 다만 허가 권한이 시·카운티·주에 나뉘어 있고, 데이터센터 밀집 지역 가운데 Ellis·Mitchell·Scurry 카운티는 공화당을 찍었으며, 민주당을 지원한 건설 노조의 반발도 예상돼 실제 모라토리엄 실행은 선거 공약보다 훨씬 복잡할 것이라고 기사는 결론짓습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "v2.66.0 (2026-11-04)",
+          "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.66.0",
+          "summary": "Pydantic AI v2.66.0(및 v1.107.10)이 high 2건을 포함한 보안 권고 10건을 한꺼번에 수정했습니다. 대부분 공격자가 URL·스키마·메시지를 넣을 수 있는 경로에서 이벤트 루프를 멈추게 하거나 자격 증명을 노출하는 문제입니다.",
+          "detail": "high 등급은 두 건입니다. GHSA-m5vj-8mcw-82qx는 web_fetch_tool과 WebFetch 로컬 폴백이 반환 크기 제한을 적용하기 전에 JSON을 이벤트 루프에서 다시 들여쓰기해, 깊게 중첩된 문서가 수백 배로 부풀 수 있던 문제입니다. GHSA-mfx5-pc32-32m8은 pydantic-ai-harness의 redact_secrets 기본 private_key 패턴이 지수 백트래킹을 일으켜 수백 자로 이벤트 루프를 몇 분 이상 붙잡을 수 있던 문제로 harness 0.66.0에서 고쳤습니다. medium 등급에는 Tencent Cloud 메타데이터 주소 169.254.0.23이 차단 목록에 없어 임시 자격 증명을 가져올 수 있던 SSRF, 임베딩 OpenTelemetry span에 extra_headers·extra_body가 기록돼 자격 증명이 트레이스로 새던 문제, 상호 참조하는 $defs·$ref 스키마의 지수 팽창(AG-UI 어댑터·DecisionModel), Vercel AI·AG-UI 어댑터의 메시지 파트 수 제곱 시간 로딩, 직렬화된 히스토리 재로드 시 도구 결과 JSON이 파일 타입으로 복원돼 내부망 URL이나 s3:// 객체를 읽게 만들 수 있던 문제가 있습니다. low 등급인 allowed_domains의 차단 전 DNS 조회, v2.57~v2.59에서 MCP 서버 URL 경로의 자격 증명이 프런트엔드로 전달되던 문제도 함께 공개됐습니다. 호환성 노트로 FunctionToolset(requires_approval=True)가 전달된 Tool 인스턴스에도 적용되도록 바뀌었으니, AG-UI·Vercel 어댑터로 클라이언트 입력을 받는 서비스는 바로 올리고 노출된 트레이스의 자격 증명은 교체하는 것이 좋습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Inkitt Builds a One-Shot PR Creator with Resumable Agent Orchestration",
+          "link": "https://www.infoq.com/news/2026/11/inkitt-one-shot-pr-creator-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Inkitt가 Slack·Linear·API 요청으로 작은 변경을 받아 원격 컨테이너에서 초안 PR까지 만드는 'one-shot PR creator'를 이벤트 기반·재개 가능한 오케스트레이터로 구축했다고 InfoQ가 소개했습니다.",
+          "detail": "Inkitt의 시스템은 고정 파이프라인 대신 짧게 살아 있는 에이전트 컨테이너들을 조율하는 이벤트 기반 오케스트레이터입니다. 단계는 명세, 구현, 검증, CI 실패 수리, 머지 충돌 해결로 나뉘고, 각 실행을 데이터베이스에 저장해 기록된 상태에서 재개할 수 있습니다. 핵심 설계는 결정과 부수효과의 분리입니다. 상태 전이 함수는 현재 실행 상태와 들어온 이벤트를 다음 액션으로 매핑할 뿐 DB·네트워크·LLM에 직접 접근하지 않습니다. 외부 시스템 자격 증명은 오케스트레이터만 갖고, 에이전트 컨테이너는 수명이 짧은 저장소 토큰과 모델 자격 증명만 받아 Slack·Linear 자격 증명이나 클라우드 ID, 임의 네트워크에 접근할 수 없습니다. 별도 검사가 실제 Git diff를 보고 제한 경로를 건드렸는지 확인합니다. 자동화 범위도 좁혀 DB 마이그레이션, 스키마·공유 계약, CI·컨테이너 빌드 설정, 인증, 결제, 패키지 추가·갱신 작업은 거부합니다. 검증·CI 수리·충돌 해결은 각각 최대 2회 시도하고, 중복 웹훅은 중복 제거와 조건부 DB 쓰기로 멱등하게 처리하며, CI 완료는 잡 이벤트 하나가 아니라 GitHub에 모든 관련 잡의 종료를 질의해 판단합니다. 결과물은 초안 PR이며 브랜치 보호를 우회하거나 스스로 머지할 수 없고, 리뷰 요청과 승인은 사람이 합니다. 리드 엔지니어는 멱등성·잠금·재시도 예산·권한이 어려웠다며 \"The model was the easy part.\"라고 정리했습니다."
+        },
+        {
+          "category": "Python",
+          "title": "Positron IDE: A Hands-on Python Tutorial",
+          "link": "https://realpython.com/positron-ide/",
+          "summary": "Real Python이 VS Code 오픈소스 기반의 데이터 과학 IDE Positron으로 원본 데이터 점검부터 정제·분석·노트북·AI 어시스턴트까지 한 흐름으로 따라가는 실습 튜토리얼을 냈습니다.",
+          "detail": "튜토리얼은 5,130건의 가상 주문 데이터로 소매·도매 주문의 카테고리별 주문 금액 중앙값 차이를 구하는 과제를 진행합니다. 환경은 Positron 2026.09.1-2, pandas 3.0.5, Matplotlib 3.11.2이고, 명령 팔레트의 Python: Create Environment에서 uv와 Python 3.14를 골라 .venv를 만들고 uv sync --locked로 의존성을 설치합니다. 핵심 기능은 Data Explorer입니다. CSV·TSV·Parquet·Excel(.xlsx)과 압축된 CSV·TSV·Parquet을 열면 데이터 그리드, 필터 바, 열별 결측·고유값·최소·중앙값·평균·최대·표준편차를 보여 주는 요약 패널이 함께 뜨고, 정렬·필터는 화면에만 적용돼 원본 파일은 바뀌지 않습니다. 이 단계에서 produce_name 같은 열 이름 오타와 카테고리 대소문자 불일치를 찾아낸 뒤, 정제는 재현 가능하도록 스크립트나 노트북 코드로 남기라고 권합니다. 이어 같은 분석을 노트북으로 반복하고 AI 에이전트인 Posit Assistant로 노트북 설명을 받아 봅니다. 도입 전 알아 둘 제약도 정리합니다. Microsoft가 Marketplace를 자사 빌드 밖에서 허용하지 않아 확장은 Open VSX에서 설치해야 하고 일부는 없거나 버전이 늦습니다. Remote SSH는 원격 호스트가 Linux(WSL 포함)여야 하고 클라이언트와 서버 버전이 정확히 같아야 합니다. Python과 R을 한 워크스페이스에서 쓰는 팀에 맞는 선택지라는 것이 결론입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Beyond Classical: A Quantum Approach to Time-Series Prediction",
+          "link": "https://towardsdatascience.com/beyond-classical-a-quantum-approach-to-time-series-prediction/",
+          "summary": "양자 회로 상태를 시점 간에 유지하는 CoQLSTM(Coherent Quantum LSTM)을 소개하고, Lorenz 시계열 예측에서 단순 기준선과 성능을 비교한 글입니다.",
+          "detail": "글은 윈도·호라이즌으로 시계열을 지도학습 쌍으로 바꾸는 방법과 RNN·LSTM의 기울기 소실 문제부터 설명한 뒤, 파라미터화된 양자 회로(PQC)를 LSTM 게이트에 끼운 기존 하이브리드 모델이 매 시점 측정으로 양자 정보를 잃는다는 한계를 짚고, 양자 상태를 시점 사이에 일관되게 유지하는 CoQLSTM을 제안합니다. 실험은 ReservoirPy로 Lorenz 시스템 5,000개 관측치를 만들고(적분 간격 0.03), 직전 두 시점의 x·y·z로 다음 x를 예측합니다. 시간 순서대로 70/20/10으로 나누고 표준화 파라미터는 학습 구간에서만 계산해 누수를 막았습니다. 학습 가능한 √SWAP 상호작용을 넣은 271개 파라미터 모델을 10 에폭 학습한 결과 테스트 MSE는 학습 전 1.145에서 0.0887로 92% 넘게 줄었고 R²는 0.911이 됐습니다. 지속성(persistence) 기준선은 MSE 0.128·R² 0.892, 2점 이동평균은 MSE 0.162·R² 0.878이었습니다. 저자는 단순 기준선은 넘었지만 고전 모델 대비 우위를 입증한 것은 아니며, 양자 메모리가 학습에 실제로 기여하는지는 열린 질문이라고 스스로 선을 긋습니다. 더 다양한 실데이터, 인코딩·큐비트 수·회로 깊이 튜닝, 이론적 이해가 다음 과제로 남아 있습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-11-04",
       "summary": "오늘 묶음은 에이전트를 둘러싼 '하네스'와 그 비용을 숫자로 보여 줍니다. Agents와 Architecture에서는 데모를 넘어 권한·훅·결정 기록으로 에이전트의 경계를 설계하는 글들과, 거절 시 폴백·재시도 정책을 바꾼 Pydantic AI 릴리스가 나왔습니다. AI에서는 Ai2의 StateBench가 프런티어 모델도 긴 문서의 복잡한 상태 추적에서 13% 이하로 무너진다는 점을 보였고, Anthropic의 S-1 인건비 공시와 Grok 사용 제한은 AI 사업의 비용 구조를 드러냈습니다. DataScience에서는 선거일 여론조사 가중치와 슈팅 기대값 모델로 응용 통계를 다뤘습니다. Java·Kotlin·Spring·Node·Go·Rust·TypeScript는 이번 구간에 실을 소식이 없어 비워 두었습니다.",
       "highlights": [
