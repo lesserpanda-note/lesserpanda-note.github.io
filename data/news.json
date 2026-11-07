@@ -1,7 +1,17 @@
 {
-  "updated": "2026-11-08T03:31:58+09:00",
-  "count": 1193,
+  "updated": "2026-11-08T07:33:15+09:00",
+  "count": 1192,
   "items": [
+    {
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 53 # Comments: 40",
+      "ts": 1794084332,
+      "published": "2026-11-07T20:45:32+00:00",
+      "collected_at": "2026-11-08T07:32:57+09:00"
+    },
     {
       "title": "Timestral, t0, Tabby, and Morpheus-2.0 Compared on GIFT-Eval",
       "link": "https://towardsdatascience.com/timestral-t0-tabby-and-morpheus-20-compared-on-gift-eval/",
@@ -11911,26 +11921,6 @@
       "ts": 1791500609,
       "published": "2026-10-08T23:03:29+00:00",
       "collected_at": "2026-10-09T09:10:24+09:00"
-    },
-    {
-      "title": "1.15.26",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.26",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Fix ownership retention of rwlock when acquisition is interrupted. Resolve issue with documentation site source URLs not being preserved. Fix task output display in log-tasks-outputs to show act…",
-      "ts": 1791495938,
-      "published": "2026-10-08T21:45:38+00:00",
-      "collected_at": "2026-11-04T07:14:58+09:00"
-    },
-    {
-      "title": "Quoting Carson Gross",
-      "link": "https://simonwillison.net/2026/Oct/8/carson-gross/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Computer programming is, fundamentally, about two things: Problem-solving using computers Learning to control complexity while solving these problems I have a hard time imagining a future where knowing how to solve prob…",
-      "ts": 1791493544,
-      "published": "2026-10-08T21:05:44+00:00",
-      "collected_at": "2026-10-09T06:52:04+09:00"
     }
   ]
 }
