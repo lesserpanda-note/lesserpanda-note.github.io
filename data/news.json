@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-07T15:54:23+09:00",
-  "count": 1212,
+  "updated": "2026-11-07T22:48:37+09:00",
+  "count": 1199,
   "items": [
+    {
+      "title": "How to Prioritize Product Feedback by Revenue at Risk",
+      "link": "https://towardsdatascience.com/how-to-prioritize-product-feedback-by-revenue-at-risk/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Bellwether joins support tickets, store reviews, sales calls, and NPS to CRM accounts, then stress-tests the ranking on 6,693 synthetic signals. The post How to Prioritize Product Feedback by Revenue at Risk appeared fi…",
+      "ts": 1794056400,
+      "published": "2026-11-07T13:00:00+00:00",
+      "collected_at": "2026-11-07T22:48:31+09:00"
+    },
+    {
+      "title": "Quiz: Managing Multiple Python Versions With pyenv",
+      "link": "https://realpython.com/quizzes/intro-to-pyenv/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your knowledge of pyenv with this quiz and see how well you can manage multiple Python versions, virtual environments, and dependencies.",
+      "ts": 1794052800,
+      "published": "2026-11-07T12:00:00+00:00",
+      "collected_at": "2026-11-07T22:48:31+09:00"
+    },
+    {
+      "title": "How Grab Improved Mobile App Stability by Safely Handling Surge in AI-Generated Code Changes",
+      "link": "https://www.infoq.com/news/2026/11/grab-ai-generated-code-safety/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "The growing adoption of AI coding assistants has accelerated development and increased the volume of code changes per release, bringing more opportunities for defects and crashes, says Grab. To address these challenges,…",
+      "ts": 1794049200,
+      "published": "2026-11-07T11:00:00+00:00",
+      "collected_at": "2026-11-07T22:48:31+09:00"
+    },
+    {
+      "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
+      "link": "https://www.infoq.com/news/2026/11/postgresql-vector-search/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach u…",
+      "ts": 1794044940,
+      "published": "2026-11-07T09:49:00+00:00",
+      "collected_at": "2026-11-07T22:48:31+09:00"
+    },
     {
       "title": "[AINews] Anthropic IPO: Whither Now?",
       "link": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
@@ -11951,176 +11991,6 @@
       "ts": 1791467888,
       "published": "2026-10-08T13:58:08+00:00",
       "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "Your Model's MSE Is Lying to You III: Time Series Diffusion",
-      "link": "https://towardsdatascience.com/your-models-mse-is-lying-to-you-iii-time-series-diffusion/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A diffusion head for probabilistic time series forecasting: why a forecast can get the mean and the variance right and still describe a future that never happens, and how to fix it. The post Your Model's MSE Is Lying to…",
-      "ts": 1791462600,
-      "published": "2026-10-08T12:30:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "Quiz: Python, Boto3, and AWS S3: Demystified",
-      "link": "https://realpython.com/quizzes/python-boto3-aws-s3/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Boto3 and AWS S3 in Python. Create buckets, upload objects, configure storage and versioning, and clean up safely.",
-      "ts": 1791460800,
-      "published": "2026-10-08T12:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "7 Best Resources to Learn About Self-Evolving AI Agents",
-      "link": "https://www.kdnuggets.com/7-best-resources-to-learn-about-self-evolving-ai-agents",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "The next step for AI agents? Self-improvement. Here are 7 resources to get started.",
-      "ts": 1791460800,
-      "published": "2026-10-08T12:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "link": "https://openai.com/index/pollo-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
-      "ts": 1791460800,
-      "published": "2026-10-08T12:00:00+00:00",
-      "collected_at": "2026-10-09T06:52:04+09:00"
-    },
-    {
-      "title": "LegalOn halves Codex costs while maintaining development speed",
-      "link": "https://openai.com/index/legalon-halves-codex-costs",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
-      "ts": 1791460800,
-      "published": "2026-10-08T12:00:00+00:00",
-      "collected_at": "2026-10-09T09:10:24+09:00"
-    },
-    {
-      "title": "Quiz: Why Junior Developers Might Know More About AI Than Seniors",
-      "link": "https://realpython.com/quizzes/junior-developers-ahead-on-ai/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check what you know about how junior developers can use hands-on AI experience as an edge and how to pair it with senior know-how.",
-      "ts": 1791460800,
-      "published": "2026-10-08T12:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Presentation: Multi-Agent Patterns from Spotify’s AI Powered Advertising Platform",
-      "link": "https://www.infoq.com/presentations/spotify-multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Pratik Rasam discusses how Spotify Ads Manager runs production-grade multi-agent systems at scale using Google ADK Java. He shares key architectural patterns, domain ownership models, deterministic guardrails, and traci…",
-      "ts": 1791457200,
-      "published": "2026-10-08T11:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "Presentation: Multi-Agent Patterns from Spotify’s AI Powered Advertising Platform",
-      "link": "https://www.infoq.com/presentations/spotify-multi-agent-ai-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Pratik Rasam discusses how Spotify Ads Manager runs production-grade multi-agent systems at scale using Google ADK Java. He shares key architectural patterns, domain ownership models, deterministic guardrails, and traci…",
-      "ts": 1791457200,
-      "published": "2026-10-08T11:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "Evaluating Graph-RAG vs. Standard RAG: A Hallucination Benchmark on Fact-Dense Queries",
-      "link": "https://machinelearningmastery.com/evaluating-graph-rag-vs-standard-rag-a-hallucination-benchmark-on-fact-dense-queries/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how to benchmark a deterministic 3-Tiered Graph-RAG system against a standard vector RAG pipeline on fact-dense queries, and what...",
-      "ts": 1791457200,
-      "published": "2026-10-08T11:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpack.",
-      "link": "https://towardsdatascience.com/ai-engineers-applied-scientists-forward-deployed-engineers-lets-unpack/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "An exploration of the new data science roles emerging after the Large Language Model explosion. The post AI Engineers, Applied Scientists, Forward Deployed Engineers: Let's Unpack. appeared first on Towards Data Science…",
-      "ts": 1791457200,
-      "published": "2026-10-08T11:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "python-1.21.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.21.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.21.0] - 2026-10-08 Added agent-framework , agent-framework-core , agent-framework-purview : Add tool-result standing guidance, expose rewritten variable-expansion arguments, and support full-buffer Purview policy eva…",
-      "ts": 1791455288,
-      "published": "2026-10-08T10:28:08+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "Nano Banana 2.1 Review",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/nano-banana-2-1-review/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Have an idea for a lesson illustration, a project chart, or a comic for your next presentation? Nano Banana 2.1 lets you explore these formats with text prompts, making it easier to try different visual styles without s…",
-      "ts": 1791452507,
-      "published": "2026-10-08T09:41:47+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "AI breakthroughs in robotics won’t change your life any time soon",
-      "link": "https://www.technologyreview.com/2026/10/08/1145923/ai-breakthroughs-in-robotics-wont-change-your-life-any-time-soon/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "The story is a collaboration between MIT Technology Review and Aventine, a non-profit research foundation that creates and supports content about how technology and science are changing the way we live. A robot shaped l…",
-      "ts": 1791450000,
-      "published": "2026-10-08T09:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "Building a safer path to autonomous industrial AI",
-      "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex…",
-      "ts": 1791447452,
-      "published": "2026-10-08T08:17:32+00:00",
-      "collected_at": "2026-10-08T17:35:49+09:00"
-    },
-    {
-      "title": "Technological Sovereignty Requires Choice, Skills, and Support, Panelists Say During OSS EU",
-      "link": "https://www.infoq.com/news/2026/10/technological-sovereignity-panel/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "European organisations can enhance their technological sovereignty by developing credible alternatives and acquiring necessary skills, rather than completely avoiding global providers. A panel discussion at the OSS EU h…",
-      "ts": 1791446880,
-      "published": "2026-10-08T08:08:00+00:00",
-      "collected_at": "2026-10-08T17:35:49+09:00"
-    },
-    {
-      "title": "[AINews] Claude Haiku 5.5 — better than GPT-6 Luna at the same pricing",
-      "link": "https://www.latent.space/p/ainews-claude-haiku-55-better-than",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "yay small models",
-      "ts": 1791444471,
-      "published": "2026-10-08T07:27:51+00:00",
-      "collected_at": "2026-10-08T17:35:49+09:00"
-    },
-    {
-      "title": "I think I found a planet nobody knew existed. I used Claude Code to find it",
-      "link": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9 Comments URL: https://news.ycombinator.com/item?id=50002665 Points: 27 # Comments: 10",
-      "ts": 1791443254,
-      "published": "2026-10-08T07:07:34+00:00",
-      "collected_at": "2026-10-08T17:35:49+09:00"
     }
   ]
 }
