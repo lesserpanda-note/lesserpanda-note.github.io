@@ -1,7 +1,67 @@
 {
-  "updated": "2026-11-07T22:48:37+09:00",
-  "count": 1199,
+  "updated": "2026-11-08T03:31:58+09:00",
+  "count": 1193,
   "items": [
+    {
+      "title": "Timestral, t0, Tabby, and Morpheus-2.0 Compared on GIFT-Eval",
+      "link": "https://towardsdatascience.com/timestral-t0-tabby-and-morpheus-20-compared-on-gift-eval/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "All four time-series foundation models scale, patch, and predict quantiles; the real split is how series share information. The post Timestral, t0, Tabby, and Morpheus-2.0 Compared on GIFT-Eval appeared first on Towards…",
+      "ts": 1794063600,
+      "published": "2026-11-07T15:00:00+00:00",
+      "collected_at": "2026-11-08T03:31:36+09:00"
+    },
+    {
+      "title": "2026 compared to other dramatic midterm election reversals of the past half-century",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/07/2026-compared-to-other-dramatic-midterm-election-reversals-of-the-past-half-century/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "As I said a few days ago, you don’t need me anymore to do your fancy post-election data analyses. So instead I can offer speculation (Could the 2026 election results lead to a decrease in political polarization?) and me…",
+      "ts": 1794063181,
+      "published": "2026-11-07T14:53:01+00:00",
+      "collected_at": "2026-11-08T03:31:36+09:00"
+    },
+    {
+      "title": "Managing Multiple Python Versions With pyenv",
+      "link": "https://realpython.com/intro-to-pyenv/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use pyenv to manage multiple Python versions, prevent conflicts, and keep your projects compatible and development smooth.",
+      "ts": 1794060000,
+      "published": "2026-11-07T14:00:00+00:00",
+      "collected_at": "2026-11-08T03:31:36+09:00"
+    },
+    {
+      "title": "Thonny: The Beginner-Friendly Python Editor",
+      "link": "https://realpython.com/python-thonny/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Thonny, the free Python IDE built for beginners, to write, run, and debug your code with its step-by-step debugger.",
+      "ts": 1794060000,
+      "published": "2026-11-07T14:00:00+00:00",
+      "collected_at": "2026-11-08T03:31:36+09:00"
+    },
+    {
+      "title": "Absolute vs Relative Imports in Python",
+      "link": "https://realpython.com/absolute-vs-relative-python-imports/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Compare Python relative imports with absolute imports, weigh the pros and cons of each, and learn best practices for writing clean import statements.",
+      "ts": 1794060000,
+      "published": "2026-11-07T14:00:00+00:00",
+      "collected_at": "2026-11-08T03:31:36+09:00"
+    },
+    {
+      "title": "Floating-Point Precision and Its Effects to Model Inference",
+      "link": "https://machinelearningmastery.com/floating-point-precision/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Overview This post is divided into five parts; they are: • How Floating-Point Numbers Work • Common Precision Formats • Loading a Model at a Different Precision • Mixed Precision and Sensitive Operations • Measuring the…",
+      "ts": 1794058173,
+      "published": "2026-11-07T13:29:33+00:00",
+      "collected_at": "2026-11-08T03:31:36+09:00"
+    },
     {
       "title": "How to Prioritize Product Feedback by Revenue at Risk",
       "link": "https://towardsdatascience.com/how-to-prioritize-product-feedback-by-revenue-at-risk/",
@@ -11871,126 +11931,6 @@
       "ts": 1791493544,
       "published": "2026-10-08T21:05:44+00:00",
       "collected_at": "2026-10-09T06:52:04+09:00"
-    },
-    {
-      "title": "Anthropic bans 'abusive or cruel behavior' towards Claude",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1008100/anthropic-new-usage-policy-abuse-claude Comments URL: https://news.ycombinator.com/item?id=50008565 Points: 62 # Comments: 137",
-      "ts": 1791479282,
-      "published": "2026-10-08T17:08:02+00:00",
-      "collected_at": "2026-10-09T09:10:24+09:00"
-    },
-    {
-      "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
-      "link": "https://www.latent.space/p/periodic",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "A special Science pod and Engineering pod crossover.. with Forward Deployed Engineering kicker!",
-      "ts": 1791476874,
-      "published": "2026-10-08T16:27:54+00:00",
-      "collected_at": "2026-10-09T06:52:04+09:00"
-    },
-    {
-      "title": "Bridging Algorithmic Design and Regulatory Standards in Enterprise AI",
-      "link": "https://www.kdnuggets.com/bridging-algorithmic-design-and-regulatory-standards-in-enterprise-ai",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Your models can be both cutting-edge and compliant if you stop treating governance as the final hurdle and start building it into every stage of the ML pipeline.",
-      "ts": 1791475200,
-      "published": "2026-10-08T16:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "link": "https://openai.com/index/oracle",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
-      "ts": 1791475200,
-      "published": "2026-10-08T16:00:00+00:00",
-      "collected_at": "2026-10-09T06:52:04+09:00"
-    },
-    {
-      "title": "[release-branch.go1.26] go1.26.9",
-      "link": "https://github.com/golang/go/releases/tag/go1.26.9",
-      "source": "Go Releases",
-      "category": "Go",
-      "summary": "Change-Id: Id12b30bb1c4f9e3e6a676fc04faf88dfd6d81021 Reviewed-on: https://go-review.googlesource.com/c/go/+/847127 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Michael Pratt mpratt@google.com TryBot-Bypass: G…",
-      "ts": 1791473776,
-      "published": "2026-10-08T15:36:16+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "[release-branch.go1.27] go1.27.2",
-      "link": "https://github.com/golang/go/releases/tag/go1.27.2",
-      "source": "Go Releases",
-      "category": "Go",
-      "summary": "Change-Id: Ic0b65cb1b99dfa414ec1c8b11360114db21b7530 Reviewed-on: https://go-review.googlesource.com/c/go/+/846986 Auto-Submit: Gopher Robot gobot@golang.org TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmi…",
-      "ts": 1791473770,
-      "published": "2026-10-08T15:36:10+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Everyone Is Selling AI at You — Here’s How to Keep Your Judgement",
-      "link": "https://towardsdatascience.com/everyone-is-selling-ai-at-you-heres-how-to-keep-your-judgement/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Three moves to decode the hype The post Everyone Is Selling AI at You — Here’s How to Keep Your Judgement appeared first on Towards Data Science .",
-      "ts": 1791473400,
-      "published": "2026-10-08T15:30:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "What Is Meta Muse? A Plain-English Guide to Meta's New AI",
-      "link": "https://realpython.com/what-is-meta-muse/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "What is Meta Muse? Learn what Meta's AI agent can do, what it costs, how it handles your data, and where Python fits in. No coding required.",
-      "ts": 1791468000,
-      "published": "2026-10-08T14:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "Why Junior Developers Might Know More About AI Than Seniors",
-      "link": "https://realpython.com/junior-developers-ahead-on-ai/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "As a junior developer, you may have more hands-on AI experience than many busy senior developers. Here's how you can use your AI knowledge to your advantage.",
-      "ts": 1791468000,
-      "published": "2026-10-08T14:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "Building AI Agents with Docker Agent",
-      "link": "https://www.kdnuggets.com/building-ai-agents-with-docker-agent",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Docker Agent is an open-source, Apache 2.0-licensed CLI plugin built by Docker Engineering, installed and run as docker agent. Its own tagline states the goal plainly: run AI agents like containers.",
-      "ts": 1791468000,
-      "published": "2026-10-08T14:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "AI Agents Beat PyTorch: Writing Faster CUDA Kernels",
-      "link": "https://towardsdatascience.com/ai-agents-beat-pytorch-writing-faster-cuda-kernels/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "AI agents can now write CUDA kernels that outperform PyTorch—but proving those speedups are real is the harder problem. I put them to the test on an NVIDIA DGX Spark and found that benchmark design matters just as much…",
-      "ts": 1791468000,
-      "published": "2026-10-08T14:00:00+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
-    },
-    {
-      "title": "What’s the deal with the RMET (“the Reading the Mind in the Eyes test”)?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/08/whats-the-deal-with-the-rmet-the-reading-the-mind-in-the-eyes-test/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Dan Luu writes: Have you ever looked into the RMET? [This is something called the Reading the Mind in the Eyes test, which I’d never heard of until receiving this email. — AG] I’d like to get some data to … Continue rea…",
-      "ts": 1791467888,
-      "published": "2026-10-08T13:58:08+00:00",
-      "collected_at": "2026-10-09T01:12:56+09:00"
     }
   ]
 }
