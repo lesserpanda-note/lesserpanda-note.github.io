@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-09T01:37:04+09:00",
-  "count": 1165,
+  "updated": "2026-11-09T05:59:23+09:00",
+  "count": 1164,
   "items": [
+    {
+      "title": "1.15.38",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Make gpt-6-luna crewAI's default model everywhere Read spreadsheet URLs in an agent's input with tools over every row Tag eval usage spans with target and a per-evaluation id Add --no-open to cre…",
+      "ts": 1794166770,
+      "published": "2026-11-08T19:39:30+00:00",
+      "collected_at": "2026-11-09T05:59:03+09:00"
+    },
+    {
+      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 342 # Comments: 220",
+      "ts": 1794161767,
+      "published": "2026-11-08T18:16:07+00:00",
+      "collected_at": "2026-11-09T05:59:03+09:00"
+    },
     {
       "title": "How to Build Multi-Agent Systems with the OpenAI Agents SDK",
       "link": "https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/",
@@ -11621,36 +11641,6 @@
       "ts": 1791583235,
       "published": "2026-10-09T22:00:35+00:00",
       "collected_at": "2026-10-10T15:49:23+09:00"
-    },
-    {
-      "title": "v2.55.0 (2026-10-09)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.55.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Require Python 3.11 or newer in every package; Python 3.10 installs resolve to 2.54.0 and earlier by @Kludex in #9526 Record the tool requests of ExaSearch , YouSearch , LocalStack…",
-      "ts": 1791576369,
-      "published": "2026-10-09T20:06:09+00:00",
-      "collected_at": "2026-10-10T05:45:21+09:00"
-    },
-    {
-      "title": "Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring",
-      "link": "https://www.infoq.com/news/2026/10/android-bench-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google has released Android Bench 2.0, a major update to its benchmark framework for evaluating AI models and agents on Android development tasks. The update introduces long-horizon tasks (LHTs), agent-based evaluation,…",
-      "ts": 1791565200,
-      "published": "2026-10-09T17:00:00+00:00",
-      "collected_at": "2026-10-10T05:45:21+09:00"
-    },
-    {
-      "title": "Android Bench 2 Adds Support for Long-Horizon Tasks, Agentic Evaluation, and Continuous Scoring",
-      "link": "https://www.infoq.com/news/2026/10/android-bench-2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Google has released Android Bench 2.0, a major update to its benchmark framework for evaluating AI models and agents on Android development tasks. The update introduces long-horizon tasks (LHTs), agent-based evaluation,…",
-      "ts": 1791565200,
-      "published": "2026-10-09T17:00:00+00:00",
-      "collected_at": "2026-10-10T05:45:21+09:00"
     }
   ]
 }
