@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-08T11:08:28+09:00",
-  "count": 1183,
+  "updated": "2026-11-08T18:58:23+09:00",
+  "count": 1181,
   "items": [
+    {
+      "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
+      "link": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google Cloud has made a self-managed VMware solution generally available, running VMware Cloud Foundation 9.x on dedicated Z3 bare metal with root access across ESXi, vCenter and NSX in 22 regions. It sits beside the Go…",
+      "ts": 1794122160,
+      "published": "2026-11-08T07:16:00+00:00",
+      "collected_at": "2026-11-08T18:58:19+09:00"
+    },
+    {
+      "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+      "link": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In a recent article, Cloudflare shared the redesign of the control plane of its D1 serverless SQL database to support millions of databases, avoiding centralized bottlenecks, implementing retries and idempotency, and us…",
+      "ts": 1794119640,
+      "published": "2026-11-08T06:34:00+00:00",
+      "collected_at": "2026-11-08T18:58:19+09:00"
+    },
     {
       "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
       "link": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
@@ -11791,46 +11811,6 @@
       "ts": 1791543600,
       "published": "2026-10-09T11:00:00+00:00",
       "collected_at": "2026-10-13T02:33:56+09:00"
-    },
-    {
-      "title": "We’re putting too much faith in AI’s ability to say no",
-      "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of ro…",
-      "ts": 1791536400,
-      "published": "2026-10-09T09:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "link": "https://openai.com/index/sophos",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
-      "ts": 1791529200,
-      "published": "2026-10-09T07:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "link": "https://openai.com/index/asana-browser-agent",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
-      "ts": 1791529200,
-      "published": "2026-10-09T07:00:00+00:00",
-      "collected_at": "2026-10-10T05:45:21+09:00"
-    },
-    {
-      "title": "Cloudflare K2 Builds Event Streams on R2 Object Storage, at a Second of Produce Latency",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-k2-serverless-streams/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has launched K2 in public beta, a serverless event streaming service implementing a durable log on R2 object storage. Cloudflare states produce latency of about one second at p99; a tester reported end-to-end…",
-      "ts": 1791522360,
-      "published": "2026-10-09T05:06:00+00:00",
-      "collected_at": "2026-10-09T17:41:06+09:00"
     }
   ]
 }
