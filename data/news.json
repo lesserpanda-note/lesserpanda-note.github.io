@@ -1,7 +1,77 @@
 {
-  "updated": "2026-11-08T18:58:23+09:00",
-  "count": 1181,
+  "updated": "2026-11-09T01:37:04+09:00",
+  "count": 1165,
   "items": [
+    {
+      "title": "How to Build Multi-Agent Systems with the OpenAI Agents SDK",
+      "link": "https://towardsdatascience.com/how-to-build-multi-agent-systems-with-the-openai-agents-sdk/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Build an EV purchase adviser and a support agent in Python, then see how fan-out, pipelines, hierarchies, and swarms reuse the same building blocks. The post How to Build Multi-Agent Systems with the OpenAI Agents SDK a…",
+      "ts": 1794150000,
+      "published": "2026-11-08T15:00:00+00:00",
+      "collected_at": "2026-11-09T01:36:42+09:00"
+    },
+    {
+      "title": "“Causal Effects Versus Causal Mechanisms: Two Traditions With Different Requirements and Contributions Towards Causal Understanding”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/08/causal-effects-versus-causal-mechanisms-two-traditions-with-different-requirements-and-contributions-towards-causal-understanding/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Following up on our post from last year on the importance of mechanistic models, Jim Grace points to his above-titled paper in Ecology Letters. From the abstract: When methods are described as ‘causal,’ emphasis is incr…",
+      "ts": 1794149701,
+      "published": "2026-11-08T14:55:01+00:00",
+      "collected_at": "2026-11-09T01:36:42+09:00"
+    },
+    {
+      "title": "Memory Management in Python",
+      "link": "https://realpython.com/python-memory-management/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Take a deep dive into Python memory management and learn how CPython allocates and frees memory for your objects with arenas, pools, and blocks.",
+      "ts": 1794146400,
+      "published": "2026-11-08T14:00:00+00:00",
+      "collected_at": "2026-11-09T01:36:42+09:00"
+    },
+    {
+      "title": "Using Python's pip to Manage Your Projects' Dependencies",
+      "link": "https://realpython.com/what-is-pip/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What is pip? Learn how to use pip, Python's standard package manager, to install and manage packages that aren't part of the standard library.",
+      "ts": 1794146400,
+      "published": "2026-11-08T14:00:00+00:00",
+      "collected_at": "2026-11-09T01:36:42+09:00"
+    },
+    {
+      "title": "Change One Monty Hall Rule and Five LLMs Still Say Switch",
+      "link": "https://towardsdatascience.com/change-one-monty-hall-rule-and-five-llms-still-say-switch/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Even with step-by-step reasoning, the models landed near 33% accuracy, and one quoted the host's rule correctly before ignoring it. The post Change One Monty Hall Rule and Five LLMs Still Say Switch appeared first on To…",
+      "ts": 1794142800,
+      "published": "2026-11-08T13:00:00+00:00",
+      "collected_at": "2026-11-09T01:36:42+09:00"
+    },
+    {
+      "title": "Entire's Git Forge Rethinks Git Collaboration for Coding Agents",
+      "link": "https://www.infoq.com/news/2026/11/entire-git-forge-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Entire is a Git forge designed specifically for collaboration between human developers and AI coding agents. Its premise is that traditional software development infrastructure, particularly the pull request (PR) model,…",
+      "ts": 1794135600,
+      "published": "2026-11-08T11:00:00+00:00",
+      "collected_at": "2026-11-09T01:36:42+09:00"
+    },
+    {
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "link": "https://github.com/synchopate/llama-modchip",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/synchopate/llama-modchip Comments URL: https://news.ycombinator.com/item?id=50411961 Points: 158 # Comments: 50",
+      "ts": 1794133324,
+      "published": "2026-11-08T10:22:04+00:00",
+      "collected_at": "2026-11-09T01:36:42+09:00"
+    },
     {
       "title": "Google Cloud Adds Self-Managed VMware Cloud Foundation on Bare Metal",
       "link": "https://www.infoq.com/news/2026/11/google-cloud-self-managed-vmware/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -21,6 +91,16 @@
       "ts": 1794119640,
       "published": "2026-11-08T06:34:00+00:00",
       "collected_at": "2026-11-08T18:58:19+09:00"
+    },
+    {
+      "title": "Java and the Next Generation of Programming Models",
+      "link": "https://inside.java/2026/11/08/devoxxbelgium-java-next-programming-models/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Modern software increasingly interacts with AI models, query languages, and other specialized programming models, forcing you to switch contexts, embed foreign code, or write verbose wrappers to bridge the gap. What if…",
+      "ts": 1794096000,
+      "published": "2026-11-08T00:00:00+00:00",
+      "collected_at": "2026-11-09T01:36:42+09:00"
     },
     {
       "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
@@ -11571,246 +11651,6 @@
       "ts": 1791565200,
       "published": "2026-10-09T17:00:00+00:00",
       "collected_at": "2026-10-10T05:45:21+09:00"
-    },
-    {
-      "title": "Can TypeSafe's Jev Make AI Agents Safer Without Another LLM?",
-      "link": "https://towardsdatascience.com/can-typesafes-jev-make-ai-agents-safer-without-another-llm/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "How a decision-first model can catch risky tool calls before they turn into real-world actions The post Can TypeSafe's Jev Make AI Agents Safer Without Another LLM? appeared first on Towards Data Science .",
-      "ts": 1791559800,
-      "published": "2026-10-09T15:30:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Digital twins version 2.0: The skeptics speak up",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/09/digital-twins-version-2-0-the-skeptics-speak-up/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This is Jessica. Several years since the earliest research papers on the topic came out, the idea of using LLMs to simulate human behavior like survey responses or experiment outcomes (“silicon sampling”) is hitting mai…",
-      "ts": 1791559359,
-      "published": "2026-10-09T15:22:39+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Impactful scheduling for GPU clusters",
-      "link": "https://huggingface.co/blog/allenai/impactful-scheduling",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1791559229,
-      "published": "2026-10-09T15:20:29+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Quoting Matthew Green",
-      "link": "https://simonwillison.net/2026/Oct/9/matthew-green/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Everyone is very concerned about being respectable, so I’m going to be the goofball who raises worst-case possibilities. I think there is a 1% chance we live in Minicrypt, and a 15% chance we functionally lose confidenc…",
-      "ts": 1791558149,
-      "published": "2026-10-09T15:02:29+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite",
-      "link": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "GitHub migrated more than 800,000 lines of Copilot runtime code from TypeScript and Node.js to Rust in about 14.5 weeks using AI-assisted development. The incremental migration used N-API interoperability, automated tes…",
-      "ts": 1791556140,
-      "published": "2026-10-09T14:29:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Github Migrates Copilot Runtime to Rust with AI-Assisted Rewrite",
-      "link": "https://www.infoq.com/news/2026/10/github-copilot-rust-migration/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "GitHub migrated more than 800,000 lines of Copilot runtime code from TypeScript and Node.js to Rust in about 14.5 weeks using AI-assisted development. The incremental migration used N-API interoperability, automated tes…",
-      "ts": 1791556140,
-      "published": "2026-10-09T14:29:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Generate Images in Python With OpenAI's GPT Image API",
-      "link": "https://realpython.com/generate-images-openai/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to generate images from text prompts with OpenAI's GPT Image API in Python, tune their size and quality, and edit them with a follow-up prompt.",
-      "ts": 1791554400,
-      "published": "2026-10-09T14:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Modern Web Automation With Python and Selenium",
-      "link": "https://realpython.com/modern-web-automation-with-python-and-selenium/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Automate the browser with Python and Selenium: headless browsing, interacting with web elements, and the Page Object Model pattern.",
-      "ts": 1791554400,
-      "published": "2026-10-09T14:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Hugging Face Transformers: Leverage Open-Source AI in Python",
-      "link": "https://realpython.com/huggingface-transformers/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Get hands-on with Hugging Face Transformers in Python. Download, run, and inspect pretrained open-source AI models, and speed up inference on GPUs.",
-      "ts": 1791554400,
-      "published": "2026-10-09T14:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Build Your First MCP Server in Python (Stateless Spec Edition)",
-      "link": "https://www.kdnuggets.com/build-your-first-mcp-server-in-python-stateless-spec-edition",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "MCP just got simpler. Learn how to build a stateless MCP server in Python and expose tools, resources, and prompts over HTTP.",
-      "ts": 1791554400,
-      "published": "2026-10-09T14:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Where Does the Money Go Across Long-Running Coding Agents?",
-      "link": "https://towardsdatascience.com/where-does-the-money-go-across-long-running-coding-agents/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "The cost of control The post Where Does the Money Go Across Long-Running Coding Agents? appeared first on Towards Data Science .",
-      "ts": 1791554400,
-      "published": "2026-10-09T14:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Thinking more seriously about the design of exploratory studies: A manifesto",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/09/thinking-more-seriously-about-the-design-of-exploratory-studies-a-manifesto/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I came across this post from 2016 which I still think is important. The idea is that there should be some guidelines for experimental design, not just for “confirmatory” studies that produce estimates, standard errors,…",
-      "ts": 1791553994,
-      "published": "2026-10-09T13:53:14+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "A new feature for my blog, built using my voice",
-      "link": "https://simonwillison.net/2026/Oct/9/built-using-my-voice/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I shipped a new feature for my blog today: the Newsletters page, which offers an index of all of the newsletters I've sent out, both my free weekly Substack and my monthly sponsors-only updates. I built the feature almo…",
-      "ts": 1791550446,
-      "published": "2026-10-09T12:54:06+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Build Your First AI Agent with One Tool Call",
-      "link": "https://towardsdatascience.com/build-your-first-ai-agent-with-one-tool-call/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "AI Agents for Beginners, Part 1 The post Build Your First AI Agent with One Tool Call appeared first on Towards Data Science .",
-      "ts": 1791549000,
-      "published": "2026-10-09T12:30:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #314: Codemoo: Demonstrating How Coding Agents Work",
-      "link": "https://realpython.com/podcasts/rpp/314/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "How do you assemble the core pieces of a coding agent? How are developers defining projects through conversation and introspection? This week on the show, Geir Arne Hjelle returns to talk about his recent project to dem…",
-      "ts": 1791547200,
-      "published": "2026-10-09T12:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Quiz: Generate Images in Python With OpenAI's GPT Image API",
-      "link": "https://realpython.com/quizzes/generate-images-openai/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of generating images in Python with OpenAI's GPT Image models, from text prompts and Base64 decoding to size, quality, and edits.",
-      "ts": 1791547200,
-      "published": "2026-10-09T12:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Quiz: Python Basics Exercises: Strings and String Methods",
-      "link": "https://realpython.com/quizzes/python-exercises-string-methods/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Practice Python string methods. Slice strings, change their case, strip whitespace, and format text for printing in this quiz for beginners.",
-      "ts": 1791547200,
-      "published": "2026-10-09T12:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "10 Free AI Tools That Replace Expensive Software for Data Scientists",
-      "link": "https://www.kdnuggets.com/10-free-ai-tools-that-replace-expensive-software-for-data-scientists",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Build a production-grade data science toolkit without spending a dollar, using open-source AI tools that match, and sometimes exceed, their paid alternatives.",
-      "ts": 1791547200,
-      "published": "2026-10-09T12:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Let your AI agents paint big arrows, boxes and text on your screen",
-      "link": "https://github.com/franzenzenhofer/big-arrow-on-the-screen",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/franzenzenhofer/big-arrow-on-the-screen Comments URL: https://news.ycombinator.com/item?id=50018817 Points: 235 # Comments: 94",
-      "ts": 1791543828,
-      "published": "2026-10-09T11:03:48+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Presentation: Ontology‐Driven Observability: Building the E2E Knowledge Graph at Netflix Scale",
-      "link": "https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Prasanna Vijayanathan and Renzo Sanchez-Silva share how Netflix tackles observability across 38M events/sec. They discuss replacing reactive monitoring with an AI-driven operational ontology and agentic workflows using…",
-      "ts": 1791543600,
-      "published": "2026-10-09T11:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Presentation: Ontology‐Driven Observability: Building the E2E Knowledge Graph at Netflix Scale",
-      "link": "https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Prasanna Vijayanathan and Renzo Sanchez-Silva share how Netflix tackles observability across 38M events/sec. They discuss replacing reactive monitoring with an AI-driven operational ontology and agentic workflows using…",
-      "ts": 1791543600,
-      "published": "2026-10-09T11:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "How to Fine-Tune Llama 3 for Custom Tool Calling with Unsloth in Python",
-      "link": "https://machinelearningmastery.com/how-to-fine-tune-llama-3-for-custom-tool-calling-with-unsloth-in-python/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "Llama 3 is a capable generalist, but that's exactly the problem when you need an agent that reliably outputs structured JSON for a specific API.",
-      "ts": 1791543600,
-      "published": "2026-10-09T11:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Stop Using AI. Start Hiring It.",
-      "link": "https://towardsdatascience.com/stop-using-ai-start-hiring-it/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "AI agents can now write more code than any of us can read. That changed how I think about AI. The post Stop Using AI. Start Hiring It. appeared first on Towards Data Science .",
-      "ts": 1791543600,
-      "published": "2026-10-09T11:00:00+00:00",
-      "collected_at": "2026-10-10T00:56:55+09:00"
-    },
-    {
-      "title": "Presentation: Ontology‐Driven Observability: Building the E2E Knowledge Graph at Netflix Scale",
-      "link": "https://www.infoq.com/presentations/netflix-observability-aiops-ontology-scale/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Prasanna Vijayanathan and Renzo Sanchez-Silva share how Netflix tackles observability across 38M events/sec. They discuss replacing reactive monitoring with an AI-driven operational ontology and agentic workflows using…",
-      "ts": 1791543600,
-      "published": "2026-10-09T11:00:00+00:00",
-      "collected_at": "2026-10-13T02:33:56+09:00"
     }
   ]
 }
