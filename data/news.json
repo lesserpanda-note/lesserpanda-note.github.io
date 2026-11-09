@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-09T05:59:23+09:00",
-  "count": 1164,
+  "updated": "2026-11-09T09:44:31+09:00",
+  "count": 1162,
   "items": [
+    {
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "link": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning s…",
+      "ts": 1794176760,
+      "published": "2026-11-08T22:26:00+00:00",
+      "collected_at": "2026-11-09T09:44:19+09:00"
+    },
+    {
+      "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "link": "https://latent.space/p/cs146s/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "What happens when students can one-shot last year’s homework? Inside CS146S and the engineering team at Monaco.",
+      "ts": 1794174104,
+      "published": "2026-11-08T21:41:44+00:00",
+      "collected_at": "2026-11-09T09:44:19+09:00"
+    },
+    {
+      "title": "[One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "link": "https://latent.space/p/one_million_ai_engineer_special_how_stanford_teaches_ai-native_engineering_mihail_eric_monaco/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "What do you assign when a coding agent can finish last year’s homework in one prompt? In the second run of Stanford’s CS146S, Mihail Eric brought open-source maintainers into the course. Students have to learn an unfami…",
+      "ts": 1794173009,
+      "published": "2026-11-08T21:23:29+00:00",
+      "collected_at": "2026-11-09T09:44:19+09:00"
+    },
     {
       "title": "1.15.38",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.38",
@@ -11590,56 +11620,6 @@
       "summary": "Anthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa appli…",
       "ts": 1791597852,
       "published": "2026-10-10T02:04:12+00:00",
-      "collected_at": "2026-10-10T15:49:23+09:00"
-    },
-    {
-      "title": "Why AlphaFold Didn't Solve Protein Folding — Pushmeet Kohli, Google DeepMind & Sal Candido, Biohub",
-      "link": "https://www.latent.space/p/biohub-deepmind",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "From the Bitter Lesson of AI scaling to the unsolved mysteries of protein folding, Google DeepMind’s Pushmeet Kohli and Biohub’s Sal Candido are rethinking what it takes to build AI that truly understands biology.",
-      "ts": 1791592286,
-      "published": "2026-10-10T00:31:26+00:00",
-      "collected_at": "2026-10-10T09:35:32+09:00"
-    },
-    {
-      "title": "Keep WordPress If You're Looking for Trouble... Or Read This!",
-      "link": "https://foojay.io/today/keep-wordpress-if-youre-looking-for-trouble/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "~13K WordPress sites get hacked every day. Here's why static site generators are the answer, and how to migrate.",
-      "ts": 1791590400,
-      "published": "2026-10-10T00:00:00+00:00",
-      "collected_at": "2026-10-10T15:49:23+09:00"
-    },
-    {
-      "title": "Deno is joining Cloudflare",
-      "link": "https://simonwillison.net/2026/Oct/9/deno-is-joining-cloudflare/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Deno is joining Cloudflare The Deno team released the first version of celld back in August - their open source implementation of the Durable Objects pattern from Cloudflare Workers. Today, Cloudflare are acquiring Deno…",
-      "ts": 1791586117,
-      "published": "2026-10-09T22:48:37+00:00",
-      "collected_at": "2026-10-10T09:10:16+09:00"
-    },
-    {
-      "title": "1.15.27",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.27",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add XPU to OpenCLIP provider device options Add deepinfra as an OpenAI-compatible provider Record why an evaluation stopped before its verdict Record what the run app's Deploy met before an attem…",
-      "ts": 1791585224,
-      "published": "2026-10-09T22:33:44+00:00",
-      "collected_at": "2026-11-04T07:14:58+09:00"
-    },
-    {
-      "title": "Anthropic AI model submits false tip on unsolved Philly murder",
-      "link": "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/ Comments URL: https://news.ycombinator.com/item?id=50027118 Points: 144 # Commen…",
-      "ts": 1791583235,
-      "published": "2026-10-09T22:00:35+00:00",
       "collected_at": "2026-10-10T15:49:23+09:00"
     }
   ]
