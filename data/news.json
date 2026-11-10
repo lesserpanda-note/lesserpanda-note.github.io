@@ -1,7 +1,247 @@
 {
-  "updated": "2026-11-10T18:28:27+09:00",
-  "count": 1193,
+  "updated": "2026-11-11T02:33:32+09:00",
+  "count": 1218,
   "items": [
+    {
+      "title": "[release-branch.go1.27] go1.27.4",
+      "link": "https://github.com/golang/go/releases/tag/go1.27.4",
+      "source": "Go Releases",
+      "category": "Go",
+      "summary": "Change-Id: Ida742520c659821a11ea3ede01983feb265dec69 Reviewed-on: https://go-review.googlesource.com/c/go/+/861709 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Cherry Mui cherryyz@google.com Reviewed-by: Dmit…",
+      "ts": 1794329243,
+      "published": "2026-11-10T16:47:23+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "[release-branch.go1.26] go1.26.11",
+      "link": "https://github.com/golang/go/releases/tag/go1.26.11",
+      "source": "Go Releases",
+      "category": "Go",
+      "summary": "Change-Id: I3107dafa25ba509879475843bd2ce7286dc16ab9 Reviewed-on: https://go-review.googlesource.com/c/go/+/861708 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Cherry Mui cherryyz@google.com Reviewed-by: Dmit…",
+      "ts": 1794329236,
+      "published": "2026-11-10T16:47:16+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Scikit-Learn Matched or Beat Jev's Calibration on BANKING77",
+      "link": "https://towardsdatascience.com/scikit-learn-matched-or-beat-jevs-calibration-on-banking77/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Jev needs no training and at most three examples per intent; the open rebuild needs labels. Both still fall into the none-of-the-above trap. The post Scikit-Learn Matched or Beat Jev's Calibration on BANKING77 appeared…",
+      "ts": 1794328200,
+      "published": "2026-11-10T16:30:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Constructing a latent-variable model to fit measurement data: A Stan story, part 2",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/10/constructing-a-latent-variable-model-to-fit-measurement-data-a-stan-story-part-2/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Following up on our post from the other day, we were trying to come up with parameters for the following measurement-error model: – People have latent a distribution of attractiveness: latent_attractiveness ~ normal(0,…",
+      "ts": 1794327068,
+      "published": "2026-11-10T16:11:08+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Gemini 4 Carbon is now available",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794326627,
+      "published": "2026-11-10T16:03:47+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Integrating LLM Translation into Your Scikit-Learn Pipelines with Scikit-LLM",
+      "link": "https://www.kdnuggets.com/integrating-llm-translation-into-your-scikit-learn-pipelines-with-scikit-llm",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Learn, in a few easy steps, how to build a two-stage scikit-learn pipeline for multilingual text classification, guided by two pre-trained language models handled by Scikit-LLM for translation and zero-shot classificati…",
+      "ts": 1794322800,
+      "published": "2026-11-10T15:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62%",
+      "link": "https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A software tester ran six testing skills on Haiku, Sonnet, and Opus; pushy descriptions added only 5 points, and near-miss requests never fired a skill. The post A Session-Start Hook Raised Claude Code Skill Firing From…",
+      "ts": 1794322800,
+      "published": "2026-11-10T15:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Fragments: November 10",
+      "link": "https://martinfowler.com/fragments/2026-11-10.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "It’s that time of the year when the November Thoughtworks Technology Radar appears. Again my colleagues have taken a sweep of the technologies that our teams have used in the field, and pulled together a summary of what…",
+      "ts": 1794321000,
+      "published": "2026-11-10T14:30:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Long-horizon agents and durable execution",
+      "link": "https://martinfowler.com/articles/durable-execution-agents.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Long-horizon agents can automate complex tasks that take days or weeks to complete and involve multiple exchanges with people and external systems. Many things can go wrong during this time, including process crashes, n…",
+      "ts": 1794319800,
+      "published": "2026-11-10T14:10:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
+      "link": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Google and Adobe are integrating creative and productivity tools. Edit PDFs in Drive and use Adobe AI in Gemini. See what’s new in this partnership.",
+      "ts": 1794319200,
+      "published": "2026-11-10T14:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Python Coding Interview Practice: Prefix Sums and Binary Search",
+      "link": "https://realpython.com/courses/coding-interview-practice-prefix-sums-binary-search/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice prefix sums and binary search in Python through 14 coding interview exercises with tests, efficiency checks, hints, and code reviews.",
+      "ts": 1794319200,
+      "published": "2026-11-10T14:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Python Coding Interview Practice: Hashing, Pointers, and Windows",
+      "link": "https://realpython.com/courses/coding-interview-practice-hashing-two-pointers-sliding-windows/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice hashing, two pointers, and sliding windows in Python through 20 coding interview exercises with tests, hints, and guided code reviews.",
+      "ts": 1794319200,
+      "published": "2026-11-10T14:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "How to Validate LLM Output in a DuckDB and dbt Pipeline",
+      "link": "https://towardsdatascience.com/how-to-validate-llm-output-in-a-duckdb-and-dbt-pipeline/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "A Gemini Flash-Lite step pulls skills, seniority, and Nigeria eligibility from 18 RemoteOK postings, with Python checks and dbt tests guarding every answer. The post How to Validate LLM Output in a DuckDB and dbt Pipeli…",
+      "ts": 1794317400,
+      "published": "2026-11-10T13:30:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Google Cloud launches Gemini for healthcare.",
+      "link": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Google Cloud launches Gemini for healthcare to unify clinical data and automate workflows. Reduce administrative burnout. See how it works.",
+      "ts": 1794315600,
+      "published": "2026-11-10T13:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "5 Techniques for Fine-Tuning LLMs Without Breaking the Bank",
+      "link": "https://www.kdnuggets.com/5-techniques-for-fine-tuning-llms-without-breaking-the-bank",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Learn five practical ways to fine-tune LLMs on a budget, from LoRA and QLoRA to Unsloth, DPO, and right-sizing your GPU, with working code for each technique.",
+      "ts": 1794315600,
+      "published": "2026-11-10T13:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "AlphaProof Code agents wrote three million lines of proofs in Lean to verify Signal’s core encryption.",
+      "ts": 1794312148,
+      "published": "2026-11-10T12:02:28+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Helping caregivers use AI in everyday life",
+      "link": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life.",
+      "ts": 1794312000,
+      "published": "2026-11-10T12:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Quiz: Getting Started With Git",
+      "link": "https://realpython.com/quizzes/getting-started-with-git/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your Git basics, from configuring your identity and committing changes to rewriting history and ignoring files you don't need.",
+      "ts": 1794312000,
+      "published": "2026-11-10T12:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Quiz: Python Coding Interview Practice: Hashing, Pointers, and Windows",
+      "link": "https://realpython.com/quizzes/coding-interview-practice-hashing-two-pointers-sliding-windows/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your grasp of hashing, two pointers, and sliding windows, and learn to pick an approach from a problem's time and space constraints.",
+      "ts": 1794312000,
+      "published": "2026-11-10T12:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Quiz: Python Coding Interview Practice: Prefix Sums and Binary Search",
+      "link": "https://realpython.com/quizzes/coding-interview-practice-prefix-sums-binary-search/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your grasp of prefix sums and binary search, and learn to pick between them from a problem's values, ordering, and time bounds.",
+      "ts": 1794312000,
+      "published": "2026-11-10T12:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outside the Diff",
+      "link": "https://towardsdatascience.com/copilot-caught-8-of-8-diff-bugs-with-rules-0-of-2-outside-the-diff/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A guard on negative enrollment days looked correct while the function it called overbilled a customer 11 days, and an invariant test would have caught it. The post Copilot Caught 8 of 8 Diff Bugs With Rules, 0 of 2 Outs…",
+      "ts": 1794312000,
+      "published": "2026-11-10T12:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience",
+      "link": "https://www.infoq.com/presentations/scaling-multi-agent-llm-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Aditya Mulik explains how Walmart Global Tech deployed multi-agent LLM workflows across 4,700 stores for nightly batch inventory forecasting. He discusses tackling production hurdles - schema violations, cross-departmen…",
+      "ts": 1794308400,
+      "published": "2026-11-10T11:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience",
+      "link": "https://www.infoq.com/presentations/scaling-multi-agent-llm-batch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Aditya Mulik explains how Walmart Global Tech deployed multi-agent LLM workflows across 4,700 stores for nightly batch inventory forecasting. He discusses tackling production hurdles - schema violations, cross-departmen…",
+      "ts": 1794308400,
+      "published": "2026-11-10T11:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "What Are Diffusion Language Models, and Why Are They Different From GPT?",
+      "link": "https://machinelearningmastery.com/what-are-diffusion-language-models-and-why-are-they-different-from-gpt/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "Then you train the neural network to reverse this process, commonly using a mean squared error objective.",
+      "ts": 1794308400,
+      "published": "2026-11-10T11:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
     {
       "title": "Closing the AI guidance gap in education",
       "link": "https://openai.com/index/closing-ai-guidance-gap-education",
@@ -51,6 +291,16 @@
       "ts": 1794295701,
       "published": "2026-11-10T07:28:21+00:00",
       "collected_at": "2026-11-10T18:28:08+09:00"
+    },
+    {
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "link": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "ts": 1794294000,
+      "published": "2026-11-10T07:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
     },
     {
       "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
@@ -113,6 +363,66 @@
       "collected_at": "2026-11-10T09:51:35+09:00"
     },
     {
+      "title": "Tutorial: The G1 Garbage Collector",
+      "link": "https://inside.java/2026/11/10/g1gc-tutorial/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "In this tutorial, we will cover a brief history of G1, its key design concepts, and how to use it.",
+      "ts": 1794268800,
+      "published": "2026-11-10T00:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "RuleBox 2.0: Business Rules Without the Business Logic Mess",
+      "link": "https://foojay.io/today/rulebox-20-business-rules-without-the-business-logic-mess/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "RuleBox 2.0 brings readable business rules, rules as data, dry runs, audit trails, metrics, and a visualizer to BoxLang and ColdBox applications.",
+      "ts": 1794268800,
+      "published": "2026-11-10T00:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Announcing a New Home for Spring for Apache Pulsar",
+      "link": "https://spring.io/blog/2026/11/10/spring-pulsar-new-home-asf",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "We are excited to announce an important transition for the Spring for Apache Pulsar project! To foster even deeper integration and collaboration with the broader Pulsar community, the project is moving to a new official…",
+      "ts": 1794268800,
+      "published": "2026-11-10T00:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794268800,
+      "published": "2026-11-10T00:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Decision Models in Hugging Face",
+      "link": "https://huggingface.co/blog/decision",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794268800,
+      "published": "2026-11-10T00:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "link": "https://www.anthropic.com/news/roadshow-launch",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.",
+      "ts": 1794268800,
+      "published": "2026-11-10T00:00:00+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
       "title": "llm-anthropic 0.31",
       "link": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
       "source": "Simon Willison",
@@ -131,6 +441,16 @@
       "ts": 1794268641,
       "published": "2026-11-09T23:57:21+00:00",
       "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
+      "link": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Our most capable vision-language-action model enhances robot dexterity, reliability, and safety",
+      "ts": 1794253907,
+      "published": "2026-11-09T19:51:47+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
     },
     {
       "title": "The backlash about data centers might really just be about electricity",
@@ -9183,6 +9503,16 @@
       "collected_at": "2026-10-20T08:27:42+09:00"
     },
     {
+      "title": "v1.0.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Final Legacy Server Release This release contains many bug and security fixes, and represents the final release of the legacy era servers. Packages Package Version Registry In this release @modelcontextprotocol/server-e…",
+      "ts": 1792383444,
+      "published": "2026-10-19T04:17:24+00:00",
+      "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
       "title": "“Death and Taxes: Taking Causal Inference into the Real World”",
       "link": "https://statmodeling.stat.columbia.edu/2026/10/18/death-and-taxes-taking-causal-inference-into-the-real-world/",
       "source": "Statistical Modeling",
@@ -11851,86 +12181,6 @@
       "ts": 1791755414,
       "published": "2026-10-11T21:50:14+00:00",
       "collected_at": "2026-10-15T20:05:29+09:00"
-    },
-    {
-      "title": "Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs",
-      "link": "https://www.infoq.com/news/2026/10/context-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Researchers from Meta, MIT, and the University of Washington introduce Context Language Models (CLMs), a new approach that enables language models to manage and edit their own context rather than relying on predefined m…",
-      "ts": 1791727200,
-      "published": "2026-10-11T14:00:00+00:00",
-      "collected_at": "2026-10-12T00:26:50+09:00"
-    },
-    {
-      "title": "Context Language Models: Self-Managing Context to Improve Performance and Reduce Compute Costs",
-      "link": "https://www.infoq.com/news/2026/10/context-language-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Researchers from Meta, MIT, and the University of Washington introduce Context Language Models (CLMs), a new approach that enables language models to manage and edit their own context rather than relying on predefined m…",
-      "ts": 1791727200,
-      "published": "2026-10-11T14:00:00+00:00",
-      "collected_at": "2026-10-12T00:26:50+09:00"
-    },
-    {
-      "title": "Functional Programming in Python: When and How to Use It",
-      "link": "https://realpython.com/python-functional-programming/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "See how Python supports functional programming, what the paradigm actually is, and where it fits in the code you write day to day.",
-      "ts": 1791727200,
-      "published": "2026-10-11T14:00:00+00:00",
-      "collected_at": "2026-10-12T00:26:50+09:00"
-    },
-    {
-      "title": "What Can I Do With Python?",
-      "link": "https://realpython.com/what-can-i-do-with-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "What can I do with Python? Build software, train AI, automate chores, and drive robots, plus the tools and projects to start with.",
-      "ts": 1791727200,
-      "published": "2026-10-11T14:00:00+00:00",
-      "collected_at": "2026-10-12T00:26:50+09:00"
-    },
-    {
-      "title": "A Practical Guide to OpenAI's New Decisions API",
-      "link": "https://towardsdatascience.com/a-practical-guide-to-openais-new-decisions-api/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "Is this the JEV killer? The post A Practical Guide to OpenAI's New Decisions API appeared first on Towards Data Science .",
-      "ts": 1791727200,
-      "published": "2026-10-11T14:00:00+00:00",
-      "collected_at": "2026-10-12T00:26:50+09:00"
-    },
-    {
-      "title": "Columbia University says, “We believe in difficult conversations at Columbia—in a broad embrace of freedom of expression. It’s in our DNA.”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/11/columbia-university-president-says-we-believe-in-difficult-conversations-at-columbia-in-a-broad-embrace-of-freedom-of-expression-its-in-our-dna/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Claire Shipman, the president of Columbia University, writes: We believe in difficult conversations at Columbia—in a broad embrace of freedom of expression. It’s in our DNA. I intend to uphold that tradition for several…",
-      "ts": 1791725095,
-      "published": "2026-10-11T13:24:55+00:00",
-      "collected_at": "2026-10-12T00:26:50+09:00"
-    },
-    {
-      "title": "Quiz: Continuous Integration With Python: An Introduction",
-      "link": "https://realpython.com/quizzes/python-continuous-integration/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of continuous integration in Python, from automated builds and unit tests to staging environments and deployable artifacts.",
-      "ts": 1791720000,
-      "published": "2026-10-11T12:00:00+00:00",
-      "collected_at": "2026-10-12T00:26:50+09:00"
-    },
-    {
-      "title": "Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns",
-      "link": "https://towardsdatascience.com/agentic-systems-a-practitioners-guide-to-6-advanced-architectural-patterns/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Beyond basic ReAct loops: six production-oriented architectures for building autonomous, reliable, and scalable LLM agents. The post Agentic Systems: A Practitioner's Guide to 6 Advanced Architectural Patterns appeared…",
-      "ts": 1791720000,
-      "published": "2026-10-11T12:00:00+00:00",
-      "collected_at": "2026-10-12T00:26:50+09:00"
     }
   ]
 }
