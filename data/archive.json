@@ -1,6 +1,110 @@
 {
   "digests": [
     {
+      "date": "2026-11-09",
+      "summary": "이번 묶음은 AI 에이전트 도구의 보안·거버넌스와 AI 업계의 재평가가 중심입니다. Apiiro는 Claude Code의 '다시 묻지 않기' 설정이 공개 GitHub 1,122개 파일에 실제 시크릿을 노출시켰다고 밝혔고, 골드만삭스는 트레이더·뱅커에게서 Claude Code를 회수했으며, GitLab 19.5는 외부 에이전트를 거버넌스 대상으로 끌어들였습니다. Anthropic은 증시 급락 속에 IPO 기업가치 논의가 1.3조 달러로 내려갔고, Pinterest는 40억 파라미터 Qwen3로 추천 참여를 끌어올렸습니다. Java는 JDK 28 Value Objects와 Project Babylon을, Spring AI 2.1.0-RC2는 DecisionModel을 선보였습니다. Kotlin·Node·Go·Rust·TypeScript는 실어 나를 소식이 없어 비웁니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "A Valhalla Ticker in One int",
+          "link": "https://inside.java/2026/11/09/inside-java-ticker-value-class/",
+          "summary": "JDK 28 프리뷰인 JEP 401 Value Objects를 써서 주식 티커 심볼을 단일 int 필드 하나에 담는 value class를 Inside Java가 구현해 보입니다.",
+          "detail": "티커 심볼(ORCL, GOOGL 같은 1~5자)을 37개 문자 알파벳(A~Z, 0~9, 마침표)으로 보고 문자당 6비트씩 32비트 int의 30비트 안에 패킹합니다. 식별자가 없는 value class는 특정 조건에서 스칼라화(scalarization)되어 int 필드가 별도 객체 할당 없이 지역 변수·인자·반환값으로 흘러 속도가 빨라집니다. 생성자는 각 문자를 알파벳에서 찾아 1~37 코드로 바꾼 뒤 6비트씩 왼쪽으로 밀어 넣고, 빈 자리는 0으로 남겨 역변환 때 심볼의 끝을 찾습니다. JEP 401 Value Objects는 JDK 28의 프리뷰 기능입니다."
+        },
+        {
+          "category": "Java",
+          "title": "Java and the Next Generation of Programming Models",
+          "link": "https://inside.java/2026/11/08/devoxxbelgium-java-next-programming-models/",
+          "summary": "Devoxx Belgium 2026 세션 녹화로, JVM 바깥의 런타임과 AI 모델을 Java 코드로 직접 표현하는 방향을 다룹니다.",
+          "detail": "Foreign Function and Memory(FFM) API와 jextract로 JVM 밖 런타임을 안전하게 호출하는 현재의 방법을 보인 뒤, Project Babylon의 코드 리플렉션으로 한 걸음 더 나아갑니다. 코드 리플렉션은 AI 모델을 Java 프로그램으로 표현하면 Babylon이 이를 분석·변환해 추론 엔진으로 낮추고(lower) 하드웨어 가속기 백엔드를 활용하게 하며, 외부 모델 파일이나 글루 코드 없이 순수 Java로 AI 모델을 작성하는 미래를 제시합니다."
+        },
+        {
+          "category": "Spring",
+          "title": "Spring AI 2.1.0-RC2 Available Now",
+          "link": "https://spring.io/blog/2026/11/09/spring-ai-2-1-0-RC2-available-now",
+          "summary": "Spring AI 2.1.0-RC2가 Maven Central에 공개됐고, 타입이 있는 결정을 내리는 DecisionModel API를 새로 담았습니다.",
+          "detail": "DecisionModel은 자유 텍스트 대신 미리 정의한 결과 중 하나를 고르고 각 결과의 확률을 돌려주는 API로, 예/아니오(YesNoQuestion), 선택지(ChoiceQuestion), 순서 척도(ScoreQuestion) 세 가지 질문을 DecisionPrompt에 담아 호출합니다. 애플리케이션이 확률 임계값을 정해 얼마나 확신할 때 행동할지 결정하며 분류·가드레일(프롬프트 인젝션 차단)·업무 로직이 주 용도이고, OpenAI·Anthropic 등 세 가지 구현을 제공합니다. 이 밖에 도구 호출 델타 스트리밍, 벡터 스토어 다섯 곳으로 확대된 사전 계산 임베딩, 새 MCP 프로토콜 리비전 서버 지원, Anthropic Java SDK 3.x 업그레이드가 포함됩니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+          "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+          "summary": "Apiiro가 Claude Code의 '다시 묻지 않기' 선택이 시크릿 담긴 명령을 설정 파일에 저장해 공개 GitHub에 유출시킨다고 보고했습니다.",
+          "detail": "데이터베이스를 확인하거나 API를 호출하라고 하면 Claude Code가 제안하는 명령에 설정 파일의 시크릿이 실려 들어가고, '다시 묻지 않기'(Yes, and do not ask again)를 고르면 그 명령이 시크릿째 .claude/settings.local.json 에 저장됩니다. Apiiro는 공개 GitHub의 이 파일 104,185개 중 1,122개에서 실제 시크릿을, git 히스토리와 공유 settings.json·에이전트 대화 기록에서 1,160개를 더 찾았고, 1,994개 저장소에서 2,539개의 실제 시크릿(DB 비밀번호, 클라우드 키, API 토큰, SSH root 로그인)을 확인했습니다. 63개 조직이 영향을 받았습니다. 모델이 아니라 Claude Code 자체 동작이며 Opus 5.5·Fable 5.1에서도 재현됩니다. 11월 7일 Claude Code 책임자 Boris Cherny는 시크릿 스캐닝과 auto 모드 보완을 프로토타입하겠다고 밝혔습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+          "link": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+          "summary": "골드만삭스가 Claude Code와 GitHub 사용을 엔지니어로 제한해 트레이더·뱅커의 AI 코딩 도구 접근을 끊었습니다.",
+          "detail": "Bloomberg 보도에 따르면 골드만삭스는 10월 내부 가이드를 고쳐 Anthropic의 Claude Code와 Microsoft의 GitHub을 엔지니어에게만 허용했습니다. 생산성과 리스크 검토 뒤의 조치로, 트레이딩·퀀트·소프트웨어를 겸하는 strats는 접근을 유지합니다. 트레이더들은 이 도구로 고객 거래 흐름을 추적하고 시장 움직임을 모델링했는데, 엔지니어 교육을 받지 않은 수천 명이 코드를 쓰고 실행하는 소프트웨어를 고객 정보가 있는 기계에서 돌린 셈이었습니다. 7월만 해도 CIO Marco Argenti는 비개발 직원의 바이브 코딩을 치켜세웠습니다. 4월에는 홍콩 뱅커의 Claude 접근을 막았고(JPMorgan도 6월에 제외) 이번엔 역할 기준이며, 골드만은 Anthropic IPO의 주관사입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Perplexity launches AI agents for work",
+          "link": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+          "summary": "Perplexity가 장기 업무를 맡아 스스로 계획하고 추적하는 개인 에이전트 teammates를 출시했습니다.",
+          "detail": "teammates는 Perplexity Computer 위에서 사용자의 도구·파일과 함께 동작하며, 프로젝트를 계획·조율하고 우선순위가 바뀌면 방향을 틀며 결과를 리뷰용으로 제출합니다. 마케팅·영업·지원·운영·재무 같은 여러 워크스트림에 걸쳐 목표·작업 이력·공유 파일을 기억하고 새 작업은 이미 한 일 위에 쌓입니다. 능동적으로 진행 상황을 모니터링해 질의를 기다리지 않고 조사·행동하며(예: 단골 고객이 거래를 멈추면 주문·지원 이력을 살펴 원인을 찾고 제안을 만듦), Slack 채널에 추가하면 동료가 작업을 맡기거나 진행을 물을 수 있고 에이전트끼리 작업을 넘길 수도 있습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Anthropic IPO valuation talks drop to $1.3T",
+          "link": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3-trillion-as-major-investors",
+          "summary": "Anthropic의 IPO 논의 기업가치가 목요일 증시 급락 뒤 1.2~1.3조 달러로 내려갔습니다.",
+          "detail": "Bloomberg·WSJ 보도에 따르면 며칠 전 은행에 전달된 1.4~1.5조 달러, 10월 초 거론된 2조 달러에서 떨어진 수치이며, 주요 투자자 셋은 더 낮은 가격을 요구하고 한 명은 1조 달러 근처를 제시했습니다. 목요일 나스닥100이 6.4% 급락하며 사상 최대인 약 2.3조 달러 시가총액이 증발한 것이 재평가의 계기였습니다. 수정된 S-1은 3분기 매출 170억 달러(전년 대비 12배), 9개월 332억 달러, 연환산 약 680억 달러를 보였습니다. 3분기 순손실 233억 달러의 대부분은 Amazon 전환사채의 공정가치 재측정에서 나온 회계상 손실로 IPO 때 지분 전환되면 대부분 사라지며, 3분기 영업은 거의 손익분기, gross margin은 약 85%입니다. 컴퓨트 약정은 8,954억 달러에 이릅니다."
+        },
+        {
+          "category": "AI",
+          "title": "Pinterest Replaces Journey Clustering with 4B Qwen3 LLM, Reports Improved Engagement",
+          "link": "https://www.infoq.com/news/2026/11/pinterest-journey/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Pinterest가 사용자 여정 추론을 다단계 클러스터링에서 미세조정한 40억 파라미터 Qwen3 LLM으로 바꿔 참여 지표를 끌어올렸습니다.",
+          "detail": "이메일 클릭률이 1.1%, 푸시 열람이 1.3% 올랐습니다. 기존에는 키워드를 임베딩·계층적 클러스터링으로 묶었는데, 새 시스템은 360일 창의 최대 150개 행동 이력과 간결한 프로필을 읽어 여정 이름을 생성하는 과제로 다룹니다. 검색·저장은 우연한 클릭보다 가중치를 더 받고 근거가 부족하면 빈 결과도 허용합니다. 사람이 붙인 라벨 없이 프런티어 모델로 합성 학습 예시를 만들어 Qwen3 0.6B~8B를 지도 미세조정과 LoRA로 학습했고, 추론 품질과 처리량의 균형에서 4B를 골랐습니다. 서빙은 L40S GPU 위 vLLM 앞단에 NVIDIA Dynamo를 두고 연속 배칭·PagedAttention·프리픽스 캐시 라우팅을 썼으며, 최근 처리한 사용자는 건너뛰어 불필요한 추론을 피했습니다."
+        },
+        {
+          "category": "AI",
+          "title": "GitLab 19.5 Makes Agentic Development a Governed Part of the DevOps Platform",
+          "link": "https://www.infoq.com/news/2026/11/gitlab-19-5-agentic-platform/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "10월 15일 나온 GitLab 19.5가 GitLab MCP 서버를 정식 출시하고 외부 AI 에이전트에 대한 거버넌스를 더했습니다.",
+          "detail": "MCP 서버가 GA가 되어 Claude Code·Cursor 같은 도구가 GitLab 도구 카탈로그에 접근하고 GitLab Duo 에이전트·플로를 호출할 수 있으며, 관리자는 노출할 도구셋을 골라 최소 권한을 줄 수 있습니다. GitLab.com은 MCP 요청을 Free 분당 60회, Premium·Ultimate 600회로 제한합니다. 핵심은 Claude Code·Cursor·Codex 같은 Externally Connected Agents를 AI 거버넌스에 편입해 사용자·에이전트·프로젝트·시점을 기록하고 감사 이벤트를 SIEM으로 스트리밍하는 것입니다. Duo CLI에는 모든 명령을 매번 승인받지 않고 실행하는 auto 모드가 추가됐고(기본 비활성), 열린 목표를 맡기는 /goal 명령과 OpenBao 기반 GitLab Secrets Manager가 GA가 됐습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Cloudflare Scales D1 Control Plane to Millions of Databases",
+          "link": "https://www.infoq.com/news/2026/11/cloudflare-d1-control-plane/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Cloudflare가 서버리스 SQL 데이터베이스 D1의 컨트롤 플레인을 수백만 개 규모로 재설계한 과정을 공개했습니다.",
+          "detail": "중앙 병목을 피하고 재시도·멱등성·최종 일관성을 쓰는 설계로, 트랜잭션 메타데이터는 Postgres, 분석은 ClickHouse, 전역 복제 라우팅은 Workers KV가 맡고 쿼리 처리는 엣지에 두어 관리 작업과 분리합니다. 30초 하트비트(DB별 지터)로 각 D1 Durable Object를 진실의 원천인 Postgres와 맞춰 실패한 생성·삭제를 스스로 교정합니다. 요청은 Edge API Worker(인증·인가·레이트리밋)에서 Eyeball Worker를 거쳐 해당 Durable Object로 직접 라우팅해 중앙 Postgres를 데이터 경로에서 뺍니다. Workers KV는 캐시가 아니라 내구 저장소라, 대규모 캐시 소실 때 수백만 DB가 Postgres로 몰리는 메타안정 실패를 막습니다. 지난 1년간 일일 활성 DB가 18배 늘었습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Article: Identity as an Architectural Concern: Enterprise IAM Beyond Authentication",
+          "link": "https://www.infoq.com/articles/identity-as-architecture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "규제 금융권의 IAM 플랫폼 운영 경험을 바탕으로, 엔터프라이즈 규모에서는 신원을 인증 이후의 아키텍처 문제로 다뤄야 한다고 주장합니다.",
+          "detail": "로그인은 벤더 선택이지만 서비스와 소유자가 많아지면 '누가 접근을 승인했고 지금도 유효한가'가 어려워집니다. 접근 질문이 소유권·유효성에 관한 것이 되면 역할 테이블보다 그래프가 맞아, '이 계정의 소유자는 누구인가'가 역할 테이블에선 조인 체인이지만 Neo4j에선 한 번의 순회입니다. 서비스 계정 소유자 약 8만 명을 이직·퇴사 속에서 추적하는 것이 거버넌스의 대부분인데, 소유자가 떠난 계정은 아무도 지켜보지 않는 자격 증명이기 때문입니다. 취소(revocation)를 이벤트 스트림으로 보내면 최종 일관성이 되므로 최악의 지연을 최대 캐시 수명으로 상한을 두고 보안팀에 알려야 하며, 증명·교체·볼팅을 한 워크플로로 합쳐 취소까지 걸리는 시간을 약 3일에서 1일 미만으로 줄였습니다."
+        },
+        {
+          "category": "Python",
+          "title": "PyPI's redesigned project pages with clearer security signals are now live",
+          "link": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
+          "summary": "PyPI가 7월에 예고한 UI 개편을 마치고, 패키지의 보안 신호를 명확히 보여주는 새 프로젝트 페이지를 라이브로 올렸습니다.",
+          "detail": "새 Security 탭이 릴리스의 provenance(출처) 상태와 파일별 디지털 증명(attestation)을 한곳에 모아 보여줍니다. 모든 파일에 증명이 있으면 Full Provenance로, PyPI Publish 증명은 Trusted Publisher가 올렸음을, SLSA Build Provenance 증명은 파일을 정확한 소스 커밋·빌드 플랫폼·빌드 지시로 연결함을 뜻합니다. 증명이 없으면 No Provenance로, 악성이라는 뜻은 아니지만 출처를 암호학적으로 검증할 수 없다는 의미이며, 불완전·불일치·출처 변경·출처 상실 같은 경고 상태도 표시합니다. OpenSSF Attestations Style Guide 권고를 따랐고 Kabu Creative와 협업했습니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "“Causal Effects Versus Causal Mechanisms: Two Traditions With Different Requirements and Contributions Towards Causal Understanding”",
+          "link": "https://statmodeling.stat.columbia.edu/2026/11/08/causal-effects-versus-causal-mechanisms-two-traditions-with-different-requirements-and-contributions-towards-causal-understanding/",
+          "summary": "Andrew Gelman이 인과효과를 분리하는 통계적 접근과 메커니즘을 탐구하는 자연과학적 접근이라는 두 전통을 대비한 Jim Grace의 논문을 소개합니다.",
+          "detail": "Ecology Letters에 실린 Grace의 논문은, '인과적'이라는 말이 점점 연관을 분리해 인과효과를 수치화하는 통계 기법에 쏠리는 반면 자연과학은 역사적으로 시스템 구성요소를 잇는 메커니즘 탐구로 인과 지식에 접근해 왔다고 지적하며, 인과 조사의 첫 단계로 기존 메커니즘 지식을 명시적으로 평가해야 한다고 주장합니다. Gelman은 통계학·경제학·정책 분석이 '인과 추론'을 블랙박스 통계 분석과 동일시한 것이 긴 우회였으며 최근에야 더 쓸모 있는 방향으로 돌아서고 있다고 덧붙입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Timestral, t0, Tabby, and Morpheus-2.0 Compared on GIFT-Eval",
+          "link": "https://towardsdatascience.com/timestral-t0-tabby-and-morpheus-20-compared-on-gift-eval/",
+          "summary": "최근 쏟아진 네 개의 시계열 파운데이션 모델을 GIFT-Eval 벤치마크로 비교하며, 진짜 차이는 시계열 간 정보 공유 방식에 있다고 짚습니다.",
+          "detail": "9월 10일~10월 16일에 Huawei Tabby, The Forecasting Company t0-gamma, Mistral Timestral, JPMorganChase Morpheus-2.0이 나왔습니다. 네 모델 모두 수치 입력을 스케일링하고 패치로 나눠 트랜스포머로 처리하며 분위수를 예측하고, 합성 데이터가 학습에서 큰 몫을 합니다. 핵심 차이는 시계열 간 통신으로, Tabby는 각 시계열을 독립 예측하고 Timestral·t0는 선택한 층에서, Morpheus는 모든 층에서 정보를 주고받습니다. 집계 GIFT-Eval 점수로 상위 셋을 가르긴 어려워 Timestral이 확률적 CRPS에서, Morpheus가 점 예측 MASE에서 앞섭니다. 시계열 파운데이션 모델 논문은 2023년 5편에서 2026년 10월 말 273편으로 늘었고, Amazon Chronos-2는 30일간 Hugging Face에서 1,100만 번 내려받혔습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-11-06",
       "summary": "오늘 묶음은 보안과 경계가 중심입니다. AI에서는 OpenAI가 Linux 커널 권한 상승 익스플로잇 948건과 Firefox 신규 취약점 81건을 찾아낸 GPT‑6 Cyber를 사이버 분야 첫 Critical 등급으로 내놓았고, Architecture에서는 에이전트를 새 신원으로 보고 도구 계층에서 경계를 긋는 제로 트러스트 설계가 나왔습니다. Google은 영상 모델 Gemini Omni 1.2 Flash를 정식 출시하고 API Gateway에 SSE·WebSocket·gRPC 스트리밍을 열었으며, NVIDIA는 주행·로봇 시뮬레이션용 Cosmos 3 오픈 웨이트 4종을 공개했습니다. Node.js 27 Alpha의 V8 15.6 업그레이드는 Math 결과의 마지막 비트, 정렬 알고리즘, Math.random 수열까지 바꾸므로 고정값에 의존하는 테스트를 점검할 필요가 있습니다. Kotlin·Spring·Go·Rust·TypeScript·Java·Python은 실어 나를 소식이 없어 비웠습니다.",
       "highlights": [
