@@ -1,7 +1,117 @@
 {
-  "updated": "2026-11-10T03:31:00+09:00",
-  "count": 1181,
+  "updated": "2026-11-10T09:51:56+09:00",
+  "count": 1190,
   "items": [
+    {
+      "title": "Setting Up a DuckDB Quack Server: A Hello World",
+      "link": "https://foojay.io/today/duckdb-quack-server-hello-world/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A step-by-step hello world for the Quack remote protocol in DuckDB 2.0: start a server in one terminal, connect from another, and read your first remote row.",
+      "ts": 1794268800,
+      "published": "2026-11-10T00:00:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "Flutter Better in Java",
+      "link": "https://foojay.io/today/flutter-better-in-java/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Codename One now builds Flutter apps from their Dart source, and the result starts faster and uses less memory than Flutter's own release build on Android,...",
+      "ts": 1794268800,
+      "published": "2026-11-10T00:00:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "Checking Module Boundaries in a Java Monolith",
+      "link": "https://foojay.io/today/enforce-java-module-boundaries-with-modulith-rules/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Use an ArchUnit test to check a Java module boundary, examine a violation and move the dependency behind the module's API.",
+      "ts": 1794268800,
+      "published": "2026-11-10T00:00:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "llm-anthropic 0.31",
+      "link": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-anthropic 0.31 Anthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic , so you can now run prompts through Fable 5.2 like this: uv tool install llm llm install llm-anthropic llm…",
+      "ts": 1794268726,
+      "published": "2026-11-09T23:58:46+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "Locating the source of a mysterious beep with Claude",
+      "link": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Our house has a box room, full of boxes that we still haven't unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping . The beeps were far enough apart that standing in t…",
+      "ts": 1794268641,
+      "published": "2026-11-09T23:57:21+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "The backlash about data centers might really just be about electricity",
+      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia,…",
+      "ts": 1794252933,
+      "published": "2026-11-09T19:35:33+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "Can peer review survive unrestricted AI use by reviewers?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/09/can-peer-review-survive-unrestricted-ai-use-by-reviewers/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This is Jessica. Reviews from ICLR (one of the three biggest ML conferences) came out last Friday, and a large number of them appear to have been primarily AI-generated, at least if we believe what authors are reporting…",
+      "ts": 1794251268,
+      "published": "2026-11-09T19:07:48+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "link": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "ts": 1794250800,
+      "published": "2026-11-09T19:00:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "Attention Variants and Memory Efficiency",
+      "link": "https://machinelearningmastery.com/attention-variants-for-efficient-inference/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Overview This post is divided into eight parts; they are: • The Checkpoint Fixes the Attention Architecture • A Closer Look at Attention Memory • Multi-Head Attention • Multi-Query and Grouped-Query Attention • Sliding-…",
+      "ts": 1794250677,
+      "published": "2026-11-09T18:57:57+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "Java News Roundup: TornadoVM, A2A Java, Open Liberty, Open J Proxy, Gradle, EclipseStore",
+      "link": "https://www.infoq.com/news/2026/11/java-news-roundup-nov02-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for November 2nd, 2026, features news highlighting: point releases of TornadoVM, TornadoInsight, A2A for Java, Gradle and EclipseStore; the November 2026 edition of Open Liberty; the third relea…",
+      "ts": 1794249600,
+      "published": "2026-11-09T18:40:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "Java News Roundup: TornadoVM, A2A Java, Open Liberty, Open J Proxy, Gradle, EclipseStore",
+      "link": "https://www.infoq.com/news/2026/11/java-news-roundup-nov02-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for November 2nd, 2026, features news highlighting: point releases of TornadoVM, TornadoInsight, A2A for Java, Gradle and EclipseStore; the November 2026 edition of Open Liberty; the third relea…",
+      "ts": 1794249600,
+      "published": "2026-11-09T18:40:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
     {
       "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
       "link": "https://latent.space/p/handshake/",
@@ -73,6 +183,16 @@
       "collected_at": "2026-11-10T03:30:33+09:00"
     },
     {
+      "title": "Can AI Spot Data Leakage Before Your Model Hits 99% Accuracy?",
+      "link": "https://www.kdnuggets.com/can-ai-spot-data-leakage-before-your-model-hits-99-accuracy",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "4 classic leaks, planted in real data, tested cold on 4 models.",
+      "ts": 1794236400,
+      "published": "2026-11-09T15:00:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
       "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
       "link": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -131,6 +251,16 @@
       "ts": 1794229200,
       "published": "2026-11-09T13:00:00+00:00",
       "collected_at": "2026-11-10T03:30:33+09:00"
+    },
+    {
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "link": "https://openai.com/index/control-room",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "ts": 1794229200,
+      "published": "2026-11-09T13:00:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
     },
     {
       "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
@@ -211,6 +341,26 @@
       "ts": 1794221520,
       "published": "2026-11-09T10:52:00+00:00",
       "collected_at": "2026-11-09T22:21:54+09:00"
+    },
+    {
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "link": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "ts": 1794211200,
+      "published": "2026-11-09T08:00:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
+    },
+    {
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "link": "https://openai.com/index/kuken",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "ts": 1794211200,
+      "published": "2026-11-09T08:00:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
     },
     {
       "title": "Pinterest Replaces Journey Clustering with 4B Qwen3 LLM, Reports Improved Engagement",
@@ -301,6 +451,16 @@
       "ts": 1794182400,
       "published": "2026-11-09T00:00:00+00:00",
       "collected_at": "2026-11-09T22:21:54+09:00"
+    },
+    {
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+      "link": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.",
+      "ts": 1794182400,
+      "published": "2026-11-09T00:00:00+00:00",
+      "collected_at": "2026-11-10T09:51:35+09:00"
     },
     {
       "title": "parse_number() as a SQLite extension: C vs Rust",
@@ -11741,76 +11901,6 @@
       "ts": 1791679957,
       "published": "2026-10-11T00:52:37+00:00",
       "collected_at": "2026-10-11T10:40:58+09:00"
-    },
-    {
-      "title": "Anthropic Bans Cruelty to Claude, Still Won't Say What It Protects",
-      "link": "https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://rews.cc/a/anthropic-bans-cruelty-to-claude-still-won-t-say-what-it-pro-bd99f6 Comments URL: https://news.ycombinator.com/item?id=50038383 Points: 61 # Comments: 120",
-      "ts": 1791677311,
-      "published": "2026-10-11T00:08:31+00:00",
-      "collected_at": "2026-10-11T17:30:07+09:00"
-    },
-    {
-      "title": "Media Partner for OCX27 and jChampions Conference 2027",
-      "link": "https://foojay.io/today/media-partner-for-ocx27-and-jchampions-conference/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Foojay is a media partner of OCX 2027 in Brussels and the jChampions Conference 2027 — dates, details, and how to submit a talk for each.",
-      "ts": 1791676800,
-      "published": "2026-10-11T00:00:00+00:00",
-      "collected_at": "2026-10-11T10:40:58+09:00"
-    },
-    {
-      "title": "Java - The Year of the Runtime!",
-      "link": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynite/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "As AI coding agents make language syntax less central, runtime performance and operability become increasingly important. This keynote explores why Java’s JVM and standard library are well suited to this shift: newer JD…",
-      "ts": 1791676800,
-      "published": "2026-10-11T00:00:00+00:00",
-      "collected_at": "2026-10-11T17:30:07+09:00"
-    },
-    {
-      "title": "Java - The Year of the Runtime!",
-      "link": "https://inside.java/2026/10/11/devoxxbelgium-runtime-year-keynote/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "As AI coding agents make language syntax less central, runtime performance and operability become increasingly important. This keynote explores why Java’s JVM and standard library are well suited to this shift: newer JD…",
-      "ts": 1791676800,
-      "published": "2026-10-11T00:00:00+00:00",
-      "collected_at": "2026-10-12T16:05:24+09:00"
-    },
-    {
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "link": "https://simonwillison.net/2026/Oct/10/python-actions/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pul…",
-      "ts": 1791676684,
-      "published": "2026-10-10T23:58:04+00:00",
-      "collected_at": "2026-10-11T10:40:58+09:00"
-    },
-    {
-      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
-      "link": "https://www.latent.space/p/nyc2026",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Tomorrow and Tuesday. If you see this you’re in!",
-      "ts": 1791670037,
-      "published": "2026-10-10T22:07:17+00:00",
-      "collected_at": "2026-10-11T07:19:32+09:00"
-    },
-    {
-      "title": "[Subscriber Exclusive] NYC Subscriber Meetups!",
-      "link": "https://latent.space/p/nyc2026/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Tomorrow and Tuesday. If you see this you’re in!",
-      "ts": 1791670037,
-      "published": "2026-10-10T22:07:17+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
     }
   ]
 }
