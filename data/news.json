@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-10T09:51:56+09:00",
-  "count": 1190,
+  "updated": "2026-11-10T10:54:55+09:00",
+  "count": 1189,
   "items": [
     {
       "title": "Setting Up a DuckDB Quack Server: A Hello World",
@@ -511,6 +511,16 @@
       "ts": 1794161767,
       "published": "2026-11-08T18:16:07+00:00",
       "collected_at": "2026-11-09T05:59:03+09:00"
+    },
+    {
+      "title": "Show HN: Recalc – Spreadsheet where cells can be Claude Code or Codex terminals",
+      "link": "https://github.com/sshah03/recalc",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "I built this because it was useful for me when building evals/benchmarks, and I decided to put it up for free for others. The goal was quite simple, make it easy to use a lead claude code / codex session in a panel on t…",
+      "ts": 1794150727,
+      "published": "2026-11-08T15:12:07+00:00",
+      "collected_at": "2026-11-10T10:54:50+09:00"
     },
     {
       "title": "How to Build Multi-Agent Systems with the OpenAI Agents SDK",
@@ -11881,26 +11891,6 @@
       "ts": 1791684158,
       "published": "2026-10-11T02:02:38+00:00",
       "collected_at": "2026-10-12T00:26:50+09:00"
-    },
-    {
-      "title": "Anthropic asks users to stop being mean to Claude",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/10/09/anthropic-asks-users-to-stop-being-mean-to-claude/5302218 Comments URL: https://news.ycombinator.com/item?id=50038865 Points: 51 # Comments: 51",
-      "ts": 1791681442,
-      "published": "2026-10-11T01:17:22+00:00",
-      "collected_at": "2026-10-12T00:26:50+09:00"
-    },
-    {
-      "title": "Dwarf Fortress uses version control now",
-      "link": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from vers…",
-      "ts": 1791679957,
-      "published": "2026-10-11T00:52:37+00:00",
-      "collected_at": "2026-10-11T10:40:58+09:00"
     }
   ]
 }
