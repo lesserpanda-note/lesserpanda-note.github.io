@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-11T22:58:24+09:00",
-  "count": 1236,
+  "updated": "2026-11-12T03:31:10+09:00",
+  "count": 1245,
   "items": [
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -11,6 +11,176 @@
       "ts": 1794441600,
       "published": "2026-11-12T00:00:00+00:00",
       "collected_at": "2026-11-11T11:42:18+09:00"
+    },
+    {
+      "title": "Where Does Abacus.AI’s Smaug Model Improve Performance the Most?",
+      "link": "https://www.kdnuggets.com/2026/11/abacus/where-does-abacus-ais-smaug-model-improve-performance-the-most",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Abacus.AI applied the same fine-tuning recipe to three very different open-weight models. The gains landed in completely different places & that tells you more than any single benchmark score.",
+      "ts": 1794420046,
+      "published": "2026-11-11T18:00:46+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "ts": 1794420000,
+      "published": "2026-11-11T18:00:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "GitHub Makes Agentic Workflows Generally Available with Isolation and Budget Controls",
+      "link": "https://www.infoq.com/news/2026/11/github-agentic-workflows-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "GitHub Agentic Workflows is generally available, running coding agents in GitHub Actions with read-only defaults and separately scoped write jobs. Those protections do not cover direct write permissions or custom jobs,…",
+      "ts": 1794416400,
+      "published": "2026-11-11T17:00:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "Node.js 26.13.1 (LTS)",
+      "link": "https://nodejs.org/en/blog/release/v26.13.1",
+      "source": "Node.js Blog",
+      "category": "Node",
+      "summary": "",
+      "ts": 1794415520,
+      "published": "2026-11-11T16:45:20+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "Node.js 24.22.3 (LTS)",
+      "link": "https://nodejs.org/en/blog/release/v24.22.3",
+      "source": "Node.js Blog",
+      "category": "Node",
+      "summary": "",
+      "ts": 1794415511,
+      "published": "2026-11-11T16:45:11+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "Node.js 22.23.5 (LTS)",
+      "link": "https://nodejs.org/en/blog/release/v22.23.5",
+      "source": "Node.js Blog",
+      "category": "Node",
+      "summary": "",
+      "ts": 1794415498,
+      "published": "2026-11-11T16:44:58+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "“Are You Sure?” Flipped Qwen2.5-1.5B’s Right Answer 2 Times in 3",
+      "link": "https://towardsdatascience.com/are-you-sure-flipped-qwen25-15bs-right-answer-2-times-in-3/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Three small open models, 150 MMLU questions each, five pushback styles: “That’s wrong” did more damage, and naming a wrong option was close to fatal. The post “Are You Sure?” Flipped Qwen2.5-1.5B’s Right Answer 2 Times…",
+      "ts": 1794414600,
+      "published": "2026-11-11T16:30:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
+      "ts": 1794412800,
+      "published": "2026-11-11T16:00:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "Tests as data: ensuring AI-generated code does what we want",
+      "link": "https://martinfowler.com/articles/tests-as-data.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Automated testing in the age of AI coding assistants is problematic: when AI agents write both production and test code, developers risk losing the assurance that automated tests protect against functional errors. Matte…",
+      "ts": 1794410220,
+      "published": "2026-11-11T15:17:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "Anthropic's IPO roadshow video",
+      "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\"…",
+      "ts": 1794409919,
+      "published": "2026-11-11T15:11:59+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+      "ts": 1794409215,
+      "published": "2026-11-11T15:00:15+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "What Senior Data Science Job Postings Actually Ask for in 2026",
+      "link": "https://www.kdnuggets.com/what-senior-data-science-job-postings-actually-ask-for-in-2026",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "A data-backed breakdown of the skills, credentials, and capabilities that hiring managers are screening for in senior roles right now.",
+      "ts": 1794409200,
+      "published": "2026-11-11T15:00:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "AI Assistant vs. Copilot vs. Agent, and When to Use Each",
+      "link": "https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A palace-hotel wedding week shows where assistants, copilots, agents, and orchestration fit, and why Gartner expects 40%+ of agentic AI projects to be cancelled. The post AI Assistant vs. Copilot vs. Agent, and When to…",
+      "ts": 1794409200,
+      "published": "2026-11-11T15:00:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "JioHotstar Benchmarks Knowledge Bases for AI Coding Agents",
+      "link": "https://www.infoq.com/news/2026/11/jiohotstar-codingagent-retrieval/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "JioHotstar evaluated 6 approaches to code retrieval for AI coding agents using SWE, CodeScale Bench, and an internal question-answering harness. Structural search performed well on concrete tasks, while semantic retriev…",
+      "ts": 1794407280,
+      "published": "2026-11-11T14:28:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "JioHotstar Benchmarks Knowledge Bases for AI Coding Agents",
+      "link": "https://www.infoq.com/news/2026/11/jiohotstar-codingagent-retrieval/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "JioHotstar evaluated 6 approaches to code retrieval for AI coding agents using SWE, CodeScale Bench, and an internal question-answering harness. Structural search performed well on concrete tasks, while semantic retriev…",
+      "ts": 1794407280,
+      "published": "2026-11-11T14:28:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "The challenge of truly probabilistic programming",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/11/the-challenge-of-truly-probabilistic-programming/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Many years ago, Jouni and I wrote an unpublished paper called Fully Bayesian Computing: A fully Bayesian computing environment calls for the possibility of defining vector and array objects that may contain both random…",
+      "ts": 1794406592,
+      "published": "2026-11-11T14:16:32+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "Python HTTPX: Making HTTP Requests With HTTPX2",
+      "link": "https://realpython.com/python-httpx/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Python HTTPX (now HTTPX2) to make HTTP requests, send async calls, set safe timeouts, stream large downloads, and enable HTTP/2.",
+      "ts": 1794405600,
+      "published": "2026-11-11T14:00:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
     },
     {
       "title": "How to Use Apple's fm CLI to Run On-Device LLMs From Python",
@@ -231,6 +401,16 @@
       "ts": 1794355200,
       "published": "2026-11-11T00:00:00+00:00",
       "collected_at": "2026-11-11T22:57:59+09:00"
+    },
+    {
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "link": "https://huggingface.co/blog/token-pooling",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794355200,
+      "published": "2026-11-11T00:00:00+00:00",
+      "collected_at": "2026-11-12T03:30:46+09:00"
     },
     {
       "title": "v2.67.0 (2026-11-10)",
@@ -12271,96 +12451,6 @@
       "ts": 1791847272,
       "published": "2026-10-12T23:21:12+00:00",
       "collected_at": "2026-10-14T09:58:30+09:00"
-    },
-    {
-      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
-      "link": "https://www.latent.space/p/claude-dynamic-workflows",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
-      "ts": 1791829097,
-      "published": "2026-10-12T18:18:17+00:00",
-      "collected_at": "2026-10-13T09:09:32+09:00"
-    },
-    {
-      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents (Updated with video!)",
-      "link": "https://latent.space/p/claude-dynamic-workflows/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers.",
-      "ts": 1791829097,
-      "published": "2026-10-12T18:18:17+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Just say no to OpenAI and Anthropic",
-      "link": "https://micahflee.com/just-say-no-to-openai-and-anthropic/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://micahflee.com/just-say-no-to-openai-and-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50060500 Points: 153 # Comments: 142",
-      "ts": 1791829049,
-      "published": "2026-10-12T18:17:29+00:00",
-      "collected_at": "2026-10-13T09:09:32+09:00"
-    },
-    {
-      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
-      "link": "https://simonwillison.net/2026/Oct/12/python-3-15/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported…",
-      "ts": 1791828938,
-      "published": "2026-10-12T18:15:38+00:00",
-      "collected_at": "2026-10-13T09:09:32+09:00"
-    },
-    {
-      "title": "Profiling web-edit with Python 3.15: flame graphs and source heatmaps",
-      "link": "https://simonwillison.net/2026/Oct/12/python-3-15-web-edit-profiling/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Research: Profiling web-edit with Python 3.15: flame graphs and source heatmaps I put the new Python 3.15 profiler through its paces by having GPT-6 Astra Extra High in Codex run it against my new web-edit app : I need…",
-      "ts": 1791824280,
-      "published": "2026-10-12T16:58:00+00:00",
-      "collected_at": "2026-10-14T09:09:49+09:00"
-    },
-    {
-      "title": "The Rise of AI Software Clones: Why REA and ArtCraft Are Going Viral",
-      "link": "https://www.kdnuggets.com/the-rise-of-ai-software-clones-why-rea-and-artcraft-are-going-viral",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "REA and ArtCraft are two projects driving a wave of AI-built clones that attempt to recreate Adobe and Microsoft software, letting developers reverse-engineer and rebuild commercial tools without access to the original…",
-      "ts": 1791820800,
-      "published": "2026-10-12T16:00:00+00:00",
-      "collected_at": "2026-10-13T02:33:56+09:00"
-    },
-    {
-      "title": "web-edit 0.1a0",
-      "link": "https://simonwillison.net/2026/Oct/12/web-edit/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Cod…",
-      "ts": 1791820476,
-      "published": "2026-10-12T15:54:36+00:00",
-      "collected_at": "2026-10-13T16:29:48+09:00"
-    },
-    {
-      "title": "Docling vs LlamaParse: How to Extract PDF Tables in Python",
-      "link": "https://realpython.com/extract-table-from-pdf-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to extract tables from a PDF in Python with Docling and LlamaParse, and compare local parsing against a cloud API on speed and cost.",
-      "ts": 1791813600,
-      "published": "2026-10-12T14:00:00+00:00",
-      "collected_at": "2026-10-13T02:33:56+09:00"
-    },
-    {
-      "title": "ChatGPT vs. Claude vs. Gemini for Data Science Work: Here’s What I Found",
-      "link": "https://www.kdnuggets.com/chatgpt-vs-claude-vs-gemini-for-data-science-work-heres-what-i-found",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Compare ChatGPT, Claude, and Gemini across the data science tasks that matter most to statisticians and analysts.",
-      "ts": 1791813600,
-      "published": "2026-10-12T14:00:00+00:00",
-      "collected_at": "2026-10-13T02:33:56+09:00"
     }
   ]
 }
