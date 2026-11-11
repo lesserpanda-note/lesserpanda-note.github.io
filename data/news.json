@@ -1,7 +1,77 @@
 {
-  "updated": "2026-11-11T07:59:31+09:00",
-  "count": 1232,
+  "updated": "2026-11-11T11:42:29+09:00",
+  "count": 1234,
   "items": [
+    {
+      "title": "Gilbert + Tobin rethinks the business of law with AI",
+      "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "ts": 1794441600,
+      "published": "2026-11-12T00:00:00+00:00",
+      "collected_at": "2026-11-11T11:42:18+09:00"
+    },
+    {
+      "title": "“You’re kind of a hero at my company”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/10/youre-kind-of-a-hero-at-my-company/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This post is by Phil Price, not Andrew. The work I’m proudest of is not necessarily the work that is most useful or best known or that others consider the best. A few years ago I learned that a model … Continue reading →",
+      "ts": 1794360028,
+      "published": "2026-11-11T01:20:28+00:00",
+      "collected_at": "2026-11-11T11:42:18+09:00"
+    },
+    {
+      "title": "Where Does The Experience Come From?",
+      "link": "https://foojay.io/today/bcn-where-does-experience-come-from/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Proton’s CTO wrote a memo that nearly eulogized writing code by hand. Lars Faye points out that expertise comes from experience, and the memo doesn’t say where the next generation gets any. Here’s what used to teach it,…",
+      "ts": 1794355200,
+      "published": "2026-11-11T00:00:00+00:00",
+      "collected_at": "2026-11-11T11:42:18+09:00"
+    },
+    {
+      "title": "Testcontainers Integration Testing: Running Your Real WAR in Docker",
+      "link": "https://foojay.io/today/testcontainers-integration-testing-running-your-real-war-in-docker/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Learn how Testcontainers integration testing works for Jakarta EE: run your real WAR in Docker and test the deployed application from the outside.",
+      "ts": 1794355200,
+      "published": "2026-11-11T00:00:00+00:00",
+      "collected_at": "2026-11-11T11:42:18+09:00"
+    },
+    {
+      "title": "Letting a Java AI Agent Request Cancellations with MySQL REST Service",
+      "link": "https://foojay.io/today/java-ai-agent-mysql-rest-service-cancellations/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Build a Java AI agent that requests order cancellations through MySQL REST Service, with scoped tools, ownership checks, and explicit human confirmation.",
+      "ts": 1794355200,
+      "published": "2026-11-11T00:00:00+00:00",
+      "collected_at": "2026-11-11T11:42:18+09:00"
+    },
+    {
+      "title": "How I got a thread dump from a timed-out GitHub Actions test",
+      "link": "https://foojay.io/today/how-i-got-a-thread-dump-from-a-timed-out-github-actions-test/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "When a JVM test hangs and GitHub Actions cancels the job, the test JVM is often still alive. Three ways to dump it, and an action that does it for you.",
+      "ts": 1794355200,
+      "published": "2026-11-11T00:00:00+00:00",
+      "collected_at": "2026-11-11T11:42:18+09:00"
+    },
+    {
+      "title": "v2.67.0 (2026-11-10)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.67.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Support SubAgents(dynamic_agents=...) under durable execution by @mpfaffenberger in #12418 Strip every default-ignorable character before ArtifactScanner phrase matching and flag hi…",
+      "ts": 1794352283,
+      "published": "2026-11-10T23:11:23+00:00",
+      "collected_at": "2026-11-11T11:42:18+09:00"
+    },
     {
       "title": "Survey Statistics: Sampling from a Bayesian Menu",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/10/survey-statistics-sampling-from-a-bayesian-menu/",
@@ -12271,56 +12341,6 @@
       "ts": 1791781027,
       "published": "2026-10-12T04:57:07+00:00",
       "collected_at": "2026-10-13T09:09:32+09:00"
-    },
-    {
-      "title": "Linus Torvalds Working on a Hefty Linux Kernel Improvement with Claude Code",
-      "link": "https://www.phoronix.com/news/Linus-Torvalds-Claude-Code",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.phoronix.com/news/Linus-Torvalds-Claude-Code Comments URL: https://news.ycombinator.com/item?id=50050367 Points: 27 # Comments: 1",
-      "ts": 1791770220,
-      "published": "2026-10-12T01:57:00+00:00",
-      "collected_at": "2026-10-13T09:09:32+09:00"
-    },
-    {
-      "title": "Structured Concurrency Looms",
-      "link": "https://inside.java/2026/10/12/devoxxbelgium-structured-concurrency/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Structured Concurrency is the next major feature from Project Loom. In this session, we will explain the motivation and design of structured concurrency, show how to use it effectively, and discuss the lessons learned a…",
-      "ts": 1791763200,
-      "published": "2026-10-12T00:00:00+00:00",
-      "collected_at": "2026-10-12T16:05:24+09:00"
-    },
-    {
-      "title": "Your agents don't need an LLM to negotiate",
-      "link": "https://foojay.io/today/your-agents-dont-need-an-llm-to-negotiate/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "A manager hands a job to one of three workers, and nothing in the program calls a model. It explains the protocol, and what doesn't survive a restart.",
-      "ts": 1791763200,
-      "published": "2026-10-12T00:00:00+00:00",
-      "collected_at": "2026-10-12T16:05:24+09:00"
-    },
-    {
-      "title": "Testing Jakarta EE: Three Layers, Three Tools",
-      "link": "https://foojay.io/today/testing-jakarta-ee-three-layers-three-tools/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "A guide to Simon Laden's three-part series on testing Jakarta EE with WeldInitiator, Arquillian and Testcontainers, and the question each tool answers.",
-      "ts": 1791763200,
-      "published": "2026-10-12T00:00:00+00:00",
-      "collected_at": "2026-10-13T02:33:56+09:00"
-    },
-    {
-      "title": "Strengthening our defenses against distillation attacks",
-      "link": "https://www.anthropic.com/news/distillation-defenses",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve reduced the rate of distillation by more than 90%.",
-      "ts": 1791763200,
-      "published": "2026-10-12T00:00:00+00:00",
-      "collected_at": "2026-11-03T23:40:15+09:00"
     }
   ]
 }
