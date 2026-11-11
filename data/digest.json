@@ -1,48 +1,111 @@
 {
-  "updated": "2026-11-10T00:51:13Z",
-  "summary": "이번 묶음은 AI 시스템을 무엇으로 검증하느냐가 관통합니다. 포획-재포획 추정으로 에이전트가 놓친 항목까지 세는 평가법, Handshake AI가 보여준 프런티어 랩의 평가·학습 환경, 테스트를 사람이 설계하고 에이전트는 구현만 하게 하는 TDD 루프가 같은 질문을 다룹니다. AI에서는 Google이 물리 추론 모델 Gemini 4 Argon을 내놓았고, AI 규제법을 주도한 Scott Wiener가 하원에 입성했습니다. Architecture에서는 Cloudflare가 포스트 양자 시대를 겨냥한 Merkle Tree Certificates 공개 CA를 준비합니다. Java·Kotlin·Spring·Node·Go·Rust·TypeScript·DataScience는 실어 나를 소식이 없어 비웁니다.",
+  "updated": "2026-11-11T13:57:06Z",
+  "summary": "오늘 묶음은 새 프런티어 모델과 에이전트 보안이 중심입니다. Anthropic은 IPO 로드쇼 첫날 Claude Fable 5.2로 세계 1위 자리를 되찾았고, Google은 Gemini 4 Carbon을 정식 공개하는 한편 AlphaProof Code로 Signal 프로토콜의 실제 코드를 형식 검증했습니다. MCP 공식 서버와 Go 1.27.4는 보안 수정을 냈고, Java는 원시 타입 패턴 프리뷰를 철회해 JDK 28에서 제거합니다. 코드에 남은 낡은 TODO가 코딩 에이전트의 비용을 키운다는 Google 연구와, 장기 실행 에이전트를 위한 durable execution 정리도 함께 실었습니다.",
   "highlights": [
     {
-      "category": "Agents",
-      "title": "How to Estimate the Recall of AI Agents with Capture-Recapture",
-      "link": "https://towardsdatascience.com/how-to-estimate-the-recall-of-ai-agents-with-capture-recapture/",
-      "summary": "생태학의 포획-재포획(capture-recapture) 추정으로 AI 에이전트가 놓친 항목 수, 즉 재현율을 정답 라벨 없이 추정하는 방법을 CUAD 계약서 294건으로 검증한 글입니다. 10% 수작업 감사만으로 대부분 에이전트의 실제 재현율을 2포인트 안쪽으로 맞혔습니다.",
-      "detail": "LLM 심판과 리뷰어는 에이전트가 찾은 필드만 채점하므로 아예 찾지 못한 필드는 어떤 리포트에도 나타나지 않습니다. 저자는 두 독립 소스의 발견 수 n1·n2와 공통 발견 수 m만으로 전체 수를 추정하는 Chapman 추정식(다섯 줄 함수)을 적용했습니다. CUAD에서 1만 토큰 이하 계약 294건, 10개 조항 유형, 라벨 1,413개를 기준으로 Claude Haiku 5.5(3회)·Sonnet 5.5·GPT-6 luna·GPT-6.1 sol·키워드 규칙 등 9개 에이전트를 돌렸고 비용은 $14.71였습니다. 재현율은 대부분 0.74~0.75, GPT-6.1 sol 0.86, 키워드 규칙 0.53이었고 1,413개 중 127개(9%)는 일곱 에이전트 모두 놓쳤습니다. 같은 모델 두 번 실행 쌍은 1,102개로 22% 과소추정하면서 신뢰구간은 ±3개로 좁아, 높은 일치도가 오히려 공통 맹점의 신호임을 보였습니다. 7개 소스에 2차 잭나이프(Burnham & Overton 1978)를 쓰면 MAE가 약 12%에서 5%로 줄었습니다. 모든 발견을 정답으로 보는 pooled recall은 재현율을 6~12포인트 부풀렸고(Haiku 75%가 86%로 보임), 10% 감사를 곁들인 포획-재포획은 부트스트랩 중앙 오차 3.8포인트로 pooling의 9.7포인트보다 정확했습니다. 권고는 성질이 다른 검사기를 포함해 최소 3개를 쓰고, 정밀도 옆에 추정 재현율을 보고하라는 것입니다."
+      "category": "Java",
+      "title": "Withdrawing the Primitive Patterns Preview Feature",
+      "link": "https://inside.java/2026/11/11/withdraw-primitive-patterns-preview/",
+      "summary": "OpenJDK가 패턴·instanceof·switch의 원시 타입 지원(Primitive Types in Patterns) 프리뷰를 철회해, JDK 28에서는 --enable-preview를 켜도 쓸 수 없게 됩니다.",
+      "detail": "Amber 프로젝트의 Angelos Bimpoudis 등이 amber-spec-experts 메일링 리스트에 이 기능의 개발을 중단한다고 알렸습니다. 이 기능은 JDK 23(JEP 455)에서 처음 프리뷰로 나온 뒤 JDK 24(JEP 488), 25(JEP 507), 26(JEP 530), 27(JEP 532)까지 다섯 번 프리뷰를 거쳤고, 여섯 번째 프리뷰가 될 초안 JEP 8393282는 철회됩니다. JDK 28에서는 기능 자체가 빠지므로 --enable-preview로도 쓸 수 없습니다. 이유는 Valhalla 프로젝트가 사용자 정의 숫자 타입을 포함한 새 숫자 체계를 탐색 중이고, 그런 타입도 '정확한 숫자 변환(exact numeric conversion)'을 지원해야 하므로 지금의 정의로 확정하기는 이르다는 판단입니다. 프리뷰 철회는 드문 일이지만 JEP 12가 예상한 결과여서 새 JEP 없이 JBS 이슈로 제거합니다. 대신 Constant Patterns라는 별도 기능을 추진하며, case Point(0, 0)처럼 상수를 레코드 패턴 안에 중첩해 when 절을 줄이는 것이 목표입니다. switch의 원시 타입 지원 확대는 이 기능으로 이어지고, 초안 JEP는 곧 공개될 예정입니다. 프리뷰로 이 기능을 쓰던 코드는 JDK 28로 넘어갈 때 걷어내야 합니다."
+    },
+    {
+      "category": "Java",
+      "title": "How I got a thread dump from a timed-out GitHub Actions test",
+      "link": "https://foojay.io/today/how-i-got-a-thread-dump-from-a-timed-out-github-actions-test/",
+      "summary": "GitHub Actions가 타임아웃으로 테스트 잡을 취소해도 테스트 JVM이 한동안 살아 있다는 점을 이용해, 멈춘 테스트의 스레드 덤프를 받는 세 가지 방법을 정리한 글입니다.",
+      "detail": "GitHub Actions는 취소할 때 스텝의 진입 프로세스에 SIGINT를 보내고 7.5초 뒤 SIGTERM, 다시 2.5초 뒤 프로세스 트리를 종료합니다. run 스텝의 진입 프로세스는 셸인데 bash가 첫 SIGINT에 바로 끝나 트리 종료가 일어나지 않으므로, 테스트 JVM은 러너가 고아 프로세스를 정리할 때까지 살아 있습니다. 저자는 ubuntu-latest와 macos-latest에서 스텝·잡 타임아웃 모두 이를 확인했습니다. 첫째 방법은 Apache Kafka처럼 테스트와 함께 감시 스크립트를 띄워 타임아웃 5분 전에 jstack을 뜨는 것인데, 시점을 고르기 어렵습니다. 둘째는 Maven Surefire 3.6.0 이상에서 forkedProcessTimeoutInSeconds와 jstack.enabled를 켜 포크가 죽기 전에 덤프 파일을 남기는 것으로, Surefire 타임아웃이 GitHub 타임아웃보다 짧아야 합니다. 셋째는 다음 스텝에 if: failure() || cancelled()를 걸고 jcmd로 surefirebooter·GradleWorkerMain 프로세스의 Thread.print를 받아 아티팩트로 올리는 방식이며, 시점을 미리 정할 필요가 없습니다. 덤프에서 고전적 교착은 바로 보이지만, 대부분의 멈춤은 카운트다운되지 않는 CountDownLatch나 타임아웃 없는 Future.get()처럼 사이클이 아니라는 점도 짚습니다. 스텝이 exec를 쓰거나 시그널을 가로채면 이 틈이 사라질 수 있어 먼저 확인하라고 권합니다."
+    },
+    {
+      "category": "Go",
+      "title": "[release-branch.go1.27] go1.27.4",
+      "link": "https://github.com/golang/go/releases/tag/go1.27.4",
+      "summary": "Go 1.27.4가 cgo·go 명령·컴파일러·링커·net/http의 보안 수정을 담아 2026-11-10에 나왔고, 같은 날 1.26 계열도 go1.26.11이 나왔습니다.",
+      "detail": "Go 공식 릴리스 기록에 따르면 go1.27.4는 cgo, go 명령, 컴파일러, 링커, net/http 패키지의 보안 수정을 포함합니다. 함께 어셈블러, 컴파일러, 런타임, 툴체인 부트스트래핑과 crypto/fips140·crypto/hkdf·crypto/rsa·crypto/tls·net 패키지의 버그도 고쳤습니다. 1.27 계열은 10월 8일 go1.27.2(go 명령·crypto/tls·html/template·net/http·net/textproto·os)와 10월 19일 go1.27.3(crypto/x509)에 이어 세 번째 보안 릴리스를 낸 셈입니다. Go는 각 메이저 릴리스를 그 뒤 메이저 두 개가 나올 때까지 지원하므로, 지금 지원 대상은 1.27과 1.26입니다. 보안 수정이 표준 라이브러리뿐 아니라 컴파일러·링커·cgo에도 들어 있어, 툴체인을 올린 뒤 다시 빌드해야 반영됩니다. 세부 취약점은 Go 1.27.4 마일스톤의 이슈 트래커에서 확인할 수 있습니다."
     },
     {
       "category": "Agents",
-      "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
-      "link": "https://latent.space/p/handshake/",
-      "summary": "Latent Space가 1년 만에 연환산 총매출 10억 달러에 이른 AI 데이터 회사 Handshake AI를 다룬 164분 심층 에피소드를 공개했습니다. 프런티어 랩이 사들이는 강화학습 환경과 평가 과제를 금융·바이오·정렬 분야 실제 데모로 보여줍니다.",
-      "detail": "Handshake의 AI 학습 데이터 사업은 출시 약 1년 만에 연환산 총매출(gross annualized revenue) 10억 달러에 도달했습니다. 금융 데모(ATLAS-Finance, Project Falcon)에서는 에이전트가 은행 이메일에서 과제를 찾고 거래를 규율하는 파일을 가려 엑셀 워크북을 내야 하는데, 고객 메일의 기존 영업권 한 줄을 Python으로 가져가 그대로 빼는 실수를 합니다. 모델은 세무 처리를 물으면 설명할 수 있지만, 바로 그 코드 줄에 규칙을 적용해야 한다는 점을 알아차리지 못한다는 것이 요지입니다. 바이오 벤치마크 VIALS는 뇌종양 조직 슬라이드 9장 중 혈관 괴사가 가장 진행된 2장을 고르는 과제에서 모델이 정답 H·I에 G를 더 고르는 모습을 보여줍니다. 정렬 세그먼트는 시뮬레이션된 파일 접근 과제에서 에이전트가 어떤 파일을 읽고 셸 기록에 무엇을 했는지까지 채점해, 최종 응답만 보는 평가로는 대부분을 놓친다고 지적합니다. 그 밖에 랩이 새 데이터셋을 평가하는 방식, 루브릭의 한계, 에이전트가 엑셀 채점기를 속인 사례, 랩이 평가 과제를 따로 보관하는 이유를 다룹니다."
+      "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+      "link": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+      "summary": "Anthropic이 IPO 로드쇼 첫날 Claude Fable 5.2와 Mythos 5.2를 내놓았고, Fable 5.2는 Gemini 4 Carbon이 열흘간 차지했던 세계 1위 자리를 되찾았습니다.",
+      "detail": "Anthropic은 두 모델이 거의 모든 평가 능력에서 Opus 5.5보다 한 단계 위라고 밝혔고, 시스템 카드 문구로 보아 둘은 같은 기반 모델을 공유하는 것으로 보입니다. 가격은 입력·출력 100만 토큰당 8달러·40달러로 Fable 5.1(10·50달러)보다 20% 내렸지만, 토큰은 더 많이 씁니다. SemiAnalysis의 전문 업무 벤치마크 GDPx에서 과제당 비용이 67.16달러에서 88.15달러로 늘었는데, 5.2가 테스트 케이스를 수백~수천 개씩 쓰고 서브에이전트로 자기 작업을 검증했기 때문입니다. Anthropic 발표로는 FrontierCode 2.0에서 Fable 5.2 High가 Opus 5.5 Max와 같은 성능을 과제당 절반 비용으로 냈고, 출력 속도는 5.1보다 최대 30% 빠릅니다. Artificial Analysis 지능 지수 v5는 Fable 5.2(max) 65, Gemini 4 Carbon(high) 60, Opus 5.5(max) 59, GPT-6 Astra(max) 57입니다. 컨텍스트는 100만 토큰, effort는 low부터 max까지 다섯 단계이고 Claude 앱과 Claude Code의 기본값은 medium입니다. 구독에서는 Fable이 주간 한도의 50%까지만 쓸 수 있고, 안전 분류기를 위해 기본적으로 데이터 보존이 필요하며 무보존은 자격 있는 기업 고객만 가능합니다."
+    },
+    {
+      "category": "Agents",
+      "title": "v2.4.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+      "summary": "MCP 공식 레퍼런스 서버 저장소가 v2.4.0에서 filesystem·git·fetch 서버의 취약점 6건을 고쳤고, 특히 git 서버는 신뢰할 수 없는 저장소의 설정만으로 프로그램이 실행될 수 있었습니다.",
+      "detail": "@modelcontextprotocol/server-filesystem은 2.3.0으로, mcp-server-git과 mcp-server-fetch는 2026.11.11로 올려야 합니다. mcp-server-git은 git_status 같은 읽기 전용 호출만으로도 저장소의 .git/config에 적힌 core.fsmonitor, diff.external, 훅, 필터·머지 드라이버, 서명 프로그램을 서버 권한으로 실행할 수 있었습니다. 이제 모든 Git 명령이 이 설정을 덮어쓰고, 덮어쓰기를 무시하는 Git 2.31 미만은 거부합니다. --repository 제한도 alternates 객체 저장소, 연결된 워크트리, Git 디렉터리 안의 심볼릭 링크까지 막도록 넓혔습니다. filesystem 서버는 접근 검사와 실제 읽기·이동 사이에 디렉터리를 심볼릭 링크로 바꿔치기해 허용 범위 밖 파일에 닿는 경쟁 조건 두 건을 고쳤고, Windows에서는 틈을 좁히기만 했습니다. fetch 서버는 IPv6 site-local 주소(fec0::/10)를 공용으로 보던 사설 주소 검사와, //private나 /x/../private로 robots.txt의 Disallow를 피하던 문제를 막았습니다. TypeScript 서버들은 날짜 버전에서 시맨틱 버전으로 바뀌어 패키지 매니저가 2.3.0을 2025.x·2026.x보다 낮게 보고 업그레이드를 제안하지 않으므로, 날짜 버전을 쓰고 있다면 버전을 직접 지정해 설치해야 합니다."
+    },
+    {
+      "category": "Agents",
+      "title": "A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62%",
+      "link": "https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/",
+      "summary": "Claude Code 스킬이 실제로 호출되는 비율을 2,800여 회 실행으로 측정한 결과, 설명을 '강하게' 고쳐 쓴 효과는 5포인트에 그쳤고 세션 시작 훅은 15%를 62%로 끌어올렸습니다.",
+      "detail": "소프트웨어 테스터인 저자는 테스트·디버깅·코드 리뷰용 공개 스킬 26개를 설치하고 그중 6개를 대상으로 Claude Code 2.1.316에서 Haiku 5.5·Sonnet 5.5·Opus 5.5를 돌렸습니다. 프롬프트 104개를 스킬 설명의 단어를 쓰는 직접 요청, 그 단어를 피한 간접 요청, 단어만 겹치고 다른 일이 필요한 근접 오답으로 나눠 모델마다 3회씩 실행했고, 첫 도구 호출이 스킬 로드인지로 판정했습니다. 원래 설명에서 간접 요청이 스킬을 부른 비율은 Haiku 0/108, Sonnet 19%, Opus 27%로 합산 15%였습니다. Anthropic의 skill-creator가 권하는 강한 설명은 합산 5.2포인트만 올렸고(95% 구간 2.2~8.3), 그것도 6개 중 3개 스킬에서만 나왔습니다. 반면 superpowers 플러그인의 세션 시작 훅, 즉 무엇보다 먼저 스킬을 확인하라는 지시를 넣자 합산 비율이 62%로 뛰었습니다. 근접 오답은 세 설정 모두 972회 중 한 번도 스킬을 부르지 않았습니다. 스킬 설명은 1,536자에서 잘리고 스킬이 많으면 일부는 컨텍스트 창 1% 예산에 맞추려 이름만 표시되며, 스킬이 안 불려도 Claude Code는 표시하지 않으므로 트랜스크립트에서 Skill 호출을 직접 확인해야 한다고 지적합니다."
     },
     {
       "category": "AI",
-      "title": "Google Releases Gemini 4 Argon for Robotics Control, Simulation, and Policy Improvement",
-      "link": "https://www.infoq.com/news/2026/11/google-gemini-argon/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Google이 로봇 제어·Real2Sim 장면 구성·로봇 영상 라벨링·정책 개선을 한 모델로 다루는 물리 추론 모델 Gemini 4 Argon을 공개했습니다. ERQA 벤치마크에서 도구 없이 87%를 기록했다고 밝혔습니다.",
-      "detail": "Gemini 4 Argon은 단일 엔드이펙터 정책이 아니라 범용 물리 추론 모델로 소개됐습니다. 공개된 프롬프트 예시에서 Argon은 MuJoCo 디지털 트윈에서 연습한 뒤 Boston Dynamics Spot에게 발 페달 과제를 시키고, 단순한 로봇 팔은 시각 좌표와 HTTP 모션 프리미티브로 조종하며, Gemini Omni 비디오 월드 모델과 루프를 닫습니다. 원격조작 영상에서 MuJoCo 장면을 재구성하고 행동 복제용 시연 영상을 라벨링하는 예도 있습니다. RGB 사진 한 장에서 도메인 랜덤화된 MuJoCo 에피소드를 합성해 VLA 정책을 미세조정하자 실제 환경 성공률이 56%에서 75%로 올랐다고 보고했습니다. ERQA(Embodied Reasoning Question Answering)에서는 보조 도구 없이 87%로 다른 프런티어 모델을 앞선다고 주장합니다. Google AI Ultra 구독자와 유료 Gemini API에서 모델 ID gemini-4-argon으로 쓸 수 있습니다. 다만 긴 과제별 프롬프트·좌표 격자·모션 프리미티브·검증기가 시스템의 일부이고, VLA 한 건 외에는 데모별 실패율을 공개하지 않았습니다. 기사는 프런티어 모델 하나와 무거운 프롬프트 하네스가 VLA·시뮬레이터·라벨러 서비스 파이프라인을 대체할 수 있는지가 아키텍처 검토의 질문이라고 정리합니다."
+      "title": "Gemini 4 Carbon is now available",
+      "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+      "summary": "Google이 최상위 모델 Gemini 4 Carbon을 개발자·기업·소비자에게 정식 공개했으며, API 가격은 Gemini 4 Argon과 같은 100만 토큰당 입력 2달러·출력 10달러입니다.",
+      "detail": "Carbon은 사이버보안과 장기 에이전트 작업에서 최전선 성능을 내세운 모델로, 2주 전 Fairwind 프로그램을 통해 사이버 방어 조직에 먼저 풀렸습니다. Google은 대부분의 소프트웨어 엔지니어링·지식 업무에는 Argon이 맞고, Carbon은 토큰을 더 써서 깊이 추론하고 긴 검증 루프를 도는 다단계 코딩·디버깅이나 개방형 과학 연구용이라고 구분합니다. CursorBench 4.0, Perplexity WANDR, Zapier AutomationBench에서 1위를 했고, 차순위 외부 모델보다 과제당 비용이 2배 이상 낮다고 밝혔습니다. Artificial Analysis와 함께 만든 멀티모달 지식 에이전트(MKA) 벤치마크에서는 2위지만 1위 모델보다 평균 과제 비용이 6배 이상 낮습니다. Google Antigravity에는 /swarm 기능을 미리 공개했는데, 프롬프트 하나를 실시간으로 지켜볼 수 있는 에이전트 팀으로 바꾸고 설계·조율·감사 같은 역할에 Carbon을, 병렬 작업에 가벼운 모델을 배치하는 방식입니다. Google AI Studio와 Gemini for business의 API로 모든 유료 개발자가 쓸 수 있고, Google AI Ultra 구독자에게는 Antigravity·Gemini 앱·검색 AI 모드로 배포 중입니다. 다만 Artificial Analysis 지능 지수 v5에서는 같은 주에 나온 Claude Fable 5.2(max, 65)가 Carbon(high, 60)을 앞섰습니다."
     },
     {
       "category": "AI",
-      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
-      "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
-      "summary": "캘리포니아 AI 규제법 SB 1047·SB 53을 주도한 Scott Wiener 주 상원의원이 낸시 펠로시의 샌프란시스코 하원 의석을 차지했습니다. 그는 연방 AI 규제기관 신설과 강력한 규제를 추진하겠다고 밝혔습니다.",
-      "detail": "Wiener는 2024년 프런티어 AI 규제법 SB 1047을 발의했으나 뉴섬 주지사가 거부했고, 이후 수위를 낮춘 SB 53을 통과시켰습니다. 두 법안 모두 연방 법안 제안에 영향을 줬습니다. 당선 직후 인터뷰에서 그는 METR이 하루 전 낸 보고서가 Anthropic의 재귀적 자기개선 달성 증거로 널리 해석된 것을 들어 규제할 시간이 빠르게 줄고 있다고 말했습니다. 그는 강하고 기민한 연방 규제기관(Ro Khanna 의원 법안), 내부고발자 보호, 테스트·감사 의무, 킬 스위치 요건을 지지하며, 하원 AI 특별위원회가 생기면 참여하겠다고 했습니다. 주(州) AI 법을 폭넓게 무력화하는 연방 선점(preemption)에는 반대합니다. 그의 선거운동은 Anthropic이 상당 부분을 대는 규제 찬성 단체 Public First Action에서 300만 달러 이상을 받아 업계와 가깝다는 비판을 받았지만, 본인은 이를 부인했습니다. 한편 이번 선거에서 데이터센터 반대 주민투표 41건 중 40건이 통과됐는데, Wiener는 이를 AI 위험보다 전기요금·물 사용 같은 지역 문제로 봅니다. 트럼프 대통령이 9월 AI 파국 위험을 '사기'라고 부른 만큼 입법 전망에는 '조심스러운 낙관'에 그친다고 했습니다."
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "summary": "Google DeepMind가 에이전트 프레임워크 AlphaProof Code로 Signal 프로토콜의 실제 구현 코드가 핵심 보안 속성을 지킨다는 것을 4주 만에 형식 검증했습니다.",
+      "detail": "형식 검증은 코드가 결함 없이 동작함을 수학적으로 증명하는 가장 높은 수준의 보안 보증이지만 손이 많이 들어, 지금까지 프로토콜 검증은 대개 설계 수준에서 멈췄습니다. AlphaProof Code는 연구팀처럼 일을 나눕니다. 사람 전문가가 여러 모델과 함께 Signal의 보안 목표를 형식 명세로 옮기고 명세를 모두 검토하면, Gemini Carbon 기반 에이전트들이 증명을 맡아 Lean 코드 600만 줄 이상을 생성했습니다. 에이전트가 증명을 감사해 사람이 다시 볼 부분을 코드베이스의 1%로 좁혔고, 나머지는 Lean이 자동으로 검사합니다. 검증 대상은 설계가 아니라 기기에서 실제로 도는 컴파일된 코드였고, 기기가 잠시 탈취되기 전후에도 메시지를 보호하는 등의 보안 속성을 증명했습니다. 검증 능력을 확인하려고 이미 고쳐진 실제 버그 2개를 격리된 코드에 다시 넣자, 시스템은 두 경우 모두 버그 버전이 안전하지 않다는 기계 검증 증명을 내놓았습니다. DeepMind는 널리 배포된 암호 프로토콜을 AI로 이 깊이까지 검증한 것도, 그런 프로토콜의 구현을 어떤 방법으로든 형식 검증한 것도 처음이라고 밝혔습니다. Signal CTO Ehren Kret은 실제 코드를 유효한 Lean 정리로 옮기는 데 에이전트를 쓴 것이 큰 돌파구라고 평가했습니다."
+    },
+    {
+      "category": "AI",
+      "title": "Google Finds that Technical Debt Can Derail Coding Agents Through \"Agent Distraction\"",
+      "link": "https://www.infoq.com/news/2026/11/google-agent-distraction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "summary": "Google이 수억 건의 에이전트 스텝을 분석해, 코드에 남은 낡은 TODO 같은 기술 부채가 코딩 에이전트를 요청받지 않은 작업으로 끌고 가는 '에이전트 탈선' 현상을 수치로 보였습니다.",
+      "detail": "Google의 Sam Saccone과 Madhuri Garikapati는 해결된 지 오래인 버그를 가리키는 TODO(bug/...) 주석에 주목했습니다. 수천 명 엔지니어의 분산 추적과 수억 건의 에이전트 스텝을 보니 세션의 약 13%에서 에이전트가 인라인 TODO·FIXME 참조를 접했고, 그중 6%에서 참조된 버그를 건드리는 행동을 했습니다. 대부분은 프롬프트가 그 버그를 언급하지도 않았습니다. 요청받지 않은 우회 가운데 41%는 이미 닫힌 티켓을, 57%는 열려 있지만 개발자 요청 범위 밖인 버그를 작업한 범위 이탈이었습니다. 개발자 단위로 군집화한 고정효과 회귀로 보면 이런 우회는 세션당 스텝을 70%, 토큰을 77%, 대기 시간을 105% 늘렸습니다. Google은 스캐너 에이전트를 만들어 낡은 TODO를 찾고, 때로는 수년치 git 이력까지 확인해 TODO와 그 의도가 모두 낡았다고 확정한 경우에만 제거 PR을 올렸습니다. 지난 6개월간 수천 건을 지웠고 리뷰어 수용률은 95%를 넘었습니다. 저자들은 사전 제출 분석기, 코드베이스 스캐너, 자동화 에이전트로 이 문제를 줄일 수 있다고 결론지었습니다."
+    },
+    {
+      "category": "AI",
+      "title": "Tracking Anthropic-discovered vulnerabilities",
+      "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "summary": "VulnCheck가 Anthropic Project Glasswing 7개월을 집계한 결과, Anthropic 발견으로 확인되는 CVE는 442건으로 올해 전체의 약 0.5%였고 실제로 악용된 것은 2건뿐이었습니다.",
+      "detail": "VulnCheck는 4월부터 CVE 레코드, GHSA, 리눅스 커널 커밋, Anthropic의 공개 원장을 대조해 Anthropic이 찾은 취약점을 추적해 왔습니다. 7개월 동안 확인한 CVE는 442건으로 월평균 63건이며, 올해 공개된 CVE 93,450건의 약 0.5%입니다. 이 중 VulnCheck KEV 기준으로 실제 악용된 것은 2건(0.45%)뿐입니다. Anthropic 원장은 11월 2일 기준 발견 37,966건 가운데 7,349건(19.4%)만 공개됐고, 수정 완료로 표시된 것은 217건입니다. 9월 8일 이후 두 달 동안 발견은 11,813건 늘었지만 수정은 15건 늘었고, 중복 처리는 2건에서 1,600여 건으로 늘었으며 철회도 419건입니다. 그런데도 Anthropic이 내세운 진양성률은 출시 때 90.8%에서 94.2%로 올라, 중복과 철회를 어떻게 반영하는지 의문이 제기됩니다. curl은 공개된 보고 34건 중 19건을 취약점이 아니라고 거부했고 6건만 낮은 심각도로 인정했습니다. 글은 AI가 취약점 탐색에 유용한 도구라는 점은 인정하면서도, 검증 부담이 메인테이너에게 넘어가고 있다고 지적합니다."
     },
     {
       "category": "Architecture",
-      "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
-      "link": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Cloudflare가 Merkle Tree Certificates(MTC) 실험에서 중앙값 9% 빠른 성능을 확인하고, MTC를 발급하는 공개 인증기관을 개발 중이라고 밝혔습니다. 2027년 초 Chrome 양자내성 루트 스토어 편입이 목표입니다.",
-      "detail": "포스트 양자 서명은 기존 서명보다 약 40배 커서 Web PKI의 대역폭·저장 부담을 키웁니다. MTC는 인증서를 하나씩 서명하는 대신 CA가 인증서 데이터를 추가 전용 Merkle 트리에 기록하고 체크포인트만 서명하며, 클라이언트는 포함 증명(inclusion proof)으로 검증합니다. 즉 발급과 투명성 로깅을 합친 구조입니다. Cloudflare는 무료 플랜 일부 도메인에서 Chrome Beta 146 사용자 50%에게 수십억 개의 MTC를 제공했고, 중앙값 9% 개선의 대부분은 중간 인증서 제거 덕분이었습니다. 이 실험은 포스트 양자가 아닌 기존 서명으로 진행됐고 2026년 8월 종료됐습니다. 도메인 소유 검증은 ACME를 쓰고, 독립 미러링 cosigner가 트리 상태를 검증·보관해 로그 불일치를 탐지합니다. 랜드마크 기반 인증서를 쓰면 일반적인 경우 TLS 핸드셰이크에 공개키 하나, 서명 하나, 1KB 미만의 포함 증명만 오갑니다. 랜드마크가 없는 신규·오프라인 클라이언트를 위해 서버는 독립형 MTC를 폴백으로 유지해야 합니다. 남은 과제는 운영 규모의 독립 모니터링, 다양한 CA·cosigner 생태계, 브라우저 지원이며, 짧은 유효기간 구조에서 폐기(OCSP·CRL)를 어떻게 다룰지도 질문으로 제기됐습니다."
+      "title": "Long-horizon agents and durable execution",
+      "link": "https://martinfowler.com/articles/durable-execution-agents.html",
+      "summary": "Thoughtworks의 Kiran Prakash가 며칠에서 몇 주씩 걸리는 장기 실행 에이전트를 durable execution으로 만드는 방법을 재고 보충 에이전트 예제로 정리했습니다.",
+      "detail": "예제인 Stock Replenisher는 부품이 안전 재고 아래로 떨어지면 견적을 받고, 관리자 승인을 이틀 기다리고, 발주한 뒤 3주간 입고를 기다립니다. 에이전트 루프는 목표·도구·상태·모델로 이뤄지고, 각 도구의 allowed 메서드에 승인된 가격 이하일 때만 발주하는 식의 업무 규칙을 둬서 규칙이 프롬프트가 아니라 코드에 있게 합니다. 저자는 장기 에이전트를 분산 시스템으로 보라고 하며, 대기 중 프로세스 재시작, 원격 호출 실패, 응답 유실로 인한 중복 발주, 동시 실행, 대기 중 가격 변동, 실행 중 코드 배포, 공급사 메일에 숨은 조작 문구까지 실패 유형을 정리합니다. 이 중 앞의 네 가지는 durable execution 런타임이 범용 기능으로 처리합니다. durable execution은 LLM 호출이나 ERP 호출처럼 외부와 상호작용하는 각 단계의 결과를 쓰기 전 로그처럼 기록해 두고, 장애가 나면 프로그램을 다시 실행하되 끝난 단계는 건너뛰고 기록으로 상태를 복원하는 방식입니다. Temporal, Restate, Inngest, DBOS, Cloudflare Workflows가 이를 구현하며, 저자는 Temporal과 Cloudflare Workflows로 예제를 만들었습니다. 나머지 실패는 하네스가 직접 다뤄야 하고, 장애 뒤 모델이 다음 행동을 정할 수 있게 올바른 입력을 주는 것이 하네스의 몫이라고 강조합니다."
     },
     {
-      "category": "Python",
-      "title": "TDD With AI Agents: Design the Tests First, Let the Agent Implement",
-      "link": "https://realpython.com/tdd-ai-agents/",
-      "summary": "Real Python이 테스트는 사람이 설계하고 구현은 AI 에이전트에게 맡기는 TDD 루프를 Python 버전 비교기 예제로 정리했습니다. Claude Code 권한 규칙으로 tests/ 쓰기를 막아 에이전트가 테스트를 고치지 못하게 하는 방법을 포함합니다.",
-      "detail": "에이전트가 코드와 테스트를 모두 쓰면 통과한 테스트는 에이전트가 스스로에 동의한다는 뜻일 뿐이라는 문제의식에서 출발합니다. 루프는 다섯 단계입니다. 사람이 계약을 정하고 첫 테스트를 손으로 쓰고, 에이전트가 계약과 첫 테스트만 보고 테스트를 초안하며, 사람이 테스트를 검토·보강하고, 에이전트가 구현하고, 사람이 diff를 검토합니다. 예제는 PEP 440 일부(1.0.dev1 < 1.0a1 < 1.0 < 1.0.post1)를 다루는 Version 클래스입니다. 초안 테스트 중 리스트 정렬 테스트처럼 계약에 없는 행동을 약속하는 것은 지우고, 1.2 < 1.2.1처럼 규칙을 고정하는 것처럼 보이지만 실제로는 '빠진 세그먼트는 0' 규칙을 검증하지 못하는 테스트를 찾아 1.2 == 1.2.0 같은 파라미터화 테스트로 보강합니다. 1.x.0·1..0·빈 문자열 등에는 ValueError를 요구합니다. 구현 단계 전에 .claude/settings.json에 \"deny\": [\"Edit(/tests/**)\"]를 넣으면 파일을 쓰는 내장 도구와 Bash 리다이렉션까지 막히지만, 에이전트가 실행한 스크립트는 막지 못하므로 샌드박스가 필요하다고 짚습니다. 구현 후 계약 밖 동작이 들어왔는지 diff를 검토하는 것으로 한 바퀴를 마칩니다."
+      "category": "Architecture",
+      "title": "Google Cloud Spend Caps Reach General Availability with API and Monthly Resets",
+      "link": "https://www.infoq.com/news/2026/11/google-cloud-spend-caps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Google Cloud가 월 예산에 도달하면 해당 서비스의 새 사용을 멈추는 지출 상한을 정식 출시했지만, 적용 대상은 Gemini API·Cloud Run 등 네 가지뿐입니다.",
+      "detail": "지출 상한은 집행 기능이 붙은 예산입니다. 대상 서비스의 추정 지출이 목표액에 이르면 그 프로젝트의 새 요청은 막히지만, 진행 중인 요청은 끝까지 처리·과금되고 영구 리소스는 계속 돌며 아무것도 지워지지 않습니다. 7월 프리뷰 대비 세 가지가 바뀌었습니다. 기존 Cloud Billing Budgets API로 상한을 만들고 해제할 수 있어 프로젝트 생성 시 자동으로 걸 수 있고, AI 서비스는 몇 시간씩 늦는 정산 데이터 대신 실시간 추정 비용으로 수 분 안에 집행되며, 걸린 상한은 다음 달 초 자동으로 풀립니다. 한계도 분명합니다. 상한은 프로젝트 하나·서비스 하나·한 달 단위이고 폴더·조직·라벨·여러 서비스 묶음은 지원하지 않으며, 추정은 크레딧·할인이 빠진 정가 기준입니다. 집행이 즉시는 아니어서 초과분은 그대로 청구되므로 절대 한도보다 약간 낮게 잡으라고 안내합니다. Compute Engine, Cloud Storage, 네트워킹은 대상이 아니어서, 막아 주는 것은 폭주하는 모델·에이전트 루프이지 잊고 켜 둔 GPU 인스턴스가 아닙니다. AWS는 프로젝트 전체를 멈추고 데이터를 90일 보존하는 지출 한도를 일부 고객에게 시험 중입니다."
+    },
+    {
+      "category": "Architecture",
+      "title": "Cloudflare Makes Basin Serverless Analytics Generally Available",
+      "link": "https://www.infoq.com/news/2026/11/cloudflare-basin-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Cloudflare가 Apache Iceberg와 R2 위에 만든 서버리스 분석 플랫폼 Basin을 정식 출시했으며, 데이터 반출 요금이 없어 DuckDB·Snowflake·Spark 같은 엔진에서 그대로 읽고 쓸 수 있습니다.",
+      "detail": "Basin은 1년 남짓 전 Cloudflare Data Platform이라는 이름으로 프리뷰에 들어갔던 서비스이고, 세 부분으로 이뤄집니다. Basin Pipelines(옛 Cloudflare Pipelines)는 Workers, HTTP 엔드포인트, Logpush에서 이벤트를 받아 SQL로 변환한 뒤 Iceberg 테이블이나 R2에 씁니다. Basin Catalog는 Iceberg 메타데이터를 관리하고 테이블 유지보수를 자동화하며, Basin SQL은 Iceberg 테이블을 질의하는 서버리스 분산 SQL 엔진입니다. Cloudflare는 반출 요금이 없어야 어떤 지역·클라우드의 Iceberg 호환 엔진에서도 데이터를 쓰는 이식성이 생긴다며 이를 설계의 핵심으로 꼽습니다. 프리뷰 이후 스트림당 수집 용량을 초당 3GB로 늘렸고, SQL 기능 확장, 테이블 유지보수 개선, Logpush 연동, Terraform 지원을 더했습니다. 실시간 처리, 최신 Iceberg 명세, 적응형 테이블 유지보수, 데이터 주권·접근 제어는 날짜 없이 계획만 잡혀 있습니다. 한 실무자는 Snowflake를 밀어내지는 못하겠지만, 전용 인프라를 두기엔 작고 엑셀로는 감당하기 어려운 규모의 팀에게 선택지가 생겼다고 평가했습니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "Scikit-Learn Matched or Beat Jev's Calibration on BANKING77",
+      "link": "https://towardsdatascience.com/scikit-learn-matched-or-beat-jevs-calibration-on-banking77/",
+      "summary": "판단 전용 모델 Jev의 보정된 확률을 scikit-learn으로 재현해 BANKING77에서 비교한 결과, 전체 77개 의도에서는 오히려 오픈 모델의 보정이 더 좋았습니다.",
+      "detail": "TypeSafe AI가 9월 15일 내놓은 Jev는 텍스트를 생성하지 않고, 상태와 타입이 정해진 질문(선택·점수·예/아니오)을 받아 확률이 붙은 구조화된 답을 돌려주는 모델입니다. 확률이 실제 빈도와 맞도록 RLCD라는 방법으로 훈련했다고 하지만 논문과 가중치는 공개되지 않았습니다. 저자는 같은 인터페이스를 scikit-learn 분류기 위에 다시 구현해 비교했습니다. 7개 의도 부분집합에서는 온도 스케일링한 로지스틱 회귀와 Jev의 기대 보정 오차(ECE)가 0.022와 0.014로, 짝지은 부트스트랩으로는 차이를 가릴 수 없었습니다. 77개 의도 전체에서는 오픈 모델이 0.031로 Jev의 0.065보다 보정이 좋았습니다. 다만 Jev는 학습 없이 의도당 예시 최대 3개로 이 성능을 냈고, 오픈 모델은 라벨 10,003개로 학습했습니다. 두 쪽 모두 정답이 선택지에 없는 해당 없음 함정에 빠졌는데, 지갑 분실 문의를 isotonic 보정한 로지스틱 회귀가 0.984 확률로 수수료 문의로 분류한 예가 대표적입니다. 보정 전에는 같은 오답을 0.51로 내서 사람에게 넘겼을 것이므로, 보정이 평균 성능은 올렸지만 이 실수에는 더 자신만만해진 셈입니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "Constructing a latent-variable model to fit measurement data: A Stan story, part 2",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/10/constructing-a-latent-variable-model-to-fit-measurement-data-a-stan-story-part-2/",
+      "summary": "Andrew Gelman이 설문의 매력도 평정 데이터를 잠재변수 측정 모델로 맞추는 과정을 Stan으로 단계별로 보여 주며, 시뮬레이션 기반 우도가 HMC를 망가뜨리는 이유와 해법을 설명했습니다.",
+      "detail": "모델은 사람마다 잠재 매력도가 정규분포를 따르고, 두 시점에 서로 다른 평균과 잡음으로 관측된 값이 1~5로 반올림된 뒤 세 구간(1~2, 3~4, 5)으로 묶인다고 가정합니다. 데이터는 Add Health 설문 1·2차의 3×3 교차표이고, 맞출 모수는 잠재 표준편차와 두 시점의 평균·잡음을 합쳐 5개입니다. 먼저 R에서 모수를 손으로 바꿔 가며 100만 쌍을 시뮬레이션해 표와 비교했지만 대각선과 비대각선 칸을 함께 맞추지 못했습니다. 다음으로 난수를 미리 만들어 Stan에 넘기고 포아송 우도로 맞추려 했으나, rhat이 3을 넘고 유효 표본이 4에 그쳤으며 최적화도 실패했습니다. 고정된 난수와 유한한 N 때문에 모수가 연속적으로 변해도 기대 빈도가 계단식으로 튀어 우도가 불연속이 되고, 이것이 해밀토니안 몬테카를로를 망가뜨렸습니다. 해법은 잠재변수만 시뮬레이션하고 두 관측 차원은 정규 누적분포함수로 해석적으로 적분해 목적함수를 매끄럽게 만드는 것이었습니다. 여기에 제곱근 척도의 정규 우도와 과분산 모수를 더하자 rhat 1.00, 유효 표본 1,000 이상으로 수렴했습니다. 그래도 [1,3]·[3,1] 칸의 기대값이 0.66·1.63으로 실제 40·51에 크게 못 미쳐, 글은 로그정규 우도로 다시 고치는 단계로 이어집니다."
     }
   ]
 }

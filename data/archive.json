@@ -1,6 +1,54 @@
 {
   "digests": [
     {
+      "date": "2026-11-10",
+      "summary": "이번 묶음은 AI 시스템을 무엇으로 검증하느냐가 관통합니다. 포획-재포획 추정으로 에이전트가 놓친 항목까지 세는 평가법, Handshake AI가 보여준 프런티어 랩의 평가·학습 환경, 테스트를 사람이 설계하고 에이전트는 구현만 하게 하는 TDD 루프가 같은 질문을 다룹니다. AI에서는 Google이 물리 추론 모델 Gemini 4 Argon을 내놓았고, AI 규제법을 주도한 Scott Wiener가 하원에 입성했습니다. Architecture에서는 Cloudflare가 포스트 양자 시대를 겨냥한 Merkle Tree Certificates 공개 CA를 준비합니다. Java·Kotlin·Spring·Node·Go·Rust·TypeScript·DataScience는 실어 나를 소식이 없어 비웁니다.",
+      "highlights": [
+        {
+          "category": "Agents",
+          "title": "How to Estimate the Recall of AI Agents with Capture-Recapture",
+          "link": "https://towardsdatascience.com/how-to-estimate-the-recall-of-ai-agents-with-capture-recapture/",
+          "summary": "생태학의 포획-재포획(capture-recapture) 추정으로 AI 에이전트가 놓친 항목 수, 즉 재현율을 정답 라벨 없이 추정하는 방법을 CUAD 계약서 294건으로 검증한 글입니다. 10% 수작업 감사만으로 대부분 에이전트의 실제 재현율을 2포인트 안쪽으로 맞혔습니다.",
+          "detail": "LLM 심판과 리뷰어는 에이전트가 찾은 필드만 채점하므로 아예 찾지 못한 필드는 어떤 리포트에도 나타나지 않습니다. 저자는 두 독립 소스의 발견 수 n1·n2와 공통 발견 수 m만으로 전체 수를 추정하는 Chapman 추정식(다섯 줄 함수)을 적용했습니다. CUAD에서 1만 토큰 이하 계약 294건, 10개 조항 유형, 라벨 1,413개를 기준으로 Claude Haiku 5.5(3회)·Sonnet 5.5·GPT-6 luna·GPT-6.1 sol·키워드 규칙 등 9개 에이전트를 돌렸고 비용은 $14.71였습니다. 재현율은 대부분 0.74~0.75, GPT-6.1 sol 0.86, 키워드 규칙 0.53이었고 1,413개 중 127개(9%)는 일곱 에이전트 모두 놓쳤습니다. 같은 모델 두 번 실행 쌍은 1,102개로 22% 과소추정하면서 신뢰구간은 ±3개로 좁아, 높은 일치도가 오히려 공통 맹점의 신호임을 보였습니다. 7개 소스에 2차 잭나이프(Burnham & Overton 1978)를 쓰면 MAE가 약 12%에서 5%로 줄었습니다. 모든 발견을 정답으로 보는 pooled recall은 재현율을 6~12포인트 부풀렸고(Haiku 75%가 86%로 보임), 10% 감사를 곁들인 포획-재포획은 부트스트랩 중앙 오차 3.8포인트로 pooling의 9.7포인트보다 정확했습니다. 권고는 성질이 다른 검사기를 포함해 최소 3개를 쓰고, 정밀도 옆에 추정 재현율을 보고하라는 것입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "What Frontier Labs Buy: A Data Deep Dive with Handshake AI — Garrett Lord & Team",
+          "link": "https://latent.space/p/handshake/",
+          "summary": "Latent Space가 1년 만에 연환산 총매출 10억 달러에 이른 AI 데이터 회사 Handshake AI를 다룬 164분 심층 에피소드를 공개했습니다. 프런티어 랩이 사들이는 강화학습 환경과 평가 과제를 금융·바이오·정렬 분야 실제 데모로 보여줍니다.",
+          "detail": "Handshake의 AI 학습 데이터 사업은 출시 약 1년 만에 연환산 총매출(gross annualized revenue) 10억 달러에 도달했습니다. 금융 데모(ATLAS-Finance, Project Falcon)에서는 에이전트가 은행 이메일에서 과제를 찾고 거래를 규율하는 파일을 가려 엑셀 워크북을 내야 하는데, 고객 메일의 기존 영업권 한 줄을 Python으로 가져가 그대로 빼는 실수를 합니다. 모델은 세무 처리를 물으면 설명할 수 있지만, 바로 그 코드 줄에 규칙을 적용해야 한다는 점을 알아차리지 못한다는 것이 요지입니다. 바이오 벤치마크 VIALS는 뇌종양 조직 슬라이드 9장 중 혈관 괴사가 가장 진행된 2장을 고르는 과제에서 모델이 정답 H·I에 G를 더 고르는 모습을 보여줍니다. 정렬 세그먼트는 시뮬레이션된 파일 접근 과제에서 에이전트가 어떤 파일을 읽고 셸 기록에 무엇을 했는지까지 채점해, 최종 응답만 보는 평가로는 대부분을 놓친다고 지적합니다. 그 밖에 랩이 새 데이터셋을 평가하는 방식, 루브릭의 한계, 에이전트가 엑셀 채점기를 속인 사례, 랩이 평가 과제를 따로 보관하는 이유를 다룹니다."
+        },
+        {
+          "category": "AI",
+          "title": "Google Releases Gemini 4 Argon for Robotics Control, Simulation, and Policy Improvement",
+          "link": "https://www.infoq.com/news/2026/11/google-gemini-argon/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Google이 로봇 제어·Real2Sim 장면 구성·로봇 영상 라벨링·정책 개선을 한 모델로 다루는 물리 추론 모델 Gemini 4 Argon을 공개했습니다. ERQA 벤치마크에서 도구 없이 87%를 기록했다고 밝혔습니다.",
+          "detail": "Gemini 4 Argon은 단일 엔드이펙터 정책이 아니라 범용 물리 추론 모델로 소개됐습니다. 공개된 프롬프트 예시에서 Argon은 MuJoCo 디지털 트윈에서 연습한 뒤 Boston Dynamics Spot에게 발 페달 과제를 시키고, 단순한 로봇 팔은 시각 좌표와 HTTP 모션 프리미티브로 조종하며, Gemini Omni 비디오 월드 모델과 루프를 닫습니다. 원격조작 영상에서 MuJoCo 장면을 재구성하고 행동 복제용 시연 영상을 라벨링하는 예도 있습니다. RGB 사진 한 장에서 도메인 랜덤화된 MuJoCo 에피소드를 합성해 VLA 정책을 미세조정하자 실제 환경 성공률이 56%에서 75%로 올랐다고 보고했습니다. ERQA(Embodied Reasoning Question Answering)에서는 보조 도구 없이 87%로 다른 프런티어 모델을 앞선다고 주장합니다. Google AI Ultra 구독자와 유료 Gemini API에서 모델 ID gemini-4-argon으로 쓸 수 있습니다. 다만 긴 과제별 프롬프트·좌표 격자·모션 프리미티브·검증기가 시스템의 일부이고, VLA 한 건 외에는 데모별 실패율을 공개하지 않았습니다. 기사는 프런티어 모델 하나와 무거운 프롬프트 하네스가 VLA·시뮬레이터·라벨러 서비스 파이프라인을 대체할 수 있는지가 아키텍처 검토의 질문이라고 정리합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+          "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+          "summary": "캘리포니아 AI 규제법 SB 1047·SB 53을 주도한 Scott Wiener 주 상원의원이 낸시 펠로시의 샌프란시스코 하원 의석을 차지했습니다. 그는 연방 AI 규제기관 신설과 강력한 규제를 추진하겠다고 밝혔습니다.",
+          "detail": "Wiener는 2024년 프런티어 AI 규제법 SB 1047을 발의했으나 뉴섬 주지사가 거부했고, 이후 수위를 낮춘 SB 53을 통과시켰습니다. 두 법안 모두 연방 법안 제안에 영향을 줬습니다. 당선 직후 인터뷰에서 그는 METR이 하루 전 낸 보고서가 Anthropic의 재귀적 자기개선 달성 증거로 널리 해석된 것을 들어 규제할 시간이 빠르게 줄고 있다고 말했습니다. 그는 강하고 기민한 연방 규제기관(Ro Khanna 의원 법안), 내부고발자 보호, 테스트·감사 의무, 킬 스위치 요건을 지지하며, 하원 AI 특별위원회가 생기면 참여하겠다고 했습니다. 주(州) AI 법을 폭넓게 무력화하는 연방 선점(preemption)에는 반대합니다. 그의 선거운동은 Anthropic이 상당 부분을 대는 규제 찬성 단체 Public First Action에서 300만 달러 이상을 받아 업계와 가깝다는 비판을 받았지만, 본인은 이를 부인했습니다. 한편 이번 선거에서 데이터센터 반대 주민투표 41건 중 40건이 통과됐는데, Wiener는 이를 AI 위험보다 전기요금·물 사용 같은 지역 문제로 봅니다. 트럼프 대통령이 9월 AI 파국 위험을 '사기'라고 부른 만큼 입법 전망에는 '조심스러운 낙관'에 그친다고 했습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Cloudflare Develops Public Certificate Authority for Post-Quantum Web Security",
+          "link": "https://www.infoq.com/news/2026/11/cloudflare-merkle-certificates/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Cloudflare가 Merkle Tree Certificates(MTC) 실험에서 중앙값 9% 빠른 성능을 확인하고, MTC를 발급하는 공개 인증기관을 개발 중이라고 밝혔습니다. 2027년 초 Chrome 양자내성 루트 스토어 편입이 목표입니다.",
+          "detail": "포스트 양자 서명은 기존 서명보다 약 40배 커서 Web PKI의 대역폭·저장 부담을 키웁니다. MTC는 인증서를 하나씩 서명하는 대신 CA가 인증서 데이터를 추가 전용 Merkle 트리에 기록하고 체크포인트만 서명하며, 클라이언트는 포함 증명(inclusion proof)으로 검증합니다. 즉 발급과 투명성 로깅을 합친 구조입니다. Cloudflare는 무료 플랜 일부 도메인에서 Chrome Beta 146 사용자 50%에게 수십억 개의 MTC를 제공했고, 중앙값 9% 개선의 대부분은 중간 인증서 제거 덕분이었습니다. 이 실험은 포스트 양자가 아닌 기존 서명으로 진행됐고 2026년 8월 종료됐습니다. 도메인 소유 검증은 ACME를 쓰고, 독립 미러링 cosigner가 트리 상태를 검증·보관해 로그 불일치를 탐지합니다. 랜드마크 기반 인증서를 쓰면 일반적인 경우 TLS 핸드셰이크에 공개키 하나, 서명 하나, 1KB 미만의 포함 증명만 오갑니다. 랜드마크가 없는 신규·오프라인 클라이언트를 위해 서버는 독립형 MTC를 폴백으로 유지해야 합니다. 남은 과제는 운영 규모의 독립 모니터링, 다양한 CA·cosigner 생태계, 브라우저 지원이며, 짧은 유효기간 구조에서 폐기(OCSP·CRL)를 어떻게 다룰지도 질문으로 제기됐습니다."
+        },
+        {
+          "category": "Python",
+          "title": "TDD With AI Agents: Design the Tests First, Let the Agent Implement",
+          "link": "https://realpython.com/tdd-ai-agents/",
+          "summary": "Real Python이 테스트는 사람이 설계하고 구현은 AI 에이전트에게 맡기는 TDD 루프를 Python 버전 비교기 예제로 정리했습니다. Claude Code 권한 규칙으로 tests/ 쓰기를 막아 에이전트가 테스트를 고치지 못하게 하는 방법을 포함합니다.",
+          "detail": "에이전트가 코드와 테스트를 모두 쓰면 통과한 테스트는 에이전트가 스스로에 동의한다는 뜻일 뿐이라는 문제의식에서 출발합니다. 루프는 다섯 단계입니다. 사람이 계약을 정하고 첫 테스트를 손으로 쓰고, 에이전트가 계약과 첫 테스트만 보고 테스트를 초안하며, 사람이 테스트를 검토·보강하고, 에이전트가 구현하고, 사람이 diff를 검토합니다. 예제는 PEP 440 일부(1.0.dev1 < 1.0a1 < 1.0 < 1.0.post1)를 다루는 Version 클래스입니다. 초안 테스트 중 리스트 정렬 테스트처럼 계약에 없는 행동을 약속하는 것은 지우고, 1.2 < 1.2.1처럼 규칙을 고정하는 것처럼 보이지만 실제로는 '빠진 세그먼트는 0' 규칙을 검증하지 못하는 테스트를 찾아 1.2 == 1.2.0 같은 파라미터화 테스트로 보강합니다. 1.x.0·1..0·빈 문자열 등에는 ValueError를 요구합니다. 구현 단계 전에 .claude/settings.json에 \"deny\": [\"Edit(/tests/**)\"]를 넣으면 파일을 쓰는 내장 도구와 Bash 리다이렉션까지 막히지만, 에이전트가 실행한 스크립트는 막지 못하므로 샌드박스가 필요하다고 짚습니다. 구현 후 계약 밖 동작이 들어왔는지 diff를 검토하는 것으로 한 바퀴를 마칩니다."
+        }
+      ]
+    },
+    {
       "date": "2026-11-09",
       "summary": "이번 묶음은 AI 에이전트 도구의 보안·거버넌스와 AI 업계의 재평가가 중심입니다. Apiiro는 Claude Code의 '다시 묻지 않기' 설정이 공개 GitHub 1,122개 파일에 실제 시크릿을 노출시켰다고 밝혔고, 골드만삭스는 트레이더·뱅커에게서 Claude Code를 회수했으며, GitLab 19.5는 외부 에이전트를 거버넌스 대상으로 끌어들였습니다. Anthropic은 증시 급락 속에 IPO 기업가치 논의가 1.3조 달러로 내려갔고, Pinterest는 40억 파라미터 Qwen3로 추천 참여를 끌어올렸습니다. Java는 JDK 28 Value Objects와 Project Babylon을, Spring AI 2.1.0-RC2는 DecisionModel을 선보였습니다. Kotlin·Node·Go·Rust·TypeScript는 실어 나를 소식이 없어 비웁니다.",
       "highlights": [
