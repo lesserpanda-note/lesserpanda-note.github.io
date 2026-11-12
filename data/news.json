@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-12T10:23:22+09:00",
-  "count": 1248,
+  "updated": "2026-11-12T18:30:24+09:00",
+  "count": 1251,
   "items": [
+    {
+      "title": "[AINews] D-Day (Decision Models Day)",
+      "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 11, 2026 — Google enters the decision model market. At AI Engineer, Cloudflare showed which parts of a build failure a classifier could handle. TypeSafe AI showed off their production customers.",
+      "ts": 1794461214,
+      "published": "2026-11-12T05:26:54+00:00",
+      "collected_at": "2026-11-12T18:29:58+09:00"
+    },
+    {
+      "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+      "link": "https://latent.space/p/jev-revolution/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "At AI Engineer Code Summit, lead Jev creator Diogo Almeida called on developers to automate everything. Also, Glean and others showed how they’re using Jev.",
+      "ts": 1794460100,
+      "published": "2026-11-12T05:08:20+00:00",
+      "collected_at": "2026-11-12T18:29:58+09:00"
+    },
+    {
+      "title": "v2.68.0 (2026-11-11)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.68.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Note text that looks like an application frame in user and tool content instead of escaping it by @DouweM in #11813 Add OutputTokenLimitExceeded , and fall back to the next model in…",
+      "ts": 1794453795,
+      "published": "2026-11-12T03:23:15+00:00",
+      "collected_at": "2026-11-12T18:29:58+09:00"
+    },
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",
       "link": "https://openai.com/index/gilbert-tobin-sam-nickless",
@@ -11,6 +41,36 @@
       "ts": 1794441600,
       "published": "2026-11-12T00:00:00+00:00",
       "collected_at": "2026-11-11T11:42:18+09:00"
+    },
+    {
+      "title": "Spring ApplicationContext Hierarchy and a High CVE in Axelix",
+      "link": "https://foojay.io/today/spring-context-hierarchy/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "How Spring's ApplicationContext hierarchy caused a JWT bypass in Axelix when Actuator ran on a separate management port.",
+      "ts": 1794441600,
+      "published": "2026-11-12T00:00:00+00:00",
+      "collected_at": "2026-11-12T18:29:58+09:00"
+    },
+    {
+      "title": "Java 27: What’s New?",
+      "link": "https://foojay.io/today/java-27-whats-new/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "What's new in Java 27 for us, developers",
+      "ts": 1794441600,
+      "published": "2026-11-12T00:00:00+00:00",
+      "collected_at": "2026-11-12T18:29:58+09:00"
+    },
+    {
+      "title": "EUDI wallets with OpenID4VP and pac4j: same device and another device",
+      "link": "https://foojay.io/today/eudi-wallets-openid4vp-pac4j/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Authenticate Java Spring Boot users with EUDI wallets and pac4j: SD-JWT VC on the same phone, or an mdoc PID via QR code on another device.",
+      "ts": 1794441600,
+      "published": "2026-11-12T00:00:00+00:00",
+      "collected_at": "2026-11-12T18:29:58+09:00"
     },
     {
       "title": "Constructing a latent-variable model to fit measurement data: A polychoric story",
@@ -12451,36 +12511,6 @@
       "ts": 1791884224,
       "published": "2026-10-13T09:37:04+00:00",
       "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "AI labs are buying data from dead startups to train their models",
-      "link": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives…",
-      "ts": 1791882000,
-      "published": "2026-10-13T09:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Cloudflare’s OHTTP Gateway Refuses to Decrypt Requests That Arrive Through Cloudflare",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-ohttp-gateway/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has opened a closed beta of its OHTTP Gateway, a managed endpoint that decrypts Oblivious HTTP requests for an origin. The design choice drawing attention is a refusal: the Gateway will not decrypt requests a…",
-      "ts": 1791873840,
-      "published": "2026-10-13T06:44:00+00:00",
-      "collected_at": "2026-10-13T16:29:48+09:00"
-    },
-    {
-      "title": "web-edit 0.1a1",
-      "link": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: web-edit 0.1a1 Includes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra. Tags: profiling , projects",
-      "ts": 1791855605,
-      "published": "2026-10-13T01:40:05+00:00",
-      "collected_at": "2026-10-14T09:09:49+09:00"
     }
   ]
 }
