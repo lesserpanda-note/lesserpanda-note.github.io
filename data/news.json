@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-12T03:31:10+09:00",
-  "count": 1245,
+  "updated": "2026-11-12T10:23:22+09:00",
+  "count": 1248,
   "items": [
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -11,6 +11,66 @@
       "ts": 1794441600,
       "published": "2026-11-12T00:00:00+00:00",
       "collected_at": "2026-11-11T11:42:18+09:00"
+    },
+    {
+      "title": "Constructing a latent-variable model to fit measurement data: A polychoric story",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/11/constructing-a-latent-variable-model-to-fit-measurement-data-a-polychoric-story/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Following up on our recent post, Mathias Berggren writes: I coded up a polychoric estimate for the problem you present in Constructing a latent-variable model to fit measurement data: A Stan story, part 2. I think it le…",
+      "ts": 1794440934,
+      "published": "2026-11-11T23:48:54+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
+    },
+    {
+      "title": "1.15.40",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.40",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Remove chromadb from the embedding function layer. Add exact historical state lookup by row id. Wire jsonl into rag data type discovery. Scaffold standalone agents as JSON by default. Add backend…",
+      "ts": 1794435593,
+      "published": "2026-11-11T22:19:53+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
+    },
+    {
+      "title": "Gemini Decisions API",
+      "link": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Gemini Decisions API Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and…",
+      "ts": 1794434605,
+      "published": "2026-11-11T22:03:25+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
+    },
+    {
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 342 # Comments: 325",
+      "ts": 1794432275,
+      "published": "2026-11-11T21:24:35+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
+    },
+    {
+      "title": "aws-emulator",
+      "link": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "aws-emulator Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so. It's written in Rust by a huge swarm of agents…",
+      "ts": 1794431910,
+      "published": "2026-11-11T21:18:30+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
+    },
+    {
+      "title": "Browse tools.simonwillison.net by tag",
+      "link": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Browse tools.simonwillison.net by tag I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it…",
+      "ts": 1794422570,
+      "published": "2026-11-11T18:42:50+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
     },
     {
       "title": "Where Does Abacus.AI’s Smaug Model Improve Performance the Most?",
@@ -31,6 +91,36 @@
       "ts": 1794420000,
       "published": "2026-11-11T18:00:00+00:00",
       "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "Grok Build coding agent leaks oodles of confidential info",
+      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/ Comments URL: https://news.ycombinator.com/item?id=50456277 Points: 11 # Commen…",
+      "ts": 1794419603,
+      "published": "2026-11-11T17:53:23+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
+    },
+    {
+      "title": "llm 0.37.2",
+      "link": "https://simonwillison.net/2026/Nov/11/llm/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm 0.37.2 Fixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w . LLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai en…",
+      "ts": 1794417592,
+      "published": "2026-11-11T17:19:52+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
+    },
+    {
+      "title": "Launch HN: Pomerado (YC F26) – Turn any website into an MCP for agents",
+      "link": "https://news.ycombinator.com/item?id=50455811",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Hi HN, we’re Alan and Akshay from Pomerado ( https://pomerado.ai/ ). We connect your agents to any website by turning sites into deterministic, self-healing APIs in minutes, fully self-serve. Agents are no longer limite…",
+      "ts": 1794417116,
+      "published": "2026-11-11T17:11:56+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
     },
     {
       "title": "GitHub Makes Agentic Workflows Generally Available with Isolation and Budget Controls",
@@ -223,6 +313,16 @@
       "collected_at": "2026-11-11T22:57:59+09:00"
     },
     {
+      "title": "My AI agents found an unmapped Maya site?",
+      "link": "https://pietromiotti.com/latest/maya-site",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 922 # Comments: 335",
+      "ts": 1794398722,
+      "published": "2026-11-11T12:05:22+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
+    },
+    {
       "title": "Quiz: Python HTTPX: Making HTTP Requests With HTTPX2",
       "link": "https://realpython.com/quizzes/python-httpx/",
       "source": "Real Python",
@@ -411,6 +511,16 @@
       "ts": 1794355200,
       "published": "2026-11-11T00:00:00+00:00",
       "collected_at": "2026-11-12T03:30:46+09:00"
+    },
+    {
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "link": "https://openai.com/index/jiostar-vijay-seshadri",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "ts": 1794355200,
+      "published": "2026-11-11T00:00:00+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
     },
     {
       "title": "v2.67.0 (2026-11-10)",
@@ -2261,6 +2371,16 @@
       "ts": 1793916321,
       "published": "2026-11-05T22:05:21+00:00",
       "collected_at": "2026-11-06T09:42:34+09:00"
+    },
+    {
+      "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+      "link": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/ Comments URL: https://news.ycombinator.com/item?id=50383902 Points: 50 # Comments: 6",
+      "ts": 1793909779,
+      "published": "2026-11-05T20:16:19+00:00",
+      "collected_at": "2026-11-12T10:23:01+09:00"
     },
     {
       "title": "Cult.fit builds operational muscle with Codex",
@@ -12361,96 +12481,6 @@
       "ts": 1791855605,
       "published": "2026-10-13T01:40:05+00:00",
       "collected_at": "2026-10-14T09:09:49+09:00"
-    },
-    {
-      "title": "OpenAI Decisions API: What it is and how to use it?",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/openai-decisions-api/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Imagine building an AI agent that has to decide whether a customer complaint needs human intervention, which department should handle a query, or whether a submitted delivery photo is valid. Getting these decisions righ…",
-      "ts": 1791851940,
-      "published": "2026-10-13T00:39:00+00:00",
-      "collected_at": "2026-10-13T16:29:48+09:00"
-    },
-    {
-      "title": "Show HN: SolidCraft – Open-Source Parametric CAD in Rust (With MCP Support)",
-      "link": "https://github.com/bherbruck/solidcraft",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/bherbruck/solidcraft Comments URL: https://news.ycombinator.com/item?id=50064840 Points: 133 # Comments: 45",
-      "ts": 1791850264,
-      "published": "2026-10-13T00:11:04+00:00",
-      "collected_at": "2026-10-14T09:58:30+09:00"
-    },
-    {
-      "title": "SpaceXSI: Unified plans across Grok, Cursor, and X Premium",
-      "link": "https://x.ai/pricing",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://x.ai/pricing Comments URL: https://news.ycombinator.com/item?id=50064808 Points: 11 # Comments: 2",
-      "ts": 1791850066,
-      "published": "2026-10-13T00:07:46+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Introduction to Error Prone: How to Catch Bugs at Compile Time",
-      "link": "https://foojay.io/today/introduction-to-error-prone-how-to-catch-bugs-at-compile-time/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Error Prone plugs into javac to catch code that compiles but is most likely wrong. A tour of its built-in checks, Refaster rules and custom BugCheckers.",
-      "ts": 1791849600,
-      "published": "2026-10-13T00:00:00+00:00",
-      "collected_at": "2026-10-13T16:29:48+09:00"
-    },
-    {
-      "title": "Run AI agents safely with Ollama and Fly.io",
-      "link": "https://ollama.com/blog/fly-io-sprites",
-      "source": "Ollama",
-      "category": "AI",
-      "summary": "AI agents can now use Ollama's cloud models safely inside Fly.io's cloud computers.",
-      "ts": 1791849600,
-      "published": "2026-10-13T00:00:00+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Python 3.16.0 alpha 1 is now available",
-      "link": "https://blog.python.org/2026/10/python-3160-alpha-1-is-now-available/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "The first developer preview of Python 3.16 is ready for testing.",
-      "ts": 1791849600,
-      "published": "2026-10-13T00:00:00+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "This Week in Spring - October 13th, 2026",
-      "link": "https://spring.io/blog/2026/10/13/this-week-in-spring-october-13th-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! Welcome to another rip-roarin' installment of This Week in Spring ! This one I am writing from beautiful Carmel-by-the-Sea in sunny California's Bay Area, overlooking the Pacific Ocean. As I sit here, I…",
-      "ts": 1791849600,
-      "published": "2026-10-13T00:00:00+00:00",
-      "collected_at": "2026-10-14T15:01:21+09:00"
-    },
-    {
-      "title": "llm-meta-ai 0.2",
-      "link": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-meta-ai 0.2 Meta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as…",
-      "ts": 1791849526,
-      "published": "2026-10-12T23:58:46+00:00",
-      "collected_at": "2026-10-14T09:09:49+09:00"
-    },
-    {
-      "title": "Show HN: An experimental pattern-first DAW that supports MCP",
-      "link": "https://github.com/andrewfader/blokkily",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/andrewfader/blokkily Comments URL: https://news.ycombinator.com/item?id=50064438 Points: 83 # Comments: 35",
-      "ts": 1791847272,
-      "published": "2026-10-12T23:21:12+00:00",
-      "collected_at": "2026-10-14T09:58:30+09:00"
     }
   ]
 }
