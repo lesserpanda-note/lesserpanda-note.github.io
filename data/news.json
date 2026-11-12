@@ -1,7 +1,87 @@
 {
-  "updated": "2026-11-13T02:59:58+09:00",
-  "count": 1247,
+  "updated": "2026-11-13T08:30:33+09:00",
+  "count": 1253,
   "items": [
+    {
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Representatives from Nvidia told Illinois representative Bill Foster that it would be technically possible to implement the anti-smuggling measures called for in the Chip Security Act, Foster told MIT Technology Review…",
+      "ts": 1794514584,
+      "published": "2026-11-12T20:16:24+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
+      "title": "Just Bronder it: Steve’s bronder.nyc guide to NYC off(-off)-Broadway, jazz, readings, and galleries",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/12/just-bronder-it-steves-bronder-nyc-guide-to-nyc-off-off-broadway-jazz-readings-and-galleries/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This post is from Bob and it is not about statistics. Steve Bronder, our primary C++ developer for Stan these days, has built a really neat web app (nothing to download/install) consolidating all the fun stuff happening…",
+      "ts": 1794513657,
+      "published": "2026-11-12T20:00:57+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "link": "https://openai.com/index/amplitude",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "ts": 1794513600,
+      "published": "2026-11-12T20:00:00+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794510455,
+      "published": "2026-11-12T19:07:35+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
+      "title": "1.15.41",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.41",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Allow approved private URL hosts. Bug Fixes Fix projects to depend on PyMuPDF 2.x. Drop a real storage URL from the URL read tests. Keep earlier step outputs across a human-feedback resume. Strip…",
+      "ts": 1794508927,
+      "published": "2026-11-12T18:42:07+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
+      "title": "Rust 1.100.0",
+      "link": "https://github.com/rust-lang/rust/releases/tag/1.100.0",
+      "source": "Rust Releases",
+      "category": "Rust",
+      "summary": "Language Stabilize never type Lint against repeated #[repr(..)] attributes Stabilize extern \"custom\" Extend dropping_references , dropping_copy_types and undropped_manually_drops lints to drop_in_place unfulfilled_lint_…",
+      "ts": 1794507582,
+      "published": "2026-11-12T18:19:42+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
+      "title": "Introducing Gemini 4 Hydrogen",
+      "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794506450,
+      "published": "2026-11-12T18:00:50+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "ts": 1794506400,
+      "published": "2026-11-12T18:00:00+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
     {
       "title": "Fast Attention Kernels and Operator Fusion",
       "link": "https://machinelearningmastery.com/fast-attention-kernels-and-operator-fusion/",
@@ -41,6 +121,16 @@
       "ts": 1794495600,
       "published": "2026-11-12T15:00:00+00:00",
       "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Building Graph-Enhanced GenAI Applications with graphrag-toolkit",
+      "link": "https://www.kdnuggets.com/building-graph-enhanced-genai-applications-with-graphrag-toolkit",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Learn how graph-enhanced RAG connects related facts that plain vector search misses, then build a multi-hop research assistant with AWS Labs' open-source graphrag-toolkit, Neo4j, and pgvector.",
+      "ts": 1794495600,
+      "published": "2026-11-12T15:00:00+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
     },
     {
       "title": "Bayesian Workflow (my talk in NYC, Wed 18 Nov 2:30pm)",
@@ -93,6 +183,16 @@
       "collected_at": "2026-11-13T02:59:31+09:00"
     },
     {
+      "title": "7 FREE Books to Learn About Building AI Systems",
+      "link": "https://www.kdnuggets.com/7-free-books-to-learn-about-building-ai-systems",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Building an AI agent is easy. Building one that actually works in production is not. These 7 free books cover the engineering knowledge you need to make that jump.",
+      "ts": 1794488400,
+      "published": "2026-11-12T13:00:00+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
       "title": "Quiz: Learn With Mentor AI: Working Through a Coding Exercise",
       "link": "https://realpython.com/quizzes/mentor-ai-coding-exercise/",
       "source": "Real Python",
@@ -111,6 +211,16 @@
       "ts": 1794484800,
       "published": "2026-11-12T12:00:00+00:00",
       "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "link": "https://openai.com/business/customer-stories/gondola",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "ts": 1794484800,
+      "published": "2026-11-12T12:00:00+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
     },
     {
       "title": "Anthropic IPO",
@@ -281,6 +391,26 @@
       "ts": 1794441600,
       "published": "2026-11-12T00:00:00+00:00",
       "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: Atomikos founder Guy Pardon on distributed transactions, data integrity, and more",
+      "link": "https://spring.io/blog/2026/11/12/a-bootiful-podcast-guy-pardon",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! Tired of worrying whether your data is actually correct? In this episode, we dive into the world of distributed transactions with Guy Pardon, founder of Atomikos, and unpack the technology that keeps mi…",
+      "ts": 1794441600,
+      "published": "2026-11-12T00:00:00+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
+      "title": "Announcing Rust 1.100.0",
+      "link": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+      "source": "Rust Blog",
+      "category": "Rust",
+      "summary": "The Rust team is happy to announce a new version of Rust, 1.100.0. Rust is a programming language empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via rustup…",
+      "ts": 1794441600,
+      "published": "2026-11-12T00:00:00+00:00",
+      "collected_at": "2026-11-13T08:30:03+09:00"
     },
     {
       "title": "Constructing a latent-variable model to fit measurement data: A polychoric story",
@@ -12401,76 +12531,6 @@
       "ts": 1791934515,
       "published": "2026-10-13T23:35:15+00:00",
       "collected_at": "2026-10-14T09:09:49+09:00"
-    },
-    {
-      "title": "Redesigning source control at Anthropic",
-      "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Redesigning source control at Anthropic Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the p…",
-      "ts": 1791932406,
-      "published": "2026-10-13T23:00:06+00:00",
-      "collected_at": "2026-10-14T09:09:49+09:00"
-    },
-    {
-      "title": "llm-gemini 0.35",
-      "link": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Release: llm-gemini 0.35 I added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan. Here are the low, medium and high…",
-      "ts": 1791930534,
-      "published": "2026-10-13T22:28:54+00:00",
-      "collected_at": "2026-10-14T09:09:49+09:00"
-    },
-    {
-      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
-      "link": "https://www.latent.space/p/dyna",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
-      "ts": 1791930355,
-      "published": "2026-10-13T22:25:55+00:00",
-      "collected_at": "2026-10-14T09:09:49+09:00"
-    },
-    {
-      "title": "Dyna-2: General Purpose Physical Agents with Hour-Long Autonomy — Jason Ma, Dyna Robotics",
-      "link": "https://latent.space/p/dyna/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Our first robotics pod with Dyna’s Chief Scientist on their big bet on World Action Models & the Next Frontier of Physical AI",
-      "ts": 1791930355,
-      "published": "2026-10-13T22:25:55+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Survey Statistics: favorite textbooks ?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/13/survey-statistics-favorite-textbooks/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This series has used a few survey statistics textbooks, see my list below. Which of your favorites am I missing ? Kish 1965: Särndal, Swensson, Wretman 1992: Groves et al. 2009: Lumley 2010: Lohr 2022:",
-      "ts": 1791921636,
-      "published": "2026-10-13T20:00:36+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Developing Gemini 4 Argon responsibly and safely",
-      "link": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1791920587,
-      "published": "2026-10-13T19:43:07+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Your Agent Doesn't Need More Freedom",
-      "link": "https://towardsdatascience.com/your-agent-doesnt-need-more-freedom/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Agents got good. The hard part now is everything around them. The post Your Agent Doesn't Need More Freedom appeared first on Towards Data Science .",
-      "ts": 1791916089,
-      "published": "2026-10-13T18:28:09+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
     }
   ]
 }
