@@ -1,7 +1,197 @@
 {
-  "updated": "2026-11-12T18:30:24+09:00",
-  "count": 1251,
+  "updated": "2026-11-13T02:59:58+09:00",
+  "count": 1247,
   "items": [
+    {
+      "title": "Fast Attention Kernels and Operator Fusion",
+      "link": "https://machinelearningmastery.com/fast-attention-kernels-and-operator-fusion/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Overview This post is divided into four parts; they are: • Operator Fusion • FlashAttention-Style Kernels • Paged Attention Kernels • Fusion and CUDA Graphs with torch.",
+      "ts": 1794502870,
+      "published": "2026-11-12T17:01:10+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "python-1.26.0: Python: Lower Hyperlight dependency floors for 1.26 release (#10313)",
+      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.26.0",
+      "source": "Agent Framework",
+      "category": "Agents",
+      "summary": "Python: Lower Hyperlight dependency floors for 1.26 release Python: Keep Hyperlight SDK documentation focused on requirements",
+      "ts": 1794502777,
+      "published": "2026-11-12T16:59:37+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "RAG Retrieval Lost 40 Points When Distracting Passages Grew to 2.68M",
+      "link": "https://towardsdatascience.com/rag-retrieval-lost-40-points-when-distracting-passages-grew-to-268m/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A reproducible test of BM25, embeddings, and parent documents shows why author-written evals overrate search, and why answer position in context matters. The post RAG Retrieval Lost 40 Points When Distracting Passages G…",
+      "ts": 1794501000,
+      "published": "2026-11-12T16:30:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "I Mutation-Tested 50 Python Libraries. Tests in the Young Ones Missed 41% of Planted Faults.",
+      "link": "https://towardsdatascience.com/i-mutation-tested-50-python-libraries-tests-in-the-young-ones-missed-41-of-planted-faults/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Across 2,312 planted faults the study also surfaced four real library problems, from a Windows data-loss bug to README examples that do not work as written. The post I Mutation-Tested 50 Python Libraries. Tests in the Y…",
+      "ts": 1794495600,
+      "published": "2026-11-12T15:00:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Bayesian Workflow (my talk in NYC, Wed 18 Nov 2:30pm)",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/12/bayesian-workflow-my-talk-in-nyc-wed-18-nov-230pm/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This talk is sponsored by the New York City Chapter of the American Statistical Association, and it’s at CUNY Graduate Center, 365 Fifth Avenue, room 8301 & 8304 (8th Floor). If you want to attend (in person or remotely…",
+      "ts": 1794494414,
+      "published": "2026-11-12T14:40:14+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Bliki: Generated Glossary",
+      "link": "https://martinfowler.com/bliki/GeneratedGlossary.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "When we use LLMs in a specialized domain, such as the operations of any reasonably-large organization, there is a lot of specialized vocabulary. Such words and specialized meanings will be foreign to an LLM because they…",
+      "ts": 1794492900,
+      "published": "2026-11-12T14:15:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Learn With Mentor AI: Working Through a Coding Exercise",
+      "link": "https://realpython.com/mentor-ai-coding-exercise/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to use Mentor AI on a Real Python coding exercise. Ask why a test failed, get hints instead of the answer, and check your understanding.",
+      "ts": 1794492000,
+      "published": "2026-11-12T14:00:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Node.js 27.0.0-alpha.0.1.0 (Alpha)",
+      "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.0",
+      "source": "Node.js Blog",
+      "category": "Node",
+      "summary": "",
+      "ts": 1794490570,
+      "published": "2026-11-12T13:36:10+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "A Soft-Label MNIST Testbed for Human vs. Model Confidence",
+      "link": "https://towardsdatascience.com/a-soft-label-mnist-testbed-for-human-vs-model-confidence/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Annotators marked each MNIST and Mukhoti digit yes, no, or unsure, producing image-level soft labels and uncertainty scores. The post A Soft-Label MNIST Testbed for Human vs. Model Confidence appeared first on Towards D…",
+      "ts": 1794490200,
+      "published": "2026-11-12T13:30:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Quiz: Learn With Mentor AI: Working Through a Coding Exercise",
+      "link": "https://realpython.com/quizzes/mentor-ai-coding-exercise/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Practice getting unstuck on a Python coding exercise with Mentor AI, from mutable default arguments to checking for None with is.",
+      "ts": 1794484800,
+      "published": "2026-11-12T12:00:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "How to Read Cross Pair Correlation in R Without Fake Repulsion (Part 3)",
+      "link": "https://towardsdatascience.com/how-to-read-cross-pair-correlation-in-r-without-fake-repulsion-part-3/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A simulated scar and data from 31 animals after ischemia show how an inhomogeneous estimator, random labelling, and brms separate tissue loss from real interaction. The post How to Read Cross Pair Correlation in R Witho…",
+      "ts": 1794484800,
+      "published": "2026-11-12T12:00:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Anthropic IPO",
+      "link": "https://ipo.anthropic.com/us/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 603 # Comments: 615",
+      "ts": 1794484001,
+      "published": "2026-11-12T11:46:41+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector",
+      "link": "https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives,…",
+      "ts": 1794481200,
+      "published": "2026-11-12T11:00:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Presentation: Opening the Black Box: Critical Explainability for AI Agent Tool Selection with Kiji Inspector",
+      "link": "https://www.infoq.com/presentations/explainable-ai-llm-agent-decisions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Hannes Hapke shares how Dataiku’s open-source Kiji Inspector applies Sparse Autoencoders (SAEs) directly to decision tokens to expose why agents pick specific tools. Moving past superficial chain-of-thought narratives,…",
+      "ts": 1794481200,
+      "published": "2026-11-12T11:00:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Getting Reliable Structured Outputs from LLMs: Validation, Retries and Constrained Decoding",
+      "link": "https://machinelearningmastery.com/getting-reliable-structured-outputs-from-llms-validation-retries-and-constrained-decoding/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "The fixture suite turns the sentences above into fourteen test cases, from a missing required key and a code fence around the JSON to a fabricated quote, a refusal and exhaustion with no fourth call.",
+      "ts": 1794481200,
+      "published": "2026-11-12T11:00:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Azure Logic Apps Standard Gets a Local CLI in Preview",
+      "link": "https://www.infoq.com/news/2026/11/logic-apps-local-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and test scaffolding for…",
+      "ts": 1794478980,
+      "published": "2026-11-12T10:23:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Azure Logic Apps Standard Gets a Local CLI in Preview",
+      "link": "https://www.infoq.com/news/2026/11/logic-apps-local-cli/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Microsoft has released a public preview of the logicapp extension for the Azure CLI, adding local project creation, workflow authoring, a runtime lifecycle, connector management, run inspection, and test scaffolding for…",
+      "ts": 1794478980,
+      "published": "2026-11-12T10:23:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs",
+      "link": "https://www.infoq.com/news/2026/11/google-tpu-sync/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google Cloud has open-sourced TPU Sync, a native C++ library that moves KV cache blocks and model weights between TPU HBM, host DRAM, shared storage, and the data center network. By Daniel Dominguez",
+      "ts": 1794477960,
+      "published": "2026-11-12T10:06:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "link": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "ts": 1794475800,
+      "published": "2026-11-12T09:30:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
     {
       "title": "[AINews] D-Day (Decision Models Day)",
       "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
@@ -71,6 +261,26 @@
       "ts": 1794441600,
       "published": "2026-11-12T00:00:00+00:00",
       "collected_at": "2026-11-12T18:29:58+09:00"
+    },
+    {
+      "title": "Supporting research on AI and children’s safety",
+      "link": "https://openai.com/index/children-first-declaration",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "ts": 1794441600,
+      "published": "2026-11-12T00:00:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "link": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794441600,
+      "published": "2026-11-12T00:00:00+00:00",
+      "collected_at": "2026-11-13T02:59:31+09:00"
     },
     {
       "title": "Constructing a latent-variable model to fit measurement data: A polychoric story",
@@ -12261,256 +12471,6 @@
       "ts": 1791916089,
       "published": "2026-10-13T18:28:09+00:00",
       "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1791911148,
-      "published": "2026-10-13T17:05:48+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Gemini 4 Argon for Robotics",
-      "link": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1791907318,
-      "published": "2026-10-13T16:01:58+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "link": "https://deepmind.google/blog/introducing-gemini-4-argon/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1791907312,
-      "published": "2026-10-13T16:01:52+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "TBD",
-      "ts": 1791907200,
-      "published": "2026-10-13T16:00:00+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Redesigning source control at Anthropic",
-      "link": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.anthropic.com/engineering/redesigning-source-control Comments URL: https://news.ycombinator.com/item?id=50073633 Points: 330 # Comments: 310",
-      "ts": 1791906596,
-      "published": "2026-10-13T15:49:56+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "The Craft of Practitioner Voice",
-      "link": "https://martinfowler.com/articles/practitioner-voice.html#TheCraftOfPractitionerVoice",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "A couple of months ago Jim Highsmith explained how practitioners writing for each other forms a distinct style of writing. He now adds a section to the article with more detail on the craft of how we write in this style…",
-      "ts": 1791900360,
-      "published": "2026-10-13T14:06:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "How to Use Python: Taking Your First Steps",
-      "link": "https://realpython.com/courses/python-first-steps/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Take your first steps with Python. Install it, run your first program, and work with variables, data types, loops, functions, and errors.",
-      "ts": 1791900000,
-      "published": "2026-10-13T14:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling",
-      "link": "https://towardsdatascience.com/three-samplers-one-posterior-nuts-vs-emcee-vs-nested-sampling/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Benchmarking NumPyro, affine-invariant MCMC, and dynesty against exact ground truth and watching them fail. The post Three Samplers, One Posterior: NUTS vs. Emcee vs. Nested Sampling appeared first on Towards Data Scien…",
-      "ts": 1791900000,
-      "published": "2026-10-13T14:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "The Roadmap to Mastering Agentic AI Systems in 2026",
-      "link": "https://www.kdnuggets.com/the-roadmap-to-mastering-agentic-ai-systems-in-2026",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "A four-level technical roadmap for building agentic AI systems, from single cognitive loops and stateful memory through multi-agent swarms and production observability.",
-      "ts": 1791900000,
-      "published": "2026-10-13T14:00:00+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Are Harnesses Worth the Cost?",
-      "link": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Naresh Jain compares coding agents building the same API service with and without a behavioral harness. A frontier model, GPT-6 Sol, passed every external evaluation either way. But a cost-optimized model, GPT-6 Luna, s…",
-      "ts": 1791898500,
-      "published": "2026-10-13T13:35:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Quoting Geoffrey Huntley",
-      "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "If the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to obser…",
-      "ts": 1791898320,
-      "published": "2026-10-13T13:32:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "The head and the heart",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/13/the-head-and-the-heart/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Jackson Lears writes: Characterising Carter’s views on the nuclear arms race, Luce resorts to a familiar – and misleading – antithesis: the president’s ‘heart’ hated nuclear weapons, while his ‘head’ feared vulnerabilit…",
-      "ts": 1791897535,
-      "published": "2026-10-13T13:18:55+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Coding Agents Can Solve the Task — But How Much Work Did They Waste?",
-      "link": "https://towardsdatascience.com/coding-agents-can-solve-the-task-but-how-much-work-did-they-waste/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Real repositories, seeded agent decisions: what 50,400 runs show about wasted turns, patch churn, and which harness rules help The post Coding Agents Can Solve the Task — But How Much Work Did They Waste? appeared first…",
-      "ts": 1791894600,
-      "published": "2026-10-13T12:30:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026",
-      "link": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (December 15-16) has con…",
-      "ts": 1791892800,
-      "published": "2026-10-13T12:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Production Patterns for Agents, Evals, and LLM Costs: QCon AI New York 2026",
-      "link": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-sessionsv2/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Once AI is in production, code arrives faster than it can be reviewed, token costs rise, evals have to be good enough to act on, and agents need permissions and guardrails. QCon AI New York 2026 (December 15-16) has con…",
-      "ts": 1791892800,
-      "published": "2026-10-13T12:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Quiz: Python's len() Function",
-      "link": "https://realpython.com/quizzes/pythons-len-function/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python's len() function, from built-in containers to NumPy arrays, DataFrames, and your own classes.",
-      "ts": 1791892800,
-      "published": "2026-10-13T12:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "ts": 1791892800,
-      "published": "2026-10-13T12:00:00+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "5 AutoHotkey Scripts for Data Scientists",
-      "link": "https://www.kdnuggets.com/5-autohotkey-scripts-for-data-scientists",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Five AutoHotkey v2 scripts that handle repetitive Windows desktop work around data analysis: launching a project workspace, converting clipboard IDs to Python or SQL lists, fixing file paths, and snapping windows into p…",
-      "ts": 1791892800,
-      "published": "2026-10-13T12:00:00+00:00",
-      "collected_at": "2026-10-14T06:04:00+09:00"
-    },
-    {
-      "title": "Presentation: How Eve Online Leverages Head Based Sampling to Observe \"Fun\"",
-      "link": "https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based, dynamic exponential moving average (EMA), and deterministic…",
-      "ts": 1791889200,
-      "published": "2026-10-13T11:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Building a RAG Pipeline with LLM Embeddings and Scikit-learn",
-      "link": "https://machinelearningmastery.com/building-a-rag-pipeline-with-llm-embeddings-and-scikit-learn/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "In this article, you will learn how to build a lightweight, end-to-end RAG pipeline using scikit-learn for vector retrieval and open-source models for embeddings and...",
-      "ts": 1791889200,
-      "published": "2026-10-13T11:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "How to Leverage NLP for Product Data Science",
-      "link": "https://towardsdatascience.com/how-to-leverage-nlp-for-product-data-science/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A practical guide to strengthening churn, CLV, and other traditional models with text The post How to Leverage NLP for Product Data Science appeared first on Towards Data Science .",
-      "ts": 1791889200,
-      "published": "2026-10-13T11:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "Presentation: How Eve Online Leverages Head Based Sampling to Observe \"Fun\"",
-      "link": "https://www.infoq.com/presentations/eve-observability-head-sampling/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Nicholas Herring shares how EVE Online tackles distributed tracing and observability across a 20-year-old MMO architecture. He discusses leveraging head-based, dynamic exponential moving average (EMA), and deterministic…",
-      "ts": 1791889200,
-      "published": "2026-10-13T11:00:00+00:00",
-      "collected_at": "2026-10-15T20:05:29+09:00"
-    },
-    {
-      "title": "Open models have real benefits. Do they outweigh the risks?",
-      "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here. Late last month, Anthropic r…",
-      "ts": 1791885600,
-      "published": "2026-10-13T10:00:00+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
-      "link": "https://www.latent.space/p/ainews-meta-muse-wonder-and-wonder",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "MSL’s emergence as a frontier lab is finally complete.",
-      "ts": 1791884224,
-      "published": "2026-10-13T09:37:04+00:00",
-      "collected_at": "2026-10-14T00:43:12+09:00"
-    },
-    {
-      "title": "[AINews] Meta Muse Wonder & Wonder Full: MSL’s Claude 5.5-tier Frontier Model",
-      "link": "https://latent.space/p/ainews-meta-muse-wonder-and-wonder/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "MSL’s emergence as a frontier lab is finally complete.",
-      "ts": 1791884224,
-      "published": "2026-10-13T09:37:04+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
     }
   ]
 }
