@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-13T08:30:33+09:00",
-  "count": 1253,
+  "updated": "2026-11-13T14:49:43+09:00",
+  "count": 1240,
   "items": [
+    {
+      "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
+      "link": "https://latent.space/p/artcraft/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "ArtCraft used AI to rewrite Photoshop as open source software. For CEO Brandon Thomas, the vision is even bigger: to take back the internet!",
+      "ts": 1794543445,
+      "published": "2026-11-13T04:17:25+00:00",
+      "collected_at": "2026-11-13T14:49:38+09:00"
+    },
+    {
+      "title": "llm-gemini 0.37",
+      "link": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-gemini 0.37 Google launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family. It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini…",
+      "ts": 1794524119,
+      "published": "2026-11-12T22:55:19+00:00",
+      "collected_at": "2026-11-13T14:49:38+09:00"
+    },
     {
       "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
       "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
@@ -31,6 +51,16 @@
       "ts": 1794513600,
       "published": "2026-11-12T20:00:00+00:00",
       "collected_at": "2026-11-13T08:30:03+09:00"
+    },
+    {
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "link": "https://openai.com/business/customer-stories/amplitude",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "ts": 1794513600,
+      "published": "2026-11-12T20:00:00+00:00",
+      "collected_at": "2026-11-13T14:49:38+09:00"
     },
     {
       "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
@@ -12371,166 +12401,6 @@
       "ts": 1791957216,
       "published": "2026-10-14T05:53:36+00:00",
       "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
-      "link": "https://www.latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
-      "ts": 1791956428,
-      "published": "2026-10-14T05:40:28+00:00",
-      "collected_at": "2026-10-14T15:01:21+09:00"
-    },
-    {
-      "title": "[AINews] AI Engineer NYC: Gemini 4 Argon, Vals AI Benchmarks",
-      "link": "https://latent.space/p/ainews-ai-engineer-nyc-gemini-4-argon/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Gemini 4 Argon went GA today, but we already gave it title story 2 weeks ago and most benchmarks, like CursorBench, simply independently confirm their claims.",
-      "ts": 1791956428,
-      "published": "2026-10-14T05:40:28+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "1.15.28",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.28",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add crewai eval command to report where a stopped model broke. Use LiteLLM catalog for context windows. Bug Fixes Fix flow to learn from resumed human feedback and preserve reviewed output types.…",
-      "ts": 1791953220,
-      "published": "2026-10-14T04:47:00+00:00",
-      "collected_at": "2026-11-04T07:14:58+09:00"
-    },
-    {
-      "title": "Gemini 4 Argon Hands-On Review: Capabilities and Performance",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/gemini-4-argon-review/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "Google’s Gemini 4 Argon promises stronger capabilities across creative, analytical, and document-heavy tasks. But how well does it perform in practice? From generating videos and building websites to analyzing data and…",
-      "ts": 1791951170,
-      "published": "2026-10-14T04:12:50+00:00",
-      "collected_at": "2026-10-14T15:01:21+09:00"
-    },
-    {
-      "title": "OK, here’s a new scam. But I can’t figure out how it’s supposed to work.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/13/ok-heres-a-new-scam-but-i-cant-figure-out-how-its-supposed-to-work/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "The following arrived in my inbox: Dear Prof. Andrew Gelman Good day. We are writing with a special academic invitation for Hong Kong this December. We are an independent academic coordination team based in Japan, and w…",
-      "ts": 1791949128,
-      "published": "2026-10-14T03:38:48+00:00",
-      "collected_at": "2026-10-14T15:01:21+09:00"
-    },
-    {
-      "title": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "link": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress.",
-      "ts": 1791943214,
-      "published": "2026-10-14T02:00:14+00:00",
-      "collected_at": "2026-10-14T15:01:21+09:00"
-    },
-    {
-      "title": "Creating a Garmin \"MCP\"",
-      "link": "https://jackantico.io/garmin-mcp",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://jackantico.io/garmin-mcp Comments URL: https://news.ycombinator.com/item?id=50081045 Points: 40 # Comments: 45",
-      "ts": 1791939145,
-      "published": "2026-10-14T00:52:25+00:00",
-      "collected_at": "2026-10-15T20:05:29+09:00"
-    },
-    {
-      "title": "What I Learned Building an AI Code Reviewer with Java and Spring Boot",
-      "link": "https://foojay.io/today/what-i-learned-building-an-ai-code-reviewer-with-java-spring-boot/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "What I learned building an AI code-review workflow around GitHub Pull Requests, Spring Boot, and multiple AI providers.",
-      "ts": 1791936000,
-      "published": "2026-10-14T00:00:00+00:00",
-      "collected_at": "2026-10-14T09:58:30+09:00"
-    },
-    {
-      "title": "One Embedding per Job, or Two? Measuring Semantic Search in a Spring Boot Job Portal",
-      "link": "https://foojay.io/today/embedding-strategies-job-search/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "I stored two embeddings for every job in my Spring Boot job portal and measured which one finds the right jobs. One of them barely mattered, and my similarity threshold turned out to mean much less than I thought.",
-      "ts": 1791936000,
-      "published": "2026-10-14T00:00:00+00:00",
-      "collected_at": "2026-10-14T09:58:30+09:00"
-    },
-    {
-      "title": "Everyday JSON in Java",
-      "link": "https://inside.java/2026/10/14/devoxxbelgium-everyday-json/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "JSON is ubiquitous in modern software, and many use cases are just too small to justify adding external dependencies. To address these everyday use cases, a new JEP proposes a simple, incubating API for parsing, navigat…",
-      "ts": 1791936000,
-      "published": "2026-10-14T00:00:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "The EU’s next chapter in AI is agentic",
-      "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "ts": 1791936000,
-      "published": "2026-10-14T00:00:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-      "link": "https://www.anthropic.com/news/singapore-office-opening",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-      "ts": 1791936000,
-      "published": "2026-10-14T00:00:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "What's New In The October 2026 Azul Payara Release?",
-      "link": "https://foojay.io/today/whats-new-in-the-october-2026-azul-payara-release/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Payara Community 7.2026.10 drops the elevated-permissions requirement for SSH nodes, and Azul Payara patches three security issues on every branch.",
-      "ts": 1791936000,
-      "published": "2026-10-14T00:00:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "Preparing for the 2026 US midterms",
-      "link": "https://www.anthropic.com/news/2026-us-midterms",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Preparing for the 2026 US midterms",
-      "ts": 1791936000,
-      "published": "2026-10-14T00:00:00+00:00",
-      "collected_at": "2026-10-15T06:24:36+09:00"
-    },
-    {
-      "title": "Better HTTP/1 connection reuse",
-      "link": "https://go.dev/blog/http-connection-reuse",
-      "source": "Go Blog",
-      "category": "Go",
-      "summary": "Go 1.27 includes a change to the HTTP client that can make programs sending many sequential HTTP/1 requests significantly faster.",
-      "ts": 1791936000,
-      "published": "2026-10-14T00:00:00+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "v2.56.0 (2026-10-13)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.56.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Run BrowserUse on the host model by default and make browser-use telemetry opt-in by @mpfaffenberger in #9506 🚀 Features Let Skills layer project and personal libraries, name each s…",
-      "ts": 1791934515,
-      "published": "2026-10-13T23:35:15+00:00",
-      "collected_at": "2026-10-14T09:09:49+09:00"
     }
   ]
 }
