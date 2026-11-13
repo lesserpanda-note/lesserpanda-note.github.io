@@ -1,7 +1,177 @@
 {
-  "updated": "2026-11-13T14:49:43+09:00",
-  "count": 1240,
+  "updated": "2026-11-13T23:15:40+09:00",
+  "count": 1238,
   "items": [
+    {
+      "title": "Release v5.23.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.23.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.23.0 New Model additions Inkling2 Inkling 2 Small is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs, and it is intended for use in English and othe…",
+      "ts": 1794579057,
+      "published": "2026-11-13T14:10:57+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794578722,
+      "published": "2026-11-13T14:05:22+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Anthropic and Google Make Their Best AI Models Cheaper",
+      "link": "https://realpython.com/ai-news-weekly-2026-11-13/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Real Python's weekly AI news for November 7–13, 2026, explained in plain language: Cheaper Claude, Google's Strongest Gemini, and a Faster Gemini.",
+      "ts": 1794578400,
+      "published": "2026-11-13T14:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Get Started With Meta Muse in Python: Spark and Glimmer",
+      "link": "https://realpython.com/meta-muse-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Get started with Meta Muse in Python. Make your first Muse Spark call, then add streaming, images, and tool calls, and try the open-weights Glimmer.",
+      "ts": 1794578400,
+      "published": "2026-11-13T14:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
+      "link": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session r…",
+      "ts": 1794577980,
+      "published": "2026-11-13T13:53:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
+      "link": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google has open-sourced AQuA, a reference implementation that analyzes production AI agent sessions, verifies recurring failure patterns, and investigates root causes against deployed source snapshots. In a 32-session r…",
+      "ts": 1794577980,
+      "published": "2026-11-13T13:53:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "How to Evaluate AI Agents For Enterprise",
+      "link": "https://www.analyticsvidhya.com/blog/2026/11/how-to-evaluate-ai-agents-for-enterprise/",
+      "source": "Analytics Vidhya",
+      "category": "Agents",
+      "summary": "Most agents demo look great. You type a request, the agent calls a few tools, and a clean answer comes back. Then real users show up with a real data, and things break in ways you never tested. The agent picks the wrong…",
+      "ts": 1794577329,
+      "published": "2026-11-13T13:42:09+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "What AI Agents Speed Up in PhD Research, and What They Can't",
+      "link": "https://towardsdatascience.com/what-ai-agents-speed-up-in-phd-research-and-what-they-cant/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A PhD student in ML and ecology on why faster code, experiments, and drafts don't fix data with a backstory, and three predictions for how labs will change. The post What AI Agents Speed Up in PhD Research, and What The…",
+      "ts": 1794576600,
+      "published": "2026-11-13T13:30:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Gemini 4 Hydrogen: Hands-On Review",
+      "link": "https://www.analyticsvidhya.com/blog/2026/11/gemini-4-hydrogen-review/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Google has introduced Gemini 4 Hydrogen, its latest AI model designed for faster execution, coding, and agentic workflows. Released on November 12, 2026, the model is rolling out across Google Search, the Gemini app, an…",
+      "ts": 1794575834,
+      "published": "2026-11-13T13:17:14+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "5 FREE Open-Source Alternatives to Jev",
+      "link": "https://www.kdnuggets.com/5-free-open-source-alternatives-to-jev",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Looking for a free alternative to Jev? Here are 5 open-source decision models you can run locally, from high-accuracy options to lightweight models for AI agents.",
+      "ts": 1794574800,
+      "published": "2026-11-13T13:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Netflix Turns Operational Data Into a Knowledge Graph for AI-Driven Observability",
+      "link": "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Netflix is developing an ontology-driven knowledge graph to accelerate production investigations and provide AI agents with a shared understanding of its operational environment. By Craig Risi",
+      "ts": 1794571200,
+      "published": "2026-11-13T12:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "The Real Python Podcast – Episode #319: Mentoring Developers Beyond the Code With Tim Schilling",
+      "link": "https://realpython.com/podcasts/rpp/319/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What's it take to be a mentor to developers? Where in an engineer's career can a mentor make an impact? This week we speak with Tim Schilling, Django Steering Council member and Djangonaut Space administrator, about men…",
+      "ts": 1794571200,
+      "published": "2026-11-13T12:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Quiz: Working With JSON in Python",
+      "link": "https://realpython.com/quizzes/working-json-data-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python's json module, from serializing and deserializing data to encoding and decoding custom types.",
+      "ts": 1794571200,
+      "published": "2026-11-13T12:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "How to Check Local LLM Output with Ollama, Gemma 4, and Nimble",
+      "link": "https://towardsdatascience.com/how-to-check-local-llm-output-with-ollama-gemma-4-and-nimble/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Gemma 4 E2B drafts the replies, Bespoke Labs' Nimble 9B picks accept, revise, or human review, and only flagged questions get a focused retry. The post How to Check Local LLM Output with Ollama, Gemma 4, and Nimble appe…",
+      "ts": 1794571200,
+      "published": "2026-11-13T12:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Presentation: The Influence Toolkit",
+      "link": "https://www.infoq.com/presentations/bbc-software-architecture-influence/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Henry Wilson shares actionable tools from the BBC Sounds re-architecture to help senior engineering leaders drive technical strategy. He discusses building buy-in, navigating active resistors, using RFCs and ADRs, and b…",
+      "ts": 1794567600,
+      "published": "2026-11-13T11:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "The Complete Guide to LLM Evaluation",
+      "link": "https://machinelearningmastery.com/the-complete-guide-to-llm-evaluation/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how to evaluate LLM applications systematically, from choosing scorers and designing reliable LLM judges to evaluating RAG systems and...",
+      "ts": 1794567600,
+      "published": "2026-11-13T11:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+      "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 12, 2026 — Colette Kress takes over as interim CEO. What happens to open source/American AI leadership?",
+      "ts": 1794560653,
+      "published": "2026-11-13T09:04:13+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
     {
       "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
       "link": "https://latent.space/p/artcraft/",
@@ -11,6 +181,36 @@
       "ts": 1794543445,
       "published": "2026-11-13T04:17:25+00:00",
       "collected_at": "2026-11-13T14:49:38+09:00"
+    },
+    {
+      "title": "Skills across coding assistants",
+      "link": "https://foojay.io/today/skills-across-coding-assistants/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Claude Code reads skills from its own folders, while other assistants also scan .agents/skills. Where each one looks, and how symlinks fix it.",
+      "ts": 1794528000,
+      "published": "2026-11-13T00:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Jakarta EE Testing Tools Compared: WeldInitiator, Arquillian and Testcontainers",
+      "link": "https://foojay.io/today/jakarta-ee-testing-tools-compared-weldinitiator-arquillian-and-testcontainers/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "WeldInitiator, Arquillian, and Testcontainers answer three different questions about a Jakarta EE application. Here is what each one proves, and where each one stops.",
+      "ts": 1794528000,
+      "published": "2026-11-13T00:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
+    },
+    {
+      "title": "Analytics in the Browser with DuckDB-Wasm and a Java Backend",
+      "link": "https://foojay.io/today/analytics-in-the-browser-with-duckdb-wasm/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A Java backend sends the dataset once and DuckDB-Wasm runs the SQL in the browser. A two-file example with no build tools, and when the approach makes sense.",
+      "ts": 1794528000,
+      "published": "2026-11-13T00:00:00+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
     },
     {
       "title": "llm-gemini 0.37",
@@ -1311,6 +1511,16 @@
       "ts": 1794312000,
       "published": "2026-11-10T12:00:00+00:00",
       "collected_at": "2026-11-11T02:33:27+09:00"
+    },
+    {
+      "title": "Opening the datasets behind our AI weather models",
+      "link": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Foundational precipitation and geostationary satellite datasets to observe the planet clearly.",
+      "ts": 1794309184,
+      "published": "2026-11-10T11:13:04+00:00",
+      "collected_at": "2026-11-13T23:15:31+09:00"
     },
     {
       "title": "Presentation: Batch Intelligence at Scale: Cost-Efficient Multi-Agent LLM Workflows with Built-In Resilience",
@@ -12171,236 +12381,6 @@
       "ts": 1791987600,
       "published": "2026-10-14T14:20:00+00:00",
       "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "Gemini 4 Argon Draws a Python Reading a Book",
-      "link": "https://realpython.com/ai-benchmark-gemini-4-argon/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Explore Gemini 4 Argon's Python code, turtle drawing, and responses to small tasks that check modern syntax, release knowledge, focused edits, and made-up functions.",
-      "ts": 1791986400,
-      "published": "2026-10-14T14:00:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "How Do Word Embeddings Capture Relationships Between Words?",
-      "link": "https://towardsdatascience.com/how-do-word-embeddings-capture-relationships-between-words/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Understanding how words become related in a learned vector space The post How Do Word Embeddings Capture Relationships Between Words? appeared first on Towards Data Science .",
-      "ts": 1791986400,
-      "published": "2026-10-14T14:00:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "Few-Shot Text Classification with Scikit-LLM",
-      "link": "https://www.kdnuggets.com/few-shot-text-classification-with-scikit-llm",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Leveraging Scikit-LLM for one of the simplest yet most practical text classification tasks utilized in the modern AI landscape: few-shot classification.",
-      "ts": 1791986400,
-      "published": "2026-10-14T14:00:00+00:00",
-      "collected_at": "2026-10-15T06:24:36+09:00"
-    },
-    {
-      "title": "Python Project Structure: How to Choose the Right Layout",
-      "link": "https://realpython.com/python-application-layouts/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to structure Python projects: pick between flat and src/ layouts, organize your code, and apply the patterns to CLI, web, and GUI apps.",
-      "ts": 1791986400,
-      "published": "2026-10-14T14:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Meta Extends Confidential Computing to AI Glasses with Private Processing",
-      "link": "https://www.infoq.com/news/2026/10/meta-private-process-ai-glasses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Meta has extended Private Processing to AI glasses, using confidential VMs, trusted execution environments, remote attestation, anonymous credentials, OHTTP routing, and TEE-based storage to process AI workloads and per…",
-      "ts": 1791986220,
-      "published": "2026-10-14T13:57:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "Meta Extends Confidential Computing to AI Glasses with Private Processing",
-      "link": "https://www.infoq.com/news/2026/10/meta-private-process-ai-glasses/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Meta has extended Private Processing to AI glasses, using confidential VMs, trusted execution environments, remote attestation, anonymous credentials, OHTTP routing, and TEE-based storage to process AI workloads and per…",
-      "ts": 1791986220,
-      "published": "2026-10-14T13:57:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "Why do is it so hard to get a cell phone number with no 0’s or 1’s?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/14/why-do-almost-all-the-cell-phone-numbers-have-no-0s-or-1s/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Many years ago—over two decades ago, actually!—I got a cell phone for a family member. I thought it would be fun to have a phone number whose digits spelled out a word (when converting to the 2 = ABC, 3 … Continue readi…",
-      "ts": 1791985718,
-      "published": "2026-10-14T13:48:38+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "Voting on Features: Federated Feature Selection Without Sharing Data",
-      "link": "https://towardsdatascience.com/voting-on-features-federated-feature-selection-without-sharing-data/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Hospitals, banks, and edge devices can agree on which features matter by sharing votes instead of rows, runnable in NVIDIA FLARE and Flower The post Voting on Features: Federated Feature Selection Without Sharing Data a…",
-      "ts": 1791981000,
-      "published": "2026-10-14T12:30:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "Quiz: Python and PyQt: Building a GUI Desktop Calculator",
-      "link": "https://realpython.com/quizzes/python-pyqt-gui-calculator/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your knowledge of building PyQt GUIs with widgets, layouts, and dialogs, connecting signals to slots, and structuring apps with MVC.",
-      "ts": 1791979200,
-      "published": "2026-10-14T12:00:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "link": "https://openai.com/index/amp-beyond-coding",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "ts": 1791979200,
-      "published": "2026-10-14T12:00:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "link": "https://openai.com/index/sentinelone",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "ts": 1791979200,
-      "published": "2026-10-14T12:00:00+00:00",
-      "collected_at": "2026-10-15T06:24:36+09:00"
-    },
-    {
-      "title": "5 Fun Projects for LLM Inference Engineering",
-      "link": "https://www.kdnuggets.com/5-fun-projects-for-llm-inference-engineering",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Want to understand what makes LLMs fast? Build the systems yourself.",
-      "ts": 1791979200,
-      "published": "2026-10-14T12:00:00+00:00",
-      "collected_at": "2026-10-15T06:24:36+09:00"
-    },
-    {
-      "title": "KotlinConf Recap: Lessons from Verifone’s Architect on Kotlin in Mission-Critical Payments",
-      "link": "https://blog.jetbrains.com/kotlin/2026/10/kotlinconf-recap-lessons-from-verifone-s-architect-on-kotlin-in-mission-critical-payments/",
-      "source": "Kotlin",
-      "category": "Kotlin",
-      "summary": "This article was written by an external contributor. Yuri Geronimus’s four-year-old son once asked him what his job was. Yuri told him he writes books: books that describe what he wants to change in the physical world.…",
-      "ts": 1791975780,
-      "published": "2026-10-14T11:03:00+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Presentation: How to Find Resilience Bugs in Systems that Don't Exist",
-      "link": "https://www.infoq.com/presentations/formal-methods-principles/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Hillel Wayne discusses how formal methods principles - such as property strength, state-space verification, and environment assumptions - help software engineers uncover critical architectural bugs early. He shares prac…",
-      "ts": 1791975600,
-      "published": "2026-10-14T11:00:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "A Scaffold at the Gate: Building AI Applications That Can Evolve",
-      "link": "https://towardsdatascience.com/a-scaffold-at-the-gate-building-ai-applications-that-can-evolve/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A technical reflection on why data scientists need software engineering principles when AI agents write code. The post A Scaffold at the Gate: Building AI Applications That Can Evolve appeared first on Towards Data Scie…",
-      "ts": 1791975600,
-      "published": "2026-10-14T11:00:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "Building a Custom LLM Evaluation Harness in Python from Scratch",
-      "link": "https://machinelearningmastery.com/building-a-custom-llm-evaluation-harness-in-python-from-scratch/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how to build a custom LLM evaluation harness in Python from scratch, structured around four modular components that give...",
-      "ts": 1791975600,
-      "published": "2026-10-14T11:00:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
-      "link": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix in cloud-based mod…",
-      "ts": 1791968400,
-      "published": "2026-10-14T09:00:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "Article: Composable Commerce: Inside Shipt’s Kit Platform",
-      "link": "https://www.infoq.com/articles/shipt-composable-commerce-design-ddd/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Shipt launched its Kits feature, enabling quick assembly of themed grocery bundles for events. The platform architecture lets merchandisers easily create store-aware kits, streamlining previously labor-intensive workflo…",
-      "ts": 1791968400,
-      "published": "2026-10-14T09:00:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "Google Antigravity SDK Adds Local Model Support for Greater Token Efficiency and Code Privacy",
-      "link": "https://www.infoq.com/news/2026/10/antigravity-sdk-local-models/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Google has introduced support for local models in the Antigravity SDK, enabling developers to build and execute agentic workflows directly on their own machines, while retaining the flexibility to mix in cloud-based mod…",
-      "ts": 1791968400,
-      "published": "2026-10-14T09:00:00+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
-    },
-    {
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "link": "https://openai.com/index/third-moment-research",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "ts": 1791961200,
-      "published": "2026-10-14T07:00:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "link": "https://openai.com/index/block-ai-powered-security",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "ts": 1791961200,
-      "published": "2026-10-14T07:00:00+00:00",
-      "collected_at": "2026-10-15T09:20:49+09:00"
-    },
-    {
-      "title": "PyPI's developer documentation has moved to dev.pypi.org",
-      "link": "https://blog.pypi.org/posts/2026-10-14-dev-docs-move-to-dev-pypi-org/",
-      "source": "PyPI Blog",
-      "category": "Python",
-      "summary": "The developer documentation for Warehouse , the codebase that powers PyPI, has moved from warehouse.pypa.io to dev.pypi.org . Existing links to warehouse.pypa.io will keep working: every page now redirects to the same p…",
-      "ts": 1791958140,
-      "published": "2026-10-14T06:09:00+00:00",
-      "collected_at": "2026-10-22T08:05:26+09:00"
-    },
-    {
-      "title": "Anthropic conjures threat that doesn't exist yet to stoke fears of AI apocalypse",
-      "link": "https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/10/13/anthropic-conjures-another-threat-that-doesnt-exist-yet-to-stoke-fears-of-ai-apocalypse/5302866 Comments URL: https://news.ycombinator.com/item?id=50082962 P…",
-      "ts": 1791957216,
-      "published": "2026-10-14T05:53:36+00:00",
-      "collected_at": "2026-10-14T21:44:02+09:00"
     }
   ]
 }
