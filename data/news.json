@@ -1,7 +1,77 @@
 {
-  "updated": "2026-11-13T23:15:40+09:00",
-  "count": 1238,
+  "updated": "2026-11-14T06:17:10+09:00",
+  "count": 1234,
   "items": [
+    {
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794592839,
+      "published": "2026-11-13T18:00:39+00:00",
+      "collected_at": "2026-11-14T06:16:49+09:00"
+    },
+    {
+      "title": "XYBench: Helping with the problem behind the question",
+      "link": "https://huggingface.co/blog/allenai/xybench",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794589355,
+      "published": "2026-11-13T17:02:35+00:00",
+      "collected_at": "2026-11-14T06:16:49+09:00"
+    },
+    {
+      "title": "Keyword Search Tied an 8B Embedding Model at Picking Agent Tools",
+      "link": "https://towardsdatascience.com/keyword-search-tied-an-8b-embedding-model-at-picking-agent-tools/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "On 200 ToolRet questions and up to 3,794 tools, BM25 ran about 40x faster than BGE-large on just a CPU, and full tool docs made it the best setup tested. The post Keyword Search Tied an 8B Embedding Model at Picking Age…",
+      "ts": 1794587400,
+      "published": "2026-11-13T16:30:00+00:00",
+      "collected_at": "2026-11-14T06:16:49+09:00"
+    },
+    {
+      "title": "Introducing ChatGPT Wallet",
+      "link": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "ts": 1794582000,
+      "published": "2026-11-13T15:00:00+00:00",
+      "collected_at": "2026-11-14T06:16:49+09:00"
+    },
+    {
+      "title": "Getting Started with DuckLake: Build a Lakehouse on DuckDB in Under an Hour",
+      "link": "https://www.kdnuggets.com/getting-started-with-ducklake-build-a-lakehouse-on-duckdb-in-under-an-hour",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "DuckLake is an open lakehouse table format from the DuckDB team. It keeps table metadata in a SQL database and the data in Parquet files. DuckLake 1.0 shipped in April 2026 with a stable specification and guaranteed bac…",
+      "ts": 1794582000,
+      "published": "2026-11-13T15:00:00+00:00",
+      "collected_at": "2026-11-14T06:16:49+09:00"
+    },
+    {
+      "title": "How Jev Makes Decisions About Images, With 4 Python Examples",
+      "link": "https://towardsdatascience.com/how-jev-makes-decisions-about-images-with-4-python-examples/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Practical code for classifying fabric against reference photos, scoring product sharpness, cropping shipping labels, and spotting subtle car damage. The post How Jev Makes Decisions About Images, With 4 Python Examples…",
+      "ts": 1794582000,
+      "published": "2026-11-13T15:00:00+00:00",
+      "collected_at": "2026-11-14T06:16:49+09:00"
+    },
+    {
+      "title": "When is a class a “commodity” and when does it depend on the instructor?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/13/when-is-a-class-a-commodity-and-when-does-it-depend-on-the-instructor/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Sometimes I get emails from students asking to work on a project with me, and I usually respond that they should take one of my classes first. If they try to work on a project without having taken a class … Continue rea…",
+      "ts": 1794579652,
+      "published": "2026-11-13T14:20:52+00:00",
+      "collected_at": "2026-11-14T06:16:49+09:00"
+    },
     {
       "title": "Release v5.23.0",
       "link": "https://github.com/huggingface/transformers/releases/tag/v5.23.0",
@@ -12271,116 +12341,6 @@
       "ts": 1792012981,
       "published": "2026-10-14T21:23:01+00:00",
       "collected_at": "2026-10-15T09:20:49+09:00"
-    },
-    {
-      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
-      "link": "https://www.latent.space/p/lab-in-the-loop-at-compute-speed",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
-      "ts": 1792010109,
-      "published": "2026-10-14T20:35:09+00:00",
-      "collected_at": "2026-10-15T06:24:36+09:00"
-    },
-    {
-      "title": "Lab-in-the-Loop at Compute Speed — Ian Quigley, Leash Bio",
-      "link": "https://latent.space/p/lab-in-the-loop-at-compute-speed/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "How Leash Bio tamed DELs, the assay that traumatizes everyone, and used the data to catch cheating models. And why that same data is perfect for AI agents learning to think like chemists.",
-      "ts": 1792010109,
-      "published": "2026-10-14T20:35:09+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Anthropic's Scion is heavily inspired by Mononoke",
-      "link": "https://sunshowers.io/posts/anthropic-mononoke/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://sunshowers.io/posts/anthropic-mononoke/ Comments URL: https://news.ycombinator.com/item?id=50094694 Points: 83 # Comments: 12",
-      "ts": 1792009854,
-      "published": "2026-10-14T20:30:54+00:00",
-      "collected_at": "2026-10-15T06:24:36+09:00"
-    },
-    {
-      "title": "dotnet-1.25.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/dotnet-1.25.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "Changes: 1ab3430 .NET: Dotnet: Add approval reuse considerations ( #9389 ) 563eb3a .NET: terminate chat completions SSE stream with data: [DONE] ( #8532 ) [ #8526 ] 4964bdd .NET: Update version for 1.25.0 release ( #938…",
-      "ts": 1792005540,
-      "published": "2026-10-14T19:19:00+00:00",
-      "collected_at": "2026-10-15T06:24:36+09:00"
-    },
-    {
-      "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
-      "link": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html Comments URL: https://news.ycombinator.com/item?id=50091788 Points: 765 # Comments: 363",
-      "ts": 1791999923,
-      "published": "2026-10-14T17:45:23+00:00",
-      "collected_at": "2026-10-15T06:24:36+09:00"
-    },
-    {
-      "title": "AI is mass decompiling games. That's both awesome and scary.",
-      "link": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "AI is mass decompiling games. That's both awesome and scary. Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and prod…",
-      "ts": 1791995213,
-      "published": "2026-10-14T16:26:53+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-      "link": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1791994362,
-      "published": "2026-10-14T16:12:42+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "Does Stacking Beat Your Best Model?",
-      "link": "https://towardsdatascience.com/does-stacking-beat-your-best-model/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "It only helps when your models make different mistakes. The post Does Stacking Beat Your Best Model? appeared first on Towards Data Science .",
-      "ts": 1791991800,
-      "published": "2026-10-14T15:30:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
-    },
-    {
-      "title": "Node.js 24.22.0 (LTS)",
-      "link": "https://nodejs.org/en/blog/release/v24.22.0",
-      "source": "Node.js Blog",
-      "category": "Node",
-      "summary": "",
-      "ts": 1791991608,
-      "published": "2026-10-14T15:26:48+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Node.js 26.12.0 (Current)",
-      "link": "https://nodejs.org/en/blog/release/v26.12.0",
-      "source": "Node.js Blog",
-      "category": "Node",
-      "summary": "",
-      "ts": 1791991386,
-      "published": "2026-10-14T15:23:06+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Build your slide template",
-      "link": "https://martinfowler.com/articles/never-send-slides/build-your-slide-template.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Building a slide template starts with three foundational choices — colours, fonts and layouts. Sumeet Gayathri Moghe covers the basics of color theory and how to build a reusable palette, the essentials of typography, i…",
-      "ts": 1791987600,
-      "published": "2026-10-14T14:20:00+00:00",
-      "collected_at": "2026-10-15T02:51:19+09:00"
     }
   ]
 }
