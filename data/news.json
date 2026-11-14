@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-14T11:03:53+09:00",
-  "count": 1232,
+  "updated": "2026-11-14T18:56:29+09:00",
+  "count": 1231,
   "items": [
+    {
+      "title": "[AINews] The No AI Slop Manifesto",
+      "link": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 13, 2026 — AIE speakers unite to lay out how to fight slop.",
+      "ts": 1794645062,
+      "published": "2026-11-14T08:31:02+00:00",
+      "collected_at": "2026-11-14T18:56:25+09:00"
+    },
+    {
+      "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
+      "link": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google Cloud has made date-based versioning of the Compute Engine API generally available, replacing the single mutable /v1 surface with immutable quarterly snapshots such as 2026-09-01, selected per request with a head…",
+      "ts": 1794641220,
+      "published": "2026-11-14T07:27:00+00:00",
+      "collected_at": "2026-11-14T18:56:25+09:00"
+    },
+    {
+      "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+      "link": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries…",
+      "ts": 1794638220,
+      "published": "2026-11-14T06:37:00+00:00",
+      "collected_at": "2026-11-14T18:56:25+09:00"
+    },
+    {
+      "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+      "link": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries…",
+      "ts": 1794638220,
+      "published": "2026-11-14T06:37:00+00:00",
+      "collected_at": "2026-11-14T18:56:25+09:00"
+    },
     {
       "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
       "link": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
@@ -11,6 +51,26 @@
       "ts": 1794616091,
       "published": "2026-11-14T00:28:11+00:00",
       "collected_at": "2026-11-14T11:03:31+09:00"
+    },
+    {
+      "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+      "link": "https://claude.com/resources/articles/projects-redesigned",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 88 # Comments: 81",
+      "ts": 1794616091,
+      "published": "2026-11-14T00:28:11+00:00",
+      "collected_at": "2026-11-14T18:56:25+09:00"
+    },
+    {
+      "title": "Adaptive Heap Sizing + Numeric Conversion + Primitive Patterns - Inside Java Newscast #117",
+      "link": "https://inside.java/newscast/117/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "ZGC gets adaptive heap sizing, value classes complicate numeric conversions, and primitive patterns are withdrawn as JDK 28 takes shape.",
+      "ts": 1794614400,
+      "published": "2026-11-14T00:00:00+00:00",
+      "collected_at": "2026-11-14T18:56:25+09:00"
     },
     {
       "title": "If the Jensen Huang / Nvidia spy scandal had happened two weeks ago . . .",
@@ -12251,76 +12311,6 @@
       "ts": 1792058888,
       "published": "2026-10-15T10:08:08+00:00",
       "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "python-1.22.0",
-      "link": "https://github.com/microsoft/agent-framework/releases/tag/python-1.22.0",
-      "source": "Agent Framework",
-      "category": "Agents",
-      "summary": "[1.22.0] - 2026-10-15 Important Python 3.15 support: The core framework and root agent-framework package now support Python 3.15, but not every package, optional extra, or feature supports it yet because of upstream dep…",
-      "ts": 1792058056,
-      "published": "2026-10-15T09:54:16+00:00",
-      "collected_at": "2026-10-15T20:05:29+09:00"
-    },
-    {
-      "title": "What Makes a Great KotlinConf Proposal?",
-      "link": "https://blog.jetbrains.com/kotlin/2026/10/what-makes-a-great-kotlinconf-proposal/",
-      "source": "Kotlin",
-      "category": "Kotlin",
-      "summary": "The KotlinConf 2027 Call for Papers is now open! We invite developers from across the Kotlin community to bring their ideas, experiences, and expertise to the stage in Kraków. Do you have a Kotlin lesson or discovery th…",
-      "ts": 1792055499,
-      "published": "2026-10-15T09:11:39+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Apertus 1.5 Release Notes",
-      "link": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792055325,
-      "published": "2026-10-15T09:08:45+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Article: Server-Side DPoP and Token Exchange in Spring Security 7",
-      "link": "https://www.infoq.com/articles/spring-security-7-server-side-dpop-token-exchange/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Spring Authorization Server now lives inside Spring Security 7 under the same Maven coordinates, so the upgrade is a version bump. This server-side guide covers enabling DPoP and RFC 8693 Token Exchange, explains why 7.…",
-      "ts": 1792054800,
-      "published": "2026-10-15T09:00:00+00:00",
-      "collected_at": "2026-10-15T20:05:29+09:00"
-    },
-    {
-      "title": "Article: Server-Side DPoP and Token Exchange in Spring Security 7",
-      "link": "https://www.infoq.com/articles/spring-security-7-server-side-dpop-token-exchange/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Spring Authorization Server now lives inside Spring Security 7 under the same Maven coordinates, so the upgrade is a version bump. This server-side guide covers enabling DPoP and RFC 8693 Token Exchange, explains why 7.…",
-      "ts": 1792054800,
-      "published": "2026-10-15T09:00:00+00:00",
-      "collected_at": "2026-10-15T20:05:29+09:00"
-    },
-    {
-      "title": "How to Use Jev AI: A Hands-On Guide to TypeSafe’s System One Model",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/typesafe-ai-jev-tutorial/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Most AI models are built to generate text. But not every application needs a long response. Sometimes, you just need an AI model to classify an input, score it, or answer a yes-or-no question. Jev, TypeSafe AI’s System…",
-      "ts": 1792048462,
-      "published": "2026-10-15T07:14:22+00:00",
-      "collected_at": "2026-10-15T20:05:29+09:00"
-    },
-    {
-      "title": "LaTeX renderer",
-      "link": "https://simonwillison.net/2026/Oct/15/latex/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: LaTeX renderer Inspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office , which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calcula…",
-      "ts": 1792030048,
-      "published": "2026-10-15T02:07:28+00:00",
-      "collected_at": "2026-10-17T08:20:18+09:00"
     }
   ]
 }
