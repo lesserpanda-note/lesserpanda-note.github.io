@@ -1,7 +1,57 @@
 {
-  "updated": "2026-11-14T18:56:29+09:00",
-  "count": 1231,
+  "updated": "2026-11-15T01:29:30+09:00",
+  "count": 1219,
   "items": [
+    {
+      "title": "Weight-Only Quantization",
+      "link": "https://machinelearningmastery.com/weight-only-quantization/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Overview This post is divided into five parts; they are: • Asymmetric Affine Quantization • Post-Training Quantization with PyTorch • GPTQ and AWQ • Quantizing a Model to GGUF • Evaluating Weight-Only Quantization Note:…",
+      "ts": 1794672274,
+      "published": "2026-11-14T16:04:34+00:00",
+      "collected_at": "2026-11-15T01:29:09+09:00"
+    },
+    {
+      "title": "How to Build a Markov Chain in Python With NumPy",
+      "link": "https://towardsdatascience.com/how-to-build-a-markov-chain-in-python-with-numpy/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A step-by-step guide to transition matrices, the Chapman–Kolmogorov equation, and stationary distributions, built around a three-state writing example. The post How to Build a Markov Chain in Python With NumPy appeared…",
+      "ts": 1794668400,
+      "published": "2026-11-14T15:00:00+00:00",
+      "collected_at": "2026-11-15T01:29:09+09:00"
+    },
+    {
+      "title": "Zombie citations: A short empirical investigation",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/14/zombie-citations-a-short-empirical-investigation/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "So, we had this discussion the other day about nonexistent or irrelevant citations included in articles produced by chatbots. This is part of a larger concern about AI slop polluting the scholarly literature. The usual…",
+      "ts": 1794665065,
+      "published": "2026-11-14T14:04:25+00:00",
+      "collected_at": "2026-11-15T01:29:09+09:00"
+    },
+    {
+      "title": "How to Do a Binary Search in Python",
+      "link": "https://realpython.com/binary-search-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Use the bisect module to do a binary search in Python, then implement this classic algorithm yourself, both iteratively and recursively.",
+      "ts": 1794664800,
+      "published": "2026-11-14T14:00:00+00:00",
+      "collected_at": "2026-11-15T01:29:09+09:00"
+    },
+    {
+      "title": "Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors",
+      "link": "https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Quality and token alerts were early signals for 38% of agents and errors for about 1%, so monitoring should start with quality, cost, and latency. The post Data From 100+ AI Agents Shows They Fail by Silent Drift, Not E…",
+      "ts": 1794661200,
+      "published": "2026-11-14T13:00:00+00:00",
+      "collected_at": "2026-11-15T01:29:09+09:00"
+    },
     {
       "title": "[AINews] The No AI Slop Manifesto",
       "link": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
@@ -12141,176 +12191,6 @@
       "ts": 1792083659,
       "published": "2026-10-15T17:00:59+00:00",
       "collected_at": "2026-10-16T05:12:22+09:00"
-    },
-    {
-      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-      "link": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-      "ts": 1792080483,
-      "published": "2026-10-15T16:08:03+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Jev Your Engines: Seven Open Decision Models vs. a Generative LLM",
-      "link": "https://towardsdatascience.com/jev-your-engines-seven-open-decision-models-vs-a-generative-llm/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "A hands-on Jev repo comparison of routing accuracy, latency, and output reliability The post Jev Your Engines: Seven Open Decision Models vs. a Generative LLM appeared first on Towards Data Science .",
-      "ts": 1792078200,
-      "published": "2026-10-15T15:30:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Google Summer of Code 2026 With the Kotlin Foundation: Recap",
-      "link": "https://blog.jetbrains.com/kotlin/2026/10/google-summer-of-code-2026-with-kotlin/",
-      "source": "Kotlin",
-      "category": "Kotlin",
-      "summary": "Google Summer of Code 2026 has wrapped up! This was the Kotlin Foundation’s fourth year participating in GSoC, bringing new contributors into the Kotlin open-source ecosystem through hands-on projects and mentorship. Th…",
-      "ts": 1792076585,
-      "published": "2026-10-15T15:03:05+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "What OpenAI’s 719 Math Papers Mean for Data Science",
-      "link": "https://towardsdatascience.com/what-openais-719-math-papers-mean-for-data-science/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "Matching messy text, choosing representative examples, and generating comparison data. The post What OpenAI’s 719 Math Papers Mean for Data Science appeared first on Towards Data Science .",
-      "ts": 1792072800,
-      "published": "2026-10-15T14:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Building AI Applications with OGX, the Open-Source Agentic API Server",
-      "link": "https://www.kdnuggets.com/building-ai-applications-with-open-source-agentic-api-server-ogx",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "OGX is an open-source agentic API server for building OpenAI-compatible AI applications, using any model and any infrastructure.",
-      "ts": 1792072800,
-      "published": "2026-10-15T14:00:00+00:00",
-      "collected_at": "2026-10-16T05:12:22+09:00"
-    },
-    {
-      "title": "When Software Meets Hardware",
-      "link": "https://martinfowler.com/articles/software-meets-hardware.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "When software meets hardware, engineering principles remain largely the same, but the sensible defaults often change. Kuldeep Singh describes our experience modernizing a large IoT fleet of battery-powered sensors. Our…",
-      "ts": 1792070700,
-      "published": "2026-10-15T13:25:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Frustration when authors dodge criticism",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/15/frustration-when-authors-dodge-criticism/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Markus Löcher writes: I had to think of our discussions on the issue of (not) reproducible research which seems to be a real problem, when I carefully examined the code for this paper, “Stacked regressions and structure…",
-      "ts": 1792069905,
-      "published": "2026-10-15T13:11:45+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "link": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lo…",
-      "ts": 1792069443,
-      "published": "2026-10-15T13:04:03+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Teaching students to think and learn through questions",
-      "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-      "ts": 1792069200,
-      "published": "2026-10-15T13:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "How Many Guesses Does It Take to Crack an AI's \"Random\" Number?",
-      "link": "https://towardsdatascience.com/how-many-guesses-does-it-take-to-crack-an-ais-random-number/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "I read the exact answer distribution from the logits of open models, base and instruction-tuned, and turned it into bits and guesses-to-crack. The post How Many Guesses Does It Take to Crack an AI's \"Random\" Number? app…",
-      "ts": 1792067400,
-      "published": "2026-10-15T12:30:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "7 Open-Source AI Tools That Can Replace Paid Subscriptions",
-      "link": "https://www.kdnuggets.com/7-open-source-ai-tools-that-can-replace-paid-subscriptions",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Find open-source alternatives to OpenAI API, Midjourney, Claude Code, Notion, Wispr Flow, Grammarly, and NotebookLM that you can run locally or self-host for more privacy, control, and lower cost.",
-      "ts": 1792065634,
-      "published": "2026-10-15T12:00:34+00:00",
-      "collected_at": "2026-10-16T05:12:22+09:00"
-    },
-    {
-      "title": "Quiz: PyQt Layouts: Create Professional-Looking GUI Applications",
-      "link": "https://realpython.com/quizzes/python-pyqt-layout/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your PyQt layout skills with box, grid, form, stacked, and tab layouts so you can build polished GUI applications in Python.",
-      "ts": 1792065600,
-      "published": "2026-10-15T12:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Presentation: What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents",
-      "link": "https://www.infoq.com/presentations/agentic-ai-developer-trust-adoption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Brendan O'Leary discusses how real-world AI adoption depends on building trust rather than chasing model benchmarks. Drawing from 40 trillion tokens of usage data, he explains the four rungs of the AI adoption ladder an…",
-      "ts": 1792062000,
-      "published": "2026-10-15T11:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Presentation: What 25 Trillion Tokens Reveal About How Developers Actually Adopt AI Agents",
-      "link": "https://www.infoq.com/presentations/agentic-ai-developer-trust-adoption/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Brendan O'Leary discusses how real-world AI adoption depends on building trust rather than chasing model benchmarks. Drawing from 40 trillion tokens of usage data, he explains the four rungs of the AI adoption ladder an…",
-      "ts": 1792062000,
-      "published": "2026-10-15T11:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Choosing a Chunking Strategy for Your LLM Apps: A Decision-Tree Approach",
-      "link": "https://machinelearningmastery.com/choosing-a-chunking-strategy-for-your-llm-apps-a-decision-tree-approach/",
-      "source": "ML Mastery",
-      "category": "AI",
-      "summary": "In this article, you will learn how to choose the right chunking strategy for a retrieval-augmented generation system by working through a structured decision tree...",
-      "ts": 1792062000,
-      "published": "2026-10-15T11:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
-      "link": "https://www.latent.space/p/ainews-modals-1b-arr-16b-series-d",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Sandboxes are all you need.",
-      "ts": 1792058888,
-      "published": "2026-10-15T10:08:08+00:00",
-      "collected_at": "2026-10-15T20:05:29+09:00"
-    },
-    {
-      "title": "[AINews] Modal’s $1B ARR, $16B Series D makes it NYC’s newest AI Infra Decacorn, 3x usage and 3x valuation in 5 months, 15x in 1 yr",
-      "link": "https://latent.space/p/ainews-modals-1b-arr-16b-series-d/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Sandboxes are all you need.",
-      "ts": 1792058888,
-      "published": "2026-10-15T10:08:08+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
     }
   ]
 }
