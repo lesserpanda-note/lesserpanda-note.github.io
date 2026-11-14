@@ -1,6 +1,325 @@
 {
   "digests": [
     {
+      "date": "2026-11-13",
+      "summary": "Google이 Gemini 4 Hydrogen을 전 요금제에 풀었고, Anthropic은 3분기 매출 170억 달러를 담은 IPO 페이지를 공개했습니다. AI Engineer Code Summit에서는 생성하지 않고 선택·점수만 돌려주는 '시스템 원' 모델이 주제였고, Latent Space는 Gemini Decision 1의 독립 평가가 Google 자체 수치보다 엇갈린다고 전했습니다. 검색과 테스트를 실제로 재 본 글도 두 편 있습니다. BM25 RAG는 문서가 268만 건으로 늘자 40포인트를 잃었고, 신생 Python 라이브러리의 테스트는 심어 둔 결함의 41%를 놓쳤습니다. 인프라 쪽에서는 Google이 TPU용 KV 캐시 전송 라이브러리를 공개했습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Jakarta EE Testing Tools Compared: WeldInitiator, Arquillian and Testcontainers",
+          "link": "https://foojay.io/today/jakarta-ee-testing-tools-compared-weldinitiator-arquillian-and-testcontainers/",
+          "summary": "Jakarta EE 테스트 도구 세 가지 — WeldInitiator, Arquillian, Testcontainers — 를 같은 코드베이스에서 비교한 글입니다. 각 도구가 코드로부터 다른 거리에서 다른 질문에 답한다는 것이 요지입니다.",
+          "detail": "'Testing Jakarta EE: Three Layers, Three Tools' 연재의 마지막 편입니다. 예제는 Payara Starter로 만든 도서관 관리 시스템으로 Azul Payara Micro에서 돕니다. 이 프로젝트는 도메인 클래스에 @NamedQuery 14개를 선언해 두었지만 최근까지 REST 리소스도, JSF 백킹 빈도, 테스트도 그것을 한 번도 호출하지 않았습니다. JPQL이 컴파일되는지조차 확인된 적이 없었고, 공용 서비스 기반 클래스의 count()와 findRange()도 마찬가지였습니다. 단위 테스트와 배포된 E2E 테스트는 있었지만 이 코드는 어느 쪽으로도 닿지 않았고, 그 틈을 메우는 데 세 번째 도구가 필요했습니다. Jakarta EE 테스트가 까다로운 이유는 관심 있는 동작이 컨테이너가 조립해 주기 전에는 존재하지 않기 때문입니다. 전부 목으로 바꾸면 통과하지만 증명하는 것이 적고, 전부 배포하면 느려서 개발 중에 아무도 돌리지 않습니다. WeldInitiator(weld-junit5)는 테스트 JVM 안에 Weld SE 컨테이너를 띄워 빈의 로직과 CDI 와이어링을 밀리초 단위로 검증합니다. Arquillian은 실제 컨테이너의 JVM 안에서 실제 영속성 프로바이더를 상대로 코드를 실행합니다. Testcontainers는 빌드·배포된 애플리케이션을 바깥에서 REST API나 실제 브라우저로 확인합니다."
+        },
+        {
+          "category": "Java",
+          "title": "Analytics in the Browser with DuckDB-Wasm and a Java Backend",
+          "link": "https://foojay.io/today/analytics-in-the-browser-with-duckdb-wasm/",
+          "summary": "Java 백엔드가 데이터셋을 한 번만 보내고 이후의 필터·집계는 브라우저 탭 안의 DuckDB-Wasm이 로컬 SQL로 처리하는 구성을, 빌드 도구 없이 파일 두 개로 보여 줍니다.",
+          "detail": "Geertjan Wielenga의 글입니다. 분석 화면을 가진 Java 웹앱은 대개 같은 패턴을 따릅니다. 사용자가 필터를 고르면 브라우저가 REST 엔드포인트를 부르고, Java 서비스가 GROUP BY를 돌려 JSON으로 직렬화해 돌려줍니다. 날짜 범위를 바꾸거나 '지역별'을 '제품별'로 바꿀 때마다 왕복이 한 번씩 더 생깁니다. 흔한 대응은 캐시, 요약 테이블이나 materialized view로의 사전 집계, 엔드포인트 통합, ClickHouse·Druid 같은 OLAP 저장소 도입이지만, 모두 운영하고 튜닝하고 무효화할 것이 늘어나고 서버가 모든 질문에 답한다는 구도는 그대로입니다. DuckDB-Wasm은 인프로세스 분석 DB인 DuckDB를 WebAssembly로 컴파일해 브라우저 탭에서 돌립니다. 글이 꼽는 이점은 이렇습니다. 수만 행 재집계가 네트워크 지연이나 JSON 직렬화 없이 메모리 내 컬럼형 쿼리로 즉시 끝납니다. 사용자 10명이 필터를 20번씩 누르면 기존에는 분석 쿼리 200번이지만 여기서는 데이터 다운로드 10번입니다. 사용자가 무엇을 볼 수 있는지, 보안과 비즈니스 규칙은 여전히 Java가 정합니다. 프런트엔드가 전용 JavaScript API가 아니라 SQL을 쓰므로 DuckDB CLI나 JDBC로 시험한 쿼리를 그대로 옮길 수 있습니다. 예제는 Maven도 npm도 없이 Java 파일 하나와 HTML 파일 하나입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+          "link": "https://latent.space/p/jev-revolution/",
+          "summary": "AI Engineer Code Summit의 주제는 '시스템 원' 모델이었습니다. Jev를 만든 TypeSafe AI의 Diogo Almeida는 이를 코드 안에 넣어 '전부 자동화하라'고 했고, Glean과 UiPath가 실제 사용 방식을 발표했습니다.",
+          "detail": "시스템 원 모델은 텍스트를 생성하지 않고 구조화된 선택·점수·확률을 돌려주는 모델로, 추론형 LLM(시스템 투)보다 대체로 훨씬 빠르고 쌉니다. Jev는 9월에 출시되어 두 달이 채 안 돼 이 흐름을 만들었습니다. Almeida가 짚는 문제는 LLM을 소프트웨어의 중심에 둘 때의 신뢰성입니다. 그는 '95%는 아인슈타인이지만 5%는 미스터 빈이고, 어느 쪽인지 구분할 수 없다면 무엇을 자동화하겠느냐'고 말했습니다. 기조연설의 요점은 시스템 원 모델이 코드와 통합돼야 한다는 것입니다. '코드가 자동화의 언어'이기 때문입니다. Latent Space의 swyx는 이를 문자열을 이어 붙이고 잘되길 바라는 방식 대신, 애플리케이션 코드 안 곳곳에 시스템 원 호출을 넣어 소프트웨어를 똑똑하게 만들라는 뜻으로 해석했습니다. Glean의 Chinmay Goyal은 Jev를 LLM이나 다른 분류기와 함께 쓰며, 강점은 '제로샷 유연성'이라고 설명했습니다. 결정 공간의 분류 체계가 바뀌어도 매번 파인튜닝할 필요가 없다는 것입니다. Glean에서 Jev가 상당수 흐름을 맡고 있지만 사용자가 어떤 모델인지 알 필요는 없다고 했습니다. UiPath의 Chibi Vikram과 Kevin Bernstein은 Jev로 문서 청크 순위를 매기는 테스트 사례를 보였습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] D-Day (Decision Models Day)",
+          "link": "https://latent.space/p/ainews-d-day-decision-models-day/",
+          "summary": "Latent Space의 AINews가 Gemini Decision 1 출시일을 정리했습니다. Google 자체 수치에서는 Jev를 앞서지만 Artificial Analysis의 독립 평가는 엇갈리고, Cloudflare는 결정 모델과 추론 모델을 나눠 쓰는 하이브리드 설계를 발표했습니다.",
+          "detail": "Google의 자체 테스트로는 Decision 1이 공유 벤치마크 7개 중 5개에서 Jev 1.14를 이겼고 JevBench에서 92.2% 대 90.0%였습니다. Jev의 입력 가격은 100만 토큰당 0.042달러로 Decision 1의 0.10달러보다 쌉니다. Artificial Analysis의 평가는 더 엇갈립니다. Decision Index에서 Decision 1은 66점으로 Elephant 9B, Jev 1.14와 동률이고, Drex Max v1.1과 GLiDE v1.2보다 7점 낮습니다. AA-Omniscience-Decision(66)과 HLE-MultiChoice(49)에서는 선두지만, AA-Paperclip에서 문서의 모든 질문을 맞힌 비율은 33%로 Drex Max의 63%에 크게 못 미칩니다. 100만 과제당 비용은 345달러로 Drex Max 103달러, Jev 156달러보다 비싸고, 과제당 평균 시간은 211ms로 Jev의 92ms보다 느립니다. Brier 점수는 0.18입니다. 프로젝트는 DeepMind 내부 프로토타입에서 시작해 작은 팀이 약 6주 만에 모델과 API를 냈다고 합니다. LangChain은 출시 당일 TypeSafe 분류기와 기반 클래스를 공유하는 형태로 지원을 넣었습니다. Cloudflare는 AI Engineer에서 빠른 결정 모델이 도구 선택과 로그 추출을 맡고 큰 추론 모델은 진단만 하는 설계를 보였고, 데모에서 LLM 호출이 6회에서 1회로, 토큰이 약 40K에서 1.8K로 줄었습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "RAG Retrieval Lost 40 Points When Distracting Passages Grew to 2.68M",
+          "link": "https://towardsdatascience.com/rag-retrieval-lost-40-points-when-distracting-passages-grew-to-268m/",
+          "summary": "BM25 검색이 논문 2,000편 규모에서는 거의 흔들리지 않았지만 위키백과 268만 구절로 늘리자 40포인트를 잃었다는 재현 가능한 실험입니다. 작성자가 직접 만든 평가가 검색을 과대평가한다는 것이 결론입니다.",
+          "detail": "Abdullahi Dattijo는 RAG의 검색 단계가 문서 모음이 커질 때 정답 문서를 얼마나 자주 놓치는지, 그리고 추가된 문서가 정답과 비슷한지가 영향을 주는지를 쟀습니다. 결과를 본 뒤 기준을 고르지 못하게 규칙을 먼저 고정했습니다. 가장 작은 모음보다 점수가 5포인트 이상 떨어지고 95% 구간이 0을 포함하지 않을 때만 저하로 칩니다. 첫 실험은 최근 arXiv 초록 2,000편과 질문 298개입니다. 질문은 각각 서로 다른 논문 하나에서 만들어 손으로 확인했고, 모음을 100·250·500·1,000·1,801편으로 키우되 정답 논문은 항상 안에 두었습니다. BM25는 100편에서 99.7%의 질문에 대해 정답 논문을 상위 5개 안에 넣었고 1,801편에서도 98%였습니다. 임계점을 찾으려던 실험인데 거의 움직이지 않았습니다. 그런데 자신의 설정을 위해 쓰인 것이 아닌 공개 질문으로 위키백과 268만 구절에 같은 종류의 실험을 하자 그림이 바뀌었고, 제목이 말하는 40포인트 하락이 나왔습니다. 글은 두 실험을 하나의 이야기로 묶어, 작성자가 쓴 평가 질문이 검색 성능을 높게 보이게 한다는 점과 컨텍스트 안에서 답의 위치가 중요하다는 점을 다룹니다. 지표는 recall@5, success@10, exact match이고 코드·질문·라벨·결과는 공개 저장소에 있습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "link": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "summary": "Google이 Gemini 4 Hydrogen을 출시했습니다. Carbon·Argon 아래의 빠른 실행용 모델이고, 100만 토큰 컨텍스트 전체에 입력 1.50달러·출력 7.50달러 단일 가격입니다.",
+          "detail": "Hydrogen은 깊은 장기 추론을 맡는 Carbon·Argon과 달리 코딩과 에이전트 워크플로의 빠른 실행을 겨냥합니다. AI Studio와 Gemini API의 모든 티어, Gemini for business, Gemini 앱, Google Search, Antigravity의 유료 Pro·Ultra 구독자에게 제공됩니다. Artificial Analysis Intelligence Index에서 기본값인 high 사고 수준으로 51점을 받아 Argon(50)을 넘고, 최고 설정인 xhigh에서는 54점입니다. Gemini 3.8 Flash에서 옮겨 오는 팀에게는 큰 단독 업그레이드라고 설명합니다. 기본 설정에서 작업을 2.5배 빨리 끝내고 Terminal-Bench 4.1 점수가 18.2%에서 57%로 올랐으며, 지어낸 주장이 5배 이상 줄었고 도구 호출이 실패하거나 검색이 비어도 깔끔하게 적응한다는 것입니다. 대형 저장소 탐색에서는 파일 읽기와 검색 호출을 하나씩이 아니라 병렬로 묶어 보내고, 초기 파트너 테스트에서 3.8 Flash 대비 2~2.8배 빠르면서 토큰을 12~23% 덜 썼습니다. Antigravity에는 Orchestrator가 함께 나왔습니다. 한 세션 안에서 Carbon과 Hydrogen을 동적으로 바꿔 쓰는 기능으로, Terminal-Bench 4.0에서 Carbon에 가까운 성공률을 내면서 쿼터를 평균 24% 덜 쓰고 19% 빨리 끝냈습니다. 병렬 에이전트 구성에서는 Carbon이 조율하고 Hydrogen이 작업자와 검증자를 맡습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Anthropic IPO",
+          "link": "https://ipo.anthropic.com/us/",
+          "summary": "Anthropic이 IPO 페이지를 공개했습니다. 2026년 3분기 매출 170억 달러, 전년 대비 12배 이상 성장, 조정 영업이익률 15%를 제시했습니다.",
+          "detail": "페이지는 창업자 서한, 로드쇼 영상, 재무 하이라이트, 고객 사례, 참여 방법, 문서와 FAQ로 구성됩니다. Anthropic은 스스로를 AI의 혜택을 확보하고 위험을 줄이는 데 전념하는 공익법인(public benefit corporation)으로 소개합니다. 2026년 3분기 수치는 이렇습니다. 매출 170억 달러로 전년 대비 12배 이상입니다. 최근 12개월 매출이 10만 달러 이상인 고객은 9월 30일 기준 11,900곳을 넘고 이 역시 전년 대비 12배 이상입니다. 컴퓨트 효율은 2025년 1분기 이후 4배 이상 개선됐는데, 매출을 컴퓨트·인프라 비용으로 나눈 비율로 측정한 값입니다. 조정 영업이익률은 15%, 영업이익률은 -3%입니다. 순손실은 233억 달러이지만 이 중 219억 달러는 기업가치 상승에 따른 전환사채·파생부채·SAFE의 공정가치 변동으로 생긴 비현금 비용이라고 주석을 달았습니다. 로드쇼 영상은 11개 장으로 제품과 플랫폼, 프런티어·안전 연구, 컴퓨트 접근법, 엔터프라이즈 전략, 재무 모델을 다루고 Bristol Myers Squibb, Accenture, AIG가 등장합니다. 고객 사례로는 Legora, Lilly, Rakuten, Salesforce, Walmart가 실렸고, Legora는 1,500곳 이상의 로펌·사내 법무팀에 서비스하며 Claude Code 사용이 약 50석에서 700석으로 14배 늘었다고 밝혔습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Google Open-Sources TPU Sync for KV Cache and Weight Transfer on TPUs",
+          "link": "https://www.infoq.com/news/2026/11/google-tpu-sync/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Google Cloud가 TPU Sync를 오픈소스로 공개했습니다. KV 캐시 블록과 모델 가중치를 TPU HBM, 호스트 DRAM, 공유 스토리지, 데이터센터 네트워크 사이로 옮기는 네이티브 C++ 라이브러리입니다.",
+          "detail": "가속기가 데이터를 기다리느라 노는 두 워크로드를 겨냥합니다. 긴 컨텍스트와 prefill/decode 분리형 LLM 서빙, 그리고 트레이너가 갱신된 가중치를 롤아웃 샘플러로 밀어 주는 강화학습 루프입니다. Google은 prefill/decode 분리에서 Qwen3 235B의 KV 전송 지연 중앙값이 수 초에서 약 230ms로 줄었고, 낮은 동시성에서 평균 TTFT가 이 모델은 60%, 480B 모델은 90% 줄었다고 밝혔습니다. 프리픽스 캐싱은 64K 컨텍스트 워크로드에서 평균 TTFT를 최대 90% 낮췄습니다. JAX와 PyTorch용 Python 휠이 제공되고 KV 캐시 매니저, KV 스토어, 가중치 동기화 API가 있습니다. vLLM-TorchTPU에서는 KVConnector 인터페이스의 KV 커넥터로, SGLang-TorchTPU에서는 분리·계층 캐시 백엔드로 동작하며 GKE의 llm-d 1.0과 짝을 이뤄 프리픽스 캐시 인지 라우팅을 합니다. 주의할 점도 분명합니다. 저장소는 API가 빠르게 바뀌고 PyPI에는 개발 빌드만 있다며 마지막 정상 커밋에 고정하라고 권합니다. 검증된 것은 TPU v7x와 v6e이고, PyTorch 휠은 공개 인덱스에 없는 torch_tpu 빌드가 필요합니다. RL 가중치 동기화와 스토리지 계층은 실험 단계입니다. GPU 쪽의 대응물은 NVIDIA Dynamo와 NIXL, LMCache, Mooncake입니다. 라이선스는 Apache 2.0입니다."
+        },
+        {
+          "category": "AI",
+          "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+          "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+          "summary": "IBM이 LLM 전용 마크업 언어 LLMON과 이를 읽고 쓰도록 학습한 Granite 4.1 3B·8B 프리뷰 모델을 공개했습니다. 지시와 데이터를 예약된 특수 토큰으로 분리해 간접 프롬프트 인젝션을 대부분 무시하게 만듭니다.",
+          "detail": "LLMON(LLM Object Notation, '레몬')이 푸는 문제는 컨텍스트 구조의 암묵성입니다. 긴 궤적에서 컨텍스트에는 시스템 프롬프트, 지난 대화, 검색 문서에 작용하는 지시, 도구 응답, 출력 제약, 추론 사슬이 쌓이는데, 그 구조는 모델에 암묵적이거나 LLM을 위해 설계되지 않은 JSON으로 표현됩니다. JSON은 파서용입니다. 토크나이저는 문법을 지키도록 제약되지 않고, `{`·`\"`·`:` 같은 구조 토큰이 일반 텍스트에도 나옵니다. 모델에게 문서 안의 따옴표와 필드를 닫는 따옴표는 같은 토큰이며, 중첩 깊이는 트랜스포머가 약한 괄호 세기로 표현됩니다. LLMON은 XML과 비슷하지만 구조 구분자가 문자가 아니라 예약된 특수 토큰이어서 구조와 내용이 어휘의 다른 부분을 씁니다. 고유 ID로 컨텍스트 어디에 있든 특정 지시를 가리켜 그것이 작용할 데이터에 묶을 수 있는데, 함수 호출에 인자를 넘기는 것과 비슷합니다. 효과로는 일부 벤치마크에서 공격 성공률이 거의 0으로 떨어지고(일반 instruction 모델은 높은 확률로 탈취됩니다), Granite 4.1 Instruct 대비 일반 능력은 유지된다고 밝혔습니다. 관련 없는 구절이나 오래된 대화가 답에 끌려 들어오지 않습니다. 공개물은 granite-4.1-3b-LLMON-preview, granite-4.1-8b-LLMON-preview와 툴킷 저장소이고, JSON을 무손실로 변환하는 컨버터와 Mellea의 네이티브 지원이 있습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+          "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+          "summary": "Nvidia 측이 칩 밀수 방지를 위한 위치 추적이 기술적으로 가능하다고 Bill Foster 하원의원에게 비공개로 인정했다고 MIT Technology Review가 보도했습니다. 업계 단체는 공개적으로 '실현 불가능할 수 있다'고 반대해 왔습니다.",
+          "detail": "Foster는 과학우주기술위원회 소속 민주당 의원으로 Chip Security Act의 공동 발의자입니다. 이 법안은 첨단 AI 칩의 위치를 검증하는 지오트래킹을 요구해 중국으로의 밀수를 막으려는 것으로, 상원 국방수권법 포함이 검토되는 칩 보안 법안 세 건 중 하나입니다. Nvidia CEO Jensen Huang의 사임과, 중국 스파이 혐의를 받는 인물과의 관계 보도 이후 다시 주목받고 있습니다. 법안은 2025년 5월 발의됐고, Nvidia가 회원인 반도체산업협회는 2026년 3월 추적 의무가 '새롭고 검증되지 않았으며 실현 불가능할 수 있다'며 반대했습니다. 그러나 Foster는 기술 논의 자리에서 Nvidia 담당자들의 반응이 '물론 할 수 있다'였다고 전했습니다. 서면으로 남긴 것은 없다고 합니다. 정황도 있습니다. Nvidia는 2025년 12월 고객이 여러 데이터센터의 칩 성능을 모니터링하는 Fleet Intelligence를 발표했고, 이 도구가 칩이 어느 나라에 있는지 나타낼 수 있다고 Reuters에 확인했습니다. Nvidia는 이번 보도에 답하지 않았고, 10월 초 같은 질문에는 통제 품목의 유출이 중국의 자체 컴퓨트에 비하면 미미하다는 성명만 보냈습니다. 기사는 Huang과 관계가 보도된 Alice Huang의 싱가포르 회사 Megaspeed가 GPU 밀수 혐의로 조사받고 있다고 전합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Bliki: Generated Glossary",
+          "link": "https://martinfowler.com/bliki/GeneratedGlossary.html",
+          "summary": "Martin Fowler가 'Generated Glossary' 기법을 정리했습니다. 조직의 문서·메일·채팅에서 LLM으로 도메인 용어집을 만들고, 사람 전문가가 검토한 뒤 다른 LLM이 참조하게 두는 방법입니다.",
+          "detail": "규모 있는 조직의 업무에는 학습 데이터에 없는 전문 어휘가 많아 LLM이 그 도메인에서 일하기 어렵습니다. 해법은 LLM에게 용어집을 만들게 하는 것입니다. 생성 LLM은 단어 하나뿐 아니라 여러 단어가 붙어 의미를 이루는 구도 찾고, 자신에게 새로운 용어와 함께 익숙한 단어가 낯선 뜻으로 쓰이는 경우를 식별합니다. 후자가 혼란을 가장 많이 일으킵니다. 용어가 여러 뜻으로 쓰이면 어떤 맥락에서 달라지는지와 함께 대안 정의를 적고, 사전처럼 정확하고 간결하게 씁니다. 초안은 도메인 전문가가 검토해 고칩니다. 완성본은 LLM이 적은 토큰으로 찾아볼 수 있는 형태로 두고, 버전 관리하며 정기적으로 갱신합니다. Fowler가 강조하는 것은 Bounded Context입니다. 큰 조직은 곳곳에서 정의가 미묘하게 다르므로, 단일 표준 용어집을 만들려는 유혹을 버리라고 합니다. 그런 것이 성공하는 것을 본 적이 없다는 것입니다. 용어집의 가치는 정의 하나를 못 박는 데가 아니라 맥락별 용법 차이를 드러내는 데 있는 경우가 많습니다. 소스 코드에서 만든 용어집과 사람의 글에서 만든 용어집을 비교하면 특히 유익합니다. 용어집이 크면 초기 컨텍스트에는 용어와 정의 링크만 넣고 모델이 필요한 정의만 따라가게 합니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "I Mutation-Tested 50 Python Libraries. Tests in the Young Ones Missed 41% of Planted Faults.",
+          "link": "https://towardsdatascience.com/i-mutation-tested-50-python-libraries-tests-in-the-young-ones-missed-41-of-planted-faults/",
+          "summary": "Python 라이브러리 50개에 결함 2,312개를 심어 테스트가 잡는지 본 뮤테이션 테스트 연구입니다. 성숙한 라이브러리의 테스트는 17%를, 2023년 이후 만들어진 신생 라이브러리는 41%를 놓쳤습니다.",
+          "detail": "Gal Arav의 출발점은 AI 어시스턴트가 쓴 테스트 2,200개 이상을 가진 자기 프로젝트입니다. 테스트 통과는 테스트가 오늘의 코드와 일치한다는 것만 말해 줄 뿐, 내일의 변경이 망가뜨렸을 때 알아챌지는 말해 주지 않습니다. 뮤테이션 테스트는 작은 지점 하나에 버그를 심고 테스트를 다시 돌려 실패하는지 봅니다. 결과는 이렇습니다. 2020년 이전에 처음 릴리스된 성숙한 라이브러리 20개에 심은 828개 중 143개(17%)가 통과했고, 2023년 이후 만들어진 신생 라이브러리 30개에 심은 1,484개 중 615개(41%)가 통과했습니다. 과정에서 실제 문제 네 건을 찾아 손으로 확인하고 보고했습니다. Windows에서 실행 대상 파일을 비워 버리는 도구, 적힌 대로 동작하지 않는 README 예제 두 건, 함수를 직접 호출하면 출력할 수 없는 오류입니다. 더 중요한 관찰은 빈틈의 대부분이 아무도 적어 두지 않은 결정이라는 점입니다. 놓친 결함 하나하나는 '비율이 정확히 100일 때 어떻게 돼야 하는가' 같은 질문이 됩니다. README·docstring·시그니처를 읽은 LLM은 성숙한 라이브러리에서 이런 질문의 약 4분의 1에, 신생 라이브러리에서는 15분의 1에만 답을 찾았습니다. 나머지는 사람이 정해야 합니다. 자신의 프로젝트에서도 한 모듈의 테스트 221개가 심은 결함 30개 중 7개를 놓쳤습니다."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "summary": "Node.js가 22·24·26 세 LTS 라인에 HTTP/2와 TLS의 High 등급 취약점을 고친 보안 릴리스를 동시에 냈고, Rust 1.100.0은 10년을 끈 never 타입을 안정화했습니다. Google은 텍스트를 생성하지 않고 선택지에 점수만 매기는 Gemini Decisions API를 내놓아 '결정 모델'이라는 새 범주에 들어왔습니다. 에이전트가 만든 것을 어떻게 믿을지도 이날의 주제였습니다. Martin Fowler 사이트의 글은 테스트 계약을 코드가 아닌 데이터로 옮기자고 제안했고, GitHub Agentic Workflows는 읽기 전용 권한과 예산 상한을 기본값으로 두고 GA가 됐으며, Grok Build는 공유 링크 설계 결함으로 3만 5천 개 앱을 노출했습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java 27: What’s New?",
+          "link": "https://foojay.io/today/java-27-whats-new/",
+          "summary": "Java 27이 JEP 9개와 함께 나왔습니다. 새 기능은 적지만 G1과 compact object headers가 모든 환경의 기본값이 되어, 올리기만 해도 런타임 동작이 달라집니다.",
+          "detail": "Loic Mathieu가 Java 27의 JEP를 하나씩 정리한 글입니다. Java 26의 10개에 이어 이번에는 9개이고 새 기능은 많지 않습니다. JEP 523은 G1을 모든 환경의 기본 GC로 만듭니다. Java 9 이후에도 CPU 1개 이하·힙 1792MB 미만 환경에서는 Serial이 기본이었는데, JEP 522의 동기화 감소와 네이티브 메모리 사용량 축소로 G1이 모든 힙 크기에서 Serial과 같거나 나아졌다는 것이 근거입니다. JEP 527은 TLS 1.3에 양자내성 하이브리드 키 교환을 넣습니다. ML-KEM과 ECDHE를 묶은 X25519MLKEM768, SecP256r1MLKEM768, SecP384r1MLKEM1024 세 가지이고, 둘 중 하나만 안 깨져도 안전합니다. JEP 534는 compact object headers를 기본으로 켭니다. 객체 헤더가 128비트에서 64비트로 줄고, SPECjbb2015에서 힙 22%·CPU 시간 8% 감소, GC 횟수 15% 감소, 병렬 JSON 파서 벤치마크 10% 향상이 보고됐습니다. 기존 레이아웃은 이후 릴리스에서 deprecated될 예정입니다. JEP 536은 JFR 기록에 남는 명령행 인자·환경 변수·시스템 프로퍼티의 민감 정보를 별도 설정 없이 기본으로 가립니다."
+        },
+        {
+          "category": "Java",
+          "title": "Spring ApplicationContext Hierarchy and a High CVE in Axelix",
+          "link": "https://foojay.io/today/spring-context-hierarchy/",
+          "summary": "Spring Boot 진단 플랫폼 Axelix에서 Actuator 포트를 분리하면 JWT 없이 엔드포인트가 열리는 High 등급 취약점이 나왔고 1.2.1에서 고쳐졌습니다. 테크 리드가 원인을 ApplicationContext 계층 구조로 설명합니다.",
+          "detail": "Axelix의 테크 리드 Mikhail Polivakha가 쓴 사후 분석입니다. 외부 연구자 Andrei Kotov가 찾은 취약점으로, 특정 Spring Boot 설정에서 Axelix의 Actuator 엔드포인트(axelix-*)를 JWT 없이 호출할 수 있었습니다. 수정은 1.2.1에 들어갔고 Security Advisory가 공개됐습니다. 증상을 만든 설정은 흔한 것입니다. server.port는 8080, management.server.port는 8081로 관리 포트를 분리한 경우입니다. Actuator가 메인 포트에 있을 때는 토큰 없는 요청이 401을 받지만, 8081에서는 같은 요청이 통과했습니다. 애플리케이션은 NoSuchBeanDefinitionException도 경고 로그도 없이 정상 기동했습니다. 글쓴이는 필터를 빠뜨린 것도, 서명 검증을 틀린 것도 아니며 필터는 완벽히 동작했지만 '생각한 곳에 있지 않았다'고 설명합니다. 원인으로 지목한 것은 getParent()와 setParent로 컨텍스트가 트리를 이루는 ApplicationContext 계층 구조이고, 글은 Spring MVC 시절의 root/DispatcherServlet 컨텍스트부터 Spring Boot가 계층을 만드는 지점까지 차례로 짚습니다. 관리 포트를 분리해 쓰면서 보안 필터를 직접 등록한 팀이라면 같은 구조를 점검할 만합니다."
+        },
+        {
+          "category": "Node",
+          "title": "Node.js 26.13.1 (LTS)",
+          "link": "https://nodejs.org/en/blog/release/v26.13.1",
+          "summary": "Node.js 26.13.1 'Lithium'(LTS)은 보안 릴리스입니다. HTTP/2와 TLS에서 High 9건을 포함한 CVE를 고쳤습니다.",
+          "detail": "2026-11-11에 나온 보안 릴리스입니다. High 등급은 HTTP/2 쪽이 스트림 제거 시 헤더 해제(CVE-2026-123863), nghttp2가 버린 스트림 감지(123865), 소켓 쓰기가 끝날 때까지 버퍼 유지(123866), 대기 중인 쓰기 동안 스트림 유지(123874)이고, TLS 쪽이 빈 쓰기로 인한 중첩 파서 실행 방지(123864), 세션 ID 컨텍스트 없는 mTLS의 재개 비활성화와 재협상·HRR·재개로 SNI가 바뀌는 것 차단(123872), 원격에서 도달 가능한 TLS 서버 크래시 수정(126051)입니다. Medium은 ALTSVC 버퍼 오버플로(123828), 인증서 없는 SNI 컨텍스트의 CA 적용(123867), 스트림이 붙잡은 인바운드 DATA를 maxSessionMemory에 산입(123868), 잘못된 프록시 URL 오류에서 프록시 자격 증명 가림(123871), 취소된 스트림의 null 쓰기 요청 방어(123875), https Agent의 TLS 정책 키 격리(123877)입니다. Low로 권한 모델의 재귀 fs.watch 누출(123829)과 힙 스냅샷 대상 검사(123873), zlib(123862)가 있습니다. 의존성은 undici 8.12.4, llhttp 9.4.4, brotli 1.2.1, sqlite 3.54.1로 올랐습니다. HTTP/2나 TLS 서버를 외부에 노출한 서비스는 바로 올려야 합니다."
+        },
+        {
+          "category": "Node",
+          "title": "Node.js 24.22.3 (LTS)",
+          "link": "https://nodejs.org/en/blog/release/v24.22.3",
+          "summary": "Node.js 24.22.3 'Krypton'(LTS)도 같은 날 나온 보안 릴리스입니다. 26.13.1과 같은 HTTP/2·TLS 수정이 들어갔습니다.",
+          "detail": "2026-11-11자 보안 릴리스이고 릴리스 담당은 26 라인과 같은 Antoine du Hamel입니다. Notable Changes의 High 목록이 26.13.1과 같습니다. HTTP/2의 스트림·헤더·버퍼 수명 문제(CVE-2026-123863, 123865, 123866, 123874), 빈 쓰기로 인한 중첩 파서 실행(123864), mTLS 세션 재개와 SNI 변경 차단(123872), 원격에서 도달 가능한 TLS 서버 크래시(126051)가 모두 포함됩니다. Medium도 ALTSVC 버퍼 오버플로(123828), SNI 컨텍스트의 CA 적용(123867), maxSessionMemory 산입(123868), 프록시 자격 증명 가림(123871), 취소된 스트림의 null 쓰기 요청 방어(123875)가 같은 순서로 실려 있습니다. 24 라인에 머물러 있는 서비스는 26으로 옮기지 않고도 이 패치로 같은 수정을 받습니다."
+        },
+        {
+          "category": "Node",
+          "title": "Node.js 22.23.5 (LTS)",
+          "link": "https://nodejs.org/en/blog/release/v22.23.5",
+          "summary": "Node.js 22.23.5 'Jod'(LTS) 보안 릴리스입니다. 24·26 라인과 대부분 같은 수정이지만 TLS 서버 크래시 CVE-2026-126051은 이 라인의 목록에 없습니다.",
+          "detail": "2026-11-11자 보안 릴리스입니다. High 등급으로 HTTP/2의 헤더 해제(CVE-2026-123863), 버려진 스트림 감지(123865), 버퍼 유지(123866), 대기 중 쓰기 동안 스트림 유지(123874)와 TLS의 중첩 파서 실행 방지(123864), mTLS 재개 및 SNI 변경 차단(123872)이 들어갔습니다. 24.22.3과 26.13.1의 목록에 있는 '원격에서 도달 가능한 TLS 서버 크래시'(126051)는 22.23.5의 Notable Changes에 없습니다. Medium은 ALTSVC 버퍼 오버플로(123828), SNI 컨텍스트 CA 적용(123867), maxSessionMemory 산입(123868), 프록시 자격 증명 가림(123871), 취소된 스트림 방어(123875), https Agent TLS 정책 키 격리(123877)로 다른 라인과 같습니다. 세 LTS 라인이 한날 같은 CVE 묶음으로 나왔으므로, 어느 라인에 있든 해당 패치 버전으로 올리는 것이 이번 주의 할 일입니다."
+        },
+        {
+          "category": "Rust",
+          "title": "Announcing Rust 1.100.0",
+          "link": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+          "summary": "Rust 1.100.0이 나왔습니다. 10년 동안 다섯 번 안정화에 실패한 never 타입(!)이 드디어 stable이 됐고, Allocator 트레이트의 핵심부와 DropGuard도 안정화됐습니다.",
+          "detail": "never 타입 `!`를 이제 어디서든 이름으로 쓸 수 있습니다. 지금까지는 함수 반환 타입(-> !)에만 쓸 수 있었고 `Result<T, !>` 같은 표기는 허용되지 않았습니다. 함께 `Infallible`이 never 타입의 별칭으로 바뀌어, Infallible을 쓰던 기존 API가 `!`와 호환됩니다. 이를 위해 호환성을 깨는 변경이 하나 들어갔습니다. 2015·2018·2021 에디션에서 never type fallback이 `()`에서 `!`로 바뀝니다(2024 에디션에서는 이미 그랬습니다). 대부분 눈에 띄지 않지만 제네릭 매개변수를 반환하는 함수의 결과를 무시하는 코드 등 드문 경우에 영향이 있고, 컴파일러가 더 많은 코드를 unreachable로 판정할 수 있습니다. 의존성이 never 타입 문제로 깨지면 이미 수정판이 나왔을 수 있으니 먼저 업데이트하라고 안내합니다. allocator_api의 핵심부도 안정화되어, 라이브러리 작성자가 `Allocator` 트레이트로 커스텀 할당자를 정의해 `Vec`과 `Box`에 쓸 수 있습니다. Allocators 1.0 목표의 토대이고 다른 컬렉션은 이후에 이어집니다. DropGuard는 Drop을 직접 구현하지 않고 모든 종료 경로에서 클로저를 실행하게 해 줍니다. Cargo에는 미사용 의존성 보고, 캐시 충돌 감소, min-publish-age가 들어갔습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+          "link": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+          "summary": "United Airlines가 여행자를 대신해 항공편을 예약하는 서드파티 AI 에이전트를 금지했습니다. 계정 자격 증명 공유의 보안 위험과 연방 규정 위반 가능성을 이유로 들었습니다.",
+          "detail": "United는 자사 디지털 플랫폼에서 직접, 그리고 여행사와 애그리게이터를 통해 간접적으로 '승인되지 않은 서드파티 개인 AI 에이전트·어시스턴트'의 접근을 제한하고 예약·발권 정책을 고치겠다고 밝혔습니다. 근거는 두 가지입니다. 계정 자격 증명을 개인용 AI 어시스턴트에 넘기면 민감 정보가 노출될 수 있고, 의도하지 않은 구매·계정 변경·MileagePlus 마일 사용이 일어날 수 있다는 것입니다. 또 에이전트가 체크인을 대신하면, 수하물에 금지 물품이 없음을 여행자 본인이 확인하도록 한 연방 규정을 어길 수 있다고 했습니다. Atmosphere Research Group의 Henry Harteveldt는 United가 Google 검색·메타서치·온라인 여행사에 더해 또 하나의 강력한 중개자가 생기는 것을 원치 않으며, AI 봇의 항공편 검색 급증이 만드는 비용도 피하려는 것이라고 해석했습니다. 반대로 Southwest는 ChatGPT 사용자에게 항공편 재고를 보이게 열어 두었습니다. United 운임은 Kayak·Hopper·Google Flights에서는 계속 예약할 수 있습니다. 에이전트가 사용자 자격 증명으로 남의 서비스에 들어가는 방식이 사업자 정책에 막힐 수 있다는 실제 사례입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Anthropic's IPO roadshow video",
+          "link": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+          "summary": "Simon Willison이 Anthropic의 IPO 로드쇼 영상에서 컴퓨트 전략 부분을 받아 적어 소개했습니다. Claude를 네 가지 칩 계열 모두에서 학습·서빙한다는 내용입니다.",
+          "detail": "Anthropic이 IPO 로드쇼를 시작했고, 영상에는 그동안 공개되지 않았던 사업 운영 정보가 들어 있습니다. Willison은 공식 대본이 없어 MacWhisper로 추출한 내용 중 공동창업자 Tom Brown의 'Approach to compute' 대목을 골랐습니다. Anthropic은 AWS Trainium, Google TPU, NVIDIA GPU, AMD GPU 네 계열 모두에서 Claude를 학습하고 서빙합니다. 칩마다 소프트웨어 스택과 추론 스택을 따로 맞춰야 해서 비싸고 어려운 길이지만 초기에 멀티칩에 걸었다는 설명입니다. 올해 처음 AMD GPU를 붙일 때는, 예전이라면 엔지니어 수십 명이 몇 달 걸렸을 작업을 Mythos에 맡겨 사흘 만에 사람 개입이 거의 없이 Claude를 AMD에서 돌렸고 커널의 거의 100%를 Claude가 포팅하거나 새로 썼다고 합니다. 두 번째 축은 'compute multiplier'입니다. 총 유효 컴퓨트를 물리 용량과 발견한 배수의 곱으로 보고, 4배 배수가 있으면 100단위가 필요하던 모델을 25단위로 학습할 수 있다는 식입니다. 배수는 서로 쌓이며, 재귀적 자기 개선에 가까워질수록 Claude가 스스로 배수를 찾게 될 것이라고 말합니다. Willison은 작년 9월 TPU 배포에서만 난 버그를 다룬 포스트모템이 이 전략의 단서였다고 덧붙였습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+          "summary": "Google이 Gemini Decisions API와 Gemini Decision 1 모델을 내놨습니다. 답을 생성하지 않고 예/아니오·객관식·루브릭 질문 최대 1,000개를 한 번의 순전파로 채점합니다.",
+          "detail": "모델 ID는 gemini-decision-1이고 Google AI Studio의 Gemini API로 제공됩니다. 도구 선택, 정책 검사, 모델 라우팅, 컨텍스트 채점처럼 답의 범위가 닫힌 결정을 위한 전용 엔드포인트입니다. 텍스트·이미지·오디오·영상·PDF를 섞은 입력 하나(최대 256K 토큰)에 서로 독립인 질문을 1,000개까지 붙일 수 있습니다. 토큰을 하나씩 디코딩하지 않고 후보에 점수를 매겨 확률과 신뢰도(0~1)를 돌려주므로 종단 지연이 150~250ms(모델 연산 중앙값 50~100ms)이고, 요청당 질문이 1개에서 100개로 늘어도 거의 평탄하다고 합니다. 가격은 입력 100만 토큰당 0.10달러이며 출력 토큰은 과금되지 않습니다. Google은 공유 벤치마크 기준으로 Interactions API의 Gemini 3.5 Flash-Lite보다 약 5배 싸다고 밝혔습니다. 질문 유형은 셋입니다. `noul`은 예/아니오 조건이 성립할 확률을, `choice`는 2~255개 선택지 중 승자와 정규화된 확률을, `score`는 0부터 시작하는 순서형 루브릭의 가중 점수와 단계별 확률을 돌려줍니다. Python에서는 `client.decisions.create(model=..., input=[...], questions={...})`로 호출하고, 신뢰도가 낮은 건을 폴백이나 사람 검토로 보내는 구성을 권합니다."
+        },
+        {
+          "category": "AI",
+          "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+          "link": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+          "summary": "Google DeepMind가 AlphaGenome 2를 발표했습니다. DNA 변이가 유전자 발현에 주는 영향을 조직 평균이 아니라 개별 세포 유형 단위로 예측합니다.",
+          "detail": "첫 AlphaGenome은 100만 글자 DNA 서열을 받아 여러 조직과 세포주의 실험 수천 개를 병렬로 한꺼번에 예측했습니다. 효율적이지만 모델 용량이 얇게 퍼져 미세한 차이를 잡기 어려웠다고 합니다. AlphaGenome 2는 조건부 모델로 다시 설계됐습니다. DNA 서열과 함께 특정 생물학적 조건을 입력으로 받는데, 조건은 참조 세포 유형 카탈로그에서 고르거나 연구자의 단일세포 실험에서 cell encoder로 즉석 생성합니다. 68개 조직에 걸친 1억 개 이상의 개별 세포 프로파일로 학습했고, 세포에서 유전자 발현을 바꾸는 변이를 이전 최고 모델보다 거의 두 배 많이 식별한다고 DeepMind는 밝혔습니다. 넓은 조직 단위 모델에서는 놓치는 질병 관련 세포의 변이 효과를 예측할 수 있고, 학습 때 보지 못한 세포·질병 상태에 대해서도 예측한다는 것이 핵심 주장입니다. 앞서 AlphaGenome Atlas는 인간 게놈의 가능한 단일 글자 변화 90억 개 전부에 대한 예측을 제공했습니다. AlphaGenome 2는 비상업 연구용으로 AlphaGenome API에서 바로 쓸 수 있고, 상업 연구용은 비공개 프리뷰입니다."
+        },
+        {
+          "category": "AI",
+          "title": "Grok Build coding agent leaks oodles of confidential info",
+          "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+          "summary": "SpaceXSI의 바이브 코딩 에이전트 Grok Build로 만든 앱 3만 5천 개가 공유 링크를 통해 누구에게나 열려 있었다고 보안 업체 Claroc이 밝혔습니다. SpaceXSI 자신의 내부 앱 24개도 포함됐습니다.",
+          "detail": "Ars Technica의 Dan Goodin 보도입니다. Grok Build는 공유 URL을 무작위화해 주소를 아는 사람만 접근하게 하지만, 플랫폼의 설계 결정 하나 때문에 살아 있는 프로젝트 수천 개를 누구나 열거할 수 있었습니다. 드문 예외를 빼면 링크를 여는 것만으로 앱과 그 데이터 전체가 드러났습니다. SpaceXSI(합병한 SpaceX와 xAI)의 앱 24개에서는 기밀로 표시된 엔터프라이즈 영업 신입 온보딩 계획, 594개 계정의 영업 구역 지도, 영업 도구의 내부 시스템 주소, 광고 제안서가 나왔습니다. 다른 사용자의 데이터도 심각합니다. 페루 건설사의 근로자 건강검진 3,784건, Tesla 서비스센터의 기술자 22명 실적·보너스 현황, 미 해군 군수 지원 계약 인원 108명 명단, 병원 직원 약 3,565명 명부, 방산 그룹의 미국 공장 폭발물 건물 적재 절차, 차량 운송 주문 약 4,000건의 가격과 마진 등입니다. Claroc은 일요일에 SpaceXSI에 알렸지만 답이 없었고, Ars가 질의 메일을 보낸 뒤 몇 시간 안에 SpaceXSI 앱 24개만 내려갔습니다. 기사 게재 시점에 나머지 데이터는 거의 그대로 열려 있었습니다. Claroc은 도구를 샀다면 사내 로그인 뒤에 있었을 것이 AI로 만들자 링크만 있으면 열리는 상태로 배포됐다고 지적했습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Tests as data: ensuring AI-generated code does what we want",
+          "link": "https://martinfowler.com/articles/tests-as-data.html",
+          "summary": "Thoughtworks의 Matteo Vaccari가 AI가 코드와 테스트를 모두 쓰는 상황에서 테스트의 보증을 되찾는 방법으로, 인간과 AI 사이의 계약을 테스트 코드가 아니라 테스트 데이터에 두자고 제안합니다.",
+          "detail": "글쓴이는 2026년 초 AI 코딩 에이전트를 적극 쓰는 조직의 개발자 26명을 인터뷰했습니다. '우리 테스트를 믿느냐'는 질문에 답은 한결같이 부정적이었습니다. 처음 생성된 테스트는 리뷰하지만, 기능이 더해질 때마다 AI가 기존 코드와 기존 테스트를 함께 리팩터링하므로 테스트가 여전히 올바른 동작을 지키는지 확신할 수 없다는 것입니다. 배경 수치도 제시합니다. Faros AI 보고서는 PR당 버그 28.7% 증가와 개발자당 버그 54% 증가를, DX 보고서는 일부 기업의 결함 50% 증가를, CloudBees 조사는 엔터프라이즈 기술 리더 213명 중 81%가 프로덕션 이슈 증가를 겪었고 70%가 테스트 유지보수를 코드 작성보다 큰 부담으로 본다고 전합니다. 주장은 세 가지입니다. AI가 코드를 쓰면 개발자는 그 고객이 됩니다. 따라서 개발자 테스트가 아니라 고객 테스트가 인간과 AI 사이의 1차 계약이 됩니다. 그 계약을 테스트 코드가 아닌 테스트 데이터로 옮기면 코딩 에이전트의 예기치 않은 수정으로부터 지키기 쉽습니다. 예전에는 DSL 파서와 전용 테스트 러너가 비쌌지만 이제 AI가 싸게 만들어 줍니다. 토대는 XP의 인수 테스트, Fit과 specification by example, Go의 테이블 테스트, approval testing입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "GitHub Makes Agentic Workflows Generally Available with Isolation and Budget Controls",
+          "link": "https://www.infoq.com/news/2026/11/github-agentic-workflows-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "GitHub Agentic Workflows가 GA가 됐습니다. 코딩 에이전트를 GitHub Actions 안에서 읽기 전용으로 돌리고, 변경은 쓰기 토큰을 가진 별도 잡이 적용하며, 실행당 지출 상한이 기본으로 걸립니다.",
+          "detail": "이슈 분류나 CI 실패 분석 같은 저장소 작업을 에이전트에 맡기는 오픈소스 프로젝트입니다. 작업은 자연어 Markdown과 YAML frontmatter로 기술하고, 이것이 표준 Actions 워크플로로 컴파일되어 기존 러너 그룹과 정책을 그대로 씁니다. 에이전트는 Agent Workflow Firewall 뒤의 샌드박스 컨테이너에서 돌고, 위협 탐지 잡이 제안된 변경을 적용 전에 검사합니다. 다만 분리에는 한계가 있습니다. FAQ는 직접 부여한 쓰기 권한이나 작성자가 추가한 커스텀 잡에는 보호가 자동으로 미치지 않는다고 밝힙니다. 6월 프리뷰 이후 Actions Runner Controller와 Docker-in-Docker 지원이 더해졌는데, ARC는 DinD 사이드카를 기본적으로 privileged 컨테이너로 띄웁니다. 비용은 AI Credit 1개가 0.01달러이고 기본 상한은 실행당 1,000 AIC(10달러), 하루 5,000 AIC, 위협 탐지 실행당 400 AIC, 에이전트 단계 타임아웃 20분입니다. `gh aw forecast`가 월 지출을 추정합니다. freenet의 Sascha Mirow-Stanitzok은 분류 작업에는 기본 예산이 너무 크다며 100 AIC·15턴·10분으로 줄였고, 이슈 본문의 지시를 무시하라고 말하는 것만으로는 워크플로를 보호하지 못한다고 적었습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "JioHotstar Benchmarks Knowledge Bases for AI Coding Agents",
+          "link": "https://www.infoq.com/news/2026/11/jiohotstar-codingagent-retrieval/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "JioHotstar가 AI 코딩 에이전트의 대형 코드베이스 탐색을 돕는 여섯 가지 방식을 벤치마크했습니다. 검색 계층을 더한다고 과제 완료율이나 토큰 소비가 일관되게 좋아지지는 않았습니다.",
+          "detail": "시니어 스태프 엔지니어 Abhishek Bansal이 파일시스템 도구, Sourcebot, Graphify, CocoIndex Code, Repowise, 자체 RAG 파이프라인을 비교했습니다. SWE-bench와 CodeScaleBench의 부분집합, 그리고 JioHotstar 코드베이스용 질의응답 하네스를 썼고, 풀이 모델은 Claude Sonnet이었습니다. 측정한 것은 과제 정확도, 토큰 소비, 에이전트 턴 수, 도구 사용성입니다. 로컬 체크아웃과 표준 검색·파일 연산에 기댄 파일시스템 기준선은 구체적인 과제에서 끝까지 경쟁력이 있었습니다. 인덱싱된 텍스트 검색과 심볼 정의·참조를 제공하는 Sourcebot은 더 어려운 SWE-bench Verified에서 기준선보다 성적이 좋으면서 비용도 낮았습니다. 쉬운 SWE-bench Lite에서는 검색이 대체로 오버헤드만 더했습니다. CodeScaleBench는 반대 양상이어서, 모호한 문제 기술을 구현 세부로 연결해야 할 때 시맨틱 검색이 더 도움이 됐습니다. 에이전트는 추가 검증이 필요한 고수준 추상화보다 텍스트 검색·파일 읽기·심볼 찾기 같은 익숙한 연산을 자주 택했습니다. 권고는 파일시스템 도구를 기준선으로 남기고, 구체적 문제에는 구조 검색을, 모호하거나 횡단적인 요구에는 시맨틱 인덱싱을 쓰며, 정확도와 함께 도구 사용 트레이스를 재라는 것입니다."
+        },
+        {
+          "category": "Python",
+          "title": "Python HTTPX: Making HTTP Requests With HTTPX2",
+          "link": "https://realpython.com/python-httpx/",
+          "summary": "Real Python이 Pydantic이 관리하는 HTTPX 포크인 HTTPX2로 Requests에서 옮겨 가는 튜토리얼을 냈습니다. 재사용 Client, AsyncClient, 타임아웃, 스트리밍, HTTP/2를 다룹니다.",
+          "detail": "HTTPX는 Requests의 빈틈을 메우려고 2019년에 시작됐고, 2026년에 Pydantic이 이를 HTTPX2로 포크해 유지보수를 맡았습니다. 둘은 이름만 바꾼 한 프로젝트가 아니라 별개 패키지입니다. 설치 이름과 import가 다르고 한 환경에 충돌 없이 함께 둘 수 있습니다. 공개 API는 같아서 대부분의 코드는 그대로 옮겨집니다. 포크에서 달라진 것은 네 가지입니다. 명령행 도구와 하부 httpcore 패키지의 이름이 바뀌었고, Python 3.9 지원이 빠졌으며, TLS 검증이 번들 인증서 목록 대신 운영체제의 신뢰 저장소를 씁니다. 마지막 변경 덕에 TLS를 검사하는 사내 프록시 뒤에서도 회사 루트 인증서가 OS에 설치돼 있으면 추가 설정 없이 동작합니다. 튜토리얼은 `httpx2==2.13.1`과 `requests==2.34.2`를 나란히 설치해 비교하며 Python 3.10 이상을 요구합니다. 요점은 재사용 Client가 요청마다 연결을 새로 열지 않고 풀링한다는 것, AsyncClient가 asyncio로 동시 요청을 처리한다는 것, 세분화된 타임아웃과 명확한 예외 계층이 실패를 예측 가능하게 한다는 것, 스트리밍으로 큰 응답을 메모리에 다 올리지 않고 처리한다는 것, HTTP/2는 의존성 하나와 인자 하나로 켠다는 것입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "The challenge of truly probabilistic programming",
+          "link": "https://statmodeling.stat.columbia.edu/2026/11/11/the-challenge-of-truly-probabilistic-programming/",
+          "summary": "Andrew Gelman이 Stan 같은 확률적 프로그래밍 언어가 배치 방식이라는 한계를 짚고, 확률변수를 직접 다루는 rvar 자료형이 '진짜 확률적 프로그래밍'에 더 가깝다고 썼습니다.",
+          "detail": "출발점은 Gelman과 Jouni가 오래전에 쓴 미발표 논문 'Fully Bayesian Computing'입니다. 베이즈 관점에서 미지의 양은 확률변수이지만, 실제로는 시뮬레이션 벡터로 근사됩니다. 그래서 스칼라 확률변수는 시뮬레이션 벡터가 되고 확률벡터는 시뮬레이션 행렬이 되며, 벡터용 함수가 행렬에는 그대로 통하지 않아 루프와 행렬 연산으로 사후 시뮬레이션을 다루는 어색한 코드가 나옵니다. Jouni가 만든 R 패키지 rv는 이를 감췄습니다. alpha와 beta가 길이 J인 확률변수이고 gamma가 스칼라일 때 `delta = (alpha + gamma)/beta`라고 쓰면 됩니다. 내부적으로는 S x K 배열로 저장되지만 사용자는 시뮬레이션 인덱스를 신경 쓰지 않습니다. 이 아이디어는 최근 Paul Bürkner, Jonah Gabry, Matthew Kay, Aki Vehtari가 posterior 패키지의 `rvar`로 구현했습니다. Gelman의 논점은 이렇습니다. Stan, Bugs, PyMC는 모델을 선언하면 추론 엔진이 돌아 사후 시뮬레이션을 내놓는 배치 방식입니다. generated quantities 블록에서 확률변수를 다룰 수는 있지만 한 발 떨어져 있습니다. 그가 바라는 환경은 확률변수를 확률변수로서 대화식으로 다루는 것입니다. 그는 rvar를 아직 자신의 워크플로에 넣지 못했다고 밝혔습니다."
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "summary": "오늘 묶음은 새 프런티어 모델과 에이전트 보안이 중심입니다. Anthropic은 IPO 로드쇼 첫날 Claude Fable 5.2로 세계 1위 자리를 되찾았고, Google은 Gemini 4 Carbon을 정식 공개하는 한편 AlphaProof Code로 Signal 프로토콜의 실제 코드를 형식 검증했습니다. MCP 공식 서버와 Go 1.27.4는 보안 수정을 냈고, Java는 원시 타입 패턴 프리뷰를 철회해 JDK 28에서 제거합니다. 코드에 남은 낡은 TODO가 코딩 에이전트의 비용을 키운다는 Google 연구와, 장기 실행 에이전트를 위한 durable execution 정리도 함께 실었습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Withdrawing the Primitive Patterns Preview Feature",
+          "link": "https://inside.java/2026/11/11/withdraw-primitive-patterns-preview/",
+          "summary": "OpenJDK가 패턴·instanceof·switch의 원시 타입 지원(Primitive Types in Patterns) 프리뷰를 철회해, JDK 28에서는 --enable-preview를 켜도 쓸 수 없게 됩니다.",
+          "detail": "Amber 프로젝트의 Angelos Bimpoudis 등이 amber-spec-experts 메일링 리스트에 이 기능의 개발을 중단한다고 알렸습니다. 이 기능은 JDK 23(JEP 455)에서 처음 프리뷰로 나온 뒤 JDK 24(JEP 488), 25(JEP 507), 26(JEP 530), 27(JEP 532)까지 다섯 번 프리뷰를 거쳤고, 여섯 번째 프리뷰가 될 초안 JEP 8393282는 철회됩니다. JDK 28에서는 기능 자체가 빠지므로 --enable-preview로도 쓸 수 없습니다. 이유는 Valhalla 프로젝트가 사용자 정의 숫자 타입을 포함한 새 숫자 체계를 탐색 중이고, 그런 타입도 '정확한 숫자 변환(exact numeric conversion)'을 지원해야 하므로 지금의 정의로 확정하기는 이르다는 판단입니다. 프리뷰 철회는 드문 일이지만 JEP 12가 예상한 결과여서 새 JEP 없이 JBS 이슈로 제거합니다. 대신 Constant Patterns라는 별도 기능을 추진하며, case Point(0, 0)처럼 상수를 레코드 패턴 안에 중첩해 when 절을 줄이는 것이 목표입니다. switch의 원시 타입 지원 확대는 이 기능으로 이어지고, 초안 JEP는 곧 공개될 예정입니다. 프리뷰로 이 기능을 쓰던 코드는 JDK 28로 넘어갈 때 걷어내야 합니다."
+        },
+        {
+          "category": "Java",
+          "title": "How I got a thread dump from a timed-out GitHub Actions test",
+          "link": "https://foojay.io/today/how-i-got-a-thread-dump-from-a-timed-out-github-actions-test/",
+          "summary": "GitHub Actions가 타임아웃으로 테스트 잡을 취소해도 테스트 JVM이 한동안 살아 있다는 점을 이용해, 멈춘 테스트의 스레드 덤프를 받는 세 가지 방법을 정리한 글입니다.",
+          "detail": "GitHub Actions는 취소할 때 스텝의 진입 프로세스에 SIGINT를 보내고 7.5초 뒤 SIGTERM, 다시 2.5초 뒤 프로세스 트리를 종료합니다. run 스텝의 진입 프로세스는 셸인데 bash가 첫 SIGINT에 바로 끝나 트리 종료가 일어나지 않으므로, 테스트 JVM은 러너가 고아 프로세스를 정리할 때까지 살아 있습니다. 저자는 ubuntu-latest와 macos-latest에서 스텝·잡 타임아웃 모두 이를 확인했습니다. 첫째 방법은 Apache Kafka처럼 테스트와 함께 감시 스크립트를 띄워 타임아웃 5분 전에 jstack을 뜨는 것인데, 시점을 고르기 어렵습니다. 둘째는 Maven Surefire 3.6.0 이상에서 forkedProcessTimeoutInSeconds와 jstack.enabled를 켜 포크가 죽기 전에 덤프 파일을 남기는 것으로, Surefire 타임아웃이 GitHub 타임아웃보다 짧아야 합니다. 셋째는 다음 스텝에 if: failure() || cancelled()를 걸고 jcmd로 surefirebooter·GradleWorkerMain 프로세스의 Thread.print를 받아 아티팩트로 올리는 방식이며, 시점을 미리 정할 필요가 없습니다. 덤프에서 고전적 교착은 바로 보이지만, 대부분의 멈춤은 카운트다운되지 않는 CountDownLatch나 타임아웃 없는 Future.get()처럼 사이클이 아니라는 점도 짚습니다. 스텝이 exec를 쓰거나 시그널을 가로채면 이 틈이 사라질 수 있어 먼저 확인하라고 권합니다."
+        },
+        {
+          "category": "Go",
+          "title": "[release-branch.go1.27] go1.27.4",
+          "link": "https://github.com/golang/go/releases/tag/go1.27.4",
+          "summary": "Go 1.27.4가 cgo·go 명령·컴파일러·링커·net/http의 보안 수정을 담아 2026-11-10에 나왔고, 같은 날 1.26 계열도 go1.26.11이 나왔습니다.",
+          "detail": "Go 공식 릴리스 기록에 따르면 go1.27.4는 cgo, go 명령, 컴파일러, 링커, net/http 패키지의 보안 수정을 포함합니다. 함께 어셈블러, 컴파일러, 런타임, 툴체인 부트스트래핑과 crypto/fips140·crypto/hkdf·crypto/rsa·crypto/tls·net 패키지의 버그도 고쳤습니다. 1.27 계열은 10월 8일 go1.27.2(go 명령·crypto/tls·html/template·net/http·net/textproto·os)와 10월 19일 go1.27.3(crypto/x509)에 이어 세 번째 보안 릴리스를 낸 셈입니다. Go는 각 메이저 릴리스를 그 뒤 메이저 두 개가 나올 때까지 지원하므로, 지금 지원 대상은 1.27과 1.26입니다. 보안 수정이 표준 라이브러리뿐 아니라 컴파일러·링커·cgo에도 들어 있어, 툴체인을 올린 뒤 다시 빌드해야 반영됩니다. 세부 취약점은 Go 1.27.4 마일스톤의 이슈 트래커에서 확인할 수 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] Fable 5.2 retakes World #1 LLM spot as $ANT IPO roadshow begins",
+          "link": "https://latent.space/p/ainews-fable-5-2-retakes-world-1-llm-spot-as-ant-ipo-roadshow-begins/",
+          "summary": "Anthropic이 IPO 로드쇼 첫날 Claude Fable 5.2와 Mythos 5.2를 내놓았고, Fable 5.2는 Gemini 4 Carbon이 열흘간 차지했던 세계 1위 자리를 되찾았습니다.",
+          "detail": "Anthropic은 두 모델이 거의 모든 평가 능력에서 Opus 5.5보다 한 단계 위라고 밝혔고, 시스템 카드 문구로 보아 둘은 같은 기반 모델을 공유하는 것으로 보입니다. 가격은 입력·출력 100만 토큰당 8달러·40달러로 Fable 5.1(10·50달러)보다 20% 내렸지만, 토큰은 더 많이 씁니다. SemiAnalysis의 전문 업무 벤치마크 GDPx에서 과제당 비용이 67.16달러에서 88.15달러로 늘었는데, 5.2가 테스트 케이스를 수백~수천 개씩 쓰고 서브에이전트로 자기 작업을 검증했기 때문입니다. Anthropic 발표로는 FrontierCode 2.0에서 Fable 5.2 High가 Opus 5.5 Max와 같은 성능을 과제당 절반 비용으로 냈고, 출력 속도는 5.1보다 최대 30% 빠릅니다. Artificial Analysis 지능 지수 v5는 Fable 5.2(max) 65, Gemini 4 Carbon(high) 60, Opus 5.5(max) 59, GPT-6 Astra(max) 57입니다. 컨텍스트는 100만 토큰, effort는 low부터 max까지 다섯 단계이고 Claude 앱과 Claude Code의 기본값은 medium입니다. 구독에서는 Fable이 주간 한도의 50%까지만 쓸 수 있고, 안전 분류기를 위해 기본적으로 데이터 보존이 필요하며 무보존은 자격 있는 기업 고객만 가능합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "v2.4.0",
+          "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.4.0",
+          "summary": "MCP 공식 레퍼런스 서버 저장소가 v2.4.0에서 filesystem·git·fetch 서버의 취약점 6건을 고쳤고, 특히 git 서버는 신뢰할 수 없는 저장소의 설정만으로 프로그램이 실행될 수 있었습니다.",
+          "detail": "@modelcontextprotocol/server-filesystem은 2.3.0으로, mcp-server-git과 mcp-server-fetch는 2026.11.11로 올려야 합니다. mcp-server-git은 git_status 같은 읽기 전용 호출만으로도 저장소의 .git/config에 적힌 core.fsmonitor, diff.external, 훅, 필터·머지 드라이버, 서명 프로그램을 서버 권한으로 실행할 수 있었습니다. 이제 모든 Git 명령이 이 설정을 덮어쓰고, 덮어쓰기를 무시하는 Git 2.31 미만은 거부합니다. --repository 제한도 alternates 객체 저장소, 연결된 워크트리, Git 디렉터리 안의 심볼릭 링크까지 막도록 넓혔습니다. filesystem 서버는 접근 검사와 실제 읽기·이동 사이에 디렉터리를 심볼릭 링크로 바꿔치기해 허용 범위 밖 파일에 닿는 경쟁 조건 두 건을 고쳤고, Windows에서는 틈을 좁히기만 했습니다. fetch 서버는 IPv6 site-local 주소(fec0::/10)를 공용으로 보던 사설 주소 검사와, //private나 /x/../private로 robots.txt의 Disallow를 피하던 문제를 막았습니다. TypeScript 서버들은 날짜 버전에서 시맨틱 버전으로 바뀌어 패키지 매니저가 2.3.0을 2025.x·2026.x보다 낮게 보고 업그레이드를 제안하지 않으므로, 날짜 버전을 쓰고 있다면 버전을 직접 지정해 설치해야 합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "A Session-Start Hook Raised Claude Code Skill Firing From 15% to 62%",
+          "link": "https://towardsdatascience.com/a-session-start-hook-raised-claude-code-skill-firing-from-15-to-62/",
+          "summary": "Claude Code 스킬이 실제로 호출되는 비율을 2,800여 회 실행으로 측정한 결과, 설명을 '강하게' 고쳐 쓴 효과는 5포인트에 그쳤고 세션 시작 훅은 15%를 62%로 끌어올렸습니다.",
+          "detail": "소프트웨어 테스터인 저자는 테스트·디버깅·코드 리뷰용 공개 스킬 26개를 설치하고 그중 6개를 대상으로 Claude Code 2.1.316에서 Haiku 5.5·Sonnet 5.5·Opus 5.5를 돌렸습니다. 프롬프트 104개를 스킬 설명의 단어를 쓰는 직접 요청, 그 단어를 피한 간접 요청, 단어만 겹치고 다른 일이 필요한 근접 오답으로 나눠 모델마다 3회씩 실행했고, 첫 도구 호출이 스킬 로드인지로 판정했습니다. 원래 설명에서 간접 요청이 스킬을 부른 비율은 Haiku 0/108, Sonnet 19%, Opus 27%로 합산 15%였습니다. Anthropic의 skill-creator가 권하는 강한 설명은 합산 5.2포인트만 올렸고(95% 구간 2.2~8.3), 그것도 6개 중 3개 스킬에서만 나왔습니다. 반면 superpowers 플러그인의 세션 시작 훅, 즉 무엇보다 먼저 스킬을 확인하라는 지시를 넣자 합산 비율이 62%로 뛰었습니다. 근접 오답은 세 설정 모두 972회 중 한 번도 스킬을 부르지 않았습니다. 스킬 설명은 1,536자에서 잘리고 스킬이 많으면 일부는 컨텍스트 창 1% 예산에 맞추려 이름만 표시되며, 스킬이 안 불려도 Claude Code는 표시하지 않으므로 트랜스크립트에서 Skill 호출을 직접 확인해야 한다고 지적합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Gemini 4 Carbon is now available",
+          "link": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
+          "summary": "Google이 최상위 모델 Gemini 4 Carbon을 개발자·기업·소비자에게 정식 공개했으며, API 가격은 Gemini 4 Argon과 같은 100만 토큰당 입력 2달러·출력 10달러입니다.",
+          "detail": "Carbon은 사이버보안과 장기 에이전트 작업에서 최전선 성능을 내세운 모델로, 2주 전 Fairwind 프로그램을 통해 사이버 방어 조직에 먼저 풀렸습니다. Google은 대부분의 소프트웨어 엔지니어링·지식 업무에는 Argon이 맞고, Carbon은 토큰을 더 써서 깊이 추론하고 긴 검증 루프를 도는 다단계 코딩·디버깅이나 개방형 과학 연구용이라고 구분합니다. CursorBench 4.0, Perplexity WANDR, Zapier AutomationBench에서 1위를 했고, 차순위 외부 모델보다 과제당 비용이 2배 이상 낮다고 밝혔습니다. Artificial Analysis와 함께 만든 멀티모달 지식 에이전트(MKA) 벤치마크에서는 2위지만 1위 모델보다 평균 과제 비용이 6배 이상 낮습니다. Google Antigravity에는 /swarm 기능을 미리 공개했는데, 프롬프트 하나를 실시간으로 지켜볼 수 있는 에이전트 팀으로 바꾸고 설계·조율·감사 같은 역할에 Carbon을, 병렬 작업에 가벼운 모델을 배치하는 방식입니다. Google AI Studio와 Gemini for business의 API로 모든 유료 개발자가 쓸 수 있고, Google AI Ultra 구독자에게는 Antigravity·Gemini 앱·검색 AI 모드로 배포 중입니다. 다만 Artificial Analysis 지능 지수 v5에서는 같은 주에 나온 Claude Fable 5.2(max, 65)가 Carbon(high, 60)을 앞섰습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+          "link": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "summary": "Google DeepMind가 에이전트 프레임워크 AlphaProof Code로 Signal 프로토콜의 실제 구현 코드가 핵심 보안 속성을 지킨다는 것을 4주 만에 형식 검증했습니다.",
+          "detail": "형식 검증은 코드가 결함 없이 동작함을 수학적으로 증명하는 가장 높은 수준의 보안 보증이지만 손이 많이 들어, 지금까지 프로토콜 검증은 대개 설계 수준에서 멈췄습니다. AlphaProof Code는 연구팀처럼 일을 나눕니다. 사람 전문가가 여러 모델과 함께 Signal의 보안 목표를 형식 명세로 옮기고 명세를 모두 검토하면, Gemini Carbon 기반 에이전트들이 증명을 맡아 Lean 코드 600만 줄 이상을 생성했습니다. 에이전트가 증명을 감사해 사람이 다시 볼 부분을 코드베이스의 1%로 좁혔고, 나머지는 Lean이 자동으로 검사합니다. 검증 대상은 설계가 아니라 기기에서 실제로 도는 컴파일된 코드였고, 기기가 잠시 탈취되기 전후에도 메시지를 보호하는 등의 보안 속성을 증명했습니다. 검증 능력을 확인하려고 이미 고쳐진 실제 버그 2개를 격리된 코드에 다시 넣자, 시스템은 두 경우 모두 버그 버전이 안전하지 않다는 기계 검증 증명을 내놓았습니다. DeepMind는 널리 배포된 암호 프로토콜을 AI로 이 깊이까지 검증한 것도, 그런 프로토콜의 구현을 어떤 방법으로든 형식 검증한 것도 처음이라고 밝혔습니다. Signal CTO Ehren Kret은 실제 코드를 유효한 Lean 정리로 옮기는 데 에이전트를 쓴 것이 큰 돌파구라고 평가했습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Google Finds that Technical Debt Can Derail Coding Agents Through \"Agent Distraction\"",
+          "link": "https://www.infoq.com/news/2026/11/google-agent-distraction/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "summary": "Google이 수억 건의 에이전트 스텝을 분석해, 코드에 남은 낡은 TODO 같은 기술 부채가 코딩 에이전트를 요청받지 않은 작업으로 끌고 가는 '에이전트 탈선' 현상을 수치로 보였습니다.",
+          "detail": "Google의 Sam Saccone과 Madhuri Garikapati는 해결된 지 오래인 버그를 가리키는 TODO(bug/...) 주석에 주목했습니다. 수천 명 엔지니어의 분산 추적과 수억 건의 에이전트 스텝을 보니 세션의 약 13%에서 에이전트가 인라인 TODO·FIXME 참조를 접했고, 그중 6%에서 참조된 버그를 건드리는 행동을 했습니다. 대부분은 프롬프트가 그 버그를 언급하지도 않았습니다. 요청받지 않은 우회 가운데 41%는 이미 닫힌 티켓을, 57%는 열려 있지만 개발자 요청 범위 밖인 버그를 작업한 범위 이탈이었습니다. 개발자 단위로 군집화한 고정효과 회귀로 보면 이런 우회는 세션당 스텝을 70%, 토큰을 77%, 대기 시간을 105% 늘렸습니다. Google은 스캐너 에이전트를 만들어 낡은 TODO를 찾고, 때로는 수년치 git 이력까지 확인해 TODO와 그 의도가 모두 낡았다고 확정한 경우에만 제거 PR을 올렸습니다. 지난 6개월간 수천 건을 지웠고 리뷰어 수용률은 95%를 넘었습니다. 저자들은 사전 제출 분석기, 코드베이스 스캐너, 자동화 에이전트로 이 문제를 줄일 수 있다고 결론지었습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Tracking Anthropic-discovered vulnerabilities",
+          "link": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+          "summary": "VulnCheck가 Anthropic Project Glasswing 7개월을 집계한 결과, Anthropic 발견으로 확인되는 CVE는 442건으로 올해 전체의 약 0.5%였고 실제로 악용된 것은 2건뿐이었습니다.",
+          "detail": "VulnCheck는 4월부터 CVE 레코드, GHSA, 리눅스 커널 커밋, Anthropic의 공개 원장을 대조해 Anthropic이 찾은 취약점을 추적해 왔습니다. 7개월 동안 확인한 CVE는 442건으로 월평균 63건이며, 올해 공개된 CVE 93,450건의 약 0.5%입니다. 이 중 VulnCheck KEV 기준으로 실제 악용된 것은 2건(0.45%)뿐입니다. Anthropic 원장은 11월 2일 기준 발견 37,966건 가운데 7,349건(19.4%)만 공개됐고, 수정 완료로 표시된 것은 217건입니다. 9월 8일 이후 두 달 동안 발견은 11,813건 늘었지만 수정은 15건 늘었고, 중복 처리는 2건에서 1,600여 건으로 늘었으며 철회도 419건입니다. 그런데도 Anthropic이 내세운 진양성률은 출시 때 90.8%에서 94.2%로 올라, 중복과 철회를 어떻게 반영하는지 의문이 제기됩니다. curl은 공개된 보고 34건 중 19건을 취약점이 아니라고 거부했고 6건만 낮은 심각도로 인정했습니다. 글은 AI가 취약점 탐색에 유용한 도구라는 점은 인정하면서도, 검증 부담이 메인테이너에게 넘어가고 있다고 지적합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Long-horizon agents and durable execution",
+          "link": "https://martinfowler.com/articles/durable-execution-agents.html",
+          "summary": "Thoughtworks의 Kiran Prakash가 며칠에서 몇 주씩 걸리는 장기 실행 에이전트를 durable execution으로 만드는 방법을 재고 보충 에이전트 예제로 정리했습니다.",
+          "detail": "예제인 Stock Replenisher는 부품이 안전 재고 아래로 떨어지면 견적을 받고, 관리자 승인을 이틀 기다리고, 발주한 뒤 3주간 입고를 기다립니다. 에이전트 루프는 목표·도구·상태·모델로 이뤄지고, 각 도구의 allowed 메서드에 승인된 가격 이하일 때만 발주하는 식의 업무 규칙을 둬서 규칙이 프롬프트가 아니라 코드에 있게 합니다. 저자는 장기 에이전트를 분산 시스템으로 보라고 하며, 대기 중 프로세스 재시작, 원격 호출 실패, 응답 유실로 인한 중복 발주, 동시 실행, 대기 중 가격 변동, 실행 중 코드 배포, 공급사 메일에 숨은 조작 문구까지 실패 유형을 정리합니다. 이 중 앞의 네 가지는 durable execution 런타임이 범용 기능으로 처리합니다. durable execution은 LLM 호출이나 ERP 호출처럼 외부와 상호작용하는 각 단계의 결과를 쓰기 전 로그처럼 기록해 두고, 장애가 나면 프로그램을 다시 실행하되 끝난 단계는 건너뛰고 기록으로 상태를 복원하는 방식입니다. Temporal, Restate, Inngest, DBOS, Cloudflare Workflows가 이를 구현하며, 저자는 Temporal과 Cloudflare Workflows로 예제를 만들었습니다. 나머지 실패는 하네스가 직접 다뤄야 하고, 장애 뒤 모델이 다음 행동을 정할 수 있게 올바른 입력을 주는 것이 하네스의 몫이라고 강조합니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Google Cloud Spend Caps Reach General Availability with API and Monthly Resets",
+          "link": "https://www.infoq.com/news/2026/11/google-cloud-spend-caps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Google Cloud가 월 예산에 도달하면 해당 서비스의 새 사용을 멈추는 지출 상한을 정식 출시했지만, 적용 대상은 Gemini API·Cloud Run 등 네 가지뿐입니다.",
+          "detail": "지출 상한은 집행 기능이 붙은 예산입니다. 대상 서비스의 추정 지출이 목표액에 이르면 그 프로젝트의 새 요청은 막히지만, 진행 중인 요청은 끝까지 처리·과금되고 영구 리소스는 계속 돌며 아무것도 지워지지 않습니다. 7월 프리뷰 대비 세 가지가 바뀌었습니다. 기존 Cloud Billing Budgets API로 상한을 만들고 해제할 수 있어 프로젝트 생성 시 자동으로 걸 수 있고, AI 서비스는 몇 시간씩 늦는 정산 데이터 대신 실시간 추정 비용으로 수 분 안에 집행되며, 걸린 상한은 다음 달 초 자동으로 풀립니다. 한계도 분명합니다. 상한은 프로젝트 하나·서비스 하나·한 달 단위이고 폴더·조직·라벨·여러 서비스 묶음은 지원하지 않으며, 추정은 크레딧·할인이 빠진 정가 기준입니다. 집행이 즉시는 아니어서 초과분은 그대로 청구되므로 절대 한도보다 약간 낮게 잡으라고 안내합니다. Compute Engine, Cloud Storage, 네트워킹은 대상이 아니어서, 막아 주는 것은 폭주하는 모델·에이전트 루프이지 잊고 켜 둔 GPU 인스턴스가 아닙니다. AWS는 프로젝트 전체를 멈추고 데이터를 90일 보존하는 지출 한도를 일부 고객에게 시험 중입니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Cloudflare Makes Basin Serverless Analytics Generally Available",
+          "link": "https://www.infoq.com/news/2026/11/cloudflare-basin-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "summary": "Cloudflare가 Apache Iceberg와 R2 위에 만든 서버리스 분석 플랫폼 Basin을 정식 출시했으며, 데이터 반출 요금이 없어 DuckDB·Snowflake·Spark 같은 엔진에서 그대로 읽고 쓸 수 있습니다.",
+          "detail": "Basin은 1년 남짓 전 Cloudflare Data Platform이라는 이름으로 프리뷰에 들어갔던 서비스이고, 세 부분으로 이뤄집니다. Basin Pipelines(옛 Cloudflare Pipelines)는 Workers, HTTP 엔드포인트, Logpush에서 이벤트를 받아 SQL로 변환한 뒤 Iceberg 테이블이나 R2에 씁니다. Basin Catalog는 Iceberg 메타데이터를 관리하고 테이블 유지보수를 자동화하며, Basin SQL은 Iceberg 테이블을 질의하는 서버리스 분산 SQL 엔진입니다. Cloudflare는 반출 요금이 없어야 어떤 지역·클라우드의 Iceberg 호환 엔진에서도 데이터를 쓰는 이식성이 생긴다며 이를 설계의 핵심으로 꼽습니다. 프리뷰 이후 스트림당 수집 용량을 초당 3GB로 늘렸고, SQL 기능 확장, 테이블 유지보수 개선, Logpush 연동, Terraform 지원을 더했습니다. 실시간 처리, 최신 Iceberg 명세, 적응형 테이블 유지보수, 데이터 주권·접근 제어는 날짜 없이 계획만 잡혀 있습니다. 한 실무자는 Snowflake를 밀어내지는 못하겠지만, 전용 인프라를 두기엔 작고 엑셀로는 감당하기 어려운 규모의 팀에게 선택지가 생겼다고 평가했습니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Scikit-Learn Matched or Beat Jev's Calibration on BANKING77",
+          "link": "https://towardsdatascience.com/scikit-learn-matched-or-beat-jevs-calibration-on-banking77/",
+          "summary": "판단 전용 모델 Jev의 보정된 확률을 scikit-learn으로 재현해 BANKING77에서 비교한 결과, 전체 77개 의도에서는 오히려 오픈 모델의 보정이 더 좋았습니다.",
+          "detail": "TypeSafe AI가 9월 15일 내놓은 Jev는 텍스트를 생성하지 않고, 상태와 타입이 정해진 질문(선택·점수·예/아니오)을 받아 확률이 붙은 구조화된 답을 돌려주는 모델입니다. 확률이 실제 빈도와 맞도록 RLCD라는 방법으로 훈련했다고 하지만 논문과 가중치는 공개되지 않았습니다. 저자는 같은 인터페이스를 scikit-learn 분류기 위에 다시 구현해 비교했습니다. 7개 의도 부분집합에서는 온도 스케일링한 로지스틱 회귀와 Jev의 기대 보정 오차(ECE)가 0.022와 0.014로, 짝지은 부트스트랩으로는 차이를 가릴 수 없었습니다. 77개 의도 전체에서는 오픈 모델이 0.031로 Jev의 0.065보다 보정이 좋았습니다. 다만 Jev는 학습 없이 의도당 예시 최대 3개로 이 성능을 냈고, 오픈 모델은 라벨 10,003개로 학습했습니다. 두 쪽 모두 정답이 선택지에 없는 해당 없음 함정에 빠졌는데, 지갑 분실 문의를 isotonic 보정한 로지스틱 회귀가 0.984 확률로 수수료 문의로 분류한 예가 대표적입니다. 보정 전에는 같은 오답을 0.51로 내서 사람에게 넘겼을 것이므로, 보정이 평균 성능은 올렸지만 이 실수에는 더 자신만만해진 셈입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "Constructing a latent-variable model to fit measurement data: A Stan story, part 2",
+          "link": "https://statmodeling.stat.columbia.edu/2026/11/10/constructing-a-latent-variable-model-to-fit-measurement-data-a-stan-story-part-2/",
+          "summary": "Andrew Gelman이 설문의 매력도 평정 데이터를 잠재변수 측정 모델로 맞추는 과정을 Stan으로 단계별로 보여 주며, 시뮬레이션 기반 우도가 HMC를 망가뜨리는 이유와 해법을 설명했습니다.",
+          "detail": "모델은 사람마다 잠재 매력도가 정규분포를 따르고, 두 시점에 서로 다른 평균과 잡음으로 관측된 값이 1~5로 반올림된 뒤 세 구간(1~2, 3~4, 5)으로 묶인다고 가정합니다. 데이터는 Add Health 설문 1·2차의 3×3 교차표이고, 맞출 모수는 잠재 표준편차와 두 시점의 평균·잡음을 합쳐 5개입니다. 먼저 R에서 모수를 손으로 바꿔 가며 100만 쌍을 시뮬레이션해 표와 비교했지만 대각선과 비대각선 칸을 함께 맞추지 못했습니다. 다음으로 난수를 미리 만들어 Stan에 넘기고 포아송 우도로 맞추려 했으나, rhat이 3을 넘고 유효 표본이 4에 그쳤으며 최적화도 실패했습니다. 고정된 난수와 유한한 N 때문에 모수가 연속적으로 변해도 기대 빈도가 계단식으로 튀어 우도가 불연속이 되고, 이것이 해밀토니안 몬테카를로를 망가뜨렸습니다. 해법은 잠재변수만 시뮬레이션하고 두 관측 차원은 정규 누적분포함수로 해석적으로 적분해 목적함수를 매끄럽게 만드는 것이었습니다. 여기에 제곱근 척도의 정규 우도와 과분산 모수를 더하자 rhat 1.00, 유효 표본 1,000 이상으로 수렴했습니다. 그래도 [1,3]·[3,1] 칸의 기대값이 0.66·1.63으로 실제 40·51에 크게 못 미쳐, 글은 로그정규 우도로 다시 고치는 단계로 이어집니다."
+        }
+      ]
+    },
+    {
       "date": "2026-11-10",
       "summary": "이번 묶음은 AI 시스템을 무엇으로 검증하느냐가 관통합니다. 포획-재포획 추정으로 에이전트가 놓친 항목까지 세는 평가법, Handshake AI가 보여준 프런티어 랩의 평가·학습 환경, 테스트를 사람이 설계하고 에이전트는 구현만 하게 하는 TDD 루프가 같은 질문을 다룹니다. AI에서는 Google이 물리 추론 모델 Gemini 4 Argon을 내놓았고, AI 규제법을 주도한 Scott Wiener가 하원에 입성했습니다. Architecture에서는 Cloudflare가 포스트 양자 시대를 겨냥한 Merkle Tree Certificates 공개 CA를 준비합니다. Java·Kotlin·Spring·Node·Go·Rust·TypeScript·DataScience는 실어 나를 소식이 없어 비웁니다.",
       "highlights": [
