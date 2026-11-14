@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-14T06:17:10+09:00",
-  "count": 1234,
+  "updated": "2026-11-14T09:57:32+09:00",
+  "count": 1231,
   "items": [
+    {
+      "title": "If the Jensen Huang / Nvidia spy scandal had happened two weeks ago . . .",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/13/if-the-jensen-huang-nvidia-spy-scandal-had-happened-two-weeks-ago/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "If the Jensen Huang / Nvidia spy scandal had happened two weeks ago, I expect the midterm elections would’ve gone pretty much just as they actually went, but lots of pundits would’ve seized on this as the explanation fo…",
+      "ts": 1794611447,
+      "published": "2026-11-13T23:10:47+00:00",
+      "collected_at": "2026-11-14T09:57:27+09:00"
+    },
+    {
+      "title": "datasette-cluster-map 0.19",
+      "link": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-cluster-map 0.19 One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on the new datasette-leaflet to ensure OpenStreetMap tiles are requ…",
+      "ts": 1794610965,
+      "published": "2026-11-13T23:02:45+00:00",
+      "collected_at": "2026-11-14T09:57:27+09:00"
+    },
+    {
+      "title": "v0.14.26",
+      "link": "https://github.com/run-llama/llama_index/releases/tag/v0.14.26",
+      "source": "LlamaIndex",
+      "category": "Agents",
+      "summary": "Release Notes [2026-11-13] llama-index-agent-agentmesh [0.3.0] Python security relock: all integration uv.lock files (lock files only, no Python floor changes) ( #24039 ) BREAKING: raise requires-python for security fix…",
+      "ts": 1794609495,
+      "published": "2026-11-13T22:38:15+00:00",
+      "collected_at": "2026-11-14T09:57:27+09:00"
+    },
+    {
+      "title": "datasette-leaflet 0.3",
+      "link": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-leaflet 0.3 OpenStreetMap have a very reasonable policy that hits to their hosted tile server should send a referrer header . Datasette table pages used the Referrer-Policy: no-referrer HTTP header, c…",
+      "ts": 1794609054,
+      "published": "2026-11-13T22:30:54+00:00",
+      "collected_at": "2026-11-14T09:57:27+09:00"
+    },
     {
       "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
       "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
@@ -233,6 +273,26 @@
       "collected_at": "2026-11-13T23:15:31+09:00"
     },
     {
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "link": "https://status.claude.com/incidents/nn11wk485zfn",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 484 # Comments: 382",
+      "ts": 1794565093,
+      "published": "2026-11-13T10:18:13+00:00",
+      "collected_at": "2026-11-14T09:57:27+09:00"
+    },
+    {
+      "title": "Tell HN: Claude Code Is Down",
+      "link": "https://news.ycombinator.com/item?id=50480909",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Comments URL: https://news.ycombinator.com/item?id=50480909 Points: 37 # Comments: 21",
+      "ts": 1794563519,
+      "published": "2026-11-13T09:51:59+00:00",
+      "collected_at": "2026-11-14T09:57:27+09:00"
+    },
+    {
       "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
       "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
       "source": "Latent Space",
@@ -243,6 +303,16 @@
       "collected_at": "2026-11-13T23:15:31+09:00"
     },
     {
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "link": "https://openai.com/business/customer-stories/shield",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "ts": 1794556800,
+      "published": "2026-11-13T08:00:00+00:00",
+      "collected_at": "2026-11-14T09:57:27+09:00"
+    },
+    {
       "title": "AI Ambition: ArtCraft Cloned Photoshop and Now Wants to \"Rebuild Everything\"",
       "link": "https://latent.space/p/artcraft/",
       "source": "Latent Space",
@@ -251,6 +321,16 @@
       "ts": 1794543445,
       "published": "2026-11-13T04:17:25+00:00",
       "collected_at": "2026-11-13T14:49:38+09:00"
+    },
+    {
+      "title": "Anthropic carelessly killed a Claude Code feature users built on, no warning",
+      "link": "https://github.com/anthropics/claude-code/issues/109446",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/anthropics/claude-code/issues/109446 Comments URL: https://news.ycombinator.com/item?id=50477704 Points: 26 # Comments: 7",
+      "ts": 1794539623,
+      "published": "2026-11-13T03:13:43+00:00",
+      "collected_at": "2026-11-14T09:57:27+09:00"
     },
     {
       "title": "Skills across coding assistants",
@@ -2061,6 +2141,16 @@
       "ts": 1794232800,
       "published": "2026-11-09T14:00:00+00:00",
       "collected_at": "2026-11-10T03:30:33+09:00"
+    },
+    {
+      "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
+      "link": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
+      "source": "Import AI",
+      "category": "AI",
+      "summary": "When do you think we'll have robots on the moon?",
+      "ts": 1794231094,
+      "published": "2026-11-09T13:31:34+00:00",
+      "collected_at": "2026-11-14T09:57:27+09:00"
     },
     {
       "title": "How to Estimate the Recall of AI Agents with Capture-Recapture",
@@ -12221,126 +12311,6 @@
       "ts": 1792030048,
       "published": "2026-10-15T02:07:28+00:00",
       "collected_at": "2026-10-17T08:20:18+09:00"
-    },
-    {
-      "title": "Scraping websites and bot-protection",
-      "link": "https://foojay.io/today/bypass-bot-protection/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "The levels of bot protection I met while scraping genealogy sites, from a bare curl to shell-launched Chrome, and how to get past each one.",
-      "ts": 1792022400,
-      "published": "2026-10-15T00:00:00+00:00",
-      "collected_at": "2026-10-15T09:20:49+09:00"
-    },
-    {
-      "title": "Lightweight Spring Boot Monitoring Without Prometheus and Grafana",
-      "link": "https://foojay.io/today/lightweight-spring-boot-monitoring/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Monitor Spring Boot applications on a small VPS using Actuator and StatLite, without operating a full Prometheus and Grafana stack.",
-      "ts": 1792022400,
-      "published": "2026-10-15T00:00:00+00:00",
-      "collected_at": "2026-10-15T09:20:49+09:00"
-    },
-    {
-      "title": "How Does Java Fit Into the World of AI—and How Can It Become an Even Better Fit?",
-      "link": "https://inside.java/2026/10/15/java-fit-ai-world/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "In this video, we discuss why Java is already a good choice for AI and how existing and future Java platform features can make it even stronger. We explore developments across the language, libraries, and runtime, inclu…",
-      "ts": 1792022400,
-      "published": "2026-10-15T00:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
-      "link": "https://huggingface.co/blog/flux-3",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792022400,
-      "published": "2026-10-15T00:00:00+00:00",
-      "collected_at": "2026-10-16T01:36:07+09:00"
-    },
-    {
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "link": "https://huggingface.co/blog/meta-muse-spark-open",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792022400,
-      "published": "2026-10-15T00:00:00+00:00",
-      "collected_at": "2026-10-16T05:12:22+09:00"
-    },
-    {
-      "title": "An update on independent evaluators",
-      "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "An update on independent evaluators",
-      "ts": 1792022400,
-      "published": "2026-10-15T00:00:00+00:00",
-      "collected_at": "2026-10-16T08:35:02+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: Can Java be more performant than Rust? Andrew Lombardi has the numbers",
-      "link": "https://spring.io/blog/2026/10/15/a-bootiful-podcast-andrew-lombardi",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! What happens when a longtime Kotlin and JVM fan - my friend Andrew Lombardi - decides to take on the latest “rewrite everything in Rust” hype with AI in the driver’s seat? In this episode, Josh sits dow…",
-      "ts": 1792022400,
-      "published": "2026-10-15T00:00:00+00:00",
-      "collected_at": "2026-10-16T12:50:31+09:00"
-    },
-    {
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "link": "https://openai.com/index/sullivan-cromwell",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "ts": 1792022400,
-      "published": "2026-10-15T00:00:00+00:00",
-      "collected_at": "2026-10-16T12:50:31+09:00"
-    },
-    {
-      "title": "Announcing Rust 1.99.1",
-      "link": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/",
-      "source": "Rust Blog",
-      "category": "Rust",
-      "summary": "The Rust team has published a new point release of Rust, 1.99.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via…",
-      "ts": 1792022400,
-      "published": "2026-10-15T00:00:00+00:00",
-      "collected_at": "2026-11-03T22:46:05+09:00"
-    },
-    {
-      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
-      "link": "https://www.latent.space/p/crossing-the-threshold",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-      "ts": 1792014052,
-      "published": "2026-10-14T21:40:52+00:00",
-      "collected_at": "2026-10-15T09:20:49+09:00"
-    },
-    {
-      "title": "Crossing the Threshold: How OpenAI and Anthropic Approach Autonomy and Safety in Financial Agents",
-      "link": "https://latent.space/p/crossing-the-threshold/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "At AI Engineer New York, frontier labs and financial firms explored how to give agents useful autonomy while keeping consequential decisions under control.",
-      "ts": 1792014052,
-      "published": "2026-10-14T21:40:52+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Tree Appreciator",
-      "link": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: Tree Appreciator Another game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode) where I prompted Claude Opus 5.5 Max with: Build a three js game called \"Tree app…",
-      "ts": 1792012981,
-      "published": "2026-10-14T21:23:01+00:00",
-      "collected_at": "2026-10-15T09:20:49+09:00"
     }
   ]
 }
