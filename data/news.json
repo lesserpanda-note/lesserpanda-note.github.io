@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-16T01:15:10+09:00",
-  "count": 1181,
+  "updated": "2026-11-16T06:31:52+09:00",
+  "count": 1177,
   "items": [
+    {
+      "title": "Blokjutsu: a macOS image generator/editor",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/15/blokjutsu-a-macos-image-generator-editor/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This is another post from Bob that is not about statistics. Last one, I promise. Like Steve, whose what’s up in NYC app I just blogged about, I’ve taken up the hobby of designing apps and having LLMs build them. … Conti…",
+      "ts": 1794776985,
+      "published": "2026-11-15T21:09:45+00:00",
+      "collected_at": "2026-11-16T06:31:45+09:00"
+    },
+    {
+      "title": "v2.5.5",
+      "link": "https://github.com/numpy/numpy/releases/tag/v2.5.5",
+      "source": "NumPy",
+      "category": "DataScience",
+      "summary": "NumPy 2.5.5 release",
+      "ts": 1794773057,
+      "published": "2026-11-15T20:04:17+00:00",
+      "collected_at": "2026-11-16T06:31:45+09:00"
+    },
+    {
+      "title": "Uber's Secure AI Framework Governs Autonomous AI Agents Across Their Lifecycle",
+      "link": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "In a recent article, Uber Engineering highlights the limitations of traditional identity and API controls in securing AI agents that dynamically reason over external content and take real-world actions. Uber developed a…",
+      "ts": 1794772800,
+      "published": "2026-11-15T20:00:00+00:00",
+      "collected_at": "2026-11-16T06:31:45+09:00"
+    },
+    {
+      "title": "Uber's Secure AI Framework Governs Autonomous AI Agents Across Their Lifecycle",
+      "link": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "In a recent article, Uber Engineering highlights the limitations of traditional identity and API controls in securing AI agents that dynamically reason over external content and take real-world actions. Uber developed a…",
+      "ts": 1794772800,
+      "published": "2026-11-15T20:00:00+00:00",
+      "collected_at": "2026-11-16T06:31:45+09:00"
+    },
     {
       "title": "Top 10 GitHub Repositories Trending in October 2026",
       "link": "https://www.analyticsvidhya.com/blog/2026/11/top-github-repositories-october-2026/",
@@ -11731,86 +11771,6 @@
       "ts": 1792188397,
       "published": "2026-10-16T22:06:37+00:00",
       "collected_at": "2026-10-17T08:20:18+09:00"
-    },
-    {
-      "title": "How the Claude Code team does code review",
-      "link": "https://claude.dev/blog/solving-code-review-at-anthropic/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://claude.dev/blog/solving-code-review-at-anthropic/ Comments URL: https://news.ycombinator.com/item?id=50122951 Points: 77 # Comments: 69",
-      "ts": 1792177487,
-      "published": "2026-10-16T19:04:47+00:00",
-      "collected_at": "2026-10-17T05:42:52+09:00"
-    },
-    {
-      "title": "Google EnvHarness Enables Self-Evolving Agents to Learn in Dynamics Environments",
-      "link": "https://www.infoq.com/news/2026/10/envharness-self-evolving-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google researchers open sourced EnvHarness, a framework that dynamically adapts agent-training environments to an agent's weaknesses without modifying the agent, environment, or evaluation system. According to the resea…",
-      "ts": 1792177200,
-      "published": "2026-10-16T19:00:00+00:00",
-      "collected_at": "2026-10-17T05:42:52+09:00"
-    },
-    {
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "link": "https://openai.com/index/itau-generative-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "ts": 1792177200,
-      "published": "2026-10-16T19:00:00+00:00",
-      "collected_at": "2026-10-17T12:40:34+09:00"
-    },
-    {
-      "title": "Llama.cpp on a jailbroken PS5: run any GGUF model natively on the console",
-      "link": "https://github.com/cobanov/PS5LM",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://github.com/cobanov/PS5LM Comments URL: https://news.ycombinator.com/item?id=50122431 Points: 78 # Comments: 25",
-      "ts": 1792175555,
-      "published": "2026-10-16T18:32:35+00:00",
-      "collected_at": "2026-10-17T05:42:52+09:00"
-    },
-    {
-      "title": "Anthropic assigned highest junk credit rating in June",
-      "link": "https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.ft.com/content/5a310aee-f555-4266-874c-b1b4db20186d Comments URL: https://news.ycombinator.com/item?id=50122112 Points: 116 # Comments: 33",
-      "ts": 1792174302,
-      "published": "2026-10-16T18:11:42+00:00",
-      "collected_at": "2026-10-17T05:42:52+09:00"
-    },
-    {
-      "title": "Seeking to interview social scientists experimenting with LLM simulations of opinions or behavior",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/16/seeking-to-interview-social-scientists-experimenting-with-llm-simulations-of-opinions-or-behavior/",
-      "source": "Statistical Modeling",
-      "category": "AI",
-      "summary": "This is Jessica. As part of our interest in how social scientists are using LLM simulations of human behavior, some collaborators and I are seeking interview participants. We are thinking about tools to support rigorous…",
-      "ts": 1792174272,
-      "published": "2026-10-16T18:11:12+00:00",
-      "collected_at": "2026-10-17T05:42:52+09:00"
-    },
-    {
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints…",
-      "ts": 1792173600,
-      "published": "2026-10-16T18:00:00+00:00",
-      "collected_at": "2026-10-17T05:42:52+09:00"
-    },
-    {
-      "title": "Anthropic Console overcharged my card 100x due to internationalization input bug",
-      "link": "https://news.ycombinator.com/item?id=50121562",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "I am a LegalTech Attorney leading a developer team from Costa Rica. While trying to load credits onto my Anthropic API account (claude.com), I experienced a critical internationalization (i18n) and UX failure that has p…",
-      "ts": 1792171902,
-      "published": "2026-10-16T17:31:42+00:00",
-      "collected_at": "2026-10-17T05:42:52+09:00"
     }
   ]
 }
