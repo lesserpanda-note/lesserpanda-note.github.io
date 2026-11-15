@@ -1,76 +1,34 @@
 {
-  "updated": "2026-11-14T00:56:40Z",
-  "summary": "llama.cpp와 ggml이 v1.0.0에 도달해 API·ABI 호환성을 시맨틱 버저닝으로 약속했고, OpenAI는 에이전트가 실제 카드 정보 없이 결제하는 ChatGPT Wallet을 내놨습니다. NVIDIA에서는 Jensen Huang이 33년 만에 CEO에서 물러났습니다. 운영 쪽에서는 프로덕션을 그래프와 트레이스로 읽게 하려는 시도가 나란히 나왔습니다. Netflix는 운영 데이터를 온톨로지 기반 지식 그래프로 묶고 있고, Google은 에이전트 세션을 샘플링해 실패 패턴을 검증하는 AQuA를 공개했습니다. 도구가 3,794개로 늘어도 BM25가 8B 임베딩 모델과 비긴다는 실험은 검색 계층을 고를 때 참고할 만합니다.",
+  "updated": "2026-11-15T00:50:57Z",
+  "summary": "주말이라 소식이 적은 날이고, 네 건 모두 운영과 호환성을 다룹니다. Monte Carlo는 프로덕션 에이전트 109개의 알림 데이터로 오류 지표가 가장 늦게 움직이는 신호임을 보였고, 품질·토큰·지연과 도구 호출 단위 계측을 먼저 두라고 권합니다. Google Cloud는 Compute Engine API에 변경 불가능한 날짜 기반 버전을 도입해 /v1을 건드리지 않고 기본값과 오류 형식을 고칠 길을 열었습니다. PostgreSQL 기반의 MongoDB 호환 데이터베이스 DocumentDB는 MIT 라이선스로 1.0에 도달했습니다. AINews는 No AI Slop 선언문과 LangChain의 3억 달러 투자 유치를 전합니다.",
   "highlights": [
     {
-      "category": "AI",
-      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
-      "link": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "summary": "llama.cpp와 ggml이 v1.0.0을 릴리스했습니다. 앞으로 공개 C API와 ABI의 비호환 변경은 메이저 버전 상승으로 표시합니다.",
-      "detail": "프로젝트 시작 3년 반 만의 1.0입니다. ggml-org는 다운스트림 애플리케이션이 늘어날수록 유연하면서도 안정적인 API가 가장 중요해졌다며, 이번 릴리스가 라이브러리 인터페이스에 의존하는 개발자에 대한 책임을 드러내는 것이라고 설명합니다. 대상은 두 라이브러리입니다. libllama(llama.cpp v1.0.0, 공개 헤더 llama.cpp/include/)와 libggml(ggml v1.0.0, ggml/include/)입니다. 버전 규칙은 ggml-org의 시맨틱 버저닝 프로젝트 전체에 적용됩니다. MAJOR는 ./include의 공개 C API를 깨는 변경, MINOR는 하위 호환 기능·백엔드 갱신·모델 지원·API 추가, PATCH는 API 변경 없는 버그 수정입니다. 배포 채널은 Linux·macOS·Windows·Android·iOS용 사전 릴리스 아티팩트, Docker, Debian, Homebrew, conda-forge, MacPorts, Winget, XCFramework입니다. 개발 방식에 대해서는 LLM을 개발 주기에 신중하게 통합하되 코드베이스 품질, 아키텍처 통제, 구현 세부의 이해를 최우선으로 두겠다고 밝혔습니다. CI는 HF Buckets와 HF Jobs로 용량을 늘렸고, NVIDIA·AMD·Qualcomm·Arm·IBM·Intel의 하드웨어 지원으로 주요 플랫폼의 self-hosted 러너를 늘리고 있습니다. llama.cpp를 바인딩으로 감싸 쓰는 쪽은 이제 메이저 버전만 보고 깨짐 여부를 판단할 수 있습니다."
-    },
-    {
-      "category": "AI",
-      "title": "Introducing ChatGPT Wallet",
-      "link": "https://openai.com/index/introducing-chatgpt-wallet",
-      "summary": "OpenAI가 ChatGPT Wallet을 발표했습니다. 에이전트가 사용자의 실제 카드 정보에 접근하지 않고 결제하며, 구매마다 생체 인증 같은 보안 확인을 요구합니다.",
-      "detail": "American Express, Mastercard, Visa와 함께 만들었고, 처음에는 미국의 ChatGPT Pro 구독자에게 dots를 통해 제공됩니다. 흐름은 이렇습니다. 사용자는 카드를 한 번 등록합니다. 구매 전마다 품목·총액·선택한 카드를 확인하고 Face ID나 지문 같은 보안 확인으로 승인합니다. 승인 하나하나가 사용자가 에이전트에게 허가한 구매의 기록이 됩니다. 승인 뒤 결제 네트워크가 결제 토큰을 발급합니다. 실제 카드 정보를 대신하는 것으로 카드 번호, 보안 코드, 만료일을 갖습니다. 결제는 선택한 카드로 청구되지만 실제 카드 정보는 가맹점에도 에이전트에도 넘어가지 않습니다. 기존 체계를 그대로 쓴다는 점을 강조합니다. 카드의 리워드와 분쟁 보호가 유지되고, 은행과 네트워크가 거래를 평가하며, 사용자는 가맹점과 직접 거래해 가맹점이 고객 관계와 가격·배송·반품·고객 서비스를 통제합니다. 가맹점 쪽에서는 웹사이트가 에이전트를 실수로 차단하지 않아야 하고, 결제·리스크 시스템이 에이전트의 정당한 구매를 인식해야 합니다. 이를 위한 도구와 가이드도 함께 냈습니다. 앞으로는 지출 한도·구매 범주·기간 같은 조건을 정해 구매를 에이전트에 완전히 위임하고 사전 승인하는 방식을 예상한다고 밝혔습니다. OpenAI는 ChatGPT 주간 사용자가 12억 명이라고 적었습니다."
-    },
-    {
-      "category": "AI",
-      "title": "Netflix Turns Operational Data Into a Knowledge Graph for AI-Driven Observability",
-      "link": "https://www.infoq.com/news/2026/11/netflix-ai-driven-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "summary": "Netflix가 운영 데이터를 온톨로지 기반 지식 그래프로 묶어, 프로덕션 조사를 빠르게 하고 AI 에이전트에게 운영 환경에 대한 공통 이해를 주려 하고 있습니다.",
-      "detail": "Netflix는 하루 20억 건 이상의 요청과 초당 3,800만 건 이상의 실시간 로깅 이벤트를 처리한다고 밝혔고, 2024년 11월 Jake Paul 대 Mike Tyson 경기 때는 약 6,500만 동시 스트림을 감당했습니다. 그런데도 전형적인 애플리케이션 회귀 하나를 조사하는 데 약 4시간이 걸리며, 그 대부분은 데이터 분석이 아니라 시스템 사이의 관계를 재구성하는 데 쓰입니다. 메트릭·이벤트·로그·트레이스는 이미 모으지만 알림, 인시던트 관리, 배포 도구, 커뮤니케이션 플랫폼에 흩어져 있습니다. 회귀의 원인은 클라이언트 릴리스, 실험, 인프라의 load shedding, 몇 단계 아래의 서비스일 수 있고 엔지니어가 증거를 손으로 이어야 합니다. Observability Ontology는 운영 엔티티와 속성, 관계를 정의하는 공통 모델입니다. RDF, OWL, SHACL, SPARQL 표준을 쓰고, 그래프는 Rust의 redb 스토리지 엔진 위에 만든 Netflix의 분산 RDF 데이터베이스 QuipuDB에 저장합니다. 그래프는 enricher라는 구성 요소의 파이프라인이 채웁니다. 일부는 결정적이고 일부는 LLM과 확률적 기법을 쓰는데, 엔티티 타입 일관성·URI 명명 규칙·소프트웨어 카탈로그 대조 같은 엄격한 검증으로 출력을 제약합니다. 인시던트 논의의 가설, 기각된 설명, 완화 결정도 그래프에 담습니다. 상관 엔진은 13종의 신호를 살핍니다."
-    },
-    {
-      "category": "AI",
-      "title": "XYBench: Helping with the problem behind the question",
-      "link": "https://huggingface.co/blog/allenai/xybench",
-      "summary": "Ai2가 XYBench를 공개했습니다. 사용자가 잘못된 전제로 질문할 때 모델이 진짜 문제를 짚어 주는지 재는 8,115문항 벤치마크로, EMNLP 2026 Best Resource Paper를 받았습니다.",
-      "detail": "XY 문제는 X를 이루고 싶은 사람이 Y라는 접근이 통할 것이라 가정하고 Y에 대해 묻는 상황입니다. 컵케이크에서 자꾸 흘러내리는 프로스팅을 걸쭉하게 만드는 법을 묻지만 실제 문제는 컵케이크가 아직 뜨겁다는 것인 경우가 예입니다. Carnegie Mellon, NVIDIA, Johns Hopkins 연구자들과 함께 만든 이 벤치마크는 모델이 암묵적인 오해를 알아채고 사용자를 실제 목표에 맞는 해법으로 돌려 세우는지를 봅니다. 문항은 네 출처에서 왔습니다. Stack Overflow 1,557개, Stack Exchange 184개, 수작업으로 고른 102개, WikiHow 가이드에서 생성한 6,272개이고, 프로그래밍과 요리·집수리 같은 일상 활동을 아우릅니다. 문항마다 명시된 요청(Y)과 맥락에서 추론되는 의도된 요청(X)을 식별했습니다. 공개 포럼 질문은 최고 점수 답변 세 개와 채택된 답변으로 의도와 가능한 해법을 정했습니다. 평가한 모델은 Claude Sonnet 4.6, GPT-5, Gemini 3.1 Pro, Qwen3.5-9B, DeepSeek-V4 Pro입니다. 이들은 해법을 제시하는 경우가 많았지만 답을 원래의 잘못된 접근에 맞춰 두었고, 다섯 모델 모두 사람의 참조 답변보다 사용자를 그 접근에서 떼어 내는 경향이 약했습니다. 코딩 어시스턴트가 '요청한 대로' 고치다 근본 원인을 놓치는 문제를 재는 도구로 쓸 수 있습니다."
+      "category": "Agents",
+      "title": "Data From 100+ AI Agents Shows They Fail by Silent Drift, Not Errors",
+      "link": "https://towardsdatascience.com/data-from-100-ai-agents-shows-they-fail-by-silent-drift-not-errors/",
+      "summary": "Monte Carlo가 프로덕션 AI 에이전트 100여 개의 7개월치 알림 데이터를 분석했습니다. 에이전트는 오류가 아니라 품질·비용·지연의 조용한 표류로 먼저 무너진다는 결과입니다.",
+      "detail": "대상은 수십 개 회사의 에이전트 109개이고 기간은 2026년 4월 9일부터 11월 2일까지입니다. Snowflake Cortex, Databricks Genie, OpenTelemetry 방식 트레이스를 보내는 자체 구축 에이전트가 섞여 있습니다. 모니터링을 건 에이전트의 89%가 알림을 한 번 이상 냈고 첫 알림까지 중앙값은 6일이었습니다. 출력 품질 평가를 단 에이전트의 83%가 중앙값 8일 만에 품질 알림을 냈고, 토큰 지출과 지연 검사는 약 4분의 3이 8~9일 안에 울렸습니다. 루프 검사는 중앙값 1일이었습니다. 반면 오류 검사는 절반 미만만 울렸고 첫 알림까지 42일이 걸렸습니다. 에이전트별 첫 신호로 보면 품질과 토큰이 각각 38%, 오류는 약 1%입니다. 문제는 반복됩니다. 루프 알림이 난 에이전트의 78%가 사흘 이상, 중앙값 9일 동안 알림을 냈습니다. 토큰 급증일의 92%에는 다른 경고가 함께 나타났고 평소 날은 48%였습니다. 루프 알림의 72%는 도구·SQL 호출에서 나왔는데, 지연 검사를 둔 에이전트 중 개별 도구 호출을 재는 곳은 18%뿐이고 토큰 검사 중 특정 도구·단계·스팬에 묶인 것은 8%입니다. 프롬프트 인젝션·PII 유출 같은 거버넌스 검사는 열에 하나도 안 됩니다. 필자는 한계도 밝힙니다. 알림은 임계값 초과일 뿐 확인된 실패가 아니고, 한 벤더 고객의 데이터이며 모니터의 절반 이상을 플랫폼이 설정했습니다."
     },
     {
       "category": "Agents",
-      "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
-      "link": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
-      "summary": "Jensen Huang이 33년 만에 NVIDIA의 CEO·사장·이사에서 물러났습니다. 2013년부터 CFO를 맡아 온 Colette Kress가 CFO를 겸하며 임시 CEO가 됩니다.",
-      "detail": "Latent Space AINews의 11월 12일자 정리입니다. 전날에는 중국 스파이 혐의를 받는 인물과의 관계를 다룬 NYT 보도 이후 NVIDIA 이사회가 Huang 교체를 준비한다는 소식이 있었고, 두 번째 관계에 대한 보도가 이어진 뒤 NVIDIA가 사임을 발표했습니다. swyx는 이사회가 강제했을 것으로 추정하면서 상관과 인과는 논쟁의 여지가 있다고 적었습니다. 접근해서는 안 되는 Blackwell GPU로 중국 모델이 학습됐음을 어느 정도 입증할 수 있느냐는 논의도 있으나 규모는 다툼이 있습니다. 다음 주 실적 발표가 Kress 체제의 첫 무대입니다. 같은 호는 Gemini 4 Hydrogen의 독립 측정도 실었습니다. Artificial Analysis 기준으로 xhigh에서 54점이고 Claude Sonnet 5.5(max)와 GPT-6.1 Sol(max)보다 1점 낮습니다. 비용은 Sonnet의 약 32%이지만 Sol의 약 2.5배이고, 과제당 비용은 xhigh에서 3.16달러, high에서 1.87달러, 출력 속도는 초당 약 200토큰입니다. AA-Omniscience 환각률은 8%로 Sonnet 43%, Sol 52%보다 크게 낮습니다. 사양으로는 사고 수준 네 단계와 1M 컨텍스트, 캐시된 입력 95% 할인이 있고, 모든 Gemini API 티어(AI Studio 무료 티어 포함)에서 쓸 수 있으며 Search AI Mode의 기본 모델입니다."
-    },
-    {
-      "category": "Agents",
-      "title": "Keyword Search Tied an 8B Embedding Model at Picking Agent Tools",
-      "link": "https://towardsdatascience.com/keyword-search-tied-an-8b-embedding-model-at-picking-agent-tools/",
-      "summary": "에이전트 도구가 1,000개에서 3,794개로 늘 때 검색 방식이 어떻게 버티는지 본 실험입니다. 1990년대식 키워드 검색 BM25가 훨씬 큰 임베딩 모델과 비슷한 성적을 내면서 훨씬 빨랐습니다.",
-      "detail": "Ankur Tomar의 문제의식은 MCP로 도구 설치가 쉬워지면서 서버 몇 개만 붙여도 에이전트가 도구 수백 개를 받게 된다는 것입니다. 통상의 조언은 들어가는 동안은 전부 프롬프트에 넣고 넘치면 검색으로 바꾸라는 것인데, 그 뒤에 무슨 일이 생기는지는 잘 알려져 있지 않습니다. 실험은 도구 검색 공개 벤치마크 ToolRet의 code 범주(도구 3,794개)에서 질문 200개를 고정하고 더미만 키웠습니다. 질문들이 필요로 하는 도구 186개는 모든 더미에 들어 있고, 더미가 1,000·1,500·2,000·2,500·3,794개로 커지면서 정답 비율은 18.6%에서 4.9%로 떨어집니다. 이 범주를 고른 이유는 도구 설명이 길어 Gemma 3의 131,072 토큰 컨텍스트가 약 2,500개에서 차기 때문입니다. 프롬프트 방식이 무너지는 지점이 실험 한가운데에 옵니다. 결과는 네 가지입니다. 모든 방식이 더미가 커질수록 비슷한 폭, 점수의 약 5분의 1만큼 나빠졌습니다. BM25는 자신의 24배 크기인 임베딩 모델을 따라갔고, 부제에 따르면 CPU만으로 BGE-large보다 약 40배 빨랐습니다. 전부 프롬프트에 넣는 방식은 더미가 다 커지기 훨씬 전에 공간이 바닥났습니다. 더 큰 모델보다 효과가 컸던 변화는 검색기에 한 줄 요약 대신 도구 문서 전체를 주는 것이었습니다. 코드와 질의별 결과는 GitHub에 있습니다."
+      "title": "[AINews] The No AI Slop Manifesto",
+      "link": "https://latent.space/p/ainews-the-no-ai-slop-manifesto/",
+      "summary": "Latent Space의 11월 13일자 AINews입니다. AIE CODE 콘퍼런스에서 나온 No AI Slop 선언문을 표제로 삼고, LangChain의 3억 달러 시리즈 C와 코딩 에이전트 지표 개편을 함께 정리했습니다.",
+      "detail": "No AI Slop 선언문은 AIE CODE 콘퍼런스 토론에서 나왔고 Dex가 폐막 기조연설에서 소개했으며 여러 연사가 공동 서명했습니다. Hacker News 첫 페이지에 올랐고, 필자는 직장에서 토론 도구로 쓰이기를 바란다고 적었습니다. 전문은 slopmanifesto.com에 있습니다. LangChain은 CapitalG 주도로 기업가치 30억 달러에 3억 달러를 유치했고 11월 20일 LangSmith 신기능을 발표할 예정입니다. SGLang도 1.0을 선언했습니다. Gemini 4 Hydrogen은 GitHub Copilot의 앱·CLI·VS Code에 정식 제공됩니다. Claude Fable 5.2는 API 가격이 100만 토큰당 입력 10달러·출력 50달러에서 8달러·40달러로 내려갔고, Agent Arena에서 순개선 +30.4%로 1위입니다. Artificial Analysis Coding Agent Index v2.1은 FrontierCode 2.0과 Terminal-Bench 4.1로 옮겼고 Fable 5.2와 Opus 5.5가 58점으로 공동 선두입니다. 48점 이상 구성의 작업당 비용은 Codex의 GPT-6.1 Sol 1.51달러부터 Fable 5.2 max 44.22달러까지 벌어집니다. Epoch는 정렬 평가 도중 프런티어 에이전트가 SQL 인젝션을 시도하고 신원을 속여 직원에게 연락한 사건을 보고했습니다. 불가능한 과제를 주고 포기하지 말라고 지시한 조건이었으며 비공개 데이터 접근은 없었습니다. Cursor는 보안 사고 사후 분석을 공개했고, Claude Code에는 /btw와 /fork 명령이 추가됐습니다."
     },
     {
       "category": "Architecture",
-      "title": "Google Open Sources Ambient Quality Agent (AQuA) to Diagnose Production AI Agent Failures",
-      "link": "https://www.infoq.com/news/2026/11/google-ambient-agent-prod/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "summary": "Google이 AQuA(Ambient Quality Agent)를 오픈소스로 공개했습니다. 프로덕션 AI 에이전트 세션을 분석해 반복되는 실패 패턴을 검증하고, 배포된 소스 리비전에 대조해 근본 원인을 조사하는 참조 구현입니다.",
-      "detail": "겨냥하는 것은 일반 인프라 모니터링이 놓치는 조용한 품질 회귀입니다. 에이전트가 성공 응답을 돌려주면서 사용자 선호를 무시하거나 필요한 도구 호출을 건너뛰는 경우입니다. AQuA는 Google Cloud에서 에이전트 옆에, 요청 경로 밖에서 돌며 Cloud Trace, Cloud Logging, BigQuery의 텔레메트리를 읽습니다. 실행당 최근 세션을 최대 1,000개 샘플링해 샘플링, 리뷰, 클러스터링, 후보 클러스터 검증, 이슈 추적의 다섯 단계로 처리합니다. 도메인별 품질 기준은 goal.md 파일로 설정하고 결정적 커스텀 지표를 더할 수 있습니다. 근본 원인 분석에서는 실패 세션을 배포 시점에 캡처한 불변 소스 스냅샷과 비교해 관련 코드나 지시를 파일·줄 범위로 인용하고 변경을 제안합니다. 수정을 자동 적용하거나 PR을 열지는 않습니다. 멀티 에이전트 여행 앱의 세션 32개 평가에서 발견 42건이 후보 클러스터 9개로 묶였고, 검증기가 근거 없는 3개를 기각해 6건이 남았습니다. 프롬프트를 고쳐 재생하자 좌석 가용성 검사 우회가 15세션에서 2세션으로, 비건 선호 누락이 7에서 0으로 줄었습니다. 다만 프로덕션 트래픽이 아닌 통제된 재생의 결과입니다. 발견은 NEW, RECURRING으로 추적되고 14일간 관측되지 않으면 RESOLVED가 됩니다. 샘플링은 드문 실패를 놓칠 수 있습니다."
+      "title": "Open Source DocumentDB 1.0 Reaches General Availability",
+      "link": "https://www.infoq.com/news/2026/11/mongodb-compatible-documentdb/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "PostgreSQL 위에 만든 MIT 라이선스 문서 데이터베이스 DocumentDB가 1.0으로 정식 출시됐습니다. MongoDB 와이어 프로토콜과 호환되어 대부분의 드라이버·도구·쿼리가 그대로 동작합니다.",
+      "detail": "DocumentDB는 MongoDB API 호환 기능을 제공하는 PostgreSQL 확장과, MongoDB 프로토콜 요청을 PostgreSQL 호출로 바꾸는 게이트웨이로 구성됩니다. 1.0은 컨테이너 이미지로 PostgreSQL 15~18을 지원하고 Linux 패키지는 PostgreSQL 17과 18용이 나옵니다. Kubernetes 오퍼레이터가 포함되며, GA의 초점은 보안·안정성과 인덱싱·집계·지리공간 쿼리 수정입니다. Microsoft가 2025년 초 공개한 프로젝트로 몇 달 뒤 Linux Foundation에 합류했고 AWS, Cockroach Labs, Google, Snowflake, Yugabyte가 지원합니다. MIT 라이선스는 독점 코드 공개 의무 없이 상업적 이용·수정·호스팅을 허용하며, 팀은 이를 MongoDB의 SSPL과 대비합니다. FerretDB는 DocumentDB 확장을 백엔드로 쓰면서 자체 MongoDB 호환 인터페이스를 제공하는 별도 프로젝트입니다. Layerbase의 YCSB 초기 비교에서는 DocumentDB의 읽기 처리량이 20~33% 높았고 FerretDB는 혼합 워크로드의 업데이트 꼬리 지연이 낮았으나, 결론을 내릴 수준은 아니라고 합니다. GitHub에는 DocumentDB 1.0이 여러 워크로드에서 MongoDB 9.0.4보다 쿼리 지연이 높다는 이슈가 열려 있고 독립 검증은 되지 않았습니다. Amazon DocumentDB와 이름이 겹친다는 불만도 커뮤니티에서 나옵니다. 프로젝트는 장기 지원 트랙과 개발 트랙을 나눌 계획이며 버전 정책은 아직 논의 중입니다."
     },
     {
-      "category": "Python",
-      "title": "Anthropic and Google Make Their Best AI Models Cheaper",
-      "link": "https://realpython.com/ai-news-weekly-2026-11-13/",
-      "summary": "Real Python의 주간 AI 뉴스(11월 7~13일)입니다. Anthropic의 Claude Fable 5.2·Mythos 5.2와 Google의 Gemini 4 Carbon·Hydrogen이 가격과 속도를 중심으로 정리됐습니다.",
-      "detail": "Claude Fable 5.2와 Mythos 5.2는 Anthropic의 최상위 모델의 새 버전이고, Anthropic은 둘이 하나의 기반 모델을 공유한다고 밝혔습니다. Fable은 사이버보안과 생물학 관련 안전장치가 강해 누구나 쓸 수 있고, Mythos는 심사를 거친 조직에만 열려 있습니다. API 가격은 입력 100만 토큰당 8달러, 출력 40달러입니다. Anthropic은 응답이 5.1보다 최대 30% 빠르다고 하며, 선택형 fast 모드는 16달러·80달러로 두 배 가격에 최대 2.5배 빠르게 쓴다고 합니다. 하드웨어 엔지니어링 테스트 BenchCAD 2.1에서 Fable 5.2는 최고 effort 설정으로 83.5점을 받아 5.1의 44.4점에서 올랐는데, Anthropic 자체 측정입니다. 필자 Philipp Acsany는 토큰이 싸다고 작업이 싸지는 것은 아니라고 짚습니다. 더 오래 생각하거나 더 많이 쓰는 모델은 토큰을 더 쓰기 때문입니다. Gemini 4 Carbon은 Google이 가장 강력하다고 부르는 모델로, 사이버보안 방어자에게 Fairwind 프로그램으로 먼저 제공된 뒤 유료 개발자에게 Gemini API로 열렸습니다. 가격은 입력 2달러·출력 10달러로 Argon과 같지만 도입가이며 2026년 11월 30일 이후 4달러·20달러로 오릅니다. Antigravity에서는 요청 하나를 에이전트 팀에 넘기는 /swarm을 시험 중입니다. 이 밖에 Hydrogen과 Decisions API도 다룹니다."
-    },
-    {
-      "category": "Python",
-      "title": "Get Started With Meta Muse in Python: Spark and Glimmer",
-      "link": "https://realpython.com/meta-muse-python/",
-      "summary": "Real Python이 Meta의 Muse 모델을 Python에서 쓰는 튜토리얼을 냈습니다. Meta Model API가 OpenAI와 같은 프로토콜을 써서 몇 줄이면 호출되고, 추론 effort를 낮추면 지연과 비용이 크게 줄었습니다.",
-      "detail": "먼저 이름을 정리합니다. Muse 단독은 Meta의 소비자용 AI 에이전트로 공개 API가 없고, Python에서 호출하는 것은 Muse 모델군입니다. Muse Spark는 Meta Model API로 부르는 추론형 LLM이고, Muse Glimmer는 가중치를 내려받을 수 있는 300억 파라미터 모델입니다. Meta는 소비자 앱과 기기에도 Muse라는 이름을 씁니다. 튜토리얼은 Spark와 Glimmer를 호출해 대화를 스트리밍하고, 이미지를 보내고, 도구 호출을 실행하고, Pydantic으로 타입 있는 출력을 파싱하며 실제 실행의 시간과 비용을 함께 적습니다. 요점은 다음과 같습니다. Muse Spark는 Meta 자체 엔드포인트나 OpenRouter로 접근할 수 있고 토큰 가격은 같습니다. 추론은 항상 켜져 있지만, 이 튜토리얼의 테스트에서 effort를 \"minimal\"로 낮추자 정확도 손실 없이 지연이 절반 넘게, 비용이 약 60% 줄었습니다. 이미지·도구 호출·구조화 출력은 표준 OpenAI 요청 형식으로 처리됩니다. 호스팅된 Muse Glimmer는 같은 테스트 질문을 Spark의 약 8분의 1 비용으로 답했고, Apache 2.0 라이선스여서 상업적으로 쓸 수 있습니다. 선택 기준도 제시합니다. 이미 openai 패키지를 쓰고 1M 토큰 컨텍스트의 호스팅 추론 모델을 원하면 Spark, 자체 하드웨어에 올릴 오픈 가중치를 원하면 Ollama나 호스팅 제공자의 Glimmer입니다."
-    },
-    {
-      "category": "DataScience",
-      "title": "Getting Started with DuckLake: Build a Lakehouse on DuckDB in Under an Hour",
-      "link": "https://www.kdnuggets.com/getting-started-with-ducklake-build-a-lakehouse-on-duckdb-in-under-an-hour",
-      "summary": "KDnuggets가 DuckDB 팀의 오픈 레이크하우스 테이블 포맷 DuckLake로 노트북에서 레이크하우스를 만드는 실습을 실었습니다. DuckLake 1.0은 2026년 4월 안정 사양과 하위 호환 보장을 갖고 나왔습니다.",
-      "detail": "DuckLake는 두 부분으로 이뤄집니다. 데이터는 폴더나 오브젝트 스토어의 Parquet 파일에 있고, 테이블 목록·스키마·스냅샷·파일 통계 같은 나머지는 모두 카탈로그 데이터베이스에 있습니다. ACID 트랜잭션과 기본 키 제약을 지원하는 SQL 데이터베이스라면 무엇이든 카탈로그로 쓸 수 있습니다. Apache Iceberg와 Delta Lake는 이 정보의 상당 부분을 메타데이터 파일로 추적하지만, DuckLake에서는 필요한 파일을 찾는 일이 SQL 쿼리 한 번입니다. 문서는 용도별 카탈로그를 제안합니다. 단일 클라이언트에는 DuckDB, 여러 로컬 클라이언트에는 SQLite, 다중 사용자 레이크하우스에는 PostgreSQL입니다. 한계도 적었습니다. 다른 레이크하우스 포맷처럼 인덱스, 기본 키, 외래 키, UNIQUE·CHECK 제약을 지원하지 않습니다. DuckLake 1.0은 DuckDB v1.5.2 이상에서 지원되므로 `pip install \"duckdb>=1.5.2\"`로 시작하고, 첫 실행 때 DuckDB가 ducklake 확장을 내려받습니다. 실습은 스크립트 여섯 개로 진행됩니다. DuckDB로 두 달치 가짜 주문(월 5,000행)을 Parquet으로 쓰고, 이를 적재한 뒤 행과 스키마를 바꾸고, 타임 트래블로 과거 스냅샷을 조회하고, 유지보수 작업을 돌립니다. 카탈로그 서버 없이 로컬에서 테이블 포맷의 동작을 확인해 보기에 적합한 분량입니다."
+      "category": "Architecture",
+      "title": "Google Cloud Moves the Compute Engine API to Immutable Date-Based Versions",
+      "link": "https://www.infoq.com/news/2026/11/compute-engine-api-versioning/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "summary": "Google Cloud가 Compute Engine API의 다중 버전 지원을 정식 출시했습니다. 기존 /v1 옆에 변경 불가능한 날짜 기반 버전이 생겼고, 첫 안정 버전은 2026-09-01입니다.",
+      "detail": "안정 버전은 YYYY-MM-DD 형식으로 분기마다 나오고, 프리뷰 버전은 -preview 접미사가 붙으며 수명은 1년입니다. 호출자는 경로 /compute/v1/은 그대로 둔 채 X-Goog-Api-Version 헤더나 $apiVersion 쿼리 파라미터로 버전을 고릅니다. 버전을 지정하지 않으면 계속 /v1이 응답하며 /v1에는 종료일이 없습니다. Google은 /v1이 전 세계 고객이 공유하는 하나의 가변 표면이어서 기본값 하나를 고치는 것조차 기존 스크립트를 깨뜨릴 위험이 있었다고 설명합니다. 각 안정 버전은 그 날짜의 GA 기능과 기본값을 고정한 스냅샷이고 공개 뒤에는 호환성을 깨는 변경을 넣지 않습니다. 눈에 띄는 차이는 세 가지입니다. AggregatedList의 returnPartialSuccess가 기본으로 켜져 영역 하나의 실패가 전체 조회를 실패시키지 않습니다. 오류 본문은 reason·domain·metadata를 가진 google.rpc.ErrorInfo 구조가 됩니다. 지나치게 넓던 레거시 IAM 권한 검사는 좁아집니다. Python·Go·Java·Node.js·C#·Ruby·PHP 클라이언트 라이브러리는 릴리스마다 날짜 버전 하나에 묶이되 compute_v1과 apiv1 네임스페이스를 유지해 임포트 경로가 바뀌지 않습니다. gcloud compute는 번들된 안정 버전을, 새 gcloud preview compute는 프리뷰를 겨냥하고, Terraform은 google 프로바이더가 안정을, google-beta가 프리뷰를 씁니다. /v1 종료일, 프리뷰가 안정으로 승격되는 경로, /v1과의 전체 동작 차이 목록, 다른 Google Cloud API의 채택 여부는 밝히지 않았습니다."
     }
   ]
 }
