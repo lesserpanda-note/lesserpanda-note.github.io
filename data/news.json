@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-15T06:12:22+09:00",
-  "count": 1213,
+  "updated": "2026-11-15T09:51:39+09:00",
+  "count": 1205,
   "items": [
+    {
+      "title": "datasette-llm 0.1a11",
+      "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-llm 0.1a11 datasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins. This release adds support for OpenAI-compatible endpoints, so you…",
+      "ts": 1794700768,
+      "published": "2026-11-14T23:59:28+00:00",
+      "collected_at": "2026-11-15T09:51:17+09:00"
+    },
+    {
+      "title": "If the air traffic control scandal had happened two weeks ago . . .",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/14/if-the-air-traffic-control-scandal-had-happened-two-weeks-ago/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "What we said here.",
+      "ts": 1794696052,
+      "published": "2026-11-14T22:40:52+00:00",
+      "collected_at": "2026-11-15T09:51:17+09:00"
+    },
+    {
+      "title": "datasette-vega 0.7",
+      "link": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-vega 0.7 A new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite against data in a table or custom query. The last release was in July 2018! I finally bumped it fo…",
+      "ts": 1794676149,
+      "published": "2026-11-14T17:09:09+00:00",
+      "collected_at": "2026-11-15T09:51:17+09:00"
+    },
     {
       "title": "Weight-Only Quantization",
       "link": "https://machinelearningmastery.com/weight-only-quantization/",
@@ -12021,116 +12051,6 @@
       "ts": 1792115087,
       "published": "2026-10-16T01:44:47+00:00",
       "collected_at": "2026-10-16T12:50:31+09:00"
-    },
-    {
-      "title": "JEP targeted to JDK 28: 545: Faster Startup and Warmup with ZGC",
-      "link": "https://inside.java/2026/10/16/jep545-target-jdk28/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The following JEP is targeted to JDK 28: 545: Faster Startup and Warmup with ZGC",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-16T17:52:04+09:00"
-    },
-    {
-      "title": "Build Your First SaaS with MongoDB Ephemeral Clusters",
-      "link": "https://foojay.io/today/build-your-first-saas-with-mongodb-ephemeral-clusters/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Provision a MongoDB Atlas Ephemeral Cluster with one API call, then have an AI coding agent build a full-stack Spring Boot and React job tracker on it.",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-16T17:52:04+09:00"
-    },
-    {
-      "title": "Apple Shouldn't Dictate Your App's Redesign Schedule",
-      "link": "https://foojay.io/today/who-decides-your-app-redesign/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Adopt Xcode 27 without moving your redesign schedule. This week: Liquid Glass, JPA inspired ORM, OpenTelemetry, WebSockets, push callbacks, and native...",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-16T17:52:04+09:00"
-    },
-    {
-      "title": "A Smaller, Faster Java Server with a Spring-Style API",
-      "link": "https://foojay.io/today/java-server-work-before-startup/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Build a smaller native Java service with Spring-style transactions and dependency injection. Inspect the generated code and compare local Linux startup,...",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-16T17:52:04+09:00"
-    },
-    {
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "link": "https://huggingface.co/blog/reflection-beam",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-16T22:49:34+09:00"
-    },
-    {
-      "title": "Reflection's Beam is freely available on Ollama for a limited time",
-      "link": "https://ollama.com/blog/reflection-beam",
-      "source": "Ollama",
-      "category": "AI",
-      "summary": "Reflection's first open-weight model is now available on Ollama, and free for a limited time only. Beam is designed for software engineering, reasoning, and long-running agentic tasks. Access Beam through Ollama Cloud.",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-16T22:49:34+09:00"
-    },
-    {
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-17T05:42:52+09:00"
-    },
-    {
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "link": "https://openai.com/index/benefit-street-partners",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-17T17:22:39+09:00"
-    },
-    {
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "link": "https://openai.com/index/grupo-boticario",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to tak…",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-28T07:56:40+09:00"
-    },
-    {
-      "title": "How Localiza reorganized work around generative AI",
-      "link": "https://openai.com/index/localiza-generative-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how Localiza uses ChatGPT Enterprise, the OpenAI API, Codex, and 60+ specialized agents to reorganize work and build AI-native mobility experiences.",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-10-28T07:56:40+09:00"
-    },
-    {
-      "title": "Interactive refactoring in gopls",
-      "link": "https://go.dev/blog/interactive-refactoring",
-      "source": "Go Blog",
-      "category": "Go",
-      "summary": "Introducing interactive refactoring in gopls and the LSP: a new capability that brings dynamic, multi-step refactorings into your favorite editor.",
-      "ts": 1792108800,
-      "published": "2026-10-16T00:00:00+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
     }
   ]
 }
