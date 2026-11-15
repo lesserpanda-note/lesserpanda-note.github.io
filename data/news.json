@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-15T09:51:39+09:00",
-  "count": 1205,
+  "updated": "2026-11-15T17:58:11+09:00",
+  "count": 1198,
   "items": [
+    {
+      "title": "Cloudflare Introduces Private Origins for Application Services",
+      "link": "https://www.infoq.com/news/2026/11/cloudflare-private-origins/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloudflare recently made Application Services for Private Origins generally available, allowing public traffic to reach applications hosted on private networks without exposing their IP addresses or opening inbound fire…",
+      "ts": 1794723480,
+      "published": "2026-11-15T06:18:00+00:00",
+      "collected_at": "2026-11-15T17:57:47+09:00"
+    },
+    {
+      "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
+      "link": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://github.com/Tthanh2k6/turbo-browser-mcp Comments URL: https://news.ycombinator.com/item?id=50503930 Points: 30 # Comments: 5",
+      "ts": 1794715751,
+      "published": "2026-11-15T04:09:11+00:00",
+      "collected_at": "2026-11-15T17:57:47+09:00"
+    },
+    {
+      "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
+      "link": "https://www.infoq.com/news/2026/11/cohere-open-weight-egress-risk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Cohere recently reported that one of Alibaba’s newest Qwen3.8 models attempted to upload a probe file to a storage container in Beijing while explicitly stating in its reasoning trace that no tools would be triggered. W…",
+      "ts": 1794710520,
+      "published": "2026-11-15T02:42:00+00:00",
+      "collected_at": "2026-11-15T17:57:47+09:00"
+    },
     {
       "title": "datasette-llm 0.1a11",
       "link": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
@@ -11951,106 +11981,6 @@
       "ts": 1792141200,
       "published": "2026-10-16T09:00:00+00:00",
       "collected_at": "2026-10-16T22:49:34+09:00"
-    },
-    {
-      "title": "Checking email reputation, and allowing Outlook again",
-      "link": "https://blog.pypi.org/posts/2026-10-16-email-reputation-and-outlook/",
-      "source": "PyPI Blog",
-      "category": "Python",
-      "summary": "PyPI improves on checks for the reputation of an email address when used to register an account or add to an existing account, and rejects addresses identified as disposable. With the new check in place, outlook.com and…",
-      "ts": 1792130940,
-      "published": "2026-10-16T06:09:00+00:00",
-      "collected_at": "2026-10-16T22:49:34+09:00"
-    },
-    {
-      "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
-      "link": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto one Ethernet fabric a…",
-      "ts": 1792130520,
-      "published": "2026-10-16T06:02:00+00:00",
-      "collected_at": "2026-10-16T17:52:04+09:00"
-    },
-    {
-      "title": "Microsoft Commits Maia to Multi-Gigawatt Inference, and Its Efficiency Metric Draws Questions",
-      "link": "https://www.infoq.com/news/2026/10/azure-maia-300/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft will scale its Maia accelerator family to multi-gigawatt deployments from 2027, making it the primary inference system for its own products. Maia 300 collapses scale-up and scale-out onto one Ethernet fabric a…",
-      "ts": 1792130520,
-      "published": "2026-10-16T06:02:00+00:00",
-      "collected_at": "2026-10-16T17:52:04+09:00"
-    },
-    {
-      "title": "JEV as a Hallucination Filter: Let the LLM Write, Let JEV Check",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/rag-hallucination-filter-using-jev/",
-      "source": "Analytics Vidhya",
-      "category": "AI",
-      "summary": "The majority of hallucination checks begin following the initial writing of an answer by the LLM. We then hold someone up to a second standard of judgment, or we hand over dangerous cases to a person. That works but tha…",
-      "ts": 1792130288,
-      "published": "2026-10-16T05:58:08+00:00",
-      "collected_at": "2026-10-16T17:52:04+09:00"
-    },
-    {
-      "title": "Rust 1.99.1",
-      "link": "https://github.com/rust-lang/rust/releases/tag/1.99.1",
-      "source": "Rust Releases",
-      "category": "Rust",
-      "summary": "library: fix missing symbol wcslen on UEFI and embedded targets rustc: fix miscompilation of FFI bool return values on x86_64 rust-lld: add the rpath for libLLVM on macOS",
-      "ts": 1792126064,
-      "published": "2026-10-16T04:47:44+00:00",
-      "collected_at": "2026-11-03T22:46:05+09:00"
-    },
-    {
-      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
-      "link": "https://www.latent.space/p/ainews-agents-disprove-polysemanticity",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Nick Cammarata out of nowhere with some major claims!",
-      "ts": 1792124205,
-      "published": "2026-10-16T04:16:45+00:00",
-      "collected_at": "2026-10-16T17:52:04+09:00"
-    },
-    {
-      "title": "[AINews] Agents disprove Polysemanticity; greatly improve Interpretability & Alignment",
-      "link": "https://latent.space/p/ainews-agents-disprove-polysemanticity/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Nick Cammarata out of nowhere with some major claims!",
-      "ts": 1792124205,
-      "published": "2026-10-16T04:16:45+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "v2.57.0 (2026-10-15)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.57.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Attach namespaced origin and tool_call_id metadata to BackgroundTools completions by @michaeldunn9 in #10196 Take GPT-Live realtime history, usage, and reply waits from the session…",
-      "ts": 1792121735,
-      "published": "2026-10-16T03:35:35+00:00",
-      "collected_at": "2026-10-16T12:50:31+09:00"
-    },
-    {
-      "title": "sparqlite: SPARQL 1.1 inside SQLite, written in Rust",
-      "link": "https://simonwillison.net/2026/Oct/16/sqlite-sparql-rust/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Research: sparqlite: SPARQL 1.1 inside SQLite, written in Rust This research task is really an experiment in running Claude Code for web in \"Ultracode\" mode, as described in Orchestrate subagents at scale with dynamic w…",
-      "ts": 1792115880,
-      "published": "2026-10-16T01:58:00+00:00",
-      "collected_at": "2026-10-22T00:29:50+09:00"
-    },
-    {
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-      "link": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792115087,
-      "published": "2026-10-16T01:44:47+00:00",
-      "collected_at": "2026-10-16T12:50:31+09:00"
     }
   ]
 }
