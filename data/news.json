@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-16T10:39:33+09:00",
+  "updated": "2026-11-16T18:13:34+09:00",
   "count": 1182,
   "items": [
+    {
+      "title": "Spring Config Import Demystified",
+      "link": "https://foojay.io/today/spring-config-import-demystified/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "How Spring Boot processes spring.config.import: loading passes, property precedence, resolvers, loaders, and integration with Vault and Config Server.",
+      "ts": 1794787200,
+      "published": "2026-11-16T00:00:00+00:00",
+      "collected_at": "2026-11-16T18:13:10+09:00"
+    },
+    {
+      "title": "Giving AI Agents Live Observability into a JVM Runtime with MCP",
+      "link": "https://foojay.io/today/giving-ai-agents-live-observability-into-a-jvm-runtime-with-mcp/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "BxMCP exposes live JVM, cache, datasource, request, scheduler, logging, and runtime diagnostics to AI agents through MCP, with 150+ tools and production security controls.",
+      "ts": 1794787200,
+      "published": "2026-11-16T00:00:00+00:00",
+      "collected_at": "2026-11-16T18:13:10+09:00"
+    },
+    {
+      "title": "Foojay Podcast #105: Security Is Your Job: OWASP, AI and Safer Java Dependencies with Jim Manico",
+      "link": "https://foojay.io/today/foojay-podcast-105/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "OWASP's Jim Manico on modernizing the Java Encoder and HTML Sanitizer with AI, trimming dependencies, and why every Java team needs a security process.",
+      "ts": 1794787200,
+      "published": "2026-11-16T00:00:00+00:00",
+      "collected_at": "2026-11-16T18:13:10+09:00"
+    },
     {
       "title": "datasette-maplibre 0.1a0",
       "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
@@ -3983,6 +4013,16 @@
       "collected_at": "2026-11-06T12:37:24+09:00"
     },
     {
+      "title": "Episode 74 “Ask the Architects at Devoxx” [AtA]",
+      "link": "https://inside.java/podcast/74/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Recent and upcoming Java features (e.g. value classes, withers, and lazy constants) make it easier to define, construct, copy, and access immutable data",
+      "ts": 1793836800,
+      "published": "2026-11-05T00:00:00+00:00",
+      "collected_at": "2026-11-16T18:13:10+09:00"
+    },
+    {
       "title": "v2.3.0",
       "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
       "source": "MCP servers",
@@ -6651,6 +6691,16 @@
       "ts": 1793232000,
       "published": "2026-10-29T00:00:00+00:00",
       "collected_at": "2026-10-31T05:33:46+09:00"
+    },
+    {
+      "title": "Episode 73 “Immutable Data Beyond Value Classes” [AtA]",
+      "link": "https://inside.java/podcast/73/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Recent and upcoming Java features (e.g. value classes, withers, and lazy constants) make it easier to define, construct, copy, and access immutable data",
+      "ts": 1793232000,
+      "published": "2026-10-29T00:00:00+00:00",
+      "collected_at": "2026-11-16T18:13:10+09:00"
     },
     {
       "title": "Quoting Ted Sanders",
@@ -11771,56 +11821,6 @@
       "ts": 1792238400,
       "published": "2026-10-17T12:00:00+00:00",
       "collected_at": "2026-10-17T21:47:08+09:00"
-    },
-    {
-      "title": "[AINews] High Taste Testers Ep. 1",
-      "link": "https://www.latent.space/p/ainews-high-taste-testers-ep-1",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us pilot a new show",
-      "ts": 1792223258,
-      "published": "2026-10-17T07:47:38+00:00",
-      "collected_at": "2026-10-17T17:22:39+09:00"
-    },
-    {
-      "title": "[AINews] High Taste Testers Ep. 1",
-      "link": "https://latent.space/p/ainews-high-taste-testers-ep-1/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "a quiet day lets us pilot a new show",
-      "ts": 1792223258,
-      "published": "2026-10-17T07:47:38+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Reverse Engineer Anything Project Brings AI Agents to Binary Analysis",
-      "link": "https://www.infoq.com/news/2026/10/reverse-engineer-anything/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Reverse Engineer Anything (REA) is an open-source project with over 200K GitHub stars that connects coding agents such as Claude Code and Codex to reverse-engineering tools like Ghidra, Hopper, and IDA. The project lets…",
-      "ts": 1792218480,
-      "published": "2026-10-17T06:28:00+00:00",
-      "collected_at": "2026-10-17T17:22:39+09:00"
-    },
-    {
-      "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
-      "link": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development…",
-      "ts": 1792216800,
-      "published": "2026-10-17T06:00:00+00:00",
-      "collected_at": "2026-10-17T17:22:39+09:00"
-    },
-    {
-      "title": "Amazon Acquires DuckLabs and Integrates DuckDB in Amazon Aurora PostgreSQL",
-      "link": "https://www.infoq.com/news/2026/10/amazon-acquires-ducklabs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Amazon has acquired DuckLabs, the company behind the analytical database DuckDB. Co-founders Hannes Mühleisen and Mark Raasveldt will continue to lead the team under AWS. The acquisition aims to enhance the development…",
-      "ts": 1792216800,
-      "published": "2026-10-17T06:00:00+00:00",
-      "collected_at": "2026-10-17T17:22:39+09:00"
     }
   ]
 }
