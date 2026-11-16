@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-16T09:51:59+09:00",
-  "count": 1177,
+  "updated": "2026-11-16T10:39:33+09:00",
+  "count": 1182,
   "items": [
+    {
+      "title": "datasette-maplibre 0.1a0",
+      "link": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-maplibre 0.1a0 The first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap , the free vector map server operated by Zsolt Ero (you…",
+      "ts": 1794787116,
+      "published": "2026-11-15T23:58:36+00:00",
+      "collected_at": "2026-11-16T10:39:26+09:00"
+    },
+    {
+      "title": "datasette 1.0a43",
+      "link": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette 1.0a43 I've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone , which is now 53% complete. The biggest 1.0 item in this release is streaming support for output rendere…",
+      "ts": 1794784827,
+      "published": "2026-11-15T23:20:27+00:00",
+      "collected_at": "2026-11-16T10:39:26+09:00"
+    },
     {
       "title": "datasette 0.65.6",
       "link": "https://simonwillison.net/2026/Nov/15/datasette-2/",
@@ -161,6 +181,26 @@
       "ts": 1794715751,
       "published": "2026-11-15T04:09:11+00:00",
       "collected_at": "2026-11-15T17:57:47+09:00"
+    },
+    {
+      "title": "datasette-apps 0.4a0",
+      "link": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support f…",
+      "ts": 1794715365,
+      "published": "2026-11-15T04:02:45+00:00",
+      "collected_at": "2026-11-16T10:39:26+09:00"
+    },
+    {
+      "title": "datasette-agent 0.6a0",
+      "link": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette…",
+      "ts": 1794714587,
+      "published": "2026-11-15T03:49:47+00:00",
+      "collected_at": "2026-11-16T10:39:26+09:00"
     },
     {
       "title": "Cohere Finding Shows Self-Hosted Open-Weight Models Still Need Egress Controls",
@@ -1001,6 +1041,16 @@
       "ts": 1794475800,
       "published": "2026-11-12T09:30:00+00:00",
       "collected_at": "2026-11-13T02:59:31+09:00"
+    },
+    {
+      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "link": "https://www.youtube.com/watch?v=WPj3aQ-xxpI",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.youtube.com/watch?v=WPj3aQ-xxpI Comments URL: https://news.ycombinator.com/item?id=50463399 Points: 337 # Comments: 170",
+      "ts": 1794461364,
+      "published": "2026-11-12T05:29:24+00:00",
+      "collected_at": "2026-11-16T10:39:26+09:00"
     },
     {
       "title": "[AINews] D-Day (Decision Models Day)",
