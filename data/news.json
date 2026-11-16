@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-16T06:31:52+09:00",
+  "updated": "2026-11-16T09:51:59+09:00",
   "count": 1177,
   "items": [
+    {
+      "title": "datasette 0.65.6",
+      "link": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette 0.65.6 I backported a minor security fix from 1.0a43: Fixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be do…",
+      "ts": 1794784697,
+      "published": "2026-11-15T23:18:17+00:00",
+      "collected_at": "2026-11-16T09:51:52+09:00"
+    },
+    {
+      "title": "A step toward defining the Standard Model on a lattice",
+      "link": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof.",
+      "ts": 1794780001,
+      "published": "2026-11-15T22:00:01+00:00",
+      "collected_at": "2026-11-16T09:51:52+09:00"
+    },
+    {
+      "title": "Our new blog for science",
+      "link": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "The OpenAI science blog shares new findings, practical methods, and firsthand accounts from researchers using AI to advance scientific discovery.",
+      "ts": 1794780000,
+      "published": "2026-11-15T22:00:00+00:00",
+      "collected_at": "2026-11-16T09:51:52+09:00"
+    },
     {
       "title": "Blokjutsu: a macOS image generator/editor",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/15/blokjutsu-a-macos-image-generator-editor/",
@@ -11741,36 +11771,6 @@
       "ts": 1792216800,
       "published": "2026-10-17T06:00:00+00:00",
       "collected_at": "2026-10-17T17:22:39+09:00"
-    },
-    {
-      "title": "Pi4J V5.0.0: Work in Progress",
-      "link": "https://foojay.io/today/pi4j-v5-work-in-progress/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "What is changing towards Pi4J V5.0.0: a big API cleanup, a simpler Context, parallel ports, RISC-V support, better board detection, and a new release flow.",
-      "ts": 1792195200,
-      "published": "2026-10-17T00:00:00+00:00",
-      "collected_at": "2026-10-17T17:22:39+09:00"
-    },
-    {
-      "title": "Episode 72 “OpenJDK Bug Fixing, JavaOne, and JDK 28” [IJN]",
-      "link": "https://inside.java/2026/10/17/podcast-072/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "A critical bug in JDK 27 and how it was fixed, some conference news, and how JDK 28 is shaping up",
-      "ts": 1792195200,
-      "published": "2026-10-17T00:00:00+00:00",
-      "collected_at": "2026-10-18T01:12:40+09:00"
-    },
-    {
-      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-      "link": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "We think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\" Asking that question also changed when review happ…",
-      "ts": 1792188397,
-      "published": "2026-10-16T22:06:37+00:00",
-      "collected_at": "2026-10-17T08:20:18+09:00"
     }
   ]
 }
