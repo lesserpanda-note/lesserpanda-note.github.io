@@ -1,7 +1,67 @@
 {
-  "updated": "2026-11-17T05:06:11+09:00",
-  "count": 1210,
+  "updated": "2026-11-17T12:31:38+09:00",
+  "count": 1217,
   "items": [
+    {
+      "title": "v2.69.0 (2026-11-16)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Fold RequestInput into HandleDeferredToolCalls , whose handler can take a resume token by @DouweM in #13285 Support Gemini 4 Hydrogen ( gemini-4-hydrogen ) on GoogleModel by @dsfacc…",
+      "ts": 1794878010,
+      "published": "2026-11-17T01:13:30+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
+    },
+    {
+      "title": "Who Is Actually Turning Your Java Object Into JSON?",
+      "link": "https://foojay.io/today/who-is-actually-turning-your-java-object-into-json/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A hands-on comparison of JSON-P, JSON-B and Jackson with Helidon SE 27.",
+      "ts": 1794873600,
+      "published": "2026-11-17T00:00:00+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
+    },
+    {
+      "title": "Comparing Java Formatters: Why Open Java Format Is My New Favorite",
+      "link": "https://foojay.io/today/comparing-java-formatters-why-open-java-format-is-my-new-favorite/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Comparing Google Java Format 2.0, Palantir Java Format, Open Java Format, Prince of Space, and Netflix jfmt on JDK 25 across 86 scenarios.",
+      "ts": 1794873600,
+      "published": "2026-11-17T00:00:00+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
+    },
+    {
+      "title": "5 JVM Heap OOM Patterns You Can Reproduce on Your Laptop",
+      "link": "https://foojay.io/today/5-jvm-heap-oom-patterns/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Five real out-of-memory scenarios across G1, ZGC, and Shenandoah — each with a reproducer script, diagnosis walkthrough, and fix.",
+      "ts": 1794873600,
+      "published": "2026-11-17T00:00:00+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
+    },
+    {
+      "title": "llm 0.37.3",
+      "link": "https://simonwillison.net/2026/Nov/16/llm/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's loggi…",
+      "ts": 1794873446,
+      "published": "2026-11-16T23:57:26+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
+    },
+    {
+      "title": "Building Visual Intelligence — Andreas Blattmann & Dustin Podell, Black Forest Labs",
+      "link": "https://latent.space/p/bfl/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Black Forest Labs’ case for learning AGI from pixels, motion and sound.",
+      "ts": 1794865083,
+      "published": "2026-11-16T21:38:03+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
+    },
     {
       "title": "The open-source movement wants Jensen Huang back",
       "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
@@ -11,6 +71,16 @@
       "ts": 1794854327,
       "published": "2026-11-16T18:38:47+00:00",
       "collected_at": "2026-11-17T05:05:53+09:00"
+    },
+    {
+      "title": "5 Things That Break When AI Agents Start Acting on Their Own",
+      "link": "https://www.kdnuggets.com/2026/11/collibra/5-things-that-break-when-ai-agents-start-acting-on-their-own",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Five governance problems emerge when AI agents begin taking real-world actions, from unmanaged access and identity sprawl to approval bottlenecks and manual oversight.",
+      "ts": 1794852047,
+      "published": "2026-11-16T18:00:47+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
     },
     {
       "title": "Broadening access to AI for scientists",
@@ -93,6 +163,16 @@
       "collected_at": "2026-11-17T05:05:53+09:00"
     },
     {
+      "title": "How to Give Claude Code Up-to-Date Documentation With Context7",
+      "link": "https://www.kdnuggets.com/how-to-give-claude-code-up-to-date-documentation-with-context7",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Stop wasting tokens debugging outdated code. Give Claude Code up-to-date docs with Context7.",
+      "ts": 1794841200,
+      "published": "2026-11-16T15:00:00+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
+    },
+    {
       "title": "Uber’s Legal AI Agent Cuts Contract Review Time by 20% with Rules and RAG",
       "link": "https://www.infoq.com/news/2026/11/uber-legal-redlining-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -161,6 +241,16 @@
       "ts": 1794834000,
       "published": "2026-11-16T13:00:00+00:00",
       "collected_at": "2026-11-17T05:05:53+09:00"
+    },
+    {
+      "title": "Agentic System Design: A Self-Study Roadmap",
+      "link": "https://www.kdnuggets.com/agentic-system-design-a-self-study-roadmap",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Learn agentic system design with this 7-step roadmap covering tools, memory, control loops, multi-agent coordination, evaluation, and deployment.",
+      "ts": 1794834000,
+      "published": "2026-11-16T13:00:00+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
     },
     {
       "title": "Airbnb Introduces CASTLE for Training Natural Language Search Models with Synthetic Data",
@@ -381,6 +471,16 @@
       "ts": 1794787200,
       "published": "2026-11-16T00:00:00+00:00",
       "collected_at": "2026-11-17T05:05:53+09:00"
+    },
+    {
+      "title": "At Holiday Extras, dots get to work before anyone asks",
+      "link": "https://openai.com/business/customer-stories/holiday-extras-dots",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Dots deliver launch reports unprompted, flag issues people might miss, and talk through upcoming meetings on the commute to work.",
+      "ts": 1794787200,
+      "published": "2026-11-16T00:00:00+00:00",
+      "collected_at": "2026-11-17T12:31:15+09:00"
     },
     {
       "title": "datasette-maplibre 0.1a0",
@@ -12071,36 +12171,6 @@
       "ts": 1792301400,
       "published": "2026-10-18T05:30:00+00:00",
       "collected_at": "2026-10-18T19:38:48+09:00"
-    },
-    {
-      "title": "Lottie4J 1.2.7: A Performance Release",
-      "link": "https://foojay.io/today/lottie4j-1-2-7-a-performance-release/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Lottie4J 1.2.7 focuses on performance: image assets are decoded once and cached, track mattes reuse their buffers between frames, and GC pauses drop by two thirds.",
-      "ts": 1792281600,
-      "published": "2026-10-18T00:00:00+00:00",
-      "collected_at": "2026-10-18T19:38:48+09:00"
-    },
-    {
-      "title": "Investing in the public benefit",
-      "link": "https://www.anthropic.com/news/public-benefit-fund",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Investing in the public benefit",
-      "ts": 1792281600,
-      "published": "2026-10-18T00:00:00+00:00",
-      "collected_at": "2026-10-19T05:19:43+09:00"
-    },
-    {
-      "title": "Inline rendering with document​.currentScript",
-      "link": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Inline rendering with document​.currentScript Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself…",
-      "ts": 1792271472,
-      "published": "2026-10-17T21:11:12+00:00",
-      "collected_at": "2026-10-18T14:33:27+09:00"
     }
   ]
 }
