@@ -1,7 +1,107 @@
 {
-  "updated": "2026-11-17T12:31:38+09:00",
-  "count": 1217,
+  "updated": "2026-11-17T21:54:33+09:00",
+  "count": 1225,
   "items": [
+    {
+      "title": "Datadog Brings Production Experimentation to AI Agent Observability",
+      "link": "https://www.infoq.com/news/2026/11/datadog-ai-agent-observability/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Datadog is extending its Agent Observability platform with Online Experiments, allowing engineering teams to compare AI agent versions against real production traffic rather than relying exclusively on predefined evalua…",
+      "ts": 1794916800,
+      "published": "2026-11-17T12:00:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "Quiz: Understanding Python Namespace Packages",
+      "link": "https://realpython.com/quizzes/understanding-python-namespace-packages/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python namespace packages, how they differ from regular packages, and how to build, publish, and install them with uv.",
+      "ts": 1794916800,
+      "published": "2026-11-17T12:00:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "How to Design MCP Servers That Leave Orchestration to the Host",
+      "link": "https://towardsdatascience.com/how-to-design-mcp-servers-that-leave-orchestration-to-the-host/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A Python SDK v2 catalogue server with two narrow tools, one resource, and one prompt shows how to keep planning, workflow state, and authorisation host-side. The post How to Design MCP Servers That Leave Orchestration t…",
+      "ts": 1794916800,
+      "published": "2026-11-17T12:00:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "Production AI, Architecture Trade-offs & Team Design: InfoQ Opens Registration for 6 January Cohorts",
+      "link": "https://www.infoq.com/news/2026/11/onlinecohort-jan27-certification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "From agent reliability to architecture decisions and delivery bottlenecks, InfoQ’s January 2027 cohorts give senior practitioners five weeks to examine current challenges, test approaches in their own work, and compare…",
+      "ts": 1794913200,
+      "published": "2026-11-17T11:00:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "Presentation: Scaling LLM-Based Ranking Systems for Latency-Critical Search & Recommendation Workloads",
+      "link": "https://www.infoq.com/presentations/scale-llm-ranking-systems-linkedin/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Sundara Raman Ramachandran shares how LinkedIn productionizes LLM ranking under strict P99 latency SLAs. He discusses distilling a 7B model down to 400M parameters, compressing job contexts into single-token embeddings…",
+      "ts": 1794913200,
+      "published": "2026-11-17T11:00:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "Presentation: Scaling LLM-Based Ranking Systems for Latency-Critical Search & Recommendation Workloads",
+      "link": "https://www.infoq.com/presentations/scale-llm-ranking-systems-linkedin/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Sundara Raman Ramachandran shares how LinkedIn productionizes LLM ranking under strict P99 latency SLAs. He discusses distilling a 7B model down to 400M parameters, compressing job contexts into single-token embeddings…",
+      "ts": 1794913200,
+      "published": "2026-11-17T11:00:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "Gradient Boosting vs. Random Forest vs. Neural Networks: A 2026 Performance Benchmark",
+      "link": "https://machinelearningmastery.com/gradient-boosting-vs-random-forest-vs-neural-networks-a-2026-performance-benchmark/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "In this article, you will learn how gradient boosting, random forest, neural networks, and tabular foundation models compare on accuracy, speed, and data requirements in...",
+      "ts": 1794913200,
+      "published": "2026-11-17T11:00:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "[AINews] Perplexity hits a $1B revenue run rate, up 4x in 2026",
+      "link": "https://latent.space/p/ainews-perplexity-hits-a-1b-revenue-run-rate-up-4x-in-2026/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 16, 2026 — Computer gets Teammates, Perplexity ships Monitor API, and a new research lab launches.",
+      "ts": 1794907496,
+      "published": "2026-11-17T09:24:56+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "Node.js 27.0.0-alpha.0.1.1 (Alpha)",
+      "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.1.1",
+      "source": "Node.js Blog",
+      "category": "Node",
+      "summary": "",
+      "ts": 1794904867,
+      "published": "2026-11-17T08:41:07+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "Quoting Go Proverbs",
+      "link": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming",
+      "ts": 1794896186,
+      "published": "2026-11-17T06:16:26+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
     {
       "title": "v2.69.0 (2026-11-16)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.69.0",
@@ -41,6 +141,16 @@
       "ts": 1794873600,
       "published": "2026-11-17T00:00:00+00:00",
       "collected_at": "2026-11-17T12:31:15+09:00"
+    },
+    {
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "link": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "How OpenAI is working with NATO and allied cyber agencies to help trusted defenders find vulnerabilities, test fixes and protect essential systems.",
+      "ts": 1794873600,
+      "published": "2026-11-17T00:00:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
     },
     {
       "title": "llm 0.37.3",
@@ -333,6 +443,16 @@
       "collected_at": "2026-11-17T05:05:53+09:00"
     },
     {
+      "title": "How Revolut raises ambition without lowering the bar",
+      "link": "https://openai.com/business/customer-stories/revolut",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "ts": 1794821400,
+      "published": "2026-11-16T09:30:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
       "title": "AWS Nitro Sandboxes Put Each EKS Pod in Its Own MicroVM with One RuntimeClass Field",
       "link": "https://www.infoq.com/news/2026/11/aws-nitro-sandboxes-eks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
       "source": "InfoQ Architecture",
@@ -481,6 +601,16 @@
       "ts": 1794787200,
       "published": "2026-11-16T00:00:00+00:00",
       "collected_at": "2026-11-17T12:31:15+09:00"
+    },
+    {
+      "title": "Spring Office Hours Podcast: S5E30 - What’s New in IntelliJ IDEA and AIR with Anton Arhipov",
+      "link": "https://spring.io/blog/2026/11/16/spring-office-hours-podcast-S5E30",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. This week, Dan and DaShaun are joined by Anton Arhipov from JetBrains to talk about what’s new in IntelliJ IDEA and AIR. They look at th…",
+      "ts": 1794787200,
+      "published": "2026-11-16T00:00:00+00:00",
+      "collected_at": "2026-11-17T21:54:10+09:00"
     },
     {
       "title": "datasette-maplibre 0.1a0",
@@ -12121,56 +12251,6 @@
       "ts": 1792329285,
       "published": "2026-10-18T13:14:45+00:00",
       "collected_at": "2026-10-18T23:22:02+09:00"
-    },
-    {
-      "title": "Quiz: Writing Comments in Python (Guide)",
-      "link": "https://realpython.com/quizzes/python-comments-guide/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of how to write clean, useful Python comments, from basic syntax and docstrings to the comment types you should avoid.",
-      "ts": 1792324800,
-      "published": "2026-10-18T12:00:00+00:00",
-      "collected_at": "2026-10-18T23:22:02+09:00"
-    },
-    {
-      "title": "Both Charts Are Right. So Why Do They Disagree?",
-      "link": "https://towardsdatascience.com/both-charts-are-right-so-why-do-they-disagree/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The statistical paradox that shows how combining data can reverse the story. The post Both Charts Are Right. So Why Do They Disagree? appeared first on Towards Data Science .",
-      "ts": 1792324800,
-      "published": "2026-10-18T12:00:00+00:00",
-      "collected_at": "2026-10-18T23:22:02+09:00"
-    },
-    {
-      "title": "How employment is changing at Anthropic",
-      "link": "https://www.anthropic.com/research/employment-at-anthropic",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.anthropic.com/research/employment-at-anthropic Comments URL: https://news.ycombinator.com/item?id=50139873 Points: 81 # Comments: 158",
-      "ts": 1792320566,
-      "published": "2026-10-18T10:49:26+00:00",
-      "collected_at": "2026-10-18T23:22:02+09:00"
-    },
-    {
-      "title": "Reverse Engineer Anything (REA): Can AI Really Crack Closed Code?",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/rea-ai-agent-reverse-engineer-anything/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "Every developer hits this wall eventually. A feature behaves in a way you can’t explain, and the code behind it is locked away. No source. No docs. Just a compiled binary or a wall of minified JavaScript. Figuring it ou…",
-      "ts": 1792314848,
-      "published": "2026-10-18T09:14:08+00:00",
-      "collected_at": "2026-10-18T19:38:48+09:00"
-    },
-    {
-      "title": "AWS Will Run Its European Sovereign Cloud Without the Global Backbone for Several Hours",
-      "link": "https://www.infoq.com/news/2026/10/aws-sovereign-cloud-exercise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "On October 24, AWS will operate its European Sovereign Cloud without a connection to the AWS Global Network backbone, with a team of EU residents and the region’s own hardware and software. AWS says neither of the two s…",
-      "ts": 1792301400,
-      "published": "2026-10-18T05:30:00+00:00",
-      "collected_at": "2026-10-18T19:38:48+09:00"
     }
   ]
 }
