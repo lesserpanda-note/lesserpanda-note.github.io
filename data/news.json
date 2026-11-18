@@ -1,7 +1,117 @@
 {
-  "updated": "2026-11-18T12:26:05+09:00",
+  "updated": "2026-11-18T21:48:08+09:00",
   "count": 1237,
   "items": [
+    {
+      "title": "How to Use Claude for Stock Research, Portfolio Reviews and Trades",
+      "link": "https://www.analyticsvidhya.com/blog/2026/11/connect-demat-account-claude-stocks/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Claude has become one of the most widely used AI tools, and stock market investors are no exception. Many already use it to research companies, read financial results and follow market news. Now, Claude can go a step fu…",
+      "ts": 1795005586,
+      "published": "2026-11-18T12:39:46+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "Quiz: Nuitka: Compile Python Into a Standalone Executable",
+      "link": "https://realpython.com/quizzes/nuitka/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of compiling Python with Nuitka, from standalone and onefile builds to speedups and when PyInstaller fits better.",
+      "ts": 1795003200,
+      "published": "2026-11-18T12:00:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "How to Estimate Dose-Response Curves When DoubleML Falls Short",
+      "link": "https://towardsdatascience.com/how-to-estimate-dose-response-curves-when-doubleml-falls-short/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Simulations test DoubleML against Kennedy's doubly robust estimator, with partial pooling across 200 stores and a DiD fix for hidden confounders. The post How to Estimate Dose-Response Curves When DoubleML Falls Short a…",
+      "ts": 1795003200,
+      "published": "2026-11-18T12:00:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story",
+      "link": "https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model…",
+      "ts": 1794999600,
+      "published": "2026-11-18T11:00:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "Presentation: Behind Booking.com's AI Evolution: The Unpolished Story",
+      "link": "https://www.infoq.com/presentations/bookingcom-ml-data-platform-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Jabez Eliezer Manuel discusses the 20-year evolution of Booking.com’s data management and ML platforms. He explains how they scaled MySQL topologies, sunset Hadoop for cloud architecture, and built high-throughput model…",
+      "ts": 1794999600,
+      "published": "2026-11-18T11:00:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "Graph-RAG for Enterprise Documents: Building a Knowledge Graph from PDFs, Wikis, and Databases",
+      "link": "https://machinelearningmastery.com/graph-rag-for-enterprise-documents-building-a-knowledge-graph-from-pdfs-wikis-and-databases/",
+      "source": "ML Mastery",
+      "category": "Agents",
+      "summary": "Prerequisites You'll need Python 3.",
+      "ts": 1794999600,
+      "published": "2026-11-18T11:00:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "This smell startup says its AI nose is as good as a human’s",
+      "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced w…",
+      "ts": 1794997230,
+      "published": "2026-11-18T10:20:30+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "[AINews] GPT-6.2 Astra, the #2 Frontier Model is better and 20%-600% cheaper, but has mixed reviews; 6.2 Sol likely main workhorse",
+      "link": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 17, 2026 — GPT-6.2 Astra and Sol lower benchmark costs. Early testers disagree on what Astra is like to work with.",
+      "ts": 1794997144,
+      "published": "2026-11-18T10:19:04+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "Vercel Releases UI SDK for Agents to Compose UI from Reusable Behaviors",
+      "link": "https://www.infoq.com/news/2026/11/vercel-ui-sdk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Vercel has released UI SDK in beta, an Apache 2.0 TypeScript library of more than 50 UI behaviors in @ui-sdk/core, with adapters for React, Vue, Svelte, Solid, and Web Components, so agents can compose accessible compon…",
+      "ts": 1794996720,
+      "published": "2026-11-18T10:12:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "v2.5.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Security fixes v2.5.0 fixes eight vulnerabilities in three servers. Upgrade mcp-server-git to 2026.11.18, @modelcontextprotocol/server-filesystem to 2.4.0 and @modelcontextprotocol/server-everything to 2.3.1. Package Af…",
+      "ts": 1794994145,
+      "published": "2026-11-18T09:29:05+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+      "link": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS has detailed tunnel endpoints, a PrivateLink endpoint type that gives a consumer VPC access to an entire network segment in another account rather than one resource at a time, over an overlapping address space and w…",
+      "ts": 1794994140,
+      "published": "2026-11-18T09:29:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
     {
       "title": "v2.70.0 (2026-11-17)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.70.0",
@@ -21,6 +131,46 @@
       "ts": 1794960000,
       "published": "2026-11-18T00:00:00+00:00",
       "collected_at": "2026-11-18T12:25:43+09:00"
+    },
+    {
+      "title": "Spring Boot JPA vs JDBC: How Much Can a Small App Save?",
+      "link": "https://foojay.io/today/spring-boot-jpa-vs-jdbc/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A small Spring Boot app used about 90 MiB less RSS with JDBC than with JPA and Hibernate, and reached its dashboard sooner.",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "I Trained a Neural Net to Play Pokémon",
+      "link": "https://foojay.io/today/i-trained-a-neural-net-to-play-pokemon/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A neural net that plays the Pokémon TCG, 4.2 million games, and the Java batch jobs that kept the training league running overnight.",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "An Introduction to JSR 381, the Java Visual Recognition API",
+      "link": "https://foojay.io/today/jsr-381-java-visual-recognition-api/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "JSR 381 is Java's standard API for image classification. Use its Deep Netts reference implementation, then write a DuckDB-backed classifier in five files.",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "link": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
     },
     {
       "title": "External sandboxes for coding agents",
@@ -83,6 +233,16 @@
       "collected_at": "2026-11-18T06:35:28+09:00"
     },
     {
+      "title": "Anthropic Paid Rubio's Ex-Chief of Staff's Firm $740k.it Lobbied His NSC",
+      "link": "https://www.zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc Comments URL: https://news.ycombinator.com/item?id=50536565 Points: 93 # Comments:…",
+      "ts": 1794942525,
+      "published": "2026-11-17T19:08:45+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
       "title": "Activation and Floating-Point Quantization",
       "link": "https://machinelearningmastery.com/activation-kv-cache-and-floating-point-quantization/",
       "source": "ML Mastery",
@@ -141,6 +301,16 @@
       "ts": 1794930095,
       "published": "2026-11-17T15:41:35+00:00",
       "collected_at": "2026-11-18T06:35:28+09:00"
+    },
+    {
+      "title": "Kotlin Toolchain 0.14: Agentic Development and iOS Publishing",
+      "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-toolchain-0-14-agentic-development-and-ios-publishing/",
+      "source": "Kotlin",
+      "category": "Kotlin",
+      "summary": "The Kotlin Toolchain helps you build and ship multiplatform apps faster, with less setup and configuration. Its CLI provides a unified workflow for building, running, testing, and publishing apps for Android, iOS, deskt…",
+      "ts": 1794929105,
+      "published": "2026-11-17T15:25:05+00:00",
+      "collected_at": "2026-11-18T21:47:26+09:00"
     },
     {
       "title": "Cloudflare Joins the Jevolution and Labels Itself a Neolab",
@@ -12201,176 +12371,6 @@
       "ts": 1792417355,
       "published": "2026-10-19T13:42:35+00:00",
       "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "Import AI 477: In which I tell the IMF the Singularity has begun",
-      "link": "https://importai.substack.com/p/import-ai-477-in-which-i-tell-the",
-      "source": "Import AI",
-      "category": "AI",
-      "summary": "What do you think?",
-      "ts": 1792413097,
-      "published": "2026-10-19T12:31:37+00:00",
-      "collected_at": "2026-11-03T12:37:22+09:00"
-    },
-    {
-      "title": "How Many EEG Channels Do You Actually Need?",
-      "link": "https://towardsdatascience.com/how-many-eeg-channels-do-you-actually-need/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Testing sensor reduction, feature ranking, and generalization to unseen participants The post How Many EEG Channels Do You Actually Need? appeared first on Towards Data Science .",
-      "ts": 1792413000,
-      "published": "2026-10-19T12:30:00+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "The obscure trust looming over Anthropic's IPO",
-      "link": "https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.wsj.com/tech/ai/anthropic-ipo-private-trust-188f41f7?st=RtdGHg&reflink=desktopwebshare_permalink Comments URL: https://news.ycombinator.com/item?id=50151376 Points: 58 # Comments: 16",
-      "ts": 1792411563,
-      "published": "2026-10-19T12:06:03+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "7 Checks to Run Before Trusting AI-Generated Code",
-      "link": "https://www.kdnuggets.com/7-checks-to-run-before-trusting-ai-generated-code",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "AI makes writing code cheap. Verifying it is still your job.",
-      "ts": 1792411243,
-      "published": "2026-10-19T12:00:43+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "Quiz: How to Automate Your Workflow With Claude Code Hooks",
-      "link": "https://realpython.com/quizzes/claude-code-hooks/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Claude Code hooks, including the Stop, PreToolUse, and PostToolUse events and the exit codes that block an action.",
-      "ts": 1792411200,
-      "published": "2026-10-19T12:00:00+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "Advancing Coding in Low-Resource Programming Languages",
-      "link": "https://openai.com/index/low-resource-programming-languages",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
-      "ts": 1792411200,
-      "published": "2026-10-19T12:00:00+00:00",
-      "collected_at": "2026-10-20T08:27:42+09:00"
-    },
-    {
-      "title": "Descriptors and Controlled Attributes in Python",
-      "link": "https://machinelearningmastery.com/descriptors-and-controlled-attributes/",
-      "source": "ML Mastery",
-      "category": "DataScience",
-      "summary": "In this article, you will learn what Python descriptors are and how to use them to build three types of controlled attributes: validated, computed, and...",
-      "ts": 1792407615,
-      "published": "2026-10-19T11:00:15+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
-      "link": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision decomposition. This shi…",
-      "ts": 1792407600,
-      "published": "2026-10-19T11:00:00+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "Podcast: The Future of Web Apps: Will AI Agents Generate UIs on the Fly?",
-      "link": "https://www.infoq.com/podcasts/future-web-apps/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Rachel Lee Nabors, former React core team member, dives into the architecture and philosophy behind local-first applications, exploring how small language models (SLMs) running directly on-device can deliver privacy-foc…",
-      "ts": 1792407600,
-      "published": "2026-10-19T11:00:00+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "Article: From Microservices to Agents: The Next Evolution of Distributed Systems",
-      "link": "https://www.infoq.com/articles/distributed-systems-microservices-agentic-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "The article examines the transition from microservices to agentic AI architecture in distributed systems. Microservices allow for functional decomposition, while agentic systems focus on decision decomposition. This shi…",
-      "ts": 1792407600,
-      "published": "2026-10-19T11:00:00+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "AI Harms and Their Technical Causes",
-      "link": "https://towardsdatascience.com/ai-harms-and-their-technical-causes/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "How technical choices can lead to safety failures, and what to do differently The post AI Harms and Their Technical Causes appeared first on Towards Data Science .",
-      "ts": 1792407600,
-      "published": "2026-10-19T11:00:00+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "EmbeddingGemma 2 Expands Beyond Text to Support Code, Images, Video, and Audio",
-      "link": "https://www.infoq.com/news/2026/10/embeddinggemma-2-multimodal/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Based on Gemma 4 and released under the Apache 2.0 license, Google's EmbeddingGemma 2 is a compact, open-weight, multimodal embedding model designed to make semantic search and retrieval-augmented generation (RAG) more…",
-      "ts": 1792404000,
-      "published": "2026-10-19T10:00:00+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-      "link": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies…",
-      "ts": 1792400885,
-      "published": "2026-10-19T09:08:05+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "v2.0.0",
-      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
-      "source": "MCP servers",
-      "category": "Agents",
-      "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package Version Registry In this release @modelconte…",
-      "ts": 1792392469,
-      "published": "2026-10-19T06:47:49+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "A Practical Guide to Harness Engineering: Building the System Around the Model",
-      "link": "https://www.analyticsvidhya.com/blog/2026/10/agent-harness-engineering-guide/",
-      "source": "Analytics Vidhya",
-      "category": "DataScience",
-      "summary": "An AI coding agent can write a function in seconds. But a working feature takes more than generated code. The agent needs to understand the project, find the right files, use tools safely, and check whether its changes…",
-      "ts": 1792390700,
-      "published": "2026-10-19T06:18:20+00:00",
-      "collected_at": "2026-10-19T21:55:05+09:00"
-    },
-    {
-      "title": "Tmux and Claude Code: Sessions, Send-Keys, and the Ceiling",
-      "link": "https://crystl.dev/guides/tmux-for-ai-agents/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://crystl.dev/guides/tmux-for-ai-agents/ Comments URL: https://news.ycombinator.com/item?id=50148855 Points: 146 # Comments: 111",
-      "ts": 1792389331,
-      "published": "2026-10-19T05:55:31+00:00",
-      "collected_at": "2026-10-20T08:27:42+09:00"
-    },
-    {
-      "title": "v1.0.0",
-      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v1.0.0",
-      "source": "MCP servers",
-      "category": "Agents",
-      "summary": "Final Legacy Server Release This release contains many bug and security fixes, and represents the final release of the legacy era servers. Packages Package Version Registry In this release @modelcontextprotocol/server-e…",
-      "ts": 1792383444,
-      "published": "2026-10-19T04:17:24+00:00",
-      "collected_at": "2026-11-11T02:33:27+09:00"
     }
   ]
 }
