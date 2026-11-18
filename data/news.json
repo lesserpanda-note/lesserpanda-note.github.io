@@ -1,7 +1,217 @@
 {
-  "updated": "2026-11-18T21:48:08+09:00",
-  "count": 1237,
+  "updated": "2026-11-19T06:11:36+09:00",
+  "count": 1254,
   "items": [
+    {
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795031696,
+      "published": "2026-11-18T19:54:56+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "link": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795028023,
+      "published": "2026-11-18T18:53:43+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Genie 4 is now available",
+      "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795025622,
+      "published": "2026-11-18T18:13:42+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "The Gemini app is now available on lower-memory Android devices.",
+      "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "The Google Gemini app now supports lower-memory Android devices. Access Gemini Live and custom image creation on your phone. Download the app today.",
+      "ts": 1795021200,
+      "published": "2026-11-18T17:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Introducing Gemini Decision 1: A Model That Picks Answers Instead of Writing Them",
+      "link": "https://www.kdnuggets.com/introducing-gemini-decision-1-a-model-that-picks-answers-instead-of-writing-them",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "Google's newest model has one job, and it never writes a word doing it. Decision 1 reads text, images, video, audio and PDFs in a single forward pass, up to 262,144 input tokens per request.",
+      "ts": 1795021200,
+      "published": "2026-11-18T17:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "1.15.42",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.42",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Make ChromaDB an optional extra Default Knowledge to local Qdrant and decouple storage from ChromaDB Pick tools for standalone agents and add them later Bug Fixes Store output_json values as JSON…",
+      "ts": 1795019911,
+      "published": "2026-11-18T16:38:31+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "How AI Agents Become a Tool for Attackers, and How to Stop It",
+      "link": "https://towardsdatascience.com/how-ai-agents-become-a-tool-for-attackers-and-how-to-stop-it/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Managing Security When You’re Deploying AI, Part 1: Compromised credentials, salaries inferred from budgets, and doctored documents show why agents need permission checks before the model ever sees the data. The post Ho…",
+      "ts": 1795019400,
+      "published": "2026-11-18T16:30:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Quoting Daniel Stenberg",
+      "link": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more tha…",
+      "ts": 1795017507,
+      "published": "2026-11-18T15:58:27+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+      "link": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "LinkedIn deployed Apache Celeborn as a shared remote shuffle platform across most Spark and Flink workloads, reducing daily shuffle fetch failures from approximately 750 to 20. The deployment also lowered compute costs…",
+      "ts": 1795014300,
+      "published": "2026-11-18T15:05:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "link": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795014023,
+      "published": "2026-11-18T15:00:23+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Jagged Intelligence: Why AI Is Brilliant One Minute and Clueless the Next",
+      "link": "https://www.kdnuggets.com/jagged-intelligence-why-ai-is-brilliant-one-minute-and-clueless-the-next",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Why models ace Olympiad math and still fumble simple everyday tasks.",
+      "ts": 1795014000,
+      "published": "2026-11-18T15:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Neurosymbolic Agents Explained, With a Z3 Example in Python",
+      "link": "https://towardsdatascience.com/neurosymbolic-agents-explained-with-a-z3-example-in-python/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Starting from Air Canada's chatbot case, a tour of Logic-LM, Agent-C, and Amazon's checks shows the solver is sound but the English-to-logic step is not. The post Neurosymbolic Agents Explained, With a Z3 Example in Pyt…",
+      "ts": 1795014000,
+      "published": "2026-11-18T15:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "The PSF end-of-year fundraiser",
+      "link": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your co…",
+      "ts": 1795013088,
+      "published": "2026-11-18T14:44:48+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "The AI Hype Index: AI is everywhere",
+      "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people h…",
+      "ts": 1795012964,
+      "published": "2026-11-18T14:42:44+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "On Spy Fiction",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/18/on-spy-fiction/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Following a review in the newspaper, I picked up The Collaborators, a spy novel by Michael Idov. I read and enjoyed it, but it was just OK, not as great as I would’ve expected from the review. So, that’s fine, … Continu…",
+      "ts": 1795010773,
+      "published": "2026-11-18T14:06:13+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Data Contracts",
+      "link": "https://martinfowler.com/articles/data-contracts.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Data contracts are a way to describe the contents and guarantees of datasets. Simon Harrer and Arif Wider describe in detail what they are and how to use them. They apply practices from API design to data by treating th…",
+      "ts": 1795010520,
+      "published": "2026-11-18T14:02:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "GPT-6.2 Astra Draws a Python Reading a Book",
+      "link": "https://realpython.com/ai-benchmark-gpt-6-2-astra/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore GPT-6.2 Astra's Python code, turtle drawing, and responses to small tasks that check modern syntax, release knowledge, focused edits, and made-up functions.",
+      "ts": 1795010400,
+      "published": "2026-11-18T14:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "GPT-6.2 Sol Draws a Python Reading a Book",
+      "link": "https://realpython.com/ai-benchmark-gpt-6-2-sol/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore GPT-6.2 Sol's Python code, turtle drawing, and responses to small tasks that check modern syntax, release knowledge, focused edits, and made-up functions.",
+      "ts": 1795010400,
+      "published": "2026-11-18T14:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Nuitka: Compile Python Into a Standalone Executable",
+      "link": "https://realpython.com/nuitka/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn to compile Python into a standalone executable with Nuitka. Compare standalone and onefile builds, test speed, and see when PyInstaller fits better.",
+      "ts": 1795010400,
+      "published": "2026-11-18T14:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Scores",
+      "link": "https://towardsdatascience.com/when-qini-rewards-the-wrong-uplift-model-use-doubly-robust-scores/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "On 1 million simulated customers, calibrated Qini scored a Linear DR learner 0.0856 against 0.0826 for the true-CATE ranking that should have won. The post When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Sco…",
+      "ts": 1795008600,
+      "published": "2026-11-18T13:30:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "AI and Data Science Salaries in 2026: What Practitioners Are Actually Earning",
+      "link": "https://www.kdnuggets.com/ai-and-data-science-salaries-in-2026-what-practitioners-are-actually-earning",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "A data-backed breakdown of compensation across roles, experience levels, industries, and geographies, so you know where you stand and where the premium opportunities are.",
+      "ts": 1795006800,
+      "published": "2026-11-18T13:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
     {
       "title": "How to Use Claude for Stock Research, Portfolio Reviews and Trades",
       "link": "https://www.analyticsvidhya.com/blog/2026/11/connect-demat-account-claude-stocks/",
@@ -113,6 +323,36 @@
       "collected_at": "2026-11-18T21:47:26+09:00"
     },
     {
+      "title": "Inside the Codex sandbox",
+      "link": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "ts": 1794988800,
+      "published": "2026-11-18T08:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Stricter checks for uploaded distributions on PyPI",
+      "link": "https://blog.pypi.org/posts/2026-11-18-stricter-checks-for-uploaded-sdists/",
+      "source": "PyPI Blog",
+      "category": "Python",
+      "summary": "Over the past few months, PyPI has added some additional checks that can reject uploaded source distributions (\"sdists\") and built distributions (\"bdists\" or \"wheels\"). These checks are part of a larger initiative to ma…",
+      "ts": 1794982140,
+      "published": "2026-11-18T06:09:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Managing frontier AI risk: From training to deployment",
+      "link": "https://openai.com/index/managing-frontier-ai-risk",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "ts": 1794981600,
+      "published": "2026-11-18T06:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
       "title": "v2.70.0 (2026-11-17)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.70.0",
       "source": "Pydantic AI",
@@ -171,6 +411,56 @@
       "ts": 1794960000,
       "published": "2026-11-18T00:00:00+00:00",
       "collected_at": "2026-11-18T21:47:26+09:00"
+    },
+    {
+      "title": "Java4Shell (CVE-2026-114938): What It Is, Who Is Affected, and What to Do Now",
+      "link": "https://foojay.io/today/java4shell-cve-2026-114938-what-it-is-who-is-affected-and-what-to-do-now/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Java4Shell is a memory-corruption flaw in OpenJDK that could allow remote code execution on x86-64 systems with AVX-512. Here is who is affected and what to do.",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Advancing chip design with OpenAI models",
+      "link": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "The Silent Consensus",
+      "link": "https://openai.com/index/the-silent-consensus",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "link": "https://huggingface.co/blog/moe-expert-streaming",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "link": "https://huggingface.co/blog/rumble-2-flash",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
     },
     {
       "title": "External sandboxes for coding agents",
@@ -1071,6 +1361,16 @@
       "ts": 1794787200,
       "published": "2026-11-16T00:00:00+00:00",
       "collected_at": "2026-11-17T21:54:10+09:00"
+    },
+    {
+      "title": "Making open models work for long-horizon agentic workloads",
+      "link": "https://ollama.com/blog/open-models-long-horizon-agents",
+      "source": "Ollama",
+      "category": "AI",
+      "summary": "Prefix caching helps coding agents stay fast as conversations grow. Prompts, tool calls, and inference routing determine how much work the model can reuse.",
+      "ts": 1794787200,
+      "published": "2026-11-16T00:00:00+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
     },
     {
       "title": "datasette-maplibre 0.1a0",
@@ -9563,6 +9863,16 @@
       "collected_at": "2026-10-25T16:25:16+09:00"
     },
     {
+      "title": "v2.0.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package Version Registry In this release @modelconte…",
+      "ts": 1792908036,
+      "published": "2026-10-25T06:00:36+00:00",
+      "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
       "title": "Kimi K3.1 Pro Review: Near-Opus Quality at 1/5th the Cost",
       "link": "https://www.analyticsvidhya.com/blog/2026/10/kimi-k3-1-pro-review/",
       "source": "Analytics Vidhya",
@@ -12231,146 +12541,6 @@
       "ts": 1792454305,
       "published": "2026-10-19T23:58:25+00:00",
       "collected_at": "2026-10-20T13:09:04+09:00"
-    },
-    {
-      "title": "Java News Roundup: JEPs for JDK 28, Azul Payara, Gatherers4j, Google ADK, Yupiik, Apache Camel CVEs",
-      "link": "https://www.infoq.com/news/2026/10/java-news-roundup-oct12-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for October 12th, 2026, features news highlighting: three OpenJDK JEPs targeted for JDK 28; the October 2026 edition of Azul Payara; point releases of Gatherers4j, Yupiik Fusion, Google ADK for…",
-      "ts": 1792440000,
-      "published": "2026-10-19T20:00:00+00:00",
-      "collected_at": "2026-10-20T08:27:42+09:00"
-    },
-    {
-      "title": "Java News Roundup: JEPs for JDK 28, Azul Payara, Gatherers4j, Google ADK, Yupiik, Apache Camel CVEs",
-      "link": "https://www.infoq.com/news/2026/10/java-news-roundup-oct12-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for October 12th, 2026, features news highlighting: three OpenJDK JEPs targeted for JDK 28; the October 2026 edition of Azul Payara; point releases of Gatherers4j, Yupiik Fusion, Google ADK for…",
-      "ts": 1792440000,
-      "published": "2026-10-19T20:00:00+00:00",
-      "collected_at": "2026-10-20T08:27:42+09:00"
-    },
-    {
-      "title": "Making the internet better for AI agents might make it worse for everyone else",
-      "link": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots an…",
-      "ts": 1792434167,
-      "published": "2026-10-19T18:22:47+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-      "link": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI wo…",
-      "ts": 1792431955,
-      "published": "2026-10-19T17:45:55+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "Patch release v5.20.2",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.20.2",
-      "source": "Transformers",
-      "category": "AI",
-      "summary": "Patch release: v5.20.2 This patch notably solves an issue where some inputs could loose their original type inside prepare_inputs_for_generation in generate , leading to problems with multimodal models. It also fixes so…",
-      "ts": 1792431937,
-      "published": "2026-10-19T17:45:37+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "Claude Haiku 5.5: What’s New and How to Use It for Fast, Cheap AI Workflows",
-      "link": "https://www.kdnuggets.com/claude-haiku-5-5-whats-new-and-how-to-use-it-for-fast-cheap-ai-workflows",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Claude Haiku 5.5 cuts list prices by 90% and adds adaptive thinking and a 1M token context window. Learn what broke from Haiku 4.5, and build classification, extraction, and sub-agent workflows in Python using the new A…",
-      "ts": 1792425600,
-      "published": "2026-10-19T16:00:00+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "Welcome to Google Gemini 4 Argon",
-      "link": "https://towardsdatascience.com/welcome-to-google-gemini-4-argon/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "A million-token output window changes what you can hand a model in one go, and the benchmarks and the bill show who it actually suits. The post Welcome to Google Gemini 4 Argon appeared first on Towards Data Science .",
-      "ts": 1792423800,
-      "published": "2026-10-19T15:30:00+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "Pinterest Uses Event Time Watermarks to Finalize Petabyte Scale Data Partitions",
-      "link": "https://www.infoq.com/news/2026/10/pinterest-event-time-partition/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Pinterest has introduced event time-based partition finalization for its database ingestion framework. The mechanism uses Apache Flink to track event time and Apache Iceberg metadata to publish a non-regressing watermar…",
-      "ts": 1792420620,
-      "published": "2026-10-19T14:37:00+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "JEP 543 Finalizes Structured Concurrency in JDK 28, Ending Seven Preview Rounds",
-      "link": "https://www.infoq.com/news/2026/10/jep-543-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "JDK 28 finalizes structured concurrency through JEP 543, with no API changes from JDK 27. Teams on JDK 27 only need to drop --enable-preview and recompile. Code written for JDK 25 or 26 must adapt to the R_X exception t…",
-      "ts": 1792420200,
-      "published": "2026-10-19T14:30:00+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "A hacker broke into John Deere and SharkNinja with an army of AI agents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.theverge.com/ai-artificial-intelligence/1013643/ai-agents-hack-john-deere-shark-ninja-cummins Comments URL: https://news.ycombinator.com/item?id=50152877 Points: 59 # Comments: 3",
-      "ts": 1792419797,
-      "published": "2026-10-19T14:23:17+00:00",
-      "collected_at": "2026-10-20T08:27:42+09:00"
-    },
-    {
-      "title": "How to Automate Your Workflow With Claude Code Hooks",
-      "link": "https://realpython.com/claude-code-hooks/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use Claude Code hooks that auto-format your Python code after every edit, enforce your chosen tools, and ping you when a task finishes.",
-      "ts": 1792418400,
-      "published": "2026-10-19T14:00:00+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "LangChain vs. LlamaIndex vs. Building From Scratch: Here’s What I Suggest",
-      "link": "https://www.kdnuggets.com/langchain-vs-llamaindex-vs-building-from-scratch-heres-what-i-suggest",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Choosing the right framework for your large language model application comes down to one question: what are you actually optimizing for?",
-      "ts": 1792418400,
-      "published": "2026-10-19T14:00:00+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "Can Conformal Prediction Take You from Accurate to Reliable Machine Learning?",
-      "link": "https://towardsdatascience.com/can-conformal-prediction-take-you-from-accurate-to-reliable-machine-learning/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "ML model adoption doesn't stop with acceptance of accuracy; it starts there. The post Can Conformal Prediction Take You from Accurate to Reliable Machine Learning? appeared first on Towards Data Science .",
-      "ts": 1792418400,
-      "published": "2026-10-19T14:00:00+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
-    },
-    {
-      "title": "“If you decide to write about this paper in your blog, please don’t mention my name. It is important to me to remain anonymous. . . . exposure might harm me or my students.”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/19/the-paper-creates-the-impression-that-a-certain-intervention-is-effective-while-in-fact-the-evidence-suggests-otherwise/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "So, this came in the email one day: I am a social psychologist, and I was asked to review a PNAS paper . . . I don’t consider myself an expert in statistics, but I could easily detect three types … Continue reading →",
-      "ts": 1792417355,
-      "published": "2026-10-19T13:42:35+00:00",
-      "collected_at": "2026-10-20T04:09:10+09:00"
     }
   ]
 }
