@@ -1,7 +1,17 @@
 {
-  "updated": "2026-11-19T06:11:36+09:00",
-  "count": 1254,
+  "updated": "2026-11-19T11:59:25+09:00",
+  "count": 1247,
   "items": [
+    {
+      "title": "v2.71.0 (2026-11-18)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.71.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Let Peers(network) join an InMemoryPeerNetwork under the agent's name , and rename PeerNetwork to PeerConnection by @dsfaccini in #13777 Add StavProvider for the Stav European infer…",
+      "ts": 1795054385,
+      "published": "2026-11-19T02:13:05+00:00",
+      "collected_at": "2026-11-19T11:59:16+09:00"
+    },
     {
       "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
       "link": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
@@ -51,6 +61,16 @@
       "ts": 1795021200,
       "published": "2026-11-18T17:00:00+00:00",
       "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
+      "link": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO…",
+      "ts": 1795020082,
+      "published": "2026-11-18T16:41:22+00:00",
+      "collected_at": "2026-11-19T11:59:16+09:00"
     },
     {
       "title": "1.15.42",
@@ -333,6 +353,26 @@
       "collected_at": "2026-11-19T06:11:27+09:00"
     },
     {
+      "title": "Research acceleration: The jagged frontier",
+      "link": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "ts": 1794988800,
+      "published": "2026-11-18T08:00:00+00:00",
+      "collected_at": "2026-11-19T11:59:16+09:00"
+    },
+    {
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "link": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "ts": 1794988800,
+      "published": "2026-11-18T08:00:00+00:00",
+      "collected_at": "2026-11-19T11:59:16+09:00"
+    },
+    {
       "title": "Stricter checks for uploaded distributions on PyPI",
       "link": "https://blog.pypi.org/posts/2026-11-18-stricter-checks-for-uploaded-sdists/",
       "source": "PyPI Blog",
@@ -461,6 +501,16 @@
       "ts": 1794960000,
       "published": "2026-11-18T00:00:00+00:00",
       "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Anthropic prices initial public offering",
+      "link": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Anthropic prices initial public offering",
+      "ts": 1794960000,
+      "published": "2026-11-18T00:00:00+00:00",
+      "collected_at": "2026-11-19T11:59:16+09:00"
     },
     {
       "title": "External sandboxes for coding agents",
@@ -12420,126 +12470,6 @@
       "summary": "The above-titled book, by the journalist Ruth Margalit, is a collection of profiles of political and cultural figures published between 2015 and 2026. It’s interesting and I learned a lot about these people and their di…",
       "ts": 1792465467,
       "published": "2026-10-20T03:04:27+00:00",
-      "collected_at": "2026-10-20T13:09:04+09:00"
-    },
-    {
-      "title": "[release-branch.go1.26] go1.26.10",
-      "link": "https://github.com/golang/go/releases/tag/go1.26.10",
-      "source": "Go Releases",
-      "category": "Go",
-      "summary": "Change-Id: I1c15150b8e64627cc3fdf015b599258ab4753fa0 Reviewed-on: https://go-review.googlesource.com/c/go/+/851205 Auto-Submit: Gopher Robot gobot@golang.org Reviewed-by: Carlos Amedee carlos@golang.org Reviewed-by: Dmi…",
-      "ts": 1792459571,
-      "published": "2026-10-20T01:26:11+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "[release-branch.go1.27] go1.27.3",
-      "link": "https://github.com/golang/go/releases/tag/go1.27.3",
-      "source": "Go Releases",
-      "category": "Go",
-      "summary": "Change-Id: Icf51c3e5809b43e3137f6e269b1196ec9f74626e Reviewed-on: https://go-review.googlesource.com/c/go/+/851146 TryBot-Bypass: Gopher Robot gobot@golang.org Reviewed-by: Dmitri Shuralyov dmitshur@google.com Reviewed-…",
-      "ts": 1792459566,
-      "published": "2026-10-20T01:26:06+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Show HN: Lights-on software factory boilerplate for Claude Code",
-      "link": "https://github.com/gojko/lights-on-software-factory",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "A starting point for running a lights-on software factory with Claude Code. Based on the setup developed for Votito, where the orchestrator reduced token cost compared to bare-bones Claude workflow execution by around 8…",
-      "ts": 1792459320,
-      "published": "2026-10-20T01:22:00+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "Upgrading from Java 21 to 25: What Actually Breaks",
-      "link": "https://foojay.io/today/upgrading-java-21-to-25-what-actually-breaks/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Seven changes between Java 21 and 25 that break builds, startup or behaviour, each reproduced on both JDKs, and how to find them before you upgrade.",
-      "ts": 1792454400,
-      "published": "2026-10-20T00:00:00+00:00",
-      "collected_at": "2026-10-20T13:09:04+09:00"
-    },
-    {
-      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
-      "link": "https://huggingface.co/blog/anylanguagemodel-1-0",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792454400,
-      "published": "2026-10-20T00:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "MPS in PyTorch 2.15",
-      "link": "https://huggingface.co/blog/mps-pytorch-2-15",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792454400,
-      "published": "2026-10-20T00:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Reflect, Transform, Accelerate: Bringing GPU Computing to Java",
-      "link": "https://inside.java/2026/10/20/devoxxbelgium-bringing-gpu-computing-to-java/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Java’s code reflection API, developed in OpenJDK Project Babylon, opens a new path to targeting foreign programming models directly from Java—including GPUs. This talk introduces the Heterogeneous Accelerator Toolkit (H…",
-      "ts": 1792454400,
-      "published": "2026-10-20T00:00:00+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "This Week in Spring - October 20th, 2026",
-      "link": "https://spring.io/blog/2026/10/20/this-week-in-spring-october-20th-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring ! It's almost Halloween! What're you going dressed as, if you celebrate? I'm going dressed as PHP code. (Terrifying!) We've got a ton of stuff to di…",
-      "ts": 1792454400,
-      "published": "2026-10-20T00:00:00+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "OpenAI acquires Orchestra Bio",
-      "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
-      "ts": 1792454400,
-      "published": "2026-10-20T00:00:00+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
-      "link": "https://huggingface.co/blog/hf-torchtpu",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792454400,
-      "published": "2026-10-20T00:00:00+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "Announcing rustup 1.29.2",
-      "link": "https://blog.rust-lang.org/2026/10/20/Rustup-1.29.2/",
-      "source": "Rust Blog",
-      "category": "Rust",
-      "summary": "The rustup team is happy to announce the release of rustup version 1.29.2. Rustup is the recommended tool to install Rust , a programming language that empowers everyone to build reliable and efficient software. What's…",
-      "ts": 1792454400,
-      "published": "2026-10-20T00:00:00+00:00",
-      "collected_at": "2026-11-03T22:46:05+09:00"
-    },
-    {
-      "title": "My obituary for programming",
-      "link": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "My obituary for programming Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code: Programming turned into one of the greatest jobs you c…",
-      "ts": 1792454305,
-      "published": "2026-10-19T23:58:25+00:00",
       "collected_at": "2026-10-20T13:09:04+09:00"
     }
   ]
