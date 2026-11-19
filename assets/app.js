@@ -106,6 +106,7 @@ function digestItem(h, dateLabel) {
   let html =
     `<div class="digest-head">` +
     `<span class="badge cat-${escapeHTML(h.category)}">${escapeHTML(h.category)}</span> ` +
+    (h.source ? `<span class="digest-src">${escapeHTML(h.source)}</span> ` : "") +
     `<a href="${escapeHTML(h.link)}" target="_blank" rel="noopener">${escapeHTML(h.title)}</a>` +
     (dateLabel ? ` <span class="digest-date">${escapeHTML(dateLabel)}</span>` : "") +
     `</div>`;
@@ -180,7 +181,7 @@ function renderArchive(data) {
   const articles = [];
   for (const d of digests) {
     for (const h of d.highlights || []) {
-      articles.push({ h, date: d.date, text: [d.date, h.category, h.title, h.summary, h.detail].filter(Boolean).join(" ") });
+      articles.push({ h, date: d.date, text: [d.date, h.category, h.source, h.title, h.summary, h.detail].filter(Boolean).join(" ") });
     }
   }
 
