@@ -1,7 +1,137 @@
 {
-  "updated": "2026-11-19T22:22:38+09:00",
-  "count": 1251,
+  "updated": "2026-11-20T05:14:29+09:00",
+  "count": 1246,
   "items": [
+    {
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Gemini spark on a space background",
+      "ts": 1795111200,
+      "published": "2026-11-19T18:00:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "1.15.44",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.44",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Features Add capability to save files as versioned, shareable artifacts. Bug Fixes Fix inline agent and crew action references relative to the flow file. Stop duplicating kept separators when merging chun…",
+      "ts": 1795111189,
+      "published": "2026-11-19T17:59:49+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+      "source": "Google AI",
+      "category": "AI",
+      "summary": "Walter Isaacson joins Google to discuss how history’s greatest innovators inspire creativity and human judgment in the AI age. Watch the episode.",
+      "ts": 1795107600,
+      "published": "2026-11-19T17:00:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "The 0.95 Expectile Is Not the 95th Percentile",
+      "link": "https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Exact uniform math and 100 synthetic Python runs show when to target 95% coverage and when asymmetric squared-error costs call for the expectile. The post The 0.95 Expectile Is Not the 95th Percentile appeared first on…",
+      "ts": 1795105800,
+      "published": "2026-11-19T16:30:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "What I Learned From Kaggle + Google’s Free Agentic AI Course",
+      "link": "https://www.kdnuggets.com/what-i-learned-from-kaggle-googles-free-agentic-ai-course",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Learn to build AI agents with Gemini and Google’s ADK through this free course, covering tools, memory, evaluation, and deployment.",
+      "ts": 1795100400,
+      "published": "2026-11-19T15:00:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "How to Run Claude Code and Other Coding Agents in the Cloud 24/7",
+      "link": "https://towardsdatascience.com/how-to-run-claude-code-and-other-coding-agents-in-the-cloud-247/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Two setups: flip Claude Code's cloud environment on for the quick path, or rent a server for full control. The post How to Run Claude Code and Other Coding Agents in the Cloud 24/7 appeared first on Towards Data Science…",
+      "ts": 1795100400,
+      "published": "2026-11-19T15:00:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "Presentation: AI-Assisted Software Delivery: From Code to Production",
+      "link": "https://www.infoq.com/presentations/ai-assisted-software-delivery/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "The panelists explore how engineering teams adapt delivery architectures, pipelines, security, and governance for AI-assisted development. They share practical strategies for verifying AI-generated code, solving testing…",
+      "ts": 1795098600,
+      "published": "2026-11-19T14:30:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "Can you help to identify psychology’s most important unanswered questions? Each winning question receives $400.",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/19/can-you-help-to-identify-psychologys-most-important-unanswered-questions-each-winning-question-receives-400/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Igor Scaldini writes: I am a research assistant at Clearer Research, where we are running the Unanswered Questions in Psychology Prize to collect the open questions the field most needs to answer. Each winning question…",
+      "ts": 1795097574,
+      "published": "2026-11-19T14:12:54+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "Model Compression Beyond Quantization",
+      "link": "https://machinelearningmastery.com/model-compression-beyond-quantization/",
+      "source": "ML Mastery",
+      "category": "DataScience",
+      "summary": "Overview This post is divided into three parts; they are: • Pruning and Sparsity • Structured Pruning • Knowledge Distillation Pruning and Sparsity Pruning sets selected model parameters to zero or removes larger struct…",
+      "ts": 1795097210,
+      "published": "2026-11-19T14:06:50+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "Build an AI Agent From Scratch in Python: The Agentic Loop",
+      "link": "https://realpython.com/agentic-loop/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how the agentic loop works by building a Python AI agent from scratch, with conversation context and tool calling in about 90 lines of code.",
+      "ts": 1795096800,
+      "published": "2026-11-19T14:00:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "Data Management With Python, SQLite, and SQLAlchemy",
+      "link": "https://realpython.com/python-sqlite-sqlalchemy/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Store and retrieve data with Python, SQLite, and SQLAlchemy. You'll compare flat files with SQL and work with your data as Python objects.",
+      "ts": 1795096800,
+      "published": "2026-11-19T14:00:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "Hy4 flash Draws a Python Reading a Book",
+      "link": "https://realpython.com/ai-benchmark-hy4-flash/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore Hy4 flash's Python code, turtle drawing, and responses to small tasks that check modern syntax, release knowledge, focused edits, and made-up functions.",
+      "ts": 1795096800,
+      "published": "2026-11-19T14:00:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
+    {
+      "title": "How to Oversee AI Agents at Scale With a Three-Tier Architecture",
+      "link": "https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Separate runtime oversight from human review: an autonomous supervisor handles reversible fixes, while humans approve high-impact changes. The post How to Oversee AI Agents at Scale With a Three-Tier Architecture appear…",
+      "ts": 1795095000,
+      "published": "2026-11-19T13:30:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
+    },
     {
       "title": "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer",
       "link": "https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -81,6 +211,16 @@
       "ts": 1795086000,
       "published": "2026-11-19T11:00:00+00:00",
       "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+      "ts": 1795075200,
+      "published": "2026-11-19T08:00:00+00:00",
+      "collected_at": "2026-11-20T05:14:24+09:00"
     },
     {
       "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
@@ -12321,196 +12461,6 @@
       "ts": 1792527818,
       "published": "2026-10-20T20:23:38+00:00",
       "collected_at": "2026-10-21T08:02:30+09:00"
-    },
-    {
-      "title": "Anthropic logged net loss of over $80B in first half of 2026",
-      "link": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20/ Comments URL: https://news.ycombinator.com/item?id=50171966 Points: 122 # Comments:…",
-      "ts": 1792526986,
-      "published": "2026-10-20T20:09:46+00:00",
-      "collected_at": "2026-10-21T12:57:28+09:00"
-    },
-    {
-      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
-      "link": "https://simonwillison.net/2026/Oct/20/battledrones/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "My latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones ( play it here ). Unlike my previous experiments , this one is actually fun to play . I'm somewhat emb…",
-      "ts": 1792524859,
-      "published": "2026-10-20T19:34:19+00:00",
-      "collected_at": "2026-10-21T08:02:30+09:00"
-    },
-    {
-      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
-      "link": "https://www.latent.space/p/sfcompute2",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "From GPU trading to physical settlement, independent markets, and programmable compute",
-      "ts": 1792524717,
-      "published": "2026-10-20T19:31:57+00:00",
-      "collected_at": "2026-10-21T08:02:30+09:00"
-    },
-    {
-      "title": "The Programmable Data Center — Evan Conrad, SF Compute",
-      "link": "https://latent.space/p/sfcompute2/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "From GPU trading to physical settlement, independent markets, and programmable compute",
-      "ts": 1792524717,
-      "published": "2026-10-20T19:31:57+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
-      "link": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792520267,
-      "published": "2026-10-20T18:17:47+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "TypeScript 7.1 Beta",
-      "link": "https://github.com/microsoft/TypeScript/releases/tag/v7.1-beta",
-      "source": "TypeScript Releases",
-      "category": "TypeScript",
-      "summary": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/ Downloads are available on npm .",
-      "ts": 1792519218,
-      "published": "2026-10-20T18:00:18+00:00",
-      "collected_at": "2026-11-03T22:46:05+09:00"
-    },
-    {
-      "title": "Announcing TypeScript 7.1 Beta",
-      "link": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-1-beta/",
-      "source": "TypeScript Blog",
-      "category": "TypeScript",
-      "summary": "Today we’re excited to announce the beta release of TypeScript 7.1! npm install -D typescript@beta Let’s take a look at what’s new in TypeScript 7.1! Support for Import Attributes in Ambient Modules Import attributes ar…",
-      "ts": 1792518786,
-      "published": "2026-10-20T17:53:06+00:00",
-      "collected_at": "2026-11-03T22:46:05+09:00"
-    },
-    {
-      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
-      "link": "https://research.poh.org/bot-benchmarking-2026/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://research.poh.org/bot-benchmarking-2026/ Comments URL: https://news.ycombinator.com/item?id=50169506 Points: 50 # Comments: 8",
-      "ts": 1792516231,
-      "published": "2026-10-20T17:10:31+00:00",
-      "collected_at": "2026-11-03T12:37:22+09:00"
-    },
-    {
-      "title": "Whoops: Grok Bot Spills Tech CEO's Bank Data in Public Slack",
-      "link": "https://www.techdirt.com/2026/10/19/whoops-grok-bot-spills-tech-ceos-bank-data-in-public-slack/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.techdirt.com/2026/10/19/whoops-grok-bot-spills-tech-ceos-bank-data-in-public-slack/ Comments URL: https://news.ycombinator.com/item?id=50169169 Points: 15 # Comments: 6",
-      "ts": 1792514902,
-      "published": "2026-10-20T16:48:22+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
-      "link": "https://huggingface.co/blog/allenai/fairstress",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792512559,
-      "published": "2026-10-20T16:09:19+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "Synthetic-to-Real Transfer with Frozen DINOv3 Features",
-      "link": "https://towardsdatascience.com/synthetic-to-real-transfer-with-frozen-dinov3-features/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Training models on procedurally generated datasets for card detection and segmentation The post Synthetic-to-Real Transfer with Frozen DINOv3 Features appeared first on Towards Data Science .",
-      "ts": 1792510200,
-      "published": "2026-10-20T15:30:00+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "The new economics of enterprise AI",
-      "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, e…",
-      "ts": 1792509625,
-      "published": "2026-10-20T15:20:25+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
-      "link": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792509588,
-      "published": "2026-10-20T15:19:48+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "Tell Your Tech Career Story: Proof, CVs, and Interviews",
-      "link": "https://realpython.com/courses/tell-your-tech-career-story/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Turn your experience into a clear career story with achievement stories, proof of skills, a tailored CV, and interview practice with Mentor AI.",
-      "ts": 1792504800,
-      "published": "2026-10-20T14:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Building an AI Agent With LangGraph and Python",
-      "link": "https://realpython.com/courses/building-ai-agent-langgraph-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn LangGraph in Python with this hands-on video course and build a stateful AI agent using state graphs, nodes, and conditional edges.",
-      "ts": 1792504800,
-      "published": "2026-10-20T14:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "The Roadmap to Becoming an AI Product Manager in 2026",
-      "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-product-manager-in-2026",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "A structured four-phase roadmap for building the technical fluency, evaluation skills, and governance literacy needed to succeed as an AI product manager in 2026.",
-      "ts": 1792504800,
-      "published": "2026-10-20T14:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Skill or MCP Server? Ask What Stops the LLM From Disobeying",
-      "link": "https://towardsdatascience.com/skill-or-mcp-server-ask-what-stops-the-llm-from-disobeying/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Towards Spec-Driven Test Automation, Part 4 The post Skill or MCP Server? Ask What Stops the LLM From Disobeying appeared first on Towards Data Science .",
-      "ts": 1792504800,
-      "published": "2026-10-20T14:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "How to Use Claude Code Skills for Better Python Docstrings",
-      "link": "https://realpython.com/claude-code-skills/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use Claude Code skills to write consistent Python docstrings, with style references and a helper script you can reuse in every project.",
-      "ts": 1792504800,
-      "published": "2026-10-20T14:00:00+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "CmdStanR 1.0 release candidate is now available!",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/20/cmdstanr-1-0-release-candidate-is-now-available/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Jonah writes: I’m happy to announce that a release candidate for CmdStanR 1.0 is ready and available for testing! This will be by far the biggest release since the initial release of the package. One of the main changes…",
-      "ts": 1792503505,
-      "published": "2026-10-20T13:38:25+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
     }
   ]
 }
