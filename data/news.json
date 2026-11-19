@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-19T20:27:47+09:00",
-  "count": 1250,
+  "updated": "2026-11-19T21:41:23+09:00",
+  "count": 1247,
   "items": [
+    {
+      "title": "Quiz: Exploring the Python math Module",
+      "link": "https://realpython.com/quizzes/exploring-python-math-module/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your knowledge of Python's math module, from constants and rounding to logarithms, gcd(), and isqrt(), plus how it compares with cmath and NumPy.",
+      "ts": 1795089600,
+      "published": "2026-11-19T12:00:00+00:00",
+      "collected_at": "2026-11-19T21:41:19+09:00"
+    },
+    {
+      "title": "Analytics Engineering's Missing Layer Is Business Communication",
+      "link": "https://towardsdatascience.com/analytics-engineerings-missing-layer-is-business-communication/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Why grains, joins, filters, and tests need business translations, and how a four-step framework keeps stakeholders from misreading metric changes. The post Analytics Engineering's Missing Layer Is Business Communication…",
+      "ts": 1795089600,
+      "published": "2026-11-19T12:00:00+00:00",
+      "collected_at": "2026-11-19T21:41:19+09:00"
+    },
+    {
+      "title": "Gemini 4 Neon Review: Benchmarks, Pricing, and Performance",
+      "link": "https://www.analyticsvidhya.com/blog/2026/11/gemini-4-neon-review/",
+      "source": "Analytics Vidhya",
+      "category": "AI",
+      "summary": "Can an AI model write working code and still miscount a simple beep? Google’s Gemini 4 Neon targets demanding work, from coding to finding answers across files, but our tests revealed an interesting gap between handling…",
+      "ts": 1795088323,
+      "published": "2026-11-19T11:38:43+00:00",
+      "collected_at": "2026-11-19T21:41:19+09:00"
+    },
     {
       "title": "Presentation: RIIIR: Rewrite It In *Idiomatic* Rust (with AI)",
       "link": "https://www.infoq.com/presentations/rust-ai-symposium-agent-client-protocol/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -111,6 +141,16 @@
       "ts": 1795046400,
       "published": "2026-11-19T00:00:00+00:00",
       "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: JobRunr founder Ronald Dehuysser",
+      "link": "https://spring.io/blog/2026/11/19/a-bootiful-podcast-november-19th-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! Come listen in on a conversation you won’t want to miss: a deep dive into JobRunner 9 with its creator, Ronald Dehuysser. If you care about distributed processing in the Java and Spring Boot ecosystem,…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-19T21:41:19+09:00"
     },
     {
       "title": "llm-gemini 0.38",
@@ -361,6 +401,16 @@
       "ts": 1795010400,
       "published": "2026-11-18T14:00:00+00:00",
       "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Combining Data in pandas With merge(), .join(), and concat()",
+      "link": "https://realpython.com/pandas-merge-join-and-concat/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to combine data in pandas with merge(), .join(), and concat(), and when to use each one to unify your Series and DataFrame objects.",
+      "ts": 1795010400,
+      "published": "2026-11-18T14:00:00+00:00",
+      "collected_at": "2026-11-19T21:41:19+09:00"
     },
     {
       "title": "When Qini Rewards the Wrong Uplift Model, Use Doubly Robust Scores",
@@ -1101,6 +1151,16 @@
       "ts": 1794873600,
       "published": "2026-11-17T00:00:00+00:00",
       "collected_at": "2026-11-18T06:35:28+09:00"
+    },
+    {
+      "title": "This Week in Spring - November 17th, 2026",
+      "link": "https://spring.io/blog/2026/11/17/this-week-in-spring-november-17th-2026",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring ! I've literally just touched down in gorgeous Thessaloniki, Greece for the Voxxed Days Thessaloniki event. I'm so excited! We've got a ton of stuff…",
+      "ts": 1794873600,
+      "published": "2026-11-17T00:00:00+00:00",
+      "collected_at": "2026-11-19T21:41:19+09:00"
     },
     {
       "title": "llm 0.37.3",
@@ -12410,96 +12470,6 @@
       "summary": "Jonah writes: I’m happy to announce that a release candidate for CmdStanR 1.0 is ready and available for testing! This will be by far the biggest release since the initial release of the package. One of the main changes…",
       "ts": 1792503505,
       "published": "2026-10-20T13:38:25+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "The Hidden Cost of LLM Routing: Why Switching Models Costs More",
-      "link": "https://towardsdatascience.com/the-hidden-cost-of-llm-routing-why-switching-models-costs-more/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "I tested LLM routing to understand why switching models mid-session can erase the savings promised by cheaper inference The post The Hidden Cost of LLM Routing: Why Switching Models Costs More appeared first on Towards…",
-      "ts": 1792499400,
-      "published": "2026-10-20T12:30:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "AI adoption by industry shows what other sectors can learn",
-      "link": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first…",
-      "ts": 1792497600,
-      "published": "2026-10-20T12:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Quiz: Tell Your Tech Career Story: Get Noticed",
-      "link": "https://realpython.com/quizzes/tell-your-tech-career-story-get-noticed/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check how well you can make your profile findable, choose target companies, and write outreach messages that get replies.",
-      "ts": 1792497600,
-      "published": "2026-10-20T12:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Quiz: Tell Your Tech Career Story: Write a Tailored CV",
-      "link": "https://realpython.com/quizzes/tell-your-tech-career-story-tailored-cv/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check how well you can judge CV bullets, structure, tailoring, and cover letters for the readers who actually read them.",
-      "ts": 1792497600,
-      "published": "2026-10-20T12:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Quiz: Tell Your Tech Career Story: Show Proof of Your Skills",
-      "link": "https://realpython.com/quizzes/tell-your-tech-career-story-show-proof/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check how well you can tell claims from proof, choose lead projects, write them up, and point your profile at them.",
-      "ts": 1792497600,
-      "published": "2026-10-20T12:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Quiz: Building an AI Agent With LangGraph and Python",
-      "link": "https://realpython.com/quizzes/building-ai-agent-langgraph-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of LangGraph state graphs, nodes, edges, and tools, and see how well you can follow an AI agent through its workflow.",
-      "ts": 1792497600,
-      "published": "2026-10-20T12:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Quiz: Tell Your Tech Career Story: Tell Your Story in Interviews",
-      "link": "https://realpython.com/quizzes/tell-your-tech-career-story-interviews/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check how well you can tell your career story in interviews, from your pitch to behavioral answers, project deep dives, and hard questions.",
-      "ts": 1792497600,
-      "published": "2026-10-20T12:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Quiz: Tell Your Tech Career Story: Know Your Story",
-      "link": "https://realpython.com/quizzes/tell-your-tech-career-story-know-your-story/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Check how well you can map a target role and turn your experience into honest achievement stories and a positioning statement.",
-      "ts": 1792497600,
-      "published": "2026-10-20T12:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "5 Docker Containers for Devs",
-      "link": "https://www.kdnuggets.com/5-docker-containers-for-devs",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Five self-hosted Docker containers replace the public utility sites where developer data quietly leaks. Learn which ones handle JWT decoding, data transformation, file conversion, API testing, and diagram rendering loca…",
-      "ts": 1792497600,
-      "published": "2026-10-20T12:00:00+00:00",
       "collected_at": "2026-10-20T23:49:57+09:00"
     }
   ]
