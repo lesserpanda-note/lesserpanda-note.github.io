@@ -1,7 +1,67 @@
 {
-  "updated": "2026-11-19T11:59:25+09:00",
-  "count": 1247,
+  "updated": "2026-11-19T20:27:47+09:00",
+  "count": 1250,
   "items": [
+    {
+      "title": "Presentation: RIIIR: Rewrite It In *Idiomatic* Rust (with AI)",
+      "link": "https://www.infoq.com/presentations/rust-ai-symposium-agent-client-protocol/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Nicholas Matsakis shares why AI makes Rust the ideal choice for modern production systems, skipping steep adoption hurdles via compiler guardrails. He discusses Symposium - an open-source, agent-oriented toolchain from…",
+      "ts": 1795086000,
+      "published": "2026-11-19T11:00:00+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "Presentation: RIIIR: Rewrite It In *Idiomatic* Rust (with AI)",
+      "link": "https://www.infoq.com/presentations/rust-ai-symposium-agent-client-protocol/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Nicholas Matsakis shares why AI makes Rust the ideal choice for modern production systems, skipping steep adoption hurdles via compiler guardrails. He discusses Symposium - an open-source, agent-oriented toolchain from…",
+      "ts": 1795086000,
+      "published": "2026-11-19T11:00:00+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "Visualizing Information Entropy in Language Models",
+      "link": "https://machinelearningmastery.com/visualizing-information-entropy-in-language-models/",
+      "source": "ML Mastery",
+      "category": "AI",
+      "summary": "In this article, you will learn how information entropy and cross-entropy loss connect classical information theory to the way large language models are trained to...",
+      "ts": 1795086000,
+      "published": "2026-11-19T11:00:00+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "[AINews] Gemini 4 Neon: GDM's Opus/Sol Contender",
+      "link": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 18, 2026 — Google’s middle tier scores 61 on the Intelligence Index. Plus, Anthropic prices its IPO at $83.",
+      "ts": 1795072063,
+      "published": "2026-11-19T07:07:43+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "1.15.43",
+      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.43",
+      "source": "CrewAI",
+      "category": "Agents",
+      "summary": "What's Changed Bug Fixes Fix detection of multimodal support for Claude 5. Documentation Update snapshot and changelog for v1.15.42. Contributors Vidit Ostwal (@Vidit-Ostwal) , Anubhav Lal (@anubhavlal07) , João Moura (…",
+      "ts": 1795061567,
+      "published": "2026-11-19T04:12:47+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "Discord Rewrites Desktop and Mobile Clients in Rust Using Zed's GPU-Accelerated Rendering Framework",
+      "link": "https://www.infoq.com/news/2026/11/discord-rust-rewrite-gpui-zed/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Discord’s CTO Stanislav Vishnevskiy recently announced rewriting its desktop and mobile clients in Rust, moving away from Electron and React Native. The project eliminates layers of abstraction to directly leverage the…",
+      "ts": 1795057920,
+      "published": "2026-11-19T03:12:00+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
     {
       "title": "v2.71.0 (2026-11-18)",
       "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.71.0",
@@ -11,6 +71,56 @@
       "ts": 1795054385,
       "published": "2026-11-19T02:13:05+00:00",
       "collected_at": "2026-11-19T11:59:16+09:00"
+    },
+    {
+      "title": "Your Agent's Tool Calls Will Run Twice: Idempotency and Evaluation Gates in Java Services",
+      "link": "https://foojay.io/today/agent-tool-calls-run-twice/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Why every LLM tool call eventually runs twice, and how idempotency keys plus evaluation gates make that safe in Java services.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "One Does Not Simply Vibe-Code My Executor",
+      "link": "https://foojay.io/today/one-does-not-simply-vibe-code-my-executor/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A coding assistant was given a real feature request against the execution engine of an open-source orchestrator. Three pull requests later, the code was plausible and still wrong. The author, who maintains that engine,…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "Idempotent Spring Boot: From 0.1 to 1.1 — Lessons in Reliability, Performance, and Open Source",
+      "link": "https://foojay.io/today/idempotent-spring-boot-1-1/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "How an idempotent Spring Boot starter evolved from 0.1 to 1.1: exactly-once JDBC, production fixes, a stability promise, and a first outside contribution.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "Ahead-of-Time Method Profiling: Method Profiles in the AOT Cache (JEP 515)",
+      "link": "https://foojay.io/today/ahead-of-time-method-profiling/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Since Java 25, the AOT cache holds method profiles. They shorten the warmup – and cost speed in the long run. Measured and explained.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "llm-gemini 0.38",
+      "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was H…",
+      "ts": 1795046360,
+      "published": "2026-11-18T23:59:20+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
     },
     {
       "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
@@ -41,6 +151,26 @@
       "ts": 1795025622,
       "published": "2026-11-18T18:13:42+00:00",
       "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
+      "link": "https://news.ycombinator.com/item?id=50549188",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh ). We're building an agent-native cloud that handles everything from custom environments to lifecycle management for AI agents. Demo: https://www…",
+      "ts": 1795022788,
+      "published": "2026-11-18T17:26:28+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
+      "title": "datasette-arrows 0.1a0",
+      "link": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table…",
+      "ts": 1795021799,
+      "published": "2026-11-18T17:09:59+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
     },
     {
       "title": "The Gemini app is now available on lower-memory Android devices.",
@@ -93,6 +223,16 @@
       "collected_at": "2026-11-19T06:11:27+09:00"
     },
     {
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "link": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/ Comments URL: https://news.ycombinator.com/item?id=50547901 Points: 50 # Comments: 0",
+      "ts": 1795017544,
+      "published": "2026-11-18T15:59:04+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
+    },
+    {
       "title": "Quoting Daniel Stenberg",
       "link": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
       "source": "Simon Willison",
@@ -101,6 +241,16 @@
       "ts": 1795017507,
       "published": "2026-11-18T15:58:27+00:00",
       "collected_at": "2026-11-19T06:11:27+09:00"
+    },
+    {
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "link": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/ Comments URL: https://news.ycombinator.com/item?id=50547777 Points: 466 # Comments: 225",
+      "ts": 1795016974,
+      "published": "2026-11-18T15:49:34+00:00",
+      "collected_at": "2026-11-19T20:27:37+09:00"
     },
     {
       "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
@@ -12351,126 +12501,6 @@
       "ts": 1792497600,
       "published": "2026-10-20T12:00:00+00:00",
       "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Presentation: Beyond the Prototype: Scaling Framework Agnostic AI Agent Infrastructure with Ray",
-      "link": "https://www.infoq.com/presentations/scale-llm-agents-production-ray/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "The speakers discuss transitioning AI agents from local FastAPI prototypes to resilient production systems on Kubernetes using Ray. They share operational insights on RayCluster topology, stateful memory handling, auto-…",
-      "ts": 1792494000,
-      "published": "2026-10-20T11:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "Presentation: Beyond the Prototype: Scaling Framework Agnostic AI Agent Infrastructure with Ray",
-      "link": "https://www.infoq.com/presentations/scale-llm-agents-production-ray/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "The speakers discuss transitioning AI agents from local FastAPI prototypes to resilient production systems on Kubernetes using Ray. They share operational insights on RayCluster topology, stateful memory handling, auto-…",
-      "ts": 1792494000,
-      "published": "2026-10-20T11:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones",
-      "link": "https://towardsdatascience.com/whats-in-the-box-distinguishing-acceptable-traces-from-unacceptable-ones/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Turn scattered requirements into deployable agents The post What's in the Box? Distinguishing Acceptable Traces from Unacceptable Ones appeared first on Towards Data Science .",
-      "ts": 1792494000,
-      "published": "2026-10-20T11:00:00+00:00",
-      "collected_at": "2026-10-20T23:49:57+09:00"
-    },
-    {
-      "title": "pgvector vs. Dedicated Vector Databases: A Production Benchmark",
-      "link": "https://machinelearningmastery.com/pgvector-vs-dedicated-vector-databases-a-production-benchmark/",
-      "source": "ML Mastery",
-      "category": "Agents",
-      "summary": "Run this on a typical laptop and both systems will report latencies in the low single-digit to tens of milliseconds range, with the exact numbers depending heavily on your CPU, available RAM, and whatever else is runnin…",
-      "ts": 1792494000,
-      "published": "2026-10-20T11:00:00+00:00",
-      "collected_at": "2026-11-04T06:42:10+09:00"
-    },
-    {
-      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
-      "link": "https://openai.com/index/ted-taylor-restaurant",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
-      "ts": 1792490400,
-      "published": "2026-10-20T10:00:00+00:00",
-      "collected_at": "2026-10-21T04:03:04+09:00"
-    },
-    {
-      "title": "A visit to Samsung’s massive new semiconductor hub",
-      "link": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconducto…",
-      "ts": 1792486800,
-      "published": "2026-10-20T09:00:00+00:00",
-      "collected_at": "2026-10-20T18:52:32+09:00"
-    },
-    {
-      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
-      "link": "https://openai.com/index/terminal-x",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
-      "ts": 1792479600,
-      "published": "2026-10-20T07:00:00+00:00",
-      "collected_at": "2026-10-21T12:57:28+09:00"
-    },
-    {
-      "title": "[AINews] not much happened today",
-      "link": "https://www.latent.space/p/ainews-not-much-happened-today-f09",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they’re not going to be in super wide use just yet.",
-      "ts": 1792473712,
-      "published": "2026-10-20T05:21:52+00:00",
-      "collected_at": "2026-10-20T18:52:32+09:00"
-    },
-    {
-      "title": "[AINews] not much happened today",
-      "link": "https://latent.space/p/ainews-not-much-happened-today-f09/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Congrats to DeepSeek V4.1 Flash 1017, MiniMax M3.1 Flash, and Mercury 3 (details below) but they’re not going to be in super wide use just yet.",
-      "ts": 1792473712,
-      "published": "2026-10-20T05:21:52+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "v1.107.8 (2026-10-19)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.8",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "This comment was posted by codex-tui using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security Medium — MCP request telemetry: GHSA-xv4x-g8mx-ch56 . Provider-native MCP configuration could expose server URLs, aut…",
-      "ts": 1792472327,
-      "published": "2026-10-20T04:58:47+00:00",
-      "collected_at": "2026-10-20T18:52:32+09:00"
-    },
-    {
-      "title": "v2.58.0 (2026-10-19)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.58.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "This comment was posted by codex-tui using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security Medium — MCP request telemetry: GHSA-xv4x-g8mx-ch56 . Provider-native MCP configuration could expose server URLs, aut…",
-      "ts": 1792472312,
-      "published": "2026-10-20T04:58:32+00:00",
-      "collected_at": "2026-10-20T18:52:32+09:00"
-    },
-    {
-      "title": "“In the belly of the whale: Portraits from a fractured Israel”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/19/in-the-belly-of-the-whale-portraits-from-a-fractured-israel/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "The above-titled book, by the journalist Ruth Margalit, is a collection of profiles of political and cultural figures published between 2015 and 2026. It’s interesting and I learned a lot about these people and their di…",
-      "ts": 1792465467,
-      "published": "2026-10-20T03:04:27+00:00",
-      "collected_at": "2026-10-20T13:09:04+09:00"
     }
   ]
 }
