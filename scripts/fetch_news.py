@@ -87,7 +87,10 @@ FEEDS = [
     # Models / LLM trends folded into AI (weekly newsletters + local-LLM releases).
     ("https://ollama.com/blog/rss.xml", "Ollama", "AI"),
     ("https://magazine.sebastianraschka.com/feed", "Ahead of AI", "AI"),
-    ("https://importai.substack.com/feed", "Import AI", "AI"),
+    # Import AI from the author's WordPress mirror: Substack's Cloudflare answered 403 to
+    # GitHub Actions on 35 of 40 runs (2026-11-20), so issues arrived days late. Same
+    # posts, same timestamps, no Cloudflare in front.
+    ("https://jack-clark.net/feed/", "Import AI", "AI"),
     ("https://hnrss.org/newest?q=Grok&points=10", "Hacker News", "AI"),
     ("https://hnrss.org/newest?q=Llama&points=10", "Hacker News", "AI"),
     # The model library itself — releases carry new architectures + security fixes.
