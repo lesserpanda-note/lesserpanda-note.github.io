@@ -106,6 +106,9 @@ main {
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 1.2rem 1.3rem;
+  /* Digest text carries long unbroken tokens (config keys, URLs, "A·B·C" lists);
+     without this they set the panel's min width and the page scrolls sideways on phones. */
+  overflow-wrap: anywhere;
 }
 .panel h2 { margin: 0.2rem 0 1rem; font-size: 1.25rem; }
 

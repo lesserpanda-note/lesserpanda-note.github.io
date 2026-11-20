@@ -414,6 +414,11 @@ def main() -> int:
 SECURITY_OUT = ROOT / "data" / "security.json"
 SECURITY_RETENTION_DAYS = 365
 GO_LOOKBACK_DAYS = 90  # vuln.go.dev needs one request per ID, so only fetch recent ones
+# Stored advisories are re-fetched while they may still change: a Go entry modified in
+# the last two days (the index says when), an OpenJDK advisory for 30 days after its
+# date (the index gives no modified time, and pages gain fixes after release).
+GO_REFRESH_DAYS = 2
+OPENJDK_REFRESH_DAYS = 30
 
 ORACLE_FEED = "https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/rss-otn-sec.xml"
 OPENJDK_INDEX = "https://openjdk.org/groups/vulnerability/advisories/"
@@ -512,6 +517,22 @@ def recent_go_ids(index: list[dict], since: str) -> list[str]:
     return sorted(ids, reverse=True)
 
 
+def go_ids_to_fetch(index: list[dict], known: set[str], now: datetime) -> list[str]:
+    """Recent Go IDs not stored yet, plus stored ones the index shows as just modified."""
+    def since(days: int) -> str:
+        return (now - timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    changed = set(recent_go_ids(index, since(GO_REFRESH_DAYS)))
+    return [i for i in recent_go_ids(index, since(GO_LOOKBACK_DAYS))
+            if i in changed or f"https://pkg.go.dev/vuln/{i}" not in known]
+
+
+def openjdk_dates_to_fetch(dates: list[str], known: set[str], now: datetime) -> list[str]:
+    """Advisory dates within retention that are new, or recent enough to still change."""
+    cutoff = (now - timedelta(days=SECURITY_RETENTION_DAYS)).date().isoformat()
+    refresh = (now - timedelta(days=OPENJDK_REFRESH_DAYS)).date().isoformat()
+    return [d for d in dates if d >= cutoff and (d >= refresh or OPENJDK_INDEX + d not in known)]
+
+
 def parse_go_entry(entry: dict) -> dict:
     vid = entry["id"]
     return advisory(
@@ -566,19 +587,16 @@ def _get(url: str) -> bytes:
 def fetch_security(known: set[str], now: datetime) -> list[dict]:
     """Collect from every source. A failing source logs and contributes nothing, so one
     dead endpoint never costs the others (or the news run) their results. OpenJDK and Go
-    need one request per advisory, so those skip what is already stored."""
-    cutoff_date = (now - timedelta(days=SECURITY_RETENTION_DAYS)).date().isoformat()
+    need one request per advisory, so those skip stored ones that can no longer change."""
 
     def openjdk() -> list[dict]:
-        dates = [d for d in parse_openjdk_index(_get(OPENJDK_INDEX).decode("utf-8", "replace"))
-                 if d >= cutoff_date and OPENJDK_INDEX + d not in known]
+        index = parse_openjdk_index(_get(OPENJDK_INDEX).decode("utf-8", "replace"))
+        dates = openjdk_dates_to_fetch(index, known, now)
         return [parse_openjdk_advisory(_get(OPENJDK_INDEX + d).decode("utf-8", "replace"), d)
                 for d in dates]
 
     def go() -> list[dict]:
-        since = (now - timedelta(days=GO_LOOKBACK_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
-        ids = [i for i in recent_go_ids(json.loads(_get(GO_INDEX)), since)
-               if f"https://pkg.go.dev/vuln/{i}" not in known]
+        ids = go_ids_to_fetch(json.loads(_get(GO_INDEX)), known, now)
         with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
             return list(pool.map(lambda i: parse_go_entry(json.loads(_get(f"https://vuln.go.dev/ID/{i}.json"))), ids))
 
