@@ -14,6 +14,8 @@ import os
 import re
 import socket
 import sys
+import time
+import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
@@ -168,6 +170,10 @@ RETENTION_DAYS = 30  # keep ~1 month; items older than this are dropped on each 
 SUMMARY_CHARS = 220
 REQUEST_TIMEOUT = 20  # seconds per feed
 MAX_WORKERS = 8  # feeds are network-bound; fetch them concurrently, not one by one
+# Waits before each retry of a transient failure. hnrss.org answered 502 to some or all
+# of the seven HN queries on 15 of 30 hourly runs (2026-11-20), and a second try a few
+# seconds later usually lands; a 4xx is the server's answer, so it is not retried.
+RETRY_DELAYS = (3, 10)
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "news.json"
@@ -247,6 +253,25 @@ def entry_epoch(entry) -> int | None:
     return None
 
 
+def _transient(exc: Exception) -> bool:
+    if isinstance(exc, urllib.error.HTTPError):
+        return exc.code >= 500 or exc.code == 429
+    return isinstance(exc, (urllib.error.URLError, TimeoutError, socket.timeout, ConnectionError))
+
+
+def read_url(req: urllib.request.Request) -> bytes:
+    """GET with a hard timeout, retrying 5xx, 429 and network errors per RETRY_DELAYS."""
+    for delay in (*RETRY_DELAYS, None):
+        try:
+            with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
+                return resp.read()
+        except Exception as exc:
+            if delay is None or not _transient(exc):
+                raise
+            time.sleep(delay)
+    raise AssertionError("unreachable")
+
+
 def fetch_feed(url: str, source: str, category: str, collected_at: str) -> list[dict]:
     items: list[dict] = []
     try:
@@ -254,9 +279,7 @@ def fetch_feed(url: str, source: str, category: str, collected_at: str) -> list[
         # feedparser.parse(url) does its own network I/O that can hang for many
         # minutes past socket timeouts on a slow feed; urlopen(timeout=...) caps it
         # so one bad feed can't stall the whole build.
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-        with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
-            raw = resp.read()
+        raw = read_url(urllib.request.Request(url, headers={"User-Agent": USER_AGENT}))
         parsed = feedparser.parse(raw)
     except Exception as exc:  # network/parse blow-ups must not kill the run
         print(f"  ! {source}: {exc}", file=sys.stderr)
@@ -598,9 +621,7 @@ def _get(url: str) -> bytes:
     # share IPs; the workflow's own token lifts that.
     if url.startswith("https://api.github.com/") and os.environ.get("GITHUB_TOKEN"):
         headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
-    req = urllib.request.Request(url, headers=headers)
-    with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
-        return resp.read()
+    return read_url(urllib.request.Request(url, headers=headers))
 
 
 def fetch_security(known: set[str], now: datetime) -> list[dict]:
