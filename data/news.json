@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-20T12:38:11+09:00",
+  "updated": "2026-11-20T18:16:48+09:00",
   "count": 1292,
   "items": [
+    {
+      "title": "Article: Building Reliability Into the Cloud: Observability as the Control Plane for Multi-Region Failover",
+      "link": "https://www.infoq.com/articles/observability-control-plane-failover/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Cloud SLAs promise uptime statistically, not absolutely. This article shows how to treat observability as a control plane that detects regional degradation, triggers automated failover, and confirms recovery rather than…",
+      "ts": 1795165200,
+      "published": "2026-11-20T09:00:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "[AINews] Anthropic successfully completes largest IPO in history, valued at $1.5T",
+      "link": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 19, 2026 — ANT went from $83 at pricing to $111.50 at the open and $97.17 at the close. Plus, Google opens Genie 4 to developers.",
+      "ts": 1795158744,
+      "published": "2026-11-20T07:12:24+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "AWS Releases a Free Local Emulator of AWS Built Entirely by Agents",
+      "link": "https://www.infoq.com/news/2026/11/aws-emulator-local-testing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "AWS has released AWS Emulator, a free, CC0-licensed local stand-in for more than 200 of its services, generated from its public API models and aimed at the test loops of coding agents. AWS says agents wrote and maintain…",
+      "ts": 1795157580,
+      "published": "2026-11-20T06:53:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "AWS Releases a Free Local Emulator of AWS Built Entirely by Agents",
+      "link": "https://www.infoq.com/news/2026/11/aws-emulator-local-testing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS has released AWS Emulator, a free, CC0-licensed local stand-in for more than 200 of its services, generated from its public API models and aimed at the test loops of coding agents. AWS says agents wrote and maintain…",
+      "ts": 1795157580,
+      "published": "2026-11-20T06:53:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
     {
       "title": "Token fraud is here and it’s BAD (YouTube)",
       "link": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
@@ -11,6 +51,76 @@
       "ts": 1795142997,
       "published": "2026-11-20T02:49:57+00:00",
       "collected_at": "2026-11-20T12:37:49+09:00"
+    },
+    {
+      "title": "JEP targeted to JDK 28: 547: Lazy Constants (4th Preview)",
+      "link": "https://inside.java/2026/11/20/jep547-target-jdk28/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "The following JEP is targeted to JDK 28: 547: Lazy Constants (Fourth Preview)",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "Small, Signed, and Still Vulnerable? What Really Makes a Java Container Secure",
+      "link": "https://foojay.io/today/what-makes-java-containers-secure/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Small, distroless, signed, and scanned clean, yet vulnerable? Six Java container security myths taken apart and gaps closed.",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "Porto TechHub 2026",
+      "link": "https://foojay.io/today/porto-techhub-2026/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Notes from Porto TechHub 2026: Embabel and agentic AI planning, a comparison of Spring AI, LangChain4j, and Embabel, and the new defaults in Git 3.",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "Paging DTO Projections in Spring Data JPA: Three Approaches Compared",
+      "link": "https://foojay.io/today/paging-dto-projections-spring-data-jpa/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Constructor expressions, interface projections and generated read models: what each costs when a list screen needs paging and optional filters.",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "Building a full-stack web app using only Java, in 5 small classes",
+      "link": "https://foojay.io/today/build-full-stack-web-app-in-java-with-webforj/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Build a full-stack web app using only Java: one Maven command, a table backed by Spring Data and a validated form in 5 classes, no JavaScript.",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "Spring Boot 4.0.10 available now",
+      "link": "https://spring.io/blog/2026/11/20/spring-boot-4-0-10-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 4.0.10 has been released and is now available from Maven Central. This release includes 97 bug fixes, documentation improvem…",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "Spring Boot 4.1.3 available now",
+      "link": "https://spring.io/blog/2026/11/20/spring-boot-4-1-3-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 4.1.3 has been released and is now available from Maven Central. This release includes 112 bug fixes, documentation improvem…",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
     },
     {
       "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
@@ -921,6 +1031,16 @@
       "ts": 1795046400,
       "published": "2026-11-19T00:00:00+00:00",
       "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "Spring Boot 4.2.0 available now",
+      "link": "https://spring.io/blog/2026/11/19/spring-boot-4-2-0-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 4.2.0 has been released and is now available from Maven Central. This release includes a number of improvements, new feature…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:16:42+09:00"
     },
     {
       "title": "llm-gemini 0.38",
@@ -12801,126 +12921,6 @@
       "ts": 1792576800,
       "published": "2026-10-21T10:00:00+00:00",
       "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "Article: Distributed Spring Batch Without a Message Broker",
-      "link": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the live node count, a…",
-      "ts": 1792573200,
-      "published": "2026-10-21T09:00:00+00:00",
-      "collected_at": "2026-10-21T18:17:05+09:00"
-    },
-    {
-      "title": "Article: Distributed Spring Batch Without a Message Broker",
-      "link": "https://www.infoq.com/articles/spring-batch-without-broker/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Distributed Spring Batch partitioning already needs a shared, persistent job repository. This article makes that database the whole coordination plane and drops the message broker, sizing work to the live node count, a…",
-      "ts": 1792573200,
-      "published": "2026-10-21T09:00:00+00:00",
-      "collected_at": "2026-10-21T18:17:05+09:00"
-    },
-    {
-      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "link": "https://openai.com/index/building-chatgpt-ad-stack",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
-      "ts": 1792566000,
-      "published": "2026-10-21T07:00:00+00:00",
-      "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
-      "ts": 1792566000,
-      "published": "2026-10-21T07:00:00+00:00",
-      "collected_at": "2026-10-22T00:29:50+09:00"
-    },
-    {
-      "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
-      "link": "https://www.latent.space/p/ainews-deepseek-deepinfer-open-source",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "An open source “bomb” drops from China",
-      "ts": 1792565649,
-      "published": "2026-10-21T06:54:09+00:00",
-      "collected_at": "2026-10-21T18:17:05+09:00"
-    },
-    {
-      "title": "[AINews] DeepSeek DeepInfer: Open Source SOTA Inference running 155T toks/day/cluster making $22m/day at ~80% margin for a 81 day payback",
-      "link": "https://latent.space/p/ainews-deepseek-deepinfer-open-source/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "An open source “bomb” drops from China",
-      "ts": 1792565649,
-      "published": "2026-10-21T06:54:09+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
-      "link": "https://www.latent.space/p/tenex",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Listen now (44 mins) | Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
-      "ts": 1792558886,
-      "published": "2026-10-21T05:01:26+00:00",
-      "collected_at": "2026-10-21T18:17:05+09:00"
-    },
-    {
-      "title": "AI for the Fortune 2000: How Tenex Builds an AI-Native SDLC — Alex Lieberman & CJ Hess",
-      "link": "https://latent.space/p/tenex/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Paying for outcomes, building with agents, and the last mile of enterprise AI adoption",
-      "ts": 1792558886,
-      "published": "2026-10-21T05:01:26+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
-      "ts": 1792558200,
-      "published": "2026-10-21T04:50:00+00:00",
-      "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "v1.107.9 (2026-10-20)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.9",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "This comment was posted by Codex Desktop using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security High — HTML conversion in web_fetch : GHSA-4whf-38hw-pxxh . When web_fetch_tool fetched attacker-controlled HTML…",
-      "ts": 1792557411,
-      "published": "2026-10-21T04:36:51+00:00",
-      "collected_at": "2026-10-21T18:17:05+09:00"
-    },
-    {
-      "title": "v2.59.0 (2026-10-20)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.59.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "This comment was posted by Codex Desktop using gpt-6.1-sol on behalf of David. What's Changed 🛡️ Security High — HTML conversion in web_fetch : GHSA-4whf-38hw-pxxh . When web_fetch_tool fetched attacker-controlled HTML…",
-      "ts": 1792557373,
-      "published": "2026-10-21T04:36:13+00:00",
-      "collected_at": "2026-10-21T18:17:05+09:00"
-    },
-    {
-      "title": "Southeast Asia’s digital economy to hit $368 billion",
-      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "source": "Google AI",
-      "category": "AI",
-      "summary": "Cover image for the e-Conomy SEA 2026 report titled Building the intelligent economy by Google, Temasek, and Bain and Company. A 3D illustration features a glowing yellow star surrounded by miniature scenes representing…",
-      "ts": 1792555200,
-      "published": "2026-10-21T04:00:00+00:00",
-      "collected_at": "2026-10-21T18:17:05+09:00"
     }
   ]
 }
