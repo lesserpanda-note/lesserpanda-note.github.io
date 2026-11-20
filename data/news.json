@@ -1,7 +1,167 @@
 {
-  "updated": "2026-11-20T22:02:57+09:00",
-  "count": 1281,
+  "updated": "2026-11-21T04:47:44+09:00",
+  "count": 1283,
   "items": [
+    {
+      "title": "Quoting Ravi Vakil",
+      "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking g…",
+      "ts": 1795202509,
+      "published": "2026-11-20T19:21:49+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Fragments: November 20",
+      "link": "https://martinfowler.com/fragments/2026-11-20.html",
+      "source": "Martin Fowler",
+      "category": "Architecture",
+      "summary": "Marcus Borg recounts an experiment to investigate if healthy code was cheaper for agents to review . Between a typical unhealthy pull request (CodeHealth 2.8) and a typical healthy one (9.7), that adds up to 22 to 35%.…",
+      "ts": 1795199880,
+      "published": "2026-11-20T18:38:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "The most misunderstood graph in AI just got a major update",
+      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require j…",
+      "ts": 1795198515,
+      "published": "2026-11-20T18:15:15+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Meta TLX, a Native GPU Compiler Extension Supporting Advanced Hardware Capabilities",
+      "link": "https://www.infoq.com/news/2026/11/meta-triton-tlx-gpu-compiler/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Meta developed Triton Low-Level Extensions (TLX), designed to bridge the gap between high-level GPU programming abstractions and the low-level execution control required to fully exploit modern GPU architectures. By Ser…",
+      "ts": 1795197600,
+      "published": "2026-11-20T18:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+      "link": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394 Comments URL: https://news.ycombinator.com/item?id=50578794 Points: 107 # Comments: 80",
+      "ts": 1795196641,
+      "published": "2026-11-20T17:44:01+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Quoting Levent Alpöge",
+      "link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time,…",
+      "ts": 1795192248,
+      "published": "2026-11-20T16:30:48+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "LightGBM vs. a Four-Week Average for Forecasting Bike-Share Rentals",
+      "link": "https://towardsdatascience.com/lightgbm-vs-a-four-week-average-for-forecasting-bike-share-rentals/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A 48-hour Capital Bikeshare experiment pits XGBoost, Ridge, SARIMA, and Prophet against simple baselines, with care for missing hours and leakage. The post LightGBM vs. a Four-Week Average for Forecasting Bike-Share Ren…",
+      "ts": 1795192200,
+      "published": "2026-11-20T16:30:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Open Source vs. Proprietary LLMs: A Decision Framework for 2026",
+      "link": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "A practical guide to choosing between open-weight and commercial models, built around the four questions that actually determine the right answer for your use case.",
+      "ts": 1795186800,
+      "published": "2026-11-20T15:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores",
+      "link": "https://towardsdatascience.com/clairic-hit-98-accuracy-on-728-of-questions-via-confidence-scores/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "With a 0.9 confidence cutoff, Cloudflare's System One model handles the easy cases and routes the rest to a bigger, slower LLM like Luna. The post Clairic Hit 98% Accuracy on 72.8% of Questions via Confidence Scores app…",
+      "ts": 1795186800,
+      "published": "2026-11-20T15:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Uber Cuts Translation Cache Memory by up to 90% While Keeping P99 Latency Below 1 MS",
+      "link": "https://www.infoq.com/news/2026/11/uber-go-translation-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Uber redesigned its Go-based translation cache to reduce its initial memory footprint by more than 90% while maintaining a cache hit rate above 99.9% and p99 disk-backed cache miss latency below 100 microseconds. The hy…",
+      "ts": 1795185480,
+      "published": "2026-11-20T14:38:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Major publisher releases AI-written history book that is full of glaring errors",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/20/major-publisher-releases-ai-written-history-book-that-is-full-of-glaring-errors/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "There’s this rhetorical trick where you defamiliarize a situation by putting it in another context. For example, the other day, in a post titled “Hunter Biden’s assets under management at his investment fund went from $…",
+      "ts": 1795185386,
+      "published": "2026-11-20T14:36:26+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Llms.txt and MCP didn't move the needle",
+      "link": "https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://backpackforlaravel.com/articles/opinions/llms-txt-and-mcp-didn-t-move-the-needle-for-us-here-s-what-did Comments URL: https://news.ycombinator.com/item?id=50574772 Points: 28 # Comments: 19",
+      "ts": 1795183223,
+      "published": "2026-11-20T14:00:23+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "OpenAI Cuts the Price of Its Best AI Model by 20 Percent",
+      "link": "https://realpython.com/ai-news-weekly-2026-11-20/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Real Python's weekly AI news for November 14–20, 2026, explained in plain language: Cheaper GPT-6.2, a Poisoned AI Toolkit, and Gemini 4 Neon.",
+      "ts": 1795183200,
+      "published": "2026-11-20T14:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "How to Refactor Python Code With an AI Agent",
+      "link": "https://realpython.com/ai-refactor-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to refactor Python code with AI safely: find code smells, check that tests pin the behavior, and let an agent apply one refactoring at a time.",
+      "ts": 1795183200,
+      "published": "2026-11-20T14:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "How to Prepare for a Credit Risk Internship Interview in Nine Steps",
+      "link": "https://towardsdatascience.com/how-to-prepare-for-a-credit-risk-internship-interview-in-nine-steps/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Two years of interviewing master's students distilled into one logistic regression scoring model, from missing values and VIF to AUC and Gini. The post How to Prepare for a Credit Risk Internship Interview in Nine Steps…",
+      "ts": 1795181400,
+      "published": "2026-11-20T13:30:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+      "link": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off Comments URL: https://news.ycombinator.com/item?id=50574383 Points: 172 # Comments: 193",
+      "ts": 1795181399,
+      "published": "2026-11-20T13:29:59+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
     {
       "title": "Decision AI Explained in 5 Minutes",
       "link": "https://www.kdnuggets.com/decision-ai-explained-in-5-minutes",
@@ -51,6 +211,16 @@
       "ts": 1795172400,
       "published": "2026-11-20T11:00:00+00:00",
       "collected_at": "2026-11-20T20:05:21+09:00"
+    },
+    {
+      "title": "Combatting adversarial distillation",
+      "link": "https://openai.com/index/combatting-adversarial-distillation",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "ts": 1795168800,
+      "published": "2026-11-20T10:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
     },
     {
       "title": "QCon San Francisco 2026: The Future of Apache Iceberg",
@@ -213,6 +383,46 @@
       "collected_at": "2026-11-20T18:16:42+09:00"
     },
     {
+      "title": "Spring AI 2.1.0 GA and 2.0.3 GA Available Now",
+      "link": "https://spring.io/blog/2026/11/20/spring-ai-2-1-0-GA-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the Spring AI team and everyone who has contributed, I'm happy to announce that Spring AI 2.1.0 has been released and is now available from Maven Central! Release notes | Upgrade notes | Reference documenta…",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "link": "https://openai.com/index/introducing-medchembench",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
+      "link": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "link": "https://www.anthropic.com/news/ipo-close",
+      "source": "Anthropic",
+      "category": "AI",
+      "summary": "Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise b…",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
       "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
       "link": "https://latent.space/p/linear-scaling/",
       "source": "Latent Space",
@@ -241,6 +451,16 @@
       "ts": 1795115828,
       "published": "2026-11-19T19:17:08+00:00",
       "collected_at": "2026-11-20T20:24:41+09:00"
+    },
+    {
+      "title": "No Bailout for the AI Bubble, Anthropic IPO Protesters Say",
+      "link": "https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/ Comments URL: https://news.ycombinator.com/item?id=50564282 Points: 50 # Comments: 32",
+      "ts": 1795113733,
+      "published": "2026-11-19T18:42:13+00:00",
+      "collected_at": "2026-11-21T04:47:31+09:00"
     },
     {
       "title": "1.15.44",
@@ -12611,206 +12831,6 @@
       "ts": 1792616400,
       "published": "2026-10-21T21:00:00+00:00",
       "collected_at": "2026-10-22T08:05:26+09:00"
-    },
-    {
-      "title": "Today's PHP Security Release, and How We're Strengthening PHP Security",
-      "link": "https://simonwillison.net/2026/Oct/21/php-security-release/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Today's PHP Security Release, and How We're Strengthening PHP Security If you're running anything on PHP it's vital you upgrade - today's updates (across the entire PHP 8.x line) address two remote code execution holes,…",
-      "ts": 1792608113,
-      "published": "2026-10-21T18:41:53+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required",
-      "link": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792607190,
-      "published": "2026-10-21T18:26:30+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "How Specializing the Vocabulary of SLMs Can Cut Inference Cost by 77% in Real Applications",
-      "link": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792604136,
-      "published": "2026-10-21T17:35:36+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "eMudhra Intermediate CA Compromise",
-      "link": "https://www.infoq.com/news/2026/10/emudhra-ca-compromise/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Private keys for eight eMudhra intermediate CA certificates have been compromised, allowing attackers to forge certificates for any site. The keys were revealed due to low entropy, not through a known breach. Browsers b…",
-      "ts": 1792603800,
-      "published": "2026-10-21T17:30:00+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "How AT&T is rethinking in-house legal work with OpenAI",
-      "link": "https://openai.com/index/att-legal",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
-      "ts": 1792602000,
-      "published": "2026-10-21T17:00:00+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "Fragments: October 21",
-      "link": "https://martinfowler.com/fragments/2026-10-21.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Gergely Orosz is frustrated at those that entered his explicitly “No AI” essay competition and used AI. He goes on to say: When I start to suspect some part is AI about someone I don’t know: how can I tell how much of i…",
-      "ts": 1792601460,
-      "published": "2026-10-21T16:51:00+00:00",
-      "collected_at": "2026-11-20T20:05:21+09:00"
-    },
-    {
-      "title": "Panache — RTS Belle Époque pour mobile",
-      "link": "https://simonwillison.net/2026/Oct/21/panache/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Panache — RTS Belle Époque pour mobile Well this is delightful: I released Battle Drones yesterday under an Apache 2.0 License and there's already a French language fork which reskins the game to take place in steampunk…",
-      "ts": 1792599916,
-      "published": "2026-10-21T16:25:16+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium.",
-      "link": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792598683,
-      "published": "2026-10-21T16:04:43+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "Decision Models in Action: Build a Hybrid LLM Workflow",
-      "link": "https://towardsdatascience.com/decision-models-in-action-build-a-hybrid-llm-workflow/",
-      "source": "Towards Data Science",
-      "category": "AI",
-      "summary": "A hands-on guide to building browser automation by combining decision models with LLMs. The post Decision Models in Action: Build a Hybrid LLM Workflow appeared first on Towards Data Science .",
-      "ts": 1792596600,
-      "published": "2026-10-21T15:30:00+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "문자를 보냈다는데 왜 안 오죠? 길 잃은 국제 MO 메시지 구출 작전",
-      "link": "https://tech.kakao.com/posts/843",
-      "source": "Kakao Tech",
-      "category": "Architecture",
-      "summary": "안녕하세요. 카카오 사내 SMS 전송 시스템(KIMS, Kakao Integrated Messaging Service)을 개발하고 있는 커넥티비티 플랫폼의 ravae.c(최지원) 입니다. 국내와 달리 해외 MO(Message Originated) 메시지 인증은 메시지가 어디에서 길을 잃었는지 파악하기조차 어려운 ‘깜깜이’ 영역이었어요. 이번 글에서는 KIMS가 어떻게 이 난제를 극복하고,…",
-      "ts": 1792594800,
-      "published": "2026-10-21T15:00:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "카카오 AI 돛 Summit 26 다시보기 공개 — AI 인프라부터 서비스 적용, 개발과 창업까지",
-      "link": "https://tech.kakao.com/posts/842",
-      "source": "Kakao Tech",
-      "category": "Architecture",
-      "summary": "지난 9월 29일 부산에서 약 800명의 참가자와 함께한 ‘카카오 AI 돛 Summit 26’의 주요 세션 VOD를 공개합니다. 👉 카카오 AI 돛 Summit 26 세션 VOD 보러 가기 AI와 함께 개발하는 방식부터 실제 서비스에 AI를 적용하는 과정, 연구를 창업으로 연결하는 경험까지. 현장에 참석하지 못했거나 동시에 진행되어 놓쳤던 발표를 이제 온라인에서 만나보세요. 어떤 세션부터…",
-      "ts": 1792594800,
-      "published": "2026-10-21T15:00:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster",
-      "link": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792594698,
-      "published": "2026-10-21T14:58:18+00:00",
-      "collected_at": "2026-10-22T00:29:50+09:00"
-    },
-    {
-      "title": "Python Performance Optimization: A Practical Guide",
-      "link": "https://realpython.com/python-performance-optimization-guide/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn practical Python performance optimization techniques, from confirming a bottleneck with timeit to picking the fix that makes your program faster.",
-      "ts": 1792591200,
-      "published": "2026-10-21T14:00:00+00:00",
-      "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "Python itertools By Example",
-      "link": "https://realpython.com/courses/python-itertools-by-example/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Combine Python's itertools functions into memory-efficient pipelines as you deal cards, analyze stock data, and pick relay teams.",
-      "ts": 1792591200,
-      "published": "2026-10-21T14:00:00+00:00",
-      "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "Named Entity Recognition Using Scikit-LLM",
-      "link": "https://www.kdnuggets.com/named-entity-recognition-using-scikit-llm",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Build standardized custom NER pipelines in a few simple steps, powered by the reasoning capabilities of LLMs.",
-      "ts": 1792591200,
-      "published": "2026-10-21T14:00:00+00:00",
-      "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "How to Turn Long-Running Python Simulations Into a Self-Service Platform",
-      "link": "https://towardsdatascience.com/how-to-turn-long-running-python-simulations-into-a-self-service-platform/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "What I learned about queues, failure recovery, and reproducibility while building asynchronous workloads on AWS The post How to Turn Long-Running Python Simulations Into a Self-Service Platform appeared first on Towards…",
-      "ts": 1792591200,
-      "published": "2026-10-21T14:00:00+00:00",
-      "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "Netflix Bridges AWS IAM and Internal Identity with Workload Attestation",
-      "link": "https://www.infoq.com/news/2026/10/netflix-workload-attestation-aws/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Netflix has developed a workload attestation mechanism for Apache Spark jobs running on Amazon EMR. The design combines AWS IAM identity with signed claims from Netflix’s control plane before issuing short-lived interna…",
-      "ts": 1792590300,
-      "published": "2026-10-21T13:45:00+00:00",
-      "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "Using thousands of AI agents to uncover new leads in biological data",
-      "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://openai.com/index/scaling-ai-research-for-complex-biological-data/ Comments URL: https://news.ycombinator.com/item?id=50180752 Points: 95 # Comments: 45",
-      "ts": 1792589820,
-      "published": "2026-10-21T13:37:00+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "Claude Mods: Flipping the Harness Inside Out",
-      "link": "https://www.latent.space/p/claude-mods",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
-      "ts": 1792587859,
-      "published": "2026-10-21T13:04:19+00:00",
-      "collected_at": "2026-10-21T23:57:00+09:00"
-    },
-    {
-      "title": "Claude Mods: Flipping the Harness Inside Out",
-      "link": "https://latent.space/p/claude-mods/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Claude Mods is an early form of the Attention Interface. It flips the agent harness paradigm from the harness facing the machine, to the harness facing the human.",
-      "ts": 1792587859,
-      "published": "2026-10-21T13:04:19+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
     }
   ]
 }

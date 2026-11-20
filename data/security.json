@@ -1,7 +1,19 @@
 {
-  "updated": "2026-11-20T18:27:04+09:00",
-  "count": 140,
+  "updated": "2026-11-21T04:47:31+09:00",
+  "count": 141,
   "items": [
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-133949] pip bundles compromised eMudhra certificates via certifi",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/4234WU4ONSVWPT3BIGG6TOJO2UFE26Y6/",
+      "published": "2026-11-20T19:08:15+00:00",
+      "severity": "CRITICAL",
+      "ids": [
+        "CVE-2026-133949",
+        "CVE-2026-115557"
+      ]
+    },
     {
       "ecosystem": "Spring",
       "source": "Spring Security",
