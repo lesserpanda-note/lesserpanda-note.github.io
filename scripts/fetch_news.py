@@ -8,6 +8,7 @@ if nothing at all comes back the previous data/news.json is left untouched.
 from __future__ import annotations
 
 import calendar
+import gzip
 import html
 import json
 import os
@@ -260,11 +261,15 @@ def _transient(exc: Exception) -> bool:
 
 
 def read_url(req: urllib.request.Request) -> bytes:
-    """GET with a hard timeout, retrying 5xx, 429 and network errors per RETRY_DELAYS."""
+    """GET with a hard timeout, retrying 5xx, 429 and network errors per RETRY_DELAYS.
+    A gzip body is unpacked by its magic bytes, not by header: deepmind.google serves its
+    feed gzipped with no Content-Encoding on some edges, which left feedparser with binary
+    and the feed empty on 5 of 15 runs (2026-11-20)."""
     for delay in (*RETRY_DELAYS, None):
         try:
             with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
-                return resp.read()
+                body = resp.read()
+            return gzip.decompress(body) if body[:2] == b"\x1f\x8b" else body
         except Exception as exc:
             if delay is None or not _transient(exc):
                 raise
