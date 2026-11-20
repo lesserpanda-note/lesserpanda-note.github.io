@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-20T18:16:48+09:00",
-  "count": 1292,
+  "updated": "2026-11-20T18:27:10+09:00",
+  "count": 1297,
   "items": [
+    {
+      "title": "QCon San Francisco 2026: The Future of Apache Iceberg",
+      "link": "https://www.infoq.com/news/2026/11/iceberg-v4-metadata/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Apache Iceberg V4 proposes a redesign of table metadata to improve scalability and support more frequent writes, alongside new capabilities for data management and schema evolution. Daniel Weeks, co-creator of Apache Ic…",
+      "ts": 1795166220,
+      "published": "2026-11-20T09:17:00+00:00",
+      "collected_at": "2026-11-20T18:27:04+09:00"
+    },
+    {
+      "title": "QCon San Francisco 2026: The Future of Apache Iceberg",
+      "link": "https://www.infoq.com/news/2026/11/iceberg-v4-metadata/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Apache Iceberg V4 proposes a redesign of table metadata to improve scalability and support more frequent writes, alongside new capabilities for data management and schema evolution. Daniel Weeks, co-creator of Apache Ic…",
+      "ts": 1795166220,
+      "published": "2026-11-20T09:17:00+00:00",
+      "collected_at": "2026-11-20T18:27:04+09:00"
+    },
     {
       "title": "Article: Building Reliability Into the Cloud: Observability as the Control Plane for Multi-Region Failover",
       "link": "https://www.infoq.com/articles/observability-control-plane-failover/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
@@ -1041,6 +1061,36 @@
       "ts": 1795046400,
       "published": "2026-11-19T00:00:00+00:00",
       "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "Spring Data 2026.0.3 and 2025.1.9 released",
+      "link": "https://spring.io/blog/2026/11/19/spring-data-2026-0-3-and-2025-1-9-released",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I'm pleased to announce the availability of the 2026.0.3 and 2025.1.9 service releases. The releases include bug fixes, documentation improvements, and dependency…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:27:04+09:00"
+    },
+    {
+      "title": "cve-2026-59399 - MEDIUM - In Spring for Apache Kafka, DelegatingDeserializer allows header-driven arbitrary class loading and deserializer selection",
+      "link": "https://spring.io/security/cve-2026-59399",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "DelegatingDeserializer selects the delegate deserializer for each record from the spring.kafka.serialization.selector (value) or spring.kafka.key.serialization.selector (key) header. When the selector matched no configu…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:27:04+09:00"
+    },
+    {
+      "title": "cve-2026-59400 - MEDIUM - Spring Security ClientRegistration discloses OAuth2 Client Secret",
+      "link": "https://spring.io/security/cve-2026-59400",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "ClientRegistration , Spring Security's representation of an OAuth2/OpenID Connect client registration, includes the confidential client secret in the plaintext output of its toString() method. Because toString() is invo…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T18:27:04+09:00"
     },
     {
       "title": "llm-gemini 0.38",

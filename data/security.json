@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-20T18:22:54+09:00",
-  "count": 138,
+  "updated": "2026-11-20T18:27:04+09:00",
+  "count": 140,
   "items": [
     {
       "ecosystem": "Spring",
@@ -137,7 +137,7 @@
     {
       "ecosystem": "Spring",
       "source": "Spring Security",
-      "title": "cve-2026-59342 - MEDIUM - Spring Data MongoDB - String query logic injection via function operator bind parameter",
+      "title": "cve-2026-59342 - MEDIUM - Spring Data MongoDB String query logic injection via function operator bind parameter",
       "link": "https://spring.io/security/cve-2026-59342",
       "published": "2026-11-19T00:00:00+00:00",
       "severity": "MEDIUM",
@@ -557,6 +557,28 @@
       "severity": "MEDIUM",
       "ids": [
         "CVE-2026-59398"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59399 - MEDIUM - In Spring for Apache Kafka, DelegatingDeserializer allows header-driven arbitrary class loading and deserializer selection",
+      "link": "https://spring.io/security/cve-2026-59399",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59399"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59400 - MEDIUM - Spring Security ClientRegistration discloses OAuth2 Client Secret",
+      "link": "https://spring.io/security/cve-2026-59400",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59400"
       ]
     },
     {
