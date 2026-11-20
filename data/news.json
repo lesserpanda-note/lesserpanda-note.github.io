@@ -1,7 +1,27 @@
 {
-  "updated": "2026-11-20T05:14:29+09:00",
-  "count": 1246,
+  "updated": "2026-11-20T10:25:23+09:00",
+  "count": 1293,
   "items": [
+    {
+      "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "link": "https://latent.space/p/linear-scaling/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": ">50% of tickets written by agents, the AI budgets behind $100M-in-months ARR, and selling without SDRs or FDEs",
+      "ts": 1795132701,
+      "published": "2026-11-19T23:58:21+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "PostgreSQL 19 Released",
+      "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of th…",
+      "ts": 1795121037,
+      "published": "2026-11-19T20:43:57+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
     {
       "title": "Introducing Tool Retrieval in the Gemini API",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
@@ -311,6 +331,576 @@
       "ts": 1795046400,
       "published": "2026-11-19T00:00:00+00:00",
       "collected_at": "2026-11-19T21:41:19+09:00"
+    },
+    {
+      "title": "Spring Batch 6.1 is now GA!",
+      "link": "https://spring.io/blog/2026/11/19/spring-batch-6-1-0-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 6.1 is available from Maven Central now! This release brings a number of new features, enhancements and bug fixes, as well as a few…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "Spring Shell 4.0.4 available now",
+      "link": "https://spring.io/blog/2026/11/19/spring-shell-4-0-4-available-now",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Shell 4.0.4 is now available from Maven Central! What's new in Spring Shell 4.0.4? This release comes with a number of bug fixes, document…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "Spring Vault 4.0.5 and 4.1.2 available",
+      "link": "https://spring.io/blog/2026/11/19/spring-vault-4-0-5-4-1-2-available",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the team and everyone who has contributed, I am pleased to announce that the Spring Vault 4.0.5 and 4.1.2 releases are available now. Both releases ship bug fixes, selected improvements, and dependency upgr…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-123886 - HIGH - Spring Data Elasticsearch SpEL Expression Injection through String-based Query Method Arguments",
+      "link": "https://spring.io/security/cve-2026-123886",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Data Elasticsearch replaces positional placeholders in string-based @Query methods with the method arguments before it evaluates SpEL expressions in the resulting query string. As a result, an argument that conta…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59273 - CRITICAL - Spring Security ELRequestMatcher allows Remote Code Execution via unrestricted SpEL evaluation",
+      "link": "https://spring.io/security/cve-2026-59273",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "ELRequestMatcher evaluates a provided SpEL expression against an unrestricted evaluation context that grants full reflection, type references, and arbitrary method invocation, rather than a context limited to its docume…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-41698 - LOW - Spring Vault Path Traversal via unsanitized secret path parameter",
+      "link": "https://spring.io/security/cve-2026-41698",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Vault's Key/Value accessors perform no validation or normalization of the entity identifier argument before incorporating it into a Vault API URL. A caller-supplied value containing path traversal sequences is no…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59329 - LOW - Spring Security Reactive Authentication Timing Attack Enables Username Enumeration",
+      "link": "https://spring.io/security/cve-2026-59329",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Security's reactive authentication support, AbstractUserDetailsReactiveAuthenticationManager and UserDetailsRepositoryReactiveAuthenticationManager , do not invoke the configured PasswordEncoder when a submitted…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59330 - HIGH - WebAuthn Signature Counter Check Fails to Detect Cloned Authenticators",
+      "link": "https://spring.io/security/cve-2026-59330",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Security's WebAuthn relying-party support, Webauthn4JRelyingPartyOperations , does not effectively enforce its authenticator signature-counter check. WebAuthn authenticators are expected to increment a per-creden…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59331 - HIGH - Spring Security RSocket Basic Authentication Decoder Enables Denial of Service via Unbounded Allocation",
+      "link": "https://spring.io/security/cve-2026-59331",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Security's RSocket support includes BasicAuthenticationPayloadExchangeConverter , which decodes username and password metadata from a non-standard RSocket Basic Authentication frame. The decoder read a length fie…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59333 - HIGH - Spring Security IP Address CIDR Matching Ignores Address Family",
+      "link": "https://spring.io/security/cve-2026-59333",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Security's IP address matching support, including IpAddressMatcher , IpAddressServerWebExchangeMatcher , and the InetAddressMatchers factory introduced in 7.1, matches a remote address against a configured IP add…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59336 - LOW - Incomplete SSRF blocklist in spring-ai-bedrock-converse URLValidator",
+      "link": "https://spring.io/security/cve-2026-59336",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Applications using spring-ai-bedrock-converse to build multi-modal chat requests for Amazon Bedrock are vulnerable to a Server-Side Request Forgery (SSRF) attack via media URLs. This is due to an incomplete blocklist in…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59337 - LOW - Full prompt logged at WARN",
+      "link": "https://spring.io/security/cve-2026-59337",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The full Prompt, that may contain end-user PII, proprietary system prompts is written to the WARN log and shipped to centralized log stores with broader read access than the originating tenant.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59338 - HIGH - Unbounded Tika text extraction can exhaust JVM memory",
+      "link": "https://spring.io/security/cve-2026-59338",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "TikaDocumentReader in Spring AI uses Apache Tika to extract text from documents. Its default configuration disables Tika's built-in content-size limit, so the extracted text of a parsed document is buffered in memory wi…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59339 - HIGH - Denial of Service via uncontrolled recursion in FilterExpressionTextParser",
+      "link": "https://spring.io/security/cve-2026-59339",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "FilterExpressionTextParser, the vector store filter expression parser, is vulnerable to a denial of service when parsing untrusted filter expressions. The parser is a recursive-descent ANTLR4 parser with no limit on nes…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59340 - MEDIUM - Denial of Service via crafted PDF in PagePdfDocumentReader",
+      "link": "https://spring.io/security/cve-2026-59340",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "PagePdfDocumentReader and ParagraphPdfDocumentReader are vulnerable to a denial of service when processing untrusted PDF input. The underlying text extraction logic reconstructs layout from a PDF's glyph positions and l…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59342 - MEDIUM - Spring Data MongoDB - String query logic injection via function operator bind parameter",
+      "link": "https://spring.io/security/cve-2026-59342",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Data MongoDB's parameter binding mechanism for JSON-based query and aggregation using placeholder syntax did not contextually escape bound String argument values when those placeholders appeared inside a quoted s…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59344 - HIGH - User-controlled filter keys can bypass Coherence metadata filtering",
+      "link": "https://spring.io/security/cve-2026-59344",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "CoherenceVectorStore is vulnerable to a metadata filter bypass when evaluating filter expressions against an Oracle Coherence backend. CoherenceFilterExpressionConverter builds its underlying Coherence extractor directl…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59345 - HIGH - Denial of Service via regex-recursion",
+      "link": "https://spring.io/security/cve-2026-59345",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "ExtractedTextFormatter is vulnerable to a denial of service when processing untrusted text extracted from documents. trimAdjacentBlankLines() and alignToLeft() collapse runs of blank lines using regular expressions with…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59348 - MEDIUM - Incomplete Escaping in RedisChatMemoryRepository Query Methods",
+      "link": "https://spring.io/security/cve-2026-59348",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "RedisChatMemoryRepository is vulnerable to RediSearch query injection when processing untrusted input. The repository builds RediSearch queries from caller-supplied conversation content and metadata values. A prior fix…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59349 - HIGH - Spring Web Services Denial of Service via Unbounded Incoming Message Size",
+      "link": "https://spring.io/security/cve-2026-59349",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "SaajSoapMessageFactory , AxiomSoapMessageFactory , and DomPoxMessageFactory read an incoming message's InputStream directly into the underlying XML parser without any bound on the number of bytes consumed. An attacker w…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59350 - MEDIUM - WS-Addressing out-of-band replies are sent without response-side WS-Security protection",
+      "link": "https://spring.io/security/cve-2026-59350",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "When a WebServiceMessageSender is configured on an addressing endpoint mapping to send out-of-band replies, and a response-securing interceptor (such as Wss4jSecurityInterceptor ) is registered as a pre-interceptor, WS-…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59352 - MEDIUM - Certificate revocation check can be bypassed when a message carries multiple XML signatures",
+      "link": "https://spring.io/security/cve-2026-59352",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Wss4jSecurityInterceptor.verifyCertificateTrust() is the only place inbound WS-Security signing certificates are checked for revocation, but it only validated the first SIGN result found in the message. When an inbound…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59351 - MEDIUM - Predictable Message-ID allows forged responses over the mail transport",
+      "link": "https://spring.io/security/cve-2026-59351",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "MailSenderConnection correlates a SOAP response to its request solely by matching the request's JavaMail Message-ID against the In-Reply-To header of messages in the store mailbox. The default Message-ID generated by Ja…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59353 - MEDIUM - Forged responses accepted over the XMPP client transport due to missing sender verification",
+      "link": "https://spring.io/security/cve-2026-59353",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The client-side XMPP transport ( XmppSenderConnection ) accepts any incoming message stanza whose type and thread match the outbound request, without checking which JID sent it. Since the thread identifier travels in cl…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59356 - LOW - Spring for GraphQL Federation Controller Exception Message Disclosure",
+      "link": "https://spring.io/security/cve-2026-59356",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring GraphQL's Apollo Federation support has default exception handling that includes the full message of any exception that the application does not handle through an @EntityMapping method or through a global GraphQl…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59361 - HIGH - RediSearch Query Injection and Tenant Isolation Bypass in RedisFilterExpressionConverter",
+      "link": "https://spring.io/security/cve-2026-59361",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "RedisVectorStore is vulnerable to RediSearch query injection when metadata filter expressions are built from untrusted values. RedisFilterExpressionConverter translates Spring AI filter expressions into RediSearch query…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59362 - MEDIUM - Spring Integration SFTP Revoked known_hosts Entry Does Not Veto Server Key Acceptance",
+      "link": "https://spring.io/security/cve-2026-59362",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "If an administrator marks a compromised SFTP server key as @revoked in the known_hosts resource but the original (non-revoked) line for that key is still present, Spring Integration continues to accept the compromised k…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59363 - MEDIUM - Spring Integration MQTT v5 Header Mapper Maps All User Properties Including Framework-Significant Headers",
+      "link": "https://spring.io/security/cve-2026-59363",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "MQTT v5 PUBLISH packets carry arbitrary user properties supplied by the publisher. With its default inboundHeaderNames of * , MqttHeaderMapper maps every user property into the message headers without excluding framewor…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59364 - MEDIUM - Spring Integration DefaultFtpsSessionFactory Does Not Verify FTPS Server Certificate and Hostname by Default",
+      "link": "https://spring.io/security/cve-2026-59364",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "When no TrustManager is explicitly configured, DefaultFtpsSessionFactory relies on the Apache Commons Net FTPSClient default trust manager, which only checks each certificate's validity dates and does not verify the cer…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59365 - MEDIUM - Spring Integration AMQP Default Inbound Header Mapper Maps replyChannel and errorChannel Headers",
+      "link": "https://spring.io/security/cve-2026-59365",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "With its default inbound request header pattern of * , DefaultAmqpHeaderMapper.inboundMapper() copies all AMQP application headers into the Spring Integration message headers, including the framework-significant replyCh…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59367 - CRITICAL - Embedded Test LDAP Server Binds to All Network Interfaces with a Hardcoded Administrative Credential in Spring LDAP",
+      "link": "https://spring.io/security/cve-2026-59367",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The embedded LDAP server provided by the spring-ldap-test artifact listens on every network interface of the host and accepts a fixed, publicly known administrative credential. EmbeddedLdapServer is intended as a test f…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59368 - MEDIUM - LdapQueryBuilder Silently Discards Existing Filter When Built From Another Query in Spring LDAP",
+      "link": "https://spring.io/security/cve-2026-59368",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "LdapQueryBuilder can lose a search filter that an application expects to be enforced, causing an LDAP search to run with broader criteria than intended. When a builder is created from an existing query, the filter carri…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59369 - HIGH - Typesense Vector Store filter expression injection bypasses tenant isolation",
+      "link": "https://spring.io/security/cve-2026-59369",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "TypesenseVectorStore is vulnerable to a filter expression injection that can bypass application-enforced metadata filters. TypesenseFilterExpressionConverter escapes user-controlled filter values only as JSON string lit…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59370 - MEDIUM - WS-Security faults disclose why validation of a request failed",
+      "link": "https://spring.io/security/cve-2026-59370",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "When validation of an inbound WS-Security header failed, the SOAP fault returned to the sender used the message of the underlying exception as its fault string, telling an unauthenticated sender which check failed and w…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59371 - MEDIUM - Client-side schema validation of a response can bypass its WS-Security validation",
+      "link": "https://spring.io/security/cve-2026-59371",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "A client that sets validateResponse on PayloadValidatingInterceptor did not reject a response that failed schema validation. The errors were logged and the response was returned to the application anyway, and the rest o…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59372 - LOW - Actuator sanitization bypass when running in a Turkish or Azerbaijani locale",
+      "link": "https://spring.io/security/cve-2026-59372",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Boot Actuator's sanitization mishandles certain characters when running in a Turkish or Azerbaijani locale.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59373 - MEDIUM - Jedis SSL auto-configuration does not enable TLS hostname verification",
+      "link": "https://spring.io/security/cve-2026-59373",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Boot's Redis auto-configuration does not perform hostname verification when establishing an SSL connection to Redis.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59374 - HIGH - Spring Framework Data Binding vulnerability on indexed data types",
+      "link": "https://spring.io/security/cve-2026-59374",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Framework applications that use DataBinder 's allowedFields / disallowedFields mechanism to restrict which properties may be set through data binding may be vulnerable to a data binding rules bypass when targetin…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59376 - MEDIUM - Spring HATEOAS allows mutation of read-only properties via Collection+JSON and UBER payloads",
+      "link": "https://spring.io/security/cve-2026-59376",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring HATEOAS does not honour Jackson's @JsonProperty(access = Access.READ_ONLY) declaration when deserializing Collection+JSON ( application/vnd.collection+json ) and UBER ( application/vnd.uber+json ) request bodies.…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59377 - MEDIUM - Spring Data REST allows POST requests on association resources although save(…) is not exported",
+      "link": "https://spring.io/security/cve-2026-59377",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Data REST can be configured to make an aggregate read-only by excluding the repository's save(…) method from export, for example via @RestResource(exported = false) . In that case, the PUT , PATCH and DELETE meth…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59378 - HIGH - Authentication Bypass under Actuator Health Endpoints on Jersey",
+      "link": "https://spring.io/security/cve-2026-59378",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Boot applications with Actuator can be vulnerable to an \"Authentication Bypass\" vulnerability when an application resource that requires authentication is mapped under the same path used by the health endpoint. M…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59379 - MEDIUM - Spring WS SSRF via insufficient WS-Addressing destination checks",
+      "link": "https://spring.io/security/cve-2026-59379",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring WS added destination checks to each WebServiceMessageSender , see CVE-2026-40999 . Screening a peer-supplied destination for reachability this way cannot be made correct. A remote attacker who controls a wsa:Repl…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59381 - HIGH - Spring Integration Remote File MGET Local Directory Path Traversal via Server-Controlled Remote Directory",
+      "link": "https://spring.io/security/cve-2026-59381",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The fix for CVE-2026-40987 validates only the file name against the local directory. For the remote file outbound gateway MGET command, the local directory itself can be derived from the server-controlled listing entry…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59382 - MEDIUM - Spring Integration Zip Transformer Default Work Directory Can Be Redirected via Symlink",
+      "link": "https://spring.io/security/cve-2026-59382",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The symbolic link guard in AbstractZipTransformer.onInit() protects an explicitly configured workDirectory , but not the default one. The default work directory, ${java.io.tmpdir}/ziptransformer , is canonicalized when…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59383 - HIGH - Spring Integration JdbcMessageStore Allow-List Bypass Leading to Unsafe Deserialization",
+      "link": "https://spring.io/security/cve-2026-59383",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "The fix for CVE-2026-59307 introduced a regression in JdbcMessageStore . When the store is configured as a <bean> or via @Bean , the Spring container populates properties (including addAllowedPatterns() ) before invokin…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59389 - MEDIUM - Spring Framework multipart part smuggling vulnerability",
+      "link": "https://spring.io/security/cve-2026-59389",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring WebFlux applications that parse multipart request are vulnerable to part smuggling when relaying multipart to downstream services. Specifically, an application is vulnerable when all the following conditions are…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59390 - MEDIUM - Spring Framework No Origin Validation If WebSocket Handling Configured Directly",
+      "link": "https://spring.io/security/cve-2026-59390",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Framework's WebSocket support does not validate the Origin header by default if WebSocketHttpRequestHandler is configured directly by the application, rather than through the WebSocket config via WebSocketHandler…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59391 - MEDIUM - Spring Framework Message Smuggling with External STOMP Broker",
+      "link": "https://spring.io/security/cve-2026-59391",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Framework's STOMP broker relay can allow an authenticated user to bypass message authorization rules when an external STOMP broker is used. An application is affected if it uses the STOMP broker relay with an ext…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59392 - MEDIUM - Spring Framework STOMP Message Disclosure with SockJS Transport",
+      "link": "https://spring.io/security/cve-2026-59392",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Framework's STOMP over SockJS support can expose messages intended for one user to another user. An application is affected if it uses STOMP messaging with the SockJS transport and sends messages to specific user…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59393 - MEDIUM - Spring Framework maxInMemorySize Bypassed in Jaxb2Decoder",
+      "link": "https://spring.io/security/cve-2026-59393",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Framework's WebFlux XML decoding can exceed the configured maxInMemorySize limit. This is a follow-up to CVE-2026-47891. An application is affected if it decodes XML request or response bodies with WebFlux using…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59394 - MEDIUM - Spring Framework Open Redirect in UrlHandlerFilter",
+      "link": "https://spring.io/security/cve-2026-59394",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring Framework's UrlHandlerFilter can be used to issue redirects that send users to an unintended, attacker-chosen location. This is a follow-up to CVE-2026-47883. An application is affected if it uses UrlHandlerFilte…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59395 - MEDIUM - Spring AMQP Publisher-Controlled Headers Overwrite Framework-Derived amqp_* Headers",
+      "link": "https://spring.io/security/cve-2026-59395",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "SimpleAmqpHeaderMapper.toHeaders() first populates the Spring Messaging headers with framework-derived values from the received MessageProperties (such as amqp_receivedUserId , amqp_consumerQueue , amqp_deliveryTag and…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "cve-2026-59398 - MEDIUM - Spring Framework Denial of Service with Parameter-based Content Negotiation",
+      "link": "https://spring.io/security/cve-2026-59398",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Spring MVC and Spring WebFlux applications that resolve the requested media type from a query parameter may be vulnerable to a denial of service attack. Specifically, an application is vulnerable when all the following…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "Deploying Daybreak Red",
+      "link": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "See PR scans in action",
+      "link": "https://openai.com/business/learn/pr-scans-demo",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "Explore the Codex Security Plugin",
+      "link": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "Get started with Daybreak Blue",
+      "link": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-20T10:25:16+09:00"
     },
     {
       "title": "llm-gemini 0.38",
@@ -12341,126 +12931,6 @@
       "ts": 1792551600,
       "published": "2026-10-21T03:00:00+00:00",
       "collected_at": "2026-10-21T12:57:28+09:00"
-    },
-    {
-      "title": "Real political reporters use data journalism techniques to catch fakers at “Wedgewood Polls”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/20/legit-political-reporters-use-data-journalism-techniques-to-catch-fake-pollsters-at-wedgewood-polls/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Mary Radcliffe, Elliott Morris, Cooper Burton, and Fiftyplusone report: On Tuesday, Oct. 20, FiftyPlusOne reached out to Wedgewood Polls, a self-professed polling firm, with a request for comment on an investigation we…",
-      "ts": 1792545376,
-      "published": "2026-10-21T01:16:16+00:00",
-      "collected_at": "2026-10-21T12:57:28+09:00"
-    },
-    {
-      "title": "Java Stream Gatherers: From Built-in Patterns to Custom Pipeline Mechanics",
-      "link": "https://foojay.io/today/java-stream-gatherers/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Explore Java Stream Gatherers (JEP 485) from practical built-in patterns like windowing and concurrent mapping to authoring your own custom stateful pipeline components.",
-      "ts": 1792540800,
-      "published": "2026-10-21T00:00:00+00:00",
-      "collected_at": "2026-10-21T12:57:28+09:00"
-    },
-    {
-      "title": "BxPlaywright 1.0: Real Browsers, Fluent BoxLang, Built for AI Agents",
-      "link": "https://foojay.io/today/bxplaywright-10-real-browsers-fluent-boxlang-built-for-ai-agents/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "BxPlaywright 1.0 brings fluent browser automation, real-browser testing, Playwright MCP, accessibility checks, rendering, and AI-agent tooling to BoxLang.",
-      "ts": 1792540800,
-      "published": "2026-10-21T00:00:00+00:00",
-      "collected_at": "2026-10-21T12:57:28+09:00"
-    },
-    {
-      "title": "BoxLang 1.18.0 Released: Every Cloud, Every Node, Every Agent",
-      "link": "https://foojay.io/today/boxlang-1-18-0-released-every-cloud-every-node-every-agent/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "BoxLang 1.18.0 adds Azure Functions, cluster-safe scheduled tasks, a more automation-friendly CLI, and refreshed docs for developers and AI agents.",
-      "ts": 1792540800,
-      "published": "2026-10-21T00:00:00+00:00",
-      "collected_at": "2026-10-21T12:57:28+09:00"
-    },
-    {
-      "title": "JEP targeted to JDK 28: 543: Structured Concurrency",
-      "link": "https://inside.java/2026/10/21/jep543-target-jdk28/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "The following JEP is targeted to JDK 28: 543: Structured Concurrency",
-      "ts": 1792540800,
-      "published": "2026-10-21T00:00:00+00:00",
-      "collected_at": "2026-10-21T18:17:05+09:00"
-    },
-    {
-      "title": "Python 3.15.1, 3.14.9 and 3.13.17 are out",
-      "link": "https://blog.python.org/2026/10/python-3151-3149-31317/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Three certified security releases for 3.15, 3.14 and 3.13.",
-      "ts": 1792540800,
-      "published": "2026-10-21T00:00:00+00:00",
-      "collected_at": "2026-10-22T04:12:21+09:00"
-    },
-    {
-      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "link": "https://openai.com/index/empowering-cyber-defenders",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "ts": 1792540800,
-      "published": "2026-10-21T00:00:00+00:00",
-      "collected_at": "2026-10-22T08:05:26+09:00"
-    },
-    {
-      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "link": "https://openai.com/index/cloudflare-cyber",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
-      "ts": 1792540800,
-      "published": "2026-10-21T00:00:00+00:00",
-      "collected_at": "2026-10-22T12:58:03+09:00"
-    },
-    {
-      "title": "Help set Go's priorities for next year",
-      "link": "https://go.dev/blog/survey2026-announce",
-      "source": "Go Blog",
-      "category": "Go",
-      "summary": "Share your experience with Go in the 2026 Go Developer Survey, open through November 3.",
-      "ts": 1792540800,
-      "published": "2026-10-21T00:00:00+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
-      "link": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings to the Trust decades of scientific expertise across observati…",
-      "ts": 1792540800,
-      "published": "2026-10-21T00:00:00+00:00",
-      "collected_at": "2026-11-03T23:40:15+09:00"
-    },
-    {
-      "title": "eMudhra Intermediate CA Compromise",
-      "link": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "eMudhra Intermediate CA Compromise This is very, very bad news: The private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chro…",
-      "ts": 1792540225,
-      "published": "2026-10-20T23:50:25+00:00",
-      "collected_at": "2026-10-21T12:57:28+09:00"
-    },
-    {
-      "title": "Survey Statistics: textbooks adding non-probability sampling chapters",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/20/survey-statistics-textbooks-adding-non-probability-sampling-chapters/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Last week I asked for your favorite survey statistics textbooks. Thank you for many fun recommendations here and on Bluesky ! I am compiling a reading list for after the election. Here’s some not-blue-sky on the AT in T…",
-      "ts": 1792527818,
-      "published": "2026-10-20T20:23:38+00:00",
-      "collected_at": "2026-10-21T08:02:30+09:00"
     }
   ]
 }
