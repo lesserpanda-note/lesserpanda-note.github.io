@@ -9,13 +9,15 @@ Java · Spring Boot · AI 최신 뉴스를 모아 보여주는 정적 사이트.
 ```
 index.html                            화면 (바닐라 HTML/CSS/JS)
 assets/style.css                      스타일 (라이트/다크 자동)
-assets/app.js                         data/*.json 을 읽어 렌더 (뉴스·다이제스트·아카이브·소스) + 검색
+assets/app.js                         data/*.json 을 읽어 렌더 (다이제스트·보안 공지·뉴스·아카이브·소스) + 검색
 data/news.json                        RSS 수집 결과 (배치가 생성)
 data/digest.json                      오늘의 데일리 다이제스트
 data/archive.json                     지난 다이제스트 보관
 data/digest-status.json               다이제스트 루틴 실행 heartbeat (마지막 실행 시각)
 data/sources.json                     카테고리별 참조 소스 (FEEDS 에서 fetch_news.py 가 생성)
-scripts/fetch_news.py                 RSS → data/news.json + data/sources.json (피드 병렬 수집)
+data/security.json                    공식 보안 공지 누적 (1년 보관, fetch_news.py 가 생성)
+scripts/fetch_news.py                 RSS → data/news.json + data/sources.json + data/security.json
+scripts/test_security.py              보안 공지 파서·병합 단위 테스트
 .github/workflows/deploy.yml          6시간마다 뉴스 재생성 + 배포
 .github/workflows/promote-digest.yml  다이제스트 루틴 산출물을 main 으로 승격
 ```
@@ -29,6 +31,15 @@ scripts/fetch_news.py                 RSS → data/news.json + data/sources.json
   모델이 무거워 기기에 따라 페이지가 버벅여 걷어냈다.)
 - **카테고리별 소스**: `#sources` 섹션이 `data/sources.json`(FEEDS 에서 생성)을 읽어 각 카테고리가
   어떤 매체(RSS)를 참조하는지 보여준다. FEEDS 를 고치면 소스 목록도 자동으로 따라간다.
+
+## 보안 공지
+
+`#security` 패널이 `data/security.json` 을 읽어 최근 90일 공식 보안 공지를 최신순으로 보여준다
+(생태계 필터, Medium·Low 숨기기 토글 — 등급 없는 공지는 남김). 다이제스트는 카테고리당 몇 건만 고르지만 보안 공지는 전부 확인할
+대상이라 따로 모은다. 출처는 공식 공지뿐이다: OpenJDK 취약점 공지·Oracle 보안 패치 공지(Java),
+spring.io/security(Spring), Node.js 보안 릴리스, vuln.go.dev 의 stdlib·toolchain 항목(Go),
+security-announce@python.org(Python), rust-lang/rust·cargo 의 GitHub 보안 공지(Rust).
+한 출처가 실패해도 나머지와 뉴스 수집은 계속되고, 저장된 공지는 링크 기준으로 누적돼 365일 뒤 지워진다.
 
 ## 뉴스 출처
 

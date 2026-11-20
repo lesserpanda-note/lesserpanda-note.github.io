@@ -1,0 +1,1627 @@
+{
+  "updated": "2026-11-20T18:22:54+09:00",
+  "count": 138,
+  "items": [
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-123886 - HIGH - Spring Data Elasticsearch SpEL Expression Injection through String-based Query Method Arguments",
+      "link": "https://spring.io/security/cve-2026-123886",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-123886"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-41698 - LOW - Spring Vault Path Traversal via unsanitized secret path parameter",
+      "link": "https://spring.io/security/cve-2026-41698",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-41698"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59273 - CRITICAL - Spring Security ELRequestMatcher allows Remote Code Execution via unrestricted SpEL evaluation",
+      "link": "https://spring.io/security/cve-2026-59273",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "CRITICAL",
+      "ids": [
+        "CVE-2026-59273"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59329 - LOW - Spring Security Reactive Authentication Timing Attack Enables Username Enumeration",
+      "link": "https://spring.io/security/cve-2026-59329",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-59329"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59330 - HIGH - WebAuthn Signature Counter Check Fails to Detect Cloned Authenticators",
+      "link": "https://spring.io/security/cve-2026-59330",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59330"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59331 - HIGH - Spring Security RSocket Basic Authentication Decoder Enables Denial of Service via Unbounded Allocation",
+      "link": "https://spring.io/security/cve-2026-59331",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59331"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59333 - HIGH - Spring Security IP Address CIDR Matching Ignores Address Family",
+      "link": "https://spring.io/security/cve-2026-59333",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59333"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59336 - LOW - Incomplete SSRF blocklist in spring-ai-bedrock-converse URLValidator",
+      "link": "https://spring.io/security/cve-2026-59336",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-59336"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59337 - LOW - Full prompt logged at WARN",
+      "link": "https://spring.io/security/cve-2026-59337",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-59337"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59338 - HIGH - Unbounded Tika text extraction can exhaust JVM memory",
+      "link": "https://spring.io/security/cve-2026-59338",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59338"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59339 - HIGH - Denial of Service via uncontrolled recursion in FilterExpressionTextParser",
+      "link": "https://spring.io/security/cve-2026-59339",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59339"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59340 - MEDIUM - Denial of Service via crafted PDF in PagePdfDocumentReader",
+      "link": "https://spring.io/security/cve-2026-59340",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59340"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59342 - MEDIUM - Spring Data MongoDB - String query logic injection via function operator bind parameter",
+      "link": "https://spring.io/security/cve-2026-59342",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59342"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59344 - HIGH - User-controlled filter keys can bypass Coherence metadata filtering",
+      "link": "https://spring.io/security/cve-2026-59344",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59344"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59345 - HIGH - Denial of Service via regex-recursion",
+      "link": "https://spring.io/security/cve-2026-59345",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59345"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59348 - MEDIUM - Incomplete Escaping in RedisChatMemoryRepository Query Methods",
+      "link": "https://spring.io/security/cve-2026-59348",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59348"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59349 - HIGH - Spring Web Services Denial of Service via Unbounded Incoming Message Size",
+      "link": "https://spring.io/security/cve-2026-59349",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59349"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59350 - MEDIUM - WS-Addressing out-of-band replies are sent without response-side WS-Security protection",
+      "link": "https://spring.io/security/cve-2026-59350",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59350"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59351 - MEDIUM - Predictable Message-ID allows forged responses over the mail transport",
+      "link": "https://spring.io/security/cve-2026-59351",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59351"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59352 - MEDIUM - Certificate revocation check can be bypassed when a message carries multiple XML signatures",
+      "link": "https://spring.io/security/cve-2026-59352",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59352"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59353 - MEDIUM - Forged responses accepted over the XMPP client transport due to missing sender verification",
+      "link": "https://spring.io/security/cve-2026-59353",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59353"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59356 - LOW - Spring for GraphQL Federation Controller Exception Message Disclosure",
+      "link": "https://spring.io/security/cve-2026-59356",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-59356"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59361 - HIGH - RediSearch Query Injection and Tenant Isolation Bypass in RedisFilterExpressionConverter",
+      "link": "https://spring.io/security/cve-2026-59361",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59361"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59362 - MEDIUM - Spring Integration SFTP Revoked known_hosts Entry Does Not Veto Server Key Acceptance",
+      "link": "https://spring.io/security/cve-2026-59362",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59362"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59363 - MEDIUM - Spring Integration MQTT v5 Header Mapper Maps All User Properties Including Framework-Significant Headers",
+      "link": "https://spring.io/security/cve-2026-59363",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59363"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59364 - MEDIUM - Spring Integration DefaultFtpsSessionFactory Does Not Verify FTPS Server Certificate and Hostname by Default",
+      "link": "https://spring.io/security/cve-2026-59364",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59364"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59365 - MEDIUM - Spring Integration AMQP Default Inbound Header Mapper Maps replyChannel and errorChannel Headers",
+      "link": "https://spring.io/security/cve-2026-59365",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59365"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59367 - CRITICAL - Embedded Test LDAP Server Binds to All Network Interfaces with a Hardcoded Administrative Credential in Spring LDAP",
+      "link": "https://spring.io/security/cve-2026-59367",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "CRITICAL",
+      "ids": [
+        "CVE-2026-59367"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59368 - MEDIUM - LdapQueryBuilder Silently Discards Existing Filter When Built From Another Query in Spring LDAP",
+      "link": "https://spring.io/security/cve-2026-59368",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59368"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59369 - HIGH - Typesense Vector Store filter expression injection bypasses tenant isolation",
+      "link": "https://spring.io/security/cve-2026-59369",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59369"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59370 - MEDIUM - WS-Security faults disclose why validation of a request failed",
+      "link": "https://spring.io/security/cve-2026-59370",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59370"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59371 - MEDIUM - Client-side schema validation of a response can bypass its WS-Security validation",
+      "link": "https://spring.io/security/cve-2026-59371",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59371"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59372 - LOW - Actuator sanitization bypass when running in a Turkish or Azerbaijani locale",
+      "link": "https://spring.io/security/cve-2026-59372",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-59372"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59374 - HIGH - Spring Framework Data Binding vulnerability on indexed data types",
+      "link": "https://spring.io/security/cve-2026-59374",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59374"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59373 - MEDIUM - Jedis SSL auto-configuration does not enable TLS hostname verification",
+      "link": "https://spring.io/security/cve-2026-59373",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59373"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59376 - MEDIUM - Spring HATEOAS allows mutation of read-only properties via Collection+JSON and UBER payloads",
+      "link": "https://spring.io/security/cve-2026-59376",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59376"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59377 - MEDIUM - Spring Data REST allows POST requests on association resources although save(…) is not exported",
+      "link": "https://spring.io/security/cve-2026-59377",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59377"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59378 - HIGH - Authentication Bypass under Actuator Health Endpoints on Jersey",
+      "link": "https://spring.io/security/cve-2026-59378",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59378",
+        "CVE-2026-22731",
+        "CVE-2026-22733"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59379 - MEDIUM - Spring WS SSRF via insufficient WS-Addressing destination checks",
+      "link": "https://spring.io/security/cve-2026-59379",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59379",
+        "CVE-2026-40999"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59381 - HIGH - Spring Integration Remote File MGET Local Directory Path Traversal via Server-Controlled Remote Directory",
+      "link": "https://spring.io/security/cve-2026-59381",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59381",
+        "CVE-2026-40987"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59382 - MEDIUM - Spring Integration Zip Transformer Default Work Directory Can Be Redirected via Symlink",
+      "link": "https://spring.io/security/cve-2026-59382",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59382"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59383 - HIGH - Spring Integration JdbcMessageStore Allow-List Bypass Leading to Unsafe Deserialization",
+      "link": "https://spring.io/security/cve-2026-59383",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-59383",
+        "CVE-2026-59307"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59389 - MEDIUM - Spring Framework multipart part smuggling vulnerability",
+      "link": "https://spring.io/security/cve-2026-59389",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59389"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59390 - MEDIUM - Spring Framework No Origin Validation If WebSocket Handling Configured Directly",
+      "link": "https://spring.io/security/cve-2026-59390",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59390"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59391 - MEDIUM - Spring Framework Message Smuggling with External STOMP Broker",
+      "link": "https://spring.io/security/cve-2026-59391",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59391"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59392 - MEDIUM - Spring Framework STOMP Message Disclosure with SockJS Transport",
+      "link": "https://spring.io/security/cve-2026-59392",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59392"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59393 - MEDIUM - Spring Framework maxInMemorySize Bypassed in Jaxb2Decoder",
+      "link": "https://spring.io/security/cve-2026-59393",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59393",
+        "CVE-2026-47891"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59394 - MEDIUM - Spring Framework Open Redirect in UrlHandlerFilter",
+      "link": "https://spring.io/security/cve-2026-59394",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59394",
+        "CVE-2026-47883"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59395 - MEDIUM - Spring AMQP Publisher-Controlled Headers Overwrite Framework-Derived amqp_* Headers",
+      "link": "https://spring.io/security/cve-2026-59395",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59395"
+      ]
+    },
+    {
+      "ecosystem": "Spring",
+      "source": "Spring Security",
+      "title": "cve-2026-59398 - MEDIUM - Spring Framework Denial of Service with Parameter-based Content Negotiation",
+      "link": "https://spring.io/security/cve-2026-59398",
+      "published": "2026-11-19T00:00:00+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-59398"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Critical Security Patch Update Advisory - November 2026",
+      "link": "https://www.oracle.com/security-alerts/cspunov2026.html",
+      "published": "2026-11-17T20:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Java",
+      "source": "OpenJDK",
+      "title": "OpenJDK Vulnerability Advisory: 2026/11/17",
+      "link": "https://openjdk.org/groups/vulnerability/advisories/2026-11-17",
+      "published": "2026-11-17T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-114938",
+        "CVE-2026-114939",
+        "CVE-2026-114940",
+        "CVE-2026-114941",
+        "CVE-2026-114942",
+        "CVE-2026-114943",
+        "CVE-2026-114944",
+        "CVE-2026-114945",
+        "CVE-2026-114946",
+        "CVE-2026-114947",
+        "CVE-2026-86144"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-16052] Cookie Attribute Injection via Unescaped Semicolons in http.cookies.Morsel",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/IZL4QUFV7PKGT2JYSU2DCBMLTWYJDGKZ/",
+      "published": "2026-11-12T16:07:16+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-16052"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6859: HTTP/1 server crash due to MaxBytesReader header race in net/http",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6859",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6859",
+        "CVE-2026-97054"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6858: Unexpected code execution via --sysroot, -target, -isysroot, -Wl,-syslibroot, and -x cgo flags in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6858",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6858",
+        "CVE-2026-97033"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6857: Arbitrary command execution via GCC spec files in cgo linker search directories in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6857",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6857",
+        "CVE-2026-97034"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6856: Unexpected code execution and arbitrary file write via Clang -gen-* and GCC -gnat* flags in cgo in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6856",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6856",
+        "CVE-2026-97035"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6855: Arbitrary code execution during build on darwin via \"-l to_library\" in cgo in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6855",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6855",
+        "CVE-2026-97036"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6854: Linker script injection via split -Wl, flags and Darwin or symbol linker flags in cgo in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6854",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6854",
+        "CVE-2026-97037"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6853: Arbitrary code execution via crafted .syso files and cgo linker input files in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6853",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6853",
+        "CVE-2026-97038"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6852: Flag sanitization bypass via \"#cgo pkg-config:\" directives in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6852",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6852",
+        "CVE-2026-97039"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6851: Cgo directive injection via .syso files disguised as Go object files in cmd/go and cmd/link",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6851",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6851",
+        "CVE-2026-97040"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6850: Host linker flag injection via //go:cgo_* directives in cmd/compile and cmd/link",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6850",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6850",
+        "CVE-2026-97041"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6849: Linker flag injection via cgo_import_dynamic and PE DLL names in cmd/cgo, cmd/compile, and cmd/link",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6849",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6849",
+        "CVE-2026-97042"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6848: Unexpected code execution via escaped quotes in //go:cgo_ldflag in cmd/go and cmd/compile",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6848",
+      "published": "2026-11-11T02:51:11Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6848",
+        "CVE-2026-97043"
+      ]
+    },
+    {
+      "ecosystem": "Node",
+      "source": "Node.js Security",
+      "title": "Wednesday, November 11, 2026 Security Releases",
+      "link": "https://nodejs.org/en/blog/vulnerability/november-2026-security-releases",
+      "published": "2026-11-11T00:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-115559] imaplib STARTTLS serves plaintext bytes buffered before the handshake as if they came over TLS",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/LVAGFOFG26QVXEM6VXXPRMMOZBHM4CVB/",
+      "published": "2026-11-10T17:41:54+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-115559",
+        "CVE-2011-0411"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-115791] Prevent shadowing stdlib in gzip/tarfile/zipfile CLI",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/ZKKA4Q7B35JEHSDIJNZ6TYKRDQJUHDAG/",
+      "published": "2026-11-10T16:00:26+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-115791"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-19552] ssl.get_server_certificate(addr, ca_certs=...) verifies the chain but never the identity",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/SXBD6BGHDBTGM4KSUMQEWYIQ5RO4BQ76/",
+      "published": "2026-11-09T14:12:16+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-19552"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-124249] http.cookiejar deletes cookies of other domains via expired Set-Cookie",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/Y6IKNZ2VZUS2L6CLQICSFUEMCLT7OLTY/",
+      "published": "2026-11-07T19:58:34+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-124249"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-119170] Regression in FIPS enforcement of hash algorithms affecting only Python 3.14.10",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/PXVTTOBPUMFJSSUXN6XCS7FC5DZOSZXK/",
+      "published": "2026-11-06T14:45:25+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-119170"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-116566] socket.getaddrinfo() accepts embedded null bytes in host and port",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/HCHE62VYTPYI6WOPJQDWUBR4CINBPSM7/",
+      "published": "2026-10-29T17:46:30+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-116566"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-103995] Lenient parsing of integers for response body and chunk framing",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/6TLH7YBU4HJIFBTBCEPAAK2I2F4KQBRB/",
+      "published": "2026-10-27T19:26:24+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-103995"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-115557] Distrust compromised intermediate certificates in ssl module",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/FNAJMZV6XQYLVPABNINDMF3VF66AYLW4/",
+      "published": "2026-10-24T14:20:01+00:00",
+      "severity": null,
+      "ids": [
+        "CVE-2026-115557"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "OpenJDK",
+      "title": "OpenJDK Vulnerability Advisory: 2026/10/24",
+      "link": "https://openjdk.org/groups/vulnerability/advisories/2026-10-24",
+      "published": "2026-10-24T00:00:00+00:00",
+      "severity": "CRITICAL",
+      "ids": [
+        "CVE-2026-114820"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-114583] tarfile.tar_filter path traversal bypass allows writing outside the extraction directory",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/43JOWPRAV5DI3VZ4FUEUAZOHCATXXOCK/",
+      "published": "2026-10-22T20:35:28+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-114583",
+        "CVE-2026-7774"
+      ]
+    },
+    {
+      "ecosystem": "Node",
+      "source": "Node.js Security",
+      "title": "Wednesday, October 21, 2026 Security Releases",
+      "link": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+      "published": "2026-10-21T22:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6809: Distrust compromised intermediate certificates in crypto/x509",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6809",
+      "published": "2026-10-21T00:27:29Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6809",
+        "CVE-2026-111943"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "OpenJDK",
+      "title": "OpenJDK Vulnerability Advisory: 2026/10/21",
+      "link": "https://openjdk.org/groups/vulnerability/advisories/2026-10-21",
+      "published": "2026-10-21T00:00:00+00:00",
+      "severity": "CRITICAL",
+      "ids": [
+        "CVE-2026-91403"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Critical Security Patch Update Advisory - October 2026",
+      "link": "https://www.oracle.com/security-alerts/cpuoct2026.html",
+      "published": "2026-10-20T20:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[GHSA-6q48-6c7w-9gw2] CRITICAL security update for certifi, removal of emSign root certificate",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/LSEJ6DOJPIHHNNRS43GROPIH2EPJRUDS/",
+      "published": "2026-10-20T14:03:26+00:00",
+      "severity": "CRITICAL",
+      "ids": []
+    },
+    {
+      "ecosystem": "Java",
+      "source": "OpenJDK",
+      "title": "OpenJDK Vulnerability Advisory: 2026/10/20",
+      "link": "https://openjdk.org/groups/vulnerability/advisories/2026-10-20",
+      "published": "2026-10-20T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-91415",
+        "CVE-2026-91398",
+        "CVE-2026-91382",
+        "CVE-2026-91411",
+        "CVE-2026-101516",
+        "CVE-2026-83395",
+        "CVE-2026-87294",
+        "CVE-2026-91395",
+        "CVE-2026-91396",
+        "CVE-2026-101737",
+        "CVE-2026-91394",
+        "CVE-2026-87290",
+        "CVE-2026-83387",
+        "CVE-2026-91462",
+        "CVE-2026-83374",
+        "CVE-2026-87293",
+        "CVE-2026-91410",
+        "CVE-2026-87291",
+        "CVE-2026-91332",
+        "CVE-2026-91451",
+        "CVE-2026-91373",
+        "CVE-2026-91417",
+        "CVE-2026-83380",
+        "CVE-2026-83400",
+        "CVE-2026-91463",
+        "CVE-2026-91464",
+        "CVE-2026-91453",
+        "CVE-2026-91452",
+        "CVE-2026-91418",
+        "CVE-2026-83378",
+        "CVE-2026-91487",
+        "CVE-2026-83381",
+        "CVE-2026-91374",
+        "CVE-2026-91375",
+        "CVE-2026-91379",
+        "CVE-2026-91380",
+        "CVE-2026-87255",
+        "CVE-2026-91409",
+        "CVE-2026-91333",
+        "CVE-2026-91381",
+        "CVE-2026-91334",
+        "CVE-2026-87367",
+        "CVE-2026-87292",
+        "CVE-2026-83376",
+        "CVE-2026-91461",
+        "CVE-2026-91397",
+        "CVE-2026-91400",
+        "CVE-2026-91335",
+        "CVE-2026-43660",
+        "CVE-2026-6732",
+        "CVE-2026-91385",
+        "CVE-2026-46470",
+        "CVE-2026-91402",
+        "CVE-2026-91477"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6617: HTTP/2 server crash due to HPACK encoder race in net/http",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6617",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6617",
+        "CVE-2026-97032"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6613: HTTP/1 server connection desynchronization after 2xx CONNECT response in net/http",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6613",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6613",
+        "CVE-2026-94439"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6612: Double flow control refund on HTTP/2 server streams in net/http",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6612",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6612",
+        "CVE-2026-78663"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6611: Excessive CPU consumption from repeated initial window changes in net/http",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6611",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6611",
+        "CVE-2026-78669"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6610: HTTP/2 transport accepts malformed framing-related headers in net/http",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6610",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6610",
+        "CVE-2026-78660"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6609: Lack of limit on size of parsed Range headers in net/http",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6609",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6609",
+        "CVE-2026-78667"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6608: Memory limit bypass when parsing MIME headers in net/textproto, mime/multipart",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6608",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6608",
+        "CVE-2026-94440"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6607: Reject malformed ECH outer extension references in crypto/tls",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6607",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6607",
+        "CVE-2026-97031"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6605: HTTP/1 client connection desynchronization after CONNECT rejection in net/http",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6605",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6605",
+        "CVE-2026-56866"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6604: Root.Mkdir(All) can follow junctions out of the root on Windows in os",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6604",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6604",
+        "CVE-2026-56857"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6603: HTTP/2 server memory exhaustion due to Trailer headers in net/http",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6603",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6603",
+        "CVE-2026-78659"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6602: Checksum database bypass for golang.org/toolchain in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6602",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6602",
+        "CVE-2026-94447"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6601: Checksum bypass for golang.org/fips140 in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6601",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6601",
+        "CVE-2026-94444"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6600: Recognize yield as regexp preceder keyword in html/template",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6600",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6600",
+        "CVE-2026-97030"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-6599: Reset context tracking on consecutive template expressions in html/template",
+      "link": "https://pkg.go.dev/vuln/GO-2026-6599",
+      "published": "2026-10-08T22:31:09Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-6599",
+        "CVE-2026-94448"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-19445] Use-after-free of a server-side SSLContext when sni_callback switches contexts",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/",
+      "published": "2026-09-30T16:10:08+00:00",
+      "severity": "CRITICAL",
+      "ids": [
+        "CVE-2026-19445"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-19553] SSLContext.wrap_bio() missing validation of server_hostname parameter",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/",
+      "published": "2026-09-30T16:08:09+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-19553"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-12345] Race condition in tempfile.TemporaryDirectory cleanup allows deleting files outside the temporary directory",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/WBHGJXKKLB7X3ZJF7NYE6M65DCUWW6QT/",
+      "published": "2026-09-29T17:28:51+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-12345"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Critical Security Patch Update Advisory - September 2026",
+      "link": "https://www.oracle.com/security-alerts/cspusep2026.html",
+      "published": "2026-09-15T20:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-82049] tarfile extraction filters allow file modification and content disclosure via hard link to symlink",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/EFJWGAZJA56AKSBR2WHMHQZO7RRLZPRH/",
+      "published": "2026-09-14T16:59:38+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-82049"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-87910] tarfile hardlink fallback ignores custom extraction filter rejection via None",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/57TBTLL2W6APMZR3A25B2YV7GL3EPTDJ/",
+      "published": "2026-09-11T12:24:10+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-87910"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-15310] Memory exhaustion in zipfile in bzip2/LZMA/Zstandard decompression",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/YUHXURX2WZGKGNA4ANYBQS2VZRYQ5JNK/",
+      "published": "2026-08-25T14:51:43+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-15310"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-19672] tarfile extraction filter bypass allows creation of directories outside the destination",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/J2WT2ALRWEXQJOB3C7Q2HYWUXP3CINWO/",
+      "published": "2026-08-19T13:56:06+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-19672"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Critical Security Patch Update Advisory - August 2026",
+      "link": "https://www.oracle.com/security-alerts/cspuaug2026.html",
+      "published": "2026-08-18T20:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-15806] urllib.request.HTTPPasswordMgr credentials for one URL scheme sent over another scheme",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/3OKPE5S75KDNA7FY7AI3PL2MXM2X5RB3/",
+      "published": "2026-08-18T15:38:30+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-15806"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-17084] StringPrep algorithm considered Unicode codepoint attributes outside Unicode 3.2.0",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/EUHHTC6EV7HCLSUHP25C5VHSV4V2MUZN/",
+      "published": "2026-08-18T13:55:39+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-17084"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "OpenJDK",
+      "title": "OpenJDK Vulnerability Advisory: 2026/08/18",
+      "link": "https://openjdk.org/groups/vulnerability/advisories/2026-08-18",
+      "published": "2026-08-18T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-70906",
+        "CVE-2026-61308",
+        "CVE-2026-70907",
+        "CVE-2026-60589"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-18503] Super-linear CPU usage for unbounded input to csv.Sniffer.sniff()",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/KQ7NBMCPAZJHRROQXJQE4GMXGLD5KHBS/",
+      "published": "2026-08-10T13:42:11+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-18503"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-13346] pip absolute path traversal during download from malicious package indexes",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/L2BNQGGVQCEV7DROOORQ7WFKKFF2OOQX/",
+      "published": "2026-07-29T18:35:14+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-13346"
+      ]
+    },
+    {
+      "ecosystem": "Node",
+      "source": "Node.js Security",
+      "title": "Wednesday, July 29, 2026 Security Releases",
+      "link": "https://nodejs.org/en/blog/vulnerability/july-2026-security-releases",
+      "published": "2026-07-29T00:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "CVE-2026-6879 Quadratic Behavior in xml.etree.ElementPath Index Predicates",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/7YMZ6DDZVR26TJJBVO3RDNBAVGHNYAKR/",
+      "published": "2026-07-28T11:41:28+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-6879"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Critical Patch Update Advisory - July 2026",
+      "link": "https://www.oracle.com/security-alerts/cpujul2026.html",
+      "published": "2026-07-21T19:30:54+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Java",
+      "source": "OpenJDK",
+      "title": "OpenJDK Vulnerability Advisory: 2026/07/21",
+      "link": "https://openjdk.org/groups/vulnerability/advisories/2026-07-21",
+      "published": "2026-07-21T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-47057",
+        "CVE-2026-41254",
+        "CVE-2026-47063",
+        "CVE-2026-47058",
+        "CVE-2026-60147",
+        "CVE-2026-46968",
+        "CVE-2026-47059",
+        "CVE-2026-47027",
+        "CVE-2026-47021",
+        "CVE-2026-46917",
+        "CVE-2026-47010",
+        "CVE-2026-47013",
+        "CVE-2026-47030",
+        "CVE-2026-47034",
+        "CVE-2026-47035",
+        "CVE-2026-60164",
+        "CVE-2026-60165",
+        "CVE-2026-60166"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-15308] Incremental HTMLParser allows CPU-exhaustion DoS via repeated unterminated markup declarations",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/F6453LWKSHKCTWFLCOURWPLETNUIW2Z5/",
+      "published": "2026-07-09T17:08:21+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-15308"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-4360] Tarfile.extract doesn't fully respect filter parameter",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/TWZW2PC2AZOV6FENIHFSRC63OM7MBGSB/",
+      "published": "2026-06-30T11:45:44+00:00",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-4360"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-11972] tarfile opened in streaming mode mishandles EOF",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/AXPSKKTSRKXTTJULW3XSIC74WZNAAPPB/",
+      "published": "2026-06-23T22:01:35+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-11972"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-0864] Configparser newline injection in write() method",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/CV4NE6AFCRJL7XQOHX7J5TSDHUWVWGJS/",
+      "published": "2026-06-23T17:40:15+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-0864"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-11940] tarfile extraction filter bypass allows escaping the destination directory",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/LD6QIISNQFQYOIEPJNEUIPV7S3V76FZH/",
+      "published": "2026-06-23T15:55:19+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-11940",
+        "CVE-2025-4330"
+      ]
+    },
+    {
+      "ecosystem": "Node",
+      "source": "Node.js Security",
+      "title": "Thursday, June 18, 2026 Security Releases",
+      "link": "https://nodejs.org/en/blog/vulnerability/june-2026-security-releases",
+      "published": "2026-06-18T04:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Critical Security Patch Update Advisory - June 2026",
+      "link": "https://www.oracle.com/security-alerts/cspujun2026.html",
+      "published": "2026-06-16T19:30:54+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-12003] In-tree (development) search paths can be enabled without modifying install directory",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/JIFOBO7UX3LY4VJKJUOKYJV62CFR2IRH/",
+      "published": "2026-06-16T15:01:03+00:00",
+      "severity": null,
+      "ids": [
+        "CVE-2026-12003"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Security Alert Advisory - CVE-2026-35273",
+      "link": "https://www.oracle.com/security-alerts/alert-cve-2026-35273.html",
+      "published": "2026-06-11T01:00:00+00:00",
+      "severity": null,
+      "ids": [
+        "CVE-2026-35273"
+      ]
+    },
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-9669] bz2.BZ2Decompressor reuse after error can cause a stack buffer overflow",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/DBJZETMGUIFK7DVUWMOXHD3Z6IX2QPSX/",
+      "published": "2026-06-08T20:07:31+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-9669"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Critical Security Patch Update Advisory - May 2026",
+      "link": "https://www.oracle.com/security-alerts/cspumay2026.html",
+      "published": "2026-05-28T19:30:54+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Rust",
+      "source": "rust-lang/cargo",
+      "title": "Crates in third party registries can override the cached source of other crates",
+      "link": "https://github.com/rust-lang/cargo/security/advisories/GHSA-jq42-7mfv-hm57",
+      "published": "2026-05-25T08:42:56Z",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-5223",
+        "GHSA-jq42-7mfv-hm57"
+      ]
+    },
+    {
+      "ecosystem": "Rust",
+      "source": "rust-lang/cargo",
+      "title": "Cargo can be coerced to share credentials between registries",
+      "link": "https://github.com/rust-lang/cargo/security/advisories/GHSA-p688-r7jv-fm6f",
+      "published": "2026-05-25T08:42:49Z",
+      "severity": "LOW",
+      "ids": [
+        "CVE-2026-5222",
+        "GHSA-p688-r7jv-fm6f"
+      ]
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Critical Patch Update Advisory - April 2026",
+      "link": "https://www.oracle.com/security-alerts/cpuapr2026.html",
+      "published": "2026-04-21T19:30:54+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Java",
+      "source": "OpenJDK",
+      "title": "OpenJDK Vulnerability Advisory: 2026/04/21",
+      "link": "https://openjdk.org/groups/vulnerability/advisories/2026-04-21",
+      "published": "2026-04-21T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-22016",
+        "CVE-2026-34282",
+        "CVE-2026-22021",
+        "CVE-2026-22013",
+        "CVE-2026-23865",
+        "CVE-2026-22008",
+        "CVE-2026-22018",
+        "CVE-2026-22007",
+        "CVE-2026-34268",
+        "CVE-2026-20652"
+      ]
+    },
+    {
+      "ecosystem": "Node",
+      "source": "Node.js Security",
+      "title": "Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8",
+      "link": "https://nodejs.org/en/blog/vulnerability/march-2026-hashdos",
+      "published": "2026-03-24T20:50:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Node",
+      "source": "Node.js Security",
+      "title": "Tuesday, March 24, 2026 Security Releases",
+      "link": "https://nodejs.org/en/blog/vulnerability/march-2026-security-releases",
+      "published": "2026-03-24T03:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Security Alert for CVE-2026-21992 - 19 March 2026",
+      "link": "https://www.oracle.com/security-alerts/alert-cve-2026-21992.html",
+      "published": "2026-03-20T01:00:00+00:00",
+      "severity": null,
+      "ids": [
+        "CVE-2026-21992"
+      ]
+    },
+    {
+      "ecosystem": "Node",
+      "source": "Node.js Security",
+      "title": "OpenSSL Security Advisory Assessment, January 2026",
+      "link": "https://nodejs.org/en/blog/vulnerability/openssl-fixes-in-regular-releases-jan2026",
+      "published": "2026-01-28T17:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Java",
+      "source": "Oracle",
+      "title": "Oracle Critical Patch Update Advisory - January 2026",
+      "link": "https://www.oracle.com/security-alerts/cpujan2026.html",
+      "published": "2026-01-20T19:30:54+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Java",
+      "source": "OpenJDK",
+      "title": "OpenJDK Vulnerability Advisory: 2026/01/20",
+      "link": "https://openjdk.org/groups/vulnerability/advisories/2026-01-20",
+      "published": "2026-01-20T00:00:00+00:00",
+      "severity": "HIGH",
+      "ids": [
+        "CVE-2026-21945",
+        "CVE-2026-21932",
+        "CVE-2026-21933",
+        "CVE-2026-21925",
+        "CVE-2025-43368",
+        "CVE-2025-7425",
+        "CVE-2025-6021",
+        "CVE-2025-6052",
+        "CVE-2026-21947",
+        "CVE-2025-47219"
+      ]
+    },
+    {
+      "ecosystem": "Node",
+      "source": "Node.js Security",
+      "title": "Mitigating Denial-of-Service Vulnerability from Unrecoverable Stack Space Exhaustion for React, Next.js, and APM Users",
+      "link": "https://nodejs.org/en/blog/vulnerability/january-2026-dos-mitigation-async-hooks",
+      "published": "2026-01-13T17:00:00+00:00",
+      "severity": null,
+      "ids": []
+    },
+    {
+      "ecosystem": "Node",
+      "source": "Node.js Security",
+      "title": "Tuesday, January 13, 2026 Security Releases",
+      "link": "https://nodejs.org/en/blog/vulnerability/december-2025-security-releases",
+      "published": "2026-01-13T00:00:00+00:00",
+      "severity": null,
+      "ids": []
+    }
+  ]
+}

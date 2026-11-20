@@ -229,6 +229,17 @@ main {
   padding: 0.35rem 0 0.3rem;
 }
 
+/* security advisories */
+.sec-toggle { display: flex; align-items: center; gap: 0.35rem; color: var(--muted); font-size: 0.85rem; cursor: pointer; }
+.sec-item { border-left: 3px solid var(--border); padding-left: 0.8rem; }
+.sec-meta { color: var(--muted); font-size: 0.78rem; margin-top: 0.15rem; }
+.sev { padding: 0.04rem 0.45rem; border-radius: 6px; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.02em; color: #fff; }
+.sev-critical { background: #b91c1c; }
+.sev-high { background: #c2410c; }
+.sev-medium { background: #a16207; }
+.sev-low { background: #64748b; }
+.sec-list + .more { display: block; margin: 0.9rem auto 0; }
+
 /* archive */
 .archive { display: grid; gap: 0.5rem; }
 .archive-item { border: 1px solid var(--border); border-radius: 10px; padding: 0.2rem 0.9rem; }

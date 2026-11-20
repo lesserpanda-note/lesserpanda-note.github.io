@@ -10,6 +10,7 @@ from __future__ import annotations
 import calendar
 import html
 import json
+import os
 import re
 import socket
 import sys
@@ -319,6 +320,12 @@ def main() -> int:
 
     # Always regenerate the sources page data from FEEDS, even when news is unchanged.
     write_sources()
+    # Advisories live in their own file with their own retention; runs every time,
+    # independent of whether the news below changed.
+    try:
+        write_security()
+    except Exception as exc:  # advisories must never cost the news run
+        print(f"  ! security: {exc}", file=sys.stderr)
 
     # Drop accumulated items whose feed was removed or recategorized, so retiring a
     # source (or moving a feed to another category) actually purges its old items
@@ -394,6 +401,235 @@ def main() -> int:
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT} ({len(result)} items)")
     return 0
+
+
+# --- security advisories -----------------------------------------------------------
+# A separate list from the news feed: the digest *selects* (five per category at most,
+# whatever was visible at 09:39), but an advisory is something to check, not to pick.
+# On 2026-11-19 Spring published ~50 advisories just after the morning run and none
+# reached the digest. So every official advisory is kept here, for a year, in
+# data/security.json, and the page lists them on their own panel.
+# Only first-party sources: ecosystem-wide package DBs (GitHub Advisory DB, rustsec)
+# are dominated by libraries nobody here uses — see the Rust note in FEEDS.
+SECURITY_OUT = ROOT / "data" / "security.json"
+SECURITY_RETENTION_DAYS = 365
+GO_LOOKBACK_DAYS = 90  # vuln.go.dev needs one request per ID, so only fetch recent ones
+
+ORACLE_FEED = "https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/rss-otn-sec.xml"
+OPENJDK_INDEX = "https://openjdk.org/groups/vulnerability/advisories/"
+SPRING_FEED = "https://spring.io/security.atom"
+NODE_FEED = "https://nodejs.org/en/feed/vulnerability.xml"
+GO_INDEX = "https://vuln.go.dev/index/modules.json"
+PYTHON_FEED = "https://mail.python.org/archives/list/security-announce@python.org/feed/"
+# The Rust blog feed holds only its last ten posts, none of them advisories (checked
+# 2026-11-20); the project files its std and Cargo advisories as GitHub advisories.
+RUST_REPOS = ("rust-lang/rust", "rust-lang/cargo")
+
+_CVE_RE = re.compile(r"\bCVE-\d{4}-\d{4,}\b", re.I)
+_SPRING_SEVERITY_RE = re.compile(r"\s-\s(CRITICAL|HIGH|MEDIUM|LOW)\s-\s")
+_WORD_SEVERITY_RE = re.compile(r"\b(critical|high|medium|low)\s+severity\b", re.I)
+_LIST_TAG_RE = re.compile(r"^\[Security-announce\]\s*", re.I)
+_OPENJDK_DATE_RE = re.compile(r'href="(?:/groups/vulnerability/advisories/)?(\d{4}-\d{2}-\d{2})"')
+# A risk-matrix row: "CVE-2026-114938 hotspot/ compiler 8.1 NHNNUHHH" — the component
+# is one to three tokens, then the CVSS score, then the 8-letter vector.
+_OPENJDK_SCORE_RE = re.compile(r"CVE-\d{4}-\d{4,}\s+(?:\S+\s+){1,3}?(\d{1,2}\.\d)\s+[A-Z]{8}\b")
+
+
+def cve_ids(text: str) -> list[str]:
+    """CVE IDs in order of first appearance, upper-cased and de-duplicated."""
+    return list(dict.fromkeys(m.upper() for m in _CVE_RE.findall(text or "")))
+
+
+def cvss_severity(score: float | None) -> str | None:
+    """CVSS 3.x qualitative rating for a base score."""
+    if not score:
+        return None
+    return "CRITICAL" if score >= 9 else "HIGH" if score >= 7 else "MEDIUM" if score >= 4 else "LOW"
+
+
+def advisory(ecosystem: str, source: str, title: str, link: str, published: str | None,
+             severity: str | None = None, ids: list[str] | None = None) -> dict:
+    return {
+        "ecosystem": ecosystem,
+        "source": source,
+        "title": title,
+        "link": link,
+        "published": published,
+        "severity": severity,
+        "ids": ids or [],
+    }
+
+
+def parse_feed_advisories(raw: bytes, ecosystem: str, source: str) -> list[dict]:
+    """One advisory per RSS/Atom entry. Severity comes from Spring's "- HIGH -" title
+    convention or from "LOW severity" wording in the body (Python's announcements)."""
+    out = []
+    for e in feedparser.parse(raw).entries:
+        title = _LIST_TAG_RE.sub("", clean_text(e.get("title", ""), 200))
+        link = e.get("link")
+        if not title or not link:
+            continue
+        body = clean_text(e.get("summary") or e.get("description") or "", 2000)
+        m = _SPRING_SEVERITY_RE.search(title) or _WORD_SEVERITY_RE.search(body)
+        ts = entry_epoch(e)
+        out.append(advisory(
+            ecosystem, source, title, link,
+            datetime.fromtimestamp(ts, tz=timezone.utc).isoformat() if ts else None,
+            m.group(1).upper() if m else None,
+            cve_ids(f"{title} {body}"),
+        ))
+    return out
+
+
+def parse_openjdk_index(page: str) -> list[str]:
+    """Advisory dates (YYYY-MM-DD) listed on the OpenJDK advisories index."""
+    return list(dict.fromkeys(_OPENJDK_DATE_RE.findall(page)))
+
+
+def parse_openjdk_advisory(page: str, date: str) -> dict:
+    """One advisory per release date; severity is that of its worst CVE."""
+    text = clean_text(re.sub(r"(?is)<(script|style)\b.*?</\1>", " ", page), 10**7)
+    scores = [float(s) for s in _OPENJDK_SCORE_RE.findall(text)]
+    return advisory(
+        "Java", "OpenJDK",
+        f"OpenJDK Vulnerability Advisory: {date.replace('-', '/')}",
+        OPENJDK_INDEX + date,
+        f"{date}T00:00:00+00:00",
+        cvss_severity(max(scores, default=None)),
+        cve_ids(text),
+    )
+
+
+def recent_go_ids(index: list[dict], since: str) -> list[str]:
+    """Go advisory IDs for the standard library and toolchain modified since `since`."""
+    ids = {
+        v["id"]
+        for mod in index
+        if mod.get("path") in ("stdlib", "toolchain")
+        for v in mod.get("vulns", [])
+        if v.get("modified", "") >= since
+    }
+    return sorted(ids, reverse=True)
+
+
+def parse_go_entry(entry: dict) -> dict:
+    vid = entry["id"]
+    return advisory(
+        "Go", "Go Vulnerability DB",
+        f"{vid}: {entry.get('summary', '')}".rstrip(": "),
+        f"https://pkg.go.dev/vuln/{vid}",
+        entry.get("published"),
+        None,  # the Go DB carries no severity rating
+        [vid, *entry.get("aliases", [])],
+    )
+
+
+def parse_github_advisories(data: list[dict], ecosystem: str, source: str) -> list[dict]:
+    out = []
+    for a in data:
+        sev = (a.get("severity") or "").upper()
+        out.append(advisory(
+            ecosystem, source, a.get("summary", ""), a["html_url"], a.get("published_at"),
+            sev if sev in ("CRITICAL", "HIGH", "MEDIUM", "LOW") else None,
+            [i for i in (a.get("cve_id"), a.get("ghsa_id")) if i],
+        ))
+    return out
+
+
+def merge_advisories(existing: list[dict], fresh: list[dict], now: datetime) -> list[dict]:
+    """Fold fresh advisories over stored ones by link, drop those past retention, and
+    sort newest first. A fresh copy wins, so a re-rated advisory picks up the change."""
+    merged = {a["link"]: a for a in existing}
+    merged.update((a["link"], a) for a in fresh)
+    cutoff = (now - timedelta(days=SECURITY_RETENTION_DAYS)).isoformat()
+    # ISO timestamps in different offsets compare correctly only once normalized to UTC.
+    def utc(a: dict) -> str:
+        p = a.get("published")
+        return datetime.fromisoformat(p).astimezone(timezone.utc).isoformat() if p else ""
+    # An undated advisory cannot age out, so it is kept rather than dropped unseen.
+    kept = [a for a in merged.values() if not a.get("published") or utc(a) >= cutoff]
+    kept.sort(key=utc, reverse=True)
+    return kept
+
+
+def _get(url: str) -> bytes:
+    headers = {"User-Agent": USER_AGENT}
+    # Unauthenticated GitHub API calls share a 60/hour quota per IP, and Actions runners
+    # share IPs; the workflow's own token lifts that.
+    if url.startswith("https://api.github.com/") and os.environ.get("GITHUB_TOKEN"):
+        headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
+    req = urllib.request.Request(url, headers=headers)
+    with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT) as resp:
+        return resp.read()
+
+
+def fetch_security(known: set[str], now: datetime) -> list[dict]:
+    """Collect from every source. A failing source logs and contributes nothing, so one
+    dead endpoint never costs the others (or the news run) their results. OpenJDK and Go
+    need one request per advisory, so those skip what is already stored."""
+    cutoff_date = (now - timedelta(days=SECURITY_RETENTION_DAYS)).date().isoformat()
+
+    def openjdk() -> list[dict]:
+        dates = [d for d in parse_openjdk_index(_get(OPENJDK_INDEX).decode("utf-8", "replace"))
+                 if d >= cutoff_date and OPENJDK_INDEX + d not in known]
+        return [parse_openjdk_advisory(_get(OPENJDK_INDEX + d).decode("utf-8", "replace"), d)
+                for d in dates]
+
+    def go() -> list[dict]:
+        since = (now - timedelta(days=GO_LOOKBACK_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+        ids = [i for i in recent_go_ids(json.loads(_get(GO_INDEX)), since)
+               if f"https://pkg.go.dev/vuln/{i}" not in known]
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+            return list(pool.map(lambda i: parse_go_entry(json.loads(_get(f"https://vuln.go.dev/ID/{i}.json"))), ids))
+
+    def rust() -> list[dict]:
+        out = []
+        for repo in RUST_REPOS:
+            data = json.loads(_get(f"https://api.github.com/repos/{repo}/security-advisories?per_page=100"))
+            out += parse_github_advisories(data, "Rust", repo)
+        return out
+
+    sources = [
+        ("Oracle", lambda: parse_feed_advisories(_get(ORACLE_FEED), "Java", "Oracle")),
+        ("OpenJDK", openjdk),
+        ("Spring", lambda: parse_feed_advisories(_get(SPRING_FEED), "Spring", "Spring Security")),
+        ("Node", lambda: parse_feed_advisories(_get(NODE_FEED), "Node", "Node.js Security")),
+        ("Go", go),
+        ("Python", lambda: parse_feed_advisories(_get(PYTHON_FEED), "Python", "Python Security")),
+        ("Rust", rust),
+    ]
+
+    def run(src: tuple) -> list[dict]:
+        name, fn = src
+        try:
+            got = fn()
+        except Exception as exc:  # network/parse blow-ups must not kill the run
+            print(f"  ! security/{name}: {exc}", file=sys.stderr)
+            return []
+        print(f"  ✓ security/{name}: {len(got)} new or refreshed")
+        return got
+
+    with ThreadPoolExecutor(max_workers=len(sources)) as pool:
+        return [a for batch in pool.map(run, sources) for a in batch]
+
+
+def write_security() -> None:
+    try:
+        on_disk = json.loads(SECURITY_OUT.read_text(encoding="utf-8")).get("items", [])
+    except (OSError, ValueError):
+        on_disk = []
+    now = datetime.now(timezone.utc)
+    items = merge_advisories(on_disk, fetch_security({a["link"] for a in on_disk}, now), now)
+    if items == on_disk:
+        print(f"security: no change ({len(items)} advisories)")
+        return
+    payload = {
+        "updated": datetime.now(KST).isoformat(timespec="seconds"),
+        "count": len(items),
+        "items": items,
+    }
+    SECURITY_OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"wrote {SECURITY_OUT} ({len(items)} advisories)")
 
 
 if __name__ == "__main__":
