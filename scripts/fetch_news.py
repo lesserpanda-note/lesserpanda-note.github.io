@@ -132,8 +132,9 @@ FEEDS = [
     ("https://github.blog/security/feed/", "GitHub Security", "Architecture"),
     # Korean backend and AI-platform case studies (Spring services, agent platforms on
     # segregated networks). Culture and event posts ride along and are left to selection.
+    # techblog.woowahan.com/feed/ is absent on purpose: Cloudflare answers 200 from a home
+    # connection but 403 to GitHub Actions runners, where this script runs (2026-11-20).
     ("https://toss.tech/rss.xml", "Toss Tech", "Architecture"),
-    ("https://techblog.woowahan.com/feed/", "Woowahan Tech", "Architecture"),
     ("https://tech.kakao.com/feed/", "Kakao Tech", "Architecture"),
     # Python — the AI-agent-development stack (language, packaging, performance, PyPI security)
     ("https://realpython.com/atom.xml", "Real Python", "Python"),

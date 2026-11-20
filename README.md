@@ -49,7 +49,7 @@ security-announce@python.org(Python), rust-lang/rust·cargo 의 GitHub 보안 �
 - **Spring**: Spring Blog (Spring Boot 릴리스 포함), Spring Security (CVE 권고)
 - **AI** (모델·LLM 트렌드 포함): OpenAI, DeepMind, Hugging Face, MIT Tech Review, InfoQ AI/ML, Anthropic, Ollama, Ahead of AI, Import AI, Hacker News (Grok / Llama / Anthropic), Transformers (라이브러리 릴리스)
 - **Agents**: Anthropic Engineering, MCP Blog, Simon Willison, Latent Space, Hacker News (Claude Code / 에이전트 / 컨텍스트 엔지니어링 / MCP), 프레임워크 릴리스 (MCP servers · LangGraph · Pydantic AI · OpenAI Agents SDK · LlamaIndex · CrewAI)
-- **Architecture**: InfoQ Architecture, Martin Fowler, Cloudflare, GitHub Security, 토스·우아한형제들·카카오 기술블로그
+- **Architecture**: InfoQ Architecture, Martin Fowler, Cloudflare, GitHub Security, 토스·카카오 기술블로그
 - **Python**: Real Python, Python Insider, PyPI Blog·Socket (공급망·보안)
 - **DataScience**: KDnuggets, Towards Data Science, Statistical Modeling, NumPy·pandas (라이브러리 릴리스) — 실무 예측모델(scikit-learn·XGBoost·표 데이터·특성공학·통계기법). LLM·agent·RAG 글은 제목 기준으로 AI·Agents 에 자동 재분류(`reclassify`)한다.
 
