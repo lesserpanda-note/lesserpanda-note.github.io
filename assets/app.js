@@ -311,6 +311,91 @@ function renderNews(data) {
   draw();
 }
 
+// Official security advisories (data/security.json, kept a year by fetch_news.py);
+// the panel shows the last 90 days, filterable by ecosystem and severity.
+const SEC_DAYS = 90;
+const SEC_PAGE = 20;
+const SEC_ECOSYSTEMS = ["Java", "Spring", "Node", "Go", "Python", "Rust"];
+// The toggle hides what is rated MEDIUM/LOW; unrated advisories stay, because Node
+// releases, Go entries and Oracle patch notices carry no rating yet often fix High CVEs.
+const SEC_MINOR = new Set(["MEDIUM", "LOW"]);
+
+function secItem(a) {
+  const li = el("li", "sec-item");
+  const sev = a.severity
+    ? `<span class="sev sev-${escapeHTML(a.severity.toLowerCase())}">${escapeHTML(a.severity)}</span> `
+    : "";
+  li.innerHTML =
+    `<div class="digest-head">` +
+    `<span class="badge cat-${escapeHTML(a.ecosystem)}">${escapeHTML(a.ecosystem)}</span> ` +
+    sev +
+    `<a href="${escapeHTML(a.link)}" target="_blank" rel="noopener">${escapeHTML(a.title)}</a>` +
+    `</div>` +
+    `<div class="sec-meta"><span class="src">${escapeHTML(a.source)}</span> · <time>${fmtDate(a.published)}</time></div>`;
+  return li;
+}
+
+function renderSecurity(data) {
+  const list = document.getElementById("sec-list");
+  const filterBar = document.getElementById("sec-filters");
+  const severeBox = document.getElementById("sec-severe");
+  const since = Date.now() - SEC_DAYS * 86_400_000;
+  const items = ((data && data.items) || []).filter((a) => a.published && new Date(a.published) >= since);
+  if (!items.length) {
+    list.appendChild(el("p", "empty", "최근 90일 보안 공지를 불러오지 못했습니다."));
+    return;
+  }
+  let active = "전체";
+  let limit = SEC_PAGE;
+  const tabs = ["전체", ...SEC_ECOSYSTEMS];
+
+  function draw() {
+    const severeOnly = severeBox && severeBox.checked;
+    const bySeverity = items.filter((a) => !severeOnly || !SEC_MINOR.has(a.severity));
+    // Counts follow the severity toggle so a chip never promises rows it won't show.
+    buttons.forEach((b, i) => {
+      const t = tabs[i];
+      const n = t === "전체" ? bySeverity.length : bySeverity.filter((a) => a.ecosystem === t).length;
+      b.querySelector(".filter-n").textContent = n;
+    });
+    const shown = bySeverity.filter((a) => active === "전체" || a.ecosystem === active);
+    list.innerHTML = "";
+    if (!shown.length) {
+      list.appendChild(el("p", "empty", "조건에 맞는 공지가 없습니다."));
+      return;
+    }
+    const ul = el("ul", "digest-list sec-list");
+    for (const a of shown.slice(0, limit)) ul.appendChild(secItem(a));
+    list.appendChild(ul);
+    if (shown.length > limit) {
+      const more = el("button", "more", `더 보기 <span class="more-n">+${shown.length - limit}</span>`);
+      more.addEventListener("click", () => { limit += SEC_PAGE; draw(); });
+      list.appendChild(more);
+    }
+  }
+
+  filterBar.innerHTML = "";
+  const buttons = tabs.map((t) => {
+    const btn = el("button", "filter" + (t === active ? " on" : ""));
+    btn.setAttribute("aria-pressed", String(t === active));
+    btn.innerHTML = `${escapeHTML(t)} <span class="filter-n"></span>`;
+    btn.addEventListener("click", () => {
+      active = t;
+      limit = SEC_PAGE;
+      buttons.forEach((b, i) => {
+        const on = tabs[i] === t;
+        b.classList.toggle("on", on);
+        b.setAttribute("aria-pressed", String(on));
+      });
+      draw();
+    });
+    filterBar.appendChild(btn);
+    return btn;
+  });
+  if (severeBox) severeBox.addEventListener("change", () => { limit = SEC_PAGE; draw(); });
+  draw();
+}
+
 // Which RSS sources each category pulls from — generated from FEEDS by fetch_news.py.
 function renderSources(data) {
   const wrap = document.getElementById("sources-list");
@@ -338,15 +423,17 @@ function renderSources(data) {
 }
 
 (async function init() {
-  const [news, digest, archive, status, sources] = await Promise.all([
+  const [news, digest, archive, status, sources, security] = await Promise.all([
     loadJSON("data/news.json"),
     loadJSON("data/digest.json"),
     loadJSON("data/archive.json"),
     loadJSON("data/digest-status.json"),
     loadJSON("data/sources.json"),
+    loadJSON("data/security.json"),
   ]);
   renderDigest(digest);
   renderLastRun(status);
+  renderSecurity(security);
   renderNews(news);
   renderArchive(archive);
   renderSources(sources);
