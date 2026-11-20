@@ -30,6 +30,8 @@ FEEDS = [
     ("https://inside.java/feed.xml", "Inside Java", "Java"),
     ("https://feed.infoq.com/java/", "InfoQ Java", "Java"),
     ("https://foojay.io/feed/", "Foojay", "Java"),
+    # Hibernate ORM releases land directly under Spring Data JPA.
+    ("https://in.relation.to/blog.atom", "Hibernate", "Java"),
     # Kotlin stands on its own instead of being folded into Java: under Java it never
     # got reviewed as a bucket, so it reached the digest only when a Java roundup
     # happened to mention it. Supply is low (~6 items/month), so this category is empty
@@ -60,7 +62,6 @@ FEEDS = [
     # announces the named releases and the tags catch the point releases in between.
     ("https://devblogs.microsoft.com/typescript/feed/", "TypeScript Blog", "TypeScript"),
     ("https://github.com/microsoft/TypeScript/releases.atom", "TypeScript Releases", "TypeScript"),
-    ("https://blog.google/technology/ai/rss/", "Google AI", "AI"),
     ("https://openai.com/news/rss.xml", "OpenAI", "AI"),
     ("https://deepmind.google/blog/rss.xml", "DeepMind", "AI"),
     ("https://huggingface.co/blog/feed.xml", "Hugging Face", "AI"),
@@ -79,6 +80,9 @@ FEEDS = [
     # ("Models", "Policy", ...), and alan-turing-institute files real headlines under the
     # /news/ index link, which is the worse of the two because the title looks legitimate.
     ("https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml", "Anthropic", "AI"),
+    # The same mirror's engineering feed: Anthropic's own posts on Claude Code, agent
+    # harnesses and context engineering, which the news feed above does not carry.
+    ("https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_engineering.xml", "Anthropic Engineering", "Agents"),
     ("https://hnrss.org/newest?q=Anthropic&points=50", "Hacker News", "AI"),
     # Models / LLM trends folded into AI (weekly newsletters + local-LLM releases).
     ("https://ollama.com/blog/rss.xml", "Ollama", "AI"),
@@ -91,11 +95,12 @@ FEEDS = [
     # Agents — Claude Code, agent frameworks, MCP, context engineering, LLM-app eng
     ("https://simonwillison.net/atom/everything/", "Simon Willison", "Agents"),
     ("https://www.latent.space/feed", "Latent Space", "Agents"),
-    ("https://eugeneyan.com/rss/", "Eugene Yan", "Agents"),
     ("https://hnrss.org/newest?q=Claude+Code&points=20", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=AI+agents&points=50", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=context+engineering&points=10", "Hacker News", "Agents"),
     ("https://hnrss.org/newest?q=MCP&points=20", "Hacker News", "Agents"),
+    # MCP spec releases and SDK news; the spec repo's release feed last moved 2026-07-28.
+    ("https://blog.modelcontextprotocol.io/index.xml", "MCP Blog", "Agents"),
     # Agent frameworks — GitHub release feeds (version tracking; big releases surface).
     # These feeds are the only path to these projects: LangChain serves HTML at
     # blog.langchain.com/rss/, llamaindex.ai has no feed, blog.crewai.com stopped in June
@@ -111,26 +116,36 @@ FEEDS = [
     # on version shape would drop precisely the items that qualify. LangGraph and the OpenAI
     # SDK went on 2026-11-04: LangGraph pools 29 items a month of which 22 are sub-package
     # tags (langgraph-sdk, -cli, -checkpoint) rather than the framework, and the SDK's own
-    # announcements arrive through openai.com/news.
+    # announcements arrive through openai.com/news. Agent Framework went on 2026-11-20:
+    # github.com/microsoft/agent-framework answers 404, feed and API alike.
     ("https://github.com/modelcontextprotocol/servers/releases.atom", "MCP servers", "Agents"),
     ("https://github.com/pydantic/pydantic-ai/releases.atom", "Pydantic AI", "Agents"),
     ("https://github.com/run-llama/llama_index/releases.atom", "LlamaIndex", "Agents"),
     ("https://github.com/crewAIInc/crewAI/releases.atom", "CrewAI", "Agents"),
-    ("https://github.com/microsoft/agent-framework/releases.atom", "Agent Framework", "Agents"),
     # Architecture — system design & engineering practice (fits Java/Spring backend)
     ("https://feed.infoq.com/architecture-design/", "InfoQ Architecture", "Architecture"),
     ("https://martinfowler.com/feed.atom", "Martin Fowler", "Architecture"),
+    # Infrastructure write-ups with real numbers and vulnerability analyses; product
+    # announcements ride along and are left to selection.
+    ("https://blog.cloudflare.com/rss/", "Cloudflare", "Architecture"),
+    # Git and GitHub platform vulnerabilities, GitHub Security Lab research.
+    ("https://github.blog/security/feed/", "GitHub Security", "Architecture"),
+    # Korean backend and AI-platform case studies (Spring services, agent platforms on
+    # segregated networks). Culture and event posts ride along and are left to selection.
+    ("https://toss.tech/rss.xml", "Toss Tech", "Architecture"),
+    ("https://techblog.woowahan.com/feed/", "Woowahan Tech", "Architecture"),
+    ("https://tech.kakao.com/feed/", "Kakao Tech", "Architecture"),
     # Python — the AI-agent-development stack (language, packaging, performance, PyPI security)
     ("https://realpython.com/atom.xml", "Real Python", "Python"),
     ("https://blog.python.org/feeds/posts/default", "Python Insider", "Python"),
-    ("https://pythonspeed.com/atom.xml", "Python Speed", "Python"),
     # PyPI supply-chain / security incidents & advisories (official blog).
     ("https://blog.pypi.org/feed_rss_created.xml", "PyPI Blog", "Python"),
+    # PyPI and npm supply-chain incidents as they break — the 2026-11-17 hijack of
+    # Microsoft's agent-framework PyPI package reached us through nothing else.
+    ("https://socket.dev/api/blog/feed.atom", "Socket", "Python"),
     # Data Science — applied predictive modeling (scikit-learn / XGBoost / LightGBM /
     # tabular data / feature engineering), the working data-scientist's toolkit
-    ("https://machinelearningmastery.com/feed/", "ML Mastery", "DataScience"),
     ("https://www.kdnuggets.com/feed", "KDnuggets", "DataScience"),
-    ("https://www.analyticsvidhya.com/feed/", "Analytics Vidhya", "DataScience"),
     ("https://towardsdatascience.com/feed", "Towards Data Science", "DataScience"),
     ("https://statmodeling.stat.columbia.edu/feed/", "Statistical Modeling", "DataScience"),
     # Core numerical / tabular libraries — release feeds (versions + security fixes).
@@ -157,7 +172,7 @@ SOURCES_OUT = ROOT / "data" / "sources.json"
 _TAG_RE = re.compile(r"<[^>]+>")
 _WS_RE = re.compile(r"\s+")
 
-# Some DataScience feeds (Towards Data Science, KDnuggets, ML Mastery) publish a lot of
+# Some DataScience feeds (Towards Data Science, KDnuggets) publish a lot of
 # LLM / agent / RAG content, which by this category's own definition belongs in AI/Agents
 # ("not frontier LLM research, that's AI"). Categorization is per-feed, so we reclassify
 # individual items by title: agent / LLM-app tooling -> Agents, frontier-model / LLM -> AI.
