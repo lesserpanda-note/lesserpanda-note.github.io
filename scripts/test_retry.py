@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Unit tests for read_url's retry of transient failures in fetch_news.py.
+"""Unit tests for read_url in fetch_news.py: retry of transient failures, gzip bodies.
 
 Run: python scripts/test_retry.py   (plain asserts, no network)
 """
 from __future__ import annotations
 
+import gzip
 import importlib.util
 import io
 import urllib.error
@@ -59,6 +60,10 @@ def test_4xx_is_not_retried():
 
 def test_429_is_retried():
     assert run(http_error(429), b"ok") == (b"ok", 2)
+
+
+def test_gzip_body_without_header_is_unpacked():
+    assert run(gzip.compress(b"<rss/>")) == (b"<rss/>", 1)
 
 
 if __name__ == "__main__":

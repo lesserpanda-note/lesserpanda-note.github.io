@@ -18,7 +18,7 @@ data/sources.json                     카테고리별 참조 소스 (FEEDS 에�
 data/security.json                    공식 보안 공지 누적 (1년 보관, fetch_news.py 가 생성)
 scripts/fetch_news.py                 RSS → data/news.json + data/sources.json + data/security.json
 scripts/test_security.py              보안 공지 파서·병합 단위 테스트
-scripts/test_retry.py                 피드 요청 재시도(5xx·429·네트워크 오류) 단위 테스트
+scripts/test_retry.py                 피드 요청 재시도(5xx·429·네트워크 오류)·gzip 해제 단위 테스트
 .github/workflows/deploy.yml          6시간마다 뉴스 재생성 + 배포
 .github/workflows/promote-digest.yml  다이제스트 루틴 산출물을 main 으로 승격
 ```
