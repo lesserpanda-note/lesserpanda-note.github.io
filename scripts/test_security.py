@@ -110,6 +110,22 @@ def test_go_ids_only_stdlib_and_toolchain_since():
     assert a["ids"] == ["GO-2026-6859", "CVE-2026-97054"] and a["severity"] is None
 
 
+def test_refetch_selection():
+    now = datetime(2026, 11, 20, 12, tzinfo=timezone.utc)
+    go_index = [{"path": "stdlib", "vulns": [
+        {"id": "GO-2026-0003", "modified": "2026-11-20T01:00:00Z"},  # stored, just re-rated
+        {"id": "GO-2026-0002", "modified": "2026-11-01T00:00:00Z"},  # stored, settled
+        {"id": "GO-2026-0001", "modified": "2026-10-01T00:00:00Z"},  # new
+    ]}]
+    known = {"https://pkg.go.dev/vuln/GO-2026-0003", "https://pkg.go.dev/vuln/GO-2026-0002"}
+    assert fn.go_ids_to_fetch(go_index, known, now) == ["GO-2026-0003", "GO-2026-0001"]
+    base = fn.OPENJDK_INDEX
+    known = {base + "2026-11-17", base + "2026-07-21", base + "2025-10-01"}
+    dates = ["2026-11-17", "2026-10-20", "2026-07-21", "2025-10-01"]
+    # recent stored -> refetch, older new -> fetch, older stored -> skip, past retention -> skip
+    assert fn.openjdk_dates_to_fetch(dates, known, now) == ["2026-11-17", "2026-10-20"]
+
+
 def test_github_advisories():
     a, b = fn.parse_github_advisories(GITHUB_ADVISORIES, "Rust", "rust-lang/cargo")
     assert a["severity"] == "LOW" and a["ids"] == ["CVE-2026-1111", "GHSA-p688-r7jv-fm6f"], a
