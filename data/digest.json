@@ -1,54 +1,54 @@
 {
-  "updated": "2026-11-19T12:40:53Z",
-  "summary": "에이전트 도구 체인의 보안 릴리스가 두 건 겹쳤습니다. MCP 레퍼런스 서버 v2.5.0은 `mcp-server-git`에서 저장소 설정을 통해 명령이 실행되던 경로를 포함해 여덟 건을 고쳤고, Pydantic AI v2.70.0은 Harness의 정규식 두 곳이 이벤트 루프를 수 분간 붙잡을 수 있던 문제를 막았습니다. 인프라 쪽에서는 AWS가 다른 계정의 CIDR 범위 전체를 단방향으로 여는 PrivateLink 터널 엔드포인트를 해설했고, LinkedIn은 셔플 저장소를 컴퓨트에서 떼어 낸 Apache Celeborn 운영 수치를 공개했습니다. Google은 Genie 4를 AI Ultra 구독자에게 열었습니다.",
+  "updated": "2026-11-20T01:24:49Z",
+  "summary": "오늘은 에이전트를 규모 있게 굴릴 때 생기는 비용과 감독 문제를 다룬 글이 중심입니다. Google은 Gemini API에 도구 스키마를 필요할 때만 불러오는 Tool Retrieval을 프리뷰로 넣었고, Monte Carlo의 Barr Moses는 사람의 동기식 리뷰 대신 대역 외 감독 계층을 두는 3계층 구조를 제안했습니다. Pinterest는 상위 10%와 하위 절반의 머지 PR 격차가 벌어진 내부 수치와 함께 스태프 엔지니어의 역할 변화를 발표했습니다. 데이터 쪽에서는 Iceberg 테이블 하나를 세 엔진이 함께 쓰는 실험과 expectile과 분위수의 차이를 짚은 글이 있었고, Java·Kotlin·Spring·Node·Go·Rust·TypeScript·Architecture는 실을 소식이 없어 비었습니다.",
   "highlights": [
     {
-      "category": "Agents",
-      "title": "v2.5.0",
-      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
-      "source": "MCP servers",
-      "summary": "MCP 레퍼런스 서버 v2.5.0이 서버 세 개의 취약점 여덟 건을 고쳤습니다. `mcp-server-git`은 2026.11.18, `server-filesystem`은 2.4.0, `server-everything`은 2.3.1로 올려야 합니다.",
-      "detail": "영향 범위는 `mcp-server-git` 2026.11.11까지, `@modelcontextprotocol/server-filesystem` 2.4.0 미만 전 버전과 날짜 버전 2025.1.14~2026.8.31, `@modelcontextprotocol/server-everything` 2.3.0까지입니다. `mcp-server-git`의 여섯 건은 대부분 저장소가 가진 설정이 서버 권한으로 프로그램을 실행시키는 경로입니다. 성공한 `git_merge`가 `git maintenance run --auto`로 끝나면서 저장소의 `gc.recentObjectsHook`이 지정한 명령이 실행됐는데, 이제 `maintenance.auto`는 false, `gc.auto`는 0입니다(GHSA-h2g3-rwxm-xfm3). promisor remote 설정을 통해 읽기 전용 도구가 객체를 가져오려고 프로그램을 띄우던 문제는 `GIT_NO_LAZY_FETCH=1`로 막았습니다(GHSA-87qg-cmw8-jc5m). merge나 checkout이 만든 파일로 필터·머지 드라이버가 뒤늦게 나타나는 경우를 위해 작업 트리를 쓴 뒤 드라이버를 다시 읽고(GHSA-9vjp-x34c-xg6v), 이름이 빈 `[filter \"\"]` 드라이버도 비웁니다(GHSA-pm7p-vphh-2cg7). 조작된 `.git/index`가 `../outside/secret` 같은 경로를 가리켜 `git_diff`가 작업 트리 밖 파일 내용을 돌려주던 문제(GHSA-r2q8-f657-4r56)와 서브모듈 자체 설정으로 프로그램이 실행되던 문제(GHSA-8wv7-r664-7594)도 고쳤습니다. filesystem 서버는 디렉터리 검사와 나열 사이에 심볼릭 링크로 바꿔치기하는 경합을 Linux와 macOS에서 막았습니다(GHSA-rq2p-q7c4-6g27). Windows의 나열 고정(#5600)과 쓰기 후 `--repository` 제한 재검사(#5599)는 아직 남아 있습니다."
-    },
-    {
-      "category": "Agents",
-      "title": "v2.70.0 (2026-11-17)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.70.0",
-      "source": "Pydantic AI",
-      "summary": "Pydantic AI v2.70.0이 Pydantic AI Harness의 high 등급 서비스 거부 취약점 두 건을 고쳤습니다. 수정은 `pydantic-ai-harness` 0.70.0에 들어 있습니다.",
-      "detail": "두 건 모두 정규식이 입력 길이의 제곱에 비례하는 시간을 쓰는 문제이고, 수백 킬로바이트의 조작된 텍스트로 이벤트 루프를 수십 초에서 수 분 동안 점유할 수 있습니다. GHSA-m4cr-m4qc-9hh3은 `ToolOutputLimits` capability에서 `strip_ansi=True`일 때 ANSI 이스케이프 시퀀스를 지우는 패턴에 있습니다. 종료되지 않은 이스케이프 시퀀스가 많은 도구 결과가 들어오면 발생합니다. `strip_ansi=True`를 켜고(0.13.0 이전 이름은 `OverflowingToolOutput`) 공격자가 출력에 영향을 줄 수 있는 도구를 돌리는 경우에 해당합니다. GHSA-5m5q-5qj4-gx9h는 시크릿 가림 기능의 `jwt` 패턴이 역추적하는 문제입니다. 이 패턴은 기본으로 포함돼 있어서, 공격자가 영향을 줄 수 있는 텍스트에 `redact_secrets`나 `secret_data()`를 쓰면 해당합니다. 고친 패턴은 헤더 구간에 `-eyJ`가 들어 있는 JWT를 더 이상 잡지 않습니다. 같은 릴리스의 호환성 변경으로는 xAI로 `service_tier`를 전달하고 실제 적용된 티어를 `provider_details`에 기록하는 것, `Skills`가 `read_files=True`로 스킬에 묶인 파일을 읽고 `${SKILL_DIR}`을 치환하는 것, Harness `SpendLimits`의 `Budget`이 실행 컨텍스트에서 범위별 한도를 정하는 것이 있습니다. `RepoContext`는 `nested_exclude`로 `node_modules`와 `.venv` 같은 패키지 디렉터리를 건너뛰고, `OpenAIChatModel`은 추론을 켠 GPT-6 모델에 도구를 보내기 전에 `ModelRequestRejectedError`를 냅니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
-      "link": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "summary": "AWS가 9월에 출시한 PrivateLink 터널 엔드포인트의 기술 해설을 공개했습니다. 다른 계정이 공유한 CIDR 범위 전체에 리소스 하나씩이 아니라 한 번에, 단방향으로 접근합니다.",
-      "detail": "제공자가 AWS Resource Access Manager로 CIDR 유형의 resource configuration을 공유하면 소비자가 거기에 터널 엔드포인트를 만듭니다. 이후에는 공유 시점에 없던 리소스까지 범위 안의 모든 주소에 닿을 수 있습니다. AWS는 이를 벤더 접근 문제로 설명합니다. 지금까지는 데이터베이스나 호스트마다 PrivateLink resource configuration이 따로 필요했고, 리소스가 수시로 생겼다 사라지는 환경에서는 유지할 수 없었습니다. 소비자와 제공자 VPC의 CIDR이 겹쳐도 되고, 연결은 소비자 VPC에서만 시작할 수 있습니다. VPC 피어링과의 차이는 피어링이 VPC 전체를 양방향으로 노출하는 데 비해 터널 엔드포인트는 주소 공간의 일부만 한 방향으로 연다는 점입니다. 자체 운영 Kafka나 Aerospike처럼 클라이언트 측 로드 밸런싱을 하는 클러스터가 대표적인 용도로 꼽혔고, VPC Lattice는 7계층, 터널 엔드포인트는 4계층에서 동작합니다. 특이한 부분은 소비자 쪽입니다. 트래픽이 같은 가용 영역에서 UDP 6081 포트의 GENEVE(RFC 8926)로 감싸져 엔드포인트에 도착해야 합니다. 엔드포인트는 헤더를 벗기고 내부 목적지가 공유 범위 안인지 확인한 뒤 출발지를 resource gateway 주소로 바꿔 전달합니다. Linux에서는 `ip link add ... type geneve id 0` 장치로 커널이 감쌀 수 있습니다. 제약으로는 내부 트래픽이 TCP여야 하고 UDP는 DNS만 허용되므로 ICMP와 ping이 동작하지 않으며, IP 조각은 버려지고 프라이빗 DNS 이름은 지원되지 않습니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
-      "link": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "summary": "LinkedIn이 Spark와 Flink 워크로드 대부분에 Apache Celeborn을 공용 원격 셔플 플랫폼으로 배포해 일일 셔플 fetch 실패를 약 750건에서 20건으로 줄였습니다.",
-      "detail": "이전 구현인 Magnet과 비교해 컴퓨트 비용은 10% 낮아지고 애플리케이션 실행 시간은 14% 줄었습니다. LinkedIn의 오프라인 데이터 플랫폼은 수천 대의 프로덕션 노드에서 하루 30만 개가 넘는 Spark 잡을 돌리며 약 200페타바이트시의 컴퓨트를 씁니다. Magnet은 LinkedIn이 Apache Spark 3.2에 기여한 푸시 기반 셔플로, 셔플 블록을 리듀서 파티션별로 큰 파일에 모아 무작위 디스크 읽기를 줄였습니다. 그러나 셔플 저장소가 컴퓨트 클러스터 안에 남아 External Shuffle Service가 CPU, 메모리, 디스크 I/O, 네트워크를 컴퓨트 워크로드와 나눠 써야 했습니다. Celeborn에서는 맵 태스크가 중간 데이터를 전용 워커로 밀어 넣고 리듀서가 그 워커에서 직접 가져옵니다. 셔플 저장소가 컴퓨트와 독립적으로 확장되고 실행기 수명에 덜 의존합니다. 컨트롤 플레인은 가용 영역에 걸친 5노드 Raft 구성이며 Apache Ratis가 메타데이터 복제와 리더 선출, 페일오버를 맡습니다. 네트워크 인지 복제를 넣고 호스트 헬스 플랫폼과 연동해 유지보수가 임박한 워커의 우선순위를 낮추고 상태가 나쁜 워커를 제외했으며, 그 결과 인프라 장애 중 태스크 실패가 Magnet 대비 20분의 1로 줄었습니다. 데이터 플레인에서는 셔플 저장소를 NVMe SSD로 옮겨 셔플 시간을 40% 줄였고, LZ4 대신 Zstandard를 써서 필요한 셔플 워커 수를 약 35% 줄였습니다. 워커에는 100Gbps 네트워크 인터페이스를 붙였습니다. 태스크당 셔플 비용은 90% 가까이 내려갔습니다."
-    },
-    {
-      "category": "Python",
-      "title": "Nuitka: Compile Python Into a Standalone Executable",
-      "link": "https://realpython.com/nuitka/",
-      "source": "Real Python",
-      "summary": "Python 코드를 C로 컴파일해 네이티브 실행 파일을 만드는 Nuitka의 빌드 모드와 성능 절충을 다룬 Real Python 튜토리얼입니다.",
-      "detail": "PyInstaller가 코드를 Python 인터프리터와 의존성과 함께 묶는 번들러인 데 비해, Nuitka는 Python 코드를 C로 컴파일한 뒤 실행 파일을 빌드합니다. 배포 모드를 쓰면 별도 Python 설치 없이 호환되는 머신에서 애플리케이션을 실행할 수 있습니다. 빌드 모드는 셋입니다. `--mode=standalone`은 폴더를 만들고, `--mode=onefile`은 파일 하나를 만들지만 시작이 더 느리며, `--mode=app`은 플랫폼에 맞는 형식을 고릅니다. 속도 향상은 워크로드에 달려 있습니다. 글에 따르면 Python 수준의 반복문이 지배하는 CPU 바운드 코드가 가장 큰 이득을 봅니다. 그 대가로 빌드 시간이 길어지고 C 컴파일러가 추가로 필요합니다. 저자의 권고는 직접 잰 벤치마크에서 이 비용을 정당화할 만큼의 향상이 보일 때 Nuitka를 고려하라는 것입니다. 튜토리얼은 Python 3.13.15와 Nuitka 4.2.1을 기준으로 하고, `uv venv`로 환경을 만들어 `python -m nuitka`로 빌드합니다. Windows에서는 Nuitka가 내려받는 MinGW64 툴체인이 보통 Python 3.13 이상을 지원하지 않아 MSVC를 써야 하며, 글의 Windows 빌드는 MSVC 14.5를 썼습니다. 예제는 텍스트 파일에서 가장 흔한 단어를 세는 작은 명령줄 도구입니다. 이후 절에서는 standalone 배포의 폴더 구성과 의존성이 그렇게 묶이는 이유, 배포 크기와 시작 시간, CPU 바운드 벤치마크의 비교, PyInstaller와의 선택 기준, Nuitka의 한계를 다룹니다."
+      "category": "AI",
+      "title": "Introducing Tool Retrieval in the Gemini API",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source": "Google AI",
+      "summary": "Google이 Gemini Interactions API에 Tool Retrieval을 프리뷰로 넣었습니다. 도구의 파라미터 스키마를 매 요청에 싣지 않고 모델이 필요할 때만 불러오게 합니다.",
+      "detail": "켜는 방법은 요청에 `tool_search` 도구를 추가하고, 미뤄 둘 도구에 `defer_loading: true`를 다는 것입니다. 모델은 미뤄 둔 도구의 이름과 설명은 계속 보지만 파라미터 스키마는 컨텍스트에 들어오지 않습니다. 모델이 도구를 이름으로 요청하면 API가 스키마를 싣고 함수 호출까지 한 요청 안에서 끝납니다. 이 과정은 `interaction.steps`에 `tool_search_call`, `tool_search_result`, `function_call` 세 단계로 남아 모델이 어떤 도구를 고려했는지 확인할 수 있습니다. 검색은 Gemini 서버에서 돌아가므로 인덱스를 만들거나 호스팅할 필요가 없습니다. 미뤄 둔 스키마는 프롬프트 앞부분에 없고 불러온 스키마는 대화 뒤쪽에 붙으므로 프리픽스 캐시가 턴마다 유지됩니다. 원격 MCP 서버에도 적용되어 `mcp_server` 도구에 `defer_loading: true`를 달면 그 서버의 도구 전체가 필요할 때 실립니다. 자체 도구 레지스트리나 사용자별 권한 필터가 있으면 `\"execution\": \"client\"`로 선언해 검색을 직접 수행할 수 있고, 이때는 검색마다 왕복이 한 번 늘어납니다. 별도 요금은 없고, `tool_search`가 고정 크기의 입력 토큰을 조금 더하며 불러온 스키마는 남은 대화 동안 입력으로 과금됩니다. Gemini 3.6 이상과 Gemini 4 전 모델에서 동작합니다."
     },
     {
       "category": "AI",
-      "title": "Genie 4 is now available",
-      "link": "https://deepmind.google/blog/genie-4-is-now-available/",
-      "source": "DeepMind",
-      "summary": "Google이 월드 모델 Genie 4를 Project Genie를 통해 대상 Google AI Ultra 구독자에게 공개했습니다. 탐색 도중 프롬프트로 세계를 바꿀 수 있고 실시간 네이티브 오디오가 처음 붙었습니다.",
-      "detail": "Project Genie는 올해 초 공개된 실험적 연구 프로토타입으로, 상호작용할 수 있는 세계를 생성해 브라우저에서 탐색하게 합니다. 이번 업데이트는 Genie 4에 대한 첫 접근, Genie 3 개선, Project Genie 에이전트, 커뮤니티 갤러리를 담고 있습니다. Genie 4에서는 세계를 돌아다니는 중에 새 프롬프트를 입력해 날씨를 바꾸거나 캐릭터를 넣거나 진행 방향을 틀 수 있습니다. 장면이 전개되는 대로 주변 소리에서 캐릭터 대사까지 따라가는 실시간 네이티브 오디오가 함께 나옵니다. Genie 3은 더 긴 실행이나 파노라마로 시작하는 공간이 필요할 때를 위해 모델 선택기에 남아 있습니다. 한 번 생성으로 탐색할 수 있는 시간이 60초에서 최대 3분으로 늘었고, 여러 세계를 이어 붙이는 월드 체이닝, 360도 파노라마 이미지를 기반으로 한 생성, 자연어 프롬프트로 일으키는 실시간 이벤트가 추가됐습니다. Project Genie 에이전트는 자연어로 구상을 설명하면 Google의 멀티모달 모델들을 조율해 세계의 초기 비주얼과 분위기에 맞는 배경 음악을 만듭니다. 탐색 중에는 Gemini 모델이 화면을 관찰해 다음에 갈 곳을 제안하거나 이벤트를 자동으로 일으킵니다. 갤러리에서는 엄선된 세계와 커뮤니티 작업을 탐색하고 리믹스하며, 직접 만든 세계를 게시할 수 있습니다. Google AI Pro 구독자는 대기 명단에 등록할 수 있습니다."
+      "title": "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer",
+      "link": "https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "summary": "QCon San Francisco 2026에서 Pinterest의 Jordan Cutler가 모두가 같은 AI 도구를 쓰는 환경에서 스태프 엔지니어의 레버리지가 어디서 나오는지 발표했습니다. 답은 자기 생산성이 아니라 팀과 시스템을 배로 늘리는 쪽이라는 것입니다.",
+      "detail": "Cutler는 Pinterest 내부 수치를 공개했습니다. 2025년 1분기부터 2026년 3분기 사이 엔지니어 1인당 주간 머지 PR이 상위 10%는 6.7건에서 11.3건으로 68% 늘었고, 하위 절반은 1.0건에서 1.15건으로 14% 느는 데 그쳤습니다. 도구는 같아도 쓰는 방식이 달라 격차가 벌어진다는 것입니다. 대응은 세 단계로 정리했습니다. 첫째는 자신을 늘리는 일로, 새 도구를 먼저 써 보고 막다른 길을 미리 공유합니다. 여러 에이전트를 돌리다 보니 PR을 작게 유지하라는 식의 같은 교정을 세션마다 반복하게 됐다고 했습니다. 둘째는 팀을 늘리는 일로, 코드 리뷰에서 반복하던 판단을 글로 적어 팀원 모두가 쓰게 합니다. 셋째는 시스템을 늘리는 일입니다. 스태프 엔지니어가 계획과 예시를 가리키면 엔지니어가 일정에 올리고, 샌드박스의 에이전트가 팀별 PR로 쪼개는 마이그레이션 시스템을 만들었습니다. 클래스 컴포넌트 마이그레이션이 수작업보다 3~5배 빨랐습니다. 실패 사례도 있었습니다. 예약 작업 하나가 루프에 빠져 2분 동안 PR 16개를 열었고 CI 대기가 30초 미만에서 14분으로 늘었습니다. 지금은 엔지니어 40명이 자기 스케줄러 작업을 갖고 있으며, Cutler의 팀은 본인 PR을 빼고도 다른 웹 팀보다 1인당 약 4배를 출하합니다."
+    },
+    {
+      "category": "Agents",
+      "title": "How to Oversee AI Agents at Scale With a Three-Tier Architecture",
+      "link": "https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/",
+      "source": "Towards Data Science",
+      "summary": "Monte Carlo의 Barr Moses가 에이전트 감독을 사람의 동기식 리뷰에 맡기는 2계층 구조는 규모가 커지면 무너진다며, 작업 에이전트와 사람 사이에 대역 외 자율 감독 계층을 넣는 3계층 구조를 제안했습니다.",
+      "detail": "근거는 Monte Carlo가 2026년 초 CDO Magazine과 진행한 설문입니다. 리더의 58%가 12개월 안에 에이전트 수가 크게 늘 것이라 답했는데, 62%는 AI 출력 검증을 사람의 수동 리뷰에 의존하고 자동 모니터링을 쓰는 곳은 25%였습니다. 61%는 지표가 정상으로 보이는 동안 문제가 진행되는 조용한 실패를 겪었습니다. 제안한 구조에서 1계층은 도메인 작업을 실행하는 에이전트, 2계층은 트레이스 평가·웨어하우스 데이터 점검·되돌릴 수 있는 격리·수정안 작성을 맡는 감독자, 3계층은 정책을 정하고 영향이 큰 변경을 승인하는 사람입니다. 필자는 감독자를 인라인 가드레일로 만들면 감독 대상의 타임아웃과 실패 양상을 물려받는다고 지적합니다. 그래서 감독자는 별도 컴퓨트와 서비스 계정에서 돌고, 에이전트 출력을 명령이 아닌 텔레메트리로만 다루며, 에이전트가 쓸 수 없는 출처(게이트웨이나 LLM 프록시 트레이스, 웨어하우스 쿼리 로그)에서 증거를 얻고, 모든 판단을 추가 전용 감사 로그에 남겨야 합니다. 자율 범위는 에이전트 단위가 아니라 작업 단위로 정합니다. 예시 정책에서 배치 일시정지와 90분 넘게 지연된 테이블 새로고침은 감독자가 자동으로 하고, 스키마 매핑 패치와 시스템 프롬프트 롤백은 사람 승인이 필요합니다. 예로 든 환율 사고에서는 환율이 1.00으로 기록된 거래 비율이 기준 0.2%에서 18.4%로 뛴 것을 웨어하우스 테이블에서 잡아냅니다."
+    },
+    {
+      "category": "Python",
+      "title": "Build an AI Agent From Scratch in Python: The Agentic Loop",
+      "link": "https://realpython.com/agentic-loop/",
+      "source": "Real Python",
+      "summary": "Real Python이 프레임워크 없이 약 90줄의 Python으로 AI 에이전트를 만드는 튜토리얼을 냈습니다. 모델을 감싸는 하네스 루프를 한 단계씩 쌓아 에이전틱 루프가 무엇인지 보여 줍니다.",
+      "detail": "핵심 주장은 LLM 자체는 에이전트가 아니고, 사용자·모델·도구 사이에서 정보를 넘기는 루프인 하네스가 모델을 에이전트로 만든다는 것입니다. 튜토리얼은 Python 3.15와 uv, `openai==3.31.0`, 모델 `gpt-6-luna`를 쓰며 일곱 단계로 진행됩니다. 처음에는 Chat Completions API로 \"habits 폴더에 무엇이 있느냐\"고 한 번 묻고, 모델이 파일에 접근할 수 없다고 답하는 실패에서 출발합니다. 이어 `while True` 루프로 하네스를 만들고, 정보가 어디서 어디로 가는지 찍는 `trace()` 헬퍼를 붙입니다. Chat Completions API는 호출 사이에 이전 메시지를 기억하지 않으므로 하네스가 매 요청에 대화 전체를 다시 보내는 방식으로 단기 기억을 줍니다. 그다음 `list_files` 도구를 JSON 스키마로 기술해 모델에 넘깁니다. 모델은 도구를 직접 실행하지 않고 도구 호출을 돌려줄 뿐이며, 실행할지 정하고 결과를 되돌려 보내는 것은 하네스입니다. `ask_model()`과 `run_tool()`을 나누고, `read_file()`을 추가하면서 도구 이름을 함수에 매핑해 하드코딩을 없앱니다. 마지막으로 모델을 루프 안에서 돌려 도구 호출을 연쇄하게 하면, 에이전트가 `list_files`로 폴더를 본 뒤 `read_file`로 `habits/habits.py`를 읽고 요약을 답합니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "One Table, Many Engines: Running BigQuery, Spark, and Trino on a Single Iceberg Copy",
+      "link": "https://www.kdnuggets.com/one-table-many-engines-running-bigquery-spark-and-trino-on-a-single-iceberg-copy",
+      "source": "KDnuggets",
+      "summary": "Google Cloud Lakehouse 런타임 카탈로그에 등록한 Apache Iceberg 테이블 하나를 Spark, Trino, BigQuery가 복사본 없이 함께 읽고 쓰는 실습 글입니다. Spark와 Trino를 일부러 동시에 쓰게 해 커밋 충돌이 어떻게 처리되는지도 확인했습니다. Google Cloud 협찬 글입니다.",
+      "detail": "구성은 Cloud Storage 버킷 하나와 카탈로그 하나입니다. 카탈로그는 데이터를 갖지 않고 각 테이블의 현재 `metadata.json`을 가리키는 포인터만 갖습니다. Spark와 Trino는 Iceberg REST 카탈로그 엔드포인트로, BigQuery는 커넥터 없이 `project.catalog.namespace.table` 네 부분 이름으로 접근합니다. 자격 증명은 카탈로그 서비스 계정만 버킷 권한을 갖고 엔진에는 단기 토큰을 내주는 vending 모드를 썼습니다. 테이블은 `format-version` 2에 delete·update·merge 모드를 모두 `copy-on-write`로 만들었습니다. BigQuery DML과 자동 테이블 유지보수가 copy-on-write를 요구하기 때문이며, Trino는 행 수준 변경을 merge-on-read로 쓰므로 INSERT와 SELECT만 맡겼습니다. 걸린 지점도 적혀 있습니다. 2.3 이미지는 Spark 웨어하우스를 `gs://` URI로 잡아 테이블이 엉뚱한 단일 버킷 카탈로그에 생겼고, 이미지에 든 Trino 432(Iceberg 1.4.1)는 카탈로그 인증을 못 해 100줄 미만의 프록시 심을 썼습니다. Trino 481 이상에서는 심이 필요 없습니다. 충돌 실험에서는 30초짜리 Spark MERGE 도중 Trino가 INSERT를 넣었고, 세 번 모두 Trino가 먼저 커밋되어 Spark가 `ValidationException`으로 중단됐습니다. Spark MERGE의 기본 격리가 serializable이기 때문입니다. `write.merge.isolation-level`을 `snapshot`으로 바꾸자 두 쓰기가 모두 커밋됐고, 대신 MERGE 스캔 이후 들어온 행은 다음 실행에서 처리됩니다. 그동안 BigQuery가 읽은 결과는 매번 커밋된 스냅샷과 일치했습니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "The 0.95 Expectile Is Not the 95th Percentile",
+      "link": "https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile/",
+      "source": "Towards Data Science",
+      "summary": "0.95 expectile을 95번째 백분위수처럼 쓰면 안 된다는 글입니다. 균등분포의 정확한 계산과 100회 합성 실험으로 두 통계량이 서로 다른 손실 함수의 답이라는 점을 보입니다.",
+      "detail": "분위수는 비대칭 절대 오차(pinball loss)를 최소화하고, expectile은 같은 가중치를 준 비대칭 제곱 오차를 최소화합니다. alpha가 0.95이면 과소 추정과 과대 추정의 가중치가 19 대 1인 점은 같지만, 제곱 손실에서는 오차가 두 배가 되면 기여가 네 배가 되므로 최적 결정이 달라집니다. [0, 1] 균등분포에서 95번째 백분위수는 0.95이고 0.95 expectile은 √α/(√α+√(1−α))로 계산되어 약 0.8134입니다. expectile 아래에 놓이는 비율은 81.34%뿐이어서 95% 커버리지보다 13.66%포인트 낮습니다. expectile은 순위가 아니라 거리에 반응합니다. 0이 99개이고 값 M이 하나인 표본에서 0.95 분위수는 M과 무관하게 0이지만 expectile은 19M/118이라 M이 100이면 약 16.10이 됩니다. 입력 오류로 생긴 큰 값에도 그대로 끌려간다는 뜻입니다. 계산은 SciPy의 `scipy.stats.expectile`과 NumPy `np.quantile(..., method=\"inverted_cdf\")`로 합니다. 수요가 0~100 균등인 계획 문제를 학습 400개, 테스트 10,000개로 100회 반복하자 분위수 결정은 평균 94.73에 커버리지 94.72%, expectile 결정은 81.33에 81.25%가 나왔습니다. 비대칭 절대 손실은 분위수 2.38 대 expectile 3.32, 비대칭 제곱 손실은 142.14 대 110.63으로 각자 자기 손실에서 이깁니다. 95% 충족이 요구사항이면 분위수를 쓰고, expectile은 비용이 오차의 제곱으로 커질 때 씁니다."
     }
   ]
 }

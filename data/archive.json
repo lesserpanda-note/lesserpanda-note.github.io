@@ -1,6 +1,60 @@
 {
   "digests": [
     {
+      "date": "2026-11-19",
+      "summary": "에이전트 도구 체인의 보안 릴리스가 두 건 겹쳤습니다. MCP 레퍼런스 서버 v2.5.0은 `mcp-server-git`에서 저장소 설정을 통해 명령이 실행되던 경로를 포함해 여덟 건을 고쳤고, Pydantic AI v2.70.0은 Harness의 정규식 두 곳이 이벤트 루프를 수 분간 붙잡을 수 있던 문제를 막았습니다. 인프라 쪽에서는 AWS가 다른 계정의 CIDR 범위 전체를 단방향으로 여는 PrivateLink 터널 엔드포인트를 해설했고, LinkedIn은 셔플 저장소를 컴퓨트에서 떼어 낸 Apache Celeborn 운영 수치를 공개했습니다. Google은 Genie 4를 AI Ultra 구독자에게 열었습니다.",
+      "highlights": [
+        {
+          "category": "Agents",
+          "title": "v2.5.0",
+          "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.5.0",
+          "source": "MCP servers",
+          "summary": "MCP 레퍼런스 서버 v2.5.0이 서버 세 개의 취약점 여덟 건을 고쳤습니다. `mcp-server-git`은 2026.11.18, `server-filesystem`은 2.4.0, `server-everything`은 2.3.1로 올려야 합니다.",
+          "detail": "영향 범위는 `mcp-server-git` 2026.11.11까지, `@modelcontextprotocol/server-filesystem` 2.4.0 미만 전 버전과 날짜 버전 2025.1.14~2026.8.31, `@modelcontextprotocol/server-everything` 2.3.0까지입니다. `mcp-server-git`의 여섯 건은 대부분 저장소가 가진 설정이 서버 권한으로 프로그램을 실행시키는 경로입니다. 성공한 `git_merge`가 `git maintenance run --auto`로 끝나면서 저장소의 `gc.recentObjectsHook`이 지정한 명령이 실행됐는데, 이제 `maintenance.auto`는 false, `gc.auto`는 0입니다(GHSA-h2g3-rwxm-xfm3). promisor remote 설정을 통해 읽기 전용 도구가 객체를 가져오려고 프로그램을 띄우던 문제는 `GIT_NO_LAZY_FETCH=1`로 막았습니다(GHSA-87qg-cmw8-jc5m). merge나 checkout이 만든 파일로 필터·머지 드라이버가 뒤늦게 나타나는 경우를 위해 작업 트리를 쓴 뒤 드라이버를 다시 읽고(GHSA-9vjp-x34c-xg6v), 이름이 빈 `[filter \"\"]` 드라이버도 비웁니다(GHSA-pm7p-vphh-2cg7). 조작된 `.git/index`가 `../outside/secret` 같은 경로를 가리켜 `git_diff`가 작업 트리 밖 파일 내용을 돌려주던 문제(GHSA-r2q8-f657-4r56)와 서브모듈 자체 설정으로 프로그램이 실행되던 문제(GHSA-8wv7-r664-7594)도 고쳤습니다. filesystem 서버는 디렉터리 검사와 나열 사이에 심볼릭 링크로 바꿔치기하는 경합을 Linux와 macOS에서 막았습니다(GHSA-rq2p-q7c4-6g27). Windows의 나열 고정(#5600)과 쓰기 후 `--repository` 제한 재검사(#5599)는 아직 남아 있습니다."
+        },
+        {
+          "category": "Agents",
+          "title": "v2.70.0 (2026-11-17)",
+          "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.70.0",
+          "source": "Pydantic AI",
+          "summary": "Pydantic AI v2.70.0이 Pydantic AI Harness의 high 등급 서비스 거부 취약점 두 건을 고쳤습니다. 수정은 `pydantic-ai-harness` 0.70.0에 들어 있습니다.",
+          "detail": "두 건 모두 정규식이 입력 길이의 제곱에 비례하는 시간을 쓰는 문제이고, 수백 킬로바이트의 조작된 텍스트로 이벤트 루프를 수십 초에서 수 분 동안 점유할 수 있습니다. GHSA-m4cr-m4qc-9hh3은 `ToolOutputLimits` capability에서 `strip_ansi=True`일 때 ANSI 이스케이프 시퀀스를 지우는 패턴에 있습니다. 종료되지 않은 이스케이프 시퀀스가 많은 도구 결과가 들어오면 발생합니다. `strip_ansi=True`를 켜고(0.13.0 이전 이름은 `OverflowingToolOutput`) 공격자가 출력에 영향을 줄 수 있는 도구를 돌리는 경우에 해당합니다. GHSA-5m5q-5qj4-gx9h는 시크릿 가림 기능의 `jwt` 패턴이 역추적하는 문제입니다. 이 패턴은 기본으로 포함돼 있어서, 공격자가 영향을 줄 수 있는 텍스트에 `redact_secrets`나 `secret_data()`를 쓰면 해당합니다. 고친 패턴은 헤더 구간에 `-eyJ`가 들어 있는 JWT를 더 이상 잡지 않습니다. 같은 릴리스의 호환성 변경으로는 xAI로 `service_tier`를 전달하고 실제 적용된 티어를 `provider_details`에 기록하는 것, `Skills`가 `read_files=True`로 스킬에 묶인 파일을 읽고 `${SKILL_DIR}`을 치환하는 것, Harness `SpendLimits`의 `Budget`이 실행 컨텍스트에서 범위별 한도를 정하는 것이 있습니다. `RepoContext`는 `nested_exclude`로 `node_modules`와 `.venv` 같은 패키지 디렉터리를 건너뛰고, `OpenAIChatModel`은 추론을 켠 GPT-6 모델에 도구를 보내기 전에 `ModelRequestRejectedError`를 냅니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "AWS PrivateLink Tunnel Endpoints Open a Whole CIDR Range to Another Account",
+          "link": "https://www.infoq.com/news/2026/11/aws-privatelink-tunnel-endpoints/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "source": "InfoQ Architecture",
+          "summary": "AWS가 9월에 출시한 PrivateLink 터널 엔드포인트의 기술 해설을 공개했습니다. 다른 계정이 공유한 CIDR 범위 전체에 리소스 하나씩이 아니라 한 번에, 단방향으로 접근합니다.",
+          "detail": "제공자가 AWS Resource Access Manager로 CIDR 유형의 resource configuration을 공유하면 소비자가 거기에 터널 엔드포인트를 만듭니다. 이후에는 공유 시점에 없던 리소스까지 범위 안의 모든 주소에 닿을 수 있습니다. AWS는 이를 벤더 접근 문제로 설명합니다. 지금까지는 데이터베이스나 호스트마다 PrivateLink resource configuration이 따로 필요했고, 리소스가 수시로 생겼다 사라지는 환경에서는 유지할 수 없었습니다. 소비자와 제공자 VPC의 CIDR이 겹쳐도 되고, 연결은 소비자 VPC에서만 시작할 수 있습니다. VPC 피어링과의 차이는 피어링이 VPC 전체를 양방향으로 노출하는 데 비해 터널 엔드포인트는 주소 공간의 일부만 한 방향으로 연다는 점입니다. 자체 운영 Kafka나 Aerospike처럼 클라이언트 측 로드 밸런싱을 하는 클러스터가 대표적인 용도로 꼽혔고, VPC Lattice는 7계층, 터널 엔드포인트는 4계층에서 동작합니다. 특이한 부분은 소비자 쪽입니다. 트래픽이 같은 가용 영역에서 UDP 6081 포트의 GENEVE(RFC 8926)로 감싸져 엔드포인트에 도착해야 합니다. 엔드포인트는 헤더를 벗기고 내부 목적지가 공유 범위 안인지 확인한 뒤 출발지를 resource gateway 주소로 바꿔 전달합니다. Linux에서는 `ip link add ... type geneve id 0` 장치로 커널이 감쌀 수 있습니다. 제약으로는 내부 트래픽이 TCP여야 하고 UDP는 DNS만 허용되므로 ICMP와 ping이 동작하지 않으며, IP 조각은 버려지고 프라이빗 DNS 이름은 지원되지 않습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "LinkedIn Cuts Daily Spark Shuffle Fetch Failures from 750 to 20 with Apache Celeborn",
+          "link": "https://www.infoq.com/news/2026/11/linkedin-celeborn-remote-shuffle/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "source": "InfoQ Architecture",
+          "summary": "LinkedIn이 Spark와 Flink 워크로드 대부분에 Apache Celeborn을 공용 원격 셔플 플랫폼으로 배포해 일일 셔플 fetch 실패를 약 750건에서 20건으로 줄였습니다.",
+          "detail": "이전 구현인 Magnet과 비교해 컴퓨트 비용은 10% 낮아지고 애플리케이션 실행 시간은 14% 줄었습니다. LinkedIn의 오프라인 데이터 플랫폼은 수천 대의 프로덕션 노드에서 하루 30만 개가 넘는 Spark 잡을 돌리며 약 200페타바이트시의 컴퓨트를 씁니다. Magnet은 LinkedIn이 Apache Spark 3.2에 기여한 푸시 기반 셔플로, 셔플 블록을 리듀서 파티션별로 큰 파일에 모아 무작위 디스크 읽기를 줄였습니다. 그러나 셔플 저장소가 컴퓨트 클러스터 안에 남아 External Shuffle Service가 CPU, 메모리, 디스크 I/O, 네트워크를 컴퓨트 워크로드와 나눠 써야 했습니다. Celeborn에서는 맵 태스크가 중간 데이터를 전용 워커로 밀어 넣고 리듀서가 그 워커에서 직접 가져옵니다. 셔플 저장소가 컴퓨트와 독립적으로 확장되고 실행기 수명에 덜 의존합니다. 컨트롤 플레인은 가용 영역에 걸친 5노드 Raft 구성이며 Apache Ratis가 메타데이터 복제와 리더 선출, 페일오버를 맡습니다. 네트워크 인지 복제를 넣고 호스트 헬스 플랫폼과 연동해 유지보수가 임박한 워커의 우선순위를 낮추고 상태가 나쁜 워커를 제외했으며, 그 결과 인프라 장애 중 태스크 실패가 Magnet 대비 20분의 1로 줄었습니다. 데이터 플레인에서는 셔플 저장소를 NVMe SSD로 옮겨 셔플 시간을 40% 줄였고, LZ4 대신 Zstandard를 써서 필요한 셔플 워커 수를 약 35% 줄였습니다. 워커에는 100Gbps 네트워크 인터페이스를 붙였습니다. 태스크당 셔플 비용은 90% 가까이 내려갔습니다."
+        },
+        {
+          "category": "Python",
+          "title": "Nuitka: Compile Python Into a Standalone Executable",
+          "link": "https://realpython.com/nuitka/",
+          "source": "Real Python",
+          "summary": "Python 코드를 C로 컴파일해 네이티브 실행 파일을 만드는 Nuitka의 빌드 모드와 성능 절충을 다룬 Real Python 튜토리얼입니다.",
+          "detail": "PyInstaller가 코드를 Python 인터프리터와 의존성과 함께 묶는 번들러인 데 비해, Nuitka는 Python 코드를 C로 컴파일한 뒤 실행 파일을 빌드합니다. 배포 모드를 쓰면 별도 Python 설치 없이 호환되는 머신에서 애플리케이션을 실행할 수 있습니다. 빌드 모드는 셋입니다. `--mode=standalone`은 폴더를 만들고, `--mode=onefile`은 파일 하나를 만들지만 시작이 더 느리며, `--mode=app`은 플랫폼에 맞는 형식을 고릅니다. 속도 향상은 워크로드에 달려 있습니다. 글에 따르면 Python 수준의 반복문이 지배하는 CPU 바운드 코드가 가장 큰 이득을 봅니다. 그 대가로 빌드 시간이 길어지고 C 컴파일러가 추가로 필요합니다. 저자의 권고는 직접 잰 벤치마크에서 이 비용을 정당화할 만큼의 향상이 보일 때 Nuitka를 고려하라는 것입니다. 튜토리얼은 Python 3.13.15와 Nuitka 4.2.1을 기준으로 하고, `uv venv`로 환경을 만들어 `python -m nuitka`로 빌드합니다. Windows에서는 Nuitka가 내려받는 MinGW64 툴체인이 보통 Python 3.13 이상을 지원하지 않아 MSVC를 써야 하며, 글의 Windows 빌드는 MSVC 14.5를 썼습니다. 예제는 텍스트 파일에서 가장 흔한 단어를 세는 작은 명령줄 도구입니다. 이후 절에서는 standalone 배포의 폴더 구성과 의존성이 그렇게 묶이는 이유, 배포 크기와 시작 시간, CPU 바운드 벤치마크의 비교, PyInstaller와의 선택 기준, Nuitka의 한계를 다룹니다."
+        },
+        {
+          "category": "AI",
+          "title": "Genie 4 is now available",
+          "link": "https://deepmind.google/blog/genie-4-is-now-available/",
+          "source": "DeepMind",
+          "summary": "Google이 월드 모델 Genie 4를 Project Genie를 통해 대상 Google AI Ultra 구독자에게 공개했습니다. 탐색 도중 프롬프트로 세계를 바꿀 수 있고 실시간 네이티브 오디오가 처음 붙었습니다.",
+          "detail": "Project Genie는 올해 초 공개된 실험적 연구 프로토타입으로, 상호작용할 수 있는 세계를 생성해 브라우저에서 탐색하게 합니다. 이번 업데이트는 Genie 4에 대한 첫 접근, Genie 3 개선, Project Genie 에이전트, 커뮤니티 갤러리를 담고 있습니다. Genie 4에서는 세계를 돌아다니는 중에 새 프롬프트를 입력해 날씨를 바꾸거나 캐릭터를 넣거나 진행 방향을 틀 수 있습니다. 장면이 전개되는 대로 주변 소리에서 캐릭터 대사까지 따라가는 실시간 네이티브 오디오가 함께 나옵니다. Genie 3은 더 긴 실행이나 파노라마로 시작하는 공간이 필요할 때를 위해 모델 선택기에 남아 있습니다. 한 번 생성으로 탐색할 수 있는 시간이 60초에서 최대 3분으로 늘었고, 여러 세계를 이어 붙이는 월드 체이닝, 360도 파노라마 이미지를 기반으로 한 생성, 자연어 프롬프트로 일으키는 실시간 이벤트가 추가됐습니다. Project Genie 에이전트는 자연어로 구상을 설명하면 Google의 멀티모달 모델들을 조율해 세계의 초기 비주얼과 분위기에 맞는 배경 음악을 만듭니다. 탐색 중에는 Gemini 모델이 화면을 관찰해 다음에 갈 곳을 제안하거나 이벤트를 자동으로 일으킵니다. 갤러리에서는 엄선된 세계와 커뮤니티 작업을 탐색하고 리믹스하며, 직접 만든 세계를 게시할 수 있습니다. Google AI Pro 구독자는 대기 명단에 등록할 수 있습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-11-18",
       "summary": "OpenAI가 GPT-6.2 Astra와 Sol을 내놓으며 API 가격을 20% 내렸고, 이날의 나머지 글은 에이전트가 만든 결과를 어떻게 믿을지에 모였습니다. Claude Code 팀은 코드의 약 90%를 Claude가 쓰는 환경에서 E2E·속성·차등 테스트로 검증을 맡기는 방식을 공개했고, Datadog은 에이전트 버전을 실제 프로덕션 트래픽으로 비교하는 실험 기능을 붙였습니다. Martin Fowler 사이트에는 분산 시스템의 장애를 재현 가능하게 만드는 결정론적 시뮬레이션 테스트 해설이 올라왔고, Shopify는 에이전트의 모바일 빌드를 원격 Mac 플릿으로 옮겼습니다.",
       "highlights": [
