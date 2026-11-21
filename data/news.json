@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-22T02:13:37+09:00",
-  "count": 1257,
+  "updated": "2026-11-22T07:55:12+09:00",
+  "count": 1247,
   "items": [
     {
       "title": "Kharon Applied Intelligence Fellowship in Denver, London, or Madrid",
@@ -481,6 +481,16 @@
       "ts": 1795157580,
       "published": "2026-11-20T06:53:00+00:00",
       "collected_at": "2026-11-20T18:16:42+09:00"
+    },
+    {
+      "title": "llm-gemini 0.38.1",
+      "link": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low , medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the ll…",
+      "ts": 1795143717,
+      "published": "2026-11-20T03:01:57+00:00",
+      "collected_at": "2026-11-22T07:54:36+09:00"
     },
     {
       "title": "Token fraud is here and it’s BAD (YouTube)",
@@ -12461,116 +12471,6 @@
       "ts": 1792713600,
       "published": "2026-10-23T00:00:00+00:00",
       "collected_at": "2026-10-28T04:55:49+09:00"
-    },
-    {
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "link": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792707874,
-      "published": "2026-10-22T22:24:34+00:00",
-      "collected_at": "2026-10-23T08:04:24+09:00"
-    },
-    {
-      "title": "Designing an AI serving harness built to last",
-      "link": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "The next competitive advantage in enterprise AI has less to do with which model you choose than with what you build around it. That’s an important shift. For the past several years, much of the AI conversation has cente…",
-      "ts": 1792703849,
-      "published": "2026-10-22T21:17:29+00:00",
-      "collected_at": "2026-10-23T08:04:24+09:00"
-    },
-    {
-      "title": "DE STAAT - FREEDOM (Official Music Video)",
-      "link": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "DE STAAT - FREEDOM (Official Music Video) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat : The visual effects are credited to Matties Grooten of Fake it or Lea…",
-      "ts": 1792698146,
-      "published": "2026-10-22T19:42:26+00:00",
-      "collected_at": "2026-10-23T08:04:24+09:00"
-    },
-    {
-      "title": "Build more responsive apps with the Decisions API",
-      "link": "https://openai.com/index/decisions-api",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Fast, focused, low-cost decisions for any application.",
-      "ts": 1792695600,
-      "published": "2026-10-22T19:00:00+00:00",
-      "collected_at": "2026-10-23T08:04:24+09:00"
-    },
-    {
-      "title": "The Foundations of Scalable AI",
-      "link": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores…",
-      "ts": 1792694884,
-      "published": "2026-10-22T18:48:04+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "link": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Donating Agent Skills to the Agentic AI Foundation News today from Anthropic: We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Fou…",
-      "ts": 1792692596,
-      "published": "2026-10-22T18:09:56+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "Show HN: agent-usage-guard – a Claude Code mod to protect your usage window",
-      "link": "https://github.com/rbartoli/agent-usage-guard",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/rbartoli/agent-usage-guard Comments URL: https://news.ycombinator.com/item?id=50198936 Points: 20 # Comments: 7",
-      "ts": 1792692158,
-      "published": "2026-10-22T18:02:38+00:00",
-      "collected_at": "2026-10-23T08:04:24+09:00"
-    },
-    {
-      "title": "OpenShell – A safe, private runtime for fleets of autonomous AI agents",
-      "link": "https://github.com/NVIDIA/OpenShell",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://github.com/NVIDIA/OpenShell Comments URL: https://news.ycombinator.com/item?id=50198675 Points: 252 # Comments: 130",
-      "ts": 1792691046,
-      "published": "2026-10-22T17:44:06+00:00",
-      "collected_at": "2026-10-23T08:04:24+09:00"
-    },
-    {
-      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
-      "link": "https://www.latent.space/p/modal-d",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
-      "ts": 1792690857,
-      "published": "2026-10-22T17:40:57+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "Why AI Compute Comes in Rectangles — Erik Bernhardsson, Modal CEO",
-      "link": "https://latent.space/p/modal-d/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Elastic GPUs, sandbox growth, and the economics of the agent cloud",
-      "ts": 1792690857,
-      "published": "2026-10-22T17:40:57+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "How bug bounty sharpens one researcher’s security skills",
-      "link": "https://github.blog/security/how-bug-bounty-sharpens-one-researchers-security-skills/",
-      "source": "GitHub Security",
-      "category": "Architecture",
-      "summary": "As Cybersecurity Awareness Month continues, the GitHub Bug Bounty team spotlights @r31n, diving into their research approach, favorite bug classes, and advice for aspiring hackers. The post How bug bounty sharpens one r…",
-      "ts": 1792689690,
-      "published": "2026-10-22T17:21:30+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
     }
   ]
 }
