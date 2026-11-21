@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-21T04:47:44+09:00",
-  "count": 1283,
+  "updated": "2026-11-21T09:52:33+09:00",
+  "count": 1282,
   "items": [
+    {
+      "title": "If the stock market crash had happened three weeks ago . . .",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/20/if-the-stock-market-crash-had-happened-three-weeks-ago/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "What we said here. And here.",
+      "ts": 1795218829,
+      "published": "2026-11-20T23:53:49+00:00",
+      "collected_at": "2026-11-21T09:52:02+09:00"
+    },
+    {
+      "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
+      "link": "https://latent.space/p/formal-verification/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Proving software correct with math has traditionally required specialist work. Now AI and Lean are helping automate the process.",
+      "ts": 1795209521,
+      "published": "2026-11-20T21:18:41+00:00",
+      "collected_at": "2026-11-21T09:52:02+09:00"
+    },
+    {
+      "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+      "link": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+      "source": "Cloudflare",
+      "category": "Architecture",
+      "summary": "ruby2shell lets attackers corrupt memory in default Rails and Sinatra apps without logging in. Cloudflare WAF blocks it for every customer, including Free plans. Upgrade Ruby now, and use the WAF to cover the gap.",
+      "ts": 1795206278,
+      "published": "2026-11-20T20:24:38+00:00",
+      "collected_at": "2026-11-21T09:52:02+09:00"
+    },
+    {
+      "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+      "link": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+      "source": "Cloudflare",
+      "category": "Architecture",
+      "summary": "phpAfterShell is a critical flaw in PHP's default session handler that can lead to code execution. Cloudflare WAF blocks it for all customers, including Free plans, and adds new rules for other PHP flaws fixed in the sa…",
+      "ts": 1795204845,
+      "published": "2026-11-20T20:00:45+00:00",
+      "collected_at": "2026-11-21T09:52:02+09:00"
+    },
     {
       "title": "Quoting Ravi Vakil",
       "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/",
@@ -421,6 +461,56 @@
       "ts": 1795132800,
       "published": "2026-11-20T00:00:00+00:00",
       "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "Hibernate Validator 9.2.0.Final is out",
+      "link": "https://in.relation.to/2026/11/20/hibernate-validator-9-2-0-Final/",
+      "source": "Hibernate",
+      "category": "Java",
+      "summary": "We are excited to announce the release of Hibernate Validator 9.2.0.Final. Compared to 9.2.0.CR2, this release updates Hibernate Accessor to 0.1.0. The 9.2 series adds password validation, new constraints for text and o…",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-21T09:52:02+09:00"
+    },
+    {
+      "title": "Spring Cloud 2025.1.5 (aka Oakwood) Has Been Released",
+      "link": "https://spring.io/blog/2026/11/20/spring-cloud-2025-1-5-has-been-released",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.1.5 Release Train is available today. The release can be found in Maven Central . You can check out t…",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-21T09:52:02+09:00"
+    },
+    {
+      "title": "Spring Cloud 2026.0.0 (aka Paddington) Has Been Released",
+      "link": "https://spring.io/blog/2026/11/20/spring-cloud-2026-0-0-has-been-released",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2026.0.0 Release Train is available today. The release can be found in Maven Central . You can check out t…",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-21T09:52:02+09:00"
+    },
+    {
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "link": "https://openai.com/business/customer-stories/hebbia",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-21T09:52:02+09:00"
+    },
+    {
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "link": "https://huggingface.co/blog/inkling2mini",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795132800,
+      "published": "2026-11-20T00:00:00+00:00",
+      "collected_at": "2026-11-21T09:52:02+09:00"
     },
     {
       "title": "Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
@@ -12731,106 +12821,6 @@
       "ts": 1792648800,
       "published": "2026-10-22T06:00:00+00:00",
       "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Exact Prices in Java: Decimal Strings and BigDecimal Traps",
-      "link": "https://foojay.io/today/exact-prices-in-java/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Why double breaks prices, why APIs send them as strings, and the BigDecimal and Jackson traps to avoid when you read, compute and display them.",
-      "ts": 1792627200,
-      "published": "2026-10-22T00:00:00+00:00",
-      "collected_at": "2026-10-22T12:58:03+09:00"
-    },
-    {
-      "title": "Android on iOS, Web & Desktop Efficiently and for Free",
-      "link": "https://foojay.io/today/android-apps-beyond-android/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Compile Android apps for iOS, web and desktop with a free, open-source compatibility layer. Try the browser demo, see the iOS binary size and migrate one...",
-      "ts": 1792627200,
-      "published": "2026-10-22T00:00:00+00:00",
-      "collected_at": "2026-10-22T12:58:03+09:00"
-    },
-    {
-      "title": "What's Going Wrong with My JVM?! A Guide to First-Time Failure Diagnosis",
-      "link": "https://inside.java/2026/10/22/jvm-diagnosis/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "It's 2 AM Friday night when you get alerts your primary business application stopped responding and user tickets are piling up. For situations like these, you need to have already captured the data that can help you qui…",
-      "ts": 1792627200,
-      "published": "2026-10-22T00:00:00+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "link": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
-      "ts": 1792627200,
-      "published": "2026-10-22T00:00:00+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "Spring Batch 6.1.0-RC1 and 6.0.6 available now!",
-      "link": "https://spring.io/blog/2026/10/22/spring-batch-6",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and all contributors, I am pleased to announce that Spring Batch 6.1.0-RC1 and 6.0.6 are available now from Maven Central! These releases bring a number of new features, enhancements and bug fixes.…",
-      "ts": 1792627200,
-      "published": "2026-10-22T00:00:00+00:00",
-      "collected_at": "2026-10-23T08:04:24+09:00"
-    },
-    {
-      "title": "Open call for guest investigators in the life sciences",
-      "link": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects.",
-      "ts": 1792627200,
-      "published": "2026-10-22T00:00:00+00:00",
-      "collected_at": "2026-11-03T23:40:15+09:00"
-    },
-    {
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code…",
-      "ts": 1792627200,
-      "published": "2026-10-22T00:00:00+00:00",
-      "collected_at": "2026-11-03T23:40:15+09:00"
-    },
-    {
-      "title": "The quest for reflection-free access (Part 1)",
-      "link": "https://in.relation.to/2026/10/22/quest-for-reflection-free-access/",
-      "source": "Hibernate",
-      "category": "Java",
-      "summary": "Every time we benchmark and profile one of our Hibernate projects for whatever reason we can always count on our good old friend — reflection — to show up and say hello. Hibernate projects work with user-defined Java ob…",
-      "ts": 1792627200,
-      "published": "2026-10-22T00:00:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "Wednesday, October 21, 2026 Security Releases",
-      "link": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
-      "source": "Node.js Blog",
-      "category": "Node",
-      "summary": "",
-      "ts": 1792620000,
-      "published": "2026-10-21T22:00:00+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Broad access through consistent standards",
-      "link": "https://openai.com/index/broad-access-through-consistent-standards",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
-      "ts": 1792616400,
-      "published": "2026-10-21T21:00:00+00:00",
-      "collected_at": "2026-10-22T08:05:26+09:00"
     }
   ]
 }
