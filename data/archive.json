@@ -1,6 +1,116 @@
 {
   "digests": [
     {
+      "date": "2026-11-20",
+      "summary": "11월 19일 Spring 포트폴리오가 보안 공지 50건 가까이를 한꺼번에 냈습니다. 그중 ELRequestMatcher를 통한 원격 코드 실행(Spring Security)과 테스트용 내장 LDAP 서버의 고정 관리자 자격 증명(Spring LDAP)이 Critical이고, 데이터 바인딩 규칙 우회(Framework)와 Actuator health 경로 인증 우회(Boot)가 High입니다. Java에서는 AVX-512 x86-64 서버의 HotSpot Base64 디코더 메모리 손상 취약점 Java4Shell이 11월 17일 패치로 고쳐졌고, Spring Batch 6.1도 GA됐습니다. Google은 Gemini API에 도구 스키마를 필요할 때만 불러오는 Tool Retrieval을 넣었고, Monte Carlo의 Barr Moses는 에이전트를 대역 외로 감독하는 3계층 구조를 제안했습니다. PyPI는 파서 차이를 이용한 공급망 공격을 막으려 V7 tar sdist와 ZIP 주석이 든 wheel을 거부하기 시작했습니다.",
+      "highlights": [
+        {
+          "category": "Java",
+          "title": "Java4Shell (CVE-2026-114938): What It Is, Who Is Affected, and What to Do Now",
+          "link": "https://foojay.io/today/java4shell-cve-2026-114938-what-it-is-who-is-affected-and-what-to-do-now/",
+          "source": "Foojay",
+          "summary": "OpenJDK HotSpot의 하드웨어 가속 Base64 디코더에서 원격 코드 실행으로 이어질 수 있는 메모리 손상 취약점(CVE-2026-114938)이 11월 17일 정기 패치로 고쳐졌습니다. AVX-512가 켜진 x86-64 서버가 대상입니다.",
+          "detail": "Azul이 정리한 Java4Shell 해설입니다. 결함은 HotSpot VM의 하드웨어 가속 Base64 디코더에 있고, AVX-512가 켜진 x86-64 시스템에서만 발현됩니다. 발견한 보안 업체 Calif는 힙을 손상시켜 원격으로 코드를 실행하는 과정을 Jira, Confluence, Jenkins 같은 애플리케이션에서 인증 없이 시연했습니다.\n\n심각도는 OpenJDK가 쓰는 CVSS 3.1로 8.1(High), CVSS 4.0으로 9.2(Critical)입니다. Azul 기준 영향 범위는 Azul Core의 Java 17(17.0.6 이상)·21·25·27과 Azul Prime의 Java 8·11·17·21·25입니다. 결함이 OpenJDK 코드에 있으므로 다른 배포판을 쓰면 해당 벤더의 공지를 확인해야 합니다. Ice Lake 이후의 Intel Xeon P코어와 Zen 4 이후의 AMD EPYC, 그리고 이를 쓰는 클라우드 인스턴스가 AVX-512를 지원하므로 현행 x86 서버 상당수가 범위에 들어갑니다.\n\n제로데이는 아닙니다. OpenJDK 취약점 절차로 보고됐고 11월 17일 조율된 패치와 함께 공개됐습니다. 11월 17일 저녁 기준 실제 악용 보고는 없고 CISA KEV에도 오르지 않았습니다. 할 일은 11월 보안 업데이트로 JDK를 올리고, AVX-512가 켜진 x64 호스트에서 어떤 Java 버전이 도는지 파악하는 것입니다. 이번 업데이트에는 이 밖에 10건의 CVE 수정도 들어 있습니다."
+        },
+        {
+          "category": "Spring",
+          "title": "cve-2026-59273 - CRITICAL - Spring Security ELRequestMatcher allows Remote Code Execution via unrestricted SpEL evaluation",
+          "link": "https://spring.io/security/cve-2026-59273",
+          "source": "Spring Security",
+          "summary": "Spring Security의 ELRequestMatcher가 SpEL을 제한 없는 평가 컨텍스트에서 실행해, 이 타입 프로퍼티에 외부 입력을 바인딩하는 애플리케이션에서 원격 코드 실행이 가능합니다. OSS 수정판은 7.1.3과 7.0.9입니다.",
+          "detail": "11월 19일 Spring 포트폴리오가 50건 가까운 보안 공지를 한꺼번에 냈고, 그중 Critical 등급 두 건 가운데 하나입니다. ELRequestMatcher는 문서상 요청 매칭 연산만 하도록 되어 있지만, 실제로는 리플렉션·타입 참조·임의 메서드 호출이 모두 허용된 평가 컨텍스트에서 SpEL 식을 평가했습니다.\n\nSpring Framework의 데이터 바인딩은 명명 규칙으로 이 타입의 프로퍼티 에디터를 자동으로 찾습니다. 그래서 외부 입력을 이 매처 타입의 빈 프로퍼티에 바인딩하는 애플리케이션이라면, 그 입력이 그대로 SpEL로 평가되어 공격자가 프로세스 안에서 코드를 실행할 수 있습니다. CVSS 벡터는 네트워크·인증 불필요·기밀성/무결성/가용성 모두 High입니다.\n\n영향 버전은 Spring Security 7.1.0~7.1.2, 7.0.0~7.0.8, 6.5.0~6.5.12, 6.4.0~6.4.19, 5.8.0~5.8.28, 5.7.26 이하입니다. 오픈소스 수정판은 7.1.3과 7.0.9뿐이고 6.x 이하 수정판은 엔터프라이즈 지원 전용입니다. 6.5 이하를 오픈소스로 쓰고 있다면 7.0 이상으로 올리는 것 말고는 공개 수정 경로가 없습니다."
+        },
+        {
+          "category": "Spring",
+          "title": "cve-2026-59367 - CRITICAL - Embedded Test LDAP Server Binds to All Network Interfaces with a Hardcoded Administrative Credential in Spring LDAP",
+          "link": "https://spring.io/security/cve-2026-59367",
+          "source": "Spring Security",
+          "summary": "spring-ldap-test의 EmbeddedLdapServer가 모든 네트워크 인터페이스에서 리슨하고 라이브러리에 박힌 고정 관리자 자격 증명을 받아, 포트에 닿는 누구나 디렉터리 관리자로 인증할 수 있습니다. Critical 등급입니다.",
+          "detail": "테스트용 내장 LDAP 서버의 문제입니다. EmbeddedLdapServer는 그것을 실행하는 머신에서만 쓰라고 만든 테스트 픽스처인데, 리스너가 루프백으로 제한되지 않았고 관리자 바인드 자격 증명이 애플리케이션이 아니라 라이브러리에 고정돼 있었습니다.\n\n애플리케이션이나 테스트가 EmbeddedLdapServer를 직접 또는 Spring LDAP 테스트 지원을 통해 띄우고, 그 호스트에 신뢰할 수 없는 쪽이 네트워크로 닿을 수 있으면 영향을 받습니다. 공지가 드는 예는 공유 CI 에이전트, 공유 개발 네트워크, 포트를 공개한 컨테이너입니다. 공격자는 내장 디렉터리의 항목을 읽고 추가·수정·삭제할 수 있고, 그 내용에 의존하는 테스트를 흔들 수 있습니다.\n\n영향 버전은 Spring LDAP 4.1.0~4.1.2, 4.0.0~4.0.6, 3.3.0~3.3.9, 3.2.0~3.2.19, 2.4.6 이하입니다. 오픈소스 수정판은 4.1.3과 4.0.7입니다. 운영 코드가 아니라 테스트 의존성이라 놓치기 쉬우므로, 공유 CI에서 LDAP 통합 테스트를 돌린다면 확인할 대상입니다."
+        },
+        {
+          "category": "Spring",
+          "title": "cve-2026-59374 - HIGH - Spring Framework Data Binding vulnerability on indexed data types",
+          "link": "https://spring.io/security/cve-2026-59374",
+          "source": "Spring Security",
+          "summary": "DataBinder의 allowedFields/disallowedFields로 막아 둔 중첩·맵 키·리스트 인덱스 프로퍼티를 공격자가 폼 필드로 덮어쓸 수 있습니다. Spring Framework 7.0.11에서 고쳐졌습니다.",
+          "detail": "Spring Framework 데이터 바인딩의 허용·차단 규칙 우회입니다. 세 조건이 모두 맞을 때 영향을 받습니다. 사용자 요청 파라미터를 Spring 데이터 바인딩으로 객체에 바인딩하고, 정확히 일치하는 disallowedFields 패턴(또는 제한적인 allowedFields 패턴)으로 중첩·맵 키·리스트 인덱스 프로퍼티를 빼 두었으며, 와일드카드 disallowedFields나 더 엄격한 allowedFields를 따로 두지 않은 경우입니다.\n\n이 경우 공격자는 조작한 폼 필드로, 설정상 바인딩에서 명시적으로 제외한 필드에 값을 쓸 수 있습니다. CVSS 벡터는 무결성 High, 기밀성·가용성 영향 없음입니다.\n\n영향 버전은 7.0.0~7.0.10, 6.2.0~6.2.20, 6.1.0~6.1.29, 6.0.0~6.0.32, 5.3.0~5.3.50, 5.2.26 이하입니다. 오픈소스 수정판은 7.0.11 하나이고 6.2.21 이하 수정판은 엔터프라이즈 지원 전용입니다. 당장 올리기 어렵다면 차단 목록에 인덱스·키 형태까지 덮는 와일드카드 패턴을 넣었는지 점검할 만합니다."
+        },
+        {
+          "category": "Spring",
+          "title": "cve-2026-59378 - HIGH - Authentication Bypass under Actuator Health Endpoints on Jersey",
+          "link": "https://spring.io/security/cve-2026-59378",
+          "source": "Spring Security",
+          "summary": "Jersey 기반 Spring Boot 애플리케이션에서 인증이 필요한 JAX-RS 리소스를 Actuator health 경로와 같은 경로에 두면 인증이 우회됩니다. 수정판은 4.1.3과 4.0.10입니다.",
+          "detail": "Spring Boot Actuator의 인증 우회입니다. 다음 조건이 모두 맞아야 합니다. Spring MVC나 WebFlux가 아니라 spring-boot-starter-jersey를 쓰고, Actuator와 Spring Security가 클래스패스에 있으며 기본 보안 설정에 기대고, health 엔드포인트가 애플리케이션 리소스와 같은 경로에 노출되어 있고, 그 경로에 인증이 필요한 JAX-RS 리소스가 있어야 합니다. 경로가 겹치는 경우로는 management.endpoint.health.probes.add-additional-paths=true, health 그룹의 additional-path, management.endpoints.web.base-path=/ 설정이 있습니다.\n\nSpring 팀은 등급은 High지만 운영에서 이런 구성은 드물 것으로 봅니다. 같은 계열의 CVE-2026-22731, CVE-2026-22733에 이은 세 번째 수정입니다.\n\n영향 버전은 4.1.0~4.1.2, 4.0.0~4.0.9, 3.5.0~3.5.17, 3.0.0~3.4.18입니다. 오픈소스 수정판은 4.1.3과 4.0.10이고 3.x 수정판은 엔터프라이즈 지원 전용입니다. 당장 올리지 못하면 /health/**, /livez, /readyz 같은 프로브 경로 아래에 JAX-RS @Path 리소스를 두지 않는 것으로 피할 수 있습니다."
+        },
+        {
+          "category": "Spring",
+          "title": "Spring Batch 6.1 is now GA!",
+          "link": "https://spring.io/blog/2026/11/19/spring-batch-6-1-0-available-now",
+          "source": "Spring Blog",
+          "summary": "Spring Batch 6.1이 GA됐습니다. @JobParameter 주입과 컴파일 타임에 검사되는 PageableItemReader가 들어왔고, 빌더 반환 타입과 JDBC DAO 생성자 등 소스·바이너리 호환이 깨지는 변경이 네 가지 있습니다.",
+          "detail": "Spring Batch 6.1이 Maven Central에 올라왔습니다. 의존성은 Spring Framework 7.1.0, Spring Integration 7.2.0, Spring Data 2026.1.0, Spring Kafka 4.2.0, Micrometer 1.18.0으로 올라갑니다.\n\n새 기능 가운데 체감이 큰 것은 두 가지입니다. @JobParameter 애너테이션이 @Value(\"#{jobParameters['inputFile']}\") 같은 SpEL 식을 대신하고, 이름을 생략하면 필드나 파라미터 이름을 씁니다(생략할 때는 -parameters 컴파일 플래그가 필요하며 Boot 플러그인은 기본으로 켭니다). PageableItemReader는 리포지토리 메서드를 이름으로 리플렉션 호출하던 RepositoryItemReader 대신 Pageable에서 Slice로 가는 함수를 받아 컴파일 시점에 검사됩니다. 이 밖에 리소스 위치 패턴 지원, MongoDB 잡 리포지토리 컬렉션 접두사, JSON 라이브러리에 묶이지 않는 JsonLineMapper, JDBC DAO의 JdbcClient 전환이 있습니다.\n\n업그레이드 때 주의할 깨지는 변경은 네 가지입니다. FlatFileItemReaderBuilder·FlatFileItemWriterBuilder·JdbcBatchItemWriterBuilder 일부 메서드의 반환 타입 변경, Avro 리플렉션 기반 직렬화가 신뢰 클래스 지정을 요구하는 것, JDBC DAO의 무인자 생성자 제거, JsonLineMapper의 raw 타입 변경입니다. Apache Derby 지원과 spring-batch-integration의 AsyncItemProcessor·AsyncItemWriter는 폐기 예정이 됐습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Introducing Tool Retrieval in the Gemini API",
+          "link": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+          "source": "Google AI",
+          "summary": "Google이 Gemini Interactions API에 Tool Retrieval을 프리뷰로 넣었습니다. 도구의 파라미터 스키마를 매 요청에 싣지 않고 모델이 필요할 때만 불러오게 합니다.",
+          "detail": "켜는 방법은 요청에 `tool_search` 도구를 추가하고, 미뤄 둘 도구에 `defer_loading: true`를 다는 것입니다. 모델은 미뤄 둔 도구의 이름과 설명은 계속 보지만 파라미터 스키마는 컨텍스트에 들어오지 않습니다. 모델이 도구를 이름으로 요청하면 API가 스키마를 싣고 함수 호출까지 한 요청 안에서 끝납니다. 이 과정은 `interaction.steps`에 `tool_search_call`, `tool_search_result`, `function_call` 세 단계로 남아 모델이 어떤 도구를 고려했는지 확인할 수 있습니다. 검색은 Gemini 서버에서 돌아가므로 인덱스를 만들거나 호스팅할 필요가 없습니다. 미뤄 둔 스키마는 프롬프트 앞부분에 없고 불러온 스키마는 대화 뒤쪽에 붙으므로 프리픽스 캐시가 턴마다 유지됩니다. 원격 MCP 서버에도 적용되어 `mcp_server` 도구에 `defer_loading: true`를 달면 그 서버의 도구 전체가 필요할 때 실립니다. 자체 도구 레지스트리나 사용자별 권한 필터가 있으면 `\"execution\": \"client\"`로 선언해 검색을 직접 수행할 수 있고, 이때는 검색마다 왕복이 한 번 늘어납니다. 별도 요금은 없고, `tool_search`가 고정 크기의 입력 토큰을 조금 더하며 불러온 스키마는 남은 대화 동안 입력으로 과금됩니다. Gemini 3.6 이상과 Gemini 4 전 모델에서 동작합니다."
+        },
+        {
+          "category": "AI",
+          "title": "QCon San Francisco 2026: Use AI to Multiply Your Team as a Staff Engineer",
+          "link": "https://www.infoq.com/news/2026/11/ai-staff-engineer/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "source": "InfoQ AI/ML",
+          "summary": "QCon San Francisco 2026에서 Pinterest의 Jordan Cutler가 모두가 같은 AI 도구를 쓰는 환경에서 스태프 엔지니어의 레버리지가 어디서 나오는지 발표했습니다. 답은 자기 생산성이 아니라 팀과 시스템을 배로 늘리는 쪽이라는 것입니다.",
+          "detail": "Cutler는 Pinterest 내부 수치를 공개했습니다. 2025년 1분기부터 2026년 3분기 사이 엔지니어 1인당 주간 머지 PR이 상위 10%는 6.7건에서 11.3건으로 68% 늘었고, 하위 절반은 1.0건에서 1.15건으로 14% 느는 데 그쳤습니다. 도구는 같아도 쓰는 방식이 달라 격차가 벌어진다는 것입니다. 대응은 세 단계로 정리했습니다. 첫째는 자신을 늘리는 일로, 새 도구를 먼저 써 보고 막다른 길을 미리 공유합니다. 여러 에이전트를 돌리다 보니 PR을 작게 유지하라는 식의 같은 교정을 세션마다 반복하게 됐다고 했습니다. 둘째는 팀을 늘리는 일로, 코드 리뷰에서 반복하던 판단을 글로 적어 팀원 모두가 쓰게 합니다. 셋째는 시스템을 늘리는 일입니다. 스태프 엔지니어가 계획과 예시를 가리키면 엔지니어가 일정에 올리고, 샌드박스의 에이전트가 팀별 PR로 쪼개는 마이그레이션 시스템을 만들었습니다. 클래스 컴포넌트 마이그레이션이 수작업보다 3~5배 빨랐습니다. 실패 사례도 있었습니다. 예약 작업 하나가 루프에 빠져 2분 동안 PR 16개를 열었고 CI 대기가 30초 미만에서 14분으로 늘었습니다. 지금은 엔지니어 40명이 자기 스케줄러 작업을 갖고 있으며, Cutler의 팀은 본인 PR을 빼고도 다른 웹 팀보다 1인당 약 4배를 출하합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "How to Oversee AI Agents at Scale With a Three-Tier Architecture",
+          "link": "https://towardsdatascience.com/how-to-oversee-ai-agents-at-scale-with-a-three-tier-architecture/",
+          "source": "Towards Data Science",
+          "summary": "Monte Carlo의 Barr Moses가 에이전트 감독을 사람의 동기식 리뷰에 맡기는 2계층 구조는 규모가 커지면 무너진다며, 작업 에이전트와 사람 사이에 대역 외 자율 감독 계층을 넣는 3계층 구조를 제안했습니다.",
+          "detail": "근거는 Monte Carlo가 2026년 초 CDO Magazine과 진행한 설문입니다. 리더의 58%가 12개월 안에 에이전트 수가 크게 늘 것이라 답했는데, 62%는 AI 출력 검증을 사람의 수동 리뷰에 의존하고 자동 모니터링을 쓰는 곳은 25%였습니다. 61%는 지표가 정상으로 보이는 동안 문제가 진행되는 조용한 실패를 겪었습니다. 제안한 구조에서 1계층은 도메인 작업을 실행하는 에이전트, 2계층은 트레이스 평가·웨어하우스 데이터 점검·되돌릴 수 있는 격리·수정안 작성을 맡는 감독자, 3계층은 정책을 정하고 영향이 큰 변경을 승인하는 사람입니다. 필자는 감독자를 인라인 가드레일로 만들면 감독 대상의 타임아웃과 실패 양상을 물려받는다고 지적합니다. 그래서 감독자는 별도 컴퓨트와 서비스 계정에서 돌고, 에이전트 출력을 명령이 아닌 텔레메트리로만 다루며, 에이전트가 쓸 수 없는 출처(게이트웨이나 LLM 프록시 트레이스, 웨어하우스 쿼리 로그)에서 증거를 얻고, 모든 판단을 추가 전용 감사 로그에 남겨야 합니다. 자율 범위는 에이전트 단위가 아니라 작업 단위로 정합니다. 예시 정책에서 배치 일시정지와 90분 넘게 지연된 테이블 새로고침은 감독자가 자동으로 하고, 스키마 매핑 패치와 시스템 프롬프트 롤백은 사람 승인이 필요합니다. 예로 든 환율 사고에서는 환율이 1.00으로 기록된 거래 비율이 기준 0.2%에서 18.4%로 뛴 것을 웨어하우스 테이블에서 잡아냅니다."
+        },
+        {
+          "category": "Python",
+          "title": "Build an AI Agent From Scratch in Python: The Agentic Loop",
+          "link": "https://realpython.com/agentic-loop/",
+          "source": "Real Python",
+          "summary": "Real Python이 프레임워크 없이 약 90줄의 Python으로 AI 에이전트를 만드는 튜토리얼을 냈습니다. 모델을 감싸는 하네스 루프를 한 단계씩 쌓아 에이전틱 루프가 무엇인지 보여 줍니다.",
+          "detail": "핵심 주장은 LLM 자체는 에이전트가 아니고, 사용자·모델·도구 사이에서 정보를 넘기는 루프인 하네스가 모델을 에이전트로 만든다는 것입니다. 튜토리얼은 Python 3.15와 uv, `openai==3.31.0`, 모델 `gpt-6-luna`를 쓰며 일곱 단계로 진행됩니다. 처음에는 Chat Completions API로 \"habits 폴더에 무엇이 있느냐\"고 한 번 묻고, 모델이 파일에 접근할 수 없다고 답하는 실패에서 출발합니다. 이어 `while True` 루프로 하네스를 만들고, 정보가 어디서 어디로 가는지 찍는 `trace()` 헬퍼를 붙입니다. Chat Completions API는 호출 사이에 이전 메시지를 기억하지 않으므로 하네스가 매 요청에 대화 전체를 다시 보내는 방식으로 단기 기억을 줍니다. 그다음 `list_files` 도구를 JSON 스키마로 기술해 모델에 넘깁니다. 모델은 도구를 직접 실행하지 않고 도구 호출을 돌려줄 뿐이며, 실행할지 정하고 결과를 되돌려 보내는 것은 하네스입니다. `ask_model()`과 `run_tool()`을 나누고, `read_file()`을 추가하면서 도구 이름을 함수에 매핑해 하드코딩을 없앱니다. 마지막으로 모델을 루프 안에서 돌려 도구 호출을 연쇄하게 하면, 에이전트가 `list_files`로 폴더를 본 뒤 `read_file`로 `habits/habits.py`를 읽고 요약을 답합니다."
+        },
+        {
+          "category": "Python",
+          "title": "Stricter checks for uploaded distributions on PyPI",
+          "link": "https://blog.pypi.org/posts/2026-11-18-stricter-checks-for-uploaded-sdists/",
+          "source": "PyPI Blog",
+          "summary": "PyPI가 V7 형식 tar로 만든 sdist와 ZIP 제어 구조로 오인될 수 있는 아카이브 주석이 든 wheel의 업로드를 거부하기 시작했습니다. 파서 차이를 이용한 공급망 공격을 막기 위한 조치입니다.",
+          "detail": "PyPI가 지난 몇 주 사이 업로드되는 배포물에 검사를 더했습니다. sdist는 tar.gz, wheel은 ZIP인데, 두 형식 모두 Python 패키징용으로 설계되지 않았고 파서들이 입력을 관대하게 해석합니다. 로컬에서는 손상된 아카이브를 살리는 데 유용한 관대함이지만, 네트워크 배포에서는 같은 파일이 도구와 플랫폼마다 다르게 풀리는 파서 차이를 낳습니다.\n\n공격자는 이 차이로 PyPI가 읽은 메타데이터(의존성 포함)와 설치 도구가 보는 내용, 미러·보안 스캐너가 보는 내용, pip install과 uv add의 설치 결과를 서로 다르게 만들 수 있습니다. 해시로 무결성이 확인된 배포물이어도 겉보기에는 정상인 악성 패키지가 설치될 수 있다는 뜻입니다.\n\n지금 거부하는 것은 Python의 tarfile이 만든 적 없는 레거시 V7 형식 tar의 sdist와, ZIP 제어 구조로 오인될 수 있는 아카이브 수준 주석이 든 wheel입니다. 패키지를 받아 쓰는 쪽에는 깨지는 영향이 없고, 업로드가 실패하는 메인테이너는 지원 중인 Python과 표준을 따르는 빌드 백엔드를 쓰면 됩니다. PyPI는 앞으로도 검사를 더 엄격하게 할 예정입니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "One Table, Many Engines: Running BigQuery, Spark, and Trino on a Single Iceberg Copy",
+          "link": "https://www.kdnuggets.com/one-table-many-engines-running-bigquery-spark-and-trino-on-a-single-iceberg-copy",
+          "source": "KDnuggets",
+          "summary": "Google Cloud Lakehouse 런타임 카탈로그에 등록한 Apache Iceberg 테이블 하나를 Spark, Trino, BigQuery가 복사본 없이 함께 읽고 쓰는 실습 글입니다. Spark와 Trino를 일부러 동시에 쓰게 해 커밋 충돌이 어떻게 처리되는지도 확인했습니다. Google Cloud 협찬 글입니다.",
+          "detail": "구성은 Cloud Storage 버킷 하나와 카탈로그 하나입니다. 카탈로그는 데이터를 갖지 않고 각 테이블의 현재 `metadata.json`을 가리키는 포인터만 갖습니다. Spark와 Trino는 Iceberg REST 카탈로그 엔드포인트로, BigQuery는 커넥터 없이 `project.catalog.namespace.table` 네 부분 이름으로 접근합니다. 자격 증명은 카탈로그 서비스 계정만 버킷 권한을 갖고 엔진에는 단기 토큰을 내주는 vending 모드를 썼습니다. 테이블은 `format-version` 2에 delete·update·merge 모드를 모두 `copy-on-write`로 만들었습니다. BigQuery DML과 자동 테이블 유지보수가 copy-on-write를 요구하기 때문이며, Trino는 행 수준 변경을 merge-on-read로 쓰므로 INSERT와 SELECT만 맡겼습니다. 걸린 지점도 적혀 있습니다. 2.3 이미지는 Spark 웨어하우스를 `gs://` URI로 잡아 테이블이 엉뚱한 단일 버킷 카탈로그에 생겼고, 이미지에 든 Trino 432(Iceberg 1.4.1)는 카탈로그 인증을 못 해 100줄 미만의 프록시 심을 썼습니다. Trino 481 이상에서는 심이 필요 없습니다. 충돌 실험에서는 30초짜리 Spark MERGE 도중 Trino가 INSERT를 넣었고, 세 번 모두 Trino가 먼저 커밋되어 Spark가 `ValidationException`으로 중단됐습니다. Spark MERGE의 기본 격리가 serializable이기 때문입니다. `write.merge.isolation-level`을 `snapshot`으로 바꾸자 두 쓰기가 모두 커밋됐고, 대신 MERGE 스캔 이후 들어온 행은 다음 실행에서 처리됩니다. 그동안 BigQuery가 읽은 결과는 매번 커밋된 스냅샷과 일치했습니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "The 0.95 Expectile Is Not the 95th Percentile",
+          "link": "https://towardsdatascience.com/the-095-expectile-is-not-the-95th-percentile/",
+          "source": "Towards Data Science",
+          "summary": "0.95 expectile을 95번째 백분위수처럼 쓰면 안 된다는 글입니다. 균등분포의 정확한 계산과 100회 합성 실험으로 두 통계량이 서로 다른 손실 함수의 답이라는 점을 보입니다.",
+          "detail": "분위수는 비대칭 절대 오차(pinball loss)를 최소화하고, expectile은 같은 가중치를 준 비대칭 제곱 오차를 최소화합니다. alpha가 0.95이면 과소 추정과 과대 추정의 가중치가 19 대 1인 점은 같지만, 제곱 손실에서는 오차가 두 배가 되면 기여가 네 배가 되므로 최적 결정이 달라집니다. [0, 1] 균등분포에서 95번째 백분위수는 0.95이고 0.95 expectile은 √α/(√α+√(1−α))로 계산되어 약 0.8134입니다. expectile 아래에 놓이는 비율은 81.34%뿐이어서 95% 커버리지보다 13.66%포인트 낮습니다. expectile은 순위가 아니라 거리에 반응합니다. 0이 99개이고 값 M이 하나인 표본에서 0.95 분위수는 M과 무관하게 0이지만 expectile은 19M/118이라 M이 100이면 약 16.10이 됩니다. 입력 오류로 생긴 큰 값에도 그대로 끌려간다는 뜻입니다. 계산은 SciPy의 `scipy.stats.expectile`과 NumPy `np.quantile(..., method=\"inverted_cdf\")`로 합니다. 수요가 0~100 균등인 계획 문제를 학습 400개, 테스트 10,000개로 100회 반복하자 분위수 결정은 평균 94.73에 커버리지 94.72%, expectile 결정은 81.33에 81.25%가 나왔습니다. 비대칭 절대 손실은 분위수 2.38 대 expectile 3.32, 비대칭 제곱 손실은 142.14 대 110.63으로 각자 자기 손실에서 이깁니다. 95% 충족이 요구사항이면 분위수를 쓰고, expectile은 비용이 오차의 제곱으로 커질 때 씁니다."
+        }
+      ]
+    },
+    {
       "date": "2026-11-19",
       "summary": "에이전트 도구 체인의 보안 릴리스가 두 건 겹쳤습니다. MCP 레퍼런스 서버 v2.5.0은 `mcp-server-git`에서 저장소 설정을 통해 명령이 실행되던 경로를 포함해 여덟 건을 고쳤고, Pydantic AI v2.70.0은 Harness의 정규식 두 곳이 이벤트 루프를 수 분간 붙잡을 수 있던 문제를 막았습니다. 인프라 쪽에서는 AWS가 다른 계정의 CIDR 범위 전체를 단방향으로 여는 PrivateLink 터널 엔드포인트를 해설했고, LinkedIn은 셔플 저장소를 컴퓨트에서 떼어 낸 Apache Celeborn 운영 수치를 공개했습니다. Google은 Genie 4를 AI Ultra 구독자에게 열었습니다.",
       "highlights": [
