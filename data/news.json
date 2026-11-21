@@ -1,7 +1,87 @@
 {
-  "updated": "2026-11-21T18:25:29+09:00",
-  "count": 1279,
+  "updated": "2026-11-22T02:13:37+09:00",
+  "count": 1257,
   "items": [
+    {
+      "title": "Kharon Applied Intelligence Fellowship in Denver, London, or Madrid",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/21/kharon-applied-intelligence-fellowship-in-denver-london-or-madrid/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Juan Lopez Martin (coauthor of the very useful MRP Case Studies) writesL Kharon, where I work, is launching a new program called the Applied Intelligence Fellowship, and I think Master/PhD students at PoliSci/SIPA/Stats…",
+      "ts": 1795279437,
+      "published": "2026-11-21T16:43:57+00:00",
+      "collected_at": "2026-11-22T02:13:00+09:00"
+    },
+    {
+      "title": "How to Learn Supply Chain Analytics in 2027 with Claude Code",
+      "link": "https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Each 5-minute case study pairs operational context, a problem statement, and documented code, so data scientists and non-coding planners learn together. The post How to Learn Supply Chain Analytics in 2027 with Claude C…",
+      "ts": 1795273200,
+      "published": "2026-11-21T15:00:00+00:00",
+      "collected_at": "2026-11-22T02:13:00+09:00"
+    },
+    {
+      "title": "“By program end, each participant has four case studies tied to their research, four implemented workflows, and a complete set of standardized templates including a grant proposal framework.”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/21/by-program-end-each-participant-has-four-case-studies-tied-to-their-research-four-implemented-workflows-and-a-complete-set-of-standardized-templates-including-a-grant-proposal-framework/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "The following bit of spam arrived in my inbox: Dear Professor Gelman, I hope you are doing well. I recently delivered a structured cohort program with the Engineering Science and Mechanics department at Penn State addre…",
+      "ts": 1795270172,
+      "published": "2026-11-21T14:09:32+00:00",
+      "collected_at": "2026-11-22T02:13:00+09:00"
+    },
+    {
+      "title": "Gemini 4 Neon Draws a Python Reading a Book",
+      "link": "https://realpython.com/ai-benchmark-gemini-4-neon/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore Gemini 4 Neon's Python code, turtle drawing, and responses to small tasks that check modern syntax, release knowledge, focused edits, and made-up functions.",
+      "ts": 1795269600,
+      "published": "2026-11-21T14:00:00+00:00",
+      "collected_at": "2026-11-22T02:13:00+09:00"
+    },
+    {
+      "title": "Inkling 2 Mini Draws a Python Reading a Book",
+      "link": "https://realpython.com/ai-benchmark-inkling-2-mini/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore Inkling 2 Mini's Python code, turtle drawing, and responses to small tasks that check modern syntax, release knowledge, focused edits, and made-up functions.",
+      "ts": 1795269600,
+      "published": "2026-11-21T14:00:00+00:00",
+      "collected_at": "2026-11-22T02:13:00+09:00"
+    },
+    {
+      "title": "Censored vs. Truncated Regression in Python, Explained",
+      "link": "https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A simulated salary survey shows OLS shrinking a $5k-per-year effect to $3.2k, then recovers it with Tobit and truncated likelihoods built from scratch. The post Censored vs. Truncated Regression in Python, Explained app…",
+      "ts": 1795266000,
+      "published": "2026-11-21T13:00:00+00:00",
+      "collected_at": "2026-11-22T02:13:00+09:00"
+    },
+    {
+      "title": "Release v5.24.0",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.24.0",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Release v5.24.0 New Model additions Inkling 2 Mini Inkling 2 Mini is a multimodal model from Thinking Machines Lab that accepts text and image inputs and generates text outputs. It is a smaller sibling of Inkling 2 Smal…",
+      "ts": 1795265019,
+      "published": "2026-11-21T12:43:39+00:00",
+      "collected_at": "2026-11-22T02:13:00+09:00"
+    },
+    {
+      "title": "How Google Traced GKE API Timeouts to a Linux Kernel TCP Bug",
+      "link": "https://www.infoq.com/news/2026/11/gke-kernel-network-bug/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google recently detailed how three interacting bugs across Google Kubernetes Engine (GKE), Private Service Connect, and the Linux kernel caused intermittent Kubernetes API connectivity failures, blocking around 800 deve…",
+      "ts": 1795254240,
+      "published": "2026-11-21T09:44:00+00:00",
+      "collected_at": "2026-11-22T02:13:00+09:00"
+    },
     {
       "title": "[AINews] Riemann Hypothesis proved...twice independently",
       "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
@@ -231,6 +311,16 @@
       "ts": 1795183200,
       "published": "2026-11-20T14:00:00+00:00",
       "collected_at": "2026-11-21T04:47:31+09:00"
+    },
+    {
+      "title": "How to Use any() in Python",
+      "link": "https://realpython.com/any-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Use any() in Python to check whether at least one condition is true, simplify complex conditionals, and see how it compares to the or operator.",
+      "ts": 1795183200,
+      "published": "2026-11-20T14:00:00+00:00",
+      "collected_at": "2026-11-22T02:13:00+09:00"
     },
     {
       "title": "How to Prepare for a Credit Risk Internship Interview in Nine Steps",
@@ -12481,316 +12571,6 @@
       "ts": 1792689690,
       "published": "2026-10-22T17:21:30+00:00",
       "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792685491,
-      "published": "2026-10-22T16:11:31+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "Quoting Armin Ronacher",
-      "link": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins. — Armin Ronacher Tags: security , generative-ai , armin-ronacher , ai , ai-security-research , ll…",
-      "ts": 1792683253,
-      "published": "2026-10-22T15:34:13+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "Does Agentic RAG Actually Retrieve Better Evidence? I Tested It on 298 Questions",
-      "link": "https://towardsdatascience.com/does-agentic-rag-actually-retrieve-better-evidence-i-tested-it-on-298-questions/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "I let an AI agent search again whenever it chose. It found some papers plain search had missed, lost some plain search had found, and gained too little to trust. The post Does Agentic RAG Actually Retrieve Better Eviden…",
-      "ts": 1792683000,
-      "published": "2026-10-22T15:30:00+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "Beyond tree cover: mapping the world’s forest types",
-      "link": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
-      "ts": 1792679424,
-      "published": "2026-10-22T14:30:24+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "The Recommendation Engine for Commodity Traders — Anekha Sokhal, Moshi",
-      "link": "https://www.latent.space/p/the-recommendation-engine-for-commodity",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
-      "ts": 1792677820,
-      "published": "2026-10-22T14:03:40+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "You are the Team — Anekha Sokhal, Moshi",
-      "link": "https://www.latent.space/p/moshi",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
-      "ts": 1792677820,
-      "published": "2026-10-22T14:03:40+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "You are the Team — Anekha Sokhal, Moshi",
-      "link": "https://latent.space/p/moshi/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "How Moshi turns market data into actionable insights, and why AI tools have to fit the trader’s workflow.",
-      "ts": 1792677820,
-      "published": "2026-10-22T14:03:40+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Study Finds AI-generated Code Fails to Boost Productivity Due to Downstream Bottlenecks",
-      "link": "https://www.infoq.com/news/2026/10/jellyfish-ai-productivity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "A recent Harvard study of 718 firms, using the Jellyfish analytics platform, finds that although AI coding assistants and agents increase code volume, this does not translate into a corresponding increase in completed w…",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Study Finds AI-generated Code Fails to Boost Productivity Due to Downstream Bottlenecks",
-      "link": "https://www.infoq.com/news/2026/10/jellyfish-ai-productivity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "A recent Harvard study of 718 firms, using the Jellyfish analytics platform, finds that although AI coding assistants and agents increase code volume, this does not translate into a corresponding increase in completed w…",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Python Program Lexical Structure",
-      "link": "https://realpython.com/python-program-structure/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Dig into the Python program structure: the syntactic elements that make up statements, and how statements group into larger blocks.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Pygame: A Primer on Game Programming in Python",
-      "link": "https://realpython.com/pygame-a-primer/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how Pygame lets you build games and rich multimedia programs in Python: draw to the screen, detect collisions, and handle input.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Python itertools By Example",
-      "link": "https://realpython.com/python-itertools/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Master Python's itertools module by building practical examples with batched(), pairwise(), groupby(), and more, and learn to think iteratively.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Speed Up Your Python Program With Concurrency",
-      "link": "https://realpython.com/python-concurrency/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Explore Python concurrency with threading, asyncio, and multiprocessing, and learn which model speeds up your I/O-bound or CPU-bound programs.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Python and REST APIs: Interacting With Web Services",
-      "link": "https://realpython.com/api-integration-in-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn to consume web services with the requests library, then explore the tools for building a Python REST API of your own.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Emacs: The Best Python Editor?",
-      "link": "https://realpython.com/emacs-the-best-python-editor/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Install and configure Emacs for Python development, then write, run, test, and debug your Python code without leaving the editor.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Python Plotting With Matplotlib (Guide)",
-      "link": "https://realpython.com/python-matplotlib-guide/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "This article is a beginner-to-intermediate-level walkthrough on Python and matplotlib that mixes theory with example.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Operators and Expressions in Python",
-      "link": "https://realpython.com/python-operators-expressions/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Python operators are the symbols and keywords that build expressions. Learn how to combine them with objects to compute real results.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Reading and Writing CSV Files in Python",
-      "link": "https://realpython.com/python-csv/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how Python handles CSV files: read, write, and parse them with the built-in csv library, and see how pandas does the same job.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Web Scraping With Scrapy and MongoDB",
-      "link": "https://realpython.com/web-scraping-with-scrapy-and-mongodb/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "This tutorial covers how to write a Python web crawler using Scrapy to scrape and parse data, and then store the data in MongoDB.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "How to Process Large JSON Files in Python With ijson",
-      "link": "https://www.kdnuggets.com/how-to-process-large-json-files-in-python-with-ijson",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "I loaded a large JSON file in Python and watched memory jump from 43 MB to 808 MB. Here’s what happened and how streaming changed everything.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Raman Spectra Preprocessing and Non-Negative Least Squares Modelling in Python: Monitoring Zeolite Crystallization",
-      "link": "https://towardsdatascience.com/raman-spectra-preprocessing-and-non-negative-least-squares-modelling-in-python-monitoring-zeolite-crystallization/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A short, reproducible tutorial on spectral unmixing using real in situ interzeolite conversion data The post Raman Spectra Preprocessing and Non-Negative Least Squares Modelling in Python: Monitoring Zeolite Crystalliza…",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Supply Chain Security for the Age of AI-Speed Exploits",
-      "link": "https://realpython.com/python-supply-chain-security/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn Python supply chain security as AI speeds up attacks: what the LiteLLM backdoor teaches, how to check your setup, and habits that last.",
-      "ts": 1792677600,
-      "published": "2026-10-22T14:00:00+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "How to get the most out of Bayesian Data Analysis",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/22/how-to-get-the-most-out-of-bayesian-data-analysis/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Appendix B of our new Bayesian Workflow book is called “How to get the most out of Bayesian Data Analysis”: Our thinking about Bayesian statistics is summarized in the books Bayesian Data Analysis, third edition (BDA3),…",
-      "ts": 1792675567,
-      "published": "2026-10-22T13:26:07+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "pandas 3.1.0",
-      "link": "https://github.com/pandas-dev/pandas/releases/tag/v3.1.0",
-      "source": "pandas",
-      "category": "DataScience",
-      "summary": "We are pleased to announce the release of pandas 3.1.0. This release includes some new features, bug fixes, and performance improvements. We recommend that all users upgrade to this version. Highlights include: New Data…",
-      "ts": 1792675242,
-      "published": "2026-10-22T13:20:42+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Quiz: Pipenv: A Guide to the Python Packaging Tool",
-      "link": "https://realpython.com/quizzes/pipenv-guide/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Pipenv, from the Pipfile and Pipfile.lock to dependency resolution, dev packages, and reproducible Python builds.",
-      "ts": 1792670400,
-      "published": "2026-10-22T12:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Google Open-Sources Harness²: Self-Improving AI Agents Without Retraining",
-      "link": "https://www.kdnuggets.com/google-open-sources-harness-self-improving-ai-agents-without-retraining",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Google's Harness² lets AI agents improve their prompts, tools, memory, and scripts through two recursive loops without touching model weights. Learn more, including how to run the free demo yourself.",
-      "ts": 1792670400,
-      "published": "2026-10-22T12:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Quiz: Supply Chain Security for the Age of AI-Speed Exploits",
-      "link": "https://realpython.com/quizzes/python-supply-chain-security/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your grasp of Python supply chain security, from startup hooks and lock files to dependency cooldowns, agent installs, and short-lived tokens.",
-      "ts": 1792670400,
-      "published": "2026-10-22T12:00:00+00:00",
-      "collected_at": "2026-10-23T04:07:50+09:00"
-    },
-    {
-      "title": "Presentation: Actors for Agents: Patterns for Production AI",
-      "link": "https://www.infoq.com/presentations/actors-for-production-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, write-through state…",
-      "ts": 1792666800,
-      "published": "2026-10-22T11:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Presentation: Actors for Agents: Patterns for Production AI",
-      "link": "https://www.infoq.com/presentations/actors-for-production-ai-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Manju Rajashekhar explains how the actor model solves the complex runtime challenges of production AI agents. By treating agents as distributed systems, he discusses state ownership, message passing, write-through state…",
-      "ts": 1792666800,
-      "published": "2026-10-22T11:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Making the case for context-aware AI",
-      "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints a…",
-      "ts": 1792663200,
-      "published": "2026-10-22T10:00:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Vercel Labs Open-Sources fx: A Zig Coding Agent Designed to Be Embedded",
-      "link": "https://www.infoq.com/news/2026/10/vercel-zig-fx-agent/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questioned its model-agno…",
-      "ts": 1792661580,
-      "published": "2026-10-22T09:33:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
     }
   ]
 }
