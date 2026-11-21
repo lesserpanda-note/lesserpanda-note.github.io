@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-21T10:15:15+09:00",
-  "count": 1283,
+  "updated": "2026-11-21T18:25:29+09:00",
+  "count": 1279,
   "items": [
+    {
+      "title": "[AINews] Riemann Hypothesis proved...twice independently",
+      "link": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 20 2026 —",
+      "ts": 1795237333,
+      "published": "2026-11-21T05:02:13+00:00",
+      "collected_at": "2026-11-21T18:24:47+09:00"
+    },
+    {
+      "title": "JavaOne 2027 & Java 28 Value Objects - Inside Java Newsletter",
+      "link": "https://inside.java/2026/11/21/inside-java-newsletter/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "In this edition, we share content highlights from recent events featuring the Java team and take a look at Value Objects in JDK 28. With technical articles, videos, and podcasts, there’s something for everyone. But noth…",
+      "ts": 1795219200,
+      "published": "2026-11-21T00:00:00+00:00",
+      "collected_at": "2026-11-21T18:24:47+09:00"
+    },
+    {
+      "title": "Show US What You're Proud Of",
+      "link": "https://foojay.io/today/passion-project-contest/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Enter the free Passion Project Contest by 31 December 2026. Share what you built and why for a chance at a showcase video and €500.",
+      "ts": 1795219200,
+      "published": "2026-11-21T00:00:00+00:00",
+      "collected_at": "2026-11-21T18:24:47+09:00"
+    },
+    {
+      "title": "Shopify Was Wrong and Right to Dump React Native",
+      "link": "https://foojay.io/today/shopify-was-wrong-and-right-to-dump-react-native/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Shopify dumped React Native for two native codebases because agents write the second copy for free. React Native deserved it: it's a heavyweight toolkit...",
+      "ts": 1795219200,
+      "published": "2026-11-21T00:00:00+00:00",
+      "collected_at": "2026-11-21T18:24:47+09:00"
+    },
     {
       "title": "If the stock market crash had happened three weeks ago . . .",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/20/if-the-stock-market-crash-had-happened-three-weeks-ago/",
@@ -11,6 +51,16 @@
       "ts": 1795218829,
       "published": "2026-11-20T23:53:49+00:00",
       "collected_at": "2026-11-21T09:52:02+09:00"
+    },
+    {
+      "title": "Anthropic's IPO Bust Deepens $4T AI Wipeout on Wall Street",
+      "link": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90 Comments URL: https://news.ycombinator.com/item?id=50582280 Points: 55 # Comments: 5",
+      "ts": 1795209526,
+      "published": "2026-11-20T21:18:46+00:00",
+      "collected_at": "2026-11-21T18:24:47+09:00"
     },
     {
       "title": "The War Against Slop and an Emerging Weapon to Fight it: Formal Verification",
@@ -12740,96 +12790,6 @@
       "summary": "Vercel Labs has released fx, an experimental open-source coding agent written in Zig. It runs as a CLI, a script component, or an embedded library, including a WebAssembly build. Early feedback questioned its model-agno…",
       "ts": 1792661580,
       "published": "2026-10-22T09:33:00+00:00",
-      "collected_at": "2026-10-22T23:56:58+09:00"
-    },
-    {
-      "title": "Article: AI Changes the Data Interface, Not the Query Engine",
-      "link": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the results. It explains t…",
-      "ts": 1792659600,
-      "published": "2026-10-22T09:00:00+00:00",
-      "collected_at": "2026-10-22T18:20:04+09:00"
-    },
-    {
-      "title": "Article: AI Changes the Data Interface, Not the Query Engine",
-      "link": "https://www.infoq.com/articles/ai-changes-data-interface/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This article presents a disaster-recovery analytics workflow in which an AI agent generates constrained SQL or Python, DuckDB computes reproducible facts from Parquet, and the agent interprets the results. It explains t…",
-      "ts": 1792659600,
-      "published": "2026-10-22T09:00:00+00:00",
-      "collected_at": "2026-10-22T18:20:04+09:00"
-    },
-    {
-      "title": "AI’s hidden storage bill: What inference leaves behind",
-      "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens…",
-      "ts": 1792658478,
-      "published": "2026-10-22T08:41:18+00:00",
-      "collected_at": "2026-10-22T18:20:04+09:00"
-    },
-    {
-      "title": "Ensemble forecasting with IBM Granite time-series models",
-      "link": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792655491,
-      "published": "2026-10-22T07:51:31+00:00",
-      "collected_at": "2026-10-22T18:20:04+09:00"
-    },
-    {
-      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-      "link": "https://www.latent.space/p/ainews-openais-patch-the-planet-program",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "The Big Hardening begins",
-      "ts": 1792654964,
-      "published": "2026-10-22T07:42:44+00:00",
-      "collected_at": "2026-10-22T18:20:04+09:00"
-    },
-    {
-      "title": "[AINews] OpenAI’s Patch the Planet program is 1 of 2 parties to discover PHP2Shell vulnerabilities in core PHP affecting 70% of the web, using GPT-5.6 Sol; coordinated response over 2 months",
-      "link": "https://latent.space/p/ainews-openais-patch-the-planet-program/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "The Big Hardening begins",
-      "ts": 1792654964,
-      "published": "2026-10-22T07:42:44+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
-      "link": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker News the project was…",
-      "ts": 1792654860,
-      "published": "2026-10-22T07:41:00+00:00",
-      "collected_at": "2026-10-22T18:20:04+09:00"
-    },
-    {
-      "title": "Developer Behind the AI-Built Adobe Clones Says They Are “Not Anywhere Close to Ready",
-      "link": "https://www.infoq.com/news/2026/10/photocraft-adobe-parity/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "A developer used Claude Opus 5.5 to build open-source replacements for seven Adobe applications, promoted them across Reddit with a projection of roughly 100% parity within a month, then told Hacker News the project was…",
-      "ts": 1792654860,
-      "published": "2026-10-22T07:41:00+00:00",
-      "collected_at": "2026-10-22T18:20:04+09:00"
-    },
-    {
-      "title": "What FDE means at OpenAI",
-      "link": "https://openai.com/index/forward-deployed-engineering-means",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "What forward deployed engineering means at OpenAI",
-      "ts": 1792648800,
-      "published": "2026-10-22T06:00:00+00:00",
       "collected_at": "2026-10-22T23:56:58+09:00"
     }
   ]
