@@ -1,7 +1,57 @@
 {
-  "updated": "2026-11-22T19:54:35+09:00",
-  "count": 1235,
+  "updated": "2026-11-23T03:21:15+09:00",
+  "count": 1212,
   "items": [
+    {
+      "title": "RANSAC, Explained: Consensus Fitting for Image Feature Matching",
+      "link": "https://towardsdatascience.com/ransac-explained-consensus-fitting-for-image-feature-matching/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "How random sampling of 4 matched pairs, an error threshold, and inlier counts turn noisy SIFT matches into an accurate homography matrix. The post RANSAC, Explained: Consensus Fitting for Image Feature Matching appeared…",
+      "ts": 1795359600,
+      "published": "2026-11-22T15:00:00+00:00",
+      "collected_at": "2026-11-23T03:20:19+09:00"
+    },
+    {
+      "title": "DaisyRose 27B Draws a Python Reading a Book",
+      "link": "https://realpython.com/ai-benchmark-daisyrose-27b/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore DaisyRose 27B's Python code, turtle drawing, and responses to small tasks that check modern syntax, release knowledge, focused edits, and made-up functions.",
+      "ts": 1795356000,
+      "published": "2026-11-22T14:00:00+00:00",
+      "collected_at": "2026-11-23T03:20:19+09:00"
+    },
+    {
+      "title": "How AI Changes the Four Types of Analytics for Data Scientists",
+      "link": "https://towardsdatascience.com/how-ai-changes-the-four-types-of-analytics-for-data-scientists/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Treat AI agents as junior teammates and move up the abstraction ladder, owning problem framing, model evaluation, and business partnership. The post How AI Changes the Four Types of Analytics for Data Scientists appeare…",
+      "ts": 1795352400,
+      "published": "2026-11-22T13:00:00+00:00",
+      "collected_at": "2026-11-23T03:20:19+09:00"
+    },
+    {
+      "title": "PostgreSQL 19 Released with Online Table Repacking and Query Planning Controls",
+      "link": "https://www.infoq.com/news/2026/11/postgresql-19-released/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "The PostgreSQL Global Development Group released PostgreSQL 19, introducing changes to database maintenance, query planning, replication, and application development. The release focuses on reducing administrative overh…",
+      "ts": 1795352040,
+      "published": "2026-11-22T12:54:00+00:00",
+      "collected_at": "2026-11-23T03:20:19+09:00"
+    },
+    {
+      "title": "Claude Code Has Been Leaking Secrets Through Its \"Don't Ask Again\" Feature",
+      "link": "https://www.infoq.com/news/2026/11/claude-code-leaking-secrets/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Agentic security firm Apiiro found that Claude Code has been exposing secrets in public repositories due to how it stores them in local file on developers' machines to implement \"Don't Ask Again\". The company identified…",
+      "ts": 1795345200,
+      "published": "2026-11-22T11:00:00+00:00",
+      "collected_at": "2026-11-23T03:20:19+09:00"
+    },
     {
       "title": "Google Announces Agent Compute Engine for Secure AI Agent Execution",
       "link": "https://www.infoq.com/news/2026/11/google-agent-compute-engine/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -61,6 +111,16 @@
       "ts": 1795305600,
       "published": "2026-11-22T00:00:00+00:00",
       "collected_at": "2026-11-22T11:54:03+09:00"
+    },
+    {
+      "title": "Perplexity and Intelligence",
+      "link": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "ts": 1795305600,
+      "published": "2026-11-22T00:00:00+00:00",
+      "collected_at": "2026-11-23T03:20:19+09:00"
     },
     {
       "title": "Muru",
@@ -12061,296 +12121,6 @@
       "ts": 1792784454,
       "published": "2026-10-23T19:40:54+00:00",
       "collected_at": "2026-10-24T06:57:43+09:00"
-    },
-    {
-      "title": "1.15.29",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.29",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add support for LiteLLM-compatible kwargs. Implement platform application search in CLI. Highlight action picker search in CLI. Trace conversation routes and public replies in flow. Select organi…",
-      "ts": 1792776929,
-      "published": "2026-10-23T17:35:29+00:00",
-      "collected_at": "2026-11-04T07:14:58+09:00"
-    },
-    {
-      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
-      "ts": 1792774800,
-      "published": "2026-10-23T17:00:00+00:00",
-      "collected_at": "2026-10-24T03:56:30+09:00"
-    },
-    {
-      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
-      "link": "https://huggingface.co/blog/allenai/litpivot",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792772150,
-      "published": "2026-10-23T16:15:50+00:00",
-      "collected_at": "2026-10-24T03:56:30+09:00"
-    },
-    {
-      "title": "Don’t Let Messy Data Bend Your Curves",
-      "link": "https://towardsdatascience.com/dont-let-messy-data-bend-your-curves/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Robust Estimation Series: Building Accurate Curves with Polynomials and Splines With Spurious Data The post Don’t Let Messy Data Bend Your Curves appeared first on Towards Data Science .",
-      "ts": 1792769400,
-      "published": "2026-10-23T15:30:00+00:00",
-      "collected_at": "2026-10-24T03:56:30+09:00"
-    },
-    {
-      "title": "AI Is Getting Good at Math. Here’s Why.",
-      "link": "https://latent.space/p/ai-is-getting-good-at-math/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "AI models are solving more mathematical problems. A pattern is emerging in their successes that could help us predict which problems they’ll solve next.",
-      "ts": 1792768788,
-      "published": "2026-10-23T15:19:48+00:00",
-      "collected_at": "2026-10-24T03:56:30+09:00"
-    },
-    {
-      "title": "CSIRO Uses Serverless Architecture to Query 100x More Genomic Variants on AWS",
-      "link": "https://www.infoq.com/news/2026/10/csiro-serverless-genomic-variant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "CSIRO has developed Serverless Beacon, a serverless architecture for querying genomic variants without copying VCF files into a central database. The system combines Amazon S3, Lambda, Athena and DynamoDB, using metadat…",
-      "ts": 1792765800,
-      "published": "2026-10-23T14:30:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "NumPy Tutorial: Your First Steps Into Data Science in Python",
-      "link": "https://realpython.com/numpy-tutorial/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Follow this NumPy tutorial to learn how to create and manipulate arrays in Python and take your first steps into data science.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Sending Emails With Python",
-      "link": "https://realpython.com/python-send-email/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to send emails with Python using SMTP, attach files, format HTML messages, and personalize bulk emails for your contact list.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Python's property(): Add Managed Attributes to Your Classes",
-      "link": "https://realpython.com/python-property/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Use Python's property() to add managed attributes to your classes, with validation, computed values, and caching, without breaking your API.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Building Serverless Python Apps Using AWS Chalice",
-      "link": "https://realpython.com/aws-chalice-serverless-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Build and deploy a serverless Python app with AWS Chalice, a microframework that ships your code to AWS Lambda and scales it for you.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Python's F-String for String Interpolation and Formatting",
-      "link": "https://realpython.com/python-f-strings/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Python f-strings give you a readable, concise way to interpolate and format strings, and they beat .format() and the % operator on speed.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Get Started With Django: Build a Portfolio App",
-      "link": "https://realpython.com/get-started-with-django-1/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Build a Django example project step by step. You'll create a portfolio app and learn about models, views, templates, and the admin.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Sets in Python",
-      "link": "https://realpython.com/python-sets/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn to work effectively with Python sets: define set objects, explore the supported operations, and know when sets fit your code.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "What Is the Python Global Interpreter Lock (GIL)?",
-      "link": "https://realpython.com/python-gil/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "The Python GIL is a mutex that lets only one thread control the interpreter at a time. Learn how it shapes your program's performance.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Python Metaclasses",
-      "link": "https://realpython.com/python-metaclasses/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "How Python's metaclasses work as an OOP concept, what they are good for—and why you might want to avoid them in your own programs.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Python Web Applications: Deploy Your Script as a Flask App",
-      "link": "https://realpython.com/python-web-applications/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "In this tutorial, you'll learn how to go from a local Python script to a fully deployed Flask web application that you can share with the world.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "What Companies Actually Mean When They Say They Want “AI Experience”",
-      "link": "https://www.kdnuggets.com/what-companies-actually-mean-when-they-say-they-want-ai-experience",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "What employers actually mean when job postings list \"AI experience\" as a requirement.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Skewness and Kurtosis: From Moments to Machine Learning",
-      "link": "https://towardsdatascience.com/skewness-and-kurtosis-from-moments-to-machine-learning/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "The mathematics, intuition, interpretation, and practical use of higher-order moments. The post Skewness and Kurtosis: From Moments to Machine Learning appeared first on Towards Data Science .",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "A Python AI Tool Was Just Booby-Trapped With Key-Stealing Malware",
-      "link": "https://realpython.com/ai-news-weekly-2026-10-23/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Real Python's weekly AI news for October 17–23, 2026, explained in plain language: Poisoned AI Tool, PHP Security Fix, and PyTorch on TPUs.",
-      "ts": 1792764000,
-      "published": "2026-10-23T14:00:00+00:00",
-      "collected_at": "2026-10-24T06:57:43+09:00"
-    },
-    {
-      "title": "A big problem with conventional experimentation or A/B testing is that the treatment effect can vary over time and it can depend on the entire history of the treatment. Usual comparisons miss this po…",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/23/a-big-problem-with-conventional-experimentation-or-a-b-testing-is-that-the-treatment-effect-can-vary-over-time-and-it-can-depend-on-the-entire-history-of-the-treatment-usual-comparisons-miss-this-po/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Andrea Bronzini points to this article and writes: I’m working on experimentation tooling and wrote a brief note about a failure mode I keep seeing: “winning” A/B tests often lose uplift after rollout. My claim is that…",
-      "ts": 1792763026,
-      "published": "2026-10-23T13:43:46+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "AWS Introduces Lambda Web Functions for Node.js Applications",
-      "link": "https://www.infoq.com/news/2026/10/aws-lambda-web-functions/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "AWS recently introduced Lambda Web Functions, allowing developers to run Node.js web applications using frameworks such as Express and Hono directly on Lambda, with support for concurrent requests and response streaming…",
-      "ts": 1792759740,
-      "published": "2026-10-23T12:49:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Why Parameter Count Is Not Model Complexity: An Introduction to Effective Dimension",
-      "link": "https://towardsdatascience.com/why-parameter-count-is-not-model-complexity-an-introduction-to-effective-dimension/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "What does effective dimension reveal about redundancy, generalization, and trainability that parameter count, loss, and accuracy do not? The post Why Parameter Count Is Not Model Complexity: An Introduction to Effective…",
-      "ts": 1792758600,
-      "published": "2026-10-23T12:30:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "The Real Python Podcast – Episode #316: The Future of Python Security: Trends, Challenges, and Solutions",
-      "link": "https://realpython.com/podcasts/rpp/316/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "How is the Python ecosystem adapting to the modern landscape of software security and supply chain defense? This week on the show, we sit down with Seth Larson, the Python Software Foundation's Security Developer in Res…",
-      "ts": 1792756800,
-      "published": "2026-10-23T12:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Quiz: Using Pydantic to Simplify Python Data Validation",
-      "link": "https://realpython.com/quizzes/python-pydantic-video/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Pydantic models, fields, validators, and settings management, and see how well you can validate data in Python.",
-      "ts": 1792756800,
-      "published": "2026-10-23T12:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Quiz: Get Started With Django: Build a Portfolio App",
-      "link": "https://realpython.com/quizzes/get-started-with-django/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "In this quiz, you'll test your understanding of Django, a fully featured Python web framework. By working through this quiz, you'll revisit the steps to create a fully functioning web application and learn about some of…",
-      "ts": 1792756800,
-      "published": "2026-10-23T12:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Quiz: Sending Emails With Python",
-      "link": "https://realpython.com/quizzes/python-send-email-update/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Use Python's standard library to send email through secure SMTP connections, attach files, include HTML content, and route replies.",
-      "ts": 1792756800,
-      "published": "2026-10-23T12:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "5 Free AI Coding Agents You Should Try in 2026",
-      "link": "https://www.kdnuggets.com/5-free-ai-coding-agents-you-should-try-in-2026",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Access powerful open-source and proprietary models through OpenCode Zen, Gemini’s free quota, Kilo Gateway, Cline Provider, and Charm Hyper without paying for API access upfront.",
-      "ts": 1792756800,
-      "published": "2026-10-23T12:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Article: Multi-Cloud FinOps: An Engineering Framework for Cross-Cloud Cost Optimization",
-      "link": "https://www.infoq.com/articles/multi-cloud-finops-cost-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Multi-cloud flexibility comes with hidden egress costs driven by service placement and communication patterns. This article applies Backend FinOps to cross-cloud architecture, covering cost visibility through FOCUS, wor…",
-      "ts": 1792753200,
-      "published": "2026-10-23T11:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Presentation: Move Fast, Don’t Break Trust: Shipping Constantly with Humans and Beyond",
-      "link": "https://www.infoq.com/presentations/monzo-microservices-devex/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Suhail Patel discusses how Monzo structures its software engineering organization and technical stack to ship safely hundreds of times a day. He shares insights into opinionated microservice abstractions, tenancy-based…",
-      "ts": 1792753200,
-      "published": "2026-10-23T11:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
     }
   ]
 }
