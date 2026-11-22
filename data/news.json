@@ -1,7 +1,47 @@
 {
-  "updated": "2026-11-22T07:55:12+09:00",
-  "count": 1247,
+  "updated": "2026-11-22T11:54:26+09:00",
+  "count": 1235,
   "items": [
+    {
+      "title": "Which JDK are you on & what stops you upgrading?",
+      "link": "https://foojay.io/today/which-jdk-are-you-on-and-what-stops-you-upgrading/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "What JDK do Foojay community members run in production, and what stops them upgrading? Fourteen replies on frameworks, LTS policies and tools.",
+      "ts": 1795305600,
+      "published": "2026-11-22T00:00:00+00:00",
+      "collected_at": "2026-11-22T11:54:03+09:00"
+    },
+    {
+      "title": "Lottie4J 1.3.0 and 1.4.0: Reading and Writing Real-World Lottie Files",
+      "link": "https://foojay.io/today/lottie4j-1-3-0-and-1-4-0-reading-and-writing-real-world-lottie-files/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Lottie4J 1.3.0 and 1.4.0 read real-world Lottie files leniently, use exact frame rates, report unsupported features, and can now write Lottie JSON and dotLottie archives, driven by the AnimatorFX importer.",
+      "ts": 1795305600,
+      "published": "2026-11-22T00:00:00+00:00",
+      "collected_at": "2026-11-22T11:54:03+09:00"
+    },
+    {
+      "title": "Muru",
+      "link": "https://simonwillison.net/2026/Nov/21/muru/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the…",
+      "ts": 1795305388,
+      "published": "2026-11-21T23:56:28+00:00",
+      "collected_at": "2026-11-22T11:54:03+09:00"
+    },
+    {
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "link": "https://www.pandex.io",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.pandex.io Comments URL: https://news.ycombinator.com/item?id=50593481 Points: 40 # Comments: 7",
+      "ts": 1795294061,
+      "published": "2026-11-21T20:47:41+00:00",
+      "collected_at": "2026-11-22T11:54:03+09:00"
+    },
     {
       "title": "Kharon Applied Intelligence Fellowship in Denver, London, or Madrid",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/21/kharon-applied-intelligence-fellowship-in-denver-london-or-madrid/",
@@ -12311,166 +12351,6 @@
       "ts": 1792735740,
       "published": "2026-10-23T06:09:00+00:00",
       "collected_at": "2026-10-25T02:58:00+09:00"
-    },
-    {
-      "title": "머릿속에 있던 로그 정의 기준을 모두의 AI 스킬로 만들기",
-      "link": "https://toss.tech/article/dataops-log-definition-skill",
-      "source": "Toss Tech",
-      "category": "Architecture",
-      "summary": "도구가 규칙을 검사하고 AI가 제안하면 사람이 확정해서, 누구나 같은 기준으로 로그를 정의해요",
-      "ts": 1792720380,
-      "published": "2026-10-23T01:53:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "v2.60.0 (2026-10-22)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.60.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Raise model error categories like ModelRateLimitError from embedding models by @DouweM in #10804 Add usage_limits , deadline , run_id and conversation_id to ModelSelectionContext by…",
-      "ts": 1792719846,
-      "published": "2026-10-23T01:44:06+00:00",
-      "collected_at": "2026-10-23T13:01:17+09:00"
-    },
-    {
-      "title": "OWASP Java Security Libraries: Please Update!",
-      "link": "https://foojay.io/today/owasp-java-security-libraries-please-update/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Fresh releases of OWASP Java Encoder and Java HTML Sanitizer: what changed, how to use them, and what to check when upgrading.",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T13:01:17+09:00"
-    },
-    {
-      "title": "How to Secure a Spring Boot Application with OpenID Connect and pac4j",
-      "link": "https://foojay.io/today/how-to-secure-a-spring-boot-application-with-openid-connect-and-pac4j/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Add OpenID Connect login to Spring Boot with pac4j: Maven setup, provider configuration, user profiles and logout.",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T13:01:17+09:00"
-    },
-    {
-      "title": "Allocating Off-Heap Memory: Typically 6-18x Faster in JDK 28",
-      "link": "https://inside.java/2026/10/23/confined-pools/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Pooled confined arenas provide a significant performance improvement for short-lived native allocations.",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Spring Boot 4.0.9 available now",
-      "link": "https://spring.io/blog/2026/10/23/spring-boot-4-0-9-available-now",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 4.0.9 has been released and is now available from Maven Central. This release includes 99 bug fixes, documentation improveme…",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Spring Boot 4.1.2 available now",
-      "link": "https://spring.io/blog/2026/10/23/spring-boot-4-1-2-available-now",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 4.1.2 has been released and is now available from Maven Central. This release includes 126 bug fixes, documentation improvem…",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Spring Boot 4.2.0-RC1 available now",
-      "link": "https://spring.io/blog/2026/10/23/spring-boot-4-2-0-RC1-available-now",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring Boot 4.2.0-RC1 has been released and is now available from Maven Central. This release includes 113 enhancements, documentation i…",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Spring Modulith 2.2 RC1, 2.1.2, 2.0.9, and 1.4.14 released",
-      "link": "https://spring.io/blog/2026/10/23/spring-modulith-2-2-rc1-2-1-2-2-0-9-and-1-4-14-released",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the community, I am excited to announce the availability of Spring Modulith 2.2 RC1, 2.1.2, 2.0.9, and 1.4.14. The bug fix releases primarily ship the usual dependency upgrades, plus a number of fixes to th…",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T18:47:51+09:00"
-    },
-    {
-      "title": "Azul Zulu October 2026 Quarterly Update: 53 CVEs, Then a Zero-Day One Day Later",
-      "link": "https://foojay.io/today/azul-zulu-october-2026-quarterly-update-and-out-of-cycle-release/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "A record 53 CVEs fixed in the October 2026 quarterly update for Azul Zulu, overtaken within a day by a zero-day: compromised eMudhra CA keys and an out-of-cycle release.",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Does Your Model Run on AWS Trainium? Look It Up",
-      "link": "https://huggingface.co/blog/torch-neuronx-model-support",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-23T23:45:33+09:00"
-    },
-    {
-      "title": "Spring AI 2.1.0-RC1 and 2.0.2 Available Now",
-      "link": "https://spring.io/blog/2026/10/23/spring-ai-2-1-0-RC1-available-now",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the Spring AI team and everyone who has contributed, I'm happy to announce that Spring AI 2.1.0-RC1 and 2.0.2 have been released and are now available from Maven Central! Release notes | Upgrade notes | Ref…",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-24T03:56:30+09:00"
-    },
-    {
-      "title": "Spring Cloud 2025.1.4 (aka Northfields) Has Been Released",
-      "link": "https://spring.io/blog/2026/10/23/spring-cloud-2025-1-4-has-been-released",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the community, I am pleased to announce that the General Availability (RELEASE) of the Spring Cloud 2025.1.4 Release Train is available today. The release can be found in Maven Central . You can check out t…",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-24T03:56:30+09:00"
-    },
-    {
-      "title": "Spring LDAP 4.2.0-RC1 Available Now",
-      "link": "https://spring.io/blog/2026/10/23/spring-ldap-4",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "On behalf of the team and everyone who has contributed, I'm happy to announce that Spring LDAP 4.2.0-RC1 is available now from Maven Central. Make sure to checkout the What's New section of the documentation. Release No…",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Anima helps clinics cut call waits by 75% with GPT-6 and GPT-Live",
-      "link": "https://openai.com/index/anima",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Anima expands what care teams can do with OpenAI models, giving them more capacity to respond to patients.",
-      "ts": 1792713600,
-      "published": "2026-10-23T00:00:00+00:00",
-      "collected_at": "2026-10-28T04:55:49+09:00"
     }
   ]
 }
