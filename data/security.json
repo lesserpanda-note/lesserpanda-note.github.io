@@ -1,7 +1,18 @@
 {
-  "updated": "2026-11-21T04:47:31+09:00",
-  "count": 141,
+  "updated": "2026-11-24T05:59:28+09:00",
+  "count": 142,
   "items": [
+    {
+      "ecosystem": "Python",
+      "source": "Python Security",
+      "title": "[CVE-2026-107784] tarfile extraction filters accept drive-relative paths on Windows",
+      "link": "https://mail.python.org/archives/list/security-announce@python.org/message/ANUOLPP6MFFJ45RT6XG2BRGZPFHMGDAS/",
+      "published": "2026-11-23T12:40:09+00:00",
+      "severity": "MEDIUM",
+      "ids": [
+        "CVE-2026-107784"
+      ]
+    },
     {
       "ecosystem": "Python",
       "source": "Python Security",
@@ -39,10 +50,10 @@
     {
       "ecosystem": "Spring",
       "source": "Spring Security",
-      "title": "cve-2026-59273 - CRITICAL - Spring Security ELRequestMatcher allows Remote Code Execution via unrestricted SpEL evaluation",
+      "title": "cve-2026-59273 - MEDIUM - Spring Security ELRequestMatcher allows Remote Code Execution via unrestricted SpEL evaluation",
       "link": "https://spring.io/security/cve-2026-59273",
       "published": "2026-11-19T00:00:00+00:00",
-      "severity": "CRITICAL",
+      "severity": "MEDIUM",
       "ids": [
         "CVE-2026-59273"
       ]

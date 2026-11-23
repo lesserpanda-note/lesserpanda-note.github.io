@@ -1,7 +1,277 @@
 {
-  "updated": "2026-11-23T17:44:29+09:00",
-  "count": 1211,
+  "updated": "2026-11-24T05:59:50+09:00",
+  "count": 1216,
   "items": [
+    {
+      "title": "QCon San Francisco 2026: Securing AI Agents in Production",
+      "link": "https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "At QCon San Francisco, Google's Amanda Walker framed AI agents as an insider-risk problem operating at machine speed, and described identity, credential and containment patterns for running them safely in production. By…",
+      "ts": 1795464000,
+      "published": "2026-11-23T20:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "QCon San Francisco 2026: Securing AI Agents in Production",
+      "link": "https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "At QCon San Francisco, Google's Amanda Walker framed AI agents as an insider-risk problem operating at machine speed, and described identity, credential and containment patterns for running them safely in production. By…",
+      "ts": 1795464000,
+      "published": "2026-11-23T20:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "How LinkedIn Built a View-Agnostic Analytics System for Modern iOS UI Architectures",
+      "link": "https://www.infoq.com/news/2026/11/linkedin-view-agnostic-analytics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "To address the challenge posed by modern iOS UI systems where the logical UI structure may not mirror the native UIKit hierarchy, LinkedIn engineers developed a view-agnostic analytics system build around a shared Measu…",
+      "ts": 1795456800,
+      "published": "2026-11-23T18:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "link": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Before going public last week, Anthropic named the possibility that AI could be c…",
+      "ts": 1795455368,
+      "published": "2026-11-23T17:36:08+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "link": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795454437,
+      "published": "2026-11-23T17:20:37+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "ts": 1795453180,
+      "published": "2026-11-23T16:59:40+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "JEP 545 Moves ZGC Memory Preparation off the Startup Path in JDK 28",
+      "link": "https://www.infoq.com/news/2026/11/jep-545-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "JEP 545, Faster Startup and Warmup with ZGC, has been integrated into JDK 28, moving heap memory preparation onto concurrent worker threads. ZGC now pre-touches memory as it expands and upgrades small pages to large one…",
+      "ts": 1795447800,
+      "published": "2026-11-23T15:30:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j",
+      "link": "https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
+      "source": "InfoQ Java",
+      "category": "Java",
+      "summary": "This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; the November 2026 edition of Azul Payara; point releases…",
+      "ts": 1795447800,
+      "published": "2026-11-23T15:30:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j",
+      "link": "https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "This week's Java roundup for November 16th, 2026, features news highlighting: the Java4Shell RCE vulnerability; Oracle CSPUs; Lazy Constants targeted for JDK 28; the November 2026 edition of Azul Payara; point releases…",
+      "ts": 1795447800,
+      "published": "2026-11-23T15:30:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "How to Use AI Tools to Learn Data Science Faster in 2026",
+      "link": "https://www.kdnuggets.com/how-to-use-ai-tools-to-learn-data-science-faster-in-2026",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Discover how to combine AI assistants, coding tools, and adaptive platforms to cut your learning curve and build practical skills more efficiently.",
+      "ts": 1795446000,
+      "published": "2026-11-23T15:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "AI Math Proofs Aren't Knowledge Until Someone Explains Them",
+      "link": "https://towardsdatascience.com/ai-math-proofs-arent-knowledge-until-someone-explains-them/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "From the Four Color Theorem to OpenAI's October 2026 claims, why computer-checked proofs still need people to explain, test, and extend them. The post AI Math Proofs Aren't Knowledge Until Someone Explains Them appeared…",
+      "ts": 1795446000,
+      "published": "2026-11-23T15:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents",
+      "link": "https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "At QCon San Francisco 2026, Mark Khuzam of Netflix explained how the Commerce team retrofitted its SDLC so AI coding agents and engineers could ship together. The team wrote 45 architecture decision records for people a…",
+      "ts": 1795445880,
+      "published": "2026-11-23T14:58:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Agoda Reduces API Code Review Time by 64% with Modular Architecture",
+      "link": "https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper patterns, typed builders, and ArchUnit tests to enforce b…",
+      "ts": 1795444380,
+      "published": "2026-11-23T14:33:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Agoda Reduces API Code Review Time by 64% with Modular Architecture",
+      "link": "https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Agoda introduced a modular monolith framework in its post-booking API to reduce coupling without a full rewrite. The platform uses domain components, Data Mapper patterns, typed builders, and ArchUnit tests to enforce b…",
+      "ts": 1795444380,
+      "published": "2026-11-23T14:33:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "A statistician with Tourette’s syndrome",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/23/a-statistician-with-tourettes-syndrome/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "(Interview of Andrew Gelman for the American Statistical Association Committee on Statistics and Disability, July 2026) 1. Where did you grow up? I grew up in Silver Spring, Maryland, a suburb of Washington, D.C. My par…",
+      "ts": 1795443591,
+      "published": "2026-11-23T14:19:51+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Kotlin Benchmark 2.0: How AI Coding Agents Handle Harder Tasks and Closed-Source Code",
+      "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/",
+      "source": "Kotlin",
+      "category": "Kotlin",
+      "summary": "In July, we released the Kotlin Benchmark – a collection of 105 real repository-level tasks for evaluating AI coding agents’ work with Kotlin. Since then, we’ve updated it to be more representative of what Kotlin teams…",
+      "ts": 1795443209,
+      "published": "2026-11-23T14:13:29+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab’s AI science benchmark",
+      "link": "https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark/",
+      "source": "Import AI",
+      "category": "AI",
+      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. Subscribe now Chinese researchers optimize Huawei chips with a kernel improvement benchmark:…AscendG…",
+      "ts": 1795443077,
+      "published": "2026-11-23T14:11:17+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Probing DNS at Cloudflare",
+      "link": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "source": "Cloudflare",
+      "category": "Architecture",
+      "summary": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+      "ts": 1795442400,
+      "published": "2026-11-23T14:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "LangChain Tutorial: From Prompts to RAG and AI Agents",
+      "link": "https://realpython.com/langchain-tutorial/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn LangChain in Python step by step. This hands-on LangChain tutorial covers chat models, prompt templates, LCEL chains, RAG, and tool-calling agents.",
+      "ts": 1795442400,
+      "published": "2026-11-23T14:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "The Birthday Paradox Shows Small LLMs Pick From About 6 of 40 Words",
+      "link": "https://towardsdatascience.com/the-birthday-paradox-shows-small-llms-pick-from-about-6-of-40-words/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Ask the same question 300 times, count the repeats, and solve for N: a few lines of Python that work on any chatbot you can type into. The post The Birthday Paradox Shows Small LLMs Pick From About 6 of 40 Words appeare…",
+      "ts": 1795440600,
+      "published": "2026-11-23T13:30:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "5 Lightweight Alternatives to MCP for Giving AI Agents Tools",
+      "link": "https://www.kdnuggets.com/5-lightweight-alternatives-to-mcp-for-giving-ai-agents-tools",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Compare five lightweight ways to give AI agents tools without an MCP server, from a Python dispatcher to framework tools, REST adapters, subprocesses, and webhooks, and learn when MCP becomes worth adding.",
+      "ts": 1795438800,
+      "published": "2026-11-23T13:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript",
+      "link": "https://www.infoq.com/news/2026/11/claude-code-mode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By Daniel Dominguez",
+      "ts": 1795436220,
+      "published": "2026-11-23T12:17:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Quiz: LangChain Tutorial: From Prompts to RAG and AI Agents",
+      "link": "https://realpython.com/quizzes/langchain-tutorial/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check your grasp of LangChain in Python, from chat messages and prompt templates to LCEL chains, RAG retrieval, and tool-calling agents.",
+      "ts": 1795435200,
+      "published": "2026-11-23T12:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "What a 90% Prompt Cache Hit Rate Hides About Attention Work",
+      "link": "https://towardsdatascience.com/what-a-90-prompt-cache-hit-rate-hides-about-attention-work/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Request hit rate, token reuse, and latency tell different stories; a 2026 preprint found lower 99th-percentile but higher median time to first token. The post What a 90% Prompt Cache Hit Rate Hides About Attention Work…",
+      "ts": 1795435200,
+      "published": "2026-11-23T12:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "New projpred CRAN release (3.0.0) for Bayesian variable selection",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/23/new-projpred-cran-release-3-0-0-for-bayesian-variable-selection/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "This post is by Aki We are happy to announce a new major release of projpred: version 3.0.0! projpred R package provides decision theoretical approach for Bayesian variable and model selection. This release brings many…",
+      "ts": 1795433604,
+      "published": "2026-11-23T11:33:24+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Podcast: Simulation Can Tell You What Your Agents are Actually Doing: A Conversation with Zhou Yu",
+      "link": "https://www.infoq.com/podcasts/simulation-agents-actually-doing/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Michael Stiefel spoke to Zhou Yu about using dynamic simulations to evaluate AI agents. One particular focus was conversational agents where actions depend on prior responses, and the non-deterministic nation of LLMs me…",
+      "ts": 1795431600,
+      "published": "2026-11-23T11:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Connected intelligence for in-house legal",
+      "link": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside c…",
+      "ts": 1795420800,
+      "published": "2026-11-23T08:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
+    },
     {
       "title": "목적마다, 상품마다 늘던 모델을 하나로: 금융 도메인에 멀티태스크 학습 적용하기",
       "link": "https://toss.tech/article/multi-task-learning-in-finance",
@@ -61,6 +331,16 @@
       "ts": 1795392000,
       "published": "2026-11-23T00:00:00+00:00",
       "collected_at": "2026-11-23T17:43:47+09:00"
+    },
+    {
+      "title": "How to build and maintain an agentic evaluation",
+      "link": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795392000,
+      "published": "2026-11-23T00:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
     },
     {
       "title": "QCon San Francisco 2026: The Harness Is the New Operating System",
@@ -131,6 +411,16 @@
       "ts": 1795356000,
       "published": "2026-11-22T14:00:00+00:00",
       "collected_at": "2026-11-23T03:20:19+09:00"
+    },
+    {
+      "title": "Top Python Game Engines",
+      "link": "https://realpython.com/top-python-game-engines/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Explore the top Python game engines, code a basic example and a full game in each, and learn the strengths and weaknesses of every engine.",
+      "ts": 1795356000,
+      "published": "2026-11-22T14:00:00+00:00",
+      "collected_at": "2026-11-24T05:59:28+09:00"
     },
     {
       "title": "How AI Changes the Four Types of Analytics for Data Scientists",
@@ -11871,246 +12161,6 @@
       "ts": 1792886400,
       "published": "2026-10-25T00:00:00+00:00",
       "collected_at": "2026-10-25T22:03:27+09:00"
-    },
-    {
-      "title": "Rust 1.95.0",
-      "link": "https://github.com/rust-lang/rust/releases/tag/1.95.0",
-      "source": "Rust Releases",
-      "category": "Rust",
-      "summary": "Language Stabilize if let guards on match arms irrefutable_let_patterns lint no longer lints on let chains Support importing path-segment keywords with renaming Stabilize inline assembly for PowerPC and PowerPC64 const-…",
-      "ts": 1792873287,
-      "published": "2026-10-24T20:21:27+00:00",
-      "collected_at": "2026-11-03T22:46:05+09:00"
-    },
-    {
-      "title": "Rust 1.99.0",
-      "link": "https://github.com/rust-lang/rust/releases/tag/1.99.0",
-      "source": "Rust Releases",
-      "category": "Rust",
-      "summary": "Language Add allow-by-default raw_borrows_via_references lint that checks for references that decay immediately into raw borrows Extend unconditional_panic lint to function calls that panic when the chunks/windows size…",
-      "ts": 1792873285,
-      "published": "2026-10-24T20:21:25+00:00",
-      "collected_at": "2026-11-03T22:46:05+09:00"
-    },
-    {
-      "title": "Rust 1.98.0",
-      "link": "https://github.com/rust-lang/rust/releases/tag/1.98.0",
-      "source": "Rust Releases",
-      "category": "Rust",
-      "summary": "Language Allow shortening lifetime of &mut when unsize-coercing, even in an invariant position. For example, you can now coerce a Cell<&'long mut i32> to a Cell<&'short mut dyn Send> . Such shortenings were already prev…",
-      "ts": 1792873284,
-      "published": "2026-10-24T20:21:24+00:00",
-      "collected_at": "2026-11-03T22:46:05+09:00"
-    },
-    {
-      "title": "Google Optimizes Agent Development Kit's 200K-line Python Codebase Overnight with Gemini 4 Argon",
-      "link": "https://www.infoq.com/news/2026/10/google-argon-optimizes-adk/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google explained how an 11-hour unattended run of Gemini 4 Argon produced two accepted optimizations for Google Agent Development Kit's codebase, reducing in-memory session-preparation overhead by about 40% in long sess…",
-      "ts": 1792857600,
-      "published": "2026-10-24T16:00:00+00:00",
-      "collected_at": "2026-10-25T02:58:00+09:00"
-    },
-    {
-      "title": "An Intro to Threading in Python",
-      "link": "https://realpython.com/intro-to-python-threading/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use Python threading to run tasks concurrently, synchronize threads with locks and queues, and avoid race conditions and deadlocks.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Three Ways of Storing and Accessing Lots of Images in Python",
-      "link": "https://realpython.com/storing-images-in-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Compare three ways of storing images in Python, as PNG files on disk, in LMDB, and in HDF5, with timings for reading and writing lots of images.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Dictionaries in Python",
-      "link": "https://realpython.com/python-dicts/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how dictionaries in Python work: create and modify key-value pairs using dict literals, the dict() constructor, built-in methods, and operators.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Python String Formatting: Available Tools and Their Features",
-      "link": "https://realpython.com/python-string-formatting/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how Python string formatting works with f-strings, the .format() method, and the modulo operator, plus the strengths of each tool.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "A Guide to Modern Python String Formatting Tools",
-      "link": "https://realpython.com/python-formatted-output/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Explore Python's modern string formatting tools, and learn to harness f-strings and the .format() method for interpolation and formatting.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Alexa Python Development: Build and Deploy an Alexa Skill",
-      "link": "https://realpython.com/alexa-python-skill/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Become an Alexa Python developer by building and deploying your own Alexa skill, a joke bot that responds to voice commands on Amazon Alexa devices.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "How to Add Guardrails to a Local LLM Agent",
-      "link": "https://towardsdatascience.com/how-to-add-guardrails-to-a-local-llm-agent/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "A hands-on guide with Gemma 4, Ollama, and the OpenAI Agents SDK The post How to Add Guardrails to a Local LLM Agent appeared first on Towards Data Science .",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Python while Loops: Repeating Tasks Conditionally",
-      "link": "https://realpython.com/python-while-loop/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Master indefinite iteration with Python while loops: build simple and complex loops, use break and continue, and handle infinite loops.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-25T22:03:27+09:00"
-    },
-    {
-      "title": "Working With JSON Data in Python",
-      "link": "https://realpython.com/python-json/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Use the Python json module to convert, read, write, and validate JSON data for APIs, config files, and on-disk storage.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-25T22:03:27+09:00"
-    },
-    {
-      "title": "Python's asyncio: A Hands-On Walkthrough",
-      "link": "https://realpython.com/async-io-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Explore how Python asyncio works and when to use it. Follow hands-on examples to build efficient programs with coroutines and awaitable tasks.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-25T22:03:27+09:00"
-    },
-    {
-      "title": "Defining Your Own Python Function",
-      "link": "https://realpython.com/defining-your-own-python-function/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to define your own Python function, pass data into it, and return results to write clean, reusable code in your programs.",
-      "ts": 1792850400,
-      "published": "2026-10-24T14:00:00+00:00",
-      "collected_at": "2026-10-25T22:03:27+09:00"
-    },
-    {
-      "title": "Ideological bias in “Ideological bias in the production of research findings”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/24/ideological-bias-in-ideological-bias-in-the-production-of-research-findings/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "John Nielsen-Gammon points to a recent article, “Ideological bias in the production of research findings,” by George J. Borjas and Nate Breznau, which states: Our study exploits an opportunity to observe 158 researchers…",
-      "ts": 1792847341,
-      "published": "2026-10-24T13:09:01+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Quiz: Python Threading",
-      "link": "https://realpython.com/quizzes/python-threading/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "This is a quiz that will review topics covered in our An Intro To Threading tutorial.",
-      "ts": 1792843200,
-      "published": "2026-10-24T12:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Quiz: Working With JSON Data in Python",
-      "link": "https://realpython.com/quizzes/python-json/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "In this quiz, you'll test your understanding of working with JSON in Python. By working through this quiz, you'll revisit key concepts related to JSON data manipulation and handling in Python.",
-      "ts": 1792843200,
-      "published": "2026-10-24T12:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Quiz: How to Run a Python Script",
-      "link": "https://realpython.com/quizzes/running-python-scripts/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of how the Python interpreter works and how to run scripts from the command line, interactive mode, file managers, and IDEs.",
-      "ts": 1792843200,
-      "published": "2026-10-24T12:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Quiz: Defining Your Own Python Function",
-      "link": "https://realpython.com/quizzes/python-function/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "In this quiz, you'll test your understanding of defining and calling Python functions. You'll revisit the def keyword, parameters, arguments, and more.",
-      "ts": 1792843200,
-      "published": "2026-10-24T12:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Quiz: A Guide to Modern Python String Formatting Tools",
-      "link": "https://realpython.com/quizzes/python-formatted-output/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "You can take this quiz to test your understanding of modern tools for string formatting in Python. These tools include f-strings and the .format() method.",
-      "ts": 1792843200,
-      "published": "2026-10-24T12:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Python 3.15 Has a New Profiler",
-      "link": "https://towardsdatascience.com/python-315-has-a-new-profiler/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Here's what it finds that cProfile misses The post Python 3.15 Has a New Profiler appeared first on Towards Data Science .",
-      "ts": 1792843200,
-      "published": "2026-10-24T12:00:00+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Build Your Own Reasoning Model: A Full Video Course",
-      "link": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
-      "source": "Ahead of AI",
-      "category": "AI",
-      "summary": "Over 11 hours of coding videos on evaluation, inference-time scaling, reinforcement learning, and distillation, with Python and PyTorch.",
-      "ts": 1792840472,
-      "published": "2026-10-24T11:14:32+00:00",
-      "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "Claude Code slyly adding users' emails to outbound HTTP",
-      "link": "https://twitter.com/chrislakin/status/2113358733548081528",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://twitter.com/chrislakin/status/2113358733548081528 Comments URL: https://news.ycombinator.com/item?id=50219875 Points: 21 # Comments: 4",
-      "ts": 1792837590,
-      "published": "2026-10-24T10:26:30+00:00",
-      "collected_at": "2026-10-25T16:25:16+09:00"
     }
   ]
 }
