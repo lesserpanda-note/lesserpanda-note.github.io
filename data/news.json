@@ -1,7 +1,57 @@
 {
-  "updated": "2026-11-23T09:05:25+09:00",
-  "count": 1211,
+  "updated": "2026-11-23T12:30:01+09:00",
+  "count": 1215,
   "items": [
+    {
+      "title": "목적마다, 상품마다 늘던 모델을 하나로: 금융 도메인에 멀티태스크 학습 적용하기",
+      "link": "https://toss.tech/article/multi-task-learning-in-finance",
+      "source": "Toss Tech",
+      "category": "Architecture",
+      "summary": "목적과 상품이 늘 때마다 같이 늘어나던 모델을, 늘어나도 하나로 유지되는 구조로 바꾼 이야기",
+      "ts": 1795402920,
+      "published": "2026-11-23T03:02:00+00:00",
+      "collected_at": "2026-11-23T12:29:41+09:00"
+    },
+    {
+      "title": "Reactive Messaging on Quarkus",
+      "link": "https://foojay.io/today/reactive-messaging-on-quarkus/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Using MicroProfile Reactive Messaging with Quarkus, Apache Kafka and virtual threads.",
+      "ts": 1795392000,
+      "published": "2026-11-23T00:00:00+00:00",
+      "collected_at": "2026-11-23T12:29:41+09:00"
+    },
+    {
+      "title": "No Programmer Knows Everything",
+      "link": "https://foojay.io/today/no-programmer-knows-everything/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Nobody knows everything about, well, anything. What matters is why each gap is there, what the rest of the team already covers, and whether anyone is allowed to say they don't know.",
+      "ts": 1795392000,
+      "published": "2026-11-23T00:00:00+00:00",
+      "collected_at": "2026-11-23T12:29:41+09:00"
+    },
+    {
+      "title": "Embedded Java: 20x Smaller Than Chrome, Faster Than Rust, Royalty Free",
+      "link": "https://foojay.io/today/embedded-linux-ui-in-18-mb/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Codename One now targets embedded Linux: a touch UI that needs a twentieth of a Chromium kiosk's memory and no GPU, and a headless backend that served more...",
+      "ts": 1795392000,
+      "published": "2026-11-23T00:00:00+00:00",
+      "collected_at": "2026-11-23T12:29:41+09:00"
+    },
+    {
+      "title": "Do You Know Which Java Build You Are Running?",
+      "link": "https://foojay.io/today/which-java-build-are-you-running/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Most developers know they run Java 21 or 25, but not which build. After the October and November 2026 security updates, that gap matters more than ever.",
+      "ts": 1795392000,
+      "published": "2026-11-23T00:00:00+00:00",
+      "collected_at": "2026-11-23T12:29:41+09:00"
+    },
     {
       "title": "QCon San Francisco 2026: The Harness Is the New Operating System",
       "link": "https://www.infoq.com/news/2026/11/harness-new-operating-system/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -21,6 +71,16 @@
       "ts": 1795387440,
       "published": "2026-11-22T22:44:00+00:00",
       "collected_at": "2026-11-23T09:04:21+09:00"
+    },
+    {
+      "title": "Select Styling Specimens",
+      "link": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Tool: Select Styling Specimens I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing…",
+      "ts": 1795376706,
+      "published": "2026-11-22T19:45:06+00:00",
+      "collected_at": "2026-11-23T12:29:41+09:00"
     },
     {
       "title": "AI solves Riemann hypothesis . . . five years too late!",
@@ -12091,26 +12151,6 @@
       "ts": 1792814397,
       "published": "2026-10-24T03:59:57+00:00",
       "collected_at": "2026-10-24T23:21:03+09:00"
-    },
-    {
-      "title": "v2.61.0 (2026-10-23)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.61.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Warn when a provider-specific thinking setting from a broader scope overrides thinking by @dsfaccini in #10231 Send the least thinking a model accepts for thinking=False on models t…",
-      "ts": 1792811620,
-      "published": "2026-10-24T03:13:40+00:00",
-      "collected_at": "2026-10-24T14:32:24+09:00"
-    },
-    {
-      "title": "1.15.30",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.30",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Fix AGENTS.md to start the login process while evaluating and stop after three rounds. Documentation Update snapshot and changelog for v1.15.29. Contributors @joaomdmoura",
-      "ts": 1792806964,
-      "published": "2026-10-24T01:56:04+00:00",
-      "collected_at": "2026-11-04T07:14:58+09:00"
     }
   ]
 }
