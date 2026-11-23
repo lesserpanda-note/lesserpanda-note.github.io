@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-23T14:43:55+09:00",
-  "count": 1214,
+  "updated": "2026-11-23T17:44:29+09:00",
+  "count": 1211,
   "items": [
     {
       "title": "목적마다, 상품마다 늘던 모델을 하나로: 금융 도메인에 멀티태스크 학습 적용하기",
@@ -51,6 +51,16 @@
       "ts": 1795392000,
       "published": "2026-11-23T00:00:00+00:00",
       "collected_at": "2026-11-23T12:29:41+09:00"
+    },
+    {
+      "title": "Evolving the Java Language: An Inside Perspective",
+      "link": "https://inside.java/2026/11/23/evolving-java-language/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "In this JavaOne keynote, Java Language Architect Brian Goetz takes you inside the process of evolving Java. Through examples spanning lambdas, records, pattern matching, virtual threads, etc., he explores the decisions,…",
+      "ts": 1795392000,
+      "published": "2026-11-23T00:00:00+00:00",
+      "collected_at": "2026-11-23T17:43:47+09:00"
     },
     {
       "title": "QCon San Francisco 2026: The Harness Is the New Operating System",
@@ -12101,46 +12111,6 @@
       "ts": 1792837590,
       "published": "2026-10-24T10:26:30+00:00",
       "collected_at": "2026-10-25T16:25:16+09:00"
-    },
-    {
-      "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
-      "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and…",
-      "ts": 1792830840,
-      "published": "2026-10-24T08:34:00+00:00",
-      "collected_at": "2026-10-24T19:34:49+09:00"
-    },
-    {
-      "title": "Google’s Data Agent Kit Hits GA, Splitting Agent Guardrails Between Skills and IAM",
-      "link": "https://www.infoq.com/news/2026/10/data-agent-kit-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Google has made Data Agent Kit generally available, a free set of MCP tools and 37 open-source skills that connect coding agents to more than fifteen Google Data Cloud services. Two kinds of guardrail ship with it, and…",
-      "ts": 1792830840,
-      "published": "2026-10-24T08:34:00+00:00",
-      "collected_at": "2026-10-24T19:34:49+09:00"
-    },
-    {
-      "title": "Cloudflare Reclaims 100 TB of RAM by Optimizing Consistent Hashing",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-hashing-optimization/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare recently documented how it reduced the memory footprint of its internal load-balancing service by more than 100 TB by optimizing the Rust implementation of consistent hashing in pingora-ketama. The changes co…",
-      "ts": 1792829400,
-      "published": "2026-10-24T08:10:00+00:00",
-      "collected_at": "2026-10-24T19:34:49+09:00"
-    },
-    {
-      "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
-      "link": "https://latent.space/p/ainews-kimi-31/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "We have Fable at home... or so we are being told by paid shills",
-      "ts": 1792826309,
-      "published": "2026-10-24T07:18:29+00:00",
-      "collected_at": "2026-10-24T19:34:49+09:00"
     }
   ]
 }
