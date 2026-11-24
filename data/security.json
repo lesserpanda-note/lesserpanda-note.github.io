@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T05:59:28+09:00",
-  "count": 142,
+  "updated": "2026-11-24T09:55:07+09:00",
+  "count": 145,
   "items": [
     {
       "ecosystem": "Python",
@@ -1555,6 +1555,18 @@
       ]
     },
     {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-5026: Invoking failure to reject ASCII-only Punycode-encoded labels in golang.org/x/net/idna",
+      "link": "https://pkg.go.dev/vuln/GO-2026-5026",
+      "published": "2026-05-22T02:46:43Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-5026",
+        "CVE-2026-39821"
+      ]
+    },
+    {
       "ecosystem": "Java",
       "source": "Oracle",
       "title": "Oracle Critical Patch Update Advisory - April 2026",
@@ -1610,6 +1622,31 @@
       "severity": null,
       "ids": [
         "CVE-2026-21992"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-4602: FileInfo can escape from a Root in os",
+      "link": "https://pkg.go.dev/vuln/GO-2026-4602",
+      "published": "2026-03-06T21:03:42Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-4602",
+        "CVE-2026-27139"
+      ]
+    },
+    {
+      "ecosystem": "Go",
+      "source": "Go Vulnerability DB",
+      "title": "GO-2026-4338: Unexpected code execution when invoking toolchain in cmd/go",
+      "link": "https://pkg.go.dev/vuln/GO-2026-4338",
+      "published": "2026-01-28T19:07:48Z",
+      "severity": null,
+      "ids": [
+        "GO-2026-4338",
+        "CVE-2025-68119",
+        "CVE-2025-68119"
       ]
     },
     {
