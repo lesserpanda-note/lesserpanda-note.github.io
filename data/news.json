@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T09:58:32+09:00",
-  "count": 1219,
+  "updated": "2026-11-24T12:30:42+09:00",
+  "count": 1223,
   "items": [
     {
       "title": "v2.72.0 (2026-11-23)",
@@ -11,6 +11,46 @@
       "ts": 1795480691,
       "published": "2026-11-24T00:38:11+00:00",
       "collected_at": "2026-11-24T09:55:07+09:00"
+    },
+    {
+      "title": "When Postgres is the wrong place to traverse the graph",
+      "link": "https://foojay.io/today/when-postgres-is-the-wrong-place-to-traverse-the-graph/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Recursive CTEs hit an O(b^D) wall, and no amount of indexing or tuning moves it.",
+      "ts": 1795478400,
+      "published": "2026-11-24T00:00:00+00:00",
+      "collected_at": "2026-11-24T12:29:27+09:00"
+    },
+    {
+      "title": "Java4Shell From the JVM Side: Is Your Service Running the Vulnerable Base64 Intrinsic?",
+      "link": "https://foojay.io/today/java4shell-jvm-base64-intrinsic/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Java4Shell (CVE-2026-114938) lives in a HotSpot intrinsic, not a library, so the same jar can be safe on one machine and exploitable on the next. How to tell which one you have, apply the mitigation so it actually takes…",
+      "ts": 1795478400,
+      "published": "2026-11-24T00:00:00+00:00",
+      "collected_at": "2026-11-24T12:29:27+09:00"
+    },
+    {
+      "title": "Interview with Libán Bande González: Going Beyond CSS in JavaFX",
+      "link": "https://foojay.io/today/interview-with-liban-bande-gonzalez-skinning-javafx-applications/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Libán Bande González on his book Skinning JavaFX Applications, the Vitra and Celestia libraries, and why CSS alone is not enough for modern JavaFX interfaces.",
+      "ts": 1795478400,
+      "published": "2026-11-24T00:00:00+00:00",
+      "collected_at": "2026-11-24T12:29:27+09:00"
+    },
+    {
+      "title": "Evaluating Java AI Agents with Harness Evals",
+      "link": "https://foojay.io/today/evaluating-java-ai-agents-with-harness-evals/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Your agent passed its unit tests. Is it any good? Learn how to use harness-evals to evaluate Java AI agents.",
+      "ts": 1795478400,
+      "published": "2026-11-24T00:00:00+00:00",
+      "collected_at": "2026-11-24T12:29:27+09:00"
     },
     {
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
