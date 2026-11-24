@@ -1,7 +1,257 @@
 {
-  "updated": "2026-11-24T14:15:54+09:00",
-  "count": 1227,
+  "updated": "2026-11-25T02:14:32+09:00",
+  "count": 1237,
   "items": [
+    {
+      "title": "How to Run Inkling 2 Mini Locally on an RTX 3090 Using Unsloth Studio",
+      "link": "https://www.kdnuggets.com/how-to-run-inkling-2-mini-locally-on-an-rtx-3090-using-unsloth-studio",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "American open-source AI is making a comeback, and this powerful local LLM is proving that fast inference, AI coding agents, and impressive results don't require expensive APIs.",
+      "ts": 1795539600,
+      "published": "2026-11-24T17:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "link": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795538053,
+      "published": "2026-11-24T16:34:13+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Patch release v5.24.1",
+      "link": "https://github.com/huggingface/transformers/releases/tag/v5.24.1",
+      "source": "Transformers",
+      "category": "AI",
+      "summary": "Patch release v5.24.1 A patch to fix a bunch of stuff for vLLM, a few distributed issues, and some model fixes (llama4, dory); see the full list vLLM related Fix backward compatibility of the cache rename for remote cod…",
+      "ts": 1795536788,
+      "published": "2026-11-24T16:13:08+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Raising the stakes for enterprise networks with AI modernization",
+      "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Ta…",
+      "ts": 1795533316,
+      "published": "2026-11-24T15:15:16+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "From Messy to Clean: Taming Real-World CSV Files with pandas read_csv()",
+      "link": "https://www.kdnuggets.com/from-messy-to-clean-taming-real-world-csv-files-with-pandas-read_csv",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "The process of building a bulletproof Python loader based on Pandas' read_csv() function to turn messy data into pristine data.",
+      "ts": 1795532400,
+      "published": "2026-11-24T15:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "I Built a Bayesian Neural Network From One Neuron and Football Shots",
+      "link": "https://towardsdatascience.com/i-built-a-bayesian-neural-network-from-one-neuron-and-football-shots/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Gaussian weights, the reparameterisation trick, and Monte Carlo sampling turn a single sigmoid neuron into a Bayesian expected-goals model on StatsBomb data. The post I Built a Bayesian Neural Network From One Neuron an…",
+      "ts": 1795532400,
+      "published": "2026-11-24T15:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Anthropic is below its IPO price",
+      "link": "https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.msn.com/en-us/money/top-stocks/anthropic-stock-sinks-below-ipo-price-why-that-s-happened-so-fast/ar-AA2i7rqa Comments URL: https://news.ycombinator.com/item?id=50628932 Points: 112 # Comments: 1…",
+      "ts": 1795531275,
+      "published": "2026-11-24T14:41:15+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "WAR and the benefits of political moderation: Difficulties in measurement lead to challenges of inference",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/24/war-and-the-benefits-of-political-moderation-difficulties-in-measurement-lead-to-challenges-of-inference/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "People have been recently sending me graphs regarding the contribution of political ideology to electoral performance in 2026. I want to do some research on this—or inspire others to do the relevant research—but in the…",
+      "ts": 1795529018,
+      "published": "2026-11-24T14:03:38+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Conditional Statements in Python",
+      "link": "https://realpython.com/python-conditional-statements/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Master Python conditional statements: write if, elif, and else blocks, and build the complex decision-making logic your programs need.",
+      "ts": 1795528800,
+      "published": "2026-11-24T14:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "K-Means Clustering in Python: A Practical Guide",
+      "link": "https://realpython.com/k-means-clustering-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how to perform k-means clustering in Python with scikit-learn, choose the right number of clusters, and build an end-to-end clustering pipeline.",
+      "ts": 1795528800,
+      "published": "2026-11-24T14:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Build an AI Agent From Scratch in Python",
+      "link": "https://realpython.com/courses/build-ai-agent-scratch-python/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Learn how the agentic loop works by building an AI agent from scratch in Python, with conversation context and tool calling in about 90 lines of code.",
+      "ts": 1795528800,
+      "published": "2026-11-24T14:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "How to Plan Retries for Multi-Agent Workflows Before You Write Code",
+      "link": "https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "A Mermaid blueprint, Python dataclasses, and a retryable flag decide when a failed agent tries again and when the task goes to a person. The post How to Plan Retries for Multi-Agent Workflows Before You Write Code appea…",
+      "ts": 1795527000,
+      "published": "2026-11-24T13:30:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Anthropic Breaks Below $83 IPO Price in Premarket Trading",
+      "link": "https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-11-24/anthropic-breaks-below-83-ipo-price-in-premarket-trading Comments URL: https://news.ycombinator.com/item?id=50627836 Points: 141 # Comments: 229",
+      "ts": 1795526627,
+      "published": "2026-11-24T13:23:47+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "7 Most Downloaded AI Models on Hugging Face",
+      "link": "https://www.kdnuggets.com/7-most-downloaded-ai-models-on-hugging-face",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "The most downloaded AI models on Hugging Face aren't the ones you'd expect. Discover why smaller, older, and specialized models dominate the rankings.",
+      "ts": 1795525200,
+      "published": "2026-11-24T13:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
+      "link": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "New research from the Cloud Native Computing Foundation (CNCF) and Linux Foundation Research finds that VMs host an average of 53% of production applications, while emerging AI and agentic workloads are creating additio…",
+      "ts": 1795521600,
+      "published": "2026-11-24T12:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Quiz: Python Conditional Statements",
+      "link": "https://realpython.com/quizzes/python-conditional-statements/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of Python conditional statements. You'll practice using if, elif, and else to control the flow of your programs.",
+      "ts": 1795521600,
+      "published": "2026-11-24T12:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Quiz: Plotting Declarative Charts With Altair",
+      "link": "https://realpython.com/quizzes/plotting-declarative-charts-with-altair/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your knowledge of Altair, from marks and encoding channels to linked interactive charts and HTML export, in this quick Python quiz.",
+      "ts": 1795521600,
+      "published": "2026-11-24T12:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "How to Calculate and Operationalize Customer Lifetime Value",
+      "link": "https://towardsdatascience.com/how-to-calculate-and-operationalize-customer-lifetime-value/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "For analysts and commercial leaders: how cohort churn, BTYD models, and behavioral segments turn CLV from a board-deck KPI into daily decisions. The post How to Calculate and Operationalize Customer Lifetime Value appea…",
+      "ts": 1795521600,
+      "published": "2026-11-24T12:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "OpenAI Scales Git for Coding Agents with Pando",
+      "link": "https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "OpenAI has detailed Pando, a new backend that scales Git for concurrent coding-agent workloads without replacing familiar Git workflows. The company reports nearly 80% lower median push latency by coordinating branch up…",
+      "ts": 1795521300,
+      "published": "2026-11-24T11:55:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Presentation: Inferencing for Enterprises",
+      "link": "https://www.infoq.com/presentations/enterprise-ai-inference-architecture-costs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Dio Rettori discusses the operational realities of enterprise AI inference. Moving beyond fast token generation, he explores why inference requires dedicated systems engineering, tackles GPU utilization pitfalls, compar…",
+      "ts": 1795518000,
+      "published": "2026-11-24T11:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Presentation: Inferencing for Enterprises",
+      "link": "https://www.infoq.com/presentations/enterprise-ai-inference-architecture-costs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Dio Rettori discusses the operational realities of enterprise AI inference. Moving beyond fast token generation, he explores why inference requires dedicated systems engineering, tackles GPU utilization pitfalls, compar…",
+      "ts": 1795518000,
+      "published": "2026-11-24T11:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports",
+      "link": "https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint shows engineering leaders and architects how to build trustworthy agentic workflows usin…",
+      "ts": 1795512600,
+      "published": "2026-11-24T09:30:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports",
+      "link": "https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Moving GenAI into high-stakes production requires treating non-determinism as an engineering problem. This architectural blueprint shows engineering leaders and architects how to build trustworthy agentic workflows usin…",
+      "ts": 1795512600,
+      "published": "2026-11-24T09:30:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI",
+      "link": "https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "At QCon San Francisco 2026, OpenAI's Brian Yang described building the ChatGPT ads product with Codex agents and no human-written code. He outlined layered testing, sandboxes, and batched pull request reviews, and noted…",
+      "ts": 1795501920,
+      "published": "2026-11-24T06:32:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "datasette-charts 0.2a0",
+      "link": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-charts 0.2a0 I introduced this new charting plugin for Datasette yesterday . Today it's gained integration with Datasette Agent , so now you can ask chat for a chart and it will create one for you usi…",
+      "ts": 1795494269,
+      "published": "2026-11-24T04:24:29+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
     {
       "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
       "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
@@ -91,6 +341,26 @@
       "ts": 1795478400,
       "published": "2026-11-24T00:00:00+00:00",
       "collected_at": "2026-11-24T12:29:27+09:00"
+    },
+    {
+      "title": "Tutorial: Advanced Accessibility in JavaFX",
+      "link": "https://inside.java/2026/11/24/advanced-a11y-javafx-tutorial/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "Learn JavaFX’s advanced accessibility APIs by building an interactive seat map that exposes individual seats, selection, and availability to assistive technology.",
+      "ts": 1795478400,
+      "published": "2026-11-24T00:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Human in the Loop with Spring AI 2.1: Tool Calls That Survive a Restart",
+      "link": "https://spring.io/blog/2026/11/24/spring-ai-tool-call-confirmation-park-resume",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Spring AI: Tool Call Confirmation | Session Extensions | Demo A bank support agent can look up why a mortgage payment failed. That is reading, and the model may do it on its own. Collecting the payment today moves money…",
+      "ts": 1795478400,
+      "published": "2026-11-24T00:00:00+00:00",
+      "collected_at": "2026-11-25T02:13:59+09:00"
     },
     {
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
@@ -12101,176 +12371,6 @@
       "ts": 1792951200,
       "published": "2026-10-25T18:00:00+00:00",
       "collected_at": "2026-10-26T05:35:58+09:00"
-    },
-    {
-      "title": "Google ML Drift Accelerates On-Device AI Inference Across Diverse GPUs",
-      "link": "https://www.infoq.com/news/2026/10/google-ml-drift/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google has released ML Drift, an open-source, cross-platform GPU compute engine designed for on-device AI and machine learning inference. Licensed under Apache 2.0, it abstracts the complexities of different GPU hardwar…",
-      "ts": 1792947600,
-      "published": "2026-10-25T17:00:00+00:00",
-      "collected_at": "2026-10-26T02:30:08+09:00"
-    },
-    {
-      "title": "Seam Cutter",
-      "link": "https://simonwillison.net/2026/Oct/25/seam-cutter/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Tool: Seam Cutter I built this weird and very specific cropping tool - it lets you create a horizontal or vertical cut across an image, then slide the two sides relative to each other. Effectively it lets you crop out a…",
-      "ts": 1792941019,
-      "published": "2026-10-25T15:10:19+00:00",
-      "collected_at": "2026-10-26T19:00:33+09:00"
-    },
-    {
-      "title": "Logging in Python",
-      "link": "https://realpython.com/python-logging/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Go beyond print() with Python logging. Create your first logs, set levels and formats, and add handlers that grow with your projects.",
-      "ts": 1792936800,
-      "published": "2026-10-25T14:00:00+00:00",
-      "collected_at": "2026-10-26T02:30:08+09:00"
-    },
-    {
-      "title": "Python Modules and Packages – An Introduction",
-      "link": "https://realpython.com/python-modules-packages/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Explore Python modules and packages, the two mechanisms that make modular programming possible, and learn how imports find your code.",
-      "ts": 1792936800,
-      "published": "2026-10-25T14:00:00+00:00",
-      "collected_at": "2026-10-26T02:30:08+09:00"
-    },
-    {
-      "title": "Python REST APIs With Flask, Connexion, and SQLAlchemy – Part 3",
-      "link": "https://realpython.com/flask-connexion-rest-api-part-3/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Extend your Flask REST API with a SQLAlchemy one-to-many relationship that adds notes to people, and serve them through new API endpoints.",
-      "ts": 1792936800,
-      "published": "2026-10-25T14:00:00+00:00",
-      "collected_at": "2026-10-26T02:30:08+09:00"
-    },
-    {
-      "title": "Python's with Statement: Manage External Resources Safely",
-      "link": "https://realpython.com/python-with-statement/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Understand Python's with statement and context managers to streamline the setup and teardown phases in resource management. Start writing safer code today!",
-      "ts": 1792936800,
-      "published": "2026-10-25T14:00:00+00:00",
-      "collected_at": "2026-10-26T02:30:08+09:00"
-    },
-    {
-      "title": "Python Code Quality: Best Practices and Tools",
-      "link": "https://realpython.com/python-code-quality/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Python best practices for code quality: what makes code good, and the tools and strategies that keep it that way as a project grows.",
-      "ts": 1792936800,
-      "published": "2026-10-25T14:00:00+00:00",
-      "collected_at": "2026-10-26T02:30:08+09:00"
-    },
-    {
-      "title": "Python REST APIs With Flask, Connexion, and SQLAlchemy – Part 2",
-      "link": "https://realpython.com/flask-connexion-rest-api-part-2/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Build a Flask REST API backed by a SQLite database. In part two of this series, you'll use SQLAlchemy and Marshmallow to persist and serialize data.",
-      "ts": 1792936800,
-      "published": "2026-10-25T14:00:00+00:00",
-      "collected_at": "2026-10-26T02:30:08+09:00"
-    },
-    {
-      "title": "Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail",
-      "link": "https://towardsdatascience.com/agentic-ai-in-production-why-your-agent-keeps-answering-after-its-tools-fail/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "When a tool breaks, an agent can keep going and write a confident answer from nothing while the dashboard stays green. The post Agentic AI in Production: Why Your Agent Keeps Answering After Its Tools Fail appeared firs…",
-      "ts": 1792936800,
-      "published": "2026-10-25T14:00:00+00:00",
-      "collected_at": "2026-10-26T02:30:08+09:00"
-    },
-    {
-      "title": "Python REST APIs With Flask, Connexion, and SQLAlchemy – Part 1",
-      "link": "https://realpython.com/flask-connexion-rest-api/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Build a Flask REST API with Connexion and Swagger UI in this three-part series. Part one lays the foundation of your application.",
-      "ts": 1792936800,
-      "published": "2026-10-25T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "World’s dumbest AI spam just dropped",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/25/worlds-dumbest-spam-just-dropped/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "I’ve seen some incompetent email scams before, but this is the worst so far: From: ** Subject: Availability inquiry: statistical-design review for FormalismBench Date: October 23, 2026 at 04:01:24 EDT To: gelman@stat.co…",
-      "ts": 1792934403,
-      "published": "2026-10-25T13:20:03+00:00",
-      "collected_at": "2026-10-26T02:30:08+09:00"
-    },
-    {
-      "title": "Quiz: Build a URL Shortener With FastAPI and Python",
-      "link": "https://realpython.com/quizzes/build-a-python-url-shortener-with-fastapi/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of building a URL shortener with FastAPI, from endpoints and pydantic schemas to SQLAlchemy models and redirects.",
-      "ts": 1792929600,
-      "published": "2026-10-25T12:00:00+00:00",
-      "collected_at": "2026-10-25T22:03:27+09:00"
-    },
-    {
-      "title": "Quiz: Python Debugging With Pdb",
-      "link": "https://realpython.com/quizzes/python-debugging-pdb/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Practice using pdb, Python's built-in debugger. Check variables, step through code, set conditional breakpoints, and read a stack trace.",
-      "ts": 1792929600,
-      "published": "2026-10-25T12:00:00+00:00",
-      "collected_at": "2026-10-25T22:03:27+09:00"
-    },
-    {
-      "title": "Quiz: Python's pathlib Module: Taming the File System",
-      "link": "https://realpython.com/quizzes/python-pathlib/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Revisit Python's pathlib module for handling file and folder paths consistently across operating systems. Write modern, object-oriented code.",
-      "ts": 1792929600,
-      "published": "2026-10-25T12:00:00+00:00",
-      "collected_at": "2026-10-25T22:03:27+09:00"
-    },
-    {
-      "title": "Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns",
-      "link": "https://towardsdatascience.com/data-enablement-for-ai-a-practitioners-guide-to-6-advanced-architectural-patterns/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Beyond naive chunk-and-embed: Six production architectures for turning enterprise lakehouses into governed AI platforms. The post Data Enablement for AI: A Practitioner's Guide to 6 Advanced Architectural Patterns appea…",
-      "ts": 1792929600,
-      "published": "2026-10-25T12:00:00+00:00",
-      "collected_at": "2026-10-25T22:03:27+09:00"
-    },
-    {
-      "title": "PingCAP Breach Exposes Customer Records and Source Code",
-      "link": "https://www.infoq.com/news/2026/10/pingcap-cloud-data-breach/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "PingCAP recently confirmed unauthorized access to its internal systems and the theft of source code and customer-related data. The attacker, cyber extortion group FulcrumSec, claimed to have stolen 10.6 TB of data, incl…",
-      "ts": 1792909620,
-      "published": "2026-10-25T06:27:00+00:00",
-      "collected_at": "2026-10-25T16:25:16+09:00"
-    },
-    {
-      "title": "v2.0.0",
-      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.0.0",
-      "source": "MCP servers",
-      "category": "Agents",
-      "summary": "Servers refactored to modern era This release refactors all the servers to support the modern era spec, while still answering legacy era clients as expected. Packages Package Version Registry In this release @modelconte…",
-      "ts": 1792908036,
-      "published": "2026-10-25T06:00:36+00:00",
-      "collected_at": "2026-11-19T06:11:27+09:00"
     }
   ]
 }
