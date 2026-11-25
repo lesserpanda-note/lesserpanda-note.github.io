@@ -136,15 +136,23 @@ FEEDS = [
     ("https://blog.cloudflare.com/rss/", "Cloudflare", "Architecture"),
     # Git and GitHub platform vulnerabilities, GitHub Security Lab research.
     ("https://github.blog/security/feed/", "GitHub Security", "Architecture"),
+    # Large-scale system write-ups from outside InfoQ, which supplied 40 of the 48
+    # Architecture picks in the four weeks to 2026-11-25. Netflix is served by Medium;
+    # if Actions gets 403 from it the way it does from Woowahan below, it comes out.
+    ("https://netflixtechblog.com/feed", "Netflix TechBlog", "Architecture"),
+    ("https://engineering.fb.com/feed/", "Meta Engineering", "Architecture"),
     # Korean backend and AI-platform case studies (Spring services, agent platforms on
     # segregated networks). Culture and event posts ride along and are left to selection.
     # techblog.woowahan.com/feed/ is absent on purpose: Cloudflare answers 200 from a home
     # connection but 403 to GitHub Actions runners, where this script runs (2026-11-20).
     ("https://toss.tech/rss.xml", "Toss Tech", "Architecture"),
     ("https://tech.kakao.com/feed/", "Kakao Tech", "Architecture"),
+    ("https://d2.naver.com/d2.atom", "NAVER D2", "Architecture"),
     # Python — the AI-agent-development stack (language, packaging, performance, PyPI security)
     ("https://realpython.com/atom.xml", "Real Python", "Python"),
     ("https://blog.python.org/feeds/posts/default", "Python Insider", "Python"),
+    # Astral builds uv, ruff and ty, the packaging and tooling half of this category.
+    ("https://astral.sh/blog/rss.xml", "Astral", "Python"),
     # PyPI supply-chain / security incidents & advisories (official blog).
     ("https://blog.pypi.org/feed_rss_created.xml", "PyPI Blog", "Python"),
     # PyPI and npm supply-chain incidents as they break — the 2026-11-17 hijack of
