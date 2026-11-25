@@ -1,7 +1,107 @@
 {
-  "updated": "2026-11-25T21:23:17+09:00",
-  "count": 1245,
+  "updated": "2026-11-26T00:49:08+09:00",
+  "count": 1266,
   "items": [
+    {
+      "title": "Why Data Job Candidates Freeze on Questions They Already Know",
+      "link": "https://www.kdnuggets.com/why-data-job-candidates-freeze-on-questions-they-already-know",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Pressure disrupts recall in interviews. Timed mock interviews let you rehearse it.",
+      "ts": 1795618800,
+      "published": "2026-11-25T15:00:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "Substitution Solver",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/25/substitution-solver/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In class the other day, Fangyuan Lin showed us these cool programs to encode and decode text: Step 1: Scramble some text using a random substitution cipher—this is just the first sentence from yesterday’s post: Step 2:…",
+      "ts": 1795617973,
+      "published": "2026-11-25T14:46:13+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability",
+      "link": "https://www.infoq.com/news/2026/11/doordash-dispatch-redesign/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "DoorDash has redesigned its real-time dispatch platform, replacing a monolithic optimization engine with a distributed architecture that separates coordination from computation. The new system delivers 10x higher throug…",
+      "ts": 1795617840,
+      "published": "2026-11-25T14:44:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability",
+      "link": "https://www.infoq.com/news/2026/11/doordash-dispatch-redesign/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "DoorDash has redesigned its real-time dispatch platform, replacing a monolithic optimization engine with a distributed architecture that separates coordination from computation. The new system delivers 10x higher throug…",
+      "ts": 1795617840,
+      "published": "2026-11-25T14:44:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "Introducing Search for Agents",
+      "link": "https://blog.cloudflare.com/search-for-agents/",
+      "source": "Cloudflare",
+      "category": "Architecture",
+      "summary": "Flip one toggle to make your site searchable by AI agents — complete with automatic content indexing, a discoverable search API, and native HTTP QUERY support.",
+      "ts": 1795615200,
+      "published": "2026-11-25T14:00:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "LLM Evaluation in Python: Build an Eval Harness From Scratch",
+      "link": "https://realpython.com/llm-evaluation/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build an LLM evaluation harness in Python that scores model outputs with code-based checks and an LLM judge you calibrate against human labels.",
+      "ts": 1795615200,
+      "published": "2026-11-25T14:00:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "pandas Project: Make a Gradebook With Python & pandas",
+      "link": "https://realpython.com/pandas-project-gradebook/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Build a pandas project that calculates class grades from several data sources. Load, merge, and save data, then plot summary statistics with pandas.",
+      "ts": 1795615200,
+      "published": "2026-11-25T14:00:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents",
+      "link": "https://www.infoq.com/news/2026/11/vercel-board-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Vercel's experimental Board is a headless message store where people and coding agents claim leased tasks, declare dependencies, and sync threads with Slack, GitHub, and Linear. By Daniel Dominguez",
+      "ts": 1795615020,
+      "published": "2026-11-25T13:57:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "DuckDB 2.0 vs Polars 2.0 in Five Real-World Tests and One 14x Gap",
+      "link": "https://towardsdatascience.com/duckdb-20-vs-polars-20-in-five-real-world-tests-and-one-14x-gap/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "Three years after a tie between Polars 0.18 and DuckDB 0.9, both 2.0 releases go head to head on datasets of up to 335 million records. The post DuckDB 2.0 vs Polars 2.0 in Five Real-World Tests and One 14x Gap appeared…",
+      "ts": 1795613400,
+      "published": "2026-11-25T13:30:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "The Roadmap to Becoming an AI Security Engineer in 2027",
+      "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-an-ai-security-engineer-in-2026",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "From cybersecurity foundations to defending machine learning systems, agentic pipelines, and large language model applications.",
+      "ts": 1795611600,
+      "published": "2026-11-25T13:00:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
     {
       "title": "Quiz: LLM Evaluation in Python: Build an Eval Harness From Scratch",
       "link": "https://realpython.com/quizzes/llm-evaluation/",
@@ -73,6 +173,26 @@
       "collected_at": "2026-11-25T21:19:57+09:00"
     },
     {
+      "title": "운영자의 시간을 아끼는 AI 에이전트 2부 - MCP 부터 Agent 설계까지",
+      "link": "https://d2.naver.com/helloworld/5073599",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 운영 문의가 들어오면 운영자는 로그와 메트릭, 과거 사례를 직접 살펴보고 답변해야 합니다. 업무 시간 밖에 들어온 문의는 첫 답변을 받기까지 약 13시간이 걸리기도 했습니다. 이 발표에서는 OpenSearch 운영 문의에 운영자보다 먼저 답변하는 AI 에이전트,…",
+      "ts": 1795590101,
+      "published": "2026-11-25T07:01:41+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "운영자의 시간을 아끼는 AI 에이전트 1부 - RCA·Q&A 운영 지식그래프",
+      "link": "https://d2.naver.com/helloworld/6934862",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 운영 문의에 명확한 답변을 남겨도 이슈가 닫히면 묻히기 쉽습니다. 같은 원인으로 문의가 다시 들어오면 운영자는 처음부터 다시 조사해야 했습니다. 이 발표에서는 n3r 운영 이슈에서 LLM으로 RCA(근본 원인 분석)와 Q&A를 추출해 Neo4j 지식 그래프에…",
+      "ts": 1795588515,
+      "published": "2026-11-25T06:35:15+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI",
       "link": "https://www.infoq.com/news/2026/11/openai-spark-fleet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -81,6 +201,26 @@
       "ts": 1795587600,
       "published": "2026-11-25T06:20:00+00:00",
       "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "AI가 만든 결과를 그대로 믿고 계신가요?",
+      "link": "https://d2.naver.com/helloworld/5512498",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 테스트는 전부 통과했는데 실제로는 결함이 남아 있던 경험에서 출발해, AI의 자기 보고를 기계가 반증하게 만든 세 가지 방법(돌연변이 테스팅, 훅, 에이전트 팀)을 공유합니다. ​ 발표 대상 AI가 만든 코드와 테스트를 검증하는 방법에 관심 있는 분 여러 AI…",
+      "ts": 1795583982,
+      "published": "2026-11-25T05:19:42+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "OmniEvaluator: AI 모델과 에이전트를 위한 통합 평가 프레임워크",
+      "link": "https://d2.naver.com/helloworld/4331341",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 AI 서비스를 만들 때 \"이 모델, 우리 서비스에 써도 될까?\"라는 질문은 도입 전(후보 모델·API·툴 조합 비교)과 도입 후(의도대로 서빙되는지, 패치·버전별 차이) 반복해서 돌아옵니다. 그런데 이 질문에 답하는 비용은 큽니다. 모달리티마다 평가 툴킷이 다르고…",
+      "ts": 1795581498,
+      "published": "2026-11-25T04:38:18+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
       "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
@@ -173,6 +313,16 @@
       "collected_at": "2026-11-25T21:19:57+09:00"
     },
     {
+      "title": "Hibernate Reactive 5.1.0.CR3 and 5.0.0.Final released",
+      "link": "https://in.relation.to/2026/11/25/hibernate-reactive-5_1_0_CR3/",
+      "source": "Hibernate",
+      "category": "Java",
+      "summary": "Hibernate Reactive 5.1.0.CR3 and Hibernate Reactive 5.0.0.Final are now available. Both are compatible with Hibernate ORM 8.0.0.CR2, which is now also the minimum version they support. They differ in the version of the…",
+      "ts": 1795564800,
+      "published": "2026-11-25T00:00:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "Survey Statistics: linking people",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/24/survey-statistics-linking-people/",
       "source": "Statistical Modeling",
@@ -191,6 +341,16 @@
       "ts": 1795561327,
       "published": "2026-11-24T23:02:07+00:00",
       "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Anthropic CEO Dario Amodei and Sister Daniela Sold $561M in Stock During IPO",
+      "link": "https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.forbes.com/sites/siladityaray/2026/11/24/anthropic-ceo-dario-amodei-sold-280-million-in-shares-as-part-of-record-ipo/ Comments URL: https://news.ycombinator.com/item?id=50635706 Points: 50 # Com…",
+      "ts": 1795559239,
+      "published": "2026-11-24T22:27:19+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
       "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
@@ -511,6 +671,16 @@
       "ts": 1795510800,
       "published": "2026-11-24T09:00:00+00:00",
       "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Jetpack Compose 기반 커스텀 3D 캐러셀 개발기 (영상)",
+      "link": "https://d2.naver.com/helloworld/2957037",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 가로로 넘기는 목록을 만들 때 대부분 LazyRow부터 떠올립니다. 하지만 카드가 비스듬히 겹겹이 쌓이고, 넘길 때마다 간격과 기울기가 바뀌는 3D 카드 덱은 LazyRow로 만들 수 없었습니다. 이 발표에서는 ThingsBook 서비스 내의 카드 덱 UI를…",
+      "ts": 1795509919,
+      "published": "2026-11-24T08:45:19+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
       "title": "QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI",
@@ -1003,6 +1173,56 @@
       "collected_at": "2026-11-24T09:55:07+09:00"
     },
     {
+      "title": "AI 신입사원을 뉴스 데이터 시니어로 키우는 레포, news-data",
+      "link": "https://d2.naver.com/helloworld/3284900",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 AI 에이전트가 뉴스 데이터를 직접 찾고 추출·분석까지 수행하는 하네스 레포 news-data를 소개합니다. 작업마다 배운 것을 회고와 PR로 되돌려 도메인을 모르는 신입사원 같은 에이전트를 시니어로 키우는 과정과 운영하며 부딪힌 한계, 앞으로의 방향을 공유합…",
+      "ts": 1795420266,
+      "published": "2026-11-23T07:51:06+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "새벽 3시 54분, Agent가 먼저 분석하고 처리했습니다",
+      "link": "https://d2.naver.com/helloworld/1126768",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 개발과 운영 당번을 함께 맡으며 새벽 알림에 깨는 일, 언제까지 사람이 해야 할까요? 원인을 찾는 일부터 직접 조치하는 일까지 AI Agent에게 안심하고 맡길 수 있도록 풀어 간 경험을 공유 드립니다. ​ 발표 대상 개발과 서비스 운영(온콜)을 함께 맡고 있는…",
+      "ts": 1795417404,
+      "published": "2026-11-23T07:03:24+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "뇌를 닮은 세컨드 브레인: 토큰 낭비 없는 RAG",
+      "link": "https://d2.naver.com/helloworld/5087915",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 기존 RAG의 텍스트 덤프 및 토큰 낭비 한계를 극복하고, 최신 인지 메모리 논문 기법을 결합해 지식 자율 진화와 99% 재현율을 달성하는 차세대 AI 메모리 아키텍처를 소개합니다. ​ 발표 대상 RAG의 검색 효율과 답변 품질 개선에 관심 있는 개발자 AI 에이…",
+      "ts": 1795414753,
+      "published": "2026-11-23T06:19:13+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "GPU 노드 검증 자동화: 상시 점검부터 부하 검증까지",
+      "link": "https://d2.naver.com/helloworld/7131556",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ GPU 노드 검증 자동화: 상시 점검부터 부하 검증까지 (네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다.) [발표... NAVER D2 | GPU 노드 검증 자동화: 상시 점검부터 부하 검증까지 (네이버 사내…",
+      "ts": 1795412016,
+      "published": "2026-11-23T05:33:36+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "Spark 배치 파이프라인 Distributed Tracing 도입",
+      "link": "https://d2.naver.com/helloworld/2526679",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 Apache Spark가 지원하지 않는 분산 추적을 비즈니스 로직 수정 없이 플러그인 형태로 제공하여 연관된 애플리케이션들과 한 흐름으로 잇는 방법을 소개하고, 관측 결과를 성능 개선과 AI Agent 진단에 연결한 경험을 공유합니다. ​ 발표 대상 Spark…",
+      "ts": 1795410131,
+      "published": "2026-11-23T05:02:11+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "목적마다, 상품마다 늘던 모델을 하나로: 금융 도메인에 멀티태스크 학습 적용하기",
       "link": "https://toss.tech/article/multi-task-learning-in-finance",
       "source": "Toss Tech",
@@ -1081,6 +1301,16 @@
       "ts": 1795392000,
       "published": "2026-11-23T00:00:00+00:00",
       "collected_at": "2026-11-24T05:59:28+09:00"
+    },
+    {
+      "title": "Securing Python projects from supply-chain attacks",
+      "link": "https://astral.sh/blog/securing-from-supply-chain-attacks",
+      "source": "Astral",
+      "category": "Python",
+      "summary": "Practical ways to harden Python projects and GitHub Actions against supply-chain attacks using hash pins, lockfiles, and dependency cooldowns.",
+      "ts": 1795392000,
+      "published": "2026-11-23T00:00:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
       "title": "QCon San Francisco 2026: The Harness Is the New Operating System",
@@ -2203,6 +2433,36 @@
       "collected_at": "2026-11-19T20:27:37+09:00"
     },
     {
+      "title": "온톨로지, 구축에서 활용까지. 질문이 답을 설계한다.",
+      "link": "https://d2.naver.com/helloworld/5037527",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ 발표 내용 가상의 물류회사가 매일 받는 \"이 화물 지금 어디 있고, 예외가 있었나?\"라는 질문 하나에서 출발해, 온톨로지를 어떻게 만들고 사람과 AI가 그 위에서 어떻게 찾아보고 일을 처리하는지 실제 화면으로 보여 드리는 발표입니다. 온톨로지 구축 부터 활용까지, 고객의 질…",
+      "ts": 1795071422,
+      "published": "2026-11-19T06:57:02+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "Devops Agent 리포트 오이데~ 평가 야호~",
+      "link": "https://d2.naver.com/helloworld/0118355",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 통합검색 알람 발생 시 1분 내 장애 1차 진단 리포트를 이슈로 남기는 에이전트, 그 결과를 평가해 시스템 정확도를 도출한 이야기 ​ 발표 대상 LLM 기반의 이상 신호 분석 시스템을 운영하고자 하는 독자 LLM 기반의 평가 시스템을 운영하고자 하는 독자 ​…",
+      "ts": 1795070864,
+      "published": "2026-11-19T06:47:44+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "부족한 건 모델이 아니라 팀 문서였다: 팀 공유 지식층 Third Brain 구축기",
+      "link": "https://d2.naver.com/helloworld/2622882",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "​ 네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 AI가 답을 못 맞히는 이유가 모델이 아니라 팀 문서의 부재라는 것을 확인하고, 팀 위키를 AI가 읽고 쓰는 공유 지식층으로 만들어 운영한 경험을 공유합니다. ​ 발표 대상 팀 지식을 정리하는 방법을 고민중인 개발자 ​ 목차 에이전트가 우리 팀 일을 못 했…",
+      "ts": 1795066579,
+      "published": "2026-11-19T05:36:19+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "1.15.43",
       "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.43",
       "source": "CrewAI",
@@ -3023,6 +3283,26 @@
       "collected_at": "2026-11-19T06:11:27+09:00"
     },
     {
+      "title": "How Meta Uses AI Agents to Scale ML Innovations Across Ads Ranking Models",
+      "link": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models/",
+      "source": "Meta Engineering",
+      "category": "Architecture",
+      "summary": "Our previous post in this series introduced the Ranking Engineer Agent (REA), an autonomous system that generates hypotheses, designs experiments, and proves new machine learning (ML) techniques on ads ranking models. N…",
+      "ts": 1795021200,
+      "published": "2026-11-18T17:00:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "Design Once, Deploy at Scale: Building a Template-Driven ML Ecosystem",
+      "link": "https://engineering.fb.com/2026/11/18/ml-applications/design-once-deploy-at-scale-template-driven-ml-ecosystem/",
+      "source": "Meta Engineering",
+      "category": "Architecture",
+      "summary": "As ML ecosystems grow to a large number of production models, the bottleneck is no longer inventing new techniques to improve these models, but rather shipping them reliably and efficiently across a fragmented model spa…",
+      "ts": 1795021178,
+      "published": "2026-11-18T16:59:38+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
       "link": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
       "source": "Hacker News",
@@ -3373,6 +3653,46 @@
       "collected_at": "2026-11-19T06:11:27+09:00"
     },
     {
+      "title": "컨테이너처럼 쓰고, VM처럼 격리하기 4편 - IB 네트워크와 로컬 NVMe, vCPU 배치, 베어메탈 대비 성능",
+      "link": "https://d2.naver.com/helloworld/5896967",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "3편에서는 Fabric Manager가 NVLink로 묶어 주는 GPU 조합인 fabric partition(이하 '파티션')을 DRA(동적 리소스 할당)로 할당하고 VM에 연결했습니다. 학습 작업을 실행하려면 GPU뿐 아니라 다른 서버와 IB(InfiniBand)로 통신할 NIC(network interface card), 모델과 데이터를 읽고 쓸 로컬 스토리지도 필요합니다. 이 연재는…",
+      "ts": 1794980886,
+      "published": "2026-11-18T05:48:06+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "컨테이너처럼 쓰고, VM처럼 격리하기 3편 - Fabric Manager 파티션과 DRA를 이용한 GPU 할당",
+      "link": "https://d2.naver.com/helloworld/6180316",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "2편에서는 GPU를 vfio-pci에 바인딩해 VM에 연결하는 구조와 GPU 8장 VM의 부팅·메모리 구성을 살펴봤습니다. 이번 3편에서는 그 VM에 연결할 GPU를 어떻게 고르는지 다룹니다. 이 연재는 다음과 같이 구성됩니다. 1편 : 컨테이너와 VM의 차이, Kata Containers의 Pod 실행 구조 2편 : GPU 패스스루 계층과 GPU 8장 VM의 부팅·메모리 구성 3편: Fa…",
+      "ts": 1794980832,
+      "published": "2026-11-18T05:47:12+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "컨테이너처럼 쓰고, VM처럼 격리하기 2편 - GPU 패스스루 계층과 GPU 8장 VM의 부팅·메모리 구성",
+      "link": "https://d2.naver.com/helloworld/1376800",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "1편에서는 Kata Containers(이하 'kata')가 Pod마다 VM을 만들고 그 안에서 컨테이너를 실행하는 구조를 살펴봤습니다. 2편에서는 이 VM에 GPU를 연결합니다. 이 연재는 다음과 같이 구성됩니다. 1편 : 컨테이너와 VM의 차이, Kata Containers의 Pod 실행 구조 2편: GPU 패스스루 계층과 GPU 8장 VM의 부팅·메모리 구성 3편 : Fabric Ma…",
+      "ts": 1794980818,
+      "published": "2026-11-18T05:46:58+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "컨테이너처럼 쓰고, VM처럼 격리하기 1편 - 컨테이너와 VM의 차이, Kata Containers의 Pod 실행 구조",
+      "link": "https://d2.naver.com/helloworld/8055238",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "GPU 서버 한 대를 여러 사용자가 함께 쓴다면 사용자의 작업을 어디까지 격리해야 할까요? 적어도 한 사용자의 컨테이너 탈출이 같은 서버에 있는 다른 사용자의 작업이나 GPU 접근으로 이어져서는 안 됩니다. Kubernetes 위에서 NVIDIA GPU 환경을 격리하면서 겪은 문제와 해결 방법을 네 편으로 나누어 정리했습니다. 1편: 컨테이너와 VM의 차이, Kata Containers의…",
+      "ts": 1794980794,
+      "published": "2026-11-18T05:46:34+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "Optimizely Supply Chain Attack Distributes Malware Across Global Brands",
       "link": "https://socket.dev/blog/optimizely-supply-chain-attack?utm_medium=feed",
       "source": "Socket",
@@ -3601,6 +3921,16 @@
       "ts": 1794937500,
       "published": "2026-11-17T17:45:00+00:00",
       "collected_at": "2026-11-18T06:35:28+09:00"
+    },
+    {
+      "title": "Engineering AI Discover",
+      "link": "https://netflixtechblog.com/engineering-ai-discover-e244944cdc38?source=rss----2615bd06b42e---4",
+      "source": "Netflix TechBlog",
+      "category": "Architecture",
+      "summary": "The challenges and decisions behind AI Discover’s intelligence layer By Varun Khaitan , Peng Ren , Gary Tang , Itay Teller , Atif Faheem , Nipun Kumar , Donnie DeBoer , Eduardo Lundgren , Matteo Rinaldi , Raghav Bakshi…",
+      "ts": 1794934862,
+      "published": "2026-11-17T17:01:02+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
       "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
@@ -4313,6 +4643,16 @@
       "collected_at": "2026-11-17T05:05:53+09:00"
     },
     {
+      "title": "노트북을 닫아도 개발은 계속된다: 자율 그래프 주도 개발",
+      "link": "https://d2.naver.com/helloworld/5976687",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 '자율 그래프 주도 개발(Autonomous Graph-Driven Development)'에서는 사람의 직접적인 지시 없이 그래프가 프로젝트 진행을 주도합니다. 스펙 문서와 코드는 AI Agent 루프가 작성하고, 결정론적 코드가 이를 기계적으로 검사하며,…",
+      "ts": 1794819887,
+      "published": "2026-11-16T09:04:47+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
       "link": "https://openai.com/index/lvmh-media-division-partnership",
       "source": "OpenAI",
@@ -4323,6 +4663,16 @@
       "collected_at": "2026-11-17T05:05:53+09:00"
     },
     {
+      "title": "Image AI 서빙 최적화: CPU와 GPU의 빈 시간을 줄여 H100 67장을 절감하기까지",
+      "link": "https://d2.naver.com/helloworld/9994827",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 SNOW의 16개 Image AI 서비스에서 응답 속도와 안정성을 높이면서, H100 환산 약 67장의 GPU 자원을 절감한 경험을 공유합니다. LitServe 전환과 함께 불필요한 연산과 CPU·GPU의 대기 시간을 줄이고, 실제 트래픽에 맞게 설정을 조정하…",
+      "ts": 1794819151,
+      "published": "2026-11-16T08:52:31+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "Our first phase of embedded assessments",
       "link": "https://openai.com/index/our-first-phase-of-embedded-assessments",
       "source": "OpenAI",
@@ -4331,6 +4681,16 @@
       "ts": 1794816000,
       "published": "2026-11-16T08:00:00+00:00",
       "collected_at": "2026-11-17T05:05:53+09:00"
+    },
+    {
+      "title": "카페 관리도구 개편기: 문서는 낡았고, 사람은 떠났고, 코드만 남았다.",
+      "link": "https://d2.naver.com/helloworld/4049909",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "네이버 사내 기술 교류 행사인 NAVER Engineering Day 10th 에서 발표되었던 세션을 공개합니다. ​ ​ 발표 내용 코드만 남아 있던 14년 된 카페 관리도구를 AI와 함께 분석하고, Storybook과 MSW로 화면과 동작을 재현하며 새로운 카페 스튜디오를 개발했습니다. 이 과정에서 기획, 디자인, BE와의 협업 방식이 어떻게 달라졌는지 공유합니다. ​ 발표 대상 레거시…",
+      "ts": 1794815713,
+      "published": "2026-11-16T07:55:13+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
       "title": "Advancing computer-use agents for healthcare teams",
@@ -4901,6 +5261,16 @@
       "ts": 1794589355,
       "published": "2026-11-13T17:02:35+00:00",
       "collected_at": "2026-11-14T06:16:49+09:00"
+    },
+    {
+      "title": "Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon",
+      "link": "https://engineering.fb.com/2026/11/13/android/cuttlefish-on-mac/",
+      "source": "Meta Engineering",
+      "category": "Architecture",
+      "summary": "How Meta's Reality Labs brought Cuttlefish and its QEMU backend to macOS and Apple silicon. [...] Read More... The post Cuttlefish on Mac: Running Android’s Virtual Device Framework Natively on Apple Silicon appeared fi…",
+      "ts": 1794589239,
+      "published": "2026-11-13T17:00:39+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
       "title": "Keyword Search Tied an 8B Embedding Model at Picking Agent Tools",
@@ -5733,6 +6103,16 @@
       "collected_at": "2026-11-12T10:23:01+09:00"
     },
     {
+      "title": "Intelligent Delivery: Making Every Unit of Compute Serve Better Ads",
+      "link": "https://engineering.fb.com/2026/11/11/ml-applications/intelligent-delivery-serve-better-ads/",
+      "source": "Meta Engineering",
+      "category": "Architecture",
+      "summary": "Ads ranking models are growing toward LLM scale faster than the hardware to run them can keep up. An extra unit of compute has more impact on some ad requests, models, and chips than on others. The challenge is deciding…",
+      "ts": 1794416438,
+      "published": "2026-11-11T17:00:38+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "GitHub Makes Agentic Workflows Generally Available with Isolation and Budget Controls",
       "link": "https://www.infoq.com/news/2026/11/github-agentic-workflows-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
       "source": "InfoQ Architecture",
@@ -6221,6 +6601,26 @@
       "ts": 1794333600,
       "published": "2026-11-10T18:00:00+00:00",
       "collected_at": "2026-11-20T20:24:41+09:00"
+    },
+    {
+      "title": "Your Algorithm: Giving People More Ways to Personalize Facebook Recommendations",
+      "link": "https://engineering.fb.com/2026/11/10/ml-applications/your-algorithm-giving-people-more-ways-to-personalize-facebook-recommendations/",
+      "source": "Meta Engineering",
+      "category": "Architecture",
+      "summary": "Your algorithm is a suite of AI-powered tools that makes Facebook recommendations more transparent and steerable, with a single editable view of the interests that shape Feed and Reels. We’re sharing how Your algorithm…",
+      "ts": 1794330049,
+      "published": "2026-11-10T17:00:49+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "How We Built TLX: A Hardware-Native GPU Compiler for Production ML at Scale",
+      "link": "https://engineering.fb.com/2026/11/10/open-source/tlx-a-hardware-native-gpu-compiler-for-production-ml/",
+      "source": "Meta Engineering",
+      "category": "Architecture",
+      "summary": "Triton Low-Level Extensions (TLX), is an extension to Triton that helps engineers optimize GPU performance while preserving Triton’s productive programming model. TLX introduces explicit warp-group and cluster-level orc…",
+      "ts": 1794329971,
+      "published": "2026-11-10T16:59:31+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
       "title": "[release-branch.go1.27] go1.27.4",
@@ -6831,6 +7231,26 @@
       "ts": 1794243943,
       "published": "2026-11-09T17:05:43+00:00",
       "collected_at": "2026-11-10T03:30:33+09:00"
+    },
+    {
+      "title": "Fact-Checking at Scale: Building a More Accurate and Efficient Synopsis Factuality System",
+      "link": "https://netflixtechblog.com/fact-checking-at-scale-building-a-more-accurate-and-efficient-synopsis-factuality-system-d7d85859d808?source=rss----2615bd06b42e---4",
+      "source": "Netflix TechBlog",
+      "category": "Architecture",
+      "summary": "By Shreya S Ramanujam , Yongce Li , Afshine Amidi , Sina Ghiassian , Benjamin Klein . Introduction Picture this — you’re home after a long day at work and can’t wait to catch up on Bridgerton. You log on to Netflix, sea…",
+      "ts": 1794243662,
+      "published": "2026-11-09T17:01:02+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+      "link": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+      "source": "Meta Engineering",
+      "category": "Architecture",
+      "summary": "We built a vendor-neutral accelerator plugin architecture in lldb-server for debugging applications that span CPUs and GPUs. It separates shared debugger infrastructure from hardware-specific device control. The design…",
+      "ts": 1794243612,
+      "published": "2026-11-09T17:00:12+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
       "title": "Continuous Batching Beats Static and Dynamic by Up to 2.91× in vLLM",
@@ -8873,6 +9293,16 @@
       "collected_at": "2026-11-04T03:16:31+09:00"
     },
     {
+      "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+      "link": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
+      "source": "Meta Engineering",
+      "category": "Architecture",
+      "summary": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We fir…",
+      "ts": 1793725235,
+      "published": "2026-11-03T17:00:35+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "AI is destroying my CS degree",
       "link": "https://simonwillison.net/2026/Nov/3/hn-50354278/",
       "source": "Simon Willison",
@@ -10683,6 +11113,16 @@
       "collected_at": "2026-10-30T04:26:20+09:00"
     },
     {
+      "title": "Catching Bugs Before They Land: JiTTesting’s Human-on-the-Loop Approach at Full Scale",
+      "link": "https://engineering.fb.com/2026/10/29/security/catching-bugs-before-they-land-jittestings-human-on-the-loop-approach-at-full-scale/",
+      "source": "Meta Engineering",
+      "category": "Architecture",
+      "summary": "Over the last year we’ve been sharing our work leveraging large language models to catch bugs on the fly — a novel approach we call Catching Just-in-Time Tests (JiTTests). Now, we’re sharing the results and positive imp…",
+      "ts": 1793289612,
+      "published": "2026-10-29T16:00:12+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "Can Frontier Models See Past a Decoy? Elorian Tests Visual Reasoning",
       "link": "https://latent.space/p/elorian/",
       "source": "Latent Space",
@@ -12073,6 +12513,16 @@
       "collected_at": "2026-11-03T23:40:15+09:00"
     },
     {
+      "title": "tar-codec: a fast and secure tar parser for the Rust ecosystem",
+      "link": "https://astral.sh/blog/tar-codec",
+      "source": "Astral",
+      "category": "Python",
+      "summary": "We're releasing tar-codec, a new tar encoding/decoding library for Rust. tar-codec is already the default in uv, and improves uv's tar handling performance by over 2x while also improving our posture against archive dif…",
+      "ts": 1793059200,
+      "published": "2026-10-27T00:00:00+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "GPT-6.1 Terra",
       "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
       "source": "Simon Willison",
@@ -12183,6 +12633,16 @@
       "collected_at": "2026-10-27T07:26:40+09:00"
     },
     {
+      "title": "Making Failure Diagnosis Reliable with Pensive AI",
+      "link": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
+      "source": "Netflix TechBlog",
+      "category": "Architecture",
+      "summary": "By Praneeth Yenugutala , Victor Dusa , Anastasia Samoilova , Megan Ren , Justin Wei , Marcelo Mayworm At Netflix, data and machine learning practitioners run millions of workloads each day across orchestration systems a…",
+      "ts": 1793034297,
+      "published": "2026-10-26T17:04:57+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
       "title": "webframe: evaluated as a scraper and a sandbox",
       "link": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
       "source": "Simon Willison",
@@ -12193,264 +12653,14 @@
       "collected_at": "2026-10-27T10:53:14+09:00"
     },
     {
-      "title": "What Makes AI-Written Stories Feel Off?",
-      "link": "https://towardsdatascience.com/what-makes-ai-written-stories-feel-off/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "And how we can turn that feeling into insights The post What Makes AI-Written Stories Feel Off? appeared first on Towards Data Science .",
-      "ts": 1793028600,
-      "published": "2026-10-26T15:30:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Production AI and Engineering Team Design: InfoQ’s November Certification Cohorts",
-      "link": "https://www.infoq.com/news/2026/10/online-cohorts-nov-certification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "A preview of three November InfoQ online certification cohorts covering production AI systems, retrieval and agent design, engineering team flow, AI roles, and measurement, facilitated by Adi Polak, Lan Chu, and Olimpiu…",
-      "ts": 1793026800,
-      "published": "2026-10-26T15:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Production AI and Engineering Team Design: InfoQ’s November Certification Cohorts",
-      "link": "https://www.infoq.com/news/2026/10/online-cohorts-nov-certification/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
+      "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
+      "link": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4",
+      "source": "Netflix TechBlog",
       "category": "Architecture",
-      "summary": "A preview of three November InfoQ online certification cohorts covering production AI systems, retrieval and agent design, engineering team flow, AI roles, and measurement, facilitated by Adi Polak, Lan Chu, and Olimpiu…",
-      "ts": 1793026800,
-      "published": "2026-10-26T15:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Java News Roundup: JDK 28 Schedule, Oracle CPUs, eMudhra Certs, Apache POI, WildFly, Azul, BellSoft",
-      "link": "https://www.infoq.com/news/2026/10/java-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "This week's Java roundup for October 19th, 2026, features news highlighting: the proposed release schedule for JDK 28; the eMudhra Intermediate CA certificates breach; the October 2026 Critical Patch Update; Azul and Be…",
-      "ts": 1793025300,
-      "published": "2026-10-26T14:35:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Java News Roundup: JDK 28 Schedule, Oracle CPUs, eMudhra Certs, Apache POI, WildFly, Azul, BellSoft",
-      "link": "https://www.infoq.com/news/2026/10/java-news-roundup-oct19-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "This week's Java roundup for October 19th, 2026, features news highlighting: the proposed release schedule for JDK 28; the eMudhra Intermediate CA certificates breach; the October 2026 Critical Patch Update; Azul and Be…",
-      "ts": 1793025300,
-      "published": "2026-10-26T14:35:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Working with academic communities to build scientific understanding",
-      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "ts": 1793025000,
-      "published": "2026-10-26T14:30:00+00:00",
-      "collected_at": "2026-11-25T11:01:51+09:00"
-    },
-    {
-      "title": "Readyon Builds Four Layer Tenant Isolation for Multi Tenant Amazon EKS",
-      "link": "https://www.infoq.com/news/2026/10/readyon-four-layer-isolation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "ReadyOn has detailed a four-layer tenant isolation architecture for its Harmony platform on Amazon EKS. The design combines Kubernetes namespaces, dedicated Karpenter node pools, VPC security groups, and per-tenant Auro…",
-      "ts": 1793023620,
-      "published": "2026-10-26T14:07:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Single and Double Underscores in Python Names",
-      "link": "https://realpython.com/python-double-underscore/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn Python naming conventions with single and double underscores to design APIs, create safe classes, and prevent name clashes.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Python Protocols: Leveraging Structural Subtyping",
-      "link": "https://realpython.com/python-protocol/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how Python protocols bring static duck typing to your code and help you get the most out of type hints and static type checkers.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Build Command-Line Interfaces With Python's argparse",
-      "link": "https://realpython.com/command-line-interfaces-python-argparse/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Use Python's argparse module to build command-line interfaces for your scripts, with arguments, options, subcommands, and automatic help messages.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "How to Use Generators and yield in Python",
-      "link": "https://realpython.com/introduction-to-python-generators/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Build generator functions and generator expressions with the Python yield statement, and learn when lazy evaluation pays off.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Create a Flask Application With Google Login",
-      "link": "https://realpython.com/flask-google-login/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Build a Python Flask app with Google login so users can sign in with their Google account, and learn OAuth 2, OpenID Connect, and Flask-Login.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "13 Project Ideas for Intermediate Python Developers",
-      "link": "https://realpython.com/intermediate-python-project-ideas/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Try 13 Python project ideas for intermediate developers. Build web, GUI, and command-line apps that challenge you and make you a better Pythonista.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "ChromaDB: Embeddings and Vector Databases in Python",
-      "link": "https://realpython.com/chromadb-vector-database/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn what embeddings and vector databases are, then store, query, and filter text with ChromaDB in Python and use it to give an LLM context.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Managing Python Projects With uv: An All-in-One Solution",
-      "link": "https://realpython.com/python-uv/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to create and manage your Python projects using uv, an extremely fast Python package and project manager written in Rust.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "A Practical Introduction to Web Scraping in Python",
-      "link": "https://realpython.com/python-web-scraping-practical-introduction/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Get started with Python web scraping: parse data from websites and interact with HTML forms using Beautiful Soup and MechanicalSoup.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "The Roadmap to Becoming a Computer Vision Engineer in 2026",
-      "link": "https://www.kdnuggets.com/the-roadmap-to-becoming-a-computer-vision-engineer-in-2026",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "A four-stage technical roadmap for becoming a computer vision engineer, from spatial mathematics and ViTs through 3D neural rendering and edge deployment optimization.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Building Your First AI Agent in Python with the OpenAI Agents SDK",
-      "link": "https://www.kdnuggets.com/building-your-first-ai-agent-in-python-with-the-openai-agents-sdk",
-      "source": "KDnuggets",
-      "category": "Agents",
-      "summary": "Build your first AI agent in Python with the OpenAI Agents SDK, adding web search, Python tools, conversation memory, and tracing in a simple end-to-end workflow.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Opening the Box: Can Machine Learning Resolve Schrödinger’s Cat?",
-      "link": "https://towardsdatascience.com/opening-the-box-can-machine-learning-resolve-schrdingers-cat/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Neural networks won’t settle the measurement problem — but they are quietly changing how we see, predict and protect quantum superpositions. The post Opening the Box: Can Machine Learning Resolve Schrödinger’s Cat? appe…",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "AI for Beginners: Use Agents With Confidence",
-      "link": "https://realpython.com/courses/ai-agents-101/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how AI agents really work, from models and harnesses to context and skills, so you can get better results and stay in control.",
-      "ts": 1793023200,
-      "published": "2026-10-26T14:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Skepticism about the Reading the Mind in the Eyes Test",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/26/skepticism-about-the-reading-the-mind-in-the-eyes-test/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "The Reading the Mind in the Eyes Test (RMET), which we discussed the other day, has been critiqued in a series of papers: – Construct validity evidence reporting practices for the Reading the Mind in the Eyes Test: A sy…",
-      "ts": 1793022610,
-      "published": "2026-10-26T13:50:10+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
-      "link": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
-      "ts": 1793022300,
-      "published": "2026-10-26T13:45:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Anthropic S-1",
-      "link": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm Comments URL: https://news.ycombinator.com/item?id=50242939 Points: 939 # Comments: 862",
-      "ts": 1793019890,
-      "published": "2026-10-26T13:04:50+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
-      "link": "https://importai.substack.com/p/import-ai-478-math-for-alignment",
-      "source": "Import AI",
-      "category": "AI",
-      "summary": "What is “night” to a machine?",
-      "ts": 1793017912,
-      "published": "2026-10-26T12:31:52+00:00",
-      "collected_at": "2026-11-03T12:37:22+09:00"
-    },
-    {
-      "title": "Import AI 478: Math for alignment; ProgramBench; and Mirendil shows what RSI means",
-      "link": "https://jack-clark.net/2026/10/26/import-ai-478-math-for-alignment-programbench-and-mirendil-shows-what-rsi-means/",
-      "source": "Import AI",
-      "category": "AI",
-      "summary": "Welcome to Import AI, a newsletter about AI research. Import AI runs on arXiv, cappuccinos, and feedback from readers. If you’d like to support this, please subscribe. Subscribe now How math could help alignment:…What t…",
-      "ts": 1793017912,
-      "published": "2026-10-26T12:31:52+00:00",
-      "collected_at": "2026-11-20T21:11:08+09:00"
-    },
-    {
-      "title": "My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed",
-      "link": "https://towardsdatascience.com/my-machine-learning-pipeline-cheated-and-cross-validation-never-noticed/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "What an ID column, a date string, and a missing value taught me. The post My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed appeared first on Towards Data Science .",
-      "ts": 1793017800,
-      "published": "2026-10-26T12:30:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
+      "summary": "Serdar Cellat , Yuchen Xie , Bernadette Marcu , Blaid Burgess , Cody Jarrett , Carlos Pereira , Qing Shi , Samuel Carvajal , Manuel Pamplona , Dorothy Jung , Feiko Ritsema , Benjamin Klein , Alex Woo , Eugene Lok , Anna…",
+      "ts": 1793030462,
+      "published": "2026-10-26T16:01:02+00:00",
+      "collected_at": "2026-11-26T00:48:32+09:00"
     }
   ]
 }
