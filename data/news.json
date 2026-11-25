@@ -1,7 +1,97 @@
 {
-  "updated": "2026-11-25T12:29:23+09:00",
-  "count": 1250,
+  "updated": "2026-11-25T21:23:17+09:00",
+  "count": 1245,
   "items": [
+    {
+      "title": "Quiz: LLM Evaluation in Python: Build an Eval Harness From Scratch",
+      "link": "https://realpython.com/quizzes/llm-evaluation/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of LLM evaluation in Python, from rubrics and code checks to LLM judges, calibration, and release gates.",
+      "ts": 1795608000,
+      "published": "2026-11-25T12:00:00+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "A Second LLM Judge Hit 87.5% Precision but Left 21 of 33 for Humans",
+      "link": "https://towardsdatascience.com/a-second-llm-judge-hit-875-precision-but-left-21-of-33-for-humans/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Using Han and Kim's Chatbot Arena data, GPT-6 Luna and Claude Haiku 4.5 were tested as a panel, and Haiku alone matched users on 22 of 23 clear matchups. The post A Second LLM Judge Hit 87.5% Precision but Left 21 of 33…",
+      "ts": 1795608000,
+      "published": "2026-11-25T12:00:00+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "Presentation: Learning Out Loud (Under Near-Existential Pressure)",
+      "link": "https://www.infoq.com/presentations/ai-engineering-culture/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Laura Savino discusses the psychological friction of AI adoption for senior engineers & architects. She explains how shifting from static expertise to learning in public lowers anxiety, accelerates tooling fluency, and…",
+      "ts": 1795604400,
+      "published": "2026-11-25T11:00:00+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "An Indic Voice Agent with CUGA",
+      "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795602129,
+      "published": "2026-11-25T10:22:09+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "AI is straining America’s open records systems",
+      "link": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "source": "MIT Tech Review",
+      "category": "AI",
+      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During mo…",
+      "ts": 1795600800,
+      "published": "2026-11-25T10:00:00+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "디자인 시스템이 있는데도 화면은 왜 제각각일까?",
+      "link": "https://toss.tech/article/loan_review",
+      "source": "Toss Tech",
+      "category": "Architecture",
+      "summary": "복잡한 업무 툴의 화면이 제각각이 된 이유를 찾고, 일관성을 만들어 간 과정을 소개합니다.",
+      "ts": 1795593960,
+      "published": "2026-11-25T08:06:00+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "AWS Lambda Doubles Its Timeout to 30 Minutes After Eight Years at 15",
+      "link": "https://www.infoq.com/news/2026/11/aws-lambda-30-minute-timeout/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS has raised the maximum timeout of on-demand Lambda Event Functions from 15 to 30 minutes in all commercial regions, with no opt-in and no new pricing. The limit had stood since 2018. AWS's post lists the costs: twic…",
+      "ts": 1795590120,
+      "published": "2026-11-25T07:02:00+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "QCon San Francisco 2026: Automating Spark Upgrades with Codex Agents at OpenAI",
+      "link": "https://www.infoq.com/news/2026/11/openai-spark-fleet/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "At QCon San Francisco 2026, Mouli Mukherjee, Engineering Manager for Data Infrastructure at OpenAI, argued that AI agents are most useful not for rebuilding a data platform, but for the open-ended operational work that…",
+      "ts": 1795587600,
+      "published": "2026-11-25T06:20:00+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+      "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 24, 2026 — Neon beats Astra and Fable on LiveBench and cuts Theo’s TS Rust benchmark runtime by 48.6%.",
+      "ts": 1795580947,
+      "published": "2026-11-25T04:29:07+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
+    },
     {
       "title": "The Colorado Rockies are looking to hire an analyst. Ideally using Bayes and Stan:",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/24/the-colorado-rockies-are-looking-to-hire-an-analyst-ideally-using-bayes-and-stan/",
@@ -71,6 +161,16 @@
       "ts": 1795564800,
       "published": "2026-11-25T00:00:00+00:00",
       "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "JDK 28: New jlink Security Properties Plugin - Quality Outreach Heads-up",
+      "link": "https://inside.java/2026/11/25/quality-heads-up/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "This Heads-Up is part of the regular communication sent to the projects involved; it covers a new jlink plugin to set security properties in custom runtimes.",
+      "ts": 1795564800,
+      "published": "2026-11-25T00:00:00+00:00",
+      "collected_at": "2026-11-25T21:19:57+09:00"
     },
     {
       "title": "Survey Statistics: linking people",
@@ -12350,156 +12450,6 @@
       "summary": "What an ID column, a date string, and a missing value taught me. The post My Machine Learning Pipeline Cheated, and Cross-Validation Never Noticed appeared first on Towards Data Science .",
       "ts": 1793017800,
       "published": "2026-10-26T12:30:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Quiz: Working With APIs in Python: Reading Public Data",
-      "link": "https://realpython.com/quizzes/working-apis-reading-public-data/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of consuming REST APIs with Requests, from status codes and JSON to query parameters, authentication, and rate limits.",
-      "ts": 1793016000,
-      "published": "2026-10-26T12:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Quiz: Managing Python Projects With uv: An All-in-One Solution",
-      "link": "https://realpython.com/quizzes/python-uv/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "In this quiz, you'll test your understanding of the uv tool, a high-speed package and project manager for Python.",
-      "ts": 1793016000,
-      "published": "2026-10-26T12:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Quiz: How to Use Generators and yield in Python",
-      "link": "https://realpython.com/quizzes/generators-and-yield-in-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "In this quiz, you'll test your understanding of Python generators and the yield statement. With this knowledge, you'll be able to work with large datasets in a more Pythonic fashion, create generator functions and expre…",
-      "ts": 1793016000,
-      "published": "2026-10-26T12:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Quiz: A Practical Introduction to Web Scraping in Python",
-      "link": "https://realpython.com/quizzes/python-web-scraping-practical-introduction/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "In this quiz, you'll test your understanding of web scraping in Python. Web scraping is a powerful tool for data collection and analysis. By working through this quiz, you'll revisit how to parse website data using stri…",
-      "ts": 1793016000,
-      "published": "2026-10-26T12:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "7 Advanced Python Design Patterns for Data Scientists",
-      "link": "https://www.kdnuggets.com/7-advanced-python-design-patterns-for-data-scientists",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn seven design patterns for data science code, from Strategy and Adapter to Command and Proxy, each matched to the pressure it solves, with the Python shape it takes and the caveat that keeps it honest.",
-      "ts": 1793016000,
-      "published": "2026-10-26T12:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Article: The Evolution of Agentic Harnesses: From Chains to Graph to Code",
-      "link": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Agentic LLM systems have moved from linear prompt chains to graph-based workflows and, more recently, code-executing harnesses. Chains are simple but fragile, graphs add branching, retries, and validation, and code harn…",
-      "ts": 1793012400,
-      "published": "2026-10-26T11:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Article: The Evolution of Agentic Harnesses: From Chains to Graph to Code",
-      "link": "https://www.infoq.com/articles/agentic-ai-architecture-harness-evolution/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Agentic LLM systems have moved from linear prompt chains to graph-based workflows and, more recently, code-executing harnesses. Chains are simple but fragile, graphs add branching, retries, and validation, and code harn…",
-      "ts": 1793012400,
-      "published": "2026-10-26T11:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Claude Code vs. Cursor: What a Field Test Shows That the Feature Comparisons Miss",
-      "link": "https://towardsdatascience.com/claude-code-vs-cursor-what-a-field-test-shows-that-the-feature-comparisons-miss/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "One benchmark says Claude Code used 33,000 tokens where Cursor used 188,000. Another says the exact reverse. Here is the field test that actually settles it for your team. The post Claude Code vs. Cursor: What a Field T…",
-      "ts": 1793012400,
-      "published": "2026-10-26T11:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-auto-router/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it t…",
-      "ts": 1793010000,
-      "published": "2026-10-26T10:20:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "Cloudflare’s Auto Router Rates Each Request for Stakes, from the Most Recent Turns",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-auto-router/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has released Auto Router in public beta through AI Gateway, picking a model per request from a classifier that scores complexity, ambiguity, stakes and context dependence. Cloudflare’s own benchmark puts it t…",
-      "ts": 1793010000,
-      "published": "2026-10-26T10:20:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "ChatGPT’s expanding world of work",
-      "link": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
-      "ts": 1793008800,
-      "published": "2026-10-26T10:00:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "The focus on AI safety disasters ignores everyday harms",
-      "link": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Consider what passes for success in technology policy. An AI company promises that its chatbot will not encourage suicide. A social media platform makes it more difficult for children to buy fentanyl. These are importan…",
-      "ts": 1793005260,
-      "published": "2026-10-26T09:01:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "How Fanatics and OpenAI streamline the fan experience",
-      "link": "https://openai.com/index/fanatics-streamline-fan-experience",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
-      "ts": 1792998000,
-      "published": "2026-10-26T07:00:00+00:00",
-      "collected_at": "2026-10-27T02:10:22+09:00"
-    },
-    {
-      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
-      "link": "https://openai.com/index/openai-cut-incident-investigation",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
-      "ts": 1792998000,
-      "published": "2026-10-26T07:00:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Higher limits for organization projects",
-      "link": "https://blog.pypi.org/posts/2026-10-26-higher-limits-for-organization-projects/",
-      "source": "PyPI Blog",
-      "category": "Python",
-      "summary": "Projects owned by a PyPI organization now get higher limits by default: Personal projects Organization projects Largest file you can upload 100 MB 200 MB Total size of a project 10 GB 20 GB There's nothing to turn on. E…",
-      "ts": 1792994940,
-      "published": "2026-10-26T06:09:00+00:00",
       "collected_at": "2026-10-27T02:10:22+09:00"
     }
   ]

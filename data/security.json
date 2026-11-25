@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T09:54:18+09:00",
+  "updated": "2026-11-25T21:19:57+09:00",
   "count": 148,
   "items": [
     {
@@ -204,10 +204,10 @@
     {
       "ecosystem": "Spring",
       "source": "Spring Security",
-      "title": "cve-2026-59349 - HIGH - Spring Web Services Denial of Service via Unbounded Incoming Message Size",
+      "title": "cve-2026-59349 - MEDIUM - Spring Web Services Memory Consumption via Oversized Incoming Messages",
       "link": "https://spring.io/security/cve-2026-59349",
       "published": "2026-11-19T00:00:00+00:00",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "ids": [
         "CVE-2026-59349"
       ]
