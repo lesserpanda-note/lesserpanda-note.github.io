@@ -50,8 +50,8 @@ security-announce@python.org(Python), rust-lang/rust·cargo 의 GitHub 보안 �
 - **Spring**: Spring Blog (Spring Boot 릴리스 포함), Spring Security (CVE 권고)
 - **AI** (모델·LLM 트렌드 포함): OpenAI, DeepMind, Hugging Face, MIT Tech Review, InfoQ AI/ML, Anthropic, Ollama, Ahead of AI, Import AI, Hacker News (Grok / Llama / Anthropic), Transformers (라이브러리 릴리스)
 - **Agents**: Anthropic Engineering, MCP Blog, Simon Willison, Latent Space, Hacker News (Claude Code / 에이전트 / 컨텍스트 엔지니어링 / MCP), 프레임워크 릴리스 (MCP servers · LangGraph · Pydantic AI · OpenAI Agents SDK · LlamaIndex · CrewAI)
-- **Architecture**: InfoQ Architecture, Martin Fowler, Cloudflare, GitHub Security, 토스·카카오 기술블로그
-- **Python**: Real Python, Python Insider, PyPI Blog·Socket (공급망·보안)
+- **Architecture**: InfoQ Architecture, Martin Fowler, Cloudflare, GitHub Security, Netflix TechBlog, Meta Engineering, 토스·카카오·NAVER D2 기술블로그
+- **Python**: Real Python, Python Insider, Astral (uv·ruff), PyPI Blog·Socket (공급망·보안)
 - **DataScience**: KDnuggets, Towards Data Science, Statistical Modeling, NumPy·pandas (라이브러리 릴리스) — 실무 예측모델(scikit-learn·XGBoost·표 데이터·특성공학·통계기법). LLM·agent·RAG 글은 제목 기준으로 AI·Agents 에 자동 재분류(`reclassify`)한다.
 
 피드를 추가/제거하려면 `FEEDS` 리스트에 `(url, 출처명, 카테고리)` 항목을 넣으면 된다. 카테고리는 페이지 필터·그룹을 결정한다. DataScience 로 들어온 항목 중 제목이 LLM/agent/RAG 류이면 `reclassify` 가 AI·Agents 로 옮긴다(피드 단위 분류의 한계를 글 단위로 보정; 키워드 휴리스틱).
@@ -62,7 +62,7 @@ security-announce@python.org(Python), rust-lang/rust·cargo 의 GitHub 보안 �
 Actions**가 배치 역할을 한다. Pages Source는 "GitHub Actions"이고,
 `deploy.yml` 한 워크플로가 생성과 배포를 같이 한다:
 
-1. cron(6시간) · main push · 수동 실행 시 워크플로 실행
+1. cron(매시 17분 — 정각 예약은 GitHub이 자주 늦추거나 건너뜀) · main push · 수동 실행 시 워크플로 실행
 2. `fetch_news.py` 로 `data/news.json` 재생성
 3. 사이트 전체를 아티팩트로 묶어 `deploy-pages` 로 그대로 배포
 

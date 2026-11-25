@@ -11,7 +11,9 @@ on:
       - "data/news.json"        # our own news commits must not re-trigger a deploy
       - "data/security.json"    # same for the accumulated security advisories
   schedule:
-    - cron: "0 * * * *"        # refresh news every hour (UTC)
+    - cron: "17 * * * *"       # hourly, off the top of the hour: GitHub drops and delays
+                               # :00 schedules under load — "0 * * * *" ran 2-4 times a day
+                               # in 2026-11-21..25
   workflow_dispatch:
 
 permissions:
