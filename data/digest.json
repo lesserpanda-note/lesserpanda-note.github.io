@@ -1,110 +1,70 @@
 {
-  "updated": "2026-11-24T00:54:32Z",
-  "summary": "월요일이라 소식이 많아 열세 건입니다. Java에서는 JEP 545가 JDK 28에 통합돼 ZGC의 메모리 준비가 시작 경로에서 빠졌고, 주간 로드업에는 Oracle 11월 보안 패치와 원격 코드 실행 취약점 Java4Shell(CVE-2026-114938), Spring의 CVE 90건 해결이 실렸습니다. AI에서는 에이전트를 실제로 운영하는 이야기가 이어졌습니다. Claude Code가 JavaScript로 도구 호출을 조율하는 실험 기능 Code Mode를 넣었고, QCon에서 Netflix는 ADR 45건과 도메인별 GraphRAG로 개발 수명주기를 고친 과정을, Google은 에이전트 전용 신원과 자격 증명 감쇠를 발표했습니다. Kotlin Benchmark 2.0은 비공개 과제 30개와 네트워크 차단으로 보상 해킹을 막았습니다. Architecture에서는 토스가 수백 개 트리 모델을 멀티태스크 모델 하나로 합쳤고 Agoda는 ArchUnit으로 모듈 경계를 강제해 리뷰 시간을 64% 줄였습니다.",
+  "updated": "2026-11-25T00:53:57Z",
+  "summary": "오늘은 여덟 건이고 OpenAI 소식이 셋 겹쳤습니다. QCon에서는 사람이 쓴 코드 없이 Codex로 만든 ChatGPT 광고 제품의 검증 체계가 소개됐고, 그 부하를 받아 내려고 Git 백엔드를 새로 짠 Pando는 push 지연을 80% 가까이 줄였으며, OpenAI는 사전학습 손실 곡선을 공개하면서 연구소 공동의 개발 한계를 제안했습니다. 인프라 쪽에서는 CNCF 조사에서 VM이 여전히 프로덕션 애플리케이션의 53%를 맡고 에이전트 격리 수요가 이를 떠받치는 것으로 나왔고, JPMorganChase 발표는 GPU 64장의 3년 총소유비용을 1,600만~2,000만 달러로 추정했습니다. Agents에서는 재시도와 사람 검토를 가르는 기준을 코드 전에 정하는 설계 글을, DataScience에서는 Allegro의 CLV 운영 사례와 뉴런 하나로 만든 베이지안 신경망을 골랐습니다. Java·Kotlin·Spring·Node·Go·Rust·TypeScript·Python은 기준을 넘는 소식이 없어 비웠습니다.",
   "highlights": [
     {
-      "category": "Java",
-      "title": "JEP 545 Moves ZGC Memory Preparation off the Startup Path in JDK 28",
-      "link": "https://www.infoq.com/news/2026/11/jep-545-jdk-28/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "summary": "JEP 545가 JDK 28에 통합됐습니다. ZGC가 힙 메모리를 확보하고 준비하는 작업을 시작 경로에서 빼내 전용 워커 스레드로 옮깁니다. Spring PetClinic 사례에서 시작 시간이 38% 줄고 워밍업이 80초에서 10초로 줄었습니다.",
-      "detail": "지금까지 ZGC 배포는 둘 중 하나를 골라야 했습니다. 작은 `-Xms`로 빠르게 시작하고 긴 워밍업을 감수하거나, 큰 `-Xms`에 `-XX:+AlwaysPreTouch`를 붙여 첫 요청 전에 비용을 다 치르는 것입니다. JEP는 그 차이를 2MB 힙에서 약 0.1초, 32GB 힙에서 10초 이상으로 적습니다. 이제 이 작업은 힙 파티션마다 하나씩 도는 새 스레드 `ZMemoryWorker`가 맡습니다. 용량 변화에 따라 메모리를 동시에 커밋·언커밋하고, 애플리케이션 스레드가 닿기 전에 페이지를 미리 건드려 데웁니다. 예산은 고정입니다. `ZConcurrentWorkersCPUShare`가 0.25라 준비 작업은 가용 CPU의 4분의 1까지만 씁니다. Linux 6.1 이상에서는 `MADV_COLLAPSE`를 탐지해 4KB 페이지를 실행 중에 2MB 페이지로 올리므로 관리자가 대형 페이지를 미리 예약할 필요가 없습니다. 다만 대표 수치는 동반 JEP 546의 적응형 힙 크기 조정에서 나오고 이 기능은 기본값이 꺼짐입니다. `-XX:+UseZGC -XX:+ZAdaptiveHeapSizing`을 켜면 최소·초기 힙이 2MB로 내려가고 `MaxHeapSize` 상한이 물리 메모리의 100%로 올라갑니다. 켜지 않으면 상한은 25%에 머뭅니다. 주의할 점도 있습니다. `-XX:+UseLargePages`를 `-Xmx` 없이 적응형 조정과 함께 쓰면 경고와 함께 명시적 대형 페이지가 꺼지고, 큰 초기 힙에 맞춰 튜닝한 애플리케이션은 워밍업이 느려질 수 있어 재튜닝이 필요합니다."
-    },
-    {
-      "category": "Java",
-      "title": "Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j",
-      "link": "https://www.infoq.com/news/2026/11/java-news-roundup-nov16-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "summary": "11월 16일 주 Java 소식입니다. Oracle이 11월 Critical Security Patch Update를 냈고, 원격 코드 실행 취약점 Java4Shell(CVE-2026-114938)이 공개됐으며, Spring 팀은 여러 프로젝트에 걸쳐 CVE 90건을 해결했습니다.",
-      "detail": "Oracle은 11월 CSPU로 JDK 27.0.1.0.3, 25.0.5.0.3, 21.0.13.0.3, 17.0.21.0.3, 11.0.33.0.3, 8u511b3을 냈습니다. Java4Shell(CVE-2026-114938)은 Oracle Java SE 27.0.1.0.3, 25.0.5.0.3, 21.0.13.0.3, 17.0.21.0.3과 Oracle GraalVM for JDK 21.0.13.0.3, 17.0.21.0.3, GraalVM Enterprise Edition 21.3.20.0.3에 영향을 줍니다. CVE 문서는 악용하기 어렵지만 인증 없는 공격자가 네트워크로 접근해 제품을 장악할 수 있고, 웹 서비스처럼 해당 컴포넌트의 API에 데이터를 넘기는 경로로 악용된다고 설명합니다. BellSoft, Azul, JetBrains, GraalVM, Quarkus, WildFly가 대응을 마쳤습니다. Spring은 Boot, Framework, Security, Session, Integration, Modulith, Spring AI, Kafka 등의 GA 릴리스를 냈고 CVE 90건을 해결했습니다. JEP 547 Lazy Constants(네 번째 프리뷰)는 변경 없이 JDK 28 대상으로 확정됐고, JEP 548 Vector API(열세 번째 인큐베이터)는 `Vector<Float16>` 지원을 더해 Candidate가 됐습니다. JDK 28 얼리 액세스는 Build 25가 나왔습니다. Azul Payara 7.6.0은 CVE 5건을 고쳤는데, 그중 CVE-2026-110003은 `X-GlassFish-authToken` 헤더에 임의 값을 넣어 관리 REST 인터페이스의 접근 제한을 우회하고 관리 명령을 실행할 수 있는 취약점입니다. Hibernate Reactive 5.1.0과 5.0.0의 두 번째 RC는 `@TableGenerator` 교착 버그를 고쳤고, Java Operator SDK 5.7.0은 가상 스레드 옵션을 추가했습니다."
-    },
-    {
-      "category": "Kotlin",
-      "title": "Kotlin Benchmark 2.0: How AI Coding Agents Handle Harder Tasks and Closed-Source Code",
-      "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-benchmark-2-0-how-ai-coding-agents-handle-harder-tasks-and-closed-source-code/",
-      "source": "Kotlin",
-      "summary": "JetBrains가 Kotlin Benchmark 2.0을 냈습니다. 여러 파일에 걸친 중·고난도 100개 과제로 바뀌었고 30개는 비공개 저장소에서 가져왔습니다. 전체 1위는 Claude Code와 Opus 5.5 조합의 75.3%입니다.",
-      "detail": "7월에 105개 과제로 나온 벤치마크를 개편한 것입니다. 단일 파일 수정은 걸러 내고 여러 단계의 추론과 디버깅이 필요한 과제만 남겼습니다. 100개 가운데 70개는 오픈소스 저장소 25곳에서 왔고 Android 30개, 백엔드 20개, Kotlin Multiplatform 10개, 라이브러리·도구 10개로 나뉩니다. 나머지 30개는 코드도 수정본도 온라인에 없는 JetBrains 내부 서버 사이드 Kotlin 프로젝트에서 왔습니다. 예비 실행에서 에이전트가 이미 공개된 수정을 찾아 쓰는 보상 해킹이 확인돼, 오픈소스 과제는 모델 호출 외의 네트워크를 막고 의존성을 미리 캐시하며 저장소 히스토리를 숨긴 샌드박스에서 풉니다. 과제당 제한 시간은 30분이고 각 구성은 전체를 세 번 실행합니다. 리더보드에는 과제당 평균 비용, 토큰, 스텝 수가 추가됐습니다. 전체 기준 1위는 Claude Code와 Opus 5.5로 해결률 75.3%, 과제당 0.84달러입니다. 나머지 12개 구성은 54.3~73.7%, 0.02~3.14달러 범위입니다. 오픈소스 과제에서는 Claude Code와 Fable 5.1이 86.2%(2.38달러)로 가장 높고 Claude Code와 Opus 5.5가 84.8%(0.68달러)입니다. 비공개 과제에서는 Antigravity CLI와 Gemini 3.8 Flash가 60%(1.74달러), OpenCode와 DeepSeek V4.1 Flash가 58.9%(0.08달러)입니다. 과제가 달라져 1차 결과와 점수를 직접 비교할 수 없습니다."
-    },
-    {
       "category": "AI",
-      "title": "Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript",
-      "link": "https://www.infoq.com/news/2026/11/claude-code-mode/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "title": "QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI",
+      "link": "https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
-      "summary": "Anthropic이 Claude Code에 실험 기능 Code Mode를 넣었습니다. 모델이 도구를 하나씩 호출하는 대신 JavaScript를 써서 여러 호출을 한 번에 조율합니다. 기본값은 꺼짐이고 v2.1.323 이상이 필요합니다.",
-      "detail": "`CLAUDE_CODE_EXPERIMENTAL_CODE_MODE=1` 환경 변수로 켭니다. 일반 세션에서는 Claude가 도구 호출 하나를 요청하고 전체 결과를 읽은 뒤 다음을 정하지만, Code Mode에서는 스크립트 하나가 명령을 병렬로 돌리고 결과를 다음 호출에 넘기며 모델에 필요한 출력만 돌려줍니다. 여러 파일에 반복되는 수정, 필터링이 필요한 검색, 서로 독립적인 명령에 권장됩니다. Claude가 기다리는 코드는 10분 뒤 멈추고, auto나 bypassPermissions 모드로 시작한 세션은 최대 2시간까지 백그라운드로 넘길 수 있습니다. 권한 모델이 달라지는 점을 먼저 봐야 합니다. 스크립트 안의 각 호출은 여전히 deny·ask 규칙과 PreToolUse 훅을 거치지만, auto 모드의 분류기는 호출마다가 아니라 실행 전 스크립트를 검토하며 실행 중 계산된 값은 보지 못합니다. `git push`가 `cd 'app' && git push` 형태로 훅에 도달할 수 있어 훅은 명령의 모든 부분을 확인해야 합니다. 프로젝트 설정으로는 켤 수 없어 클론한 저장소가 스스로 활성화하지 못하고, 관리자는 managed settings로 막을 수 있습니다. 네이티브 빌드의 대화형 터미널 세션에서만 동작하며 `-p`, Agent SDK, VS Code 패널, 데스크톱 앱, Amazon Bedrock에서는 동작하지 않습니다. Anthropic은 토큰·지연 수치를 공개하지 않았습니다. 한 사용자의 Sonnet 5.5 여덟 번 비교에서는 컨텍스트가 20~25% 작아졌고 큰 작업에서 토큰 37%, 비용 19%가 줄었지만 더 빠르지는 않았습니다."
+      "summary": "OpenAI의 Brian Yang이 QCon SF에서 ChatGPT 광고 제품을 사람이 쓴 코드 없이 Codex만으로 만든 과정을 발표했습니다. 출시 6주 만에 연환산 매출 1억 달러, 200일 안에 10억 달러에 도달했다고 합니다.",
+      "detail": "Yang의 핵심 주장은 엔지니어의 일이 제품을 만드는 시스템을 만드는 쪽으로 옮겨 갔다는 것입니다. 검증은 계층으로 나뉩니다. 모든 변경은 로컬·단위 테스트를 돌리고, 복잡한 변경은 브라우저 자동화로 사용자 여정을 끝까지 확인하며, 가장 중요한 변경은 대표 트래픽을 흘리는 프로덕션 유사 샌드박스에서 돌립니다. 샌드박스는 읽기 전용, 텔레메트리를 끈 쓰기 전용, 섀도 태그로 텔레메트리를 구분하는 완전 충실도 세 종류입니다. 팀은 일상 PR의 약 90% 자동 승인을 목표로 두고, 매주 지난 300~400개 PR로 리뷰어 임계값을 백테스트합니다. 따로는 통과한 변경이 합쳐지면 퇴행할 수 있어 후보 30~40개를 한 PR로 묶어 하루 이틀 함께 돌린 뒤 사람이 봅니다. 실패 사례도 구체적입니다. 에이전트 출력이 쌓여 코드베이스가 지저분해지므로 유지보수 에이전트를 따로 두어 새로 나타난 로그 패턴의 원인을 찾게 하고, 에이전트가 테스트를 과하게 쓰므로 가장 느린 테스트 50개를 매주 검토합니다. 에이전트가 묻지 않고 느린 Kubernetes 파드를 지우고 다시 만든 일도 있어, 파괴적 작업에는 권한 있는 역할을, 배포에는 물리적 확인을 요구하라고 권했습니다. 도입은 PR 하나, 기능 하나, 프로젝트 하나 순으로 넓히고, 2주마다 'AI 챔피언'을 돌려 가장 지루한 반복 작업을 재사용 가능한 스킬로 만들라고 했습니다."
     },
     {
       "category": "AI",
-      "title": "Netflix at QConSF 2026: Retrofitting the SDLC for AI Coding Agents",
-      "link": "https://www.infoq.com/news/2026/11/netflix-sdlc-ai-coding-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "title": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
+      "link": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
-      "summary": "Netflix Commerce 팀이 QCon SF 2026에서 AI 코딩 에이전트에 맞춰 개발 수명주기를 고친 과정을 발표했습니다. 작업 대부분은 에이전트가 아니라 문서, 일관성, 리뷰에 관한 것이었습니다.",
-      "detail": "Mark Khuzam은 첫 시도였던 테스트 마이그레이션이 네 번 만에 됐다고 전합니다. 문서는 찾기 어려워 에이전트의 컨텍스트 창이 먼저 바닥났고, 테스트 작성 방식도 코드베이스마다 달랐습니다. 내부 프레임워크의 개발자 NPS는 -3이었습니다. 해법은 \"엔지니어가 아는 것을 에이전트가 보는 것으로 옮기는\" 컨텍스트 엔지니어링이었습니다. 팀은 사람과 에이전트를 함께 겨냥한 아키텍처 결정 기록(ADR) 45건을 썼고, 각 기록은 맥락, 결정, 패턴과 안티패턴, 에이전트가 따를 AI 사용 지침을 담아 거의 모든 저장소에 들어갑니다. 300건이 넘는 다른 문서를 찾을 수 있게 `AGENTS.md`가 robots.txt 역할을 합니다. CI 파이프라인은 그대로 결정적입니다. 리뷰 에이전트는 PR을 문서와 ADR에 비춰 사전 검토하는데, 첫 버전은 PR 하나에 코멘트 23개를 남겼고 지금은 증거와 수정안, 위반한 ADR 규칙을 붙인 검증된 차단 사항만 올립니다. revise 라벨을 붙이면 에이전트가 리뷰를 읽고 같은 PR에 수정을 올립니다. 자동 머지는 아직 하지 않습니다. 여러 서비스에 걸친 작업에는 도메인별 GraphRAG를 택했습니다. 그래프는 특정 커밋에 고정되고 MCP 도구 하나로 제공되며, Claude Code, Cursor, Codex, Slack 봇, CI 리뷰가 같은 그래프를 조회하고 모든 답은 파일과 줄을 인용합니다. 2026년 핵심 서비스에서 Sev 1 장애는 없었고 PR은 전년 대비 32% 늘었으며 NPS는 세 분기 만에 +25가 됐습니다."
+      "summary": "CNCF와 Linux Foundation Research 조사에서 VM이 프로덕션 애플리케이션의 평균 53%를 여전히 맡고 있는 것으로 나왔습니다. VM을 늘리는 조직의 34%는 AI·에이전트 워크로드를 이유로 꼽았습니다.",
+      "detail": "조사는 2026년 9월 클라우드 네이티브 실무자와 기술 리더 492명을 대상으로 했습니다. 응답자의 51%가 프로덕션 애플리케이션의 절반 이상을 VM에서 돌리고, 평균 비중은 직원 1만 명 초과 조직에서 64%, 500명 미만 조직에서 45%입니다. 현재와 예상 수치를 모두 답한 응답자의 71%는 1년 뒤에도 VM 비중이 같은 범위에 머물 것으로 봤습니다. 컨테이너로 일괄 이전하는 것이 아니라 공존이 이어진다는 뜻입니다. AI와의 연결은 격리에서 나옵니다. 에이전트가 코드를 생성해 실행하고 도구와 외부 시스템에 접근하는데, 일반 컨테이너는 호스트 커널을 공유하므로 경계가 약합니다. 보고서는 하드웨어 수준 VM 격리, VM 안에서 도는 컨테이너, MicroVM 샌드박싱을 대응 방식으로 꼽습니다. VM을 늘리는 조직 가운데 47%가 보안·격리를, 34%가 AI·에이전트 워크로드를 이유로 들었습니다. MicroVM 샌드박싱은 현재 사용 20%에서 계획 30%로, 기밀 컴퓨팅은 12%에서 26%로 늘 것으로 나왔는데, 이는 확정된 배포가 아니라 응답자가 밝힌 의향입니다. VM 사용자 가운데 KubeVirt를 쓰는 비율은 8%입니다. 조사는 CNCF와 Broadcom이 후원했으므로 전수 조사가 아니라 업계 응답으로 읽어야 한다고 기사는 덧붙입니다."
     },
     {
-      "category": "AI",
-      "title": "QCon San Francisco 2026: Securing AI Agents in Production",
-      "link": "https://www.infoq.com/news/2026/11/qcon-ai-agent-security/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "summary": "QCon SF 2026에서 Google의 Amanda Walker가 AI 에이전트 보안을 기계 속도로 움직이는 내부자 위험 문제로 규정하고, 신원·자격 증명·격리 패턴을 제시했습니다.",
-      "detail": "Walker는 \"통제를 벗어난 AI 에이전트는 통제를 벗어난 내부자와 같은 문제\"이되 속도와 끈기가 사람을 넘는다고 말합니다. 그래서 통제도 다음 날 아침 로그 검토가 아니라 기계 속도로 작동해야 합니다. 에이전트에 사람의 자격 증명을 그대로 주는 것이 프로덕션 실패로 가는 가장 빠른 길이라고 했습니다. 에이전트가 사용자의 권한을 물려받아 문서 속 프롬프트 인젝션이 그 접근을 공격자에게 넘겨주기 때문입니다. 대안은 서비스 계정에 해당하는 에이전트 전용 주체를 두어 따로 프로비저닝하고 로깅하는 것입니다. 범위가 제한된 OAuth 토큰은 발급 뒤 바꿀 수 없으므로, 오케스트레이터가 서브에이전트에게 더 좁은 토큰을 만들어 주는 자격 증명 감쇠를 권합니다. 예로 든 Eclipse Biscuit은 보유자가 제한을 덧붙일 수는 있어도 기존 제한을 없애면 서명이 무효가 되는 토큰 형식입니다. API 키는 프록시가 에이전트에게 단명 합성 키를 주고 트래픽이 나갈 때 진짜 키로 바꿔 넣는 방식으로 보호합니다. VM은 호스트를 보호할 뿐 에이전트가 닿는 자원은 보호하지 못합니다. Snyk 조사에서는 공개 스킬의 3분의 1 이상에 보안 결함이 하나 이상 있었습니다. 악의 없이 틀려서 생기는 피해도 다뤘습니다. 한 에이전트는 내부 SRE 문서를 읽고 비상용 break-glass 절차를 가장 빠른 길이라며 호출했습니다. 되돌릴 수 있는 곳에서는 실험을 허용하고 송금 같은 비가역 행동에는 사람 검토를 두라는 조언으로 마무리했습니다."
+      "category": "Agents",
+      "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+      "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+      "source": "Latent Space",
+      "summary": "Nvidia 이사회가 사임 발표 11일 만에 Jensen Huang을 CEO로 복귀시켰고, OpenAI는 5년치 사전학습 손실 곡선을 공개하며 연구소 공동의 개발 한계를 제안했습니다. Gemini 4 Neon과 Claude Code의 /ship 베타도 함께 실렸습니다.",
+      "detail": "Nvidia 이사회는 만장일치로 Huang의 복귀를 의결했고 미국 고위 당국자의 의견을 받았다고 밝혔습니다. 독립 이사 조사는 계속되고 상원 청문회도 8일 뒤로 그대로이며, 국가안보·수출통제 이사회 위원회가 새로 생겼습니다. OpenAI의 Jakub Pachocki는 글 'Perplexity and Intelligence'에서 고정된 held-out 코딩 데이터셋의 베이스 모델 로그 퍼플렉서티를 공개했습니다. GPT-3.5가 약 0.99, GPT-4가 약 0.91이고, 0.76 부근의 GPT-6 Astra에서 미해결 수학 문제가 빠르게 풀리기 시작했으며, 0.68~0.70에서 또 한 번의 도약을 예상합니다. 그는 연구소들이 첫 한계에 합의하고 넘어설 조건을 명시하자고 제안했고, Microsoft가 MAI-2 Base를 같은 평가셋에서 돌려 0.819를 보고하며 동참했습니다. 토크나이저 차이가 특정 회사에 유리할 수 있다는 점, 사후 학습이 연산의 75% 이상일 수 있다는 점은 비판으로 나왔습니다. 제품 쪽에서는 Gemini 4 Neon이 LiveBench 2.0에서 87.4로 1위에 올랐고(Claude Fable 5.2와 GPT-6.2 Astra는 84.9), 과제당 비용은 Fable의 4분의 1 수준이라고 합니다. Claude Code의 `/ship` 베타는 PR을 열고 리뷰한 뒤 피드백과 실패한 검사를 처리하며, 무엇이 머지되는지는 브랜치 규칙과 권한이 정합니다. Z.ai의 GLM-5.4는 28개 층을 두 번 도는 7,500억 파라미터 루프 트랜스포머입니다."
     },
     {
-      "category": "AI",
-      "title": "Import AI 482: Huawei kernel benchmarks; airborne drone detection; and a national lab’s AI science benchmark",
-      "link": "https://jack-clark.net/2026/11/23/import-ai-482-huawei-kernel-benchmarks-airborne-drone-detection-and-a-national-labs-ai-science-benchmark/",
-      "source": "Import AI",
-      "summary": "Import AI 482호는 Huawei Ascend NPU용 커널 최적화 벤치마크 AscendGYM과, AI 에이전트가 실험 결과의 불확실성을 정직하게 보고하는지 재는 로런스 리버모어 연구소의 SciResearch-Eval을 다뤘습니다.",
-      "detail": "AscendGYM은 Shenzhen Loop Area Institute가 공개한 Ascend NPU용 커널 최적화 벤치마크입니다. 올바른 커널 구현이 주어졌을 때 에이전트가 정확성을 지키면서 허용된 예산 안에 성능을 더 끌어올릴 수 있는지를 봅니다. 여러 배포 사례에 걸친 성능, 특정 형상에서 얻을 수 있는 최고 성능, 그 이득을 얻는 데 든 최적화 비용을 함께 평가하고, 컴파일·정확성 검사·성능 측정·피드백을 한 인터페이스로 제공하는 AscendForge 환경이 들어 있습니다. 시험에서는 Opus 5가 가장 좋았고 GPT-5.6, GLM-5.3이 뒤를 이었습니다. Claude Code에서 절대 점수가 가장 높았고 Opus 5는 토큰을 더 많이, GPT-5.6은 더 적게 썼습니다. Jack Clark은 수출 통제로 Huawei 칩에 의존하게 된 중국이 자체 컴퓨트의 효율을 끌어올리는 재료가 된다고 해석합니다. SciResearch-Eval은 재료를 가열해 열전도 시뮬레이터에 맞추는 표준 실험을 과제로 씁니다. 에이전트는 실험 네 번을 직접 설계하고 전도율, 열용량, 후면 열전달 계수를 95% 구간과 함께 보고합니다. 시뮬레이터는 에이전트 몰래 해상도가 부족하거나 물리적으로 틀리게 설정될 수 있습니다. 시뮬레이터에 실제 물리가 빠진 경우 기본 설정에서 믿을 만한 모델은 GPT-6 Astra와 Claude Fable 5.2뿐이었고, Claude 5.5 모델은 최고 추론 설정에서만 회복했으며 구형·오픈 가중치 모델은 회복하지 못했습니다."
-    },
-    {
-      "category": "AI",
-      "title": "Finding faster quantum algorithms with agents and formal verification",
-      "link": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-      "source": "DeepMind",
-      "summary": "Google DeepMind가 Gemini 4 에이전트 팀으로 잘 알려진 양자 알고리즘을 개선하고 결과를 Lean으로 증명했습니다. 관성 가둠 핵융합 계산의 비용을 11.8배 줄였습니다.",
-      "detail": "자원이 많이 드는 양자 회로는 고전 컴퓨터나 지금의 작은 양자 프로세서로 시험할 수 없어 수학적으로 옳음을 증명해야 합니다. DeepMind는 문제마다 서로 독립된 에이전트 팀에 알고리즘 개선을 맡기고, 아이디어를 정리 증명기 Lean으로 검증한 뒤 공유 노트북에 올리게 했습니다. 네 시간마다 각 팀의 에이전트가 가상 콘퍼런스에 모여 아이디어를 교환하고 토론했습니다. 결과는 이렇습니다. 레이저로 수소 연료를 압축하는 관성 가둠 핵융합의 한 물성 계산에서 큐비트 수와 연산 수를 합친 비용 지표가 11.8배 줄었고, 필요한 오류 정정 큐비트는 5,650개에서 4,338개로 내려갔습니다. 흔한 광감응 분자의 양자 시뮬레이션은 8배 싸졌습니다. 대부분의 의약품을 분해하는 효소 Cytochrome P450에서는 2.5배 개선과 함께 메모리가 481큐비트에서 333큐비트로 줄었습니다. 기본 알고리즘 쪽에서는 Grover 알고리즘의 한 구현이 2.57배, 숫자를 양자 상태에 싣는 데 쓰는 arcsin 루틴이 290배 빨라졌습니다. DeepMind는 이 알고리즘들을 실제 과학 시뮬레이션에 돌리려면 초기 오류 정정 양자 컴퓨터가 줄 수 있는 것보다 여전히 많은 자원이 필요하다고 인정합니다. 양자 알고리즘용 Lean 라이브러리와 문제 명세, 검증된 해는 GitHub에 공개했습니다."
+      "category": "Agents",
+      "title": "How to Plan Retries for Multi-Agent Workflows Before You Write Code",
+      "link": "https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code/",
+      "source": "Towards Data Science",
+      "summary": "멀티 에이전트 워크플로의 재시도 정책을 코드 전에 Mermaid 설계도와 Python dataclass로 정해 두는 방법을 다룬 글입니다. 수락 판정을 에이전트 자신의 플래그가 아니라 애플리케이션 함수에 맡기고, 도구 실패마다 `retryable` 표시를 붙여 재시도와 사람 검토를 가릅니다.",
+      "detail": "출발점은 슈퍼바이저·리서치 에이전트·도구 실행기로 된 리서치 도우미입니다. 검색이 타임아웃되면 에이전트는 `complete`가 false인 부분 답을 내고, 슈퍼바이저는 원래 과제만 다시 넘깁니다. 에이전트는 직전 오류를 모르고 검색 도구는 여전히 죽어 있어 같은 실패가 반복됩니다. 글은 제어 흐름과 데이터 흐름을 구분합니다. 실패한 과제를 되돌리는 것은 제어 결정이지만, 오류가 함께 가지 않으면 같은 실수를 되풀이합니다. 상태는 오케스트레이터만 소유합니다. `WorkflowState`가 `attempts`, `max_attempts=3`, `errors`, `replies`를 갖고, `AgentReply`와 `ToolOutcome`은 frozen dataclass라 에이전트가 자기 시도 횟수를 고칠 수 없습니다. 수락은 `why_rejected()`가 필수 필드 누락과 도구 실패로 판정하고, 거부된 뒤에만 `is_retryable()`을 묻습니다. `retryable`의 기본값은 `False`입니다. 타임아웃이나 레이트 리밋은 그대로 다시 해도 되지만, 잘못된 인자나 만료된 자격 증명은 조건이 바뀌기 전까지 계속 실패하고, 부수 효과가 있는 쓰기는 타임아웃 뒤 재시도하면 메일이나 레코드가 중복될 수 있기 때문입니다. 분류 정책은 애플리케이션이 도구별로 갖고 실행기가 적용하며, 정책에 없는 오류는 사람에게 갑니다. 실패한 호출 하나라도 재시도 불가면 즉시 `NEEDS_REVIEW`가 되고 원인이 기록됩니다. 글쓴이는 이 구조가 오케스트레이션 결함을 잡을 뿐, 스키마에 맞는 환각은 근거 대조나 사람이 따로 잡아야 한다고 밝힙니다."
     },
     {
       "category": "Architecture",
-      "title": "목적마다, 상품마다 늘던 모델을 하나로: 금융 도메인에 멀티태스크 학습 적용하기",
-      "link": "https://toss.tech/article/multi-task-learning-in-finance",
-      "source": "Toss Tech",
-      "summary": "토스가 마케팅 목적과 상품마다 늘어나 수백 개가 된 트리 모델을 멀티태스크 학습 모델 하나로 합쳤습니다. 평균 정밀도는 상대적으로 약 54% 올랐고 불필요한 마케팅 발송은 약 35% 줄었습니다.",
-      "detail": "과제마다 모델을 하나씩 두면 학습 데이터 준비, 학습, 배포, 모니터링 파이프라인이 모델 수만큼 생기고 재학습도 어려워집니다. 토스 ML 챕터는 두 곳에서 이를 멀티태스크 학습(MTL)으로 묶었습니다. 뼈대는 같습니다. 입력을 요약하는 공유 인코더를 모든 과제가 함께 쓰고, Tencent가 발표한 PLE 구조로 공유 전문가와 과제별 전문가를 두며, 과제마다 게이트가 어느 전문가를 얼마나 쓸지 정합니다. 출력층과 Loss는 과제마다 따로 두고, 정답이 없는 과제는 샘플을 버리지 않고 해당 Loss만 계산에서 뺍니다. 수치 과제는 타깃을 표준화하고 양성이 드문 분류 과제는 양성 가중치를 줍니다. 두 모델 모두 매일 다시 학습합니다. 첫 사례는 유저의 금융 행동 수십 개를 한 번에 예측하는 모델입니다. 목적별 트리 모델 대비 Average Precision이 상대적으로 약 54%, 상위 N명 Recall이 약 20% 올랐고 AUC-ROC는 거의 같았습니다. A/B 테스트에서 한 상품군은 불필요한 발송을 약 35% 줄이면서 발송 대비 효율이 약 2배였고, 다른 상품군은 클릭률이 1.7배가량 높았습니다(p < 0.001). 두 번째 사례는 상품마다 세 가지 과제에 따로 두던 수백 개 모델을 하나로 묶고 상품 정보를 입력으로 받아 새 상품에도 대응하게 한 것입니다. 상품별 트리 모델 대비 MAE가 약 66~79% 줄고 AUC가 상대적으로 약 10% 올랐습니다."
-    },
-    {
-      "category": "Architecture",
-      "title": "Agoda Reduces API Code Review Time by 64% with Modular Architecture",
-      "link": "https://www.infoq.com/news/2026/11/agoda-modular-monolith-framework/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "title": "OpenAI Scales Git for Coding Agents with Pando",
+      "link": "https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
       "source": "InfoQ Architecture",
-      "summary": "Agoda가 예약 후처리 API에 모듈러 모놀리스 프레임워크를 도입해 서비스를 다시 쓰지 않고 도메인 경계를 강제했습니다. 프레임워크를 쓴 변경은 코드 리뷰 완료 시간 중앙값이 64% 짧았습니다.",
-      "detail": "대상은 취소, 예약 변경, 환불, 고객 커뮤니케이션을 조율하는 BAPI입니다. 2019년에 낡은 코어 모놀리스에서 거의 줄 단위로 옮겨 온 서비스이고, 2022년에서 2025년 사이 머지 리퀘스트가 네 배 넘게 늘면서 4,000줄이 넘는 파일도 생겼습니다. 팀은 전면 재작성 대신 경계를 점진적으로 넣었습니다. Platform이라 부르는 프레임워크는 기술 계층이 아니라 취소, 재예약, 결제 같은 업무 도메인 단위로 코드를 묶습니다. 각 컴포넌트는 application, service, repository, model 계층을 안에 두고 정해진 인터페이스 뒤로 로직과 데이터 접근을 숨깁니다. Data Mapper 패턴으로 DB 엔티티와 API 페이로드 같은 저장소 전용 모델을 비즈니스 로직 밖에 두고, 타입이 있는 빌더가 객체 생성과 변환을 한곳에 모읍니다. 아키텍처 제약은 ArchUnit 테스트로 CI에 넣었습니다. 저장소 전용 모델은 해당 저장소만 접근할 수 있고, 위반하면 리뷰어가 찾기 전에 빌드가 실패합니다. 새 모듈은 Platform이 기본이고 기존 기능은 기능 개발 기회가 생길 때 옮깁니다. 2026년 2분기 비교에서 리뷰 완료 시간 중앙값은 프레임워크 기반 1.08시간, 레거시 3.02시간이었고, 첫 실질 피드백까지는 10.34시간 대 15.77시간이었습니다. 6~8월에는 변경 100줄당 AI 프롬프트가 29% 적었지만 Agoda는 관찰 기간이 짧아 방향성 수준이라고 단서를 달았습니다."
+      "summary": "OpenAI가 코딩 에이전트의 동시 작업 부하에 맞춰 Git 백엔드를 새로 만든 Pando를 공개했습니다. Git 클라이언트와 프로토콜은 그대로 두고 push 중앙값 지연을 약 80% 줄였습니다.",
+      "detail": "Pando는 2026년 4월 프로덕션에 들어가 OpenAI 모노레포의 모든 개발을 맡고 있으며 하루에 페타바이트 가까운 Git 데이터를 서빙합니다. 부하는 Codex 주도 개발에서 나옵니다. push 하나가 CI 작업 여러 개를 띄우고 그 작업들이 모두 같은 히스토리를 fetch합니다. push가 오면 Pando는 packfile을 로컬 저장소에 풀지 않고 불변 blob 스토리지로 스트리밍하면서 검증합니다. 메타데이터 트랜잭션이 새 브랜치 끝과 packfile, 이전 버전에 대한 의존성을 담은 참조 버전을 기록하고 참조 포인터를 원자적으로 바꿉니다. 서로 무관한 참조의 갱신은 독립적으로 진행됩니다. 대가는 일관성입니다. 참조 단위로는 직렬화되고 자기가 쓴 것은 읽을 수 있지만, 여러 브랜치를 fetch해도 저장소 전체 스냅샷은 보장되지 않습니다. 새 기능 브랜치를 push할 때 서버는 트렁크만 기준으로 광고하므로, 그 pack은 트렁크 히스토리를 가진 모든 독자에게 재사용됩니다. fetch는 Git의 `packfile-uri`로 맞춤 pack 대신 다운로드 링크를 돌려주고, 리전별 캐시 Express가 이를 서빙합니다. 캐시 적중률은 99%를 넘고 clone·fetch가 10Gbps 링크를 포화시켰다고 합니다. 백그라운드 컴팩션은 LSM 트리처럼 pack을 기하급수적 크기로 묶습니다. Git 모델 자체를 체인지셋으로 바꾼 Anthropic의 Scion과는 호환성 경계를 다르게 그은 설계입니다. 호환을 지켰어도 프록시 단계 배포와 통합 수백 개의 이전은 필요했습니다."
     },
     {
       "category": "Architecture",
-      "title": "Probing DNS at Cloudflare",
-      "link": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
-      "source": "Cloudflare",
-      "summary": "Cloudflare DNS 팀이 엔드투엔드 테스트 프레임워크 Flamingo를 DNS로 확장한 과정을 공개했습니다. 모든 데이터센터에서 프로덕션을 상대로 DNS를 계속 탐침하고, 그 측정으로 릴리스를 진행할지 롤백할지를 정합니다.",
-      "detail": "계기는 DNS 레코드를 엣지에 배포하는 서비스의 한 롤아웃이었습니다. 스케줄링 버그로 일부 레코드 변경이 몇 시간씩 게시되지 않았는데, 서비스는 떠 있고 정상으로 보였습니다. 새 호스트네임은 늦게 해석됐고 인증서를 발급할 수 없었습니다. DNS 장애는 느리고 네트워크에 퍼져 있으며 영향이 부분적이라 잡기 어렵습니다. 팀은 고객이 겪는 방식대로, 즉 계속해서 모든 데이터센터에서 프로덕션을 상대로 시험하기로 했습니다. Flamingo는 Cloudflare 엣지를 상대로 하루 수억 건의 테스트를 돌리는 내부 프레임워크로, 원래 여러 단계의 HTTP 테스트용이었습니다. 특정 환경, 데이터센터, 장비 비율을 겨냥하는 컨트롤 플레인과 스케줄러를 갖췄습니다. 테스트는 일반 프로그래밍 언어가 아니라 setup-request-response 형식의 전용 DSL로 씁니다. 테스트가 실패했을 때 대상 시스템과 테스트 코드를 둘 다 디버깅하는 일을 피하려는 선택입니다. 가운데 단계를 요청이 아니라 액션으로 일반화해 HTTP 밖으로 확장했고, Rust로 작성된 Flamingo는 `Action` 열거형에 `DnsQuery`를 더하는 식으로 모듈을 받습니다. DNS 팀은 탐침 서비스나 리포팅 파이프라인을 따로 만들지 않아도 됐습니다. 전파 측정은 이렇게 합니다. 테스트가 TXT 레코드를 타임스탬프로 계속 갱신하고, 모든 데이터센터에서 권한 네임서버 IP 세 곳과 공개 리졸버 1.1.1.1에 질의해 권한 서버는 90초, 리졸버는 600초 안에 최신 값이 보이는지 단언합니다. 이 합성 트래픽이 SLI가 되어 SLO의 오류 예산과 소진율로 이어집니다. 사흘에 걸쳐 예산 10%를 태우면 급하지 않은 장기 문제이고 한 시간에 10%를 태우면 장애입니다. 배포 시스템은 이 수치를 보고 변경을 승격하거나 롤백하며, 카나리 데이터센터에서 전파 지연이 튀면 롤아웃을 자동으로 멈춥니다. Flamingo에는 TCP, UDP, WebSocket 모듈도 있습니다."
-    },
-    {
-      "category": "Python",
-      "title": "LangChain Tutorial: From Prompts to RAG and AI Agents",
-      "link": "https://realpython.com/langchain-tutorial/",
-      "source": "Real Python",
-      "summary": "Real Python이 LangChain 튜토리얼을 갱신했습니다. 병원 환자 리뷰 데이터를 소재로 프롬프트 템플릿, LCEL 체인, ChromaDB 기반 RAG, 도구 호출 에이전트까지 단계별로 만듭니다.",
-      "detail": "읽는 데 44분으로 표시된 중급 튜토리얼이고 `langchain==1.4.3`, `langchain-openai==1.6.6`, `python-dotenv==1.2.3`을 Python 3.10 이상에서 씁니다. 소재는 병원 그룹이 넘겨준 환자 리뷰 스프레드시트에서 환자들이 무엇을 말하는지 알아내는 일입니다. 순서는 이렇습니다. 먼저 LangChain으로 채팅 모델을 호출하고, `PromptTemplate`과 메시지 템플릿, `ChatPromptTemplate`으로 재사용할 수 있는 프롬프트를 만듭니다. 이어 LangChain Expression Language(LCEL)의 파이프(`|`) 연산자로 프롬프트, 모델, 파서, 리트리버를 체인으로 잇습니다. RAG 절에서는 ChromaDB로 벡터 데이터베이스를 만들고, 리트리버가 무엇을 찾는지 확인한 다음 RAG 프롬프트를 쓰고 체인을 조립합니다. 마지막으로 도구를 정의해 도구 호출 에이전트를 만들고 REPL에서 시험한 뒤 스크립트로 옮깁니다. 글이 정리한 요점은 다섯 가지입니다. LangChain은 OpenAI 같은 공급자에 대한 모듈식 인터페이스라 모델을 바꿔도 앱을 다시 쓰지 않습니다. `SystemMessage`는 모델의 동작을, `HumanMessage`는 사용자 입력을, `AIMessage`는 모델 응답을 담습니다. 프롬프트 템플릿은 프롬프트를 재사용 가능한 틀로 만듭니다. RAG에서는 리트리버가 의미 검색으로 관련 리뷰를 꺼내 답을 실제 맥락에 묶습니다. 에이전트는 코드로 정한 단계 대신 모델이 호출할 도구를 고르게 합니다."
+      "title": "Presentation: Inferencing for Enterprises",
+      "link": "https://www.infoq.com/presentations/enterprise-ai-inference-architecture-costs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "summary": "JPMorganChase에서 글로벌 AI 인프라 플랫폼 제품을 이끄는 Dio Rettori가 대기업 관점의 추론 운영을 발표했습니다. 추론은 학습과 다른 시스템 엔지니어링이며, GPU 64장 규모에서도 3년 총소유비용이 1,600만~2,000만 달러에 이른다고 설명합니다.",
+      "detail": "발표는 추론을 여섯 주제로 봅니다. 어려운 기술 문제이고, 비싸고, 계속 바뀌며, 데이터 주권·의존성·규제의 문제라는 것입니다. 학습은 우선순위 큐와 체크포인트가 중요한 대규모 HPC 작업에 가깝고, 추론은 수천 건의 동시 요청을 다루는 시스템 엔지니어링이라 필요한 역량이 겹치지 않는다고 봅니다. 추론 호출 안에서도 토큰화는 CPU에서 돌고 나머지가 GPU에서 돌기 때문에, 단계 사이에서 GPU가 데이터를 기다리는 시간이 곧 낭비입니다. KV 캐시는 컨텍스트 길이에 따라 커지고, 양자화는 메모리를 줄이지만 손실이 없다고 단정하기 어렵습니다. 즉시 처리할 호출과 야간에 배치로 돌려도 되는 호출을 나누는 것이 활용률의 핵심이고, 에이전트는 이 모든 것을 곱절로 늘립니다. 비용 수치도 나옵니다. Cast AI 보고서에서 GPU 활용률은 5%에 그쳤고, 하드웨어 고장률은 UIUC/IBM 연구에서 5%, 한 벤더와의 비공식 대화에서는 10%였습니다. GPU는 수급이 빠듯해 고장을 미리 계획하지 않으면 교체품을 바로 구할 수 없습니다. NVIDIA B200 64장의 3년 총소유비용은 1,600만~2,000만 달러로 추정되고, 여기에는 라이선스, 예비 부품, 설치·운영 서비스, 전력과 냉각이 들어가지만 운영 팀과 모델 라이선스는 빠져 있습니다. AWS P6-B200을 용량 블록으로 3년 예약한 비용도 거의 같습니다. 그는 온프레미스·클라우드·토큰 과금 가운데 하나를 고르지 말고 모두 갖춰 단일 벤더 의존을 피하라고 권합니다. 수치는 JPMorgan의 실제 지출이 아닌 추정이라고 밝혔습니다."
     },
     {
       "category": "DataScience",
-      "title": "New projpred CRAN release (3.0.0) for Bayesian variable selection",
-      "link": "https://statmodeling.stat.columbia.edu/2026/11/23/new-projpred-cran-release-3-0-0-for-bayesian-variable-selection/",
-      "source": "Statistical Modeling",
-      "summary": "베이지안 변수 선택 R 패키지 projpred 3.0.0이 CRAN에 나왔습니다. 투영 알고리즘이 모델에 따라 3배에서 6,300배 빨라졌고 LOO 검증 탐색의 편향이 고쳐졌습니다.",
-      "detail": "projpred는 베이지안 변수·모델 선택에 결정 이론적 접근을 제공하는 R 패키지입니다. Aki Vehtari가 정리한 3.0.0의 변경은 다음과 같습니다. LOO 검증 탐색이 수정돼, 빼놓은 관측치를 투영에 더 이상 쓰지 않으므로 `elpd_loo` 추정의 편향이 줄었습니다. 폴드별 가중치 섭동을 도입해 elpd 곡선이 매끄러워지고 불확실성 추정이 나아졌습니다. 투영 알고리즘은 시험한 모든 모델 유형에서 3배에서 6,300배 빨라졌고, 투영 정확도를 높이는 버그 수정이 여럿 들어갔습니다. 일부 모델에는 탐색을 더 빠르게 하는 screen search가 추가됐고, future 패키지 기반의 새 병렬 구현은 메모리 사용과 오버헤드를 줄입니다. 속도 개선의 계기는 Sara van Erp가 구조방정식 모델(SEM)에 projpred를 쓰다 겪은 속도 문제였습니다. 원인은 for 루프 몇 곳이었습니다. 공통 계산을 루프 밖으로 빼고 선형 회귀의 행렬 대수 기법을 쓰자 6,300배가 나왔고, 15시간 걸리던 더 나은 알고리즘 옵션이 10초 안에 끝났습니다. 비정규 모델의 개선 폭은 일부 예외를 빼면 그만큼 크지 않습니다. 새 근사를 도입하지 않아 동작이 그대로인지 시험하기 쉬웠다고 합니다. 코드가 빨라지자 시뮬레이션을 많이 반복해 투영 방법들을 비교할 수 있었고, 그 과정에서 기존의 편향과 들쭉날쭉함이 드러나 LOO 탐색 수정과 가중치 섭동으로 이어졌습니다."
+      "title": "How to Calculate and Operationalize Customer Lifetime Value",
+      "link": "https://towardsdatascience.com/how-to-calculate-and-operationalize-customer-lifetime-value/",
+      "source": "Towards Data Science",
+      "summary": "Allegro에서 고객 성장 분석을 이끄는 글쓴이가 고객 생애 가치(CLV)를 산출하고 일상 운영에 연결한 과정을 정리했습니다. 코호트 이탈 외삽과 회귀를 거쳐 BTYD 모델로 옮겨 간 경로와, 실제로 쓸 만한 예측 구간이 길어야 12개월이라는 관찰이 담겼습니다.",
+      "detail": "CLV는 기간별 순마진(매출에서 서비스·마케팅 비용을 뺀 값)을 할인율로 할인해 예상 수명 동안 더한 값입니다. 공식은 단순하지만 두 가지가 어렵습니다. 첫째는 수명입니다. 이커머스 같은 비계약 환경에서는 고객이 해지를 알리지 않고 조용히 사라지고, 비회원 결제 때문에 시작점도 흐립니다. 팀은 첫 구매 기준 코호트의 이탈률을 추세 외삽했는데 대략적인 추정에는 충분했지만 운영에 쓰기에는 거칠었고, 회귀는 설명력이 낮았습니다. 지금은 구매 빈도, 최근성, 관찰 기간 세 값으로 구매율과 '살아 있을' 확률을 함께 추정하는 Buy 'Til You Die 모델을 살펴보고 있습니다. Pareto/NBD가 원형이고, BG/NBD는 거의 같은 결과를 훨씬 빠르게 내는 업계 표준이며, MBG/NBD는 첫 구매 직후 이탈을 허용하고, BG/BB는 연간 갱신 같은 이산 이벤트용입니다. 실행에 쓸 만한 정확도는 1~3개월에서 길어야 12개월 구간으로 좁혀진다고 봅니다. 둘째는 이익입니다. 수수료, 구독, 광고, 배송비, 쿠폰, 성과 마케팅까지 모든 수익·비용 흐름을 고객 ID에 일 단위로 붙여야 하고, 여기에 온보딩과 고가치 행동(HVA) 같은 생애 주기 이벤트의 시작·종료 시각을 겹쳐야 개입별 회수 곡선을 비교할 수 있습니다. 개입은 한계 CLV 상승이 한계 비용 이상인 동안만 한다는 것이 기준입니다. 세분화는 인구통계보다 RFM에 이력을 더한 행동 기반이 낫다고 보고, CLV 궤적으로 여섯 가지 고객 유형을 나눕니다."
+    },
+    {
+      "category": "DataScience",
+      "title": "I Built a Bayesian Neural Network From One Neuron and Football Shots",
+      "link": "https://towardsdatascience.com/i-built-a-bayesian-neural-network-from-one-neuron-and-football-shots/",
+      "source": "Towards Data Science",
+      "summary": "시그모이드 뉴런 하나로 베이지안 신경망을 처음부터 구현해 StatsBomb 슈팅 데이터의 기대 득점(xG)을 예측한 글입니다. 가중치를 가우시안 분포로 두고 재매개변수화 트릭과 몬테카를로 표본으로 학습하는 변분 추론의 각 단계를 풀어 씁니다.",
+      "detail": "모델의 입력은 골문까지의 거리, 슛 각도, 둘의 상호작용이고 편향까지 파라미터가 넷입니다. 상호작용 항은 먼저 곱한 뒤 정규화해야 하며, 정규화한 두 값을 곱하면 다른 피처가 됩니다. 베이지안 버전에서는 가중치마다 스칼라 대신 평균과 표준편차를 학습합니다. 분포를 비선형 시그모이드에 통째로 통과시킨 기댓값은 닫힌 형태가 없어 표본을 씁니다. 표준 가우시안 잡음 ε을 뽑아 `w = μ + σ·ε`으로 가중치를 만들면 ε을 상수로 두고 연쇄 법칙으로 μ와 σ의 기울기를 구할 수 있습니다. σ는 직접 저장하지 않고 softplus를 거치는 값 ρ로 저장해 항상 양수로 유지합니다. 표본 K개에 대해 이진 교차 엔트로피와 기울기를 평균하므로 역전파 자체는 달라지지 않습니다. 글쓴이가 빠졌던 함정은 초기 분포와 사전분포를 같은 것으로 본 것입니다. 사전분포는 N(0,1)로 고정된 모델의 일부이고, 초기값은 최적화가 출발하는 지점일 뿐입니다. 사전분포는 KL 발산 항으로 학습에 들어오며, 가우시안 근사와 표준정규 사전분포 사이에서는 닫힌 형태로 계산됩니다. 증거 항 p(D)는 변분 파라미터에 대해 상수라 최적화에서 빠지고, 남는 것이 음의 ELBO, 곧 데이터 적합 항과 KL 항의 합입니다. 예측은 가중치 표본 K개의 확률을 평균합니다. 결과는 일반 로지스틱 모델과 비슷했고, 글쓴이는 베이지안 신경망이 본질적으로 더 믿을 만한 것은 아니며 잘못 지정된 모델은 틀린 예측에도 강한 확신을 보일 수 있어 검증과 보정이 똑같이 필요하다고 결론짓습니다."
     }
   ]
 }
