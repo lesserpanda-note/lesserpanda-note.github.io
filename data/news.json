@@ -1,7 +1,127 @@
 {
-  "updated": "2026-11-25T02:14:32+09:00",
-  "count": 1237,
+  "updated": "2026-11-25T09:55:01+09:00",
+  "count": 1247,
   "items": [
+    {
+      "title": "v2.74.0 (2026-11-24)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.74.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security GHSA-wm3r-gc4c-q7qg (medium, CVE-2026-136639): Pydantic AI Harness's PlaywrightBrowser private-address block did not refuse IPv6 site-local addresses ( fec0::/10 ), so on a network that still…",
+      "ts": 1795567436,
+      "published": "2026-11-25T00:43:56+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "v1.107.11 (2026-11-24)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v1.107.11",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed 🛡️ Security GHSA-7xcv-6766-v6v5 (medium, CVE-2026-136643): Online evaluation let OpenTelemetry baggage in the current context set attributes on its gen_ai.evaluation.result events that the evaluation left…",
+      "ts": 1795567436,
+      "published": "2026-11-25T00:43:56+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Put the structure of your Spring Boot service in a YAML model: architecture changes, AI coding and BI from one source",
+      "link": "https://foojay.io/today/one-yaml-model-for-spring-boot-architecture-ai-coding-bi/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A YAML domain model that regenerates the Spring Boot code when the architecture or stack changes, keeps AI-written code consistent, and exports an Apache Ossie model for BI.",
+      "ts": 1795564800,
+      "published": "2026-11-25T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Java4Shell: Are We Exposed? And What It Tells Us About What's Coming",
+      "link": "https://foojay.io/today/java4shell-are-we-exposed/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Trace Java4Shell from container image to running host, see where scanners stop, and what it says about AI-scale discovery, EOL, NVD and SBOMs.",
+      "ts": 1795564800,
+      "published": "2026-11-25T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Feature Toggles in Java, Without the If-Else",
+      "link": "https://foojay.io/today/feature-toggles-in-java-without-the-if-else/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Why the usual if-else feature toggle turns into debt, how to design toggles cleanly in Java, and how Flipjack moves the decision out of your code.",
+      "ts": 1795564800,
+      "published": "2026-11-25T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Driving FFmpeg from Java Without Deadlocks or Broken Files",
+      "link": "https://foojay.io/today/driving-ffmpeg-from-java/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "ProcessBuilder and FFmpeg on JDK 21+: the stderr pipe deadlock, ffprobe JSON into records, live progress, clean cancellation and parallel encodes.",
+      "ts": 1795564800,
+      "published": "2026-11-25T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Survey Statistics: linking people",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/24/survey-statistics-linking-people/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "In 2011, while taking Alan Zaslavsky‘s survey course, I had just started talking to folks at the Human Rights Data Analysis Group (HRDAG). I saw their work using overlaps among data sources to estimate numbers of missin…",
+      "ts": 1795562965,
+      "published": "2026-11-24T23:29:25+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Three LLM inflection points in twelve months",
+      "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "I gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve m…",
+      "ts": 1795561327,
+      "published": "2026-11-24T23:02:07+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Launch HN: Versine (YC F26) – MCP to send and receive money",
+      "link": "https://news.ycombinator.com/item?id=50634426",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Hey HN, we’re Harshith, Param, and Vishnu and we're building Versine ( https://versine.com ). Versine lets you send and request money just by talking or texting with your AI (think Venmo with an MCP). We’re software eng…",
+      "ts": 1795553055,
+      "published": "2026-11-24T20:44:15+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+      "link": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026 Comments URL: https://news.ycombinator.com/item?id=50632756 Points: 84 # Comments: 88",
+      "ts": 1795546512,
+      "published": "2026-11-24T18:55:12+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Socket Releases Free Patches for 100% of Critical CVEs in RubyGems",
+      "link": "https://socket.dev/blog/free-patches-critical-ruby-cves?utm_medium=feed",
+      "source": "Socket",
+      "category": "Python",
+      "summary": "Fix critical RubyGems vulnerabilities without upgrading dependencies. Free security patches are now available with more ways to install and deploy them.",
+      "ts": 1795544834,
+      "published": "2026-11-24T18:27:14+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Anthropic Staff Openly Talk About ‘Taking Over the World’, Claims Max Tegmark",
+      "link": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/ Comments URL: https://news.ycombinator.com/item?id=50631210 Points: 199 # Comments: 104",
+      "ts": 1795540245,
+      "published": "2026-11-24T17:10:45+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
     {
       "title": "How to Run Inkling 2 Mini Locally on an RTX 3090 Using Unsloth Studio",
       "link": "https://www.kdnuggets.com/how-to-run-inkling-2-mini-locally-on-an-rtx-3090-using-unsloth-studio",
@@ -11,6 +131,26 @@
       "ts": 1795539600,
       "published": "2026-11-24T17:00:00+00:00",
       "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "link": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "GPT 6.2 Astra Solves a Historical Mystery Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries: With only minimal prompting, GPT-6.2 Astra was able to au…",
+      "ts": 1795539239,
+      "published": "2026-11-24T16:53:59+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
+      "link": "https://news.ycombinator.com/item?id=50630809",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Basically the title. Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models. Our only usage which I think could get us flagged is automated regression ben…",
+      "ts": 1795538744,
+      "published": "2026-11-24T16:45:44+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
     },
     {
       "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
@@ -143,6 +283,16 @@
       "collected_at": "2026-11-25T02:13:59+09:00"
     },
     {
+      "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "link": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "GPT-6 models design protein structures and sequences using reasoning and code. Lab tests found evidence of binding across five targets.",
+      "ts": 1795525200,
+      "published": "2026-11-24T13:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
       "title": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
       "link": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -213,6 +363,16 @@
       "collected_at": "2026-11-25T02:13:59+09:00"
     },
     {
+      "title": "Searching for distant planets with Astra",
+      "link": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "See how two amateur astronomers used Codex and Astra to find potential exoplanets in public data from NASA’s Kepler and TESS space telescopes.",
+      "ts": 1795518000,
+      "published": "2026-11-24T11:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
       "title": "Article: Engineering Around Non-Determinism: Evals, Grounding, and Release Gates for AI-Drafted Suspicious Reports",
       "link": "https://www.infoq.com/articles/llm-agent-architecture-evals-grounding/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
       "source": "InfoQ AI/ML",
@@ -231,6 +391,16 @@
       "ts": 1795512600,
       "published": "2026-11-24T09:30:00+00:00",
       "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "Two Years of MCP Builders",
+      "link": "https://blog.modelcontextprotocol.io/posts/mcp-turns-two/",
+      "source": "MCP Blog",
+      "category": "Agents",
+      "summary": "This week, our little open-source project, the Model Context Protocol (MCP), turns two years old . And what better way to mark this occasion than by celebrating the people who helped us build it and everyone building wi…",
+      "ts": 1795510800,
+      "published": "2026-11-24T09:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
     },
     {
       "title": "QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI",
@@ -361,6 +531,36 @@
       "ts": 1795478400,
       "published": "2026-11-24T00:00:00+00:00",
       "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "How Intentful uses dots to make more time for growth",
+      "link": "https://openai.com/business/customer-stories/intentful-dots",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "Marina Petrova’s dot Aria helps research websites and build proposals, while proactively flagging messages and resolving issues.",
+      "ts": 1795478400,
+      "published": "2026-11-24T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "How iFood scales coding agents across 15,000 repositories",
+      "link": "https://openai.com/business/customer-stories/ifood",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795478400,
+      "published": "2026-11-24T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "Clay helps sales teams win with Codex and ChatGPT",
+      "link": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI",
+      "category": "AI",
+      "summary": "ChatGPT and Codex integrations help Clay’s users research deals and turn data into go-to-market plays, with GPT-6 models handling the reasoning.",
+      "ts": 1795478400,
+      "published": "2026-11-24T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
     },
     {
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
@@ -2571,6 +2771,36 @@
       "ts": 1795046400,
       "published": "2026-11-19T00:00:00+00:00",
       "collected_at": "2026-11-20T18:27:04+09:00"
+    },
+    {
+      "title": "cve-2026-59401 - LOW - In Spring for Apache Kafka, trusted-package allowlist bypass via java.lang.Class header type allows arbitrary class initialization",
+      "link": "https://spring.io/security/cve-2026-59401",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "JsonKafkaHeaderMapper and the deprecated DefaultKafkaHeaderMapper check the header type requested in the spring_json_header_types header against the mapper's trusted packages before deserializing a header value. Because…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "cve-2026-59403 - MEDIUM - Spring AMQP Per-Reply AMQP Sender Link Leak Enables Handle Exhaustion",
+      "link": "https://spring.io/security/cve-2026-59403",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "Every reply produced by an @AmqpListener method opens a new AMQP 1.0 sender link on the shared connection and never closes it. A peer able to publish request messages with a reply-to property to the listened address can…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
+    },
+    {
+      "title": "cve-2026-59404 - MEDIUM - Spring AMQP Unbounded Recursion over Nested AMQP Header Field-Arrays/Field-Tables",
+      "link": "https://spring.io/security/cve-2026-59404",
+      "source": "Spring Security",
+      "category": "Spring",
+      "summary": "DefaultMessagePropertiesConverter recurses into nested List and Map header values when converting LongString instances, without any depth limit. AMQP 0-9-1 field-arrays and field-tables may nest arbitrarily, so a single…",
+      "ts": 1795046400,
+      "published": "2026-11-19T00:00:00+00:00",
+      "collected_at": "2026-11-25T09:54:18+09:00"
     },
     {
       "title": "llm-gemini 0.38",
@@ -12241,136 +12471,6 @@
       "ts": 1792985345,
       "published": "2026-10-26T03:29:05+00:00",
       "collected_at": "2026-10-28T07:20:17+09:00"
-    },
-    {
-      "title": "How three Java Champions put GitHub Copilot to work",
-      "link": "https://foojay.io/today/java-champions-github-copilot/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Three Java Champions share practical GitHub Copilot workflows, from feature development to agentic verification and debugging Pi4J.",
-      "ts": 1792972800,
-      "published": "2026-10-26T00:00:00+00:00",
-      "collected_at": "2026-10-26T19:00:33+09:00"
-    },
-    {
-      "title": "Arcana: One Pure-Java Library for (Almost) Every Archive Format",
-      "link": "https://foojay.io/today/arcana-pure-java-archive-library/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Arcana extracts ZIP, 7z, RAR 5, zstd, MSI, ISO, DMG and 40+ formats in pure Java 8: no native code, no dependencies, one JAR on Maven Central.",
-      "ts": 1792972800,
-      "published": "2026-10-26T00:00:00+00:00",
-      "collected_at": "2026-10-26T19:00:33+09:00"
-    },
-    {
-      "title": "Python 3.15.2, 3.14.10, 3.13.18, 3.12.16 and 3.11.18 are out",
-      "link": "https://blog.python.org/2026/10/python-3152-31410-31318-31216-31118/",
-      "source": "Python Insider",
-      "category": "Python",
-      "summary": "Five expedited security releases to distrust the compromised eMudhra intermediate CA keys.",
-      "ts": 1792972800,
-      "published": "2026-10-26T00:00:00+00:00",
-      "collected_at": "2026-10-26T19:00:33+09:00"
-    },
-    {
-      "title": "Spring Office Hours Podcast: S5E27 - Hugging Face for Java Developers with Pratik Patel",
-      "link": "https://spring.io/blog/2026/10/26/spring-office-hours-podcast-S5E27",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Join Dan Vega and DaShaun Carter for the latest updates from the Spring Ecosystem. In this episode, Dan and DaShaun are joined by Java Champion Pratik Patel to talk about Hugging Face for Java developers. Hugging Face h…",
-      "ts": 1792972800,
-      "published": "2026-10-26T00:00:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Working with academic communities to build scientific understanding",
-      "link": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
-      "ts": 1792972800,
-      "published": "2026-10-26T00:00:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Introducing GPT-6.1 Terra",
-      "link": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Bringing fast and capable computer use to everyone",
-      "ts": 1792972800,
-      "published": "2026-10-26T00:00:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Our Response To The eMudhra Key Disclosure Incident",
-      "link": "https://go.dev/blog/emudhra-incident",
-      "source": "Go Blog",
-      "category": "Go",
-      "summary": "How the Go team responded to the eMudhra certificate compromise with our first-ever URGENT track security release.",
-      "ts": 1792972800,
-      "published": "2026-10-26T00:00:00+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "How to fund Rust contributors",
-      "link": "https://blog.rust-lang.org/2026/10/26/how-to-fund-rust-contributors/",
-      "source": "Rust Blog",
-      "category": "Rust",
-      "summary": "TLDR: To fund general maintenance, donate to the Rust Foundation Maintainers Fund or sponsor the RustNL Maintainers Team To fund specific features and improvements, sponsor fundable Rust Project Goals To fund individual…",
-      "ts": 1792972800,
-      "published": "2026-10-26T00:00:00+00:00",
-      "collected_at": "2026-11-03T22:46:05+09:00"
-    },
-    {
-      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "link": "https://www.anthropic.com/news/s1-sec",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.",
-      "ts": 1792972800,
-      "published": "2026-10-26T00:00:00+00:00",
-      "collected_at": "2026-11-03T23:40:15+09:00"
-    },
-    {
-      "title": "OpenAI and Anthropic cut their LLM prices by up to 80% within a few months. Why?",
-      "link": "https://minimaxir.com/2026/10/cheap-llms/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://minimaxir.com/2026/10/cheap-llms/ Comments URL: https://news.ycombinator.com/item?id=50236102 Points: 204 # Comments: 231",
-      "ts": 1792962691,
-      "published": "2026-10-25T21:11:31+00:00",
-      "collected_at": "2026-10-26T12:59:10+09:00"
-    },
-    {
-      "title": "The State of Context Engineering",
-      "link": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html Comments URL: https://news.ycombinator.com/item?id=50235780 Points: 38 # Comments: 4",
-      "ts": 1792960351,
-      "published": "2026-10-25T20:32:31+00:00",
-      "collected_at": "2026-10-26T08:05:21+09:00"
-    },
-    {
-      "title": "PHP Patches Two Critical RCE Flaws That Were Already Under Attack",
-      "link": "https://www.infoq.com/news/2026/10/php-critical-rce-patches/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "PHP released 8.5.12, 8.4.27, 8.3.36, and 8.2.35 to fix two critical vulnerabilities allowing unauthenticated remote code execution. Amazon recorded an exploitation attempt four days before the patches shipped, and opera…",
-      "ts": 1792951620,
-      "published": "2026-10-25T18:07:00+00:00",
-      "collected_at": "2026-10-26T05:35:58+09:00"
-    },
-    {
-      "title": "PyTorch Conference 2026: Google and Meta Open-Source TorchTPU for Native PyTorch on TPUs",
-      "link": "https://www.infoq.com/news/2026/10/google-meta-torchtpu/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Google and Meta open-sourced TorchTPU, a native PyTorch backend for Google's TPUs, at PyTorch Conference North America 2026, and Meta said it plans to move larger LLM workloads onto TPUs with it. AWS released TorchNeuro…",
-      "ts": 1792951200,
-      "published": "2026-10-25T18:00:00+00:00",
-      "collected_at": "2026-10-26T05:35:58+09:00"
     }
   ]
 }
