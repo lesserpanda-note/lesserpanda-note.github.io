@@ -34,13 +34,13 @@
 | AC10 | `CLAUDE.md` Item Selection Rules, SKILL.md STEP 3, 클라우드 프롬프트에 10건·3건·제외 규칙·스크립트 경로가 같은 표현으로 있음 — 세 곳 grep 대조 | glue |
 
 ## 마일스톤
-현재: spec·tasks 합의 완료(2026-11-27), /analyze 지적 3건(check --date, AC2 보안 패널 문장, 위반 시 빼고 재검사·dropped 기록) 반영. 구현 착수 전.
-다음: M1 — worktree `/Users/jocelynseong/IdeaProjects/lesserpanda-note-wt18`(브랜치 `feature/18-digest-selection`)에서 `scripts/test_select_digest.py`를 news.json 실제 제목으로 먼저 쓰고 `scripts/select_digest.py`의 `exclude_reason`·`tier`·`check` 구현
+현재: M1 구현 완료(2026-11-27) — `scripts/select_digest.py` 순수부와 `scripts/test_select_digest.py`(72건) green, 기존 테스트 3종 green. 게이트 리뷰·master 확인 대기.
+다음: M1 게이트(/gate-review → master 확인) 후 M2 — `candidates`·`check` CLI
 
 ### M1: 판정 함수와 회귀 테스트 (`scripts/select_digest.py` 순수부, `scripts/test_select_digest.py`)
 - 다룸: `exclude_reason`·`tier`·`check`와 실제 제목 기반 테스트 · 관련 AC: AC1~AC7
 - 병렬: ∥ 실제 제목 사례 수집(news.json에서 AC3~AC6별 제외·유지 후보 뽑기)과 함수 구현
-- 시작 커밋: —
+- 시작 커밋: 6780dfc
 - [ ] 게이트 M1: `python scripts/test_select_digest.py` green + 기존 `test_reclassify.py`·`test_retry.py`·`test_security.py` green → /gate-review → 사람 확인
 - 수정 기록:
 
