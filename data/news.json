@@ -1,7 +1,97 @@
 {
-  "updated": "2026-11-26T18:39:39+09:00",
-  "count": 1268,
+  "updated": "2026-11-27T00:39:46+09:00",
+  "count": 1254,
   "items": [
+    {
+      "title": "Quoting Jack Despain Zhou",
+      "link": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Among the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pi…",
+      "ts": 1795705771,
+      "published": "2026-11-26T15:09:31+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Further thoughts on partisanship and polarization after the midterm elections",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/26/further-thoughts-on-partisanship-and-polarization-after-the-midterm-elections/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "I wanted to revisit some things that came up after the 2026 elections: 1. The migration of tech investors from center-left to far right After seeing the movie You Can See Everything, I noted that the disgraced medtech f…",
+      "ts": 1795705099,
+      "published": "2026-11-26T14:58:19+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Shuffle the Questions to Catch an LLM That Memorized Its Benchmark",
+      "link": "https://towardsdatascience.com/shuffle-the-questions-to-catch-an-llm-that-memorized-its-benchmark/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Two short Python functions and a free Colab GPU score a model in about half an hour; a z above 3 merits a look, while a near-zero score is more of a shrug. The post Shuffle the Questions to Catch an LLM That Memorized I…",
+      "ts": 1795701600,
+      "published": "2026-11-26T14:00:00+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Quiz: Python and TOML: Read, Write, and Configure with tomllib",
+      "link": "https://realpython.com/quizzes/python-toml/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your knowledge of TOML in Python. Review the syntax for tables and arrays, and read and write config files with tomllib, tomli_w, and tomlkit.",
+      "ts": 1795694400,
+      "published": "2026-11-26T12:00:00+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "How to Map USGS Earthquake Data from 2015 to 2025 in Python",
+      "link": "https://towardsdatascience.com/how-to-map-usgs-earthquake-data-from-2015-to-2025-in-python/",
+      "source": "Towards Data Science",
+      "category": "DataScience",
+      "summary": "A project that pulls M2.5+ events from the USGS API, cleans them in Pandas, and maps, clusters, and flags anomalies with Cartopy, Folium, and DBSCAN. The post How to Map USGS Earthquake Data from 2015 to 2025 in Python…",
+      "ts": 1795694400,
+      "published": "2026-11-26T12:00:00+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795693037,
+      "published": "2026-11-26T11:37:17+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell",
+      "link": "https://www.infoq.com/presentations/fine-tune-enterprise-rag-embeddings/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Rachel Shalom explains how Dell solved enterprise RAG retrieval failures on internal terminology by fine-tuning open-source embedding models. She discusses data prep with hard negatives, distributed InfoNCE loss trainin…",
+      "ts": 1795690800,
+      "published": "2026-11-26T11:00:00+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell",
+      "link": "https://www.infoq.com/presentations/fine-tune-enterprise-rag-embeddings/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Rachel Shalom explains how Dell solved enterprise RAG retrieval failures on internal terminology by fine-tuning open-source embedding models. She discusses data prep with hard negatives, distributed InfoNCE loss trainin…",
+      "ts": 1795690800,
+      "published": "2026-11-26T11:00:00+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Node.js 27.0.0-alpha.0.2.0 (Alpha)",
+      "link": "https://nodejs.org/en/blog/release/v27.0.0-alpha.0.2.0",
+      "source": "Node.js Blog",
+      "category": "Node",
+      "summary": "",
+      "ts": 1795689016,
+      "published": "2026-11-26T10:30:16+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
     {
       "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
       "link": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
@@ -41,6 +131,16 @@
       "ts": 1795673125,
       "published": "2026-11-26T06:05:25+00:00",
       "collected_at": "2026-11-26T18:39:20+09:00"
+    },
+    {
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "link": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "My comment on The New York Times warns photographers not to update Photoshop over AI features — Hacker News. I had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enoug…",
+      "ts": 1795669726,
+      "published": "2026-11-26T05:08:46+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
     },
     {
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
@@ -101,6 +201,36 @@
       "ts": 1795651200,
       "published": "2026-11-26T00:00:00+00:00",
       "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Episode 76 “Java in the Age of AI” [AtA]",
+      "link": "https://inside.java/podcast/76/",
+      "source": "Inside Java",
+      "category": "Java",
+      "summary": "A discussion of Java's expanding support for AI workloads, from current strengths to future capabilities",
+      "ts": 1795651200,
+      "published": "2026-11-26T00:00:00+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Decision Models in Spring AI 2.1: Yes, No, and How Sure",
+      "link": "https://spring.io/blog/2026/11/26/spring-ai-decision-models-guardrails-judges",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Spring AI: Decision Models | Decision Extensions | Demo Applications often need to make decisions with a predefined set of outcomes: Is this message a jailbreak attempt? Which team should handle this support ticket? How…",
+      "ts": 1795651200,
+      "published": "2026-11-26T00:00:00+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "link": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795651200,
+      "published": "2026-11-26T00:00:00+00:00",
+      "collected_at": "2026-11-27T00:39:16+09:00"
     },
     {
       "title": "Quoting Scott Aaronson",
@@ -12411,276 +12541,6 @@
       "ts": 1793116898,
       "published": "2026-10-27T16:01:38+00:00",
       "collected_at": "2026-10-28T04:55:49+09:00"
-    },
-    {
-      "title": "I Broke a Browser Agent on Purpose. Spotting the Fault Was Not the Same as Fixing It",
-      "link": "https://towardsdatascience.com/i-broke-a-browser-agent-on-purpose-spotting-the-fault-was-not-the-same-as-fixing-it/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "I replayed correct model decisions through four broken browser actions. A simple page check missed half of the wrong clicks, and raised a false alarm on every click that worked inside an embedded page. The post I Broke…",
-      "ts": 1793115000,
-      "published": "2026-10-27T15:30:00+00:00",
-      "collected_at": "2026-10-28T04:55:49+09:00"
-    },
-    {
-      "title": "Anthropic trained Claude on illegally obtained Stanford professors' books",
-      "link": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/",
-      "source": "Hacker News",
-      "category": "AI",
-      "summary": "Article URL: https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/ Comments URL: https://news.ycombinator.com/item?id=50260814 Points: 261 # Comments: 146",
-      "ts": 1793114906,
-      "published": "2026-10-27T15:28:26+00:00",
-      "collected_at": "2026-10-28T04:55:49+09:00"
-    },
-    {
-      "title": "Retell uses OpenAI models to help power 100M monthly calls",
-      "link": "https://openai.com/index/retell-ai",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
-      "ts": 1793113200,
-      "published": "2026-10-27T15:00:00+00:00",
-      "collected_at": "2026-10-28T07:56:40+09:00"
-    },
-    {
-      "title": "팀이 신뢰할 수 있는 AI 분석 환경 만들기: 추천팀의 컨텍스트 설계",
-      "link": "https://tech.kakao.com/posts/844",
-      "source": "Kakao Tech",
-      "category": "Architecture",
-      "summary": "안녕하세요. 카카오톡 숏폼 추천 모델을 개발하고 있는 루퍼트(rupert)입니다. 저희 추천팀은 추천 지표 분석에 AI 에이전트를 사용합니다. AI 에이전트에게 분석을 요청하면, 에이전트가 미리 정리해 둔 지침 문서(CLAUDE.md)를 읽고 SQL을 작성해 기존 Hadoop 환경에서 실행한 뒤 집계 결과를 리포트로 완성합니다. 지난 글에서는 데이터 엔지니어, 분석가만 알고 있던 로그 데이…",
-      "ts": 1793113200,
-      "published": "2026-10-27T15:00:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "Coding From the Himalayas With an Offline AI Agent",
-      "link": "https://latent.space/p/offline-coding/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "How to set up and run an offline coding agent using OpenCode, Ollama and Qwen.",
-      "ts": 1793112085,
-      "published": "2026-10-27T14:41:25+00:00",
-      "collected_at": "2026-10-28T04:55:49+09:00"
-    },
-    {
-      "title": "Python Circular Imports: Why They Happen and How to Fix Them",
-      "link": "https://realpython.com/python-circular-imports/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Confused by Python circular imports? Learn why they happen, how Python's import system works, and how to fix import errors using practical examples.",
-      "ts": 1793109600,
-      "published": "2026-10-27T14:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "How to Get Out of Tutorial Hell",
-      "link": "https://realpython.com/how-to-get-out-of-tutorial-hell/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Stuck in tutorial hell? Learn how to get out by turning Python tutorials into practical projects that build real skills and lasting confidence.",
-      "ts": 1793109600,
-      "published": "2026-10-27T14:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Pyrefly: A Fast Static Type Checker for Python Projects",
-      "link": "https://realpython.com/pyrefly-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Learn how to use Pyrefly, a fast static type checker for Python, to catch type errors, generate type annotations, and measure type coverage.",
-      "ts": 1793109600,
-      "published": "2026-10-27T14:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "MCP vs API Calls: Which Should You Use for Python LLM Apps?",
-      "link": "https://realpython.com/mcp-vs-api/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "MCP vs API calls: build one Python tool, integrate it both ways, and compare. Learn what each approach costs and when an MCP server pays for itself.",
-      "ts": 1793109600,
-      "published": "2026-10-27T14:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Exploring AI Coding Agent Workflows",
-      "link": "https://realpython.com/courses/exploring-ai-coding-agent-workflows/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "AI coding agents come in four types: IDE, terminal, PR, and cloud. Learn how each workflow fits into modern Python development.",
-      "ts": 1793109600,
-      "published": "2026-10-27T14:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Who Watches the AI?",
-      "link": "https://towardsdatascience.com/who-watches-the-ai/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A separation of powers for control of autonomous agents The post Who Watches the AI? appeared first on Towards Data Science .",
-      "ts": 1793109600,
-      "published": "2026-10-27T14:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Six questions about political polarization and my responses",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/27/six-questions-about-political-polarization-and-my-responses/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Mary Murray writes: I am a Year 12 student in the UK currently completing an Extended Project Qualification (EPQ), an independent research project equivalent to half an A-Level. I intend to study law at a competitive un…",
-      "ts": 1793106002,
-      "published": "2026-10-27T13:00:02+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-      "link": "https://blog.cloudflare.com/php-ctf/",
-      "source": "Cloudflare",
-      "category": "Architecture",
-      "summary": "We are launching a PHP Capture the Flag challenge integrated with our Bug Bounty program to test our WAF protections. Security researchers are invited to bypass our defenses and capture the flag to help make the Interne…",
-      "ts": 1793106000,
-      "published": "2026-10-27T13:00:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "What took the Internet offline in Q3 2026",
-      "link": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-      "source": "Cloudflare",
-      "category": "Architecture",
-      "summary": "An examination of global Internet disruptions observed by Cloudflare Radar during the third quarter of 2026. This review analyzes how power failures, natural disasters, and government shutdowns impacted network connecti…",
-      "ts": 1793106000,
-      "published": "2026-10-27T13:00:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "In the Age of Borrowed Thinking, How To Become More Valuable as AI Gets Smarter",
-      "link": "https://towardsdatascience.com/in-the-age-of-borrowed-thinking-how-to-become-more-valuable-as-ai-gets-smarter/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "A framework for staying relevant in the age of artificial intelligence The post In the Age of Borrowed Thinking, How To Become More Valuable as AI Gets Smarter appeared first on Towards Data Science .",
-      "ts": 1793104200,
-      "published": "2026-10-27T12:30:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Uber Moves Beyond CPU Cores with Performance-Aware Scheduling for Stateful Workloads",
-      "link": "https://www.infoq.com/news/2026/10/uber-cpu-stateful-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Uber has introduced Normalized Compute Units (NCUs) to make CPU allocation more consistent across its highly heterogeneous server fleet. By Craig Risi",
-      "ts": 1793102400,
-      "published": "2026-10-27T12:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Quiz: How to Get Out of Tutorial Hell",
-      "link": "https://realpython.com/quizzes/how-to-get-out-of-tutorial-hell/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test how well you can turn Python tutorials into practical projects by specifying problems, weighing tradeoffs, and knowing when you're done.",
-      "ts": 1793102400,
-      "published": "2026-10-27T12:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Quiz: MCP vs API Calls: Which Should You Use for Python LLM Apps?",
-      "link": "https://realpython.com/quizzes/mcp-vs-api/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of MCP vs API calls in Python LLM apps, from tool schemas and MCP servers to when each approach pays off.",
-      "ts": 1793102400,
-      "published": "2026-10-27T12:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Quiz: Pyrefly: A Fast Static Type Checker for Python Projects",
-      "link": "https://realpython.com/quizzes/pyrefly-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Pyrefly, a fast Python type checker, from catching type errors to generating type hints and measuring type coverage.",
-      "ts": 1793102400,
-      "published": "2026-10-27T12:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Quiz: Exploring AI Coding Agent Workflows",
-      "link": "https://realpython.com/quizzes/exploring-ai-coding-agent-workflows/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of IDE, terminal, PR, and cloud AI coding agents, and learn which workflow fits each development task.",
-      "ts": 1793102400,
-      "published": "2026-10-27T12:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Quiz: Python Circular Imports: Why They Happen and How to Fix Them",
-      "link": "https://realpython.com/quizzes/python-circular-imports/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python circular imports, from how the import system loads modules to the fixes and workarounds that break a cycle.",
-      "ts": 1793102400,
-      "published": "2026-10-27T12:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Google Gemini Omni: What It Actually Does, What It Costs, and How It Compares",
-      "link": "https://www.kdnuggets.com/google-gemini-omni-what-it-actually-does-what-it-costs-and-how-it-compares",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Gemini Omni is a member of Google's Gemini generative model family, built specifically to create output from any combination of input types, starting with video.",
-      "ts": 1793102400,
-      "published": "2026-10-27T12:00:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "How Anthropic Redesigned Source Control for AI-Driven Development",
-      "link": "https://www.infoq.com/news/2026/10/anthropic-source-control/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Anthropic recently detailed how it migrated its monorepo from Git to Scion. Scion is a source control system that moves repository operations to the server side and uses content-addressed storage and tiered caches for a…",
-      "ts": 1793100300,
-      "published": "2026-10-27T11:25:00+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
-      "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The…",
-      "ts": 1793099958,
-      "published": "2026-10-27T11:19:18+00:00",
-      "collected_at": "2026-10-27T23:11:11+09:00"
-    },
-    {
-      "title": "Presentation: Serving LLMs at Scale: The Hidden KV Cache Advantage",
-      "link": "https://www.infoq.com/presentations/llm-inference-kv-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Khawaja Shams shares a distributed systems perspective on scaling LLM inference stacks efficiently. He discusses practical strategies for optimizing GPU utilization, managing KV cache memory cliffs, leveraging tiered st…",
-      "ts": 1793098800,
-      "published": "2026-10-27T11:00:00+00:00",
-      "collected_at": "2026-10-27T20:20:11+09:00"
-    },
-    {
-      "title": "Presentation: Serving LLMs at Scale: The Hidden KV Cache Advantage",
-      "link": "https://www.infoq.com/presentations/llm-inference-kv-cache/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Khawaja Shams shares a distributed systems perspective on scaling LLM inference stacks efficiently. He discusses practical strategies for optimizing GPU utilization, managing KV cache memory cliffs, leveraging tiered st…",
-      "ts": 1793098800,
-      "published": "2026-10-27T11:00:00+00:00",
-      "collected_at": "2026-10-27T20:20:11+09:00"
-    },
-    {
-      "title": "Developers Felt 20% Faster With AI. They Were 19% Slower.",
-      "link": "https://towardsdatascience.com/developers-felt-20-faster-with-ai-they-were-19-slower/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "And that’s not even the worrying part. The post Developers Felt 20% Faster With AI. They Were 19% Slower. appeared first on Towards Data Science .",
-      "ts": 1793098800,
-      "published": "2026-10-27T11:00:00+00:00",
-      "collected_at": "2026-10-27T20:20:11+09:00"
     }
   ]
 }
