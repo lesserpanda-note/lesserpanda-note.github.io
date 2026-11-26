@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-26T00:56:58Z",
-  "summary": "오늘은 열여덟 건이고 Java가 다섯 건으로 가장 많습니다. Java에서는 Java4Shell 노출 여부를 스캐너만으로는 끝까지 확인할 수 없다는 실측과 함께 Jakarta EE 11의 umbrella JAR 제거, JEP 500의 final 필드 변경 경고, JDK 28 jlink 보안 속성 플러그인, Hibernate Reactive 5.0 지원 종료가 한꺼번에 나왔습니다. 여러 카테고리를 관통한 주제는 프로덕션 입력을 복제해 비교하는 섀도 검증입니다. Anthropic은 Messages API를 Rust로 옮겨 요청당 CPU를 약 70% 줄였고, DoorDash는 배차 엔진을 다시 짜 처리량을 10배로 올렸으며, OpenAI는 Spark 업그레이드를 에이전트에 맡겼는데 셋 모두 그 장치를 먼저 만들었습니다. 그 밖에 AWS Lambda 타임아웃이 30분으로 늘었고, MCP는 2주년에 stateless 전환과 Events 베타를 정리했으며, Gemini 4 Neon이 출시 첫날 사용량 기록을 세웠습니다. Python에서는 Astral의 공급망 강화 지침과 LLM 평가 하네스 튜토리얼을, DataScience에서는 DuckDB 2.0과 Polars 2.0의 실측 비교를 골랐습니다. Kotlin·Spring·Node·Go·Rust·TypeScript는 기준을 넘는 소식이 없어 비웠습니다.",
+  "summary": "오늘은 열일곱 건이고 Java가 다섯 건으로 가장 많습니다. Java에서는 Java4Shell 노출 여부를 스캐너만으로는 끝까지 확인할 수 없다는 실측과 함께 Jakarta EE 11의 umbrella JAR 제거, JEP 500의 final 필드 변경 경고, JDK 28 jlink 보안 속성 플러그인, Hibernate Reactive 5.0 지원 종료가 한꺼번에 나왔습니다. 여러 카테고리를 관통한 주제는 프로덕션 입력을 복제해 비교하는 섀도 검증입니다. Anthropic은 Messages API를 Rust로 옮겨 요청당 CPU를 약 70% 줄였고, DoorDash는 배차 엔진을 다시 짜 처리량을 10배로 올렸으며, OpenAI는 Spark 업그레이드를 에이전트에 맡겼는데 셋 모두 그 장치를 먼저 만들었습니다. 그 밖에 AWS Lambda 타임아웃이 30분으로 늘었고, MCP는 2주년에 stateless 전환과 Events 베타를 정리했습니다. Python에서는 Astral의 공급망 강화 지침과 LLM 평가 하네스 튜토리얼을, DataScience에서는 DuckDB 2.0과 Polars 2.0의 실측 비교를 골랐습니다. Kotlin·Spring·Node·Go·Rust·TypeScript는 기준을 넘는 소식이 없어 비웠습니다.",
   "highlights": [
     {
       "category": "Java",
@@ -89,14 +89,6 @@
       "source": "MCP Blog",
       "summary": "Model Context Protocol이 공개 2주년을 맞아 지난 한 해의 프로토콜 변화와 커뮤니티 사례를 정리했습니다. SDK 누적 다운로드는 50억 회를 넘었고 그중 45억 회 이상이 최근 1년에 나왔습니다.",
       "detail": "MCP는 2024년 11월 25일 Anthropic이 오픈소스로 공개했고, 지금까지 고유 기여자가 2,500명을 넘습니다. 2025년 7월에 거버넌스를 공식화했고 1주년 직후에는 Linux Foundation 산하 Agentic AI Foundation으로 옮겨 벤더 중립 관리 체제가 됐습니다. 글이 꼽는 프로토콜 쪽 변화는 다섯 가지입니다. 첫째, 2025년 6월 제안에서 시작한 stateless 전환이 2026-07-28 릴리스의 핵심이 됐고, 이 릴리스는 출시 이후 가장 큰 개정입니다. 이제 어떤 요청이든 어느 서버 인스턴스에 떨어져도 되므로 서버리스 플랫폼이나 일반 로드밸런서 뒤에서 확장할 수 있습니다. 둘째, MCP-UI와 OpenAI Apps SDK를 토대로 한 MCP Apps가 첫 공식 확장이 돼, 인터랙티브 UI를 한 번 만들면 ChatGPT·Claude·Goose·Visual Studio Code에서 동작합니다. 셋째, 이달 초 베타에 들어간 Events로 에이전트가 새 이메일이나 저장소 push 같은 사건에 반응할 수 있습니다. 넷째, Skills over MCP도 베타이며 도구에 대한 지식을 MCP 서버에 넣어 둘 수 있습니다. 다섯째, Enterprise-Managed Authorization이 안정 확장이 돼, 한 번 로그인하면 회사가 승인한 모든 MCP 서버를 OAuth 동의 창 없이 씁니다. 대용량 파일을 모델 컨텍스트에 올리지 않고 주고받는 파일 업로드·다운로드 확장은 워킹 그룹이 프로토타입을 만들고 있습니다. 사례로는 Ableton Live, Blender 공식 서버, DaVinci Resolve Studio와 Cinema 4D의 내장 서버, ROS MCP, Berkeley Lab의 TEM Agent가 소개됐습니다."
-    },
-    {
-      "category": "Agents",
-      "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
-      "link": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
-      "source": "Latent Space",
-      "summary": "Latent Space AINews가 Gemini 4 Neon의 출시 직후 채택 급증을 머리기사로 다뤘습니다. Neon은 Google 유료 API에서 출시 첫날 사용량 기록을 세웠습니다.",
-      "detail": "부제에 따르면 Neon은 LiveBench에서 Astra와 Fable을 앞섰고 Theo의 TS Rust 벤치마크 실행 시간을 48.6% 줄였습니다. Sundar Pichai는 Antigravity의 일일 토큰이 6주 전 Argon 출시 이후 82% 늘었다고 밝혔고, Neon은 Gemini 앱을 통해 Google Workspace 고객에게도 열렸습니다. Perplexity는 Neon 토큰 1,200억 개를 넘겼으며, 지능은 'Opus와 Fable 사이'지만 응답 스타일은 최고라는 평가가 나왔습니다. 한 추정은 Neon xhigh가 Opus Max와 대략 같은 수준이면서 Artificial Analysis 과제당 비용이 6.44달러 대 10.04달러라고 봅니다. 비판을 받으면 과하게 맞장구치고 과잉 교정한다는 아첨 문제 보고도 여럿 있습니다. Google은 Workspace MCP 서버 8개와 gwscli를 정식 출시했고 제품당 하루 5,000건이 무료입니다. 같은 호의 다른 소식으로, Anthropic 저장소에 내부 Claude 연구 모델의 VP ≠ VNP 증명이 올라온 뒤 OpenAI가 11월 6일에 얻었다는 자체 증명을 올렸습니다. 이 결과가 P ≠ NP를 뜻하지는 않습니다. Artificial Analysis의 하네스 비교에서는 같은 모델도 하네스에 따라 점수가 크게 갈렸습니다. GPT-6 Luna는 Codex에서 가장 높았고, 과제당 비용은 0.11~0.62달러로 점수보다 더 크게 벌어졌습니다. Vals Swarm Speed는 4-에이전트 팀이 단일 에이전트보다 약간 빠를 뿐인데 토큰은 약 3배 쓴다고 보고했습니다. Claude Opus 5.6이 A/B 테스트 중이라는 목격담은 확인되지 않은 것으로 표시돼 있습니다."
     },
     {
       "category": "Architecture",
