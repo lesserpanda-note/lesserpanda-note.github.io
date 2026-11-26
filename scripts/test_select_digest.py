@@ -7,9 +7,11 @@ The exclude_reason() and tier() cases use real titles from data/news.json as of
 2026-11-27 (collection date in the trailing comment where it matters), so the rules are
 pinned to the feeds as they actually write. Three cases come from elsewhere and say so
 in their comment: one Node.js Security title from data/security.json, one Spring Blog
-title that has aged out of news.json but is still in data/archive.json, and "shape" — a
-Node major line, which the feed has not carried in the 30-day window, written the way
-its release posts are titled. The check() cases are synthetic: they test the caps and
+title that has aged out of news.json but is still in data/archive.json, and the cases
+marked "shape": a branch no real title in the 30-day window reaches (a Node major line,
+a library major, a Spring milestone, a patch kept by "vulnerability"), written in the
+title format that feed already uses. Nightly and canary releases have no case because
+no feed here has shown their title format yet. The check() cases are synthetic: they test the caps and
 tier order, which do not depend on wording.
 """
 from __future__ import annotations
@@ -58,6 +60,10 @@ EXCLUDE_CASES = [
     ("Transformers", "Release v5.24.0", "Release v5.24.0 New Model additions Inkling 2 Mini", None),
     ("Pydantic AI", "v2.75.0 (2026-11-25)", "What's Changed ⚠️ Compatibility Notes", None),
     ("MCP servers", "v2.5.0", "Security fixes v2.5.0 fixes eight vulnerabilities in three servers.", None),
+    ("Transformers", "Release v6.0.0", "Release v6.0.0 New Model additions", None),  # shape: a library major
+    # "vulnerability" alone decides it: the stored summary of 1.15.31 says "vulnerable", which does not count
+    ("CrewAI", "1.15.31", "What's Changed Bug Fixes Fix a path traversal vulnerability in file tools.", None),  # shape
+    ("CrewAI", "1.15.31", "What's Changed Features Support conversational flow context compaction. Bug Fixes Update vulnerable audit dependencies.", "patch_bump"),
     # the rule is scoped to library feeds: a Go point release is left to selection
     ("Go Releases", "[release-branch.go1.27] go1.27.4", "", None),
     # AC6 Node alpha and point releases out; new lines, minor/LTS releases and security in
@@ -73,6 +79,7 @@ EXCLUDE_CASES = [
     ("Spring Blog", "Spring AI 2.1.0-RC2 Available Now", "", "prerelease"),
     ("Spring Blog", "Spring Boot 4.2.0-RC2 available now", "", "prerelease"),
     ("Spring Blog", "Spring Cloud 2026.0.0-RC2 (aka Paddington) Has Been Released", "", "prerelease"),
+    ("Spring Blog", "Spring Boot 4.3.0-M1 available now", "", "prerelease"),  # shape: a milestone
     ("Hibernate", "Hibernate 8.0.0.CR1", "", "prerelease"),
     ("Hibernate", "Hibernate 8.0.0.Beta4", "", "prerelease"),
     ("Hibernate", "Hibernate Reactive 5.1.0.Beta1 and 5.0.0.Beta3 released", "", "prerelease"),
@@ -103,6 +110,7 @@ TIER_CASES = [
     ("InfoQ AI/ML", "Open Source DocumentDB 1.0 Reaches General Availability", 1),
     ("Node.js Blog", "Node.js 27.0.0 (Current)", 1),  # shape
     ("Spring Blog", "Spring Boot 4.2.0 available now", 2),
+    ("Transformers", "Release v6.0.0", 1),  # shape
     ("Rust Blog", "Announcing Rust 1.100.0", 2),
     ("Spring Blog", "Spring Batch 6.1 is now GA!", 2),
     ("Node.js Blog", "Node.js 26.13.0 (LTS)", 2),

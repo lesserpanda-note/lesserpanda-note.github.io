@@ -15,7 +15,7 @@
 - [ ] AC3 (후보 제외 — 퀴즈): Given 제목이 `Quiz:`로 시작하는 Real Python 글, Then 후보에 오르지 않는다.
 - [ ] AC4 (후보 제외 — 모음글): Given 제목이 `[AINews]`로 시작하는 Latent Space 글 또는 `This Week in …` 형태의 링크 모음, Then 후보에 오르지 않는다. Given InfoQ `… News Roundup`처럼 내용을 직접 담은 로드업, Then 후보에 남는다. Latent Space의 다른 글(인터뷰·에세이)도 남는다.
 - [ ] AC5 (후보 제외 — 패치 범프): Given 라이브러리 릴리스 피드(Transformers, MCP servers, Pydantic AI, LlamaIndex, CrewAI, NumPy, pandas)의 패치 버전(`x.y.z`, z≥1) 항목, Then 후보에 오르지 않는다. 단 제목이나 저장된 요약에 보안 표현(`CVE`, `security`, `vulnerability`)이 있으면 남는다.
-- [ ] AC6 (후보 제외 — 사전·포인트 릴리스): Given Node.js Blog의 alpha·nightly·point 릴리스, 또는 제목에 alpha/beta/nightly/canary/rc 표시가 있는 릴리스, Then 후보에 오르지 않는다. Given 새 메이저 라인, LTS 전환, 보안 릴리스, Then 후보에 남는다.
+- [ ] AC6 (후보 제외 — 사전·포인트 릴리스): Given Node.js Blog의 alpha·nightly·point 릴리스, 또는 제목에 alpha/beta/nightly/canary/rc/milestone(`-M1` 등) 표시가 있는 릴리스, Then 후보에 오르지 않는다. Given 새 메이저 라인, LTS 전환, 보안 릴리스, Then 후보에 남는다. Node point 릴리스는 `x.y.z`(z≥1)이고, `x.y.0`은 제목으로 LTS 전환과 구분되지 않으므로 남는다(2026-11-27 M1 게이트 결정).
 - [ ] AC7 (회귀 고정): 현재 `data/news.json`(1,268건)에서 뽑은 실제 제목으로 AC3~AC6 판정 사례(제외되는 것·남는 것 모두)가 테스트로 고정된다. 특히 11-26의 `[AINews] Gemini 4 Neon …`은 제외, InfoQ `Java News Roundup`·Spring 보안 공지·Hibernate `5.0.0.Final`은 남는다.
 - [ ] AC8 (커밋 전 검사): Given 다이제스트에 상한 초과나 AC3~AC6 제외 대상이 들어 있으면, When 커밋하려 하면, Then 위반한 채로는 커밋되지 않는다. 루틴은 위반 항목을 빼고 다시 검사하며, 뺀 항목과 사유를 `data/digest-status.json`에 남긴다(조용히 통과시키지 않는다). 여러 날을 보충할 때는 `archive.json`에 들어가는 날짜분도 같은 검사를 거친다. 로컬 루틴과 클라우드 루틴 모두 같은 검사를 거친다.
 - [ ] AC9 (역할 분담): 같은 우선순위 단계 안에서 무엇을 고를지와 `summary`·`detail` 작성은 계속 LLM이 맡는다. 결정론 단계는 후보 제외·우선순위 단계 분류·상한 검사만 한다.

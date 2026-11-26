@@ -28,13 +28,13 @@
 | AC4  | 같은 테스트: `[AINews] Gemini 4 Neon …` → 제외, `This Week in Spring …` → 제외, InfoQ `Java News Roundup …` → 남음, Latent Space 비-AINews 글 → 남음 | pure |
 | AC5  | 같은 테스트: CrewAI·MCP servers 등 `x.y.z`(z≥1) → 제외, 같은 피드라도 요약에 `CVE`/`security`/`vulnerability` → 남음, `x.y.0`·`x.0.0` → 남음 | pure |
 | AC6  | 같은 테스트: Node.js Blog alpha·nightly·point 릴리스 → 제외, Node 새 메이저 라인·LTS 전환·security release → 남음, 제목에 alpha/beta/nightly/canary/rc → 제외 | pure |
-| AC7  | 테스트 사례가 모두 현재 `data/news.json`의 실제 제목에서 왔음(테스트 파일 주석에 출처 날짜). Hibernate `5.0.0.Final`·Spring 보안 공지 → 남음 | pure |
+| AC7  | 테스트 사례가 모두 현재 `data/news.json`의 실제 제목에서 왔음(테스트 파일 주석에 출처 날짜). Hibernate `5.0.0.Final`·Spring 보안 공지 → 남음. 예외(M1 게이트 합의): 30일 창에 실제 제목이 없는 분기는 그 피드의 제목 형식으로 쓴 "shape" 사례로 고정(Node 메이저, 라이브러리 `x.0.0`, Spring `-M1`, 요약의 `vulnerability`로 남는 패치). nightly·canary 릴리스는 제목 형식을 본 적이 없어 미고정 — 실제 제목이 들어오면 사례 추가 | pure |
 | AC8  | (a) `python scripts/select_digest.py check`(와 `--date`)를 archive의 11-26 원본(18건, `[AINews]` 포함)으로 만든 임시 digest에 돌려 exit 1과 위반 목록 관찰, 현재 `data/digest.json`(17건)에는 상한 위반만 보고됨을 관찰 (b) 로컬·클라우드 루틴이 커밋 전에 `check`를 부르고, 실패하면 위반 항목을 빼고 다시 검사하며 뺀 항목·사유를 `digest-status.json`의 `dropped`에 기록 — 위반한 채로는 커밋하지 않음. 프롬프트 diff로 확인 + 다음 09:39 실행 관찰 | edge + glue |
 | AC9  | 두 루틴 프롬프트 STEP 3: 스크립트 출력의 tier 순서 안에서 LLM이 고르고 요약을 쓴다는 문장, 결정론 단계가 제외·tier·상한만 한다는 문장 — diff로 확인 | glue |
 | AC10 | `CLAUDE.md` Item Selection Rules, SKILL.md STEP 3, 클라우드 프롬프트에 10건·3건·제외 규칙·스크립트 경로가 같은 표현으로 있음 — 세 곳 grep 대조 | glue |
 
 ## 마일스톤
-현재: M1 구현·게이트 리뷰 1회차 수정 완료(2026-11-27) — `scripts/select_digest.py` 순수부와 `scripts/test_select_digest.py`(74건) green, 기존 테스트 3종 green. master 확인 대기(LTS·point 해석, 사례 없는 계약 칸, `-M` 마일스톤 제외).
+현재: M1 구현·게이트 리뷰 2회차 수정 완료(2026-11-27) — master 결정 3건 반영(Node `x.y.0` 유지, 알려진 형식만 shape 사례, `-M` 제외 유지·spec 추가). 재리뷰 후 M1 게이트 사람 확인 대기.
 다음: M1 게이트(/gate-review → master 확인) 후 M2 — `candidates`·`check` CLI
 
 ### M1: 판정 함수와 회귀 테스트 (`scripts/select_digest.py` 순수부, `scripts/test_select_digest.py`)
@@ -44,6 +44,7 @@
 - [ ] 게이트 M1: `python scripts/test_select_digest.py` green + 기존 `test_reclassify.py`·`test_retry.py`·`test_security.py` green → /gate-review → 사람 확인
 - 수정 기록:
   - `1 | Opus 5.5 | AC2 검사를 spec Given(후보가 상한 초과)으로 맞춤·테스트 docstring 출처 정정·tier 0 정의 문장 갱신·check 루프 풀어쓰기 | spec 해석 판단 3건(LTS·point, 사례 없는 칸, -M) master 확인 대기`
+  - `2 | Opus 5.5 | master 결정 반영: spec AC6에 milestone·Node point 정의 추가, shape 사례 4건(라이브러리 x.0.0 제외·tier, vulnerability 패치, -M1), AC7 예외 기록 | 재리뷰 대기`
 
 ### M2: CLI (`candidates`·`check`)와 실데이터 확인
 - 다룸: news.json·digest.json·archive.json을 읽는 두 하위 명령, README `scripts/` 표에 한 줄 · 관련 AC: AC8(a), AC1
