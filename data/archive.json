@@ -1,6 +1,76 @@
 {
   "digests": [
     {
+      "date": "2026-11-25",
+      "summary": "오늘은 여덟 건이고 OpenAI 소식이 셋 겹쳤습니다. QCon에서는 사람이 쓴 코드 없이 Codex로 만든 ChatGPT 광고 제품의 검증 체계가 소개됐고, 그 부하를 받아 내려고 Git 백엔드를 새로 짠 Pando는 push 지연을 80% 가까이 줄였으며, OpenAI는 사전학습 손실 곡선을 공개하면서 연구소 공동의 개발 한계를 제안했습니다. 인프라 쪽에서는 CNCF 조사에서 VM이 여전히 프로덕션 애플리케이션의 53%를 맡고 에이전트 격리 수요가 이를 떠받치는 것으로 나왔고, JPMorganChase 발표는 GPU 64장의 3년 총소유비용을 1,600만~2,000만 달러로 추정했습니다. Agents에서는 재시도와 사람 검토를 가르는 기준을 코드 전에 정하는 설계 글을, DataScience에서는 Allegro의 CLV 운영 사례와 뉴런 하나로 만든 베이지안 신경망을 골랐습니다. Java·Kotlin·Spring·Node·Go·Rust·TypeScript·Python은 기준을 넘는 소식이 없어 비웠습니다.",
+      "highlights": [
+        {
+          "category": "AI",
+          "title": "QCon San Francisco 2026: Lessons from Building a $100M Product in Six Weeks at OpenAI",
+          "link": "https://www.infoq.com/news/2026/11/qcon-sf-openai-lessons/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "source": "InfoQ AI/ML",
+          "summary": "OpenAI의 Brian Yang이 QCon SF에서 ChatGPT 광고 제품을 사람이 쓴 코드 없이 Codex만으로 만든 과정을 발표했습니다. 출시 6주 만에 연환산 매출 1억 달러, 200일 안에 10억 달러에 도달했다고 합니다.",
+          "detail": "Yang의 핵심 주장은 엔지니어의 일이 제품을 만드는 시스템을 만드는 쪽으로 옮겨 갔다는 것입니다. 검증은 계층으로 나뉩니다. 모든 변경은 로컬·단위 테스트를 돌리고, 복잡한 변경은 브라우저 자동화로 사용자 여정을 끝까지 확인하며, 가장 중요한 변경은 대표 트래픽을 흘리는 프로덕션 유사 샌드박스에서 돌립니다. 샌드박스는 읽기 전용, 텔레메트리를 끈 쓰기 전용, 섀도 태그로 텔레메트리를 구분하는 완전 충실도 세 종류입니다. 팀은 일상 PR의 약 90% 자동 승인을 목표로 두고, 매주 지난 300~400개 PR로 리뷰어 임계값을 백테스트합니다. 따로는 통과한 변경이 합쳐지면 퇴행할 수 있어 후보 30~40개를 한 PR로 묶어 하루 이틀 함께 돌린 뒤 사람이 봅니다. 실패 사례도 구체적입니다. 에이전트 출력이 쌓여 코드베이스가 지저분해지므로 유지보수 에이전트를 따로 두어 새로 나타난 로그 패턴의 원인을 찾게 하고, 에이전트가 테스트를 과하게 쓰므로 가장 느린 테스트 50개를 매주 검토합니다. 에이전트가 묻지 않고 느린 Kubernetes 파드를 지우고 다시 만든 일도 있어, 파괴적 작업에는 권한 있는 역할을, 배포에는 물리적 확인을 요구하라고 권했습니다. 도입은 PR 하나, 기능 하나, 프로젝트 하나 순으로 넓히고, 2주마다 'AI 챔피언'을 돌려 가장 지루한 반복 작업을 재사용 가능한 스킬로 만들라고 했습니다."
+        },
+        {
+          "category": "AI",
+          "title": "CNCF Research Shows Virtual Machines Remain Central as AI Workloads Evolve",
+          "link": "https://www.infoq.com/news/2026/11/cncf-vm-ai-workloads/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "source": "InfoQ AI/ML",
+          "summary": "CNCF와 Linux Foundation Research 조사에서 VM이 프로덕션 애플리케이션의 평균 53%를 여전히 맡고 있는 것으로 나왔습니다. VM을 늘리는 조직의 34%는 AI·에이전트 워크로드를 이유로 꼽았습니다.",
+          "detail": "조사는 2026년 9월 클라우드 네이티브 실무자와 기술 리더 492명을 대상으로 했습니다. 응답자의 51%가 프로덕션 애플리케이션의 절반 이상을 VM에서 돌리고, 평균 비중은 직원 1만 명 초과 조직에서 64%, 500명 미만 조직에서 45%입니다. 현재와 예상 수치를 모두 답한 응답자의 71%는 1년 뒤에도 VM 비중이 같은 범위에 머물 것으로 봤습니다. 컨테이너로 일괄 이전하는 것이 아니라 공존이 이어진다는 뜻입니다. AI와의 연결은 격리에서 나옵니다. 에이전트가 코드를 생성해 실행하고 도구와 외부 시스템에 접근하는데, 일반 컨테이너는 호스트 커널을 공유하므로 경계가 약합니다. 보고서는 하드웨어 수준 VM 격리, VM 안에서 도는 컨테이너, MicroVM 샌드박싱을 대응 방식으로 꼽습니다. VM을 늘리는 조직 가운데 47%가 보안·격리를, 34%가 AI·에이전트 워크로드를 이유로 들었습니다. MicroVM 샌드박싱은 현재 사용 20%에서 계획 30%로, 기밀 컴퓨팅은 12%에서 26%로 늘 것으로 나왔는데, 이는 확정된 배포가 아니라 응답자가 밝힌 의향입니다. VM 사용자 가운데 KubeVirt를 쓰는 비율은 8%입니다. 조사는 CNCF와 Broadcom이 후원했으므로 전수 조사가 아니라 업계 응답으로 읽어야 한다고 기사는 덧붙입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+          "link": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+          "source": "Latent Space",
+          "summary": "Nvidia 이사회가 사임 발표 11일 만에 Jensen Huang을 CEO로 복귀시켰고, OpenAI는 5년치 사전학습 손실 곡선을 공개하며 연구소 공동의 개발 한계를 제안했습니다. Gemini 4 Neon과 Claude Code의 /ship 베타도 함께 실렸습니다.",
+          "detail": "Nvidia 이사회는 만장일치로 Huang의 복귀를 의결했고 미국 고위 당국자의 의견을 받았다고 밝혔습니다. 독립 이사 조사는 계속되고 상원 청문회도 8일 뒤로 그대로이며, 국가안보·수출통제 이사회 위원회가 새로 생겼습니다. OpenAI의 Jakub Pachocki는 글 'Perplexity and Intelligence'에서 고정된 held-out 코딩 데이터셋의 베이스 모델 로그 퍼플렉서티를 공개했습니다. GPT-3.5가 약 0.99, GPT-4가 약 0.91이고, 0.76 부근의 GPT-6 Astra에서 미해결 수학 문제가 빠르게 풀리기 시작했으며, 0.68~0.70에서 또 한 번의 도약을 예상합니다. 그는 연구소들이 첫 한계에 합의하고 넘어설 조건을 명시하자고 제안했고, Microsoft가 MAI-2 Base를 같은 평가셋에서 돌려 0.819를 보고하며 동참했습니다. 토크나이저 차이가 특정 회사에 유리할 수 있다는 점, 사후 학습이 연산의 75% 이상일 수 있다는 점은 비판으로 나왔습니다. 제품 쪽에서는 Gemini 4 Neon이 LiveBench 2.0에서 87.4로 1위에 올랐고(Claude Fable 5.2와 GPT-6.2 Astra는 84.9), 과제당 비용은 Fable의 4분의 1 수준이라고 합니다. Claude Code의 `/ship` 베타는 PR을 열고 리뷰한 뒤 피드백과 실패한 검사를 처리하며, 무엇이 머지되는지는 브랜치 규칙과 권한이 정합니다. Z.ai의 GLM-5.4는 28개 층을 두 번 도는 7,500억 파라미터 루프 트랜스포머입니다."
+        },
+        {
+          "category": "Agents",
+          "title": "How to Plan Retries for Multi-Agent Workflows Before You Write Code",
+          "link": "https://towardsdatascience.com/how-to-plan-retries-for-multi-agent-workflows-before-you-write-code/",
+          "source": "Towards Data Science",
+          "summary": "멀티 에이전트 워크플로의 재시도 정책을 코드 전에 Mermaid 설계도와 Python dataclass로 정해 두는 방법을 다룬 글입니다. 수락 판정을 에이전트 자신의 플래그가 아니라 애플리케이션 함수에 맡기고, 도구 실패마다 `retryable` 표시를 붙여 재시도와 사람 검토를 가릅니다.",
+          "detail": "출발점은 슈퍼바이저·리서치 에이전트·도구 실행기로 된 리서치 도우미입니다. 검색이 타임아웃되면 에이전트는 `complete`가 false인 부분 답을 내고, 슈퍼바이저는 원래 과제만 다시 넘깁니다. 에이전트는 직전 오류를 모르고 검색 도구는 여전히 죽어 있어 같은 실패가 반복됩니다. 글은 제어 흐름과 데이터 흐름을 구분합니다. 실패한 과제를 되돌리는 것은 제어 결정이지만, 오류가 함께 가지 않으면 같은 실수를 되풀이합니다. 상태는 오케스트레이터만 소유합니다. `WorkflowState`가 `attempts`, `max_attempts=3`, `errors`, `replies`를 갖고, `AgentReply`와 `ToolOutcome`은 frozen dataclass라 에이전트가 자기 시도 횟수를 고칠 수 없습니다. 수락은 `why_rejected()`가 필수 필드 누락과 도구 실패로 판정하고, 거부된 뒤에만 `is_retryable()`을 묻습니다. `retryable`의 기본값은 `False`입니다. 타임아웃이나 레이트 리밋은 그대로 다시 해도 되지만, 잘못된 인자나 만료된 자격 증명은 조건이 바뀌기 전까지 계속 실패하고, 부수 효과가 있는 쓰기는 타임아웃 뒤 재시도하면 메일이나 레코드가 중복될 수 있기 때문입니다. 분류 정책은 애플리케이션이 도구별로 갖고 실행기가 적용하며, 정책에 없는 오류는 사람에게 갑니다. 실패한 호출 하나라도 재시도 불가면 즉시 `NEEDS_REVIEW`가 되고 원인이 기록됩니다. 글쓴이는 이 구조가 오케스트레이션 결함을 잡을 뿐, 스키마에 맞는 환각은 근거 대조나 사람이 따로 잡아야 한다고 밝힙니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "OpenAI Scales Git for Coding Agents with Pando",
+          "link": "https://www.infoq.com/news/2026/11/openai-git-pando/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "source": "InfoQ Architecture",
+          "summary": "OpenAI가 코딩 에이전트의 동시 작업 부하에 맞춰 Git 백엔드를 새로 만든 Pando를 공개했습니다. Git 클라이언트와 프로토콜은 그대로 두고 push 중앙값 지연을 약 80% 줄였습니다.",
+          "detail": "Pando는 2026년 4월 프로덕션에 들어가 OpenAI 모노레포의 모든 개발을 맡고 있으며 하루에 페타바이트 가까운 Git 데이터를 서빙합니다. 부하는 Codex 주도 개발에서 나옵니다. push 하나가 CI 작업 여러 개를 띄우고 그 작업들이 모두 같은 히스토리를 fetch합니다. push가 오면 Pando는 packfile을 로컬 저장소에 풀지 않고 불변 blob 스토리지로 스트리밍하면서 검증합니다. 메타데이터 트랜잭션이 새 브랜치 끝과 packfile, 이전 버전에 대한 의존성을 담은 참조 버전을 기록하고 참조 포인터를 원자적으로 바꿉니다. 서로 무관한 참조의 갱신은 독립적으로 진행됩니다. 대가는 일관성입니다. 참조 단위로는 직렬화되고 자기가 쓴 것은 읽을 수 있지만, 여러 브랜치를 fetch해도 저장소 전체 스냅샷은 보장되지 않습니다. 새 기능 브랜치를 push할 때 서버는 트렁크만 기준으로 광고하므로, 그 pack은 트렁크 히스토리를 가진 모든 독자에게 재사용됩니다. fetch는 Git의 `packfile-uri`로 맞춤 pack 대신 다운로드 링크를 돌려주고, 리전별 캐시 Express가 이를 서빙합니다. 캐시 적중률은 99%를 넘고 clone·fetch가 10Gbps 링크를 포화시켰다고 합니다. 백그라운드 컴팩션은 LSM 트리처럼 pack을 기하급수적 크기로 묶습니다. Git 모델 자체를 체인지셋으로 바꾼 Anthropic의 Scion과는 호환성 경계를 다르게 그은 설계입니다. 호환을 지켰어도 프록시 단계 배포와 통합 수백 개의 이전은 필요했습니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Presentation: Inferencing for Enterprises",
+          "link": "https://www.infoq.com/presentations/enterprise-ai-inference-architecture-costs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "source": "InfoQ Architecture",
+          "summary": "JPMorganChase에서 글로벌 AI 인프라 플랫폼 제품을 이끄는 Dio Rettori가 대기업 관점의 추론 운영을 발표했습니다. 추론은 학습과 다른 시스템 엔지니어링이며, GPU 64장 규모에서도 3년 총소유비용이 1,600만~2,000만 달러에 이른다고 설명합니다.",
+          "detail": "발표는 추론을 여섯 주제로 봅니다. 어려운 기술 문제이고, 비싸고, 계속 바뀌며, 데이터 주권·의존성·규제의 문제라는 것입니다. 학습은 우선순위 큐와 체크포인트가 중요한 대규모 HPC 작업에 가깝고, 추론은 수천 건의 동시 요청을 다루는 시스템 엔지니어링이라 필요한 역량이 겹치지 않는다고 봅니다. 추론 호출 안에서도 토큰화는 CPU에서 돌고 나머지가 GPU에서 돌기 때문에, 단계 사이에서 GPU가 데이터를 기다리는 시간이 곧 낭비입니다. KV 캐시는 컨텍스트 길이에 따라 커지고, 양자화는 메모리를 줄이지만 손실이 없다고 단정하기 어렵습니다. 즉시 처리할 호출과 야간에 배치로 돌려도 되는 호출을 나누는 것이 활용률의 핵심이고, 에이전트는 이 모든 것을 곱절로 늘립니다. 비용 수치도 나옵니다. Cast AI 보고서에서 GPU 활용률은 5%에 그쳤고, 하드웨어 고장률은 UIUC/IBM 연구에서 5%, 한 벤더와의 비공식 대화에서는 10%였습니다. GPU는 수급이 빠듯해 고장을 미리 계획하지 않으면 교체품을 바로 구할 수 없습니다. NVIDIA B200 64장의 3년 총소유비용은 1,600만~2,000만 달러로 추정되고, 여기에는 라이선스, 예비 부품, 설치·운영 서비스, 전력과 냉각이 들어가지만 운영 팀과 모델 라이선스는 빠져 있습니다. AWS P6-B200을 용량 블록으로 3년 예약한 비용도 거의 같습니다. 그는 온프레미스·클라우드·토큰 과금 가운데 하나를 고르지 말고 모두 갖춰 단일 벤더 의존을 피하라고 권합니다. 수치는 JPMorgan의 실제 지출이 아닌 추정이라고 밝혔습니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "How to Calculate and Operationalize Customer Lifetime Value",
+          "link": "https://towardsdatascience.com/how-to-calculate-and-operationalize-customer-lifetime-value/",
+          "source": "Towards Data Science",
+          "summary": "Allegro에서 고객 성장 분석을 이끄는 글쓴이가 고객 생애 가치(CLV)를 산출하고 일상 운영에 연결한 과정을 정리했습니다. 코호트 이탈 외삽과 회귀를 거쳐 BTYD 모델로 옮겨 간 경로와, 실제로 쓸 만한 예측 구간이 길어야 12개월이라는 관찰이 담겼습니다.",
+          "detail": "CLV는 기간별 순마진(매출에서 서비스·마케팅 비용을 뺀 값)을 할인율로 할인해 예상 수명 동안 더한 값입니다. 공식은 단순하지만 두 가지가 어렵습니다. 첫째는 수명입니다. 이커머스 같은 비계약 환경에서는 고객이 해지를 알리지 않고 조용히 사라지고, 비회원 결제 때문에 시작점도 흐립니다. 팀은 첫 구매 기준 코호트의 이탈률을 추세 외삽했는데 대략적인 추정에는 충분했지만 운영에 쓰기에는 거칠었고, 회귀는 설명력이 낮았습니다. 지금은 구매 빈도, 최근성, 관찰 기간 세 값으로 구매율과 '살아 있을' 확률을 함께 추정하는 Buy 'Til You Die 모델을 살펴보고 있습니다. Pareto/NBD가 원형이고, BG/NBD는 거의 같은 결과를 훨씬 빠르게 내는 업계 표준이며, MBG/NBD는 첫 구매 직후 이탈을 허용하고, BG/BB는 연간 갱신 같은 이산 이벤트용입니다. 실행에 쓸 만한 정확도는 1~3개월에서 길어야 12개월 구간으로 좁혀진다고 봅니다. 둘째는 이익입니다. 수수료, 구독, 광고, 배송비, 쿠폰, 성과 마케팅까지 모든 수익·비용 흐름을 고객 ID에 일 단위로 붙여야 하고, 여기에 온보딩과 고가치 행동(HVA) 같은 생애 주기 이벤트의 시작·종료 시각을 겹쳐야 개입별 회수 곡선을 비교할 수 있습니다. 개입은 한계 CLV 상승이 한계 비용 이상인 동안만 한다는 것이 기준입니다. 세분화는 인구통계보다 RFM에 이력을 더한 행동 기반이 낫다고 보고, CLV 궤적으로 여섯 가지 고객 유형을 나눕니다."
+        },
+        {
+          "category": "DataScience",
+          "title": "I Built a Bayesian Neural Network From One Neuron and Football Shots",
+          "link": "https://towardsdatascience.com/i-built-a-bayesian-neural-network-from-one-neuron-and-football-shots/",
+          "source": "Towards Data Science",
+          "summary": "시그모이드 뉴런 하나로 베이지안 신경망을 처음부터 구현해 StatsBomb 슈팅 데이터의 기대 득점(xG)을 예측한 글입니다. 가중치를 가우시안 분포로 두고 재매개변수화 트릭과 몬테카를로 표본으로 학습하는 변분 추론의 각 단계를 풀어 씁니다.",
+          "detail": "모델의 입력은 골문까지의 거리, 슛 각도, 둘의 상호작용이고 편향까지 파라미터가 넷입니다. 상호작용 항은 먼저 곱한 뒤 정규화해야 하며, 정규화한 두 값을 곱하면 다른 피처가 됩니다. 베이지안 버전에서는 가중치마다 스칼라 대신 평균과 표준편차를 학습합니다. 분포를 비선형 시그모이드에 통째로 통과시킨 기댓값은 닫힌 형태가 없어 표본을 씁니다. 표준 가우시안 잡음 ε을 뽑아 `w = μ + σ·ε`으로 가중치를 만들면 ε을 상수로 두고 연쇄 법칙으로 μ와 σ의 기울기를 구할 수 있습니다. σ는 직접 저장하지 않고 softplus를 거치는 값 ρ로 저장해 항상 양수로 유지합니다. 표본 K개에 대해 이진 교차 엔트로피와 기울기를 평균하므로 역전파 자체는 달라지지 않습니다. 글쓴이가 빠졌던 함정은 초기 분포와 사전분포를 같은 것으로 본 것입니다. 사전분포는 N(0,1)로 고정된 모델의 일부이고, 초기값은 최적화가 출발하는 지점일 뿐입니다. 사전분포는 KL 발산 항으로 학습에 들어오며, 가우시안 근사와 표준정규 사전분포 사이에서는 닫힌 형태로 계산됩니다. 증거 항 p(D)는 변분 파라미터에 대해 상수라 최적화에서 빠지고, 남는 것이 음의 ELBO, 곧 데이터 적합 항과 KL 항의 합입니다. 예측은 가중치 표본 K개의 확률을 평균합니다. 결과는 일반 로지스틱 모델과 비슷했고, 글쓴이는 베이지안 신경망이 본질적으로 더 믿을 만한 것은 아니며 잘못 지정된 모델은 틀린 예측에도 강한 확신을 보일 수 있어 검증과 보정이 똑같이 필요하다고 결론짓습니다."
+        }
+      ]
+    },
+    {
       "date": "2026-11-24",
       "summary": "월요일이라 소식이 많아 열세 건입니다. Java에서는 JEP 545가 JDK 28에 통합돼 ZGC의 메모리 준비가 시작 경로에서 빠졌고, 주간 로드업에는 Oracle 11월 보안 패치와 원격 코드 실행 취약점 Java4Shell(CVE-2026-114938), Spring의 CVE 90건 해결이 실렸습니다. AI에서는 에이전트를 실제로 운영하는 이야기가 이어졌습니다. Claude Code가 JavaScript로 도구 호출을 조율하는 실험 기능 Code Mode를 넣었고, QCon에서 Netflix는 ADR 45건과 도메인별 GraphRAG로 개발 수명주기를 고친 과정을, Google은 에이전트 전용 신원과 자격 증명 감쇠를 발표했습니다. Kotlin Benchmark 2.0은 비공개 과제 30개와 네트워크 차단으로 보상 해킹을 막았습니다. Architecture에서는 토스가 수백 개 트리 모델을 멀티태스크 모델 하나로 합쳤고 Agoda는 ArchUnit으로 모듈 경계를 강제해 리뷰 시간을 64% 줄였습니다.",
       "highlights": [
