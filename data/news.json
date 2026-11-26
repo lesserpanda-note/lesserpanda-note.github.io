@@ -1,7 +1,67 @@
 {
-  "updated": "2026-11-26T12:28:58+09:00",
-  "count": 1264,
+  "updated": "2026-11-26T18:39:39+09:00",
+  "count": 1268,
   "items": [
+    {
+      "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
+      "link": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include Cobalt 200 VMs, Azu…",
+      "ts": 1795675500,
+      "published": "2026-11-26T06:45:00+00:00",
+      "collected_at": "2026-11-26T18:39:20+09:00"
+    },
+    {
+      "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
+      "link": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "At Ignite 2026, Microsoft positioned Copilot as the operating system for work and extended agent identity, governance, and cost controls across Azure, Foundry, Entra, and Defender. Highlights include Cobalt 200 VMs, Azu…",
+      "ts": 1795675500,
+      "published": "2026-11-26T06:45:00+00:00",
+      "collected_at": "2026-11-26T18:39:20+09:00"
+    },
+    {
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "link": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "sqlite3_rsync: Database Remote-Copy Tool For SQLite This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025…",
+      "ts": 1795673305,
+      "published": "2026-11-26T06:08:25+00:00",
+      "collected_at": "2026-11-26T18:39:20+09:00"
+    },
+    {
+      "title": "Jetpack Compose 기반 커스텀 3D 캐러셀 개발기",
+      "link": "https://d2.naver.com/helloworld/7426315",
+      "source": "NAVER D2",
+      "category": "Architecture",
+      "summary": "Jetpack Compose(안드로이드의 선언형 UI 툴킷)로 가로로 넘기는 목록을 만들 때는 대부분 LazyRow 부터 떠올리실 겁니다. 그런데 최근 저희 팀에서 만든 화면 중에는 아무리 고민해도 LazyRow 로는 만들 수 없는 UI가 있었습니다. 이 글에서는 그 UI를 커스텀 3D 캐러셀로 직접 만든 경험을 소개하고, 그 과정에서 만난 다음 세 가지 이슈를 어떻게 풀었는지 정리합니다.…",
+      "ts": 1795673125,
+      "published": "2026-11-26T06:05:25+00:00",
+      "collected_at": "2026-11-26T18:39:20+09:00"
+    },
+    {
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "link": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795669536,
+      "published": "2026-11-26T05:05:36+00:00",
+      "collected_at": "2026-11-26T18:39:20+09:00"
+    },
+    {
+      "title": "How would you help a ten-year-old get comfortable saying “probably” or “I’m not sure yet,” and see it as a sign of good thinking rather than a lack of it?",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/25/how-would-you-help-a-ten-year-old-get-comfortable-saying-probably-or-im-not-sure-yet-and-see-it-as-a-sign-of-good-thinking-rather-than-a-lack-of-it/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Dhiraj Khivasara writes: I’m a finance consultant in Pune, India, doing my MBA at SPJIMR alongside work. I also teach values and life skills to children at a community pathshala, and I’m finishing a book, The Marwari Lu…",
+      "ts": 1795665932,
+      "published": "2026-11-26T04:05:32+00:00",
+      "collected_at": "2026-11-26T18:39:20+09:00"
+    },
     {
       "title": "What Java4Shell Teaches About Patching Java at AI Speed",
       "link": "https://foojay.io/today/what-java4shell-teaches-about-patching-java-at-ai-speed/",
@@ -123,6 +183,16 @@
       "collected_at": "2026-11-26T09:30:05+09:00"
     },
     {
+      "title": "datasette-charts 0.3a0",
+      "link": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-charts 0.3a0 I added chart annotations to datasette-charts ! You can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three. A chart with annotations l…",
+      "ts": 1795630610,
+      "published": "2026-11-25T18:16:50+00:00",
+      "collected_at": "2026-11-26T18:39:20+09:00"
+    },
+    {
       "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
       "link": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
       "source": "KDnuggets",
@@ -181,6 +251,16 @@
       "ts": 1795618800,
       "published": "2026-11-25T15:00:00+00:00",
       "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "행사 순간을 함께 나누는 한마디, if(kakao)26 네트워킹 스크린 제작기",
+      "link": "https://tech.kakao.com/posts/850",
+      "source": "Kakao Tech",
+      "category": "Architecture",
+      "summary": "행사에 참여하다 보면 기억에 남는 세션이나 문득 떠오른 생각, 함께 나누고 싶은 소감이 생깁니다. 하지만 그 마음을 남기거나 다른 참가자들과 공유할 기회는 많지 않습니다. if(kakao)26의 네트워킹 경험을 기획하면서 저는 참가자들이 자기 생각을 쉽고 재미있게 표현할 방법을 고민했습니다. 행사장에서 떠오른 생각이나 소감을 부담 없이 남기고, 다른 참가자들의 메시지도 함께 볼 수 있다면…",
+      "ts": 1795618800,
+      "published": "2026-11-25T15:00:00+00:00",
+      "collected_at": "2026-11-26T18:39:20+09:00"
     },
     {
       "title": "Substitution Solver",
@@ -901,6 +981,16 @@
       "ts": 1795501920,
       "published": "2026-11-24T06:32:00+00:00",
       "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "datasette-charts 0.2a1",
+      "link": "https://simonwillison.net/2026/Nov/24/datasette-charts-2/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-charts 0.2a1 Minor UI improvements: Collapsing the suggested charts section now leaves the chart visible. Following a link to a chart opens it with the suggestions collapsed for that visit. On table p…",
+      "ts": 1795500439,
+      "published": "2026-11-24T06:07:19+00:00",
+      "collected_at": "2026-11-26T18:39:20+09:00"
     },
     {
       "title": "datasette-charts 0.2a0",
@@ -12591,56 +12681,6 @@
       "ts": 1793098800,
       "published": "2026-10-27T11:00:00+00:00",
       "collected_at": "2026-10-27T20:20:11+09:00"
-    },
-    {
-      "title": "[AINews] Anthropic files for $2T IPO in 2 weeks: 1400% growth rate, 48% of revenue through cloud partners, 85% margin, $1B op profit in Q2, $134B cash in bank and $10B lifetime burn",
-      "link": "https://latent.space/p/ainews-anthropic-s1/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "The S-1, the numbers, and the reactions.",
-      "ts": 1793085899,
-      "published": "2026-10-27T07:24:59+00:00",
-      "collected_at": "2026-10-27T16:31:22+09:00"
-    },
-    {
-      "title": "손가락 튕기기로 LLM 비용 줄이기",
-      "link": "https://toss.tech/article/snap-llm-cost-reduction",
-      "source": "Toss Tech",
-      "category": "Architecture",
-      "summary": "토스에서 늘어나는 LLM 비용을 빠르게 줄이는 방법을 소개합니다.",
-      "ts": 1793084700,
-      "published": "2026-10-27T07:05:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "link": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
-      "ts": 1793084400,
-      "published": "2026-10-27T07:00:00+00:00",
-      "collected_at": "2026-10-28T04:55:49+09:00"
-    },
-    {
-      "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
-      "link": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less friction than before AI.…",
-      "ts": 1793076300,
-      "published": "2026-10-27T04:45:00+00:00",
-      "collected_at": "2026-10-27T16:31:22+09:00"
-    },
-    {
-      "title": "Developers Reporting Double-Digit Weekly Time Savings From AI Fell From 68% to 26%",
-      "link": "https://www.infoq.com/news/2026/10/atlassian-devex-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Atlassian’s State of Developer Experience 2026 finds the share of developers saving ten or more hours a week with AI dropped from 68% to 26% year over year, while only 28% report noticeably less friction than before AI.…",
-      "ts": 1793076300,
-      "published": "2026-10-27T04:45:00+00:00",
-      "collected_at": "2026-10-27T16:31:22+09:00"
     }
   ]
 }
