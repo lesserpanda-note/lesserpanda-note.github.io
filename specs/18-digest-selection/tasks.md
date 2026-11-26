@@ -12,8 +12,8 @@
 ## 설계 결정 (spec의 "어떻게")
 - 새 파일 `scripts/select_digest.py` 하나. 순수 함수 + 얇은 CLI.
   - `exclude_reason(item) -> str | None` — AC3~AC6. `item`은 news.json 항목(dict: title·source·category·summary …).
-  - `tier(item) -> int` — 0 보안 공지(`source` ∈ {Spring Security, Node.js Security} 또는 제목에 `CVE-`), 1 메이저 릴리스(새 메이저 라인·LTS 전환; 규칙은 M1에서 실제 제목으로 고정), 2 나머지.
-  - `check(highlights, candidates) -> list[str]` — AC1(전체 ≤10, 카테고리 ≤3), 제외 대상 포함 여부, AC2(어느 카테고리가 상한에 걸렸는데 더 높은 tier 후보를 버리고 낮은 tier를 실었는지). 위반 메시지 목록, 비면 통과.
+  - `tier(item) -> int` — 0 보안 공지(`source` ∈ {Spring Security, Node.js Security}, 제목에 `CVE-`, 또는 제목에 `Security Release(s)`), 1 메이저 릴리스(릴리스 제목의 `x.0`·`x.0.0` 정식판; LTS 전환은 제목으로 구분되지 않아 2), 2 나머지.
+  - `check(highlights, candidates) -> list[str]` — AC1(전체 ≤10, 카테고리 ≤3), 제외 대상 포함 여부, AC2(제외되지 않은 후보가 상한을 넘는 카테고리에서 더 높은 tier 후보를 버리고 낮은 tier를 실었는지 — 실린 건수가 상한보다 적어도 적용). 위반 메시지 목록, 비면 통과.
   - CLI: `python scripts/select_digest.py candidates` — 현재 SKILL.md STEP 2의 후보 조건(마감 `updated`, 7일, 보안 면제, 기존 링크 제외)을 **그대로** 옮기고 제외 규칙을 적용해 카테고리·tier별 JSON 출력(제외된 항목과 사유도 함께). `python scripts/select_digest.py check [--date YYYY-MM-DD]` — 인자가 없으면 `data/digest.json`, `--date`면 `archive.json`의 그 날짜 항목을 검사, 위반 시 위반 목록(항목 링크·사유)을 출력하고 exit 1.
   - 마감 기준 변경(#19)은 하지 않는다. 다만 후보 조건이 이 스크립트 한 곳으로 모이므로 #19는 이후 여기 한 줄 수정이 된다.
 - 상수(10, 3, 라이브러리 릴리스 피드 목록)는 스크립트 상단에 두고 `CLAUDE.md`는 수치와 "판정은 `scripts/select_digest.py`"를 적는다.
@@ -34,7 +34,7 @@
 | AC10 | `CLAUDE.md` Item Selection Rules, SKILL.md STEP 3, 클라우드 프롬프트에 10건·3건·제외 규칙·스크립트 경로가 같은 표현으로 있음 — 세 곳 grep 대조 | glue |
 
 ## 마일스톤
-현재: M1 구현 완료(2026-11-27) — `scripts/select_digest.py` 순수부와 `scripts/test_select_digest.py`(72건) green, 기존 테스트 3종 green. 게이트 리뷰·master 확인 대기.
+현재: M1 구현·게이트 리뷰 1회차 수정 완료(2026-11-27) — `scripts/select_digest.py` 순수부와 `scripts/test_select_digest.py`(74건) green, 기존 테스트 3종 green. master 확인 대기(LTS·point 해석, 사례 없는 계약 칸, `-M` 마일스톤 제외).
 다음: M1 게이트(/gate-review → master 확인) 후 M2 — `candidates`·`check` CLI
 
 ### M1: 판정 함수와 회귀 테스트 (`scripts/select_digest.py` 순수부, `scripts/test_select_digest.py`)
@@ -43,6 +43,7 @@
 - 시작 커밋: 6780dfc
 - [ ] 게이트 M1: `python scripts/test_select_digest.py` green + 기존 `test_reclassify.py`·`test_retry.py`·`test_security.py` green → /gate-review → 사람 확인
 - 수정 기록:
+  - `1 | Opus 5.5 | AC2 검사를 spec Given(후보가 상한 초과)으로 맞춤·테스트 docstring 출처 정정·tier 0 정의 문장 갱신·check 루프 풀어쓰기 | spec 해석 판단 3건(LTS·point, 사례 없는 칸, -M) master 확인 대기`
 
 ### M2: CLI (`candidates`·`check`)와 실데이터 확인
 - 다룸: news.json·digest.json·archive.json을 읽는 두 하위 명령, README `scripts/` 표에 한 줄 · 관련 AC: AC8(a), AC1

@@ -8,8 +8,9 @@ script and keep the rest for the model:
   patch bumps from library release feeds, prereleases and Node point releases.
 - tier(): the priority band inside a category — 0 security advisory, 1 new major
   release, 2 everything else. Which item to take inside a band is the model's call.
-- check(): the caps (10 in total, 3 per category), no excluded item, and no full
-  category that left a higher band out for a lower one.
+- check(): the caps (10 in total, 3 per category), no excluded item, and, in a
+  category with more eligible candidates than its cap, no lower band taken while a
+  higher one was left out.
 
 Every decision reads only news.json fields (title, source, category, summary), because
 the cloud routine cannot open article bodies.
@@ -116,7 +117,7 @@ def tier(item: dict) -> int:
     if item.get("source") in SECURITY_FEEDS or _CVE_RE.search(title) or _SECURITY_RELEASE_RE.search(title):
         return TIER_SECURITY
     if _is_release(item) and any(
-        not v["pre"] and v["minor"] == "0" and int(v["patch"] or 0) == 0 for v in _versions(title)
+        not v["pre"] and int(v["minor"]) == 0 and int(v["patch"] or 0) == 0 for v in _versions(title)
     ):
         return TIER_MAJOR
     return TIER_OTHER
@@ -144,20 +145,30 @@ def check(highlights: list[dict], candidates: list[dict]) -> list[str]:
         if reason:
             violations.append(f"{h['link']}: excluded item ({reason}) — {h['title']}")
 
+    # Tier order binds a category whose eligible candidates outnumber its cap, whether
+    # the day filled the category or stopped short of it (the total cap can do that).
     picked = {h["link"] for h in highlights}
-    for category, count in per_category.items():
-        if count < MAX_PER_CATEGORY:
-            continue
-        lowest = max(tier(by_link.get(h["link"], h)) for h in highlights if h["category"] == category)
-        left_out = [
+    for category in per_category:
+        eligible = [
             c for c in candidates
-            if c.get("category") == category and c["link"] not in picked
-            and exclude_reason(c) is None and tier(c) < lowest
+            if c.get("category") == category and exclude_reason(c) is None
         ]
+        if len(eligible) <= MAX_PER_CATEGORY:
+            continue
+        lowest = max(
+            tier(by_link.get(h["link"], h)) for h in highlights if h["category"] == category
+        )
+        left_out: list[tuple[int, dict]] = []
+        for c in eligible:
+            if c["link"] in picked:
+                continue
+            c_tier = tier(c)
+            if c_tier < lowest:
+                left_out.append((c_tier, c))
         if left_out:
-            best = min(left_out, key=tier)
+            best_tier, best = min(left_out, key=lambda pair: pair[0])
             violations.append(
                 f"{category}: took a tier-{lowest} item while {len(left_out)} higher-tier "
-                f"candidate(s) were left out, e.g. tier-{tier(best)} {best['link']} — {best['title']}"
+                f"candidate(s) were left out, e.g. tier-{best_tier} {best['link']} — {best['title']}"
             )
     return violations

@@ -3,11 +3,14 @@
 
 Run: python scripts/test_select_digest.py   (plain asserts, no pytest dependency)
 
-Every title below is a real one from data/news.json (or data/security.json for the
-Node.js Security feed) as of 2026-11-27, collection date in the trailing comment where
-it matters, so the cases pin the rules to the feeds as they actually write. The one
-exception is marked "shape": a Node major line, which the feed has not carried in the
-30-day window, written the way its release posts are titled.
+The exclude_reason() and tier() cases use real titles from data/news.json as of
+2026-11-27 (collection date in the trailing comment where it matters), so the rules are
+pinned to the feeds as they actually write. Three cases come from elsewhere and say so
+in their comment: one Node.js Security title from data/security.json, one Spring Blog
+title that has aged out of news.json but is still in data/archive.json, and "shape" — a
+Node major line, which the feed has not carried in the 30-day window, written the way
+its release posts are titled. The check() cases are synthetic: they test the caps and
+tier order, which do not depend on wording.
 """
 from __future__ import annotations
 
@@ -30,7 +33,7 @@ def item(source: str, title: str, category: str = "", summary: str = "", link: s
 # (source, title, summary) -> expected exclude_reason
 EXCLUDE_CASES = [
     # AC3 quizzes
-    ("Real Python", "Quiz: LLM Evaluation in Python: Build an Eval Harness From Scratch", "", "quiz"),  # 11-26
+    ("Real Python", "Quiz: LLM Evaluation in Python: Build an Eval Harness From Scratch", "", "quiz"),  # 11-25
     ("Real Python", "Quiz: Understanding Python Namespace Packages", "", "quiz"),
     ("Real Python", "Python 3.15 Ships and Other Python News for November 2026", "", None),
     # AC4 link roundups out, roundups that carry the substance in
@@ -50,7 +53,7 @@ EXCLUDE_CASES = [
     # ... unless the title or the stored summary carries security wording
     ("Pydantic AI", "v1.107.11 (2026-11-24)", "What's Changed 🛡️ Security GHSA-7xcv-6766-v6v5 (medium, CVE-2026-136643)", None),
     ("Transformers", "Patch release v5.22.2", "Some in between patch for security and distributed fixes.", None),
-    ("LlamaIndex", "v0.14.26", "Release Notes [2026-11-13] Python security relock: all integration uv.lock files", None),
+    ("LlamaIndex", "v0.14.26", "Release Notes [2026-11-13] llama-index-agent-agentmesh [0.3.0] Python security relock: all integration uv.lock files (lock files only, no Python floor changes) ( #24039 ) BREAKING: raise requires-python for security fix…", None),
     # ... and minor or major releases are not patch bumps
     ("Transformers", "Release v5.24.0", "Release v5.24.0 New Model additions Inkling 2 Mini", None),
     ("Pydantic AI", "v2.75.0 (2026-11-25)", "What's Changed ⚠️ Compatibility Notes", None),
@@ -77,7 +80,7 @@ EXCLUDE_CASES = [
     ("Simon Willison", "datasette-charts 0.3a0", "", "prerelease"),
     # a final release announced alongside a candidate stays
     ("Hibernate", "Hibernate Reactive 5.1.0.CR3 and 5.0.0.Final released", "", None),  # 11-26
-    ("Spring Blog", "Spring Batch 6.1.0-RC1 and 6.0.6 available now!", "", None),
+    ("Spring Blog", "Spring Batch 6.1.0-RC1 and 6.0.6 available now!", "", None),  # archive.json 10-23
     ("Spring Blog", "Spring Boot 4.2.0 available now", "", None),
     # articles that merely mention a prerelease are not releases
     ("Kotlin", "Kodee’s Kotlin Roundup: Shipaton 2026 Winners, Kotlin 2.5.0-Beta2, and KotlinConf 2027", "", None),
@@ -91,7 +94,7 @@ EXCLUDE_CASES = [
 # (source, title) -> expected tier
 TIER_CASES = [
     ("Spring Security", "cve-2026-59329 - LOW - Spring Security Reactive Authentication Timing Attack Enables Username Enumeration", 0),
-    ("Node.js Security", "Wednesday, November 11, 2026 Security Releases", 0),
+    ("Node.js Security", "Wednesday, November 11, 2026 Security Releases", 0),  # security.json
     ("Node.js Blog", "Wednesday, November 11, 2026 Security Releases", 0),
     ("Foojay", "Java4Shell (CVE-2026-114938): What It Is, Who Is Affected, and What to Do Now", 0),  # 11-19
     ("Cloudflare", "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)", 0),  # 11-21
@@ -125,7 +128,7 @@ def check_cases() -> list[tuple[str, list[dict], list[dict], bool]]:
     three_java = [_article("Java", n) for n in range(3)]
     four_java = three_java + [_article("Java", 3)]
     cves = [_spring_cve(n) for n in range(4)]
-    blog = [_article("Spring", n) for n in range(2)]
+    blog = [_article("Spring", n) for n in range(4)]
     quiz = item("Real Python", "Quiz: Python Conditional Statements", "Python")
     ainews = item("Latent Space", "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab", "Agents")
     sec_patch = item("Pydantic AI", "v1.107.11 (2026-11-24)", "Agents",
@@ -137,9 +140,11 @@ def check_cases() -> list[tuple[str, list[dict], list[dict], bool]]:
         ("AC1 eleven in total fails", eleven, eleven, True),
         ("AC1 three in a category passes", three_java, three_java, False),
         ("AC1 four in a category fails", four_java, four_java, True),
-        ("AC2 full category skipping a tier-0 for a tier-2 fails", cves[:2] + blog[:1], cves + blog, True),
-        ("AC2 full category of tier-0 passes", cves[:3], cves + blog, False),
-        ("AC2 category below its cap may leave tier-0 out", blog[:2], cves + blog, False),
+        ("AC2 over-cap category skipping a tier-0 for a tier-2 fails", cves[:2] + blog[:1], cves + blog, True),
+        ("AC2 over-cap category of tier-0 passes", cves[:3], cves + blog, False),
+        ("AC2 over-cap category stopping short still keeps tier order", blog[:2], cves + blog, True),
+        ("AC2 over-cap category taking every tier-0 first passes", cves[:1] + blog[:2], cves[:1] + blog, False),
+        ("AC2 category within its cap leaves the choice to selection", blog[:2], cves[:1] + blog[:2], False),
         ("AC3-6 excluded item in the digest fails", [quiz], [quiz], True),
         ("AC4 [AINews] in the digest fails", [ainews], [ainews], True),
         ("AC5 security patch read through its candidate passes", [sec_patch_highlight], [sec_patch], False),
