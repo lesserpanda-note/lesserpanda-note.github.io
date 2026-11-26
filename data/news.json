@@ -1,7 +1,177 @@
 {
-  "updated": "2026-11-26T00:49:08+09:00",
-  "count": 1266,
+  "updated": "2026-11-26T09:31:11+09:00",
+  "count": 1265,
   "items": [
+    {
+      "title": "What Java4Shell Teaches About Patching Java at AI Speed",
+      "link": "https://foojay.io/today/what-java4shell-teaches-about-patching-java-at-ai-speed/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Four Java runtime updates in 29 days. Learn how teams are changing CI/CD and DevSecOps so Java patching becomes routine, not an emergency.",
+      "ts": 1795651200,
+      "published": "2026-11-26T00:00:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "The 148 ms was waiting, not work",
+      "link": "https://foojay.io/today/the-148-ms-was-waiting-not-work/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A 148 ms closed-loop max, the samples wrk added around it, and a run beside a second JVM that read 2.4 s instead of 2 ms and still passed the gate.",
+      "ts": 1795651200,
+      "published": "2026-11-26T00:00:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Jakarta EE 11 No Longer Has an Umbrella JAR",
+      "link": "https://foojay.io/today/jakarta-ee-11-umbrella-jar/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "The Jakarta EE umbrella JAR and its duplicate classes, JPMS split packages and Maven surprises are gone in EE 11. Your dependency stays the same.",
+      "ts": 1795651200,
+      "published": "2026-11-26T00:00:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Finally final: embracing JEP 500",
+      "link": "https://foojay.io/today/finally-final-embracing-jep-500/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "JEP 500 makes final mean final. How Tentackle's TRIP serializer stopped writing final fields for good, and a blueprint you can reuse for your own framework.",
+      "ts": 1795651200,
+      "published": "2026-11-26T00:00:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Quoting Scott Aaronson",
+      "link": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwen…",
+      "ts": 1795649192,
+      "published": "2026-11-25T23:26:32+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Risky Biz Podcast: Eliminating Vulnerabilities Without Upgrading Dependencies",
+      "link": "https://socket.dev/blog/eliminating-vulnerabilities-without-upgrading-dependencies?utm_medium=feed",
+      "source": "Socket",
+      "category": "Python",
+      "summary": "Socket CEO Feross Aboukhadijeh joins Risky Business Podcast to discuss eliminating open source vulnerabilities at scale without requiring dependency upgrades.",
+      "ts": 1795647032,
+      "published": "2026-11-25T22:50:32+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+      "link": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "AI can make software cheap enough to produce by the thousand and still give you more time to make one thing feel right. At AI Engineer CODE, Thariq Shihipar shows how those two futures can coexist. In his fighting game,…",
+      "ts": 1795645681,
+      "published": "2026-11-25T22:28:01+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "[AINews] Math Proofs Are Landing Faster Than We Can Read Them",
+      "link": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "November 25, 2026 — From Erdős problems to new bounds for matrix multiplication and Fourier transforms.",
+      "ts": 1795645421,
+      "published": "2026-11-25T22:23:41+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Much shorter version of GRH Lean verification from Anthropic",
+      "link": "https://github.com/lsernau/grh-lean",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://github.com/lsernau/grh-lean Comments URL: https://news.ycombinator.com/item?id=50648050 Points: 217 # Comments: 97",
+      "ts": 1795643290,
+      "published": "2026-11-25T21:48:10+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Where scientists draw the line on AI agents",
+      "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795632775,
+      "published": "2026-11-25T18:52:55+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Introducing Socket Calm: A Syntax Highlighting Theme for VS Code, Vim, and Neovim",
+      "link": "https://socket.dev/blog/socket-syntax-highlighting-theme?utm_medium=feed",
+      "source": "Socket",
+      "category": "Python",
+      "summary": "Socket Calm is a free, open source syntax highlighting theme for VS Code, Vim, and Neovim, inspired by Socket's design system.",
+      "ts": 1795632746,
+      "published": "2026-11-25T18:52:26+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "v2.75.0 (2026-11-25)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.75.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Keep workspace files below 'operator' authority out of the instructions in RepoContext , Skills and Memory , and add lowest_authority_under by @adtyavrdhn in #11837 Text from a work…",
+      "ts": 1795630860,
+      "published": "2026-11-25T18:21:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Vibe Coding for Business Analytics: Custom CRM Dashboards, Reporting Apps, and AI Agents",
+      "link": "https://www.kdnuggets.com/2026/11/vibe-coding-for-business-analytics-custom-crm-dashboards-reporting-apps-and-ai-agents",
+      "source": "KDnuggets",
+      "category": "Agents",
+      "summary": "Discover how Alaio Vibecode, an AI app builder for Bitrix24, helps teams create custom CRM analytics dashboards, reporting tools, lead scoring apps, and AI agents.",
+      "ts": 1795629633,
+      "published": "2026-11-25T18:00:33+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Kotlin Heroes: Episode 15 – Anniversary Edition",
+      "link": "https://blog.jetbrains.com/kotlin/2026/11/kotlin-heroes-episode-15-anniversary-edition/",
+      "source": "Kotlin",
+      "category": "Kotlin",
+      "summary": "Kotlin turned 15 this year, and we’re celebrating with the 15th episode of Kotlin Heroes! 💜 Kotlin Heroes is a series of online programming contests, where participants solve algorithmic problems using Kotlin. Whether y…",
+      "ts": 1795627819,
+      "published": "2026-11-25T17:30:19+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners",
+      "link": "https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Google DeepMind introduced Gemini Robotics 2.5, a vision-language-action (VLA) model designed to improve robots' dexterity, reliability, and learning speed, while enabling safer operation in unstructured real-world envi…",
+      "ts": 1795626000,
+      "published": "2026-11-25T17:00:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "DeepMind's Gemini Robotics 2.5 Aims to Make Robots Safer, More Dexterous, and Faster Learners",
+      "link": "https://www.infoq.com/news/2026/11/deepmind-gemini-robotics-2-5/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Google DeepMind introduced Gemini Robotics 2.5, a vision-language-action (VLA) model designed to improve robots' dexterity, reliability, and learning speed, while enabling safer operation in unstructured real-world envi…",
+      "ts": 1795626000,
+      "published": "2026-11-25T17:00:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Zapier offers free MCP tool calls until Jan. 5",
+      "link": "https://zapier.com/mcp",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://zapier.com/mcp Comments URL: https://news.ycombinator.com/item?id=50643836 Points: 29 # Comments: 1",
+      "ts": 1795622839,
+      "published": "2026-11-25T16:07:19+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
     {
       "title": "Why Data Job Candidates Freeze on Questions They Already Know",
       "link": "https://www.kdnuggets.com/why-data-job-candidates-freeze-on-questions-they-already-know",
@@ -71,6 +241,16 @@
       "ts": 1795615200,
       "published": "2026-11-25T14:00:00+00:00",
       "collected_at": "2026-11-26T00:48:32+09:00"
+    },
+    {
+      "title": "The No AI Slop Manifesto: A Pledge to Own What Agents Ship",
+      "link": "https://realpython.com/no-ai-slop-manifesto/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "The No AI Slop Manifesto explained: what the slop manifesto says, why it appeared now, and what its beliefs mean for Python developers using AI.",
+      "ts": 1795615200,
+      "published": "2026-11-25T14:00:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
     },
     {
       "title": "Vercel Launched Experimental Board to Coordinate Tasks Across Humans and Coding Agents",
@@ -323,6 +503,26 @@
       "collected_at": "2026-11-26T00:48:32+09:00"
     },
     {
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "link": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795564800,
+      "published": "2026-11-25T00:00:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
+      "title": "Migrating our Messages API to Rust",
+      "link": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "source": "Anthropic Engineering",
+      "category": "Agents",
+      "summary": "How we migrated our Messages API from Python to Rust.",
+      "ts": 1795564800,
+      "published": "2026-11-25T00:00:00+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
+    },
+    {
       "title": "Survey Statistics: linking people",
       "link": "https://statmodeling.stat.columbia.edu/2026/11/24/survey-statistics-linking-people/",
       "source": "Statistical Modeling",
@@ -541,6 +741,16 @@
       "ts": 1795526627,
       "published": "2026-11-24T13:23:47+00:00",
       "collected_at": "2026-11-25T02:13:59+09:00"
+    },
+    {
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "link": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "source": "DeepMind",
+      "category": "AI",
+      "summary": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+      "ts": 1795525673,
+      "published": "2026-11-24T13:07:53+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
     },
     {
       "title": "7 Most Downloaded AI Models on Hugging Face",
@@ -2201,6 +2411,16 @@
       "ts": 1795132701,
       "published": "2026-11-19T23:58:21+00:00",
       "collected_at": "2026-11-20T10:25:16+09:00"
+    },
+    {
+      "title": "Why Linear says Issue Tracking is Dead — Cristina Cordova, COO",
+      "link": "https://latent.space/p/why_linear_says_issue_tracking_is_dead_cristina_cordova_coo/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "Linear was founded to build a better issue tracker. Seven years and $134 million in funding later, its CEO Karri Saarinen published a post titled \"Issue tracking is dead.\" ( https://linear.app/next ) In this episode, we…",
+      "ts": 1795131537,
+      "published": "2026-11-19T23:38:57+00:00",
+      "collected_at": "2026-11-26T09:30:05+09:00"
     },
     {
       "title": "PostgreSQL 19 Released",
@@ -12431,236 +12651,6 @@
       "ts": 1793068723,
       "published": "2026-10-27T02:38:43+00:00",
       "collected_at": "2026-10-27T16:31:22+09:00"
-    },
-    {
-      "title": "What jstack Misses When Your Java Service Uses Virtual Threads",
-      "link": "https://foojay.io/today/what-jstack-misses-when-your-java-service-uses-virtual-threads/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "A service with virtual threads can have thousands of requests waiting while jstack shows idle carriers. How to read Thread.dump_to_file instead, JDK 21 to 25.",
-      "ts": 1793059200,
-      "published": "2026-10-27T00:00:00+00:00",
-      "collected_at": "2026-10-27T10:53:14+09:00"
-    },
-    {
-      "title": "New Java Features Are Not Just for Interviews. Two Real-World Use Cases from Axelix",
-      "link": "https://foojay.io/today/java-new-features-in-production/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "See how Axelix uses Java ScopedValue to propagate security context and sealed interfaces to protect domain invariants in real-world production code.",
-      "ts": 1793059200,
-      "published": "2026-10-27T00:00:00+00:00",
-      "collected_at": "2026-10-27T10:53:14+09:00"
-    },
-    {
-      "title": "DuckDB 2.0 Is Here",
-      "link": "https://foojay.io/today/duckdb-2-0-is-here/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "DuckDB 2.0.0 LTS - Cinnamon Teal - is the project's biggest release yet, with a server mode, async I/O, first-class VARIANT support and a new parser.",
-      "ts": 1793059200,
-      "published": "2026-10-27T00:00:00+00:00",
-      "collected_at": "2026-10-27T10:53:14+09:00"
-    },
-    {
-      "title": "Quality Outreach Heads-up - JDK 28: Value Classes",
-      "link": "https://inside.java/2026/10/27/quality-heads-up/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "This Heads-Up is part of the regular communication sent to the projects involved; it covers the introduction of value classes and strict fields",
-      "ts": 1793059200,
-      "published": "2026-10-27T00:00:00+00:00",
-      "collected_at": "2026-10-27T20:20:11+09:00"
-    },
-    {
-      "title": "This Week in Spring - October 27th, 2026",
-      "link": "https://spring.io/blog/2026/10/27/this-week-in-spring-october-27th-2026",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! Welcome to another installment of This Week in Spring , which I write from the paradise-like environs Barcelona, Spain, where I was lucky enough to be a part of the amazing Vaadin Create event today and…",
-      "ts": 1793059200,
-      "published": "2026-10-27T00:00:00+00:00",
-      "collected_at": "2026-10-28T04:55:49+09:00"
-    },
-    {
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "link": "https://openai.com/index/check-point-daybreak",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "ts": 1793059200,
-      "published": "2026-10-27T00:00:00+00:00",
-      "collected_at": "2026-10-28T04:55:49+09:00"
-    },
-    {
-      "title": "Early progress on accelerating drug development with Claude",
-      "link": "https://www.anthropic.com/research/early-progress-drug-development",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.",
-      "ts": 1793059200,
-      "published": "2026-10-27T00:00:00+00:00",
-      "collected_at": "2026-11-03T23:40:15+09:00"
-    },
-    {
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.",
-      "ts": 1793059200,
-      "published": "2026-10-27T00:00:00+00:00",
-      "collected_at": "2026-11-03T23:40:15+09:00"
-    },
-    {
-      "title": "tar-codec: a fast and secure tar parser for the Rust ecosystem",
-      "link": "https://astral.sh/blog/tar-codec",
-      "source": "Astral",
-      "category": "Python",
-      "summary": "We're releasing tar-codec, a new tar encoding/decoding library for Rust. tar-codec is already the default in uv, and improves uv's tar handling performance by over 2x while also improving our posture against archive dif…",
-      "ts": 1793059200,
-      "published": "2026-10-27T00:00:00+00:00",
-      "collected_at": "2026-11-26T00:48:32+09:00"
-    },
-    {
-      "title": "GPT-6.1 Terra",
-      "link": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "GPT-6.1 Terra It's always interesting to note which aspects of a new model are emphasized in the release announcement. In the case of GPT-6.1 Terra, OpenAI went with visual reasoning and computer use: We’re introducing…",
-      "ts": 1793058787,
-      "published": "2026-10-26T23:53:07+00:00",
-      "collected_at": "2026-10-27T10:53:14+09:00"
-    },
-    {
-      "title": "MRP at NYT",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/26/mrp-at-nyt/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Coincidentally, or maybe not, on the same day that our New York Times contact informed me about their new job opening, Yair points us to this new feature at the NYT website, “Times Voter Trends” at the NYT. Yair writes:…",
-      "ts": 1793054370,
-      "published": "2026-10-26T22:39:30+00:00",
-      "collected_at": "2026-10-27T10:53:14+09:00"
-    },
-    {
-      "title": "One-year election analytics fellowship at the New York Times",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/26/one-year-election-analytics-fellowship-at-the-new-york-times/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Will Davis writes: We ended up hiring somebody who had seen the job posting through your blog, and he is fantastic. I also wanted to let you know that we have a fellowship slot open. This is a one-year, full-time … Cont…",
-      "ts": 1793053304,
-      "published": "2026-10-26T22:21:44+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "AGNTCon + MCPCon 2026: Agentic AI Foundation Adds Four Projects as MCP Turns to Security",
-      "link": "https://www.infoq.com/news/2026/10/agntcon-mcpcon-2026/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "At AGNTCon + MCPCon North America 2026, the Agentic AI Foundation added OpenSandbox, Open Responses, Agent Skills, and OpenEnv, reaching ten projects in its first year. Keynotes from Anthropic, OpenAI, Google, and UC Be…",
-      "ts": 1793052000,
-      "published": "2026-10-26T22:00:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
-      "link": "https://openai.com/index/greptile-code-review-codex-astra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How Greptile uses GPT-6 Astra to test user workflows, Daybreak to strengthen security, and Codex to reduce rework.",
-      "ts": 1793052000,
-      "published": "2026-10-26T22:00:00+00:00",
-      "collected_at": "2026-10-27T10:53:14+09:00"
-    },
-    {
-      "title": "OpenTofu 1.13 Lets Module Authors Reduce Unknown Values at Plan Time",
-      "link": "https://www.infoq.com/news/2026/10/opentofu-1-13-unknown-values/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "OpenTofu 1.13 adds convert and assume... functions that let module authors give the planner type and value hints for unknown values, so more expressions resolve during tofu plan. If a value unknown during planning later…",
-      "ts": 1793049960,
-      "published": "2026-10-26T21:26:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Quoting Jason Koebler",
-      "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Because big tech platforms essentially do not have customer support and make it impossible for their users to contact a human, many people experiencing run-of-the-mill tech problems have turned to ChatGPT. And, increasi…",
-      "ts": 1793041225,
-      "published": "2026-10-26T19:00:25+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Release: v5.21.0",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.21",
-      "source": "Transformers",
-      "category": "AI",
-      "summary": "Release v5.21.0 New Model additions MiniCPM-OCR MiniCPM-OCR is a document-understanding model from OpenBMB's MiniCPM-V family. It keeps the MiniCPM-V 4.6 architecture, which pairs a SigLIP vision encoder and a window-at…",
-      "ts": 1793038890,
-      "published": "2026-10-26T18:21:30+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "DigitalOcean Launches Learning and Data Services to Enable Self-Improving AI Agents",
-      "link": "https://www.infoq.com/news/2026/10/digitalocean-self-improving-ai/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "DigitalOcean has announced the public preview of Learning Services and Agent Data Services, enabling developers to build, evaluate, and continuously improve AI agents within a unified, AI-native, cloud platform. By Serg…",
-      "ts": 1793037600,
-      "published": "2026-10-26T18:00:00+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Introducing GPT-6.1 Terra",
-      "link": "https://openai.com/index/introducing-gpt-6-1-terra",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Delivering fast and capable computer use at scale",
-      "ts": 1793037600,
-      "published": "2026-10-26T18:00:00+00:00",
-      "collected_at": "2026-11-25T11:01:51+09:00"
-    },
-    {
-      "title": "Will the real Anthropic please stand up",
-      "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. After weeks of frenzied speculation, Anthropic has filed its IPO prospectus. The…",
-      "ts": 1793036743,
-      "published": "2026-10-26T17:45:43+00:00",
-      "collected_at": "2026-10-27T07:26:40+09:00"
-    },
-    {
-      "title": "Making Failure Diagnosis Reliable with Pensive AI",
-      "link": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?source=rss----2615bd06b42e---4",
-      "source": "Netflix TechBlog",
-      "category": "Architecture",
-      "summary": "By Praneeth Yenugutala , Victor Dusa , Anastasia Samoilova , Megan Ren , Justin Wei , Marcelo Mayworm At Netflix, data and machine learning practitioners run millions of workloads each day across orchestration systems a…",
-      "ts": 1793034297,
-      "published": "2026-10-26T17:04:57+00:00",
-      "collected_at": "2026-11-26T00:48:32+09:00"
-    },
-    {
-      "title": "webframe: evaluated as a scraper and a sandbox",
-      "link": "https://simonwillison.net/2026/Oct/26/webframe-evaluation/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "Research: webframe: evaluated as a scraper and a sandbox webframe is a neat little project from Jeff Lindsay which lets you \"run a web page like a program\" - you point it at a URL or file and it executes it in a hidden…",
-      "ts": 1793031300,
-      "published": "2026-10-26T16:15:00+00:00",
-      "collected_at": "2026-10-27T10:53:14+09:00"
-    },
-    {
-      "title": "Multi‑Ratio Video Resizing for Mobile Feed and Marketing",
-      "link": "https://netflixtechblog.com/multi-ratio-video-resizing-for-mobile-feed-and-marketing-2e6b42810f49?source=rss----2615bd06b42e---4",
-      "source": "Netflix TechBlog",
-      "category": "Architecture",
-      "summary": "Serdar Cellat , Yuchen Xie , Bernadette Marcu , Blaid Burgess , Cody Jarrett , Carlos Pereira , Qing Shi , Samuel Carvajal , Manuel Pamplona , Dorothy Jung , Feiko Ritsema , Benjamin Klein , Alex Woo , Eugene Lok , Anna…",
-      "ts": 1793030462,
-      "published": "2026-10-26T16:01:02+00:00",
-      "collected_at": "2026-11-26T00:48:32+09:00"
     }
   ]
 }
