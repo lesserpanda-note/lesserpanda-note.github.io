@@ -38,8 +38,8 @@
 | AC10 | `CLAUDE.md` Item Selection Rules, SKILL.md STEP 3, 클라우드 프롬프트에 10건·3건·제외 규칙·스크립트 경로가 같은 표현으로 있음 — 세 곳 grep 대조 | glue |
 
 ## 마일스톤
-현재: M1·M2 게이트 통과(M2는 2026-11-28 master 확인). PR #24(`feature/18-digest-selection`, 마지막 커밋은 이 체크포인트) 열림·미머지. M3 시작 커밋 b780ca5 기록만 함 — `CLAUDE.md`는 아직 손대지 않음.
-다음: worktree의 `CLAUDE.md` `## Item Selection Rules`를 고친다 — "How many per category"(2건 기본·최대 5건·약 20건)를 하루 10건·카테고리 3건으로, 카테고리 안 순서(보안 공지 → 메이저 릴리스 → 나머지, 상한 초과 시)와 `--skip`(duplicate·unreadable) 예외 추가, "Releases and advisories"의 "five-per-category ceiling"·LangGraph 예시를 스크립트 기준(라이브러리 피드 7종, alpha·beta·rc·milestone·nightly·canary, Node `x.y.z` z≥1, Node `x.y.0`은 남음)으로, 기계 판정은 `scripts/select_digest.py`(`candidates`·`check`)가 한다는 항목 추가. 그다음 커밋·push → PR #24 새 컨텍스트 /code-review → 머지 → SKILL.md·클라우드 프롬프트 갱신 → M3 게이트 리뷰 → 다음 09:39 실행 관찰.
+현재: M1·M2 게이트 통과(M2는 2026-11-28 master 확인). M3: `CLAUDE.md` `## Item Selection Rules`를 하루 10건·카테고리 3건, 카테고리 안 tier 순서와 `--skip` 예외, 스크립트 기준 제외 규칙, `select_digest.py` 항목으로 고쳐 PR #24에 커밋함. PR 미머지.
+다음: PR #24 새 컨텍스트 /code-review → 머지 → SKILL.md·클라우드 프롬프트 갱신 → M3 게이트 리뷰 → 다음 09:39 실행 관찰.
 
 ### M1: 판정 함수와 회귀 테스트 (`scripts/select_digest.py` 순수부, `scripts/test_select_digest.py`)
 - 다룸: `exclude_reason`·`tier`·`check`와 실제 제목 기반 테스트 · 관련 AC: AC1~AC7
