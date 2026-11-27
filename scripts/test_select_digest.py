@@ -17,7 +17,7 @@ tier order, which do not depend on wording.
 from __future__ import annotations
 
 import importlib.util
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 _spec = importlib.util.spec_from_file_location("select_digest", Path(__file__).with_name("select_digest.py"))
@@ -119,6 +119,35 @@ TIER_CASES = [
     ("Towards Data Science", "DuckDB 2.0 vs Polars 2.0 in Five Real-World Tests and One 14x Gap", 2),
     ("Kotlin", "Kotlin Benchmark 2.0: How AI Coding Agents Handle Harder Tasks and Closed-Source Code", 2),
     ("InfoQ Java", "Java News Roundup: Java4Shell, Oracle CSPUs, OpenJDK, Azul Payara, BellSoft, Helidon, LangChain4j", 2),
+]
+
+
+# AC6 security releases on the Node.js Blog: its feed has no summary, so a point release is
+# told apart by a "Security Releases" advisory in data/security.json within a day of it
+# (PR #24 review). Advisory dates as in security.json on 2026-11-28.
+NODE_ADVISORY_DATES = [date(2026, 11, 11), date(2026, 10, 21)]
+
+
+def _node_release(title: str, published: str) -> dict:
+    return {**item("Node.js Blog", title, "Node"), "published": published}
+
+
+# (label, item, advisory dates, expected exclude_reason, expected tier)
+NODE_SECURITY_CASES = [
+    ("point release on an advisory day stays as tier 0",
+     _node_release("Node.js 26.13.1 (LTS)", "2026-11-11T16:45:20+00:00"), NODE_ADVISORY_DATES, None, 0),
+    ("its sibling line on the same day too",
+     _node_release("Node.js 22.23.5 (LTS)", "2026-11-11T16:44:58+00:00"), NODE_ADVISORY_DATES, None, 0),
+    ("the day after a late-evening advisory counts",  # shape: 10-21 22:00Z advisory
+     _node_release("Node.js 24.22.2 (LTS)", "2026-10-22T09:00:00+00:00"), NODE_ADVISORY_DATES, None, 0),
+    ("point release a week after the advisory is out",  # news.json 10-28
+     _node_release("Node.js 24.22.2 (LTS)", "2026-10-28T12:00:00+00:00"), NODE_ADVISORY_DATES, "node_point", 2),
+    ("point release with no advisory list is out",
+     _node_release("Node.js 26.13.1 (LTS)", "2026-11-11T16:45:20+00:00"), [], "node_point", 2),
+    ("an alpha on an advisory day stays a prerelease",
+     _node_release("Node.js 27.0.0-alpha.0.1.0 (Alpha)", "2026-11-11T13:36:10+00:00"), NODE_ADVISORY_DATES, "prerelease", 2),
+    ("an article on an advisory day is not a release",
+     _node_release("Notable V8 changes from Node.js 26 to 27 (Alpha)", "2026-11-11T08:00:00+00:00"), NODE_ADVISORY_DATES, None, 2),
 ]
 
 
@@ -237,6 +266,18 @@ def main() -> int:
         if got != expected:
             failed += 1
             print(f"FAIL  tier({source!r}, {title!r}) = {got!r}, expected {expected!r}")
+    for label, node_item, dates, expected_reason, expected_tier in NODE_SECURITY_CASES:
+        total += 1
+        got = (exclude_reason(node_item, dates), tier(node_item, dates))
+        if got != (expected_reason, expected_tier):
+            failed += 1
+            print(f"FAIL  Node security: {label} -> {got!r}, expected {(expected_reason, expected_tier)!r}")
+    node_sec = NODE_SECURITY_CASES[0][1]
+    total += 1
+    got = check([node_sec], [node_sec], node_security_dates=NODE_ADVISORY_DATES)
+    if got:
+        failed += 1
+        print(f"FAIL  check: a Node security point release passes with its advisory dates -> {got!r}")
     for label, highlights, candidates, expect_violation in check_cases():
         total += 1
         got = check(highlights, candidates)
