@@ -7,6 +7,10 @@
 ## 작업 환경 주의
 - 다이제스트 루틴이 **이 repo 작업 디렉터리의 main**에서 09:39 KST에 돈다. 구현은 `git worktree`로 `feature/18-digest-selection`을 따로 체크아웃해서 하고, 원래 디렉터리는 main에 둔다.
 - 테스트는 기존 관례대로 pytest 없이 plain assert: `python scripts/test_<name>.py`.
+- 테스트 실행: `test_select_digest.py`는 표준 라이브러리만 써서 `python3.12 scripts/test_select_digest.py`로 바로 돈다. 기존 3종은 `feedparser`가 필요해 `requirements.txt`로 만든 venv에서 돌린다(시스템 python3에는 없음).
+- push는 SSH 별칭이 아니라 HTTPS URL로: `git push https://github.com/lesserpanda-note/lesserpanda-note.github.io.git feature/18-digest-selection`.
+- 커밋 메시지 hook(`~/.claude/hooks/check-commit-msg.sh`)은 Bash 명령 안의 첫 heredoc이나 마지막 `-m`을 헤더로 읽는다. 커밋은 다른 heredoc과 같은 명령에 섞지 말고 `git commit -F - <<'EOF'` 하나로만 한다.
+- 실데이터 관찰은 repo 밖 scratch에 스크립트와 `git show <커밋>^:data/…`를 두고 한다(AC8(a) 행 절차). 한 디렉터리를 두 관찰에 재사용하지 않는다 — M2에서 덮어쓴 archive.json으로 잘못된 수치를 적은 적이 있다.
 - 로컬 SKILL.md(`~/.claude/scheduled-tasks/lesserpanda-digest-fallback/SKILL.md`)와 클라우드 루틴 프롬프트(RemoteTrigger)는 repo 밖이라 PR에 안 들어간다 — M3에서 PR 머지 **후** 갱신한다(머지 전 갱신하면 루틴이 main에 없는 스크립트를 부른다).
 
 ## 설계 결정 (spec의 "어떻게")
@@ -34,8 +38,8 @@
 | AC10 | `CLAUDE.md` Item Selection Rules, SKILL.md STEP 3, 클라우드 프롬프트에 10건·3건·제외 규칙·스크립트 경로가 같은 표현으로 있음 — 세 곳 grep 대조 | glue |
 
 ## 마일스톤
-현재: M2 게이트 리뷰 1회차 수정 완료(2026-11-28) — 7일 기준점을 `updated`에 고정, tasks 문서 정합, 코드 기준 판단 3건 반영. 97건 green. 실데이터 재관찰(깨끗한 scratch): 11-26 원본 exit 1(18건·Java 5·AI 4·`[AINews]`), 현재 17건은 상한 위반만, 11-25 구간 42건이 `--until`/`--since`로 15+27(제외 후 11+23=34), 3일 보충 25+19+36=80 = 전체 80, 날짜별 check: 11-22 exit 1(`[AINews]`)·11-23 ok·11-24 exit 1(13건·AI 5). 앞서 적은 "14+20=34"는 scratch의 archive.json을 덮어쓴 뒤 잰 잘못된 수치였음. spec 재리뷰 지적 해소(2회차, 문서). M2 게이트 사람 확인 대기.
-다음: M2 게이트(/gate-review → master 확인) 후 M3 — CLAUDE.md 갱신(같은 PR) → 머지 → 두 루틴 프롬프트
+현재: M1·M2 게이트 통과(M2는 2026-11-28 master 확인). PR #24(`feature/18-digest-selection`, 마지막 커밋은 이 체크포인트) 열림·미머지. M3 시작 커밋 b780ca5 기록만 함 — `CLAUDE.md`는 아직 손대지 않음.
+다음: worktree의 `CLAUDE.md` `## Item Selection Rules`를 고친다 — "How many per category"(2건 기본·최대 5건·약 20건)를 하루 10건·카테고리 3건으로, 카테고리 안 순서(보안 공지 → 메이저 릴리스 → 나머지, 상한 초과 시)와 `--skip`(duplicate·unreadable) 예외 추가, "Releases and advisories"의 "five-per-category ceiling"·LangGraph 예시를 스크립트 기준(라이브러리 피드 7종, alpha·beta·rc·milestone·nightly·canary, Node `x.y.z` z≥1, Node `x.y.0`은 남음)으로, 기계 판정은 `scripts/select_digest.py`(`candidates`·`check`)가 한다는 항목 추가. 그다음 커밋·push → PR #24 새 컨텍스트 /code-review → 머지 → SKILL.md·클라우드 프롬프트 갱신 → M3 게이트 리뷰 → 다음 09:39 실행 관찰.
 
 ### M1: 판정 함수와 회귀 테스트 (`scripts/select_digest.py` 순수부, `scripts/test_select_digest.py`)
 - 다룸: `exclude_reason`·`tier`·`check`와 실제 제목 기반 테스트 · 관련 AC: AC1~AC7
@@ -50,14 +54,14 @@
 ### M2: CLI (`candidates`·`check`)와 실데이터 확인
 - 다룸: news.json·digest.json·archive.json을 읽는 두 하위 명령, README `scripts/` 표에 한 줄 · 관련 AC: AC8(a), AC1, AC2(건너뜀 목록)
 - 시작 커밋: 5f65d93
-- [ ] 게이트 M2: 현재 데이터로 `candidates` 출력(제외 사유 포함)과 11-26 원본 `check` exit 1을 관찰 + M1 테스트 green → PR 열기(머지는 M3에서 `CLAUDE.md`까지 넣은 뒤) → /gate-review → 사람 확인
+- [x] 게이트 M2: 현재 데이터로 `candidates` 출력(제외 사유 포함)과 11-26 원본 `check` exit 1을 관찰 + M1 테스트 green → PR 열기(머지는 M3에서 `CLAUDE.md`까지 넣은 뒤) → /gate-review → 사람 확인
 - 수정 기록:
   - `1 | Opus 5.5 | 보충 구간의 7일 기준점을 updated에 고정(+테스트 3건)·tasks의 CLI 문장·AC2/AC8 행·M3 항목 정합·잘못 적은 관찰 수치 정정·--since/--until을 argparse에서 검증·JSON 읽기 관례 통일·상수 위치 | 재리뷰: 3건 해소, 새 지적 1건(M3 관련 AC에 AC2 skipped 기록 누락)`
   - `2 | Opus 5.5 | M3 관련 AC·게이트·AC8(b) 행에 skipped 기록 추가 | 해소(문서만 변경, grep 확인)`
 
 ### M3: 배선 (CLAUDE.md는 PR 안, 두 루틴 프롬프트는 머지 후)
 - 다룸: `CLAUDE.md` Item Selection Rules 갱신(M2와 같은 PR) → 머지(`Closes #18`), 머지 직후 로컬 SKILL.md STEP 2·3·5/6과 클라우드 프롬프트(RemoteTrigger update) 갱신 — STEP 2에서 구간별 `candidates` 출력을 임시 파일로 저장해 후보로 쓰고, 커밋 전 `check --candidates FILE` 필수(실패 시 위반 항목 빼고 재검사, 뺀 것은 `digest-status.json` `dropped`에 기록), 일부러 건너뛴 상위 tier 후보는 `--skip URL duplicate|unreadable`로 넘기고 `digest-status.json` `skipped`에 기록, 여러 날 보충 시 날마다 `candidates --since/--until`과 `check --date` · 관련 AC: AC2(`skipped` 기록), AC8(b), AC9, AC10
-- 시작 커밋: —
+- 시작 커밋: b780ca5
 - [ ] 게이트 M3: 세 곳 grep 대조(AC10) + 클라우드 프롬프트 get으로 반영 확인 + 다음 09:39 로컬 실행의 picked ≤ 10, `check` 통과 기록, `digest-status.json`의 `dropped`·`skipped` 필드 관찰 → /gate-review → 사람 확인
 - 수정 기록:
 
