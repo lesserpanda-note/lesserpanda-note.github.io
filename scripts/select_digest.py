@@ -155,6 +155,17 @@ def _parse_time(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
+def _window_bound(value: str) -> datetime:
+    """--since/--until: an ISO time with an offset, since the data's times all carry one."""
+    try:
+        parsed = _parse_time(value)
+    except ValueError as e:
+        raise argparse.ArgumentTypeError(str(e)) from None
+    if parsed.tzinfo is None:
+        raise argparse.ArgumentTypeError(f"{value!r} has no UTC offset, e.g. 2026-11-27T00:06:00Z")
+    return parsed
+
+
 def select_candidates(items: Iterable[dict], updated: datetime, known_links: set[str],
                       since: datetime | None = None, until: datetime | None = None) -> list[dict]:
     """News items that are up for review in the window (since, until].
@@ -205,7 +216,10 @@ def check(highlights: list[dict], candidates: list[dict],
             violations.append(f"{category}: {count} highlights, over the cap of {MAX_PER_CATEGORY}")
 
     for h in highlights:
-        reason = exclude_reason(by_link.get(h["link"], h))
+        if h["link"] not in by_link:
+            violations.append(f"{h['link']}: not among this window's candidates — {h['title']}")
+            continue
+        reason = exclude_reason(by_link[h["link"]])
         if reason:
             violations.append(f"{h['link']}: excluded item ({reason}) — {h['title']}")
 
@@ -222,7 +236,7 @@ def check(highlights: list[dict], candidates: list[dict],
             continue
         lowest = max(
             tier(by_link.get(h["link"], h)) for h in highlights if h["category"] == category
-        )
+        )  # a highlight missing from the candidates is reported above; judge it by itself here
         left_out: list[tuple[int, dict]] = []
         for c in eligible:
             if c["link"] in picked:
@@ -305,9 +319,9 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Deterministic half of the digest selection.")
     sub = parser.add_subparsers(dest="command", required=True)
     cand = sub.add_parser("candidates", help="list the window's candidates by category and tier")
-    cand.add_argument("--since", type=_parse_time,
+    cand.add_argument("--since", type=_window_bound,
                       help="window start for a backfill day, default: data/digest.json updated")
-    cand.add_argument("--until", type=_parse_time, help="window end for a backfill day")
+    cand.add_argument("--until", type=_window_bound, help="window end for a backfill day")
     cand.set_defaults(func=cmd_candidates)
     chk = sub.add_parser("check", help="check a day's highlights against its saved candidates")
     chk.add_argument("--candidates", required=True, help="the `candidates` output for that window")

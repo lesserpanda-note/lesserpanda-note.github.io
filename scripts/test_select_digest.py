@@ -158,6 +158,7 @@ def check_cases() -> list[tuple[str, list[dict], list[dict], bool]]:
         ("AC3-6 excluded item in the digest fails", [quiz], [quiz], True),
         ("AC4 [AINews] in the digest fails", [ainews], [ainews], True),
         ("AC5 security patch read through its candidate passes", [sec_patch_highlight], [sec_patch], False),
+        ("AC8 highlight missing from the window's candidates fails", three_java, three_java[:2], True),
     ]
 
 
@@ -260,6 +261,17 @@ def main() -> int:
         if got != expected:
             failed += 1
             print(f"FAIL  select_candidates backfill: {label} -> {got}, expected {expected}")
+    for argv in (["candidates", "--since", "2026-11-26"], ["candidates", "--until", "2026-11-26T00:06:00"]):
+        # a window bound without an offset is refused by argparse instead of crashing later
+        total += 1
+        try:
+            _select.main(argv)
+            code = 0
+        except SystemExit as e:
+            code = e.code
+        if code != 2:
+            failed += 1
+            print(f"FAIL  main({argv!r}) exit {code!r}, expected 2")
     if failed:
         print(f"\n{failed}/{total} FAILED")
         return 1
