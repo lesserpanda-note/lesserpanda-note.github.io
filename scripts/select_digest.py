@@ -56,6 +56,8 @@ SKIP_REASONS = ("duplicate", "unreadable")
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
+# news.json fields carried into the `candidates` output, which `check` reads back.
+CANDIDATE_FIELDS = ("title", "link", "source", "category", "summary", "published", "collected_at")
 
 TIER_SECURITY = 0
 TIER_MAJOR = 1
@@ -153,15 +155,18 @@ def _parse_time(value: str) -> datetime:
     return datetime.fromisoformat(value.replace("Z", "+00:00"))
 
 
-def select_candidates(items: Iterable[dict], since: datetime, until: datetime | None,
-                      known_links: set[str]) -> list[dict]:
+def select_candidates(items: Iterable[dict], updated: datetime, known_links: set[str],
+                      since: datetime | None = None, until: datetime | None = None) -> list[dict]:
     """News items that are up for review in the window (since, until].
 
     STEP 2 of the routine: collected after the last digest, published within
     PUBLISHED_WINDOW of it unless it is a security advisory (those arrive days late and
-    still matter), and not carried by any earlier digest.
+    still matter), and not carried by any earlier digest. `updated` is that last
+    digest's time. A backfill cuts the days by collection time alone, so `since` and
+    `until` move the window while the 7-day guard stays anchored to `updated`.
     """
-    oldest = since - PUBLISHED_WINDOW
+    since = since or updated
+    oldest = updated - PUBLISHED_WINDOW
     out = []
     for it in items:
         collected = _parse_time(it["collected_at"])
@@ -235,8 +240,7 @@ def check(highlights: list[dict], candidates: list[dict],
 
 
 def _load(name: str) -> dict:
-    with (DATA / name).open(encoding="utf-8") as f:
-        return json.load(f)
+    return json.loads((DATA / name).read_text(encoding="utf-8"))
 
 
 def _known_links(digest: dict, archive: dict) -> set[str]:
@@ -244,20 +248,18 @@ def _known_links(digest: dict, archive: dict) -> set[str]:
     return {h["link"] for day in days for h in day.get("highlights", [])}
 
 
-_FIELDS = ("title", "link", "source", "category", "summary", "published", "collected_at")
-
-
 def cmd_candidates(args: argparse.Namespace) -> int:
     digest = _load("digest.json")
-    since = _parse_time(args.since or digest["updated"])
-    until = _parse_time(args.until) if args.until else None
+    updated = _parse_time(digest["updated"])
+    since = args.since or updated
     window = select_candidates(
-        _load("news.json")["items"], since, until, _known_links(digest, _load("archive.json"))
+        _load("news.json")["items"], updated, _known_links(digest, _load("archive.json")),
+        since, args.until,
     )
     by_category: dict[str, list[dict]] = {}
     excluded = []
     for it in window:
-        entry = {k: it.get(k) for k in _FIELDS}
+        entry = {k: it.get(k) for k in CANDIDATE_FIELDS}
         reason = exclude_reason(it)
         if reason:
             excluded.append({**entry, "reason": reason})
@@ -267,7 +269,7 @@ def cmd_candidates(args: argparse.Namespace) -> int:
         entries.sort(key=lambda e: e["tier"])
     out = {
         "since": since.isoformat(),
-        "until": until.isoformat() if until else None,
+        "until": args.until.isoformat() if args.until else None,
         "count": len(window),
         "eligible": len(window) - len(excluded),
         "by_category": dict(sorted(by_category.items())),
@@ -279,8 +281,7 @@ def cmd_candidates(args: argparse.Namespace) -> int:
 
 
 def cmd_check(args: argparse.Namespace) -> int:
-    with open(args.candidates, encoding="utf-8") as f:
-        saved = json.load(f)
+    saved = json.loads(Path(args.candidates).read_text(encoding="utf-8"))
     candidates = [c for entries in saved["by_category"].values() for c in entries]
     candidates += saved["excluded"]
     if args.date:
@@ -304,8 +305,9 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Deterministic half of the digest selection.")
     sub = parser.add_subparsers(dest="command", required=True)
     cand = sub.add_parser("candidates", help="list the window's candidates by category and tier")
-    cand.add_argument("--since", help="window start, default: data/digest.json updated")
-    cand.add_argument("--until", help="window end, for one day of a backfill")
+    cand.add_argument("--since", type=_parse_time,
+                      help="window start for a backfill day, default: data/digest.json updated")
+    cand.add_argument("--until", type=_parse_time, help="window end for a backfill day")
     cand.set_defaults(func=cmd_candidates)
     chk = sub.add_parser("check", help="check a day's highlights against its saved candidates")
     chk.add_argument("--candidates", required=True, help="the `candidates` output for that window")

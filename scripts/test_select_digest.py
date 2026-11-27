@@ -208,6 +208,19 @@ def candidate_cases() -> list[tuple[str, dict, datetime | None, set[str], bool]]
     ]
 
 
+def backfill_cases() -> list[tuple[str, dict, bool]]:
+    """(label, item, expect_candidate) for a later backfill day, window starting a day after SINCE.
+
+    The 7-day guard stays anchored to the last digest, not to the day's window.
+    """
+    later = SINCE + timedelta(days=1, hours=3)
+    return [
+        ("6 days before the digest, 7.5 before the day", news("l", "NAVER D2", later, SINCE - timedelta(days=6, hours=12)), True),
+        ("8 days before the digest", news("m", "NAVER D2", later, SINCE - timedelta(days=8)), False),
+        ("collected before the day's window", news("n", "NAVER D2", SINCE + timedelta(hours=12), SINCE), False),
+    ]
+
+
 def main() -> int:
     failed = 0
     total = 0
@@ -237,10 +250,16 @@ def main() -> int:
             print(f"FAIL  check: {label} -> {got!r}")
     for label, news_item, until, known, expected in candidate_cases():
         total += 1
-        got = bool(select_candidates([news_item], SINCE, until, known))
+        got = bool(select_candidates([news_item], SINCE, known, until=until))
         if got != expected:
             failed += 1
             print(f"FAIL  select_candidates: {label} -> {got}, expected {expected}")
+    for label, news_item, expected in backfill_cases():
+        total += 1
+        got = bool(select_candidates([news_item], SINCE, set(), since=SINCE + timedelta(days=1)))
+        if got != expected:
+            failed += 1
+            print(f"FAIL  select_candidates backfill: {label} -> {got}, expected {expected}")
     if failed:
         print(f"\n{failed}/{total} FAILED")
         return 1
