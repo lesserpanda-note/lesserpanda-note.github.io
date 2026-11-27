@@ -19,6 +19,8 @@ data/security.json                    공식 보안 공지 누적 (1년 보관, 
 scripts/fetch_news.py                 RSS → data/news.json + data/sources.json + data/security.json
 scripts/test_security.py              보안 공지 파서·병합 단위 테스트
 scripts/test_retry.py                 피드 요청 재시도(5xx·429·네트워크 오류)·gzip 해제 단위 테스트
+scripts/select_digest.py              다이제스트 선별의 결정론 단계: 후보 창·제외 규칙·tier (candidates), 상한·순서 검사 (check)
+scripts/test_select_digest.py         선별 규칙 단위 테스트 (news.json 실제 제목)
 .github/workflows/deploy.yml          6시간마다 뉴스 재생성 + 배포
 .github/workflows/promote-digest.yml  다이제스트 루틴 산출물을 main 으로 승격
 ```
