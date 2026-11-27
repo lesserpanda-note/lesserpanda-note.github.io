@@ -29,12 +29,12 @@
 | AC5  | 같은 테스트: CrewAI·MCP servers 등 `x.y.z`(z≥1) → 제외, 같은 피드라도 요약에 `CVE`/`security`/`vulnerability` → 남음, `x.y.0`·`x.0.0` → 남음 | pure |
 | AC6  | 같은 테스트: Node.js Blog alpha·point(`x.y.z`, z≥1) 릴리스 → 제외, Node 새 메이저 라인·`x.y.0`(LTS 전환 포함)·security release → 남음, 릴리스 제목에 alpha/beta/rc/milestone 표시 → 제외(정식판과 함께 나온 제목은 남음), 버전을 언급만 한 글 → 남음. nightly·canary는 AC7 예외대로 미고정 | pure |
 | AC7  | 테스트 사례가 모두 현재 `data/news.json`의 실제 제목에서 왔음(테스트 파일 주석에 출처 날짜). Hibernate `5.0.0.Final`·Spring 보안 공지 → 남음. 예외(M1 게이트 합의): 출처가 news.json이 아닌 실제 제목 2건(Node.js Security는 `data/security.json`, Spring Batch `6.1.0-RC1 and 6.0.6`은 `data/archive.json` 10-23), 그리고 30일 창에 실제 제목이 없는 분기는 그 피드의 제목 형식으로 쓴 "shape" 사례로 고정(Node 메이저, 라이브러리 `x.0.0`, Spring `-M1`, 요약의 `vulnerability`로 남는 패치). 제목 형식을 본 적이 없는 분기는 미고정 — nightly·canary 릴리스, 제목에 보안 표현이 든 라이브러리 패치. 실제 제목이 들어오면 사례 추가. `check()` 사례는 문구와 무관한 상한·tier 순서 검사라 합성 제목 | pure |
-| AC8  | (a) repo 밖 scratch 디렉터리에 스크립트와 다이제스트 직전 커밋의 `data/{news,digest,archive}.json`(`git show <커밋>^:…`)을 두고 `candidates > FILE`로 그 구간 후보를 저장한 뒤, 다이제스트 커밋의 `digest.json`·`archive.json`으로 바꿔 `check --candidates FILE`(와 `--date`)를 돌린다. 11-26 원본(d65e0cc, 18건·`[AINews]` 포함)은 exit 1과 위반 목록, 현재 17건(e1b70b8)은 상한 위반만, 여러 날 보충(10ec931)은 날짜별 `--since`/`--until` 구간과 `check --date`로 관찰 (b) 로컬·클라우드 루틴이 커밋 전에 `check`를 부르고, 실패하면 위반 항목을 빼고 다시 검사하며 뺀 항목·사유를 `digest-status.json`의 `dropped`에 기록 — 위반한 채로는 커밋하지 않음. 프롬프트 diff로 확인 + 다음 09:39 실행 관찰 | edge + glue |
+| AC8  | (a) repo 밖 scratch 디렉터리에 스크립트와 다이제스트 직전 커밋의 `data/{news,digest,archive}.json`(`git show <커밋>^:…`)을 두고 `candidates > FILE`로 그 구간 후보를 저장한 뒤, 다이제스트 커밋의 `digest.json`·`archive.json`으로 바꿔 `check --candidates FILE`(와 `--date`)를 돌린다. 11-26 원본(d65e0cc, 18건·`[AINews]` 포함)은 exit 1과 위반 목록, 현재 17건(e1b70b8)은 상한 위반만, 여러 날 보충(10ec931)은 날짜별 `--since`/`--until` 구간과 `check --date`로 관찰 (b) 로컬·클라우드 루틴이 커밋 전에 `check`를 부르고, 실패하면 위반 항목을 빼고 다시 검사하며 뺀 항목·사유를 `digest-status.json`의 `dropped`에, `--skip`으로 넘긴 항목·사유를 `skipped`에 기록 — 위반한 채로는 커밋하지 않음. 프롬프트 diff로 확인 + 다음 09:39 실행 관찰 | edge + glue |
 | AC9  | 두 루틴 프롬프트 STEP 3: 스크립트 출력의 tier 순서 안에서 LLM이 고르고 요약을 쓴다는 문장, 결정론 단계가 제외·tier·상한만 한다는 문장 — diff로 확인 | glue |
 | AC10 | `CLAUDE.md` Item Selection Rules, SKILL.md STEP 3, 클라우드 프롬프트에 10건·3건·제외 규칙·스크립트 경로가 같은 표현으로 있음 — 세 곳 grep 대조 | glue |
 
 ## 마일스톤
-현재: M2 게이트 리뷰 1회차 수정 완료(2026-11-28) — 7일 기준점을 `updated`에 고정, tasks 문서 정합, 코드 기준 판단 3건 반영. 97건 green. 실데이터 재관찰(깨끗한 scratch): 11-26 원본 exit 1(18건·Java 5·AI 4·`[AINews]`), 현재 17건은 상한 위반만, 11-25 구간 42건이 `--until`/`--since`로 15+27(제외 후 11+23=34), 3일 보충 25+19+36=80 = 전체 80, 날짜별 check: 11-22 exit 1(`[AINews]`)·11-23 ok·11-24 exit 1(13건·AI 5). 앞서 적은 "14+20=34"는 scratch의 archive.json을 덮어쓴 뒤 잰 잘못된 수치였음. M2 게이트 사람 확인 대기.
+현재: M2 게이트 리뷰 1회차 수정 완료(2026-11-28) — 7일 기준점을 `updated`에 고정, tasks 문서 정합, 코드 기준 판단 3건 반영. 97건 green. 실데이터 재관찰(깨끗한 scratch): 11-26 원본 exit 1(18건·Java 5·AI 4·`[AINews]`), 현재 17건은 상한 위반만, 11-25 구간 42건이 `--until`/`--since`로 15+27(제외 후 11+23=34), 3일 보충 25+19+36=80 = 전체 80, 날짜별 check: 11-22 exit 1(`[AINews]`)·11-23 ok·11-24 exit 1(13건·AI 5). 앞서 적은 "14+20=34"는 scratch의 archive.json을 덮어쓴 뒤 잰 잘못된 수치였음. spec 재리뷰 지적 해소(2회차, 문서). M2 게이트 사람 확인 대기.
 다음: M2 게이트(/gate-review → master 확인) 후 M3 — CLAUDE.md 갱신(같은 PR) → 머지 → 두 루틴 프롬프트
 
 ### M1: 판정 함수와 회귀 테스트 (`scripts/select_digest.py` 순수부, `scripts/test_select_digest.py`)
@@ -52,12 +52,13 @@
 - 시작 커밋: 5f65d93
 - [ ] 게이트 M2: 현재 데이터로 `candidates` 출력(제외 사유 포함)과 11-26 원본 `check` exit 1을 관찰 + M1 테스트 green → PR 열기(머지는 M3에서 `CLAUDE.md`까지 넣은 뒤) → /gate-review → 사람 확인
 - 수정 기록:
-  - `1 | Opus 5.5 | 보충 구간의 7일 기준점을 updated에 고정(+테스트 3건)·tasks의 CLI 문장·AC2/AC8 행·M3 항목 정합·잘못 적은 관찰 수치 정정·--since/--until을 argparse에서 검증·JSON 읽기 관례 통일·상수 위치 | 재리뷰 대기`
+  - `1 | Opus 5.5 | 보충 구간의 7일 기준점을 updated에 고정(+테스트 3건)·tasks의 CLI 문장·AC2/AC8 행·M3 항목 정합·잘못 적은 관찰 수치 정정·--since/--until을 argparse에서 검증·JSON 읽기 관례 통일·상수 위치 | 재리뷰: 3건 해소, 새 지적 1건(M3 관련 AC에 AC2 skipped 기록 누락)`
+  - `2 | Opus 5.5 | M3 관련 AC·게이트·AC8(b) 행에 skipped 기록 추가 | 해소(문서만 변경, grep 확인)`
 
 ### M3: 배선 (CLAUDE.md는 PR 안, 두 루틴 프롬프트는 머지 후)
-- 다룸: `CLAUDE.md` Item Selection Rules 갱신(M2와 같은 PR) → 머지(`Closes #18`), 머지 직후 로컬 SKILL.md STEP 2·3·5/6과 클라우드 프롬프트(RemoteTrigger update) 갱신 — STEP 2에서 구간별 `candidates` 출력을 임시 파일로 저장해 후보로 쓰고, 커밋 전 `check --candidates FILE` 필수(실패 시 위반 항목 빼고 재검사, 뺀 것은 `digest-status.json` `dropped`에 기록), 일부러 건너뛴 상위 tier 후보는 `--skip URL duplicate|unreadable`로 넘기고 `digest-status.json` `skipped`에 기록, 여러 날 보충 시 날마다 `candidates --since/--until`과 `check --date` · 관련 AC: AC8(b), AC9, AC10
+- 다룸: `CLAUDE.md` Item Selection Rules 갱신(M2와 같은 PR) → 머지(`Closes #18`), 머지 직후 로컬 SKILL.md STEP 2·3·5/6과 클라우드 프롬프트(RemoteTrigger update) 갱신 — STEP 2에서 구간별 `candidates` 출력을 임시 파일로 저장해 후보로 쓰고, 커밋 전 `check --candidates FILE` 필수(실패 시 위반 항목 빼고 재검사, 뺀 것은 `digest-status.json` `dropped`에 기록), 일부러 건너뛴 상위 tier 후보는 `--skip URL duplicate|unreadable`로 넘기고 `digest-status.json` `skipped`에 기록, 여러 날 보충 시 날마다 `candidates --since/--until`과 `check --date` · 관련 AC: AC2(`skipped` 기록), AC8(b), AC9, AC10
 - 시작 커밋: —
-- [ ] 게이트 M3: 세 곳 grep 대조(AC10) + 클라우드 프롬프트 get으로 반영 확인 + 다음 09:39 로컬 실행의 picked ≤ 10, `check` 통과 기록 관찰 → /gate-review → 사람 확인
+- [ ] 게이트 M3: 세 곳 grep 대조(AC10) + 클라우드 프롬프트 get으로 반영 확인 + 다음 09:39 로컬 실행의 picked ≤ 10, `check` 통과 기록, `digest-status.json`의 `dropped`·`skipped` 필드 관찰 → /gate-review → 사람 확인
 - 수정 기록:
 
 ## 완료 정의 (DoD)
