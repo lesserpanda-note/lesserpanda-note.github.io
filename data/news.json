@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T09:51:49+09:00",
-  "count": 1252,
+  "updated": "2026-11-27T11:56:24+09:00",
+  "count": 1251,
   "items": [
     {
       "title": "When an agent dies after saying yes",
@@ -12511,16 +12511,6 @@
       "ts": 1793177430,
       "published": "2026-10-28T08:50:30+00:00",
       "collected_at": "2026-10-28T20:07:30+09:00"
-    },
-    {
-      "title": "v2.63.0 (2026-10-27)",
-      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.63.0",
-      "source": "Pydantic AI",
-      "category": "Agents",
-      "summary": "What's Changed ⚠️ Compatibility Notes Default CodeMode to dynamic_catalog=True , so a revealed tool is appended instead of rewriting the cached prompt by @DouweM in #11358 Pass the Gemini Live reconnect replay to Google…",
-      "ts": 1793148947,
-      "published": "2026-10-28T00:55:47+00:00",
-      "collected_at": "2026-10-28T13:50:53+09:00"
     }
   ]
 }
