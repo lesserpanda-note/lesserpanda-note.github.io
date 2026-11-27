@@ -172,8 +172,8 @@ def _article(category: str, n: int) -> dict:
     return item("Some Blog", f"{category} article {n}", category)
 
 
-def feed_cases() -> list[tuple[str, list[dict], list[dict], set[str], bool]]:
-    """(label, highlights, candidates, feed_links, expect_violation)
+def feed_cases() -> list[tuple[str, list[dict], list[dict], set[str], set[str], bool]]:
+    """(label, highlights, candidates, feed_links, carried_links, expect_violation)
 
     A highlight outside the candidates is wrong when it is a feed item from another
     window, and allowed when it is another source for the same story (CLAUDE.md "Say
@@ -183,8 +183,11 @@ def feed_cases() -> list[tuple[str, list[dict], list[dict], set[str], bool]]:
     google = item("Google AI", "Gemini Decisions API", "AI")
     feed = {h["link"] for h in three_java}
     return [
-        ("AC8 a feed item from another window fails", three_java, three_java[:2], feed, True),
-        ("AC8 another source for a story passes", three_java[:2] + [google], three_java[:2], feed, False),
+        ("AC8 a feed item from another window fails", three_java, three_java[:2], feed, set(), True),
+        ("AC8 another source for a story passes", three_java[:2] + [google], three_java[:2], feed, set(), False),
+        # the 11-12 blog.google post carried again on a later day (PR #24 review)
+        ("AC8 another source an earlier digest carried fails", three_java[:2] + [google], three_java[:2], feed,
+         {google["link"]}, True),
     ]
 
 
@@ -200,19 +203,27 @@ def _check_cli_cases(node_day: list[dict]) -> tuple[int, int]:
         try:
             article = node_day[-1]
             (data / "archive.json").write_text(json.dumps({"digests": [
-                {"date": "2026-11-12", "summary": "", "highlights": [article]}]}), encoding="utf-8")
+                {"date": "2026-11-12", "summary": "", "highlights": [article]},
+                {"date": "2026-11-11", "summary": "", "highlights": [node_day[0]]},
+                {"date": "2026-11-10", "summary": "", "highlights": [node_day[0]]}]}), encoding="utf-8")
+            (data / "digest.json").write_text(json.dumps({"updated": "2026-11-13T00:00:00Z", "summary": "",
+                                                          "highlights": [node_day[1]]}), encoding="utf-8")
             (data / "news.json").write_text(json.dumps({"items": node_day}), encoding="utf-8")
             saved = {"by_category": {"Node": node_day}, "excluded": [],
                      "node_security_advisories": [a.isoformat() for a in NODE_ADVISORIES]}
-            for label, content, expected in [
-                ("check --date with the saved advisories fails the article", saved, 1),
+            for label, content, day, expected in [
+                ("check --date with the saved advisories fails the article", saved, "2026-11-12", 1),
+                ("check --date does not count the day's own links as carried",
+                 {**saved, "by_category": {"Node": node_day[1:]}}, "2026-11-12", 0),
+                ("check --date fails a link another day carried",
+                 {**saved, "by_category": {"Node": node_day[:1]}}, "2026-11-10", 1),
                 ("check refuses a candidates file without advisories", {k: v for k, v in saved.items()
-                                                                       if k != "node_security_advisories"}, 2),
+                                                                       if k != "node_security_advisories"}, "2026-11-12", 2),
             ]:
                 total += 1
                 path = data / "candidates.json"
                 path.write_text(json.dumps(content), encoding="utf-8")
-                code = _select.main(["check", "--candidates", str(path), "--date", "2026-11-12"])
+                code = _select.main(["check", "--candidates", str(path), "--date", day])
                 if code != expected:
                     failed += 1
                     print(f"FAIL  {label}: exit {code}, expected {expected}")
@@ -362,9 +373,9 @@ def main() -> int:
         if bool(got) != expect_violation:
             failed += 1
             print(f"FAIL  check: {label} -> {got!r}")
-    for label, highlights, candidates, feed, expect_violation in feed_cases():
+    for label, highlights, candidates, feed, carried, expect_violation in feed_cases():
         total += 1
-        got = check(highlights, candidates, feed_links=feed)
+        got = check(highlights, candidates, feed_links=feed, carried_links=carried)
         if bool(got) != expect_violation:
             failed += 1
             print(f"FAIL  check: {label} -> {got!r}")

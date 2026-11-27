@@ -221,7 +221,8 @@ def select_candidates(items: Iterable[dict], updated: datetime, known_links: set
 def check(highlights: list[dict], candidates: list[dict],
           skipped: Mapping[str, str] | None = None,
           node_security_advisories: Collection[datetime] = (),
-          feed_links: Collection[str] = ()) -> list[str]:
+          feed_links: Collection[str] = (),
+          carried_links: Collection[str] = ()) -> list[str]:
     """Rule violations in one day's highlights; an empty list means the day passes.
 
     `candidates` are that day's news.json items. A highlight is judged through its
@@ -231,7 +232,8 @@ def check(highlights: list[dict], candidates: list[dict],
     the tier-order check. `node_security_advisories` are those the candidates were judged
     with. `feed_links` are every news.json link: a highlight outside the candidates is a
     violation when it is a feed item from another window, and allowed when it is another
-    source for the same story, which CLAUDE.md tells the routine to take.
+    source for the same story, which CLAUDE.md tells the routine to take. `carried_links`
+    are every other day's highlights: no link may appear twice, whatever its source.
     """
     skipped = skipped or {}
     by_link = {c["link"]: c for c in candidates}
@@ -245,6 +247,9 @@ def check(highlights: list[dict], candidates: list[dict],
             violations.append(f"{category}: {count} highlights, over the cap of {MAX_PER_CATEGORY}")
 
     for h in highlights:
+        if h["link"] in carried_links:
+            violations.append(f"{h['link']}: already carried by another day — {h['title']}")
+            continue
         if h["link"] not in by_link and h["link"] in feed_links:
             violations.append(f"{h['link']}: a feed item outside this window's candidates — {h['title']}")
             continue
@@ -340,21 +345,26 @@ def cmd_check(args: argparse.Namespace) -> int:
     saved = json.loads(Path(args.candidates).read_text(encoding="utf-8"))
     candidates = [c for entries in saved["by_category"].values() for c in entries]
     candidates += saved["excluded"]
+    digest, archive = _load("digest.json"), _load("archive.json")
     if args.date:
-        days = [d for d in _load("archive.json")["digests"] if d["date"] == args.date]
+        days = [d for d in archive["digests"] if d["date"] == args.date]
         if not days:
             print(f"no archive.json day {args.date}", file=sys.stderr)
             return 2
         highlights = days[0]["highlights"]
+        others = [digest, *(d for d in archive["digests"] if d["date"] != args.date)]
     else:
-        highlights = _load("digest.json")["highlights"]
+        highlights = digest["highlights"]
+        others = archive["digests"]
+    carried_links = {h["link"] for day in others for h in day.get("highlights", [])}
     if "node_security_advisories" not in saved:
         print(f"{args.candidates} has no node_security_advisories; run `candidates` again",
               file=sys.stderr)
         return 2
     advisories = [_parse_time(a) for a in saved["node_security_advisories"]]
     feed_links = {it["link"] for it in _load("news.json")["items"]}
-    violations = check(highlights, candidates, dict(args.skip or []), advisories, feed_links)
+    violations = check(highlights, candidates, dict(args.skip or []), advisories, feed_links,
+                       carried_links)
     for v in violations:
         print(v)
     if violations:

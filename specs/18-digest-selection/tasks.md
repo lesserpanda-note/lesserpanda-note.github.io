@@ -67,6 +67,7 @@
   - `1 | Opus 5.5 | PR #24 새 컨텍스트 리뷰 8건 중 반영: 후보 파일에 없는 하이라이트를 check가 위반으로 보고(+테스트), 시간대 없는 --since/--until을 argparse에서 거절(+테스트), CLAUDE.md에 check 위반 줄별 고치는 법·tier 1 정의·보안 패널 출처 보강 | master 결정 대기: Node 보안 릴리스가 node_point로 빠짐(리뷰 1번, AC6 충돌), 카테고리를 비우면 tier 순서 검사를 피함(2번의 코드 쪽). 후속: 기사 제목의 x.0이 tier 1(5번) → #25, go1.28rc1 미제외(6번) → #26`
   - `2 | Opus 5.5 | master 결정 반영: (1번) security.json의 Node "Security Releases" 공지 ±1일 안의 Node 릴리스는 제외하지 않고 tier 0(+테스트 8건, candidates 출력에 node_security_dates, spec AC6·CLAUDE.md·두 루틴 초안 갱신), (2번 코드) 고치지 않고 문서와 dropped 기록으로 둠 | 실데이터: 11-12 보충 구간에서 Node 3건이 tier 0으로 남음, check --date 2026-11-12는 상한 초과와 당시 구간을 잘못 자른 5건을 보고(오탐 아님, collected_at이 11-12 09:06 KST 이후)`
   - `3 | Opus 5.5 | 재리뷰 5건 반영: 후보 밖 하이라이트는 news.json에 있는 피드 항목일 때만 위반(CLAUDE.md의 다른 출처 허용과 충돌 — archive 11-12·11-20 Google AI 실례), Node 공지 대조를 경과 24시간으로, 후보 파일에 공지 목록이 없으면 exit 2, check의 공지 경로 테스트(+8건, 변이 6종 모두 검출), 하루 10건 초과 시 고치는 법 문서화 | 실데이터: 11-26은 기존 위반만, 11-12는 상한 초과와 구간 밖 피드 항목 5건만(Google AI 대체 출처는 통과)`
+  - `4 | Opus 5.5 | 마지막 리뷰 지적(회귀) 반영: 피드 밖 링크 허용 뒤 재게재가 빠져나가던 것을 check가 다른 날 하이라이트 링크와 대조해 보고(+테스트 3건, 변이 2종 검출) | 실데이터 11-26·11-12 결과 변화 없음. 후속 후보: check가 하이라이트 카테고리를 피드 카테고리와 대조하지 않음(The feed's category stands, 11-12 blog.google을 AI로 실음)`
 
 ## 완료 정의 (DoD)
 - 전체 AC 증명 green · /verify 통과 · README·CLAUDE.md 갱신 · /gate-review · /code-review · 이슈 #18 닫기
