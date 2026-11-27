@@ -1,7 +1,87 @@
 {
-  "updated": "2026-11-27T04:42:19+09:00",
-  "count": 1255,
+  "updated": "2026-11-27T09:51:49+09:00",
+  "count": 1252,
   "items": [
+    {
+      "title": "When an agent dies after saying yes",
+      "link": "https://foojay.io/today/when-an-agent-dies-after-saying-yes/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A worker that dies after AGREE never sends its result. How the manager handles expired assignments, and what happens when a late response turns up anyway.",
+      "ts": 1795737600,
+      "published": "2026-11-27T00:00:00+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
+    },
+    {
+      "title": "On reviewing AI-generated code",
+      "link": "https://foojay.io/today/reviewing-ai-generated-code/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Reading every line an AI agent writes doesn't scale. Control isn't lost, but partitioned: tools own the mechanical, humans own intent and boundaries.",
+      "ts": 1795737600,
+      "published": "2026-11-27T00:00:00+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
+    },
+    {
+      "title": "No-Boilerplate, Warning-Free and Reproducible Builds on Maven 4",
+      "link": "https://foojay.io/today/no-boilerplate-maven-4-builds/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Maven 4 warns when plugin versions are not locked. A base POM fixes that and removes build boilerplate. Here is how, with the FlowLogix one.",
+      "ts": 1795737600,
+      "published": "2026-11-27T00:00:00+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
+    },
+    {
+      "title": "Building Token Budgets for Spring AI: The Problems I Didn't Expect",
+      "link": "https://foojay.io/today/building-token-budgets-for-spring-ai-the-problems-i-didnt-expect/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "A Spring Boot starter that budgets Spring AI ChatClient calls by tokens and cost, with per-call metering, atomic reservations, Redis support, and agent call limits.",
+      "ts": 1795737600,
+      "published": "2026-11-27T00:00:00+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
+    },
+    {
+      "title": "v2.76.0 (2026-11-26)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.76.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Reveal tools mid-session in realtime sessions on models that take tool updates, via RealtimeModelProfile.supports_tool_updates and UpdateTools by @DouweM in #12440 RealtimeInput , t…",
+      "ts": 1795736946,
+      "published": "2026-11-26T23:49:06+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
+    },
+    {
+      "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+      "link": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+      "source": "Latent Space",
+      "category": "Agents",
+      "summary": "How $1,500 could qualify every company in the world, why customers hate the model selector, and how Clay is building go-to-market infrastructure for every agent",
+      "ts": 1795734168,
+      "published": "2026-11-26T23:02:48+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
+    },
+    {
+      "title": "Advent of Code 2026: ’Tis the Season to Code in Kotlin",
+      "link": "https://blog.jetbrains.com/kotlin/2026/11/advent-of-code-2026-in-kotlin/",
+      "source": "Kotlin",
+      "category": "Kotlin",
+      "summary": "December is almost here, and so is one of our favorite coding traditions! We’re excited to take part in Advent of Code once again and invite you to join us for another season of festive puzzles, clever Kotlin solutions,…",
+      "ts": 1795732500,
+      "published": "2026-11-26T22:35:00+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
+    },
+    {
+      "title": "Notion's official MCP inject hidden upsell instructions into agent context",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://www.reddit.com/r/ClaudeCode/comments/1y4qm5o/heads_up_if_you_wire_notions_official_mcp_into/ Comments URL: https://news.ycombinator.com/item?id=50658093 Points: 45 # Comments: 15",
+      "ts": 1795717710,
+      "published": "2026-11-26T18:28:30+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
+    },
     {
       "title": "AMD Specific Patches for Llama.cpp",
       "link": "https://devnull.land/amd-specific-llama-cpp",
@@ -71,6 +151,16 @@
       "ts": 1795701600,
       "published": "2026-11-26T14:00:00+00:00",
       "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "Back up your Claude Code sessions and use them on any machine",
+      "link": "https://session-vault.dev/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://session-vault.dev/ Comments URL: https://news.ycombinator.com/item?id=50655243 Points: 21 # Comments: 2",
+      "ts": 1795700594,
+      "published": "2026-11-26T13:43:14+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
     },
     {
       "title": "Top 5 Open-Source Alternatives to OpenAI Dots",
@@ -291,6 +381,16 @@
       "ts": 1795651200,
       "published": "2026-11-26T00:00:00+00:00",
       "collected_at": "2026-11-27T00:39:16+09:00"
+    },
+    {
+      "title": "A Bootiful Podcast: Cora Iberkleid on AI, Microservices, and the Future of Software Upgrades",
+      "link": "https://spring.io/blog/2026/11/26/a-bootiful-podcast-cora-iberkleid",
+      "source": "Spring Blog",
+      "category": "Spring",
+      "summary": "Hi, Spring fans! And Happy Thanksgiving to you, if you celebrate! I am VERY thankful for you! And today we've got an extra special episode! I'm joined by my friend and colleague and mentor Cora Iberkleid. What if AI isn…",
+      "ts": 1795651200,
+      "published": "2026-11-26T00:00:00+00:00",
+      "collected_at": "2026-11-27T09:51:43+09:00"
     },
     {
       "title": "Quoting Scott Aaronson",
@@ -12421,136 +12521,6 @@
       "ts": 1793148947,
       "published": "2026-10-28T00:55:47+00:00",
       "collected_at": "2026-10-28T13:50:53+09:00"
-    },
-    {
-      "title": "JVM on Unikernel Nanos — GC trade-offs and heap uncommit",
-      "link": "https://foojay.io/today/jvm-on-unikernel-nanos-gc-trade-offs-and-heap-uncommit/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Testing five HotSpot garbage collectors and heap uncommit on Nanos, revisiting the Akamas study with Eclipse Temurin 25 and Renaissance.",
-      "ts": 1793145600,
-      "published": "2026-10-28T00:00:00+00:00",
-      "collected_at": "2026-10-28T13:50:53+09:00"
-    },
-    {
-      "title": "Free Java, Real Risk: Why Unsupported OpenJDK Is Now a Security Gamble",
-      "link": "https://foojay.io/today/free-java-real-risk-why-unsupported-openjdk-is-now-a-security-gamble/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Learn why unsupported OpenJDK is a security risk in the age of AI.",
-      "ts": 1793145600,
-      "published": "2026-10-28T00:00:00+00:00",
-      "collected_at": "2026-10-28T13:50:53+09:00"
-    },
-    {
-      "title": "Announcing Vitra – A Modern UI Library for JavaFX",
-      "link": "https://foojay.io/today/announcing-vitra-modern-ui-library-for-javafx/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Vitra is a carefully crafted UI library that brings modern controls, Fluent-inspired materials and professional surfaces to JavaFX applications.",
-      "ts": 1793145600,
-      "published": "2026-10-28T00:00:00+00:00",
-      "collected_at": "2026-10-28T13:50:53+09:00"
-    },
-    {
-      "title": "Java Secure Coding Guidelines",
-      "link": "https://inside.java/2026/10/28/java-secure-coding-guidelines/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Get an overview of the Secure Coding Guidelines for Java and best practices. Examples will be provided to show insecure practices that may lead to security vulnerabilities. Learn how to avoid issues by applying the guid…",
-      "ts": 1793145600,
-      "published": "2026-10-28T00:00:00+00:00",
-      "collected_at": "2026-10-28T20:07:30+09:00"
-    },
-    {
-      "title": "Spring AI 2.1 Message Parts: Reasoning That Survives the Round Trip",
-      "link": "https://spring.io/blog/2026/10/28/spring-ai-message-parts-reasoning-replay",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Spring AI: Message Parts Doc | Upgrade Notes | OpenAI Responses Doc | Session Doc Reasoning models do more than think before they answer. They hand part of that thinking back to you and expect to get it back on the next…",
-      "ts": 1793145600,
-      "published": "2026-10-28T00:00:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Using Your Own Embeddings in Spring AI 2.1",
-      "link": "https://spring.io/blog/2026/10/28/spring-ai-upsert-own-embeddings",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "VectorStore.add() takes text documents, generates embeddings with the store's configured model, and saves both. Spring AI 2.1 adds upsert for applications that already have embeddings or generate them from images, video…",
-      "ts": 1793145600,
-      "published": "2026-10-28T00:00:00+00:00",
-      "collected_at": "2026-10-29T11:20:46+09:00"
-    },
-    {
-      "title": "AI for Science expands to foundations and research institutions",
-      "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
-      "source": "Anthropic",
-      "category": "AI",
-      "summary": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.",
-      "ts": 1793145600,
-      "published": "2026-10-28T00:00:00+00:00",
-      "collected_at": "2026-11-03T23:40:15+09:00"
-    },
-    {
-      "title": "Hibernate 8.0.0.Beta4",
-      "link": "https://in.relation.to/2026/10/28/orm-80-beta4/",
-      "source": "Hibernate",
-      "category": "Java",
-      "summary": "Table of Contents Highlights Filters and SQL restrictions on to-one associations Formula-based one-to-one associations Identifier generator optimizer selection A Hibernate-only BOM CDI-managed interceptors Hibernate Pro…",
-      "ts": 1793145600,
-      "published": "2026-10-28T00:00:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "A peek behind the curtain of modern runtime codegen (Part 2)",
-      "link": "https://in.relation.to/2026/10/28/peek-behind-the-curtain-of-accessor-codegen/",
-      "source": "Hibernate",
-      "category": "Java",
-      "summary": "When we decided to build Hibernate Accessor, our primary goal was simple — we wanted raw, hand-written field access speed with as little runtime overhead as possible and bytecode that the JIT can optimise as far as it c…",
-      "ts": 1793145600,
-      "published": "2026-10-28T00:00:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "1.15.32",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.32",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Bug Fixes Fix failing flaky tests Documentation Update snapshot and changelog for v1.15.31 Contributors @lorenzejay",
-      "ts": 1793142245,
-      "published": "2026-10-27T23:04:05+00:00",
-      "collected_at": "2026-11-04T07:14:58+09:00"
-    },
-    {
-      "title": "We interrupt our usual programming to inform you that I was never hired by Facebook to do a hit job on Jonathan Haidt.",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/27/we-interrupt-our-usual-programming-to-inform-you-that-i-was-never-hired-by-facebook-to-do-a-hit-job-on-jonathan-haidt/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "So. I got some emails today from various people, pointing me to this item from a court filing: From another source, this seems to be the story: Meta internally set a goal to “get the academic community to disavow” and ……",
-      "ts": 1793142145,
-      "published": "2026-10-27T23:02:25+00:00",
-      "collected_at": "2026-10-28T08:39:07+09:00"
-    },
-    {
-      "title": "1.15.31",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.31",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Support conversational flow context compaction. Bug Fixes Update vulnerable audit dependencies. Stop sending 'stop' to GPT-6 and newer models. Run the provider listing off the loop in acleanup_pr…",
-      "ts": 1793136989,
-      "published": "2026-10-27T21:36:29+00:00",
-      "collected_at": "2026-11-04T07:14:58+09:00"
-    },
-    {
-      "title": "Survey Statistics: how to measure hospital quality ?",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/27/survey-statistics-how-to-measure-hospital-quality/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "Last week we chatted about hopes for a new edition of Lumley 2010. Alan Zaslavsky recommends this textbook in his course. After taking the course in 2011, I asked Alan to advise my PhD. Alan’s work extends across most t…",
-      "ts": 1793131223,
-      "published": "2026-10-27T20:00:23+00:00",
-      "collected_at": "2026-10-28T06:53:35+09:00"
     }
   ]
 }
