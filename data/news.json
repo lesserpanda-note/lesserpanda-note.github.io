@@ -1,7 +1,107 @@
 {
-  "updated": "2026-11-27T21:41:36+09:00",
-  "count": 1245,
+  "updated": "2026-11-28T07:05:59+09:00",
+  "count": 1236,
   "items": [
+    {
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "link": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-expl…",
+      "ts": 1795808545,
+      "published": "2026-11-27T19:42:25+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
+      "title": "Rust 1.100.1",
+      "link": "https://github.com/rust-lang/rust/releases/tag/1.100.1",
+      "source": "Rust Releases",
+      "category": "Rust",
+      "summary": "library: fix regression where some types were not inferred as having Iterator impls This backports a change to the unstable const version of Iterator , which unintentionally caused existing code to not be seen as implem…",
+      "ts": 1795807901,
+      "published": "2026-11-27T19:31:41+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
+      "title": "Blending Unsupervised Clustering Tasks with Scikit-LLM",
+      "link": "https://www.kdnuggets.com/blending-unsupervised-clustering-tasks-with-scikit-llm",
+      "source": "KDnuggets",
+      "category": "AI",
+      "summary": "A two-stage pipeline for document clustering and LLM-driven topic discovery, aided by Scikit-LLM's summarization tools.",
+      "ts": 1795791600,
+      "published": "2026-11-27T15:00:00+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
+      "title": "Meta Brings Code Review Auto-Approval More Mainstream with PyTorch GreenLight",
+      "link": "https://www.infoq.com/news/2026/11/uber-agent-spend-steady/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "PyTorch now lets an AI reviewer approve pull requests from its own maintainers. GreenLight is an open-source take on RADAR, the system Meta uses to auto-land low-risk diffs after safety checks, a risk score and an LLM r…",
+      "ts": 1795790160,
+      "published": "2026-11-27T14:36:00+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
+      "title": "Netflix Builds Quasar to Measure the Blast Radius of Library API Changes",
+      "link": "https://www.infoq.com/news/2026/11/netflix-quasar-api-impact/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Netflix developed Quasar, an internal tool that combines semantic code indexing and API comparisons to identify downstream consumers affected by library changes. Using SCIP, Amazon S3, and Athena, it traces API referenc…",
+      "ts": 1795790100,
+      "published": "2026-11-27T14:35:00+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
+      "title": "“Fans Aghast as New York Jets Say They’re Switching to AI”",
+      "link": "https://statmodeling.stat.columbia.edu/2026/11/27/fans-aghast-as-new-york-jets-say-theyre-switching-to-ai/",
+      "source": "Statistical Modeling",
+      "category": "DataScience",
+      "summary": "Palko points to this amusing news story combining two of our interests here. The story is subtitled, “Jets finally acknowledging they need to outsource for intelligence as there is none in the building itself.”",
+      "ts": 1795789877,
+      "published": "2026-11-27T14:31:17+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
+      "title": "Google Sets a Deadline for AI Agents Working in Gmail",
+      "link": "https://realpython.com/ai-news-weekly-2026-11-27/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Real Python's weekly AI news for November 21–27, 2026, explained in plain language: Workspace Agent Rules, Claude Skills, and Stolen Prompts.",
+      "ts": 1795788000,
+      "published": "2026-11-27T14:00:00+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
+      "title": "Speculative Decoding Makes Tool Calls Faster. Agents Need a Cache.",
+      "link": "https://towardsdatascience.com/speculative-decoding-makes-tool-calls-faster-agents-need-a-cache/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "Benchmarks with Qwen3 and Llama on llama.cpp show a draft model sped up code, JSON, and tool calls up to 1.7x, while uncached agent loops ran 6% slower. The post Speculative Decoding Makes Tool Calls Faster. Agents Need…",
+      "ts": 1795788000,
+      "published": "2026-11-27T14:00:00+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
+      "title": "Introducing the Kotlin Security Newsletter",
+      "link": "https://blog.jetbrains.com/kotlin/2026/11/introducing-the-kotlin-security-newsletter/",
+      "source": "Kotlin",
+      "category": "Kotlin",
+      "summary": "Today, we’re launching the Kotlin Security Newsletter, a single place where you can track security fixes across Kotlin and its ecosystem. We’ll collect recent security fixes across the projects we cover in one digest, p…",
+      "ts": 1795787771,
+      "published": "2026-11-27T13:56:11+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
+      "title": "10 GitHub Repositories to Master AI Decision Models",
+      "link": "https://www.kdnuggets.com/10-github-repositories-to-master-ai-decision-models",
+      "source": "KDnuggets",
+      "category": "DataScience",
+      "summary": "Explore 10 GitHub repositories to learn how to build, train, fine-tune, deploy, and evaluate AI decision models that make faster, more efficient decisions.",
+      "ts": 1795784400,
+      "published": "2026-11-27T13:00:00+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
     {
       "title": "The Real Python Podcast – Episode #320: Optimizing Python Performance & Building a Django Static Site",
       "link": "https://realpython.com/podcasts/rpp/320/",
@@ -73,6 +173,16 @@
       "collected_at": "2026-11-27T21:41:17+09:00"
     },
     {
+      "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+      "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+      "source": "Hacker News",
+      "category": "Agents",
+      "summary": "Article URL: https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/ Comments URL: https://news.ycombinator.com/item?id=50661218 Poi…",
+      "ts": 1795737798,
+      "published": "2026-11-27T00:03:18+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
+    },
+    {
       "title": "When an agent dies after saying yes",
       "link": "https://foojay.io/today/when-an-agent-dies-after-saying-yes/",
       "source": "Foojay",
@@ -121,6 +231,16 @@
       "ts": 1795737600,
       "published": "2026-11-27T00:00:00+00:00",
       "collected_at": "2026-11-27T21:41:17+09:00"
+    },
+    {
+      "title": "Announcing Rust 1.100.1",
+      "link": "https://blog.rust-lang.org/2026/11/27/Rust-1.100.1/",
+      "source": "Rust Blog",
+      "category": "Rust",
+      "summary": "The Rust team has published a new point release of Rust, 1.100.1. Rust is a programming language that is empowering everyone to build reliable and efficient software. If you have a previous version of Rust installed via…",
+      "ts": 1795737600,
+      "published": "2026-11-27T00:00:00+00:00",
+      "collected_at": "2026-11-28T07:05:00+09:00"
     },
     {
       "title": "v2.76.0 (2026-11-26)",
@@ -12241,216 +12361,6 @@
       "ts": 1793226870,
       "published": "2026-10-28T22:34:30+00:00",
       "collected_at": "2026-10-29T07:59:55+09:00"
-    },
-    {
-      "title": "v2.2.0",
-      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.2.0",
-      "source": "MCP servers",
-      "category": "Agents",
-      "summary": "Security: Node.js runtime and CA certificate updates (October 2026) On October 20, 2026, eMudhra disclosed that the private keys for eight of its intermediate CA certificates could be recovered from the public certifica…",
-      "ts": 1793221033,
-      "published": "2026-10-28T20:57:13+00:00",
-      "collected_at": "2026-10-29T07:59:55+09:00"
-    },
-    {
-      "title": "Creating AI value with enterprise context",
-      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one…",
-      "ts": 1793219522,
-      "published": "2026-10-28T20:32:02+00:00",
-      "collected_at": "2026-10-29T07:59:55+09:00"
-    },
-    {
-      "title": "Bou-Rabee’s breakthrough paper, “Persistence Pays: Square-root condition-number dependence for Metropolis-adjusted kinetic Langevin Monte Carlo …”",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/28/bou-rabee-square-root-condition-number-dependence/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This post is from Bob This one’s a big deal. Bou-Rabee, Nawaf. 2026. Persistence Pays: Square-root condition-number dependence for Metropolis-adjusted kinetic Langevin Monte Carlo with a non-reversibly updated accept/re…",
-      "ts": 1793217608,
-      "published": "2026-10-28T20:00:08+00:00",
-      "collected_at": "2026-10-29T07:59:55+09:00"
-    },
-    {
-      "title": "Why Agents Love Supabase",
-      "link": "https://latent.space/p/supabase/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Paul Copplestone and Ant Wilson on building the backend for AI agents",
-      "ts": 1793216885,
-      "published": "2026-10-28T19:48:05+00:00",
-      "collected_at": "2026-10-29T07:59:55+09:00"
-    },
-    {
-      "title": "Evernote turns AI-driven discovery into paid subscriptions",
-      "link": "https://openai.com/ads/customers/evernote",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
-      "ts": 1793216449,
-      "published": "2026-10-28T19:40:49+00:00",
-      "collected_at": "2026-11-04T06:49:42+09:00"
-    },
-    {
-      "title": "Node.js 24.22.2 (LTS)",
-      "link": "https://nodejs.org/en/blog/release/v24.22.2",
-      "source": "Node.js Blog",
-      "category": "Node",
-      "summary": "",
-      "ts": 1793212814,
-      "published": "2026-10-28T18:40:14+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "Gemini 4 Carbon: Our next frontier model",
-      "link": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "DeepMind",
-      "category": "AI",
-      "summary": "",
-      "ts": 1793206858,
-      "published": "2026-10-28T17:00:58+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Node.js 26.13.0 (LTS)",
-      "link": "https://nodejs.org/en/blog/release/v26.13.0",
-      "source": "Node.js Blog",
-      "category": "Node",
-      "summary": "",
-      "ts": 1793206720,
-      "published": "2026-10-28T16:58:40+00:00",
-      "collected_at": "2026-11-03T22:16:51+09:00"
-    },
-    {
-      "title": "GitHub Octoverse 2026",
-      "link": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "GitHub Octoverse 2026 I'm at GitHub Universe today (GitHub gave me a free ticket through their \"GitHub Stars\" program). EVP Jay Parikh just announced this year's Octoverse report, and highlighted these numbers in partic…",
-      "ts": 1793205923,
-      "published": "2026-10-28T16:45:23+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
-      "link": "https://surgehq.ai/blog/dayjob-tax",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://surgehq.ai/blog/dayjob-tax Comments URL: https://news.ycombinator.com/item?id=50275626 Points: 191 # Comments: 117",
-      "ts": 1793202390,
-      "published": "2026-10-28T15:46:30+00:00",
-      "collected_at": "2026-10-29T09:11:01+09:00"
-    },
-    {
-      "title": "How to Make AI Work for End-to-End Business Processes",
-      "link": "https://towardsdatascience.com/how-to-make-ai-work-for-end-to-end-business-processes/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "From simplifying workflows to connecting knowledge and rules, coordinating AI agents, and delivering measurable business results. The post How to Make AI Work for End-to-End Business Processes appeared first on Towards…",
-      "ts": 1793201400,
-      "published": "2026-10-28T15:30:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-      "link": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1793199497,
-      "published": "2026-10-28T14:58:17+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Build a Python MCP Client to Test Servers From Your Terminal",
-      "link": "https://realpython.com/python-mcp-client/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Follow this Python project to build an MCP client that discovers MCP server capabilities and feeds an AI-powered chat with tool calls.",
-      "ts": 1793196000,
-      "published": "2026-10-28T14:00:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Where a Cell Sits Matters More Than How Many There Are",
-      "link": "https://towardsdatascience.com/where-a-cell-sits-matters-more-than-how-many-there-are/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Using spatstat raster layers and point process models to ask how neurons, astrocytes and microglia sit relative to each other The post Where a Cell Sits Matters More Than How Many There Are appeared first on Towards Dat…",
-      "ts": 1793196000,
-      "published": "2026-10-28T14:00:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "How to Access Multiple AI Models in Your Python Apps Using OpenRouter",
-      "link": "https://www.kdnuggets.com/access-multiple-ai-models-in-your-python-apps-using-openrouter",
-      "source": "KDnuggets",
-      "category": "AI",
-      "summary": "Learn how to get started with the OpenRouter API to call multiple AI models through one API, compare responses, switch models, and set up automatic fallbacks.",
-      "ts": 1793196000,
-      "published": "2026-10-28T14:00:00+00:00",
-      "collected_at": "2026-11-04T06:42:10+09:00"
-    },
-    {
-      "title": "The October inflection point for vibe game development",
-      "link": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "I've written before about how November 2025 was an inflection point for coding agents - the point where Opus 4.5 and GPT-5.1 crossed a tipping point that meant their respective coding agents became reliable daily driver…",
-      "ts": 1793195715,
-      "published": "2026-10-28T13:55:15+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
-      "link": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding staleness from nearly…",
-      "ts": 1793195580,
-      "published": "2026-10-28T13:53:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Airbnb Cuts Recommendation Staleness from 2 Days to Seconds with Chronon",
-      "link": "https://www.infoq.com/news/2026/10/airbnb-chronon-recommendation/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Airbnb extended its Chronon feature platform with Push Mode and Near Real-Time Model Transform to update sequence-based recommendation embeddings within seconds. The architecture reduced embedding staleness from nearly…",
-      "ts": 1793195580,
-      "published": "2026-10-28T13:53:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "link": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex.",
-      "ts": 1793193300,
-      "published": "2026-10-28T13:15:00+00:00",
-      "collected_at": "2026-10-29T07:59:55+09:00"
-    },
-    {
-      "title": "Tension vs. excitement during NBA games",
-      "link": "https://statmodeling.stat.columbia.edu/2026/10/28/tension-vs-excitement-during-nba-games/",
-      "source": "Statistical Modeling",
-      "category": "DataScience",
-      "summary": "This is related to our discussion of the martingale property of calibrated probability forecasts. Jeremy Lu writes: I’m a former student of Dr. Jennifer Hill at NYU and have been keeping up with your blog. I noticed som…",
-      "ts": 1793192729,
-      "published": "2026-10-28T13:05:29+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Fragments: October 28",
-      "link": "https://martinfowler.com/fragments/2026-10-28.html",
-      "source": "Martin Fowler",
-      "category": "Architecture",
-      "summary": "Andrej Karpathy sees a widening gap in how people see LLM capabilities. The general public has mostly not interacted with these systems. When they have, it looks like a derpy chatbot. The majority of professionals still…",
-      "ts": 1793192100,
-      "published": "2026-10-28T12:55:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
     }
   ]
 }
