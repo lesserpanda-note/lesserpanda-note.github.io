@@ -16,7 +16,7 @@
 ## 설계 결정 (spec의 "어떻게")
 - 새 파일 `scripts/select_digest.py` 하나. 순수 함수 + 얇은 CLI.
   - `exclude_reason(item) -> str | None` — AC3~AC6. `item`은 news.json 항목(dict: title·source·category·summary …).
-  - `tier(item) -> int` — 0 보안 공지(`source` ∈ {Spring Security, Node.js Security}, 제목에 `CVE-`, 제목에 `Security Release(s)`, 또는 `security.json`의 Node "Security Releases" 공지와 하루 이내의 Node 릴리스 — 2026-11-28 리뷰 후 결정), 1 메이저 릴리스(릴리스 제목의 `x.0`·`x.0.0` 정식판; LTS 전환은 제목으로 구분되지 않아 2), 2 나머지.
+  - `tier(item) -> int` — 0 보안 공지(`source` ∈ {Spring Security, Node.js Security}, 제목에 `CVE-`, 제목에 `Security Release(s)`, 또는 `security.json`의 Node "Security Releases" 공지와 24시간 이내의 Node 릴리스 — 2026-11-28 리뷰 후 결정), 1 메이저 릴리스(릴리스 제목의 `x.0`·`x.0.0` 정식판; LTS 전환은 제목으로 구분되지 않아 2), 2 나머지.
   - `check(highlights, candidates) -> list[str]` — AC1(전체 ≤10, 카테고리 ≤3), 제외 대상 포함 여부, AC2(제외되지 않은 후보가 상한을 넘는 카테고리에서 더 높은 tier 후보를 버리고 낮은 tier를 실었는지 — 실린 건수가 상한보다 적어도 적용). 위반 메시지 목록, 비면 통과.
   - CLI: `python scripts/select_digest.py candidates [--since ISO] [--until ISO]` — 현재 SKILL.md STEP 2의 후보 조건(마감 `updated`, 7일, 보안 면제, 기존 링크 제외)을 **그대로** 옮긴 순수 함수 `select_candidates()` 위에서, 제외 규칙을 적용해 카테고리·tier별 JSON 출력(제외된 항목과 사유도 함께). `--since`의 기본값은 `digest.json`의 `updated`, `--until`은 여러 날 보충 때 그날 구간의 끝. 구간은 `collected_at`으로만 자르고 7일 기준은 `--since`와 무관하게 `updated`에 고정(STEP 2 문구 그대로, M2 게이트 리뷰 지적). `python scripts/select_digest.py check --candidates FILE [--date YYYY-MM-DD] [--skip URL REASON]...` — `FILE`은 그 구간의 `candidates` 출력(다이제스트를 쓴 뒤에는 직전 `updated`가 사라져 후보를 다시 계산할 수 없으므로 STEP 2에서 저장해 둔다). `--date`가 없으면 `data/digest.json`, `--date`면 `archive.json`의 그 날짜 항목을 검사, 위반 시 위반 목록(항목 링크·사유)을 출력하고 exit 1. `--skip`은 사유 `duplicate`·`unreadable`로 건너뛴 상위 tier 후보(M1 게이트 결정).
   - 마감 기준 변경(#19)은 하지 않는다. 다만 후보 조건이 이 스크립트 한 곳으로 모이므로 #19는 이후 여기 한 줄 수정이 된다.
@@ -64,8 +64,9 @@
 - 시작 커밋: b780ca5
 - [ ] 게이트 M3: 세 곳 grep 대조(AC10) + 클라우드 프롬프트 get으로 반영 확인 + 다음 09:39 로컬 실행의 picked ≤ 10, `check` 통과 기록, `digest-status.json`의 `dropped`·`skipped` 필드 관찰 → /gate-review → 사람 확인
 - 수정 기록:
-  - `1 | Opus 5.5 | PR #24 새 컨텍스트 리뷰 8건 중 반영: 후보 파일에 없는 하이라이트를 check가 위반으로 보고(+테스트), 시간대 없는 --since/--until을 argparse에서 거절(+테스트), CLAUDE.md에 check 위반 줄별 고치는 법·tier 1 정의·보안 패널 출처 보강 | master 결정 대기: Node 보안 릴리스가 node_point로 빠짐(리뷰 1번, AC6 충돌), 카테고리를 비우면 tier 순서 검사를 피함(2번의 코드 쪽). 후속 후보: 기사 제목의 x.0이 tier 1(5번), go1.28rc1 미제외(6번)`
+  - `1 | Opus 5.5 | PR #24 새 컨텍스트 리뷰 8건 중 반영: 후보 파일에 없는 하이라이트를 check가 위반으로 보고(+테스트), 시간대 없는 --since/--until을 argparse에서 거절(+테스트), CLAUDE.md에 check 위반 줄별 고치는 법·tier 1 정의·보안 패널 출처 보강 | master 결정 대기: Node 보안 릴리스가 node_point로 빠짐(리뷰 1번, AC6 충돌), 카테고리를 비우면 tier 순서 검사를 피함(2번의 코드 쪽). 후속: 기사 제목의 x.0이 tier 1(5번) → #25, go1.28rc1 미제외(6번) → #26`
   - `2 | Opus 5.5 | master 결정 반영: (1번) security.json의 Node "Security Releases" 공지 ±1일 안의 Node 릴리스는 제외하지 않고 tier 0(+테스트 8건, candidates 출력에 node_security_dates, spec AC6·CLAUDE.md·두 루틴 초안 갱신), (2번 코드) 고치지 않고 문서와 dropped 기록으로 둠 | 실데이터: 11-12 보충 구간에서 Node 3건이 tier 0으로 남음, check --date 2026-11-12는 상한 초과와 당시 구간을 잘못 자른 5건을 보고(오탐 아님, collected_at이 11-12 09:06 KST 이후)`
+  - `3 | Opus 5.5 | 재리뷰 5건 반영: 후보 밖 하이라이트는 news.json에 있는 피드 항목일 때만 위반(CLAUDE.md의 다른 출처 허용과 충돌 — archive 11-12·11-20 Google AI 실례), Node 공지 대조를 경과 24시간으로, 후보 파일에 공지 목록이 없으면 exit 2, check의 공지 경로 테스트(+8건, 변이 6종 모두 검출), 하루 10건 초과 시 고치는 법 문서화 | 실데이터: 11-26은 기존 위반만, 11-12는 상한 초과와 구간 밖 피드 항목 5건만(Google AI 대체 출처는 통과)`
 
 ## 완료 정의 (DoD)
 - 전체 AC 증명 green · /verify 통과 · README·CLAUDE.md 갱신 · /gate-review · /code-review · 이슈 #18 닫기

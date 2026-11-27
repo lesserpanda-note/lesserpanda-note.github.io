@@ -17,7 +17,7 @@ Every decision reads only news.json fields (title, source, category, summary, pu
 because the cloud routine cannot open article bodies. The one outside input is the dates
 of Node's "Security Releases" advisories in data/security.json: the Node.js Blog feed
 has no summary, so its point releases can only be told apart from a security release by
-an advisory within NODE_ADVISORY_DAYS of them.
+an advisory within NODE_ADVISORY_WINDOW of them.
 
 CLI, run from the repo root before and after the model's selection:
 
@@ -39,7 +39,7 @@ import re
 import sys
 from collections import Counter
 from collections.abc import Collection, Iterable, Mapping
-from datetime import date, datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from pathlib import Path
 
 MAX_HIGHLIGHTS = 10
@@ -53,9 +53,10 @@ LIBRARY_RELEASE_FEEDS = frozenset({
 # The security tripwire feeds; data/security.json collects the same advisories for the panel.
 SECURITY_FEEDS = frozenset({"Spring Security", "Node.js Security"})
 
-# A Node.js Blog release this many days from a Node "Security Releases" advisory is that
-# security release (the advisory's feed date can fall the evening before, 2026-10-21 22:00Z).
-NODE_ADVISORY_DAYS = 1
+# A Node.js Blog release this close to a Node "Security Releases" advisory is that security
+# release. The advisory's feed time is often midnight UTC of the release day, the release
+# itself that afternoon (2026-11-11: 00:00Z advisory, 16:45Z releases).
+NODE_ADVISORY_WINDOW = timedelta(days=1)
 
 # A late-published item older than this is a backfill from a newly added feed, not news.
 PUBLISHED_WINDOW = timedelta(days=7)
@@ -122,20 +123,20 @@ def _is_release(item: dict) -> bool:
     return item.get("source") in LIBRARY_RELEASE_FEEDS or _release_shaped(item.get("title", ""))
 
 
-def _node_security_release(item: dict, node_security_dates: Collection[date]) -> bool:
-    """A final Node.js release published within NODE_ADVISORY_DAYS of a security advisory."""
+def _node_security_release(item: dict, node_security_advisories: Collection[datetime]) -> bool:
+    """A final Node.js release published within NODE_ADVISORY_WINDOW of a security advisory."""
     title = item.get("title", "")
     published = item.get("published")
-    if not (node_security_dates and published and item.get("source") == "Node.js Blog"
+    if not (node_security_advisories and published and item.get("source") == "Node.js Blog"
             and _NODE_RELEASE_RE.match(title)):
         return False
     if any(v["pre"] for v in _versions(title)):
         return False
-    day = _parse_time(published).astimezone(timezone.utc).date()
-    return any(abs((day - d).days) <= NODE_ADVISORY_DAYS for d in node_security_dates)
+    released = _parse_time(published)
+    return any(abs(released - a) <= NODE_ADVISORY_WINDOW for a in node_security_advisories)
 
 
-def exclude_reason(item: dict, node_security_dates: Collection[date] = ()) -> str | None:
+def exclude_reason(item: dict, node_security_advisories: Collection[datetime] = ()) -> str | None:
     """Why a news.json item can never be a highlight, or None if it may be."""
     title = item.get("title", "").strip()
     if _QUIZ_RE.match(title):
@@ -153,7 +154,7 @@ def exclude_reason(item: dict, node_security_dates: Collection[date] = ()) -> st
     first = versions[0]
     patch = int(first["patch"] or 0)
     if item.get("source") == "Node.js Blog" and _NODE_RELEASE_RE.match(title) and patch >= 1:
-        if not _node_security_release(item, node_security_dates):
+        if not _node_security_release(item, node_security_advisories):
             return "node_point"
     if item.get("source") in LIBRARY_RELEASE_FEEDS and not first["pre"] and patch >= 1:
         if not _SECURITY_WORDS_RE.search(f"{title} {item.get('summary', '')}"):
@@ -161,11 +162,11 @@ def exclude_reason(item: dict, node_security_dates: Collection[date] = ()) -> st
     return None
 
 
-def tier(item: dict, node_security_dates: Collection[date] = ()) -> int:
+def tier(item: dict, node_security_advisories: Collection[datetime] = ()) -> int:
     """Priority band inside a category: 0 security advisory, 1 new major release, 2 the rest."""
     title = item.get("title", "")
     if (item.get("source") in SECURITY_FEEDS or _CVE_RE.search(title) or _SECURITY_RELEASE_RE.search(title)
-            or _node_security_release(item, node_security_dates)):
+            or _node_security_release(item, node_security_advisories)):
         return TIER_SECURITY
     if _is_release(item) and any(
         not v["pre"] and int(v["minor"]) == 0 and int(v["patch"] or 0) == 0 for v in _versions(title)
@@ -219,14 +220,18 @@ def select_candidates(items: Iterable[dict], updated: datetime, known_links: set
 
 def check(highlights: list[dict], candidates: list[dict],
           skipped: Mapping[str, str] | None = None,
-          node_security_dates: Collection[date] = ()) -> list[str]:
+          node_security_advisories: Collection[datetime] = (),
+          feed_links: Collection[str] = ()) -> list[str]:
     """Rule violations in one day's highlights; an empty list means the day passes.
 
     `candidates` are that day's news.json items. A highlight is judged through its
     candidate (matched by link), because the digest's own summary is the Korean one
     the model wrote, not the feed text the rules read. `skipped` maps the link of a
     candidate the routine left out on purpose to one of SKIP_REASONS; it drops out of
-    the tier-order check. `node_security_dates` are those the candidates were judged with.
+    the tier-order check. `node_security_advisories` are those the candidates were judged
+    with. `feed_links` are every news.json link: a highlight outside the candidates is a
+    violation when it is a feed item from another window, and allowed when it is another
+    source for the same story, which CLAUDE.md tells the routine to take.
     """
     skipped = skipped or {}
     by_link = {c["link"]: c for c in candidates}
@@ -240,10 +245,10 @@ def check(highlights: list[dict], candidates: list[dict],
             violations.append(f"{category}: {count} highlights, over the cap of {MAX_PER_CATEGORY}")
 
     for h in highlights:
-        if h["link"] not in by_link:
-            violations.append(f"{h['link']}: not among this window's candidates — {h['title']}")
+        if h["link"] not in by_link and h["link"] in feed_links:
+            violations.append(f"{h['link']}: a feed item outside this window's candidates — {h['title']}")
             continue
-        reason = exclude_reason(by_link[h["link"]], node_security_dates)
+        reason = exclude_reason(by_link.get(h["link"], h), node_security_advisories)
         if reason:
             violations.append(f"{h['link']}: excluded item ({reason}) — {h['title']}")
 
@@ -253,20 +258,20 @@ def check(highlights: list[dict], candidates: list[dict],
     for category in per_category:
         eligible = [
             c for c in candidates
-            if c.get("category") == category and exclude_reason(c, node_security_dates) is None
+            if c.get("category") == category and exclude_reason(c, node_security_advisories) is None
             and c["link"] not in skipped
         ]
         if len(eligible) <= MAX_PER_CATEGORY:
             continue
         lowest = max(
-            tier(by_link.get(h["link"], h), node_security_dates)
+            tier(by_link.get(h["link"], h), node_security_advisories)
             for h in highlights if h["category"] == category
-        )  # a highlight missing from the candidates is reported above; judge it by itself here
+        )
         left_out: list[tuple[int, dict]] = []
         for c in eligible:
             if c["link"] in picked:
                 continue
-            c_tier = tier(c, node_security_dates)
+            c_tier = tier(c, node_security_advisories)
             if c_tier < lowest:
                 left_out.append((c_tier, c))
         if left_out:
@@ -282,10 +287,10 @@ def _load(name: str) -> dict:
     return json.loads((DATA / name).read_text(encoding="utf-8"))
 
 
-def node_security_dates(security: dict) -> list[date]:
-    """UTC dates of Node's "Security Releases" advisories in data/security.json."""
+def node_security_advisories(security: dict) -> list[datetime]:
+    """Times of Node's "Security Releases" advisories in data/security.json."""
     return sorted({
-        _parse_time(a["published"]).astimezone(timezone.utc).date()
+        _parse_time(a["published"])
         for a in security["items"]
         if a.get("source") == "Node.js Security" and a.get("published")
         and _SECURITY_RELEASE_RE.search(a.get("title", ""))
@@ -305,16 +310,16 @@ def cmd_candidates(args: argparse.Namespace) -> int:
         _load("news.json")["items"], updated, _known_links(digest, _load("archive.json")),
         since, args.until,
     )
-    node_dates = node_security_dates(_load("security.json"))
+    advisories = node_security_advisories(_load("security.json"))
     by_category: dict[str, list[dict]] = {}
     excluded = []
     for it in window:
         entry = {k: it.get(k) for k in CANDIDATE_FIELDS}
-        reason = exclude_reason(it, node_dates)
+        reason = exclude_reason(it, advisories)
         if reason:
             excluded.append({**entry, "reason": reason})
         else:
-            by_category.setdefault(it["category"], []).append({**entry, "tier": tier(it, node_dates)})
+            by_category.setdefault(it["category"], []).append({**entry, "tier": tier(it, advisories)})
     for entries in by_category.values():
         entries.sort(key=lambda e: e["tier"])
     out = {
@@ -322,7 +327,7 @@ def cmd_candidates(args: argparse.Namespace) -> int:
         "until": args.until.isoformat() if args.until else None,
         "count": len(window),
         "eligible": len(window) - len(excluded),
-        "node_security_dates": [d.isoformat() for d in node_dates],
+        "node_security_advisories": [a.isoformat() for a in advisories],
         "by_category": dict(sorted(by_category.items())),
         "excluded": excluded,
     }
@@ -343,8 +348,13 @@ def cmd_check(args: argparse.Namespace) -> int:
         highlights = days[0]["highlights"]
     else:
         highlights = _load("digest.json")["highlights"]
-    node_dates = [date.fromisoformat(d) for d in saved["node_security_dates"]]
-    violations = check(highlights, candidates, dict(args.skip or []), node_dates)
+    if "node_security_advisories" not in saved:
+        print(f"{args.candidates} has no node_security_advisories; run `candidates` again",
+              file=sys.stderr)
+        return 2
+    advisories = [_parse_time(a) for a in saved["node_security_advisories"]]
+    feed_links = {it["link"] for it in _load("news.json")["items"]}
+    violations = check(highlights, candidates, dict(args.skip or []), advisories, feed_links)
     for v in violations:
         print(v)
     if violations:

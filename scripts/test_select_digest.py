@@ -17,7 +17,7 @@ tier order, which do not depend on wording.
 from __future__ import annotations
 
 import importlib.util
-from datetime import date, datetime, timedelta, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 _spec = importlib.util.spec_from_file_location("select_digest", Path(__file__).with_name("select_digest.py"))
@@ -123,9 +123,18 @@ TIER_CASES = [
 
 
 # AC6 security releases on the Node.js Blog: its feed has no summary, so a point release is
-# told apart by a "Security Releases" advisory in data/security.json within a day of it
-# (PR #24 review). Advisory dates as in security.json on 2026-11-28.
-NODE_ADVISORY_DATES = [date(2026, 11, 11), date(2026, 10, 21)]
+# told apart by a "Security Releases" advisory in data/security.json within 24 hours of it
+# (PR #24 review). Advisory times as in security.json on 2026-11-28.
+NODE_ADVISORIES = [datetime(2026, 11, 11, tzinfo=timezone.utc), datetime(2026, 10, 21, 22, tzinfo=timezone.utc)]
+SECURITY_JSON = {"items": [
+    {"source": "Node.js Security", "title": "Wednesday, November 11, 2026 Security Releases",
+     "published": "2026-11-11T00:00:00+00:00"},
+    {"source": "Node.js Security", "title": "Developing a minimally HashDoS resistant, yet quickly reversible integer hash for V8",
+     "published": "2026-03-24T20:50:00+00:00"},  # an explainer, not a release
+    {"source": "Spring Security", "title": "CVE-2026-59401: Spring Security Releases", "published": "2026-11-19T00:00:00+00:00"},
+    {"source": "Node.js Security", "title": "Wednesday, October 21, 2026 Security Releases",
+     "published": "2026-10-21T22:00:00+00:00"},
+]}
 
 
 def _node_release(title: str, published: str) -> dict:
@@ -135,19 +144,23 @@ def _node_release(title: str, published: str) -> dict:
 # (label, item, advisory dates, expected exclude_reason, expected tier)
 NODE_SECURITY_CASES = [
     ("point release on an advisory day stays as tier 0",
-     _node_release("Node.js 26.13.1 (LTS)", "2026-11-11T16:45:20+00:00"), NODE_ADVISORY_DATES, None, 0),
+     _node_release("Node.js 26.13.1 (LTS)", "2026-11-11T16:45:20+00:00"), NODE_ADVISORIES, None, 0),
     ("its sibling line on the same day too",
-     _node_release("Node.js 22.23.5 (LTS)", "2026-11-11T16:44:58+00:00"), NODE_ADVISORY_DATES, None, 0),
-    ("the day after a late-evening advisory counts",  # shape: 10-21 22:00Z advisory
-     _node_release("Node.js 24.22.2 (LTS)", "2026-10-22T09:00:00+00:00"), NODE_ADVISORY_DATES, None, 0),
+     _node_release("Node.js 22.23.5 (LTS)", "2026-11-11T16:44:58+00:00"), NODE_ADVISORIES, None, 0),
+    ("11 hours after a late-evening advisory counts",  # shape: 10-21 22:00Z advisory
+     _node_release("Node.js 24.22.2 (LTS)", "2026-10-22T09:00:00+00:00"), NODE_ADVISORIES, None, 0),
+    ("27 hours after the advisory is out",  # shape
+     _node_release("Node.js 24.22.2 (LTS)", "2026-10-23T01:00:00+00:00"), NODE_ADVISORIES, "node_point", 2),
+    ("45 hours before the advisory is out",  # shape
+     _node_release("Node.js 24.22.2 (LTS)", "2026-10-20T00:30:00+00:00"), NODE_ADVISORIES, "node_point", 2),
     ("point release a week after the advisory is out",  # news.json 10-28
-     _node_release("Node.js 24.22.2 (LTS)", "2026-10-28T12:00:00+00:00"), NODE_ADVISORY_DATES, "node_point", 2),
+     _node_release("Node.js 24.22.2 (LTS)", "2026-10-28T12:00:00+00:00"), NODE_ADVISORIES, "node_point", 2),
     ("point release with no advisory list is out",
      _node_release("Node.js 26.13.1 (LTS)", "2026-11-11T16:45:20+00:00"), [], "node_point", 2),
     ("an alpha on an advisory day stays a prerelease",
-     _node_release("Node.js 27.0.0-alpha.0.1.0 (Alpha)", "2026-11-11T13:36:10+00:00"), NODE_ADVISORY_DATES, "prerelease", 2),
+     _node_release("Node.js 27.0.0-alpha.0.1.0 (Alpha)", "2026-11-11T13:36:10+00:00"), NODE_ADVISORIES, "prerelease", 2),
     ("an article on an advisory day is not a release",
-     _node_release("Notable V8 changes from Node.js 26 to 27 (Alpha)", "2026-11-11T08:00:00+00:00"), NODE_ADVISORY_DATES, None, 2),
+     _node_release("Notable V8 changes from Node.js 26 to 27 (Alpha)", "2026-11-11T08:00:00+00:00"), NODE_ADVISORIES, None, 2),
 ]
 
 
@@ -157,6 +170,55 @@ def _spring_cve(n: int) -> dict:
 
 def _article(category: str, n: int) -> dict:
     return item("Some Blog", f"{category} article {n}", category)
+
+
+def feed_cases() -> list[tuple[str, list[dict], list[dict], set[str], bool]]:
+    """(label, highlights, candidates, feed_links, expect_violation)
+
+    A highlight outside the candidates is wrong when it is a feed item from another
+    window, and allowed when it is another source for the same story (CLAUDE.md "Say
+    nothing you could not read"), as archive 11-12 and 11-20 took blog.google posts.
+    """
+    three_java = [_article("Java", n) for n in range(3)]
+    google = item("Google AI", "Gemini Decisions API", "AI")
+    feed = {h["link"] for h in three_java}
+    return [
+        ("AC8 a feed item from another window fails", three_java, three_java[:2], feed, True),
+        ("AC8 another source for a story passes", three_java[:2] + [google], three_java[:2], feed, False),
+    ]
+
+
+def _check_cli_cases(node_day: list[dict]) -> tuple[int, int]:
+    """`check --date` reads the advisories saved with the candidates, and refuses a file without them."""
+    import json
+    import tempfile
+    failed = total = 0
+    saved_data = _select.DATA
+    with tempfile.TemporaryDirectory() as tmp:
+        data = Path(tmp)
+        _select.DATA = data
+        try:
+            article = node_day[-1]
+            (data / "archive.json").write_text(json.dumps({"digests": [
+                {"date": "2026-11-12", "summary": "", "highlights": [article]}]}), encoding="utf-8")
+            (data / "news.json").write_text(json.dumps({"items": node_day}), encoding="utf-8")
+            saved = {"by_category": {"Node": node_day}, "excluded": [],
+                     "node_security_advisories": [a.isoformat() for a in NODE_ADVISORIES]}
+            for label, content, expected in [
+                ("check --date with the saved advisories fails the article", saved, 1),
+                ("check refuses a candidates file without advisories", {k: v for k, v in saved.items()
+                                                                       if k != "node_security_advisories"}, 2),
+            ]:
+                total += 1
+                path = data / "candidates.json"
+                path.write_text(json.dumps(content), encoding="utf-8")
+                code = _select.main(["check", "--candidates", str(path), "--date", "2026-11-12"])
+                if code != expected:
+                    failed += 1
+                    print(f"FAIL  {label}: exit {code}, expected {expected}")
+        finally:
+            _select.DATA = saved_data
+    return failed, total
 
 
 def check_cases() -> list[tuple[str, list[dict], list[dict], bool]]:
@@ -187,7 +249,6 @@ def check_cases() -> list[tuple[str, list[dict], list[dict], bool]]:
         ("AC3-6 excluded item in the digest fails", [quiz], [quiz], True),
         ("AC4 [AINews] in the digest fails", [ainews], [ainews], True),
         ("AC5 security patch read through its candidate passes", [sec_patch_highlight], [sec_patch], False),
-        ("AC8 highlight missing from the window's candidates fails", three_java, three_java[:2], True),
     ]
 
 
@@ -272,15 +333,38 @@ def main() -> int:
         if got != (expected_reason, expected_tier):
             failed += 1
             print(f"FAIL  Node security: {label} -> {got!r}, expected {(expected_reason, expected_tier)!r}")
-    node_sec = NODE_SECURITY_CASES[0][1]
     total += 1
-    got = check([node_sec], [node_sec], node_security_dates=NODE_ADVISORY_DATES)
-    if got:
+    got = _select.node_security_advisories(SECURITY_JSON)
+    if got != sorted(NODE_ADVISORIES):
         failed += 1
-        print(f"FAIL  check: a Node security point release passes with its advisory dates -> {got!r}")
+        print(f"FAIL  node_security_advisories -> {got!r}")
+    # 11-11: three security releases and an article; the article alone breaks tier order
+    # only when check() judges the releases with the advisories the candidates carried.
+    node_day = [c[1] for c in NODE_SECURITY_CASES[:2]] + [
+        _node_release("Node.js 24.22.3 (LTS)", "2026-11-11T16:45:11+00:00"), NODE_SECURITY_CASES[-1][1]]
+    article = node_day[-1:]
+    for label, picks, advisories, expect_violation in [
+        ("Node: the article over three security releases fails", article, NODE_ADVISORIES, True),
+        ("Node: the security releases first passes", node_day[:3], NODE_ADVISORIES, False),
+        ("Node: without advisories the point releases are out and the article passes", article, [], False),
+    ]:
+        total += 1
+        got = check(picks, node_day, node_security_advisories=advisories)
+        if bool(got) != expect_violation:
+            failed += 1
+            print(f"FAIL  check: {label} -> {got!r}")
+    failed_cli, total_cli = _check_cli_cases(node_day)
+    failed += failed_cli
+    total += total_cli
     for label, highlights, candidates, expect_violation in check_cases():
         total += 1
         got = check(highlights, candidates)
+        if bool(got) != expect_violation:
+            failed += 1
+            print(f"FAIL  check: {label} -> {got!r}")
+    for label, highlights, candidates, feed, expect_violation in feed_cases():
+        total += 1
+        got = check(highlights, candidates, feed_links=feed)
         if bool(got) != expect_violation:
             failed += 1
             print(f"FAIL  check: {label} -> {got!r}")
