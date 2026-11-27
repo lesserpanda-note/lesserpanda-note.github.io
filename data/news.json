@@ -1,7 +1,77 @@
 {
-  "updated": "2026-11-27T11:56:24+09:00",
-  "count": 1251,
+  "updated": "2026-11-27T21:41:36+09:00",
+  "count": 1245,
   "items": [
+    {
+      "title": "The Real Python Podcast – Episode #320: Optimizing Python Performance & Building a Django Static Site",
+      "link": "https://realpython.com/podcasts/rpp/320/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "What goes into moving from profiling the performance of a Python program to optimizing it? What are common techniques you should consider for speeding up your code, and which ones should you avoid? Christopher Trudeau i…",
+      "ts": 1795780800,
+      "published": "2026-11-27T12:00:00+00:00",
+      "collected_at": "2026-11-27T21:41:17+09:00"
+    },
+    {
+      "title": "Quiz: Python Timer Functions: Three Ways to Monitor Your Code",
+      "link": "https://realpython.com/quizzes/python-timer/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your knowledge of Python timer functions, from time.perf_counter() to timers built with classes, context managers, and decorators.",
+      "ts": 1795780800,
+      "published": "2026-11-27T12:00:00+00:00",
+      "collected_at": "2026-11-27T21:41:17+09:00"
+    },
+    {
+      "title": "Code Mode vs. Tool Calling Benchmarks Find a 16-Tool Crossover",
+      "link": "https://towardsdatascience.com/code-mode-vs-tool-calling-benchmarks-find-a-16-tool-crossover/",
+      "source": "Towards Data Science",
+      "category": "Agents",
+      "summary": "For agent builders with many MCP integrations, Code Mode was 120x cheaper and 18x faster on 100-item fan-outs but less reliable on single lookups. The post Code Mode vs. Tool Calling Benchmarks Find a 16-Tool Crossover…",
+      "ts": 1795780800,
+      "published": "2026-11-27T12:00:00+00:00",
+      "collected_at": "2026-11-27T21:41:17+09:00"
+    },
+    {
+      "title": "Presentation: From Fan-Out to Fast: Sub-100ms API Design in Distributed Systems",
+      "link": "https://www.infoq.com/presentations/sub-100ms-latency-distributed-systems/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Saranya Vedagiri explains how to design resilient, low-latency distributed APIs under 100ms. Drawing on practical scale at eBay, she discusses hop-by-hop latency budgets, async fanout tradeoffs, thread pool sizing, cach…",
+      "ts": 1795777200,
+      "published": "2026-11-27T11:00:00+00:00",
+      "collected_at": "2026-11-27T21:41:17+09:00"
+    },
+    {
+      "title": "v2.6.0",
+      "link": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.6.0",
+      "source": "MCP servers",
+      "category": "Agents",
+      "summary": "Security fixes v2.6.0 fixes eight vulnerabilities in three servers, and completes two fixes that v2.5.0 left open. Upgrade mcp-server-git to 2026.11.27, @modelcontextprotocol/server-memory to 2.2.2 and mcp-server-fetch…",
+      "ts": 1795773490,
+      "published": "2026-11-27T09:58:10+00:00",
+      "collected_at": "2026-11-27T21:41:17+09:00"
+    },
+    {
+      "title": "Article: Engineering Reliable Telematics from Smartphone Sensors",
+      "link": "https://www.infoq.com/articles/engineering-reliable-smartphone-sensor-telematics/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Smartphones make telematics more accessible by combining location, motion sensors, computing power, and connectivity in a single device. But the convenience comes with a trade-off: device placement varies, sampling beha…",
+      "ts": 1795770000,
+      "published": "2026-11-27T09:00:00+00:00",
+      "collected_at": "2026-11-27T21:41:17+09:00"
+    },
+    {
+      "title": "Mozilla Partners with Mistral to Bring Open-Weight AI Models to Firefox Smart Window",
+      "link": "https://www.infoq.com/news/2026/11/mozilla-mistral-ai-smart-window/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Mozilla has partnered with Mistral AI to offer Mistral Small 4, an open-weight model, in Firefox's Smart Window AI assistant, now in beta. It is recommended for users in France, the US and Canada. Users can choose among…",
+      "ts": 1795762680,
+      "published": "2026-11-27T06:58:00+00:00",
+      "collected_at": "2026-11-27T21:41:17+09:00"
+    },
     {
       "title": "When an agent dies after saying yes",
       "link": "https://foojay.io/today/when-an-agent-dies-after-saying-yes/",
@@ -41,6 +111,16 @@
       "ts": 1795737600,
       "published": "2026-11-27T00:00:00+00:00",
       "collected_at": "2026-11-27T09:51:43+09:00"
+    },
+    {
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "link": "https://huggingface.co/blog/video-trainium3",
+      "source": "Hugging Face",
+      "category": "AI",
+      "summary": "",
+      "ts": 1795737600,
+      "published": "2026-11-27T00:00:00+00:00",
+      "collected_at": "2026-11-27T21:41:17+09:00"
     },
     {
       "title": "v2.76.0 (2026-11-26)",
@@ -671,6 +751,16 @@
       "ts": 1795608000,
       "published": "2026-11-25T12:00:00+00:00",
       "collected_at": "2026-11-25T21:19:57+09:00"
+    },
+    {
+      "title": "Quiz: The No AI Slop Manifesto: A Pledge to Own What Agents Ship",
+      "link": "https://realpython.com/quizzes/no-ai-slop-manifesto/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Check what you know about the No AI Slop Manifesto, from how it defines slop to owning AI code and what critics dispute.",
+      "ts": 1795608000,
+      "published": "2026-11-25T12:00:00+00:00",
+      "collected_at": "2026-11-27T21:41:17+09:00"
     },
     {
       "title": "Presentation: Learning Out Loud (Under Near-Existential Pressure)",
@@ -12361,156 +12451,6 @@
       "ts": 1793192100,
       "published": "2026-10-28T12:55:00+00:00",
       "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Building and Visualising Kolmogorov–Arnold Networks",
-      "link": "https://towardsdatascience.com/building-and-visualising-kolmogorovarnold-networks/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Exploring what happens when neural networks learn functions instead of weights. The post Building and Visualising Kolmogorov–Arnold Networks appeared first on Towards Data Science .",
-      "ts": 1793190600,
-      "published": "2026-10-28T12:30:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Pairing industrial AI autonomy and human control",
-      "link": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "",
-      "ts": 1793188800,
-      "published": "2026-10-28T12:00:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Quiz: Creating a Scalable Flask Web Application From Scratch",
-      "link": "https://realpython.com/quizzes/create-scalable-flask-web-app/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Flask project structure, from the application factory and blueprints to Jinja templates and static files.",
-      "ts": 1793188800,
-      "published": "2026-10-28T12:00:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Can This Open-Source Model Beat AI Detectors? Let’s Test It Locally",
-      "link": "https://www.kdnuggets.com/can-this-open-source-model-beat-ai-detectors-lets-test-it-locally",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Can a free, open-source AI humanizer beat paid tools? We tested a 12B model locally and compared the results against AI detectors to see if the hype is real.",
-      "ts": 1793188800,
-      "published": "2026-10-28T12:00:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Which Local LMs are Best For Which Tasks",
-      "link": "https://www.kdnuggets.com/which-local-lms-are-best-for-which-tasks",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "A local language model is one whose actual weights, the enormous file of learned numbers that constitutes the trained model, you download and run entirely on your own hardware.",
-      "ts": 1793188800,
-      "published": "2026-10-28T12:00:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability",
-      "link": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using open-source tooling…",
-      "ts": 1793185200,
-      "published": "2026-10-28T11:00:00+00:00",
-      "collected_at": "2026-10-28T20:07:30+09:00"
-    },
-    {
-      "title": "Your RAG Pipeline Is Missing a 1994 Algorithm",
-      "link": "https://towardsdatascience.com/your-rag-pipeline-is-missing-a-1994-algorithm/",
-      "source": "Towards Data Science",
-      "category": "Agents",
-      "summary": "Embeddings know that \"broken\" means \"defective\". They may not notice that ZX-4821 is not ZX-4812. The post Your RAG Pipeline Is Missing a 1994 Algorithm appeared first on Towards Data Science .",
-      "ts": 1793185200,
-      "published": "2026-10-28T11:00:00+00:00",
-      "collected_at": "2026-10-28T20:07:30+09:00"
-    },
-    {
-      "title": "Presentation: Wrangling Telemetry at Scale: A Guide to Self-Hosted Observability",
-      "link": "https://www.infoq.com/presentations/self-hosted-observability-stack-tradeoffs/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Java",
-      "source": "InfoQ Java",
-      "category": "Java",
-      "summary": "Colin Douch shares battle-tested strategies for building and scaling self-hosted observability stacks. He explains how to effectively correlate metrics, structured logs, and distributed traces using open-source tooling…",
-      "ts": 1793185200,
-      "published": "2026-10-28T11:00:00+00:00",
-      "collected_at": "2026-11-01T03:21:54+09:00"
-    },
-    {
-      "title": "Microsoft's October Security Update Fixes 1,400+ Vulnerabilities, One Exploited in the Wild",
-      "link": "https://www.infoq.com/news/2026/10/microsoft-october-2026-patch/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Microsoft's latest monthly security update addresses 1415 vulnerabilities across multiple products. One vulnerability affecting Windows Shell has been exploited in the wild, while 85 are classified as critical. Affected…",
-      "ts": 1793183400,
-      "published": "2026-10-28T10:30:00+00:00",
-      "collected_at": "2026-10-28T20:07:30+09:00"
-    },
-    {
-      "title": "Quoting Terk Terkowitz",
-      "link": "https://simonwillison.net/2026/Oct/28/terk-terkowitz/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "If your work does not benefit from current AI tooling, that is a finding, not a failing. Document why, share it with your community of peers, bring it to your manager, and work to find solutions. An engineer who can exp…",
-      "ts": 1793182147,
-      "published": "2026-10-28T10:09:07+00:00",
-      "collected_at": "2026-10-28T20:07:30+09:00"
-    },
-    {
-      "title": "The future of the firm",
-      "link": "https://openai.com/index/the-future-of-the-firm",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "How AI might enter the org chart—beneath, beside, and between us.",
-      "ts": 1793181600,
-      "published": "2026-10-28T10:00:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Legora is building the agentic operating system for legal work",
-      "link": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "ts": 1793179800,
-      "published": "2026-10-28T09:30:00+00:00",
-      "collected_at": "2026-10-28T20:07:30+09:00"
-    },
-    {
-      "title": "Legora is building the agentic operating system for legal work",
-      "link": "https://openai.com/index/legora",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "See how Legora uses OpenAI models, ChatGPT, and Codex to accelerate legal workflows, expand contract analysis, and free lawyers to focus on higher-value work.",
-      "ts": 1793179800,
-      "published": "2026-10-28T09:30:00+00:00",
-      "collected_at": "2026-10-29T03:06:53+09:00"
-    },
-    {
-      "title": "Cloudflare Opens Quicksilver to Customers as Workers KV Instant, Inside a 1 MB Envelope",
-      "link": "https://www.infoq.com/news/2026/10/workers-kv-instant/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Cloudflare has put Quicksilver, the internal key-value store behind nearly every request it serves, into private beta as a Workers KV mode. Reads resolve in 1.62 ms at p99 against 287 ms for classic KV. The constraints…",
-      "ts": 1793177820,
-      "published": "2026-10-28T08:57:00+00:00",
-      "collected_at": "2026-10-28T20:07:30+09:00"
-    },
-    {
-      "title": "[AINews] Anthropic ends Coding Interviews: \"Hunger beats tenure\"",
-      "link": "https://latent.space/p/ainews-anthropic-ends-coding-interviews-hunger-beats-tenure/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Since coding is solved, why code for the job?",
-      "ts": 1793177430,
-      "published": "2026-10-28T08:50:30+00:00",
-      "collected_at": "2026-10-28T20:07:30+09:00"
     }
   ]
 }
