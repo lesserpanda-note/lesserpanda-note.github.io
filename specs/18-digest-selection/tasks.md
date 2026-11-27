@@ -64,6 +64,7 @@
 - 시작 커밋: b780ca5
 - [ ] 게이트 M3: 세 곳 grep 대조(AC10) + 클라우드 프롬프트 get으로 반영 확인 + 다음 09:39 로컬 실행의 picked ≤ 10, `check` 통과 기록, `digest-status.json`의 `dropped`·`skipped` 필드 관찰 → /gate-review → 사람 확인
 - 수정 기록:
+  - `1 | Opus 5.5 | PR #24 새 컨텍스트 리뷰 8건 중 반영: 후보 파일에 없는 하이라이트를 check가 위반으로 보고(+테스트), 시간대 없는 --since/--until을 argparse에서 거절(+테스트), CLAUDE.md에 check 위반 줄별 고치는 법·tier 1 정의·보안 패널 출처 보강 | master 결정 대기: Node 보안 릴리스가 node_point로 빠짐(리뷰 1번, AC6 충돌), 카테고리를 비우면 tier 순서 검사를 피함(2번의 코드 쪽). 후속 후보: 기사 제목의 x.0이 tier 1(5번), go1.28rc1 미제외(6번)`
 
 ## 완료 정의 (DoD)
 - 전체 AC 증명 green · /verify 통과 · README·CLAUDE.md 갱신 · /gate-review · /code-review · 이슈 #18 닫기
