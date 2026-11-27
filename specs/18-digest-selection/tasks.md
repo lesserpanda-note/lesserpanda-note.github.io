@@ -14,7 +14,7 @@
   - `exclude_reason(item) -> str | None` — AC3~AC6. `item`은 news.json 항목(dict: title·source·category·summary …).
   - `tier(item) -> int` — 0 보안 공지(`source` ∈ {Spring Security, Node.js Security}, 제목에 `CVE-`, 또는 제목에 `Security Release(s)`), 1 메이저 릴리스(릴리스 제목의 `x.0`·`x.0.0` 정식판; LTS 전환은 제목으로 구분되지 않아 2), 2 나머지.
   - `check(highlights, candidates) -> list[str]` — AC1(전체 ≤10, 카테고리 ≤3), 제외 대상 포함 여부, AC2(제외되지 않은 후보가 상한을 넘는 카테고리에서 더 높은 tier 후보를 버리고 낮은 tier를 실었는지 — 실린 건수가 상한보다 적어도 적용). 위반 메시지 목록, 비면 통과.
-  - CLI: `python scripts/select_digest.py candidates` — 현재 SKILL.md STEP 2의 후보 조건(마감 `updated`, 7일, 보안 면제, 기존 링크 제외)을 **그대로** 옮기고 제외 규칙을 적용해 카테고리·tier별 JSON 출력(제외된 항목과 사유도 함께). `python scripts/select_digest.py check [--date YYYY-MM-DD]` — 인자가 없으면 `data/digest.json`, `--date`면 `archive.json`의 그 날짜 항목을 검사, 위반 시 위반 목록(항목 링크·사유)을 출력하고 exit 1.
+  - CLI: `python scripts/select_digest.py candidates [--since ISO] [--until ISO]` — 현재 SKILL.md STEP 2의 후보 조건(마감 `updated`, 7일, 보안 면제, 기존 링크 제외)을 **그대로** 옮긴 순수 함수 `select_candidates()` 위에서, 제외 규칙을 적용해 카테고리·tier별 JSON 출력(제외된 항목과 사유도 함께). `--since`의 기본값은 `digest.json`의 `updated`, `--until`은 여러 날 보충 때 그날 구간의 끝. `python scripts/select_digest.py check --candidates FILE [--date YYYY-MM-DD] [--skip URL REASON]...` — `FILE`은 그 구간의 `candidates` 출력(다이제스트를 쓴 뒤에는 직전 `updated`가 사라져 후보를 다시 계산할 수 없으므로 STEP 2에서 저장해 둔다). 인자가 없으면 `data/digest.json`, `--date`면 `archive.json`의 그 날짜 항목을 검사, 위반 시 위반 목록(항목 링크·사유)을 출력하고 exit 1. `--skip`은 사유 `duplicate`·`unreadable`로 건너뛴 상위 tier 후보(M1 게이트 결정).
   - 마감 기준 변경(#19)은 하지 않는다. 다만 후보 조건이 이 스크립트 한 곳으로 모이므로 #19는 이후 여기 한 줄 수정이 된다.
 - 상수(10, 3, 라이브러리 릴리스 피드 목록)는 스크립트 상단에 두고 `CLAUDE.md`는 수치와 "판정은 `scripts/select_digest.py`"를 적는다.
 - `fetch_news.py`·`news.json` 형식·`deploy.yml`은 건드리지 않는다.
@@ -34,22 +34,22 @@
 | AC10 | `CLAUDE.md` Item Selection Rules, SKILL.md STEP 3, 클라우드 프롬프트에 10건·3건·제외 규칙·스크립트 경로가 같은 표현으로 있음 — 세 곳 grep 대조 | glue |
 
 ## 마일스톤
-현재: M1 게이트 리뷰 3회차 수정 완료(2026-11-27) — spec 축 직전 지적 해소, 코드 기준 위반 없음. M1 게이트 사람 확인 대기. 열린 질문: 같은 CVE를 두 출처가 다룬 날·본문을 못 읽은 tier 0 후보를 AC2가 어떻게 다룰지(M2 CLI 설계에 영향).
-다음: M1 게이트(/gate-review → master 확인) 후 M2 — `candidates`·`check` CLI
+현재: M2 구현 완료(2026-11-28) — `select_candidates()`·`--skip` 계약 테스트 포함 94건 green, 실데이터 관찰: 11-26 원본 check exit 1(18건·Java 5·AI 4·`[AINews]`), 현재 17건은 상한 위반만, `--date 2026-11-25` exit 1(`[AINews]`), `--until`/`--since` 구간 14+20=34. PR 열고 게이트 리뷰.
+다음: M2 게이트(/gate-review → master 확인) 후 M3 — CLAUDE.md 갱신(같은 PR) → 머지 → 두 루틴 프롬프트
 
 ### M1: 판정 함수와 회귀 테스트 (`scripts/select_digest.py` 순수부, `scripts/test_select_digest.py`)
 - 다룸: `exclude_reason`·`tier`·`check`와 실제 제목 기반 테스트 · 관련 AC: AC1~AC7
 - 병렬: ∥ 실제 제목 사례 수집(news.json에서 AC3~AC6별 제외·유지 후보 뽑기)과 함수 구현
 - 시작 커밋: 6780dfc
-- [ ] 게이트 M1: `python scripts/test_select_digest.py` green + 기존 `test_reclassify.py`·`test_retry.py`·`test_security.py` green → /gate-review → 사람 확인
+- [x] 게이트 M1: `python scripts/test_select_digest.py` green + 기존 `test_reclassify.py`·`test_retry.py`·`test_security.py` green → /gate-review → 사람 확인
 - 수정 기록:
   - `1 | Opus 5.5 | AC2 검사를 spec Given(후보가 상한 초과)으로 맞춤·테스트 docstring 출처 정정·tier 0 정의 문장 갱신·check 루프 풀어쓰기 | spec 해석 판단 3건(LTS·point, 사례 없는 칸, -M) master 확인 대기`
   - `2 | Opus 5.5 | master 결정 반영: spec AC6에 milestone·Node point 정의 추가, shape 사례 4건(라이브러리 x.0.0 제외·tier, vulnerability 패치, -M1), AC7 예외 기록 | 재리뷰 대기`
   - `3 | Opus 5.5 | 재리뷰 지적 반영: 검증 계약 AC2·AC6·AC7 행을 게이트 결정과 맞춤, 제목 보안 표현 패치 칸을 미고정으로 기록 | 해소(문서만 변경, 아래 확인)`
 
 ### M2: CLI (`candidates`·`check`)와 실데이터 확인
-- 다룸: news.json·digest.json·archive.json을 읽는 두 하위 명령, README `scripts/` 표에 한 줄 · 관련 AC: AC8(a), AC1
-- 시작 커밋: —
+- 다룸: news.json·digest.json·archive.json을 읽는 두 하위 명령, README `scripts/` 표에 한 줄 · 관련 AC: AC8(a), AC1, AC2(건너뜀 목록)
+- 시작 커밋: 5f65d93
 - [ ] 게이트 M2: 현재 데이터로 `candidates` 출력(제외 사유 포함)과 11-26 원본 `check` exit 1을 관찰 + M1 테스트 green → PR 열기(머지는 M3에서 `CLAUDE.md`까지 넣은 뒤) → /gate-review → 사람 확인
 - 수정 기록:
 

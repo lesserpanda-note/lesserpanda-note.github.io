@@ -14,11 +14,29 @@ script and keep the rest for the model:
 
 Every decision reads only news.json fields (title, source, category, summary), because
 the cloud routine cannot open article bodies.
+
+CLI, run from the repo root before and after the model's selection:
+
+  python scripts/select_digest.py candidates [--since ISO] [--until ISO] > candidates.json
+  python scripts/select_digest.py check --candidates candidates.json [--date YYYY-MM-DD]
+                                        [--skip URL duplicate|unreadable]...
+
+`candidates` applies STEP 2 of the routine (the window since the last digest) and the
+exclusions, grouped by category and tier. `check` judges data/digest.json, or the
+archive.json day given by --date, against the candidates saved for that window — saved,
+because once the digest is written the previous `updated` that bounded it is gone.
+It prints one line per violation and exits 1 if there is any.
 """
 from __future__ import annotations
 
+import argparse
+import json
 import re
+import sys
 from collections import Counter
+from collections.abc import Iterable, Mapping
+from datetime import datetime, timedelta
+from pathlib import Path
 
 MAX_HIGHLIGHTS = 10
 MAX_PER_CATEGORY = 3
@@ -30,6 +48,14 @@ LIBRARY_RELEASE_FEEDS = frozenset({
 })
 # The security tripwire feeds; data/security.json collects the same advisories for the panel.
 SECURITY_FEEDS = frozenset({"Spring Security", "Node.js Security"})
+
+# A late-published item older than this is a backfill from a newly added feed, not news.
+PUBLISHED_WINDOW = timedelta(days=7)
+# Reasons the routine may give for leaving a higher-tier candidate out (M1 gate decision).
+SKIP_REASONS = ("duplicate", "unreadable")
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
 
 TIER_SECURITY = 0
 TIER_MAJOR = 1
@@ -123,13 +149,46 @@ def tier(item: dict) -> int:
     return TIER_OTHER
 
 
-def check(highlights: list[dict], candidates: list[dict]) -> list[str]:
+def _parse_time(value: str) -> datetime:
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+
+def select_candidates(items: Iterable[dict], since: datetime, until: datetime | None,
+                      known_links: set[str]) -> list[dict]:
+    """News items that are up for review in the window (since, until].
+
+    STEP 2 of the routine: collected after the last digest, published within
+    PUBLISHED_WINDOW of it unless it is a security advisory (those arrive days late and
+    still matter), and not carried by any earlier digest.
+    """
+    oldest = since - PUBLISHED_WINDOW
+    out = []
+    for it in items:
+        collected = _parse_time(it["collected_at"])
+        if collected <= since or (until is not None and collected > until):
+            continue
+        if it["link"] in known_links:
+            continue
+        advisory = it.get("source") in SECURITY_FEEDS or "CVE" in it.get("title", "")
+        if not advisory:
+            published = it.get("published")
+            if not published or _parse_time(published) <= oldest:
+                continue
+        out.append(it)
+    return out
+
+
+def check(highlights: list[dict], candidates: list[dict],
+          skipped: Mapping[str, str] | None = None) -> list[str]:
     """Rule violations in one day's highlights; an empty list means the day passes.
 
     `candidates` are that day's news.json items. A highlight is judged through its
     candidate (matched by link), because the digest's own summary is the Korean one
-    the model wrote, not the feed text the rules read.
+    the model wrote, not the feed text the rules read. `skipped` maps the link of a
+    candidate the routine left out on purpose to one of SKIP_REASONS; it drops out of
+    the tier-order check.
     """
+    skipped = skipped or {}
     by_link = {c["link"]: c for c in candidates}
     violations: list[str] = []
 
@@ -152,6 +211,7 @@ def check(highlights: list[dict], candidates: list[dict]) -> list[str]:
         eligible = [
             c for c in candidates
             if c.get("category") == category and exclude_reason(c) is None
+            and c["link"] not in skipped
         ]
         if len(eligible) <= MAX_PER_CATEGORY:
             continue
@@ -172,3 +232,93 @@ def check(highlights: list[dict], candidates: list[dict]) -> list[str]:
                 f"candidate(s) were left out, e.g. tier-{best_tier} {best['link']} — {best['title']}"
             )
     return violations
+
+
+def _load(name: str) -> dict:
+    with (DATA / name).open(encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _known_links(digest: dict, archive: dict) -> set[str]:
+    days = [digest, *archive["digests"]]
+    return {h["link"] for day in days for h in day.get("highlights", [])}
+
+
+_FIELDS = ("title", "link", "source", "category", "summary", "published", "collected_at")
+
+
+def cmd_candidates(args: argparse.Namespace) -> int:
+    digest = _load("digest.json")
+    since = _parse_time(args.since or digest["updated"])
+    until = _parse_time(args.until) if args.until else None
+    window = select_candidates(
+        _load("news.json")["items"], since, until, _known_links(digest, _load("archive.json"))
+    )
+    by_category: dict[str, list[dict]] = {}
+    excluded = []
+    for it in window:
+        entry = {k: it.get(k) for k in _FIELDS}
+        reason = exclude_reason(it)
+        if reason:
+            excluded.append({**entry, "reason": reason})
+        else:
+            by_category.setdefault(it["category"], []).append({**entry, "tier": tier(it)})
+    for entries in by_category.values():
+        entries.sort(key=lambda e: e["tier"])
+    out = {
+        "since": since.isoformat(),
+        "until": until.isoformat() if until else None,
+        "count": len(window),
+        "eligible": len(window) - len(excluded),
+        "by_category": dict(sorted(by_category.items())),
+        "excluded": excluded,
+    }
+    json.dump(out, sys.stdout, ensure_ascii=False, indent=2)
+    print()
+    return 0
+
+
+def cmd_check(args: argparse.Namespace) -> int:
+    with open(args.candidates, encoding="utf-8") as f:
+        saved = json.load(f)
+    candidates = [c for entries in saved["by_category"].values() for c in entries]
+    candidates += saved["excluded"]
+    if args.date:
+        days = [d for d in _load("archive.json")["digests"] if d["date"] == args.date]
+        if not days:
+            print(f"no archive.json day {args.date}", file=sys.stderr)
+            return 2
+        highlights = days[0]["highlights"]
+    else:
+        highlights = _load("digest.json")["highlights"]
+    violations = check(highlights, candidates, dict(args.skip or []))
+    for v in violations:
+        print(v)
+    if violations:
+        return 1
+    print(f"ok: {len(highlights)} highlights")
+    return 0
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description="Deterministic half of the digest selection.")
+    sub = parser.add_subparsers(dest="command", required=True)
+    cand = sub.add_parser("candidates", help="list the window's candidates by category and tier")
+    cand.add_argument("--since", help="window start, default: data/digest.json updated")
+    cand.add_argument("--until", help="window end, for one day of a backfill")
+    cand.set_defaults(func=cmd_candidates)
+    chk = sub.add_parser("check", help="check a day's highlights against its saved candidates")
+    chk.add_argument("--candidates", required=True, help="the `candidates` output for that window")
+    chk.add_argument("--date", help="check this archive.json day instead of data/digest.json")
+    chk.add_argument("--skip", nargs=2, action="append", metavar=("URL", "REASON"),
+                     help=f"a higher-tier candidate left out on purpose; REASON is one of {SKIP_REASONS}")
+    chk.set_defaults(func=cmd_check)
+    args = parser.parse_args(argv)
+    for _, reason in getattr(args, "skip", None) or []:
+        if reason not in SKIP_REASONS:
+            parser.error(f"--skip reason must be one of {SKIP_REASONS}, not {reason!r}")
+    return args.func(args)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

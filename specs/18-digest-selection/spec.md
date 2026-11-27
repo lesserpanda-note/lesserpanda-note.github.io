@@ -11,7 +11,7 @@
 
 ## 2. 인수조건 (AC)
 - [ ] AC1 (하루 상한): Given 어느 날 후보가 몇 건이든, When 다이제스트가 만들어지면, Then `highlights`는 전체 10건 이하이고 어느 카테고리도 3건을 넘지 않는다. 여러 날을 밀려서 만들 때는 날마다 따로 적용한다.
-- [ ] AC2 (우선순위): Given 한 카테고리에 보안 공지·메이저 릴리스·일반 글이 섞여 상한을 넘으면, When 고를 때, Then 보안 공지 → 메이저 릴리스 → 나머지 순으로 채운다. 보안 공지와 메이저 릴리스도 상한에 포함된다. 상한에 밀린 보안 공지 중 보안 패널 출처(Spring Security·Node.js Security 등 `data/security.json`이 수집하는 것)는 패널에 남고, 다른 출처의 CVE 글(예: Cloudflare·Foojay)은 남지 않는다.
+- [ ] AC2 (우선순위): Given 한 카테고리에 보안 공지·메이저 릴리스·일반 글이 섞여 상한을 넘으면, When 고를 때, Then 보안 공지 → 메이저 릴리스 → 나머지 순으로 채운다. 보안 공지와 메이저 릴리스도 상한에 포함된다. 상한에 밀린 보안 공지 중 보안 패널 출처(Spring Security·Node.js Security 등 `data/security.json`이 수집하는 것)는 패널에 남고, 다른 출처의 CVE 글(예: Cloudflare·Foojay)은 남지 않는다. 루틴이 같은 소식의 중복(`duplicate`)이나 본문을 읽지 못함(`unreadable`)을 사유로 건너뛴 상위 tier 후보는 순서 검사에서 빠지고, 건너뛴 항목과 사유는 `digest-status.json`에 남는다(2026-11-27 M1 게이트 결정).
 - [ ] AC3 (후보 제외 — 퀴즈): Given 제목이 `Quiz:`로 시작하는 Real Python 글, Then 후보에 오르지 않는다.
 - [ ] AC4 (후보 제외 — 모음글): Given 제목이 `[AINews]`로 시작하는 Latent Space 글 또는 `This Week in …` 형태의 링크 모음, Then 후보에 오르지 않는다. Given InfoQ `… News Roundup`처럼 내용을 직접 담은 로드업, Then 후보에 남는다. Latent Space의 다른 글(인터뷰·에세이)도 남는다.
 - [ ] AC5 (후보 제외 — 패치 범프): Given 라이브러리 릴리스 피드(Transformers, MCP servers, Pydantic AI, LlamaIndex, CrewAI, NumPy, pandas)의 패치 버전(`x.y.z`, z≥1) 항목, Then 후보에 오르지 않는다. 단 제목이나 저장된 요약에 보안 표현(`CVE`, `security`, `vulnerability`)이 있으면 남는다.

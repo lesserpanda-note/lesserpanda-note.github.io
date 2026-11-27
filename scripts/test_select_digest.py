@@ -17,6 +17,7 @@ tier order, which do not depend on wording.
 from __future__ import annotations
 
 import importlib.util
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 _spec = importlib.util.spec_from_file_location("select_digest", Path(__file__).with_name("select_digest.py"))
@@ -25,6 +26,7 @@ _spec.loader.exec_module(_select)
 exclude_reason = _select.exclude_reason
 tier = _select.tier
 check = _select.check
+select_candidates = _select.select_candidates
 
 
 def item(source: str, title: str, category: str = "", summary: str = "", link: str = "") -> dict:
@@ -159,6 +161,53 @@ def check_cases() -> list[tuple[str, list[dict], list[dict], bool]]:
     ]
 
 
+def skip_cases() -> list[tuple[str, list[dict], list[dict], dict[str, str], bool]]:
+    """(label, highlights, candidates, skipped, expect_violation) — the M1 gate's skip list"""
+    cves = [_spring_cve(n) for n in range(2)]
+    blog = [_article("Spring", n) for n in range(3)]
+    picks = cves[:1] + blog[:2]
+    return [
+        ("AC2 an unpicked tier-0 with no reason fails", picks, cves + blog, {}, True),
+        ("AC2 a tier-0 skipped as duplicate passes", picks, cves + blog, {cves[1]["link"]: "duplicate"}, False),
+        ("AC2 a tier-0 skipped as unreadable passes", picks, cves + blog, {cves[1]["link"]: "unreadable"}, False),
+    ]
+
+
+# STEP 2 of the local routine, as it stood on 2026-11-27: collected after the last digest,
+# published within 7 days of it unless it is a security advisory, and never carried before.
+SINCE = datetime(2026, 11, 26, 0, 30, tzinfo=timezone.utc)
+KST = timezone(timedelta(hours=9))
+
+
+def news(title: str, source: str, collected: datetime, published: datetime | None,
+         link: str = "") -> dict:
+    out = item(source, title, "Java", link=link)
+    out["collected_at"] = collected.astimezone(KST).isoformat()
+    out["published"] = published.isoformat() if published else None
+    return out
+
+
+def candidate_cases() -> list[tuple[str, dict, datetime | None, set[str], bool]]:
+    """(label, item, until, known_links, expect_candidate)"""
+    after = SINCE + timedelta(hours=3)
+    fresh = SINCE - timedelta(days=1)
+    stale = SINCE - timedelta(days=8)
+    return [
+        ("collected after the last digest", news("a", "Inside Java", after, fresh), None, set(), True),
+        ("collected at the last digest", news("b", "Inside Java", SINCE, fresh), None, set(), False),
+        ("collected before the last digest", news("c", "Inside Java", SINCE - timedelta(minutes=1), fresh), None, set(), False),
+        ("published 6 days before", news("d", "Inside Java", after, SINCE - timedelta(days=6)), None, set(), True),
+        ("published 8 days before", news("e", "Inside Java", after, stale), None, set(), False),
+        ("no published date", news("f", "Inside Java", after, None), None, set(), False),
+        ("Spring Security ignores the 7 days", news("g", "Spring Security", after, stale), None, set(), True),
+        ("CVE in the title ignores the 7 days", news("Java4Shell (CVE-2026-114938): What It Is", "Foojay", after, stale), None, set(), True),
+        ("security advisory with no published date", news("h", "Node.js Security", after, None), None, set(), True),
+        ("already carried", news("i", "Inside Java", after, fresh, link="https://x.test/i"), None, {"https://x.test/i"}, False),
+        ("inside a backfill window", news("j", "Inside Java", after, fresh), SINCE + timedelta(hours=3), set(), True),
+        ("after a backfill window", news("k", "Inside Java", after, fresh), SINCE + timedelta(hours=2), set(), False),
+    ]
+
+
 def main() -> int:
     failed = 0
     total = 0
@@ -180,6 +229,18 @@ def main() -> int:
         if bool(got) != expect_violation:
             failed += 1
             print(f"FAIL  check: {label} -> {got!r}")
+    for label, highlights, candidates, skipped, expect_violation in skip_cases():
+        total += 1
+        got = check(highlights, candidates, skipped)
+        if bool(got) != expect_violation:
+            failed += 1
+            print(f"FAIL  check: {label} -> {got!r}")
+    for label, news_item, until, known, expected in candidate_cases():
+        total += 1
+        got = bool(select_candidates([news_item], SINCE, until, known))
+        if got != expected:
+            failed += 1
+            print(f"FAIL  select_candidates: {label} -> {got}, expected {expected}")
     if failed:
         print(f"\n{failed}/{total} FAILED")
         return 1
