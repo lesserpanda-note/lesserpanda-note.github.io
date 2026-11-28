@@ -1,6 +1,60 @@
 {
   "digests": [
     {
+      "date": "2026-11-27",
+      "summary": "미국 추수감사절 주간이라 피드가 얇아 6건만 실었습니다. 에이전트가 사람을 대신해 도구를 부를 때 누구의 권한으로 무엇을 할 수 있는지가 하루 전체를 관통합니다. Snap은 사람과 에이전트 권한을 모두 통과해야 하는 MCP 게이트웨이를, Google은 에이전트를 자사 MCP 서버로만 들어오게 하는 약관을, Microsoft는 Entra Agent ID와 MCP Firewall을 내놨습니다. Spring AI 2.1의 DecisionModel, 순서 섞기로 벤치마크 오염을 찾는 기법, Dell의 임베딩 파인튜닝 사례는 LLM 판정과 검색을 실제 수치로 검증하는 방법을 보여 줍니다.",
+      "highlights": [
+        {
+          "category": "Spring",
+          "title": "Decision Models in Spring AI 2.1: Yes, No, and How Sure",
+          "link": "https://spring.io/blog/2026/11/26/spring-ai-decision-models-guardrails-judges",
+          "source": "Spring Blog",
+          "summary": "Spring AI 2.1에 채팅 모델과 별개인 `DecisionModel` API가 추가됐습니다. 미리 정한 결과(예/아니오·선택지·점수)를 확률과 함께 타입 있는 값으로 돌려주며, 이를 이용한 가드레일과 judge 예제가 함께 소개됐습니다.",
+          "detail": "분류·평가처럼 입력에 판단 근거가 다 들어 있는 작업을 위해 Spring AI 2.1이 `DecisionModel` API를 추가했습니다. 질문 유형은 `YesNoQuestion`(예일 확률), `ChoiceQuestion`(선택지와 각 확률), `ScoreQuestion`(순서 척도의 기대·최빈 수준) 세 가지이고, 한 번의 호출에 여러 질문을 묶을 수 있습니다. 프롬프트 템플릿·JSON 스키마·파서가 필요 없습니다. 공급자는 Ollama(로컬 `d1-omni:600m`, Ollama 0.40.4 이상), OpenAI Decisions API, System One 프로토콜(TypeSafe 등) 세 가지이며 Boot 스타터가 자동 구성합니다. 글쓴이 노트북에서 로컬 모델은 질문 세 개에 중앙값 29ms, 하나에 16ms였고 호스팅 Jev는 약 150ms였습니다. 글은 불리언만 보지 말고 확률로 자동 처리(0.9 이상)와 사람 검토(0.4 이상)를 나누라고 권하며, 임계값은 모델과 질문 문구마다 따로 정해야 한다고 경고합니다. 커뮤니티 프로젝트 Spring AI Decision Extensions 0.5.0의 `DecisionGuardrailAdvisor`는 입력·출력을 위험 항목 묶음으로 한 번에 판정해 기본 0.70 초과 시 BLOCK/SUPPORT, 0.35 초과 시 REVIEW로 처리합니다. 다만 기본 구성에서는 입력 검사가 세션 메모리 기록 뒤에 돌아 차단된 메시지가 다음 턴 이력에 남을 수 있어 `input(...)`·`output(...)` 어드바이저를 분리하라고 안내하고, 도구 호출 인자와 결과는 검사하지 않는다고 밝힙니다. 거절은 새 타입 `GuardrailRefusal`로 표시되고, `DecisionJudge`는 기준별 임계값을 가진 평가를 한 번의 호출로 수행합니다."
+        },
+        {
+          "category": "Agents",
+          "title": "MCP Gateway: How Snap Checks Both the Person and the Agent",
+          "link": "https://eng.snap.com/mcp-gateway",
+          "source": "Hacker News",
+          "summary": "Snap이 직원과 AI 에이전트가 사내 도구에 접근하는 공용 MCP Gateway의 설계를 공개했습니다. 에이전트가 사람을 대신해 제한된 도구를 호출할 때는 사람과 에이전트 양쪽 권한을 모두 통과해야 한다는 규칙이 핵심입니다.",
+          "detail": "Snap의 MCP Gateway는 60개 이상의 MCP 서버와 1,100개 이상의 도구를 앞단에서 묶고 있으며, 2026년 10월 11일로 끝난 주에 사람과 사내 에이전트 Casper가 약 160만 건의 도구 호출을 했습니다. 서비스 계정 기반 자동 작업은 주당 수백만 건을 더 호출합니다. 출발점은 서비스 간 인증이 최초 요청자를 잃어버리는 문제였습니다. 로컬에서 되던 MCP가 중앙 게이트웨이를 거치면 호출자가 엔지니어가 아니라 MCP의 서비스 계정으로 보여 거부됐고, 에이전트가 연 PR은 GitHub 앱이 연 것처럼 보였습니다. 해결책으로 Snap Security와 함께 Agent Attestation Token(AAT)을 만들었습니다. 토큰에는 원래 요청자와 실제 호출 에이전트가 함께 담기며, 남을 요청자로 명시할 수 있는 서비스는 Casper 등 소수뿐이고 Slack 요청이면 서명과 발신자를 확인한 뒤 발급합니다. 게이트웨이는 제한된 도구에 대해 사람과 에이전트의 권한을 모두 검사해, 에이전트가 사람의 권한을 그대로 물려받지 않게 합니다. 에이전트는 읽기 전용 기본 권한으로 시작하고, 파괴적 도구 부여는 에이전트 팀과 도구 소유자 양쪽 승인이 필요한 PR로만 이뤄집니다. 도구마다 읽기·쓰기·파괴적 쓰기로 분류하며 분류되지 않은 도구는 부여할 수 없습니다. 게이트웨이 코어는 Docker와 설계 파트너로 만들었고, 서드파티 OAuth 토큰은 게이트웨이가 아니라 Security가 소유한 Auth Translation Service에 둡니다."
+        },
+        {
+          "category": "Agents",
+          "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+          "link": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+          "source": "Hacker News",
+          "summary": "Google이 11월 24일 Workspace MCP 서버 8종을 GA로 내놓으면서, 2027년 2월 1일부터 AI 에이전트는 Gmail·Drive 등에 이 서버로만 접근해야 한다는 API 약관 조항을 추가했습니다. 그런데 공개된 Gmail 서버는 메일을 보내거나 답장할 수 없습니다.",
+          "detail": "새 Workspace AI Tools Addendum은 'AI Agent, AI Harness 또는 AI 모델이 구동하는' 도구가 Google MCP를 거치도록 요구하고, 분류를 피하려는 위장도 금지합니다. 위반하면 접근 제한이나 계정 정지가 가능하며, 같은 날부터 REST를 직접 호출하는 에이전트는 유료 등급과 무관하게 Standard 쿼터로 묶입니다. AI가 없는 백업·동기화 작업은 영향이 없습니다. 데이터 규칙도 붙었습니다. 사용자가 승인한 진행 중 작업에만 처리할 수 있고, 연결 해제 시 삭제해야 하며, 임베딩·메모리 인덱스·사용자 프로필 보관을 30일로 제한할 수 있고, 학습·파인튜닝·평가·증류는 금지됩니다. 도구 범위는 고르지 않습니다. Docs·Slides·Tasks는 REST와 거의 같지만 Gmail은 검색·읽기·초안 생성만 되고 발송·답장·전달·초안 수정은 파트너 전용입니다. Drive도 이동·이름 변경·공유가 빠졌습니다. 글은 Anthropic의 Claude Workspace 커넥터가 바로 이 파트너 전용 기능을 제공한다는 점을 들어 대형 벤더와 독립 개발자 사이의 격차를 지적합니다. 무료 Standard 등급은 프로젝트·제품당 하루 5,000건이고 Gmail `search_threads`는 10건으로 계산돼 사실상 하루 500회 검색입니다. OAuth 클라이언트에는 '에이전트용' 체크박스가 생겼고 11월 11일부터 MCP 서버는 표시 없는 클라이언트를 거부합니다. 기존 클라이언트는 새로 만들어야 합니다."
+        },
+        {
+          "category": "AI",
+          "title": "Recap of Microsoft Ignite 2026: Copilot as the Work OS and Agent Governance",
+          "link": "https://www.infoq.com/news/2026/11/microsoft-ignite-2026-recap/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+          "source": "InfoQ AI/ML",
+          "summary": "InfoQ가 11월 17~20일 열린 Microsoft Ignite 2026을 정리했습니다. Copilot을 업무 운영체제로 내세우고, 에이전트 신원·거버넌스·비용 통제를 Azure·Foundry·Entra·Defender 전반으로 넓힌 것이 중심입니다.",
+          "detail": "인프라에서는 132코어 Arm Neoverse V3 기반 Azure Cobalt 200 VM이 GA가 됐고, Cobalt 100 대비 CPU 성능 최대 50% 향상을 주장합니다. Windows Server 2028은 프리뷰로 포스트양자 암호와 기본 NVMe를 넣었습니다. Foundry는 다중 턴 평가와 실패 묶음 분석을 GA로 냈고, 사람이 각 변경을 승인하는 agent optimizer를 프리뷰로 공개했습니다. Microsoft 엔지니어들은 실패 트레이스를 진단하는 reflector 모델이 에이전트 자체 모델을 바꾸는 것보다 결과에 더 큰 영향을 줬다고 보고했습니다. OpenAI GPT-6.2 Astra와 Sol이 Foundry에서 GA가 됐고, 짧은 컨텍스트 Standard 배포 기준 Sol은 입력 100만 토큰당 2달러, 출력 10달러, Astra는 8달러와 40달러입니다. Azure AI Gateway는 모델과 MCP 도구 접근을 관리하는 독립 제품으로 GA가 됐습니다. 보안 쪽에서는 Entra가 GitHub Copilot CLI와 Claude Code 같은 로컬 에이전트에 Agent ID를 자동 부여하고 MCP Firewall을 프리뷰로 내놨으며, Intune은 승인되지 않은 에이전트가 있는 기기를 비준수로 표시하는 기능을 프리뷰로 공개했습니다. Microsoft Copilot SDK 2.0은 네이티브 Rust 런타임 기반으로 6개 언어를 지원하며 GA입니다. 다수 발표가 GA가 아닌 프리뷰라는 점도 기사는 짚습니다."
+        },
+        {
+          "category": "AI",
+          "title": "Shuffle the Questions to Catch an LLM That Memorized Its Benchmark",
+          "link": "https://towardsdatascience.com/shuffle-the-questions-to-catch-an-llm-that-memorized-its-benchmark/",
+          "source": "Towards Data Science",
+          "summary": "벤치마크 문항 순서를 섞어 모델이 원래 순서를 선호하는지 보는 방식으로 학습 데이터 오염을 검출하는 기법(Oren et al.)을 재현한 글입니다. 의도적으로 오염시킨 모델은 잡아냈지만, 순서를 바꿔 학습하면 검출을 피할 수 있음도 보여 줍니다.",
+          "detail": "벤치마크를 연속된 샤드로 나누고 샤드마다 무작위 순열 10개와 원래 순서의 로그 확률을 비교합니다. 원래 순서가 이긴 순열 수 q는 오염이 없으면 0~10 균등분포이므로 합산해 z 점수로 바꿀 수 있습니다. 순수 노이즈 4,000회 시뮬레이션에서 p<0.05 판정이 5.1%, p<0.01이 1.05%로 나와 검정이 공정함을 확인했습니다. GSM8K를 본 적 없는 Pythia-410M에 24개 샤드를 학습시키자 1 에폭 만에 z=5.7(p<10⁻⁸)이 나왔고, 학습하지 않은 예비 샤드는 -1.8~1.5에 머물렀습니다. 그러나 에폭마다 샤드 안 문항 순서를 바꿔 학습한 가지는 손실이 거의 같은데도(0.13 대 0.14 nats/token) 8 에폭에서 z=0.1이었습니다. 순서를 학습하지 않은 오염은 이 검정으로 잡을 수 없다는 뜻입니다. Pythia-1.4B, Qwen2.5-0.5B·1.5B, TinyLlama-1.1B, SmolLM2-1.7B, Phi-2를 GSM8K와 ARC-Challenge로 검사한 12건에서는 유의한 결과가 없었고(최대 z=2.0, Bonferroni 기준 0.004 미달), 평균 z는 -0.04였습니다. 저자는 z가 3을 넘으면 조사할 가치가 있지만 0 근처 점수가 깨끗하다는 증거는 아니라고 결론짓습니다. 모델당 무료 Colab GPU로 약 30분이 걸립니다."
+        },
+        {
+          "category": "Architecture",
+          "title": "Presentation: Finetuning Your Embedding Model for Better Search: Learning from Agentic Search at Dell",
+          "link": "https://www.infoq.com/presentations/fine-tune-enterprise-rag-embeddings/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+          "source": "InfoQ Architecture",
+          "summary": "Dell의 사내 에이전틱 검색이 PowerScale·CloudIQ 같은 내부 용어 질의에서 계속 실패하자, 오픈소스 임베딩 모델을 Confluence 데이터로 파인튜닝해 해결한 과정을 다룬 QCon AI 발표입니다.",
+          "detail": "Dell은 GitHub·Jira·Confluence를 검색하는 사내 에이전틱 검색을 운영하는데, 내부 제품명과 사내 용어가 들어간 질문에서 검색이 반복적으로 실패했습니다. 데이터 준비가 가장 어려운 단계였다고 합니다. 이미 만든 청크마다 LLM으로 질문 3개를 생성해 질문-정답 쌍을 만들고, 학습 전 모델로 벡터 DB를 검색해 유사도 30~80% 구간의 상위 20개 중 7개를 하드 네거티브로 골랐습니다. 학습은 InfoNCE 손실로 H100 4장에서 배치 128로 돌렸고, Dell 거의 전체 Confluence 공간에서 약 90억 토큰을 썼습니다. 하이퍼파라미터 탐색은 코딩 에이전트에 학습 코드와 설정만 바꾸고 10분짜리 실험을 반복하도록 맡겨 밤새 돌렸습니다. 기반 모델은 법무 승인 라이선스, 학습 코드·데이터 공개 여부, 관심 과제 벤치마크 순으로 골랐습니다. 평가는 현업 전문가가 검증한 질문·답·출처 300개 골든셋으로 했으며, 올바른 출처 검색이 최소 12% 늘었고 LLM-as-a-judge의 정답 일치는 4% 남짓 올랐습니다. 발표자는 이를 큰 성공은 아니지만 좋은 개선이라고 평가합니다. 운영 중에는 데이터 변화율(예: 한 달에 새 페이지 100만 개), 학습·운영 데이터 분포 드리프트, 사용자 신호로 재학습 시점을 판단합니다."
+        }
+      ]
+    },
+    {
       "date": "2026-11-26",
       "summary": "오늘은 열일곱 건이고 Java가 다섯 건으로 가장 많습니다. Java에서는 Java4Shell 노출 여부를 스캐너만으로는 끝까지 확인할 수 없다는 실측과 함께 Jakarta EE 11의 umbrella JAR 제거, JEP 500의 final 필드 변경 경고, JDK 28 jlink 보안 속성 플러그인, Hibernate Reactive 5.0 지원 종료가 한꺼번에 나왔습니다. 여러 카테고리를 관통한 주제는 프로덕션 입력을 복제해 비교하는 섀도 검증입니다. Anthropic은 Messages API를 Rust로 옮겨 요청당 CPU를 약 70% 줄였고, DoorDash는 배차 엔진을 다시 짜 처리량을 10배로 올렸으며, OpenAI는 Spark 업그레이드를 에이전트에 맡겼는데 셋 모두 그 장치를 먼저 만들었습니다. 그 밖에 AWS Lambda 타임아웃이 30분으로 늘었고, MCP는 2주년에 stateless 전환과 Events 베타를 정리했습니다. Python에서는 Astral의 공급망 강화 지침과 LLM 평가 하네스 튜토리얼을, DataScience에서는 DuckDB 2.0과 Polars 2.0의 실측 비교를 골랐습니다. Kotlin·Spring·Node·Go·Rust·TypeScript는 기준을 넘는 소식이 없어 비웠습니다.",
       "highlights": [
