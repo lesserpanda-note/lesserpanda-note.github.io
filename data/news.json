@@ -1,7 +1,37 @@
 {
-  "updated": "2026-11-28T07:25:42+09:00",
-  "count": 1237,
+  "updated": "2026-11-28T09:54:31+09:00",
+  "count": 1230,
   "items": [
+    {
+      "title": "Lottie4J 1.5.0: From 3 to 60 Frames Per Second",
+      "link": "https://foojay.io/today/lottie4j-1-5-0-from-3-to-60-frames-per-second/",
+      "source": "Foojay",
+      "category": "Java",
+      "summary": "Lottie4J 1.5.0 has no new features but makes playback much faster: a test animation went from 3 fps to 60 fps by applying opacity directly and using smaller track mattes.",
+      "ts": 1795824000,
+      "published": "2026-11-28T00:00:00+00:00",
+      "collected_at": "2026-11-28T09:54:22+09:00"
+    },
+    {
+      "title": "datasette-charts 0.4a0",
+      "link": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an ex…",
+      "ts": 1795823837,
+      "published": "2026-11-27T23:57:17+00:00",
+      "collected_at": "2026-11-28T09:54:22+09:00"
+    },
+    {
+      "title": "v2.77.0 (2026-11-27)",
+      "link": "https://github.com/pydantic/pydantic-ai/releases/tag/v2.77.0",
+      "source": "Pydantic AI",
+      "category": "Agents",
+      "summary": "What's Changed ⚠️ Compatibility Notes Add SQLite, Postgres and MongoDB backends for ConversationStore , and rename the Pax session store to SqliteSessionStore by @DouweM in #10473 SqliteConversationStore and Conversatio…",
+      "ts": 1795822351,
+      "published": "2026-11-27T23:32:31+00:00",
+      "collected_at": "2026-11-28T09:54:22+09:00"
+    },
     {
       "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
       "link": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
@@ -181,6 +211,16 @@
       "ts": 1795762680,
       "published": "2026-11-27T06:58:00+00:00",
       "collected_at": "2026-11-27T21:41:17+09:00"
+    },
+    {
+      "title": "datasette-mcp 0.4",
+      "link": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "source": "Simon Willison",
+      "category": "Agents",
+      "summary": "Release: datasette-mcp 0.4 Fixed for compatibility with Datasette 1.0a44 . Tags: model-context-protocol , datasette",
+      "ts": 1795739177,
+      "published": "2026-11-27T00:26:17+00:00",
+      "collected_at": "2026-11-28T09:54:22+09:00"
     },
     {
       "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
@@ -12261,116 +12301,6 @@
       "ts": 1793244822,
       "published": "2026-10-29T03:33:42+00:00",
       "collected_at": "2026-10-29T18:38:22+09:00"
-    },
-    {
-      "title": "The Maven Build Cache in Practice",
-      "link": "https://foojay.io/today/maven-build-cache-in-practice/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "The Maven Build Cache significantly reduces build times in enterprise projects. Learn how we introduced it in Azure DevOps pipelines, the issues we encountered, and the valuable lessons we learned along the way.",
-      "ts": 1793232000,
-      "published": "2026-10-29T00:00:00+00:00",
-      "collected_at": "2026-10-29T11:20:46+09:00"
-    },
-    {
-      "title": "How We Share Foojay Posts on Social Media",
-      "link": "https://foojay.io/today/how-we-share-foojay-posts-on-social-media/",
-      "source": "Foojay",
-      "category": "Java",
-      "summary": "Every new Foojay article is announced on Mastodon, Bluesky and LinkedIn by one small JBang script. How it works and which problems we had to solve.",
-      "ts": 1793232000,
-      "published": "2026-10-29T00:00:00+00:00",
-      "collected_at": "2026-10-29T11:20:46+09:00"
-    },
-    {
-      "title": "Episode 73 “Immutable Data Beyond Value Classes” [AtA]",
-      "link": "https://inside.java/2026/10/29/podcast-073/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Recent and upcoming Java features (e.g. value classes, withers, and lazy constants) make it easier to define, construct, copy, and access immutable data",
-      "ts": 1793232000,
-      "published": "2026-10-29T00:00:00+00:00",
-      "collected_at": "2026-10-29T18:38:22+09:00"
-    },
-    {
-      "title": "A Bootiful Podcast: 'Data Geekery' with JOOQ creator Lukas Eder",
-      "link": "https://spring.io/blog/2026/10/29/a-bootiful-podcast-lukas-eder",
-      "source": "Spring Blog",
-      "category": "Spring",
-      "summary": "Hi, Spring fans! In this conversation, Josh Long explores how JOOQ turns SQL into a type-safe, fluent Java language—making complex database work safer, cleaner, and far more expressive. They cover everything from dynami…",
-      "ts": 1793232000,
-      "published": "2026-10-29T00:00:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "link": "https://huggingface.co/blog/announcing-project-protostar",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1793232000,
-      "published": "2026-10-29T00:00:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "link": "https://huggingface.co/blog/mistral-large4",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1793232000,
-      "published": "2026-10-29T00:00:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "link": "https://huggingface.co/blog/anydecisionmodel",
-      "source": "Hugging Face",
-      "category": "AI",
-      "summary": "",
-      "ts": 1793232000,
-      "published": "2026-10-29T00:00:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
-      "link": "https://openai.com/index/credit-saison",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
-      "ts": 1793232000,
-      "published": "2026-10-29T00:00:00+00:00",
-      "collected_at": "2026-10-31T05:33:46+09:00"
-    },
-    {
-      "title": "Episode 73 “Immutable Data Beyond Value Classes” [AtA]",
-      "link": "https://inside.java/podcast/73/",
-      "source": "Inside Java",
-      "category": "Java",
-      "summary": "Recent and upcoming Java features (e.g. value classes, withers, and lazy constants) make it easier to define, construct, copy, and access immutable data",
-      "ts": 1793232000,
-      "published": "2026-10-29T00:00:00+00:00",
-      "collected_at": "2026-11-16T18:13:10+09:00"
-    },
-    {
-      "title": "Quoting Ted Sanders",
-      "link": "https://simonwillison.net/2026/Oct/28/ted-sanders/",
-      "source": "Simon Willison",
-      "category": "Agents",
-      "summary": "In general, LLM performance is incredibly multidimensional. There's no guarantee of a fixed ordering where the model that is best at math is also the model that's best at jokes. Despite that complexity, much of the vari…",
-      "ts": 1793229801,
-      "published": "2026-10-28T23:23:21+00:00",
-      "collected_at": "2026-10-29T09:11:01+09:00"
-    },
-    {
-      "title": "Claude Code found 145K photos I deleted from my iPhone sitting in a hidden cache",
-      "link": "https://twitter.com/coolerwave/status/2114088769112477849",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "Article URL: https://twitter.com/coolerwave/status/2114088769112477849 Comments URL: https://news.ycombinator.com/item?id=50281902 Points: 21 # Comments: 0",
-      "ts": 1793226870,
-      "published": "2026-10-28T22:34:30+00:00",
-      "collected_at": "2026-10-29T07:59:55+09:00"
     }
   ]
 }
