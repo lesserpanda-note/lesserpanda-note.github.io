@@ -1,7 +1,77 @@
 {
-  "updated": "2026-11-28T12:59:17+09:00",
-  "count": 1230,
+  "updated": "2026-11-28T22:12:44+09:00",
+  "count": 1220,
   "items": [
+    {
+      "title": "How to Test LLM State Tracking With a StateBench-Style Deployment Log",
+      "link": "https://towardsdatascience.com/how-to-test-llm-state-tracking-with-a-statebench-style-deployment-log/",
+      "source": "Towards Data Science",
+      "category": "AI",
+      "summary": "Nine promotion histories, a Python replay, and a four-variant prompt with an UNKNOWN option show whether a release assistant tracks state or just reads the last line. The post How to Test LLM State Tracking With a State…",
+      "ts": 1795870800,
+      "published": "2026-11-28T13:00:00+00:00",
+      "collected_at": "2026-11-28T22:11:59+09:00"
+    },
+    {
+      "title": "Quiz: What Are Python Asterisk and Slash Special Parameters For?",
+      "link": "https://realpython.com/quizzes/python-asterisk-and-slash-special-parameters/",
+      "source": "Real Python",
+      "category": "Python",
+      "summary": "Test your understanding of how Python's asterisk and slash special parameters control positional-only and keyword-only arguments.",
+      "ts": 1795867200,
+      "published": "2026-11-28T12:00:00+00:00",
+      "collected_at": "2026-11-28T22:11:59+09:00"
+    },
+    {
+      "title": "Anthropic Introduces Claude Ship to Review, Fix, and Approve Pull Requests by Policy",
+      "link": "https://www.infoq.com/news/2026/11/anthropic-claude-ship/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Anthropic has introduced Claude Ship, a set of agents that can review GitHub pull requests, push fixes, and approve the changes a team's policy allows, on Claude Team and Enterprise plans. By Daniel Dominguez",
+      "ts": 1795860480,
+      "published": "2026-11-28T10:08:00+00:00",
+      "collected_at": "2026-11-28T22:11:59+09:00"
+    },
+    {
+      "title": "AWS Introduces Centralized Workforce Access to IAM Roles Across Accounts",
+      "link": "https://www.infoq.com/news/2026/11/aws-centralized-workforce-access/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "AWS recently introduced Account Access Manager to centrally assign workforce users and groups to existing IAM roles across an organization, preserving custom trust policies and ABAC configurations while improving indivi…",
+      "ts": 1795852620,
+      "published": "2026-11-28T07:57:00+00:00",
+      "collected_at": "2026-11-28T22:11:59+09:00"
+    },
+    {
+      "title": "Azure AI Gateway Reaches General Availability as a Standalone Service",
+      "link": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
+      "source": "InfoQ AI/ML",
+      "category": "AI",
+      "summary": "Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway per month; paid bill…",
+      "ts": 1795848420,
+      "published": "2026-11-28T06:47:00+00:00",
+      "collected_at": "2026-11-28T22:11:59+09:00"
+    },
+    {
+      "title": "Azure AI Gateway Reaches General Availability as a Standalone Service",
+      "link": "https://www.infoq.com/news/2026/11/azure-ai-gateway-ga/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
+      "source": "InfoQ Architecture",
+      "category": "Architecture",
+      "summary": "Microsoft has made Azure AI Gateway generally available as a standalone Azure service for governing access to AI models and MCP tools across providers. A free tier covers 10,000 requests per gateway per month; paid bill…",
+      "ts": 1795848420,
+      "published": "2026-11-28T06:47:00+00:00",
+      "collected_at": "2026-11-28T22:11:59+09:00"
+    },
+    {
+      "title": "54% faster LLM token generation by removing the Linux OS and llama.cpp",
+      "link": "https://twitter.com/superalesha/status/2125682626056839259",
+      "source": "Hacker News",
+      "category": "AI",
+      "summary": "Article URL: https://twitter.com/superalesha/status/2125682626056839259 Comments URL: https://news.ycombinator.com/item?id=50675022 Points: 12 # Comments: 3",
+      "ts": 1795843851,
+      "published": "2026-11-28T05:30:51+00:00",
+      "collected_at": "2026-11-28T22:11:59+09:00"
+    },
     {
       "title": "[AINews] Inside the exploding Coding Data Market",
       "link": "https://latent.space/p/ainews-inside-the-exploding-coding-data-market/",
@@ -12131,176 +12201,6 @@
       "ts": 1793280336,
       "published": "2026-10-29T13:25:36+00:00",
       "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-      "link": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
-      "source": "Cloudflare",
-      "category": "Architecture",
-      "summary": "Cloudflare mitigated over 8,200 DDoS attacks per hour in Q3 2026 as attackers shifted to shorter, high-frequency strikes. Explore the latest threat data, including the collapse of CLDAP vectors and the impact of recent…",
-      "ts": 1793278500,
-      "published": "2026-10-29T12:55:00+00:00",
-      "collected_at": "2026-11-20T20:24:41+09:00"
-    },
-    {
-      "title": "Quiz: Learn With Mentor AI: A Guided Journey Through Async Python",
-      "link": "https://realpython.com/quizzes/learn-with-mentor-ai-async-python/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Practice learning async Python with Mentor AI. Check how coroutines, await, and the event loop work, and how to steer your mentor.",
-      "ts": 1793275200,
-      "published": "2026-10-29T12:00:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "Quiz: Dictionaries and Arrays: Selecting the Ideal Data Structure",
-      "link": "https://realpython.com/quizzes/dicts-arrays-ideal-data-structure/",
-      "source": "Real Python",
-      "category": "Python",
-      "summary": "Test your understanding of Python dictionaries and arrays, from dict, defaultdict, and ChainMap to lists, typed arrays, and bytearray.",
-      "ts": 1793275200,
-      "published": "2026-10-29T12:00:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "5 Docker Containers You Need for a Home AI Lab",
-      "link": "https://www.kdnuggets.com/5-docker-containers-you-need-for-a-home-ai-lab",
-      "source": "KDnuggets",
-      "category": "DataScience",
-      "summary": "Learn which five Docker containers make a reliable home AI lab, from Ollama and Open WebUI to Qdrant, n8n and Portainer CE, what job each one does, and the first mistake to avoid with each.",
-      "ts": 1793275200,
-      "published": "2026-10-29T12:00:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "How to Make Artificial Intelligence More Environmentally Sustainable",
-      "link": "https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "IT is responsible for about 2 - 4% of all global emissions, and electricity use at Microsoft and Google has climbed because of AI, according to their own reports. Sustainability ought to be a top-level architectural con…",
-      "ts": 1793274060,
-      "published": "2026-10-29T11:41:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "QCon AI New York 2026 Program Committee Picks: Agent Identity, Context Costs, and Open-Source Infere",
-      "link": "https://www.infoq.com/news/2026/10/qcon-ai-newyork-2026-pc-picks/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Who authorizes an agent’s actions, and how should teams manage growing context costs? The QCon AI New York 2026 program committee shares six session picks that tackle these questions, alongside open-source inference, ag…",
-      "ts": 1793271600,
-      "published": "2026-10-29T11:00:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "What Is Harness Engineering? A Hands-On Introduction",
-      "link": "https://towardsdatascience.com/what-is-harness-engineering-a-hands-on-introduction/",
-      "source": "Towards Data Science",
-      "category": "DataScience",
-      "summary": "Learn three essential primitives of harness engineering to future-proof your career The post What Is Harness Engineering? A Hands-On Introduction appeared first on Towards Data Science .",
-      "ts": 1793271600,
-      "published": "2026-10-29T11:00:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "We urgently need to monitor AI agents’ actions in real time",
-      "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
-      "source": "MIT Tech Review",
-      "category": "AI",
-      "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be grad…",
-      "ts": 1793268672,
-      "published": "2026-10-29T10:11:12+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
-      "link": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents a pull request that…",
-      "ts": 1793267880,
-      "published": "2026-10-29T09:58:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "Anthropic Says Nobody Needs a Mental Model of Claude Code. Practitioners Are Testing That",
-      "link": "https://www.infoq.com/news/2026/10/anthropic-code-review/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=Architecture+%26+Design",
-      "source": "InfoQ Architecture",
-      "category": "Architecture",
-      "summary": "Anthropic has published how the Claude Code team reviews code now that Claude writes roughly 90% of it, including a claim that nobody keeps a complete mental model of the codebase. The post documents a pull request that…",
-      "ts": 1793267880,
-      "published": "2026-10-29T09:58:00+00:00",
-      "collected_at": "2026-10-30T01:45:32+09:00"
-    },
-    {
-      "title": "Tell HN: Claude Code adds your email to the prompt, the LLM sends it to websites",
-      "link": "https://news.ycombinator.com/item?id=50286306",
-      "source": "Hacker News",
-      "category": "Agents",
-      "summary": "The prompt issue: https://github.com/anthropics/claude-code/issues/81138 The LLM sends it to websites: https://www.reddit.com/r/ClaudeCode/comments/1xhqvzn/opus_55_just_shared_my_email_address/ Comments URL: https://new…",
-      "ts": 1793264772,
-      "published": "2026-10-29T09:06:12+00:00",
-      "collected_at": "2026-10-30T04:26:20+09:00"
-    },
-    {
-      "title": "How we detect frontier model misalignment",
-      "link": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "ts": 1793264400,
-      "published": "2026-10-29T09:00:00+00:00",
-      "collected_at": "2026-10-30T04:26:20+09:00"
-    },
-    {
-      "title": "Patch release v5.21.1",
-      "link": "https://github.com/huggingface/transformers/releases/tag/v5.21.1",
-      "source": "Transformers",
-      "category": "AI",
-      "summary": "Patch release v5.21.1 ** Fix rope_scaling setter for configs that assign it during init ( #50080 ) We broke remote code loading in vllm, this fixes it sorry everyone!",
-      "ts": 1793262902,
-      "published": "2026-10-29T08:35:02+00:00",
-      "collected_at": "2026-10-29T18:38:22+09:00"
-    },
-    {
-      "title": "1.15.33",
-      "link": "https://github.com/crewAIInc/crewAI/releases/tag/1.15.33",
-      "source": "CrewAI",
-      "category": "Agents",
-      "summary": "What's Changed Features Add crewai skill search to list the organization's skills Pass crewai run --inputs to a Python flow Add deploy create --zip and print the commit a zip is built from Bug Fixes Report token usage f…",
-      "ts": 1793259384,
-      "published": "2026-10-29T07:36:24+00:00",
-      "collected_at": "2026-11-04T07:14:58+09:00"
-    },
-    {
-      "title": "Cloudflare Introduces Web Search API for AI Applications",
-      "link": "https://www.infoq.com/news/2026/10/cloudflare-web-search-api/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=AI%2C+ML+%26+Data+Engineering",
-      "source": "InfoQ AI/ML",
-      "category": "AI",
-      "summary": "Cloudflare has recently launched a beta Web Search API through AI Gateway. Available through REST APIs and Cloudflare Workers, it provides unified logging, access controls, and billing, and supports bring-your-own-provi…",
-      "ts": 1793258040,
-      "published": "2026-10-29T07:14:00+00:00",
-      "collected_at": "2026-10-29T18:38:22+09:00"
-    },
-    {
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "link": "https://openai.com/index/ropes-gray-ai-diligence",
-      "source": "OpenAI",
-      "category": "AI",
-      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "ts": 1793257200,
-      "published": "2026-10-29T07:00:00+00:00",
-      "collected_at": "2026-10-30T04:26:20+09:00"
-    },
-    {
-      "title": "[AINews] Gemini 4 Carbon tops leaderboards, launches for cyber defenders",
-      "link": "https://latent.space/p/ainews-gemini-4-carbon/",
-      "source": "Latent Space",
-      "category": "Agents",
-      "summary": "Google’s new frontier model leads independent evals, with access initially limited to trusted defenders.",
-      "ts": 1793253319,
-      "published": "2026-10-29T05:55:19+00:00",
-      "collected_at": "2026-10-29T18:38:22+09:00"
     }
   ]
 }
